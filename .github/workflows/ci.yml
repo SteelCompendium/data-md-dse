@@ -7,6 +7,9 @@ on:
       - patron
       - main
 
+permissions:
+  contents: write  # Grant write permissions to the contents scope
+
 jobs:
   build_and_release:
     runs-on: ubuntu-latest
