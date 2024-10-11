@@ -5,6 +5,7 @@ on:
     branches:
       - backer
       - patron
+      - main
 
 jobs:
   build_and_release:
@@ -23,7 +24,7 @@ jobs:
         id: tag_name
         run: |
           TAG_NAME=$(date +%Y%m%d%H%M%S)
-          echo "tag=v1.0.$TAG_NAME" >> $GITHUB_OUTPUT
+          echo "tag=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}.$TAG_NAME" >> $GITHUB_OUTPUT
 
       - name: Create GitHub Release
         uses: ncipollo/release-action@v1
