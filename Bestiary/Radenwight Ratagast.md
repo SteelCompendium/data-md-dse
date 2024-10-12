@@ -1,5 +1,3 @@
-# Radenwight Ratagast
-
 ~~~ds-statblock
 name: Radenwight Ratagast
 ancestry:

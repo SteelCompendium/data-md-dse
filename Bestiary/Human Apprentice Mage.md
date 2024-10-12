@@ -1,5 +1,3 @@
-# Human Apprentice Mage
-
 ~~~ds-statblock
 name: Human Apprentice Mage
 ancestry:

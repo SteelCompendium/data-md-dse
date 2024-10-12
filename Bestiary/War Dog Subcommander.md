@@ -1,5 +1,3 @@
-# War Dog Subcommander
-
 ~~~ds-statblock
 name: War Dog Subcommander
 ancestry:

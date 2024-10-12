@@ -1,5 +1,3 @@
-# Goblin Stinker
-
 ~~~ds-statblock
 name: Goblin Stinker
 ancestry:

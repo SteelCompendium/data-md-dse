@@ -1,5 +1,3 @@
-# Human Trickshot
-
 ~~~ds-statblock
 name: Human Trickshot
 ancestry:

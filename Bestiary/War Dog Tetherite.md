@@ -1,5 +1,3 @@
-# War Dog Tetherite
-
 ~~~ds-statblock
 name: War Dog Tetherite
 ancestry:

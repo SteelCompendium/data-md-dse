@@ -1,5 +1,3 @@
-# Human Raider
-
 ~~~ds-statblock
 name: Human Raider
 ancestry:

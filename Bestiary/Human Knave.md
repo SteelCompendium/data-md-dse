@@ -1,5 +1,3 @@
-# Human Knave
-
 ~~~ds-statblock
 name: Human Knave
 ancestry:

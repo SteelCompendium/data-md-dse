@@ -1,5 +1,3 @@
-# Time Raider Cannonfall
-
 ~~~ds-statblock
 name: Time Raider Cannonfall
 ancestry:

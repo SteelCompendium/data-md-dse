@@ -1,5 +1,3 @@
-# Human Blackguard
-
 ~~~ds-statblock
 name: Human Blackguard
 ancestry:

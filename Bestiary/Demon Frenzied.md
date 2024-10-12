@@ -1,5 +1,3 @@
-# Demon Frenzied
-
 ~~~ds-statblock
 name: Demon Frenzied
 ancestry:

@@ -1,5 +1,3 @@
-# Demon Ruinant
-
 ~~~ds-statblock
 name: Demon Ruinant
 ancestry:

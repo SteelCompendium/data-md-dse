@@ -1,5 +1,3 @@
-# Demon Pitling
-
 ~~~ds-statblock
 name: Demon Pitling
 ancestry:

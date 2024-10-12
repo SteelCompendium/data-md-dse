@@ -1,5 +1,3 @@
-# Goblin Cursespitter
-
 ~~~ds-statblock
 name: Goblin Cursespitter
 ancestry:

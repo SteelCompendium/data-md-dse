@@ -1,5 +1,3 @@
-# Goblin Spinecleaver
-
 ~~~ds-statblock
 name: Goblin Spinecleaver
 ancestry:

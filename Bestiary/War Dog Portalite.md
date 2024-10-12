@@ -1,5 +1,3 @@
-# War Dog Portalite
-
 ~~~ds-statblock
 name: War Dog Portalite
 ancestry:

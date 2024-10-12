@@ -1,5 +1,3 @@
-# Human Death Cultist
-
 ~~~ds-statblock
 name: Human Death Cultist
 ancestry:

@@ -1,5 +1,3 @@
-# Radenwight Bruxer
-
 ~~~ds-statblock
 name: Radenwight Bruxer
 ancestry:

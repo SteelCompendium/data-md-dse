@@ -1,5 +1,3 @@
-# Time Raider Armiger
-
 ~~~ds-statblock
 name: Time Raider Armiger
 ancestry:

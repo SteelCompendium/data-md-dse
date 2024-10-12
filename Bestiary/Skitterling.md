@@ -1,5 +1,3 @@
-# Skitterling
-
 ~~~ds-statblock
 name: Skitterling
 ancestry:

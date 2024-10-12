@@ -1,5 +1,3 @@
-# War Dog Phosphorite
-
 ~~~ds-statblock
 name: War Dog Phosphorite
 ancestry:

@@ -1,5 +1,3 @@
-# War Dog Eviscerite
-
 ~~~ds-statblock
 name: War Dog Eviscerite
 ancestry:

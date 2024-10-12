@@ -1,5 +1,3 @@
-# Human Archer
-
 ~~~ds-statblock
 name: Human Archer
 ancestry:

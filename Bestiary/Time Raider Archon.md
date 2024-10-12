@@ -1,5 +1,3 @@
-# Time Raider Archon
-
 ~~~ds-statblock
 name: Time Raider Archon
 ancestry:

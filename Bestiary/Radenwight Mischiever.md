@@ -1,5 +1,3 @@
-# Radenwight Mischiever
-
 ~~~ds-statblock
 name: Radenwight Mischiever
 ancestry:

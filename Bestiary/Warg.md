@@ -1,5 +1,3 @@
-# Warg
-
 ~~~ds-statblock
 name: Warg
 ancestry:

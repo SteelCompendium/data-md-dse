@@ -1,5 +1,3 @@
-# War Dog Sharpshooter
-
 ~~~ds-statblock
 name: War Dog Sharpshooter
 ancestry:

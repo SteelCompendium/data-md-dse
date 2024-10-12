@@ -1,5 +1,3 @@
-# Time Raider Tyrannis
-
 ~~~ds-statblock
 name: Time Raider Tyrannis
 ancestry:

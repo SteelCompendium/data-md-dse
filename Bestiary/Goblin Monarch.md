@@ -1,5 +1,3 @@
-# Goblin Monarch
-
 ~~~ds-statblock
 name: Goblin Monarch
 ancestry:

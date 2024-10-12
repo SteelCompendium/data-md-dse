@@ -1,5 +1,3 @@
-# Radenwight Redeye
-
 ~~~ds-statblock
 name: Radenwight Redeye
 ancestry:

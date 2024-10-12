@@ -1,5 +1,3 @@
-# Goblin Underboss
-
 ~~~ds-statblock
 name: Goblin Underboss
 ancestry:

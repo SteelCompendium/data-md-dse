@@ -1,5 +1,3 @@
-# War Dog Amalgamite
-
 ~~~ds-statblock
 name: War Dog Amalgamite
 ancestry:

@@ -1,5 +1,3 @@
-# Giant Hawk
-
 ~~~ds-statblock
 name: Giant Hawk
 ancestry:

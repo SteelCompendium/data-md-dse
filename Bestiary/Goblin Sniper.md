@@ -1,5 +1,3 @@
-# Goblin Sniper
-
 ~~~ds-statblock
 name: Goblin Sniper
 ancestry:

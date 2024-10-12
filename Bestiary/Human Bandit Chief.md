@@ -1,5 +1,3 @@
-# Human Bandit Chief
-
 ~~~ds-statblock
 name: Human Bandit Chief
 ancestry:

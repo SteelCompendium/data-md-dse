@@ -1,5 +1,3 @@
-# Time Raider Hijack
-
 ~~~ds-statblock
 name: Time Raider Hijack
 ancestry:

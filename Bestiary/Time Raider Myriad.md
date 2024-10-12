@@ -1,5 +1,3 @@
-# Time Raider Myriad
-
 ~~~ds-statblock
 name: Time Raider Myriad
 ancestry:

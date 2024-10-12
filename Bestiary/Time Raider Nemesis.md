@@ -1,5 +1,3 @@
-# Time Raider Nemesis
-
 ~~~ds-statblock
 name: Time Raider Nemesis
 ancestry:

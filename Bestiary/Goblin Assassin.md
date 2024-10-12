@@ -1,5 +1,3 @@
-# Goblin Assassin
-
 ~~~ds-statblock
 name: Goblin Assassin
 ancestry:

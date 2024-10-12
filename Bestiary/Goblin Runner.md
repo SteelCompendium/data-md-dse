@@ -1,5 +1,3 @@
-# Goblin Runner
-
 ~~~ds-statblock
 name: Goblin Runner
 ancestry:

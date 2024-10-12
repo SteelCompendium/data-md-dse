@@ -1,5 +1,3 @@
-# War Spider
-
 ~~~ds-statblock
 name: War Spider
 ancestry:

@@ -1,5 +1,3 @@
-# War Dog Commando
-
 ~~~ds-statblock
 name: War Dog Commando
 ancestry:

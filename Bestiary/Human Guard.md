@@ -1,5 +1,3 @@
-# Human Guard
-
 ~~~ds-statblock
 name: Human Guard
 ancestry:

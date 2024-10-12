@@ -1,5 +1,3 @@
-# Radenwight Maestro
-
 ~~~ds-statblock
 name: Radenwight Maestro
 ancestry:

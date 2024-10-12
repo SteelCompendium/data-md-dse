@@ -1,5 +1,3 @@
-# Time Raider Mind Punk
-
 ~~~ds-statblock
 name: Time Raider Mind Punk
 ancestry:

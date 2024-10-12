@@ -1,5 +1,3 @@
-# Demon Muceron
-
 ~~~ds-statblock
 name: Demon Muceron
 ancestry:

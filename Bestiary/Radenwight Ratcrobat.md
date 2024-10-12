@@ -1,5 +1,3 @@
-# Radenwight Ratcrobat
-
 ~~~ds-statblock
 name: Radenwight Ratcrobat
 ancestry:

@@ -1,5 +1,3 @@
-# Demon Torlas
-
 ~~~ds-statblock
 name: Demon Torlas
 ancestry:

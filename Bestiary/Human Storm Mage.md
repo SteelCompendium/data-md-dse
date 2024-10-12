@@ -1,5 +1,3 @@
-# Human Storm Mage
-
 ~~~ds-statblock
 name: Human Storm Mage
 ancestry:

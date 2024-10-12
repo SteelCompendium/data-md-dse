@@ -1,5 +1,3 @@
-# Demon Ensnarer
-
 ~~~ds-statblock
 name: Demon Ensnarer
 ancestry:

@@ -1,5 +1,3 @@
-# Demon Bendrak
-
 ~~~ds-statblock
 name: Demon Bendrak
 ancestry:

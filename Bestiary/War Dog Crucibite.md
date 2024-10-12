@@ -1,5 +1,3 @@
-# War Dog Crucibite
-
 ~~~ds-statblock
 name: War Dog Crucibite
 ancestry:

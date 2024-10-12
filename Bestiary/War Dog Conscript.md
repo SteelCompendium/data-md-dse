@@ -1,5 +1,3 @@
-# War Dog Conscript
-
 ~~~ds-statblock
 name: War Dog Conscript
 ancestry:

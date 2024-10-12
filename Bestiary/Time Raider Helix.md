@@ -1,5 +1,3 @@
-# Time Raider Helix
-
 ~~~ds-statblock
 name: Time Raider Helix
 ancestry:

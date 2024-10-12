@@ -1,5 +1,3 @@
-# Demon Remasch
-
 ~~~ds-statblock
 name: Demon Remasch
 ancestry:

@@ -1,5 +1,3 @@
-# Siege Hawk
-
 ~~~ds-statblock
 name: Siege Hawk
 ancestry:

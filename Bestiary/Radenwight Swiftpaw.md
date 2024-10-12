@@ -1,5 +1,3 @@
-# Radenwight Swiftpaw
-
 ~~~ds-statblock
 name: Radenwight Swiftpaw
 ancestry:

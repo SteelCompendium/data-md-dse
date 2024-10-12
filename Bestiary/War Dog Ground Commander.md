@@ -1,5 +1,3 @@
-# War Dog Ground Commander
-
 ~~~ds-statblock
 name: War Dog Ground Commander
 ancestry:

@@ -1,5 +1,3 @@
-# Human Death Acolyte
-
 ~~~ds-statblock
 name: Human Death Acolyte
 ancestry:

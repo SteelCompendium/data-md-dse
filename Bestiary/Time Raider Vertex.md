@@ -1,5 +1,3 @@
-# Time Raider Vertex
-
 ~~~ds-statblock
 name: Time Raider Vertex
 ancestry:

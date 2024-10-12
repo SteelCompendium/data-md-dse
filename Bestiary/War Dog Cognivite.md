@@ -1,5 +1,3 @@
-# War Dog Cognivite
-
 ~~~ds-statblock
 name: War Dog Cognivite
 ancestry:

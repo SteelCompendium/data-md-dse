@@ -1,5 +1,3 @@
-# War Dog Pestilite
-
 ~~~ds-statblock
 name: War Dog Pestilite
 ancestry:

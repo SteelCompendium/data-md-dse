@@ -1,5 +1,3 @@
-# Human Scoundrel
-
 ~~~ds-statblock
 name: Human Scoundrel
 ancestry:

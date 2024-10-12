@@ -1,5 +1,3 @@
-# Human Brawler
-
 ~~~ds-statblock
 name: Human Brawler
 ancestry:

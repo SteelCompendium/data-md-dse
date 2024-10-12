@@ -1,5 +1,3 @@
-# Goblin Warrior
-
 ~~~ds-statblock
 name: Goblin Warrior
 ancestry:

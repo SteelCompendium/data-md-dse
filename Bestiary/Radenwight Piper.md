@@ -1,5 +1,3 @@
-# Radenwight Piper
-
 ~~~ds-statblock
 name: Radenwight Piper
 ancestry:

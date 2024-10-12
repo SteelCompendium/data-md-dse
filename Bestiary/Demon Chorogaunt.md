@@ -1,5 +1,3 @@
-# Demon Chorogaunt
-
 ~~~ds-statblock
 name: Demon Chorogaunt
 ancestry:
