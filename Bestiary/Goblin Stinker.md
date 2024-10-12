@@ -33,6 +33,9 @@ abilities:
   - Ranged
   distance: 3 cube within 10
   target: Each enemy
+  t1: 1 poison damage; slide 1
+  t2: 2 poison damage; slide 2
+  t3: 3 poison damage; slide 3
 - name: Swamp Gas
   type: Maneuver
   keywords:

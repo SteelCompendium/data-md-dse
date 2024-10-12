@@ -28,6 +28,9 @@ abilities:
   type: Action
   roll: 2d10 + 2
   cost: Signature
+  t1: 4 corruption damage; push 2
+  t2: 7 corruption damage; push 4
+  t3: '10 corruption damage; push 6; prone '
 - name: Kinetic Lane
   type: Maneuver
 

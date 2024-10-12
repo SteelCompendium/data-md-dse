@@ -38,6 +38,9 @@ abilities:
   - Weapon
   distance: Reach 1
   target: One creature or object
+  t1: 4 poison damage
+  t2: 7 poison damage; weakened (EoT)
+  t3: '10 poison damage; weakened (MGT ends) '
 - name: Leg Blade
   type: Action
   keywords:
@@ -46,6 +49,9 @@ abilities:
   - Weapon
   distance: Reach 1
   target: Two creatures or objects
+  t1: 4 damage
+  t2: 7 damage
+  t3: '10 damage '
 - name: Trample
   type: Action
   keywords:
@@ -64,5 +70,8 @@ abilities:
   - Resistance
   distance: 3 cube within 1
   target: Each creature
+  t3: Restrained (AGL ends)
+  t2: Restrained (EoT)
+  t1: 'No effect '
 
 ~~~

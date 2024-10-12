@@ -36,6 +36,9 @@ abilities:
   - Weapon
   distance: Reach 1 or Ranged 5
   target: One creature or object per minion
+  t1: 2 damage
+  t2: 4 damage
+  t3: 5 damage
   effect: If this ability is used as part of the Charge action, the raider can make
     a ranged free strike with a distance of 5 before using the ability.
 

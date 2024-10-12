@@ -37,6 +37,9 @@ abilities:
   - Ranged
   distance: Ranged 10
   target: One creature or object
+  t1: 5 lightning damage
+  t2: 8 lightning damage
+  t3: 11 lightning damage
 - name: Gust of Wind
   type: Maneuver
   roll: MGT RR
@@ -47,6 +50,9 @@ abilities:
   - Resistance
   distance: 5 cube within 1
   target: Each creature and object
+  t3: Slide 5; slowed (MGT ends)
+  t2: Slide 3; slowed (EoT)
+  t1: Slide 1
   effect: 'The gust of wind disperses gas or vapor and extinguishes any flames, including
     persistent effects. '
 

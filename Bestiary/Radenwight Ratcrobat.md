@@ -33,6 +33,9 @@ abilities:
   - Weapon
   distance: Reach 1
   target: Two creatures or objects
+  t1: 2 damage
+  t2: 5 damage
+  t3: 6 damage
   effect: 'The ratcrobat can shift up to 2 squares after attacking the first target,
     then can shift 1 square after attacking the second target. '
 - name: Over Here, Thanks

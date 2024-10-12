@@ -32,6 +32,9 @@ abilities:
   - Weapon
   distance: Ranged 10
   target: One creature or object per minion
+  t1: 2 damage
+  t2: 5 damage
+  t3: 6 damage
   effect: 'An ally of the redeye within 2 squares of the target can shift up to 2
     squares. '
 - name: Ready Rodent

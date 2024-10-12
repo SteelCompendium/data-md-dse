@@ -34,6 +34,9 @@ abilities:
   - Ranged
   distance: Ranged 10
   target: One creature or object per minion
+  t1: 2 corruption damage
+  t2: 4 corruption damage
+  t3: 5 corruption damage
   effect: A creature within 5 squares of the death acolyte regains 1 Stamina.
 
 ~~~

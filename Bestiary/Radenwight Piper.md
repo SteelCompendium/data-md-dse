@@ -32,6 +32,9 @@ abilities:
   - Ranged
   distance: Reach 1 or Ranged 10
   target: One creature or object
+  t1: 3 sonic damage; push 1
+  t2: 5 sonic damage; push 3
+  t3: 7 sonic damage; push 4
   effect: 'The piper or an ally within distance regains stamina equal to half the
     damage dealt. '
 - name: Vivace Vivace!

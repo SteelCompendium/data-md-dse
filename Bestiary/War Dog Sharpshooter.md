@@ -29,5 +29,8 @@ abilities:
   type: Action
   roll: 2d10 + 1
   cost: Signature
+  t1: 2 damage
+  t2: 3 damage
+  t3: 4 damage
 
 ~~~

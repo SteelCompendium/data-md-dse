@@ -36,6 +36,9 @@ abilities:
   - Weapon
   distance: Reach 1 or Ranged 5
   target: One creature or object
+  t1: 4 damage; taunted (EoT)
+  t2: 7 damage; taunted (EoT)
+  t3: 10 damage; taunted (EoT)
   effect: 'If an adjacent target taunted by this ability harms a creature other than
     the knave, the knave can make a free strike against the taunted creature as a
     free triggered action. '

@@ -32,6 +32,9 @@ abilities:
   - Weapon
   distance: Reach 1
   target: One creature or object
+  t1: 2 damage
+  t2: 5 damage
+  t3: 6 damage
   effect: 'One ally of the underboss adjacent to the target can make a free strike
     against them. '
 - name: Get Reckless!

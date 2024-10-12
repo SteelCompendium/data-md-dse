@@ -36,6 +36,9 @@ abilities:
   - Weapon
   distance: Reach 1
   target: One creature or object
+  t1: 3 damage
+  t2: 5 damage
+  t3: 7 damage
   effect: 'If the assassin has an edge or a double edge on the power roll for this
     ability, the ability deals an additional 2 damage. '
 - name: Shadow Chains
@@ -48,5 +51,8 @@ abilities:
   - Resistance
   distance: Ranged 10
   target: Three creatures
+  t3: 7 corruption damage; restrained (AGL ends)
+  t2: 5 corruption damage; restrained (EoT)
+  t1: '3 corruption damage '
 
 ~~~

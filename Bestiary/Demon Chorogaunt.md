@@ -38,6 +38,9 @@ abilities:
   - Weapon
   distance: 5 burst
   target: Each enemy
+  t1: 3 psychic damage
+  t2: 5 psychic damage; slowed (EoT)
+  t3: 7 psychic damage; slowed (INU ends)
   effect: 'An ally within 10 squares of the chorogaunt can shift up to their speed. '
 - name: Chaotic Entrancing Harmony
   type: Maneuver

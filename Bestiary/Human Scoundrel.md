@@ -33,6 +33,9 @@ abilities:
   - Weapon
   distance: Reach 1
   target: One creature or object
+  t1: 4 damage
+  t2: 7 damage
+  t3: 10 damage
   effect: 'If the scoundrel has an edge or a double edge on the power roll for this
     ability, the ability deals an extra 4 damage. '
 - name: Dagger Storm

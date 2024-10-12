@@ -31,6 +31,9 @@ abilities:
   type: Action
   roll: 2d10 + 3
   cost: Signature
+  t1: 5 corruption damage
+  t2: 9 corruption damage
+  t3: 12 corruption damage
 - name: Air Raid!
   type: Maneuver
 - name: Precog Reflexes

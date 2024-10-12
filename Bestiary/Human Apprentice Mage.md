@@ -34,6 +34,9 @@ abilities:
   - Ranged
   distance: Ranged 10
   target: One creature or object per minion
+  t1: 2 lightning damage
+  t2: 4 lightning damage
+  t3: 5 lightning damage
   effect: If the apprentice mage doesn’t use a maneuver or a move action this turn,
     the target is slowed (EoT).
 

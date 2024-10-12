@@ -33,6 +33,9 @@ abilities:
   - Weapon
   distance: Reach 1
   target: Two creatures or objects
+  t1: 4 damage
+  t2: 7 damage
+  t3: 10 damage
   effect: 'The target is grabbed by the siege hawk. The siege hawk can have two targets
     grabbed at a time. '
 - name: Bombs Away!
@@ -46,6 +49,9 @@ abilities:
   - Resistance
   distance: 5 cube within 10
   target: Each creature and object
+  t3: 7 fire damage; restrained (EoT)
+  t2: 6 fire damage; slowed (EoT)
+  t1: 3 fire damage
   special: 'The siege hawk must be flying to use this ability. '
 - name: Dive
   type: Maneuver

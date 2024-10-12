@@ -36,6 +36,9 @@ abilities:
   - Weapon
   distance: Reach 2
   target: One creature
+  t1: 5 damage; taunted (EoT)
+  t2: 8 damage; taunted (EoT)
+  t3: '11 damage; taunted (EoT) '
 - name: Tongue Pull
   type: Maneuver
   keywords:

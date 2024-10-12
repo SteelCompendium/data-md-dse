@@ -29,5 +29,8 @@ abilities:
   type: Action
   roll: 2d10 + 2
   cost: Signature
+  t1: 2 damage
+  t2: 4 damage
+  t3: '5 damage; dazed (EoT) '
 
 ~~~

@@ -36,6 +36,9 @@ abilities:
   - Weapon
   distance: Reach 1
   target: One creature or object
+  t1: 4 damage; the remasch teleports 2 squares
+  t2: 7 damage; the remasch teleports 3 squares
+  t3: 10 damage; the remasch teleports 5 squares
 - name: Grasping Shadow
   type: Maneuver
   keywords:

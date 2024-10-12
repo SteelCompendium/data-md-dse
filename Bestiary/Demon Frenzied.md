@@ -35,6 +35,9 @@ abilities:
   - Weapon
   distance: Reach 1
   target: One creature or object per minion
+  t1: 2 damage
+  t2: 3 damage
+  t3: '4 damage '
 weakness: Holy 3
 
 ~~~

@@ -37,6 +37,9 @@ abilities:
   - Weapon
   distance: Reach 1
   target: Two enemies or objects
+  t1: 5 damage; pull 1
+  t2: 9 damage; pull 2
+  t3: 12 damage; pull 3
   effect: A target who is adjacent to the bandit chief after the attack is resolved
     takes 9 corruption damage.
 - name: Kneel, Peasant!
@@ -47,6 +50,9 @@ abilities:
   - Weapon
   distance: Reach 1
   target: One enemy or object
+  t1: Push 1
+  t2: Push 2; prone
+  t3: Push 3; prone
 - name: Bloodstones
   type: Triggered Action
   keywords:

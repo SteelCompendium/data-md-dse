@@ -34,6 +34,9 @@ abilities:
   - Weapon
   distance: Ranged 10
   target: One creature or object per minion
+  t1: 2 damage
+  t2: 4 damage
+  t3: 5 damage
   effect: 'If the sniper doesn’t use a maneuver or a move action this turn, the ability
     deals an extra 2 damage. '
 

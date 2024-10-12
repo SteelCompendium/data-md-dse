@@ -34,6 +34,9 @@ abilities:
   - Weapon
   distance: Reach 1
   target: One creature or object
+  t1: 2 damage
+  t2: 5 damage
+  t3: '6 damage '
 - name: Bury the Point
   type: Action
   roll: 2d10 + 1
@@ -44,5 +47,8 @@ abilities:
   - Weapon
   distance: Reach 1
   target: One creature
+  t1: 3 damage
+  t2: 7 damage; bleeding (EoT)
+  t3: '8 damage; bleeding (MGT ends) '
 
 ~~~

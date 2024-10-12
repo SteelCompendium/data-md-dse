@@ -34,5 +34,8 @@ abilities:
   - Weapon
   distance: Reach 2
   target: One creature or object per minion
+  t1: 2 damage
+  t2: 5 damage
+  t3: 6 damage
 
 ~~~

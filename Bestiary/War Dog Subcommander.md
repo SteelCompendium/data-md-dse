@@ -30,6 +30,9 @@ abilities:
   type: Action
   roll: 2d10 + 1
   cost: Signature
+  t1: 3 damage
+  t2: 5 damage
+  t3: 7 damage
 - name: Posthumous Promotion
   type: Maneuver
 

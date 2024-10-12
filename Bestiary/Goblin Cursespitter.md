@@ -33,6 +33,9 @@ abilities:
   - Resistance
   distance: Ranged 10
   target: One creature
+  t3: 6 corruption damage; weakened (INU ends)
+  t2: 5 corruption damage; weakened (EoT)
+  t1: '2 corruption damage '
 - name: Dizzying Hex
   type: Maneuver
   roll: INU RR
@@ -43,5 +46,8 @@ abilities:
   - Resistance
   distance: Ranged 10
   target: One creature
+  t3: Prone and can’t stand (INU ends)
+  t2: Prone and can’t stand (EoT)
+  t1: 'No effect '
 
 ~~~

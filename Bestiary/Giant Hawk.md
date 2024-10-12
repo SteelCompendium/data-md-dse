@@ -33,6 +33,9 @@ abilities:
   - Weapon
   distance: Reach 1
   target: One creature or object
+  t1: 3 damage
+  t2: 5 damage
+  t3: 7 damage
   effect: 'The target is grabbed by the giant hawk. '
 - name: Dive
   type: Maneuver

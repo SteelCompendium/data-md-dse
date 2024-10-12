@@ -36,6 +36,9 @@ abilities:
   - Weapon
   distance: Reach 1
   target: Two creatures or objects
+  t1: 2 damage
+  t2: 5 damage; bleeding (EoT)
+  t3: '6 damage; bleeding (EoT) '
 - name: Salt Wounds
   type: Maneuver
   roll: MGT RR
@@ -46,6 +49,9 @@ abilities:
   - Resistance
   distance: Ranged 10
   target: Three creatures without full Stamina
+  t3: 6 corruption damage
+  t2: 5 corruption damage
+  t1: '2 corruption damage '
 weakness: Holy 3
 
 ~~~

@@ -37,6 +37,9 @@ abilities:
   - Weapon
   distance: Ranged 10
   target: One creature or object per minion
+  t1: 2 poison damage
+  t2: 3 poison damage
+  t3: '4 poison damage '
 weakness: Holy 3
 
 ~~~

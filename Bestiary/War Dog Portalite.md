@@ -28,6 +28,9 @@ abilities:
   type: Action
   roll: 2d10 + 1
   cost: Signature
+  t1: 3 damage; slide 1
+  t2: 5 damage; slide 2
+  t3: 7 damage; slide 3
 - name: Posthumous Promotion
   type: Maneuver
 - name: Corrupted Ash Teleport (Maneuver) ◆ 1 VP

@@ -33,6 +33,9 @@ abilities:
   - Magic
   distance: 5 burst
   target: Each enemy
+  t1: 3 sonic damage; slide 1; the maestro can shift 1 square
+  t2: 5 sonic damage; slide 3; the maestro can shift 3 squares
+  t3: 7 sonic damage; slide 5; the maestro can shift 5 squares
   effect: 'Each of the maestro''s allies can use Ready Rodent as a free triggered
     action once before the end of the round. '
 - name: Tempo Change
@@ -43,6 +46,10 @@ abilities:
   - Resistance
   distance: Ranged 10
   target: Two enemies
+  t3: Slowed (MGT ends)
+  t2: Slowed (EoT)
+  t1: 'No effect  5 VP: Each ally of the maestro within distance has their speed increased
+    by 2 until the end of their next turn. '
 - name: Ranged Ready Rodent
   type: Triggered Action
   keywords:

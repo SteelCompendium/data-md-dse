@@ -28,6 +28,9 @@ abilities:
   type: Action
   roll: 2d10 + 2
   cost: Signature
+  t1: 4 sonic damage
+  t2: 8 sonic damage; slowed (EoT)
+  t3: 10 sonic damage; slowed (EoT); prone
 - name: Buss Buffer
   type: Triggered Action
 

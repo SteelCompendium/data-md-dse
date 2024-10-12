@@ -32,6 +32,9 @@ abilities:
   - Weapon
   distance: Reach 1 or Ranged 5
   target: One creature per minion
+  t1: 2 damage
+  t2: 5 damage
+  t3: 6 damage
   effect: 'If the mischiever is hidden when they use this ability, they can target
     two creatures. '
 - name: Ready Rodent

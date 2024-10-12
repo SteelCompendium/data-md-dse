@@ -28,6 +28,9 @@ abilities:
   type: Action
   roll: 2d10 + 2
   cost: Signature
+  t1: 3 damage; 2 psychic damage
+  t2: 5 damage; 3 psychic damage
+  t3: 7 damage; 4 psychic damage
 - name: Split Space
   type: Action
 - name: Invigorated March

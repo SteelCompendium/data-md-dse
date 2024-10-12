@@ -36,6 +36,9 @@ abilities:
   - Weapon
   distance: Reach 1
   target: Each adjacent enemy
+  t1: 4 damage
+  t2: 7 damage; slowed (EoT)
+  t3: 10 damage; slowed (MGT ends)
   effect: An ally within 10 squares of the blackguard can make a free strike.
 - name: You!
   type: Maneuver

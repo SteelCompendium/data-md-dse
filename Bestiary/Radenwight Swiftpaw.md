@@ -32,6 +32,9 @@ abilities:
   - Weapon
   distance: Reach 1
   target: One creature or object per minion
+  t1: 2 damage; slide 1; the swiftpaw can shift 1 square
+  t2: 4 damage; slide 2; the swiftpaw can shift 2 squares
+  t3: '5 damage; slide 3; the swiftpaw can shift 3 squares '
 - name: Ready Rodent
   type: Triggered Action
   keywords:

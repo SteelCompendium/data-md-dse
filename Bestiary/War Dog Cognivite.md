@@ -28,6 +28,9 @@ abilities:
   type: Action
   roll: 2d10 + 1
   cost: Signature
+  t1: 2 psychic damage; vertical slide 1
+  t2: 4 psychic damage; vertical slide 2
+  t3: '5 psychic damage; vertical slide 3 '
 - name: Posthumous Promotion
   type: Maneuver
 - name: The Voice (Maneuver) ◆ 1 VP

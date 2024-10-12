@@ -31,6 +31,9 @@ abilities:
   - Weapon
   distance: Reach 1
   target: One creature or object
+  t1: 5 damage
+  t2: 9 damage; grabbed
+  t3: 12 damage; grabbed
   effect: 'While the target is grabbed, they take 2 damage at the start of each of
     the bruxer’s turns. '
 - name: Flurry of Bites
@@ -42,6 +45,9 @@ abilities:
   - Weapon
   distance: 1 burst
   target: Each enemy
+  t1: 4 damage
+  t2: 8 damage
+  t3: '10 damage; bleeding (EoT) '
 - name: Ready Rodent
   type: Triggered Action
   keywords:

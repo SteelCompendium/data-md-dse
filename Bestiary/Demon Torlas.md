@@ -36,6 +36,9 @@ abilities:
   - Ranged
   distance: 3 cube within 10
   target: Each creature
+  t1: Slide 1
+  t2: Slide 2
+  t3: Slide 3
   effect: 'The area turns into a morass of spongy flesh before the targets are force
     moved. Until the start of the torlas’s next turn, the area is difficult terrain,
     and each creature who moves within the area takes 1 damage for each square moved. '

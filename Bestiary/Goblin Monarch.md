@@ -37,6 +37,9 @@ abilities:
   - Weapon
   distance: Reach 1 or Ranged 5
   target: Two creatures or objects
+  t1: 3 damage
+  t2: 5 damage
+  t3: 7 damage
   effect: 'An ally within 10 squares of the monarch can make a free strike. '
 - name: Get in Here
   type: Maneuver

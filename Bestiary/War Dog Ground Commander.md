@@ -28,6 +28,9 @@ traits:
     adjacent enemy.
 abilities:
 - name: Conditioning Spear (Action) ◆ 2d10 + 2 ◆ Signature
+  t1: 5 damage; pull 1
+  t2: 8 damage; pull 2
+  t3: 11 damage; pull 3
 - name: Highest Posthumous Promotion
   type: Maneuver
 - name: Final Orders

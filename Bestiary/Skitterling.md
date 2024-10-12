@@ -32,5 +32,8 @@ abilities:
   - Weapon
   distance: Reach 1
   target: One creature or object per minion
+  t1: 2 poison damage
+  t2: 3 poison damage; slowed (EoT)
+  t3: 4 poison damage; slowed (EoT)
 
 ~~~
