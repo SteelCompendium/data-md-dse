@@ -8,13 +8,16 @@ roles:
 level: 1
 ev: 9
 stamina: 15
+immunities: []
+weaknesses: []
 speed: 5 (climb)
 size: 1S
 stability: 0
 free_strike: 2
+might: -2
+intuition: 1
 agility: 1
 reason: 0
-intuition: 1
 presence: 0
 traits:
 - name: Crafty

@@ -8,15 +8,16 @@ roles:
 level: 3
 ev: 18
 stamina: 45
-weakness: Holy 3
+immunities: []
+weaknesses: []
 speed: '5'
 size: 1M
 stability: 0
 free_strike: 2
 might: 1
+intuition: 0
 agility: 1
 reason: 0
-intuition: 0
 presence: 1
 traits:
 - name: Lethe
@@ -37,13 +38,13 @@ abilities:
   target: One creature
 - name: Tongue Pull
   type: Maneuver
-  roll: 2 VP
   keywords:
   - Attack
   - Ranged
   - Weapon
   distance: Ranged 5
   target: Three creatures
-  effect: Each target is pulled 3 squares.
+  effect: 'Each target is pulled 3 squares. '
+weakness: Holy 3
 
 ~~~

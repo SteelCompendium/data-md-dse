@@ -11,15 +11,17 @@ stamina: 20
 immunities:
 - Magic 2
 - Psionic 2
+weaknesses: []
 speed: '5'
 size: 1M
 stability: 0
 free_strike: 4
 might: 0
+intuition: 0
 agility: 1
 reason: 0
-intuition: 0
 presence: 0
+traits: []
 abilities:
 - name: Crossbow
   type: Action
@@ -31,5 +33,7 @@ abilities:
   - Weapon
   distance: Ranged 15
   target: One creature or object
+  effect: The trickshot doesn’t take a bane when using this ability in melee or against
+    a target with cover or concealment.
 
 ~~~

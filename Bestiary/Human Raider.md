@@ -12,15 +12,17 @@ stamina: 10
 immunities:
 - Magic 2
 - Psionic 2
+weaknesses: []
 speed: '7'
 size: 1M
 stability: 0
 free_strike: 2
 might: 0
+intuition: 0
 agility: 1
 reason: 0
-intuition: 0
 presence: 0
+traits: []
 abilities:
 - name: Handaxe
   type: Action
@@ -34,5 +36,7 @@ abilities:
   - Weapon
   distance: Reach 1 or Ranged 5
   target: One creature or object per minion
+  effect: If this ability is used as part of the Charge action, the raider can make
+    a ranged free strike with a distance of 5 before using the ability.
 
 ~~~

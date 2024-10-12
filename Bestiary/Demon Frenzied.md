@@ -9,13 +9,17 @@ roles:
 level: 1
 ev: 4
 stamina: 8
-weakness: Holy 3
+immunities: []
+weaknesses: []
 speed: '6'
 size: 1M
 stability: 0
 free_strike: 1
 might: 0
+intuition: -1
 agility: 1
+reason: -1
+presence: -1
 traits:
 - name: Soulsight
   effect: Each creature within 2 squares of the frenzied can’t be hidden from them.
@@ -31,5 +35,6 @@ abilities:
   - Weapon
   distance: Reach 1
   target: One creature or object per minion
+weakness: Holy 3
 
 ~~~

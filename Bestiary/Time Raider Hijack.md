@@ -10,10 +10,16 @@ ev: 20
 stamina: 50
 immunities:
 - Psychic 5
+weaknesses: []
 speed: '6'
 size: 1M
 stability: 0
 free_strike: 5
+might: ''
+intuition: ''
+agility: ''
+reason: ''
+presence: ''
 traits:
 - name: Foresight
   effect: The hijack doesn’t take a bane on attacks against concealed creatures.

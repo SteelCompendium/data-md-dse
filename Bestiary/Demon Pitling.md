@@ -9,12 +9,17 @@ roles:
 level: 1
 ev: 2
 stamina: 4
-weakness: Holy 3
+immunities: []
+weaknesses: []
 speed: 5 (fly)
 size: 1T
 stability: 0
 free_strike: 2
+might: -2
+intuition: -2
 agility: 1
+reason: -2
+presence: -2
 traits:
 - name: Horrid Stench
   effect: Any enemy who has three or more pitlings within 2 squares of them can’t
@@ -32,5 +37,6 @@ abilities:
   - Weapon
   distance: Ranged 10
   target: One creature or object per minion
+weakness: Holy 3
 
 ~~~

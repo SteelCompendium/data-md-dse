@@ -11,14 +11,15 @@ stamina: 50
 immunities:
 - Magic 2
 - Psionic 2
+weaknesses: []
 speed: '5'
 size: 1M
 stability: 0
 free_strike: 4
 might: 1
+intuition: 0
 agility: 0
 reason: 0
-intuition: 0
 presence: 0
 traits:
 - name: Overwhelm
@@ -35,5 +36,8 @@ abilities:
   - Weapon
   distance: Reach 1 or Ranged 5
   target: One creature or object
+  effect: 'If an adjacent target taunted by this ability harms a creature other than
+    the knave, the knave can make a free strike against the taunted creature as a
+    free triggered action. '
 
 ~~~

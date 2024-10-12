@@ -9,14 +9,18 @@ roles:
 level: 1
 ev: 6
 stamina: 10
+immunities: []
+weaknesses: []
 speed: 7 (climb)
 size: 1S
 stability: 0
 free_strike: 2
 might: 0
+intuition: 0
 agility: 1
 reason: 1
-intuition: 0
+presence: -1
+traits: []
 abilities:
 - name: Rapier Flunge
   type: Action

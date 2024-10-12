@@ -8,13 +8,16 @@ roles:
 level: 1
 ev: 38
 stamina: 80
+immunities: []
+weaknesses: []
 speed: 5 (climb)
 size: 1S
 stability: 1
 free_strike: 5
+might: -2
+intuition: 0
 agility: 2
 reason: 0
-intuition: 0
 presence: 2
 traits:
 - name: End Effect
@@ -30,9 +33,10 @@ abilities:
   - Magic
   distance: 5 burst
   target: Each enemy
+  effect: 'Each of the maestro''s allies can use Ready Rodent as a free triggered
+    action once before the end of the round. '
 - name: Tempo Change
   type: Maneuver
-  roll: PRS RR
   keywords:
   - Magic
   - Ranged
@@ -47,7 +51,7 @@ abilities:
   distance: Ranged 10
   target: One creature
   trigger: An ally deals damage to the target.
-  effect: The maestro makes a free strike against the target.
+  effect: 'The maestro makes a free strike against the target. '
 - name: Overture
   type: Villain Action
   cost: 1 VP
@@ -55,7 +59,7 @@ abilities:
   - Area
   distance: 10 burst
   target: Each ally
-  effect: Each target shifts up to their speed or takes the Defend action.
+  effect: 'Each target shifts up to their speed or takes the Defend action. '
 - name: Solo Act
   type: Villain Action
   cost: 2 VP
@@ -63,9 +67,9 @@ abilities:
   - Ranged
   distance: Ranged 15
   target: One creature
-  effect: Until the end of their next turn, the target's stamina can't be reduced
+  effect: 'Until the end of their next turn, the target''s stamina can''t be reduced
     below 1, their speed is doubled, and their next power roll is automatically a
-    tier 3 result.
+    tier 3 result. '
 - name: Rondo of Rat
   type: Villain Action
   cost: 3 VP

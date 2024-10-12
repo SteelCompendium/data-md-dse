@@ -11,14 +11,15 @@ stamina: 40
 immunities:
 - Magic 2
 - Psionic 2
+weaknesses: []
 speed: '5'
 size: 1M
 stability: 0
 free_strike: 4
 might: 1
+intuition: 0
 agility: 0
 reason: 0
-intuition: 0
 presence: 0
 traits:
 - name: Shoot the Hostage
@@ -35,14 +36,15 @@ abilities:
   - Weapon
   distance: Reach 1
   target: One creature or object
+  effect: 'The target takes a bane on attempts to escape the grab, and the brawler
+    gains an edge on attacks against the grabbed target. '
 - name: Throw
   type: Maneuver
-  roll: 1 VP
   keywords:
   - Melee
   distance: Reach 1
   target: One creature grabbed by the brawler
-  effect: The brawler pushes the creature they have grabbed 5 squares. This breaks
-    the grab.
+  effect: 'The brawler pushes the creature they have grabbed 5 squares. This breaks
+    the grab. '
 
 ~~~

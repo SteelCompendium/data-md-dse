@@ -8,13 +8,17 @@ roles:
 level: 1
 ev: 10
 stamina: 20
+immunities: []
+weaknesses: []
 speed: '7'
 size: 1L
 stability: 1
 free_strike: 2
 might: 1
-agility: 1
 intuition: 0
+agility: 1
+reason: -1
+presence: -1
 traits:
 - name: Mounted Charger
   effect: If a warg used as a mount charges, their rider gains an edge on melee attacks
@@ -35,11 +39,10 @@ abilities:
   target: One creature or object
 - name: Sprint
   type: Maneuver
-  roll: 1 VP
   keywords:
   - —
   distance: Self
   target: Self
-  effect: The warg moves up to their speed.
+  effect: 'The warg moves up to their speed. '
 
 ~~~

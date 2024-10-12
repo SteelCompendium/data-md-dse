@@ -11,14 +11,15 @@ stamina: 80
 immunities:
 - Magic 2
 - Psionic 2
+weaknesses: []
 speed: '5'
 size: 1M
 stability: 2
 free_strike: 4
 might: 2
+intuition: 0
 agility: 2
 reason: 2
-intuition: 0
 presence: 2
 traits:
 - name: End Effect
@@ -35,15 +36,16 @@ abilities:
   - Weapon
   distance: Reach 1
   target: Each adjacent enemy
+  effect: An ally within 10 squares of the blackguard can make a free strike.
 - name: You!
   type: Maneuver
   keywords:
   - Ranged
   distance: Ranged 10
   target: One enemy
-  effect: The target is marked until the start of the blackguard’s next turn. The
+  effect: 'The target is marked until the start of the blackguard’s next turn. The
     blackguard and each of their allies gain an edge on attacks against any target
-    marked by the blackguard, and such attacks deal an extra 2 damage.
+    marked by the blackguard, and such attacks deal an extra 2 damage. '
 - name: Parry!
   type: Triggered Action
   keywords:
@@ -53,7 +55,7 @@ abilities:
   target: Self or one ally
   trigger: A creature targets the blackguard or an ally adjacent to the blackguard
     with an attack.
-  effect: The triggering attack’s damage is halved.
+  effect: 'The triggering attack’s damage is halved. '
 - name: Advance!
   type: Villain Action
   cost: 1 VP
@@ -61,8 +63,8 @@ abilities:
   - Weapon
   distance: Self
   target: Self
-  effect: The blackguard shifts up to their speed. During or after this movement,
-    they can make two Zweihander attacks.
+  effect: 'The blackguard shifts up to their speed. During or after this movement,
+    they can make two Zweihander attacks. '
 - name: Back!
   type: Villain Action
   cost: 2 VP
@@ -71,7 +73,7 @@ abilities:
   - Magic
   distance: 5 burst
   target: Each enemy
-  effect: The blackguard slides each target 5 squares.
+  effect: 'The blackguard slides each target 5 squares. '
 - name: I Can Throw My Blade and So Should You!
   type: Villain Action
   cost: 3 VP

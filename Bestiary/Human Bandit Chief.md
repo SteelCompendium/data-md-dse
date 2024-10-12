@@ -11,14 +11,15 @@ stamina: 120
 immunities:
 - Magic 2
 - Psionic 2
+weaknesses: []
 speed: '5'
 size: 1M
 stability: 2
 free_strike: 5
 might: 2
+intuition: 2
 agility: 2
 reason: 2
-intuition: 2
 presence: 2
 traits:
 - name: End Effect
@@ -36,6 +37,8 @@ abilities:
   - Weapon
   distance: Reach 1
   target: Two enemies or objects
+  effect: A target who is adjacent to the bandit chief after the attack is resolved
+    takes 9 corruption damage.
 - name: Kneel, Peasant!
   type: Maneuver
   keywords:
@@ -51,8 +54,8 @@ abilities:
   distance: Self
   target: Self
   trigger: The bandit chief makes a power roll for an attack.
-  effect: The bandit chief takes 4 corruption damage and increases the result of the
-    power roll by one tier.
+  effect: 'The bandit chief takes 4 corruption damage and increases the result of
+    the power roll by one tier. '
 - name: Shoot!
   type: Villain Action
   cost: 1 VP
@@ -60,7 +63,7 @@ abilities:
   - Area
   distance: 10 burst
   target: Each ally
-  effect: Each target can make a ranged free strike.
+  effect: 'Each target can make a ranged free strike. '
 - name: Form Up!
   type: Villain Action
   cost: 2 VP
@@ -68,9 +71,9 @@ abilities:
   - Area
   distance: 10 burst
   target: Each ally
-  effect: Each target shifts up to their speed. Until the end of the encounter, any
+  effect: 'Each target shifts up to their speed. Until the end of the encounter, any
     enemy takes a bane on attacks against the bandit chief or any of the bandit chief’s
-    allies if they are adjacent to that target.
+    allies if they are adjacent to that target. '
 - name: Lead From the Front
   type: Villain Action
   cost: 3 VP

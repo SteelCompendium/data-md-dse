@@ -8,15 +8,16 @@ roles:
 level: 2
 ev: 11
 stamina: 20
-weakness: Holy 3
+immunities: []
+weaknesses: []
 speed: '5'
 size: 1S
 stability: 0
 free_strike: 2
 might: 0
+intuition: 0
 agility: 1
 reason: 0
-intuition: 0
 presence: 1
 traits:
 - name: Lethe
@@ -35,15 +36,18 @@ abilities:
   - Resistance
   distance: Ranged 10
   target: One creature
+  effect: 'If the target makes an attack while weakened this way, the bendrak can
+    choose a second target for the attack within the distance of the attack, then
+    evenly divides any damage from the attack between the two targets. '
 - name: Vanish
   type: Maneuver
-  roll: 1 VP
   keywords:
   - Magic
   - Ranged
   distance: Ranged 10
   target: Self or one ally
-  effect: The target immediately becomes hidden, regardless of whether they have cover
-    or concealment.
+  effect: 'The target immediately becomes hidden, regardless of whether they have
+    cover or concealment. '
+weakness: Holy 3
 
 ~~~

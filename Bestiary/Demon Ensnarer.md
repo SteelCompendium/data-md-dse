@@ -9,13 +9,17 @@ roles:
 level: 1
 ev: 6
 stamina: 10
-weakness: Holy 3
+immunities: []
+weaknesses: []
 speed: '5'
 size: 1M
 stability: 0
 free_strike: 2
 might: 1
+intuition: -1
 agility: 0
+reason: -1
+presence: -1
 traits:
 - name: Soulsight
   effect: Each creature within 2 squares of the ensnarer can’t be hidden from them.
@@ -30,5 +34,6 @@ abilities:
   - Weapon
   distance: Reach 3
   target: One creature or object per minion
+weakness: Holy 3
 
 ~~~

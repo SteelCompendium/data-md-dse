@@ -8,10 +8,17 @@ roles:
 level: 2
 ev: 12
 stamina: 25
+immunities: []
+weaknesses: []
 speed: '5'
 size: 1M
 stability: 0
 free_strike: 3
+might: ''
+intuition: ''
+agility: ''
+reason: ''
+presence: ''
 traits:
 - name: The Iron Saint Does Not Recognize Retreat
   effect: Each ally within 5 squares of the subcommander adds 3 to their stability.

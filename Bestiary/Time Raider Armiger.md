@@ -10,10 +10,16 @@ ev: 21
 stamina: 60
 immunities:
 - Psychic 5
+weaknesses: []
 speed: '5'
 size: 1M
 stability: 0
 free_strike: 5
+might: ''
+intuition: ''
+agility: ''
+reason: ''
+presence: ''
 traits:
 - name: Foresight
   effect: The armiger doesn’t take a bane on attacks against concealed creatures.
@@ -27,6 +33,5 @@ abilities:
   cost: Signature
 - name: Shared Sickness
   type: Triggered Action
-  roll: REA RR
 
 ~~~

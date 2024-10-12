@@ -11,14 +11,15 @@ stamina: 40
 immunities:
 - Magic 2
 - Psionic 2
+weaknesses: []
 speed: '5'
 size: 1M
 stability: 0
 free_strike: 5
 might: 0
+intuition: 0
 agility: 0
 reason: 2
-intuition: 0
 presence: 0
 traits:
 - name: Arcane Shield
@@ -46,5 +47,7 @@ abilities:
   - Resistance
   distance: 5 cube within 1
   target: Each creature and object
+  effect: 'The gust of wind disperses gas or vapor and extinguishes any flames, including
+    persistent effects. '
 
 ~~~

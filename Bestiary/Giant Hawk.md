@@ -7,13 +7,17 @@ roles:
 level: 1
 ev: 13
 stamina: 20
+immunities: []
+weaknesses: []
 speed: 7 (flying)
 size: '2'
 stability: 0
 free_strike: 3
 might: 1
-agility: 1
 intuition: 0
+agility: 1
+reason: -3
+presence: -2
 traits:
 - name: Mounted Platform
   effect: Any creature riding the hawk can make a free strike during or after the
@@ -29,6 +33,7 @@ abilities:
   - Weapon
   distance: Reach 1
   target: One creature or object
+  effect: 'The target is grabbed by the giant hawk. '
 - name: Dive
   type: Maneuver
 

@@ -8,10 +8,17 @@ roles:
 level: 3
 ev: 36
 stamina: 90
+immunities: []
+weaknesses: []
 speed: '5'
 size: 1M
 stability: 2
 free_strike: 5
+might: ''
+intuition: ''
+agility: ''
+reason: ''
+presence: ''
 traits:
 - name: End Effect
   effect: At the end of their turn, the ground commander can take 5 damage to end

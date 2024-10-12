@@ -10,10 +10,16 @@ ev: 19
 stamina: 50
 immunities:
 - Psychic 5
+weaknesses: []
 speed: 5 (fly)
 size: '2'
 stability: 3
 free_strike: 5
+might: ''
+intuition: ''
+agility: ''
+reason: ''
+presence: ''
 traits:
 - name: Foresight
   effect: The vertex doesn’t take a bane on attacks against concealed creatures.
@@ -24,7 +30,6 @@ abilities:
   cost: Signature
 - name: Split Space
   type: Action
-  roll: 5 VP
 - name: Invigorated March
   type: Maneuver
 

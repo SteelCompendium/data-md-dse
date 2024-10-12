@@ -8,13 +8,17 @@ roles:
 level: 1
 ev: 28
 stamina: 60
+immunities: []
+weaknesses: []
 speed: 7 (climb)
 size: '3'
 stability: 2
 free_strike: 4
 might: 2
-agility: 1
 intuition: 0
+agility: 1
+reason: -4
+presence: -3
 traits:
 - name: Ride Launcher
   effect: An ally who leaps off the back of the spider can jump up to 6 squares without
@@ -36,7 +40,6 @@ abilities:
   target: One creature or object
 - name: Leg Blade
   type: Action
-  roll: 2d10 + 2
   keywords:
   - Attack
   - Melee
@@ -45,14 +48,13 @@ abilities:
   target: Two creatures or objects
 - name: Trample
   type: Action
-  roll: 5 VP
   keywords:
   - —
   distance: Self
   target: Self
-  effect: The spider shifts up to their speed and makes a Leg Blade attack against
+  effect: 'The spider shifts up to their speed and makes a Leg Blade attack against
     each creature who comes within their reach during the move. The spider makes one
-    power roll against all targets.
+    power roll against all targets. '
 - name: Web
   type: Maneuver
   roll: AGL RR

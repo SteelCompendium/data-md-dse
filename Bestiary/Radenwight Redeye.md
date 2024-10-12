@@ -9,14 +9,18 @@ roles:
 level: 1
 ev: 6
 stamina: 8
+immunities: []
+weaknesses: []
 speed: 5 (climb)
 size: 1S
 stability: 0
 free_strike: 2
 might: 1
-agility: 1
 intuition: 0
+agility: 1
+reason: -1
 presence: 0
+traits: []
 abilities:
 - name: Eyes-On-Me Shot
   type: Action
@@ -28,6 +32,8 @@ abilities:
   - Weapon
   distance: Ranged 10
   target: One creature or object per minion
+  effect: 'An ally of the redeye within 2 squares of the target can shift up to 2
+    squares. '
 - name: Ready Rodent
   type: Triggered Action
   keywords:

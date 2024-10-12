@@ -7,13 +7,17 @@ roles:
 level: 1
 ev: 28
 stamina: 60
+immunities: []
+weaknesses: []
 speed: 7 (flying)
 size: '3'
 stability: 0
 free_strike: 4
 might: 1
-agility: 1
 intuition: 0
+agility: 1
+reason: -3
+presence: -2
 traits:
 - name: Mounted Platform
   effect: Any creature riding the hawk can make a free strike during or after the
@@ -29,6 +33,8 @@ abilities:
   - Weapon
   distance: Reach 1
   target: Two creatures or objects
+  effect: 'The target is grabbed by the siege hawk. The siege hawk can have two targets
+    grabbed at a time. '
 - name: Bombs Away!
   type: Action
   roll: AGL RR
@@ -40,6 +46,7 @@ abilities:
   - Resistance
   distance: 5 cube within 10
   target: Each creature and object
+  special: 'The siege hawk must be flying to use this ability. '
 - name: Dive
   type: Maneuver
 

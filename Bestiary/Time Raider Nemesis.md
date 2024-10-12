@@ -10,10 +10,16 @@ ev: 19
 stamina: 50
 immunities:
 - Psychic 5
+weaknesses: []
 speed: '7'
 size: 1M
 stability: 0
 free_strike: 5
+might: ''
+intuition: ''
+agility: ''
+reason: ''
+presence: ''
 traits:
 - name: Foresight
   effect: The nemesis doesn’t take a bane on attacks against concealed creatures.

@@ -9,14 +9,17 @@ roles:
 level: 1
 ev: 6
 stamina: 10
+immunities: []
+weaknesses: []
 speed: 5 (climb)
 size: 1S
 stability: 0
 free_strike: 2
 might: 1
+intuition: 0
 agility: 0
 reason: 0
-intuition: 0
+presence: -1
 traits:
 - name: Crafty
   effect: The spinecleaver doesn’t provoke opportunity attacks by moving.

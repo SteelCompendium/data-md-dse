@@ -8,15 +8,16 @@ roles:
 level: 1
 ev: 9
 stamina: 15
-weakness: Holy 3
+immunities: []
+weaknesses: []
 speed: '5'
 size: 1S
 stability: 0
 free_strike: 2
 might: 0
+intuition: 0
 agility: 1
 reason: 0
-intuition: 0
 presence: 1
 traits:
 - name: Lethe
@@ -35,6 +36,9 @@ abilities:
   - Ranged
   distance: 3 cube within 10
   target: Each creature
+  effect: 'The area turns into a morass of spongy flesh before the targets are force
+    moved. Until the start of the torlas’s next turn, the area is difficult terrain,
+    and each creature who moves within the area takes 1 damage for each square moved. '
 - name: Grasping Tendons
   type: Maneuver
   keywords:
@@ -42,6 +46,7 @@ abilities:
   - Ranged
   distance: Ranged 10
   target: Three creatures
-  effect: The torlas pulls the target up to 2 squares.
+  effect: 'The torlas pulls the target up to 2 squares. '
+weakness: Holy 3
 
 ~~~

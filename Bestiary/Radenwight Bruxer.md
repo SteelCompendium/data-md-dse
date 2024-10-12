@@ -8,14 +8,18 @@ roles:
 level: 1
 ev: 16
 stamina: 40
+immunities: []
+weaknesses: []
 speed: 5 (climb)
 size: 1M
 stability: 2
 free_strike: 5
 might: 1
-agility: 1
 intuition: 0
+agility: 1
+reason: -1
 presence: 0
+traits: []
 abilities:
 - name: Lockjaw
   type: Action
@@ -27,6 +31,8 @@ abilities:
   - Weapon
   distance: Reach 1
   target: One creature or object
+  effect: 'While the target is grabbed, they take 2 damage at the start of each of
+    the bruxer’s turns. '
 - name: Flurry of Bites
   type: Action
   roll: 2d10 + 1

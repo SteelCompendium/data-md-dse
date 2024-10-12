@@ -8,13 +8,17 @@ roles:
 level: 1
 ev: 11
 stamina: 20
+immunities: []
+weaknesses: []
 speed: 6 (climb)
 size: 1S
 stability: 0
 free_strike: 3
+might: -2
+intuition: 0
 agility: 1
 reason: 0
-intuition: 0
+presence: -2
 traits:
 - name: Crafty
   effect: The assassin doesn’t provoke opportunity attacks by moving.
@@ -32,6 +36,8 @@ abilities:
   - Weapon
   distance: Reach 1
   target: One creature or object
+  effect: 'If the assassin has an edge or a double edge on the power roll for this
+    ability, the ability deals an additional 2 damage. '
 - name: Shadow Chains
   type: Action
   roll: AGL RR

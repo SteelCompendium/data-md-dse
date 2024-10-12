@@ -9,12 +9,18 @@ roles:
 level: 1
 ev: 3
 stamina: 5
+immunities: []
+weaknesses: []
 speed: 5 (fly)
 size: 1T
 stability: 0
 free_strike: 2
-agility: 1
+might: -5
 intuition: 0
+agility: 1
+reason: -4
+presence: -2
+traits: []
 abilities:
 - name: Claws
   type: Action

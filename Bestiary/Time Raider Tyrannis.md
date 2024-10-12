@@ -10,24 +10,22 @@ ev: 54
 stamina: 120
 immunities:
 - Psychic 7
+weaknesses: []
 speed: 10 (fly, teleport)
 size: '2'
 stability: 0
 free_strike: 5
+might: ''
+intuition: ''
+agility: ''
+reason: ''
+presence: ''
 traits:
 - name: End Effect
   effect: At the end of their turn, the tyrannis can take 5 damage to end one EoE
     effect affecting them. This damage can’t be reduced in any way.
 - name: Foresight
   effect: The tyrannis doesn’t take a bane on attacks against concealed creatures.
-- name: 'Keywords**: Area'
-  effect: '**Distance**: 10 burst **Target**: Each ally **Effect**: Each target can
-    end one effect or condition affecting them or can move up to their speed.'
-- name: 'Keywords**: Area'
-  effect: '**Distance**: 5 burst **Target**: Special **Effect**: The tyrannis fires
-    a sensor mine into each unoccupied square in the burst and a gravity well into
-    one of their own squares. Whenever an enemy moves into a square with a sensor
-    mine, the mine explodes, dealing 3 damage to the enemy.'
 abilities:
 - name: Gatling Blaster
   type: Action
@@ -35,7 +33,6 @@ abilities:
   cost: Signature
 - name: Air Raid!
   type: Maneuver
-  roll: 3 VP
 - name: Precog Reflexes
   type: Triggered Action
 - name: We Will Won!

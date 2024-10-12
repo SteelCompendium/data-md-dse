@@ -9,14 +9,18 @@ roles:
 level: 1
 ev: 7
 stamina: 12
+immunities: []
+weaknesses: []
 speed: 6 (climb)
 size: 1S
 stability: 0
 free_strike: 2
+might: -1
+intuition: 0
 agility: 1
 reason: 0
-intuition: 0
 presence: 1
+traits: []
 abilities:
 - name: Stinky Glissando
   type: Action

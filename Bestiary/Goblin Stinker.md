@@ -8,13 +8,16 @@ roles:
 level: 1
 ev: 9
 stamina: 15
+immunities: []
+weaknesses: []
 speed: 5 (climb)
 size: 1S
 stability: 0
 free_strike: 2
+might: -2
+intuition: 0
 agility: 1
 reason: 0
-intuition: 0
 presence: 1
 traits:
 - name: Crafty
@@ -38,9 +41,9 @@ abilities:
   - Ranged
   distance: 3 cube within 10
   target: Special
-  effect: The area is filled with a green haze until the start of the stinker’s next
+  effect: 'The area is filled with a green haze until the start of the stinker’s next
     turn or until the stinker is reduced to Stamina 0. The area is difficult terrain
     for non-goblin creatures, and each such creature who moves within the area takes
-    2 poison damage for each square moved. The haze can’t be dispersed by wind.
+    2 poison damage for each square moved. The haze can’t be dispersed by wind. '
 
 ~~~

@@ -8,15 +8,16 @@ roles:
 level: 2
 ev: 13
 stamina: 25
-weakness: Holy 3
+immunities: []
+weaknesses: []
 speed: 5 (teleport)
 size: 1S
 stability: 0
 free_strike: 3
 might: 0
+intuition: 0
 agility: 1
 reason: 0
-intuition: 0
 presence: 1
 traits:
 - name: Lethe
@@ -37,12 +38,12 @@ abilities:
   target: One creature or object
 - name: Grasping Shadow
   type: Maneuver
-  roll: 5 VP
   keywords:
   - Magic
   - Ranged
   distance: Ranged 10
   target: Self
-  effect: The remasch can teleport 2 squares then use Abyssal Strike.
+  effect: 'The remasch can teleport 2 squares then use Abyssal Strike. '
+weakness: Holy 3
 
 ~~~

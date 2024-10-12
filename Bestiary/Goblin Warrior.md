@@ -8,13 +8,17 @@ roles:
 level: 1
 ev: 10
 stamina: 20
+immunities: []
+weaknesses: []
 speed: 6 (climb)
 size: 1S
 stability: 0
 free_strike: 2
+might: -2
+intuition: 0
 agility: 1
 reason: 0
-intuition: 0
+presence: -1
 traits:
 - name: Crafty
   effect: The warrior doesn’t provoke opportunity attacks by moving.

@@ -8,15 +8,16 @@ roles:
 level: 1
 ev: 10
 stamina: 20
-weakness: Holy 3
+immunities: []
+weaknesses: []
 speed: '6'
 size: 1M
 stability: 0
 free_strike: 2
 might: 0
+intuition: 0
 agility: 1
 reason: 0
-intuition: 0
 presence: 1
 traits:
 - name: Lethe
@@ -45,5 +46,6 @@ abilities:
   - Resistance
   distance: Ranged 10
   target: Three creatures without full Stamina
+weakness: Holy 3
 
 ~~~

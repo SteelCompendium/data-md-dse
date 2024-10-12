@@ -9,10 +9,17 @@ roles:
 level: 1
 ev: 6
 stamina: 8
+immunities: []
+weaknesses: []
 speed: '5'
 size: 1M
 stability: 0
 free_strike: 2
+might: ''
+intuition: ''
+agility: ''
+reason: ''
+presence: ''
 traits:
 - name: Tether
   effect: A captain attached to a tetherite squad has their Stability increased by

@@ -12,15 +12,17 @@ stamina: 12
 immunities:
 - Magic 2
 - Psionic 2
+weaknesses: []
 speed: '5'
 size: 1M
 stability: 0
 free_strike: 2
 might: 1
+intuition: 0
 agility: 0
 reason: 0
-intuition: 0
 presence: 0
+traits: []
 abilities:
 - name: Halberd
   type: Action

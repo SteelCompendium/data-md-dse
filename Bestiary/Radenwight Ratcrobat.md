@@ -8,13 +8,16 @@ roles:
 level: 1
 ev: 13
 stamina: 30
+immunities: []
+weaknesses: []
 speed: 7 (climb)
 size: 1S
 stability: 0
 free_strike: 5
+might: -1
+intuition: 0
 agility: 1
 reason: 0
-intuition: 0
 presence: 1
 traits:
 - name: Gymratstics
@@ -30,13 +33,15 @@ abilities:
   - Weapon
   distance: Reach 1
   target: Two creatures or objects
+  effect: 'The ratcrobat can shift up to 2 squares after attacking the first target,
+    then can shift 1 square after attacking the second target. '
 - name: Over Here, Thanks
   type: Maneuver
   keywords:
   - Melee
   distance: Reach 1
   target: One enemy
-  effect: Slide 1; the ratcrobat can then shift into the square the target left.
+  effect: 'Slide 1; the ratcrobat can then shift into the square the target left. '
 - name: Ready Rodent
   type: Triggered Action
   keywords:
@@ -45,6 +50,6 @@ abilities:
   distance: Reach 1
   target: One creature
   trigger: An ally deals damage to the target.
-  effect: The ratcrobat makes a free strike against the target.
+  effect: 'The ratcrobat makes a free strike against the target. '
 
 ~~~
