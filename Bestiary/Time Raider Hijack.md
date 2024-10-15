@@ -1,8 +1,8 @@
 ~~~ds-statblock
-name: Time Raider Hijack
+name: [[Time Raider]] Hijack
 ancestry:
 - Humanoid
-- Time Raider
+- [[Time Raider]]
 roles:
 - Ambusher
 level: 3
@@ -29,8 +29,8 @@ abilities:
   roll: 2d10 + 2
   cost: Signature
   t1: 5 damage
-  t2: 9 damage; bleeding (EoT)
-  t3: 12 damage; bleeding (REA ends)
+  t2: 9 damage; [[Bleeding|bleeding]] (EoT)
+  t3: 12 damage; [[Bleeding|bleeding]] (REA ends)
 - name: Psi-Sickle
   type: Maneuver
 

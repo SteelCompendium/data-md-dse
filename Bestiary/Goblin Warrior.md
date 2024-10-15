@@ -29,7 +29,7 @@ abilities:
   cost: Signature
   keywords:
   - Attack
-  - Charge
+  - [[Charge]]
   - Melee
   - Weapon
   distance: Reach 1
@@ -48,7 +48,7 @@ abilities:
   distance: Reach 1
   target: One creature
   t1: 3 damage
-  t2: 7 damage; bleeding (EoT)
-  t3: '8 damage; bleeding (MGT ends) '
+  t2: 7 damage; [[Bleeding|bleeding]] (EoT)
+  t3: '8 damage; [[Bleeding|bleeding]] (MGT ends) '
 
 ~~~

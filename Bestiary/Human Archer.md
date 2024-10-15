@@ -1,7 +1,7 @@
 ~~~ds-statblock
-name: Human Archer
+name: [[Human]] Archer
 ancestry:
-- Human
+- [[Human]]
 - Humanoid
 roles:
 - Artillery

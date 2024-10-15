@@ -39,8 +39,8 @@ abilities:
   distance: 5 burst
   target: Each enemy
   t1: 3 psychic damage
-  t2: 5 psychic damage; slowed (EoT)
-  t3: 7 psychic damage; slowed (INU ends)
+  t2: 5 psychic damage; [[Slowed|slowed]] (EoT)
+  t3: 7 psychic damage; [[Slowed|slowed]] (INU ends)
   effect: 'An ally within 10 squares of the chorogaunt can shift up to their speed. '
 - name: Chaotic Entrancing Harmony
   type: Maneuver
@@ -65,7 +65,7 @@ abilities:
   - Ranged
   distance: Ranged 10
   target: Three enemies
-  effect: 'Each target either takes 5 psychic damage or is frightened of the chorogaunt
+  effect: 'Each target either takes 5 psychic damage or is [[Frightened|frightened]] of the chorogaunt
     (EoT). Each target gets to choose which to do. '
 - name: Bully the Weak
   type: Villain Action

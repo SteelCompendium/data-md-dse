@@ -1,7 +1,7 @@
 ~~~ds-statblock
-name: Human Guard
+name: [[Human]] Guard
 ancestry:
-- Human
+- [[Human]]
 - Humanoid
 roles:
 - Brute

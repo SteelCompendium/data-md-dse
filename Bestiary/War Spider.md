@@ -21,8 +21,8 @@ reason: -4
 presence: -3
 traits:
 - name: Ride Launcher
-  effect: An ally who leaps off the back of the spider can jump up to 6 squares without
-    a test, and takes no damage if they fall during the jump. After the jump, the
+  effect: An ally who leaps off the back of the spider can [[Jump|jump]] up to 6 squares without
+    a test, and takes no damage if they fall during the [[Jump|jump]]. After the [[Jump|jump]], the
     first melee attack an ally makes on the same turn gains an edge.
 - name: Wide Back
   effect: Two of the spider’s size 1 allies can occupy the same space while riding
@@ -39,8 +39,8 @@ abilities:
   distance: Reach 1
   target: One creature or object
   t1: 4 poison damage
-  t2: 7 poison damage; weakened (EoT)
-  t3: '10 poison damage; weakened (MGT ends) '
+  t2: 7 poison damage; [[Weakened|weakened]] (EoT)
+  t3: '10 poison damage; [[Weakened|weakened]] (MGT ends) '
 - name: Leg Blade
   type: Action
   keywords:
@@ -70,8 +70,8 @@ abilities:
   - Resistance
   distance: 3 cube within 1
   target: Each creature
-  t3: Restrained (AGL ends)
-  t2: Restrained (EoT)
+  t3: [[Restrained]] (AGL ends)
+  t2: [[Restrained]] (EoT)
   t1: 'No effect '
 
 ~~~

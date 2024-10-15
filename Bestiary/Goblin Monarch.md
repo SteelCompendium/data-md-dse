@@ -40,14 +40,14 @@ abilities:
   t1: 3 damage
   t2: 5 damage
   t3: 7 damage
-  effect: 'An ally within 10 squares of the monarch can make a free strike. '
+  effect: 'An ally within 10 squares of the monarch can make a [[Free Strike|free strike]]. '
 - name: Get in Here
   type: Maneuver
   keywords:
   - Ranged
   distance: Ranged 20
   target: Special
-  effect: 'Two goblin runners appear in unoccupied spaces. '
+  effect: 'Two [[Goblin Runner|goblin runners]] appear in unoccupied spaces. '
 - name: Meat Shield
   type: Triggered Action
   keywords:
@@ -63,7 +63,7 @@ abilities:
   - Area
   distance: 10 burst
   target: Each ally
-  effect: 'Each target can move up to their speed or make a free strike. '
+  effect: 'Each target can move up to their speed or make a [[Free Strike|free strike]]. '
 - name: Focus Fire
   type: Villain Action
   cost: 2 VP
@@ -80,6 +80,6 @@ abilities:
   - Area
   distance: 10 burst
   target: Each ally
-  effect: Each target can make a free strike that deals an extra 1 damage.
+  effect: Each target can make a [[Free Strike|free strike]] that deals an extra 1 damage.
 
 ~~~

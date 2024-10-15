@@ -1,7 +1,7 @@
 ~~~ds-statblock
-name: Human Raider
+name: [[Human]] [[Raider]]
 ancestry:
-- Human
+- [[Human]]
 - Humanoid
 roles:
 - Harrier
@@ -30,7 +30,7 @@ abilities:
   cost: Signature
   keywords:
   - Attack
-  - Charge
+  - [[Charge]]
   - Melee
   - Ranged
   - Weapon
@@ -39,7 +39,7 @@ abilities:
   t1: 2 damage
   t2: 4 damage
   t3: 5 damage
-  effect: If this ability is used as part of the Charge action, the raider can make
-    a ranged free strike with a distance of 5 before using the ability.
+  effect: If this ability is used as part of the [[Charge]] action, the [[Raider|raider]] can make
+    a ranged [[Free Strike|free strike]] with a distance of 5 before using the ability.
 
 ~~~

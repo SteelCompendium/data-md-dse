@@ -30,7 +30,7 @@ abilities:
   cost: Signature
   keywords:
   - Attack
-  - Charge
+  - [[Charge]]
   - Melee
   - Weapon
   distance: Reach 1

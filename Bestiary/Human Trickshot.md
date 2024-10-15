@@ -1,7 +1,7 @@
 ~~~ds-statblock
-name: Human Trickshot
+name: [[Human]] Trickshot
 ancestry:
-- Human
+- [[Human]]
 - Humanoid
 roles:
 - Artillery

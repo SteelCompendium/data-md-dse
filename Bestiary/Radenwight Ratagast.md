@@ -33,8 +33,8 @@ abilities:
   distance: Reach 1
   target: One creature or object per minion
   t1: 2 poison damage
-  t2: 4 poison damage; taunted (EoT)
-  t3: '5 poison damage; taunted (EoT) '
+  t2: 4 poison damage; [[Taunted|taunted]] (EoT)
+  t3: '5 poison damage; [[Taunted|taunted]] (EoT) '
 - name: Ready Rodent
   type: Triggered Action
   keywords:
@@ -43,6 +43,6 @@ abilities:
   distance: Reach 1
   target: One creature
   trigger: An ally deals damage to the target.
-  effect: The ratagast makes a free strike against the target.
+  effect: The ratagast makes a [[Free Strike|free strike]] against the target.
 
 ~~~

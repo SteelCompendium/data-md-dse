@@ -1,8 +1,8 @@
 ~~~ds-statblock
-name: Time Raider Helix
+name: [[Time Raider]] Helix
 ancestry:
 - Humanoid
-- Time Raider
+- [[Time Raider]]
 roles:
 - Controller
 level: 3
@@ -11,7 +11,7 @@ stamina: 40
 immunities:
 - Psychic 4
 weaknesses: []
-speed: 5 (fly)
+speed: 5 ([[Fly|fly]])
 size: 1M
 stability: 0
 free_strike: 5
@@ -30,7 +30,7 @@ abilities:
   cost: Signature
   t1: 4 corruption damage; push 2
   t2: 7 corruption damage; push 4
-  t3: '10 corruption damage; push 6; prone '
+  t3: '10 corruption damage; push 6; [[Prone|prone]] '
 - name: Kinetic Lane
   type: Maneuver
 

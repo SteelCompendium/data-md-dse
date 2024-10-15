@@ -1,8 +1,8 @@
 ~~~ds-statblock
-name: Time Raider Mind Punk
+name: [[Time Raider]] Mind Punk
 ancestry:
 - Humanoid
-- Time Raider
+- [[Time Raider]]
 roles:
 - Hexer
 level: 3
@@ -30,10 +30,10 @@ abilities:
   cost: Signature
   t1: 4 damage
   t2: 6 damage
-  t3: 9 damage; dazed (EoT)
+  t3: 9 damage; [[Dazed|dazed]] (EoT)
 - name: Mindpunk
   type: Action
-  t3: 7 psychic damage; push 2; prone and can’t stand (EoT)
+  t3: 7 psychic damage; push 2; [[Prone|prone]] and can’t stand (EoT)
   t2: 5 psychic damage; push 1
   t1: 2 psychic damage
 

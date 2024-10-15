@@ -22,8 +22,8 @@ presence: -2
 traits:
 - name: Crafty
   effect: The assassin doesn’t provoke opportunity attacks by moving.
-- name: Hide While Observed
-  effect: The assassin can take the Hide maneuver even while observed, though they
+- name: [[Hide]] While Observed
+  effect: The assassin can take the [[Hide]] maneuver even while observed, though they
     still must have cover or concealment.
 abilities:
 - name: Sword
@@ -51,8 +51,8 @@ abilities:
   - Resistance
   distance: Ranged 10
   target: Three creatures
-  t3: 7 corruption damage; restrained (AGL ends)
-  t2: 5 corruption damage; restrained (EoT)
+  t3: 7 corruption damage; [[Restrained|restrained]] (AGL ends)
+  t2: 5 corruption damage; [[Restrained|restrained]] (EoT)
   t1: '3 corruption damage '
 
 ~~~

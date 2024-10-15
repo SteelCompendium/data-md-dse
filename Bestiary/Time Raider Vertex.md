@@ -1,8 +1,8 @@
 ~~~ds-statblock
-name: Time Raider Vertex
+name: [[Time Raider]] Vertex
 ancestry:
 - Humanoid
-- Time Raider
+- [[Time Raider]]
 roles:
 - Support
 level: 3
@@ -11,7 +11,7 @@ stamina: 50
 immunities:
 - Psychic 5
 weaknesses: []
-speed: 5 (fly)
+speed: 5 ([[Fly|fly]])
 size: '2'
 stability: 3
 free_strike: 5

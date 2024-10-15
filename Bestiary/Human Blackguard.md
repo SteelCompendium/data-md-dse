@@ -1,7 +1,7 @@
 ~~~ds-statblock
-name: Human Blackguard
+name: [[Human]] Blackguard
 ancestry:
-- Human
+- [[Human]]
 - Humanoid
 roles:
 - Boss
@@ -37,9 +37,9 @@ abilities:
   distance: Reach 1
   target: Each adjacent enemy
   t1: 4 damage
-  t2: 7 damage; slowed (EoT)
-  t3: 10 damage; slowed (MGT ends)
-  effect: An ally within 10 squares of the blackguard can make a free strike.
+  t2: 7 damage; [[Slowed|slowed]] (EoT)
+  t3: 10 damage; [[Slowed|slowed]] (MGT ends)
+  effect: An ally within 10 squares of the blackguard can make a [[Free Strike|free strike]].
 - name: You!
   type: Maneuver
   keywords:
@@ -49,7 +49,7 @@ abilities:
   effect: 'The target is marked until the start of the blackguard’s next turn. The
     blackguard and each of their allies gain an edge on attacks against any target
     marked by the blackguard, and such attacks deal an extra 2 damage. '
-- name: Parry!
+- name: [[Parry]]!
   type: Triggered Action
   keywords:
   - Melee
@@ -89,6 +89,6 @@ abilities:
   target: Each enemy in the cube
   effect: The blackguard makes a Zweihander attack against each enemy in the area,
     making one power roll against all targets. Additionally, each ally within 5 squares
-    of the area can make a free strike against any enemy in the area.
+    of the area can make a [[Free Strike|free strike]] against any enemy in the area.
 
 ~~~

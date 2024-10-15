@@ -10,7 +10,7 @@ ev: 11
 stamina: 20
 immunities: []
 weaknesses: []
-speed: 5 (teleport)
+speed: 5 ([[Teleport|teleport]])
 size: 1M
 stability: 0
 free_strike: 3
@@ -33,6 +33,6 @@ abilities:
   t3: 7 damage; slide 3
 - name: Posthumous Promotion
   type: Maneuver
-- name: Corrupted Ash Teleport (Maneuver) ◆ 1 VP
+- name: Corrupted Ash [[Teleport]] (Maneuver) ◆ 1 VP
 
 ~~~

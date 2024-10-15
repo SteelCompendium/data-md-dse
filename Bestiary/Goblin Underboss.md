@@ -35,7 +35,7 @@ abilities:
   t1: 2 damage
   t2: 5 damage
   t3: 6 damage
-  effect: 'One ally of the underboss adjacent to the target can make a free strike
+  effect: 'One ally of the underboss adjacent to the target can make a [[Free Strike|free strike]]
     against them. '
 - name: Get Reckless!
   type: Maneuver

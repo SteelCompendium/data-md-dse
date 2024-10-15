@@ -1,8 +1,8 @@
 ~~~ds-statblock
-name: Time Raider Cannonfall
+name: [[Time Raider]] Cannonfall
 ancestry:
 - Humanoid
-- Time Raider
+- [[Time Raider]]
 roles:
 - Artillery
 level: 3
@@ -29,8 +29,8 @@ abilities:
   roll: 2d10 + 2
   cost: Signature
   t1: 4 sonic damage
-  t2: 8 sonic damage; slowed (EoT)
-  t3: 10 sonic damage; slowed (EoT); prone
+  t2: 8 sonic damage; [[Slowed|slowed]] (EoT)
+  t3: 10 sonic damage; [[Slowed|slowed]] (EoT); [[Prone|prone]]
 - name: Buss Buffer
   type: Triggered Action
 

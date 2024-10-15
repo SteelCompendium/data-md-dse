@@ -1,7 +1,7 @@
 ~~~ds-statblock
-name: Human Death Cultist
+name: [[Human]] Death Cultist
 ancestry:
-- Human
+- [[Human]]
 - Humanoid
 roles:
 - Support
@@ -36,8 +36,8 @@ abilities:
   distance: Reach 1 or Ranged 10
   target: One creature or object
   t1: 4 corruption damage
-  t2: 7 corruption damage; weakened (EoT)
-  t3: 10 corruption damage; weakened (INU ends)
+  t2: 7 corruption damage; [[Weakened|weakened]] (EoT)
+  t3: 10 corruption damage; [[Weakened|weakened]] (INU ends)
 - name: Rise, My Minions
   type: Maneuver
   keywords:

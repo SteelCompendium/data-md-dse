@@ -1,8 +1,8 @@
 ~~~ds-statblock
-name: Time Raider Archon
+name: [[Time Raider]] Archon
 ancestry:
 - Humanoid
-- Time Raider
+- [[Time Raider]]
 roles:
 - Harrier
 - Minion
@@ -31,6 +31,6 @@ abilities:
   cost: Signature
   t1: 2 damage
   t2: 4 damage
-  t3: '5 damage; dazed (EoT) '
+  t3: '5 damage; [[Dazed|dazed]] (EoT) '
 
 ~~~

@@ -1,7 +1,7 @@
 ~~~ds-statblock
-name: Human Apprentice Mage
+name: [[Human]] Apprentice Mage
 ancestry:
-- Human
+- [[Human]]
 - Humanoid
 roles:
 - Controller
@@ -38,6 +38,6 @@ abilities:
   t2: 4 lightning damage
   t3: 5 lightning damage
   effect: If the apprentice mage doesn’t use a maneuver or a move action this turn,
-    the target is slowed (EoT).
+    the target is [[Slowed|slowed]] (EoT).
 
 ~~~

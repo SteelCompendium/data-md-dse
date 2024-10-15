@@ -1,8 +1,8 @@
 ~~~ds-statblock
-name: Time Raider Myriad
+name: [[Time Raider]] Myriad
 ancestry:
 - Humanoid
-- Time Raider
+- [[Time Raider]]
 roles:
 - Brute
 - Minion
@@ -31,6 +31,6 @@ abilities:
   cost: Signature
   t1: 2 damage; slide 1
   t2: 5 damage; slide 2
-  t3: '6 damage; slide 3; prone '
+  t3: '6 damage; slide 3; [[Prone|prone]] '
 
 ~~~
