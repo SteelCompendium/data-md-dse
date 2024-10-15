@@ -39,7 +39,7 @@ abilities:
   t1: 4 damage; the remasch [[Teleport|teleports]] 2 squares
   t2: 7 damage; the remasch [[Teleport|teleports]] 3 squares
   t3: 10 damage; the remasch [[Teleport|teleports]] 5 squares
-- name: Grasping Shadow
+- name: Grasping [[Shadow]]
   type: Maneuver
   keywords:
   - Magic
