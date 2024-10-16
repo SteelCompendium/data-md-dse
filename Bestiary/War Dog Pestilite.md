@@ -26,8 +26,8 @@ traits:
     enemy.
 abilities:
 - name: Plaguecaster (Action) ◆ INU RR ◆ Signature
-  t3: 8 poison damage; [[Frightened\|frightened]] (INU ends)
-  t2: 5 poison damage; [[Frightened\|frightened]] (EoT)
+  t3: 8 poison damage; [[Frightened|frightened]] (INU ends)
+  t2: 5 poison damage; [[Frightened|frightened]] (EoT)
   t1: 2 poison damage
 - name: Posthumous Promotion
   type: Maneuver

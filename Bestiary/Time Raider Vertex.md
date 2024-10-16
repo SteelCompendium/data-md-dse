@@ -11,7 +11,7 @@ stamina: 50
 immunities:
 - Psychic 5
 weaknesses: []
-speed: 5 ([[Fly\|fly]])
+speed: 5 ([[Fly|fly]])
 size: '2'
 stability: 3
 free_strike: 5

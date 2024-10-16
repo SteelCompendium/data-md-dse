@@ -58,7 +58,7 @@ abilities:
   distance: Ranged 10
   target: One creature
   trigger: An ally deals damage to the target.
-  effect: 'The maestro makes a [[Free Strike\|free strike]] against the target. '
+  effect: 'The maestro makes a [[Free Strike|free strike]] against the target. '
 - name: Overture
   type: Villain Action
   cost: 1 VP
@@ -84,8 +84,8 @@ abilities:
   - Area
   distance: 10 burst
   target: Each dead ally
-  effect: Each target stands, makes a [[Free Strike\|free strike]], then collapses again. Allies of
+  effect: Each target stands, makes a [[Free Strike|free strike]], then collapses again. Allies of
     the targets can use Ready Rodent as a free triggered action once in conjunction
-    with these [[Free Strike\|free strikes]].
+    with these [[Free Strike|free strikes]].
 
 ~~~

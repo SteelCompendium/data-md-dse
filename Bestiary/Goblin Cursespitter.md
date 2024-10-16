@@ -33,8 +33,8 @@ abilities:
   - Resistance
   distance: Ranged 10
   target: One creature
-  t3: 6 corruption damage; [[Weakened\|weakened]] (INU ends)
-  t2: 5 corruption damage; [[Weakened\|weakened]] (EoT)
+  t3: 6 corruption damage; [[Weakened|weakened]] (INU ends)
+  t2: 5 corruption damage; [[Weakened|weakened]] (EoT)
   t1: '2 corruption damage '
 - name: Dizzying Hex
   type: Maneuver

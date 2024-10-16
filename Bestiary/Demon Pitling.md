@@ -11,7 +11,7 @@ ev: 2
 stamina: 4
 immunities: []
 weaknesses: []
-speed: 5 ([[Fly\|fly]])
+speed: 5 ([[Fly|fly]])
 size: 1T
 stability: 0
 free_strike: 2

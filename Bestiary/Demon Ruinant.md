@@ -37,8 +37,8 @@ abilities:
   distance: Reach 1
   target: Two creatures or objects
   t1: 2 damage
-  t2: 5 damage; [[Bleeding\|bleeding]] (EoT)
-  t3: '6 damage; [[Bleeding\|bleeding]] (EoT) '
+  t2: 5 damage; [[Bleeding|bleeding]] (EoT)
+  t3: '6 damage; [[Bleeding|bleeding]] (EoT) '
 - name: Salt Wounds
   type: Maneuver
   roll: MGT RR

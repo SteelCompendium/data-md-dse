@@ -10,7 +10,7 @@ ev: 13
 stamina: 25
 immunities: []
 weaknesses: []
-speed: 5 ([[Teleport\|teleport]])
+speed: 5 ([[Teleport|teleport]])
 size: 1S
 stability: 0
 free_strike: 3
@@ -36,9 +36,9 @@ abilities:
   - Weapon
   distance: Reach 1
   target: One creature or object
-  t1: 4 damage; the remasch [[Teleport\|teleports]] 2 squares
-  t2: 7 damage; the remasch [[Teleport\|teleports]] 3 squares
-  t3: 10 damage; the remasch [[Teleport\|teleports]] 5 squares
+  t1: 4 damage; the remasch [[Teleport|teleports]] 2 squares
+  t2: 7 damage; the remasch [[Teleport|teleports]] 3 squares
+  t3: 10 damage; the remasch [[Teleport|teleports]] 5 squares
 - name: Grasping [[Shadow]]
   type: Maneuver
   keywords:
@@ -46,7 +46,7 @@ abilities:
   - Ranged
   distance: Ranged 10
   target: Self
-  effect: 'The remasch can [[Teleport\|teleport]] 2 squares then use Abyssal Strike. '
+  effect: 'The remasch can [[Teleport|teleport]] 2 squares then use Abyssal Strike. '
 weakness: Holy 3
 
 ~~~

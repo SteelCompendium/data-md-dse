@@ -51,8 +51,8 @@ abilities:
   distance: Reach 1
   target: One enemy or object
   t1: Push 1
-  t2: Push 2; [[Prone\|prone]]
-  t3: Push 3; [[Prone\|prone]]
+  t2: Push 2; [[Prone|prone]]
+  t3: Push 3; [[Prone|prone]]
 - name: Bloodstones
   type: Triggered Action
   keywords:
@@ -69,7 +69,7 @@ abilities:
   - Area
   distance: 10 burst
   target: Each ally
-  effect: 'Each target can make a ranged [[Free Strike\|free strike]]. '
+  effect: 'Each target can make a ranged [[Free Strike|free strike]]. '
 - name: Form Up!
   type: Villain Action
   cost: 2 VP
@@ -90,6 +90,6 @@ abilities:
   target: Self
   effect: The bandit chief shifts twice their speed. During or after this movement,
     they can attack up to four targets with Whip & Magic Longsword. Any ally of the
-    bandit chief adjacent to a target can make a [[Free Strike\|free strike]] against that target.
+    bandit chief adjacent to a target can make a [[Free Strike|free strike]] against that target.
 
 ~~~

@@ -22,7 +22,7 @@ reason: 0
 presence: -1
 traits:
 - name: Crafty
-  effect: The [[Sniper\|sniper]] doesn’t provoke opportunity attacks by moving.
+  effect: The [[Sniper|sniper]] doesn’t provoke opportunity attacks by moving.
 abilities:
 - name: Bow
   type: Action
@@ -37,7 +37,7 @@ abilities:
   t1: 2 damage
   t2: 4 damage
   t3: 5 damage
-  effect: 'If the [[Sniper\|sniper]] doesn’t use a maneuver or a move action this turn, the ability
+  effect: 'If the [[Sniper|sniper]] doesn’t use a maneuver or a move action this turn, the ability
     deals an extra 2 damage. '
 
 ~~~

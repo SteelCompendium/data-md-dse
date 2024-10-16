@@ -24,16 +24,16 @@ traits:
 - name: Foresight
   effect: The armiger doesn’t take a bane on attacks against concealed creatures.
 - name: Kuran’zoi Heraldry
-  effect: While any [[Time [[Raider]]\|time raider]] starts their turn with line of effect to the armiger,
-    that [[Time [[Raider]]\|time raider]] can end one condition affecting them.
+  effect: While any [[Time Raider|time raider]] starts their turn with line of effect to the armiger,
+    that [[Time Raider|time raider]] can end one condition affecting them.
 abilities:
 - name: Serrated Saber
   type: Action
   roll: 2d10 + 2
   cost: Signature
   t1: 5 damage
-  t2: 8 damage; [[Weakened\|weakened]] (EoT)
-  t3: 11 damage; [[Weakened\|weakened]] (REA ends)
+  t2: 8 damage; [[Weakened|weakened]] (EoT)
+  t3: 11 damage; [[Weakened|weakened]] (REA ends)
 - name: Shared Sickness
   type: Triggered Action
   t3: 11 poison damage

@@ -11,7 +11,7 @@ stamina: 120
 immunities:
 - Psychic 7
 weaknesses: []
-speed: 10 ([[Fly\|fly]], [[Teleport\|teleport]])
+speed: 10 ([[Fly|fly]], [[Teleport|teleport]])
 size: '2'
 stability: 0
 free_strike: 5

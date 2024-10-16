@@ -37,9 +37,9 @@ abilities:
   distance: Reach 1
   target: Each adjacent enemy
   t1: 4 damage
-  t2: 7 damage; [[Slowed\|slowed]] (EoT)
-  t3: 10 damage; [[Slowed\|slowed]] (MGT ends)
-  effect: An ally within 10 squares of the blackguard can make a [[Free Strike\|free strike]].
+  t2: 7 damage; [[Slowed|slowed]] (EoT)
+  t3: 10 damage; [[Slowed|slowed]] (MGT ends)
+  effect: An ally within 10 squares of the blackguard can make a [[Free Strike|free strike]].
 - name: You!
   type: Maneuver
   keywords:
@@ -89,6 +89,6 @@ abilities:
   target: Each enemy in the cube
   effect: The blackguard makes a Zweihander attack against each enemy in the area,
     making one power roll against all targets. Additionally, each ally within 5 squares
-    of the area can make a [[Free Strike\|free strike]] against any enemy in the area.
+    of the area can make a [[Free Strike|free strike]] against any enemy in the area.
 
 ~~~
