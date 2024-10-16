@@ -10,7 +10,7 @@ ev: 11
 stamina: 20
 immunities: []
 weaknesses: []
-speed: 5 ([[Teleport|teleport]])
+speed: 5 ([[Teleport\|teleport]])
 size: 1M
 stability: 0
 free_strike: 3

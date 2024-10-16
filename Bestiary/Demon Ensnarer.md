@@ -36,7 +36,7 @@ abilities:
   target: One creature or object per minion
   t1: 2 damage; pull 1
   t2: 4 damage; pull 2
-  t3: '5 damage; pull 3; [[Slowed|slowed]] (EoT) '
+  t3: '5 damage; pull 3; [[Slowed\|slowed]] (EoT) '
 weakness: Holy 3
 
 ~~~

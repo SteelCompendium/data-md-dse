@@ -29,8 +29,8 @@ abilities:
   roll: 2d10 + 2
   cost: Signature
   t1: 5 damage
-  t2: 9 damage; [[Bleeding|bleeding]] (EoT)
-  t3: 12 damage; [[Bleeding|bleeding]] (REA ends)
+  t2: 9 damage; [[Bleeding\|bleeding]] (EoT)
+  t3: 12 damage; [[Bleeding\|bleeding]] (REA ends)
 - name: Psi-Sickle
   type: Maneuver
 

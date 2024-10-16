@@ -29,8 +29,8 @@ abilities:
   roll: 2d10 + 2
   cost: Signature
   t1: 4 damage
-  t2: 7 damage; [[Grabbed|grabbed]]
-  t3: 10 damage; [[Grabbed|grabbed]]
+  t2: 7 damage; [[Grabbed\|grabbed]]
+  t3: 10 damage; [[Grabbed\|grabbed]]
 - name: Posthumous Promotion
   type: Maneuver
 

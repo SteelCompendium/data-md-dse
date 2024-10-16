@@ -20,7 +20,7 @@ reason: -3
 presence: -2
 traits:
 - name: Mounted Platform
-  effect: Any creature riding the hawk can make a [[Free Strike|free strike]] during or after the
+  effect: Any creature riding the hawk can make a [[Free Strike\|free strike]] during or after the
     hawk’s movement.
 abilities:
 - name: Talons
@@ -36,8 +36,8 @@ abilities:
   t1: 4 damage
   t2: 7 damage
   t3: 10 damage
-  effect: 'The target is [[Grabbed|grabbed]] by the siege hawk. The siege hawk can have two targets
-    [[Grabbed|grabbed]] at a time. '
+  effect: 'The target is [[Grabbed\|grabbed]] by the siege hawk. The siege hawk can have two targets
+    [[Grabbed\|grabbed]] at a time. '
 - name: Bombs Away!
   type: Action
   roll: AGL RR
@@ -49,8 +49,8 @@ abilities:
   - Resistance
   distance: 5 cube within 10
   target: Each creature and object
-  t3: 7 fire damage; [[Restrained|restrained]] (EoT)
-  t2: 6 fire damage; [[Slowed|slowed]] (EoT)
+  t3: 7 fire damage; [[Restrained\|restrained]] (EoT)
+  t2: 6 fire damage; [[Slowed\|slowed]] (EoT)
   t1: 3 fire damage
   special: 'The siege hawk must be flying to use this ability. '
 - name: Dive

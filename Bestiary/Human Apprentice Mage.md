@@ -38,6 +38,6 @@ abilities:
   t2: 4 lightning damage
   t3: 5 lightning damage
   effect: If the apprentice mage doesn’t use a maneuver or a move action this turn,
-    the target is [[Slowed|slowed]] (EoT).
+    the target is [[Slowed\|slowed]] (EoT).
 
 ~~~

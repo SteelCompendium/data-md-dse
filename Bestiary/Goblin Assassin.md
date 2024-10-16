@@ -51,8 +51,8 @@ abilities:
   - Resistance
   distance: Ranged 10
   target: Three creatures
-  t3: 7 corruption damage; [[Restrained|restrained]] (AGL ends)
-  t2: 5 corruption damage; [[Restrained|restrained]] (EoT)
+  t3: 7 corruption damage; [[Restrained\|restrained]] (AGL ends)
+  t2: 5 corruption damage; [[Restrained\|restrained]] (EoT)
   t1: '3 corruption damage '
 
 ~~~

@@ -31,6 +31,6 @@ abilities:
   cost: Signature
   t1: 2 damage; slide 1
   t2: 5 damage; slide 2
-  t3: '6 damage; slide 3; [[Prone|prone]] '
+  t3: '6 damage; slide 3; [[Prone\|prone]] '
 
 ~~~

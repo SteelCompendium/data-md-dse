@@ -36,10 +36,10 @@ abilities:
   - Resistance
   distance: Ranged 10
   target: One creature
-  t3: 7 psychic damage; [[Weakened|weakened]] (PRS ends)
-  t2: 5 psychic damage; [[Weakened|weakened]] (EoT)
+  t3: 7 psychic damage; [[Weakened\|weakened]] (PRS ends)
+  t2: 5 psychic damage; [[Weakened\|weakened]] (EoT)
   t1: 3 psychic damage
-  effect: 'If the target makes an attack while [[Weakened|weakened]] this way, the bendrak can
+  effect: 'If the target makes an attack while [[Weakened\|weakened]] this way, the bendrak can
     choose a second target for the attack within the distance of the attack, then
     evenly divides any damage from the attack between the two targets. '
 - name: Vanish

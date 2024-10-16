@@ -36,9 +36,9 @@ abilities:
   - Weapon
   distance: Reach 2
   target: One creature
-  t1: 5 damage; [[Taunted|taunted]] (EoT)
-  t2: 8 damage; [[Taunted|taunted]] (EoT)
-  t3: '11 damage; [[Taunted|taunted]] (EoT) '
+  t1: 5 damage; [[Taunted\|taunted]] (EoT)
+  t2: 8 damage; [[Taunted\|taunted]] (EoT)
+  t3: '11 damage; [[Taunted\|taunted]] (EoT) '
 - name: Tongue Pull
   type: Maneuver
   keywords:

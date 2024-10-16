@@ -26,8 +26,8 @@ traits:
     enemy.
 abilities:
 - name: Caustic Detonator (Action) ◆ MGT RR ◆ Signature
-  t3: 7 acid damage; [[Bleeding|bleeding]] (MGT ends)
-  t2: 5 acid damage; [[Bleeding|bleeding]] (EoT)
+  t3: 7 acid damage; [[Bleeding\|bleeding]] (MGT ends)
+  t2: 5 acid damage; [[Bleeding\|bleeding]] (EoT)
   t1: 3 acid damage
 - name: Posthumous Promotion
   type: Maneuver

@@ -39,7 +39,7 @@ abilities:
   t1: 2 damage
   t2: 4 damage
   t3: 5 damage
-  effect: If this ability is used as part of the [[Charge]] action, the [[Raider|raider]] can make
-    a ranged [[Free Strike|free strike]] with a distance of 5 before using the ability.
+  effect: If this ability is used as part of the [[Charge]] action, the [[Raider\|raider]] can make
+    a ranged [[Free Strike\|free strike]] with a distance of 5 before using the ability.
 
 ~~~

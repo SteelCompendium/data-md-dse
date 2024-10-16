@@ -29,8 +29,8 @@ abilities:
   roll: 2d10 + 2
   cost: Signature
   t1: 4 sonic damage
-  t2: 8 sonic damage; [[Slowed|slowed]] (EoT)
-  t3: 10 sonic damage; [[Slowed|slowed]] (EoT); [[Prone|prone]]
+  t2: 8 sonic damage; [[Slowed\|slowed]] (EoT)
+  t3: 10 sonic damage; [[Slowed\|slowed]] (EoT); [[Prone\|prone]]
 - name: Buss Buffer
   type: Triggered Action
 

@@ -50,8 +50,8 @@ abilities:
   - Resistance
   distance: 5 cube within 1
   target: Each creature and object
-  t3: Slide 5; [[Slowed|slowed]] (MGT ends)
-  t2: Slide 3; [[Slowed|slowed]] (EoT)
+  t3: Slide 5; [[Slowed\|slowed]] (MGT ends)
+  t2: Slide 3; [[Slowed\|slowed]] (EoT)
   t1: Slide 1
   effect: 'The gust of wind disperses gas or vapor and extinguishes any flames, including
     persistent effects. '

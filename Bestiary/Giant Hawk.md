@@ -20,7 +20,7 @@ reason: -3
 presence: -2
 traits:
 - name: Mounted Platform
-  effect: Any creature riding the hawk can make a [[Free Strike|free strike]] during or after the
+  effect: Any creature riding the hawk can make a [[Free Strike\|free strike]] during or after the
     hawk’s movement.
 abilities:
 - name: Talons
@@ -36,7 +36,7 @@ abilities:
   t1: 3 damage
   t2: 5 damage
   t3: 7 damage
-  effect: 'The target is [[Grabbed|grabbed]] by the giant hawk. '
+  effect: 'The target is [[Grabbed\|grabbed]] by the giant hawk. '
 - name: Dive
   type: Maneuver
 

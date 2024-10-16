@@ -31,6 +31,6 @@ abilities:
   cost: Signature
   t1: 2 damage
   t2: 4 damage
-  t3: '5 damage; [[Dazed|dazed]] (EoT) '
+  t3: '5 damage; [[Dazed\|dazed]] (EoT) '
 
 ~~~

@@ -11,7 +11,7 @@ ev: 3
 stamina: 5
 immunities: []
 weaknesses: []
-speed: 5 ([[Fly|fly]])
+speed: 5 ([[Fly\|fly]])
 size: 1T
 stability: 0
 free_strike: 2
@@ -33,7 +33,7 @@ abilities:
   distance: Reach 1
   target: One creature or object per minion
   t1: 2 poison damage
-  t2: 3 poison damage; [[Slowed|slowed]] (EoT)
-  t3: 4 poison damage; [[Slowed|slowed]] (EoT)
+  t2: 3 poison damage; [[Slowed\|slowed]] (EoT)
+  t3: 4 poison damage; [[Slowed\|slowed]] (EoT)
 
 ~~~
