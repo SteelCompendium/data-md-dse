@@ -36,7 +36,9 @@ abilities:
   t1: 4 damage
   t2: 7 damage
   t3: 10 damage
-  effect: The trickshot doesn’t take a bane when using this ability in melee or against
-    a target with cover or concealment.
+  effects:
+  - name: Effect
+    effect: The trickshot doesn’t take a bane when using this ability in melee or
+      against a target with cover or concealment.
 
 ~~~

@@ -36,8 +36,10 @@ abilities:
   t1: 3 sonic damage; slide 1; the maestro can shift 1 square
   t2: 5 sonic damage; slide 3; the maestro can shift 3 squares
   t3: 7 sonic damage; slide 5; the maestro can shift 5 squares
-  effect: 'Each of the maestro''s allies can use Ready Rodent as a free triggered
-    action once before the end of the round. '
+  effects:
+  - name: Effect
+    effect: 'Each of the maestro''s allies can use Ready Rodent as a free triggered
+      action once before the end of the round. '
 - name: Tempo Change
   type: Maneuver
   keywords:
@@ -58,7 +60,9 @@ abilities:
   distance: Ranged 10
   target: One creature
   trigger: An ally deals damage to the target.
-  effect: 'The maestro makes a [[Free Strike|free strike]] against the target. '
+  effects:
+  - name: Effect
+    effect: 'The maestro makes a [[Free Strike|free strike]] against the target. '
 - name: Overture
   type: Villain Action
   cost: 1 VP
@@ -66,7 +70,9 @@ abilities:
   - Area
   distance: 10 burst
   target: Each ally
-  effect: 'Each target shifts up to their speed or takes the [[Defend]] action. '
+  effects:
+  - name: Effect
+    effect: 'Each target shifts up to their speed or takes the [[Defend]] action. '
 - name: Solo Act
   type: Villain Action
   cost: 2 VP
@@ -74,9 +80,11 @@ abilities:
   - Ranged
   distance: Ranged 15
   target: One creature
-  effect: 'Until the end of their next turn, the target''s stamina can''t be reduced
-    below 1, their speed is doubled, and their next power roll is automatically a
-    tier 3 result. '
+  effects:
+  - name: Effect
+    effect: 'Until the end of their next turn, the target''s stamina can''t be reduced
+      below 1, their speed is doubled, and their next power roll is automatically
+      a tier 3 result. '
 - name: Rondo of Rat
   type: Villain Action
   cost: 3 VP
@@ -84,8 +92,10 @@ abilities:
   - Area
   distance: 10 burst
   target: Each dead ally
-  effect: Each target stands, makes a [[Free Strike|free strike]], then collapses again. Allies of
-    the targets can use Ready Rodent as a free triggered action once in conjunction
-    with these [[Free Strike|free strikes]].
+  effects:
+  - name: Effect
+    effect: Each target stands, makes a [[Free Strike|free strike]], then collapses again. Allies
+      of the targets can use Ready Rodent as a free triggered action once in conjunction
+      with these [[Free Strike|free strikes]].
 
 ~~~

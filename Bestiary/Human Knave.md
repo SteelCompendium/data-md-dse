@@ -39,8 +39,10 @@ abilities:
   t1: 4 damage; [[Taunted|taunted]] (EoT)
   t2: 7 damage; [[Taunted|taunted]] (EoT)
   t3: 10 damage; [[Taunted|taunted]] (EoT)
-  effect: 'If an adjacent target [[Taunted|taunted]] by this ability harms a creature other than
-    the knave, the knave can make a [[Free Strike|free strike]] against the [[Taunted|taunted]] creature as a
-    free triggered action. '
+  effects:
+  - name: Effect
+    effect: 'If an adjacent target [[Taunted|taunted]] by this ability harms a creature other
+      than the knave, the knave can make a [[Free Strike|free strike]] against the [[Taunted|taunted]] creature
+      as a free triggered action. '
 
 ~~~

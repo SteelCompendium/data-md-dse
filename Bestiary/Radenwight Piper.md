@@ -35,8 +35,10 @@ abilities:
   t1: 3 sonic damage; push 1
   t2: 5 sonic damage; push 3
   t3: 7 sonic damage; push 4
-  effect: 'The piper or an ally within distance regains stamina equal to half the
-    damage dealt. '
+  effects:
+  - name: Effect
+    effect: 'The piper or an ally within distance regains stamina equal to half the
+      damage dealt. '
 - name: Vivace Vivace!
   type: Maneuver
   keywords:
@@ -44,8 +46,10 @@ abilities:
   - Magic
   distance: 5 burst
   target: Each ally
-  effect: 'Each target who has used their Ready Rodent ability since their last turn
-    regains the use of their triggered action. '
+  effects:
+  - name: Effect
+    effect: 'Each target who has used their Ready Rodent ability since their last
+      turn regains the use of their triggered action. '
 - name: Ready Rodent
   type: Triggered Action
   keywords:
@@ -54,6 +58,8 @@ abilities:
   distance: Reach 1
   target: One creature
   trigger: An ally deals damage to the target.
-  effect: The piper makes a [[Free Strike|free strike]] against the target.
+  effects:
+  - name: Effect
+    effect: The piper makes a [[Free Strike|free strike]] against the target.
 
 ~~~

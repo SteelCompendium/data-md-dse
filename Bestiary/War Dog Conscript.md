@@ -32,5 +32,15 @@ abilities:
   t1: 2 damage
   t2: 3 damage
   t3: 4 damage
+  effects:
+  - name: '**Keywords**'
+    effect: Attack, [[Charge]], Melee, Ranged, Weapon
+  - name: '**Distance**'
+    effect: Reach 1 or Ranged 5
+  - name: '**Target**'
+    effect: 'One creature per minion '
+  - name: '**Effect**'
+    effect: 'If this ability is used as part of the [[Charge]] action, the conscript gains
+      an edge on the power roll. '
 
 ~~~

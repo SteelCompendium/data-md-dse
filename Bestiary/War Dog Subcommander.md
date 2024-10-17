@@ -33,7 +33,26 @@ abilities:
   t1: 3 damage
   t2: 5 damage
   t3: 7 damage
+  effects:
+  - name: '**Keywords**'
+    effect: Attack, Melee, Weapon
+  - name: '**Distance**'
+    effect: Reach 1
+  - name: '**Target**'
+    effect: 'One creature or object '
+  - name: '**Effect**'
+    effect: 'One ally of the subcommander within 5 squares of them can make a free
+      strike against the target. '
 - name: Posthumous Promotion
   type: Maneuver
+  effects:
+  - name: '**Keywords**'
+    effect: Magic, Ranged
+  - name: '**Distance**'
+    effect: Ranged 10
+  - name: '**Target**'
+    effect: One war dog with a loyalty collar
+  - name: '**Effect**'
+    effect: 'The target’s loyalty collar detonates, killing them instantly. '
 
 ~~~

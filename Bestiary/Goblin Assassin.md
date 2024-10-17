@@ -39,8 +39,10 @@ abilities:
   t1: 3 damage
   t2: 5 damage
   t3: 7 damage
-  effect: 'If the assassin has an edge or a double edge on the power roll for this
-    ability, the ability deals an additional 2 damage. '
+  effects:
+  - name: Effect
+    effect: 'If the assassin has an edge or a double edge on the power roll for this
+      ability, the ability deals an additional 2 damage. '
 - name: [[Shadow]] Chains
   type: Action
   roll: AGL RR

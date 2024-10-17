@@ -39,9 +39,11 @@ abilities:
   t3: 7 psychic damage; [[Weakened|weakened]] (PRS ends)
   t2: 5 psychic damage; [[Weakened|weakened]] (EoT)
   t1: 3 psychic damage
-  effect: 'If the target makes an attack while [[Weakened|weakened]] this way, the bendrak can
-    choose a second target for the attack within the distance of the attack, then
-    evenly divides any damage from the attack between the two targets. '
+  effects:
+  - name: Effect
+    effect: 'If the target makes an attack while [[Weakened|weakened]] this way, the bendrak can
+      choose a second target for the attack within the distance of the attack, then
+      evenly divides any damage from the attack between the two targets. '
 - name: Vanish
   type: Maneuver
   keywords:
@@ -49,8 +51,10 @@ abilities:
   - Ranged
   distance: Ranged 10
   target: Self or one ally
-  effect: 'The target immediately becomes hidden, regardless of whether they have
-    cover or concealment. '
+  effects:
+  - name: Effect
+    effect: 'The target immediately becomes hidden, regardless of whether they have
+      cover or concealment. '
 weakness: Holy 3
 
 ~~~

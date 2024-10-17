@@ -40,8 +40,10 @@ abilities:
   t1: 5 damage; pull 1
   t2: 9 damage; pull 2
   t3: 12 damage; pull 3
-  effect: A target who is adjacent to the bandit chief after the attack is resolved
-    takes 9 corruption damage.
+  effects:
+  - name: Effect
+    effect: A target who is adjacent to the bandit chief after the attack is resolved
+      takes 9 corruption damage.
 - name: Kneel, Peasant!
   type: Maneuver
   keywords:
@@ -60,8 +62,10 @@ abilities:
   distance: Self
   target: Self
   trigger: The bandit chief makes a power roll for an attack.
-  effect: 'The bandit chief takes 4 corruption damage and increases the result of
-    the power roll by one tier. '
+  effects:
+  - name: Effect
+    effect: 'The bandit chief takes 4 corruption damage and increases the result of
+      the power roll by one tier. '
 - name: Shoot!
   type: Villain Action
   cost: 1 VP
@@ -69,7 +73,9 @@ abilities:
   - Area
   distance: 10 burst
   target: Each ally
-  effect: 'Each target can make a ranged [[Free Strike|free strike]]. '
+  effects:
+  - name: Effect
+    effect: 'Each target can make a ranged [[Free Strike|free strike]]. '
 - name: Form Up!
   type: Villain Action
   cost: 2 VP
@@ -77,9 +83,11 @@ abilities:
   - Area
   distance: 10 burst
   target: Each ally
-  effect: 'Each target shifts up to their speed. Until the end of the encounter, any
-    enemy takes a bane on attacks against the bandit chief or any of the bandit chief’s
-    allies if they are adjacent to that target. '
+  effects:
+  - name: Effect
+    effect: 'Each target shifts up to their speed. Until the end of the encounter,
+      any enemy takes a bane on attacks against the bandit chief or any of the bandit
+      chief’s allies if they are adjacent to that target. '
 - name: Lead From the Front
   type: Villain Action
   cost: 3 VP
@@ -88,8 +96,10 @@ abilities:
   - Weapon
   distance: Self
   target: Self
-  effect: The bandit chief shifts twice their speed. During or after this movement,
-    they can attack up to four targets with Whip & Magic Longsword. Any ally of the
-    bandit chief adjacent to a target can make a [[Free Strike|free strike]] against that target.
+  effects:
+  - name: Effect
+    effect: The bandit chief shifts twice their speed. During or after this movement,
+      they can attack up to four targets with Whip & Magic Longsword. Any ally of
+      the bandit chief adjacent to a target can make a [[Free Strike|free strike]] against that target.
 
 ~~~

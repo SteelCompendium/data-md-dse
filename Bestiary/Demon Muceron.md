@@ -47,7 +47,9 @@ abilities:
   - Weapon
   distance: Ranged 5
   target: Three creatures
-  effect: 'Each target is pulled 3 squares. '
+  effects:
+  - name: Effect
+    effect: 'Each target is pulled 3 squares. '
 weakness: Holy 3
 
 ~~~

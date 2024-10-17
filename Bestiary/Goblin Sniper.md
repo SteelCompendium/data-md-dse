@@ -37,7 +37,9 @@ abilities:
   t1: 2 damage
   t2: 4 damage
   t3: 5 damage
-  effect: 'If the [[Sniper|sniper]] doesn’t use a maneuver or a move action this turn, the ability
-    deals an extra 2 damage. '
+  effects:
+  - name: Effect
+    effect: 'If the [[Sniper|sniper]] doesn’t use a maneuver or a move action this turn, the
+      ability deals an extra 2 damage. '
 
 ~~~

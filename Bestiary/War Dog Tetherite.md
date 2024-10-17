@@ -35,5 +35,12 @@ abilities:
   t1: 2 damage
   t2: 4 damage
   t3: '5 damage '
+  effects:
+  - name: '**Keywords**'
+    effect: Attack, Melee, Weapon
+  - name: '**Distance**'
+    effect: Reach 2
+  - name: '**Target**'
+    effect: 'One creature or object per minion '
 
 ~~~

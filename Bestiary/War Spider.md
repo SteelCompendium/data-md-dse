@@ -58,9 +58,11 @@ abilities:
   - —
   distance: Self
   target: Self
-  effect: 'The spider shifts up to their speed and makes a Leg Blade attack against
-    each creature who comes within their reach during the move. The spider makes one
-    power roll against all targets. '
+  effects:
+  - name: Effect
+    effect: 'The spider shifts up to their speed and makes a Leg Blade attack against
+      each creature who comes within their reach during the move. The spider makes
+      one power roll against all targets. '
 - name: Web
   type: Maneuver
   roll: AGL RR

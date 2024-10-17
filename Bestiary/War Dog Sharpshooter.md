@@ -32,5 +32,14 @@ abilities:
   t1: 2 damage
   t2: 3 damage
   t3: 4 damage
+  effects:
+  - name: '**Keywords**'
+    effect: Attack, Ranged, Weapon
+  - name: '**Distance**'
+    effect: Ranged 5
+  - name: '**Target**'
+    effect: 'One creature or object per minion '
+  - name: '**Effect**'
+    effect: 'This ability ignores cover and concealment. '
 
 ~~~

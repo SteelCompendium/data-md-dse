@@ -53,7 +53,9 @@ abilities:
   t3: Slide 5; [[Slowed|slowed]] (MGT ends)
   t2: Slide 3; [[Slowed|slowed]] (EoT)
   t1: Slide 1
-  effect: 'The gust of wind disperses gas or vapor and extinguishes any flames, including
-    persistent effects. '
+  effects:
+  - name: Effect
+    effect: 'The gust of wind disperses gas or vapor and extinguishes any flames,
+      including persistent effects. '
 
 ~~~

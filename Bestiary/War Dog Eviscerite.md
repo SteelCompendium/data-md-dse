@@ -31,7 +31,25 @@ abilities:
   t1: 3 damage
   t2: 5 damage; pull 1
   t3: 7 damage; pull 2
+  effects:
+  - name: '**Keywords**'
+    effect: Attack, Melee, Weapon
+  - name: '**Distance**'
+    effect: Reach 3
+  - name: '**Target**'
+    effect: 'One creature or object '
+  - name: '**Effect**'
+    effect: 'The eviscerite can [[Grab|grab]] a target pulled adjacent to them by this ability. '
 - name: Posthumous Promotion
   type: Maneuver
+  effects:
+  - name: '**Keywords**'
+    effect: Magic, Ranged
+  - name: '**Distance**'
+    effect: Ranged 10
+  - name: '**Target**'
+    effect: One war dog with a loyalty collar
+  - name: '**Effect**'
+    effect: 'The target’s loyalty collar detonates, killing them instantly. '
 
 ~~~

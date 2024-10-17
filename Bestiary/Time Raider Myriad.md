@@ -32,5 +32,12 @@ abilities:
   t1: 2 damage; slide 1
   t2: 5 damage; slide 2
   t3: '6 damage; slide 3; [[Prone|prone]] '
+  effects:
+  - name: '**Keywords**'
+    effect: Attack, Melee, Psionic, Weapon
+  - name: '**Distance**'
+    effect: Reach 2
+  - name: '**Target**'
+    effect: 'One creature or object per minion '
 
 ~~~

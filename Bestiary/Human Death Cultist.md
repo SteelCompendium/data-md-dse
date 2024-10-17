@@ -44,9 +44,12 @@ abilities:
   - Area
   distance: 5 burst
   target: One or more dead minions
-  special: Each target must have died during this encounter
-  effect: Each target returns to life with their full Stamina, but they die at the
-    end of the encounter or if the death cultist is killed. If the target dies a second
-    time, they can be brought back to life by this ability again.
+  effects:
+  - name: Special
+    effect: Each target must have died during this encounter
+  - name: Effect
+    effect: Each target returns to life with their full Stamina, but they die at the
+      end of the encounter or if the death cultist is killed. If the target dies a
+      second time, they can be brought back to life by this ability again.
 
 ~~~

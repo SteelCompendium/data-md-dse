@@ -31,18 +31,83 @@ abilities:
   t1: 5 damage; pull 1
   t2: 8 damage; pull 2
   t3: 11 damage; pull 3
+  effects:
+  - name: '**Keywords**'
+    effect: Attack, Melee, Ranged, Weapon
+  - name: '**Distance**'
+    effect: Reach 1 or Ranged 5
+  - name: '**Target**'
+    effect: 'Two creatures or objects '
+  - name: '**Effect**'
+    effect: One ally within 10 squares of the commander can make a [[Free Strike|free strike]].
+  - name: '**1 VP**'
+    effect: 'A target who is adjacent to the ground commander after this ability is
+      resolved is [[Grabbed|grabbed]] (INU ends). This [[Grab|grab]] can’t be escaped using the Escape
+      [[Grab]] maneuver. The ground commander can [[Grab|grab]] up to two creatures at a time. '
 - name: Highest Posthumous Promotion
   type: Maneuver
+  effects:
+  - name: '**Keywords**'
+    effect: Area, Magic
+  - name: '**Distance**'
+    effect: 10 burst
+  - name: '**Target**'
+    effect: Each war dog with a loyalty collar
+  - name: '**Effect**'
+    effect: 'The target’s loyalty collar detonates, killing them instantly. '
 - name: Final Orders
   type: Triggered Action
+  effects:
+  - name: '**Keywords**'
+    effect: Magic, Ranged
+  - name: '**Distance**'
+    effect: Ranged 10
+  - name: '**Target**'
+    effect: One ally
+  - name: '**Trigger**'
+    effect: The target has a condition imposed on them, is force moved, or is killed.
+  - name: '**Effect**'
+    effect: 'The target can move up to their speed and make a [[Free Strike|free strike]] before the
+      triggering effect happens. '
 - name: Combined Arms
   type: Villain Action
   cost: 1 VP
+  effects:
+  - name: '**Keywords**'
+    effect: Area
+  - name: '**Distance**'
+    effect: 10 burst
+  - name: '**Target**'
+    effect: Each ally
+  - name: '**Effect**'
+    effect: 'Each target can make a ranged [[Free Strike|free strike]], then immediately use the [[Charge]]
+      action. '
 - name: Make an Example of Them
   type: Villain Action
   cost: 2 VP
+  effects:
+  - name: '**Keywords**'
+    effect: Magic, Ranged
+  - name: '**Distance**'
+    effect: Ranged 10
+  - name: '**Target**'
+    effect: One enemy
+  - name: '**Effect**'
+    effect: 'Each ally within 5 squares of the target can move up to their speed and
+      make a [[Free Strike|free strike]] against the target. The target is then [[Frightened|frightened]] of the
+      ground commander (INU ends). '
 - name: Claim Them for the Body Banks
   type: Villain Action
   cost: 3 VP
+  effects:
+  - name: '**Keywords**'
+    effect: Area, Magic
+  - name: '**Distance**'
+    effect: 10 burst
+  - name: '**Target**'
+    effect: Each ally
+  - name: '**Effect**'
+    effect: Each target can shift up to 2 squares and use the [[Grab]] maneuver. For the
+      rest of the encounter, any enemy takes a bane on the [[Escape Grab]] maneuver.
 
 ~~~

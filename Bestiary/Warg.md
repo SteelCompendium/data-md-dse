@@ -46,6 +46,8 @@ abilities:
   - —
   distance: Self
   target: Self
-  effect: 'The warg moves up to their speed. '
+  effects:
+  - name: Effect
+    effect: 'The warg moves up to their speed. '
 
 ~~~

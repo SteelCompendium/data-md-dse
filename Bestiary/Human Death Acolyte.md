@@ -37,6 +37,8 @@ abilities:
   t1: 2 corruption damage
   t2: 4 corruption damage
   t3: 5 corruption damage
-  effect: A creature within 5 squares of the death acolyte regains 1 Stamina.
+  effects:
+  - name: Effect
+    effect: A creature within 5 squares of the death acolyte regains 1 Stamina.
 
 ~~~

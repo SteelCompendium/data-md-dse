@@ -35,8 +35,10 @@ abilities:
   t1: 2 damage
   t2: 5 damage
   t3: 6 damage
-  effect: 'An ally of the redeye within 2 squares of the target can shift up to 2
-    squares. '
+  effects:
+  - name: Effect
+    effect: 'An ally of the redeye within 2 squares of the target can shift up to
+      2 squares. '
 - name: Ready Rodent
   type: Triggered Action
   keywords:
@@ -45,6 +47,8 @@ abilities:
   distance: Reach 1
   target: One creature
   trigger: An ally deals damage to the target.
-  effect: The redeye makes a [[Free Strike|free strike]] against the target.
+  effects:
+  - name: Effect
+    effect: The redeye makes a [[Free Strike|free strike]] against the target.
 
 ~~~

@@ -36,7 +36,9 @@ abilities:
   t1: 3 damage
   t2: 5 damage
   t3: 7 damage
-  effect: 'The target is [[Grabbed|grabbed]] by the giant hawk. '
+  effects:
+  - name: Effect
+    effect: 'The target is [[Grabbed|grabbed]] by the giant hawk. '
 - name: Dive
   type: Maneuver
 

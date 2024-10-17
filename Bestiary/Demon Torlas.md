@@ -39,9 +39,11 @@ abilities:
   t1: Slide 1
   t2: Slide 2
   t3: Slide 3
-  effect: 'The area turns into a morass of spongy flesh before the targets are force
-    moved. Until the start of the torlas’s next turn, the area is [[Difficult Terrain|difficult terrain]],
-    and each creature who moves within the area takes 1 damage for each square moved. '
+  effects:
+  - name: Effect
+    effect: 'The area turns into a morass of spongy flesh before the targets are force
+      moved. Until the start of the torlas’s next turn, the area is [[Difficult Terrain|difficult terrain]],
+      and each creature who moves within the area takes 1 damage for each square moved. '
 - name: Grasping Tendons
   type: Maneuver
   keywords:
@@ -49,7 +51,9 @@ abilities:
   - Ranged
   distance: Ranged 10
   target: Three creatures
-  effect: 'The torlas pulls the target up to 2 squares. '
+  effects:
+  - name: Effect
+    effect: 'The torlas pulls the target up to 2 squares. '
 weakness: Holy 3
 
 ~~~

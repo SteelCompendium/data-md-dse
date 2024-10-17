@@ -39,16 +39,20 @@ abilities:
   t1: 4 damage
   t2: 7 damage; [[Slowed|slowed]] (EoT)
   t3: 10 damage; [[Slowed|slowed]] (MGT ends)
-  effect: An ally within 10 squares of the blackguard can make a [[Free Strike|free strike]].
+  effects:
+  - name: Effect
+    effect: An ally within 10 squares of the blackguard can make a [[Free Strike|free strike]].
 - name: You!
   type: Maneuver
   keywords:
   - Ranged
   distance: Ranged 10
   target: One enemy
-  effect: 'The target is marked until the start of the blackguard’s next turn. The
-    blackguard and each of their allies gain an edge on attacks against any target
-    marked by the blackguard, and such attacks deal an extra 2 damage. '
+  effects:
+  - name: Effect
+    effect: 'The target is marked until the start of the blackguard’s next turn. The
+      blackguard and each of their allies gain an edge on attacks against any target
+      marked by the blackguard, and such attacks deal an extra 2 damage. '
 - name: [[Parry]]!
   type: Triggered Action
   keywords:
@@ -58,7 +62,9 @@ abilities:
   target: Self or one ally
   trigger: A creature targets the blackguard or an ally adjacent to the blackguard
     with an attack.
-  effect: 'The triggering attack’s damage is halved. '
+  effects:
+  - name: Effect
+    effect: 'The triggering attack’s damage is halved. '
 - name: Advance!
   type: Villain Action
   cost: 1 VP
@@ -66,8 +72,10 @@ abilities:
   - Weapon
   distance: Self
   target: Self
-  effect: 'The blackguard shifts up to their speed. During or after this movement,
-    they can make two Zweihander attacks. '
+  effects:
+  - name: Effect
+    effect: 'The blackguard shifts up to their speed. During or after this movement,
+      they can make two Zweihander attacks. '
 - name: Back!
   type: Villain Action
   cost: 2 VP
@@ -76,7 +84,9 @@ abilities:
   - Magic
   distance: 5 burst
   target: Each enemy
-  effect: 'The blackguard slides each target 5 squares. '
+  effects:
+  - name: Effect
+    effect: 'The blackguard slides each target 5 squares. '
 - name: I Can Throw My Blade and So Should You!
   type: Villain Action
   cost: 3 VP
@@ -87,8 +97,10 @@ abilities:
   - Weapon
   distance: 3 cube within 5
   target: Each enemy in the cube
-  effect: The blackguard makes a Zweihander attack against each enemy in the area,
-    making one power roll against all targets. Additionally, each ally within 5 squares
-    of the area can make a [[Free Strike|free strike]] against any enemy in the area.
+  effects:
+  - name: Effect
+    effect: The blackguard makes a Zweihander attack against each enemy in the area,
+      making one power roll against all targets. Additionally, each ally within 5
+      squares of the area can make a [[Free Strike|free strike]] against any enemy in the area.
 
 ~~~

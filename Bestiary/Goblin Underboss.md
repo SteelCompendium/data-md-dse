@@ -35,15 +35,19 @@ abilities:
   t1: 2 damage
   t2: 5 damage
   t3: 6 damage
-  effect: 'One ally of the underboss adjacent to the target can make a [[Free Strike|free strike]]
-    against them. '
+  effects:
+  - name: Effect
+    effect: 'One ally of the underboss adjacent to the target can make a [[Free Strike|free strike]]
+      against them. '
 - name: Get Reckless!
   type: Maneuver
   keywords:
   - Ranged
   distance: Ranged 10
   target: Each ally
-  effect: 'Until the start of the underboss’s next turn, each target gains an edge
-    on attacks, and attacks against them gain an edge. '
+  effects:
+  - name: Effect
+    effect: 'Until the start of the underboss’s next turn, each target gains an edge
+      on attacks, and attacks against them gain an edge. '
 
 ~~~

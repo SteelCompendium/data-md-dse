@@ -36,8 +36,10 @@ abilities:
   t1: 4 damage
   t2: 7 damage
   t3: 10 damage
-  effect: 'If the scoundrel has an edge or a double edge on the power roll for this
-    ability, the ability deals an extra 4 damage. '
+  effects:
+  - name: Effect
+    effect: 'If the scoundrel has an edge or a double edge on the power roll for this
+      ability, the ability deals an extra 4 damage. '
 - name: Dagger Storm
   type: Action
 

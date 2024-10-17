@@ -41,14 +41,18 @@ abilities:
   t1: 3 psychic damage
   t2: 5 psychic damage; [[Slowed|slowed]] (EoT)
   t3: 7 psychic damage; [[Slowed|slowed]] (INU ends)
-  effect: 'An ally within 10 squares of the chorogaunt can shift up to their speed. '
+  effects:
+  - name: Effect
+    effect: 'An ally within 10 squares of the chorogaunt can shift up to their speed. '
 - name: Chaotic Entrancing Harmony
   type: Maneuver
   keywords:
   - Area
   distance: 10 burst
   target: Each enemy
-  effect: 'Each target slides 3, ignoring their stability. '
+  effects:
+  - name: Effect
+    effect: 'Each target slides 3, ignoring their stability. '
 - name: I Thrive on Pain
   type: Triggered Action
   keywords:
@@ -56,8 +60,10 @@ abilities:
   distance: Self
   target: Self
   trigger: The chorogaunt is targeted by an attack.
-  effect: 'Any damage from the attack is halved, and the chorogaunt gains an edge
-    on all ability rolls until the end of their next turn. '
+  effects:
+  - name: Effect
+    effect: 'Any damage from the attack is halved, and the chorogaunt gains an edge
+      on all ability rolls until the end of their next turn. '
 - name: Frightening Tones
   type: Villain Action
   cost: 1 VP
@@ -65,8 +71,10 @@ abilities:
   - Ranged
   distance: Ranged 10
   target: Three enemies
-  effect: 'Each target either takes 5 psychic damage or is [[Frightened|frightened]] of the chorogaunt
-    (EoT). Each target gets to choose which to do. '
+  effects:
+  - name: Effect
+    effect: 'Each target either takes 5 psychic damage or is [[Frightened|frightened]] of the chorogaunt
+      (EoT). Each target gets to choose which to do. '
 - name: Bully the Weak
   type: Villain Action
   cost: 2 VP
@@ -75,8 +83,10 @@ abilities:
   - Ranged
   distance: Ranged 10
   target: One ally
-  effect: 'The chorogaunt kills the target, and each other ally gains an edge on attacks
-    until the end of the round. You gain VP equal to the number of heroes. '
+  effects:
+  - name: Effect
+    effect: 'The chorogaunt kills the target, and each other ally gains an edge on
+      attacks until the end of the round. You gain VP equal to the number of heroes. '
 - name: Running Cacophony
   type: Villain Action
   cost: 3 VP
@@ -84,8 +94,10 @@ abilities:
   - Magic
   distance: Self
   target: Self
-  effect: The chorogaunt shifts up to their speed, makes an Agonizing Harmony attack,
-    shifts up to their speed, and makes a second Agonizing Harmony attack.
+  effects:
+  - name: Effect
+    effect: The chorogaunt shifts up to their speed, makes an Agonizing Harmony attack,
+      shifts up to their speed, and makes a second Agonizing Harmony attack.
 weakness: Holy 3
 
 ~~~

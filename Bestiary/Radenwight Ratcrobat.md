@@ -36,15 +36,19 @@ abilities:
   t1: 2 damage
   t2: 5 damage
   t3: 6 damage
-  effect: 'The ratcrobat can shift up to 2 squares after attacking the first target,
-    then can shift 1 square after attacking the second target. '
+  effects:
+  - name: Effect
+    effect: 'The ratcrobat can shift up to 2 squares after attacking the first target,
+      then can shift 1 square after attacking the second target. '
 - name: Over Here, Thanks
   type: Maneuver
   keywords:
   - Melee
   distance: Reach 1
   target: One enemy
-  effect: 'Slide 1; the ratcrobat can then shift into the square the target left. '
+  effects:
+  - name: Effect
+    effect: 'Slide 1; the ratcrobat can then shift into the square the target left. '
 - name: Ready Rodent
   type: Triggered Action
   keywords:
@@ -53,6 +57,8 @@ abilities:
   distance: Reach 1
   target: One creature
   trigger: An ally deals damage to the target.
-  effect: 'The ratcrobat makes a [[Free Strike|free strike]] against the target. '
+  effects:
+  - name: Effect
+    effect: 'The ratcrobat makes a [[Free Strike|free strike]] against the target. '
 
 ~~~

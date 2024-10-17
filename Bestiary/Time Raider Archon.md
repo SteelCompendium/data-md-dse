@@ -32,5 +32,12 @@ abilities:
   t1: 2 damage
   t2: 4 damage
   t3: '5 damage; [[Dazed|dazed]] (EoT) '
+  effects:
+  - name: '**Keywords**'
+    effect: Attack, Melee, Psionic, Weapon
+  - name: '**Distance**'
+    effect: Reach 1
+  - name: '**Target**'
+    effect: 'One creature or object per minion '
 
 ~~~

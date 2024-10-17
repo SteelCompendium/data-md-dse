@@ -35,8 +35,10 @@ abilities:
   t1: 2 damage
   t2: 5 damage
   t3: 6 damage
-  effect: 'If the mischiever is hidden when they use this ability, they can target
-    two creatures. '
+  effects:
+  - name: Effect
+    effect: 'If the mischiever is hidden when they use this ability, they can target
+      two creatures. '
 - name: Ready Rodent
   type: Triggered Action
   keywords:
@@ -45,6 +47,8 @@ abilities:
   distance: Reach 1
   target: One creature
   trigger: An ally deals damage to the target.
-  effect: The mischiever makes a [[Free Strike|free strike]] against the target.
+  effects:
+  - name: Effect
+    effect: The mischiever makes a [[Free Strike|free strike]] against the target.
 
 ~~~
