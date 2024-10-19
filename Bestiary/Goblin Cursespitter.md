@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: Goblin Cursespitter
 ancestry:
 - Goblin
@@ -33,9 +33,9 @@ abilities:
   - Resistance
   distance: Ranged 10
   target: One creature
-  t3: 6 corruption damage; [[Weakened|weakened]] (INU ends)
+  t1: 6 corruption damage; [[Weakened|weakened]] (INU ends)
   t2: 5 corruption damage; [[Weakened|weakened]] (EoT)
-  t1: '2 corruption damage '
+  t3: '2 corruption damage '
 - name: Dizzying Hex
   type: Maneuver
   roll: INU RR
@@ -46,8 +46,8 @@ abilities:
   - Resistance
   distance: Ranged 10
   target: One creature
-  t3: [[Prone]] and can’t stand (INU ends)
+  t1: [[Prone]] and can’t stand (INU ends)
   t2: [[Prone]] and can’t stand (EoT)
-  t1: 'No effect '
+  t3: 'No effect '
 
-~~~
+```

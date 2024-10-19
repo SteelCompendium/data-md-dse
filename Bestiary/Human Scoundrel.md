@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: [[Human]] Scoundrel
 ancestry:
 - [[Human]]
@@ -42,5 +42,6 @@ abilities:
       ability, the ability deals an extra 4 damage. '
 - name: Dagger Storm
   type: Action
+  cost: 5 VP
 
-~~~
+```

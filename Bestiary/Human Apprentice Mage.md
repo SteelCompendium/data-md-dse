@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: [[Human]] Apprentice Mage
 ancestry:
 - [[Human]]
@@ -42,4 +42,4 @@ abilities:
     effect: If the apprentice mage doesn’t use a maneuver or a move action this turn,
       the target is [[Slowed|slowed]] (EoT).
 
-~~~
+```

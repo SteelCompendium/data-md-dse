@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: Warg
 ancestry:
 - Animal
@@ -42,6 +42,7 @@ abilities:
   t3: '6 damage '
 - name: Sprint
   type: Maneuver
+  cost: 1 VP
   keywords:
   - —
   distance: Self
@@ -50,4 +51,4 @@ abilities:
   - name: Effect
     effect: 'The warg moves up to their speed. '
 
-~~~
+```

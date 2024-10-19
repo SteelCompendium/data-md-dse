@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: Radenwight Ratcrobat
 ancestry:
 - Humanoid
@@ -61,4 +61,4 @@ abilities:
   - name: Effect
     effect: 'The ratcrobat makes a [[Free Strike|free strike]] against the target. '
 
-~~~
+```

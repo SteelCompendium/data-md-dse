@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: War Dog Portalite
 ancestry:
 - Humanoid
@@ -14,11 +14,11 @@ speed: 5 ([[Teleport|teleport]])
 size: 1M
 stability: 0
 free_strike: 3
-might: ''
-intuition: ''
-agility: ''
-reason: ''
-presence: ''
+might: 0
+intuition: 0
+agility: 1
+reason: 0
+presence: 0
 traits:
 - name: Loyalty Collar
   effect: When the portalite dies, they explode, dealing 1d6 damage to each adjacent
@@ -28,42 +28,40 @@ abilities:
   type: Action
   roll: 2d10 + 1
   cost: Signature
+  keywords:
+  - Attack
+  - Melee
+  - Ranged
+  - Weapon
+  distance: Reach 1 or Ranged 5
+  target: One creature or object
   t1: 3 damage; slide 1
   t2: 5 damage; slide 2
   t3: 7 damage; slide 3
   effects:
-  - name: '**Keywords**'
-    effect: Attack, Melee, Ranged, Weapon
-  - name: '**Distance**'
-    effect: Reach 1 or Ranged 5
-  - name: '**Target**'
-    effect: 'One creature or object '
-  - name: '**Effect**'
+  - name: Effect
     effect: The power roll gains an edge if any of the portalite’s allies are adjacent
       to the target.
   - name: '**1 VP**'
     effect: 'The portalite [[Teleport|teleports]] the target up to 3 squares before sliding them. '
 - name: Posthumous Promotion
   type: Maneuver
+  keywords:
+  - Magic
+  - Ranged
+  distance: Ranged 10
+  target: One war dog with a loyalty collar
   effects:
-  - name: '**Keywords**'
-    effect: Magic, Ranged
-  - name: '**Distance**'
-    effect: Ranged 10
-  - name: '**Target**'
-    effect: One war dog with a loyalty collar
-  - name: '**Effect**'
+  - name: Effect
     effect: 'The target’s loyalty collar detonates, killing them instantly. '
 - name: Corrupted Ash [[Teleport]] (Maneuver) ◆ 1 VP
+  keywords:
+  - Magic
+  distance: Self
+  target: Self
   effects:
-  - name: '**Keywords**'
-    effect: Magic
-  - name: '**Distance**'
-    effect: Self
-  - name: '**Target**'
-    effect: Self
-  - name: '**Effect**'
+  - name: Effect
     effect: 'The portalite [[Teleport|teleports]] up to 5 squares and gains an edge on attacks
       this turn. '
 
-~~~
+```

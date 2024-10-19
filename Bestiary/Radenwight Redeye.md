@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: Radenwight Redeye
 ancestry:
 - Humanoid
@@ -51,4 +51,4 @@ abilities:
   - name: Effect
     effect: The redeye makes a [[Free Strike|free strike]] against the target.
 
-~~~
+```

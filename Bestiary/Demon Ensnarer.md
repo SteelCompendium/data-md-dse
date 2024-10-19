@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: Demon Ensnarer
 ancestry:
 - Demon
@@ -10,7 +10,8 @@ level: 1
 ev: 6
 stamina: 10
 immunities: []
-weaknesses: []
+weaknesses:
+- Holy 3
 speed: '5'
 size: 1M
 stability: 0
@@ -37,6 +38,5 @@ abilities:
   t1: 2 damage; pull 1
   t2: 4 damage; pull 2
   t3: '5 damage; pull 3; [[Slowed|slowed]] (EoT) '
-weakness: Holy 3
 
-~~~
+```

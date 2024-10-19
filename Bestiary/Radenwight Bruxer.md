@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: Radenwight Bruxer
 ancestry:
 - Humanoid
@@ -62,4 +62,4 @@ abilities:
   - name: Effect
     effect: The bruxer makes a [[Free Strike|free strike]] against the target.
 
-~~~
+```

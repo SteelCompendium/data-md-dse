@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: Radenwight Piper
 ancestry:
 - Humanoid
@@ -41,6 +41,7 @@ abilities:
       damage dealt. '
 - name: Vivace Vivace!
   type: Maneuver
+  cost: 3 VP
   keywords:
   - Area
   - Magic
@@ -62,4 +63,4 @@ abilities:
   - name: Effect
     effect: The piper makes a [[Free Strike|free strike]] against the target.
 
-~~~
+```

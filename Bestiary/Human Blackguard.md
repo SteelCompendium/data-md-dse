@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: [[Human]] Blackguard
 ancestry:
 - [[Human]]
@@ -66,8 +66,7 @@ abilities:
   - name: Effect
     effect: 'The triggering attack’s damage is halved. '
 - name: Advance!
-  type: Villain Action
-  cost: 1 VP
+  type: Villain Action 1
   keywords:
   - Weapon
   distance: Self
@@ -77,8 +76,7 @@ abilities:
     effect: 'The blackguard shifts up to their speed. During or after this movement,
       they can make two Zweihander attacks. '
 - name: Back!
-  type: Villain Action
-  cost: 2 VP
+  type: Villain Action 2
   keywords:
   - Area
   - Magic
@@ -88,8 +86,7 @@ abilities:
   - name: Effect
     effect: 'The blackguard slides each target 5 squares. '
 - name: I Can Throw My Blade and So Should You!
-  type: Villain Action
-  cost: 3 VP
+  type: Villain Action 3
   keywords:
   - Area
   - Magic
@@ -103,4 +100,4 @@ abilities:
       making one power roll against all targets. Additionally, each ally within 5
       squares of the area can make a [[Free Strike|free strike]] against any enemy in the area.
 
-~~~
+```

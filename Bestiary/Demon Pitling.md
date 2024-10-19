@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: Demon Pitling
 ancestry:
 - Demon
@@ -10,7 +10,8 @@ level: 1
 ev: 2
 stamina: 4
 immunities: []
-weaknesses: []
+weaknesses:
+- Holy 3
 speed: 5 ([[Fly|fly]])
 size: 1T
 stability: 0
@@ -40,6 +41,5 @@ abilities:
   t1: 2 poison damage
   t2: 3 poison damage
   t3: '4 poison damage '
-weakness: Holy 3
 
-~~~
+```

@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: Goblin Monarch
 ancestry:
 - Goblin
@@ -45,6 +45,7 @@ abilities:
     effect: 'An ally within 10 squares of the monarch can make a [[Free Strike|free strike]]. '
 - name: Get in Here
   type: Maneuver
+  cost: 1 VP
   keywords:
   - Ranged
   distance: Ranged 20
@@ -63,8 +64,7 @@ abilities:
   - name: Effect
     effect: 'The ally becomes the target of the triggering attack instead. '
 - name: What Are You Waiting For?
-  type: Villain Action
-  cost: 1 VP
+  type: Villain Action 1
   keywords:
   - Area
   distance: 10 burst
@@ -73,8 +73,7 @@ abilities:
   - name: Effect
     effect: 'Each target can move up to their speed or make a [[Free Strike|free strike]]. '
 - name: Focus Fire
-  type: Villain Action
-  cost: 2 VP
+  type: Villain Action 2
   keywords:
   - Ranged
   distance: Ranged 10
@@ -84,8 +83,7 @@ abilities:
     effect: 'Each ally within 10 squares of the enemy can move up to their speed toward
       the enemy. '
 - name: Kill!
-  type: Villain Action
-  cost: 3 VP
+  type: Villain Action 3
   keywords:
   - Area
   distance: 10 burst
@@ -94,4 +92,4 @@ abilities:
   - name: Effect
     effect: Each target can make a [[Free Strike|free strike]] that deals an extra 1 damage.
 
-~~~
+```

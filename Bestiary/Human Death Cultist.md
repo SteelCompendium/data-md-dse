@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: [[Human]] Death Cultist
 ancestry:
 - [[Human]]
@@ -40,6 +40,7 @@ abilities:
   t3: 10 corruption damage; [[Weakened|weakened]] (INU ends)
 - name: Rise, My Minions
   type: Maneuver
+  cost: 1 VP per minion
   keywords:
   - Area
   distance: 5 burst
@@ -52,4 +53,4 @@ abilities:
       end of the encounter or if the death cultist is killed. If the target dies a
       second time, they can be brought back to life by this ability again.
 
-~~~
+```

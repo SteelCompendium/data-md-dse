@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: Demon Muceron
 ancestry:
 - Demon
@@ -9,7 +9,8 @@ level: 3
 ev: 18
 stamina: 45
 immunities: []
-weaknesses: []
+weaknesses:
+- Holy 3
 speed: '5'
 size: 1M
 stability: 0
@@ -41,6 +42,7 @@ abilities:
   t3: '11 damage; [[Taunted|taunted]] (EoT) '
 - name: Tongue Pull
   type: Maneuver
+  cost: 2 VP
   keywords:
   - Attack
   - Ranged
@@ -50,6 +52,5 @@ abilities:
   effects:
   - name: Effect
     effect: 'Each target is pulled 3 squares. '
-weakness: Holy 3
 
-~~~
+```

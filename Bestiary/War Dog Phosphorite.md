@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: War Dog Phosphorite
 ancestry:
 - Humanoid
@@ -15,28 +15,28 @@ speed: '5'
 size: 1M
 stability: 0
 free_strike: 2
-might: ''
-intuition: ''
-agility: ''
-reason: ''
-presence: ''
+might: 0
+intuition: 0
+agility: 1
+reason: 0
+presence: 0
 traits:
 - name: Loyalty Collar
   effect: When the phosphorite dies, they explode, dealing 1d6 damage to each adjacent
     enemy.
 abilities:
 - name: Caustic Detonator (Action) ◆ MGT RR ◆ Signature
-  t3: 7 acid damage; [[Bleeding|bleeding]] (MGT ends)
+  keywords:
+  - Magic
+  - Ranged
+  - Resistance
+  distance: Ranged 10
+  target: One creature or object
+  t1: 7 acid damage; [[Bleeding|bleeding]] (MGT ends)
   t2: 5 acid damage; [[Bleeding|bleeding]] (EoT)
-  t1: 3 acid damage
+  t3: 3 acid damage
   effects:
-  - name: '**Keywords**'
-    effect: Magic, Ranged, Resistance
-  - name: '**Distance**'
-    effect: Ranged 10
-  - name: '**Target**'
-    effect: One creature or object
-  - name: '**Effect**'
+  - name: Effect
     effect: 'A detonator attaches to the target. At the end of each round, roll a
       die. On an odd result, the detonator explodes, triggering the resistance roll. '
   - name: '**Special**'
@@ -46,14 +46,13 @@ abilities:
       onto another target within 5 squares. '
 - name: Posthumous Promotion
   type: Maneuver
+  keywords:
+  - Magic
+  - Ranged
+  distance: Ranged 10
+  target: One war dog with a loyalty collar
   effects:
-  - name: '**Keywords**'
-    effect: Magic, Ranged
-  - name: '**Distance**'
-    effect: Ranged 10
-  - name: '**Target**'
-    effect: One war dog with a loyalty collar
-  - name: '**Effect**'
+  - name: Effect
     effect: 'The target’s loyalty collar detonates, killing them instantly. '
 
-~~~
+```

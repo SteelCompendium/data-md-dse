@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: War Spider
 ancestry:
 - Animal
@@ -43,6 +43,7 @@ abilities:
   t3: '10 poison damage; [[Weakened|weakened]] (MGT ends) '
 - name: Leg Blade
   type: Action
+  cost: 2d10 + 2
   keywords:
   - Attack
   - Melee
@@ -54,6 +55,7 @@ abilities:
   t3: '10 damage '
 - name: Trample
   type: Action
+  cost: 5 VP
   keywords:
   - —
   distance: Self
@@ -72,8 +74,8 @@ abilities:
   - Resistance
   distance: 3 cube within 1
   target: Each creature
-  t3: [[Restrained]] (AGL ends)
+  t1: [[Restrained]] (AGL ends)
   t2: [[Restrained]] (EoT)
-  t1: 'No effect '
+  t3: 'No effect '
 
-~~~
+```

@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: Goblin [[Sniper]]
 ancestry:
 - Goblin
@@ -42,4 +42,4 @@ abilities:
     effect: 'If the [[Sniper|sniper]] doesn’t use a maneuver or a move action this turn, the
       ability deals an extra 2 damage. '
 
-~~~
+```

@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: [[Time Raider]] Armiger
 ancestry:
 - Humanoid
@@ -15,11 +15,11 @@ speed: '5'
 size: 1M
 stability: 0
 free_strike: 5
-might: ''
+might: 0
 intuition: ''
-agility: ''
-reason: ''
-presence: ''
+agility: 2
+reason: 2
+presence: 0
 traits:
 - name: Foresight
   effect: The armiger doesn’t take a bane on attacks against concealed creatures.
@@ -31,33 +31,35 @@ abilities:
   type: Action
   roll: 2d10 + 2
   cost: Signature
+  keywords:
+  - Attack
+  - Melee
+  - Psionic
+  - Weapon
+  distance: Reach 1
+  target: One creature or object
   t1: 5 damage
   t2: 8 damage; [[Weakened|weakened]] (EoT)
   t3: 11 damage; [[Weakened|weakened]] (REA ends)
   effects:
-  - name: '**Keywords**'
-    effect: Attack, Melee, Psionic, Weapon
-  - name: '**Distance**'
-    effect: Reach 1
-  - name: '**Target**'
-    effect: 'One creature or object '
-  - name: '**Effect**'
+  - name: Effect
     effect: 'The target takes a bane on the next attack they make before the start
       of the armiger’s next turn. '
 - name: Shared Sickness
   type: Triggered Action
-  t3: 11 poison damage
+  cost: REA RR
+  keywords:
+  - Psionic
+  - Ranged
+  - Resistance
+  distance: Ranged 20
+  target: Triggering creature
+  t1: 11 poison damage
   t2: 8 poison damage
-  t1: '5 poison damage '
+  t3: '5 poison damage '
   effects:
-  - name: '**Keywords**'
-    effect: Psionic, Ranged, Resistance
-  - name: '**Distance**'
-    effect: Ranged 20
-  - name: '**Target**'
-    effect: Triggering creature
   - name: '**Trigger**'
     effect: 'A creature deals damage to any ally of the armiger to whom the armiger
       has line of effect. '
 
-~~~
+```

@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: Goblin Stinker
 ancestry:
 - Goblin
@@ -52,4 +52,4 @@ abilities:
       area takes 2 poison damage for each square moved. The haze can’t be dispersed
       by wind. '
 
-~~~
+```

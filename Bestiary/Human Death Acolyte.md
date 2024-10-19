@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: [[Human]] Death Acolyte
 ancestry:
 - [[Human]]
@@ -41,4 +41,4 @@ abilities:
   - name: Effect
     effect: A creature within 5 squares of the death acolyte regains 1 Stamina.
 
-~~~
+```

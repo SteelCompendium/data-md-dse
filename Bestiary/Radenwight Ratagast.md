@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: Radenwight Ratagast
 ancestry:
 - Humanoid
@@ -47,4 +47,4 @@ abilities:
   - name: Effect
     effect: The ratagast makes a [[Free Strike|free strike]] against the target.
 
-~~~
+```

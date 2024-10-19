@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: [[Time Raider]] Archon
 ancestry:
 - Humanoid
@@ -16,11 +16,11 @@ speed: '7'
 size: 1M
 stability: 0
 free_strike: 2
-might: ''
-intuition: ''
-agility: ''
-reason: ''
-presence: ''
+might: 2
+intuition: 1
+agility: 2
+reason: 2
+presence: -1
 traits:
 - name: Foresight
   effect: The archon doesn’t take a bane on attacks against concealed creatures.
@@ -29,15 +29,15 @@ abilities:
   type: Action
   roll: 2d10 + 2
   cost: Signature
+  keywords:
+  - Attack
+  - Melee
+  - Psionic
+  - Weapon
+  distance: Reach 1
+  target: One creature or object per minion
   t1: 2 damage
   t2: 4 damage
   t3: '5 damage; [[Dazed|dazed]] (EoT) '
-  effects:
-  - name: '**Keywords**'
-    effect: Attack, Melee, Psionic, Weapon
-  - name: '**Distance**'
-    effect: Reach 1
-  - name: '**Target**'
-    effect: 'One creature or object per minion '
 
-~~~
+```

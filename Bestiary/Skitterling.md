@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: Skitterling
 ancestry:
 - Animal
@@ -36,4 +36,4 @@ abilities:
   t2: 3 poison damage; [[Slowed|slowed]] (EoT)
   t3: 4 poison damage; [[Slowed|slowed]] (EoT)
 
-~~~
+```

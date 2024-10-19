@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: [[Human]] Bandit Chief
 ancestry:
 - [[Human]]
@@ -67,8 +67,7 @@ abilities:
     effect: 'The bandit chief takes 4 corruption damage and increases the result of
       the power roll by one tier. '
 - name: Shoot!
-  type: Villain Action
-  cost: 1 VP
+  type: Villain Action 1
   keywords:
   - Area
   distance: 10 burst
@@ -77,8 +76,7 @@ abilities:
   - name: Effect
     effect: 'Each target can make a ranged [[Free Strike|free strike]]. '
 - name: Form Up!
-  type: Villain Action
-  cost: 2 VP
+  type: Villain Action 2
   keywords:
   - Area
   distance: 10 burst
@@ -89,8 +87,7 @@ abilities:
       any enemy takes a bane on attacks against the bandit chief or any of the bandit
       chief’s allies if they are adjacent to that target. '
 - name: Lead From the Front
-  type: Villain Action
-  cost: 3 VP
+  type: Villain Action 3
   keywords:
   - Attack
   - Weapon
@@ -102,4 +99,4 @@ abilities:
       they can attack up to four targets with Whip & Magic Longsword. Any ally of
       the bandit chief adjacent to a target can make a [[Free Strike|free strike]] against that target.
 
-~~~
+```

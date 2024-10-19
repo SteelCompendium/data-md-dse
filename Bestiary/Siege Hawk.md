@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: Siege Hawk
 ancestry:
 - Animal
@@ -51,13 +51,13 @@ abilities:
   - Resistance
   distance: 5 cube within 10
   target: Each creature and object
-  t3: 7 fire damage; [[Restrained|restrained]] (EoT)
+  t1: 7 fire damage; [[Restrained|restrained]] (EoT)
   t2: 6 fire damage; [[Slowed|slowed]] (EoT)
-  t1: 3 fire damage
+  t3: 3 fire damage
   effects:
   - name: Special
     effect: 'The siege hawk must be flying to use this ability. '
 - name: Dive
   type: Maneuver
 
-~~~
+```

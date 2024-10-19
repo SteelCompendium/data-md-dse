@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: Demon Bendrak
 ancestry:
 - Demon
@@ -9,7 +9,8 @@ level: 2
 ev: 11
 stamina: 20
 immunities: []
-weaknesses: []
+weaknesses:
+- Holy 3
 speed: '5'
 size: 1S
 stability: 0
@@ -36,9 +37,9 @@ abilities:
   - Resistance
   distance: Ranged 10
   target: One creature
-  t3: 7 psychic damage; [[Weakened|weakened]] (PRS ends)
+  t1: 7 psychic damage; [[Weakened|weakened]] (PRS ends)
   t2: 5 psychic damage; [[Weakened|weakened]] (EoT)
-  t1: 3 psychic damage
+  t3: 3 psychic damage
   effects:
   - name: Effect
     effect: 'If the target makes an attack while [[Weakened|weakened]] this way, the bendrak can
@@ -46,6 +47,7 @@ abilities:
       evenly divides any damage from the attack between the two targets. '
 - name: Vanish
   type: Maneuver
+  cost: 1 VP
   keywords:
   - Magic
   - Ranged
@@ -55,6 +57,5 @@ abilities:
   - name: Effect
     effect: 'The target immediately becomes hidden, regardless of whether they have
       cover or concealment. '
-weakness: Holy 3
 
-~~~
+```

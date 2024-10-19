@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: [[Time Raider]] Helix
 ancestry:
 - Humanoid
@@ -15,11 +15,11 @@ speed: 5 ([[Fly|fly]])
 size: 1M
 stability: 0
 free_strike: 5
-might: ''
-intuition: ''
-agility: ''
-reason: ''
-presence: ''
+might: 0
+intuition: 2
+agility: 2
+reason: 2
+presence: 2
 traits:
 - name: Foresight
   effect: The helix doesn’t take a bane on attacks against concealed creatures.
@@ -28,26 +28,26 @@ abilities:
   type: Action
   roll: 2d10 + 2
   cost: Signature
+  keywords:
+  - Attack
+  - Ranged
+  - Psionic
+  - Weapon
+  distance: Ranged 10
+  target: Three creatures
   t1: 4 corruption damage; push 2
   t2: 7 corruption damage; push 4
   t3: '10 corruption damage; push 6; [[Prone|prone]] '
-  effects:
-  - name: '**Keywords**'
-    effect: Attack, Ranged, Psionic, Weapon
-  - name: '**Distance**'
-    effect: Ranged 10
-  - name: '**Target**'
-    effect: 'Three creatures '
 - name: Kinetic Lane
   type: Maneuver
+  keywords:
+  - Area
+  - Psionic
+  - Ranged
+  distance: 4 × 2 line within 10
+  target: Special
   effects:
-  - name: '**Keywords**'
-    effect: Area, Psionic, Ranged
-  - name: '**Distance**'
-    effect: 4 × 2 line within 10
-  - name: '**Target**'
-    effect: Special
-  - name: '**Effect**'
+  - name: Effect
     effect: Until the start of the helix’s next turn, the area becomes a psionically
       charged treadmill that pushes creatures and objects at high speed in one direction
       of the helix’s choice. Any creature that moves into the area or starts their
@@ -58,4 +58,4 @@ abilities:
   - name: '**5 VP**'
     effect: 'The helix creates a second kinetic lane. '
 
-~~~
+```

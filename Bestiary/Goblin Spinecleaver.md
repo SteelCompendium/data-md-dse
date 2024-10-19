@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: Goblin Spinecleaver
 ancestry:
 - Goblin
@@ -38,4 +38,4 @@ abilities:
   t2: 4 damage; push 3
   t3: '5 damage; push 4 '
 
-~~~
+```

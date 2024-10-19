@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: Giant Hawk
 ancestry:
 - Animal
@@ -42,4 +42,4 @@ abilities:
 - name: Dive
   type: Maneuver
 
-~~~
+```

@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: Goblin Warrior
 ancestry:
 - Goblin
@@ -51,4 +51,4 @@ abilities:
   t2: 7 damage; [[Bleeding|bleeding]] (EoT)
   t3: '8 damage; [[Bleeding|bleeding]] (MGT ends) '
 
-~~~
+```

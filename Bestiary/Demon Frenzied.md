@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: Demon Frenzied
 ancestry:
 - Demon
@@ -10,7 +10,8 @@ level: 1
 ev: 4
 stamina: 8
 immunities: []
-weaknesses: []
+weaknesses:
+- Holy 3
 speed: '6'
 size: 1M
 stability: 0
@@ -38,6 +39,5 @@ abilities:
   t1: 2 damage
   t2: 3 damage
   t3: '4 damage '
-weakness: Holy 3
 
-~~~
+```

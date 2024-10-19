@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: [[Human]] Guard
 ancestry:
 - [[Human]]
@@ -38,4 +38,4 @@ abilities:
   t2: 5 damage
   t3: 6 damage
 
-~~~
+```

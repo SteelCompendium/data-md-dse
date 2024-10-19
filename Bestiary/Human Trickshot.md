@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: [[Human]] Trickshot
 ancestry:
 - [[Human]]
@@ -41,4 +41,4 @@ abilities:
     effect: The trickshot doesn’t take a bane when using this ability in melee or
       against a target with cover or concealment.
 
-~~~
+```

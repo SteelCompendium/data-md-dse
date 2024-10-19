@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: Demon Chorogaunt
 ancestry:
 - Demon
@@ -9,7 +9,8 @@ level: 3
 ev: 36
 stamina: 90
 immunities: []
-weaknesses: []
+weaknesses:
+- Holy 3
 speed: '5'
 size: 1M
 stability: 2
@@ -55,6 +56,7 @@ abilities:
     effect: 'Each target slides 3, ignoring their stability. '
 - name: I Thrive on Pain
   type: Triggered Action
+  cost: 3 VP
   keywords:
   - Magic
   distance: Self
@@ -65,8 +67,7 @@ abilities:
     effect: 'Any damage from the attack is halved, and the chorogaunt gains an edge
       on all ability rolls until the end of their next turn. '
 - name: Frightening Tones
-  type: Villain Action
-  cost: 1 VP
+  type: Villain Action 1
   keywords:
   - Ranged
   distance: Ranged 10
@@ -76,8 +77,7 @@ abilities:
     effect: 'Each target either takes 5 psychic damage or is [[Frightened|frightened]] of the chorogaunt
       (EoT). Each target gets to choose which to do. '
 - name: Bully the Weak
-  type: Villain Action
-  cost: 2 VP
+  type: Villain Action 2
   keywords:
   - Magic
   - Ranged
@@ -88,8 +88,7 @@ abilities:
     effect: 'The chorogaunt kills the target, and each other ally gains an edge on
       attacks until the end of the round. You gain VP equal to the number of heroes. '
 - name: Running Cacophony
-  type: Villain Action
-  cost: 3 VP
+  type: Villain Action 3
   keywords:
   - Magic
   distance: Self
@@ -98,6 +97,5 @@ abilities:
   - name: Effect
     effect: The chorogaunt shifts up to their speed, makes an Agonizing Harmony attack,
       shifts up to their speed, and makes a second Agonizing Harmony attack.
-weakness: Holy 3
 
-~~~
+```

@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: War Dog Tetherite
 ancestry:
 - Humanoid
@@ -15,11 +15,11 @@ speed: '5'
 size: 1M
 stability: 0
 free_strike: 2
-might: ''
-intuition: ''
-agility: ''
-reason: ''
-presence: ''
+might: 1
+intuition: 0
+agility: 0
+reason: 0
+presence: 0
 traits:
 - name: Tether
   effect: A captain attached to a tetherite squad has their Stability increased by
@@ -32,15 +32,14 @@ abilities:
   type: Action
   roll: 2d10 + 1
   cost: Signature
+  keywords:
+  - Attack
+  - Melee
+  - Weapon
+  distance: Reach 2
+  target: One creature or object per minion
   t1: 2 damage
   t2: 4 damage
   t3: '5 damage '
-  effects:
-  - name: '**Keywords**'
-    effect: Attack, Melee, Weapon
-  - name: '**Distance**'
-    effect: Reach 2
-  - name: '**Target**'
-    effect: 'One creature or object per minion '
 
-~~~
+```

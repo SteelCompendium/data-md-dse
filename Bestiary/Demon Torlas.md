@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: Demon Torlas
 ancestry:
 - Demon
@@ -9,7 +9,8 @@ level: 1
 ev: 9
 stamina: 15
 immunities: []
-weaknesses: []
+weaknesses:
+- Holy 3
 speed: '5'
 size: 1S
 stability: 0
@@ -54,6 +55,5 @@ abilities:
   effects:
   - name: Effect
     effect: 'The torlas pulls the target up to 2 squares. '
-weakness: Holy 3
 
-~~~
+```

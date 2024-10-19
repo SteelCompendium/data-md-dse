@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: War Dog Commando
 ancestry:
 - Humanoid
@@ -15,11 +15,11 @@ speed: '5'
 size: 1M
 stability: 0
 free_strike: 2
-might: ''
-intuition: ''
-agility: ''
-reason: ''
-presence: ''
+might: 0
+intuition: 0
+agility: 1
+reason: 0
+presence: 0
 traits:
 - name: Loyalty Collar
   effect: When the commando dies, they explode, dealing 1d6 damage to each adjacent
@@ -29,17 +29,18 @@ abilities:
   type: Action
   roll: 2d10 + 1
   cost: Signature
+  keywords:
+  - Attack
+  - Melee
+  - Ranged
+  - Weapon
+  distance: Reach 1 or Ranged 5
+  target: One creature per minion
   t1: 2 damage
   t2: 4 damage
   t3: 5 damage
   effects:
-  - name: '**Keywords**'
-    effect: Attack, Melee, Ranged, Weapon
-  - name: '**Distance**'
-    effect: Reach 1 or Ranged 5
-  - name: '**Target**'
-    effect: 'One creature per minion '
-  - name: '**Effect**'
+  - name: Effect
     effect: 'The commando can use the [[Hide]] maneuver, even if observed. '
 
-~~~
+```

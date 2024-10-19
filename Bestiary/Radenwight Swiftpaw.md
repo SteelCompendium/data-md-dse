@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: Radenwight Swiftpaw
 ancestry:
 - Humanoid
@@ -47,4 +47,4 @@ abilities:
   - name: Effect
     effect: The swiftpaw makes a [[Free Strike|free strike]] against the target.
 
-~~~
+```

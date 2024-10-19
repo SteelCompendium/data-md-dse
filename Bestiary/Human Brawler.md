@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: [[Human]] Brawler
 ancestry:
 - [[Human]]
@@ -45,6 +45,7 @@ abilities:
       gains an edge on attacks against the [[Grabbed|grabbed]] target. '
 - name: Throw
   type: Maneuver
+  cost: 1 VP
   keywords:
   - Melee
   distance: Reach 1
@@ -54,4 +55,4 @@ abilities:
     effect: 'The brawler pushes the creature they have [[Grabbed|grabbed]] 5 squares. This breaks
       the [[Grab|grab]]. '
 
-~~~
+```

@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: Demon Ruinant
 ancestry:
 - Demon
@@ -9,7 +9,8 @@ level: 1
 ev: 10
 stamina: 20
 immunities: []
-weaknesses: []
+weaknesses:
+- Holy 3
 speed: '6'
 size: 1M
 stability: 0
@@ -49,9 +50,8 @@ abilities:
   - Resistance
   distance: Ranged 10
   target: Three creatures without full Stamina
-  t3: 6 corruption damage
+  t1: 6 corruption damage
   t2: 5 corruption damage
-  t1: '2 corruption damage '
-weakness: Holy 3
+  t3: '2 corruption damage '
 
-~~~
+```

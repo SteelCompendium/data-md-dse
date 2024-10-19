@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: Goblin Runner
 ancestry:
 - Goblin
@@ -39,4 +39,4 @@ abilities:
   t2: 3 damage
   t3: '4 damage '
 
-~~~
+```

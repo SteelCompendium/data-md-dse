@@ -1,4 +1,4 @@
-~~~ds-statblock
+```ds-statblock
 name: [[Human]] Knave
 ancestry:
 - [[Human]]
@@ -45,4 +45,4 @@ abilities:
       than the knave, the knave can make a [[Free Strike|free strike]] against the [[Taunted|taunted]] creature
       as a free triggered action. '
 
-~~~
+```
