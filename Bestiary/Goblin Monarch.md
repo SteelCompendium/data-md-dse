@@ -72,7 +72,7 @@ abilities:
   effects:
   - name: Effect
     effect: 'Each target can move up to their speed or make a [[Free Strike|free strike]]. '
-- name: Focus Fire
+- name: [[Focus]] Fire
   type: Villain Action 2
   keywords:
   - Ranged
