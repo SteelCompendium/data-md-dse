@@ -12,4 +12,4 @@ kind: 1st-level features
 
 You gain the following ability:
 
-[[Essence|ESSENCE]]\[MANIPULATE EARTH (2 [[Essence|ESSENCE]])\](./Manipulate%20Earth%20(2%20ESSENCE).md)
+[[Essence|ESSENCE]]\[MANIPULATE EARTH (2 [[Essence|ESSENCE]])\](./Manipulate%20Earth%202%20Essence.md)

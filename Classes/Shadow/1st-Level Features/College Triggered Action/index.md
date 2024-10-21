@@ -18,4 +18,4 @@ Your college grants you a triggered action, as shown on the [[Shadow Triggered A
 
 [IN ALL THIS CONFUSION](./In%20All%20This%20Confusion.md)
 
-[[Insight|INSIGHT]]\[MISDIRECTION (1 [[Insight|INSIGHT]])\](./[[Misdirection]]%20(1%20INSIGHT).md)
+[[Insight|INSIGHT]]\[MISDIRECTION (1 [[Insight|INSIGHT]])\](./[[Misdirection]]%201%20Insight.md)

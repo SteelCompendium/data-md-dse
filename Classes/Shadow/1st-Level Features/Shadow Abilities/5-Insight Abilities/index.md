@@ -12,10 +12,10 @@ kind: 1st-level features
 
 Choose one [[Heroic Abilities|heroic ability]] from the following options, each of which costs 5 [[Insight|insight]] to use.
 
-[[Insight|INSIGHT]]\[ASSASSINATE (5 [[Insight|INSIGHT]])\](./[[Assassinate]]%20(5%20INSIGHT).md)
+[[Insight|INSIGHT]]\[ASSASSINATE (5 [[Insight|INSIGHT]])\](./[[Assassinate]]%205%20Insight.md)
 
-[[Insight|INSIGHT]]\[GET IN, GET OUT (5 [[Insight|INSIGHT]])\](./Get%20IN,%20Get%20Out%20(5%20INSIGHT).md)
+[[Insight|INSIGHT]]\[GET IN, GET OUT (5 [[Insight|INSIGHT]])\](./Get%20In%20Get%20Out%205%20Insight.md)
 
-[[Insight|INSIGHT]]\[IMPAIRING SHOT (5 [[Insight|INSIGHT]])\](./Impairing%20Shot%20(5%20INSIGHT).md)
+[[Insight|INSIGHT]]\[IMPAIRING SHOT (5 [[Insight|INSIGHT]])\](./Impairing%20Shot%205%20Insight.md)
 
-[[Insight|INSIGHT]]\[QUICKNESS (5 [[Insight|INSIGHT]])\](./[[Quickness]]%20(5%20INSIGHT).md)
+[[Insight|INSIGHT]]\[QUICKNESS (5 [[Insight|INSIGHT]])\](./[[Quickness]]%205%20Insight.md)

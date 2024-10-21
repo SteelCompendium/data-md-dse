@@ -12,10 +12,10 @@ kind: 1st-level features
 
 Choose one [[Heroic Abilities|heroic ability]] from the following options, each of which costs 5 [[Rage|rage]] to use.
 
-[[Rage|RAGE]]\[BLOOD FOR BLOOD! (5 [[Rage|RAGE]])\](./Blood%20For%20BLOOD!%20(5%20RAGE).md)
+[[Rage|RAGE]]\[BLOOD FOR BLOOD! (5 [[Rage|RAGE]])\](./Blood%20For%20Blood%205%20Rage.md)
 
-[[Rage|RAGE]]\[BRUTE PRECISION (5 [[Rage|RAGE]])\](./Brute%20Precision%20(5%20RAGE).md)
+[[Rage|RAGE]]\[BRUTE PRECISION (5 [[Rage|RAGE]])\](./Brute%20Precision%205%20Rage.md)
 
-[[Rage|RAGE]]\[DYING BLOW (5 [[Rage|RAGE]])\](./Dying%20Blow%20(5%20RAGE).md)
+[[Rage|RAGE]]\[DYING BLOW (5 [[Rage|RAGE]])\](./Dying%20Blow%205%20Rage.md)
 
-[[Rage|RAGE]]\[PRIMORDIAL SHOCKWAVE (5 [[Rage|RAGE]])\](./Primordial%20Shockwave%20(5%20RAGE).md)
+[[Rage|RAGE]]\[PRIMORDIAL SHOCKWAVE (5 [[Rage|RAGE]])\](./Primordial%20Shockwave%205%20Rage.md)
