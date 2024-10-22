@@ -2351,7 +2351,7 @@ Kuran’zoi possess resilient ocular sensors that allow them to see in the dark.
 
 ### PSI-TECH
 
-Like their synlirii foes, [[Time Raider|time raiders]] travel on mindships and wield psionic weapons and tools that only their people can activate. Many kuran’zoi specialize in melee weapons that psionically devastate enemies, but [[Raider]]\[\[Time [[Raider]] Vertex|time [[Raider|raider]] vertexes\]\] also learn to pilot enormous suits of psionic armor that empower their allies.
+Like their synlirii foes, [[Time Raider|time raiders]] travel on mindships and wield psionic weapons and tools that only their people can activate. Many kuran’zoi specialize in melee weapons that psionically devastate enemies, but [[Time Raider Vertex|time raider vertexes]] also learn to pilot enormous suits of psionic armor that empower their allies.
 
 ### GENRE RAIDERS
 
