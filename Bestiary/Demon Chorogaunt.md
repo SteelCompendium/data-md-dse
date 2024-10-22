@@ -55,7 +55,7 @@ abilities:
   - name: Effect
     effect: 'Each target slides 3, ignoring their stability. '
 - name: I Thrive on Pain
-  type: [[Triggered Action]]
+  type: Triggered Action
   cost: 3 VP
   keywords:
   - Magic

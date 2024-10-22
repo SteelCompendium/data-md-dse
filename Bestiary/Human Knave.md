@@ -43,6 +43,6 @@ abilities:
   - name: Effect
     effect: 'If an adjacent target [[Taunted|taunted]] by this ability harms a creature other
       than the knave, the knave can make a [[Free Strike|free strike]] against the [[Taunted|taunted]] creature
-      as a free [[Triggered Action|triggered action]]. '
+      as a free triggered action. '
 
 ```

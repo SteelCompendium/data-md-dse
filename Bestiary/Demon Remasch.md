@@ -44,7 +44,7 @@ abilities:
   - name: '**5 VP'
     effect: '** The remasch takes an adjacent creature with them when they [[Teleport|teleport]].
       The creature appears in an unoccupied space adjacent to the remasch’s destination. '
-- name: Grasping [[Shadow]]
+- name: Grasping Shadow
   type: Maneuver
   cost: 5 VP
   keywords:

@@ -56,7 +56,7 @@ abilities:
   - name: Effect
     effect: 'The target’s loyalty collar detonates, killing them instantly. '
 - name: Final Orders
-  type: [[Triggered Action]]
+  type: Triggered Action
   keywords:
   - Magic
   - Ranged

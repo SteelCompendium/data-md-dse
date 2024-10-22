@@ -54,7 +54,7 @@ abilities:
   - name: Effect
     effect: 'Two [[Goblin Runner|goblin runners]] appear in unoccupied spaces. '
 - name: Meat Shield
-  type: [[Triggered Action]]
+  type: Triggered Action
   keywords:
   - Melee
   distance: Reach 1
@@ -72,7 +72,7 @@ abilities:
   effects:
   - name: Effect
     effect: 'Each target can move up to their speed or make a [[Free Strike|free strike]]. '
-- name: [[Focus]] Fire
+- name: Focus Fire
   type: Villain Action 2
   keywords:
   - Ranged

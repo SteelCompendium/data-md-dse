@@ -56,7 +56,7 @@ abilities:
   t2: Push 2; [[Prone|prone]]
   t3: Push 3; [[Prone|prone]]
 - name: Bloodstones
-  type: [[Triggered Action]]
+  type: Triggered Action
   keywords:
   - Magic
   distance: Self

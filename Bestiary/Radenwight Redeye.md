@@ -40,7 +40,7 @@ abilities:
     effect: 'An ally of the redeye within 2 squares of the target can shift up to
       2 squares. '
 - name: Ready Rodent
-  type: [[Triggered Action]]
+  type: Triggered Action
   keywords:
   - Melee
   - Weapon

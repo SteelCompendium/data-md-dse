@@ -54,7 +54,7 @@ abilities:
       blackguard and each of their allies gain an edge on attacks against any target
       marked by the blackguard, and such attacks deal an extra 2 damage. '
 - name: [[Parry]]!
-  type: [[Triggered Action]]
+  type: Triggered Action
   keywords:
   - Melee
   - Weapon

@@ -58,7 +58,7 @@ abilities:
     effect: 'Each target is psionically lifted into the air and can [[Fly|fly]] up to their
       speed. If a target doesn’t land in an unoccupied space, they fall. '
 - name: Precog Reflexes
-  type: [[Triggered Action]]
+  type: Triggered Action
   keywords:
   - Psionic
   - Ranged

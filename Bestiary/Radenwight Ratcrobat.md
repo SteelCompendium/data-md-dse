@@ -50,7 +50,7 @@ abilities:
   - name: Effect
     effect: 'Slide 1; the ratcrobat can then shift into the square the target left. '
 - name: Ready Rodent
-  type: [[Triggered Action]]
+  type: Triggered Action
   keywords:
   - Melee
   - Weapon
