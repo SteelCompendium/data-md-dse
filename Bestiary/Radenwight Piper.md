@@ -50,9 +50,9 @@ abilities:
   effects:
   - name: Effect
     effect: 'Each target who has used their Ready Rodent ability since their last
-      turn regains the use of their triggered action. '
+      turn regains the use of their [[Triggered Action|triggered action]]. '
 - name: Ready Rodent
-  type: Triggered Action
+  type: [[Triggered Action]]
   keywords:
   - Melee
   - Weapon

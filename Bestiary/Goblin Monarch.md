@@ -54,7 +54,7 @@ abilities:
   - name: Effect
     effect: 'Two [[Goblin Runner|goblin runners]] appear in unoccupied spaces. '
 - name: Meat Shield
-  type: Triggered Action
+  type: [[Triggered Action]]
   keywords:
   - Melee
   distance: Reach 1

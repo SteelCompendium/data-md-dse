@@ -40,7 +40,7 @@ abilities:
     effect: 'If the mischiever is hidden when they use this ability, they can target
       two creatures. '
 - name: Ready Rodent
-  type: Triggered Action
+  type: [[Triggered Action]]
   keywords:
   - Melee
   - Weapon

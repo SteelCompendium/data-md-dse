@@ -36,7 +36,7 @@ abilities:
   t2: 4 damage; slide 2; the swiftpaw can shift 2 squares
   t3: '5 damage; slide 3; the swiftpaw can shift 3 squares '
 - name: Ready Rodent
-  type: Triggered Action
+  type: [[Triggered Action]]
   keywords:
   - Melee
   - Weapon

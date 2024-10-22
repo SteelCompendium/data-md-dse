@@ -54,7 +54,7 @@ abilities:
   t3: 'No effect  5 VP: Each ally of the maestro within distance has their speed increased
     by 2 until the end of their next turn. '
 - name: Ranged Ready Rodent
-  type: Triggered Action
+  type: [[Triggered Action]]
   keywords:
   - Magic
   - Ranged
@@ -93,7 +93,7 @@ abilities:
   effects:
   - name: Effect
     effect: Each target stands, makes a [[Free Strike|free strike]], then collapses again. Allies
-      of the targets can use Ready Rodent as a free triggered action once in conjunction
+      of the targets can use Ready Rodent as a free [[Triggered Action|triggered action]] once in conjunction
       with these [[Free Strike|free strikes]].
 
 ```

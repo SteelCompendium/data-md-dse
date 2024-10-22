@@ -43,7 +43,7 @@ abilities:
     effect: 'A layer of ground or floor beneath the area that is 1 square deep is
       destroyed. '
 - name: Buss Buffer
-  type: Triggered Action
+  type: [[Triggered Action]]
   keywords:
   - Area
   - Psionic

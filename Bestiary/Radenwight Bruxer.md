@@ -51,7 +51,7 @@ abilities:
   t2: 8 damage
   t3: '10 damage; [[Bleeding|bleeding]] (EoT) '
 - name: Ready Rodent
-  type: Triggered Action
+  type: [[Triggered Action]]
   keywords:
   - Melee
   - Weapon

@@ -46,7 +46,7 @@ abilities:
     effect: 'The target takes a bane on the next attack they make before the start
       of the armiger’s next turn. '
 - name: Shared Sickness
-  type: Triggered Action
+  type: [[Triggered Action]]
   cost: REA RR
   keywords:
   - Psionic
