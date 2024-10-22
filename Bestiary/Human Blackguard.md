@@ -53,7 +53,7 @@ abilities:
     effect: 'The target is marked until the start of the blackguard’s next turn. The
       blackguard and each of their allies gain an edge on attacks against any target
       marked by the blackguard, and such attacks deal an extra 2 damage. '
-- name: [[Parry]]!
+- name: Parry!
   type: Triggered Action
   keywords:
   - Melee
