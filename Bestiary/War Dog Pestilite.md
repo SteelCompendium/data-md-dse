@@ -19,23 +19,26 @@ might: 0
 intuition: 0
 agility: 1
 reason: 0
-presence: 1
+presence: 2
 traits:
 - name: Loyalty Collar
   effect: When the pestilite dies, they explode, dealing 1d6 damage to each adjacent
     enemy.
 abilities:
-- name: Plaguecaster (Action) ◆ INU RR ◆ Signature
+- name: Plaguecaster
+  type: Action
+  roll: 2d10 + 2
+  cost: Signature
   keywords:
   - Area
   - Magic
   - Ranged
   - Resistance
   distance: 3 cube within 10
-  target: Each creature
-  t1: 8 poison damage; [[Frightened|frightened]] (INU ends)
-  t2: 5 poison damage; [[Frightened|frightened]] (EoT)
-  t3: 2 poison damage
+  target: Each creature in the cube
+  t1: 2 poison damage; I1 [[Frightened|frightened]] (save ends)
+  t2: 5 poison damage; I2 [[Frightened|frightened]] (save ends)
+  t3: 8 poison damage; I3 [[Frightened|frightened]] (save ends)
   effects:
   - name: Effect
     effect: 'The area is covered in a cloud of pestilence that lasts until the start

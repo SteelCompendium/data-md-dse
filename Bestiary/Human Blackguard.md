@@ -4,7 +4,7 @@ ancestry:
 - [[Human]]
 - Humanoid
 roles:
-- Boss
+- Leader
 level: 1
 ev: 38
 stamina: 80
@@ -16,75 +16,78 @@ speed: '5'
 size: 1M
 stability: 2
 free_strike: 4
-might: 2
+might: 3
 intuition: 0
 agility: 2
 reason: 2
 presence: 2
 traits:
 - name: End Effect
-  effect: At the end of their turn, the blackguard can take 5 damage to end one EoE
-    effect affecting them. This damage can’t be reduced in any way.
+  effect: At the end of their turn, the blackguard can take 5 damage to end one "save
+    ends" effect affecting them. This damage can’t be reduced in any way.
+- name: Heightened Supernatural Insight
+  effect: The blackguard can target supernatural creatures and objects within 15 squares,
+    even if they don’t have line of effect.
 abilities:
-- name: Zweihander
+- name: Zweihander Swing
   type: Action
-  roll: 2d10 + 2
+  roll: 2d10 + 3
   cost: Signature
   keywords:
-  - Attack
+  - Area
   - Melee
   - Weapon
-  distance: Reach 1
-  target: Each adjacent enemy
-  t1: 4 damage
-  t2: 7 damage; [[Slowed|slowed]] (EoT)
-  t3: 10 damage; [[Slowed|slowed]] (MGT ends)
+  distance: 1 burst
+  target: All enemies in the burst
+  t1: 4 damage; M2 [[Slowed|slowed]] (save ends)
+  t2: 7 damage; M3 [[Slowed|slowed]] (save ends)
+  t3: 10 damage; M4 [[Slowed|slowed]] (save ends)
   effects:
   - name: Effect
-    effect: An ally within 10 squares of the blackguard can make a [[Free Strike|free strike]].
+    effect: 'An ally within 10 squares of the blackguard can make a [[Free Strike|free strike]]. 1
+      Malice: The ally can use their signature action instead. '
 - name: You!
   type: Maneuver
   keywords:
-  - Ranged
+  - —
   distance: Ranged 10
   target: One enemy
   effects:
   - name: Effect
     effect: 'The target is marked until the start of the blackguard’s next turn. The
-      blackguard and each of their allies gain an edge on attacks against any target
-      marked by the blackguard, and such attacks deal an extra 2 damage. '
+      blackguard and each of their allies gain an edge and advantage on attacks against
+      targets marked by the blackguard. '
 - name: Parry!
   type: Triggered Action
   keywords:
-  - Melee
-  - Weapon
-  distance: Reach 1
+  - —
+  distance: Melee 1
   target: Self or one ally
   trigger: A creature targets the blackguard or an ally adjacent to the blackguard
     with an attack.
   effects:
   - name: Effect
     effect: 'The triggering attack’s damage is halved. '
-- name: Advance!
+- name: [[Advance]]!
   type: Villain Action 1
   keywords:
-  - Weapon
+  - —
   distance: Self
   target: Self
   effects:
   - name: Effect
     effect: 'The blackguard shifts up to their speed. During or after this movement,
-      they can make two Zweihander attacks. '
+      they can use their Zweihander Swing ability twice. '
 - name: Back!
   type: Villain Action 2
   keywords:
   - Area
   - Magic
   distance: 5 burst
-  target: Each enemy
+  target: All enemies in the burst
   effects:
   - name: Effect
-    effect: 'The blackguard slides each target 5 squares. '
+    effect: 'Slide 5 squares. '
 - name: I Can Throw My Blade and So Should You!
   type: Villain Action 3
   keywords:
@@ -96,8 +99,8 @@ abilities:
   target: Each enemy in the cube
   effects:
   - name: Effect
-    effect: The blackguard makes a Zweihander attack against each enemy in the area,
-      making one power roll against all targets. Additionally, each ally within 5
-      squares of the area can make a [[Free Strike|free strike]] against any enemy in the area.
+    effect: The blackguard uses their Zweihander Swing ability against each enemy
+      in the area. Each ally within 5 squares of the area can make a [[Free Strike|free strike]] against
+      any enemy in the area.
 
 ```

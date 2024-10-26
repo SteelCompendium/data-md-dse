@@ -16,7 +16,7 @@ stability: 1
 free_strike: 2
 might: 1
 intuition: 0
-agility: 1
+agility: 2
 reason: -1
 presence: -1
 traits:
@@ -28,21 +28,21 @@ traits:
 abilities:
 - name: Bite
   type: Action
-  roll: 2d10 + 1
+  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
   - [[Charge]]
   - Melee
   - Weapon
-  distance: Reach 1
+  distance: Melee 1
   target: One creature or object
   t1: 2 damage
   t2: 5 damage
   t3: '6 damage '
 - name: Sprint
   type: Maneuver
-  cost: 1 VP
+  cost: 1 Malice
   keywords:
   - —
   distance: Self

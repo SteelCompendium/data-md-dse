@@ -21,12 +21,15 @@ might: 0
 intuition: 0
 agility: 1
 reason: 0
-presence: 1
-traits: []
+presence: 2
+traits:
+- name: Studied Supernatural Insight
+  effect: The apprentice can target supernatural creatures and objects within 10 squares,
+    even if they don’t have line of effect.
 abilities:
 - name: Lightning Strike
   type: Action
-  roll: 2d10 + 1
+  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -39,7 +42,7 @@ abilities:
   t3: 5 lightning damage
   effects:
   - name: Effect
-    effect: If the apprentice mage doesn’t use a maneuver or a move action this turn,
-      the target is [[Slowed|slowed]] (EoT).
+    effect: 'If the apprentice mage doesn’t use a maneuver or a move action this turn,
+      the target is [[Slowed|slowed]] (EoT). '
 
 ```

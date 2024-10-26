@@ -14,25 +14,27 @@ speed: 5 (climb)
 size: 1M
 stability: 2
 free_strike: 5
-might: 1
+might: 2
 intuition: 0
 agility: 1
 reason: -1
 presence: 0
-traits: []
+traits:
+- name: Lockdown
+  effect: An enemy can’t shift while adjacent to the bruxer.
 abilities:
 - name: Lockjaw
   type: Action
-  roll: 2d10 + 1
+  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
   - Melee
   - Weapon
-  distance: Reach 1
+  distance: Melee 1
   target: One creature or object
-  t1: 5 damage
-  t2: 9 damage; [[Grabbed|grabbed]]
+  t1: 5 damage; M2 [[Grabbed|grabbed]]
+  t2: 9 damage; M3 [[Grabbed|grabbed]]
   t3: 12 damage; [[Grabbed|grabbed]]
   effects:
   - name: Effect
@@ -40,26 +42,26 @@ abilities:
       of the bruxer’s turns. '
 - name: Flurry of Bites
   type: Action
-  roll: 2d10 + 1
-  cost: 3 VP
+  roll: 2d10 + 2
+  cost: 3 Malice
   keywords:
   - Area
   - Weapon
   distance: 1 burst
-  target: Each enemy
-  t1: 4 damage
-  t2: 8 damage
-  t3: '10 damage; [[Bleeding|bleeding]] (EoT) '
+  target: All enemies in the burst
+  t1: 3 damage; A1 [[Bleeding|bleeding]] (save ends)
+  t2: 5 damage; A2 [[Bleeding|bleeding]] (save ends)
+  t3: '6 damage; A3 [[Bleeding|bleeding]] (save ends) '
 - name: Ready Rodent
   type: Triggered Action
   keywords:
   - Melee
   - Weapon
-  distance: Reach 1
+  distance: Melee 1
   target: One creature
   trigger: An ally deals damage to the target.
   effects:
   - name: Effect
-    effect: The bruxer makes a [[Free Strike|free strike]] against the target.
+    effect: 'The bruxer makes a [[Free Strike|free strike]] against the target. '
 
 ```

@@ -1,45 +1,45 @@
 ```ds-statblock
 name: Demon Bendrak
-ancestry:
-- Demon
-- Planar
-roles:
-- Hexer
-level: 2
-ev: 11
-stamina: 20
+ancestry: []
+roles: []
+level: ''
+ev: ''
+stamina: ''
 immunities: []
-weaknesses:
-- Holy 3
-speed: '5'
-size: 1S
-stability: 0
-free_strike: 2
+weaknesses: []
+speed: ''
+size: ''
+stability: ''
+free_strike: ''
 might: 0
-intuition: 0
+intuition: ''
 agility: 1
 reason: 0
-presence: 1
+presence: 2
 traits:
+- name: LEVEL 2 HEXER
+  effect: ''
+- name: Demon, Planar EV 11
+  effect: '**Stamina:** 20 **Weakness:** Holy 3 **Speed:** 5 **Size:** 1S / Stability
+    0 **[[Free Strike]]:** 3'
 - name: Lethe
   effect: While winded, the bendrak has an edge on attacks, and attacks have an edge
     against them.
 - name: Soulsight
-  effect: Each creature within 2 squares of the bendrak can’t be hidden from them.
+  effect: Each creature within 2 of the bendrak can’t be hidden from them.
 abilities:
 - name: Warp Perceptions
   type: Action
-  roll: PRS RR
+  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Magic
   - Ranged
-  - Resistance
   distance: Ranged 10
   target: One creature
-  t1: 7 psychic damage; [[Weakened|weakened]] (PRS ends)
-  t2: 5 psychic damage; [[Weakened|weakened]] (EoT)
-  t3: 3 psychic damage
+  t1: 3 psychic damage; P1 [[Weakened|weakened]] (save ends)
+  t2: 5 psychic damage; P2 [[Weakened|weakened]] (save ends)
+  t3: 7 psychic damage; P3 [[Weakened|weakened]] (save ends)
   effects:
   - name: Effect
     effect: 'If the target makes an attack while [[Weakened|weakened]] this way, the bendrak can
@@ -47,7 +47,7 @@ abilities:
       evenly divides any damage from the attack between the two targets. '
 - name: Vanish
   type: Maneuver
-  cost: 1 VP
+  cost: 1 Malice
   keywords:
   - Magic
   - Ranged

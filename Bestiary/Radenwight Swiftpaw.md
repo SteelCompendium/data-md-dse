@@ -17,20 +17,20 @@ stability: 0
 free_strike: 2
 might: 0
 intuition: 0
-agility: 1
+agility: 2
 reason: 1
 presence: -1
 traits: []
 abilities:
 - name: Rapier Flunge
   type: Action
-  roll: 2d10 + 1
+  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
   - Melee
   - Weapon
-  distance: Reach 1
+  distance: Melee 1
   target: One creature or object per minion
   t1: 2 damage; slide 1; the swiftpaw can shift 1 square
   t2: 4 damage; slide 2; the swiftpaw can shift 2 squares
@@ -40,7 +40,7 @@ abilities:
   keywords:
   - Melee
   - Weapon
-  distance: Reach 1
+  distance: Melee 1
   target: One creature
   trigger: An ally deals damage to the target.
   effects:

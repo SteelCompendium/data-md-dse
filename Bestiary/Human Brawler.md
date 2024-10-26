@@ -16,43 +16,45 @@ speed: '5'
 size: 1M
 stability: 0
 free_strike: 4
-might: 1
+might: 2
 intuition: 0
-agility: 0
+agility: 1
 reason: 0
 presence: 0
 traits:
 - name: Shoot the Hostage
-  effect: The brawler takes half damage from attacks if they have an enemy [[Grabbed|grabbed]].
-    They then apply the remaining damage to the [[Grabbed|grabbed]] enemy.
+  effect: The brawler takes half damage from attacks if they have a creature or object
+    [[Grabbed|grabbed]]. The [[Grabbed|grabbed]] creature or object takes the other half of the damage.
+- name: Supernatural Insight
+  effect: The brawler can target supernatural creatures and objects within 5 squares,
+    even if they don’t have line of effect.
 abilities:
 - name: Haymaker
   type: Action
-  roll: 2d10 + 1
+  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
   - Melee
   - Weapon
-  distance: Reach 1
+  distance: Melee 1
   target: One creature or object
-  t1: 4 damage
-  t2: 7 damage; [[Grabbed|grabbed]]
-  t3: 10 damage; [[Grabbed|grabbed]]
+  t1: 4 damage; M1 [[Grabbed|grabbed]]
+  t2: 7 damage; M2 [[Grabbed|grabbed]]
+  t3: 10 damage; M3 [[Grabbed|grabbed]]
   effects:
   - name: Effect
-    effect: 'The target takes a bane on attempts to escape the [[Grab|grab]], and the brawler
-      gains an edge on attacks against the [[Grabbed|grabbed]] target. '
+    effect: 'The target has a bane on attempts to escape the [[Grab|grab]]. The brawler has
+      edge on this attack if the target is already [[Grabbed|grabbed]]. '
 - name: Throw
   type: Maneuver
-  cost: 1 VP
+  cost: 1 Malice
   keywords:
-  - Melee
-  distance: Reach 1
+  - —
+  distance: Melee 1
   target: One creature [[Grabbed|grabbed]] by the brawler
   effects:
   - name: Effect
-    effect: 'The brawler pushes the creature they have [[Grabbed|grabbed]] 5 squares. This breaks
-      the [[Grab|grab]]. '
+    effect: 'Push 5. '
 
 ```

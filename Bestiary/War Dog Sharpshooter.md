@@ -17,7 +17,7 @@ stability: 0
 free_strike: 2
 might: 0
 intuition: 0
-agility: 1
+agility: 2
 reason: 0
 presence: 0
 traits:
@@ -27,7 +27,7 @@ traits:
 abilities:
 - name: Bolt Launcher
   type: Action
-  roll: 2d10 + 1
+  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack

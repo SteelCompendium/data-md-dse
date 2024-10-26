@@ -16,7 +16,7 @@ stability: 0
 free_strike: 3
 might: 0
 intuition: 0
-agility: 1
+agility: 2
 reason: 0
 presence: 0
 traits:
@@ -26,24 +26,22 @@ traits:
 abilities:
 - name: Corrupted Ash Daggers
   type: Action
-  roll: 2d10 + 1
+  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
   - Melee
   - Ranged
   - Weapon
-  distance: Reach 1 or Ranged 5
+  distance: Melee 1 or Ranged 5
   target: One creature or object
   t1: 3 damage; slide 1
   t2: 5 damage; slide 2
   t3: 7 damage; slide 3
   effects:
   - name: Effect
-    effect: The power roll gains an edge if any of the portalite’s allies are adjacent
-      to the target.
-  - name: '**1 VP**'
-    effect: 'The portalite [[Teleport|teleports]] the target up to 3 squares before sliding them. '
+    effect: The portalite has **edge** on the attack if an ally is adjacent to the
+      target.
 - name: Posthumous Promotion
   type: Maneuver
   keywords:
@@ -54,14 +52,16 @@ abilities:
   effects:
   - name: Effect
     effect: 'The target’s loyalty collar detonates, killing them instantly. '
-- name: Corrupted Ash [[Teleport]] (Maneuver) ◆ 1 VP
+- name: Corrupted Ash [[Teleport]]
+  type: Maneuver
+  cost: 1 Malice
   keywords:
   - Magic
   distance: Self
   target: Self
   effects:
   - name: Effect
-    effect: 'The portalite [[Teleport|teleports]] up to 5 squares and gains an edge on attacks
-      this turn. '
+    effect: 'The portalite [[Teleport|teleports]] up to 5 squares and has **edge** on attacks until
+      the end of their turn. '
 
 ```

@@ -17,7 +17,7 @@ stability: 0
 free_strike: 2
 might: -2
 intuition: 0
-agility: 1
+agility: 2
 reason: 0
 presence: -1
 traits:
@@ -26,7 +26,7 @@ traits:
 abilities:
 - name: Bow
   type: Action
-  roll: 2d10 + 1
+  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -40,6 +40,6 @@ abilities:
   effects:
   - name: Effect
     effect: 'If the [[Sniper|sniper]] doesn’t use a maneuver or a move action this turn, the
-      ability deals an extra 2 damage. '
+      ability has edge. '
 
 ```

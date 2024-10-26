@@ -15,7 +15,7 @@ speed: '7'
 size: 1M
 stability: 0
 free_strike: 2
-might: 1
+might: 2
 intuition: 0
 agility: 0
 reason: 0
@@ -27,7 +27,7 @@ traits:
 abilities:
 - name: Blade
   type: Action
-  roll: 2d10 + 1
+  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -35,14 +35,14 @@ abilities:
   - Melee
   - Ranged
   - Weapon
-  distance: Reach 1 or Ranged 5
+  distance: Melee 1 or Ranged 5
   target: One creature per minion
   t1: 2 damage
   t2: 3 damage
   t3: 4 damage
   effects:
   - name: Effect
-    effect: 'If this ability is used as part of the [[Charge]] action, the conscript gains
-      an edge on the power roll. '
+    effect: 'If this ability is used as part of the [[Charge]] action, the conscript has
+      **edge** on the attack. '
 
 ```

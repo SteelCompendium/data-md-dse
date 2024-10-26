@@ -36,11 +36,11 @@ abilities:
   - Attack
   - Melee
   - Weapon
-  distance: Reach 1
+  distance: Melee 1
   target: One creature or object
-  t1: 4 poison damage
-  t2: 7 poison damage; [[Weakened|weakened]] (EoT)
-  t3: '10 poison damage; [[Weakened|weakened]] (MGT ends) '
+  t1: 4 poison damage; M1 [[Weakened|weakened]] (save ends)
+  t2: 7 poison damage; M2 [[Weakened|weakened]] (save ends)
+  t3: '10 poison damage; M3 [[Weakened|weakened]] (save ends) '
 - name: Leg Blade
   type: Action
   cost: 2d10 + 2
@@ -48,14 +48,14 @@ abilities:
   - Attack
   - Melee
   - Weapon
-  distance: Reach 1
+  distance: Melee 1
   target: Two creatures or objects
   t1: 4 damage
   t2: 7 damage
   t3: '10 damage '
 - name: Trample
   type: Action
-  cost: 5 VP
+  cost: 5 Malice
   keywords:
   - —
   distance: Self
@@ -63,17 +63,17 @@ abilities:
   effects:
   - name: Effect
     effect: 'The spider shifts up to their speed and makes a Leg Blade attack against
-      each creature who comes within their reach during the move. The spider makes
+      each creature who comes within 1 of the spider during the move. The spider makes
       one power roll against all targets. '
 - name: Web
   type: Maneuver
   roll: AGL RR
-  cost: 2 VP
+  cost: 2 Malice
   keywords:
   - Area
   - Resistance
   distance: 3 cube within 1
-  target: Each creature
+  target: All creatures in the cube
   t1: [[Restrained]] (AGL ends)
   t2: [[Restrained]] (EoT)
   t3: 'No effect '

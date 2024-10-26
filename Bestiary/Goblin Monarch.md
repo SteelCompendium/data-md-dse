@@ -4,7 +4,7 @@ ancestry:
 - Goblin
 - Humanoid
 roles:
-- Boss
+- Leader
 level: 1
 ev: 24
 stamina: 50
@@ -14,40 +14,40 @@ speed: 6 (climb)
 size: 1S
 stability: 1
 free_strike: 3
-might: 2
+might: 3
 intuition: 0
-agility: 1
+agility: 2
 reason: -4
 presence: -3
 traits:
 - name: End Effect
-  effect: At the end of their turn, the monarch can take 5 damage to end one EoE effect
-    affecting them. This damage can’t be reduced in any way.
+  effect: At the end of their turn, the monarch can take 5 damage to end one save-ends
+    effect affecting them. This damage can’t be reduced in any way.
 - name: Crafty
   effect: The monarch doesn’t provoke opportunity attacks by moving.
 abilities:
 - name: Handaxe
   type: Action
-  roll: 2d10 + 2
+  roll: 2d10 + 3
   cost: Signature
   keywords:
   - Attack
   - Melee
   - Ranged
   - Weapon
-  distance: Reach 1 or Ranged 5
+  distance: Melee 1 or Ranged 5
   target: Two creatures or objects
   t1: 3 damage
   t2: 5 damage
   t3: 7 damage
   effects:
   - name: Effect
-    effect: 'An ally within 10 squares of the monarch can make a [[Free Strike|free strike]]. '
-- name: Get in Here
+    effect: 'An ally within 10 of the monarch can make a [[Free Strike|free strike]]. '
+- name: Get in Here!
   type: Maneuver
-  cost: 1 VP
+  cost: 1 Malice
   keywords:
-  - Ranged
+  - —
   distance: Ranged 20
   target: Special
   effects:
@@ -56,8 +56,8 @@ abilities:
 - name: Meat Shield
   type: Triggered Action
   keywords:
-  - Melee
-  distance: Reach 1
+  - —
+  distance: Melee 1
   target: One ally
   trigger: A creature targets the monarch with an attack.
   effects:
@@ -75,7 +75,7 @@ abilities:
 - name: Focus Fire
   type: Villain Action 2
   keywords:
-  - Ranged
+  - —
   distance: Ranged 10
   target: One enemy
   effects:
@@ -87,9 +87,9 @@ abilities:
   keywords:
   - Area
   distance: 10 burst
-  target: Each ally
+  target: All allies in the burst
   effects:
   - name: Effect
-    effect: Each target can make a [[Free Strike|free strike]] that deals an extra 1 damage.
+    effect: Each target can make a [[Free Strike|free strike]] with edge.
 
 ```

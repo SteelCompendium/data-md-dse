@@ -21,12 +21,15 @@ might: 0
 intuition: 0
 agility: 1
 reason: 0
-presence: 1
-traits: []
+presence: 2
+traits:
+- name: Supernatural Insight
+  effect: The death acolyte can target supernatural creatures and objects within 5
+    squares, even if they don’t have line of effect.
 abilities:
 - name: Necrotic Bolt
   type: Action
-  roll: 2d10 + 1
+  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -39,6 +42,6 @@ abilities:
   t3: 5 corruption damage
   effects:
   - name: Effect
-    effect: A creature within 5 squares of the death acolyte regains 1 Stamina.
+    effect: 'A creature within 5 squares of the death acolyte regains 1 Stamina. '
 
 ```

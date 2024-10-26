@@ -17,14 +17,14 @@ stability: 0
 free_strike: 2
 might: 1
 intuition: 0
-agility: 1
+agility: 2
 reason: -1
 presence: 0
 traits: []
 abilities:
 - name: Eyes-On-Me Shot
   type: Action
-  roll: 2d10 + 1
+  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -44,7 +44,7 @@ abilities:
   keywords:
   - Melee
   - Weapon
-  distance: Reach 1
+  distance: Melee 1
   target: One creature
   trigger: An ally deals damage to the target.
   effects:

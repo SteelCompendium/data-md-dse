@@ -15,7 +15,7 @@ speed: 5 (climb)
 size: 1S
 stability: 0
 free_strike: 2
-might: 1
+might: 2
 intuition: 0
 agility: 0
 reason: 0
@@ -26,13 +26,13 @@ traits:
 abilities:
 - name: Axe
   type: Action
-  roll: 2d10 + 1
+  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
   - Melee
   - Weapon
-  distance: Reach 1
+  distance: Melee 1
   target: One creature or object per minion
   t1: 2 damage; push 1
   t2: 4 damage; push 3

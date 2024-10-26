@@ -17,7 +17,7 @@ stability: 0
 free_strike: 2
 might: 0
 intuition: 0
-agility: 1
+agility: 2
 reason: 0
 presence: 0
 traits:
@@ -27,14 +27,14 @@ traits:
 abilities:
 - name: Daggers
   type: Action
-  roll: 2d10 + 1
+  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
   - Melee
   - Ranged
   - Weapon
-  distance: Reach 1 or Ranged 5
+  distance: Melee 1 or Ranged 5
   target: One creature per minion
   t1: 2 damage
   t2: 4 damage

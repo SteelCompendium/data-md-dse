@@ -11,8 +11,8 @@ stamina: 35
 immunities: []
 weaknesses: []
 speed: '5'
-size: 1M
-stability: 0
+size: '2'
+stability: 2
 free_strike: 4
 might: 2
 intuition: 0
@@ -32,17 +32,14 @@ abilities:
   - Attack
   - Melee
   - Weapon
-  distance: Reach 2
-  target: One creature or object
-  t1: 4 damage
-  t2: 7 damage; [[Grabbed|grabbed]]
-  t3: 10 damage; [[Grabbed|grabbed]]
+  distance: Melee 2
+  target: Two creatures or objects
+  t1: 3 damage; A1 [[Grabbed|grabbed]]
+  t2: 4 damage; A2 [[Grabbed|grabbed]]
+  t3: 5 damage; A3 [[Grabbed|grabbed]]
   effects:
-  - name: '**Special**'
+  - name: Special
     effect: The amalgamite can [[Grab|grab]] up to four creatures.
-  - name: '**5 VP**'
-    effect: 'The amalgamite deals 4 damage to each creature they have [[Grabbed|grabbed]], and
-      regains Stamina equal to the damage dealt. '
 - name: Posthumous Promotion
   type: Maneuver
   keywords:

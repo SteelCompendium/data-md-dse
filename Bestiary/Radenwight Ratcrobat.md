@@ -16,22 +16,22 @@ stability: 0
 free_strike: 5
 might: -1
 intuition: 0
-agility: 1
+agility: 2
 reason: 0
 presence: 1
 traits:
 - name: Gymratstics
-  effect: The ratcrobat gains an edge on attacks against larger creatures.
+  effect: The ratcrobat has an edge on attacks against larger creatures.
 abilities:
 - name: En Garde!
   type: Action
-  roll: 2d10 + 1
+  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
   - Melee
   - Weapon
-  distance: Reach 1
+  distance: Melee 1
   target: Two creatures or objects
   t1: 2 damage
   t2: 5 damage
@@ -44,17 +44,18 @@ abilities:
   type: Maneuver
   keywords:
   - Melee
-  distance: Reach 1
+  distance: Melee 1
   target: One enemy
   effects:
   - name: Effect
-    effect: 'Slide 1; the ratcrobat can then shift into the square the target left. '
+    effect: 'Slide 3; the ratcrobat can then shift into any of the squares the target
+      left. '
 - name: Ready Rodent
   type: Triggered Action
   keywords:
   - Melee
   - Weapon
-  distance: Reach 1
+  distance: Melee 1
   target: One creature
   trigger: An ally deals damage to the target.
   effects:

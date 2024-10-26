@@ -17,23 +17,26 @@ stability: 0
 free_strike: 2
 might: -5
 intuition: 0
-agility: 1
+agility: 2
 reason: -4
 presence: -2
 traits: []
 abilities:
 - name: Claws
   type: Action
-  roll: 2d10 + 1
+  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
   - Melee
   - Weapon
-  distance: Reach 1
+  distance: Melee 1
   target: One creature or object per minion
   t1: 2 poison damage
-  t2: 3 poison damage; [[Slowed|slowed]] (EoT)
-  t3: 4 poison damage; [[Slowed|slowed]] (EoT)
+  t2: 3 poison damage
+  t3: 4 poison damage
+  effects:
+  - name: Effect
+    effect: The target has a bane on their next attack.
 
 ```

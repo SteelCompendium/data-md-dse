@@ -18,14 +18,14 @@ might: -2
 intuition: 0
 agility: 1
 reason: 0
-presence: 1
+presence: 2
 traits:
 - name: Crafty
   effect: The stinker doesn’t provoke opportunity attacks by moving.
 abilities:
 - name: Toxic Winds
   type: Action
-  roll: 2d10 + 1
+  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Area
@@ -35,7 +35,7 @@ abilities:
   target: Each enemy
   t1: 1 poison damage; slide 1
   t2: 2 poison damage; slide 2
-  t3: 3 poison damage; slide 3
+  t3: '3 poison damage; slide 3 1 Malice: Increase the slide for one target by 2 squares. '
 - name: Swamp Gas
   type: Maneuver
   keywords:
