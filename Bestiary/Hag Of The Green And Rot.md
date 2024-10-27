@@ -70,12 +70,13 @@ abilities:
   target: Self
   effects:
   - name: Effect
-    effect: 'The hag alters their body to become any Size-1 creature, such as a house
-      cat. If the hag uses this ability while outside of an enemy’s line of effect,
+    effect: The hag alters their body to become any Size-1 creature, such as a house
+      cat. If the hag uses this ability while outside of an enemy's line of effect,
       the hag is considered hidden. The hag can return to their original form as a
-      free maneuver. 5 Malice: The hag becomes a Size-2 creature instead, such as
-      a bear. While in this form, the distance of their melee abilities increases
-      by 1 and has reach. '
+      free maneuver.
+  - name: 5 Malice
+    effect: 'The hag becomes a Size-2 creature instead, such as a bear. While in this
+      form, the distance of their melee abilities increases by 1 and has reach. '
 - name: Turned Upside Down
   type: Triggered Action
   roll: REA RR

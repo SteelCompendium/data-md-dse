@@ -42,9 +42,10 @@ abilities:
   t2: 4 damage
   effects:
   - name: Effect
-    effect: 'An ally within 10 can shift their speed, as long as they end their movement
-      adjacent to an ally. 2+ Malice: 1 additional ally can shift for every 2 malice
-      spent. '
+    effect: An ally within 10 can shift their speed, as long as they end their movement
+      adjacent to an ally.
+  - name: 2+ Malice
+    effect: '1 additional ally can shift for every 2 malice spent. '
 - name: Glory to the Legion
   type: Maneuver
   cost: 5 Malice

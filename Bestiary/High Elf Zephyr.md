@@ -22,7 +22,7 @@ reason: 0
 presence: 1
 traits:
 - name: Like the Wind
-  effect: All of the zephyr’s movement is considered [[Shifting|shifting]].
+  effect: All of the zephyr's movement is considered [[Shifting|shifting]].
 - name: Otherworldly Grace
   effect: At the start of their turn, the zephyr can turn the duration of one save
     ends effect they suffer from into EoT.
@@ -45,7 +45,7 @@ abilities:
 - name: Windwalk
   type: Maneuver
   keywords:
-  - —
+  - '-'
   distance: Self
   target: Self
   effects:

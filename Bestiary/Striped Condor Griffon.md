@@ -22,7 +22,7 @@ presence: 1
 traits:
 - name: Beast of Prey
   effect: Creatures have a double bane when using the [[Escape Grab]] maneuver to escape
-    the [[Griffon|griffon]]’s [[Grab|grab]].
+    the [[Griffon|griffon]]'s [[Grab|grab]].
 - name: Steady
   effect: Creatures have a bane on power rolls that could knock the [[Griffon|griffon]] [[Prone|prone]].
 - name: Banded Predator
@@ -39,13 +39,14 @@ abilities:
   distance: Reach 2
   target: 2 creatures or objects
   t1: 5 damage; push 1
+  t2: 9 damage; one target is pushed 2; other target is vertically pushed 2
   t3: '12 damage; one target is pushed 2 and [[Prone|prone]]; other target is vertically pushed
     3 '
 - name: Bound Ahead
   type: Action
   cost: 5 Malice
   keywords:
-  - —
+  - '-'
   distance: Self (while grounded)
   target: Self
   effects:
@@ -63,21 +64,23 @@ abilities:
   distance: 5 × 3 line within 1
   target: All creatures and objects
   t1: Vertical push 5
+  t2: Push 4
   t3: 'Push 3 '
 - name: Circle and Strike
   type: Triggered Action
   cost: 2d10 + 2
   keywords:
-  - —
+  - '-'
   trigger: The [[Griffon|griffon]] flies above a creature on the ground within 10
   distance: Self
   target: Triggering creature
   t1: Push 3
+  t2: A2 [[Grabbed|grabbed]]
   t3: 5 damage; A3 [[Grabbed|grabbed]]
   effects:
   - name: Effect
     effect: 'The [[Griffon|griffon]] falls down upon the target, taking no damage from falling.
-      A creature who is [[Grabbed|grabbed]] by the [[Griffon|griffon]] is [[Prone|prone]] and can’t stand until they
+      A creature who is [[Grabbed|grabbed]] by the [[Griffon|griffon]] is [[Prone|prone]] and can''t stand until they
       are no longer [[Grabbed|grabbed]]. '
 
 ```

@@ -52,8 +52,8 @@ abilities:
   t2: 4 damage; 2 dazzled (save ends)
   effects:
   - name: Effect
-    effect: 'A dazzled creature has a bane on their attacks and can’t have line of
-      effect to targets who aren’t adjacent to them. '
+    effect: 'A dazzled creature has a bane on their attacks and can''t have line of
+      effect to targets who aren''t adjacent to them. '
 - name: Illusory Feint
   type: Maneuver
   roll: REA RR
@@ -80,7 +80,7 @@ abilities:
   target: Self
   effects:
   - name: Effect
-    effect: 'The [[Lightbender|lightbender]] halves the damage, doesn’t suffer any associated effect,
+    effect: 'The [[Lightbender|lightbender]] halves the damage, doesn''t suffer any associated effect,
       and [[Teleport|teleports]] 5 squares. The pouncer makes a [[Free Strike|free strike]] if they [[Teleport|teleport]] into
       a space adjacent to an enemy. '
 

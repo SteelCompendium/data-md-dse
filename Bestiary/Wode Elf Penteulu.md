@@ -23,8 +23,8 @@ presence: 2
 traits:
 - name: End Effect
   effect: At the end of their turn, the penteulu can take 5 damage to end one save
-    ends effect affecting them. This damage can’t be reduced in any way.
-- name: Hunter’s Glamor
+    ends effect affecting them. This damage can't be reduced in any way.
+- name: Hunter's Glamor
   effect: The penteulu immediately [[Hide|hides]] at the end of their turn, even if they are
     observed.
 abilities:
@@ -42,9 +42,10 @@ abilities:
   t2: 9 damage; M3 [[Restrained|restrained]] (save ends)
   effects:
   - name: Effect
-    effect: 'The penteulu deals damage to each target one at a time and can [[Teleport|teleport]]
-      3 squares after damaging a target. 3 Malice: Targets [[Restrained|restrained]] by this ability
-      take an additional **+1**. '
+    effect: The penteulu deals damage to each target one at a time and can [[Teleport|teleport]]
+      3 squares after damaging a target.
+  - name: 3 Malice
+    effect: 'Targets [[Restrained|restrained]] by this ability take an additional **+1**. '
 - name: Fairness is a [[Human]] Concept
   type: Maneuver
   cost: 5 Malice
@@ -55,11 +56,11 @@ abilities:
   effects:
   - name: Effect
     effect: 'Each target can make a [[Free Strike|free strike]] and then shifts 3. A target immediately
-      [[Hide|hides]] at the end of the penteulu’s turn while in cover or concealment. '
+      [[Hide|hides]] at the end of the penteulu''s turn while in cover or concealment. '
 - name: Wode Sickness
   type: Triggered Action
   keywords:
-  - —
+  - '-'
   trigger: An ally ends their turn.
   distance: Ranged 10
   target: 1 enemy

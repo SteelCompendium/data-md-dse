@@ -38,11 +38,13 @@ abilities:
   t2: 8 damage; R2 deathtouched (save ends)
   effects:
   - name: Effect
-    effect: 'A creature gains a new condition at the end of each turn while deathtouched,
+    effect: A creature gains a new condition at the end of each turn while deathtouched,
       receiving [[Bleeding|bleeding]] at the end of their first turn, [[Slowed|slowed]] at the end of their
       second turn, and [[Restrained|restrained]] at the end of their third turn. When no longer deathtouched,
-      all the conditions imposed by it end. 5 Malice: The ability gains the Area keyword,
-      the distance becomes 3 cube within 10, and it targets all creatures in the cube. '
+      all the conditions imposed by it end.
+  - name: 5 Malice
+    effect: 'The ability gains the Area keyword, the distance becomes 3 cube within
+      10, and it targets all creatures in the cube. '
 - name: Kiss of Death
   type: Maneuver
   keywords:
@@ -51,8 +53,8 @@ abilities:
   target: 1 ally
   effects:
   - name: Effect
-    effect: 'The target’s speed increases by 5 and they cannot get results lower than
-      tier 3 on their power rolls. The target immediately dies at the end of their
-      next turn. '
+    effect: 'The target''s speed increases by 5 and they cannot get results lower
+      than tier 3 on their power rolls. The target immediately dies at the end of
+      their next turn. '
 
 ```

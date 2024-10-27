@@ -46,9 +46,9 @@ abilities:
   - Ranged
   distance: Ranged 10
   target: 1 creature
-  t1: 3 acid damage; M1 target can’t establish line of effect beyond 3 squares (save
+  t1: 3 acid damage; M1 target can't establish line of effect beyond 3 squares (save
     ends)
-  t2: 5 acid damage; M2 target can’t establish line of effect beyond 2 squares (save
+  t2: 5 acid damage; M2 target can't establish line of effect beyond 2 squares (save
     ends)
 
 ```

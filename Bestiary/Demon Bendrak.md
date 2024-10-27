@@ -1,8 +1,11 @@
 ```ds-statblock
 name: Demon Bendrak
-ancestry: []
-roles: []
-level: ''
+ancestry:
+- Demon
+- Planar EV 11
+roles:
+- HEXER
+level: 2
 ev: ''
 stamina: ''
 immunities: []
@@ -17,16 +20,11 @@ agility: 1
 reason: 0
 presence: 2
 traits:
-- name: LEVEL 2 HEXER
-  effect: ''
-- name: Demon, Planar EV 11
-  effect: '**Stamina:** 20 **Weakness:** Holy 3 **Speed:** 5 **Size:** 1S / Stability
-    0 **[[Free Strike]]:** 3'
 - name: Lethe
   effect: While winded, the bendrak has an edge on attacks, and attacks have an edge
     against them.
 - name: Soulsight
-  effect: Each creature within 2 of the bendrak can’t be hidden from them.
+  effect: Each creature within 2 of the bendrak can't be hidden from them.
 abilities:
 - name: Warp Perceptions
   type: Action

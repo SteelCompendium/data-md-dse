@@ -1,8 +1,12 @@
 ```ds-statblock
 name: Bugbear Roughneck
-ancestry: []
-roles: []
-level: ''
+ancestry:
+- Bugbear
+- Goblin
+- Humanoid
+roles:
+- BRUTE
+level: 2
 ev: 36
 stamina: 80
 immunities: []
@@ -17,11 +21,9 @@ agility: 2
 reason: 0
 presence: 0
 traits:
-- name: LEVEL 2 BRUTE
-  effect: '*Bugbear, Goblin, Humanoid*'
 - name: Catcher (Free Triggered Action)
-  effect: 'Keywords: — Distance: Melee 1 Target: 1 size 1 creature or object Trigger:
-    The target is force moved into a square adjacent to the roughneck. - Effect: The
+  effect: 'Keywords: - Distance: Melee 1 Target: 1 size 1 creature or object Trigger:
+    The target is force moved into a square adjacent to the roughneck. Effect: The
     target is [[Grabbed|grabbed]] by the roughneck.'
 abilities:
 - name: Haymaker
@@ -49,6 +51,10 @@ abilities:
   t1: 5 damage; M1 [[Prone|prone]]
   t2: 9 damage; M2 [[Prone|prone]]
   t3: 12 damage; M3 [[Prone|prone]]
+  effects:
+  - name: Effect
+    effect: 'The roughneck leaps 5 to an unoccupied space adjacent to the target before
+      making the attack. '
 - name: Drag Through Hell
   type: Maneuver
   cost: 3 Malice
@@ -56,6 +62,12 @@ abilities:
   - Melee
   distance: Melee 1
   target: 1 creature or object [[Grabbed|grabbed]] by the roughneck
+  effects:
+  - name: Effect
+    effect: 'The roughneck moves up to their speed, dragging the target across the
+      ground. The target takes 1 damage for each square they were dragged through
+      before being released [[Prone|prone]]. Each square the target was dragged through becomes
+      [[Difficult Terrain|difficult terrain]]. '
 - name: Throw
   type: Maneuver
   keywords:
@@ -63,13 +75,20 @@ abilities:
   - Melee
   distance: Melee 1
   target: 1 creature or object [[Grabbed|grabbed]] by the roughneck
+  effects:
+  - name: Effect
+    effect: 'Vertical push 5. Ally targets don''t take damage from being force moved. '
 - name: Flying Sawblade
   type: Triggered Action
   keywords:
-  - —
+  - '-'
   distance: Self
   target: Self
   trigger: The roughneck is vertically moved by another creature.
+  effects:
+  - name: Effect
+    effect: The roughneck uses their Haymaker ability against a creature or object
+      within reach at the end of the movement.
 weapon_immunity: '3'
 
 ```

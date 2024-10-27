@@ -38,13 +38,16 @@ abilities:
   target: One creature
   t1: 2 corruption damage; P1 [[Weakened|weakened]] (save ends)
   t2: 4 corruption damage; P2 [[Weakened|weakened]] (save ends)
-  t3: '5 corruption damage; P3 [[Weakened|weakened]] (save ends)  2 Malice: The potency of this
-    ability increases by 1. A living creature killed by this ability becomes a specter
-    who appears in the target’s space under the Director''s control. '
+  t3: 5 corruption damage; P3 [[Weakened|weakened]] (save ends)
+  effects:
+  - name: 2 Malice
+    effect: 'The potency of this ability increases by 1. A living creature killed
+      by this ability becomes a specter who appears in the target''s space under the
+      Director''s control. '
 - name: Hidden Movement
   type: Maneuver
   keywords:
-  - —
+  - '-'
   distance: Self
   target: Self
   effects:

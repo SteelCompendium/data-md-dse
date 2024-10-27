@@ -24,7 +24,7 @@ presence: 0
 traits:
 - name: Supernatural Insight
   effect: The trickshot can target supernatural creatures and objects within 5 squares,
-    even if they don’t have line of effect.
+    even if they don't have line of effect.
 abilities:
 - name: Trick Crossbow
   type: Action
@@ -41,7 +41,8 @@ abilities:
   t3: 10 damage
   effects:
   - name: Effect
-    effect: 'The trickshot ignores cover and concealment. 3 Malice: The trickshot
-      attacks an additional target. '
+    effect: The trickshot ignores cover and concealment.
+  - name: 3 Malice
+    effect: 'The trickshot attacks an additional target. '
 
 ```

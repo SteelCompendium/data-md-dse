@@ -22,7 +22,7 @@ agility: 2
 reason: 0
 presence: 1
 traits:
-- name: Hunter’s Glamor
+- name: Hunter's Glamor
   effect: The scout immediately [[Hide|hides]] at the end of their turn, even if they are observed.
 abilities:
 - name: Daggers

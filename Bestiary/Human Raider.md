@@ -25,7 +25,7 @@ presence: 0
 traits:
 - name: Supernatural Insight
   effect: The [[Raider|raider]] can target supernatural creatures and objects within 5 squares,
-    even if they don’t have line of effect.
+    even if they don't have line of effect.
 abilities:
 - name: Handaxes
   type: Action

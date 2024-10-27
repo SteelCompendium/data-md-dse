@@ -21,7 +21,7 @@ reason: 0
 presence: -2
 traits:
 - name: Crafty
-  effect: The assassin doesn’t provoke opportunity attacks by moving.
+  effect: The assassin doesn't provoke opportunity attacks by moving.
 - name: [[Hide]] While Observed
   effect: The assassin can take the [[Hide]] maneuver even while observed, though they
     still must have cover or concealment.

@@ -44,7 +44,7 @@ abilities:
   type: Action
   cost: 3 Malice
   keywords:
-  - —
+  - '-'
   distance: Self
   target: Self
   effects:
@@ -66,11 +66,11 @@ abilities:
   t2: 9 damage; I2 [[Dazed|dazed]] (save ends)
   effects:
   - name: Effect
-    effect: 'The potency of this ability increases by 1 if it’s used while charging. '
+    effect: 'The potency of this ability increases by 1 if it''s used while charging. '
 - name: Retaliatory Gore
   type: Triggered Action
   keywords:
-  - —
+  - '-'
   trigger: The minotaur takes damage from a creature within 8.
   distance: Self
   target: Triggering creature

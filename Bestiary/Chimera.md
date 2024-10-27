@@ -1,8 +1,10 @@
 ```ds-statblock
 name: Chimera
-ancestry: []
-roles: []
-level: ''
+ancestry:
+- Monster EV 88
+roles:
+- SOLO
+level: 3
 ev: ''
 stamina: ''
 immunities: []
@@ -17,11 +19,6 @@ agility: 2
 reason: -2
 presence: 0
 traits:
-- name: LEVEL 3 SOLO
-  effect: ''
-- name: Monster EV 88
-  effect: '**Stamina:** 240 **Immunity:** Fire 6 **Speed:** 10 ([[Fly|fly]]) **Size:** 2 /
-    Stability 1 **[[Free Strike]]:** 6'
 - name: Solo Monster
   effect: ''
 - name: Volant
@@ -44,7 +41,7 @@ abilities:
   effects:
   - name: Effect
     effect: 'This attack has an edge if the chimera has an edge on the attack. '
-- name: Dragon’s Eruption
+- name: Dragon's Eruption
   type: Action
   roll: AGL RR
   cost: 7 Malice
@@ -56,7 +53,7 @@ abilities:
   t1: 13 fire damage
   t2: 10 fire damage
   t3: '6 fire damage '
-- name: Lion’s Toss
+- name: Lion's Toss
   type: Maneuver
   cost: 2d10 + 3
   keywords:
@@ -80,7 +77,7 @@ abilities:
   t1: 4 psychic damage
   t2: 8 psychic damage; I2 [[Frightened|frightened]] (save ends)
   t3: '10 psychic damage; I3 [[Frightened|frightened]] (save ends) '
-- name: Ram’s Defiance
+- name: Ram's Defiance
   type: Triggered Action
   cost: 2d10 + 3
   keywords:
@@ -107,7 +104,7 @@ abilities:
   target: All enemies in the burst
   effects:
   - name: Effect
-    effect: 'The chimera uses Bite and Lion’s Toss against each target. '
+    effect: 'The chimera uses Bite and Lion''s Toss against each target. '
 - name: Fire Solo
   type: Villain Action 2
   keywords:
@@ -118,17 +115,17 @@ abilities:
   target: Self
   effects:
   - name: Effect
-    effect: 'The chimera uses Dragon’s Eruption and Roar without spending malice. '
+    effect: 'The chimera uses Dragon''s Eruption and Roar without spending malice. '
 - name: Chorus of Destruction
   type: Villain Action 3
   keywords:
-  - —
+  - '-'
   distance: Self
   target: Self
   effects:
   - name: Effect
     effect: The chimera uses Roar. The chimera then shifts their speed and can make
       a [[Free Strike|free strike]] against each enemy who comes within 1 of them during the move.
-      When the chimera ends this movement, they use Dragon’s Eruption.
+      When the chimera ends this movement, they use Dragon's Eruption.
 
 ```

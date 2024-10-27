@@ -1,8 +1,12 @@
 ```ds-statblock
 name: Demon Frenzied
-ancestry: []
-roles: []
-level: ''
+ancestry:
+- Demon
+- Planar EV 4
+roles:
+- HARRIER
+- MINION
+level: 1
 ev: ''
 stamina: ''
 immunities: []
@@ -17,13 +21,8 @@ agility: 2
 reason: -1
 presence: -1
 traits:
-- name: LEVEL 1 HARRIER MINION
-  effect: ''
-- name: Demon, Planar EV 4
-  effect: '**Stamina:** 8 **Weakness:** Holy 3 **Speed:** 6 **Size:** 1M / Stability
-    0 **[[Free Strike]]:** 2'
 - name: Soulsight
-  effect: Each creature within 2 of the frenzied can’t be hidden from them.
+  effect: Each creature within 2 of the frenzied can't be hidden from them.
 abilities:
 - name: Rip and Tear
   type: Action

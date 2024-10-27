@@ -40,9 +40,10 @@ abilities:
   t2: 9 damage; A2 [[Restrained|restrained]] (save ends)
   effects:
   - name: Effect
-    effect: 'The tree gweiadur can shift 3 after making the attack. 3 Malice: If this
-      attack restrains the target, an enemy within 1 of the target is also [[Restrained|restrained]]
-      (save ends). '
+    effect: The tree gweiadur can shift 3 after making the attack.
+  - name: 3 Malice
+    effect: 'If this attack restrains the target, an enemy within 1 of the target
+      is also [[Restrained|restrained]] (save ends). '
 - name: You Activated My Trap!
   type: Maneuver
   roll: 2d10 + 2

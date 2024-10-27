@@ -21,7 +21,7 @@ reason: 0
 presence: -1
 traits:
 - name: Crafty
-  effect: The warrior doesn’t provoke opportunity attacks by moving.
+  effect: The warrior doesn't provoke opportunity attacks by moving.
 abilities:
 - name: Spear
   type: Action

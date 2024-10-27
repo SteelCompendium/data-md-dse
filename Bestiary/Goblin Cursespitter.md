@@ -21,7 +21,7 @@ reason: 0
 presence: 0
 traits:
 - name: Crafty
-  effect: The cursespitter doesn’t provoke opportunity attacks by moving.
+  effect: The cursespitter doesn't provoke opportunity attacks by moving.
 abilities:
 - name: Eye of Surlach
   type: Action
@@ -46,8 +46,8 @@ abilities:
   - Resistance
   distance: Ranged 10
   target: One creature
-  t1: [[Prone]] and can’t stand (save ends)
-  t2: [[Prone]] and can’t stand (EoT)
+  t1: [[Prone]] and can't stand (save ends)
+  t2: [[Prone]] and can't stand (EoT)
   t3: 'No effect '
 
 ```

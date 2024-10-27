@@ -26,8 +26,8 @@ traits:
   effect: If the ghoul [[Charge|charges]], their speed increases by 2 until the end of their
     turn.
 - name: Arise
-  effect: The first time the ghoul is reduced to Stamina 0 by damage that isn’t fire
-    damage or holy damage and their body isn’t destroyed, they regain half their Stamina
+  effect: The first time the ghoul is reduced to Stamina 0 by damage that isn't fire
+    damage or holy damage and their body isn't destroyed, they regain half their Stamina
     and fall [[Prone|prone]].
 abilities:
 - name: Razor Claws
@@ -47,7 +47,7 @@ abilities:
 - name: Leap
   type: Maneuver
   keywords:
-  - —
+  - '-'
   distance: Self
   target: Self
   effects:

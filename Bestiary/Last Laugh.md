@@ -27,7 +27,7 @@ traits:
 - name: Running Joke
   effect: If the last laugh is reduced to 0 Stamina while there are still gnolls on
     the battle map, one gnoll on the map is transformed into the last laugh, keeping
-    the gnoll’s Stamina.
+    the gnoll's Stamina.
 abilities:
 - name: Shrapnel Whip
   type: Action
@@ -49,14 +49,14 @@ abilities:
   type: Maneuver
   cost: 4 Malice
   keywords:
-  - —
+  - '-'
   distance: Self and 5 burst
   target: Self and all allies
   effects:
   - name: Effect
-    effect: 'Each target has edge until the start of the last laugh’s next turn. Targets
-      who haven’t used a cackletongue maneuver on this turn use it immediately at
-      no cost. '
+    effect: 'Each target has edge until the start of the last laugh''s next turn.
+      Targets who haven''t used a cackletongue maneuver on this turn use it immediately
+      at no cost. '
 - name: Not the Best Time to Laugh
   type: Villain Action 1
   cost: INU RR
@@ -75,7 +75,7 @@ abilities:
 - name: Call Up From The Abyss
   type: Villain Action 2
   keywords:
-  - —
+  - '-'
   distance: Ranged 10
   target: Special
   effects:

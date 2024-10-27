@@ -58,7 +58,7 @@ abilities:
   t3: 3 cold damage
   effects:
   - name: Effect
-    effect: 'Until the end of the umbral stalker’s next turn, the area is concealed
+    effect: 'Until the end of the umbral stalker''s next turn, the area is concealed
       and blocks line of effect for all enemies. '
 - name: Shadow [[Jump]]
   type: Free Maneuver

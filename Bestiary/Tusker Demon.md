@@ -24,8 +24,8 @@ presence: -1
 traits:
 - name: Trample
   effect: The tusker demon can move through enemies and objects at normal speed. When
-    the tusker enters a creature’s space for the first time on their turn, the creature
-    takes 2d6 damage. The tusker demon can end their turn in a [[Prone|prone]] size 1 creature’s
+    the tusker enters a creature's space for the first time on their turn, the creature
+    takes 2d6 damage. The tusker demon can end their turn in a [[Prone|prone]] size 1 creature's
     space, preventing the creature from getting up.
 - name: Lethe
   effect: While winded, the tusker demon has edge on attacks, and attacks have edge
@@ -50,7 +50,7 @@ abilities:
 - name: Vengeful Tusker
   type: Triggered Action
   keywords:
-  - —
+  - '-'
   trigger: An enemy within 7 deals damage to the tusker.
   distance: Self
   target: Self

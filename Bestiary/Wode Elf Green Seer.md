@@ -22,14 +22,14 @@ reason: 0
 presence: 1
 traits:
 - name: Foreseen Punishment (Free Triggered Action)
-  effect: 'Keywords: — Distance: Ranged 5 Target: 1 creature  Trigger: The triggering
+  effect: 'Keywords: - Distance: Ranged 5 Target: 1 creature  Trigger: The triggering
     creature uses a triggered action targeting the green seer or an ally within distance.
     Effect: The green seer makes a [[Free Strike|free strike]] against the target.'
 - name: Masking Glamor
   effect: The green seer immediately [[Hide|hides]] at the end of their turn while in cover
     or concealment, even if they are observed.
 abilities:
-- name: The Forest’s Embrace
+- name: The Forest's Embrace
   type: Action
   roll: 2d10 + 2
   cost: Signature
@@ -43,7 +43,7 @@ abilities:
   t2: 5 damage; I2 [[Restrained|restrained]] (save ends)
   effects:
   - name: Effect
-    effect: 'A creature [[Restrained|restrained]] by this ability can’t [[Search For Hidden Creatures|search for hidden creatures]]
+    effect: 'A creature [[Restrained|restrained]] by this ability can''t [[Search For Hidden Creatures|search for hidden creatures]]
       until the condition ends. '
 - name: The Natural Cycle
   type: Maneuver

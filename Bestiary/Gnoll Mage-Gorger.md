@@ -40,6 +40,6 @@ abilities:
   effects:
   - name: Effect
     effect: 'The target has a bane on their next resistance roll until the start of
-      the mage-gorger’s next turn. '
+      the mage-gorger''s next turn. '
 
 ```

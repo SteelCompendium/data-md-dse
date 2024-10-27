@@ -41,8 +41,8 @@ abilities:
   distance: Melee 2
   target: One creature or object
   t1: 5 damage; A2 [[Prone|prone]]
-  t2: 9 damage; A3 [[Prone|prone]] and can’t stand (EoT)
-  t3: '12 damage; A4 [[Prone|prone]] and can’t stand (save ends) '
+  t2: 9 damage; A3 [[Prone|prone]] and can't stand (EoT)
+  t3: 12 damage; A4 [[Prone|prone]] and can't stand (save ends)
   effects:
   - name: Effect
     effect: 'Each enemy within 1 square of the target takes 2 damage. '
@@ -56,7 +56,7 @@ abilities:
   target: Each enemy in the line
   t1: 2 damage; M2 push 2
   t2: 3 damage; M3 [[Prone|prone]]
-  t3: '4 damage; M4 [[Prone|prone]] '
+  t3: 4 damage; M4 [[Prone|prone]]
   effects:
   - name: Effect
     effect: 'The cryptic reforms their body and appears in an unoccupied space within
@@ -86,19 +86,22 @@ abilities:
   target: One creature or object on the ground
   t1: Slide 3
   t2: Slide 2
-  t3: 'Slide 1  2 Malice: The distance of the slide is doubled. '
+  t3: Slide 1
+  effects:
+  - name: 2 Malice
+    effect: 'The distance of the slide is doubled. '
 - name: Dissipate
   type: Triggered Action
   cost: 1 Malice
   keywords:
-  - —
+  - '-'
   distance: Self
   target: Self
   trigger: The cryptic takes damage
   effects:
   - name: Effect
-    effect: 'The cryptic halves the damage, doesn’t suffer any additional effect associated
-      with it, and shifts up to 3 squares. '
+    effect: 'The cryptic halves the damage, doesn''t suffer any additional effect
+      associated with it, and shifts up to 3 squares. '
 - name: First Warning Quake
   type: Villain Action 1
   cost: MGT RR
@@ -107,9 +110,9 @@ abilities:
   - Resistance
   distance: 5 burst
   target: Each enemy on the ground in the burst
-  t1: The target is [[Prone|prone]] and can’t stand (EoT)
+  t1: The target is [[Prone|prone]] and can't stand (EoT)
   t2: [[Prone]]
-  t3: 'No effect '
+  t3: No effect
   effects:
   - name: Effect
     effect: 'The area becomes [[Difficult Terrain|difficult terrain]]. '
@@ -123,7 +126,7 @@ abilities:
   target: Each enemy on the ground in the burst
   t1: 4 damage; [[Prone|prone]]
   t2: 2 damage
-  t3: 'The target moves to the nearest unoccupied space outside the area. '
+  t3: The target moves to the nearest unoccupied space outside the area.
   effects:
   - name: Effect
     effect: 'The area drops 2 squares. Each enemy in the area falls, while all allies
@@ -134,15 +137,16 @@ abilities:
   cost: 2d10 + 3
   keywords:
   - Ranged
+  distance: Ranged 10
+  target: Two creatures or objects on the ground
   t1: 2 damage; vertical slide 2
   t2: 3 damage; vertical slide 4
   t3: 4 damage; the target is [[Restrained|restrained]] against the ceiling (save ends)
   effects:
   - name: Effect
-    effect: 'The cryptic makes an initial attack that calls down stone pillars from
-      the ceiling. Distance: Ranged 10 Target: Two creatures or objects '
+    effect: The cryptic makes an initial attack that calls down stone pillars from
+      the ceiling.
   - name: Effect
-    effect: 'The cryptic makes a final attack that raises stone pillars from the floor.
-      Distance: Ranged 10 Target: Two creatures or objects on the ground '
+    effect: The cryptic makes a final attack that raises stone pillars from the floor.
 
 ```

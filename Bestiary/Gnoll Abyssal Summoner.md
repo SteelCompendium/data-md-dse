@@ -44,7 +44,7 @@ abilities:
   type: Maneuver
   cost: 3 Malice
   keywords:
-  - —
+  - '-'
   distance: Ranged 5
   target: Special
   effects:
@@ -54,13 +54,13 @@ abilities:
   type: Maneuver
   cost: 4 Malice
   keywords:
-  - —
+  - '-'
   distance: 2 burst
   target: All allies
   effects:
   - name: Effect
     effect: '1 [[Abyssal Hyena|abyssal hyena]] target turns into a [[Gnoll Marauder|gnoll marauder]], keeping their Stamina.
-      Targets who haven’t used a cackletongue maneuver on this turn use it immediately
+      Targets who haven''t used a cackletongue maneuver on this turn use it immediately
       at no cost. '
 
 ```

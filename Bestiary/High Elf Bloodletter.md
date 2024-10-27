@@ -25,7 +25,7 @@ traits:
   effect: At the start of their turn, the scribe can turn the duration of one save
     ends effect they suffer from into EoT.
 abilities:
-- name: Razor’s Edge
+- name: Razor's Edge
   type: Action
   roll: 2d10 + 2
   cost: Signature

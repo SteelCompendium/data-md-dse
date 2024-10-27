@@ -24,10 +24,10 @@ traits:
 - name: Solo Monster
   effect: ''
 - name: Shapeshifter
-  effect: The werewolf enters combat in their hybrid humanoid form. Their shape can’t
+  effect: The werewolf enters combat in their hybrid humanoid form. Their shape can't
     change via any effects beyond their own ability.
 - name: Ferocity
-  effect: The werewolf’s abilities are capable of inflicting ferocity points on non-stormwight
+  effect: The werewolf's abilities are capable of inflicting ferocity points on non-stormwight
     enemies. If a creature has 10 or more ferocity at the start of their turn, they
     spend all their ferocity and either make a [[Free Strike|free strike]] at the nearest creature
     or shift up to their speed towards the nearest creature and take a [[Free Strike|free strike]].
@@ -52,9 +52,9 @@ abilities:
   effects:
   - name: Effect
     effect: 'A creature afflicted with lycanthropy accumulates 2 ferocity at the end
-      of each of their turns whenever they’re in combat. Their ferocity does not disappear
-      after completing a respite; they must complete the Find a Cure project to end
-      this condition. '
+      of each of their turns whenever they''re in combat. Their ferocity does not
+      disappear after completing a respite; they must complete the Find a Cure project
+      to end this condition. '
 - name: Claws
   type: Action
   cost: 2d10 + 3
@@ -70,7 +70,7 @@ abilities:
   type: Action
   cost: 5 Malice
   keywords:
-  - —
+  - '-'
   distance: Self
   target: Self
   effects:
@@ -81,7 +81,7 @@ abilities:
 - name: Wall Leap
   type: Maneuver
   keywords:
-  - —
+  - '-'
   distance: Self
   target: Self
   effects:
@@ -92,7 +92,7 @@ abilities:
   type: Triggered Action
   cost: 2 Malice
   keywords:
-  - —
+  - '-'
   trigger: The target declares a melee attack against the werewolf after charging
     or moving 3 or more squares in a straight line towards them.
   distance: Melee 1
@@ -117,7 +117,7 @@ abilities:
 - name: Full Wolf
   type: Villain Action 2
   keywords:
-  - —
+  - '-'
   distance: Self
   target: Self
   effects:
@@ -125,8 +125,8 @@ abilities:
     effect: 'The werewolf changes into a massive wolf, pushing adjacent creatures
       out of their way and moving into a square that can accommodate their new size.
       Until they die or the end of the encounter, their Speed is 10, their Size is
-      3, and their Stability is 2. Each of the werewolf’s attacks has **edge** and
-      inflicts an additional 1 ferocity. The potency of the werewolf’s Accursed Bite
+      3, and their Stability is 2. Each of the werewolf''s attacks has **edge** and
+      inflicts an additional 1 ferocity. The potency of the werewolf''s Accursed Bite
       increases by 1. '
 - name: Rampage
   type: Villain Action 3

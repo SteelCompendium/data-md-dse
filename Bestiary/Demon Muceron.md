@@ -1,8 +1,11 @@
 ```ds-statblock
 name: Demon Muceron
-ancestry: []
-roles: []
-level: ''
+ancestry:
+- Demon
+- Planar EV 18
+roles:
+- BRUTE
+level: 3
 ev: ''
 stamina: ''
 immunities: []
@@ -17,16 +20,11 @@ agility: 2
 reason: 0
 presence: 1
 traits:
-- name: LEVEL 3 BRUTE
-  effect: ''
-- name: Demon, Planar EV 18
-  effect: '**Stamina:** 45 **Weakness:** Holy 3 **Speed:** 5 **Size:** 1M / Stability
-    0 **[[Free Strike]]:** 5'
 - name: Lethe
   effect: While winded, the muceron has an edge on attacks, and attacks have an edge
     against them.
 - name: Soulsight
-  effect: Each creature within 2 of the muceron can’t be hidden from them.
+  effect: Each creature within 2 of the muceron can't be hidden from them.
 abilities:
 - name: Barbed Tongues
   type: Action

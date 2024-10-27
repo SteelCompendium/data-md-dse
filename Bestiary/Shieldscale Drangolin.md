@@ -21,7 +21,7 @@ reason: -3
 presence: -2
 traits:
 - name: Ash Shot
-  effect: An enemy adjacent to the drangolin has resistance and can’t be hidden.
+  effect: An enemy adjacent to the drangolin has resistance and can't be hidden.
 abilities:
 - name: Fiery Claws
   type: Action
@@ -39,7 +39,7 @@ abilities:
   type: Action
   cost: 5 Malice
   keywords:
-  - —
+  - '-'
   distance: Self
   target: Self
   effects:

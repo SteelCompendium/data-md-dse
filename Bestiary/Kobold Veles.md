@@ -41,6 +41,6 @@ abilities:
   effects:
   - name: Effect
     effect: 'All kobolds ignore opportunity attacks from the target until the start
-      of the veles’ next turn. '
+      of the veles'' next turn. '
 
 ```

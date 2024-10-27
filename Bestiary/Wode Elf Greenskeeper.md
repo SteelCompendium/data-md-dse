@@ -39,8 +39,9 @@ abilities:
   t2: 5 damage
   effects:
   - name: Effect
-    effect: '[[Taunted]] (EoT). The greenskeeper can shift 3 after making the attack.
-      2 Malice: The distance increases to Melee 5. '
+    effect: [[Taunted]] (EoT). The greenskeeper can shift 3 after making the attack.
+  - name: 2 Malice
+    effect: 'The distance increases to Melee 5. '
 - name: Overgrowth
   type: Maneuver
   cost: 3 Malice

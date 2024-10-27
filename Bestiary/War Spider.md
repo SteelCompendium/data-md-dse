@@ -25,7 +25,7 @@ traits:
     a test, and takes no damage if they fall during the [[Jump|jump]]. After the [[Jump|jump]], the
     first melee attack an ally makes on the same turn gains an edge.
 - name: Wide Back
-  effect: Two of the spider’s size 1 allies can occupy the same space while riding
+  effect: Two of the spider's size 1 allies can occupy the same space while riding
     the spider.
 abilities:
 - name: Bite
@@ -57,7 +57,7 @@ abilities:
   type: Action
   cost: 5 Malice
   keywords:
-  - —
+  - '-'
   distance: Self
   target: Self
   effects:

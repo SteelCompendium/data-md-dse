@@ -1,8 +1,11 @@
 ```ds-statblock
 name: Demon Torlas
-ancestry: []
-roles: []
-level: ''
+ancestry:
+- Demon
+- Planar EV 9
+roles:
+- CONTROLLER
+level: 1
 ev: ''
 stamina: ''
 immunities: []
@@ -17,16 +20,11 @@ agility: 1
 reason: 0
 presence: 2
 traits:
-- name: LEVEL 1 CONTROLLER
-  effect: ''
-- name: Demon, Planar EV 9
-  effect: '**Stamina:** 15 **Weakness:** Holy 3 **Speed:** 5 **Size:** 1S / Stability
-    0 **[[Free Strike]]:** 2'
 - name: Lethe
   effect: While winded, the torlas has an edge on attacks, and attacks have an edge
     against them.
 - name: Soulsight
-  effect: Each creature within 2 of the torlas can’t be hidden from them.
+  effect: Each creature within 2 of the torlas can't be hidden from them.
 abilities:
 - name: Cronenstorm
   type: Action
@@ -44,7 +42,7 @@ abilities:
   effects:
   - name: Effect
     effect: 'The area turns into a morass of spongy flesh before the targets are force
-      moved. Until the start of the torlas’s next turn, the area is [[Difficult Terrain|difficult terrain]],
+      moved. Until the start of the torlas''s next turn, the area is [[Difficult Terrain|difficult terrain]],
       and each creature who moves within the area takes 1 damage for each square moved. '
 - name: Grasping Tendons
   type: Maneuver

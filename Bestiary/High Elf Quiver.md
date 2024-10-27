@@ -37,6 +37,6 @@ abilities:
   distance: Ranged 10
   target: 1 creature or object per minion
   t1: 2 damage
-  t2: 5 damage; target’s speed reduced by 1 (EoT)
+  t2: 5 damage; target's speed reduced by 1 (EoT)
 
 ```

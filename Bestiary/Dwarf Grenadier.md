@@ -21,7 +21,7 @@ reason: 0
 presence: 0
 traits:
 - name: Indirect Fire
-  effect: The grenadier ignores cover and concealment and doesn’t need to establish
+  effect: The grenadier ignores cover and concealment and doesn't need to establish
     line of effect for their abilities.
 abilities:
 - name: Concussive Grenade
@@ -37,7 +37,7 @@ abilities:
   t1: 3 damage; push 1; M1 [[Slowed|slowed]] (save ends)
   t2: 5 damage; push 3; M2 [[Slowed|slowed]] (save ends)
   effects:
-  - name: '**Effect**'
+  - name: Effect
     effect: 'A target [[Restrained|restrained]] by a [[Dwarf|dwarf]] can be pushed by this ability. '
 - name: Sleep Grenade
   type: Action
@@ -51,7 +51,7 @@ abilities:
   t1: 3 poison damage; I1 [[Dazed|dazed]] (save ends)
   t2: 5 poison damage; I2 [[Dazed|dazed]] (save ends)
   effects:
-  - name: '**Effect**'
+  - name: Effect
     effect: 'A creature [[Dazed|dazed]] by this ability has -1 to all characteristics while
       resisting potent effects until the condition ends. '
 

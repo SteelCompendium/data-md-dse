@@ -22,14 +22,14 @@ agility: 0
 reason: 1
 presence: 0
 traits:
-- name: I’m Your Enemy
+- name: I'm Your Enemy
   effect: The knave can make a [[Free Strike|free strike]] against an adjacent creature they have
     [[Taunted|taunted]] whenever the creature deals damage to a creature other than the knave.
 - name: Overwhelm
-  effect: An enemy who starts their turn adjacent to the knave can’t shift.
+  effect: An enemy who starts their turn adjacent to the knave can't shift.
 - name: Supernatural Insight
   effect: The knave can target supernatural creatures and objects within 5 squares,
-    even if they don’t have line of effect.
+    even if they don't have line of effect.
 abilities:
 - name: Morningstar & Javelin
   type: Action

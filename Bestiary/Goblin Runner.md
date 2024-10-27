@@ -22,7 +22,7 @@ reason: 0
 presence: -1
 traits:
 - name: Crafty
-  effect: The runner doesn’t provoke opportunity attacks by moving.
+  effect: The runner doesn't provoke opportunity attacks by moving.
 abilities:
 - name: Club
   type: Action

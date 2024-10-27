@@ -24,7 +24,7 @@ reason: -5
 presence: -3
 traits:
 - name: Arise Together
-  effect: If the rotting [[Zombie|zombie]]’s captain has the Arise trait, the [[Zombie|zombie]] also gains
+  effect: If the rotting [[Zombie|zombie]]'s captain has the Arise trait, the [[Zombie|zombie]] also gains
     the Arise trait.
 abilities:
 - name: Rotting Fist

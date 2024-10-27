@@ -37,6 +37,10 @@ abilities:
   target: 3 creatures or objects
   t1: 3 damage; pull 1; A2 [[Bleeding|bleeding]] (save ends)
   t2: 7 damage; pull 1; A3 [[Bleeding|bleeding]] (save ends)
+  effects:
+  - name: 1 Malice
+    effect: 'One target that is adjacent to the deathrex is [[Grabbed|grabbed]] by the deathrex''s
+      mouth. '
 - name: Death Roll
   type: Action
   roll: 2d10 + 3
@@ -55,7 +59,7 @@ abilities:
 - name: Trundle
   type: Maneuver
   keywords:
-  - —
+  - '-'
   distance: Self
   target: Self
   effects:
@@ -65,7 +69,7 @@ abilities:
 - name: Swat The [[Fly]]
   type: Triggered Action
   keywords:
-  - —
+  - '-'
   trigger: The target moves or shifts away from the deathrex.
   distance: Melee 1
   target: 1 adjacent creature or object
@@ -86,14 +90,14 @@ abilities:
 - name: Shed Some Skin
   type: Villain Action 2
   keywords:
-  - —
+  - '-'
   distance: Self
   target: Self
   effects:
   - name: Effect
     effect: 'The deathrex shifts up to their speed, leaving behind a skin shed duplicate
       in the space that they started in. The duplicate has 10 Stamina, has no villain
-      actions, shares the rest of the deathrex’s characteristics, and takes their
+      actions, shares the rest of the deathrex''s characteristics, and takes their
       turn at the same time as the deathrex. '
 - name: Thresher Thrasher
   type: Villain Action 3

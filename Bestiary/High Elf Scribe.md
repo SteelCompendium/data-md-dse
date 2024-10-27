@@ -40,7 +40,7 @@ abilities:
   t2: 4 corruption damage
   effects:
   - name: Effect
-    effect: 'The next attack made against the target before the start of the scribe’s
+    effect: 'The next attack made against the target before the start of the scribe''s
       next turn has edge. '
 
 ```

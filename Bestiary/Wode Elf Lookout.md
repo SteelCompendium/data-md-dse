@@ -24,7 +24,7 @@ presence: 1
 traits:
 - name: There!
   effect: A wode elf within 5 of the lookout can make a ranged attack as if occupying
-    the lookout’s space.
+    the lookout's space.
 - name: Masking Glamor
   effect: The lookout immediately [[Hide|hides]] at the end of their turn while in cover or
     concealment, even if they are observed.

@@ -23,8 +23,8 @@ reason: 0
 presence: 1
 traits:
 - name: Arise
-  effect: The first time the wight is reduced to Stamina 0 by damage that isn’t fire
-    damage or holy damage and their body isn’t destroyed, they regain half their Stamina
+  effect: The first time the wight is reduced to Stamina 0 by damage that isn't fire
+    damage or holy damage and their body isn't destroyed, they regain half their Stamina
     and fall [[Prone|prone]].
 abilities:
 - name: Lifestealer Longsword
@@ -39,7 +39,7 @@ abilities:
   target: One creature or object
   t1: 2 corruption damage
   t2: 4 corruption damage; M1 [[Slowed|slowed]] (save ends)
-  t3: '5 corruption damage; M2 [[Slowed|slowed]] and [[Weakened|weakened]] (save ends) '
+  t3: 5 corruption damage; M2 [[Slowed|slowed]] and [[Weakened|weakened]] (save ends)
   effects:
   - name: Effect
     effect: 'The target appears to rapidly age each time they take damage from this
@@ -54,7 +54,7 @@ abilities:
   target: One dead ally
   effects:
   - name: Effect
-    effect: 'The target revives with half their Stamina. The wight can’t use this
+    effect: 'The target revives with half their Stamina. The wight can''t use this
       maneuver again until they attack a creature with their lifestealer longsword. '
 
 ```

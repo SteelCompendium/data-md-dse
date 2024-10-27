@@ -34,7 +34,7 @@ abilities:
   target: Self
   effects:
   - name: Effect
-    effect: 'The cradle credenza’s speed becomes 0, and they extend themselves into
+    effect: 'The cradle credenza''s speed becomes 0, and they extend themselves into
       a 5-wall until the start of their next turn. Allies adjacent to the wall at
       the start of their turn regain 5 Stamina and can apply the Magic keyword to
       their weapon abilities until the end of their turn. '

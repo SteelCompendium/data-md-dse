@@ -46,7 +46,7 @@ abilities:
   target: One war dog with a loyalty collar
   effects:
   - name: Effect
-    effect: 'The target’s loyalty collar detonates, killing them instantly. '
+    effect: 'The target''s loyalty collar detonates, killing them instantly. '
 - name: The Voice
   type: Maneuver
   cost: 1 Malice
@@ -58,7 +58,7 @@ abilities:
   effects:
   - name: Effect
     effect: 'The cognivite chooses an ally within 10 squares, then chooses whether
-      each target is [[Taunted|taunted]] by the ally or the ally has **cover** whenever they’re
-      attacked by a target until the start of the cognivite’s next turn. '
+      each target is [[Taunted|taunted]] by the ally or the ally has **cover** whenever they''re
+      attacked by a target until the start of the cognivite''s next turn. '
 
 ```

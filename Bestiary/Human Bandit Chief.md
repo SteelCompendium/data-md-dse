@@ -24,10 +24,10 @@ presence: 2
 traits:
 - name: End Effect
   effect: At the end of their turn, the bandit chief can take 5 damage to end one
-    "save ends" effect affecting them. This damage can’t be reduced in any way.
+    "save ends" effect affecting them. This damage can't be reduced in any way.
 - name: Heightened Supernatural Insight
   effect: The bandit chief can target supernatural creatures and objects within 15
-    squares, even if they don’t have line of effect.
+    squares, even if they don't have line of effect.
 abilities:
 - name: Whip & Magic Longsword
   type: Action
@@ -45,9 +45,10 @@ abilities:
   t3: 12 damage; pull 3
   effects:
   - name: Effect
-    effect: 'A target who is adjacent to the bandit chief after the attack is resolved
-      takes double edge corruption damage. 2 Malice: The bandit chief attacks an additional
-      target. '
+    effect: A target who is adjacent to the bandit chief after the attack is resolved
+      takes double edge corruption damage.
+  - name: 2 Malice
+    effect: 'The bandit chief attacks an additional target. '
 - name: Kneel, Peasant!
   type: Maneuver
   cost: 2d10 + 3
@@ -59,8 +60,10 @@ abilities:
   target: One enemy or object
   t1: Push 1; M2 [[Prone|prone]]
   t2: Push 2; M3 [[Prone|prone]]
-  t3: 'Push 4; M4 [[Prone|prone]] 2 Malice: This ability targets each enemy adjacent to the
-    bandit chief. '
+  t3: Push 4; M4 [[Prone|prone]]
+  effects:
+  - name: 2 Malice
+    effect: 'This ability targets each enemy adjacent to the bandit chief. '
 - name: Bloodstones
   type: Triggered Action
   keywords:
@@ -94,7 +97,7 @@ abilities:
 - name: Lead From the Front
   type: Villain Action 3
   keywords:
-  - —
+  - '-'
   distance: Self
   target: Self
   effects:

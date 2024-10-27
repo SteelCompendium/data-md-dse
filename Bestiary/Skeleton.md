@@ -23,8 +23,8 @@ reason: 1
 presence: -1
 traits:
 - name: Arise
-  effect: The first time the skeleton is reduced to Stamina 0 by damage that isn’t
-    fire damage or holy damage and their body isn’t destroyed, they regain half their
+  effect: The first time the skeleton is reduced to Stamina 0 by damage that isn't
+    fire damage or holy damage and their body isn't destroyed, they regain half their
     Stamina and fall [[Prone|prone]].
 abilities:
 - name: Bone Shards
@@ -43,7 +43,7 @@ abilities:
   t3: 6 damage
   effects:
   - name: Effect
-    effect: 'Until the start of the skeleton’s next turn, the target takes 2 damage
+    effect: 'Until the start of the skeleton''s next turn, the target takes 2 damage
       the first time they move on their turn. '
 - name: Bone Spur
   type: Maneuver
@@ -59,7 +59,7 @@ abilities:
   t3: 3 damage; M3 [[Bleeding|bleeding]] (save ends)
   effects:
   - name: Effect
-    effect: 'Each target has a bane on their next attack until the start of the skeleton’s
+    effect: 'Each target has a bane on their next attack until the start of the skeleton''s
       next turn. '
 
 ```

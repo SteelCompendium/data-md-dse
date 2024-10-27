@@ -42,7 +42,7 @@ abilities:
   target: Two creatures
   t1: 2 cold damage; P2 [[Slowed|slowed]] (save ends)
   t2: 5 cold damage; P3 [[Slowed|slowed]] (save ends)
-  t3: '6 cold damage; P2 [[Slowed|slowed]] (save ends) '
+  t3: 6 cold damage; P2 [[Slowed|slowed]] (save ends)
   effects:
   - name: Effect
     effect: 'The next attack made against a target has edge. '
@@ -54,8 +54,9 @@ abilities:
   target: Self or one incorporeal ally
   effects:
   - name: Effect
-    effect: 'The target shifts up to their speed. 2 Malice: The ghost chooses one
-      additional target. '
+    effect: The target shifts up to their speed.
+  - name: 2 Malice
+    effect: 'The ghost chooses one additional target. '
 - name: Shriek
   type: Triggered Action
   cost: 1 Malice
@@ -90,12 +91,12 @@ abilities:
   target: Each enemy in the burst
   t1: Levitated (EoE) (see effect)
   t2: Levitated (EoT)
-  t3: 'No effect '
+  t3: No effect
   effects:
   - name: Effect
     effect: 'A levitated target floats 1 square off the ground when they are first
       affected, then rises 1 square at the end of each of their turns. If a levitated
-      target can’t already [[Fly|fly]], they can [[Fly|fly]] but are [[Slowed|slowed]] and [[Weakened|weakened]] while flying
+      target can''t already [[Fly|fly]], they can [[Fly|fly]] but are [[Slowed|slowed]] and [[Weakened|weakened]] while flying
       in this way. '
 - name: Awful Wail
   type: Villain Action 3
@@ -108,7 +109,7 @@ abilities:
   target: Each enemy in the burst
   t1: 2 sonic damage
   t2: 5 sonic damage
-  t3: '5 sonic damage '
+  t3: 5 sonic damage
   effects:
   - name: Effect
     effect: 'P3: The target is reduced to 1 Stamina if they have 2 or more Stamina

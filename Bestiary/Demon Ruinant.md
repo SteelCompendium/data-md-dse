@@ -1,8 +1,11 @@
 ```ds-statblock
 name: Demon Ruinant
-ancestry: []
-roles: []
-level: ''
+ancestry:
+- Demon
+- Planar EV 10
+roles:
+- HARRIER
+level: 1
 ev: ''
 stamina: ''
 immunities: []
@@ -17,16 +20,11 @@ agility: 2
 reason: 0
 presence: 1
 traits:
-- name: LEVEL 1 HARRIER
-  effect: ''
-- name: Demon, Planar EV 10
-  effect: '**Stamina:** 20 **Weakness:** Holy 3 **Speed:** 6 **Size:** 1M / Stability
-    0 **[[Free Strike]]:** 2'
 - name: Lethe
   effect: While winded, the ruinant has an edge on attacks, and attacks have an edge
     against them.
 - name: Soulsight
-  effect: Each creature within 2 of the ruinant can’t be hidden from them.
+  effect: Each creature within 2 of the ruinant can't be hidden from them.
 abilities:
 - name: Bloodletting Claws
   type: Action

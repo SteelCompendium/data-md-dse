@@ -21,7 +21,7 @@ reason: -1
 presence: 0
 traits:
 - name: Lockdown
-  effect: An enemy can’t shift while adjacent to the bruxer.
+  effect: An enemy can't shift while adjacent to the bruxer.
 abilities:
 - name: Lockjaw
   type: Action
@@ -39,7 +39,7 @@ abilities:
   effects:
   - name: Effect
     effect: 'While the target is [[Grabbed|grabbed]], they take 2 damage at the start of each
-      of the bruxer’s turns. '
+      of the bruxer''s turns. '
 - name: Flurry of Bites
   type: Action
   roll: 2d10 + 2

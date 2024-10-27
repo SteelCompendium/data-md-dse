@@ -51,7 +51,7 @@ abilities:
   target: One war dog with a loyalty collar
   effects:
   - name: Effect
-    effect: 'The target’s loyalty collar detonates, killing them instantly. '
+    effect: 'The target''s loyalty collar detonates, killing them instantly. '
 - name: Corrupted Ash [[Teleport]]
   type: Maneuver
   cost: 1 Malice

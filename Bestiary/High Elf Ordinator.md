@@ -40,12 +40,12 @@ abilities:
   effects:
   - name: Effect
     effect: 'High elves have edge on attacks and abilities against the target until
-      the start of the ordinator’s next turn. '
+      the start of the ordinator''s next turn. '
 - name: Call Forth Elementals
   type: Maneuver
   cost: 2+ Malice
   keywords:
-  - —
+  - '-'
   distance: Ranged 10
   target: Special
   effects:
@@ -56,7 +56,7 @@ abilities:
   type: Free Maneuver
   cost: 2 Malice
   keywords:
-  - —
+  - '-'
   distance: Ranged 10
   target: Special
   effects:
@@ -66,7 +66,7 @@ abilities:
 - name: Enough!
   type: Triggered Action
   keywords:
-  - —
+  - '-'
   distance: Ranged 10
   target: 1 enemy
   trigger: The target makes an attack against the ordinator or an ally within distance.

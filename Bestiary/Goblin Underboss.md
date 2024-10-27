@@ -21,7 +21,7 @@ reason: 0
 presence: 1
 traits:
 - name: Crafty
-  effect: The underboss doesn’t provoke opportunity attacks by moving.
+  effect: The underboss doesn't provoke opportunity attacks by moving.
 abilities:
 - name: Sword
   type: Action
@@ -46,8 +46,9 @@ abilities:
   target: All allies in the burst
   effects:
   - name: Effect
-    effect: 'Until the start of the underboss’s next turn, each target has edge on
-      attacks, and attacks against them have edge. 3 Malice: Attacks don’t have edge
-      against a target. '
+    effect: Until the start of the underboss's next turn, each target has edge on
+      attacks, and attacks against them have edge.
+  - name: 3 Malice
+    effect: 'Attacks don''t have edge against a target. '
 
 ```

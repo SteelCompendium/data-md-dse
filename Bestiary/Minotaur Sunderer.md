@@ -75,7 +75,7 @@ abilities:
 - name: Retaliatory Gore
   type: Triggered Action
   keywords:
-  - —
+  - '-'
   trigger: The sunderer takes damage from a creature within 6.
   distance: Self
   target: Triggering creature

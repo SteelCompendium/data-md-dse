@@ -27,7 +27,7 @@ traits:
     [[Grabbed|grabbed]]. The [[Grabbed|grabbed]] creature or object takes the other half of the damage.
 - name: Supernatural Insight
   effect: The brawler can target supernatural creatures and objects within 5 squares,
-    even if they don’t have line of effect.
+    even if they don't have line of effect.
 abilities:
 - name: Haymaker
   type: Action
@@ -50,7 +50,7 @@ abilities:
   type: Maneuver
   cost: 1 Malice
   keywords:
-  - —
+  - '-'
   distance: Melee 1
   target: One creature [[Grabbed|grabbed]] by the brawler
   effects:

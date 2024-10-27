@@ -28,7 +28,7 @@ traits:
     damage and is pushed 2 squares.
 - name: Studied Supernatural Insight
   effect: The storm mage can target supernatural creatures and objects within 10 squares,
-    even if they don’t have line of effect.
+    even if they don't have line of effect.
 abilities:
 - name: Lightning Bolt
   type: Action
@@ -42,8 +42,11 @@ abilities:
   target: One creature or object
   t1: 5 lightning damage
   t2: 8 lightning damage
-  t3: '11 lightning damage 5 Malice: The ability takes the Area keyword and becomes
-    a 10 × 1 line that targets each creature in the area. '
+  t3: 11 lightning damage
+  effects:
+  - name: 5 Malice
+    effect: 'The ability takes the Area keyword and becomes a 10 × 1 line that targets
+      each creature in the area. '
 - name: Gust of Wind
   type: Maneuver
   roll: MGT RR

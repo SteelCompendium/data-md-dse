@@ -21,7 +21,7 @@ reason: 0
 presence: 1
 traits:
 - name: Shared Otherworldly Grace
-  effect: If the cradle horse’s rider has the Otherworldly Grace trait, it also gains
+  effect: If the cradle horse's rider has the Otherworldly Grace trait, it also gains
     the Otherworldly Grace trait.
 abilities:
 - name: Radiant [[Charge]]
@@ -55,9 +55,9 @@ abilities:
   type: Maneuver
   cost: 2 Malice
   keywords:
-  - —
+  - '-'
   distance: Self
-  target: The horse’s rider
+  target: The horse's rider
   effects:
   - name: Effect
     effect: 'Vertical slide 3; The rider can use a ranged ability at any point during

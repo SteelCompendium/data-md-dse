@@ -38,7 +38,7 @@ abilities:
   t3: 6 fire damage
   effects:
   - name: Effect
-    effect: The area is covered in sticky fire until the start of the crucibite’s
+    effect: The area is covered in sticky fire until the start of the crucibite's
       next turn. Whenever a creature enters the area for the first time in a round
       or starts their turn there, they take 2 fire damage.
 - name: Posthumous Promotion
@@ -50,6 +50,6 @@ abilities:
   target: One war dog with a loyalty collar
   effects:
   - name: Effect
-    effect: 'The target’s loyalty collar detonates, killing them instantly. '
+    effect: 'The target''s loyalty collar detonates, killing them instantly. '
 
 ```

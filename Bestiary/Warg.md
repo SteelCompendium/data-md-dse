@@ -24,7 +24,7 @@ traits:
   effect: If a warg used as a mount [[Charge|charges]], their rider gains an edge on melee attacks
     until the end of their turn.
 - name: Shared Crafty
-  effect: If the warg’s rider has the Crafty trait, the warg also has the Crafty trait.
+  effect: If the warg's rider has the Crafty trait, the warg also has the Crafty trait.
 abilities:
 - name: Bite
   type: Action
@@ -44,7 +44,7 @@ abilities:
   type: Maneuver
   cost: 1 Malice
   keywords:
-  - —
+  - '-'
   distance: Self
   target: Self
   effects:

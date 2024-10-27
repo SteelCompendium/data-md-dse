@@ -71,7 +71,7 @@ abilities:
     effect: 'Targets [[Dazed|dazed]] by this ability have a speed of 0 while [[Dazed|dazed]]. If a [[Dazed|dazed]]
       target takes damage or if someone else spends an action to shake the creature
       out of their stupor, the condition is removed. '
-- name: Stalker’s Afterimage
+- name: Stalker's Afterimage
   type: Triggered Action
   keywords:
   - Magic
@@ -80,7 +80,7 @@ abilities:
   target: Self
   effects:
   - name: Effect
-    effect: 'The lightbender halves the damage, doesn’t suffer any associated effect,
+    effect: 'The lightbender halves the damage, doesn''t suffer any associated effect,
       and [[Teleport|teleports]] 5 squares. The lightbender immediately [[Hide|hides]] if they [[Teleport|teleport]]
       into cover or concealment. '
 

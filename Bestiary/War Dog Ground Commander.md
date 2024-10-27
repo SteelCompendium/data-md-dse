@@ -22,7 +22,7 @@ presence: 2
 traits:
 - name: End Effect
   effect: At the end of their turn, the ground commander can take 5 damage to end
-    one save-ends effect affecting them. This damage can’t be reduced in any way.
+    one save-ends effect affecting them. This damage can't be reduced in any way.
 - name: Loyalty Collar
   effect: When the ground commander dies, they explode, dealing 2d6 damage to each
     adjacent enemy.
@@ -53,8 +53,8 @@ abilities:
   target: Each war dog with a loyalty collar
   effects:
   - name: Effect
-    effect: 'The ground commander selects any number of targets’ loyalty collars and
-      detonates them, killing the targets instantly. '
+    effect: 'The ground commander selects any number of targets'' loyalty collars
+      and detonates them, killing the targets instantly. '
 - name: Final Orders
   type: Triggered Action
   keywords:

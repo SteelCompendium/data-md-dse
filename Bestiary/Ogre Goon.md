@@ -53,8 +53,10 @@ abilities:
   t2: 9 damage; [[Grabbed|grabbed]]
   effects:
   - name: Effect
-    effect: 'The goon can only have one target [[Grabbed|grabbed]] at a time. 1 Malice: The target
-      has a bane on escaping the [[Grab|grab]] while the goon crushes the target in their hand. '
+    effect: The goon can only have one target [[Grabbed|grabbed]] at a time.
+  - name: 1 Malice
+    effect: 'The target has a bane on escaping the [[Grab|grab]] while the goon crushes the
+      target in their hand. '
 - name: People Bowling
   type: Maneuver
   roll: 2d10 + 3
@@ -69,13 +71,13 @@ abilities:
   t2: 4 damage
   effects:
   - name: Effect
-    effect: 'The goon hurls what’s in their hand down the line and rolls power. The
+    effect: 'The goon hurls what''s in their hand down the line and rolls power. The
       hurled creature or object counts as a target and lands in the last square of
-      the line (or nearest unoccupied square of the goon’s choice). '
+      the line (or nearest unoccupied square of the goon''s choice). '
 - name: Swat The [[Fly]]
   type: Triggered Action
   keywords:
-  - —
+  - '-'
   trigger: The target moves or shifts away from the goon.
   distance: Melee 1
   target: 1 adjacent creature or object

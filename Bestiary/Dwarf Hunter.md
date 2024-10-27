@@ -35,7 +35,7 @@ abilities:
   t1: 2 damage; pull 1
   t2: 4 damage; pull 2
   effects:
-  - name: '**Effect**'
+  - name: Effect
     effect: A target [[Restrained|restrained]] by a [[Dwarf|dwarf]] can be pulled by this attack.
 
 ```

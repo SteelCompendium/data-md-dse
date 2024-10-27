@@ -36,7 +36,7 @@ abilities:
   t1: 2 damage
   t2: 4 damage
   effects:
-  - name: '**Effect**'
-    effect: The target can’t use triggered actions until the start of the next round.
+  - name: Effect
+    effect: The target can't use triggered actions until the start of the next round.
 
 ```

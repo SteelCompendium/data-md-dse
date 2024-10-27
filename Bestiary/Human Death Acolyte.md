@@ -25,7 +25,7 @@ presence: 2
 traits:
 - name: Supernatural Insight
   effect: The death acolyte can target supernatural creatures and objects within 5
-    squares, even if they don’t have line of effect.
+    squares, even if they don't have line of effect.
 abilities:
 - name: Necrotic Bolt
   type: Action

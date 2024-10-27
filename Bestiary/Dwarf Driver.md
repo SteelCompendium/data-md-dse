@@ -37,7 +37,7 @@ abilities:
   t1: 2 damage; push 1
   t2: 4 damage; push 2
   effects:
-  - name: '**Effect**'
+  - name: Effect
     effect: A target [[Restrained|restrained]] by a [[Dwarf|dwarf]] can be pushed by this attack.
 
 ```

@@ -37,7 +37,7 @@ abilities:
   t1: 3 damage; slide 1; M1 [[Slowed|slowed]] (save ends)
   t2: 6 damage; slide 3; M2 [[Slowed|slowed]] (save ends)
   effects:
-  - name: '**Effect**'
+  - name: Effect
     effect: 'A target [[Restrained|restrained]] by a [[Dwarf|dwarf]] can be slid by this attack. '
 - name: Stone Wave
   type: Maneuver
@@ -51,7 +51,7 @@ abilities:
   t1: 2 damage; push 2; R1 [[Slowed|slowed]] (save ends)
   t2: 3 damage; push 3; R2 [[Slowed|slowed]] (save ends)
   effects:
-  - name: '**Effect**'
+  - name: Effect
     effect: 'A target [[Restrained|restrained]] by a [[Dwarf|dwarf]] can be pushed by this attack. The affected
       area is [[Difficult Terrain|difficult terrain]] for enemies. '
 

@@ -42,7 +42,7 @@ abilities:
   effects:
   - name: Effect
     effect: 'The area is covered in a cloud of pestilence that lasts until the start
-      of the pestilite’s next turn. Any creature who enters the area for the first
+      of the pestilite''s next turn. Any creature who enters the area for the first
       time in a round or starts their turn there takes 2 poison damage. '
 - name: Posthumous Promotion
   type: Maneuver
@@ -53,6 +53,6 @@ abilities:
   target: One war dog with a loyalty collar
   effects:
   - name: Effect
-    effect: 'The target’s loyalty collar detonates, killing them instantly. '
+    effect: 'The target''s loyalty collar detonates, killing them instantly. '
 
 ```

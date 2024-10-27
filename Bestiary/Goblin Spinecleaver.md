@@ -22,7 +22,7 @@ reason: 0
 presence: -1
 traits:
 - name: Crafty
-  effect: The spinecleaver doesn’t provoke opportunity attacks by moving.
+  effect: The spinecleaver doesn't provoke opportunity attacks by moving.
 abilities:
 - name: Axe
   type: Action

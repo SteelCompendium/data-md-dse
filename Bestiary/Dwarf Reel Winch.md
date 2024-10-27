@@ -38,7 +38,7 @@ abilities:
   t1: 3 damage; M1 [[Slowed|slowed]] (save ends)
   t2: 5 damage; M2 [[Slowed|slowed]] (save ends)
   effects:
-  - name: '**2 Malice**'
+  - name: 2 Malice
     effect: 'Pull 5. A target [[Restrained|restrained]] by a [[Dwarf|dwarf]], including by this ability, can
       be pulled this way. '
 - name: Reel Them In
@@ -50,7 +50,7 @@ abilities:
   distance: Ranged 10
   target: 3 creatures
   effects:
-  - name: '**Effect**'
+  - name: Effect
     effect: 'Pull 5. A [[Slowed|slowed]] or [[Restrained|restrained]] target is pulled an additional 2. A target
       [[Restrained|restrained]] by a [[Dwarf|dwarf]] can be pulled this way. '
 

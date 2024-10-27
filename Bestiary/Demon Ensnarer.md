@@ -1,8 +1,12 @@
 ```ds-statblock
 name: Demon Ensnarer
-ancestry: []
-roles: []
-level: ''
+ancestry:
+- Demon
+- Planar EV 6
+roles:
+- BRUTE
+- MINION
+level: 1
 ev: ''
 stamina: ''
 immunities: []
@@ -17,13 +21,8 @@ agility: 0
 reason: -1
 presence: -1
 traits:
-- name: LEVEL 1 BRUTE MINION
-  effect: ''
-- name: Demon, Planar EV 6
-  effect: '**Stamina:** 10 **Weakness:** Holy 3 **Speed:** 5 **Size:** 1M / Stability
-    0 **[[Free Strike]]:** 2'
 - name: Soulsight
-  effect: Each creature within 2 of the ensnarer can’t be hidden from them.
+  effect: Each creature within 2 of the ensnarer can't be hidden from them.
 abilities:
 - name: Barbed Tongues
   type: Action

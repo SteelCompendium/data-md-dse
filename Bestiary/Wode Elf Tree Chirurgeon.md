@@ -41,8 +41,9 @@ abilities:
   t2: 7 damage; push 3
   effects:
   - name: Effect
-    effect: 'The tree chirurgeon can make a ranged [[Free Strike|free strike]] before attacking. 5
-      Malice: The tree chirurgeon uses this ability again. '
+    effect: The tree chirurgeon can make a ranged [[Free Strike|free strike]] before attacking.
+  - name: 5 Malice
+    effect: 'The tree chirurgeon uses this ability again. '
 - name: The Wode Protects Us
   type: Maneuver
   cost: 3 Malice

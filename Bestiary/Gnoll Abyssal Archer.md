@@ -25,7 +25,7 @@ traits:
     up to their speed and makes a [[Free Strike|free strike]].
 - name: Bloodscent
   effect: The abyssal archer can target creatures not at full Stamina with abilities,
-    even if they don’t have line of effect.
+    even if they don't have line of effect.
 abilities:
 - name: Dark Longbow
   type: Action
@@ -47,13 +47,13 @@ abilities:
   type: Maneuver
   cost: 2 Malice
   keywords:
-  - —
+  - '-'
   distance: Self and 2 burst
   target: Self and all allies
   effects:
   - name: Effect
     effect: 'Each target has an edge on their next attack before the end of their
-      next turn. Targets who haven’t used a cackletongue maneuver on this turn use
+      next turn. Targets who haven''t used a cackletongue maneuver on this turn use
       it immediately at no cost. '
 
 ```

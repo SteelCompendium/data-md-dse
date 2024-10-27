@@ -23,8 +23,8 @@ reason: -5
 presence: 1
 traits:
 - name: Arise
-  effect: The first time the zombie is reduced to Stamina 0 by damage that isn’t fire
-    damage or holy damage and their body isn’t destroyed, they regain half their Stamina
+  effect: The first time the zombie is reduced to Stamina 0 by damage that isn't fire
+    damage or holy damage and their body isn't destroyed, they regain half their Stamina
     and fall [[Prone|prone]].
 - name: Endless Knight
   effect: The zombie can take advantage of their Arise trait twice.
@@ -41,7 +41,7 @@ abilities:
   target: One creature or object
   t1: 2 damage; M1 [[Grabbed|grabbed]]
   t2: 5 damage; M2 [[Grabbed|grabbed]]
-  t3: '6 damage; [[Grabbed|grabbed]] '
+  t3: 6 damage; [[Grabbed|grabbed]]
   effects:
   - name: Effect
     effect: 'A target who starts their turn [[Grabbed|grabbed]] by the zombie takes 2 corruption

@@ -39,8 +39,10 @@ abilities:
   t2: 5 damage; A3 marked (save ends)
   effects:
   - name: Effect
-    effect: 'Allies have **+1** on attacks and abilities against marked creatures
-      and objects. 3 Malice: The sentry targets two additional creatures or objects. '
+    effect: Allies have **+1** on attacks and abilities against marked creatures and
+      objects.
+  - name: 3 Malice
+    effect: 'The sentry targets two additional creatures or objects. '
 - name: Death Blossom
   type: Maneuver
   cost: 2 Malice

@@ -22,7 +22,7 @@ presence: 3
 traits:
 - name: End Effect
   effect: At the end of their turn, the maestro can take 5 damage to end one save
-    ends effect affecting them. This damage can’t be reduced in any way.
+    ends effect affecting them. This damage can't be reduced in any way.
 abilities:
 - name: Cacophony
   type: Action
@@ -51,8 +51,11 @@ abilities:
   target: Two enemies
   t1: [[Slowed]] (save ends)
   t2: [[Slowed]] (EoT)
-  t3: 'No effect 3 Malice: Each ally within 3 of a target has their speed increased
-    by 2 until the end of their next turn. '
+  t3: No effect
+  effects:
+  - name: 3 Malice
+    effect: 'Each ally within 3 of a target has their speed increased by 2 until the
+      end of their next turn. '
 - name: Ever Ready Rodent
   type: Free Triggered Action
   cost: 2 Malice

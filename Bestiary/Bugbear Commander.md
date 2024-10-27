@@ -1,8 +1,12 @@
 ```ds-statblock
 name: Bugbear Commander
-ancestry: []
-roles: []
-level: ''
+ancestry:
+- Bugbear
+- Goblin
+- Humanoid
+roles:
+- SUPPORT
+level: 2
 ev: 32
 stamina: 70
 immunities: []
@@ -17,13 +21,11 @@ agility: 1
 reason: 2
 presence: 0
 traits:
-- name: LEVEL 2 SUPPORT
-  effect: '*Bugbear, Goblin, Humanoid*'
 - name: Catcher (Free Triggered Action)
-  effect: 'Keywords: — Distance: Melee 1 Target: 1 size 1 creature or object Trigger:
-    The target is force moved into a square adjacent to the commander. - Effect: The
+  effect: 'Keywords: - Distance: Melee 1 Target: 1 size 1 creature or object Trigger:
+    The target is force moved into a square adjacent to the commander. Effect: The
     target is [[Grabbed|grabbed]] by the commander.'
-- name: The Commander’s Watching
+- name: The Commander's Watching
   effect: While an ally has line of effect to the commander, the ally can end one
     condition afflicting them at the start of their turn.
 abilities:
@@ -40,19 +42,30 @@ abilities:
   t1: 5 damage
   t2: 8 damage
   t3: 11 damage; one target is [[Grabbed|grabbed]]
+  effects:
+  - name: Effect
+    effect: '1 ally within 5 of the commander has an edge on their next attack until
+      the start of the commander''s next turn. '
 - name: You Next!
   type: Action
   keywords:
-  - —
+  - '-'
   distance: Ranged 8
   target: 1 ally
+  effects:
+  - name: Effect
+    effect: 'The target moves up to their speed and uses a signature action. '
 - name: Fall Back!
   type: Action
   cost: 5 Malice
   keywords:
-  - —
+  - '-'
   distance: Self and 5 burst
   target: Self and all allies
+  effects:
+  - name: Effect
+    effect: 'Each target shifts up to their speed. One target can then use the Throw
+      maneuver if they have it. '
 - name: Throw
   type: Maneuver
   keywords:
@@ -60,5 +73,8 @@ abilities:
   - Melee
   distance: Melee 1
   target: 1 creature or object [[Grabbed|grabbed]] by the commander
+  effects:
+  - name: Effect
+    effect: 'Vertical push 4; ally targets don''t take damage from being force moved. '
 
 ```

@@ -24,7 +24,7 @@ reason: -5
 presence: -1
 traits:
 - name: Disorganized
-  effect: The crawling claw can’t grant the flanking benefit to allies.
+  effect: The crawling claw can't grant the flanking benefit to allies.
 abilities:
 - name: Fingernails
   type: Action

@@ -21,7 +21,7 @@ reason: 0
 presence: 1
 traits:
 - name: Musical Suggestion
-  effect: At the end of the piper’s turn, they can choose an adjacent creature and
+  effect: At the end of the piper's turn, they can choose an adjacent creature and
     slide them 2, ignoring stability.
 abilities:
 - name: Piercing Trill

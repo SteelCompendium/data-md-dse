@@ -56,7 +56,7 @@ abilities:
   t2: 5 damage; slide 2; M2 grappled
   effects:
   - name: Effect
-    effect: 'The scaletooth needs their tail to use this ability. The scaletooth can’t
+    effect: 'The scaletooth needs their tail to use this ability. The scaletooth can''t
       grapple more than one creature or object with this ability. '
 
 ```

@@ -22,9 +22,9 @@ presence: -3
 traits:
 - name: End Effect
   effect: At the end of their turn, the monarch can take 5 damage to end one save-ends
-    effect affecting them. This damage can’t be reduced in any way.
+    effect affecting them. This damage can't be reduced in any way.
 - name: Crafty
-  effect: The monarch doesn’t provoke opportunity attacks by moving.
+  effect: The monarch doesn't provoke opportunity attacks by moving.
 abilities:
 - name: Handaxe
   type: Action
@@ -47,7 +47,7 @@ abilities:
   type: Maneuver
   cost: 1 Malice
   keywords:
-  - —
+  - '-'
   distance: Ranged 20
   target: Special
   effects:
@@ -56,7 +56,7 @@ abilities:
 - name: Meat Shield
   type: Triggered Action
   keywords:
-  - —
+  - '-'
   distance: Melee 1
   target: One ally
   trigger: A creature targets the monarch with an attack.
@@ -75,7 +75,7 @@ abilities:
 - name: Focus Fire
   type: Villain Action 2
   keywords:
-  - —
+  - '-'
   distance: Ranged 10
   target: One enemy
   effects:

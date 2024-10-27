@@ -38,8 +38,9 @@ abilities:
   t2: 4 damage
   effects:
   - name: Effect
-    effect: '[[Taunted]] (EoT). 3 Malice: The legionary and their squad can shift 2 before
-      this attack is made. '
+    effect: [[Taunted]] (EoT).
+  - name: 3 Malice
+    effect: 'The legionary and their squad can shift 2 before this attack is made. '
 - name: Shield Bash
   type: Maneuver
   keywords:

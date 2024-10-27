@@ -34,9 +34,9 @@ abilities:
   - Resistance
   distance: Ranged 8
   target: 1 creature
-  t1: 3 psychic damage; I1 target makes a [[Free Strike|free strike]] against a creature of the cackler’s
+  t1: 3 psychic damage; I1 target makes a [[Free Strike|free strike]] against a creature of the cackler's
     choice
-  t2: 5 psychic damage; I2 target makes a [[Free Strike|free strike]] against a creature of the cackler’s
+  t2: 5 psychic damage; I2 target makes a [[Free Strike|free strike]] against a creature of the cackler's
     choice
   effects:
   - name: Effect
@@ -56,8 +56,8 @@ abilities:
   t2: [[Frightened]] of the cackler (EoT)
   effects:
   - name: Effect
-    effect: 'Allies targeted by this ability don’t make a resistance roll. Targets
-      who haven’t used a cackletongue maneuver on this turn use it immediately at
+    effect: 'Allies targeted by this ability don''t make a resistance roll. Targets
+      who haven''t used a cackletongue maneuver on this turn use it immediately at
       no cost. '
 
 ```

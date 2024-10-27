@@ -43,12 +43,12 @@ abilities:
   type: Maneuver
   cost: 3 Malice
   keywords:
-  - —
+  - '-'
   distance: Self and 2 burst
   target: Self and all allies
   effects:
   - name: Effect
-    effect: 'Each target shifts up to their speed. Targets who haven’t used a cackletongue
+    effect: 'Each target shifts up to their speed. Targets who haven''t used a cackletongue
       maneuver on this turn use it immediately at no cost. '
 
 ```
