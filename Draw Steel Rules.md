@@ -921,7 +921,7 @@ they receive at various levels of play.
 
 ### 1ST ECHELON (LEVELS 1-3)
 
-The 1st echelon of play encompasses levels 1 to 3. At this echelon, the player characters are local heroes. They save
+The 1st echelon of play encompasses levels 1 to 3. At this echelon, the player characters are [[Local Hero|local heroes]]. They save
 lost caravans, besieged villages, and overlooked neighborhoods of cities. The heroes battle bands of mortal
 humanoids-[[Dwarf|dwarves]], elves, goblins, [[Human|humans]], kobolds, [[Orc|orcs]]. They face the occasional larger monstrous threat, such as a
 [[Bredbeddle|bredbeddle]], ogre, or [[Chimera|chimera]]. These are the kinds of creatures that can threaten a small community, but rarely have
@@ -2384,16 +2384,16 @@ Your hearty constitution prevents you from losing strength. You can't be [[Weake
 
 Working with your Director, you can predetermine an encounter in which you will die.
 
-When that encounter begins, you become doomed. While doomed, you lose the Undaunted benefit from this ancestry, you
+When that encounter begins, you become [[Doomed|doomed]]. While [[Doomed|doomed]], you lose the Undaunted benefit from this ancestry, you
 automatically get tier 3 results on tests and resistance rolls, and you don't die no matter how low your Stamina
 falls. You then die immediately at the end of the encounter.
 
-If you don't predetermine your death encounter, you can choose to become doomed while you are dying with the
+If you don't predetermine your death encounter, you can choose to become [[Doomed|doomed]] while you are dying with the
 Director's approval (no action required). Doing so should be reserved for encounters in which you are dying as a
 result of suitable heroism, such as making a last stand against a boss or saving civilians, or when the consequences
 of your actions have finally caught up to you-not because you're playing a one-shot and have nothing to lose, Hacaarl.
 
-Additionally, when your Stamina equals the negative of your winded value and you are not doomed, you turn to rubble
+Additionally, when your Stamina equals the negative of your winded value and you are not [[Doomed|doomed]], you turn to rubble
 instead of experiencing death. You are unaware of your surroundings in this state. After 12 hours, you regain Stamina
 equal to your Recovery value.
 
@@ -2817,7 +2817,7 @@ profession, especially in cities.
 The three peasants-Jago, his wife Sarah, and his sister Beth-sat together watching the three heroes talk in the crowded
 common room of the inn. Well, Jackson Bootblack seemed to be doing most of the talking.
 
-> "This kind of shit doesn't work if it's just a bunch of ratcatchers like us," the [[Polder|polder]] said. "You need the people to
+> "This kind of shit doesn't work if it's just a bunch of [[Ratcatcher|ratcatchers]] like us," the [[Polder|polder]] said. "You need the people to
 > rise up. Been fifteen years since Omund died-fifteen years of fighting wolves and bandits and worse. The people welcome
 > a tyrant after that. They like order, you know? They adapt."
 
@@ -12220,7 +12220,7 @@ distance moved this way.
 
 ### PUGILIST
 
-Meant for brawlers and boxers, the [[Pugilist]] kit gives you access to a melee fighting style that gives you a boost to
+Meant for [[Brawler|brawlers]] and boxers, the [[Pugilist]] kit gives you access to a melee fighting style that gives you a boost to
 Stamina and damage while allowing you to float like a butterfly. If you want to be a tough, strong hero who doles out
 punishment with your fists, then this kit is for you.
 
@@ -17406,7 +17406,7 @@ A bejeweled scepter with a spiraling porcelain handle balances an orb of light a
 
 The scepter waits high in the sky, resting within an endlessly raging cyclone. It waits for the one who will unify all people under its light. It awaits its champion.
 
-The Encepter was said to have first manifested in a young world doomed to apocalypse-unless every last inhabitant of that world could stand together. The scepter is said to impose either dominion or obliteration over any threat its light is drawn around. Today, it is most commonly known as a bad omen, and should the Encepter reveal itself, folk know that the world teeters on the brink of destruction.
+The Encepter was said to have first manifested in a young world [[Doomed|doomed]] to apocalypse-unless every last inhabitant of that world could stand together. The scepter is said to impose either dominion or obliteration over any threat its light is drawn around. Today, it is most commonly known as a bad omen, and should the Encepter reveal itself, folk know that the world teeters on the brink of destruction.
 
 Whether any of the stories are true, few can say, for the only living eyes that have witnessed the Encepter belong to dragons deep in slumber.
 
@@ -17460,13 +17460,13 @@ If you're the Director, note that granting a title several tiers early may have 
 
 In the following pages, you'll find lots of premade titles. But the Director can also create custom titles, both to reward specific player accomplishments and to flesh out organizations, locations, and foes within their own game world. When a hero finally achieves a long-term goal after many game sessions of struggle, the Director can memorialize the moment by granting a unique title.
 
-Similarly, the Director can grant custom titles when the heroes befriend specific factions, defeat notorious villains, or learn new moves from skilled NPCs. While the Director can always create titles from scratch, the easiest way to create custom titles is to modify an existing title's requirements to fit the adventure at hand. For instance, maybe your world contains a secretive organization of freedom fighters, the Jesters, who never carry weapons, defeating foes with unarmed attacks and improvised weapons. You could modify the requirements of the Brawler title, changing its requirements to "Join the Jesters."
+Similarly, the Director can grant custom titles when the heroes befriend specific factions, defeat notorious villains, or learn new moves from skilled NPCs. While the Director can always create titles from scratch, the easiest way to create custom titles is to modify an existing title's requirements to fit the adventure at hand. For instance, maybe your world contains a secretive organization of freedom fighters, the Jesters, who never carry weapons, defeating foes with unarmed attacks and improvised weapons. You could modify the requirements of the [[Brawler]] title, changing its requirements to "Join the Jesters."
 
 ## TITLE BENEFITS
 
 Some titles have only one benefit. These are typically earned individually by heroes instead of together as a group. For instance, to win the Advanced Pupil title, a hero must study at the feet of a renowned member of their character class. Only the hero doing the studying reaps the reward!
 
-Most titles, however, are earned by all the heroes at once for accomplishing a great task, benefiting them all. These titles typically offer a menu of three or four different options. When the party earns the title, each player decides which benefit their hero takes. For instance, if the party triumphs in a tavern fight and gains the Brawler title, one hero might become more adept at fighting with improvised weapons, another might learn a special dodge to use when flanked by multiple enemies, and two others might simply revel in increased notoriety. Any hero can take any of a title's benefits they qualify for, and multiple characters can take the same benefit.
+Most titles, however, are earned by all the heroes at once for accomplishing a great task, benefiting them all. These titles typically offer a menu of three or four different options. When the party earns the title, each player decides which benefit their hero takes. For instance, if the party triumphs in a tavern fight and gains the [[Brawler]] title, one hero might become more adept at fighting with improvised weapons, another might learn a special dodge to use when flanked by multiple enemies, and two others might simply revel in increased notoriety. Any hero can take any of a title's benefits they qualify for, and multiple characters can take the same benefit.
 
 ## GRANTING TITLES
 
@@ -17539,7 +17539,7 @@ Choose one of the following benefits:
 
 **Prerequisites:** You are not a [[Hakaan]] but have witnessed the death of a [[Hakaan]].
 
-You're not destined for a meaningful death, but you still might achieve one. When you're reduced to 0 Stamina but still conscious, you can choose to become doomed. If you do, you can't regain hit points, you automatically get tier 3 results on tests and resistance rolls, and you don't die until your Stamina equals the negative of your maximum Stamina value. At the end of the encounter, you die.
+You're not destined for a meaningful death, but you still might achieve one. When you're reduced to 0 Stamina but still conscious, you can choose to become [[Doomed|doomed]]. If you do, you can't regain hit points, you automatically get tier 3 results on tests and resistance rolls, and you don't die until your Stamina equals the negative of your maximum Stamina value. At the end of the encounter, you die.
 
 ### DWARVEN LEGIONNAIRE
 
