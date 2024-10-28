@@ -390,7 +390,7 @@ Target: Two creatures or objects
 - ✦ ≤11: 2 damage; A2 [[Grabbed|grabbed]]
 - ★ 12-16: 4 damage; A3 [[Grabbed|grabbed]]
 - ✸ 17+: 5 damage; A4 [[Grabbed|grabbed]]
-- 2 Malice: The [[Ankheg|ankheg]] can vertical slide one or both targets up to 5 squares.
+    2 Malice: The [[Ankheg|ankheg]] can vertical slide one or both targets up to 5 squares.
 
 **Earth Eruption (Action)** ◆ 2d10 + 2 ◆ 3 Malice
 Keywords: Area
@@ -581,7 +581,7 @@ Target: 1 creature or object
 - ★ 12-16: 8 acid damage; pull 2
 - ✸ 17+: 12 acid damage; pull 3
     Effect: This attack can pull targets [[Restrained|restrained]] by Petrifying Eye Beams.
-- 3 Malice: The tonguesnapper targets two additional creatures or objects.
+    3 Malice: The tonguesnapper targets two additional creatures or objects.
 
 **Petrifying Eye Beams (Maneuver)** ◆ MGT RR
 Keywords: Magic, Ranged, Resistance
@@ -680,7 +680,7 @@ Target: Each enemy in the burst
 - ✦ ≤11: 2 damage; A2 [[Bleeding|bleeding]] (save ends)
 - ★ 12-16: 4 damage; A3 [[Bleeding|bleeding]] (save ends)
 - ✸ 17+: 5 damage; A4 [[Bleeding|bleeding]] and [[Dazed|dazed]] (save ends)
-- 3 Malice: The [[Bredbeddle|bredbeddle]] shifts up to 2 squares and can target additional enemies who come within distance of this ability during the move.
+    3 Malice: The [[Bredbeddle|bredbeddle]] shifts up to 2 squares and can target additional enemies who come within distance of this ability during the move.
 
 **Lop (Action)** ◆ 2d10 + 3 ◆ 3 Malice
 Keywords: Attack, Magic, Melee, Weapon
@@ -924,7 +924,7 @@ Target: 2 creatures or objects
 - ✦ ≤11: 5 damage
 - ★ 12-16: 9 damage; one target is [[Grabbed|grabbed]]; one target gets push 2
 - ✸ 17+: 12 damage; one target is [[Grabbed|grabbed]]; one target gets vertical push 3
-- 5 Malice: The distance becomes 1 Burst, the Attack keyword is replaced with Area, and the roughneck targets all enemies instead.
+    5 Malice: The distance becomes 1 Burst, the Attack keyword is replaced with Area, and the roughneck targets all enemies instead.
 
 **Leaping Fury (Action)** ◆ 2d10 + 3
 Keywords: Attack, Ranged, Weapon
@@ -7429,7 +7429,7 @@ Target: All creatures and objects
 - ★ 12-16: 5 fire damage
 - ✸ 17+: 6 fire damage
     Effect: The area is covered in sticky fire until the start of the crucibite's next turn. Whenever a creature enters the area for the first time in a round or starts their turn there, they take 2 fire damage.
-- 3 Malice: The area increases to a 10 × 1 line, and if any ally of the crucibite is in the area when it is created, the crucibite has **edge** on the ability.
+    3 Malice: The area increases to a 10 × 1 line, and if any ally of the crucibite is in the area when it is created, the crucibite has **edge** on the ability.
 
 **Posthumous Promotion (Maneuver)**
 Keywords: Magic, Ranged
@@ -7500,7 +7500,7 @@ Target: One creature or object
 - ★ 12-16: 5 damage; slide 2
 - ✸ 17+: 7 damage; slide 3
     Effect: The portalite has **edge** on the attack if an ally is adjacent to the target.
-- 1 Malice: The portalite [[Teleport|teleports]] the target 3 squares before sliding them.
+    1 Malice: The portalite [[Teleport|teleports]] the target 3 squares before sliding them.
 
 **Posthumous Promotion (Maneuver)**
 Keywords: Magic, Ranged
@@ -7542,7 +7542,7 @@ Target: Two creatures or objects
 - ★ 12-16: 4 damage; A2 [[Grabbed|grabbed]]
 - ✸ 17+: 5 damage; A3 [[Grabbed|grabbed]]
     Special: The amalgamite can [[Grab|grab]] up to four creatures.
-- 5 Malice: The amalgamite deals an additional 4 damage to each creature they have [[Grabbed|grabbed]] and regains Stamina equal to the damage dealt.
+    5 Malice: The amalgamite deals an additional 4 damage to each creature they have [[Grabbed|grabbed]] and regains Stamina equal to the damage dealt.
 
 **Posthumous Promotion (Maneuver)**
 Keywords: Magic, Ranged
@@ -7689,7 +7689,7 @@ Target: Two creatures or objects
 - ★ 12-16: 8 damage; pull 2
 - ✸ 17+: 11 damage; pull 3
     Effect: One ally within 10 squares of the commander can make a [[Free Strike|free strike]].
-- 1 Malice: A target who is adjacent to the ground commander after this ability is resolved is I3 [[Grabbed|grabbed]] (save ends). This [[Grab|grab]] can't be escaped using the [[Escape Grab]] maneuver. The ground commander can [[Grab|grab]] up to two creatures at a time.
+    1 Malice: A target who is adjacent to the ground commander after this ability is resolved is I3 [[Grabbed|grabbed]] (save ends). This [[Grab|grab]] can't be escaped using the [[Escape Grab]] maneuver. The ground commander can [[Grab|grab]] up to two creatures at a time.
 
 **Highest Posthumous Promotion (Maneuver)**
 Keywords: Area, Magic
@@ -7794,7 +7794,7 @@ Target: 1 creature or object
 - ✦ ≤11: 7 damage; 2 ferocity
 - ★ 12-16: 10 damage; 4 ferocity
 - ✸ 17: 13 damage; 5 ferocity
-- 2 Malice: The target has P0 lycanthropy. The potency of this attack increases by 1 each time the [[Werewolf|werewolf]] forces the same target to resist it.
+    2 Malice: The target has P0 lycanthropy. The potency of this attack increases by 1 each time the [[Werewolf|werewolf]] forces the same target to resist it.
     Effect: A creature afflicted with lycanthropy accumulates 2 ferocity at the end of each of their turns whenever they're in combat. Their ferocity does not disappear after completing a respite; they must complete the Find a Cure project to end this condition.
 
 **Claws (Action)** ◆ 2d10 + 3

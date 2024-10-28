@@ -47,6 +47,10 @@ abilities:
   t1: 2 damage; A2 [[Bleeding|bleeding]] (save ends)
   t2: 4 damage; A3 [[Bleeding|bleeding]] (save ends)
   t3: 5 damage; A4 [[Bleeding|bleeding]] and [[Dazed|dazed]] (save ends)
+  effects:
+  - name: 3 Malice
+    effect: 'The bredbeddle shifts up to 2 squares and can target additional enemies
+      who come within distance of this ability during the move. '
 - name: Lop
   type: Action
   roll: 2d10 + 3

@@ -40,6 +40,9 @@ abilities:
   effects:
   - name: Special
     effect: The amalgamite can [[Grab|grab]] up to four creatures.
+  - name: 5 Malice
+    effect: 'The amalgamite deals an additional 4 damage to each creature they have
+      [[Grabbed|grabbed]] and regains Stamina equal to the damage dealt. '
 - name: Posthumous Promotion
   type: Maneuver
   keywords:

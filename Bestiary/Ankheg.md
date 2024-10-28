@@ -60,6 +60,9 @@ abilities:
   t1: 2 damage; A2 [[Grabbed|grabbed]]
   t2: 4 damage; A3 [[Grabbed|grabbed]]
   t3: 5 damage; A4 [[Grabbed|grabbed]]
+  effects:
+  - name: 2 Malice
+    effect: 'The ankheg can vertical slide one or both targets up to 5 squares. '
 - name: Earth Eruption
   type: Action
   roll: 2d10 + 2

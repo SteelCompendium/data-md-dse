@@ -50,6 +50,9 @@ abilities:
   t1: 7 damage; 2 ferocity
   t2: 10 damage; 4 ferocity
   effects:
+  - name: 2 Malice
+    effect: The target has P0 lycanthropy. The potency of this attack increases by
+      1 each time the werewolf forces the same target to resist it.
   - name: Effect
     effect: 'A creature afflicted with lycanthropy accumulates 2 ferocity at the end
       of each of their turns whenever they''re in combat. Their ferocity does not

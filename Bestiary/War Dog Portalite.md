@@ -42,6 +42,8 @@ abilities:
   - name: Effect
     effect: The portalite has **edge** on the attack if an ally is adjacent to the
       target.
+  - name: 1 Malice
+    effect: 'The portalite [[Teleport|teleports]] the target 3 squares before sliding them. '
 - name: Posthumous Promotion
   type: Maneuver
   keywords:

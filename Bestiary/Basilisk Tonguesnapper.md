@@ -41,6 +41,8 @@ abilities:
   effects:
   - name: Effect
     effect: This attack can pull targets [[Restrained|restrained]] by Petrifying Eye Beams.
+  - name: 3 Malice
+    effect: 'The tonguesnapper targets two additional creatures or objects. '
 - name: Petrifying Eye Beams
   type: Maneuver
   cost: MGT RR
