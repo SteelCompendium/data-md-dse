@@ -20,11 +20,7 @@ intuition: 0
 agility: 2
 reason: 0
 presence: 0
-traits:
-- name: Catcher (Free Triggered Action)
-  effect: 'Keywords: - Distance: Melee 1 Target: 1 size 1 creature or object Trigger:
-    The target is force moved into a square adjacent to the sneak. Effect: The target
-    is [[Grabbed|grabbed]] by the sneak.'
+traits: []
 abilities:
 - name: Suckerpunch
   type: Action
@@ -84,6 +80,16 @@ abilities:
   effects:
   - name: Effect
     effect: 'Vertical push 4. Ally targets don''t take damage from being force moved. '
+- name: Catcher
+  type: Free Triggered Action
+  keywords:
+  - '-'
+  distance: Melee 1
+  target: 1 size 1 creature or object
+  trigger: The target is force moved into a square adjacent to the sneak.
+  effects:
+  - name: Effect
+    effect: 'The target is [[Grabbed|grabbed]] by the sneak. '
 - name: Misdirection
   type: Triggered Action
   cost: 1 Malice

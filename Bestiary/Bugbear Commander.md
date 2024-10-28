@@ -21,10 +21,6 @@ agility: 1
 reason: 2
 presence: 0
 traits:
-- name: Catcher (Free Triggered Action)
-  effect: 'Keywords: - Distance: Melee 1 Target: 1 size 1 creature or object Trigger:
-    The target is force moved into a square adjacent to the commander. Effect: The
-    target is [[Grabbed|grabbed]] by the commander.'
 - name: The Commander's Watching
   effect: While an ally has line of effect to the commander, the ally can end one
     condition afflicting them at the start of their turn.
@@ -76,5 +72,15 @@ abilities:
   effects:
   - name: Effect
     effect: 'Vertical push 4; ally targets don''t take damage from being force moved. '
+- name: Catcher
+  type: Free Triggered Action
+  keywords:
+  - '-'
+  distance: Melee 1
+  target: 1 size 1 creature or object
+  trigger: The target is force moved into a square adjacent to the commander.
+  effects:
+  - name: Effect
+    effect: 'The target is [[Grabbed|grabbed]] by the commander. '
 
 ```

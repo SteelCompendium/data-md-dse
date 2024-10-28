@@ -22,9 +22,6 @@ agility: -1
 reason: -3
 presence: -2
 traits:
-- name: You Didn't Pay Attention! (Free Triggered Action)
-  effect: 'Keywords: - Trigger: A creature moves or is force moved into the cube.
-    Distance: Self Target: Self Effect: The cube uses Engulf with a double edge.'
 - name: Translucent Cube
   effect: The cube completely occupies its space, blocking line of effect on enemy
     attacks and abilities. The cube is hidden until revealed.
@@ -50,5 +47,15 @@ abilities:
       ends, the creature moves to the nearest unoccupied square adjacent to the cube.
   - name: 3 Malice
     effect: 'The cube attacks 1 additional target. '
+- name: You Didn't Pay Attention!
+  type: Free Triggered Action
+  keywords:
+  - '-'
+  trigger: A creature moves or is force moved into the cube.
+  distance: Self
+  target: Self
+  effects:
+  - name: Effect
+    effect: 'The cube uses Engulf with a double edge. '
 
 ```
