@@ -63,6 +63,6 @@ abilities:
   effects:
   - name: Effect
     effect: 'The gust of wind disperses gas or vapor and extinguishes any flames,
-      including persistent effects. '
+      including [[Persistent|persistent]] effects. '
 
 ```
