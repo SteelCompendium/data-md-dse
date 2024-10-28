@@ -35,5 +35,6 @@ abilities:
   target: 1 creature or object per minion
   t1: 2 damage
   t2: 5 damage; [[Grabbed|grabbed]]
+  t3: 6 damage; [[Grabbed|grabbed]] or [[Prone|prone]]
 
 ```

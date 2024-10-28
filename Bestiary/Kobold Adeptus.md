@@ -36,6 +36,7 @@ abilities:
   target: 1 creature or object
   t1: 2 lightning damage
   t2: 5 lightning damage
+  t3: 6 lightning damage
   effects:
   - name: Effect
     effect: 'The adeptus has an edge on the attack if the target is adjacent to another
@@ -52,6 +53,7 @@ abilities:
   target: 3 creatures or objects
   t1: 2 damage
   t2: 5 damage
+  t3: 6 damage
   effects:
   - name: Effect
     effect: 'This attack ignores all banes and hindrances. '

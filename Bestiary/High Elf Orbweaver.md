@@ -36,6 +36,7 @@ abilities:
   target: All creatures in the cube
   t1: 3 damage; M1 [[Slowed|slowed]] (EoT)
   t2: 4 damage; M2 [[Slowed|slowed]] (EoT)
+  t3: '5 cold damage; M3 [[Prone|prone]] '
 - name: Aetherweb
   type: Action
   cost: 2d10 + 2
@@ -46,6 +47,7 @@ abilities:
   target: 2 enemies or objects
   t1: 3 damage; R1 [[Slowed|slowed]] (save ends)
   t2: 5 damage; R2 [[Slowed|slowed]] (save ends)
+  t3: 6 damage; R3 [[Restrained|restrained]] (save ends)
   effects:
   - name: Effect
     effect: 'Each enemy within 3 of a target suffers the same additional effects as

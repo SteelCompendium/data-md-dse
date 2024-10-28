@@ -36,6 +36,7 @@ abilities:
   target: 1 creature or object
   t1: 3 fire damage; I1 burning (save ends)
   t2: 5 fire damage; I2 burning (save ends)
+  t3: 7 fire damage; I3 burning (save ends)
   effects:
   - name: Effect
     effect: 'A burning target takes 1d6 fire damage at the start of each of their

@@ -36,6 +36,7 @@ abilities:
   target: 1 creature or object
   t1: 4 damage; push 1
   t2: 7 damage; push 3
+  t3: 10 damage; push 5
   effects:
   - name: Effect
     effect: If the target is adjacent to a wall or object after the power roll is

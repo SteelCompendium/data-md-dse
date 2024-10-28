@@ -36,6 +36,7 @@ abilities:
   target: 3 creatures or objects
   t1: 5 damage; slide 1
   t2: 9 damage; slide 3
+  t3: 12 damage; slide 5
   effects:
   - name: Effect
     effect: A target [[Restrained|restrained]] by a [[Dwarf|dwarf]] can be slid by this attack.

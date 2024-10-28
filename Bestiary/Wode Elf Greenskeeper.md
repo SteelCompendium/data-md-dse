@@ -37,6 +37,7 @@ abilities:
   target: 1 creature or object
   t1: 3 damage
   t2: 5 damage
+  t3: 7 damage
   effects:
   - name: Effect
     effect: [[Taunted]] (EoT). The greenskeeper can shift 3 after making the attack.

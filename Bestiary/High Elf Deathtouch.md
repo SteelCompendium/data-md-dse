@@ -36,6 +36,7 @@ abilities:
   target: 1 creature
   t1: 5 damage; R1 deathtouched (save ends)
   t2: 8 damage; R2 deathtouched (save ends)
+  t3: 11 damage; R3 deathtouched (save ends)
   effects:
   - name: Effect
     effect: A creature gains a new condition at the end of each turn while deathtouched,

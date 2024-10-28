@@ -42,6 +42,7 @@ abilities:
   target: 1 creature or object
   t1: 2 damage
   t2: 5 damage
+  t3: 6 damage
   effects:
   - name: Effect
     effect: 'The wodenelg''s rider can make a [[Free Strike|free strike]] at any point during the

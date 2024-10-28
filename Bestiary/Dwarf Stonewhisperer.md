@@ -36,6 +36,7 @@ abilities:
   target: All creatures and objects
   t1: 3 damage; slide 1; M1 [[Slowed|slowed]] (save ends)
   t2: 6 damage; slide 3; M2 [[Slowed|slowed]] (save ends)
+  t3: 9 damage; slide 5; M3 [[Restrained|restrained]] (save ends)
   effects:
   - name: Effect
     effect: 'A target [[Restrained|restrained]] by a [[Dwarf|dwarf]] can be slid by this attack. '
@@ -50,6 +51,7 @@ abilities:
   target: All enemies in the cube
   t1: 2 damage; push 2; R1 [[Slowed|slowed]] (save ends)
   t2: 3 damage; push 3; R2 [[Slowed|slowed]] (save ends)
+  t3: 4 damage; push 3; R3 [[Slowed|slowed]] (save ends)
   effects:
   - name: Effect
     effect: 'A target [[Restrained|restrained]] by a [[Dwarf|dwarf]] can be pushed by this attack. The affected

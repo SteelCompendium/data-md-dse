@@ -37,6 +37,7 @@ abilities:
   target: 1 creature or object
   t1: 3 damage; M1 [[Slowed|slowed]] (save ends)
   t2: 5 damage; M2 [[Slowed|slowed]] (save ends)
+  t3: 7 damage; M3 [[Restrained|restrained]] (save ends)
   effects:
   - name: 2 Malice
     effect: 'Pull 5. A target [[Restrained|restrained]] by a [[Dwarf|dwarf]], including by this ability, can

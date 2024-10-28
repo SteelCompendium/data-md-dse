@@ -35,6 +35,7 @@ abilities:
   target: 1 creature or object
   t1: 3 damage; push 2
   t2: 5 damage; push 4
+  t3: 7 damage; push 6
   effects:
   - name: Effect
     effect: 'A target [[Restrained|restrained]] by a [[Dwarf|dwarf]] can be pushed by this attack. '
@@ -49,6 +50,7 @@ abilities:
   target: All enemies in the cube
   t1: 4 damage; [[Restrained|restrained]] (EoT)
   t2: 3 damage; [[Slowed|slowed]] (EoT)
+  t3: No effect
   effects:
   - name: Effect
     effect: The snare remains until the end of the encounter. An enemy that moves

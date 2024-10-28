@@ -36,6 +36,7 @@ abilities:
   target: 1 creature or object
   t1: 2 damage; pull 1
   t2: 4 damage; pull 2
+  t3: 5 damage; pull 3
   effects:
   - name: Effect
     effect: 'If the target''s [[Forced Movement|forced movement]] triggers a trap, the target has a bane

@@ -36,6 +36,7 @@ abilities:
   target: 1 creature or object
   t1: 2 damage
   t2: 4 damage
+  t3: 5 damage
   effects:
   - name: Effect
     effect: [[Taunted]] (EoT).
@@ -51,5 +52,6 @@ abilities:
   target: 1 creature or object
   t1: 1 damage; push 1; 1 [[Prone|prone]]
   t2: 2 damage; push 2; 2 [[Prone|prone]]
+  t3: '3 damage; push 3; 3 [[Prone|prone]] '
 
 ```

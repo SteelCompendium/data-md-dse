@@ -38,6 +38,7 @@ abilities:
   target: 1 creature or object
   t1: 5 damage; A1 [[Restrained|restrained]] (save ends)
   t2: 9 damage; A2 [[Restrained|restrained]] (save ends)
+  t3: 12 damage; A3 [[Restrained|restrained]] (save ends)
   effects:
   - name: Effect
     effect: The tree gweiadur can shift 3 after making the attack.
@@ -56,6 +57,7 @@ abilities:
   target: All enemies in the cube
   t1: 2 damage; R1 marked (save ends)
   t2: 4 damage; R2 [[Slowed|slowed]] and marked (save ends)
+  t3: 6 damage; R3 [[Slowed|slowed]] and marked (save ends)
   effects:
   - name: Effect
     effect: 'Allies have **+1** on attacks and abilities against marked creatures

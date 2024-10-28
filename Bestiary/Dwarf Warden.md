@@ -36,6 +36,7 @@ abilities:
   target: 1 creature or object
   t1: 5 damage; push 1; M1 [[Slowed|slowed]] (save ends)
   t2: 8 damage; push 3; M2 [[Slowed|slowed]] (save ends)
+  t3: 11 damage; push 5; M3 [[Restrained|restrained]] (save ends)
   effects:
   - name: Effect
     effect: 'A target [[Restrained|restrained]] by a [[Dwarf|dwarf]] can be pushed by this attack. '
@@ -49,6 +50,7 @@ abilities:
   target: All enemies in the cube
   t1: 2 damage; push 2; A1 [[Slowed|slowed]] (save ends)
   t2: 4 damage; push 4; A2 [[Slowed|slowed]] (save ends)
+  t3: 5 damage; push 6; A3 [[Dazed|dazed]] (save ends)
   effects:
   - name: Effect
     effect: 'A target [[Restrained|restrained]] by a [[Dwarf|dwarf]] can be pushed by this ability. '

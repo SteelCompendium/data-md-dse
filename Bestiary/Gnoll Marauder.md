@@ -36,6 +36,7 @@ abilities:
   target: 1 creature or object
   t1: 3 damage; A1 [[Bleeding|bleeding]] (save ends)
   t2: 5 damage; A2 [[Bleeding|bleeding]] (save ends)
+  t3: 7 damage; [[Prone|prone]]; A3 [[Bleeding|bleeding]] (save ends)
   effects:
   - name: Effect
     effect: 'Shift 2. '

@@ -36,6 +36,7 @@ abilities:
   target: 1 creature or object per minion
   t1: 2 damage; push 1
   t2: 4 damage; push 2
+  t3: 5 damage; push 4
   effects:
   - name: Effect
     effect: A target [[Restrained|restrained]] by a [[Dwarf|dwarf]] can be pushed by this attack.

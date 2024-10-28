@@ -38,6 +38,7 @@ abilities:
   target: 1 creature or object per minion
   t1: 2 damage; pull 1 or shift 1 towards target
   t2: 5 damage; pull 2 or shift 2 towards target
+  t3: 6 damage; pull 3 or shift 3 towards target
   effects:
   - name: Effect
     effect: 'If the target ends up in a space adjacent to the tonguer, they are also

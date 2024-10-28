@@ -44,6 +44,7 @@ abilities:
   target: 1 creature or object
   t1: 4 damage; push 1
   t2: 7 damage; push 2
+  t3: 10 damage; push 3; [[Prone|prone]]
   effects:
   - name: Effect
     effect: 'This attack has edge while charging. '

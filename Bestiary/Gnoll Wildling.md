@@ -37,5 +37,6 @@ abilities:
   target: 1 creature or object per minion
   t1: 2 damage
   t2: 3 damage
+  t3: '4 damage; wildling takes a [[Free Strike|free strike]] on a creature adjacent to the target '
 
 ```

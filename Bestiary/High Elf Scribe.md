@@ -38,6 +38,7 @@ abilities:
   target: 1 creature or object per minion
   t1: 2 corruption damage
   t2: 4 corruption damage
+  t3: 5 corruption damage
   effects:
   - name: Effect
     effect: 'The next attack made against the target before the start of the scribe''s

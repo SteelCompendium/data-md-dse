@@ -37,6 +37,7 @@ abilities:
   target: 1 creature or object per minion
   t1: 1 damage
   t2: 2 damage
+  t3: 3 damage
   effects:
   - name: Effect
     effect: '1 ally within 3 can shift 2. '

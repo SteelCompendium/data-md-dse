@@ -37,6 +37,7 @@ abilities:
   target: All enemies in the cube
   t1: vertical push 2
   t2: vertical push 3
+  t3: vertical push 5
   effects:
   - name: Effect
     effect: 'The area of the cube increases by 1 for each [[Elemental Mote|elemental mote]] adjacent

@@ -39,6 +39,7 @@ abilities:
   target: 1 creature or object
   t1: 4 corruption damage; M1 [[Slowed|slowed]] (save ends)
   t2: 7 corruption damage; M2 [[Slowed|slowed]] (save ends)
+  t3: 10 corruption damage; M3 [[Slowed|slowed]] (save ends)
   effects:
   - name: Effect
     effect: 'This attack has edge against creatures the abyssal archer has previously

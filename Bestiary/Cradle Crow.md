@@ -34,6 +34,7 @@ abilities:
   target: 1 creature or object per minion
   t1: 2 damage
   t2: 4 damage; [[Taunted|taunted]] (EoT)
+  t3: 5 damage; [[Taunted|taunted]] (EoT)
   effects:
   - name: Effect
     effect: The cradle crow ignores opportunity attacks from the target until the

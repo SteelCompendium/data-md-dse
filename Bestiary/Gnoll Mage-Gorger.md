@@ -37,6 +37,7 @@ abilities:
   target: 1 creature or object per minion
   t1: 2 acid damage
   t2: 3 cold damage
+  t3: 4 lightning damage; target can't use magic abilities (EoT)
   effects:
   - name: Effect
     effect: 'The target has a bane on their next resistance roll until the start of

@@ -40,6 +40,7 @@ abilities:
   target: 1 creature or object
   t1: 2 damage
   t2: 4 damage
+  t3: 5 damage
   effects:
   - name: Effect
     effect: An ally within 10 can shift their speed, as long as they end their movement

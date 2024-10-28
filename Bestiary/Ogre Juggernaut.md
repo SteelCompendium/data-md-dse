@@ -41,6 +41,7 @@ abilities:
   target: 2 creatures or objects
   t1: 5 damage; A1 vertical slide 2
   t2: 8 damage; A2 vertical push 3
+  t3: 11 damage; A3 vertical slide 5
   effects:
   - name: 1 Malice
     effect: 'Each target is M2 [[Bleeding|bleeding]] (save ends). '
@@ -55,6 +56,7 @@ abilities:
   target: All creatures in the burst
   t1: 3 damage; M1 [[Prone|prone]]
   t2: 4 damage; push 2; M2 [[Prone|prone]]
+  t3: '5 damage; push 4; M3 [[Prone|prone]] '
   effects:
   - name: Effect
     effect: 'The juggernaut leaps up to 6 squares before making the attack. '
@@ -69,6 +71,7 @@ abilities:
   target: All enemies in the burst
   t1: [[Frightened]] (save ends)
   t2: [[Frightened]] (EoT)
+  t3: No effect
   effects:
   - name: Effect
     effect: 'Ogres have **advantage** on attacks against creatures [[Frightened|frightened]] by this

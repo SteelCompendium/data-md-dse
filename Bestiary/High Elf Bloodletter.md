@@ -37,6 +37,7 @@ abilities:
   target: 1 creature or object
   t1: 4 damage; R1 [[Bleeding|bleeding]] (save ends)
   t2: 7 damage; R2 [[Bleeding|bleeding]] (save ends)
+  t3: 10 damage; R3 [[Bleeding|bleeding]] (save ends)
   effects:
   - name: Effect
     effect: 'A creature [[Bleeding|bleeding]] from this ability takes edge from attacks. '

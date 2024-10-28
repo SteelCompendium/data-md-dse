@@ -40,6 +40,7 @@ abilities:
   target: 3 creatures or objects
   t1: 5 damage; M2 [[Restrained|restrained]] (save ends)
   t2: 9 damage; M3 [[Restrained|restrained]] (save ends)
+  t3: 12 damage; M4 [[Restrained|restrained]] (save ends)
   effects:
   - name: Effect
     effect: The penteulu deals damage to each target one at a time and can [[Teleport|teleport]]

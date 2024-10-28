@@ -49,6 +49,7 @@ abilities:
   target: 1 creature or object
   t1: 7 damage; 2 ferocity
   t2: 10 damage; 4 ferocity
+  t3: 13 damage; 5 ferocity
   effects:
   - name: 2 Malice
     effect: The target has P0 lycanthropy. The potency of this attack increases by
@@ -69,6 +70,7 @@ abilities:
   target: 4 creatures or objects
   t1: 3 damage
   t2: 4 damage; 1 ferocity; M2 push 3
+  t3: '5 damage; 3 ferocity; M3 vertical slide 3 '
 - name: Berserker Slash
   type: Action
   cost: 5 Malice
@@ -113,6 +115,7 @@ abilities:
   target: All enemies in the burst
   t1: Target moves up to their speed away from the werewolf; [[Frightened|frightened]] (save ends)
   t2: [[Frightened]] (EoT)
+  t3: no effect
   effects:
   - name: Effect
     effect: 'Enemies that have 1 or more ferocity gain 4 ferocity and howl along with
@@ -142,6 +145,7 @@ abilities:
   target: All creatures in the burst
   t1: 3 damage; 2 ferocity
   t2: 4 damage; 4 ferocity
+  t3: 5 damage; 8 ferocity; [[Prone|prone]]
   effects:
   - name: Effect
     effect: The werewolf shifts up to twice their speed either before or after the

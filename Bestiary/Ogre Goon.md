@@ -36,6 +36,7 @@ abilities:
   target: 2 creatures or objects
   t1: 5 damage; push 2
   t2: 9 damage; push 4
+  t3: 12 damage; push 6; [[Prone|prone]]
   effects:
   - name: Effect
     effect: 'This attack deals **additional damage** to each creature and object that
@@ -51,6 +52,7 @@ abilities:
   target: 1 creature or object
   t1: 5 damage
   t2: 9 damage; [[Grabbed|grabbed]]
+  t3: 12 damage; [[Grabbed|grabbed]]
   effects:
   - name: Effect
     effect: The goon can only have one target [[Grabbed|grabbed]] at a time.
@@ -69,6 +71,7 @@ abilities:
   target: All creatures and objects
   t1: 3 damage
   t2: 4 damage
+  t3: '6 damage; [[Prone|prone]] '
   effects:
   - name: Effect
     effect: 'The goon hurls what''s in their hand down the line and rolls power. The

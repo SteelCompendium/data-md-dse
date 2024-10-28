@@ -37,5 +37,6 @@ abilities:
   target: 1 creature or object per minion
   t1: 2 damage
   t2: 4 damage; the target gains Magic weakness 1 (EoT)
+  t3: '5 damage; the target gains Magic weakness 3 (EoT) '
 
 ```

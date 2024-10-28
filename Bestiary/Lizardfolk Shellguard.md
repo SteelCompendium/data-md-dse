@@ -38,6 +38,7 @@ abilities:
   target: 1 creature or object per minion
   t1: 2 damage
   t2: 4 damage
+  t3: 5 damage
   effects:
   - name: Effect
     effect: 'All allies have **advantage** against the target''s next attack. '

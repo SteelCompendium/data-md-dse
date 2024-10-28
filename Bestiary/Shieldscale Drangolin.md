@@ -35,6 +35,7 @@ abilities:
   target: 1 creature or object
   t1: 4 fire damage
   t2: 7 fire damage
+  t3: '10 fire damage '
 - name: Drangolin Plume
   type: Action
   cost: 5 Malice
@@ -59,6 +60,7 @@ abilities:
   target: All creatures
   t1: 4 damage; push 1; 1 [[Prone|prone]]
   t2: 7 damage; push 3; 2 [[Prone|prone]]
+  t3: 10 damage; push 5; 3 [[Prone|prone]]
   effects:
   - name: Effect
     effect: 'This attack has an edge against targets directly above the drangolin. '

@@ -38,5 +38,6 @@ abilities:
   target: 1 creature or object per minion
   t1: 2 damage
   t2: 4 damage; slide 2
+  t3: '5 damage; slide 4 '
 
 ```

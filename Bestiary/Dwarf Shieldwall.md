@@ -37,6 +37,7 @@ abilities:
   target: 1 creature or object
   t1: 5 damage; slide 1
   t2: 8 damage; slide 1
+  t3: 11 damage; slide 1
   effects:
   - name: Effect
     effect: The shieldwall can shift 1 to remain adjacent to the target. A target

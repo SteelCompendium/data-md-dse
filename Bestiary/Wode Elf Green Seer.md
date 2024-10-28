@@ -41,6 +41,7 @@ abilities:
   target: 1 creature or object
   t1: 3 damage; I1 [[Restrained|restrained]] (save ends)
   t2: 5 damage; I2 [[Restrained|restrained]] (save ends)
+  t3: 7 damage; I3 [[Restrained|restrained]] (save ends)
   effects:
   - name: Effect
     effect: 'A creature [[Restrained|restrained]] by this ability can''t [[Search For Hidden Creatures|search for hidden creatures]]

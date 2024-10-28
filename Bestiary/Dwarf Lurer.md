@@ -35,6 +35,7 @@ abilities:
   target: 1 creature or object per minion
   t1: 2 damage
   t2: 4 damage
+  t3: 5 damage; an ally adjacent to the target can make a [[Free Strike|free strike]]
   effects:
   - name: Effect
     effect: The target can't use triggered actions until the start of the next round.
