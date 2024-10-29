@@ -16,7 +16,7 @@ size: 1M
 stability: 0
 free_strike: 5
 might: 2
-intuition: ''
+intuition: 0
 agility: 1
 reason: 0
 presence: 0

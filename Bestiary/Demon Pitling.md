@@ -2,19 +2,20 @@
 name: Demon Pitling
 ancestry:
 - Demon
-- Planar EV 2
+- Planar
 roles:
 - ARTILLERY
 - MINION
 level: 1
-ev: ''
-stamina: ''
+ev: 2
+stamina: 4
 immunities: []
-weaknesses: []
-speed: ''
-size: ''
-stability: ''
-free_strike: ''
+weaknesses:
+- Holy 3
+speed: 5 ([[Fly|fly]])
+size: 1T
+stability: 0
+free_strike: 2
 might: -2
 intuition: -2
 agility: 2
