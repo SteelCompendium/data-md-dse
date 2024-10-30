@@ -7,14 +7,14 @@ ancestry:
 roles:
 - Ambusher
 level: 3
-ev: ''
-stamina: ''
+ev: 19
+stamina: 45
 immunities: []
 weaknesses: []
-speed: ''
-size: ''
-stability: ''
-free_strike: ''
+speed: 7 ([[Teleport|teleport]])
+size: 1M
+stability: 0
+free_strike: 5
 might: 0
 intuition: 0
 agility: 2

@@ -7,14 +7,14 @@ ancestry:
 roles:
 - Hexer
 level: 1
-ev: ''
-stamina: ''
+ev: 11
+stamina: 20
 immunities: []
 weaknesses: []
-speed: ''
-size: ''
-stability: ''
-free_strike: ''
+speed: '7'
+size: 1M
+stability: 0
+free_strike: 3
 might: 0
 intuition: 2
 agility: 1

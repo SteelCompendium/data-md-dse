@@ -21,7 +21,11 @@ reason: -2
 presence: 0
 traits:
 - name: Solo Monster
-  effect: ''
+  effect: '- **Solo Turns:** The chimera takes 2 turns each round. They can use two
+    actions on each of their turns and can take each turn after an enemy turn they
+    choose. While [[Dazed|dazed]], the chimera can take one action and one maneuver per turn.  **End
+    Effect:** At the end of their turn, the chimera can take 5 damage to end one save
+    ends effect affecting them. This damage can''t be reduced in any way.'
 - name: Volant
   effect: When the chimera makes a creature winded or reduces them to 0 Stamina or
     less, the chimera can move their speed towards one enemy within line of effect.
@@ -128,7 +132,5 @@ abilities:
     effect: The chimera uses Roar. The chimera then shifts their speed and can make
       a [[Free Strike|free strike]] against each enemy who comes within 1 of them during the move.
       When the chimera ends this movement, they use Dragon's Eruption.
-end_effect: At the end of their turn, the chimera can take 5 damage to end one save
-  ends effect affecting them. This damage can't be reduced in any way.
 
 ```

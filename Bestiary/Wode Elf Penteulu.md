@@ -7,14 +7,14 @@ ancestry:
 roles:
 - Leader
 level: 3
-ev: ''
-stamina: ''
+ev: 60
+stamina: 120
 immunities: []
 weaknesses: []
-speed: ''
-size: ''
-stability: ''
-free_strike: ''
+speed: 7 ([[Teleport|teleport]])
+size: 1M
+stability: 2
+free_strike: 5
 might: 2
 intuition: 2
 agility: 3

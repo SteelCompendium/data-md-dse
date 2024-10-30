@@ -22,7 +22,11 @@ reason: -1
 presence: 1
 traits:
 - name: Solo Monster
-  effect: ''
+  effect: '- **Solo Turns**: The werewolf takes 2 turns each round. They can use two
+    actions on each of their turns and can take each turn after an enemy turn they
+    choose. While [[Dazed|dazed]], the werewolf can take one action and one maneuver per turn.
+    - **End Effect**: The werewolf takes 5 damage and ends one EoE effect affecting
+    them at the end of their turn.'
 - name: Shapeshifter
   effect: The werewolf enters combat in their hybrid humanoid form. Their shape can't
     change via any effects beyond their own ability.
