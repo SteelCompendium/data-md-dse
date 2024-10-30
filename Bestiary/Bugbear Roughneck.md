@@ -36,12 +36,16 @@ abilities:
   t2: 9 damage; one target is [[Grabbed|grabbed]]; one target gets push 2
   t3: 12 damage; one target is [[Grabbed|grabbed]]; one target gets vertical push 3
   effects:
+  - roll: 2d10 + 2
+    t1: 5 damage
+    t2: 9 damage; one target is [[Grabbed|grabbed]]; one target gets push 2
+    t3: 12 damage; one target is [[Grabbed|grabbed]]; one target gets vertical push 3
   - name: 5 Malice
     effect: 'The distance becomes 1 Burst, the Attack keyword is replaced with Area,
       and the roughneck targets all enemies instead. '
 - name: Leaping Fury
   type: Action
-  cost: 2d10 + 3
+  roll: 2d10 + 3
   keywords:
   - Attack
   - Ranged
@@ -52,6 +56,10 @@ abilities:
   t2: 9 damage; M2 [[Prone|prone]]
   t3: 12 damage; M3 [[Prone|prone]]
   effects:
+  - roll: 2d10 + 3
+    t1: 5 damage; M1 [[Prone|prone]]
+    t2: 9 damage; M2 [[Prone|prone]]
+    t3: 12 damage; M3 [[Prone|prone]]
   - name: Effect
     effect: 'The roughneck leaps 5 to an unoccupied space adjacent to the target before
       making the attack. '

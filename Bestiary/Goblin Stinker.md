@@ -37,6 +37,10 @@ abilities:
   t2: 2 poison damage; slide 2
   t3: 3 poison damage; slide 3
   effects:
+  - roll: 2d10 + 2
+    t1: 1 poison damage; slide 1
+    t2: 2 poison damage; slide 2
+    t3: 3 poison damage; slide 3
   - name: 1 Malice
     effect: 'Increase the slide for one target by 2 squares. '
 - name: Swamp Gas

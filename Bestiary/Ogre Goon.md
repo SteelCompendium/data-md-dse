@@ -38,12 +38,16 @@ abilities:
   t2: 9 damage; push 4
   t3: 12 damage; push 6; [[Prone|prone]]
   effects:
+  - roll: 2d10 + 2
+    t1: 5 damage; push 2
+    t2: 9 damage; push 4
+    t3: 12 damage; push 6; [[Prone|prone]]
   - name: Effect
     effect: 'This attack deals **additional damage** to each creature and object that
       takes damage from any [[Forced Movement|forced movement]] it causes. '
 - name: Grabby Hand
   type: Maneuver
-  cost: 2d10 + 2
+  roll: 2d10 + 2
   keywords:
   - Attack
   - Melee
@@ -54,6 +58,10 @@ abilities:
   t2: 9 damage; [[Grabbed|grabbed]]
   t3: 12 damage; [[Grabbed|grabbed]]
   effects:
+  - roll: 2d10 + 2
+    t1: 5 damage
+    t2: 9 damage; [[Grabbed|grabbed]]
+    t3: 12 damage; [[Grabbed|grabbed]]
   - name: Effect
     effect: The goon can only have one target [[Grabbed|grabbed]] at a time.
   - name: 1 Malice
@@ -73,6 +81,10 @@ abilities:
   t2: 4 damage
   t3: '6 damage; [[Prone|prone]] '
   effects:
+  - roll: 2d10 + 3
+    t1: 3 damage
+    t2: 4 damage
+    t3: '6 damage; [[Prone|prone]] '
   - name: Effect
     effect: 'The goon hurls what''s in their hand down the line and rolls power. The
       hurled creature or object counts as a target and lands in the last square of

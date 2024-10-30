@@ -44,6 +44,10 @@ abilities:
   t2: 5 cold damage; P3 [[Slowed|slowed]] (save ends)
   t3: 6 cold damage; P2 [[Slowed|slowed]] (save ends)
   effects:
+  - roll: 2d10 + 3
+    t1: 2 cold damage; P2 [[Slowed|slowed]] (save ends)
+    t2: 5 cold damage; P3 [[Slowed|slowed]] (save ends)
+    t3: 6 cold damage; P2 [[Slowed|slowed]] (save ends)
   - name: Effect
     effect: 'The next attack made against a target has edge. '
 - name: Haunt
@@ -82,7 +86,7 @@ abilities:
       the nearest enemy within 3 squares of the target. '
 - name: Spirited Away
   type: Villain Action 2
-  cost: PRS RR
+  roll: PRS RR
   keywords:
   - Area
   - Magic
@@ -93,6 +97,10 @@ abilities:
   t2: Levitated (EoT)
   t3: No effect
   effects:
+  - roll: PRS RR
+    t1: Levitated (EoE) (see effect)
+    t2: Levitated (EoT)
+    t3: No effect
   - name: Effect
     effect: 'A levitated target floats 1 square off the ground when they are first
       affected, then rises 1 square at the end of each of their turns. If a levitated
@@ -100,7 +108,7 @@ abilities:
       in this way. '
 - name: Awful Wail
   type: Villain Action 3
-  cost: 2d10 + 3
+  roll: 2d10 + 3
   keywords:
   - Area
   - Magic
@@ -111,6 +119,10 @@ abilities:
   t2: 5 sonic damage
   t3: 5 sonic damage
   effects:
+  - roll: 2d10 + 3
+    t1: 2 sonic damage
+    t2: 5 sonic damage
+    t3: 5 sonic damage
   - name: Effect
     effect: 'P3: The target is reduced to 1 Stamina if they have 2 or more Stamina
       after taking damage. '

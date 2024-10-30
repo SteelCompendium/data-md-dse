@@ -42,6 +42,10 @@ abilities:
   t2: 7 corruption damage; I2 [[Weakened|weakened]] (save ends)
   t3: 10 corruption damage; I3 [[Weakened|weakened]] (save ends)
   effects:
+  - roll: 2d10 + 2
+    t1: 4 corruption damage; I1 [[Weakened|weakened]] (save ends)
+    t2: 7 corruption damage; I2 [[Weakened|weakened]] (save ends)
+    t3: 10 corruption damage; I3 [[Weakened|weakened]] (save ends)
   - name: 2 Malice
     effect: 'The death cultist regains Stamina equal to half the damage dealt by this
       ability. '

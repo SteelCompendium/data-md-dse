@@ -37,12 +37,16 @@ abilities:
   t2: 12 damage
   t3: 16 damage
   effects:
+  - roll: 2d10 + 2
+    t1: 8 damage
+    t2: 12 damage
+    t3: 16 damage
   - name: Effect
     effect: 'The lightbender has advantage on the attack if they would make it with
       an edge. '
 - name: Piercing Tails
   type: Action
-  cost: 2d10 + 2
+  roll: 2d10 + 2
   keywords:
   - Attack
   - Melee
@@ -53,6 +57,10 @@ abilities:
   t2: 10 damage; 2 [[Bleeding|bleeding]] (save ends)
   t3: 13 damage; 3 [[Bleeding|bleeding]] (save ends)
   effects:
+  - roll: 2d10 + 2
+    t1: 6 damage; 1 [[Bleeding|bleeding]] (save ends)
+    t2: 10 damage; 2 [[Bleeding|bleeding]] (save ends)
+    t3: 13 damage; 3 [[Bleeding|bleeding]] (save ends)
   - name: Effect
     effect: 'A creature who is [[Bleeding|bleeding]] from this ability has a bane on tests to search
       for the lightbender until the condition ends. '
@@ -70,6 +78,10 @@ abilities:
   t2: [[Dazed]] (EoT)
   t3: No effect
   effects:
+  - roll: INU RR
+    t1: [[Dazed]] (save ends)
+    t2: [[Dazed]] (EoT)
+    t3: No effect
   - name: Effect
     effect: 'Targets [[Dazed|dazed]] by this ability have a speed of 0 while [[Dazed|dazed]]. If a [[Dazed|dazed]]
       target takes damage or if someone else spends an action to shake the creature

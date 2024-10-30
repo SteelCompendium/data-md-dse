@@ -43,6 +43,10 @@ abilities:
   t2: 7 damage; M2 [[Slowed|slowed]] (save ends)
   t3: 10 damage; M3 [[Restrained|restrained]] (save ends)
   effects:
+  - roll: 2d10 + 2
+    t1: 4 damage; M1 [[Slowed|slowed]] (save ends)
+    t2: 7 damage; M2 [[Slowed|slowed]] (save ends)
+    t3: 10 damage; M3 [[Restrained|restrained]] (save ends)
   - name: Effect
     effect: '[[Restrained]] targets and targets [[Restrained|restrained]] by this ability are pulled
       3. A target [[Restrained|restrained]] by a [[Dwarf|dwarf]] can be pulled by this attack. '
@@ -57,5 +61,10 @@ abilities:
   t1: 2 lightning damage; A1 [[Slowed|slowed]] (save ends)
   t2: 3 lightning damage; A2 [[Slowed|slowed]] (save ends)
   t3: '5 lightning damage; A3 [[Slowed|slowed]] (save ends) '
+  effects:
+  - roll: 2d10 + 2
+    t1: 2 lightning damage; A1 [[Slowed|slowed]] (save ends)
+    t2: 3 lightning damage; A2 [[Slowed|slowed]] (save ends)
+    t3: '5 lightning damage; A3 [[Slowed|slowed]] (save ends) '
 
 ```

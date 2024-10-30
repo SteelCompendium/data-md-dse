@@ -41,6 +41,10 @@ abilities:
   t2: 7 damage; push 3
   t3: 10 damage; push 5
   effects:
+  - roll: 2d10 + 2
+    t1: 4 damage; push 1
+    t2: 7 damage; push 3
+    t3: 10 damage; push 5
   - name: Effect
     effect: The tree chirurgeon can make a ranged [[Free Strike|free strike]] before attacking.
   - name: 5 Malice

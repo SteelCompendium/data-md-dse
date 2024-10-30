@@ -39,6 +39,10 @@ abilities:
   t2: 8 damage; slide 1
   t3: 11 damage; slide 1
   effects:
+  - roll: 2d10 + 1
+    t1: 5 damage; slide 1
+    t2: 8 damage; slide 1
+    t3: 11 damage; slide 1
   - name: Effect
     effect: The shieldwall can shift 1 to remain adjacent to the target. A target
       [[Restrained|restrained]] by a [[Dwarf|dwarf]] can be slid by this attack.

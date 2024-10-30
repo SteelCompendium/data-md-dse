@@ -38,6 +38,10 @@ abilities:
   t2: 5 lightning damage
   t3: 6 lightning damage
   effects:
+  - roll: 2d10 + 2
+    t1: 2 lightning damage
+    t2: 5 lightning damage
+    t3: 6 lightning damage
   - name: Effect
     effect: 'The adeptus has an edge on the attack if the target is adjacent to another
       enemy. All enemies adjacent to the target take 1 lightning damage. '
@@ -55,6 +59,10 @@ abilities:
   t2: 5 damage
   t3: 6 damage
   effects:
+  - roll: 2d10 + 1
+    t1: 2 damage
+    t2: 5 damage
+    t3: 6 damage
   - name: Effect
     effect: 'This attack ignores all banes and hindrances. '
 

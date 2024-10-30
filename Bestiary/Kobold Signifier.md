@@ -42,6 +42,10 @@ abilities:
   t2: 4 damage
   t3: 5 damage
   effects:
+  - roll: 2d10 + 2
+    t1: 2 damage
+    t2: 4 damage
+    t3: 5 damage
   - name: Effect
     effect: An ally within 10 can shift their speed, as long as they end their movement
       adjacent to an ally.

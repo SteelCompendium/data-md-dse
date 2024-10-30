@@ -42,6 +42,10 @@ abilities:
   t2: 5 damage; 3 [[Weakened|weakened]] (save ends)
   t3: 6 damage; 4 [[Weakened|weakened]] (save ends)
   effects:
+  - roll: 2d10 + 3
+    t1: 2 damage; 2 [[Weakened|weakened]] (save ends)
+    t2: 5 damage; 3 [[Weakened|weakened]] (save ends)
+    t3: 6 damage; 4 [[Weakened|weakened]] (save ends)
   - name: Effect
     effect: Any allies adjacent to a target of this attack can make a [[Free Strike|free strike]].
   - name: 3 Malice

@@ -39,6 +39,10 @@ abilities:
   t2: 9 damage; push 2
   t3: 12 damage; push 3
   effects:
+  - roll: 2d10 + 2
+    t1: 5 damage; push 1
+    t2: 9 damage; push 2
+    t3: 12 damage; push 3
   - name: Effect
     effect: 'The minotaur shifts 3 after attacking. '
 - name: Primal Bay
@@ -67,6 +71,10 @@ abilities:
   t2: 9 damage; I2 [[Dazed|dazed]] (save ends)
   t3: 12 damage; I3 [[Dazed|dazed]] (save ends)
   effects:
+  - roll: 2d10 + 2
+    t1: 5 damage; I1 [[Dazed|dazed]] (save ends)
+    t2: 9 damage; I2 [[Dazed|dazed]] (save ends)
+    t3: 12 damage; I3 [[Dazed|dazed]] (save ends)
   - name: Effect
     effect: 'The potency of this ability increases by 1 if it''s used while charging. '
 - name: Retaliatory Gore

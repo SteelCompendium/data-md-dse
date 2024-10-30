@@ -38,6 +38,10 @@ abilities:
   t2: 5 damage; pull 1
   t3: 7 damage; pull 2
   effects:
+  - roll: 2d10 + 2
+    t1: 3 damage
+    t2: 5 damage; pull 1
+    t3: 7 damage; pull 2
   - name: Effect
     effect: 'The eviscerite can [[Grab|grab]] a target pulled adjacent to them by this ability. '
 - name: Posthumous Promotion

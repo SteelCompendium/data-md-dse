@@ -41,6 +41,10 @@ abilities:
   t2: 7 damage; the remasch [[Teleport|teleports]] 3 squares
   t3: 10 damage; the remasch [[Teleport|teleports]] 5 squares
   effects:
+  - roll: 2d10 + 2
+    t1: 4 damage; the remasch [[Teleport|teleports]] 2 squares
+    t2: 7 damage; the remasch [[Teleport|teleports]] 3 squares
+    t3: 10 damage; the remasch [[Teleport|teleports]] 5 squares
   - name: 5 Malice
     effect: 'The remasch takes an adjacent creature with them when they [[Teleport|teleport]].
       The creature appears in an unoccupied space adjacent to the remasch''s destination. '

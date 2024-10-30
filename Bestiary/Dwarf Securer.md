@@ -36,5 +36,10 @@ abilities:
   t1: 2 damage
   t2: 5 damage; [[Grabbed|grabbed]]
   t3: 6 damage; [[Grabbed|grabbed]] or [[Prone|prone]]
+  effects:
+  - roll: 2d10 + 2
+    t1: 2 damage
+    t2: 5 damage; [[Grabbed|grabbed]]
+    t3: 6 damage; [[Grabbed|grabbed]] or [[Prone|prone]]
 
 ```

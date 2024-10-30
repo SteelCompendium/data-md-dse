@@ -38,6 +38,10 @@ abilities:
   t2: 4 damage
   t3: 5 damage
   effects:
+  - roll: 2d10 + 2
+    t1: 2 damage
+    t2: 4 damage
+    t3: 5 damage
   - name: Effect
     effect: 'If the [[Sniper|sniper]] doesn''t use a maneuver or a move action this turn, the
       ability has edge. '

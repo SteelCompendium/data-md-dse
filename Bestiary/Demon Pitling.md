@@ -41,5 +41,10 @@ abilities:
   t1: 2 poison damage
   t2: 3 poison damage
   t3: '4 poison damage '
+  effects:
+  - roll: 2d10 + 2
+    t1: 2 poison damage
+    t2: 3 poison damage
+    t3: '4 poison damage '
 
 ```

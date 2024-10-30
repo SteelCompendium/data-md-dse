@@ -37,6 +37,10 @@ abilities:
   t2: 5 damage; push 4
   t3: 7 damage; push 6
   effects:
+  - roll: 2d10 + 2
+    t1: 3 damage; push 2
+    t2: 5 damage; push 4
+    t3: 7 damage; push 6
   - name: Effect
     effect: 'A target [[Restrained|restrained]] by a [[Dwarf|dwarf]] can be pushed by this attack. '
 - name: Steam Powered Snare
@@ -52,6 +56,10 @@ abilities:
   t2: 3 damage; [[Slowed|slowed]] (EoT)
   t3: No effect
   effects:
+  - roll: MGT RR
+    t1: 4 damage; [[Restrained|restrained]] (EoT)
+    t2: 3 damage; [[Slowed|slowed]] (EoT)
+    t3: No effect
   - name: Effect
     effect: The snare remains until the end of the encounter. An enemy that moves
       into an affected square for the first time on their turn must roll resistance.

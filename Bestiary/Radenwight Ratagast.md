@@ -35,6 +35,11 @@ abilities:
   t1: 2 poison damage
   t2: 4 poison damage; [[Taunted|taunted]] (EoT)
   t3: '5 poison damage; [[Taunted|taunted]] (EoT) '
+  effects:
+  - roll: 2d10 + 2
+    t1: 2 poison damage
+    t2: 4 poison damage; [[Taunted|taunted]] (EoT)
+    t3: '5 poison damage; [[Taunted|taunted]] (EoT) '
 - name: Ready Rodent
   type: Triggered Action
   keywords:

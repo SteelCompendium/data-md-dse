@@ -40,6 +40,10 @@ abilities:
   t2: 7 damage
   t3: 10 damage
   effects:
+  - roll: 2d10 + 2
+    t1: 4 damage
+    t2: 7 damage
+    t3: 10 damage
   - name: Effect
     effect: The trickshot ignores cover and concealment.
   - name: 3 Malice

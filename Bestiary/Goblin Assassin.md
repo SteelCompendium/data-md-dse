@@ -40,6 +40,10 @@ abilities:
   t2: 5 damage
   t3: 7 damage
   effects:
+  - roll: 2d10 + 2
+    t1: 3 damage
+    t2: 5 damage
+    t3: 7 damage
   - name: Effect
     effect: 'This ability has edge if the assassin has an edge on the power roll. '
 - name: Shadow Chains
@@ -54,5 +58,10 @@ abilities:
   t1: 3 corruption damage; A1 [[Restrained|restrained]] (save ends)
   t2: 5 corruption damage; A2 [[Restrained|restrained]] (save ends)
   t3: '7 corruption damage; A3 [[Restrained|restrained]] (save ends) '
+  effects:
+  - roll: 2d10 + 2
+    t1: 3 corruption damage; A1 [[Restrained|restrained]] (save ends)
+    t2: 5 corruption damage; A2 [[Restrained|restrained]] (save ends)
+    t3: '7 corruption damage; A3 [[Restrained|restrained]] (save ends) '
 
 ```

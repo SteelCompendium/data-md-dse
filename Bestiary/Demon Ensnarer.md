@@ -39,6 +39,10 @@ abilities:
   t2: 4 damage; pull 2
   t3: 5 damage; pull 3
   effects:
+  - roll: 2d10 + 2
+    t1: 2 damage; pull 1
+    t2: 4 damage; pull 2
+    t3: 5 damage; pull 3
   - name: Effect
     effect: 'If the target is pulled adjacent to the ensnarer, the ensnarer takes
       a [[Free Strike|free strike]] against them. '

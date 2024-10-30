@@ -42,5 +42,10 @@ abilities:
   t1: 2 damage
   t2: 4 damage
   t3: '5 damage '
+  effects:
+  - roll: 2d10 + 2
+    t1: 2 damage
+    t2: 4 damage
+    t3: '5 damage '
 
 ```

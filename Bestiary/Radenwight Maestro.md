@@ -37,12 +37,16 @@ abilities:
   t2: 5 sonic damage; slide 3; the maestro can shift 3 squares
   t3: 7 sonic damage; slide 5; the maestro can shift 5 squares
   effects:
+  - roll: 2d10 + 3
+    t1: 3 sonic damage; slide 1; the maestro can shift 1 square
+    t2: 5 sonic damage; slide 3; the maestro can shift 3 squares
+    t3: 7 sonic damage; slide 5; the maestro can shift 5 squares
   - name: Effect
     effect: 'Each ally within distance can use Ready Rodent as a free triggered action
       once before the end of the round. '
 - name: Tempo Change
   type: Maneuver
-  cost: PRS RR
+  roll: PRS RR
   keywords:
   - Magic
   - Ranged
@@ -53,6 +57,10 @@ abilities:
   t2: [[Slowed]] (EoT)
   t3: No effect
   effects:
+  - roll: PRS RR
+    t1: [[Slowed]] (save ends)
+    t2: [[Slowed]] (EoT)
+    t3: No effect
   - name: 3 Malice
     effect: 'Each ally within 3 of a target has their speed increased by 2 until the
       end of their next turn. '

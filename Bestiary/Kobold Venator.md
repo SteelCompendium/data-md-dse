@@ -45,6 +45,10 @@ abilities:
   t2: 5 damage; 2 [[Restrained|restrained]] (save ends)
   t3: 6 damage; 3 [[Restrained|restrained]] (save ends)
   effects:
+  - roll: 2d10 + 2
+    t1: 2 damage; 1 [[Restrained|restrained]] (save ends)
+    t2: 5 damage; 2 [[Restrained|restrained]] (save ends)
+    t3: 6 damage; 3 [[Restrained|restrained]] (save ends)
   - name: 3 Malice
     effect: 'Creatures and objects [[Restrained|restrained]] by this ability take 2 fire damage at
       the start of each of their turns. '

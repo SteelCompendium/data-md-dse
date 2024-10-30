@@ -38,5 +38,10 @@ abilities:
   t1: 2 damage
   t2: 4 damage; the target gains Magic weakness 1 (EoT)
   t3: '5 damage; the target gains Magic weakness 3 (EoT) '
+  effects:
+  - roll: 2d10 + 2
+    t1: 2 damage
+    t2: 4 damage; the target gains Magic weakness 1 (EoT)
+    t3: '5 damage; the target gains Magic weakness 3 (EoT) '
 
 ```

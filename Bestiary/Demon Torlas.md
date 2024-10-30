@@ -41,6 +41,10 @@ abilities:
   t2: Slide 2
   t3: Slide 3
   effects:
+  - roll: 2d10 + 2
+    t1: Slide 1
+    t2: Slide 2
+    t3: Slide 3
   - name: Effect
     effect: 'The area turns into a morass of spongy flesh before the targets are force
       moved. Until the start of the torlas''s next turn, the area is [[Difficult Terrain|difficult terrain]],

@@ -43,6 +43,10 @@ abilities:
   t2: 4 damage
   t3: 5 damage
   effects:
+  - roll: 2d10 + 2
+    t1: 2 damage
+    t2: 4 damage
+    t3: 5 damage
   - name: Effect
     effect: 'If this ability is used while Charging, the [[Raider|raider]] can make a ranged
       [[Free Strike|free strike]] with a distance of 5 before using the ability. '

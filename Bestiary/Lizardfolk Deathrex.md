@@ -39,6 +39,10 @@ abilities:
   t2: 7 damage; pull 1; A3 [[Bleeding|bleeding]] (save ends)
   t3: 10 damage; pull 2; A4 [[Bleeding|bleeding]] (save ends)
   effects:
+  - roll: 2d10 + 3
+    t1: 3 damage; pull 1; A2 [[Bleeding|bleeding]] (save ends)
+    t2: 7 damage; pull 1; A3 [[Bleeding|bleeding]] (save ends)
+    t3: 10 damage; pull 2; A4 [[Bleeding|bleeding]] (save ends)
   - name: 1 Malice
     effect: 'One target that is adjacent to the deathrex is [[Grabbed|grabbed]] by the deathrex''s
       mouth. '
@@ -56,6 +60,10 @@ abilities:
   t2: 10 damage; M3 [[Dazed|dazed]] (save ends)
   t3: 15 damage; M4 [[Dazed|dazed]] (save ends)
   effects:
+  - roll: 2d10 + 3
+    t1: 5 damage; M2 [[Dazed|dazed]] (save ends)
+    t2: 10 damage; M3 [[Dazed|dazed]] (save ends)
+    t3: 15 damage; M4 [[Dazed|dazed]] (save ends)
   - name: Effect
     effect: 'The target is released from the [[Grab|grab]] and slides 5. '
 - name: Trundle

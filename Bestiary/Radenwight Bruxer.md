@@ -37,6 +37,10 @@ abilities:
   t2: 9 damage; M3 [[Grabbed|grabbed]]
   t3: 12 damage; [[Grabbed|grabbed]]
   effects:
+  - roll: 2d10 + 2
+    t1: 5 damage; M2 [[Grabbed|grabbed]]
+    t2: 9 damage; M3 [[Grabbed|grabbed]]
+    t3: 12 damage; [[Grabbed|grabbed]]
   - name: Effect
     effect: 'While the target is [[Grabbed|grabbed]], they take 2 damage at the start of each
       of the bruxer''s turns. '
@@ -52,6 +56,11 @@ abilities:
   t1: 3 damage; A1 [[Bleeding|bleeding]] (save ends)
   t2: 5 damage; A2 [[Bleeding|bleeding]] (save ends)
   t3: '6 damage; A3 [[Bleeding|bleeding]] (save ends) '
+  effects:
+  - roll: 2d10 + 2
+    t1: 3 damage; A1 [[Bleeding|bleeding]] (save ends)
+    t2: 5 damage; A2 [[Bleeding|bleeding]] (save ends)
+    t3: '6 damage; A3 [[Bleeding|bleeding]] (save ends) '
 - name: Ready Rodent
   type: Triggered Action
   keywords:

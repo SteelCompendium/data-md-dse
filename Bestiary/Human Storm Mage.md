@@ -44,6 +44,10 @@ abilities:
   t2: 8 lightning damage
   t3: 11 lightning damage
   effects:
+  - roll: 2d10 + 2
+    t1: 5 lightning damage
+    t2: 8 lightning damage
+    t3: 11 lightning damage
   - name: 5 Malice
     effect: 'The ability takes the Area keyword and becomes a 10 × 1 line that targets
       each creature in the area. '
@@ -61,6 +65,10 @@ abilities:
   t2: Slide 3; [[Slowed|slowed]] (EoT)
   t3: Slide 1
   effects:
+  - roll: MGT RR
+    t1: Slide 5; [[Slowed|slowed]] (save ends)
+    t2: Slide 3; [[Slowed|slowed]] (EoT)
+    t3: Slide 1
   - name: Effect
     effect: 'The gust of wind disperses gas or vapor and extinguishes any flames,
       including [[Persistent|persistent]] effects. '

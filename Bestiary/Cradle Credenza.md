@@ -40,7 +40,7 @@ abilities:
       their weapon abilities until the end of their turn. '
 - name: Elemental Chaos
   type: Action
-  cost: 2d10 + 2
+  roll: 2d10 + 2
   keywords:
   - Area
   - Magic
@@ -49,5 +49,10 @@ abilities:
   t1: 2 fire damage; 2 cold damage; 2 lightning damage
   t2: 3 fire damage; 3 cold damage; 3 lightning damage; push 3
   t3: '4 fire damage; 4 cold damage; 4 lightning damage; push 5 '
+  effects:
+  - roll: 2d10 + 2
+    t1: 2 fire damage; 2 cold damage; 2 lightning damage
+    t2: 3 fire damage; 3 cold damage; 3 lightning damage; push 3
+    t3: '4 fire damage; 4 cold damage; 4 lightning damage; push 5 '
 
 ```

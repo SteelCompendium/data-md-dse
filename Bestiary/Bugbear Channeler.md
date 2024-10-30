@@ -36,11 +36,15 @@ abilities:
   t2: 8 damage; pull 3
   t3: 11 damage; pull 4
   effects:
+  - roll: 2d10 + 2
+    t1: 5 damage; pull 2
+    t2: 8 damage; pull 3
+    t3: 11 damage; pull 4
   - name: Effect
     effect: 'Each square that a target is pulled through becomes [[Difficult Terrain|difficult terrain]]. '
 - name: Blistering Element
   type: Action
-  cost: 2d10 + 2
+  roll: 2d10 + 2
   keywords:
   - Area
   - Magic
@@ -50,6 +54,10 @@ abilities:
   t2: 3 damage; M2 [[Bleeding|bleeding]] (save ends)
   t3: 4 damage; M3 [[Bleeding|bleeding]] (save ends)
   effects:
+  - roll: 2d10 + 2
+    t1: 2 damage; M1 [[Bleeding|bleeding]] (save ends)
+    t2: 3 damage; M2 [[Bleeding|bleeding]] (save ends)
+    t3: 4 damage; M3 [[Bleeding|bleeding]] (save ends)
   - name: Effect
     effect: 'The channeler chooses one of the following damage types for the damage:
       cold, fire, corruption, lightning, or poison. '
@@ -67,6 +75,10 @@ abilities:
   t2: 8 damage; P2 shapechanged (save ends)
   t3: 11 damage; P3 shapechanged (save ends)
   effects:
+  - roll: 2d10 + 2
+    t1: 5 damage; P1 [[Slowed|slowed]] (save ends)
+    t2: 8 damage; P2 shapechanged (save ends)
+    t3: 11 damage; P3 shapechanged (save ends)
   - name: Effect
     effect: 'A shapechanged creature becomes plant-like with bark skin and leafy hair.
       They are [[Slowed|slowed]] and have fire weakness 10 while they have this effect. '

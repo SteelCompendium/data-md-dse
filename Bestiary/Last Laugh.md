@@ -43,6 +43,10 @@ abilities:
   t2: 7 damage; A3 [[Bleeding|bleeding]] (save ends)
   t3: 10 damage; A4 [[Bleeding|bleeding]] and [[Dazed|dazed]] (save ends)
   effects:
+  - roll: 2d10 + 3
+    t1: 4 damage; A2 [[Bleeding|bleeding]] (save ends)
+    t2: 7 damage; A3 [[Bleeding|bleeding]] (save ends)
+    t3: 10 damage; A4 [[Bleeding|bleeding]] and [[Dazed|dazed]] (save ends)
   - name: Effect
     effect: 'An ally targeted by this ability makes a [[Free Strike|free strike]] instead of taking
       damage. '
@@ -60,7 +64,7 @@ abilities:
       at no cost. '
 - name: Not the Best Time to Laugh
   type: Villain Action 1
-  cost: INU RR
+  roll: INU RR
   keywords:
   - Area
   - Magic
@@ -71,6 +75,10 @@ abilities:
   t2: [[Frightened]] of the last laugh (EoT)
   t3: No effect
   effects:
+  - roll: INU RR
+    t1: [[Frightened]] of the last laugh (save ends)
+    t2: [[Frightened]] of the last laugh (EoT)
+    t3: No effect
   - name: Effect
     effect: 'While [[Frightened|frightened]] by this ability, targets laugh uncontrollably and cannot
       use triggered actions. '

@@ -37,6 +37,10 @@ abilities:
   t2: 5 damage
   t3: 6 damage
   effects:
+  - roll: 2d10 + 2
+    t1: 2 damage
+    t2: 5 damage
+    t3: 6 damage
   - name: Effect
     effect: 'The ratcrobat can shift up to 2 squares after attacking the first target,
       then can shift 1 square after attacking the second target. '

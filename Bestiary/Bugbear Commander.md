@@ -39,6 +39,10 @@ abilities:
   t2: 8 damage
   t3: 11 damage; one target is [[Grabbed|grabbed]]
   effects:
+  - roll: 2d10 + 2
+    t1: 5 damage
+    t2: 8 damage
+    t3: 11 damage; one target is [[Grabbed|grabbed]]
   - name: Effect
     effect: '1 ally within 5 of the commander has an edge on their next attack until
       the start of the commander''s next turn. '

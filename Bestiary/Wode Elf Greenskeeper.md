@@ -39,6 +39,10 @@ abilities:
   t2: 5 damage
   t3: 7 damage
   effects:
+  - roll: 2d10 + 2
+    t1: 3 damage
+    t2: 5 damage
+    t3: 7 damage
   - name: Effect
     effect: [[Taunted]] (EoT). The greenskeeper can shift 3 after making the attack.
   - name: 2 Malice

@@ -38,6 +38,10 @@ abilities:
   t2: 9 damage; slide 3
   t3: 12 damage; slide 5
   effects:
+  - roll: 2d10 + 3
+    t1: 5 damage; slide 1
+    t2: 9 damage; slide 3
+    t3: 12 damage; slide 5
   - name: Effect
     effect: A target [[Restrained|restrained]] by a [[Dwarf|dwarf]] can be slid by this attack.
   - name: 3 Malice

@@ -39,12 +39,16 @@ abilities:
   t2: 8 poison damage
   t3: 11 poison damage
   effects:
+  - roll: 2d10 + 2
+    t1: 5 poison damage
+    t2: 8 poison damage
+    t3: 11 poison damage
   - name: Effect
     effect: 'This attack has an edge against targets that the basilisk has previously
       dealt poison damage to. '
 - name: Petrifying Eye Beams
   type: Maneuver
-  cost: MGT RR
+  roll: MGT RR
   keywords:
   - Magic
   - Ranged
@@ -55,6 +59,10 @@ abilities:
   t2: [[Slowed]] (save ends)
   t3: [[Slowed]] (EoT)
   effects:
+  - roll: MGT RR
+    t1: [[Restrained]] (save ends)
+    t2: [[Slowed]] (save ends)
+    t3: [[Slowed]] (EoT)
   - name: Effect
     effect: The basilisk targets the first unobstructed creature in each column of
       the area. Each target magically begins to turn to stone. An already [[Slowed|slowed]] target
@@ -74,6 +82,11 @@ abilities:
   t1: 4 poison damage; M1 [[Weakened|weakened]] (save ends)
   t2: 6 poison damage; M2 [[Weakened|weakened]] and [[Slowed|slowed]] (save ends)
   t3: '9 poison damage; M3 [[Weakened|weakened]] and [[Slowed|slowed]] (save ends) '
+  effects:
+  - roll: 2d10 + 2
+    t1: 4 poison damage; M1 [[Weakened|weakened]] (save ends)
+    t2: 6 poison damage; M2 [[Weakened|weakened]] and [[Slowed|slowed]] (save ends)
+    t3: '9 poison damage; M3 [[Weakened|weakened]] and [[Slowed|slowed]] (save ends) '
 - name: Lash Out
   type: Triggered Action
   keywords:

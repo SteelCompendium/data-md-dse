@@ -38,5 +38,10 @@ abilities:
   t1: 1 damage
   t2: 2 damage; shift 1
   t3: '3 damage; shift 2 '
+  effects:
+  - roll: 2d10 + 2
+    t1: 1 damage
+    t2: 2 damage; shift 1
+    t3: '3 damage; shift 2 '
 
 ```

@@ -39,6 +39,10 @@ abilities:
   t2: 5 damage; I2 [[Restrained|restrained]] (save ends)
   t3: 7 damage; I3 [[Restrained|restrained]] (save ends)
   effects:
+  - roll: 2d10 + 2
+    t1: 3 damage; I1 [[Restrained|restrained]] (save ends)
+    t2: 5 damage; I2 [[Restrained|restrained]] (save ends)
+    t3: 7 damage; I3 [[Restrained|restrained]] (save ends)
   - name: Effect
     effect: 'A creature [[Restrained|restrained]] by this ability can''t [[Search For Hidden Creatures|search for hidden creatures]]
       until the condition ends. '
@@ -55,6 +59,11 @@ abilities:
   t1: Target is [[Bleeding|bleeding]] and has a bane on their attacks (save ends)
   t2: Target has a bane on their attacks (save ends)
   t3: 'No effect '
+  effects:
+  - roll: PRS RR
+    t1: Target is [[Bleeding|bleeding]] and has a bane on their attacks (save ends)
+    t2: Target has a bane on their attacks (save ends)
+    t3: 'No effect '
 - name: Foreseen Punishment
   type: Free Triggered Action
   keywords:

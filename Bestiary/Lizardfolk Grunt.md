@@ -39,5 +39,10 @@ abilities:
   t1: 2 damage
   t2: 4 damage; slide 2
   t3: '5 damage; slide 4 '
+  effects:
+  - roll: 2d10 + 2
+    t1: 2 damage
+    t2: 4 damage; slide 2
+    t3: '5 damage; slide 4 '
 
 ```

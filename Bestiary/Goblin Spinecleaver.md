@@ -37,5 +37,10 @@ abilities:
   t1: 2 damage; push 1
   t2: 4 damage; push 3
   t3: '5 damage; push 4 '
+  effects:
+  - roll: 2d10 + 2
+    t1: 2 damage; push 1
+    t2: 4 damage; push 3
+    t3: '5 damage; push 4 '
 
 ```

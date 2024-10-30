@@ -49,12 +49,16 @@ abilities:
   t2: 8 damage; [[Grabbed|grabbed]]
   t3: 11 damage; [[Grabbed|grabbed]]
   effects:
+  - roll: 2d10 + 3
+    t1: 5 damage
+    t2: 8 damage; [[Grabbed|grabbed]]
+    t3: 11 damage; [[Grabbed|grabbed]]
   - name: Effect
     effect: 'A size 1 target [[Grabbed|grabbed]] this way takes 8 acid damage at the start of
       each of their turns. '
 - name: Claws
   type: Action
-  cost: 2d10 + 3
+  roll: 2d10 + 3
   keywords:
   - Attack
   - Melee
@@ -65,6 +69,10 @@ abilities:
   t2: 4 damage; A3 [[Grabbed|grabbed]]
   t3: 5 damage; A4 [[Grabbed|grabbed]]
   effects:
+  - roll: 2d10 + 3
+    t1: 2 damage; A2 [[Grabbed|grabbed]]
+    t2: 4 damage; A3 [[Grabbed|grabbed]]
+    t3: 5 damage; A4 [[Grabbed|grabbed]]
   - name: 2 Malice
     effect: 'The ankheg can vertical slide one or both targets up to 5 squares. '
 - name: Earth Eruption
@@ -79,6 +87,10 @@ abilities:
   t2: 6 damage
   t3: '7 damage; push 2 '
   effects:
+  - roll: 2d10 + 2
+    t1: 4 damage
+    t2: 6 damage
+    t3: '7 damage; push 2 '
   - name: Effect
     effect: The ankheg [[Burrow|burrows]] up to their speed, then creates the burst when they
       breach the surface.
@@ -105,7 +117,7 @@ abilities:
     effect: 'The ankheg shifts up to 3 squares. '
 - name: Acid Breath
   type: Villain Action 1
-  cost: 2d10 + 3
+  roll: 2d10 + 3
   keywords:
   - Area
   - Weapon
@@ -115,6 +127,10 @@ abilities:
   t2: 6 acid damage
   t3: 7 acid damage
   effects:
+  - roll: 2d10 + 3
+    t1: 4 acid damage
+    t2: 6 acid damage
+    t3: 7 acid damage
   - name: Effect
     effect: 'The ground within the area is covered in a puddle of acid that lasts
       until the end of the encounter. A creature who enters the area for the first
@@ -132,7 +148,7 @@ abilities:
       ankheg makes a Bite attack against the creature. '
 - name: Acid and Claws
   type: Villain Action 3
-  cost: 2d10 + 3
+  roll: 2d10 + 3
   keywords:
   - Area
   - Weapon
@@ -141,5 +157,10 @@ abilities:
   t1: 5 acid damage; M2 [[Bleeding|bleeding]] (save ends)
   t2: 7 acid damage; M3 [[Bleeding|bleeding]] (save ends)
   t3: 10 acid damage; M4 [[Bleeding|bleeding]] (save ends)
+  effects:
+  - roll: 2d10 + 3
+    t1: 5 acid damage; M2 [[Bleeding|bleeding]] (save ends)
+    t2: 7 acid damage; M3 [[Bleeding|bleeding]] (save ends)
+    t3: 10 acid damage; M4 [[Bleeding|bleeding]] (save ends)
 
 ```

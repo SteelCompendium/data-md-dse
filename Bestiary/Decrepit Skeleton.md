@@ -41,6 +41,10 @@ abilities:
   t2: 3 damage
   t3: 4 damage
   effects:
+  - roll: 2d10 + 2
+    t1: 2 damage
+    t2: 3 damage
+    t3: 4 damage
   - name: Effect
     effect: 'The decrepit [[Skeleton|skeleton]] chooses one other target within distance to take
       1 damage. '

@@ -38,6 +38,10 @@ abilities:
   t2: 8 damage; R2 deathtouched (save ends)
   t3: 11 damage; R3 deathtouched (save ends)
   effects:
+  - roll: 2d10 + 2
+    t1: 5 damage; R1 deathtouched (save ends)
+    t2: 8 damage; R2 deathtouched (save ends)
+    t3: 11 damage; R3 deathtouched (save ends)
   - name: Effect
     effect: A creature gains a new condition at the end of each turn while deathtouched,
       receiving [[Bleeding|bleeding]] at the end of their first turn, [[Slowed|slowed]] at the end of their

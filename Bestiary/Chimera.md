@@ -44,6 +44,10 @@ abilities:
   t2: 10 damage
   t3: 13 damage
   effects:
+  - roll: 2d10 + 3
+    t1: 6 damage
+    t2: 10 damage
+    t3: 13 damage
   - name: Effect
     effect: 'This attack has an edge if the chimera has an edge on the attack. '
 - name: Dragon's Eruption
@@ -58,9 +62,14 @@ abilities:
   t1: 13 fire damage
   t2: 10 fire damage
   t3: '6 fire damage '
+  effects:
+  - roll: AGL RR
+    t1: 13 fire damage
+    t2: 10 fire damage
+    t3: '6 fire damage '
 - name: Lion's Toss
   type: Maneuver
-  cost: 2d10 + 3
+  roll: 2d10 + 3
   keywords:
   - Attack
   - Melee
@@ -70,6 +79,11 @@ abilities:
   t1: vertical push 1
   t2: vertical push 3
   t3: 'vertical push 5 '
+  effects:
+  - roll: 2d10 + 3
+    t1: vertical push 1
+    t2: vertical push 3
+    t3: 'vertical push 5 '
 - name: Roar
   type: Action
   roll: 2d10 + 3
@@ -82,9 +96,14 @@ abilities:
   t1: 4 psychic damage
   t2: 8 psychic damage; I2 [[Frightened|frightened]] (save ends)
   t3: '10 psychic damage; I3 [[Frightened|frightened]] (save ends) '
+  effects:
+  - roll: 2d10 + 3
+    t1: 4 psychic damage
+    t2: 8 psychic damage; I2 [[Frightened|frightened]] (save ends)
+    t3: '10 psychic damage; I3 [[Frightened|frightened]] (save ends) '
 - name: Ram's Defiance
   type: Triggered Action
-  cost: 2d10 + 3
+  roll: 2d10 + 3
   keywords:
   - Attack
   - Melee
@@ -96,6 +115,10 @@ abilities:
   t2: 5 damage; [[Prone|prone]]; M3 [[Slowed|slowed]] (save ends)
   t3: '7 damage; [[Prone|prone]]; M4 [[Slowed|slowed]] (save ends) '
   effects:
+  - roll: 2d10 + 3
+    t1: 3 damage; M2 [[Slowed|slowed]] (save ends)
+    t2: 5 damage; [[Prone|prone]]; M3 [[Slowed|slowed]] (save ends)
+    t3: '7 damage; [[Prone|prone]]; M4 [[Slowed|slowed]] (save ends) '
   - name: Effect
     effect: The chimera shifts 5. If they end this movement adjacent to the target,
       roll power.

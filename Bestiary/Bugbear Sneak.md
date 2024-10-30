@@ -36,6 +36,10 @@ abilities:
   t2: 9 damage; A3 [[Grabbed|grabbed]]
   t3: 12 damage; [[Grabbed|grabbed]]
   effects:
+  - roll: 2d10 + 2
+    t1: 5 damage; A2 [[Grabbed|grabbed]]
+    t2: 9 damage; A3 [[Grabbed|grabbed]]
+    t3: 12 damage; [[Grabbed|grabbed]]
   - name: Effect
     effect: 'The target can''t use triggered actions until the start of the next round.
       This attack has double edge if the sneak started their turn hidden from the
@@ -52,11 +56,15 @@ abilities:
   t2: 3 damage; I2 sneak is concealed from the target (save ends)
   t3: 4 damage; I3 sneak is concealed from the target (save ends)
   effects:
+  - roll: 2d10 + 2
+    t1: 2 damage; I1 sneak is concealed from the target (save ends)
+    t2: 3 damage; I2 sneak is concealed from the target (save ends)
+    t3: 4 damage; I3 sneak is concealed from the target (save ends)
   - name: Effect
     effect: 'The sneak shifts up to their speed and [[Hide|hides]] after using this ability. '
 - name: Carving Dagger
   type: Action
-  cost: 2d10 + 2
+  roll: 2d10 + 2
   keywords:
   - Attack
   - Ranged
@@ -67,6 +75,10 @@ abilities:
   t2: 9 damage; M2 [[Bleeding|bleeding]] (save ends)
   t3: 12 damage; M3 [[Bleeding|bleeding]] (save ends)
   effects:
+  - roll: 2d10 + 2
+    t1: 5 damage; M1 [[Bleeding|bleeding]] (save ends)
+    t2: 9 damage; M2 [[Bleeding|bleeding]] (save ends)
+    t3: 12 damage; M3 [[Bleeding|bleeding]] (save ends)
   - name: Effect
     effect: 'Targets can''t [[Hide|hide]] from the sneak or their allies while [[Bleeding|bleeding]] from
       this ability. '

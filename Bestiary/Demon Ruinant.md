@@ -40,6 +40,11 @@ abilities:
   t1: 2 damage
   t2: 5 damage; M1 [[Bleeding|bleeding]] (save ends)
   t3: '6 damage; M2 [[Bleeding|bleeding]] (save ends) '
+  effects:
+  - roll: 2d10 + 2
+    t1: 2 damage
+    t2: 5 damage; M1 [[Bleeding|bleeding]] (save ends)
+    t3: '6 damage; M2 [[Bleeding|bleeding]] (save ends) '
 - name: Salt Wounds
   type: Maneuver
   roll: 2d10 + 2
@@ -52,5 +57,10 @@ abilities:
   t1: 2 corruption damage
   t2: 5 corruption damage
   t3: '6 corruption damage '
+  effects:
+  - roll: 2d10 + 2
+    t1: 2 corruption damage
+    t2: 5 corruption damage
+    t3: '6 corruption damage '
 
 ```

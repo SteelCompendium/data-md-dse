@@ -40,6 +40,10 @@ abilities:
   t2: 9 damage; A2 [[Bleeding|bleeding]] (save ends)
   t3: 12 damage; A3 [[Bleeding|bleeding]] (save ends)
   effects:
+  - roll: 2d10 + 2
+    t1: 5 damage; A1 [[Bleeding|bleeding]] (save ends)
+    t2: 9 damage; A2 [[Bleeding|bleeding]] (save ends)
+    t3: 12 damage; A3 [[Bleeding|bleeding]] (save ends)
   - name: Effect
     effect: 'The potency of this attack increases by 1 if the target is [[Grabbed|grabbed]] by
       the scaletooth. '
@@ -57,6 +61,10 @@ abilities:
   t2: 5 damage; slide 2; M2 grappled
   t3: 6 damage; slide 3; M3 grappled if within 2 of the scaletooth
   effects:
+  - roll: 2d10 + 2
+    t1: 3 damage; slide 1; M1 grappled
+    t2: 5 damage; slide 2; M2 grappled
+    t3: 6 damage; slide 3; M3 grappled if within 2 of the scaletooth
   - name: Effect
     effect: 'The scaletooth needs their tail to use this ability. The scaletooth can''t
       grapple more than one creature or object with this ability. '

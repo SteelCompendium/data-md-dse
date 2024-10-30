@@ -42,6 +42,12 @@ abilities:
   t2: 9 damage; one target is pushed 2; other target is vertically pushed 2
   t3: '12 damage; one target is pushed 2 and [[Prone|prone]]; other target is vertically pushed
     3 '
+  effects:
+  - roll: 2d10 + 2
+    t1: 5 damage; push 1
+    t2: 9 damage; one target is pushed 2; other target is vertically pushed 2
+    t3: '12 damage; one target is pushed 2 and [[Prone|prone]]; other target is vertically pushed
+      3 '
 - name: Bound Ahead
   type: Action
   cost: 5 Malice
@@ -66,9 +72,14 @@ abilities:
   t1: Vertical push 5
   t2: Push 4
   t3: 'Push 3 '
+  effects:
+  - roll: MGT RR
+    t1: Vertical push 5
+    t2: Push 4
+    t3: 'Push 3 '
 - name: Circle and Strike
   type: Triggered Action
-  cost: 2d10 + 2
+  roll: 2d10 + 2
   keywords:
   - '-'
   trigger: The [[Griffon|griffon]] flies above a creature on the ground within 10
@@ -78,6 +89,10 @@ abilities:
   t2: A2 [[Grabbed|grabbed]]
   t3: 5 damage; A3 [[Grabbed|grabbed]]
   effects:
+  - roll: 2d10 + 2
+    t1: Push 3
+    t2: A2 [[Grabbed|grabbed]]
+    t3: 5 damage; A3 [[Grabbed|grabbed]]
   - name: Effect
     effect: 'The [[Griffon|griffon]] falls down upon the target, taking no damage from falling.
       A creature who is [[Grabbed|grabbed]] by the [[Griffon|griffon]] is [[Prone|prone]] and can''t stand until they

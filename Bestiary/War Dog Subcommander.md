@@ -40,6 +40,10 @@ abilities:
   t2: 5 damage
   t3: 7 damage
   effects:
+  - roll: 2d10 + 2
+    t1: 3 damage
+    t2: 5 damage
+    t3: 7 damage
   - name: Effect
     effect: 'An ally within 5 squares of the subcommander can make a [[Free Strike|free strike]] against
       the target. '

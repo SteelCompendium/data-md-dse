@@ -38,6 +38,10 @@ abilities:
   t2: 4 damage; A2 [[Grabbed|grabbed]]
   t3: 5 damage; A3 [[Grabbed|grabbed]]
   effects:
+  - roll: 2d10 + 2
+    t1: 3 damage; A1 [[Grabbed|grabbed]]
+    t2: 4 damage; A2 [[Grabbed|grabbed]]
+    t3: 5 damage; A3 [[Grabbed|grabbed]]
   - name: Special
     effect: The amalgamite can [[Grab|grab]] up to four creatures.
   - name: 5 Malice

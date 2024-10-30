@@ -37,6 +37,10 @@ abilities:
   t2: 4 damage
   t3: 5 damage; an ally adjacent to the target can make a [[Free Strike|free strike]]
   effects:
+  - roll: 2d10 + 2
+    t1: 2 damage
+    t2: 4 damage
+    t3: 5 damage; an ally adjacent to the target can make a [[Free Strike|free strike]]
   - name: Effect
     effect: The target can't use triggered actions until the start of the next round.
 

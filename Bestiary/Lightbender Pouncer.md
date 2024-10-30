@@ -38,12 +38,16 @@ abilities:
   t2: 9 damage; 2 [[Prone|prone]]
   t3: 12 damage; 3 [[Prone|prone]]
   effects:
+  - roll: 2d10 + 2
+    t1: 5 damage; 1 [[Prone|prone]]
+    t2: 9 damage; 2 [[Prone|prone]]
+    t3: 12 damage; 3 [[Prone|prone]]
   - name: Effect
     effect: 'The pouncer makes a [[Free Strike|free strike]] against each target they have knocked
       [[Prone|prone]]. '
 - name: Sparkling Tail Whip
   type: Action
-  cost: 2d10 + 2
+  roll: 2d10 + 2
   keywords:
   - Area
   - Magic
@@ -53,6 +57,10 @@ abilities:
   t2: 4 damage; 2 dazzled (save ends)
   t3: 6 damage; 3 dazzled (save ends)
   effects:
+  - roll: 2d10 + 2
+    t1: 2 damage; 1 dazzled (save ends)
+    t2: 4 damage; 2 dazzled (save ends)
+    t3: 6 damage; 3 dazzled (save ends)
   - name: Effect
     effect: 'A dazzled creature has a bane on their attacks and can''t have line of
       effect to targets who aren''t adjacent to them. '
@@ -70,6 +78,10 @@ abilities:
   t2: [[Dazed]] (EoT)
   t3: No effect
   effects:
+  - roll: REA RR
+    t1: [[Dazed]] (save ends)
+    t2: [[Dazed]] (EoT)
+    t3: No effect
   - name: Effect
     effect: 'Targets [[Dazed|dazed]] by this ability have a speed of 0 while [[Dazed|dazed]]. If a [[Dazed|dazed]]
       target takes damage or if someone else spends an action to shake the creature

@@ -39,6 +39,10 @@ abilities:
   t2: 2 damage
   t3: 3 damage
   effects:
+  - roll: 2d10 + 2
+    t1: 1 damage
+    t2: 2 damage
+    t3: 3 damage
   - name: Effect
     effect: '1 ally within 3 can shift 2. '
 

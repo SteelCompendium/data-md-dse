@@ -48,11 +48,15 @@ abilities:
   t2: 9 damage; A3 [[Prone|prone]] and can't stand (EoT)
   t3: 12 damage; A4 [[Prone|prone]] and can't stand (save ends)
   effects:
+  - roll: 2d10 + 3
+    t1: 5 damage; A2 [[Prone|prone]]
+    t2: 9 damage; A3 [[Prone|prone]] and can't stand (EoT)
+    t3: 12 damage; A4 [[Prone|prone]] and can't stand (save ends)
   - name: Effect
     effect: 'Each enemy within 1 square of the target takes 2 damage. '
 - name: Stone Bone Storm
   type: Action
-  cost: 2d10 + 3
+  roll: 2d10 + 3
   keywords:
   - Area
   - Resistance
@@ -62,6 +66,10 @@ abilities:
   t2: 3 damage; M3 [[Prone|prone]]
   t3: 4 damage; M4 [[Prone|prone]]
   effects:
+  - roll: 2d10 + 3
+    t1: 2 damage; M2 push 2
+    t2: 3 damage; M3 [[Prone|prone]]
+    t3: 4 damage; M4 [[Prone|prone]]
   - name: Effect
     effect: 'The cryptic reforms their body and appears in an unoccupied space within
       the line. '
@@ -77,12 +85,16 @@ abilities:
   t2: 3 damage; push 3; [[Prone|prone]]
   t3: '4 damage; push 4; [[Prone|prone]] '
   effects:
+  - roll: 2d10 + 3
+    t1: 2 damage; push 2
+    t2: 3 damage; push 3; [[Prone|prone]]
+    t3: '4 damage; push 4; [[Prone|prone]] '
   - name: Effect
     effect: The cryptic [[Burrow|burrows]] up to half their speed, then creates the burst when
       they breach the surface.
 - name: Stoneshift
   type: Maneuver
-  cost: AGL RR
+  roll: AGL RR
   keywords:
   - Ranged
   - Resistance
@@ -92,6 +104,10 @@ abilities:
   t2: Slide 2
   t3: Slide 1
   effects:
+  - roll: AGL RR
+    t1: Slide 3
+    t2: Slide 2
+    t3: Slide 1
   - name: 2 Malice
     effect: 'The distance of the slide is doubled. '
 - name: Dissipate
@@ -108,7 +124,7 @@ abilities:
       associated with it, and shifts up to 3 squares. '
 - name: First Warning Quake
   type: Villain Action 1
-  cost: MGT RR
+  roll: MGT RR
   keywords:
   - Area
   - Resistance
@@ -118,11 +134,15 @@ abilities:
   t2: [[Prone]]
   t3: No effect
   effects:
+  - roll: MGT RR
+    t1: The target is [[Prone|prone]] and can't stand (EoT)
+    t2: [[Prone]]
+    t3: No effect
   - name: Effect
     effect: 'The area becomes [[Difficult Terrain|difficult terrain]]. '
 - name: Final Warning Fissure
   type: Villain Action 2
-  cost: AGL RR
+  roll: AGL RR
   keywords:
   - Area
   - Resistance
@@ -132,13 +152,17 @@ abilities:
   t2: 2 damage
   t3: The target moves to the nearest unoccupied space outside the area.
   effects:
+  - roll: AGL RR
+    t1: 4 damage; [[Prone|prone]]
+    t2: 2 damage
+    t3: The target moves to the nearest unoccupied space outside the area.
   - name: Effect
     effect: 'The area drops 2 squares. Each enemy in the area falls, while all allies
       of the fossil cryptic drop safely. The affected area then becomes difficult
       terrain. '
 - name: No Escape
   type: Villain Action 3
-  cost: 2d10 + 3
+  roll: 2d10 + 3
   keywords:
   - Ranged
   distance: Ranged 10
@@ -147,6 +171,10 @@ abilities:
   t2: 3 damage; vertical slide 4
   t3: 4 damage; the target is [[Restrained|restrained]] against the ceiling (save ends)
   effects:
+  - roll: 2d10 + 3
+    t1: 2 damage; vertical slide 2
+    t2: 3 damage; vertical slide 4
+    t3: 4 damage; the target is [[Restrained|restrained]] against the ceiling (save ends)
   - name: Effect
     effect: The cryptic makes an initial attack that calls down stone pillars from
       the ceiling.

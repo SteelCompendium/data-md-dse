@@ -41,6 +41,10 @@ abilities:
   t2: 8 damage; shift 2
   t3: 11 damage; shift 3
   effects:
+  - roll: 2d10 + 2
+    t1: 5 damage; shift 1
+    t2: 8 damage; shift 2
+    t3: 11 damage; shift 3
   - name: Effect
     effect: 'If this ability is used while charging, the griffon grapples one of the
       targets. '
@@ -70,6 +74,11 @@ abilities:
   t1: Vertical push 4
   t2: Push 3
   t3: 'Push 2 '
+  effects:
+  - roll: MGT RR
+    t1: Vertical push 4
+    t2: Push 3
+    t3: 'Push 2 '
 - name: Juke
   type: Triggered Action
   cost: 1 Malice

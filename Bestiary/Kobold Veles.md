@@ -40,6 +40,10 @@ abilities:
   t2: 2 damage
   t3: 3 damage
   effects:
+  - roll: 2d10 + 2
+    t1: 1 damage
+    t2: 2 damage
+    t3: 3 damage
   - name: Effect
     effect: 'All kobolds ignore opportunity attacks from the target until the start
       of the veles'' next turn. '

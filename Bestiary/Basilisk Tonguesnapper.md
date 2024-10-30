@@ -39,13 +39,17 @@ abilities:
   t2: 8 acid damage; pull 2
   t3: 12 acid damage; pull 3
   effects:
+  - roll: 2d10 + 2
+    t1: 6 acid damage; pull 1
+    t2: 8 acid damage; pull 2
+    t3: 12 acid damage; pull 3
   - name: Effect
     effect: This attack can pull targets [[Restrained|restrained]] by Petrifying Eye Beams.
   - name: 3 Malice
     effect: 'The tonguesnapper targets two additional creatures or objects. '
 - name: Petrifying Eye Beams
   type: Maneuver
-  cost: MGT RR
+  roll: MGT RR
   keywords:
   - Magic
   - Ranged
@@ -56,6 +60,10 @@ abilities:
   t2: [[Slowed]] (save ends)
   t3: [[Slowed]] (EoT)
   effects:
+  - roll: MGT RR
+    t1: [[Restrained]] (save ends)
+    t2: [[Slowed]] (save ends)
+    t3: [[Slowed]] (EoT)
   - name: Effect
     effect: The tonguesnapper targets the first unobstructed creature in each column
       of the area. Each target magically begins to turn to stone. An already [[Slowed|slowed]]
@@ -78,6 +86,10 @@ abilities:
   t2: 8 corruption damage; R2 [[Dazed|dazed]] (save ends)
   t3: 12 corruption damage; R3 [[Dazed|dazed]] and [[Slowed|slowed]] (save ends)
   effects:
+  - roll: 2d10 + 2
+    t1: 6 corruption damage; R1 [[Dazed|dazed]] (save ends)
+    t2: 8 corruption damage; R2 [[Dazed|dazed]] (save ends)
+    t3: 12 corruption damage; R3 [[Dazed|dazed]] and [[Slowed|slowed]] (save ends)
   - name: Effect
     effect: 'A creature [[Dazed|dazed]] by this ability can''t benefit from edges or concealment
       until the condition ends. '

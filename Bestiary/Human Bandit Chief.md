@@ -44,6 +44,10 @@ abilities:
   t2: 9 damage; pull 2
   t3: 12 damage; pull 3
   effects:
+  - roll: 2d10 + 3
+    t1: 5 damage; pull 1
+    t2: 9 damage; pull 2
+    t3: 12 damage; pull 3
   - name: Effect
     effect: A target who is adjacent to the bandit chief after the attack is resolved
       takes double edge corruption damage.
@@ -51,7 +55,7 @@ abilities:
     effect: 'The bandit chief attacks an additional target. '
 - name: Kneel, Peasant!
   type: Maneuver
-  cost: 2d10 + 3
+  roll: 2d10 + 3
   keywords:
   - Attack
   - Melee
@@ -62,6 +66,10 @@ abilities:
   t2: Push 2; M3 [[Prone|prone]]
   t3: Push 4; M4 [[Prone|prone]]
   effects:
+  - roll: 2d10 + 3
+    t1: Push 1; M2 [[Prone|prone]]
+    t2: Push 2; M3 [[Prone|prone]]
+    t3: Push 4; M4 [[Prone|prone]]
   - name: 2 Malice
     effect: 'This ability targets each enemy adjacent to the bandit chief. '
 - name: Bloodstones

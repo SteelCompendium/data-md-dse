@@ -43,6 +43,10 @@ abilities:
   t2: 7 damage; M2 [[Grabbed|grabbed]]
   t3: 10 damage; M3 [[Grabbed|grabbed]]
   effects:
+  - roll: 2d10 + 2
+    t1: 4 damage; M1 [[Grabbed|grabbed]]
+    t2: 7 damage; M2 [[Grabbed|grabbed]]
+    t3: 10 damage; M3 [[Grabbed|grabbed]]
   - name: Effect
     effect: 'The target has a bane on attempts to escape the [[Grab|grab]]. The [[Brawler|brawler]] has
       edge on this attack if the target is already [[Grabbed|grabbed]]. '
