@@ -50,7 +50,7 @@
   "type": "Maneuver"
   "cost": "1 Malice"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Melee 1"
   "target": "One creature [[Grabbed|grabbed]] by the [[Brawler|brawler]]"
   "effects":

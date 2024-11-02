@@ -46,7 +46,7 @@
   "type": "Maneuver"
   "cost": "1 Malice"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Self"
   "target": "Self"
   "effects":

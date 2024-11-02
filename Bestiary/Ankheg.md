@@ -97,7 +97,7 @@
 - "name": "Skitter"
   "type": "Triggered Action"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Self"
   "target": "Self"
   "trigger": "A creature damages the ankheg"
@@ -123,7 +123,7 @@
 - "name": "Sinkhole"
   "type": "Villain Action 2"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Self"
   "target": "Self"
   "effects":

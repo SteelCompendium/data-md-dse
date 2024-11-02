@@ -81,7 +81,7 @@
 - "name": "Scramble"
   "type": "Maneuver"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Self"
   "target": "Self"
   "effects":
@@ -140,7 +140,7 @@
 - "name": "Challenge"
   "type": "Villain Action 2"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Ranged 5"
   "target": "One creature who damaged the bredbeddle this encounter"
   "effects":

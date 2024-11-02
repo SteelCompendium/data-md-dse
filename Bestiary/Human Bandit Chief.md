@@ -97,7 +97,7 @@
 - "name": "Lead From the Front"
   "type": "Villain Action 3"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Self"
   "target": "Self"
   "effects":

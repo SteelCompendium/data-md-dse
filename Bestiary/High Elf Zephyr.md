@@ -47,7 +47,7 @@
 - "name": "Windwalk"
   "type": "Maneuver"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Self"
   "target": "Self"
   "effects":

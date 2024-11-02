@@ -59,7 +59,7 @@
 - "name": "Foreseen Punishment"
   "type": "Free Triggered Action"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Ranged 5"
   "target": "1 creature"
   "trigger": "The triggering creature uses a triggered action targeting the green\

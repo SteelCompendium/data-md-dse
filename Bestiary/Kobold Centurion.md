@@ -49,7 +49,7 @@
 - "name": "Concentrate All Fire on That Hero!"
   "type": "Maneuver"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Ranged 10"
   "target": "One enemy"
   "effects":

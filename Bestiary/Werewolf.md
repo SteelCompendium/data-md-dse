@@ -80,7 +80,7 @@
   "type": "Action"
   "cost": "5 Malice"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Self"
   "target": "Self"
   "effects":
@@ -91,7 +91,7 @@
 - "name": "Wall Leap"
   "type": "Maneuver"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Self"
   "target": "Self"
   "effects":
@@ -102,7 +102,7 @@
   "type": "Triggered Action"
   "cost": "2 Malice"
   "keywords":
-  - "-"
+  - "--"
   "trigger": "The target declares a melee attack against the werewolf after charging\
     \ or moving 3 or more squares in a straight line towards them."
   "distance": "Melee 1"
@@ -129,7 +129,7 @@
 - "name": "Full Wolf"
   "type": "Villain Action 2"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Self"
   "target": "Self"
   "effects":

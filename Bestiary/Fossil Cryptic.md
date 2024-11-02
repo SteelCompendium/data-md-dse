@@ -99,7 +99,7 @@
   "type": "Triggered Action"
   "cost": "1 Malice"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Self"
   "target": "Self"
   "trigger": "The cryptic takes damage"

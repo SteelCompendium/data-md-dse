@@ -47,7 +47,7 @@
   "type": "Maneuver"
   "cost": "1 Malice"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Ranged 20"
   "target": "Special"
   "effects":
@@ -56,7 +56,7 @@
 - "name": "Meat Shield"
   "type": "Triggered Action"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Melee 1"
   "target": "One ally"
   "trigger": "A creature targets the monarch with an attack."
@@ -75,7 +75,7 @@
 - "name": "Focus Fire"
   "type": "Villain Action 2"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Ranged 10"
   "target": "One enemy"
   "effects":

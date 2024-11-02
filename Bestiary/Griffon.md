@@ -76,7 +76,7 @@
   "type": "Triggered Action"
   "cost": "1 Malice"
   "keywords":
-  - "-"
+  - "--"
   "trigger": "The griffon takes damage"
   "distance": "Self"
   "target": "Self"

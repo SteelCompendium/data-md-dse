@@ -51,7 +51,7 @@
 - "name": "Vengeful Tusker"
   "type": "Triggered Action"
   "keywords":
-  - "-"
+  - "--"
   "trigger": "An enemy within 7 deals damage to the tusker."
   "distance": "Self"
   "target": "Self"

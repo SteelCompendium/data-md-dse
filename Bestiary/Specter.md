@@ -47,7 +47,7 @@
 - "name": "Hidden Movement"
   "type": "Maneuver"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Self"
   "target": "Self"
   "effects":

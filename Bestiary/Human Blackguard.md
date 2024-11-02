@@ -50,7 +50,7 @@
 - "name": "You!"
   "type": "Maneuver"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Ranged 10"
   "target": "One enemy"
   "effects":
@@ -61,7 +61,7 @@
 - "name": "Parry!"
   "type": "Triggered Action"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Melee 1"
   "target": "Self or one ally"
   "trigger": "A creature targets the blackguard or an ally adjacent to the blackguard\
@@ -72,7 +72,7 @@
 - "name": "[[Advance]]!"
   "type": "Villain Action 1"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Self"
   "target": "Self"
   "effects":

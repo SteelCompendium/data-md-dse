@@ -48,7 +48,7 @@
   "type": "Triggered Action"
   "cost": "1 Malice"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Self"
   "target": "Self"
   "trigger": "A creature attacks an adjacent ally."

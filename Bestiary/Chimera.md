@@ -128,7 +128,7 @@
 - "name": "Chorus of Destruction"
   "type": "Villain Action 3"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Self"
   "target": "Self"
   "effects":

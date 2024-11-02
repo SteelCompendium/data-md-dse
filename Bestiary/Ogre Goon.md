@@ -80,7 +80,7 @@
 - "name": "Swat The [[Fly]]"
   "type": "Triggered Action"
   "keywords":
-  - "-"
+  - "--"
   "trigger": "The target moves or shifts away from the goon."
   "distance": "Melee 1"
   "target": "1 adjacent creature or object"

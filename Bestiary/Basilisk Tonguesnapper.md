@@ -84,7 +84,7 @@
 - "name": "Neurotoxin Splash"
   "type": "Triggered Action"
   "keywords":
-  - "-"
+  - "--"
   "trigger": "The tonguesnapper takes Weapon damage."
   "distance": "2 burst"
   "target": "All enemies in the burst"

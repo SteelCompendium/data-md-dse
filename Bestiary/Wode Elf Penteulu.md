@@ -61,7 +61,7 @@
 - "name": "Wode Sickness"
   "type": "Triggered Action"
   "keywords":
-  - "-"
+  - "--"
   "trigger": "An ally ends their turn."
   "distance": "Ranged 10"
   "target": "1 enemy"

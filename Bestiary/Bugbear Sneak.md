@@ -83,7 +83,7 @@
 - "name": "Catcher"
   "type": "Free Triggered Action"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Melee 1"
   "target": "1 size 1 creature or object"
   "trigger": "The target is force moved into a square adjacent to the sneak."
@@ -94,7 +94,7 @@
   "type": "Triggered Action"
   "cost": "1 Malice"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Special"
   "target": "1 enemy"
   "trigger": "A target attacks the sneak."

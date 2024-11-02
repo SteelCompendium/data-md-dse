@@ -45,7 +45,7 @@
 - "name": "You Next!"
   "type": "Action"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Ranged 8"
   "target": "1 ally"
   "effects":
@@ -55,7 +55,7 @@
   "type": "Action"
   "cost": "5 Malice"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Self and 5 burst"
   "target": "Self and all allies"
   "effects":
@@ -75,7 +75,7 @@
 - "name": "Catcher"
   "type": "Free Triggered Action"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Melee 1"
   "target": "1 size 1 creature or object"
   "trigger": "The target is force moved into a square adjacent to the commander."

@@ -44,7 +44,7 @@
   "type": "Maneuver"
   "cost": "3 Malice"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Self and 2 burst"
   "target": "Self and all allies"
   "effects":

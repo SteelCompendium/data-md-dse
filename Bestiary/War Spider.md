@@ -59,7 +59,7 @@
   "type": "Action"
   "cost": "5 Malice"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Self"
   "target": "Self"
   "effects":

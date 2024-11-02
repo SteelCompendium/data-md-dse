@@ -46,7 +46,7 @@
   "type": "Maneuver"
   "cost": "2+ Malice"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Ranged 10"
   "target": "Special"
   "effects":
@@ -57,7 +57,7 @@
   "type": "Free Maneuver"
   "cost": "2 Malice"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Ranged 10"
   "target": "Special"
   "effects":
@@ -67,7 +67,7 @@
 - "name": "Enough!"
   "type": "Triggered Action"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Ranged 10"
   "target": "1 enemy"
   "trigger": "The target makes an attack against the ordinator or an ally within distance."

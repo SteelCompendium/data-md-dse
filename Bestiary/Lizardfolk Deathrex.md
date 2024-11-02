@@ -61,7 +61,7 @@
 - "name": "Trundle"
   "type": "Maneuver"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Self"
   "target": "Self"
   "effects":
@@ -72,7 +72,7 @@
 - "name": "Swat The [[Fly]]"
   "type": "Triggered Action"
   "keywords":
-  - "-"
+  - "--"
   "trigger": "The target moves or shifts away from the deathrex."
   "distance": "Melee 1"
   "target": "1 adjacent creature or object"
@@ -93,7 +93,7 @@
 - "name": "Shed Some Skin"
   "type": "Villain Action 2"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Self"
   "target": "Self"
   "effects":

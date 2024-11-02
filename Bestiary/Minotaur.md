@@ -45,7 +45,7 @@
   "type": "Action"
   "cost": "3 Malice"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Self"
   "target": "Self"
   "effects":
@@ -72,7 +72,7 @@
 - "name": "Retaliatory Gore"
   "type": "Triggered Action"
   "keywords":
-  - "-"
+  - "--"
   "trigger": "The minotaur takes damage from a creature within 8."
   "distance": "Self"
   "target": "Triggering creature"

@@ -81,7 +81,7 @@
 - "name": "Catcher"
   "type": "Free Triggered Action"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Melee 1"
   "target": "1 size 1 creature or object"
   "trigger": "The target is force moved into a square adjacent to the roughneck."
@@ -91,7 +91,7 @@
 - "name": "Flying Sawblade"
   "type": "Triggered Action"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Self"
   "target": "Self"
   "trigger": "The roughneck is vertically moved by another creature."

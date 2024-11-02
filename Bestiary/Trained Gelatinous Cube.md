@@ -51,7 +51,7 @@
 - "name": "You Didn't Pay Attention!"
   "type": "Free Triggered Action"
   "keywords":
-  - "-"
+  - "--"
   "trigger": "A creature moves or is force moved into the cube."
   "distance": "Self"
   "target": "Self"

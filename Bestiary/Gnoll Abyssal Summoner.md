@@ -45,7 +45,7 @@
   "type": "Maneuver"
   "cost": "3 Malice"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Ranged 5"
   "target": "Special"
   "effects":
@@ -55,7 +55,7 @@
   "type": "Maneuver"
   "cost": "4 Malice"
   "keywords":
-  - "-"
+  - "--"
   "distance": "2 burst"
   "target": "All allies"
   "effects":

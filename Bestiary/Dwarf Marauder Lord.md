@@ -92,7 +92,7 @@
 - "name": "Test Your Metal!"
   "type": "Villain Action 3"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Ranged 10"
   "target": "special"
   "effects":

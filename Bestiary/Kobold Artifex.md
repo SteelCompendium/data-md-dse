@@ -44,7 +44,7 @@
 - "name": "Activate Trap"
   "type": "Maneuver"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Ranged 10"
   "target": "1 trap or terrain object"
   "effects":

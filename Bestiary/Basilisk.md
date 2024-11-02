@@ -78,7 +78,7 @@
 - "name": "Lash Out"
   "type": "Triggered Action"
   "keywords":
-  - "-"
+  - "--"
   "trigger": "The basilisk takes Weapon damage."
   "distance": "1 burst"
   "target": "All enemies in the burst"

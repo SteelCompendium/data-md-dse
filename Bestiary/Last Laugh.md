@@ -50,7 +50,7 @@
   "type": "Maneuver"
   "cost": "4 Malice"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Self and 5 burst"
   "target": "Self and all allies"
   "effects":
@@ -77,7 +77,7 @@
 - "name": "Call Up From The Abyss"
   "type": "Villain Action 2"
   "keywords":
-  - "-"
+  - "--"
   "distance": "Ranged 10"
   "target": "Special"
   "effects":
