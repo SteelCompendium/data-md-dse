@@ -30,7 +30,6 @@ traits:
 abilities:
 - name: Life Drain
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -38,9 +37,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: One creature or object per minion
-  t1: 2 corruption damage
-  t2: 3 corruption damage
-  t3: '4 corruption damage; the target moves up to their speed away from all shades '
   effects:
   - roll: 2d10 + 2
     t1: 2 corruption damage

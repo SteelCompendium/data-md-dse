@@ -27,7 +27,6 @@ traits:
 abilities:
 - name: Lightning Rod
   type: Action
-  roll: 2d10 + 3
   cost: Signature
   keywords:
   - Attack
@@ -35,9 +34,6 @@ abilities:
   - Ranged
   distance: Ranged 20
   target: 1 creature or object
-  t1: 5 lightning damage; R2 [[Dazed|dazed]] (save ends)
-  t2: 8 lightning damage; R3 [[Dazed|dazed]] (save ends)
-  t3: 12 lightning damage; R4 [[Dazed|dazed]] (save ends)
   effects:
   - roll: 2d10 + 3
     t1: 5 lightning damage; R2 [[Dazed|dazed]] (save ends)
@@ -91,16 +87,12 @@ abilities:
       up to twice their speed. '
 - name: And The Sun Forsook Her Children
   type: Villain Action 2
-  roll: PRS RR
   keywords:
   - Area
   - Magic
   - Resistance
   distance: 5 cube within 10
   target: All enemies in the cube
-  t1: 8 corruption damage; pull 5 towards center of cube
-  t2: 5 corruption damage; pull 3 towards center of cube
-  t3: Pull 1 towards center of cube
   effects:
   - roll: PRS RR
     t1: 8 corruption damage; pull 5 towards center of cube

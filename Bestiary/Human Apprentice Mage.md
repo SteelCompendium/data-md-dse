@@ -29,7 +29,6 @@ traits:
 abilities:
 - name: Lightning Strike
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -37,9 +36,6 @@ abilities:
   - Ranged
   distance: Ranged 10
   target: One creature or object per minion
-  t1: 2 lightning damage
-  t2: 4 lightning damage
-  t3: 5 lightning damage
   effects:
   - roll: 2d10 + 2
     t1: 2 lightning damage

@@ -30,7 +30,6 @@ traits:
 abilities:
 - name: Bite
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -38,9 +37,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: One creature or object
-  t1: 4 poison damage; M1 [[Weakened|weakened]] (save ends)
-  t2: 7 poison damage; M2 [[Weakened|weakened]] (save ends)
-  t3: '10 poison damage; M3 [[Weakened|weakened]] (save ends) '
   effects:
   - roll: 2d10 + 2
     t1: 4 poison damage; M1 [[Weakened|weakened]] (save ends)
@@ -48,16 +44,12 @@ abilities:
     t3: '10 poison damage; M3 [[Weakened|weakened]] (save ends) '
 - name: Leg Blade
   type: Action
-  roll: 2d10 + 2
   keywords:
   - Attack
   - Melee
   - Weapon
   distance: Melee 1
   target: Two creatures or objects
-  t1: 4 damage
-  t2: 7 damage
-  t3: '10 damage '
   effects:
   - roll: 2d10 + 2
     t1: 4 damage
@@ -77,16 +69,12 @@ abilities:
       one power roll against all targets. '
 - name: Web
   type: Maneuver
-  roll: AGL RR
   cost: 2 Malice
   keywords:
   - Area
   - Resistance
   distance: 3 cube within 1
   target: All creatures in the cube
-  t1: [[Restrained]] (AGL ends)
-  t2: [[Restrained]] (EoT)
-  t3: 'No effect '
   effects:
   - roll: AGL RR
     t1: [[Restrained]] (AGL ends)

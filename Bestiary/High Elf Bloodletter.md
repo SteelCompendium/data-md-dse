@@ -27,7 +27,6 @@ traits:
 abilities:
 - name: Razor's Edge
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -35,9 +34,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: 1 creature or object
-  t1: 4 damage; R1 [[Bleeding|bleeding]] (save ends)
-  t2: 7 damage; R2 [[Bleeding|bleeding]] (save ends)
-  t3: 10 damage; R3 [[Bleeding|bleeding]] (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 4 damage; R1 [[Bleeding|bleeding]] (save ends)

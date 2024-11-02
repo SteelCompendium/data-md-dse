@@ -25,7 +25,6 @@ traits:
 abilities:
 - name: Spear
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -34,9 +33,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: One creature or object
-  t1: 2 damage
-  t2: 5 damage
-  t3: '6 damage '
   effects:
   - roll: 2d10 + 2
     t1: 2 damage
@@ -44,7 +40,6 @@ abilities:
     t3: '6 damage '
 - name: Bury the Point
   type: Action
-  roll: 2d10 + 2
   cost: 2 Malice
   keywords:
   - Attack
@@ -52,9 +47,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: One creature
-  t1: 3 damage; M1 [[Bleeding|bleeding]] (save ends)
-  t2: 7 damage; M2 [[Bleeding|bleeding]] (save ends)
-  t3: '8 damage; M3 [[Bleeding|bleeding]] (save ends) '
   effects:
   - roll: 2d10 + 2
     t1: 3 damage; M1 [[Bleeding|bleeding]] (save ends)

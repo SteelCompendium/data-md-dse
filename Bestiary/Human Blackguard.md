@@ -31,7 +31,6 @@ traits:
 abilities:
 - name: Zweihander Swing
   type: Action
-  roll: 2d10 + 3
   cost: Signature
   keywords:
   - Area
@@ -39,9 +38,6 @@ abilities:
   - Weapon
   distance: 1 burst
   target: All enemies in the burst
-  t1: 4 damage; M2 [[Slowed|slowed]] (save ends)
-  t2: 7 damage; M3 [[Slowed|slowed]] (save ends)
-  t3: 10 damage; M4 [[Slowed|slowed]] (save ends)
   effects:
   - roll: 2d10 + 3
     t1: 4 damage; M2 [[Slowed|slowed]] (save ends)

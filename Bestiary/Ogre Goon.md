@@ -25,7 +25,6 @@ traits:
 abilities:
 - name: Club Swing
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -34,9 +33,6 @@ abilities:
   - Weapon
   distance: Melee 2
   target: 2 creatures or objects
-  t1: 5 damage; push 2
-  t2: 9 damage; push 4
-  t3: 12 damage; push 6; [[Prone|prone]]
   effects:
   - roll: 2d10 + 2
     t1: 5 damage; push 2
@@ -47,16 +43,12 @@ abilities:
       takes damage from any [[Forced Movement|forced movement]] it causes. '
 - name: Grabby Hand
   type: Maneuver
-  roll: 2d10 + 2
   keywords:
   - Attack
   - Melee
   - Weapon
   distance: Melee 1
   target: 1 creature or object
-  t1: 5 damage
-  t2: 9 damage; [[Grabbed|grabbed]]
-  t3: 12 damage; [[Grabbed|grabbed]]
   effects:
   - roll: 2d10 + 2
     t1: 5 damage
@@ -69,7 +61,6 @@ abilities:
       target in their hand. '
 - name: People Bowling
   type: Maneuver
-  roll: 2d10 + 3
   cost: 3 Malice
   keywords:
   - Area
@@ -77,9 +68,6 @@ abilities:
   - Weapon
   distance: 6 × 1 Line (while grabbing a Size 1 creature or object)
   target: All creatures and objects
-  t1: 3 damage
-  t2: 4 damage
-  t3: '6 damage; [[Prone|prone]] '
   effects:
   - roll: 2d10 + 3
     t1: 3 damage

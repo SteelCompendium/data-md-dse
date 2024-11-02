@@ -31,7 +31,6 @@ traits:
 abilities:
 - name: Clobber and Clutch
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -39,9 +38,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: One creature or object
-  t1: 2 damage; M1 [[Grabbed|grabbed]]
-  t2: 5 damage; M2 [[Grabbed|grabbed]]
-  t3: 6 damage; [[Grabbed|grabbed]]
   effects:
   - roll: 2d10 + 2
     t1: 2 damage; M1 [[Grabbed|grabbed]]
@@ -54,16 +50,12 @@ abilities:
       to end this effect. '
 - name: Breakfall
   type: Maneuver
-  roll: 2d10 + 2
   cost: 3 Malice
   keywords:
   - Area
   - Resistance
   distance: 2 burst
   target: Each enemy in the burst
-  t1: 2 corruption damage
-  t2: 3 corruption damage; M1 [[Weakened|weakened]] (save ends)
-  t3: '4 corruption damage; M2 [[Dazed|dazed]] (save ends) '
   effects:
   - roll: 2d10 + 2
     t1: 2 corruption damage

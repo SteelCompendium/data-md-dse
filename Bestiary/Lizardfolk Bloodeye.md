@@ -27,7 +27,6 @@ traits:
 abilities:
 - name: Bola Knock
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -35,9 +34,6 @@ abilities:
   - Weapon
   distance: Ranged 5
   target: 1 creature or object
-  t1: 3 damage
-  t2: 5 damage; A1 [[Restrained|restrained]] (save ends)
-  t3: '7 damage; A2 [[Restrained|restrained]] (save ends) '
   effects:
   - roll: 2d10 + 2
     t1: 3 damage
@@ -45,19 +41,12 @@ abilities:
     t3: '7 damage; A2 [[Restrained|restrained]] (save ends) '
 - name: Bloodshot
   type: Action
-  roll: 2d10 + 2
   cost: 2 Malice
   keywords:
   - Attack
   - Ranged
   distance: Ranged 10
   target: 1 creature
-  t1: 3 acid damage; M1 target can't establish line of effect beyond 3 squares (save
-    ends)
-  t2: 5 acid damage; M2 target can't establish line of effect beyond 2 squares (save
-    ends)
-  t3: '7 acid damage; M3 target can''t establish line of effect beyond 1 square (save
-    ends) '
   effects:
   - roll: 2d10 + 2
     t1: 3 acid damage; M1 target can't establish line of effect beyond 3 squares (save

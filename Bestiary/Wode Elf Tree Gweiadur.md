@@ -27,7 +27,6 @@ traits:
 abilities:
 - name: Snare Bow
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -36,9 +35,6 @@ abilities:
   - Weapon
   distance: Ranged 15
   target: 1 creature or object
-  t1: 5 damage; A1 [[Restrained|restrained]] (save ends)
-  t2: 9 damage; A2 [[Restrained|restrained]] (save ends)
-  t3: 12 damage; A3 [[Restrained|restrained]] (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 5 damage; A1 [[Restrained|restrained]] (save ends)
@@ -51,7 +47,6 @@ abilities:
       is also [[Restrained|restrained]] (save ends). '
 - name: You Activated My Trap!
   type: Maneuver
-  roll: 2d10 + 2
   cost: 3 Malice
   keywords:
   - Area
@@ -59,9 +54,6 @@ abilities:
   - Ranged
   distance: 3 cube within 10
   target: All enemies in the cube
-  t1: 2 damage; R1 marked (save ends)
-  t2: 4 damage; R2 [[Slowed|slowed]] and marked (save ends)
-  t3: 6 damage; R3 [[Slowed|slowed]] and marked (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 2 damage; R1 marked (save ends)

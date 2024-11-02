@@ -28,7 +28,6 @@ traits:
 abilities:
 - name: Snap and Toss
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -36,9 +35,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: 1 creature or object per minion
-  t1: 2 damage
-  t2: 4 damage; slide 2
-  t3: '5 damage; slide 4 '
   effects:
   - roll: 2d10 + 2
     t1: 2 damage

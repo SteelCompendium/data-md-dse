@@ -27,7 +27,6 @@ traits:
 abilities:
 - name: Twystrd
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -35,9 +34,6 @@ abilities:
   - Ranged
   distance: 1 cube within 5
   target: All enemies in the cube
-  t1: vertical push 2
-  t2: vertical push 3
-  t3: vertical push 5
   effects:
   - roll: 2d10 + 2
     t1: vertical push 2

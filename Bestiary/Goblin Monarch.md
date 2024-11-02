@@ -28,7 +28,6 @@ traits:
 abilities:
 - name: Handaxe
   type: Action
-  roll: 2d10 + 3
   cost: Signature
   keywords:
   - Attack
@@ -37,9 +36,6 @@ abilities:
   - Weapon
   distance: Melee 1 or Ranged 5
   target: Two creatures or objects
-  t1: 3 damage
-  t2: 5 damage
-  t3: 7 damage
   effects:
   - roll: 2d10 + 3
     t1: 3 damage

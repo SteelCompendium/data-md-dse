@@ -29,7 +29,6 @@ traits:
 abilities:
 - name: Cronenstorm
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Area
@@ -37,9 +36,6 @@ abilities:
   - Ranged
   distance: 3 cube within 10
   target: Each creature in the cube
-  t1: Slide 1
-  t2: Slide 2
-  t3: Slide 3
   effects:
   - roll: 2d10 + 2
     t1: Slide 1

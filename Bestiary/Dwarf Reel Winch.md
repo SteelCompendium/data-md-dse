@@ -27,7 +27,6 @@ traits:
 abilities:
 - name: Snaring Crossbow
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -35,9 +34,6 @@ abilities:
   - Weapon
   distance: Ranged 10
   target: 1 creature or object
-  t1: 3 damage; M1 [[Slowed|slowed]] (save ends)
-  t2: 5 damage; M2 [[Slowed|slowed]] (save ends)
-  t3: 7 damage; M3 [[Restrained|restrained]] (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 3 damage; M1 [[Slowed|slowed]] (save ends)

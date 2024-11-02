@@ -26,16 +26,12 @@ traits:
 abilities:
 - name: Cacophony
   type: Action
-  roll: 2d10 + 3
   cost: Signature
   keywords:
   - Area
   - Magic
   distance: 5 burst
   target: All enemies in the burst
-  t1: 3 sonic damage; slide 1; the maestro can shift 1 square
-  t2: 5 sonic damage; slide 3; the maestro can shift 3 squares
-  t3: 7 sonic damage; slide 5; the maestro can shift 5 squares
   effects:
   - roll: 2d10 + 3
     t1: 3 sonic damage; slide 1; the maestro can shift 1 square
@@ -46,16 +42,12 @@ abilities:
       once before the end of the round. '
 - name: Tempo Change
   type: Maneuver
-  roll: PRS RR
   keywords:
   - Magic
   - Ranged
   - Resistance
   distance: Ranged 10
   target: Two enemies
-  t1: [[Slowed]] (save ends)
-  t2: [[Slowed]] (EoT)
-  t3: No effect
   effects:
   - roll: PRS RR
     t1: [[Slowed]] (save ends)

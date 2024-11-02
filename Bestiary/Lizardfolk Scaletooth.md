@@ -28,7 +28,6 @@ traits:
 abilities:
 - name: Razor Bite
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -36,9 +35,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: 1 creature or object
-  t1: 5 damage; A1 [[Bleeding|bleeding]] (save ends)
-  t2: 9 damage; A2 [[Bleeding|bleeding]] (save ends)
-  t3: 12 damage; A3 [[Bleeding|bleeding]] (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 5 damage; A1 [[Bleeding|bleeding]] (save ends)
@@ -49,7 +45,6 @@ abilities:
       the scaletooth. '
 - name: Tail Whip
   type: Action
-  roll: 2d10 + 2
   cost: 2 Malice
   keywords:
   - Attack
@@ -57,9 +52,6 @@ abilities:
   - Weapon
   distance: Melee 2
   target: 2 creatures or objects
-  t1: 3 damage; slide 1; M1 grappled
-  t2: 5 damage; slide 2; M2 grappled
-  t3: 6 damage; slide 3; M3 grappled if within 2 of the scaletooth
   effects:
   - roll: 2d10 + 2
     t1: 3 damage; slide 1; M1 grappled

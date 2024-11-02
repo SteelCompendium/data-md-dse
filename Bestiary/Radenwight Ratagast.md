@@ -24,7 +24,6 @@ traits: []
 abilities:
 - name: Stinky Glissando
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -32,9 +31,6 @@ abilities:
   - Melee
   distance: Melee 1
   target: One creature or object per minion
-  t1: 2 poison damage
-  t2: 4 poison damage; [[Taunted|taunted]] (EoT)
-  t3: '5 poison damage; [[Taunted|taunted]] (EoT) '
   effects:
   - roll: 2d10 + 2
     t1: 2 poison damage

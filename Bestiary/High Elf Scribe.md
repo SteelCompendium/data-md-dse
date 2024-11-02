@@ -28,7 +28,6 @@ traits:
 abilities:
 - name: Inkshot
   type: Action
-  roll: 2d10 + 1
   cost: Signature
   keywords:
   - Attack
@@ -36,9 +35,6 @@ abilities:
   - Ranged
   distance: Ranged 5
   target: 1 creature or object per minion
-  t1: 2 corruption damage
-  t2: 4 corruption damage
-  t3: 5 corruption damage
   effects:
   - roll: 2d10 + 1
     t1: 2 corruption damage

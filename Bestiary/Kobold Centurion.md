@@ -29,7 +29,6 @@ traits:
 abilities:
 - name: Pilum
   type: Action
-  roll: 2d10 + 3
   cost: Signature
   keywords:
   - Attack
@@ -38,9 +37,6 @@ abilities:
   - Weapon
   distance: Melee 1 or Ranged 10
   target: 2 creatures or objects
-  t1: 2 damage; 2 [[Weakened|weakened]] (save ends)
-  t2: 5 damage; 3 [[Weakened|weakened]] (save ends)
-  t3: 6 damage; 4 [[Weakened|weakened]] (save ends)
   effects:
   - roll: 2d10 + 3
     t1: 2 damage; 2 [[Weakened|weakened]] (save ends)

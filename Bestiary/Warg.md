@@ -28,7 +28,6 @@ traits:
 abilities:
 - name: Bite
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -37,9 +36,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: One creature or object
-  t1: 2 damage
-  t2: 5 damage
-  t3: '6 damage '
   effects:
   - roll: 2d10 + 2
     t1: 2 damage

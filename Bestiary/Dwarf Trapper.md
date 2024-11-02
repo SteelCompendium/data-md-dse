@@ -23,7 +23,6 @@ traits: []
 abilities:
 - name: Concussive Bolts
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -33,9 +32,6 @@ abilities:
   - Weapon
   distance: Melee 1 or Ranged 10
   target: 1 creature or object
-  t1: 3 damage; push 2
-  t2: 5 damage; push 4
-  t3: 7 damage; push 6
   effects:
   - roll: 2d10 + 2
     t1: 3 damage; push 2
@@ -45,16 +41,12 @@ abilities:
     effect: 'A target [[Restrained|restrained]] by a [[Dwarf|dwarf]] can be pushed by this attack. '
 - name: Steam Powered Snare
   type: Maneuver
-  roll: MGT RR
   cost: 3 Malice
   keywords:
   - Area
   - Resistance
   distance: 3 cube within 5
   target: All enemies in the cube
-  t1: 4 damage; [[Restrained|restrained]] (EoT)
-  t2: 3 damage; [[Slowed|slowed]] (EoT)
-  t3: No effect
   effects:
   - roll: MGT RR
     t1: 4 damage; [[Restrained|restrained]] (EoT)

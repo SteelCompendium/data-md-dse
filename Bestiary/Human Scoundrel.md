@@ -28,7 +28,6 @@ traits:
 abilities:
 - name: Rapier & Dagger
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -36,9 +35,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: One creature or object
-  t1: 4 damage
-  t2: 7 damage
-  t3: 10 damage
   effects:
   - roll: 2d10 + 2
     t1: 4 damage

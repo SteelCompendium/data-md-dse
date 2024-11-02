@@ -29,7 +29,6 @@ traits:
 abilities:
 - name: Lifestealer Longsword
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -37,9 +36,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: One creature or object
-  t1: 2 corruption damage
-  t2: 4 corruption damage; M1 [[Slowed|slowed]] (save ends)
-  t3: 5 corruption damage; M2 [[Slowed|slowed]] and [[Weakened|weakened]] (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 2 corruption damage

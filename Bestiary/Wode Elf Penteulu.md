@@ -30,7 +30,6 @@ traits:
 abilities:
 - name: Wodeblade
   type: Action
-  roll: 2d10 + 3
   cost: Signature
   keywords:
   - Attack
@@ -38,9 +37,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: 3 creatures or objects
-  t1: 5 damage; M2 [[Restrained|restrained]] (save ends)
-  t2: 9 damage; M3 [[Restrained|restrained]] (save ends)
-  t3: 12 damage; M4 [[Restrained|restrained]] (save ends)
   effects:
   - roll: 2d10 + 3
     t1: 5 damage; M2 [[Restrained|restrained]] (save ends)

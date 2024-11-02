@@ -33,7 +33,6 @@ traits:
 abilities:
 - name: Morningstar & Javelin
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -42,9 +41,6 @@ abilities:
   - Weapon
   distance: Melee 1 or Ranged 5
   target: One creature or object
-  t1: 4 damage; M1 the target has a bane on their next attack
-  t2: 7 damage; M2 the target has a bane on their next attack
-  t3: 10 damage; M3 the target has a double bane on their next attack
   effects:
   - roll: 2d10 + 2
     t1: 4 damage; M1 the target has a bane on their next attack

@@ -28,7 +28,6 @@ traits:
 abilities:
 - name: Heavy Longbow
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -36,9 +35,6 @@ abilities:
   - Weapon
   distance: Ranged 12
   target: 1 creature or object per minion
-  t1: 2 damage; push 1
-  t2: 4 damage; push 2
-  t3: '5 damage; push 3 '
   effects:
   - roll: 2d10 + 2
     t1: 2 damage; push 1

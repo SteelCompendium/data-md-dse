@@ -28,7 +28,6 @@ traits:
 abilities:
 - name: Death Scythe
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -38,9 +37,6 @@ abilities:
   - Weapon
   distance: Melee 1 or Ranged 10
   target: One creature or object
-  t1: 4 corruption damage; I1 [[Weakened|weakened]] (save ends)
-  t2: 7 corruption damage; I2 [[Weakened|weakened]] (save ends)
-  t3: 10 corruption damage; I3 [[Weakened|weakened]] (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 4 corruption damage; I1 [[Weakened|weakened]] (save ends)

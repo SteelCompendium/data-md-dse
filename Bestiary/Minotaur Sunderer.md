@@ -26,7 +26,6 @@ traits:
 abilities:
 - name: Spiked Maul
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -35,9 +34,6 @@ abilities:
   - Weapon
   distance: Melee 2
   target: 2 creatures or objects
-  t1: 6 damage; pull 1
-  t2: 10 damage; pull 2
-  t3: 13 damage; pull 3
   effects:
   - roll: 2d10 + 2
     t1: 6 damage; pull 1
@@ -47,16 +43,12 @@ abilities:
     effect: 'A target is [[Grabbed|grabbed]] if they are pulled adjacent to the sunderer. '
 - name: Fearsome Bay
   type: Action
-  roll: INU RR
   cost: 5 Malice
   keywords:
   - Area
   - Resistance
   distance: 3 burst
   target: All enemies in the burst
-  t1: [[Frightened]] of the [[Minotaur|minotaur]] (save ends)
-  t2: [[Frightened]] of the [[Minotaur|minotaur]] (EoT)
-  t3: No effect
   effects:
   - roll: INU RR
     t1: [[Frightened]] of the [[Minotaur|minotaur]] (save ends)
@@ -67,7 +59,6 @@ abilities:
       next turn. '
 - name: Disemboweling Horns
   type: Maneuver
-  roll: 2d10 + 2
   cost: 3 Malice
   keywords:
   - Attack
@@ -76,9 +67,6 @@ abilities:
   - Weapon
   distance: Melee 2
   target: 1 [[Grabbed|grabbed]] creature
-  t1: 6 damage; push 1; M1 [[Bleeding|bleeding]] (save ends)
-  t2: 10 damage; push 3; M2 [[Bleeding|bleeding]] (save ends)
-  t3: 13 damage; push 5; M3 [[Bleeding|bleeding]] (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 6 damage; push 1; M1 [[Bleeding|bleeding]] (save ends)

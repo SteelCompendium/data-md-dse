@@ -26,7 +26,6 @@ traits:
 abilities:
 - name: Levitating Axes
   type: Action
-  roll: 2d10 + 3
   cost: Signature
   keywords:
   - Attack
@@ -34,9 +33,6 @@ abilities:
   - Weapon
   distance: Melee 1 or Ranged 10
   target: 3 creatures or objects
-  t1: 5 damage; slide 1
-  t2: 9 damage; slide 3
-  t3: 12 damage; slide 5
   effects:
   - roll: 2d10 + 3
     t1: 5 damage; slide 1

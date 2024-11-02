@@ -29,7 +29,6 @@ traits:
 abilities:
 - name: Chilling Grasp
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -37,9 +36,6 @@ abilities:
   - Melee
   distance: Melee 1
   target: One creature or object
-  t1: 2 cold damage
-  t2: 5 cold damage
-  t3: 6 cold damage
   effects:
   - roll: 2d10 + 2
     t1: 2 cold damage
@@ -49,7 +45,6 @@ abilities:
     effect: 'The shadow can shift up to 2 squares before or after this attack. '
 - name: Freezing Dark
   type: Action
-  roll: 2d10 + 2
   cost: 3 Malice
   keywords:
   - Area
@@ -57,9 +52,6 @@ abilities:
   - Ranged
   distance: 3 cube within 1
   target: Each enemy in the cube
-  t1: 1 cold damage
-  t2: 2 cold damage
-  t3: 3 cold damage
   effects:
   - roll: 2d10 + 2
     t1: 1 cold damage

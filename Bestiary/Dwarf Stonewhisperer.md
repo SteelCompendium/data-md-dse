@@ -27,16 +27,12 @@ traits:
 abilities:
 - name: Tile Slide
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Area
   - Magic
   distance: 3 cube within 1
   target: All creatures and objects
-  t1: 3 damage; slide 1; M1 [[Slowed|slowed]] (save ends)
-  t2: 6 damage; slide 3; M2 [[Slowed|slowed]] (save ends)
-  t3: 9 damage; slide 5; M3 [[Restrained|restrained]] (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 3 damage; slide 1; M1 [[Slowed|slowed]] (save ends)
@@ -46,16 +42,12 @@ abilities:
     effect: 'A target [[Restrained|restrained]] by a [[Dwarf|dwarf]] can be slid by this attack. '
 - name: Stone Wave
   type: Maneuver
-  roll: 2d10 + 2
   cost: 3 Malice
   keywords:
   - Area
   - Ranged
   distance: 2 cube within 10
   target: All enemies in the cube
-  t1: 2 damage; push 2; R1 [[Slowed|slowed]] (save ends)
-  t2: 3 damage; push 3; R2 [[Slowed|slowed]] (save ends)
-  t3: 4 damage; push 3; R3 [[Slowed|slowed]] (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 2 damage; push 2; R1 [[Slowed|slowed]] (save ends)

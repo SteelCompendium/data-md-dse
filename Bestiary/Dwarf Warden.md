@@ -26,7 +26,6 @@ traits:
 abilities:
 - name: Concussive Maul
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -34,9 +33,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: 1 creature or object
-  t1: 5 damage; push 1; M1 [[Slowed|slowed]] (save ends)
-  t2: 8 damage; push 3; M2 [[Slowed|slowed]] (save ends)
-  t3: 11 damage; push 5; M3 [[Restrained|restrained]] (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 5 damage; push 1; M1 [[Slowed|slowed]] (save ends)
@@ -46,15 +42,11 @@ abilities:
     effect: 'A target [[Restrained|restrained]] by a [[Dwarf|dwarf]] can be pushed by this attack. '
 - name: Concussive Shockwave
   type: Maneuver
-  roll: 2d10 + 2
   cost: 5 Malice
   keywords:
   - Area
   distance: 3 cube within 1
   target: All enemies in the cube
-  t1: 2 damage; push 2; A1 [[Slowed|slowed]] (save ends)
-  t2: 4 damage; push 4; A2 [[Slowed|slowed]] (save ends)
-  t3: 5 damage; push 6; A3 [[Dazed|dazed]] (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 2 damage; push 2; A1 [[Slowed|slowed]] (save ends)

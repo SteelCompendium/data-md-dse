@@ -31,7 +31,6 @@ traits:
 abilities:
 - name: Glaive Rush
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -39,9 +38,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: 1 creature or object
-  t1: 3 damage
-  t2: 5 damage
-  t3: 7 damage; [[Prone|prone]]
   effects:
   - roll: 2d10 + 2
     t1: 3 damage
@@ -51,16 +47,12 @@ abilities:
     effect: 'The terrorsoar can shift 4 after using this ability if they are flying. '
 - name: Poison Blowdart
   type: Action
-  roll: 2d10 + 2
   keywords:
   - Attack
   - Ranged
   - Weapon
   distance: Ranged 5
   target: 1 creature or object
-  t1: 2 damage; M1 [[Weakened|weakened]] (save ends)
-  t2: 5 damage; M2 [[Weakened|weakened]] (save ends)
-  t3: 6 damage; M3 [[Weakened|weakened]] (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 2 damage; M1 [[Weakened|weakened]] (save ends)

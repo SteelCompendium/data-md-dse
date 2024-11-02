@@ -26,7 +26,6 @@ traits:
 abilities:
 - name: Portable Ballista
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -34,9 +33,6 @@ abilities:
   - Weapon
   distance: Ranged 10
   target: 1 creature or object
-  t1: 4 damage; push 1
-  t2: 7 damage; push 3
-  t3: 10 damage; push 5
   effects:
   - roll: 2d10 + 2
     t1: 4 damage; push 1

@@ -27,7 +27,6 @@ traits:
 abilities:
 - name: Entangling Vines
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Area
@@ -35,9 +34,6 @@ abilities:
   - Ranged
   distance: 3 cube within 10
   target: All enemies in the cube
-  t1: 3 damage; pull 1; M1 [[Slowed|slowed]] (save ends)
-  t2: 5 damage; pull 3; M2 [[Slowed|slowed]] (save ends)
-  t3: 7 damage; pull 5; M3 [[Slowed|slowed]] (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 3 damage; pull 1; M1 [[Slowed|slowed]] (save ends)

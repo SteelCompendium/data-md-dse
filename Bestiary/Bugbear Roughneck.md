@@ -24,7 +24,6 @@ traits: []
 abilities:
 - name: Haymaker
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -32,9 +31,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: 2 creatures or objects
-  t1: 5 damage
-  t2: 9 damage; one target is [[Grabbed|grabbed]]; one target gets push 2
-  t3: 12 damage; one target is [[Grabbed|grabbed]]; one target gets vertical push 3
   effects:
   - roll: 2d10 + 2
     t1: 5 damage
@@ -45,16 +41,12 @@ abilities:
       and the roughneck targets all enemies instead. '
 - name: Leaping Fury
   type: Action
-  roll: 2d10 + 3
   keywords:
   - Attack
   - Ranged
   - Weapon
   distance: Melee 1
   target: 1 creature or object
-  t1: 5 damage; M1 [[Prone|prone]]
-  t2: 9 damage; M2 [[Prone|prone]]
-  t3: 12 damage; M3 [[Prone|prone]]
   effects:
   - roll: 2d10 + 3
     t1: 5 damage; M1 [[Prone|prone]]

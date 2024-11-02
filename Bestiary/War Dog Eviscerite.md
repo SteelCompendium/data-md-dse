@@ -26,7 +26,6 @@ traits:
 abilities:
 - name: Chainsaw Whip
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -34,9 +33,6 @@ abilities:
   - Weapon
   distance: Melee 3
   target: One creature or object
-  t1: 3 damage
-  t2: 5 damage; pull 1
-  t3: 7 damage; pull 2
   effects:
   - roll: 2d10 + 2
     t1: 3 damage

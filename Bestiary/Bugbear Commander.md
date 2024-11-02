@@ -27,7 +27,6 @@ traits:
 abilities:
 - name: Inspiring Swordplay
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -35,9 +34,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: 2 creatures or objects
-  t1: 5 damage
-  t2: 8 damage
-  t3: 11 damage; one target is [[Grabbed|grabbed]]
   effects:
   - roll: 2d10 + 2
     t1: 5 damage

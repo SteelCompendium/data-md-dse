@@ -26,7 +26,6 @@ traits:
 abilities:
 - name: Flame Wad
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -34,9 +33,6 @@ abilities:
   - Ranged
   distance: Ranged 5
   target: 1 creature or object
-  t1: 3 fire damage; I1 burning (save ends)
-  t2: 5 fire damage; I2 burning (save ends)
-  t3: 7 fire damage; I3 burning (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 3 fire damage; I1 burning (save ends)

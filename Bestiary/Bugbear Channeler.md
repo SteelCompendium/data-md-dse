@@ -24,7 +24,6 @@ traits: []
 abilities:
 - name: Shape Earth
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -32,9 +31,6 @@ abilities:
   - Ranged
   distance: Ranged 8
   target: 2 creatures or objects on the ground
-  t1: 5 damage; pull 2
-  t2: 8 damage; pull 3
-  t3: 11 damage; pull 4
   effects:
   - roll: 2d10 + 2
     t1: 5 damage; pull 2
@@ -44,15 +40,11 @@ abilities:
     effect: 'Each square that a target is pulled through becomes [[Difficult Terrain|difficult terrain]]. '
 - name: Blistering Element
   type: Action
-  roll: 2d10 + 2
   keywords:
   - Area
   - Magic
   distance: 3 burst
   target: All enemies in the burst
-  t1: 2 damage; M1 [[Bleeding|bleeding]] (save ends)
-  t2: 3 damage; M2 [[Bleeding|bleeding]] (save ends)
-  t3: 4 damage; M3 [[Bleeding|bleeding]] (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 2 damage; M1 [[Bleeding|bleeding]] (save ends)
@@ -63,7 +55,6 @@ abilities:
       cold, fire, corruption, lightning, or poison. '
 - name: Green Reshape
   type: Action
-  roll: 2d10 + 2
   cost: 5 Malice
   keywords:
   - Magic
@@ -71,9 +62,6 @@ abilities:
   - Resistance
   distance: Ranged 5
   target: 1 creature
-  t1: 5 damage; P1 [[Slowed|slowed]] (save ends)
-  t2: 8 damage; P2 shapechanged (save ends)
-  t3: 11 damage; P3 shapechanged (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 5 damage; P1 [[Slowed|slowed]] (save ends)

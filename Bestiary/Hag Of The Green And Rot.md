@@ -32,7 +32,6 @@ traits:
 abilities:
 - name: Corrosive Claws
   type: Action
-  roll: 2d10 + 3
   cost: Signature
   keywords:
   - Attack
@@ -40,9 +39,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: Two creatures or objects
-  t1: 6 corruption damage; A2 [[Weakened|weakened]] (save ends)
-  t2: 10 corruption damage; A3 [[Weakened|weakened]] (save ends)
-  t3: 13 corruption damage; A4 [[Weakened|weakened]] (save ends)
   effects:
   - roll: 2d10 + 3
     t1: 6 corruption damage; A2 [[Weakened|weakened]] (save ends)
@@ -53,15 +49,11 @@ abilities:
       start of each of their turns until the condition ends. '
 - name: Soul Steal
   type: Action
-  roll: 2d10 + 3
   keywords:
   - Area
   - Magic
   distance: 5 cube within 1
   target: All enemies in the cube
-  t1: 4 corruption damage
-  t2: 7 corruption damage; P2 target has a bane on power rolls (save ends)
-  t3: 10 corruption damage; P3 target has a double bane on power rolls (save ends)
   effects:
   - roll: 2d10 + 3
     t1: 4 corruption damage
@@ -87,7 +79,6 @@ abilities:
       form, the distance of their melee abilities increases by 1 and has reach. '
 - name: Turned Upside Down
   type: Triggered Action
-  roll: REA RR
   cost: 2 Malice
   keywords:
   - Area
@@ -95,9 +86,6 @@ abilities:
   trigger: A creature hits Shtriga Nona with a melee attack.
   distance: 1 burst
   target: All enemies in the burst
-  t1: Vertical slide 5; [[Restrained|restrained]] (EoT)
-  t2: Slide 3; [[Slowed|slowed]] (EoT)
-  t3: Slide 2
   effects:
   - roll: REA RR
     t1: Vertical slide 5; [[Restrained|restrained]] (EoT)
@@ -108,15 +96,11 @@ abilities:
       is suspended in midair until the condition ends. '
 - name: Snackies for Sweeties
   type: Villain Action 1
-  roll: 2d10 + 3
   keywords:
   - Area
   - Magic
   distance: 5 burst
   target: All creatures
-  t1: 4 poison damage; A2 [[Bleeding|bleeding]] (save ends)
-  t2: 6 poison damage; A3 [[Bleeding|bleeding]] (save ends)
-  t3: 4 poison damage; A4 [[Bleeding|bleeding]] (save ends)
   effects:
   - roll: 2d10 + 3
     t1: 4 poison damage; A2 [[Bleeding|bleeding]] (save ends)
@@ -145,16 +129,12 @@ abilities:
       up to their speed again. The hag makes one power roll against all targets. '
 - name: Open the Oven
   type: Villain Action 3
-  roll: 2d10 + 3
   keywords:
   - Area
   - Melee
   - Weapon
   distance: 5 cube within 1
   target: All creatures in the cube
-  t1: 6 fire damage; A2 [[Weakened|weakened]] (save ends)
-  t2: 10 fire damage; A3 [[Weakened|weakened]] (save ends)
-  t3: 13 fire damage; A4 [[Weakened|weakened]] (save ends)
   effects:
   - roll: 2d10 + 3
     t1: 6 fire damage; A2 [[Weakened|weakened]] (save ends)

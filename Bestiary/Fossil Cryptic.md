@@ -36,7 +36,6 @@ traits:
 abilities:
 - name: Sand Slam
   type: Action
-  roll: 2d10 + 3
   cost: Signature
   keywords:
   - Attack
@@ -44,9 +43,6 @@ abilities:
   - Weapon
   distance: Melee 2
   target: One creature or object
-  t1: 5 damage; A2 [[Prone|prone]]
-  t2: 9 damage; A3 [[Prone|prone]] and can't stand (EoT)
-  t3: 12 damage; A4 [[Prone|prone]] and can't stand (save ends)
   effects:
   - roll: 2d10 + 3
     t1: 5 damage; A2 [[Prone|prone]]
@@ -56,15 +52,11 @@ abilities:
     effect: 'Each enemy within 1 square of the target takes 2 damage. '
 - name: Stone Bone Storm
   type: Action
-  roll: 2d10 + 3
   keywords:
   - Area
   - Resistance
   distance: 6 × 1 line within 1
   target: Each enemy in the line
-  t1: 2 damage; M2 push 2
-  t2: 3 damage; M3 [[Prone|prone]]
-  t3: 4 damage; M4 [[Prone|prone]]
   effects:
   - roll: 2d10 + 3
     t1: 2 damage; M2 push 2
@@ -75,15 +67,11 @@ abilities:
       the line. '
 - name: Shatterstone
   type: Action
-  roll: 2d10 + 3
   cost: 5 Malice
   keywords:
   - Area
   distance: 4 burst
   target: Each enemy in the burst
-  t1: 2 damage; push 2
-  t2: 3 damage; push 3; [[Prone|prone]]
-  t3: '4 damage; push 4; [[Prone|prone]] '
   effects:
   - roll: 2d10 + 3
     t1: 2 damage; push 2
@@ -94,15 +82,11 @@ abilities:
       they breach the surface.
 - name: Stoneshift
   type: Maneuver
-  roll: AGL RR
   keywords:
   - Ranged
   - Resistance
   distance: Ranged 5
   target: One creature or object on the ground
-  t1: Slide 3
-  t2: Slide 2
-  t3: Slide 1
   effects:
   - roll: AGL RR
     t1: Slide 3
@@ -124,15 +108,11 @@ abilities:
       associated with it, and shifts up to 3 squares. '
 - name: First Warning Quake
   type: Villain Action 1
-  roll: MGT RR
   keywords:
   - Area
   - Resistance
   distance: 5 burst
   target: Each enemy on the ground in the burst
-  t1: The target is [[Prone|prone]] and can't stand (EoT)
-  t2: [[Prone]]
-  t3: No effect
   effects:
   - roll: MGT RR
     t1: The target is [[Prone|prone]] and can't stand (EoT)
@@ -142,15 +122,11 @@ abilities:
     effect: 'The area becomes [[Difficult Terrain|difficult terrain]]. '
 - name: Final Warning Fissure
   type: Villain Action 2
-  roll: AGL RR
   keywords:
   - Area
   - Resistance
   distance: 5 burst
   target: Each enemy on the ground in the burst
-  t1: 4 damage; [[Prone|prone]]
-  t2: 2 damage
-  t3: The target moves to the nearest unoccupied space outside the area.
   effects:
   - roll: AGL RR
     t1: 4 damage; [[Prone|prone]]
@@ -162,14 +138,10 @@ abilities:
       terrain. '
 - name: No Escape
   type: Villain Action 3
-  roll: 2d10 + 3
   keywords:
   - Ranged
   distance: Ranged 10
   target: Two creatures or objects on the ground
-  t1: 2 damage; vertical slide 2
-  t2: 3 damage; vertical slide 4
-  t3: 4 damage; the target is [[Restrained|restrained]] against the ceiling (save ends)
   effects:
   - roll: 2d10 + 3
     t1: 2 damage; vertical slide 2

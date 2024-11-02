@@ -25,7 +25,6 @@ traits:
 abilities:
 - name: Toxic Winds
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Area
@@ -33,9 +32,6 @@ abilities:
   - Ranged
   distance: 3 cube within 10
   target: Each enemy
-  t1: 1 poison damage; slide 1
-  t2: 2 poison damage; slide 2
-  t3: 3 poison damage; slide 3
   effects:
   - roll: 2d10 + 2
     t1: 1 poison damage; slide 1

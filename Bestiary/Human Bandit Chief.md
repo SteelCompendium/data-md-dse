@@ -31,7 +31,6 @@ traits:
 abilities:
 - name: Whip & Magic Longsword
   type: Action
-  roll: 2d10 + 3
   cost: Signature
   keywords:
   - Attack
@@ -40,9 +39,6 @@ abilities:
   - Weapon
   distance: Melee 3
   target: Two enemies or objects
-  t1: 5 damage; pull 1
-  t2: 9 damage; pull 2
-  t3: 12 damage; pull 3
   effects:
   - roll: 2d10 + 3
     t1: 5 damage; pull 1
@@ -55,16 +51,12 @@ abilities:
     effect: 'The bandit chief attacks an additional target. '
 - name: Kneel, Peasant!
   type: Maneuver
-  roll: 2d10 + 3
   keywords:
   - Attack
   - Melee
   - Weapon
   distance: Melee 1
   target: One enemy or object
-  t1: Push 1; M2 [[Prone|prone]]
-  t2: Push 2; M3 [[Prone|prone]]
-  t3: Push 4; M4 [[Prone|prone]]
   effects:
   - roll: 2d10 + 3
     t1: Push 1; M2 [[Prone|prone]]

@@ -32,16 +32,12 @@ traits:
 abilities:
 - name: Agonizing Harmony
   type: Action
-  roll: 2d10 + 3
   cost: Signature
   keywords:
   - Area
   - Weapon
   distance: 5 burst
   target: Each enemy in the burst
-  t1: 3 psychic damage; I2 [[Slowed|slowed]] (save ends)
-  t2: 5 psychic damage; I3 [[Slowed|slowed]] (save ends)
-  t3: 7 psychic damage; I4 [[Slowed|slowed]] (save ends)
   effects:
   - roll: 2d10 + 3
     t1: 3 psychic damage; I2 [[Slowed|slowed]] (save ends)

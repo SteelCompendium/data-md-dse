@@ -25,7 +25,6 @@ traits:
 abilities:
 - name: Pounce
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -34,9 +33,6 @@ abilities:
   - Weapon
   distance: Melee 2
   target: 2 creatures or objects
-  t1: 5 damage; 1 [[Prone|prone]]
-  t2: 9 damage; 2 [[Prone|prone]]
-  t3: 12 damage; 3 [[Prone|prone]]
   effects:
   - roll: 2d10 + 2
     t1: 5 damage; 1 [[Prone|prone]]
@@ -47,15 +43,11 @@ abilities:
       [[Prone|prone]]. '
 - name: Sparkling Tail Whip
   type: Action
-  roll: 2d10 + 2
   keywords:
   - Area
   - Magic
   distance: 2 burst
   target: All enemies and objects in the burst
-  t1: 2 damage; 1 dazzled (save ends)
-  t2: 4 damage; 2 dazzled (save ends)
-  t3: 6 damage; 3 dazzled (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 2 damage; 1 dazzled (save ends)
@@ -66,7 +58,6 @@ abilities:
       effect to targets who aren''t adjacent to them. '
 - name: Illusory Feint
   type: Maneuver
-  roll: REA RR
   cost: 5 Malice
   keywords:
   - Area
@@ -74,9 +65,6 @@ abilities:
   - Resistance
   distance: 3 cube within 10
   target: All enemies in the cube
-  t1: [[Dazed]] (save ends)
-  t2: [[Dazed]] (EoT)
-  t3: No effect
   effects:
   - roll: REA RR
     t1: [[Dazed]] (save ends)

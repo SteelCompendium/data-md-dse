@@ -29,7 +29,6 @@ traits:
 abilities:
 - name: Abyssal Strike
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -37,9 +36,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: One creature or object
-  t1: 4 damage; the remasch [[Teleport|teleports]] 2 squares
-  t2: 7 damage; the remasch [[Teleport|teleports]] 3 squares
-  t3: 10 damage; the remasch [[Teleport|teleports]] 5 squares
   effects:
   - roll: 2d10 + 2
     t1: 4 damage; the remasch [[Teleport|teleports]] 2 squares

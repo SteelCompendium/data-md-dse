@@ -30,7 +30,6 @@ traits:
 abilities:
 - name: Spit
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -38,9 +37,6 @@ abilities:
   - Weapon
   distance: Ranged 10
   target: One creature or object per minion
-  t1: 2 poison damage
-  t2: 3 poison damage
-  t3: '4 poison damage '
   effects:
   - roll: 2d10 + 2
     t1: 2 poison damage

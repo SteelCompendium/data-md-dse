@@ -26,7 +26,6 @@ traits:
 abilities:
 - name: Shocking Bolt
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -34,9 +33,6 @@ abilities:
   - Ranged
   distance: Ranged 10
   target: 1 creature or object
-  t1: 2 lightning damage
-  t2: 5 lightning damage
-  t3: 6 lightning damage
   effects:
   - roll: 2d10 + 2
     t1: 2 lightning damage
@@ -47,7 +43,6 @@ abilities:
       enemy. All enemies adjacent to the target take 1 lightning damage. '
 - name: Arcane Telum
   type: Maneuver
-  roll: 2d10 + 1
   cost: 3 Malice
   keywords:
   - Attack
@@ -55,9 +50,6 @@ abilities:
   - Ranged
   distance: Ranged 15
   target: 3 creatures or objects
-  t1: 2 damage
-  t2: 5 damage
-  t3: 6 damage
   effects:
   - roll: 2d10 + 1
     t1: 2 damage

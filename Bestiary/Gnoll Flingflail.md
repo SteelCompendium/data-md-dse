@@ -27,7 +27,6 @@ traits:
 abilities:
 - name: Chain Shotput
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -35,9 +34,6 @@ abilities:
   - Weapon
   distance: Ranged 8
   target: 1 creature or object per minion
-  t1: 2 damage
-  t2: 4 damage; push 1
-  t3: '5 damage; push 3 '
   effects:
   - roll: 2d10 + 2
     t1: 2 damage

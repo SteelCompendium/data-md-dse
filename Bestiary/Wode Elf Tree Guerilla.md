@@ -27,7 +27,6 @@ traits:
 abilities:
 - name: Splinter Dagger
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -36,9 +35,6 @@ abilities:
   - Weapon
   distance: Melee 1 or Ranged 5
   target: 1 creature or object
-  t1: 5 damage; M1 [[Bleeding|bleeding]] (save ends)
-  t2: 9 damage; M2 [[Bleeding|bleeding]] (save ends)
-  t3: 12 damage; M3 [[Bleeding|bleeding]] (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 5 damage; M1 [[Bleeding|bleeding]] (save ends)

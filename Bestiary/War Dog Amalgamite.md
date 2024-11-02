@@ -26,7 +26,6 @@ traits:
 abilities:
 - name: Several Arms
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -34,9 +33,6 @@ abilities:
   - Weapon
   distance: Melee 2
   target: Two creatures or objects
-  t1: 3 damage; A1 [[Grabbed|grabbed]]
-  t2: 4 damage; A2 [[Grabbed|grabbed]]
-  t3: 5 damage; A3 [[Grabbed|grabbed]]
   effects:
   - roll: 2d10 + 2
     t1: 3 damage; A1 [[Grabbed|grabbed]]

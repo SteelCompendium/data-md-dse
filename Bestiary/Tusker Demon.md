@@ -33,7 +33,6 @@ traits:
 abilities:
 - name: Gore
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -42,9 +41,6 @@ abilities:
   - Weapon
   distance: Melee 2
   target: 1 creature or object
-  t1: 4 damage; push 1
-  t2: 7 damage; push 2
-  t3: 10 damage; push 3; [[Prone|prone]]
   effects:
   - roll: 2d10 + 2
     t1: 4 damage; push 1

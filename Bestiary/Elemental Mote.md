@@ -27,7 +27,6 @@ traits:
 abilities:
 - name: Dweomer Plume
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -35,9 +34,6 @@ abilities:
   - Melee
   distance: Melee 2
   target: 1 creature or object per minion
-  t1: 2 damage
-  t2: 4 damage; the target gains Magic weakness 1 (EoT)
-  t3: '5 damage; the target gains Magic weakness 3 (EoT) '
   effects:
   - roll: 2d10 + 2
     t1: 2 damage

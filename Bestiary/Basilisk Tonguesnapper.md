@@ -27,7 +27,6 @@ traits:
 abilities:
 - name: Prehensile Tongue
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -35,9 +34,6 @@ abilities:
   - Weapon
   distance: Melee 3
   target: 1 creature or object
-  t1: 6 acid damage; pull 1
-  t2: 8 acid damage; pull 2
-  t3: 12 acid damage; pull 3
   effects:
   - roll: 2d10 + 2
     t1: 6 acid damage; pull 1
@@ -49,16 +45,12 @@ abilities:
     effect: 'The tonguesnapper targets two additional creatures or objects. '
 - name: Petrifying Eye Beams
   type: Maneuver
-  roll: MGT RR
   keywords:
   - Magic
   - Ranged
   - Resistance
   distance: Ranged 5 × 2 line within 1
   target: Special
-  t1: [[Restrained]] (save ends)
-  t2: [[Slowed]] (save ends)
-  t3: [[Slowed]] (EoT)
   effects:
   - roll: MGT RR
     t1: [[Restrained]] (save ends)
@@ -73,7 +65,6 @@ abilities:
       the effect.
 - name: Wink
   type: Action
-  roll: 2d10 + 2
   cost: 2 Malice
   keywords:
   - Attack
@@ -82,9 +73,6 @@ abilities:
   - Ranged
   distance: Melee 1 or Ranged 10
   target: 1 creature
-  t1: 6 corruption damage; R1 [[Dazed|dazed]] (save ends)
-  t2: 8 corruption damage; R2 [[Dazed|dazed]] (save ends)
-  t3: 12 corruption damage; R3 [[Dazed|dazed]] and [[Slowed|slowed]] (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 6 corruption damage; R1 [[Dazed|dazed]] (save ends)

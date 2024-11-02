@@ -27,7 +27,6 @@ traits:
 abilities:
 - name: Daggers
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -36,9 +35,6 @@ abilities:
   - Weapon
   distance: Melee 1 or Ranged 5
   target: 1 creature or object per minion
-  t1: 2 damage
-  t2: 5 damage
-  t3: '6 damage '
   effects:
   - roll: 2d10 + 2
     t1: 2 damage

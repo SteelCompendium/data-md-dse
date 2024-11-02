@@ -30,7 +30,6 @@ traits:
 abilities:
 - name: Grasping Claws
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -39,9 +38,6 @@ abilities:
   - Weapon
   distance: Melee 2
   target: 2 creatures or objects
-  t1: 4 damage; M1 [[Slowed|slowed]] (save ends)
-  t2: 7 damage; M2 [[Slowed|slowed]] (save ends)
-  t3: 10 damage; M3 [[Restrained|restrained]] (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 4 damage; M1 [[Slowed|slowed]] (save ends)
@@ -52,15 +48,11 @@ abilities:
       3. A target [[Restrained|restrained]] by a [[Dwarf|dwarf]] can be pulled by this attack. '
 - name: Stunning Blast
   type: Maneuver
-  roll: 2d10 + 2
   cost: 3 Malice
   keywords:
   - Resistance
   distance: 3 burst
   target: All enemies in the burst
-  t1: 2 lightning damage; A1 [[Slowed|slowed]] (save ends)
-  t2: 3 lightning damage; A2 [[Slowed|slowed]] (save ends)
-  t3: '5 lightning damage; A3 [[Slowed|slowed]] (save ends) '
   effects:
   - roll: 2d10 + 2
     t1: 2 lightning damage; A1 [[Slowed|slowed]] (save ends)

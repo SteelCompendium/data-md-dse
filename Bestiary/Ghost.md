@@ -32,7 +32,6 @@ traits:
 abilities:
 - name: Heat Death
   type: Action
-  roll: 2d10 + 3
   cost: Signature
   keywords:
   - Attack
@@ -40,9 +39,6 @@ abilities:
   - Ranged
   distance: Ranged 5
   target: Two creatures
-  t1: 2 cold damage; P2 [[Slowed|slowed]] (save ends)
-  t2: 5 cold damage; P3 [[Slowed|slowed]] (save ends)
-  t3: 6 cold damage; P2 [[Slowed|slowed]] (save ends)
   effects:
   - roll: 2d10 + 3
     t1: 2 cold damage; P2 [[Slowed|slowed]] (save ends)
@@ -86,16 +82,12 @@ abilities:
       the nearest enemy within 3 squares of the target. '
 - name: Spirited Away
   type: Villain Action 2
-  roll: PRS RR
   keywords:
   - Area
   - Magic
   - Resistance
   distance: 5 burst
   target: Each enemy in the burst
-  t1: Levitated (EoE) (see effect)
-  t2: Levitated (EoT)
-  t3: No effect
   effects:
   - roll: PRS RR
     t1: Levitated (EoE) (see effect)
@@ -108,16 +100,12 @@ abilities:
       in this way. '
 - name: Awful Wail
   type: Villain Action 3
-  roll: 2d10 + 3
   keywords:
   - Area
   - Magic
   - Resistance
   distance: 5 burst
   target: Each enemy in the burst
-  t1: 2 sonic damage
-  t2: 5 sonic damage
-  t3: 5 sonic damage
   effects:
   - roll: 2d10 + 3
     t1: 2 sonic damage

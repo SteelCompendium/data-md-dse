@@ -27,7 +27,6 @@ traits:
 abilities:
 - name: Blade
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -37,9 +36,6 @@ abilities:
   - Weapon
   distance: Melee 1 or Ranged 5
   target: One creature per minion
-  t1: 2 damage
-  t2: 3 damage
-  t3: 4 damage
   effects:
   - roll: 2d10 + 2
     t1: 2 damage

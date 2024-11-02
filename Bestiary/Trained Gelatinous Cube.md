@@ -28,7 +28,6 @@ traits:
 abilities:
 - name: Engulf
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -36,9 +35,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: 1 creature or object
-  t1: 3 acid damage; 1 [[Dazed|dazed]] (save ends)
-  t2: 5 acid damage; 2 [[Dazed|dazed]] (save ends)
-  t3: 7 acid damage; 3 [[Restrained|restrained]] (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 3 acid damage; 1 [[Dazed|dazed]] (save ends)

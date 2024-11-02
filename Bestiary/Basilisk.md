@@ -27,7 +27,6 @@ traits:
 abilities:
 - name: Noxious Bite
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -35,9 +34,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: 2 creatures or objects
-  t1: 5 poison damage
-  t2: 8 poison damage
-  t3: 11 poison damage
   effects:
   - roll: 2d10 + 2
     t1: 5 poison damage
@@ -48,16 +44,12 @@ abilities:
       dealt poison damage to. '
 - name: Petrifying Eye Beams
   type: Maneuver
-  roll: MGT RR
   keywords:
   - Magic
   - Ranged
   - Resistance
   distance: Ranged 5 × 2 line within 1
   target: Special
-  t1: [[Restrained]] (save ends)
-  t2: [[Slowed]] (save ends)
-  t3: [[Slowed]] (EoT)
   effects:
   - roll: MGT RR
     t1: [[Restrained]] (save ends)
@@ -72,16 +64,12 @@ abilities:
       effect.
 - name: Poison Fumes
   type: Action
-  roll: 2d10 + 2
   cost: 5 Malice
   keywords:
   - Area
   - Magic
   distance: 3 cube within 1
   target: All creatures in the cube
-  t1: 4 poison damage; M1 [[Weakened|weakened]] (save ends)
-  t2: 6 poison damage; M2 [[Weakened|weakened]] and [[Slowed|slowed]] (save ends)
-  t3: '9 poison damage; M3 [[Weakened|weakened]] and [[Slowed|slowed]] (save ends) '
   effects:
   - roll: 2d10 + 2
     t1: 4 poison damage; M1 [[Weakened|weakened]] (save ends)

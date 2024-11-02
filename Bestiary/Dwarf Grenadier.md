@@ -26,7 +26,6 @@ traits:
 abilities:
 - name: Concussive Grenade
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Area
@@ -34,9 +33,6 @@ abilities:
   - Weapon
   distance: 3 cube within 5
   target: All enemies
-  t1: 3 damage; push 1; M1 [[Slowed|slowed]] (save ends)
-  t2: 5 damage; push 3; M2 [[Slowed|slowed]] (save ends)
-  t3: 7 damage; push 5; M3 [[Slowed|slowed]] (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 3 damage; push 1; M1 [[Slowed|slowed]] (save ends)
@@ -46,16 +42,12 @@ abilities:
     effect: 'A target [[Restrained|restrained]] by a [[Dwarf|dwarf]] can be pushed by this ability. '
 - name: Sleep Grenade
   type: Action
-  roll: 2d10 + 2
   cost: 3 Malice
   keywords:
   - Area
   - Ranged
   distance: 3 cube within 5
   target: All enemies
-  t1: 3 poison damage; I1 [[Dazed|dazed]] (save ends)
-  t2: 5 poison damage; I2 [[Dazed|dazed]] (save ends)
-  t3: 7 poison damage; I3 [[Dazed|dazed]] (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 3 poison damage; I1 [[Dazed|dazed]] (save ends)

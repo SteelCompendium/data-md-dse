@@ -28,7 +28,6 @@ traits:
 abilities:
 - name: Tonguelash
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -36,9 +35,6 @@ abilities:
   - Weapon
   distance: Melee 8
   target: 1 creature or object per minion
-  t1: 2 damage; pull 1 or shift 1 towards target
-  t2: 5 damage; pull 2 or shift 2 towards target
-  t3: 6 damage; pull 3 or shift 3 towards target
   effects:
   - roll: 2d10 + 2
     t1: 2 damage; pull 1 or shift 1 towards target

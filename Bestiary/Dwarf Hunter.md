@@ -24,7 +24,6 @@ traits: []
 abilities:
 - name: Snaring Javelin
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -32,9 +31,6 @@ abilities:
   - Weapon
   distance: Ranged 5
   target: 1 creature or object per minion
-  t1: 2 damage; pull 1
-  t2: 4 damage; pull 2
-  t3: 5 damage; pull 4
   effects:
   - roll: 2d10 + 2
     t1: 2 damage; pull 1

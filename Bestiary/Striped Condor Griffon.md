@@ -30,7 +30,6 @@ traits:
 abilities:
 - name: Violent Thrashing
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -38,10 +37,6 @@ abilities:
   - Weapon
   distance: Reach 2
   target: 2 creatures or objects
-  t1: 5 damage; push 1
-  t2: 9 damage; one target is pushed 2; other target is vertically pushed 2
-  t3: '12 damage; one target is pushed 2 and [[Prone|prone]]; other target is vertically pushed
-    3 '
   effects:
   - roll: 2d10 + 2
     t1: 5 damage; push 1
@@ -62,16 +57,12 @@ abilities:
       [[Prone|prone]]. '
 - name: Wing Buffet
   type: Maneuver
-  roll: MGT RR
   cost: 3 Malice
   keywords:
   - Area
   - Resistance
   distance: 5 × 3 line within 1
   target: All creatures and objects
-  t1: Vertical push 5
-  t2: Push 4
-  t3: 'Push 3 '
   effects:
   - roll: MGT RR
     t1: Vertical push 5
@@ -79,15 +70,11 @@ abilities:
     t3: 'Push 3 '
 - name: Circle and Strike
   type: Triggered Action
-  roll: 2d10 + 2
   keywords:
   - '-'
   trigger: The [[Griffon|griffon]] flies above a creature on the ground within 10
   distance: Self
   target: Triggering creature
-  t1: Push 3
-  t2: A2 [[Grabbed|grabbed]]
-  t3: 5 damage; A3 [[Grabbed|grabbed]]
   effects:
   - roll: 2d10 + 2
     t1: Push 3

@@ -26,7 +26,6 @@ traits:
 abilities:
 - name: Corrupted Ash Daggers
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -35,9 +34,6 @@ abilities:
   - Weapon
   distance: Melee 1 or Ranged 5
   target: One creature or object
-  t1: 3 damage; slide 1
-  t2: 5 damage; slide 2
-  t3: 7 damage; slide 3
   effects:
   - roll: 2d10 + 2
     t1: 3 damage; slide 1

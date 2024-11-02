@@ -27,7 +27,6 @@ traits:
 abilities:
 - name: The Forest's Embrace
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -35,9 +34,6 @@ abilities:
   - Ranged
   distance: Ranged 10
   target: 1 creature or object
-  t1: 3 damage; I1 [[Restrained|restrained]] (save ends)
-  t2: 5 damage; I2 [[Restrained|restrained]] (save ends)
-  t3: 7 damage; I3 [[Restrained|restrained]] (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 3 damage; I1 [[Restrained|restrained]] (save ends)
@@ -48,7 +44,6 @@ abilities:
       until the condition ends. '
 - name: The Natural Cycle
   type: Maneuver
-  roll: PRS RR
   cost: 3 Malice
   keywords:
   - Magic
@@ -56,9 +51,6 @@ abilities:
   - Resistance
   distance: Ranged 10
   target: 2 creatures
-  t1: Target is [[Bleeding|bleeding]] and has a bane on their attacks (save ends)
-  t2: Target has a bane on their attacks (save ends)
-  t3: 'No effect '
   effects:
   - roll: PRS RR
     t1: Target is [[Bleeding|bleeding]] and has a bane on their attacks (save ends)

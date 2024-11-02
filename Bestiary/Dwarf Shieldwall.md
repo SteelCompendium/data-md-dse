@@ -27,7 +27,6 @@ traits:
 abilities:
 - name: Wide Axe
   type: Action
-  roll: 2d10 + 1
   cost: Signature
   keywords:
   - Attack
@@ -35,9 +34,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: 1 creature or object
-  t1: 5 damage; slide 1
-  t2: 8 damage; slide 1
-  t3: 11 damage; slide 1
   effects:
   - roll: 2d10 + 1
     t1: 5 damage; slide 1

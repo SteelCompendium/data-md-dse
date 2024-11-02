@@ -31,7 +31,6 @@ traits:
 abilities:
 - name: Haymaker
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -39,9 +38,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: One creature or object
-  t1: 4 damage; M1 [[Grabbed|grabbed]]
-  t2: 7 damage; M2 [[Grabbed|grabbed]]
-  t3: 10 damage; M3 [[Grabbed|grabbed]]
   effects:
   - roll: 2d10 + 2
     t1: 4 damage; M1 [[Grabbed|grabbed]]

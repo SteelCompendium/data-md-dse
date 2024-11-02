@@ -29,16 +29,12 @@ traits:
 abilities:
 - name: Warp Perceptions
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Magic
   - Ranged
   distance: Ranged 10
   target: One creature
-  t1: 3 psychic damage; P1 [[Weakened|weakened]] (save ends)
-  t2: 5 psychic damage; P2 [[Weakened|weakened]] (save ends)
-  t3: 7 psychic damage; P3 [[Weakened|weakened]] (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 3 psychic damage; P1 [[Weakened|weakened]] (save ends)

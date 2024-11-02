@@ -29,7 +29,6 @@ traits:
 abilities:
 - name: Rotting Fist
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -37,9 +36,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: One creature or object per minion
-  t1: 2 damage
-  t2: 3 damage; M1 [[Slowed|slowed]] (save ends)
-  t3: '4 damage; M2 [[Prone|prone]] if size 1, [[Slowed|slowed]] (save ends) otherwise '
   effects:
   - roll: 2d10 + 2
     t1: 2 damage

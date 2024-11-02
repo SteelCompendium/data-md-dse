@@ -29,16 +29,12 @@ traits:
 abilities:
 - name: Decaying Touch
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Magic
   - Melee
   distance: Melee 1
   target: One creature
-  t1: 2 corruption damage; P1 [[Weakened|weakened]] (save ends)
-  t2: 4 corruption damage; P2 [[Weakened|weakened]] (save ends)
-  t3: 5 corruption damage; P3 [[Weakened|weakened]] (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 2 corruption damage; P1 [[Weakened|weakened]] (save ends)

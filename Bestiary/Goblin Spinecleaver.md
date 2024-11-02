@@ -26,7 +26,6 @@ traits:
 abilities:
 - name: Axe
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -34,9 +33,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: One creature or object per minion
-  t1: 2 damage; push 1
-  t2: 4 damage; push 3
-  t3: '5 damage; push 4 '
   effects:
   - roll: 2d10 + 2
     t1: 2 damage; push 1

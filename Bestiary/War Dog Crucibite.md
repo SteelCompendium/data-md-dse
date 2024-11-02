@@ -26,16 +26,12 @@ traits:
 abilities:
 - name: Flamebelcher
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Area
   - Weapon
   distance: 5 × 1 line within 1
   target: All creatures and objects
-  t1: 2 fire damage
-  t2: 5 fire damage
-  t3: 6 fire damage
   effects:
   - roll: 2d10 + 2
     t1: 2 fire damage

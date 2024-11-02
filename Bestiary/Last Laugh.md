@@ -31,7 +31,6 @@ traits:
 abilities:
 - name: Shrapnel Whip
   type: Action
-  roll: 2d10 + 3
   cost: Signature
   keywords:
   - Attack
@@ -39,9 +38,6 @@ abilities:
   - Weapon
   distance: Reach 2
   target: 2 creatures or objects
-  t1: 4 damage; A2 [[Bleeding|bleeding]] (save ends)
-  t2: 7 damage; A3 [[Bleeding|bleeding]] (save ends)
-  t3: 10 damage; A4 [[Bleeding|bleeding]] and [[Dazed|dazed]] (save ends)
   effects:
   - roll: 2d10 + 3
     t1: 4 damage; A2 [[Bleeding|bleeding]] (save ends)
@@ -64,16 +60,12 @@ abilities:
       at no cost. '
 - name: Not the Best Time to Laugh
   type: Villain Action 1
-  roll: INU RR
   keywords:
   - Area
   - Magic
   - Resistance
   distance: 5 burst
   target: All enemies
-  t1: [[Frightened]] of the last laugh (save ends)
-  t2: [[Frightened]] of the last laugh (EoT)
-  t3: No effect
   effects:
   - roll: INU RR
     t1: [[Frightened]] of the last laugh (save ends)

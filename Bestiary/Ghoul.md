@@ -32,7 +32,6 @@ traits:
 abilities:
 - name: Razor Claws
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -41,9 +40,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: One creature or object
-  t1: 2 damage; M1 [[Bleeding|bleeding]] (save ends)
-  t2: 4 damage; M2 [[Bleeding|bleeding]] (save ends)
-  t3: '5 damage; M3 [[Bleeding|bleeding]] (save ends) '
   effects:
   - roll: 2d10 + 2
     t1: 2 damage; M1 [[Bleeding|bleeding]] (save ends)

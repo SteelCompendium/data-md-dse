@@ -27,16 +27,12 @@ traits:
 abilities:
 - name: Heartpiercer
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Ranged
   - Weapon
   distance: Ranged 10
   target: 1 creature
-  t1: 5 damage; R1 deathtouched (save ends)
-  t2: 8 damage; R2 deathtouched (save ends)
-  t3: 11 damage; R3 deathtouched (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 5 damage; R1 deathtouched (save ends)

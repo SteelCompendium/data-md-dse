@@ -32,7 +32,6 @@ traits:
 abilities:
 - name: Lightning Bolt
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -40,9 +39,6 @@ abilities:
   - Ranged
   distance: Ranged 10
   target: One creature or object
-  t1: 5 lightning damage
-  t2: 8 lightning damage
-  t3: 11 lightning damage
   effects:
   - roll: 2d10 + 2
     t1: 5 lightning damage
@@ -53,7 +49,6 @@ abilities:
       each creature in the area. '
 - name: Gust of Wind
   type: Maneuver
-  roll: MGT RR
   cost: 3 Malice
   keywords:
   - Area
@@ -61,9 +56,6 @@ abilities:
   - Resistance
   distance: 5 cube within 1
   target: All creatures and objects
-  t1: Slide 5; [[Slowed|slowed]] (save ends)
-  t2: Slide 3; [[Slowed|slowed]] (EoT)
-  t3: Slide 1
   effects:
   - roll: MGT RR
     t1: Slide 5; [[Slowed|slowed]] (save ends)

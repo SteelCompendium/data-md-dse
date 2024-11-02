@@ -26,7 +26,6 @@ traits:
 abilities:
 - name: Moment of Brutality
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Magic
@@ -34,12 +33,6 @@ abilities:
   - Resistance
   distance: Ranged 8
   target: 1 creature
-  t1: 3 psychic damage; I1 target makes a [[Free Strike|free strike]] against a creature of the cackler's
-    choice
-  t2: 5 psychic damage; I2 target makes a [[Free Strike|free strike]] against a creature of the cackler's
-    choice
-  t3: 7 psychic damage; I3 target uses a signature ability against a creature of the
-    cackler's choice
   effects:
   - roll: 2d10 + 2
     t1: 3 psychic damage; I1 target makes a [[Free Strike|free strike]] against a creature of the
@@ -53,7 +46,6 @@ abilities:
       damage. '
 - name: Cackletongue
   type: Maneuver
-  roll: INU RR
   cost: 4 Malice
   keywords:
   - Area
@@ -61,9 +53,6 @@ abilities:
   - Resistance
   distance: 2 burst
   target: All creatures
-  t1: [[Frightened]] of the cackler (save ends)
-  t2: [[Frightened]] of the cackler (EoT)
-  t3: No effect
   effects:
   - roll: INU RR
     t1: [[Frightened]] of the cackler (save ends)

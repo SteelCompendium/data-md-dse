@@ -27,7 +27,6 @@ traits:
 abilities:
 - name: Plaguecaster
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Area
@@ -36,9 +35,6 @@ abilities:
   - Resistance
   distance: 3 cube within 10
   target: Each creature in the cube
-  t1: 2 poison damage; I1 [[Frightened|frightened]] (save ends)
-  t2: 5 poison damage; I2 [[Frightened|frightened]] (save ends)
-  t3: 8 poison damage; I3 [[Frightened|frightened]] (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 2 poison damage; I1 [[Frightened|frightened]] (save ends)

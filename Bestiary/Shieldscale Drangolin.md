@@ -25,7 +25,6 @@ traits:
 abilities:
 - name: Fiery Claws
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -33,9 +32,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: 1 creature or object
-  t1: 4 fire damage
-  t2: 7 fire damage
-  t3: '10 fire damage '
   effects:
   - roll: 2d10 + 2
     t1: 4 fire damage
@@ -55,7 +51,6 @@ abilities:
       roll against all targets. '
 - name: Erupt
   type: Action
-  roll: 2d10 + 2
   cost: 3 Malice
   keywords:
   - Attack
@@ -63,9 +58,6 @@ abilities:
   - Weapon
   distance: 2 Burst (while burrowing)
   target: All creatures
-  t1: 4 damage; push 1; 1 [[Prone|prone]]
-  t2: 7 damage; push 3; 2 [[Prone|prone]]
-  t3: 10 damage; push 5; 3 [[Prone|prone]]
   effects:
   - roll: 2d10 + 2
     t1: 4 damage; push 1; 1 [[Prone|prone]]

@@ -25,7 +25,6 @@ traits:
 abilities:
 - name: Sucker Swipe
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -33,9 +32,6 @@ abilities:
   - Weapon
   distance: Melee 2
   target: 1 creature or object
-  t1: 8 damage
-  t2: 12 damage
-  t3: 16 damage
   effects:
   - roll: 2d10 + 2
     t1: 8 damage
@@ -46,16 +42,12 @@ abilities:
       an edge. '
 - name: Piercing Tails
   type: Action
-  roll: 2d10 + 2
   keywords:
   - Attack
   - Melee
   - Weapon
   distance: Melee 2
   target: 2 creatures or objects
-  t1: 6 damage; 1 [[Bleeding|bleeding]] (save ends)
-  t2: 10 damage; 2 [[Bleeding|bleeding]] (save ends)
-  t3: 13 damage; 3 [[Bleeding|bleeding]] (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 6 damage; 1 [[Bleeding|bleeding]] (save ends)
@@ -66,7 +58,6 @@ abilities:
       for the lightbender until the condition ends. '
 - name: Hypnotic Mane
   type: Maneuver
-  roll: INU RR
   cost: 5 Malice
   keywords:
   - Area
@@ -74,9 +65,6 @@ abilities:
   - Resistance
   distance: 3 burst
   target: All enemies in the burst
-  t1: [[Dazed]] (save ends)
-  t2: [[Dazed]] (EoT)
-  t3: No effect
   effects:
   - roll: INU RR
     t1: [[Dazed]] (save ends)

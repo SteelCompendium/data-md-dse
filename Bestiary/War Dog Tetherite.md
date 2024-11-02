@@ -30,7 +30,6 @@ traits:
 abilities:
 - name: Banded Dagger
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -38,9 +37,6 @@ abilities:
   - Weapon
   distance: Melee 2
   target: One creature or object per minion
-  t1: 2 damage
-  t2: 4 damage
-  t3: '5 damage '
   effects:
   - roll: 2d10 + 2
     t1: 2 damage

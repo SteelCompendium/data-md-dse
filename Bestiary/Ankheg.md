@@ -37,7 +37,6 @@ traits:
 abilities:
 - name: Bite
   type: Action
-  roll: 2d10 + 3
   cost: Signature
   keywords:
   - Attack
@@ -45,9 +44,6 @@ abilities:
   - Weapon
   distance: Melee 2
   target: One creature or object
-  t1: 5 damage
-  t2: 8 damage; [[Grabbed|grabbed]]
-  t3: 11 damage; [[Grabbed|grabbed]]
   effects:
   - roll: 2d10 + 3
     t1: 5 damage
@@ -58,16 +54,12 @@ abilities:
       each of their turns. '
 - name: Claws
   type: Action
-  roll: 2d10 + 3
   keywords:
   - Attack
   - Melee
   - Weapon
   distance: Melee 2
   target: Two creatures or objects
-  t1: 2 damage; A2 [[Grabbed|grabbed]]
-  t2: 4 damage; A3 [[Grabbed|grabbed]]
-  t3: 5 damage; A4 [[Grabbed|grabbed]]
   effects:
   - roll: 2d10 + 3
     t1: 2 damage; A2 [[Grabbed|grabbed]]
@@ -77,15 +69,11 @@ abilities:
     effect: 'The ankheg can vertical slide one or both targets up to 5 squares. '
 - name: Earth Eruption
   type: Action
-  roll: 2d10 + 2
   cost: 3 Malice
   keywords:
   - Area
   distance: 4 burst
   target: Each enemy in the burst
-  t1: 4 damage
-  t2: 6 damage
-  t3: '7 damage; push 2 '
   effects:
   - roll: 2d10 + 2
     t1: 4 damage
@@ -117,15 +105,11 @@ abilities:
     effect: 'The ankheg shifts up to 3 squares. '
 - name: Acid Breath
   type: Villain Action 1
-  roll: 2d10 + 3
   keywords:
   - Area
   - Weapon
   distance: 10 x 1 line within 1
   target: Each creature in the line
-  t1: 4 acid damage
-  t2: 6 acid damage
-  t3: 7 acid damage
   effects:
   - roll: 2d10 + 3
     t1: 4 acid damage
@@ -148,15 +132,11 @@ abilities:
       ankheg makes a Bite attack against the creature. '
 - name: Acid and Claws
   type: Villain Action 3
-  roll: 2d10 + 3
   keywords:
   - Area
   - Weapon
   distance: 2 burst
   target: Each creature in the burst
-  t1: 5 acid damage; M2 [[Bleeding|bleeding]] (save ends)
-  t2: 7 acid damage; M3 [[Bleeding|bleeding]] (save ends)
-  t3: 10 acid damage; M4 [[Bleeding|bleeding]] (save ends)
   effects:
   - roll: 2d10 + 3
     t1: 5 acid damage; M2 [[Bleeding|bleeding]] (save ends)

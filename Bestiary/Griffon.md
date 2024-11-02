@@ -28,7 +28,6 @@ traits:
 abilities:
 - name: Claw Swipes
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -37,9 +36,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: 2 creatures or objects
-  t1: 5 damage; shift 1
-  t2: 8 damage; shift 2
-  t3: 11 damage; shift 3
   effects:
   - roll: 2d10 + 2
     t1: 5 damage; shift 1
@@ -64,16 +60,12 @@ abilities:
       the creature or object they've grappled hurtling towards the affected area.
 - name: Wing Buffet
   type: Maneuver
-  roll: MGT RR
   cost: 3 Malice
   keywords:
   - Area
   - Resistance
   distance: 4 × 2 line within 1
   target: All creatures and objects
-  t1: Vertical push 4
-  t2: Push 3
-  t3: 'Push 2 '
   effects:
   - roll: MGT RR
     t1: Vertical push 4

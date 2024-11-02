@@ -33,7 +33,6 @@ traits:
 abilities:
 - name: Dolobra & Net
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -41,9 +40,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: 1 creature or object
-  t1: 2 damage; 1 [[Restrained|restrained]] (save ends)
-  t2: 5 damage; 2 [[Restrained|restrained]] (save ends)
-  t3: 6 damage; 3 [[Restrained|restrained]] (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 2 damage; 1 [[Restrained|restrained]] (save ends)

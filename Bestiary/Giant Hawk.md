@@ -25,7 +25,6 @@ traits:
 abilities:
 - name: Talons
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -33,9 +32,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: One creature or object
-  t1: 3 damage; M2 [[Grabbed|grabbed]]
-  t2: 5 damage; M3 [[Grabbed|grabbed]]
-  t3: '7 damage; [[Grabbed|grabbed]] '
   effects:
   - roll: 2d10 + 2
     t1: 3 damage; M2 [[Grabbed|grabbed]]

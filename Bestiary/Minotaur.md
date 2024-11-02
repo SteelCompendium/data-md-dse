@@ -26,7 +26,6 @@ traits:
 abilities:
 - name: Flail and Blade
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -35,9 +34,6 @@ abilities:
   - Weapon
   distance: Melee 2
   target: 2 creatures or objects
-  t1: 5 damage; push 1
-  t2: 9 damage; push 2
-  t3: 12 damage; push 3
   effects:
   - roll: 2d10 + 2
     t1: 5 damage; push 1
@@ -58,7 +54,6 @@ abilities:
       next turn. On their next turn, they have access to an additional maneuver. '
 - name: Goring Horns
   type: Maneuver
-  roll: 2d10 + 2
   cost: 5 Malice
   keywords:
   - Attack
@@ -67,9 +62,6 @@ abilities:
   - Weapon
   distance: Melee 2
   target: 1 creature or object
-  t1: 5 damage; I1 [[Dazed|dazed]] (save ends)
-  t2: 9 damage; I2 [[Dazed|dazed]] (save ends)
-  t3: 12 damage; I3 [[Dazed|dazed]] (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 5 damage; I1 [[Dazed|dazed]] (save ends)

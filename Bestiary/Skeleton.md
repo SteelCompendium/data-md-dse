@@ -29,7 +29,6 @@ traits:
 abilities:
 - name: Bone Shards
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -38,9 +37,6 @@ abilities:
   - Weapon
   distance: Melee 1 or Ranged 10
   target: One creature or object
-  t1: 2 damage
-  t2: 5 damage
-  t3: 6 damage
   effects:
   - roll: 2d10 + 2
     t1: 2 damage
@@ -51,16 +47,12 @@ abilities:
       the first time they move on their turn. '
 - name: Bone Spur
   type: Maneuver
-  roll: 2d10 + 2
   cost: 2 Malice
   keywords:
   - Area
   - Weapon
   distance: 1 burst
   target: Each enemy in the burst
-  t1: 1 damage; M1 [[Bleeding|bleeding]] (save ends)
-  t2: 2 damage; M2 [[Bleeding|bleeding]] (save ends)
-  t3: 3 damage; M3 [[Bleeding|bleeding]] (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 1 damage; M1 [[Bleeding|bleeding]] (save ends)

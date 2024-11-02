@@ -27,16 +27,12 @@ traits:
 abilities:
 - name: Synlirii Grafts
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Area
   - Psionic
   distance: 1 burst
   target: Each enemy in the burst
-  t1: 2 psychic damage; vertical slide 1
-  t2: 4 psychic damage; vertical slide 2
-  t3: '5 psychic damage; vertical slide 3 '
   effects:
   - roll: 2d10 + 2
     t1: 2 psychic damage; vertical slide 1

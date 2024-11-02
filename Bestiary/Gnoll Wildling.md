@@ -27,7 +27,6 @@ traits:
 abilities:
 - name: Flail
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -35,9 +34,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: 1 creature or object per minion
-  t1: 2 damage
-  t2: 3 damage
-  t3: '4 damage; wildling takes a [[Free Strike|free strike]] on a creature adjacent to the target '
   effects:
   - roll: 2d10 + 2
     t1: 2 damage

@@ -24,7 +24,6 @@ traits: []
 abilities:
 - name: Suckerpunch
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -32,9 +31,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: 1 creature or object
-  t1: 5 damage; A2 [[Grabbed|grabbed]]
-  t2: 9 damage; A3 [[Grabbed|grabbed]]
-  t3: 12 damage; [[Grabbed|grabbed]]
   effects:
   - roll: 2d10 + 2
     t1: 5 damage; A2 [[Grabbed|grabbed]]
@@ -46,15 +42,11 @@ abilities:
       target. '
 - name: Dirt [[Devil]]
   type: Action
-  roll: 2d10 + 2
   cost: 3 Malice
   keywords:
   - Area
   distance: 2 burst
   target: All enemies in the burst
-  t1: 2 damage; I1 sneak is concealed from the target (save ends)
-  t2: 3 damage; I2 sneak is concealed from the target (save ends)
-  t3: 4 damage; I3 sneak is concealed from the target (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 2 damage; I1 sneak is concealed from the target (save ends)
@@ -64,16 +56,12 @@ abilities:
     effect: 'The sneak shifts up to their speed and [[Hide|hides]] after using this ability. '
 - name: Carving Dagger
   type: Action
-  roll: 2d10 + 2
   keywords:
   - Attack
   - Ranged
   - Weapon
   distance: Ranged 8
   target: 2 creatures or objects
-  t1: 5 damage; M1 [[Bleeding|bleeding]] (save ends)
-  t2: 9 damage; M2 [[Bleeding|bleeding]] (save ends)
-  t3: 12 damage; M3 [[Bleeding|bleeding]] (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 5 damage; M1 [[Bleeding|bleeding]] (save ends)

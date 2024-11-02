@@ -28,7 +28,6 @@ traits:
 abilities:
 - name: Instill Regret
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Magic
@@ -36,9 +35,6 @@ abilities:
   - Resistance
   distance: Ranged 8
   target: 1 creature
-  t1: 3 psychic damage; I1 [[Weakened|weakened]] (save ends)
-  t2: 5 psychic damage; I2 [[Weakened|weakened]] (save ends)
-  t3: 7 psychic damage; I3 [[Weakened|weakened]] (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 3 psychic damage; I1 [[Weakened|weakened]] (save ends)

@@ -27,7 +27,6 @@ traits:
 abilities:
 - name: Ripper Spear
   type: Action
-  roll: 2d10 + 3
   cost: Signature
   keywords:
   - Attack
@@ -35,9 +34,6 @@ abilities:
   - Weapon
   distance: Melee 3
   target: 3 creatures or objects
-  t1: 3 damage; pull 1; A2 [[Bleeding|bleeding]] (save ends)
-  t2: 7 damage; pull 1; A3 [[Bleeding|bleeding]] (save ends)
-  t3: 10 damage; pull 2; A4 [[Bleeding|bleeding]] (save ends)
   effects:
   - roll: 2d10 + 3
     t1: 3 damage; pull 1; A2 [[Bleeding|bleeding]] (save ends)
@@ -48,7 +44,6 @@ abilities:
       mouth. '
 - name: Death Roll
   type: Action
-  roll: 2d10 + 3
   cost: 3 Malice
   keywords:
   - Attack
@@ -56,9 +51,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: 1 [[Grabbed|grabbed]] creature or object
-  t1: 5 damage; M2 [[Dazed|dazed]] (save ends)
-  t2: 10 damage; M3 [[Dazed|dazed]] (save ends)
-  t3: 15 damage; M4 [[Dazed|dazed]] (save ends)
   effects:
   - roll: 2d10 + 3
     t1: 5 damage; M2 [[Dazed|dazed]] (save ends)

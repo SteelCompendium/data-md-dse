@@ -29,7 +29,6 @@ traits:
 abilities:
 - name: Barbed Tongues
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -37,9 +36,6 @@ abilities:
   - Weapon
   distance: Melee 2
   target: One creature
-  t1: 5 damage; pull 2
-  t2: 8 damage; pull 3
-  t3: 11 damage; pull 4
   effects:
   - roll: 2d10 + 2
     t1: 5 damage; pull 2

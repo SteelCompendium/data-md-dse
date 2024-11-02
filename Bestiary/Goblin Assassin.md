@@ -28,7 +28,6 @@ traits:
 abilities:
 - name: Sword
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -36,9 +35,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: One creature or object
-  t1: 3 damage
-  t2: 5 damage
-  t3: 7 damage
   effects:
   - roll: 2d10 + 2
     t1: 3 damage
@@ -48,16 +44,12 @@ abilities:
     effect: 'This ability has edge if the assassin has an edge on the power roll. '
 - name: Shadow Chains
   type: Action
-  roll: 2d10 + 2
   cost: 3 Malice
   keywords:
   - Magic
   - Ranged
   distance: Ranged 10
   target: Three creatures
-  t1: 3 corruption damage; A1 [[Restrained|restrained]] (save ends)
-  t2: 5 corruption damage; A2 [[Restrained|restrained]] (save ends)
-  t3: '7 corruption damage; A3 [[Restrained|restrained]] (save ends) '
   effects:
   - roll: 2d10 + 2
     t1: 3 corruption damage; A1 [[Restrained|restrained]] (save ends)

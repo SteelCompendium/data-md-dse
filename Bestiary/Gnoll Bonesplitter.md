@@ -26,7 +26,6 @@ traits:
 abilities:
 - name: Three-Tail Flail
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -34,9 +33,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: 1 creature or object
-  t1: 4 damage; push 2
-  t2: 7 damage; [[Grabbed|grabbed]]; M2 target has a bane on attempts to [[Escape Grab|escape grab]]
-  t3: 10 damage; [[Grabbed|grabbed]]; M3 target has a bane on attempts to [[Escape Grab|escape grab]]
   effects:
   - roll: 2d10 + 2
     t1: 4 damage; push 2

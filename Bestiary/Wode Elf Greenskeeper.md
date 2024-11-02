@@ -27,7 +27,6 @@ traits:
 abilities:
 - name: Growing Longsword
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -35,9 +34,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: 1 creature or object
-  t1: 3 damage
-  t2: 5 damage
-  t3: 7 damage
   effects:
   - roll: 2d10 + 2
     t1: 3 damage

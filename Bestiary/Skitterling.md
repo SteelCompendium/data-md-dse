@@ -24,7 +24,6 @@ traits: []
 abilities:
 - name: Claws
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -32,9 +31,6 @@ abilities:
   - Weapon
   distance: Melee 1
   target: One creature or object per minion
-  t1: 2 poison damage
-  t2: 3 poison damage
-  t3: 4 poison damage
   effects:
   - roll: 2d10 + 2
     t1: 2 poison damage

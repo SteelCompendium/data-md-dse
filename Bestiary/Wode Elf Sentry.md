@@ -27,7 +27,6 @@ traits:
 abilities:
 - name: Tracer Longbow
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -35,9 +34,6 @@ abilities:
   - Weapon
   distance: Ranged 10
   target: 1 creature or object
-  t1: 3 damage; A2 marked (save ends)
-  t2: 5 damage; A3 marked (save ends)
-  t3: 7 damage; marked (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 3 damage; A2 marked (save ends)

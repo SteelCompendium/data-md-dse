@@ -29,7 +29,6 @@ traits:
 abilities:
 - name: Conditioning Spear
   type: Action
-  roll: 2d10 + 3
   cost: Signature
   keywords:
   - Attack
@@ -38,9 +37,6 @@ abilities:
   - Weapon
   distance: Melee 1 or Ranged 5
   target: Two creatures or objects
-  t1: 5 damage; pull 1
-  t2: 8 damage; pull 2
-  t3: 11 damage; pull 3
   effects:
   - roll: 2d10 + 3
     t1: 5 damage; pull 1

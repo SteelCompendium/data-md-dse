@@ -28,7 +28,6 @@ traits:
 abilities:
 - name: Heavy Arrow
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Attack
@@ -36,9 +35,6 @@ abilities:
   - Weapon
   distance: Ranged 10
   target: 1 creature or object per minion
-  t1: 2 damage
-  t2: 5 damage; target's speed reduced by 1 (EoT)
-  t3: '6 damage; target''s speed reduced by 2 (EoT) '
   effects:
   - roll: 2d10 + 2
     t1: 2 damage

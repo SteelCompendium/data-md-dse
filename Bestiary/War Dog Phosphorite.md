@@ -27,16 +27,12 @@ traits:
 abilities:
 - name: Caustic Detonator
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Magic
   - Ranged
   distance: Ranged 10
   target: One creature or object
-  t1: 3 acid damage; M1 [[Bleeding|bleeding]] (save ends)
-  t2: 5 acid damage; M2 [[Bleeding|bleeding]] (save ends)
-  t3: 7 acid damage; M3 [[Bleeding|bleeding]] (save ends)
   effects:
   - roll: 2d10 + 2
     t1: 3 acid damage; M1 [[Bleeding|bleeding]] (save ends)

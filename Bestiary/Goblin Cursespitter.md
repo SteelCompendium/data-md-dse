@@ -25,7 +25,6 @@ traits:
 abilities:
 - name: Eye of Surlach
   type: Action
-  roll: 2d10 + 2
   cost: Signature
   keywords:
   - Magic
@@ -33,9 +32,6 @@ abilities:
   - Resistance
   distance: Ranged 10
   target: One creature
-  t1: 2 corruption damage; I1 [[Weakened|weakened]] (save ends)
-  t2: 5 corruption damage; I2 [[Weakened|weakened]] (save ends)
-  t3: '6 corruption damage; I3 [[Weakened|weakened]] (save ends) '
   effects:
   - roll: 2d10 + 2
     t1: 2 corruption damage; I1 [[Weakened|weakened]] (save ends)
@@ -43,7 +39,6 @@ abilities:
     t3: '6 corruption damage; I3 [[Weakened|weakened]] (save ends) '
 - name: Dizzying Hex
   type: Maneuver
-  roll: INU RR
   cost: 1 Malice
   keywords:
   - Magic
@@ -51,9 +46,6 @@ abilities:
   - Resistance
   distance: Ranged 10
   target: One creature
-  t1: [[Prone]] and can't stand (save ends)
-  t2: [[Prone]] and can't stand (EoT)
-  t3: 'No effect '
   effects:
   - roll: INU RR
     t1: [[Prone]] and can't stand (save ends)
