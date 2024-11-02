@@ -39,5 +39,8 @@
     "t3": "7 damage; [[Grabbed|grabbed]] "
 - "name": "Dive"
   "type": "Maneuver"
+  "effects":
+  - "name": "Effect"
+    "effect": "The hawk moves up to their speed. "
 
 ```

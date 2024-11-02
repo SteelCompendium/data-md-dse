@@ -46,5 +46,9 @@
 - "name": "Dagger Storm"
   "type": "Action"
   "cost": "5 Malice"
+  "effects":
+  - "name": "Effect"
+    "effect": "The scoundrel makes a Rapier & Dagger attack against three creatures\
+      \ or objects. They can shift 2 squares before or after each attack. "
 
 ```
