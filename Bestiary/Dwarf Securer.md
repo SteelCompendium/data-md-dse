@@ -1,41 +1,41 @@
 ```ds-statblock
-name: [[Dwarf]] Securer
-ancestry:
-- [[Dwarf]]
-- Humanoid
-roles:
-- Brute
-- Minion
-level: 1
-ev: 8
-stamina: 14
-immunities: []
-weaknesses: []
-speed: '5'
-size: 1M
-stability: 2
-free_strike: 2
-might: 2
-intuition: 0
-agility: 0
-reason: 0
-presence: 0
-traits: []
-abilities:
-- name: Maul
-  type: Action
-  cost: Signature
-  keywords:
-  - Attack
-  - [[Charge]]
-  - Melee
-  - Weapon
-  distance: Melee 1
-  target: 1 creature or object per minion
-  effects:
-  - roll: 2d10 + 2
-    t1: 2 damage
-    t2: 5 damage; [[Grabbed|grabbed]]
-    t3: 6 damage; [[Grabbed|grabbed]] or [[Prone|prone]]
+"name": "[[Dwarf]] Securer"
+"ancestry":
+- "[[Dwarf]]"
+- "Humanoid"
+"roles":
+- "Brute"
+- "Minion"
+"level": !!int "1"
+"ev": !!int "8"
+"stamina": !!int "14"
+"immunities": []
+"weaknesses": []
+"speed": "5"
+"size": "1M"
+"stability": !!int "2"
+"free_strike": !!int "2"
+"might": !!int "2"
+"intuition": !!int "0"
+"agility": !!int "0"
+"reason": !!int "0"
+"presence": !!int "0"
+"traits": []
+"abilities":
+- "name": "Maul"
+  "type": "Action"
+  "cost": "Signature"
+  "keywords":
+  - "Attack"
+  - "[[Charge]]"
+  - "Melee"
+  - "Weapon"
+  "distance": "Melee 1"
+  "target": "1 creature or object per minion"
+  "effects":
+  - "roll": "2d10 + 2"
+    "t1": "2 damage"
+    "t2": "5 damage; [[Grabbed|grabbed]]"
+    "t3": "6 damage; [[Grabbed|grabbed]] or [[Prone|prone]]"
 
 ```
