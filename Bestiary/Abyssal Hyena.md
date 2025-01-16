@@ -22,7 +22,7 @@
 "presence": !!int "-2"
 "traits":
 - "name": "Death Snap"
-  "effect": "When the abyssal hyena is reduced to 0 Stamina, they make a [[Free Strike|free strike]]\
+  "effect": "When the abyssal hyena is reduced to 0 Stamina, they make a free strike\
     \ before dying."
 "abilities":
 - "name": "Snapjaw"
@@ -37,7 +37,7 @@
   "effects":
   - "roll": "2d10 + 2"
     "t1": "2 damage"
-    "t2": "4 damage; [[Grabbed|grabbed]]"
-    "t3": "5 damage; [[Grabbed|grabbed]] "
+    "t2": "4 damage; grabbed"
+    "t3": "5 damage; grabbed "
 
 ```

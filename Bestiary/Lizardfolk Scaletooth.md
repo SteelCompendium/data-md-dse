@@ -22,8 +22,8 @@
 "presence": !!int "0"
 "traits":
 - "name": "Reptilian Escape"
-  "effect": "While the scaletooth still has a tail, whenever the scaletooth is [[Grabbed|grabbed]],\
-    \ [[Slowed|slowed]], [[Weakened|weakened]], or knocked [[Prone|prone]], the scaletooth can lose their tail to immediately\
+  "effect": "While the scaletooth still has a tail, whenever the scaletooth is grabbed,\
+    \ slowed, weakened, or knocked prone, the scaletooth can lose their tail to immediately\
     \ end the effect and shift 2."
 "abilities":
 - "name": "Razor Bite"
@@ -37,11 +37,11 @@
   "target": "1 creature or object"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "5 damage; A1 [[Bleeding|bleeding]] (save ends)"
-    "t2": "9 damage; A2 [[Bleeding|bleeding]] (save ends)"
-    "t3": "12 damage; A3 [[Bleeding|bleeding]] (save ends)"
+    "t1": "5 damage; A1 bleeding (save ends)"
+    "t2": "9 damage; A2 bleeding (save ends)"
+    "t3": "12 damage; A3 bleeding (save ends)"
   - "name": "Effect"
-    "effect": "The potency of this attack increases by 1 if the target is [[Grabbed|grabbed]]\
+    "effect": "The potency of this attack increases by 1 if the target is grabbed\
       \ by the scaletooth. "
 - "name": "Tail Whip"
   "type": "Action"

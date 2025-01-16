@@ -12,7 +12,7 @@
 - "Corruption 3"
 - "Poison 3"
 "weaknesses": []
-"speed": "5 ([[Fly|fly]])"
+"speed": "5 (fly)"
 "size": "1M"
 "stability": !!int "1"
 "free_strike": !!int "2"
@@ -37,9 +37,9 @@
   "target": "One creature"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "2 corruption damage; P1 [[Weakened|weakened]] (save ends)"
-    "t2": "4 corruption damage; P2 [[Weakened|weakened]] (save ends)"
-    "t3": "5 corruption damage; P3 [[Weakened|weakened]] (save ends)"
+    "t1": "2 corruption damage; P1 weakened (save ends)"
+    "t2": "4 corruption damage; P2 weakened (save ends)"
+    "t3": "5 corruption damage; P3 weakened (save ends)"
   - "name": "2 Malice"
     "effect": "The potency of this ability increases by 1. A living creature killed\
       \ by this ability becomes a specter who appears in the target's space under\

@@ -22,7 +22,7 @@
 "traits":
 - "name": "Death Frenzy"
   "effect": "Whenever an ally within 5 is reduced to 0 Stamina, the abyssal archer\
-    \ moves up to their speed and makes a [[Free Strike|free strike]]."
+    \ moves up to their speed and makes a free strike."
 - "name": "Bloodscent"
   "effect": "The abyssal archer can target creatures not at full Stamina with abilities,\
     \ even if they don't have line of effect."
@@ -38,9 +38,9 @@
   "target": "1 creature or object"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "4 corruption damage; M1 [[Slowed|slowed]] (save ends)"
-    "t2": "7 corruption damage; M2 [[Slowed|slowed]] (save ends)"
-    "t3": "10 corruption damage; M3 [[Slowed|slowed]] (save ends)"
+    "t1": "4 corruption damage; M1 slowed (save ends)"
+    "t2": "7 corruption damage; M2 slowed (save ends)"
+    "t3": "10 corruption damage; M3 slowed (save ends)"
   - "name": "Effect"
     "effect": "This attack has edge against creatures the abyssal archer has previously\
       \ targeted. "

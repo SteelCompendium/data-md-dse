@@ -23,7 +23,7 @@
 "traits":
 - "name": "Petrifying Fumes"
   "effect": "A creature that starts their turn adjacent to the tonguesnapper is M2\
-    \ [[Slowed|slowed]] (save ends)."
+    \ slowed (save ends)."
 "abilities":
 - "name": "Prehensile Tongue"
   "type": "Action"
@@ -40,7 +40,7 @@
     "t2": "8 acid damage; pull 2"
     "t3": "12 acid damage; pull 3"
   - "name": "Effect"
-    "effect": "This attack can pull targets [[Restrained|restrained]] by Petrifying Eye Beams."
+    "effect": "This attack can pull targets restrained by Petrifying Eye Beams."
   - "name": "3 Malice"
     "effect": "The tonguesnapper targets two additional creatures or objects. "
 - "name": "Petrifying Eye Beams"
@@ -53,13 +53,13 @@
   "target": "Special"
   "effects":
   - "roll": "MGT RR"
-    "t1": "[[Restrained]] (save ends)"
-    "t2": "[[Slowed]] (save ends)"
-    "t3": "[[Slowed]] (EoT)"
+    "t1": "Restrained (save ends)"
+    "t2": "Slowed (save ends)"
+    "t3": "Slowed (EoT)"
   - "name": "Effect"
     "effect": "The tonguesnapper targets the first unobstructed creature in each column\
-      \ of the area. Each target magically begins to turn to stone. An already [[Slowed|slowed]]\
-      \ target has a bane on resisting the roll. A creature [[Restrained|restrained]] by this ability\
+      \ of the area. Each target magically begins to turn to stone. An already slowed\
+      \ target has a bane on resisting the roll. A creature restrained by this ability\
       \ or a creature adjacent to them can use an action to cut the encroaching stone\
       \ from their body, taking 8 damage which can't be reduced in any way and ending\
       \ the effect."
@@ -75,11 +75,11 @@
   "target": "1 creature"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "6 corruption damage; R1 [[Dazed|dazed]] (save ends)"
-    "t2": "8 corruption damage; R2 [[Dazed|dazed]] (save ends)"
-    "t3": "12 corruption damage; R3 [[Dazed|dazed]] and [[Slowed|slowed]] (save ends)"
+    "t1": "6 corruption damage; R1 dazed (save ends)"
+    "t2": "8 corruption damage; R2 dazed (save ends)"
+    "t3": "12 corruption damage; R3 dazed and slowed (save ends)"
   - "name": "Effect"
-    "effect": "A creature [[Dazed|dazed]] by this ability can't benefit from edges or concealment\
+    "effect": "A creature dazed by this ability can't benefit from edges or concealment\
       \ until the condition ends. "
 - "name": "Neurotoxin Splash"
   "type": "Triggered Action"

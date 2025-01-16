@@ -10,7 +10,7 @@
 "stamina": !!int "70"
 "immunities": []
 "weaknesses": []
-"speed": "9 ([[Fly|fly]])"
+"speed": "9 (fly)"
 "size": "2"
 "stability": !!int "2"
 "free_strike": !!int "5"
@@ -21,17 +21,17 @@
 "presence": !!int "2"
 "traits":
 - "name": "Beast of Prey"
-  "effect": "Creatures have a double bane on escaping the griffon's [[Grab|grab]]."
+  "effect": "Creatures have a double bane on escaping the griffon's grab."
 - "name": "Steady"
   "effect": "Creatures have a bane on power rolls that could knock the griffon or\
-    \ their rider [[Prone|prone]]."
+    \ their rider prone."
 "abilities":
 - "name": "Claw Swipes"
   "type": "Action"
   "cost": "Signature"
   "keywords":
   - "Attack"
-  - "[[Charge]]"
+  - "Charge"
   - "Melee"
   - "Weapon"
   "distance": "Melee 1"
@@ -53,7 +53,7 @@
   "target": "All enemies"
   "t1": "2 damage; A1 push 2"
   "t2": "3 damage; A2 push 3"
-  "t3": "4 damage; A3 push 4 and [[Prone|prone]] "
+  "t3": "4 damage; A3 push 4 and prone "
   "effects":
   - "name": "Effect"
     "effect": "The griffon flies up to half their speed towards the ground and then\

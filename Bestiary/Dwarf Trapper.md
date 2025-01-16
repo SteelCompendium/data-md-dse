@@ -1,7 +1,7 @@
 ```ds-statblock
-"name": "[[Dwarf]] Trapper"
+"name": "Dwarf Trapper"
 "ancestry":
-- "[[Dwarf]]"
+- "Dwarf"
 - "Humanoid"
 "roles":
 - "Harrier"
@@ -26,7 +26,7 @@
   "cost": "Signature"
   "keywords":
   - "Attack"
-  - "[[Charge]]"
+  - "Charge"
   - "Melee"
   - "Ranged"
   - "Weapon"
@@ -38,7 +38,7 @@
     "t2": "5 damage; push 4"
     "t3": "7 damage; push 6"
   - "name": "Effect"
-    "effect": "A target [[Restrained|restrained]] by a [[Dwarf|dwarf]] can be pushed by this attack. "
+    "effect": "A target restrained by a dwarf can be pushed by this attack. "
 - "name": "Steam Powered Snare"
   "type": "Maneuver"
   "cost": "3 Malice"
@@ -49,8 +49,8 @@
   "target": "All enemies in the cube"
   "effects":
   - "roll": "MGT RR"
-    "t1": "4 damage; [[Restrained|restrained]] (EoT)"
-    "t2": "3 damage; [[Slowed|slowed]] (EoT)"
+    "t1": "4 damage; restrained (EoT)"
+    "t2": "3 damage; slowed (EoT)"
     "t3": "No effect"
   - "name": "Effect"
     "effect": "The snare remains until the end of the encounter. An enemy that moves\

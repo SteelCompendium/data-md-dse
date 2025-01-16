@@ -1,7 +1,7 @@
 ```ds-statblock
-"name": "[[Human]] Bandit Chief"
+"name": "Human Bandit Chief"
 "ancestry":
-- "[[Human]]"
+- "Human"
 - "Humanoid"
 "roles":
 - "Leader"
@@ -59,9 +59,9 @@
   "target": "One enemy or object"
   "effects":
   - "roll": "2d10 + 3"
-    "t1": "Push 1; M2 [[Prone|prone]]"
-    "t2": "Push 2; M3 [[Prone|prone]]"
-    "t3": "Push 4; M4 [[Prone|prone]]"
+    "t1": "Push 1; M2 prone"
+    "t2": "Push 2; M3 prone"
+    "t3": "Push 4; M4 prone"
   - "name": "2 Malice"
     "effect": "This ability targets each enemy adjacent to the bandit chief. "
 - "name": "Bloodstones"
@@ -83,7 +83,7 @@
   "target": "All allies in the burst"
   "effects":
   - "name": "Effect"
-    "effect": "Each target makes a ranged [[Free Strike|free strike]]. "
+    "effect": "Each target makes a ranged free strike. "
 - "name": "Form Up!"
   "type": "Villain Action 2"
   "keywords":
@@ -104,6 +104,6 @@
   - "name": "Effect"
     "effect": "Shift 10 squares. During or after this movement, the bandit chief can\
       \ attack up to four targets with Whip & Magic Longsword. Each ally adjacent\
-      \ to a target can make a [[Free Strike|free strike]] against them."
+      \ to a target can make a free strike against them."
 
 ```

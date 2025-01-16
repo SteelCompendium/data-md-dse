@@ -49,6 +49,6 @@
   "trigger": "An ally deals damage to the target."
   "effects":
   - "name": "Effect"
-    "effect": "The redeye makes a [[Free Strike|free strike]] against the target."
+    "effect": "The redeye makes a free strike against the target."
 
 ```

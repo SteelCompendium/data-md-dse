@@ -12,7 +12,7 @@
 "immunities": []
 "weaknesses":
 - "Holy 3"
-"speed": "5 ([[Fly|fly]])"
+"speed": "5 (fly)"
 "size": "1T"
 "stability": !!int "0"
 "free_strike": !!int "2"

@@ -35,9 +35,9 @@
   "target": "One creature or object"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "3 acid damage; M1 [[Bleeding|bleeding]] (save ends)"
-    "t2": "5 acid damage; M2 [[Bleeding|bleeding]] (save ends)"
-    "t3": "7 acid damage; M3 [[Bleeding|bleeding]] (save ends)"
+    "t1": "3 acid damage; M1 bleeding (save ends)"
+    "t2": "5 acid damage; M2 bleeding (save ends)"
+    "t3": "7 acid damage; M3 bleeding (save ends)"
   - "name": "Effect"
     "effect": "A detonator attaches to the target. At the end of each round, roll\
       \ a die. On an odd result, the detonator explodes, triggering the power roll. "

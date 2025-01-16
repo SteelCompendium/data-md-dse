@@ -11,7 +11,7 @@
 "immunities": []
 "weaknesses":
 - "Holy 3"
-"speed": "5 ([[Teleport|teleport]])"
+"speed": "5 (teleport)"
 "size": "1S"
 "stability": !!int "0"
 "free_strike": !!int "4"
@@ -38,11 +38,11 @@
   "target": "One creature or object"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "4 damage; the remasch [[Teleport|teleports]] 2 squares"
-    "t2": "7 damage; the remasch [[Teleport|teleports]] 3 squares"
-    "t3": "10 damage; the remasch [[Teleport|teleports]] 5 squares"
+    "t1": "4 damage; the remasch teleports 2 squares"
+    "t2": "7 damage; the remasch teleports 3 squares"
+    "t3": "10 damage; the remasch teleports 5 squares"
   - "name": "5 Malice"
-    "effect": "The remasch takes an adjacent creature with them when they [[Teleport|teleport]].\
+    "effect": "The remasch takes an adjacent creature with them when they teleport.\
       \ The creature appears in an unoccupied space adjacent to the remasch's destination. "
 - "name": "Grasping Shadow"
   "type": "Maneuver"
@@ -53,6 +53,6 @@
   "target": "Self"
   "effects":
   - "name": "Effect"
-    "effect": "The remasch [[Teleport|teleports]] 2 squares and uses Abyssal Strike. "
+    "effect": "The remasch teleports 2 squares and uses Abyssal Strike. "
 
 ```

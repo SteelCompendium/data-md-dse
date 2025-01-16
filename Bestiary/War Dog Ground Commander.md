@@ -43,11 +43,11 @@
     "t2": "8 damage; pull 2"
     "t3": "11 damage; pull 3"
   - "name": "Effect"
-    "effect": "One ally within 10 squares of the commander can make a [[Free Strike|free strike]]."
+    "effect": "One ally within 10 squares of the commander can make a free strike."
   - "name": "1 Malice"
     "effect": "A target who is adjacent to the ground commander after this ability\
-      \ is resolved is I3 [[Grabbed|grabbed]] (save ends). This [[Grab|grab]] can't be escaped using the\
-      \ [[Escape Grab]] maneuver. The ground commander can [[Grab|grab]] up to two creatures at\
+      \ is resolved is I3 grabbed (save ends). This grab can't be escaped using the\
+      \ Escape Grab maneuver. The ground commander can grab up to two creatures at\
       \ a time. "
 - "name": "Highest Posthumous Promotion"
   "type": "Maneuver"
@@ -70,7 +70,7 @@
   "trigger": "The target has a condition imposed on them, is force moved, or is killed."
   "effects":
   - "name": "Effect"
-    "effect": "The target can move up to their speed and make a [[Free Strike|free strike]] before\
+    "effect": "The target can move up to their speed and make a free strike before\
       \ the triggering effect happens. "
 - "name": "Combined Arms"
   "type": "Villain Action 1"
@@ -80,8 +80,8 @@
   "target": "Each ally"
   "effects":
   - "name": "Effect"
-    "effect": "Each target can make a ranged [[Free Strike|free strike]], then immediately use the\
-      \ [[Charge]] action. "
+    "effect": "Each target can make a ranged free strike, then immediately use the\
+      \ Charge action. "
 - "name": "Make an Example of Them"
   "type": "Villain Action 2"
   "keywords":
@@ -92,7 +92,7 @@
   "effects":
   - "name": "Effect"
     "effect": "Each ally within 5 squares of the target can move up to their speed\
-      \ and make a [[Free Strike|free strike]] against the target. The target is then I3 [[Frightened|frightened]]\
+      \ and make a free strike against the target. The target is then I3 frightened\
       \ of the ground commander (save ends). "
 - "name": "Claim Them for the Body Banks"
   "type": "Villain Action 3"
@@ -103,7 +103,7 @@
   "target": "Each ally"
   "effects":
   - "name": "Effect"
-    "effect": "Each target can shift 2 and use the [[Grab]] maneuver. For the rest of\
-      \ the encounter, any enemy has a bane on the [[Escape Grab]] maneuver."
+    "effect": "Each target can shift 2 and use the Grab maneuver. For the rest of\
+      \ the encounter, any enemy has a bane on the Escape Grab maneuver."
 
 ```

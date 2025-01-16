@@ -24,21 +24,21 @@
   "effect": "If the cradle horse's rider has the Otherworldly Grace trait, it also\
     \ gains the Otherworldly Grace trait."
 "abilities":
-- "name": "Radiant [[Charge]]"
+- "name": "Radiant Charge"
   "type": "Action"
   "cost": "Signature"
   "keywords":
   - "Attack"
-  - "[[Charge]]"
+  - "Charge"
   - "Melee"
   - "Weapon"
   "distance": "Melee 1"
   "target": "1 creature or object"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "3 damage; M1 [[Prone|prone]]"
-    "t2": "5 fire damage; M2 [[Prone|prone]]"
-    "t3": "7 lightning damage; M3 [[Prone|prone]] "
+    "t1": "3 damage; M1 prone"
+    "t2": "5 fire damage; M2 prone"
+    "t3": "7 lightning damage; M3 prone "
 - "name": "Stomp"
   "type": "Action"
   "keywords":
@@ -53,7 +53,7 @@
     "t2": "4 damage"
     "t3": "5 damage"
   - "name": "Effect"
-    "effect": "This attack has edge against [[Prone|prone]] targets. "
+    "effect": "This attack has edge against prone targets. "
 - "name": "Buck"
   "type": "Maneuver"
   "cost": "2 Malice"

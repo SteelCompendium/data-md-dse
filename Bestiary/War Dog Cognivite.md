@@ -11,7 +11,7 @@
 "immunities":
 - "Psychic 3"
 "weaknesses": []
-"speed": "5 ([[Fly|fly]])"
+"speed": "5 (fly)"
 "size": "1M"
 "stability": !!int "0"
 "free_strike": !!int "2"
@@ -59,7 +59,7 @@
   "effects":
   - "name": "Effect"
     "effect": "The cognivite chooses an ally within 10 squares, then chooses whether\
-      \ each target is [[Taunted|taunted]] by the ally or the ally has **cover** whenever they're\
+      \ each target is taunted by the ally or the ally has **cover** whenever they're\
       \ attacked by a target until the start of the cognivite's next turn. "
 
 ```

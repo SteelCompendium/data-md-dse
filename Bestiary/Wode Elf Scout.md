@@ -23,7 +23,7 @@
 "presence": !!int "1"
 "traits":
 - "name": "Hunter's Glamor"
-  "effect": "The scout immediately [[Hide|hides]] at the end of their turn, even if they are\
+  "effect": "The scout immediately hides at the end of their turn, even if they are\
     \ observed."
 "abilities":
 - "name": "Daggers"

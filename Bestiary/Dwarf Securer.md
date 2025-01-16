@@ -1,7 +1,7 @@
 ```ds-statblock
-"name": "[[Dwarf]] Securer"
+"name": "Dwarf Securer"
 "ancestry":
-- "[[Dwarf]]"
+- "Dwarf"
 - "Humanoid"
 "roles":
 - "Brute"
@@ -27,7 +27,7 @@
   "cost": "Signature"
   "keywords":
   - "Attack"
-  - "[[Charge]]"
+  - "Charge"
   - "Melee"
   - "Weapon"
   "distance": "Melee 1"
@@ -35,7 +35,7 @@
   "effects":
   - "roll": "2d10 + 2"
     "t1": "2 damage"
-    "t2": "5 damage; [[Grabbed|grabbed]]"
-    "t3": "6 damage; [[Grabbed|grabbed]] or [[Prone|prone]]"
+    "t2": "5 damage; grabbed"
+    "t3": "6 damage; grabbed or prone"
 
 ```

@@ -22,7 +22,7 @@
 "presence": !!int "0"
 "traits":
 - "name": "Masking Glamor"
-  "effect": "The tree chirurgeon immediately [[Hide|hides]] at the end of their turn while\
+  "effect": "The tree chirurgeon immediately hides at the end of their turn while\
     \ in cover or concealment, even if they are observed."
 "abilities":
 - "name": "Wild Axe"
@@ -30,7 +30,7 @@
   "cost": "Signature"
   "keywords":
   - "Attack"
-  - "[[Charge]]"
+  - "Charge"
   - "Melee"
   - "Ranged"
   - "Weapon"
@@ -42,7 +42,7 @@
     "t2": "7 damage; push 3"
     "t3": "10 damage; push 5"
   - "name": "Effect"
-    "effect": "The tree chirurgeon can make a ranged [[Free Strike|free strike]] before attacking."
+    "effect": "The tree chirurgeon can make a ranged free strike before attacking."
   - "name": "5 Malice"
     "effect": "The tree chirurgeon uses this ability again. "
 - "name": "The Wode Protects Us"
@@ -54,7 +54,7 @@
   "target": "Self and 3 allies"
   "effects":
   - "name": "Effect"
-    "effect": "Each target [[Teleport|teleports]] to a square within 10 that has cover or concealment\
+    "effect": "Each target teleports to a square within 10 that has cover or concealment\
       \ from all enemies. "
 
 ```

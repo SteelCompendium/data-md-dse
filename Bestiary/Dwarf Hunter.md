@@ -1,7 +1,7 @@
 ```ds-statblock
-"name": "[[Dwarf]] Hunter"
+"name": "Dwarf Hunter"
 "ancestry":
-- "[[Dwarf]]"
+- "Dwarf"
 - "Humanoid"
 "roles":
 - "Support"
@@ -37,6 +37,6 @@
     "t2": "4 damage; pull 2"
     "t3": "5 damage; pull 4"
   - "name": "Effect"
-    "effect": "A target [[Restrained|restrained]] by a [[Dwarf|dwarf]] can be pulled by this attack."
+    "effect": "A target restrained by a dwarf can be pulled by this attack."
 
 ```

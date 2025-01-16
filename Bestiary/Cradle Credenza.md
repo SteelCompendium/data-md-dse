@@ -21,9 +21,9 @@
 "reason": !!int "0"
 "presence": !!int "2"
 "traits":
-- "name": "[[Defend]] the Books"
+- "name": "Defend the Books"
   "effect": "Each ally within 5 of a creature that attacks the cradle credenza can\
-    \ make a [[Free Strike|free strike]] against them."
+    \ make a free strike against them."
 "abilities":
 - "name": "Book Wall"
   "type": "Action"

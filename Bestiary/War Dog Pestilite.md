@@ -37,9 +37,9 @@
   "target": "Each creature in the cube"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "2 poison damage; I1 [[Frightened|frightened]] (save ends)"
-    "t2": "5 poison damage; I2 [[Frightened|frightened]] (save ends)"
-    "t3": "8 poison damage; I3 [[Frightened|frightened]] (save ends)"
+    "t1": "2 poison damage; I1 frightened (save ends)"
+    "t2": "5 poison damage; I2 frightened (save ends)"
+    "t3": "8 poison damage; I3 frightened (save ends)"
   - "name": "Effect"
     "effect": "The area is covered in a cloud of pestilence that lasts until the start\
       \ of the pestilite's next turn. Any creature who enters the area for the first\

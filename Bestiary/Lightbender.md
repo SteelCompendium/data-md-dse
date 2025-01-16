@@ -50,11 +50,11 @@
   "target": "2 creatures or objects"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "6 damage; 1 [[Bleeding|bleeding]] (save ends)"
-    "t2": "10 damage; 2 [[Bleeding|bleeding]] (save ends)"
-    "t3": "13 damage; 3 [[Bleeding|bleeding]] (save ends)"
+    "t1": "6 damage; 1 bleeding (save ends)"
+    "t2": "10 damage; 2 bleeding (save ends)"
+    "t3": "13 damage; 3 bleeding (save ends)"
   - "name": "Effect"
-    "effect": "A creature who is [[Bleeding|bleeding]] from this ability has a bane on tests to\
+    "effect": "A creature who is bleeding from this ability has a bane on tests to\
       \ search for the lightbender until the condition ends. "
 - "name": "Hypnotic Mane"
   "type": "Maneuver"
@@ -67,11 +67,11 @@
   "target": "All enemies in the burst"
   "effects":
   - "roll": "INU RR"
-    "t1": "[[Dazed]] (save ends)"
-    "t2": "[[Dazed]] (EoT)"
+    "t1": "Dazed (save ends)"
+    "t2": "Dazed (EoT)"
     "t3": "No effect"
   - "name": "Effect"
-    "effect": "Targets [[Dazed|dazed]] by this ability have a speed of 0 while [[Dazed|dazed]]. If a [[Dazed|dazed]]\
+    "effect": "Targets dazed by this ability have a speed of 0 while dazed. If a dazed\
       \ target takes damage or if someone else spends an action to shake the creature\
       \ out of their stupor, the condition is removed. "
 - "name": "Stalker's Afterimage"
@@ -84,7 +84,7 @@
   "effects":
   - "name": "Effect"
     "effect": "The lightbender halves the damage, doesn't suffer any associated effect,\
-      \ and [[Teleport|teleports]] 5 squares. The lightbender immediately [[Hide|hides]] if they [[Teleport|teleport]]\
+      \ and teleports 5 squares. The lightbender immediately hides if they teleport\
       \ into cover or concealment. "
 
 ```

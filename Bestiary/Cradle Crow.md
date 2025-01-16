@@ -11,7 +11,7 @@
 "stamina": !!int "10"
 "immunities": []
 "weaknesses": []
-"speed": "7 ([[Fly|fly]])"
+"speed": "7 (fly)"
 "size": "1T"
 "stability": !!int "0"
 "free_strike": !!int "2"
@@ -34,8 +34,8 @@
   "effects":
   - "roll": "2d10 + 2"
     "t1": "2 damage"
-    "t2": "4 damage; [[Taunted|taunted]] (EoT)"
-    "t3": "5 damage; [[Taunted|taunted]] (EoT)"
+    "t2": "4 damage; taunted (EoT)"
+    "t3": "5 damage; taunted (EoT)"
   - "name": "Effect"
     "effect": "The cradle crow ignores opportunity attacks from the target until the\
       \ end of its turn."

@@ -10,7 +10,7 @@
 "stamina": !!int "80"
 "immunities": []
 "weaknesses": []
-"speed": "7 ([[Fly|fly]])"
+"speed": "7 (fly)"
 "size": "3"
 "stability": !!int "5"
 "free_strike": !!int "5"
@@ -21,10 +21,10 @@
 "presence": !!int "1"
 "traits":
 - "name": "Beast of Prey"
-  "effect": "Creatures have a double bane when using the [[Escape Grab]] maneuver to escape\
-    \ the [[Griffon|griffon]]'s [[Grab|grab]]."
+  "effect": "Creatures have a double bane when using the Escape Grab maneuver to escape\
+    \ the [[Griffon|griffon]]'s grab."
 - "name": "Steady"
-  "effect": "Creatures have a bane on power rolls that could knock the [[Griffon|griffon]] [[Prone|prone]]."
+  "effect": "Creatures have a bane on power rolls that could knock the [[Griffon|griffon]] prone."
 - "name": "Banded Predator"
   "effect": "The [[Griffon|griffon]] is hidden whenever they have cover or concealment."
 "abilities":
@@ -41,7 +41,7 @@
   - "roll": "2d10 + 2"
     "t1": "5 damage; push 1"
     "t2": "9 damage; one target is pushed 2; other target is vertically pushed 2"
-    "t3": "12 damage; one target is pushed 2 and [[Prone|prone]]; other target is vertically\
+    "t3": "12 damage; one target is pushed 2 and prone; other target is vertically\
       \ pushed 3 "
 - "name": "Bound Ahead"
   "type": "Action"
@@ -54,7 +54,7 @@
   - "name": "Effect"
     "effect": "The [[Griffon|griffon]] shifts up to their speed in a straight line. Each enemy\
       \ within their reach during this movement can choose to either take 5 damage\
-      \ or be knocked [[Prone|prone]]. "
+      \ or be knocked prone. "
 - "name": "Wing Buffet"
   "type": "Maneuver"
   "cost": "3 Malice"
@@ -78,11 +78,11 @@
   "effects":
   - "roll": "2d10 + 2"
     "t1": "Push 3"
-    "t2": "A2 [[Grabbed|grabbed]]"
-    "t3": "5 damage; A3 [[Grabbed|grabbed]]"
+    "t2": "A2 grabbed"
+    "t3": "5 damage; A3 grabbed"
   - "name": "Effect"
     "effect": "The [[Griffon|griffon]] falls down upon the target, taking no damage from falling.\
-      \ A creature who is [[Grabbed|grabbed]] by the [[Griffon|griffon]] is [[Prone|prone]] and can't stand until they\
-      \ are no longer [[Grabbed|grabbed]]. "
+      \ A creature who is grabbed by the [[Griffon|griffon]] is prone and can't stand until they\
+      \ are no longer grabbed. "
 
 ```

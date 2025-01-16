@@ -22,8 +22,8 @@
 "traits":
 - "name": "Crafty"
   "effect": "The assassin doesn't provoke opportunity attacks by moving."
-- "name": "[[Hide]] While Observed"
-  "effect": "The assassin can take the [[Hide]] maneuver even while observed, though they\
+- "name": "Hide While Observed"
+  "effect": "The assassin can take the Hide maneuver even while observed, though they\
     \ still must have cover or concealment."
 "abilities":
 - "name": "Sword"
@@ -52,8 +52,8 @@
   "target": "Three creatures"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "3 corruption damage; A1 [[Restrained|restrained]] (save ends)"
-    "t2": "5 corruption damage; A2 [[Restrained|restrained]] (save ends)"
-    "t3": "7 corruption damage; A3 [[Restrained|restrained]] (save ends) "
+    "t1": "3 corruption damage; A1 restrained (save ends)"
+    "t2": "5 corruption damage; A2 restrained (save ends)"
+    "t3": "7 corruption damage; A3 restrained (save ends) "
 
 ```

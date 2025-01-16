@@ -28,19 +28,19 @@
   "cost": "Signature"
   "keywords":
   - "Attack"
-  - "[[Charge]]"
+  - "Charge"
   - "Melee"
   - "Weapon"
   "distance": "Melee 2"
   "target": "2 creatures or objects"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "5 damage; 1 [[Prone|prone]]"
-    "t2": "9 damage; 2 [[Prone|prone]]"
-    "t3": "12 damage; 3 [[Prone|prone]]"
+    "t1": "5 damage; 1 prone"
+    "t2": "9 damage; 2 prone"
+    "t3": "12 damage; 3 prone"
   - "name": "Effect"
-    "effect": "The pouncer makes a [[Free Strike|free strike]] against each target they have knocked\
-      \ [[Prone|prone]]. "
+    "effect": "The pouncer makes a free strike against each target they have knocked\
+      \ prone. "
 - "name": "Sparkling Tail Whip"
   "type": "Action"
   "keywords":
@@ -67,11 +67,11 @@
   "target": "All enemies in the cube"
   "effects":
   - "roll": "REA RR"
-    "t1": "[[Dazed]] (save ends)"
-    "t2": "[[Dazed]] (EoT)"
+    "t1": "Dazed (save ends)"
+    "t2": "Dazed (EoT)"
     "t3": "No effect"
   - "name": "Effect"
-    "effect": "Targets [[Dazed|dazed]] by this ability have a speed of 0 while [[Dazed|dazed]]. If a [[Dazed|dazed]]\
+    "effect": "Targets dazed by this ability have a speed of 0 while dazed. If a dazed\
       \ target takes damage or if someone else spends an action to shake the creature\
       \ out of their stupor, the condition is removed. "
 - "name": "Striking Afterimage"
@@ -84,7 +84,7 @@
   "effects":
   - "name": "Effect"
     "effect": "The [[Lightbender|lightbender]] halves the damage, doesn't suffer any associated effect,\
-      \ and [[Teleport|teleports]] 5 squares. The pouncer makes a [[Free Strike|free strike]] if they [[Teleport|teleport]]\
+      \ and teleports 5 squares. The pouncer makes a free strike if they teleport\
       \ into a space adjacent to an enemy. "
 
 ```

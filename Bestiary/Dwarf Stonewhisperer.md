@@ -1,7 +1,7 @@
 ```ds-statblock
-"name": "[[Dwarf]] Stonewhisperer"
+"name": "Dwarf Stonewhisperer"
 "ancestry":
-- "[[Dwarf]]"
+- "Dwarf"
 - "Humanoid"
 "roles":
 - "Controller"
@@ -35,11 +35,11 @@
   "target": "All creatures and objects"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "3 damage; slide 1; M1 [[Slowed|slowed]] (save ends)"
-    "t2": "6 damage; slide 3; M2 [[Slowed|slowed]] (save ends)"
-    "t3": "9 damage; slide 5; M3 [[Restrained|restrained]] (save ends)"
+    "t1": "3 damage; slide 1; M1 slowed (save ends)"
+    "t2": "6 damage; slide 3; M2 slowed (save ends)"
+    "t3": "9 damage; slide 5; M3 restrained (save ends)"
   - "name": "Effect"
-    "effect": "A target [[Restrained|restrained]] by a [[Dwarf|dwarf]] can be slid by this attack. "
+    "effect": "A target restrained by a dwarf can be slid by this attack. "
 - "name": "Stone Wave"
   "type": "Maneuver"
   "cost": "3 Malice"
@@ -50,11 +50,11 @@
   "target": "All enemies in the cube"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "2 damage; push 2; R1 [[Slowed|slowed]] (save ends)"
-    "t2": "3 damage; push 3; R2 [[Slowed|slowed]] (save ends)"
-    "t3": "4 damage; push 3; R3 [[Slowed|slowed]] (save ends)"
+    "t1": "2 damage; push 2; R1 slowed (save ends)"
+    "t2": "3 damage; push 3; R2 slowed (save ends)"
+    "t3": "4 damage; push 3; R3 slowed (save ends)"
   - "name": "Effect"
-    "effect": "A target [[Restrained|restrained]] by a [[Dwarf|dwarf]] can be pushed by this attack. The affected\
-      \ area is [[Difficult Terrain|difficult terrain]] for enemies. "
+    "effect": "A target restrained by a dwarf can be pushed by this attack. The affected\
+      \ area is difficult terrain for enemies. "
 
 ```

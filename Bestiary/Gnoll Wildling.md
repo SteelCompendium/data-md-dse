@@ -23,7 +23,7 @@
 "traits":
 - "name": "Death Frenzy"
   "effect": "Whenever an ally within 7 is reduced to 0 Stamina, the wildling moves\
-    \ up to their speed and makes a [[Free Strike|free strike]]."
+    \ up to their speed and makes a free strike."
 "abilities":
 - "name": "Flail"
   "type": "Action"
@@ -38,6 +38,6 @@
   - "roll": "2d10 + 2"
     "t1": "2 damage"
     "t2": "3 damage"
-    "t3": "4 damage; wildling takes a [[Free Strike|free strike]] on a creature adjacent to the target "
+    "t3": "4 damage; wildling takes a free strike on a creature adjacent to the target "
 
 ```

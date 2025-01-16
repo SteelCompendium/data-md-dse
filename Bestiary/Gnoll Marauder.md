@@ -22,7 +22,7 @@
 "traits":
 - "name": "Death Frenzy"
   "effect": "Whenever an ally within 7 is reduced to 0 Stamina, the marauder moves\
-    \ up to their speed and makes a [[Free Strike|free strike]]."
+    \ up to their speed and makes a free strike."
 "abilities":
 - "name": "Fury Flail"
   "type": "Action"
@@ -35,9 +35,9 @@
   "target": "1 creature or object"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "3 damage; A1 [[Bleeding|bleeding]] (save ends)"
-    "t2": "5 damage; A2 [[Bleeding|bleeding]] (save ends)"
-    "t3": "7 damage; [[Prone|prone]]; A3 [[Bleeding|bleeding]] (save ends)"
+    "t1": "3 damage; A1 bleeding (save ends)"
+    "t2": "5 damage; A2 bleeding (save ends)"
+    "t3": "7 damage; prone; A3 bleeding (save ends)"
   - "name": "Effect"
     "effect": "Shift 2. "
 - "name": "Cackletongue"

@@ -21,9 +21,9 @@
 "presence": !!int "-3"
 "traits":
 - "name": "Ride Launcher"
-  "effect": "An ally who leaps off the back of the spider can [[Jump|jump]] up to 6 squares\
-    \ without a test, and takes no damage if they fall during the [[Jump|jump]]. After the\
-    \ [[Jump|jump]], the first melee attack an ally makes on the same turn gains an edge."
+  "effect": "An ally who leaps off the back of the spider can jump up to 6 squares\
+    \ without a test, and takes no damage if they fall during the jump. After the\
+    \ jump, the first melee attack an ally makes on the same turn gains an edge."
 - "name": "Wide Back"
   "effect": "Two of the spider's size 1 allies can occupy the same space while riding\
     \ the spider."
@@ -39,9 +39,9 @@
   "target": "One creature or object"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "4 poison damage; M1 [[Weakened|weakened]] (save ends)"
-    "t2": "7 poison damage; M2 [[Weakened|weakened]] (save ends)"
-    "t3": "10 poison damage; M3 [[Weakened|weakened]] (save ends) "
+    "t1": "4 poison damage; M1 weakened (save ends)"
+    "t2": "7 poison damage; M2 weakened (save ends)"
+    "t3": "10 poison damage; M3 weakened (save ends) "
 - "name": "Leg Blade"
   "type": "Action"
   "keywords":
@@ -77,8 +77,8 @@
   "target": "All creatures in the cube"
   "effects":
   - "roll": "AGL RR"
-    "t1": "[[Restrained]] (AGL ends)"
-    "t2": "[[Restrained]] (EoT)"
+    "t1": "Restrained (AGL ends)"
+    "t2": "Restrained (EoT)"
     "t3": "No effect "
 
 ```

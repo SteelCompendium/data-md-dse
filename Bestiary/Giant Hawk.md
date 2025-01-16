@@ -20,7 +20,7 @@
 "presence": !!int "-2"
 "traits":
 - "name": "Mounted Platform"
-  "effect": "Any creature riding the hawk can make a [[Free Strike|free strike]] during or after the\
+  "effect": "Any creature riding the hawk can make a free strike during or after the\
     \ hawk's movement."
 "abilities":
 - "name": "Talons"
@@ -34,9 +34,9 @@
   "target": "One creature or object"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "3 damage; M2 [[Grabbed|grabbed]]"
-    "t2": "5 damage; M3 [[Grabbed|grabbed]]"
-    "t3": "7 damage; [[Grabbed|grabbed]] "
+    "t1": "3 damage; M2 grabbed"
+    "t2": "5 damage; M3 grabbed"
+    "t3": "7 damage; grabbed "
 - "name": "Dive"
   "type": "Maneuver"
   "effects":

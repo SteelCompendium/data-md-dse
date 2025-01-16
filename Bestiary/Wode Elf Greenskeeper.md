@@ -22,7 +22,7 @@
 "presence": !!int "1"
 "traits":
 - "name": "Masking Glamor"
-  "effect": "The greenskeeper immediately [[Hide|hides]] at the end of their turn while in\
+  "effect": "The greenskeeper immediately hides at the end of their turn while in\
     \ cover or concealment, even if they are observed."
 "abilities":
 - "name": "Growing Longsword"
@@ -40,7 +40,7 @@
     "t2": "5 damage"
     "t3": "7 damage"
   - "name": "Effect"
-    "effect": "[[Taunted]] (EoT). The greenskeeper can shift 3 after making the attack."
+    "effect": "Taunted (EoT). The greenskeeper can shift 3 after making the attack."
   - "name": "2 Malice"
     "effect": "The distance increases to Melee 5. "
 - "name": "Overgrowth"
@@ -55,7 +55,7 @@
   - "name": "Effect"
     "effect": "The affected area is overgrown with heavy brush and bramble. It provides\
       \ cover and concealment for the greenskeeper and all allies, and is considered\
-      \ [[Difficult Terrain|difficult terrain]] for enemies. An enemy that starts their turn in an affected\
+      \ difficult terrain for enemies. An enemy that starts their turn in an affected\
       \ square takes 3 damage. "
 
 ```

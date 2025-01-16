@@ -29,7 +29,7 @@
   "cost": "Signature"
   "keywords":
   - "Attack"
-  - "[[Charge]]"
+  - "Charge"
   - "Melee"
   - "Weapon"
   "distance": "Melee 2"
@@ -57,16 +57,16 @@
   "cost": "5 Malice"
   "keywords":
   - "Attack"
-  - "[[Charge]]"
+  - "Charge"
   - "Melee"
   - "Weapon"
   "distance": "Melee 2"
   "target": "1 creature or object"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "5 damage; I1 [[Dazed|dazed]] (save ends)"
-    "t2": "9 damage; I2 [[Dazed|dazed]] (save ends)"
-    "t3": "12 damage; I3 [[Dazed|dazed]] (save ends)"
+    "t1": "5 damage; I1 dazed (save ends)"
+    "t2": "9 damage; I2 dazed (save ends)"
+    "t3": "12 damage; I3 dazed (save ends)"
   - "name": "Effect"
     "effect": "The potency of this ability increases by 1 if it's used while charging. "
 - "name": "Retaliatory Gore"
@@ -78,6 +78,6 @@
   "target": "Triggering creature"
   "effects":
   - "name": "Effect"
-    "effect": "The minotaur [[Charge|charges]] the target using Flail and Blade or Goring Horns. "
+    "effect": "The minotaur charges the target using Flail and Blade or Goring Horns. "
 
 ```

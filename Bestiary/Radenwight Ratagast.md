@@ -34,8 +34,8 @@
   "effects":
   - "roll": "2d10 + 2"
     "t1": "2 poison damage"
-    "t2": "4 poison damage; [[Taunted|taunted]] (EoT)"
-    "t3": "5 poison damage; [[Taunted|taunted]] (EoT) "
+    "t2": "4 poison damage; taunted (EoT)"
+    "t3": "5 poison damage; taunted (EoT) "
 - "name": "Ready Rodent"
   "type": "Triggered Action"
   "keywords":
@@ -46,6 +46,6 @@
   "trigger": "An ally deals damage to the target."
   "effects":
   - "name": "Effect"
-    "effect": "The ratagast makes a [[Free Strike|free strike]] against the target."
+    "effect": "The ratagast makes a free strike against the target."
 
 ```

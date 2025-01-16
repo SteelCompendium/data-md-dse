@@ -29,7 +29,7 @@
   "cost": "Signature"
   "keywords":
   - "Attack"
-  - "[[Charge]]"
+  - "Charge"
   - "Melee"
   - "Weapon"
   "distance": "Melee 2"
@@ -40,7 +40,7 @@
     "t2": "10 damage; pull 2"
     "t3": "13 damage; pull 3"
   - "name": "Effect"
-    "effect": "A target is [[Grabbed|grabbed]] if they are pulled adjacent to the sunderer. "
+    "effect": "A target is grabbed if they are pulled adjacent to the sunderer. "
 - "name": "Fearsome Bay"
   "type": "Action"
   "cost": "5 Malice"
@@ -51,8 +51,8 @@
   "target": "All enemies in the burst"
   "effects":
   - "roll": "INU RR"
-    "t1": "[[Frightened]] of the [[Minotaur|minotaur]] (save ends)"
-    "t2": "[[Frightened]] of the [[Minotaur|minotaur]] (EoT)"
+    "t1": "Frightened of the [[Minotaur|minotaur]] (save ends)"
+    "t2": "Frightened of the [[Minotaur|minotaur]] (EoT)"
     "t3": "No effect"
   - "name": "Effect"
     "effect": "The [[Minotaur|minotaur]] has **resistance** and **advantage** until the end of\
@@ -62,19 +62,19 @@
   "cost": "3 Malice"
   "keywords":
   - "Attack"
-  - "[[Charge]]"
+  - "Charge"
   - "Melee"
   - "Weapon"
   "distance": "Melee 2"
-  "target": "1 [[Grabbed|grabbed]] creature"
+  "target": "1 grabbed creature"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "6 damage; push 1; M1 [[Bleeding|bleeding]] (save ends)"
-    "t2": "10 damage; push 3; M2 [[Bleeding|bleeding]] (save ends)"
-    "t3": "13 damage; push 5; M3 [[Bleeding|bleeding]] (save ends)"
+    "t1": "6 damage; push 1; M1 bleeding (save ends)"
+    "t2": "10 damage; push 3; M2 bleeding (save ends)"
+    "t3": "13 damage; push 5; M3 bleeding (save ends)"
   - "name": "Effect"
     "effect": "The target takes 6 damage at the start of each of their turns while\
-      \ [[Bleeding|bleeding]] from this ability. "
+      \ bleeding from this ability. "
 - "name": "Retaliatory Gore"
   "type": "Triggered Action"
   "keywords":
@@ -84,6 +84,6 @@
   "target": "Triggering creature"
   "effects":
   - "name": "Effect"
-    "effect": "The sunderer [[Charge|charges]] the target using Spiked Maul. "
+    "effect": "The sunderer charges the target using Spiked Maul. "
 
 ```

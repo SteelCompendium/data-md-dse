@@ -39,8 +39,8 @@
   "effects":
   - "roll": "2d10 + 2"
     "t1": "2 damage"
-    "t2": "5 damage; M1 [[Bleeding|bleeding]] (save ends)"
-    "t3": "6 damage; M2 [[Bleeding|bleeding]] (save ends) "
+    "t2": "5 damage; M1 bleeding (save ends)"
+    "t3": "6 damage; M2 bleeding (save ends) "
 - "name": "Salt Wounds"
   "type": "Maneuver"
   "cost": "3 Malice"

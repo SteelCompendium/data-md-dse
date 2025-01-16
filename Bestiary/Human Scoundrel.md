@@ -1,7 +1,7 @@
 ```ds-statblock
-"name": "[[Human]] Scoundrel"
+"name": "Human Scoundrel"
 "ancestry":
-- "[[Human]]"
+- "Human"
 - "Humanoid"
 "roles":
 - "Ambusher"

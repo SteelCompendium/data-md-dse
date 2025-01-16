@@ -37,13 +37,13 @@
   "target": "1 creature or object"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "3 acid damage; 1 [[Dazed|dazed]] (save ends)"
-    "t2": "5 acid damage; 2 [[Dazed|dazed]] (save ends)"
-    "t3": "7 acid damage; 3 [[Restrained|restrained]] (save ends)"
+    "t1": "3 acid damage; 1 dazed (save ends)"
+    "t2": "5 acid damage; 2 dazed (save ends)"
+    "t3": "7 acid damage; 3 restrained (save ends)"
   - "name": "Effect"
-    "effect": "A size 2 or smaller creature [[Restrained|restrained]] by this attack is pulled into\
+    "effect": "A size 2 or smaller creature restrained by this attack is pulled into\
       \ one of the cube's squares and moves with the cube. The creature takes 3 acid\
-      \ damage at the start of each of their turns while [[Restrained|restrained]]. When [[Restrained|restrained]]\
+      \ damage at the start of each of their turns while restrained. When restrained\
       \ ends, the creature moves to the nearest unoccupied square adjacent to the\
       \ cube."
   - "name": "3 Malice"

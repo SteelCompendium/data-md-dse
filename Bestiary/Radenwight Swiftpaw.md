@@ -46,6 +46,6 @@
   "trigger": "An ally deals damage to the target."
   "effects":
   - "name": "Effect"
-    "effect": "The swiftpaw makes a [[Free Strike|free strike]] against the target."
+    "effect": "The swiftpaw makes a free strike against the target."
 
 ```

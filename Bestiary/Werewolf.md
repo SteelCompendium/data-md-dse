@@ -24,7 +24,7 @@
 - "name": "Solo Monster"
   "effect": "- **Solo Turns**: The werewolf takes 2 turns each round. They can use\
     \ two actions on each of their turns and can take each turn after an enemy turn\
-    \ they choose. While [[Dazed|dazed]], the werewolf can take one action and one maneuver\
+    \ they choose. While dazed, the werewolf can take one action and one maneuver\
     \ per turn. - **End Effect**: The werewolf takes 5 damage and ends one EoE effect\
     \ affecting them at the end of their turn."
 - "name": "Shapeshifter"
@@ -33,19 +33,19 @@
 - "name": "Ferocity"
   "effect": "The werewolf's abilities are capable of inflicting ferocity points on\
     \ non-stormwight enemies. If a creature has 10 or more ferocity at the start of\
-    \ their turn, they spend all their ferocity and either make a [[Free Strike|free strike]] at the\
+    \ their turn, they spend all their ferocity and either make a free strike at the\
     \ nearest creature or shift up to their speed towards the nearest creature and\
-    \ take a [[Free Strike|free strike]]. Non-stormwight creatures that take damage in this way gain\
+    \ take a free strike. Non-stormwight creatures that take damage in this way gain\
     \ 1 ferocity. All accumulated ferocity disappears after completing a respite."
 - "name": "Vukenstep"
-  "effect": "The werewolf ignores [[Difficult Terrain|difficult terrain]]."
+  "effect": "The werewolf ignores difficult terrain."
 "abilities":
 - "name": "Accursed Bite"
   "type": "Action"
   "cost": "Signature"
   "keywords":
   - "Attack"
-  - "[[Charge]]"
+  - "Charge"
   - "Melee"
   - "Weapon"
   "distance": "Melee 1"
@@ -97,7 +97,7 @@
   "effects":
   - "name": "Effect"
     "effect": "The werewolf leaps 4 squares. If they end this movement at a wall,\
-      \ the werewolf leaps off the wall 4 squares and makes a melee [[Free Strike|free strike]]. "
+      \ the werewolf leaps off the wall 4 squares and makes a melee free strike. "
 - "name": "Facepalm and Head Slam"
   "type": "Triggered Action"
   "cost": "2 Malice"
@@ -109,7 +109,7 @@
   "target": "1 creature"
   "effects":
   - "name": "Effect"
-    "effect": "Target is knocked [[Prone|prone]] and takes 5 damage before the attack begins. "
+    "effect": "Target is knocked prone and takes 5 damage before the attack begins. "
 - "name": "Howl"
   "type": "Villain Action 1"
   "keywords":
@@ -119,9 +119,9 @@
   "target": "All enemies in the burst"
   "effects":
   - "roll": "INU RR"
-    "t1": "Target moves up to their speed away from the werewolf; [[Frightened|frightened]] (save\
+    "t1": "Target moves up to their speed away from the werewolf; frightened (save\
       \ ends)"
-    "t2": "[[Frightened]] (EoT)"
+    "t2": "Frightened (EoT)"
     "t3": "no effect"
   - "name": "Effect"
     "effect": "Enemies that have 1 or more ferocity gain 4 ferocity and howl along\
@@ -152,7 +152,7 @@
   - "roll": "2d10 + 3"
     "t1": "3 damage; 2 ferocity"
     "t2": "4 damage; 4 ferocity"
-    "t3": "5 damage; 8 ferocity; [[Prone|prone]]"
+    "t3": "5 damage; 8 ferocity; prone"
   - "name": "Effect"
     "effect": "The werewolf shifts up to twice their speed either before or after\
       \ the attack."

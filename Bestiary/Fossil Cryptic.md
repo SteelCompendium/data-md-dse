@@ -10,7 +10,7 @@
 "immunities":
 - "weapon 5"
 "weaknesses": []
-"speed": "8 ([[Burrow|burrow]])"
+"speed": "8 (burrow)"
 "size": "1L"
 "stability": !!int "3"
 "free_strike": !!int "5"
@@ -23,7 +23,7 @@
 - "name": "Solo Monster"
   "effect": "- **Solo Turns**: The cryptic takes two turns each round. They can use\
     \ two actions on each of their turns and can take each turn after any enemy's\
-    \ turn. While [[Dazed|dazed]], the cryptic can take one action and one maneuver per turn.\
+    \ turn. While dazed, the cryptic can take one action and one maneuver per turn.\
     \ - **End Effect**: At the end of their turn, the cryptic can take 5 damage to\
     \ end one save ends effect affecting them. This damage can't be reduced in any\
     \ way."
@@ -32,7 +32,7 @@
     \ form. Any enemy who enters the aura for the first time in a round or starts\
     \ their turn there takes 5 damage."
 - "name": "Seismic Step"
-  "effect": "The cryptic ignores [[Difficult Terrain|difficult terrain]]. Additionally, they have line of\
+  "effect": "The cryptic ignores difficult terrain. Additionally, they have line of\
     \ effect to concealed creatures touching the ground."
 "abilities":
 - "name": "Sand Slam"
@@ -46,9 +46,9 @@
   "target": "One creature or object"
   "effects":
   - "roll": "2d10 + 3"
-    "t1": "5 damage; A2 [[Prone|prone]]"
-    "t2": "9 damage; A3 [[Prone|prone]] and can't stand (EoT)"
-    "t3": "12 damage; A4 [[Prone|prone]] and can't stand (save ends)"
+    "t1": "5 damage; A2 prone"
+    "t2": "9 damage; A3 prone and can't stand (EoT)"
+    "t3": "12 damage; A4 prone and can't stand (save ends)"
   - "name": "Effect"
     "effect": "Each enemy within 1 square of the target takes 2 damage. "
 - "name": "Stone Bone Storm"
@@ -61,8 +61,8 @@
   "effects":
   - "roll": "2d10 + 3"
     "t1": "2 damage; M2 push 2"
-    "t2": "3 damage; M3 [[Prone|prone]]"
-    "t3": "4 damage; M4 [[Prone|prone]]"
+    "t2": "3 damage; M3 prone"
+    "t3": "4 damage; M4 prone"
   - "name": "Effect"
     "effect": "The cryptic reforms their body and appears in an unoccupied space within\
       \ the line. "
@@ -76,10 +76,10 @@
   "effects":
   - "roll": "2d10 + 3"
     "t1": "2 damage; push 2"
-    "t2": "3 damage; push 3; [[Prone|prone]]"
-    "t3": "4 damage; push 4; [[Prone|prone]] "
+    "t2": "3 damage; push 3; prone"
+    "t3": "4 damage; push 4; prone "
   - "name": "Effect"
-    "effect": "The cryptic [[Burrow|burrows]] up to half their speed, then creates the burst\
+    "effect": "The cryptic burrows up to half their speed, then creates the burst\
       \ when they breach the surface."
 - "name": "Stoneshift"
   "type": "Maneuver"
@@ -116,11 +116,11 @@
   "target": "Each enemy on the ground in the burst"
   "effects":
   - "roll": "MGT RR"
-    "t1": "The target is [[Prone|prone]] and can't stand (EoT)"
-    "t2": "[[Prone]]"
+    "t1": "The target is prone and can't stand (EoT)"
+    "t2": "Prone"
     "t3": "No effect"
   - "name": "Effect"
-    "effect": "The area becomes [[Difficult Terrain|difficult terrain]]. "
+    "effect": "The area becomes difficult terrain. "
 - "name": "Final Warning Fissure"
   "type": "Villain Action 2"
   "keywords":
@@ -130,7 +130,7 @@
   "target": "Each enemy on the ground in the burst"
   "effects":
   - "roll": "AGL RR"
-    "t1": "4 damage; [[Prone|prone]]"
+    "t1": "4 damage; prone"
     "t2": "2 damage"
     "t3": "The target moves to the nearest unoccupied space outside the area."
   - "name": "Effect"
@@ -147,7 +147,7 @@
   - "roll": "2d10 + 3"
     "t1": "2 damage; vertical slide 2"
     "t2": "3 damage; vertical slide 4"
-    "t3": "4 damage; the target is [[Restrained|restrained]] against the ceiling (save ends)"
+    "t3": "4 damage; the target is restrained against the ceiling (save ends)"
   - "name": "Effect"
     "effect": "The cryptic makes an initial attack that calls down stone pillars from\
       \ the ceiling."

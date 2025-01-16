@@ -1,7 +1,7 @@
 ```ds-statblock
-"name": "[[Human]] Knave"
+"name": "Human Knave"
 "ancestry":
-- "[[Human]]"
+- "Human"
 - "Humanoid"
 "roles":
 - "Defender"
@@ -23,8 +23,8 @@
 "presence": !!int "0"
 "traits":
 - "name": "I'm Your Enemy"
-  "effect": "The knave can make a [[Free Strike|free strike]] against an adjacent creature they have\
-    \ [[Taunted|taunted]] whenever the creature deals damage to a creature other than the knave."
+  "effect": "The knave can make a free strike against an adjacent creature they have\
+    \ taunted whenever the creature deals damage to a creature other than the knave."
 - "name": "Overwhelm"
   "effect": "An enemy who starts their turn adjacent to the knave can't shift."
 - "name": "Supernatural Insight"
@@ -47,6 +47,6 @@
     "t2": "7 damage; M2 the target has a bane on their next attack"
     "t3": "10 damage; M3 the target has a double bane on their next attack"
   - "name": "Effect"
-    "effect": "[[Taunted]] (EoT). "
+    "effect": "Taunted (EoT). "
 
 ```

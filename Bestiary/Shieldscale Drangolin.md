@@ -10,7 +10,7 @@
 "stamina": !!int "40"
 "immunities": []
 "weaknesses": []
-"speed": "7 ([[Burrow|burrow]])"
+"speed": "7 (burrow)"
 "size": "3"
 "stability": !!int "0"
 "free_strike": !!int "4"
@@ -60,9 +60,9 @@
   "target": "All creatures"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "4 damage; push 1; 1 [[Prone|prone]]"
-    "t2": "7 damage; push 3; 2 [[Prone|prone]]"
-    "t3": "10 damage; push 5; 3 [[Prone|prone]]"
+    "t1": "4 damage; push 1; 1 prone"
+    "t2": "7 damage; push 3; 2 prone"
+    "t3": "10 damage; push 5; 3 prone"
   - "name": "Effect"
     "effect": "This attack has an edge against targets directly above the drangolin. "
 

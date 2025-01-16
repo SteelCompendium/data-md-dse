@@ -36,11 +36,11 @@
   "target": "3 creatures or objects"
   "effects":
   - "roll": "2d10 + 3"
-    "t1": "3 damage; pull 1; A2 [[Bleeding|bleeding]] (save ends)"
-    "t2": "7 damage; pull 1; A3 [[Bleeding|bleeding]] (save ends)"
-    "t3": "10 damage; pull 2; A4 [[Bleeding|bleeding]] (save ends)"
+    "t1": "3 damage; pull 1; A2 bleeding (save ends)"
+    "t2": "7 damage; pull 1; A3 bleeding (save ends)"
+    "t3": "10 damage; pull 2; A4 bleeding (save ends)"
   - "name": "1 Malice"
-    "effect": "One target that is adjacent to the deathrex is [[Grabbed|grabbed]] by the deathrex's\
+    "effect": "One target that is adjacent to the deathrex is grabbed by the deathrex's\
       \ mouth. "
 - "name": "Death Roll"
   "type": "Action"
@@ -50,14 +50,14 @@
   - "Melee"
   - "Weapon"
   "distance": "Melee 1"
-  "target": "1 [[Grabbed|grabbed]] creature or object"
+  "target": "1 grabbed creature or object"
   "effects":
   - "roll": "2d10 + 3"
-    "t1": "5 damage; M2 [[Dazed|dazed]] (save ends)"
-    "t2": "10 damage; M3 [[Dazed|dazed]] (save ends)"
-    "t3": "15 damage; M4 [[Dazed|dazed]] (save ends)"
+    "t1": "5 damage; M2 dazed (save ends)"
+    "t2": "10 damage; M3 dazed (save ends)"
+    "t3": "15 damage; M4 dazed (save ends)"
   - "name": "Effect"
-    "effect": "The target is released from the [[Grab|grab]] and slides 5. "
+    "effect": "The target is released from the grab and slides 5. "
 - "name": "Trundle"
   "type": "Maneuver"
   "keywords":
@@ -69,7 +69,7 @@
     "effect": "The deathrex moves up to their speed. The deathrex can make a free\
       \ strike on each creature that makes an opportunity attack against them during\
       \ this movement. "
-- "name": "Swat The [[Fly]]"
+- "name": "Swat The Fly"
   "type": "Triggered Action"
   "keywords":
   - "--"
@@ -87,7 +87,7 @@
   "target": "Self and all allies in the burst"
   "effects":
   - "name": "Effect"
-    "effect": "Each target moves up to their speed and makes a [[Free Strike|free strike]]. A target\
+    "effect": "Each target moves up to their speed and makes a free strike. A target\
       \ receives temporary Stamina equal to the amount of damage they dealt during\
       \ this action. "
 - "name": "Shed Some Skin"
@@ -112,6 +112,6 @@
   - "name": "Effect"
     "effect": "Each target moves up to their speed. Until the end of the encounter,\
       \ when a creature enters or starts their turn adjacent to a target, the target\
-      \ can make a [[Free Strike|free strike]] against them. "
+      \ can make a free strike against them. "
 
 ```

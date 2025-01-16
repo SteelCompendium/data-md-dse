@@ -22,7 +22,7 @@
 "presence": !!int "2"
 "traits":
 - "name": "Masking Glamor"
-  "effect": "The druid immediately [[Hide|hides]] at the end of their turn while in cover or\
+  "effect": "The druid immediately hides at the end of their turn while in cover or\
     \ concealment, even if they are observed."
 "abilities":
 - "name": "Entangling Vines"
@@ -36,11 +36,11 @@
   "target": "All enemies in the cube"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "3 damage; pull 1; M1 [[Slowed|slowed]] (save ends)"
-    "t2": "5 damage; pull 3; M2 [[Slowed|slowed]] (save ends)"
-    "t3": "7 damage; pull 5; M3 [[Slowed|slowed]] (save ends)"
+    "t1": "3 damage; pull 1; M1 slowed (save ends)"
+    "t2": "5 damage; pull 3; M2 slowed (save ends)"
+    "t3": "7 damage; pull 5; M3 slowed (save ends)"
   - "name": "Effect"
-    "effect": "A creature [[Slowed|slowed]] by this ability can't [[Search For Hidden Creatures|search for hidden creatures]]\
+    "effect": "A creature slowed by this ability can't search for hidden creatures\
       \ until the condition ends."
   - "name": "3 Malice"
     "effect": "The area of the cube and the potency of the effect both increase by\
@@ -54,7 +54,7 @@
   "target": "Self and 3 allies"
   "effects":
   - "name": "Effect"
-    "effect": "Each target [[Teleport|teleports]] to a square within 10 that has cover or concealment\
+    "effect": "Each target teleports to a square within 10 that has cover or concealment\
       \ from all enemies. "
 
 ```

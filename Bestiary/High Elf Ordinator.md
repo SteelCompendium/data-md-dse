@@ -11,7 +11,7 @@
 "stamina": !!int "120"
 "immunities": []
 "weaknesses": []
-"speed": "5 ([[Fly|fly]])"
+"speed": "5 (fly)"
 "size": "1M"
 "stability": !!int "0"
 "free_strike": !!int "5"
@@ -36,9 +36,9 @@
   "target": "1 creature or object"
   "effects":
   - "roll": "2d10 + 3"
-    "t1": "5 lightning damage; R2 [[Dazed|dazed]] (save ends)"
-    "t2": "8 lightning damage; R3 [[Dazed|dazed]] (save ends)"
-    "t3": "12 lightning damage; R4 [[Dazed|dazed]] (save ends)"
+    "t1": "5 lightning damage; R2 dazed (save ends)"
+    "t2": "8 lightning damage; R3 dazed (save ends)"
+    "t3": "12 lightning damage; R4 dazed (save ends)"
   - "name": "Effect"
     "effect": "High elves have edge on attacks and abilities against the target until\
       \ the start of the ordinator's next turn. "
@@ -110,7 +110,7 @@
   "target": "All allies in the burst"
   "effects":
   - "name": "Effect"
-    "effect": "Each target radiates wisps of magic and makes a [[Free Strike|free strike]] that has\
+    "effect": "Each target radiates wisps of magic and makes a free strike that has\
       \ the Magic keyword. "
 
 ```

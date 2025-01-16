@@ -12,7 +12,7 @@
 - "Corruption 5"
 - "Poison 5"
 "weaknesses": []
-"speed": "6 ([[Fly|fly]])"
+"speed": "6 (fly)"
 "size": "1M"
 "stability": !!int "1"
 "free_strike": !!int "2"
@@ -24,7 +24,7 @@
 "traits":
 - "name": "Phantom Flow"
   "effect": "Each incorporeal undead creature within 10 squares of the ghost ignores\
-    \ [[Difficult Terrain|difficult terrain]]."
+    \ difficult terrain."
 - "name": "Corruptive Phasing"
   "effect": "The ghost can move through other creatures and objects at normal speed.\
     \ The first time in a round that the ghost passes through a creature, that creature\
@@ -41,9 +41,9 @@
   "target": "Two creatures"
   "effects":
   - "roll": "2d10 + 3"
-    "t1": "2 cold damage; P2 [[Slowed|slowed]] (save ends)"
-    "t2": "5 cold damage; P3 [[Slowed|slowed]] (save ends)"
-    "t3": "6 cold damage; P2 [[Slowed|slowed]] (save ends)"
+    "t1": "2 cold damage; P2 slowed (save ends)"
+    "t2": "5 cold damage; P3 slowed (save ends)"
+    "t3": "6 cold damage; P2 slowed (save ends)"
   - "name": "Effect"
     "effect": "The next attack made against a target has edge. "
 - "name": "Haunt"
@@ -96,7 +96,7 @@
   - "name": "Effect"
     "effect": "A levitated target floats 1 square off the ground when they are first\
       \ affected, then rises 1 square at the end of each of their turns. If a levitated\
-      \ target can't already [[Fly|fly]], they can [[Fly|fly]] but are [[Slowed|slowed]] and [[Weakened|weakened]] while flying\
+      \ target can't already fly, they can fly but are slowed and weakened while flying\
       \ in this way. "
 - "name": "Awful Wail"
   "type": "Villain Action 3"

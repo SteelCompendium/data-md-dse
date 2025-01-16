@@ -1,7 +1,7 @@
 ```ds-statblock
-"name": "[[Human]] Apprentice Mage"
+"name": "Human Apprentice Mage"
 "ancestry":
-- "[[Human]]"
+- "Human"
 - "Humanoid"
 "roles":
 - "Controller"
@@ -43,6 +43,6 @@
     "t3": "5 lightning damage"
   - "name": "Effect"
     "effect": "If the apprentice mage doesn't use a maneuver or a move action this\
-      \ turn, the target is [[Slowed|slowed]] (EoT). "
+      \ turn, the target is slowed (EoT). "
 
 ```

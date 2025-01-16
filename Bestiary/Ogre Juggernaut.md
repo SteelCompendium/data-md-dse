@@ -33,7 +33,7 @@
   "cost": "Signature"
   "keywords":
   - "Attack"
-  - "[[Charge]]"
+  - "Charge"
   - "Melee"
   - "Weapon"
   "distance": "Melee 2"
@@ -44,8 +44,8 @@
     "t2": "8 damage; A2 vertical push 3"
     "t3": "11 damage; A3 vertical slide 5"
   - "name": "1 Malice"
-    "effect": "Each target is M2 [[Bleeding|bleeding]] (save ends). "
-- "name": "Earth Breaking [[Jump]]"
+    "effect": "Each target is M2 bleeding (save ends). "
+- "name": "Earth Breaking Jump"
   "type": "Action"
   "keywords":
   - "Area"
@@ -55,9 +55,9 @@
   "target": "All creatures in the burst"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "3 damage; M1 [[Prone|prone]]"
-    "t2": "4 damage; push 2; M2 [[Prone|prone]]"
-    "t3": "5 damage; push 4; M3 [[Prone|prone]] "
+    "t1": "3 damage; M1 prone"
+    "t2": "4 damage; push 2; M2 prone"
+    "t3": "5 damage; push 4; M3 prone "
   - "name": "Effect"
     "effect": "The juggernaut leaps up to 6 squares before making the attack. "
 - "name": "Horrible Bellow"
@@ -70,11 +70,11 @@
   "target": "All enemies in the burst"
   "effects":
   - "roll": "INU RR"
-    "t1": "[[Frightened]] (save ends)"
-    "t2": "[[Frightened]] (EoT)"
+    "t1": "Frightened (save ends)"
+    "t2": "Frightened (EoT)"
     "t3": "No effect"
   - "name": "Effect"
-    "effect": "Ogres have **advantage** on attacks against creatures [[Frightened|frightened]] by\
+    "effect": "Ogres have **advantage** on attacks against creatures frightened by\
       \ this ability. "
 - "name": "Hrraaaaaagh!"
   "type": "Triggered Action"
@@ -85,6 +85,6 @@
   "target": "1 creature or object"
   "effects":
   - "name": "Effect"
-    "effect": "The juggernaut moves up to their speed and makes a [[Free Strike|free strike]]. "
+    "effect": "The juggernaut moves up to their speed and makes a free strike. "
 
 ```

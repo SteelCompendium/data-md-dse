@@ -1,7 +1,7 @@
 ```ds-statblock
-"name": "[[Dwarf]] Grenadier"
+"name": "Dwarf Grenadier"
 "ancestry":
-- "[[Dwarf]]"
+- "Dwarf"
 - "Humanoid"
 "roles":
 - "Hexer"
@@ -35,11 +35,11 @@
   "target": "All enemies"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "3 damage; push 1; M1 [[Slowed|slowed]] (save ends)"
-    "t2": "5 damage; push 3; M2 [[Slowed|slowed]] (save ends)"
-    "t3": "7 damage; push 5; M3 [[Slowed|slowed]] (save ends)"
+    "t1": "3 damage; push 1; M1 slowed (save ends)"
+    "t2": "5 damage; push 3; M2 slowed (save ends)"
+    "t3": "7 damage; push 5; M3 slowed (save ends)"
   - "name": "Effect"
-    "effect": "A target [[Restrained|restrained]] by a [[Dwarf|dwarf]] can be pushed by this ability. "
+    "effect": "A target restrained by a dwarf can be pushed by this ability. "
 - "name": "Sleep Grenade"
   "type": "Action"
   "cost": "3 Malice"
@@ -50,11 +50,11 @@
   "target": "All enemies"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "3 poison damage; I1 [[Dazed|dazed]] (save ends)"
-    "t2": "5 poison damage; I2 [[Dazed|dazed]] (save ends)"
-    "t3": "7 poison damage; I3 [[Dazed|dazed]] (save ends)"
+    "t1": "3 poison damage; I1 dazed (save ends)"
+    "t2": "5 poison damage; I2 dazed (save ends)"
+    "t3": "7 poison damage; I3 dazed (save ends)"
   - "name": "Effect"
-    "effect": "A creature [[Dazed|dazed]] by this ability has -1 to all characteristics while\
+    "effect": "A creature dazed by this ability has -1 to all characteristics while\
       \ resisting potent effects until the condition ends. "
 
 ```

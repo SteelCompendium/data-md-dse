@@ -22,8 +22,8 @@
 "presence": !!int "0"
 "traits":
 - "name": "Reptilian Escape"
-  "effect": "While the grunt still has a tail, whenever the grunt is [[Grabbed|grabbed]], [[Slowed|slowed]],\
-    \ [[Weakened|weakened]], or knocked [[Prone|prone]], the grunt can lose their tail to immediately end\
+  "effect": "While the grunt still has a tail, whenever the grunt is grabbed, slowed,\
+    \ weakened, or knocked prone, the grunt can lose their tail to immediately end\
     \ the effect and shift 2."
 "abilities":
 - "name": "Snap and Toss"

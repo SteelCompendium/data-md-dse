@@ -22,8 +22,8 @@
 "presence": !!int "0"
 "traits":
 - "name": "Reptilian Escape"
-  "effect": "While the tonguer still has a tail, whenever the tonguer is [[Grabbed|grabbed]],\
-    \ [[Slowed|slowed]], [[Weakened|weakened]], or knocked [[Prone|prone]], the tonguer can lose their tail to immediately\
+  "effect": "While the tonguer still has a tail, whenever the tonguer is grabbed,\
+    \ slowed, weakened, or knocked prone, the tonguer can lose their tail to immediately\
     \ end the effect and shift 2."
 "abilities":
 - "name": "Tonguelash"
@@ -42,6 +42,6 @@
     "t3": "6 damage; pull 3 or shift 3 towards target"
   - "name": "Effect"
     "effect": "If the target ends up in a space adjacent to the tonguer, they are\
-      \ also [[Grabbed|grabbed]]. "
+      \ also grabbed. "
 
 ```
