@@ -22,7 +22,7 @@
 "traits":
 - "name": "Solo Monster"
   "effect": "The hag takes 2 turns each round, using two actions on each turn, and\
-    \ can act after an enemy's turn of their choice. While dazed, the hag can take\
+    \ can act after an enemy's turn of their choice. While [[Dazed|dazed]], the hag can take\
     \ one action and one maneuver per turn."
 - "name": "End Effect"
   "effect": "At the end of their turn, the hag can take 5 damage to end one \"save\
@@ -41,11 +41,11 @@
   "target": "Two creatures or objects"
   "effects":
   - "roll": "2d10 + 3"
-    "t1": "6 corruption damage; A2 weakened (save ends)"
-    "t2": "10 corruption damage; A3 weakened (save ends)"
-    "t3": "13 corruption damage; A4 weakened (save ends)"
+    "t1": "6 corruption damage; A2 [[Weakened|weakened]] (save ends)"
+    "t2": "10 corruption damage; A3 [[Weakened|weakened]] (save ends)"
+    "t3": "13 corruption damage; A4 [[Weakened|weakened]] (save ends)"
   - "name": "Effect"
-    "effect": "A creature weakened by this ability takes 1d6 corruption damage at\
+    "effect": "A creature [[Weakened|weakened]] by this ability takes 1d6 corruption damage at\
       \ the start of each of their turns until the condition ends. "
 - "name": "Soul Steal"
   "type": "Action"
@@ -89,11 +89,11 @@
   "target": "All enemies in the burst"
   "effects":
   - "roll": "REA RR"
-    "t1": "Vertical slide 5; restrained (EoT)"
-    "t2": "Slide 3; slowed (EoT)"
+    "t1": "Vertical slide 5; [[Restrained|restrained]] (EoT)"
+    "t2": "Slide 3; [[Slowed|slowed]] (EoT)"
     "t3": "Slide 2"
   - "name": "Effect"
-    "effect": "A creature restrained by this ability that is force moved vertically\
+    "effect": "A creature [[Restrained|restrained]] by this ability that is force moved vertically\
       \ is suspended in midair until the condition ends. "
 - "name": "Snackies for Sweeties"
   "type": "Villain Action 1"
@@ -104,9 +104,9 @@
   "target": "All creatures"
   "effects":
   - "roll": "2d10 + 3"
-    "t1": "4 poison damage; A2 bleeding (save ends)"
-    "t2": "6 poison damage; A3 bleeding (save ends)"
-    "t3": "4 poison damage; A4 bleeding (save ends)"
+    "t1": "4 poison damage; A2 [[Bleeding|bleeding]] (save ends)"
+    "t2": "6 poison damage; A3 [[Bleeding|bleeding]] (save ends)"
+    "t3": "4 poison damage; A4 [[Bleeding|bleeding]] (save ends)"
   - "name": "Effect"
     "effect": "The hag attaches an ornate explosive pastry to each target. Roll power\
       \ at the end of the round, targeting each creature with a pastry attached to\
@@ -139,9 +139,9 @@
   "target": "All creatures in the cube"
   "effects":
   - "roll": "2d10 + 3"
-    "t1": "6 fire damage; A2 weakened (save ends)"
-    "t2": "10 fire damage; A3 weakened (save ends)"
-    "t3": "13 fire damage; A4 weakened (save ends)"
+    "t1": "6 fire damage; A2 [[Weakened|weakened]] (save ends)"
+    "t2": "10 fire damage; A3 [[Weakened|weakened]] (save ends)"
+    "t3": "13 fire damage; A4 [[Weakened|weakened]] (save ends)"
   - "name": "Effect"
     "effect": "The hag turns the affected area into a roiling oven. The hag gains\
       \ one edge on attacks and abilities against a creature each time they enter\

@@ -39,7 +39,7 @@
   "effects":
   - "roll": "2d10 + 2"
     "t1": "2 damage"
-    "t2": "3 damage; M1 slowed (save ends)"
-    "t3": "4 damage; M2 prone if size 1, slowed (save ends) otherwise "
+    "t2": "3 damage; M1 [[Slowed|slowed]] (save ends)"
+    "t3": "4 damage; M2 [[Prone|prone]] if size 1, [[Slowed|slowed]] (save ends) otherwise "
 
 ```

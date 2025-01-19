@@ -28,7 +28,7 @@
 - "name": "Arise"
   "effect": "The first time the ghoul is reduced to Stamina 0 by damage that isn't\
     \ fire damage or holy damage and their body isn't destroyed, they regain half\
-    \ their Stamina and fall prone."
+    \ their Stamina and fall [[Prone|prone]]."
 "abilities":
 - "name": "Razor Claws"
   "type": "Action"
@@ -42,9 +42,9 @@
   "target": "One creature or object"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "2 damage; M1 bleeding (save ends)"
-    "t2": "4 damage; M2 bleeding (save ends)"
-    "t3": "5 damage; M3 bleeding (save ends) "
+    "t1": "2 damage; M1 [[Bleeding|bleeding]] (save ends)"
+    "t2": "4 damage; M2 [[Bleeding|bleeding]] (save ends)"
+    "t3": "5 damage; M3 [[Bleeding|bleeding]] (save ends) "
 - "name": "Leap"
   "type": "Maneuver"
   "keywords":
@@ -54,6 +54,6 @@
   "effects":
   - "name": "Effect"
     "effect": "The ghoul leaps 3 squares. If they land on a size 1 enemy, that enemy\
-      \ is knocked prone and the ghoul makes a [[Free Strike|free strike]] against them. "
+      \ is knocked [[Prone|prone]] and the ghoul makes a [[Free Strike|free strike]] against them. "
 
 ```

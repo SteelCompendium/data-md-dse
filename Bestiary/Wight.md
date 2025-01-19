@@ -25,7 +25,7 @@
 - "name": "Arise"
   "effect": "The first time the wight is reduced to Stamina 0 by damage that isn't\
     \ fire damage or holy damage and their body isn't destroyed, they regain half\
-    \ their Stamina and fall prone."
+    \ their Stamina and fall [[Prone|prone]]."
 "abilities":
 - "name": "Lifestealer Longsword"
   "type": "Action"
@@ -39,8 +39,8 @@
   "effects":
   - "roll": "2d10 + 2"
     "t1": "2 corruption damage"
-    "t2": "4 corruption damage; M1 slowed (save ends)"
-    "t3": "5 corruption damage; M2 slowed and weakened (save ends)"
+    "t2": "4 corruption damage; M1 [[Slowed|slowed]] (save ends)"
+    "t3": "5 corruption damage; M2 [[Slowed|slowed]] and [[Weakened|weakened]] (save ends)"
   - "name": "Effect"
     "effect": "The target appears to rapidly age each time they take damage from this\
       \ attack. The target regains their former appearance when the wight is destroyed. "

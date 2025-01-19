@@ -22,7 +22,7 @@
 "reason": !!int "0"
 "presence": !!int "1"
 "traits":
-- "name": "Hunter's Glamor"
+- "name": "[[Hunter]]'s Glamor"
   "effect": "The scout immediately [[Hide|hides]] at the end of their turn, even if they are\
     \ observed."
 "abilities":

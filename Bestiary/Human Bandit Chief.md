@@ -59,9 +59,9 @@
   "target": "One enemy or object"
   "effects":
   - "roll": "2d10 + 3"
-    "t1": "Push 1; M2 prone"
-    "t2": "Push 2; M3 prone"
-    "t3": "Push 4; M4 prone"
+    "t1": "Push 1; M2 [[Prone|prone]]"
+    "t2": "Push 2; M3 [[Prone|prone]]"
+    "t3": "Push 4; M4 [[Prone|prone]]"
   - "name": "2 Malice"
     "effect": "This ability targets each enemy adjacent to the bandit chief. "
 - "name": "Bloodstones"

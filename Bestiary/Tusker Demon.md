@@ -25,7 +25,7 @@
 - "name": "Trample"
   "effect": "The tusker demon can move through enemies and objects at normal speed.\
     \ When the tusker enters a creature's space for the first time on their turn,\
-    \ the creature takes 2d6 damage. The tusker demon can end their turn in a prone\
+    \ the creature takes 2d6 damage. The tusker demon can end their turn in a [[Prone|prone]]\
     \ size 1 creature's space, preventing the creature from getting up."
 - "name": "Lethe"
   "effect": "While winded, the tusker demon has edge on attacks, and attacks have\
@@ -45,7 +45,7 @@
   - "roll": "2d10 + 2"
     "t1": "4 damage; push 1"
     "t2": "7 damage; push 2"
-    "t3": "10 damage; push 3; prone"
+    "t3": "10 damage; push 3; [[Prone|prone]]"
   - "name": "Effect"
     "effect": "This attack has edge while charging. "
 - "name": "Vengeful Tusker"

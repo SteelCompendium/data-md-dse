@@ -40,9 +40,9 @@
   "target": "Each enemy in the burst"
   "effects":
   - "roll": "2d10 + 3"
-    "t1": "3 psychic damage; I2 slowed (save ends)"
-    "t2": "5 psychic damage; I3 slowed (save ends)"
-    "t3": "7 psychic damage; I4 slowed (save ends)"
+    "t1": "3 psychic damage; I2 [[Slowed|slowed]] (save ends)"
+    "t2": "5 psychic damage; I3 [[Slowed|slowed]] (save ends)"
+    "t3": "7 psychic damage; I4 [[Slowed|slowed]] (save ends)"
   - "name": "Effect"
     "effect": "An ally within 10 squares of the chorogaunt can shift up to their speed. "
 - "name": "Chaotic Entrancing Harmony"
@@ -74,7 +74,7 @@
   "target": "Three enemies"
   "effects":
   - "name": "Effect"
-    "effect": "Each target chooses to either take 5 psychic damage or be frightened\
+    "effect": "Each target chooses to either take 5 psychic damage or be [[Frightened|frightened]]\
       \ of the chorogaunt (EoT). "
 - "name": "Bully the Weak"
   "type": "Villain Action 2"

@@ -60,9 +60,9 @@
   "target": "All creatures"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "4 damage; push 1; 1 prone"
-    "t2": "7 damage; push 3; 2 prone"
-    "t3": "10 damage; push 5; 3 prone"
+    "t1": "4 damage; push 1; 1 [[Prone|prone]]"
+    "t2": "7 damage; push 3; 2 [[Prone|prone]]"
+    "t3": "10 damage; push 5; 3 [[Prone|prone]]"
   - "name": "Effect"
     "effect": "This attack has an edge against targets directly above the drangolin. "
 

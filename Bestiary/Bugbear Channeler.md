@@ -47,9 +47,9 @@
   "target": "All enemies in the burst"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "2 damage; M1 bleeding (save ends)"
-    "t2": "3 damage; M2 bleeding (save ends)"
-    "t3": "4 damage; M3 bleeding (save ends)"
+    "t1": "2 damage; M1 [[Bleeding|bleeding]] (save ends)"
+    "t2": "3 damage; M2 [[Bleeding|bleeding]] (save ends)"
+    "t3": "4 damage; M3 [[Bleeding|bleeding]] (save ends)"
   - "name": "Effect"
     "effect": "The channeler chooses one of the following damage types for the damage:\
       \ cold, fire, corruption, lightning, or poison. "
@@ -64,19 +64,19 @@
   "target": "1 creature"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "5 damage; P1 slowed (save ends)"
+    "t1": "5 damage; P1 [[Slowed|slowed]] (save ends)"
     "t2": "8 damage; P2 shapechanged (save ends)"
     "t3": "11 damage; P3 shapechanged (save ends)"
   - "name": "Effect"
     "effect": "A shapechanged creature becomes plant-like with bark skin and leafy\
-      \ hair. They are slowed and have fire weakness 10 while they have this effect. "
+      \ hair. They are [[Slowed|slowed]] and have fire weakness 10 while they have this effect. "
 - "name": "Throw"
   "type": "Maneuver"
   "keywords":
   - "Attack"
   - "Melee"
   "distance": "Melee 1"
-  "target": "1 creature or object grabbed by the channeler"
+  "target": "1 creature or object [[Grabbed|grabbed]] by the channeler"
   "effects":
   - "name": "Effect"
     "effect": "Vertical push 3; ally targets don't take damage from being force moved. "
@@ -89,7 +89,7 @@
   "trigger": "The target is force moved into a square adjacent to the channeler."
   "effects":
   - "name": "Effect"
-    "effect": "The target is grabbed by the channeler. "
+    "effect": "The target is [[Grabbed|grabbed]] by the channeler. "
 - "name": "Brambleguard"
   "type": "Triggered Action"
   "cost": "1 Malice"

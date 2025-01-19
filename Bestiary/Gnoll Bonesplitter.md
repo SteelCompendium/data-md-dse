@@ -36,11 +36,11 @@
   "effects":
   - "roll": "2d10 + 2"
     "t1": "4 damage; push 2"
-    "t2": "7 damage; grabbed; M2 target has a bane on attempts to [[Escape Grab|escape grab]]"
-    "t3": "10 damage; grabbed; M3 target has a bane on attempts to [[Escape Grab|escape grab]]"
+    "t2": "7 damage; [[Grabbed|grabbed]]; M2 target has a bane on attempts to [[Escape Grab|escape grab]]"
+    "t3": "10 damage; [[Grabbed|grabbed]]; M3 target has a bane on attempts to [[Escape Grab|escape grab]]"
   - "name": "Effect"
     "effect": "The bonesplitter can't use three-tail flail on another target while\
-      \ the current target is grabbed. "
+      \ the current target is [[Grabbed|grabbed]]. "
 - "name": "Cackletongue"
   "type": "Maneuver"
   "cost": "3 Malice"

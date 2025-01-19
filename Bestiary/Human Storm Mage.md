@@ -58,8 +58,8 @@
   "target": "All creatures and objects"
   "effects":
   - "roll": "MGT RR"
-    "t1": "Slide 5; slowed (save ends)"
-    "t2": "Slide 3; slowed (EoT)"
+    "t1": "Slide 5; [[Slowed|slowed]] (save ends)"
+    "t2": "Slide 3; [[Slowed|slowed]] (EoT)"
     "t3": "Slide 1"
   - "name": "Effect"
     "effect": "The gust of wind disperses gas or vapor and extinguishes any flames,\

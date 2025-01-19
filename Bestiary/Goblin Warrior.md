@@ -49,8 +49,8 @@
   "target": "One creature"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "3 damage; M1 bleeding (save ends)"
-    "t2": "7 damage; M2 bleeding (save ends)"
-    "t3": "8 damage; M3 bleeding (save ends) "
+    "t1": "3 damage; M1 [[Bleeding|bleeding]] (save ends)"
+    "t2": "7 damage; M2 [[Bleeding|bleeding]] (save ends)"
+    "t3": "8 damage; M3 [[Bleeding|bleeding]] (save ends) "
 
 ```

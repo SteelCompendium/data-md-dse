@@ -42,7 +42,7 @@
     "t2": "8 damage; pull 3"
     "t3": "11 damage; pull 4"
   - "name": "Effect"
-    "effect": "Taunted (EoT). "
+    "effect": "[[Taunted]] (EoT). "
 - "name": "Tongue Pull"
   "type": "Maneuver"
   "cost": "2 Malice"

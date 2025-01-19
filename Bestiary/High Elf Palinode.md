@@ -37,12 +37,12 @@
   "target": "1 creature"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "3 psychic damage; I1 weakened (save ends)"
-    "t2": "5 psychic damage; I2 weakened (save ends)"
-    "t3": "7 psychic damage; I3 weakened (save ends)"
+    "t1": "3 psychic damage; I1 [[Weakened|weakened]] (save ends)"
+    "t2": "5 psychic damage; I2 [[Weakened|weakened]] (save ends)"
+    "t3": "7 psychic damage; I3 [[Weakened|weakened]] (save ends)"
   - "name": "2 Malice"
     "effect": "The potency of this ability increases by 1. If the target is still\
-      \ weakened by this ability at the end of the encounter, they cannot take a respite\
+      \ [[Weakened|weakened]] by this ability at the end of the encounter, they cannot take a respite\
       \ activity during their next respite. "
 - "name": "Recall"
   "type": "Maneuver"

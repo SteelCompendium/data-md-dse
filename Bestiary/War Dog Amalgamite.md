@@ -35,14 +35,14 @@
   "target": "Two creatures or objects"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "3 damage; A1 grabbed"
-    "t2": "4 damage; A2 grabbed"
-    "t3": "5 damage; A3 grabbed"
+    "t1": "3 damage; A1 [[Grabbed|grabbed]]"
+    "t2": "4 damage; A2 [[Grabbed|grabbed]]"
+    "t3": "5 damage; A3 [[Grabbed|grabbed]]"
   - "name": "Special"
     "effect": "The amalgamite can [[Grab|grab]] up to four creatures."
   - "name": "5 Malice"
     "effect": "The amalgamite deals an additional 4 damage to each creature they have\
-      \ grabbed and regains Stamina equal to the damage dealt. "
+      \ [[Grabbed|grabbed]] and regains Stamina equal to the damage dealt. "
 - "name": "Posthumous Promotion"
   "type": "Maneuver"
   "keywords":

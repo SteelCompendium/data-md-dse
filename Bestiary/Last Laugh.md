@@ -40,9 +40,9 @@
   "target": "2 creatures or objects"
   "effects":
   - "roll": "2d10 + 3"
-    "t1": "4 damage; A2 bleeding (save ends)"
-    "t2": "7 damage; A3 bleeding (save ends)"
-    "t3": "10 damage; A4 bleeding and dazed (save ends)"
+    "t1": "4 damage; A2 [[Bleeding|bleeding]] (save ends)"
+    "t2": "7 damage; A3 [[Bleeding|bleeding]] (save ends)"
+    "t3": "10 damage; A4 [[Bleeding|bleeding]] and [[Dazed|dazed]] (save ends)"
   - "name": "Effect"
     "effect": "An ally targeted by this ability makes a [[Free Strike|free strike]] instead of taking\
       \ damage. "
@@ -68,11 +68,11 @@
   "target": "All enemies"
   "effects":
   - "roll": "INU RR"
-    "t1": "Frightened of the last laugh (save ends)"
-    "t2": "Frightened of the last laugh (EoT)"
+    "t1": "[[Frightened]] of the last laugh (save ends)"
+    "t2": "[[Frightened]] of the last laugh (EoT)"
     "t3": "No effect"
   - "name": "Effect"
-    "effect": "While frightened by this ability, targets laugh uncontrollably and\
+    "effect": "While [[Frightened|frightened]] by this ability, targets laugh uncontrollably and\
       \ cannot use triggered actions. "
 - "name": "Call Up From The Abyss"
   "type": "Villain Action 2"
@@ -93,6 +93,6 @@
   "effects":
   - "name": "Effect"
     "effect": "Each target moves up to their speed and makes a [[Free Strike|free strike]]. Creatures\
-      \ that take damage from this villain action are also knocked prone."
+      \ that take damage from this villain action are also knocked [[Prone|prone]]."
 
 ```

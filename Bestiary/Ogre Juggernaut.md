@@ -21,8 +21,8 @@
 "presence": !!int "-1"
 "traits":
 - "name": "Destructive Path"
-  "effect": "The juggernaut automatically destroys unattended, mundane size 1 objects\
-    \ in their path during their movement. They can break through any mundane wall\
+  "effect": "The juggernaut automatically destroys unattended, [[Mundane|mundane]] size 1 objects\
+    \ in their path during their movement. They can break through any [[Mundane|mundane]] wall\
     \ made of wood, stone, or a similarly sturdy material in this way, so long as\
     \ the wall is no more than 1 square thick."
 - "name": "Defiant Anger"
@@ -44,7 +44,7 @@
     "t2": "8 damage; A2 vertical push 3"
     "t3": "11 damage; A3 vertical slide 5"
   - "name": "1 Malice"
-    "effect": "Each target is M2 bleeding (save ends). "
+    "effect": "Each target is M2 [[Bleeding|bleeding]] (save ends). "
 - "name": "Earth Breaking [[Jump]]"
   "type": "Action"
   "keywords":
@@ -55,9 +55,9 @@
   "target": "All creatures in the burst"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "3 damage; M1 prone"
-    "t2": "4 damage; push 2; M2 prone"
-    "t3": "5 damage; push 4; M3 prone "
+    "t1": "3 damage; M1 [[Prone|prone]]"
+    "t2": "4 damage; push 2; M2 [[Prone|prone]]"
+    "t3": "5 damage; push 4; M3 [[Prone|prone]] "
   - "name": "Effect"
     "effect": "The juggernaut leaps up to 6 squares before making the attack. "
 - "name": "Horrible Bellow"
@@ -70,11 +70,11 @@
   "target": "All enemies in the burst"
   "effects":
   - "roll": "INU RR"
-    "t1": "Frightened (save ends)"
-    "t2": "Frightened (EoT)"
+    "t1": "[[Frightened]] (save ends)"
+    "t2": "[[Frightened]] (EoT)"
     "t3": "No effect"
   - "name": "Effect"
-    "effect": "Ogres have **advantage** on attacks against creatures frightened by\
+    "effect": "Ogres have **advantage** on attacks against creatures [[Frightened|frightened]] by\
       \ this ability. "
 - "name": "Hrraaaaaagh!"
   "type": "Triggered Action"

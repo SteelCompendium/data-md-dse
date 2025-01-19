@@ -37,7 +37,7 @@
   "effects":
   - "roll": "2d10 + 2"
     "t1": "2 damage"
-    "t2": "4 damage; grabbed"
-    "t3": "5 damage; grabbed "
+    "t2": "4 damage; [[Grabbed|grabbed]]"
+    "t3": "5 damage; [[Grabbed|grabbed]] "
 
 ```

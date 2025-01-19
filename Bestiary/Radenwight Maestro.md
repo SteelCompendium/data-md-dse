@@ -50,8 +50,8 @@
   "target": "Two enemies"
   "effects":
   - "roll": "PRS RR"
-    "t1": "Slowed (save ends)"
-    "t2": "Slowed (EoT)"
+    "t1": "[[Slowed]] (save ends)"
+    "t2": "[[Slowed]] (EoT)"
     "t3": "No effect"
   - "name": "3 Malice"
     "effect": "Each ally within 3 of a target has their speed increased by 2 until\

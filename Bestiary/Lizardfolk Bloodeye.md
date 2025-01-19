@@ -21,8 +21,8 @@
 "presence": !!int "0"
 "traits":
 - "name": "Reptilian Escape"
-  "effect": "While the bloodeye still has a tail, whenever the bloodeye is grabbed,\
-    \ slowed, weakened, or knocked prone, the bloodeye can lose their tail to immediately\
+  "effect": "While the bloodeye still has a tail, whenever the bloodeye is [[Grabbed|grabbed]],\
+    \ [[Slowed|slowed]], [[Weakened|weakened]], or knocked [[Prone|prone]], the bloodeye can lose their tail to immediately\
     \ end the effect and shift 2."
 "abilities":
 - "name": "Bola Knock"
@@ -37,8 +37,8 @@
   "effects":
   - "roll": "2d10 + 2"
     "t1": "3 damage"
-    "t2": "5 damage; A1 restrained (save ends)"
-    "t3": "7 damage; A2 restrained (save ends) "
+    "t2": "5 damage; A1 [[Restrained|restrained]] (save ends)"
+    "t3": "7 damage; A2 [[Restrained|restrained]] (save ends) "
 - "name": "Bloodshot"
   "type": "Action"
   "cost": "2 Malice"

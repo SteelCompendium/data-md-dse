@@ -34,8 +34,8 @@
   "effects":
   - "roll": "2d10 + 2"
     "t1": "5 damage"
-    "t2": "9 damage; one target is grabbed; one target gets push 2"
-    "t3": "12 damage; one target is grabbed; one target gets vertical push 3"
+    "t2": "9 damage; one target is [[Grabbed|grabbed]]; one target gets push 2"
+    "t3": "12 damage; one target is [[Grabbed|grabbed]]; one target gets vertical push 3"
   - "name": "5 Malice"
     "effect": "The distance becomes 1 Burst, the Attack keyword is replaced with Area,\
       \ and the roughneck targets all enemies instead. "
@@ -49,9 +49,9 @@
   "target": "1 creature or object"
   "effects":
   - "roll": "2d10 + 3"
-    "t1": "5 damage; M1 prone"
-    "t2": "9 damage; M2 prone"
-    "t3": "12 damage; M3 prone"
+    "t1": "5 damage; M1 [[Prone|prone]]"
+    "t2": "9 damage; M2 [[Prone|prone]]"
+    "t3": "12 damage; M3 [[Prone|prone]]"
   - "name": "Effect"
     "effect": "The roughneck leaps 5 to an unoccupied space adjacent to the target\
       \ before making the attack. "
@@ -61,12 +61,12 @@
   "keywords":
   - "Melee"
   "distance": "Melee 1"
-  "target": "1 creature or object grabbed by the roughneck"
+  "target": "1 creature or object [[Grabbed|grabbed]] by the roughneck"
   "effects":
   - "name": "Effect"
     "effect": "The roughneck moves up to their speed, dragging the target across the\
       \ ground. The target takes 1 damage for each square they were dragged through\
-      \ before being released prone. Each square the target was dragged through becomes\
+      \ before being released [[Prone|prone]]. Each square the target was dragged through becomes\
       \ [[Difficult Terrain|difficult terrain]]. "
 - "name": "Throw"
   "type": "Maneuver"
@@ -74,7 +74,7 @@
   - "Attack"
   - "Melee"
   "distance": "Melee 1"
-  "target": "1 creature or object grabbed by the roughneck"
+  "target": "1 creature or object [[Grabbed|grabbed]] by the roughneck"
   "effects":
   - "name": "Effect"
     "effect": "Vertical push 5. Ally targets don't take damage from being force moved. "
@@ -87,7 +87,7 @@
   "trigger": "The target is force moved into a square adjacent to the roughneck."
   "effects":
   - "name": "Effect"
-    "effect": "The target is grabbed by the roughneck. "
+    "effect": "The target is [[Grabbed|grabbed]] by the roughneck. "
 - "name": "Flying Sawblade"
   "type": "Triggered Action"
   "keywords":

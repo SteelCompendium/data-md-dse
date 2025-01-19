@@ -26,7 +26,7 @@
 - "name": "Mounted Stability"
   "effect": "The wodenelg's rider has **+3** to Stability."
 - "name": "Shared Glamor"
-  "effect": "If the wodenelg's rider has the Masking Glamor or Hunter's Glamor trait,\
+  "effect": "If the wodenelg's rider has the Masking Glamor or [[Hunter]]'s Glamor trait,\
     \ they also gain the trait's benefits."
 "abilities":
 - "name": "Gore"

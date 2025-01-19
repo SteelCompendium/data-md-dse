@@ -38,7 +38,7 @@
   - "roll": "2d10 + 2"
     "t1": "5 damage"
     "t2": "8 damage"
-    "t3": "11 damage; one target is grabbed"
+    "t3": "11 damage; one target is [[Grabbed|grabbed]]"
   - "name": "Effect"
     "effect": "1 ally within 5 of the commander has an edge on their next attack until\
       \ the start of the commander's next turn. "
@@ -68,7 +68,7 @@
   - "Attack"
   - "Melee"
   "distance": "Melee 1"
-  "target": "1 creature or object grabbed by the commander"
+  "target": "1 creature or object [[Grabbed|grabbed]] by the commander"
   "effects":
   - "name": "Effect"
     "effect": "Vertical push 4; ally targets don't take damage from being force moved. "
@@ -81,6 +81,6 @@
   "trigger": "The target is force moved into a square adjacent to the commander."
   "effects":
   - "name": "Effect"
-    "effect": "The target is grabbed by the commander. "
+    "effect": "The target is [[Grabbed|grabbed]] by the commander. "
 
 ```

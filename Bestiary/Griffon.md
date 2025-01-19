@@ -24,7 +24,7 @@
   "effect": "Creatures have a double bane on escaping the griffon's [[Grab|grab]]."
 - "name": "Steady"
   "effect": "Creatures have a bane on power rolls that could knock the griffon or\
-    \ their rider prone."
+    \ their rider [[Prone|prone]]."
 "abilities":
 - "name": "Claw Swipes"
   "type": "Action"
@@ -53,7 +53,7 @@
   "target": "All enemies"
   "t1": "2 damage; A1 push 2"
   "t2": "3 damage; A2 push 3"
-  "t3": "4 damage; A3 push 4 and prone "
+  "t3": "4 damage; A3 push 4 and [[Prone|prone]] "
   "effects":
   - "name": "Effect"
     "effect": "The griffon flies up to half their speed towards the ground and then\

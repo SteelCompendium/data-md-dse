@@ -22,7 +22,7 @@
 "presence": !!int "1"
 "traits":
 - "name": "Call to the Wall"
-  "effect": "The shieldwall inflicts taunted (EoT) on a creature whenever they deal\
+  "effect": "The shieldwall inflicts [[Taunted|taunted]] (EoT) on a creature whenever they deal\
     \ damage to the shieldwall or take damage from the shieldwall."
 "abilities":
 - "name": "Wide Axe"
@@ -41,7 +41,7 @@
     "t3": "11 damage; slide 1"
   - "name": "Effect"
     "effect": "The shieldwall can shift 1 to remain adjacent to the target. A target\
-      \ restrained by a [[Dwarf|dwarf]] can be slid by this attack."
+      \ [[Restrained|restrained]] by a [[Dwarf|dwarf]] can be slid by this attack."
   - "name": "3 Malice"
     "effect": "The shieldwall targets an additional creature or object. "
 - "name": "Intercepting Shield"

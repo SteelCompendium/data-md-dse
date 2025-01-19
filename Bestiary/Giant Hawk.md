@@ -34,9 +34,9 @@
   "target": "One creature or object"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "3 damage; M2 grabbed"
-    "t2": "5 damage; M3 grabbed"
-    "t3": "7 damage; grabbed "
+    "t1": "3 damage; M2 [[Grabbed|grabbed]]"
+    "t2": "5 damage; M3 [[Grabbed|grabbed]]"
+    "t3": "7 damage; [[Grabbed|grabbed]] "
 - "name": "Dive"
   "type": "Maneuver"
   "effects":

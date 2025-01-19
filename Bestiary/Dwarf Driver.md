@@ -39,6 +39,6 @@
     "t2": "4 damage; push 2"
     "t3": "5 damage; push 4"
   - "name": "Effect"
-    "effect": "A target restrained by a [[Dwarf|dwarf]] can be pushed by this attack."
+    "effect": "A target [[Restrained|restrained]] by a [[Dwarf|dwarf]] can be pushed by this attack."
 
 ```

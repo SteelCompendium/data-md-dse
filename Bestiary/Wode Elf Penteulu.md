@@ -24,7 +24,7 @@
 - "name": "End Effect"
   "effect": "At the end of their turn, the penteulu can take 5 damage to end one save\
     \ ends effect affecting them. This damage can't be reduced in any way."
-- "name": "Hunter's Glamor"
+- "name": "[[Hunter]]'s Glamor"
   "effect": "The penteulu immediately [[Hide|hides]] at the end of their turn, even if they\
     \ are observed."
 "abilities":
@@ -39,14 +39,14 @@
   "target": "3 creatures or objects"
   "effects":
   - "roll": "2d10 + 3"
-    "t1": "5 damage; M2 restrained (save ends)"
-    "t2": "9 damage; M3 restrained (save ends)"
-    "t3": "12 damage; M4 restrained (save ends)"
+    "t1": "5 damage; M2 [[Restrained|restrained]] (save ends)"
+    "t2": "9 damage; M3 [[Restrained|restrained]] (save ends)"
+    "t3": "12 damage; M4 [[Restrained|restrained]] (save ends)"
   - "name": "Effect"
     "effect": "The penteulu deals damage to each target one at a time and can [[Teleport|teleport]]\
       \ 3 squares after damaging a target."
   - "name": "3 Malice"
-    "effect": "Targets restrained by this ability take an additional **+1**. "
+    "effect": "Targets [[Restrained|restrained]] by this ability take an additional **+1**. "
 - "name": "Fairness is a [[Human]] Concept"
   "type": "Maneuver"
   "cost": "5 Malice"
@@ -68,7 +68,7 @@
   "effects":
   - "name": "Effect"
     "effect": "The target must take their turn now, if they have not already taken\
-      \ it. **P3** The target is bleeding and has a bane on their attacks until the\
+      \ it. **P3** The target is [[Bleeding|bleeding]] and has a bane on their attacks until the\
       \ end of their turn. "
 - "name": "You Will ALL Witness my Blade"
   "type": "Villain Action 1"

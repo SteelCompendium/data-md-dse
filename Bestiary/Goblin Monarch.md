@@ -1,5 +1,5 @@
 ```ds-statblock
-"name": "Goblin Monarch"
+"name": "Goblin [[Monarch]]"
 "ancestry":
 - "Goblin"
 - "Humanoid"
@@ -21,10 +21,10 @@
 "presence": !!int "-3"
 "traits":
 - "name": "End Effect"
-  "effect": "At the end of their turn, the monarch can take 5 damage to end one save-ends\
+  "effect": "At the end of their turn, the [[Monarch|monarch]] can take 5 damage to end one save-ends\
     \ effect affecting them. This damage can't be reduced in any way."
 - "name": "Crafty"
-  "effect": "The monarch doesn't provoke opportunity attacks by moving."
+  "effect": "The [[Monarch|monarch]] doesn't provoke opportunity attacks by moving."
 "abilities":
 - "name": "Handaxe"
   "type": "Action"
@@ -42,7 +42,7 @@
     "t2": "5 damage"
     "t3": "7 damage"
   - "name": "Effect"
-    "effect": "An ally within 10 of the monarch can make a [[Free Strike|free strike]]. "
+    "effect": "An ally within 10 of the [[Monarch|monarch]] can make a [[Free Strike|free strike]]. "
 - "name": "Get in Here!"
   "type": "Maneuver"
   "cost": "1 Malice"
@@ -59,7 +59,7 @@
   - "--"
   "distance": "Melee 1"
   "target": "One ally"
-  "trigger": "A creature targets the monarch with an attack."
+  "trigger": "A creature targets the [[Monarch|monarch]] with an attack."
   "effects":
   - "name": "Effect"
     "effect": "The ally becomes the target of the triggering attack instead. "

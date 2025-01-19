@@ -52,13 +52,13 @@
   "target": "Special"
   "effects":
   - "roll": "MGT RR"
-    "t1": "Restrained (save ends)"
-    "t2": "Slowed (save ends)"
-    "t3": "Slowed (EoT)"
+    "t1": "[[Restrained]] (save ends)"
+    "t2": "[[Slowed]] (save ends)"
+    "t3": "[[Slowed]] (EoT)"
   - "name": "Effect"
     "effect": "The basilisk targets the first unobstructed creature in each column\
-      \ of the area. Each target magically begins to turn to stone. An already slowed\
-      \ target has a bane on resisting the roll. A creature restrained by this ability\
+      \ of the area. Each target magically begins to turn to stone. An already [[Slowed|slowed]]\
+      \ target has a bane on resisting the roll. A creature [[Restrained|restrained]] by this ability\
       \ or a creature adjacent to them can use an action to cut the encroaching stone\
       \ from their body, taking 8 damage which can't be reduced in any way and ending\
       \ the effect."
@@ -72,9 +72,9 @@
   "target": "All creatures in the cube"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "4 poison damage; M1 weakened (save ends)"
-    "t2": "6 poison damage; M2 weakened and slowed (save ends)"
-    "t3": "9 poison damage; M3 weakened and slowed (save ends) "
+    "t1": "4 poison damage; M1 [[Weakened|weakened]] (save ends)"
+    "t2": "6 poison damage; M2 [[Weakened|weakened]] and [[Slowed|slowed]] (save ends)"
+    "t3": "9 poison damage; M3 [[Weakened|weakened]] and [[Slowed|slowed]] (save ends) "
 - "name": "Lash Out"
   "type": "Triggered Action"
   "keywords":

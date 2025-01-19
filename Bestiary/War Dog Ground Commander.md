@@ -46,7 +46,7 @@
     "effect": "One ally within 10 squares of the commander can make a [[Free Strike|free strike]]."
   - "name": "1 Malice"
     "effect": "A target who is adjacent to the ground commander after this ability\
-      \ is resolved is I3 grabbed (save ends). This [[Grab|grab]] can't be escaped using the\
+      \ is resolved is I3 [[Grabbed|grabbed]] (save ends). This [[Grab|grab]] can't be escaped using the\
       \ [[Escape Grab]] maneuver. The ground commander can [[Grab|grab]] up to two creatures at\
       \ a time. "
 - "name": "Highest Posthumous Promotion"
@@ -92,7 +92,7 @@
   "effects":
   - "name": "Effect"
     "effect": "Each ally within 5 squares of the target can move up to their speed\
-      \ and make a [[Free Strike|free strike]] against the target. The target is then I3 frightened\
+      \ and make a [[Free Strike|free strike]] against the target. The target is then I3 [[Frightened|frightened]]\
       \ of the ground commander (save ends). "
 - "name": "Claim Them for the Body Banks"
   "type": "Villain Action 3"

@@ -39,13 +39,13 @@
   "target": "2 creatures or objects"
   "effects":
   - "roll": "2d10 + 3"
-    "t1": "2 damage; 2 weakened (save ends)"
-    "t2": "5 damage; 3 weakened (save ends)"
-    "t3": "6 damage; 4 weakened (save ends)"
+    "t1": "2 damage; 2 [[Weakened|weakened]] (save ends)"
+    "t2": "5 damage; 3 [[Weakened|weakened]] (save ends)"
+    "t3": "6 damage; 4 [[Weakened|weakened]] (save ends)"
   - "name": "Effect"
     "effect": "Any allies adjacent to a target of this attack can make a [[Free Strike|free strike]]."
   - "name": "3 Malice"
-    "effect": "Targets weakened by this attack are now restrained while they are weakened. "
+    "effect": "Targets [[Weakened|weakened]] by this attack are now [[Restrained|restrained]] while they are [[Weakened|weakened]]. "
 - "name": "Concentrate All Fire on That Hero!"
   "type": "Maneuver"
   "keywords":
@@ -80,7 +80,7 @@
   "effects":
   - "name": "Effect"
     "effect": "The centurion makes a pilum attack against each target with advantage.\
-      \ Targets take 2 fire damage at the start of each of their turns while weakened. "
+      \ Targets take 2 fire damage at the start of each of their turns while [[Weakened|weakened]]. "
 - "name": "Boom Pilum!"
   "type": "Villain Action 2"
   "keywords":
@@ -102,7 +102,7 @@
   "target": "All enemies in the burst"
   "effects":
   - "name": "Effect"
-    "effect": "Each target is taunted (3, save ends). For the rest of the encounter,\
+    "effect": "Each target is [[Taunted|taunted]] (3, save ends). For the rest of the encounter,\
       \ the centurion has Weapon immunity 5. All allies within 10 of the centurion\
       \ can make a [[Free Strike|free strike]]. "
 

@@ -39,9 +39,9 @@
   "target": "One creature or object"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "4 poison damage; M1 weakened (save ends)"
-    "t2": "7 poison damage; M2 weakened (save ends)"
-    "t3": "10 poison damage; M3 weakened (save ends) "
+    "t1": "4 poison damage; M1 [[Weakened|weakened]] (save ends)"
+    "t2": "7 poison damage; M2 [[Weakened|weakened]] (save ends)"
+    "t3": "10 poison damage; M3 [[Weakened|weakened]] (save ends) "
 - "name": "Leg Blade"
   "type": "Action"
   "keywords":
@@ -77,8 +77,8 @@
   "target": "All creatures in the cube"
   "effects":
   - "roll": "AGL RR"
-    "t1": "Restrained (AGL ends)"
-    "t2": "Restrained (EoT)"
+    "t1": "[[Restrained]] (AGL ends)"
+    "t2": "[[Restrained]] (EoT)"
     "t3": "No effect "
 
 ```

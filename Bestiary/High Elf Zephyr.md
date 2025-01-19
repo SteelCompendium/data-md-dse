@@ -38,10 +38,10 @@
   "target": "1 creature or object"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "3 damage; A1 prone"
-    "t2": "5 damage; A2 prone"
+    "t1": "3 damage; A1 [[Prone|prone]]"
+    "t2": "5 damage; A2 [[Prone|prone]]"
     "t3": "7 damage; the zephyr takes a [[Free Strike|free strike]] on a creature adjacent to the\
-      \ target; A3 prone"
+      \ target; A3 [[Prone|prone]]"
   - "name": "Effect"
     "effect": "Shift 2. "
 - "name": "Windwalk"
@@ -53,6 +53,6 @@
   "effects":
   - "name": "Effect"
     "effect": "The zephyr moves up to their speed through the air. They must end this\
-      \ movement on solid ground or immediately fall prone. "
+      \ movement on solid ground or immediately fall [[Prone|prone]]. "
 
 ```

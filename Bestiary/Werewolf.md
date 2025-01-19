@@ -24,7 +24,7 @@
 - "name": "Solo Monster"
   "effect": "- **Solo Turns**: The werewolf takes 2 turns each round. They can use\
     \ two actions on each of their turns and can take each turn after an enemy turn\
-    \ they choose. While dazed, the werewolf can take one action and one maneuver\
+    \ they choose. While [[Dazed|dazed]], the werewolf can take one action and one maneuver\
     \ per turn. - **End Effect**: The werewolf takes 5 damage and ends one EoE effect\
     \ affecting them at the end of their turn."
 - "name": "Shapeshifter"
@@ -109,7 +109,7 @@
   "target": "1 creature"
   "effects":
   - "name": "Effect"
-    "effect": "Target is knocked prone and takes 5 damage before the attack begins. "
+    "effect": "Target is knocked [[Prone|prone]] and takes 5 damage before the attack begins. "
 - "name": "Howl"
   "type": "Villain Action 1"
   "keywords":
@@ -119,9 +119,9 @@
   "target": "All enemies in the burst"
   "effects":
   - "roll": "INU RR"
-    "t1": "Target moves up to their speed away from the werewolf; frightened (save\
+    "t1": "Target moves up to their speed away from the werewolf; [[Frightened|frightened]] (save\
       \ ends)"
-    "t2": "Frightened (EoT)"
+    "t2": "[[Frightened]] (EoT)"
     "t3": "no effect"
   - "name": "Effect"
     "effect": "Enemies that have 1 or more ferocity gain 4 ferocity and howl along\
@@ -152,7 +152,7 @@
   - "roll": "2d10 + 3"
     "t1": "3 damage; 2 ferocity"
     "t2": "4 damage; 4 ferocity"
-    "t3": "5 damage; 8 ferocity; prone"
+    "t3": "5 damage; 8 ferocity; [[Prone|prone]]"
   - "name": "Effect"
     "effect": "The werewolf shifts up to twice their speed either before or after\
       \ the attack."

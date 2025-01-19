@@ -64,9 +64,9 @@
   "target": "1 creature or object"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "5 damage; I1 dazed (save ends)"
-    "t2": "9 damage; I2 dazed (save ends)"
-    "t3": "12 damage; I3 dazed (save ends)"
+    "t1": "5 damage; I1 [[Dazed|dazed]] (save ends)"
+    "t2": "9 damage; I2 [[Dazed|dazed]] (save ends)"
+    "t3": "12 damage; I3 [[Dazed|dazed]] (save ends)"
   - "name": "Effect"
     "effect": "The potency of this ability increases by 1 if it's used while charging. "
 - "name": "Retaliatory Gore"

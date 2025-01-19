@@ -23,7 +23,7 @@
 - "name": "Solo Monster"
   "effect": "- **Solo Turns:** The chimera takes 2 turns each round. They can use\
     \ two actions on each of their turns and can take each turn after an enemy turn\
-    \ they choose. While dazed, the chimera can take one action and one maneuver per\
+    \ they choose. While [[Dazed|dazed]], the chimera can take one action and one maneuver per\
     \ turn.  **End Effect:** At the end of their turn, the chimera can take 5 damage\
     \ to end one save ends effect affecting them. This damage can't be reduced in\
     \ any way."
@@ -84,8 +84,8 @@
   "effects":
   - "roll": "2d10 + 3"
     "t1": "4 psychic damage"
-    "t2": "8 psychic damage; I2 frightened (save ends)"
-    "t3": "10 psychic damage; I3 frightened (save ends) "
+    "t2": "8 psychic damage; I2 [[Frightened|frightened]] (save ends)"
+    "t3": "10 psychic damage; I3 [[Frightened|frightened]] (save ends) "
 - "name": "Ram's Defiance"
   "type": "Triggered Action"
   "keywords":
@@ -97,9 +97,9 @@
   "trigger": "The target attacks the chimera and gets a tier-1 result."
   "effects":
   - "roll": "2d10 + 3"
-    "t1": "3 damage; M2 slowed (save ends)"
-    "t2": "5 damage; prone; M3 slowed (save ends)"
-    "t3": "7 damage; prone; M4 slowed (save ends) "
+    "t1": "3 damage; M2 [[Slowed|slowed]] (save ends)"
+    "t2": "5 damage; [[Prone|prone]]; M3 [[Slowed|slowed]] (save ends)"
+    "t3": "7 damage; [[Prone|prone]]; M4 [[Slowed|slowed]] (save ends) "
   - "name": "Effect"
     "effect": "The chimera shifts 5. If they end this movement adjacent to the target,\
       \ roll power."

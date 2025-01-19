@@ -25,7 +25,7 @@
 - "name": "Arise"
   "effect": "The first time the skeleton is reduced to Stamina 0 by damage that isn't\
     \ fire damage or holy damage and their body isn't destroyed, they regain half\
-    \ their Stamina and fall prone."
+    \ their Stamina and fall [[Prone|prone]]."
 "abilities":
 - "name": "Bone Shards"
   "type": "Action"
@@ -55,9 +55,9 @@
   "target": "Each enemy in the burst"
   "effects":
   - "roll": "2d10 + 2"
-    "t1": "1 damage; M1 bleeding (save ends)"
-    "t2": "2 damage; M2 bleeding (save ends)"
-    "t3": "3 damage; M3 bleeding (save ends)"
+    "t1": "1 damage; M1 [[Bleeding|bleeding]] (save ends)"
+    "t2": "2 damage; M2 [[Bleeding|bleeding]] (save ends)"
+    "t3": "3 damage; M3 [[Bleeding|bleeding]] (save ends)"
   - "name": "Effect"
     "effect": "Each target has a bane on their next attack until the start of the\
       \ skeleton's next turn. "

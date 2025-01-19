@@ -55,8 +55,8 @@
   "target": "All creatures"
   "effects":
   - "roll": "INU RR"
-    "t1": "Frightened of the cackler (save ends)"
-    "t2": "Frightened of the cackler (EoT)"
+    "t1": "[[Frightened]] of the cackler (save ends)"
+    "t2": "[[Frightened]] of the cackler (EoT)"
     "t3": "No effect"
   - "name": "Effect"
     "effect": "Allies targeted by this ability don't make a resistance roll. Targets\

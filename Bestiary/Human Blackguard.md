@@ -40,9 +40,9 @@
   "target": "All enemies in the burst"
   "effects":
   - "roll": "2d10 + 3"
-    "t1": "4 damage; M2 slowed (save ends)"
-    "t2": "7 damage; M3 slowed (save ends)"
-    "t3": "10 damage; M4 slowed (save ends)"
+    "t1": "4 damage; M2 [[Slowed|slowed]] (save ends)"
+    "t2": "7 damage; M3 [[Slowed|slowed]] (save ends)"
+    "t3": "10 damage; M4 [[Slowed|slowed]] (save ends)"
   - "name": "Effect"
     "effect": "An ally within 10 squares of the blackguard can make a [[Free Strike|free strike]]."
   - "name": "1 Malice"
