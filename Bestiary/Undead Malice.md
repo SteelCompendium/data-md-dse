@@ -14,7 +14,7 @@ At the start of any undead creature's turn, you can spend malice to activate one
 
     Any creature who starts their turn restrained by the arms takes 1d6 damage.
 
-- **Dread March (7 Malice)**: Each undead creature in the encounter moves up to their speed and can make a free strike against two targets. If an undead creature is reduced to Stamina 0 during this dread march, they don't die until their movement and attacks are resolved.
+- **Dread March (7 Malice)**: Each undead creature in the encounter moves up to their speed and can make a [[Free Strike|free strike]] against two targets. If an undead creature is reduced to Stamina 0 during this dread march, they don't die until their movement and attacks are resolved.
 
 ## Intensity Tally
 

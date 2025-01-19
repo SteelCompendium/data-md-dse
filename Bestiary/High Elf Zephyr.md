@@ -22,7 +22,7 @@
 "presence": !!int "1"
 "traits":
 - "name": "Like the Wind"
-  "effect": "All of the zephyr's movement is considered shifting."
+  "effect": "All of the zephyr's movement is considered [[Shifting|shifting]]."
 - "name": "Otherworldly Grace"
   "effect": "At the start of their turn, the zephyr can turn the duration of one save\
     \ ends effect they suffer from into EoT."
@@ -40,7 +40,7 @@
   - "roll": "2d10 + 2"
     "t1": "3 damage; A1 prone"
     "t2": "5 damage; A2 prone"
-    "t3": "7 damage; the zephyr takes a free strike on a creature adjacent to the\
+    "t3": "7 damage; the zephyr takes a [[Free Strike|free strike]] on a creature adjacent to the\
       \ target; A3 prone"
   - "name": "Effect"
     "effect": "Shift 2. "

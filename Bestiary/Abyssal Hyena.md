@@ -22,7 +22,7 @@
 "presence": !!int "-2"
 "traits":
 - "name": "Death Snap"
-  "effect": "When the abyssal hyena is reduced to 0 Stamina, they make a free strike\
+  "effect": "When the abyssal hyena is reduced to 0 Stamina, they make a [[Free Strike|free strike]]\
     \ before dying."
 "abilities":
 - "name": "Snapjaw"

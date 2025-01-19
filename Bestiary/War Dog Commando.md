@@ -41,6 +41,6 @@
     "t2": "4 damage"
     "t3": "5 damage"
   - "name": "Effect"
-    "effect": "The commando can use the Hide maneuver, even if observed. "
+    "effect": "The commando can use the [[Hide]] maneuver, even if observed. "
 
 ```

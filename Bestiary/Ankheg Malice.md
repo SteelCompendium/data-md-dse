@@ -12,4 +12,4 @@ At the start of any [[Ankheg|ankheg]]'s turn, you can spend malice to activate o
 
 - ✦ 17+: The target shifts to the nearest unoccupied space outside the area.
 
-- **Earth Sink (7 Malice)**: The area of the encounter map slowly sinks into the ground. Each creature who starts their turn on the ground and can't burrow must spend 1 extra square of movement to leave their starting position, or 2 squares if they start their turn prone or restrained. A creature who starts and ends their turn in the same space and can't burrow is restrained by the ground (save ends).
+- **Earth Sink (7 Malice)**: The area of the encounter map slowly sinks into the ground. Each creature who starts their turn on the ground and can't [[Burrow|burrow]] must spend 1 extra square of movement to leave their starting position, or 2 squares if they start their turn prone or restrained. A creature who starts and ends their turn in the same space and can't [[Burrow|burrow]] is restrained by the ground (save ends).

@@ -10,7 +10,7 @@
 "stamina": !!int "40"
 "immunities": []
 "weaknesses": []
-"speed": "7 (burrow)"
+"speed": "7 ([[Burrow|burrow]])"
 "size": "3"
 "stability": !!int "0"
 "free_strike": !!int "4"

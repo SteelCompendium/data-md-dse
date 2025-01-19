@@ -29,7 +29,7 @@
   "cost": "Signature"
   "keywords":
   - "Attack"
-  - "Charge"
+  - "[[Charge]]"
   - "Melee"
   - "Weapon"
   "distance": "Melee 2"
@@ -57,7 +57,7 @@
   "cost": "5 Malice"
   "keywords":
   - "Attack"
-  - "Charge"
+  - "[[Charge]]"
   - "Melee"
   - "Weapon"
   "distance": "Melee 2"
@@ -78,6 +78,6 @@
   "target": "Triggering creature"
   "effects":
   - "name": "Effect"
-    "effect": "The minotaur charges the target using Flail and Blade or Goring Horns. "
+    "effect": "The minotaur [[Charge|charges]] the target using Flail and Blade or Goring Horns. "
 
 ```

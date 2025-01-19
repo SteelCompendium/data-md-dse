@@ -10,7 +10,7 @@
 "immunities":
 - "Fire 6"
 "weaknesses": []
-"speed": "10 (fly)"
+"speed": "10 ([[Fly|fly]])"
 "size": "2"
 "stability": !!int "1"
 "free_strike": !!int "6"
@@ -134,7 +134,7 @@
   "effects":
   - "name": "Effect"
     "effect": "The chimera uses Roar. The chimera then shifts their speed and can\
-      \ make a free strike against each enemy who comes within 1 of them during the\
+      \ make a [[Free Strike|free strike]] against each enemy who comes within 1 of them during the\
       \ move. When the chimera ends this movement, they use Dragon's Eruption."
 
 ```

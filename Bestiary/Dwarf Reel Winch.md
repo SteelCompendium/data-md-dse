@@ -1,7 +1,7 @@
 ```ds-statblock
-"name": "Dwarf Reel Winch"
+"name": "[[Dwarf]] Reel Winch"
 "ancestry":
-- "Dwarf"
+- "[[Dwarf]]"
 - "Humanoid"
 "roles":
 - "Support"
@@ -40,7 +40,7 @@
     "t2": "5 damage; M2 slowed (save ends)"
     "t3": "7 damage; M3 restrained (save ends)"
   - "name": "2 Malice"
-    "effect": "Pull 5. A target restrained by a dwarf, including by this ability,\
+    "effect": "Pull 5. A target restrained by a [[Dwarf|dwarf]], including by this ability,\
       \ can be pulled this way. "
 - "name": "Reel Them In"
   "type": "Maneuver"
@@ -53,6 +53,6 @@
   "effects":
   - "name": "Effect"
     "effect": "Pull 5. A slowed or restrained target is pulled an additional 2. A\
-      \ target restrained by a dwarf can be pulled this way. "
+      \ target restrained by a [[Dwarf|dwarf]] can be pulled this way. "
 
 ```

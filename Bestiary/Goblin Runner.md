@@ -29,7 +29,7 @@
   "cost": "Signature"
   "keywords":
   - "Attack"
-  - "Charge"
+  - "[[Charge]]"
   - "Melee"
   - "Weapon"
   "distance": "Melee 1"

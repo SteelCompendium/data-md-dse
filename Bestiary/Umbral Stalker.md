@@ -60,12 +60,12 @@
   - "name": "Effect"
     "effect": "Until the end of the umbral stalker's next turn, the area is concealed\
       \ and blocks line of effect for all enemies. "
-- "name": "Shadow Jump"
+- "name": "Shadow [[Jump]]"
   "type": "Free Maneuver"
   "cost": "1 Malice"
   "effects":
   - "name": "Effect"
-    "effect": "The umbral stalker teleports to an unoccupied space in concealment\
+    "effect": "The umbral stalker [[Teleport|teleports]] to an unoccupied space in concealment\
       \ within 10 squares. "
 
 ```

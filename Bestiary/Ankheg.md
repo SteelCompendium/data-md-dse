@@ -9,7 +9,7 @@
 "stamina": !!int "120"
 "immunities": []
 "weaknesses": []
-"speed": "5 (burrow)"
+"speed": "5 ([[Burrow|burrow]])"
 "size": "2"
 "stability": !!int "2"
 "free_strike": !!int "5"
@@ -30,10 +30,10 @@
   "effect": "A prone creature gains an edge on melee attacks against the ankheg instead\
     \ of taking a bane."
 - "name": "Earthwalk"
-  "effect": "Difficult terrain composed of earth or loose rock doesn't cost the ankheg\
+  "effect": "[[Difficult Terrain|Difficult terrain]] composed of earth or loose rock doesn't cost the ankheg\
     \ extra movement."
 - "name": "Tunneler"
-  "effect": "When the ankheg burrows, they create a size 2 tunnel. The tunnel remains\
+  "effect": "When the ankheg [[Burrow|burrows]], they create a size 2 tunnel. The tunnel remains\
     \ stable for one day, then collapses."
 "abilities":
 - "name": "Bite"
@@ -81,7 +81,7 @@
     "t2": "6 damage"
     "t3": "7 damage; push 2 "
   - "name": "Effect"
-    "effect": "The ankheg burrows up to their speed, then creates the burst when they\
+    "effect": "The ankheg [[Burrow|burrows]] up to their speed, then creates the burst when they\
       \ breach the surface."
 - "name": "Dust Cloud"
   "type": "Maneuver"
@@ -91,7 +91,7 @@
   "target": "Special"
   "effects":
   - "name": "Effect"
-    "effect": "The ground around the ankheg becomes difficult terrain. While the ankheg\
+    "effect": "The ground around the ankheg becomes [[Difficult Terrain|difficult terrain]]. While the ankheg\
       \ remains in their current space, they have concealment until the start of their\
       \ next turn. "
 - "name": "Skitter"

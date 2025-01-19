@@ -43,7 +43,7 @@
     "t2": "5 damage; 3 weakened (save ends)"
     "t3": "6 damage; 4 weakened (save ends)"
   - "name": "Effect"
-    "effect": "Any allies adjacent to a target of this attack can make a free strike."
+    "effect": "Any allies adjacent to a target of this attack can make a [[Free Strike|free strike]]."
   - "name": "3 Malice"
     "effect": "Targets weakened by this attack are now restrained while they are weakened. "
 - "name": "Concentrate All Fire on That Hero!"
@@ -104,6 +104,6 @@
   - "name": "Effect"
     "effect": "Each target is taunted (3, save ends). For the rest of the encounter,\
       \ the centurion has Weapon immunity 5. All allies within 10 of the centurion\
-      \ can make a free strike. "
+      \ can make a [[Free Strike|free strike]]. "
 
 ```

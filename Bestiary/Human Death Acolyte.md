@@ -1,7 +1,7 @@
 ```ds-statblock
-"name": "Human Death Acolyte"
+"name": "[[Human]] Death Acolyte"
 "ancestry":
-- "Human"
+- "[[Human]]"
 - "Humanoid"
 "roles":
 - "Hexer"

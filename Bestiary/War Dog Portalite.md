@@ -10,7 +10,7 @@
 "stamina": !!int "20"
 "immunities": []
 "weaknesses": []
-"speed": "5 (teleport)"
+"speed": "5 ([[Teleport|teleport]])"
 "size": "1M"
 "stability": !!int "0"
 "free_strike": !!int "3"
@@ -43,7 +43,7 @@
     "effect": "The portalite has **edge** on the attack if an ally is adjacent to\
       \ the target."
   - "name": "1 Malice"
-    "effect": "The portalite teleports the target 3 squares before sliding them. "
+    "effect": "The portalite [[Teleport|teleports]] the target 3 squares before sliding them. "
 - "name": "Posthumous Promotion"
   "type": "Maneuver"
   "keywords":
@@ -54,7 +54,7 @@
   "effects":
   - "name": "Effect"
     "effect": "The target's loyalty collar detonates, killing them instantly. "
-- "name": "Corrupted Ash Teleport"
+- "name": "Corrupted Ash [[Teleport]]"
   "type": "Maneuver"
   "cost": "1 Malice"
   "keywords":
@@ -63,7 +63,7 @@
   "target": "Self"
   "effects":
   - "name": "Effect"
-    "effect": "The portalite teleports up to 5 squares and has **edge** on attacks\
+    "effect": "The portalite [[Teleport|teleports]] up to 5 squares and has **edge** on attacks\
       \ until the end of their turn. "
 
 ```

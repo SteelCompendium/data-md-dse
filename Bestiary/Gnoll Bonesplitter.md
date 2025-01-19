@@ -22,7 +22,7 @@
 "traits":
 - "name": "Death Frenzy"
   "effect": "Whenever an ally within 5 is reduced to 0 Stamina, the bonesplitter moves\
-    \ up to their speed and makes a free strike."
+    \ up to their speed and makes a [[Free Strike|free strike]]."
 "abilities":
 - "name": "Three-Tail Flail"
   "type": "Action"
@@ -36,8 +36,8 @@
   "effects":
   - "roll": "2d10 + 2"
     "t1": "4 damage; push 2"
-    "t2": "7 damage; grabbed; M2 target has a bane on attempts to escape grab"
-    "t3": "10 damage; grabbed; M3 target has a bane on attempts to escape grab"
+    "t2": "7 damage; grabbed; M2 target has a bane on attempts to [[Escape Grab|escape grab]]"
+    "t3": "10 damage; grabbed; M3 target has a bane on attempts to [[Escape Grab|escape grab]]"
   - "name": "Effect"
     "effect": "The bonesplitter can't use three-tail flail on another target while\
       \ the current target is grabbed. "
@@ -50,7 +50,7 @@
   "target": "Self and all allies"
   "effects":
   - "name": "Effect"
-    "effect": "Each target makes a free strike. Targets who haven't used a cackletongue\
+    "effect": "Each target makes a [[Free Strike|free strike]]. Targets who haven't used a cackletongue\
       \ maneuver on this turn use it immediately at no cost. "
 
 ```

@@ -36,7 +36,7 @@
   "cost": "Signature"
   "keywords":
   - "Attack"
-  - "Charge"
+  - "[[Charge]]"
   - "Melee"
   - "Weapon"
   "distance": "Melee 2"
@@ -57,6 +57,6 @@
   "target": "Self"
   "effects":
   - "name": "Effect"
-    "effect": "The tusker demon charges the target using Gore. "
+    "effect": "The tusker demon [[Charge|charges]] the target using Gore. "
 
 ```

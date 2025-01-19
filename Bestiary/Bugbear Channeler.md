@@ -37,7 +37,7 @@
     "t2": "8 damage; pull 3"
     "t3": "11 damage; pull 4"
   - "name": "Effect"
-    "effect": "Each square that a target is pulled through becomes difficult terrain. "
+    "effect": "Each square that a target is pulled through becomes [[Difficult Terrain|difficult terrain]]. "
 - "name": "Blistering Element"
   "type": "Action"
   "keywords":

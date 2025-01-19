@@ -22,7 +22,7 @@
 "presence": !!int "-1"
 "traits":
 - "name": "Calcifying Presence"
-  "effect": "The area within 3 squares of the basilisk is considered difficult terrain\
+  "effect": "The area within 3 squares of the basilisk is considered [[Difficult Terrain|difficult terrain]]\
     \ for enemies."
 "abilities":
 - "name": "Noxious Bite"

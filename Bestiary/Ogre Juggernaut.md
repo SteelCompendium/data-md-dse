@@ -33,7 +33,7 @@
   "cost": "Signature"
   "keywords":
   - "Attack"
-  - "Charge"
+  - "[[Charge]]"
   - "Melee"
   - "Weapon"
   "distance": "Melee 2"
@@ -45,7 +45,7 @@
     "t3": "11 damage; A3 vertical slide 5"
   - "name": "1 Malice"
     "effect": "Each target is M2 bleeding (save ends). "
-- "name": "Earth Breaking Jump"
+- "name": "Earth Breaking [[Jump]]"
   "type": "Action"
   "keywords":
   - "Area"
@@ -85,6 +85,6 @@
   "target": "1 creature or object"
   "effects":
   - "name": "Effect"
-    "effect": "The juggernaut moves up to their speed and makes a free strike. "
+    "effect": "The juggernaut moves up to their speed and makes a [[Free Strike|free strike]]. "
 
 ```

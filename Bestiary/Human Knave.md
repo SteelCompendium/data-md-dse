@@ -1,7 +1,7 @@
 ```ds-statblock
-"name": "Human Knave"
+"name": "[[Human]] Knave"
 "ancestry":
-- "Human"
+- "[[Human]]"
 - "Humanoid"
 "roles":
 - "Defender"
@@ -23,7 +23,7 @@
 "presence": !!int "0"
 "traits":
 - "name": "I'm Your Enemy"
-  "effect": "The knave can make a free strike against an adjacent creature they have\
+  "effect": "The knave can make a [[Free Strike|free strike]] against an adjacent creature they have\
     \ taunted whenever the creature deals damage to a creature other than the knave."
 - "name": "Overwhelm"
   "effect": "An enemy who starts their turn adjacent to the knave can't shift."

@@ -68,7 +68,7 @@
   "trigger": "The target deals damage to an ally or takes damage from an ally."
   "effects":
   - "name": "Effect"
-    "effect": "The maestro makes a free strike against the target. The maestro can\
+    "effect": "The maestro makes a [[Free Strike|free strike]] against the target. The maestro can\
       \ only use this ability once per turn. "
 - "name": "Overture"
   "type": "Villain Action 1"
@@ -78,7 +78,7 @@
   "target": "All allies in the burst"
   "effects":
   - "name": "Effect"
-    "effect": "Each target shifts up to their speed or takes the Defend action. "
+    "effect": "Each target shifts up to their speed or takes the [[Defend]] action. "
 - "name": "Solo Act"
   "type": "Villain Action 2"
   "keywords":
@@ -97,8 +97,8 @@
   "target": "All dead allies in the burst"
   "effects":
   - "name": "Effect"
-    "effect": "Each target stands, makes a free strike, then collapses again. Allies\
+    "effect": "Each target stands, makes a [[Free Strike|free strike]], then collapses again. Allies\
       \ of the targets can use Ready Rodent as a free triggered action once in conjunction\
-      \ with these free strikes."
+      \ with these [[Free Strike|free strikes]]."
 
 ```

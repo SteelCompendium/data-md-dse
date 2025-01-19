@@ -1,7 +1,7 @@
 ```ds-statblock
-"name": "Dwarf Marauder Lord"
+"name": "[[Dwarf]] Marauder Lord"
 "ancestry":
-- "Dwarf"
+- "[[Dwarf]]"
 - "Humanoid"
 "roles":
 - "Leader"
@@ -39,7 +39,7 @@
     "t2": "9 damage; slide 3"
     "t3": "12 damage; slide 5"
   - "name": "Effect"
-    "effect": "A target restrained by a dwarf can be slid by this attack."
+    "effect": "A target restrained by a [[Dwarf|dwarf]] can be slid by this attack."
   - "name": "3 Malice"
     "effect": "A target that is force moved adjacent to an ally with this ability\
       \ is restrained (EoT). "
@@ -52,7 +52,7 @@
   "target": "1 creature or object"
   "effects":
   - "name": "Effect"
-    "effect": "Vertical slide 5. A target restrained by a dwarf can be slid by this\
+    "effect": "Vertical slide 5. A target restrained by a [[Dwarf|dwarf]] can be slid by this\
       \ ability."
   - "name": "5 Malice"
     "effect": "This ability gains the Area keyword, its distance becomes 10 burst,\

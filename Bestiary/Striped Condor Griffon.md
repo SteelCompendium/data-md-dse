@@ -10,7 +10,7 @@
 "stamina": !!int "80"
 "immunities": []
 "weaknesses": []
-"speed": "7 (fly)"
+"speed": "7 ([[Fly|fly]])"
 "size": "3"
 "stability": !!int "5"
 "free_strike": !!int "5"
@@ -21,8 +21,8 @@
 "presence": !!int "1"
 "traits":
 - "name": "Beast of Prey"
-  "effect": "Creatures have a double bane when using the Escape Grab maneuver to escape\
-    \ the [[Griffon|griffon]]'s grab."
+  "effect": "Creatures have a double bane when using the [[Escape Grab]] maneuver to escape\
+    \ the [[Griffon|griffon]]'s [[Grab|grab]]."
 - "name": "Steady"
   "effect": "Creatures have a bane on power rolls that could knock the [[Griffon|griffon]] prone."
 - "name": "Banded Predator"
@@ -81,7 +81,7 @@
     "t2": "A2 grabbed"
     "t3": "5 damage; A3 grabbed"
   - "name": "Effect"
-    "effect": "The [[Griffon|griffon]] falls down upon the target, taking no damage from falling.\
+    "effect": "The [[Griffon|griffon]] falls down upon the target, taking no damage from [[Falling|falling]].\
       \ A creature who is grabbed by the [[Griffon|griffon]] is prone and can't stand until they\
       \ are no longer grabbed. "
 

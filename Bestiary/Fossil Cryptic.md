@@ -10,7 +10,7 @@
 "immunities":
 - "weapon 5"
 "weaknesses": []
-"speed": "8 (burrow)"
+"speed": "8 ([[Burrow|burrow]])"
 "size": "1L"
 "stability": !!int "3"
 "free_strike": !!int "5"
@@ -32,7 +32,7 @@
     \ form. Any enemy who enters the aura for the first time in a round or starts\
     \ their turn there takes 5 damage."
 - "name": "Seismic Step"
-  "effect": "The cryptic ignores difficult terrain. Additionally, they have line of\
+  "effect": "The cryptic ignores [[Difficult Terrain|difficult terrain]]. Additionally, they have line of\
     \ effect to concealed creatures touching the ground."
 "abilities":
 - "name": "Sand Slam"
@@ -79,7 +79,7 @@
     "t2": "3 damage; push 3; prone"
     "t3": "4 damage; push 4; prone "
   - "name": "Effect"
-    "effect": "The cryptic burrows up to half their speed, then creates the burst\
+    "effect": "The cryptic [[Burrow|burrows]] up to half their speed, then creates the burst\
       \ when they breach the surface."
 - "name": "Stoneshift"
   "type": "Maneuver"
@@ -120,7 +120,7 @@
     "t2": "Prone"
     "t3": "No effect"
   - "name": "Effect"
-    "effect": "The area becomes difficult terrain. "
+    "effect": "The area becomes [[Difficult Terrain|difficult terrain]]. "
 - "name": "Final Warning Fissure"
   "type": "Villain Action 2"
   "keywords":

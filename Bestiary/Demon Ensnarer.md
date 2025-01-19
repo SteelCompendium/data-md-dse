@@ -41,6 +41,6 @@
     "t3": "5 damage; pull 3"
   - "name": "Effect"
     "effect": "If the target is pulled adjacent to the ensnarer, the ensnarer takes\
-      \ a free strike against them. "
+      \ a [[Free Strike|free strike]] against them. "
 
 ```

@@ -1,7 +1,7 @@
 ```ds-statblock
-"name": "Human Bandit Chief"
+"name": "[[Human]] Bandit Chief"
 "ancestry":
-- "Human"
+- "[[Human]]"
 - "Humanoid"
 "roles":
 - "Leader"
@@ -83,7 +83,7 @@
   "target": "All allies in the burst"
   "effects":
   - "name": "Effect"
-    "effect": "Each target makes a ranged free strike. "
+    "effect": "Each target makes a ranged [[Free Strike|free strike]]. "
 - "name": "Form Up!"
   "type": "Villain Action 2"
   "keywords":
@@ -104,6 +104,6 @@
   - "name": "Effect"
     "effect": "Shift 10 squares. During or after this movement, the bandit chief can\
       \ attack up to four targets with Whip & Magic Longsword. Each ally adjacent\
-      \ to a target can make a free strike against them."
+      \ to a target can make a [[Free Strike|free strike]] against them."
 
 ```

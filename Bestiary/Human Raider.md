@@ -1,7 +1,7 @@
 ```ds-statblock
-"name": "Human Raider"
+"name": "[[Human]] [[Raider]]"
 "ancestry":
-- "Human"
+- "[[Human]]"
 - "Humanoid"
 "roles":
 - "Harrier"
@@ -24,7 +24,7 @@
 "presence": !!int "0"
 "traits":
 - "name": "Supernatural Insight"
-  "effect": "The raider can target supernatural creatures and objects within 5 squares,\
+  "effect": "The [[Raider|raider]] can target supernatural creatures and objects within 5 squares,\
     \ even if they don't have line of effect."
 "abilities":
 - "name": "Handaxes"
@@ -32,7 +32,7 @@
   "cost": "Signature"
   "keywords":
   - "Attack"
-  - "Charge"
+  - "[[Charge]]"
   - "Melee"
   - "Ranged"
   - "Weapon"
@@ -44,7 +44,7 @@
     "t2": "4 damage"
     "t3": "5 damage"
   - "name": "Effect"
-    "effect": "If this ability is used while Charging, the raider can make a ranged\
-      \ free strike with a distance of 5 before using the ability. "
+    "effect": "If this ability is used while Charging, the [[Raider|raider]] can make a ranged\
+      \ [[Free Strike|free strike]] with a distance of 5 before using the ability. "
 
 ```

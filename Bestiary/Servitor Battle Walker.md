@@ -2,7 +2,7 @@
 "name": "Servitor Battle Walker"
 "ancestry":
 - "Construct"
-- "Dwarf"
+- "[[Dwarf]]"
 "roles":
 - "Mount"
 "level": !!int "1"
@@ -34,7 +34,7 @@
   "cost": "Signature"
   "keywords":
   - "Attack"
-  - "Charge"
+  - "[[Charge]]"
   - "Melee"
   - "Weapon"
   "distance": "Melee 2"
@@ -46,7 +46,7 @@
     "t3": "10 damage; M3 restrained (save ends)"
   - "name": "Effect"
     "effect": "Restrained targets and targets restrained by this ability are pulled\
-      \ 3. A target restrained by a dwarf can be pulled by this attack. "
+      \ 3. A target restrained by a [[Dwarf|dwarf]] can be pulled by this attack. "
 - "name": "Stunning Blast"
   "type": "Maneuver"
   "cost": "3 Malice"

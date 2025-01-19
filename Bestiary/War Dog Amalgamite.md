@@ -39,7 +39,7 @@
     "t2": "4 damage; A2 grabbed"
     "t3": "5 damage; A3 grabbed"
   - "name": "Special"
-    "effect": "The amalgamite can grab up to four creatures."
+    "effect": "The amalgamite can [[Grab|grab]] up to four creatures."
   - "name": "5 Malice"
     "effect": "The amalgamite deals an additional 4 damage to each creature they have\
       \ grabbed and regains Stamina equal to the damage dealt. "

@@ -40,7 +40,7 @@
     "effect": "The target can't use triggered actions until the start of the next\
       \ round. This attack has double edge if the sneak started their turn hidden\
       \ from the target. "
-- "name": "Dirt Devil"
+- "name": "Dirt [[Devil]]"
   "type": "Action"
   "cost": "3 Malice"
   "keywords":
@@ -53,7 +53,7 @@
     "t2": "3 damage; I2 sneak is concealed from the target (save ends)"
     "t3": "4 damage; I3 sneak is concealed from the target (save ends)"
   - "name": "Effect"
-    "effect": "The sneak shifts up to their speed and hides after using this ability. "
+    "effect": "The sneak shifts up to their speed and [[Hide|hides]] after using this ability. "
 - "name": "Carving Dagger"
   "type": "Action"
   "keywords":
@@ -68,7 +68,7 @@
     "t2": "9 damage; M2 bleeding (save ends)"
     "t3": "12 damage; M3 bleeding (save ends)"
   - "name": "Effect"
-    "effect": "Targets can't hide from the sneak or their allies while bleeding from\
+    "effect": "Targets can't [[Hide|hide]] from the sneak or their allies while bleeding from\
       \ this ability. "
 - "name": "Throw"
   "type": "Maneuver"

@@ -11,7 +11,7 @@
 "stamina": !!int "120"
 "immunities": []
 "weaknesses": []
-"speed": "5 (fly)"
+"speed": "5 ([[Fly|fly]])"
 "size": "1M"
 "stability": !!int "0"
 "free_strike": !!int "5"
@@ -110,7 +110,7 @@
   "target": "All allies in the burst"
   "effects":
   - "name": "Effect"
-    "effect": "Each target radiates wisps of magic and makes a free strike that has\
+    "effect": "Each target radiates wisps of magic and makes a [[Free Strike|free strike]] that has\
       \ the Magic keyword. "
 
 ```

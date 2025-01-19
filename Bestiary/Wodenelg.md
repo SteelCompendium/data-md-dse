@@ -21,7 +21,7 @@
 "presence": !!int "-1"
 "traits":
 - "name": "Sure Footed"
-  "effect": "The wodenelg ignores all difficult terrain, including enemy squares,\
+  "effect": "The wodenelg ignores all [[Difficult Terrain|difficult terrain]], including enemy squares,\
     \ and doesn't provoke opportunity attacks by moving."
 - "name": "Mounted Stability"
   "effect": "The wodenelg's rider has **+3** to Stability."
@@ -34,7 +34,7 @@
   "cost": "Signature"
   "keywords":
   - "Attack"
-  - "Charge"
+  - "[[Charge]]"
   - "Melee"
   - "Weapon"
   "distance": "Melee 1"
@@ -45,8 +45,8 @@
     "t2": "5 damage"
     "t3": "6 damage"
   - "name": "Effect"
-    "effect": "The wodenelg's rider can make a free strike at any point during the\
-      \ charge. "
+    "effect": "The wodenelg's rider can make a [[Free Strike|free strike]] at any point during the\
+      \ [[Charge|charge]]. "
 - "name": "Where I End the Woods Begin"
   "type": "Maneuver"
   "cost": "3 Malice"

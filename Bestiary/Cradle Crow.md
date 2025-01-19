@@ -11,7 +11,7 @@
 "stamina": !!int "10"
 "immunities": []
 "weaknesses": []
-"speed": "7 (fly)"
+"speed": "7 ([[Fly|fly]])"
 "size": "1T"
 "stability": !!int "0"
 "free_strike": !!int "2"

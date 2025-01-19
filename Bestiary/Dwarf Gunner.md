@@ -1,7 +1,7 @@
 ```ds-statblock
-"name": "Dwarf Gunner"
+"name": "[[Dwarf]] Gunner"
 "ancestry":
-- "Dwarf"
+- "[[Dwarf]]"
 - "Humanoid"
 "roles":
 - "Artillery"
@@ -40,7 +40,7 @@
     "t3": "10 damage; push 5"
   - "name": "Effect"
     "effect": "If the target is adjacent to a wall or object after the power roll\
-      \ is resolved, they are restrained (EoT). A target restrained by a dwarf can\
+      \ is resolved, they are restrained (EoT). A target restrained by a [[Dwarf|dwarf]] can\
       \ be pushed by this attack."
   - "name": "5 Malice"
     "effect": "If the target is pushed into another creature, both the target and\
@@ -55,7 +55,7 @@
   "target": "1 restrained, slowed, or prone target"
   "effects":
   - "name": "Effect"
-    "effect": "The gunner makes a free strike against the target. The target loses\
+    "effect": "The gunner makes a [[Free Strike|free strike]] against the target. The target loses\
       \ any restrained, slowed, or prone conditions and gains restrained (save ends). "
 
 ```

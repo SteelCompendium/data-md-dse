@@ -24,12 +24,12 @@
   "effect": "If the cradle horse's rider has the Otherworldly Grace trait, it also\
     \ gains the Otherworldly Grace trait."
 "abilities":
-- "name": "Radiant Charge"
+- "name": "Radiant [[Charge]]"
   "type": "Action"
   "cost": "Signature"
   "keywords":
   - "Attack"
-  - "Charge"
+  - "[[Charge]]"
   - "Melee"
   - "Weapon"
   "distance": "Melee 1"

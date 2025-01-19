@@ -67,7 +67,7 @@
     "effect": "The roughneck moves up to their speed, dragging the target across the\
       \ ground. The target takes 1 damage for each square they were dragged through\
       \ before being released prone. Each square the target was dragged through becomes\
-      \ difficult terrain. "
+      \ [[Difficult Terrain|difficult terrain]]. "
 - "name": "Throw"
   "type": "Maneuver"
   "keywords":

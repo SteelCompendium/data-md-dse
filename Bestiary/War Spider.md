@@ -20,10 +20,10 @@
 "reason": !!int "-4"
 "presence": !!int "-3"
 "traits":
-- "name": "Ride Launcher"
-  "effect": "An ally who leaps off the back of the spider can jump up to 6 squares\
-    \ without a test, and takes no damage if they fall during the jump. After the\
-    \ jump, the first melee attack an ally makes on the same turn gains an edge."
+- "name": "[[Ride]] Launcher"
+  "effect": "An ally who leaps off the back of the spider can [[Jump|jump]] up to 6 squares\
+    \ without a test, and takes no damage if they fall during the [[Jump|jump]]. After the\
+    \ [[Jump|jump]], the first melee attack an ally makes on the same turn gains an edge."
 - "name": "Wide Back"
   "effect": "Two of the spider's size 1 allies can occupy the same space while riding\
     \ the spider."

@@ -1,7 +1,7 @@
 ```ds-statblock
-"name": "Dwarf Lurer"
+"name": "[[Dwarf]] Lurer"
 "ancestry":
-- "Dwarf"
+- "[[Dwarf]]"
 - "Humanoid"
 "roles":
 - "Defender"
@@ -36,7 +36,7 @@
   - "roll": "2d10 + 2"
     "t1": "2 damage"
     "t2": "4 damage"
-    "t3": "5 damage; an ally adjacent to the target can make a free strike"
+    "t3": "5 damage; an ally adjacent to the target can make a [[Free Strike|free strike]]"
   - "name": "Effect"
     "effect": "The target can't use triggered actions until the start of the next\
       \ round."

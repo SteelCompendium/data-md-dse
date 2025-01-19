@@ -1,7 +1,7 @@
 ```ds-statblock
-"name": "Human Brawler"
+"name": "[[Human]] Brawler"
 "ancestry":
-- "Human"
+- "[[Human]]"
 - "Humanoid"
 "roles":
 - "Brute"
@@ -44,7 +44,7 @@
     "t2": "7 damage; M2 grabbed"
     "t3": "10 damage; M3 grabbed"
   - "name": "Effect"
-    "effect": "The target has a bane on attempts to escape the grab. The brawler has\
+    "effect": "The target has a bane on attempts to escape the [[Grab|grab]]. The brawler has\
       \ edge on this attack if the target is already grabbed. "
 - "name": "Throw"
   "type": "Maneuver"

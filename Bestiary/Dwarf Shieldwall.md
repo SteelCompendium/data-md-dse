@@ -1,7 +1,7 @@
 ```ds-statblock
-"name": "Dwarf Shieldwall"
+"name": "[[Dwarf]] Shieldwall"
 "ancestry":
-- "Dwarf"
+- "[[Dwarf]]"
 - "Humanoid"
 "roles":
 - "Defender"
@@ -41,7 +41,7 @@
     "t3": "11 damage; slide 1"
   - "name": "Effect"
     "effect": "The shieldwall can shift 1 to remain adjacent to the target. A target\
-      \ restrained by a dwarf can be slid by this attack."
+      \ restrained by a [[Dwarf|dwarf]] can be slid by this attack."
   - "name": "3 Malice"
     "effect": "The shieldwall targets an additional creature or object. "
 - "name": "Intercepting Shield"

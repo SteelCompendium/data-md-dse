@@ -1,7 +1,7 @@
 ```ds-statblock
-"name": "Dwarf Securer"
+"name": "[[Dwarf]] Securer"
 "ancestry":
-- "Dwarf"
+- "[[Dwarf]]"
 - "Humanoid"
 "roles":
 - "Brute"
@@ -27,7 +27,7 @@
   "cost": "Signature"
   "keywords":
   - "Attack"
-  - "Charge"
+  - "[[Charge]]"
   - "Melee"
   - "Weapon"
   "distance": "Melee 1"

@@ -63,6 +63,6 @@
   "trigger": "An ally deals damage to the target."
   "effects":
   - "name": "Effect"
-    "effect": "The bruxer makes a free strike against the target. "
+    "effect": "The bruxer makes a [[Free Strike|free strike]] against the target. "
 
 ```

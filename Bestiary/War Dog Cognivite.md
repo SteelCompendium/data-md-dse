@@ -11,7 +11,7 @@
 "immunities":
 - "Psychic 3"
 "weaknesses": []
-"speed": "5 (fly)"
+"speed": "5 ([[Fly|fly]])"
 "size": "1M"
 "stability": !!int "0"
 "free_strike": !!int "2"

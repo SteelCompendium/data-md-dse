@@ -22,7 +22,7 @@
 "presence": !!int "0"
 "traits":
 - "name": "Masking Glamor"
-  "effect": "The tree gweiadur immediately hides at the end of their turn while in\
+  "effect": "The tree gweiadur immediately [[Hide|hides]] at the end of their turn while in\
     \ cover or concealment, even if they are observed."
 "abilities":
 - "name": "Snare Bow"

@@ -11,7 +11,7 @@
 "stamina": !!int "120"
 "immunities": []
 "weaknesses": []
-"speed": "7 (teleport)"
+"speed": "7 ([[Teleport|teleport]])"
 "size": "1M"
 "stability": !!int "2"
 "free_strike": !!int "5"
@@ -25,7 +25,7 @@
   "effect": "At the end of their turn, the penteulu can take 5 damage to end one save\
     \ ends effect affecting them. This damage can't be reduced in any way."
 - "name": "Hunter's Glamor"
-  "effect": "The penteulu immediately hides at the end of their turn, even if they\
+  "effect": "The penteulu immediately [[Hide|hides]] at the end of their turn, even if they\
     \ are observed."
 "abilities":
 - "name": "Wodeblade"
@@ -43,11 +43,11 @@
     "t2": "9 damage; M3 restrained (save ends)"
     "t3": "12 damage; M4 restrained (save ends)"
   - "name": "Effect"
-    "effect": "The penteulu deals damage to each target one at a time and can teleport\
+    "effect": "The penteulu deals damage to each target one at a time and can [[Teleport|teleport]]\
       \ 3 squares after damaging a target."
   - "name": "3 Malice"
     "effect": "Targets restrained by this ability take an additional **+1**. "
-- "name": "Fairness is a Human Concept"
+- "name": "Fairness is a [[Human]] Concept"
   "type": "Maneuver"
   "cost": "5 Malice"
   "keywords":
@@ -56,8 +56,8 @@
   "target": "All allies in the burst"
   "effects":
   - "name": "Effect"
-    "effect": "Each target can make a free strike and then shifts 3. A target immediately\
-      \ hides at the end of the penteulu's turn while in cover or concealment. "
+    "effect": "Each target can make a [[Free Strike|free strike]] and then shifts 3. A target immediately\
+      \ [[Hide|hides]] at the end of the penteulu's turn while in cover or concealment. "
 - "name": "Wode Sickness"
   "type": "Triggered Action"
   "keywords":
@@ -88,7 +88,7 @@
   "effects":
   - "name": "Effect"
     "effect": "The penteulu makes a Wodeblade attack against a single creature or\
-      \ object. Each target then makes a free strike. "
+      \ object. Each target then makes a [[Free Strike|free strike]]. "
 - "name": "Is it Now or is it Then? Where are We?"
   "type": "Villain Action 3"
   "keywords":

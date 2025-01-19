@@ -84,7 +84,7 @@
   "effects":
   - "name": "Effect"
     "effect": "The lightbender halves the damage, doesn't suffer any associated effect,\
-      \ and teleports 5 squares. The lightbender immediately hides if they teleport\
+      \ and [[Teleport|teleports]] 5 squares. The lightbender immediately [[Hide|hides]] if they [[Teleport|teleport]]\
       \ into cover or concealment. "
 
 ```

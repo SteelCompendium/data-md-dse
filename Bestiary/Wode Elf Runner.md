@@ -23,7 +23,7 @@
 "presence": !!int "1"
 "traits":
 - "name": "Masking Glamor"
-  "effect": "The runner immediately hides at the end of their turn while in cover\
+  "effect": "The runner immediately [[Hide|hides]] at the end of their turn while in cover\
     \ or concealment, even if they are observed."
 "abilities":
 - "name": "Spear"
@@ -31,7 +31,7 @@
   "cost": "Signature"
   "keywords":
   - "Attack"
-  - "Charge"
+  - "[[Charge]]"
   - "Melee"
   - "Ranged"
   - "Weapon"

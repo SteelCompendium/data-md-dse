@@ -23,7 +23,7 @@
 "presence": !!int "1"
 "traits":
 - "name": "Masking Glamor"
-  "effect": "The yeoman immediately hides at the end of their turn while in cover\
+  "effect": "The yeoman immediately [[Hide|hides]] at the end of their turn while in cover\
     \ or concealment, even if they are observed."
 "abilities":
 - "name": "Heavy Longbow"

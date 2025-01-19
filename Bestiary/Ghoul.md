@@ -23,7 +23,7 @@
 "presence": !!int "-1"
 "traits":
 - "name": "Hunger"
-  "effect": "If the ghoul charges, their speed increases by 2 until the end of their\
+  "effect": "If the ghoul [[Charge|charges]], their speed increases by 2 until the end of their\
     \ turn."
 - "name": "Arise"
   "effect": "The first time the ghoul is reduced to Stamina 0 by damage that isn't\
@@ -35,7 +35,7 @@
   "cost": "Signature"
   "keywords":
   - "Attack"
-  - "Charge"
+  - "[[Charge]]"
   - "Melee"
   - "Weapon"
   "distance": "Melee 1"
@@ -54,6 +54,6 @@
   "effects":
   - "name": "Effect"
     "effect": "The ghoul leaps 3 squares. If they land on a size 1 enemy, that enemy\
-      \ is knocked prone and the ghoul makes a free strike against them. "
+      \ is knocked prone and the ghoul makes a [[Free Strike|free strike]] against them. "
 
 ```

@@ -1,7 +1,7 @@
 ```ds-statblock
-"name": "Human Blackguard"
+"name": "[[Human]] Blackguard"
 "ancestry":
-- "Human"
+- "[[Human]]"
 - "Humanoid"
 "roles":
 - "Leader"
@@ -44,7 +44,7 @@
     "t2": "7 damage; M3 slowed (save ends)"
     "t3": "10 damage; M4 slowed (save ends)"
   - "name": "Effect"
-    "effect": "An ally within 10 squares of the blackguard can make a free strike."
+    "effect": "An ally within 10 squares of the blackguard can make a [[Free Strike|free strike]]."
   - "name": "1 Malice"
     "effect": "The ally can use their signature action instead. "
 - "name": "You!"
@@ -69,7 +69,7 @@
   "effects":
   - "name": "Effect"
     "effect": "The triggering attack's damage is halved. "
-- "name": "Advance!"
+- "name": "[[Advance]]!"
   "type": "Villain Action 1"
   "keywords":
   - "--"
@@ -101,7 +101,7 @@
   "effects":
   - "name": "Effect"
     "effect": "The blackguard uses their Zweihander Swing ability against each enemy\
-      \ in the area. Each ally within 5 squares of the area can make a free strike\
+      \ in the area. Each ally within 5 squares of the area can make a [[Free Strike|free strike]]\
       \ against any enemy in the area."
 
 ```

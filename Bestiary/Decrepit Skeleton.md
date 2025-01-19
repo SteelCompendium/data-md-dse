@@ -25,7 +25,7 @@
 "traits":
 - "name": "Bonetrops"
   "effect": "When the decrepit [[Skeleton|skeleton]] is reduced to Stamina 0, its space becomes\
-    \ difficult terrain. The first time any enemy enters this space, they take 1 damage."
+    \ [[Difficult Terrain|difficult terrain]]. The first time any enemy enters this space, they take 1 damage."
 "abilities":
 - "name": "Bone Bow"
   "type": "Action"

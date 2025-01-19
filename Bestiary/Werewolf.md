@@ -33,19 +33,19 @@
 - "name": "Ferocity"
   "effect": "The werewolf's abilities are capable of inflicting ferocity points on\
     \ non-stormwight enemies. If a creature has 10 or more ferocity at the start of\
-    \ their turn, they spend all their ferocity and either make a free strike at the\
+    \ their turn, they spend all their ferocity and either make a [[Free Strike|free strike]] at the\
     \ nearest creature or shift up to their speed towards the nearest creature and\
-    \ take a free strike. Non-stormwight creatures that take damage in this way gain\
+    \ take a [[Free Strike|free strike]]. Non-stormwight creatures that take damage in this way gain\
     \ 1 ferocity. All accumulated ferocity disappears after completing a respite."
 - "name": "Vukenstep"
-  "effect": "The werewolf ignores difficult terrain."
+  "effect": "The werewolf ignores [[Difficult Terrain|difficult terrain]]."
 "abilities":
 - "name": "Accursed Bite"
   "type": "Action"
   "cost": "Signature"
   "keywords":
   - "Attack"
-  - "Charge"
+  - "[[Charge]]"
   - "Melee"
   - "Weapon"
   "distance": "Melee 1"
@@ -97,7 +97,7 @@
   "effects":
   - "name": "Effect"
     "effect": "The werewolf leaps 4 squares. If they end this movement at a wall,\
-      \ the werewolf leaps off the wall 4 squares and makes a melee free strike. "
+      \ the werewolf leaps off the wall 4 squares and makes a melee [[Free Strike|free strike]]. "
 - "name": "Facepalm and Head Slam"
   "type": "Triggered Action"
   "cost": "2 Malice"

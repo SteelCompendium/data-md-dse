@@ -12,7 +12,7 @@
 - "Corruption 3"
 - "Poison 3"
 "weaknesses": []
-"speed": "5 (fly)"
+"speed": "5 ([[Fly|fly]])"
 "size": "1M"
 "stability": !!int "1"
 "free_strike": !!int "2"

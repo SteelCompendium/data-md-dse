@@ -28,7 +28,7 @@
   "cost": "Signature"
   "keywords":
   - "Attack"
-  - "Charge"
+  - "[[Charge]]"
   - "Melee"
   - "Weapon"
   "distance": "Melee 2"
@@ -39,7 +39,7 @@
     "t2": "9 damage; 2 prone"
     "t3": "12 damage; 3 prone"
   - "name": "Effect"
-    "effect": "The pouncer makes a free strike against each target they have knocked\
+    "effect": "The pouncer makes a [[Free Strike|free strike]] against each target they have knocked\
       \ prone. "
 - "name": "Sparkling Tail Whip"
   "type": "Action"
@@ -84,7 +84,7 @@
   "effects":
   - "name": "Effect"
     "effect": "The [[Lightbender|lightbender]] halves the damage, doesn't suffer any associated effect,\
-      \ and teleports 5 squares. The pouncer makes a free strike if they teleport\
+      \ and [[Teleport|teleports]] 5 squares. The pouncer makes a [[Free Strike|free strike]] if they [[Teleport|teleport]]\
       \ into a space adjacent to an enemy. "
 
 ```

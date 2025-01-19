@@ -1,7 +1,7 @@
 ```ds-statblock
-"name": "Human Guard"
+"name": "[[Human]] Guard"
 "ancestry":
-- "Human"
+- "[[Human]]"
 - "Humanoid"
 "roles":
 - "Brute"
@@ -42,7 +42,7 @@
     "t2": "5 damage"
     "t3": "6 damage"
   - "name": "Effect"
-    "effect": "If the guard is flanked, they can make a free strike against an additional\
+    "effect": "If the guard is flanked, they can make a [[Free Strike|free strike]] against an additional\
       \ target adjacent to them. "
 
 ```

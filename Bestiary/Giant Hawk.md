@@ -20,7 +20,7 @@
 "presence": !!int "-2"
 "traits":
 - "name": "Mounted Platform"
-  "effect": "Any creature riding the hawk can make a free strike during or after the\
+  "effect": "Any creature riding the hawk can make a [[Free Strike|free strike]] during or after the\
     \ hawk's movement."
 "abilities":
 - "name": "Talons"

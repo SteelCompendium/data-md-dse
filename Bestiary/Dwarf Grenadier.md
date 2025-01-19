@@ -1,7 +1,7 @@
 ```ds-statblock
-"name": "Dwarf Grenadier"
+"name": "[[Dwarf]] Grenadier"
 "ancestry":
-- "Dwarf"
+- "[[Dwarf]]"
 - "Humanoid"
 "roles":
 - "Hexer"
@@ -39,7 +39,7 @@
     "t2": "5 damage; push 3; M2 slowed (save ends)"
     "t3": "7 damage; push 5; M3 slowed (save ends)"
   - "name": "Effect"
-    "effect": "A target restrained by a dwarf can be pushed by this ability. "
+    "effect": "A target restrained by a [[Dwarf|dwarf]] can be pushed by this ability. "
 - "name": "Sleep Grenade"
   "type": "Action"
   "cost": "3 Malice"

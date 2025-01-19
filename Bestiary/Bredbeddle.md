@@ -89,7 +89,7 @@
     "effect": "The bredbeddle must be headless to use this ability. The bredbeddle\
       \ shifts up to their speed, and can push each creature who comes within their\
       \ reach during the shift 1 square. Each square the bredbeddle leaves during\
-      \ the shift becomes difficult terrain. "
+      \ the shift becomes [[Difficult Terrain|difficult terrain]]. "
 - "name": "Headway"
   "type": "Maneuver"
   "cost": "5 Malice"
@@ -134,7 +134,7 @@
     "t2": "The target turns green (save ends)"
     "t3": "No effect "
   - "name": "Effect"
-    "effect": "Green shadows crawl out from under the bredbeddle's feet and attempt\
+    "effect": "Green shadows [[Crawl|crawl]] out from under the bredbeddle's feet and attempt\
       \ to turn each target green. The bredbeddle has a double edge on attacks made\
       \ against targets turned green in this way."
 - "name": "Challenge"

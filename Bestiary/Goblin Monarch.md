@@ -42,7 +42,7 @@
     "t2": "5 damage"
     "t3": "7 damage"
   - "name": "Effect"
-    "effect": "An ally within 10 of the monarch can make a free strike. "
+    "effect": "An ally within 10 of the monarch can make a [[Free Strike|free strike]]. "
 - "name": "Get in Here!"
   "type": "Maneuver"
   "cost": "1 Malice"
@@ -71,7 +71,7 @@
   "target": "Each ally"
   "effects":
   - "name": "Effect"
-    "effect": "Each target can move up to their speed or make a free strike. "
+    "effect": "Each target can move up to their speed or make a [[Free Strike|free strike]]. "
 - "name": "Focus Fire"
   "type": "Villain Action 2"
   "keywords":
@@ -90,6 +90,6 @@
   "target": "All allies in the burst"
   "effects":
   - "name": "Effect"
-    "effect": "Each target can make a free strike with edge."
+    "effect": "Each target can make a [[Free Strike|free strike]] with edge."
 
 ```

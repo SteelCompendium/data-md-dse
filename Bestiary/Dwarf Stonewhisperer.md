@@ -1,7 +1,7 @@
 ```ds-statblock
-"name": "Dwarf Stonewhisperer"
+"name": "[[Dwarf]] Stonewhisperer"
 "ancestry":
-- "Dwarf"
+- "[[Dwarf]]"
 - "Humanoid"
 "roles":
 - "Controller"
@@ -39,7 +39,7 @@
     "t2": "6 damage; slide 3; M2 slowed (save ends)"
     "t3": "9 damage; slide 5; M3 restrained (save ends)"
   - "name": "Effect"
-    "effect": "A target restrained by a dwarf can be slid by this attack. "
+    "effect": "A target restrained by a [[Dwarf|dwarf]] can be slid by this attack. "
 - "name": "Stone Wave"
   "type": "Maneuver"
   "cost": "3 Malice"
@@ -54,7 +54,7 @@
     "t2": "3 damage; push 3; R2 slowed (save ends)"
     "t3": "4 damage; push 3; R3 slowed (save ends)"
   - "name": "Effect"
-    "effect": "A target restrained by a dwarf can be pushed by this attack. The affected\
-      \ area is difficult terrain for enemies. "
+    "effect": "A target restrained by a [[Dwarf|dwarf]] can be pushed by this attack. The affected\
+      \ area is [[Difficult Terrain|difficult terrain]] for enemies. "
 
 ```

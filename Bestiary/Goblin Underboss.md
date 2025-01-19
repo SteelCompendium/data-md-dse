@@ -37,7 +37,7 @@
     "t2": "5 damage"
     "t3": "6 damage"
   - "name": "Effect"
-    "effect": "One ally adjacent to the target can make a free strike against them. "
+    "effect": "One ally adjacent to the target can make a [[Free Strike|free strike]] against them. "
 - "name": "Get Reckless!"
   "type": "Maneuver"
   "keywords":

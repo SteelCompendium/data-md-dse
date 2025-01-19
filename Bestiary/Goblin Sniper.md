@@ -1,5 +1,5 @@
 ```ds-statblock
-"name": "Goblin Sniper"
+"name": "Goblin [[Sniper]]"
 "ancestry":
 - "Goblin"
 - "Humanoid"
@@ -22,7 +22,7 @@
 "presence": !!int "-1"
 "traits":
 - "name": "Crafty"
-  "effect": "The sniper doesn't provoke opportunity attacks by moving."
+  "effect": "The [[Sniper|sniper]] doesn't provoke opportunity attacks by moving."
 "abilities":
 - "name": "Bow"
   "type": "Action"
@@ -39,7 +39,7 @@
     "t2": "4 damage"
     "t3": "5 damage"
   - "name": "Effect"
-    "effect": "If the sniper doesn't use a maneuver or a move action this turn, the\
+    "effect": "If the [[Sniper|sniper]] doesn't use a maneuver or a move action this turn, the\
       \ ability has edge. "
 
 ```

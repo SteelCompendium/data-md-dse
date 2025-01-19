@@ -28,7 +28,7 @@
   "cost": "Signature"
   "keywords":
   - "Attack"
-  - "Charge"
+  - "[[Charge]]"
   - "Melee"
   - "Weapon"
   "distance": "Melee 2"
@@ -40,7 +40,7 @@
     "t3": "12 damage; push 6; prone"
   - "name": "Effect"
     "effect": "This attack deals **additional damage** to each creature and object\
-      \ that takes damage from any forced movement it causes. "
+      \ that takes damage from any [[Forced Movement|forced movement]] it causes. "
 - "name": "Grabby Hand"
   "type": "Maneuver"
   "keywords":
@@ -57,7 +57,7 @@
   - "name": "Effect"
     "effect": "The goon can only have one target grabbed at a time."
   - "name": "1 Malice"
-    "effect": "The target has a bane on escaping the grab while the goon crushes the\
+    "effect": "The target has a bane on escaping the [[Grab|grab]] while the goon crushes the\
       \ target in their hand. "
 - "name": "People Bowling"
   "type": "Maneuver"
@@ -77,7 +77,7 @@
     "effect": "The goon hurls what's in their hand down the line and rolls power.\
       \ The hurled creature or object counts as a target and lands in the last square\
       \ of the line (or nearest unoccupied square of the goon's choice). "
-- "name": "Swat The Fly"
+- "name": "Swat The [[Fly]]"
   "type": "Triggered Action"
   "keywords":
   - "--"

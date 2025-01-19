@@ -12,6 +12,6 @@ At the start of a lizardfolk's turn, you can spend malice to activate one of the
 
 - A creature can use an action to free an adjacent target restrained by the trap.
 
-- **Water Pit (5 Malice):** A lizardfolk acting this turn unearths a 2 × 2 pit in the ground that fills up with water. A lizardfolk that exits the pit gains 10 temporary Stamina, regrows their tail, and ends one save ends effect affecting them. A creature with the Nature skill or the ability to burrow can make a hard Might or Reason test when adjacent to a pit to drain it. Success empties the pit of water. Failure with a consequence causes the creature to fall into the pit prone.
+- **Water Pit (5 Malice):** A lizardfolk acting this turn unearths a 2 × 2 pit in the ground that fills up with water. A lizardfolk that exits the pit gains 10 temporary Stamina, regrows their tail, and ends one save ends effect affecting them. A creature with the Nature skill or the ability to [[Burrow|burrow]] can make a hard Might or Reason test when adjacent to a pit to drain it. Success empties the pit of water. Failure with a consequence causes the creature to fall into the pit prone.
 
 - **Flood the Shores (7 Malice):** Waist-high water floods the entire battlemap. All lizardfolk submerged in water have their speed doubled while swimming and have **advantage**. The water drains at the end of the round if there are no open water pits on the battlemap.

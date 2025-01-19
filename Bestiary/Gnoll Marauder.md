@@ -22,7 +22,7 @@
 "traits":
 - "name": "Death Frenzy"
   "effect": "Whenever an ally within 7 is reduced to 0 Stamina, the marauder moves\
-    \ up to their speed and makes a free strike."
+    \ up to their speed and makes a [[Free Strike|free strike]]."
 "abilities":
 - "name": "Fury Flail"
   "type": "Action"

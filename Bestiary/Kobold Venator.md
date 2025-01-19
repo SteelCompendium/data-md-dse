@@ -21,7 +21,7 @@
 "presence": !!int "1"
 "traits":
 - "name": "Lost in the Crowd"
-  "effect": "If the venator is adjacent to an ally, they can use the hide maneuver,\
+  "effect": "If the venator is adjacent to an ally, they can use the [[Hide|hide]] maneuver,\
     \ even if observed."
 - "name": "Not What I Seem"
   "effect": "The venator begins the encounter disguised as a minion from their squad.\

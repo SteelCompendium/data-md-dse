@@ -30,7 +30,7 @@
   "cost": "Signature"
   "keywords":
   - "Attack"
-  - "Charge"
+  - "[[Charge]]"
   - "Melee"
   - "Ranged"
   - "Weapon"
@@ -42,7 +42,7 @@
     "t2": "3 damage"
     "t3": "4 damage"
   - "name": "Effect"
-    "effect": "If this ability is used as part of the Charge action, the conscript\
+    "effect": "If this ability is used as part of the [[Charge]] action, the conscript\
       \ has **edge** on the attack. "
 
 ```

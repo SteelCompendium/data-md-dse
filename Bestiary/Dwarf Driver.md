@@ -1,7 +1,7 @@
 ```ds-statblock
-"name": "Dwarf Driver"
+"name": "[[Dwarf]] Driver"
 "ancestry":
-- "Dwarf"
+- "[[Dwarf]]"
 - "Humanoid"
 "roles":
 - "Harrier"
@@ -27,7 +27,7 @@
   "cost": "Signature"
   "keywords":
   - "Attack"
-  - "Charge"
+  - "[[Charge]]"
   - "Melee"
   - "Ranged"
   - "Weapon"
@@ -39,6 +39,6 @@
     "t2": "4 damage; push 2"
     "t3": "5 damage; push 4"
   - "name": "Effect"
-    "effect": "A target restrained by a dwarf can be pushed by this attack."
+    "effect": "A target restrained by a [[Dwarf|dwarf]] can be pushed by this attack."
 
 ```

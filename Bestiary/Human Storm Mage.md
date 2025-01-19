@@ -1,7 +1,7 @@
 ```ds-statblock
-"name": "Human Storm Mage"
+"name": "[[Human]] Storm Mage"
 "ancestry":
-- "Human"
+- "[[Human]]"
 - "Humanoid"
 "roles":
 - "Controller"
@@ -63,6 +63,6 @@
     "t3": "Slide 1"
   - "name": "Effect"
     "effect": "The gust of wind disperses gas or vapor and extinguishes any flames,\
-      \ including persistent effects. "
+      \ including [[Persistent|persistent]] effects. "
 
 ```

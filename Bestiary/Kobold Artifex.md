@@ -39,7 +39,7 @@
     "t2": "4 damage; pull 2"
     "t3": "5 damage; pull 3"
   - "name": "Effect"
-    "effect": "If the target's forced movement triggers a trap, the target has a bane\
+    "effect": "If the target's [[Forced Movement|forced movement]] triggers a trap, the target has a bane\
       \ on all resistance rolls against that trap. "
 - "name": "Activate Trap"
   "type": "Maneuver"

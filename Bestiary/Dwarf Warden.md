@@ -1,7 +1,7 @@
 ```ds-statblock
-"name": "Dwarf Warden"
+"name": "[[Dwarf]] [[Warden]]"
 "ancestry":
-- "Dwarf"
+- "[[Dwarf]]"
 - "Humanoid"
 "roles":
 - "Brute"
@@ -21,7 +21,7 @@
 "presence": !!int "0"
 "traits":
 - "name": "Escort the Prisoners"
-  "effect": "Whenever the warden moves, they can carry an adjacent restrained enemy\
+  "effect": "Whenever the [[Warden|warden]] moves, they can carry an adjacent restrained enemy\
     \ as if they were grabbed."
 "abilities":
 - "name": "Concussive Maul"
@@ -39,7 +39,7 @@
     "t2": "8 damage; push 3; M2 slowed (save ends)"
     "t3": "11 damage; push 5; M3 restrained (save ends)"
   - "name": "Effect"
-    "effect": "A target restrained by a dwarf can be pushed by this attack. "
+    "effect": "A target restrained by a [[Dwarf|dwarf]] can be pushed by this attack. "
 - "name": "Concussive Shockwave"
   "type": "Maneuver"
   "cost": "5 Malice"
@@ -53,6 +53,6 @@
     "t2": "4 damage; push 4; A2 slowed (save ends)"
     "t3": "5 damage; push 6; A3 dazed (save ends)"
   - "name": "Effect"
-    "effect": "A target restrained by a dwarf can be pushed by this ability. "
+    "effect": "A target restrained by a [[Dwarf|dwarf]] can be pushed by this ability. "
 
 ```

@@ -1,7 +1,7 @@
 ```ds-statblock
-"name": "Human Death Cultist"
+"name": "[[Human]] Death Cultist"
 "ancestry":
-- "Human"
+- "[[Human]]"
 - "Humanoid"
 "roles":
 - "Support"

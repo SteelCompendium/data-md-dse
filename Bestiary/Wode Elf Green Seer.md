@@ -22,7 +22,7 @@
 "presence": !!int "1"
 "traits":
 - "name": "Masking Glamor"
-  "effect": "The green seer immediately hides at the end of their turn while in cover\
+  "effect": "The green seer immediately [[Hide|hides]] at the end of their turn while in cover\
     \ or concealment, even if they are observed."
 "abilities":
 - "name": "The Forest's Embrace"
@@ -40,7 +40,7 @@
     "t2": "5 damage; I2 restrained (save ends)"
     "t3": "7 damage; I3 restrained (save ends)"
   - "name": "Effect"
-    "effect": "A creature restrained by this ability can't search for hidden creatures\
+    "effect": "A creature restrained by this ability can't [[Search For Hidden Creatures|search for hidden creatures]]\
       \ until the condition ends. "
 - "name": "The Natural Cycle"
   "type": "Maneuver"
@@ -66,6 +66,6 @@
     \ seer or an ally within distance."
   "effects":
   - "name": "Effect"
-    "effect": "The green seer makes a free strike against the target. "
+    "effect": "The green seer makes a [[Free Strike|free strike]] against the target. "
 
 ```

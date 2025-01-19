@@ -1,7 +1,7 @@
 ```ds-statblock
-"name": "Human Apprentice Mage"
+"name": "[[Human]] Apprentice Mage"
 "ancestry":
-- "Human"
+- "[[Human]]"
 - "Humanoid"
 "roles":
 - "Controller"

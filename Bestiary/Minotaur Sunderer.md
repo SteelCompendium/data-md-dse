@@ -29,7 +29,7 @@
   "cost": "Signature"
   "keywords":
   - "Attack"
-  - "Charge"
+  - "[[Charge]]"
   - "Melee"
   - "Weapon"
   "distance": "Melee 2"
@@ -62,7 +62,7 @@
   "cost": "3 Malice"
   "keywords":
   - "Attack"
-  - "Charge"
+  - "[[Charge]]"
   - "Melee"
   - "Weapon"
   "distance": "Melee 2"
@@ -84,6 +84,6 @@
   "target": "Triggering creature"
   "effects":
   - "name": "Effect"
-    "effect": "The sunderer charges the target using Spiked Maul. "
+    "effect": "The sunderer [[Charge|charges]] the target using Spiked Maul. "
 
 ```
