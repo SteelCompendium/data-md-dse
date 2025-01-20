@@ -1,5 +1,5 @@
 ```ds-statblock
-"name": "[[Human]] Brawler"
+"name": "[[Human]] [[Brawler]]"
 "ancestry":
 - "[[Human]]"
 - "Humanoid"
@@ -23,10 +23,10 @@
 "presence": !!int "0"
 "traits":
 - "name": "Shoot the Hostage"
-  "effect": "The brawler takes half damage from attacks if they have a creature or\
+  "effect": "The [[Brawler|brawler]] takes half damage from attacks if they have a creature or\
     \ object [[Grabbed|grabbed]]. The [[Grabbed|grabbed]] creature or object takes the other half of the damage."
 - "name": "Supernatural Insight"
-  "effect": "The brawler can target supernatural creatures and objects within 5 squares,\
+  "effect": "The [[Brawler|brawler]] can target supernatural creatures and objects within 5 squares,\
     \ even if they don't have line of effect."
 "abilities":
 - "name": "Haymaker"
@@ -44,7 +44,7 @@
     "t2": "7 damage; M2 [[Grabbed|grabbed]]"
     "t3": "10 damage; M3 [[Grabbed|grabbed]]"
   - "name": "Effect"
-    "effect": "The target has a bane on attempts to escape the [[Grab|grab]]. The brawler has\
+    "effect": "The target has a bane on attempts to escape the [[Grab|grab]]. The [[Brawler|brawler]] has\
       \ edge on this attack if the target is already [[Grabbed|grabbed]]. "
 - "name": "Throw"
   "type": "Maneuver"
@@ -52,7 +52,7 @@
   "keywords":
   - "--"
   "distance": "Melee 1"
-  "target": "One creature [[Grabbed|grabbed]] by the brawler"
+  "target": "One creature [[Grabbed|grabbed]] by the [[Brawler|brawler]]"
   "effects":
   - "name": "Effect"
     "effect": "Push 5. "

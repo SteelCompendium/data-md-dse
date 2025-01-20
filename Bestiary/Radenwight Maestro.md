@@ -1,5 +1,5 @@
 ```ds-statblock
-"name": "Radenwight Maestro"
+"name": "Radenwight [[Maestro]]"
 "ancestry":
 - "Humanoid"
 - "Radenwight"
@@ -21,7 +21,7 @@
 "presence": !!int "3"
 "traits":
 - "name": "End Effect"
-  "effect": "At the end of their turn, the maestro can take 5 damage to end one save\
+  "effect": "At the end of their turn, the [[Maestro|maestro]] can take 5 damage to end one save\
     \ ends effect affecting them. This damage can't be reduced in any way."
 "abilities":
 - "name": "Cacophony"
@@ -34,9 +34,9 @@
   "target": "All enemies in the burst"
   "effects":
   - "roll": "2d10 + 3"
-    "t1": "3 sonic damage; slide 1; the maestro can shift 1 square"
-    "t2": "5 sonic damage; slide 3; the maestro can shift 3 squares"
-    "t3": "7 sonic damage; slide 5; the maestro can shift 5 squares"
+    "t1": "3 sonic damage; slide 1; the [[Maestro|maestro]] can shift 1 square"
+    "t2": "5 sonic damage; slide 3; the [[Maestro|maestro]] can shift 3 squares"
+    "t3": "7 sonic damage; slide 5; the [[Maestro|maestro]] can shift 5 squares"
   - "name": "Effect"
     "effect": "Each ally within distance can use Ready Rodent as a free triggered\
       \ action once before the end of the round. "
@@ -68,7 +68,7 @@
   "trigger": "The target deals damage to an ally or takes damage from an ally."
   "effects":
   - "name": "Effect"
-    "effect": "The maestro makes a [[Free Strike|free strike]] against the target. The maestro can\
+    "effect": "The [[Maestro|maestro]] makes a [[Free Strike|free strike]] against the target. The [[Maestro|maestro]] can\
       \ only use this ability once per turn. "
 - "name": "Overture"
   "type": "Villain Action 1"

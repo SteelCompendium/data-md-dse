@@ -26,7 +26,7 @@
   "effect": "The first time the zombie is reduced to Stamina 0 by damage that isn't\
     \ fire damage or holy damage and their body isn't destroyed, they regain half\
     \ their Stamina and fall [[Prone|prone]]."
-- "name": "Endless Knight"
+- "name": "Endless [[Knight]]"
   "effect": "The zombie can take advantage of their Arise trait twice."
 "abilities":
 - "name": "Clobber and Clutch"
