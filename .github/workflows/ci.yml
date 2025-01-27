@@ -6,6 +6,7 @@ on:
       - backer
       - patron
       - main
+      - patron4
 
 permissions:
   contents: write  # Grant write permissions to the contents scope
