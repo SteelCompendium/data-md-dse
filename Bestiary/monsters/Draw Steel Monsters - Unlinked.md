@@ -3106,7 +3106,7 @@ At the start of any basilisk's turn, you can spend Malice to activate one of the
 > A basilisk acting this turn can burrow until the start of their next turn, and moves up to their speed. They have damage immunity 2 while underground. The basilisk can burrow through stone, but can't drag other creatures underground when they do so. At the start of each of the basilisk's turns, the Director can spend 1 Malice to let the basilisk continue burrowing.
 
 <!-- -->
-> 🔳 **Upchuck (5 Malice*)*
+> 🔳 **Upchuck (5 Malice)**
 >
 > | **Area, Weapon**        |               **Main action** |
 > | ----------------------- | ----------------------------: |
@@ -6271,7 +6271,7 @@ At the start of any devil's turn, you can spend Malice to activate one of the fo
 > **Effect:** Each target shifts up to their speed. The high judge can make each creature charmed by All Rise, Compel the Jury, or Devilish Suggestion move up to half that creature's speed.
 
 <!-- -->
-> ☠️ **Deceptive Stratagem (Villain Action 3*)*
+> ☠️ **Deceptive Stratagem (Villain Action 3)**
 >
 > | **Magic, Ranged** |               **-** |
 > | ----------------- | ------------------: |
