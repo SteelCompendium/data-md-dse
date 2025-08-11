@@ -17,7 +17,7 @@ type: monster/feature
 At the start of any high elf's turn, you can spend Malice to activate one of the following features.
 
 <!-- -->
-> 🌀 **Chaincast 3 Malice**
+> 🌀 **Chaincast (3 Malice)**
 >
 > Until the end of the round, whenever a high elf uses a magic ability, they can use it as if they were occupying the square of another high elf on the encounter map to whom they have line of effect.
 

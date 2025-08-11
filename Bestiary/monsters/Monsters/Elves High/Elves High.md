@@ -2,12 +2,12 @@
 file_basename: Elves High
 file_dpath: Monsters/Elves High
 item_id: elves-high
-item_index: '14'
+item_index: '15'
 item_name: Elves, High
 scc:
   - mcdm.monsters.v1:monster.section:elves-high
 scdc:
-  - 1.1.1:2.1:14
+  - 1.1.1:2.1:15
 source: mcdm.monsters.v1
 type: monster/section
 ---
@@ -64,7 +64,7 @@ Most high elves speak Caelian and Hyrallic, with some also speaking Yllyric.
 At the start of any high elf's turn, you can spend Malice to activate one of the following features.
 
 <!-- -->
-> 🌀 **Chaincast 3 Malice**
+> 🌀 **Chaincast (3 Malice)**
 >
 > Until the end of the round, whenever a high elf uses a magic ability, they can use it as if they were occupying the square of another high elf on the encounter map to whom they have line of effect.
 
