@@ -135,3 +135,18 @@ type: index
 | [Essence of Tides](../Elementals/Statblocks/Essence%20of%20Tides)                    |
 | [Field of Growth](../Elementals/Statblocks/Field%20of%20Growth)                      |
 | [Force of Earth](../Elementals/Statblocks/Force%20of%20Earth)                        |
+| [Elves High](../Elves%20High/Elves%20High)                                           |
+| [High Elf Malice](../Elves%20High/Features/High%20Elf%20Malice)                      |
+| [Brambleguard](../Elves%20High/Statblocks/Brambleguard)                              |
+| [Ceramic Horse](../Elves%20High/Statblocks/Ceramic%20Horse)                          |
+| [Elemental Mote](../Elves%20High/Statblocks/Elemental%20Mote)                        |
+| [High Elf Bloodletter](../Elves%20High/Statblocks/High%20Elf%20Bloodletter)          |
+| [High Elf Dawn Mage](../Elves%20High/Statblocks/High%20Elf%20Dawn%20Mage)            |
+| [High Elf Deathtouch](../Elves%20High/Statblocks/High%20Elf%20Deathtouch)            |
+| [High Elf Orbweaver](../Elves%20High/Statblocks/High%20Elf%20Orbweaver)              |
+| [High Elf Ordinator](../Elves%20High/Statblocks/High%20Elf%20Ordinator)              |
+| [High Elf Palinode](../Elves%20High/Statblocks/High%20Elf%20Palinode)                |
+| [High Elf Quiver](../Elves%20High/Statblocks/High%20Elf%20Quiver)                    |
+| [High Elf Wyrd](../Elves%20High/Statblocks/High%20Elf%20Wyrd)                        |
+| [High Elf Zephyr](../Elves%20High/Statblocks/High%20Elf%20Zephyr)                    |
+| [Soot Crow](../Elves%20High/Statblocks/Soot%20Crow)                                  |
