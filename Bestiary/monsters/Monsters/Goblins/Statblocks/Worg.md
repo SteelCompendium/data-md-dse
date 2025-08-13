@@ -2,12 +2,12 @@
 file_basename: Worg
 file_dpath: Monsters/Goblins/Statblocks
 item_id: worg
-item_index: '188'
+item_index: '195'
 item_name: Worg
 scc:
   - mcdm.monsters.v1:monster:worg
 scdc:
-  - 1.1.1:2:188
+  - 1.1.1:2:195
 source: mcdm.monsters.v1
 type: monster
 ---

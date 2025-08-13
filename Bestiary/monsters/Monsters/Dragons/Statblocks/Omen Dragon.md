@@ -2,12 +2,12 @@
 file_basename: Omen Dragon
 file_dpath: Monsters/Dragons/Statblocks
 item_id: omen-dragon
-item_index: '204'
+item_index: '211'
 item_name: Omen Dragon
 scc:
   - mcdm.monsters.v1:monster:omen-dragon
 scdc:
-  - 1.1.1:2:204
+  - 1.1.1:2:211
 source: mcdm.monsters.v1
 type: monster
 ---

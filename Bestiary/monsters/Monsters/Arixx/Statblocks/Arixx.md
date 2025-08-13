@@ -2,12 +2,12 @@
 file_basename: Arixx
 file_dpath: Monsters/Arixx/Statblocks
 item_id: arixx
-item_index: '121'
+item_index: '128'
 item_name: Arixx
 scc:
   - mcdm.monsters.v1:monster:arixx
 scdc:
-  - 1.1.1:2:121
+  - 1.1.1:2:128
 source: mcdm.monsters.v1
 type: monster
 ---

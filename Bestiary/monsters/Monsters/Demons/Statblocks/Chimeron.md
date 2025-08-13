@@ -2,12 +2,12 @@
 file_basename: Chimeron
 file_dpath: Monsters/Demons/Statblocks
 item_id: chimeron
-item_index: '151'
+item_index: '158'
 item_name: Chimeron
 scc:
   - mcdm.monsters.v1:monster:chimeron
 scdc:
-  - 1.1.1:2:151
+  - 1.1.1:2:158
 source: mcdm.monsters.v1
 type: monster
 ---

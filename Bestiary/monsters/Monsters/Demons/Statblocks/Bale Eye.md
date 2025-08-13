@@ -2,12 +2,12 @@
 file_basename: Bale Eye
 file_dpath: Monsters/Demons/Statblocks
 item_id: bale-eye
-item_index: '167'
+item_index: '174'
 item_name: Bale Eye
 scc:
   - mcdm.monsters.v1:monster:bale-eye
 scdc:
-  - 1.1.1:2:167
+  - 1.1.1:2:174
 source: mcdm.monsters.v1
 type: monster
 ---
