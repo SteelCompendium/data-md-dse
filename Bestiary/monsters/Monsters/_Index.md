@@ -280,3 +280,7 @@ type: index
 | [Kobold Venator](../Kobolds/Statblocks/Kobold%20Venator)                              |
 | [Shieldscale Drangolin](../Kobolds/Statblocks/Shieldscale%20Drangolin)                |
 | [Trained Gummy Brick](../Kobolds/Statblocks/Trained%20Gummy%20Brick)                  |
+| [Lightbender Malice](../Lightbenders/Features/Lightbender%20Malice)                   |
+| [Lightbender](../Lightbenders/Lightbender)                                            |
+| [Lightbender](../Lightbenders/Statblocks/Lightbender)                                 |
+| [Lightbender Pouncer](../Lightbenders/Statblocks/Lightbender%20Pouncer)               |

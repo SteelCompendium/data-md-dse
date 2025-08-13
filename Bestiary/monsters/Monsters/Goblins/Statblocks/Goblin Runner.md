@@ -2,12 +2,12 @@
 file_basename: Goblin Runner
 file_dpath: Monsters/Goblins/Statblocks
 item_id: goblin-runner
-item_index: '191'
+item_index: '193'
 item_name: Goblin Runner
 scc:
   - mcdm.monsters.v1:monster:goblin-runner
 scdc:
-  - 1.1.1:2:191
+  - 1.1.1:2:193
 source: mcdm.monsters.v1
 type: monster
 ---
