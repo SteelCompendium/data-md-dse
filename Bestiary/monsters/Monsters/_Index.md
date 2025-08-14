@@ -387,3 +387,11 @@ type: index
 | [Time Raider Tyrannis](../Time%20Raiders/Statblocks/Time%20Raider%20Tyrannis)         |
 | [Time Raider Vertex](../Time%20Raiders/Statblocks/Time%20Raider%20Vertex)             |
 | [Time Raiders](../Time%20Raiders/Time%20Raiders)                                      |
+| [Troll Malice](../Trolls/Features/Troll%20Malice)                                     |
+| [Troll Butcher](../Trolls/Statblocks/Troll%20Butcher)                                 |
+| [Troll Crack Trooper](../Trolls/Statblocks/Troll%20Crack%20Trooper)                   |
+| [Troll Glutton](../Trolls/Statblocks/Troll%20Glutton)                                 |
+| [Troll Limbjumble](../Trolls/Statblocks/Troll%20Limbjumble)                           |
+| [Troll Ravager](../Trolls/Statblocks/Troll%20Ravager)                                 |
+| [Troll Whelp](../Trolls/Statblocks/Troll%20Whelp)                                     |
+| [Trolls](../Trolls/Trolls)                                                            |
