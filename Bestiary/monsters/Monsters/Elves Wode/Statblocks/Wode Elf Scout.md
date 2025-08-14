@@ -2,12 +2,12 @@
 file_basename: Wode Elf Scout
 file_dpath: Monsters/Elves Wode/Statblocks
 item_id: wode-elf-scout
-item_index: '126'
+item_index: '127'
 item_name: Wode Elf Scout
 scc:
   - mcdm.monsters.v1:monster:wode-elf-scout
 scdc:
-  - 1.1.1:2:126
+  - 1.1.1:2:127
 source: mcdm.monsters.v1
 type: monster
 ---

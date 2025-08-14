@@ -313,3 +313,6 @@ type: index
 | [Ogre Goon](../Ogres/Statblocks/Ogre%20Goon)                                          |
 | [Ogre Juggernaut](../Ogres/Statblocks/Ogre%20Juggernaut)                              |
 | [Ogre Tantrum](../Ogres/Statblocks/Ogre%20Tantrum)                                    |
+| [Olothec Malice](../Olothec/Features/Olothec%20Malice)                                |
+| [Olothec](../Olothec/Olothec)                                                         |
+| [Olothec](../Olothec/Statblocks/Olothec)                                              |
