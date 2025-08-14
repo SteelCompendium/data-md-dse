@@ -2,12 +2,12 @@
 file_basename: Troll Butcher
 file_dpath: Monsters/Trolls/Statblocks
 item_id: troll-butcher
-item_index: '303'
+item_index: '337'
 item_name: Troll Butcher
 scc:
   - mcdm.monsters.v1:monster:troll-butcher
 scdc:
-  - 1.1.1:2:303
+  - 1.1.1:2:337
 source: mcdm.monsters.v1
 type: monster
 ---

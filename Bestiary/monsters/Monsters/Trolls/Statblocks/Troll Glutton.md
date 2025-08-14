@@ -2,12 +2,12 @@
 file_basename: Troll Glutton
 file_dpath: Monsters/Trolls/Statblocks
 item_id: troll-glutton
-item_index: '305'
+item_index: '339'
 item_name: Troll Glutton
 scc:
   - mcdm.monsters.v1:monster:troll-glutton
 scdc:
-  - 1.1.1:2:305
+  - 1.1.1:2:339
 source: mcdm.monsters.v1
 type: monster
 ---
