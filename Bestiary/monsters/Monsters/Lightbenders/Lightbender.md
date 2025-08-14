@@ -2,12 +2,12 @@
 file_basename: Lightbender
 file_dpath: Monsters/Lightbenders
 item_id: lightbender
-item_index: '22'
+item_index: '23'
 item_name: Lightbender
 scc:
   - mcdm.monsters.v1:monster.section:lightbender
 scdc:
-  - 1.1.1:2.1:22
+  - 1.1.1:2.1:23
 source: mcdm.monsters.v1
 type: monster/section
 ---

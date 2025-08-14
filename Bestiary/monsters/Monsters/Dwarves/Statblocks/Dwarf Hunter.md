@@ -2,12 +2,12 @@
 file_basename: Dwarf Hunter
 file_dpath: Monsters/Dwarves/Statblocks
 item_id: dwarf-hunter
-item_index: '333'
+item_index: '334'
 item_name: Dwarf Hunter
 scc:
   - mcdm.monsters.v1:monster:dwarf-hunter
 scdc:
-  - 1.1.1:2:333
+  - 1.1.1:2:334
 source: mcdm.monsters.v1
 type: monster
 ---
