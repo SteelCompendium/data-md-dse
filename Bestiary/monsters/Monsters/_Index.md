@@ -316,3 +316,20 @@ type: index
 | [Olothec Malice](../Olothec/Features/Olothec%20Malice)                                |
 | [Olothec](../Olothec/Olothec)                                                         |
 | [Olothec](../Olothec/Statblocks/Olothec)                                              |
+| [Orc Malice Malice Features](../Orcs/Features/Orc%20Malice%20Malice%20Features)       |
+| [Orcs](../Orcs/Orcs)                                                                  |
+| [Mohler](../Orcs/Statblocks/Mohler)                                                   |
+| [Orc Blitzer](../Orcs/Statblocks/Orc%20Blitzer)                                       |
+| [Orc Bloodrunner](../Orcs/Statblocks/Orc%20Bloodrunner)                               |
+| [Orc Bloodspark](../Orcs/Statblocks/Orc%20Bloodspark)                                 |
+| [Orc Chainlock](../Orcs/Statblocks/Orc%20Chainlock)                                   |
+| [Orc Eye of Grole](../Orcs/Statblocks/Orc%20Eye%20of%20Grole)                         |
+| [Orc Garotter](../Orcs/Statblocks/Orc%20Garotter)                                     |
+| [Orc Glorifier](../Orcs/Statblocks/Orc%20Glorifier)                                   |
+| [Orc Godcaller](../Orcs/Statblocks/Orc%20Godcaller)                                   |
+| [Orc Juggernaut](../Orcs/Statblocks/Orc%20Juggernaut)                                 |
+| [Orc Rampart](../Orcs/Statblocks/Orc%20Rampart)                                       |
+| [Orc Razor](../Orcs/Statblocks/Orc%20Razor)                                           |
+| [Orc Terranova](../Orcs/Statblocks/Orc%20Terranova)                                   |
+| [Orc Warleader](../Orcs/Statblocks/Orc%20Warleader)                                   |
+| [Scyza](../Orcs/Statblocks/Scyza)                                                     |

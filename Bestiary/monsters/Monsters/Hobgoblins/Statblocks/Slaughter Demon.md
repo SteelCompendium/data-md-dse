@@ -2,12 +2,12 @@
 file_basename: Slaughter Demon
 file_dpath: Monsters/Hobgoblins/Statblocks
 item_id: slaughter-demon
-item_index: '93'
+item_index: '108'
 item_name: Slaughter Demon
 scc:
   - mcdm.monsters.v1:monster:slaughter-demon
 scdc:
-  - 1.1.1:2:93
+  - 1.1.1:2:108
 source: mcdm.monsters.v1
 type: monster
 ---
