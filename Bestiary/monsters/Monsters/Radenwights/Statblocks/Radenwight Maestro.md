@@ -2,12 +2,12 @@
 file_basename: Radenwight Maestro
 file_dpath: Monsters/Radenwights/Statblocks
 item_id: radenwight-maestro
-item_index: '77'
+item_index: '105'
 item_name: Radenwight Maestro
 scc:
   - mcdm.monsters.v1:monster:radenwight-maestro
 scdc:
-  - 1.1.1:2:77
+  - 1.1.1:2:105
 source: mcdm.monsters.v1
 type: monster
 ---

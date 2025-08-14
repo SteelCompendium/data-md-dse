@@ -2,12 +2,12 @@
 file_basename: Radenwight Bruxer
 file_dpath: Monsters/Radenwights/Statblocks
 item_id: radenwight-bruxer
-item_index: '75'
+item_index: '103'
 item_name: Radenwight Bruxer
 scc:
   - mcdm.monsters.v1:monster:radenwight-bruxer
 scdc:
-  - 1.1.1:2:75
+  - 1.1.1:2:103
 source: mcdm.monsters.v1
 type: monster
 ---

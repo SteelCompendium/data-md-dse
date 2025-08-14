@@ -2,12 +2,12 @@
 file_basename: Animal Swarm
 file_dpath: Monsters/Animals/Statblocks
 item_id: animal-swarm
-item_index: '175'
+item_index: '203'
 item_name: Animal Swarm
 scc:
   - mcdm.monsters.v1:monster:animal-swarm
 scdc:
-  - 1.1.1:2:175
+  - 1.1.1:2:203
 source: mcdm.monsters.v1
 type: monster
 ---
