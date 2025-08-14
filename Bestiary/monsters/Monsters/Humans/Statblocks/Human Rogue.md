@@ -2,12 +2,12 @@
 file_basename: Human Rogue
 file_dpath: Monsters/Humans/Statblocks
 item_id: human-rogue
-item_index: '75'
+item_index: '83'
 item_name: Human Rogue
 scc:
   - mcdm.monsters.v1:monster:human-rogue
 scdc:
-  - 1.1.1:2:75
+  - 1.1.1:2:83
 source: mcdm.monsters.v1
 type: monster
 ---

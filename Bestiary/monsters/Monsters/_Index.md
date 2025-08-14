@@ -333,3 +333,13 @@ type: index
 | [Orc Terranova](../Orcs/Statblocks/Orc%20Terranova)                                   |
 | [Orc Warleader](../Orcs/Statblocks/Orc%20Warleader)                                   |
 | [Scyza](../Orcs/Statblocks/Scyza)                                                     |
+| [Radenwight Malice](../Radenwights/Features/Radenwight%20Malice)                      |
+| [Radenwights](../Radenwights/Radenwights)                                             |
+| [Radenwight Bruxer](../Radenwights/Statblocks/Radenwight%20Bruxer)                    |
+| [Radenwight Maestro](../Radenwights/Statblocks/Radenwight%20Maestro)                  |
+| [Radenwight Mischiever](../Radenwights/Statblocks/Radenwight%20Mischiever)            |
+| [Radenwight Piper](../Radenwights/Statblocks/Radenwight%20Piper)                      |
+| [Radenwight Ratcrobat](../Radenwights/Statblocks/Radenwight%20Ratcrobat)              |
+| [Radenwight Redeye](../Radenwights/Statblocks/Radenwight%20Redeye)                    |
+| [Radenwight Scrapper](../Radenwights/Statblocks/Radenwight%20Scrapper)                |
+| [Radenwight Swiftpaw](../Radenwights/Statblocks/Radenwight%20Swiftpaw)                |
