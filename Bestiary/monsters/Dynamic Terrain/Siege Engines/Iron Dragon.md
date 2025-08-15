@@ -2,12 +2,12 @@
 file_basename: Iron Dragon
 file_dpath: Dynamic Terrain/Siege Engines
 item_id: iron-dragon-level-4-siege-engine-artillery
-item_index: '02'
+item_index: '03'
 item_name: Iron Dragon (Level 4 Siege Engine Artillery)
 scc:
   - mcdm.monsters.v1:dynamic-terrain.siege-engine:iron-dragon-level-4-siege-engine-artillery
 scdc:
-  - 1.1.1:3.2:02
+  - 1.1.1:3.2:03
 source: mcdm.monsters.v1
 type: dynamic-terrain/siege-engine
 ---

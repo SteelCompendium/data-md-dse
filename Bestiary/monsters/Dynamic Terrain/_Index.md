@@ -32,6 +32,7 @@ type: index
 | [Holy Idol](../Power%20Fixtures/Holy%20Idol)                                 |
 | [Psionic Shard](../Power%20Fixtures/Psionic%20Shard)                         |
 | [Tree of Might](../Power%20Fixtures/Tree%20of%20Might)                       |
+| [Arrow Launcher](../Siege%20Engines/Arrow%20Launcher)                        |
 | [Boiling Oil Cauldron](../Siege%20Engines/Boiling%20Oil%20Cauldron)          |
 | [Catapult](../Siege%20Engines/Catapult)                                      |
 | [Exploding Mill Wheel](../Siege%20Engines/Exploding%20Mill%20Wheel)          |

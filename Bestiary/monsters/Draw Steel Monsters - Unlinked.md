@@ -7093,7 +7093,7 @@ Thorn dragons are highly territorial, and are vigilant against potential threats
 >
 > **Special:** If the Thorn Dragon's Domain trait is in effect, any creature other than the dragon who starts their turn on the encounter map takes 1d3 poison damage.
 
-########## Thorn Dragon Malice
+**<span class="steel-compendium-malice">Thorn Dragon Malice</span>**
 
 At the start of a thorn dragon's turn, you can spend Malice to activate one of the following features.
 
@@ -25737,7 +25737,7 @@ Viewed by other war dogs as "The Goddess of the Banks," Psyche possesses a spiri
 
 Leader of the Legion Alkestis and one of the most brilliant commanders ever to be born a war dog, Alkestis has made her legion one of the most feared of Ajax's armies. The Silver Wolf is known for her battlefield tactics and a willingness to stoop to any depths to gain an edge on her enemies.
 
-########## War Dog Malice (Level 10+ Malice Features)
+**<span class="steel-compendium-malice">War Dog Malice (Level 10+ Malice Features)</span>**
 
 At the start of any level 10 or higher war dog's turn, you can spend Malice to activate one of the following features.
 
@@ -28059,7 +28059,7 @@ Rather than siege engines taking actions on their own, a creature adjacent to th
 
 Multiple minions in a squad can activate different aspects of a siege engine using adjacent creature main actions.
 
-########## Arrow Launcher (Level 2 Siege Engine Artillery)
+**<span class="steel-compendium-malice">Arrow Launcher (Level 2 Siege Engine Artillery)</span>**
 
 A small wooden cart uses alchemical rockets to launch up to a hundred arrows at a time across a wide area.
 

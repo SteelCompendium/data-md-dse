@@ -2,12 +2,12 @@
 file_basename: Watchtower
 file_dpath: Dynamic Terrain/Siege Engines
 item_id: watchtower-level-2-fortification-defender
-item_index: '03'
+item_index: '04'
 item_name: Watchtower (Level 2 Fortification Defender)
 scc:
   - mcdm.monsters.v1:dynamic-terrain.siege-engine:watchtower-level-2-fortification-defender
 scdc:
-  - 1.1.1:3.2:03
+  - 1.1.1:3.2:04
 source: mcdm.monsters.v1
 type: dynamic-terrain/siege-engine
 ---
