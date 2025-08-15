@@ -2,12 +2,12 @@
 file_basename: War Dog Draconite
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-draconite
-item_index: '353'
+item_index: '355'
 item_name: War Dog Draconite
 scc:
   - mcdm.monsters.v1:monster:war-dog-draconite
 scdc:
-  - 1.1.1:2:353
+  - 1.1.1:2:355
 source: mcdm.monsters.v1
 type: monster
 ---

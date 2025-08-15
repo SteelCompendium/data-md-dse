@@ -2,12 +2,12 @@
 file_basename: Voiceless Talker Evolutionist
 file_dpath: Monsters/Voiceless Talkers/Statblocks
 item_id: voiceless-talker-evolutionist
-item_index: '330'
+item_index: '332'
 item_name: Voiceless Talker Evolutionist
 scc:
   - mcdm.monsters.v1:monster:voiceless-talker-evolutionist
 scdc:
-  - 1.1.1:2:330
+  - 1.1.1:2:332
 source: mcdm.monsters.v1
 type: monster
 ---

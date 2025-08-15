@@ -2,12 +2,12 @@
 file_basename: War Dog Phosphorite
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-phosphorite
-item_index: '341'
+item_index: '343'
 item_name: War Dog Phosphorite
 scc:
   - mcdm.monsters.v1:monster:war-dog-phosphorite
 scdc:
-  - 1.1.1:2:341
+  - 1.1.1:2:343
 source: mcdm.monsters.v1
 type: monster
 ---

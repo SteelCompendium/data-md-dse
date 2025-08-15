@@ -2,12 +2,12 @@
 file_basename: War Dog Crucibite
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-crucibite
-item_index: '344'
+item_index: '346'
 item_name: War Dog Crucibite
 scc:
   - mcdm.monsters.v1:monster:war-dog-crucibite
 scdc:
-  - 1.1.1:2:344
+  - 1.1.1:2:346
 source: mcdm.monsters.v1
 type: monster
 ---

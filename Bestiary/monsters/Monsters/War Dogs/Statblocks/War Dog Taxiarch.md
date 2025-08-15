@@ -2,12 +2,12 @@
 file_basename: War Dog Taxiarch
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-taxiarch
-item_index: '363'
+item_index: '365'
 item_name: War Dog Taxiarch
 scc:
   - mcdm.monsters.v1:monster:war-dog-taxiarch
 scdc:
-  - 1.1.1:2:363
+  - 1.1.1:2:365
 source: mcdm.monsters.v1
 type: monster
 ---

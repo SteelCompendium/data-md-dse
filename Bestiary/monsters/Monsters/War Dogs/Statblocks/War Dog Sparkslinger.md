@@ -2,12 +2,12 @@
 file_basename: War Dog Sparkslinger
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-sparkslinger
-item_index: '360'
+item_index: '362'
 item_name: War Dog Sparkslinger
 scc:
   - mcdm.monsters.v1:monster:war-dog-sparkslinger
 scdc:
-  - 1.1.1:2:360
+  - 1.1.1:2:362
 source: mcdm.monsters.v1
 type: monster
 ---

@@ -2,12 +2,12 @@
 file_basename: Logostician Vesper
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: logostician-vesper
-item_index: '383'
+item_index: '385'
 item_name: Logostician Vesper
 scc:
   - mcdm.monsters.v1:monster:logostician-vesper
 scdc:
-  - 1.1.1:2:383
+  - 1.1.1:2:385
 source: mcdm.monsters.v1
 type: monster
 ---

@@ -2,12 +2,12 @@
 file_basename: War Dog Pestilite
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-pestilite
-item_index: '355'
+item_index: '357'
 item_name: War Dog Pestilite
 scc:
   - mcdm.monsters.v1:monster:war-dog-pestilite
 scdc:
-  - 1.1.1:2:355
+  - 1.1.1:2:357
 source: mcdm.monsters.v1
 type: monster
 ---

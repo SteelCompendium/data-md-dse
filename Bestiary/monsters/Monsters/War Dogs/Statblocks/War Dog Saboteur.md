@@ -2,12 +2,12 @@
 file_basename: War Dog Saboteur
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-saboteur
-item_index: '366'
+item_index: '368'
 item_name: War Dog Saboteur
 scc:
   - mcdm.monsters.v1:monster:war-dog-saboteur
 scdc:
-  - 1.1.1:2:366
+  - 1.1.1:2:368
 source: mcdm.monsters.v1
 type: monster
 ---

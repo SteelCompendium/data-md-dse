@@ -2,12 +2,12 @@
 file_basename: War Dog Sweeper
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-sweeper
-item_index: '373'
+item_index: '375'
 item_name: War Dog Sweeper
 scc:
   - mcdm.monsters.v1:monster:war-dog-sweeper
 scdc:
-  - 1.1.1:2:373
+  - 1.1.1:2:375
 source: mcdm.monsters.v1
 type: monster
 ---

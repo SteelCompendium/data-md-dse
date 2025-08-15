@@ -2,12 +2,12 @@
 file_basename: War Dog Sharpshooter
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-sharpshooter
-item_index: '381'
+item_index: '383'
 item_name: War Dog Sharpshooter
 scc:
   - mcdm.monsters.v1:monster:war-dog-sharpshooter
 scdc:
-  - 1.1.1:2:381
+  - 1.1.1:2:383
 source: mcdm.monsters.v1
 type: monster
 ---

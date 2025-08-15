@@ -2,12 +2,12 @@
 file_basename: War Dog Arachnite
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-arachnite
-item_index: '371'
+item_index: '373'
 item_name: War Dog Arachnite
 scc:
   - mcdm.monsters.v1:monster:war-dog-arachnite
 scdc:
-  - 1.1.1:2:371
+  - 1.1.1:2:373
 source: mcdm.monsters.v1
 type: monster
 ---

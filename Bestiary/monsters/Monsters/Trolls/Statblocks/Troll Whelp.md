@@ -2,12 +2,12 @@
 file_basename: Troll Whelp
 file_dpath: Monsters/Trolls/Statblocks
 item_id: troll-whelp
-item_index: '399'
+item_index: '401'
 item_name: Troll Whelp
 scc:
   - mcdm.monsters.v1:monster:troll-whelp
 scdc:
-  - 1.1.1:2:399
+  - 1.1.1:2:401
 source: mcdm.monsters.v1
 type: monster
 ---
