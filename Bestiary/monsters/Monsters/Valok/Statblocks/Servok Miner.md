@@ -2,12 +2,12 @@
 file_basename: Servok Miner
 file_dpath: Monsters/Valok/Statblocks
 item_id: servok-miner
-item_index: '323'
+item_index: '330'
 item_name: Servok Miner
 scc:
   - mcdm.monsters.v1:monster:servok-miner
 scdc:
-  - 1.1.1:2:323
+  - 1.1.1:2:330
 source: mcdm.monsters.v1
 type: monster
 ---

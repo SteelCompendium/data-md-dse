@@ -2,12 +2,12 @@
 file_basename: War Dog Equivite
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-equivite
-item_index: '353'
+item_index: '360'
 item_name: War Dog Equivite
 scc:
   - mcdm.monsters.v1:monster:war-dog-equivite
 scdc:
-  - 1.1.1:2:353
+  - 1.1.1:2:360
 source: mcdm.monsters.v1
 type: monster
 ---

@@ -2,12 +2,12 @@
 file_basename: War Dog Aerocite
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-aerocite
-item_index: '359'
+item_index: '366'
 item_name: War Dog Aerocite
 scc:
   - mcdm.monsters.v1:monster:war-dog-aerocite
 scdc:
-  - 1.1.1:2:359
+  - 1.1.1:2:366
 source: mcdm.monsters.v1
 type: monster
 ---

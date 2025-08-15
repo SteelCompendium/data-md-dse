@@ -2,12 +2,12 @@
 file_basename: Basilisk
 file_dpath: Monsters/Basilisks/Statblocks
 item_id: basilisk
-item_index: '325'
+item_index: '332'
 item_name: Basilisk
 scc:
   - mcdm.monsters.v1:monster:basilisk
 scdc:
-  - 1.1.1:2:325
+  - 1.1.1:2:332
 source: mcdm.monsters.v1
 type: monster
 ---

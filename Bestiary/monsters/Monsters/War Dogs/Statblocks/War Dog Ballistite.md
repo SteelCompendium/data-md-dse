@@ -2,12 +2,12 @@
 file_basename: War Dog Ballistite
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-ballistite
-item_index: '351'
+item_index: '358'
 item_name: War Dog Ballistite
 scc:
   - mcdm.monsters.v1:monster:war-dog-ballistite
 scdc:
-  - 1.1.1:2:351
+  - 1.1.1:2:358
 source: mcdm.monsters.v1
 type: monster
 ---

@@ -2,12 +2,12 @@
 file_basename: Werewolf
 file_dpath: Monsters/Werewolf/Statblocks
 item_id: werewolf
-item_index: '327'
+item_index: '334'
 item_name: Werewolf
 scc:
   - mcdm.monsters.v1:monster:werewolf
 scdc:
-  - 1.1.1:2:327
+  - 1.1.1:2:334
 source: mcdm.monsters.v1
 type: monster
 ---

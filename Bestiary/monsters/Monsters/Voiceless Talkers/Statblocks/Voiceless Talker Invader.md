@@ -2,12 +2,12 @@
 file_basename: Voiceless Talker Invader
 file_dpath: Monsters/Voiceless Talkers/Statblocks
 item_id: voiceless-talker-invader
-item_index: '334'
+item_index: '341'
 item_name: Voiceless Talker Invader
 scc:
   - mcdm.monsters.v1:monster:voiceless-talker-invader
 scdc:
-  - 1.1.1:2:334
+  - 1.1.1:2:341
 source: mcdm.monsters.v1
 type: monster
 ---

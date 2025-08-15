@@ -2,12 +2,12 @@
 file_basename: War Dog Conscript
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-conscript
-item_index: '356'
+item_index: '363'
 item_name: War Dog Conscript
 scc:
   - mcdm.monsters.v1:monster:war-dog-conscript
 scdc:
-  - 1.1.1:2:356
+  - 1.1.1:2:363
 source: mcdm.monsters.v1
 type: monster
 ---

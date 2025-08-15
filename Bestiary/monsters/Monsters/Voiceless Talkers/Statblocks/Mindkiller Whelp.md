@@ -2,12 +2,12 @@
 file_basename: Mindkiller Whelp
 file_dpath: Monsters/Voiceless Talkers/Statblocks
 item_id: mindkiller-whelp
-item_index: '331'
+item_index: '338'
 item_name: Mindkiller Whelp
 scc:
   - mcdm.monsters.v1:monster:mindkiller-whelp
 scdc:
-  - 1.1.1:2:331
+  - 1.1.1:2:338
 source: mcdm.monsters.v1
 type: monster
 ---

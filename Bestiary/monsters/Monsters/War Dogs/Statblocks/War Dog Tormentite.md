@@ -2,12 +2,12 @@
 file_basename: War Dog Tormentite
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-tormentite
-item_index: '384'
+item_index: '391'
 item_name: War Dog Tormentite
 scc:
   - mcdm.monsters.v1:monster:war-dog-tormentite
 scdc:
-  - 1.1.1:2:384
+  - 1.1.1:2:391
 source: mcdm.monsters.v1
 type: monster
 ---

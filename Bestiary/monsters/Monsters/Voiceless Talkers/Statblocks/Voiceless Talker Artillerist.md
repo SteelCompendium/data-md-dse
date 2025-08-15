@@ -2,12 +2,12 @@
 file_basename: Voiceless Talker Artillerist
 file_dpath: Monsters/Voiceless Talkers/Statblocks
 item_id: voiceless-talker-artillerist
-item_index: '335'
+item_index: '342'
 item_name: Voiceless Talker Artillerist
 scc:
   - mcdm.monsters.v1:monster:voiceless-talker-artillerist
 scdc:
-  - 1.1.1:2:335
+  - 1.1.1:2:342
 source: mcdm.monsters.v1
 type: monster
 ---

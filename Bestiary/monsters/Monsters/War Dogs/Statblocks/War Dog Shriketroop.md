@@ -2,12 +2,12 @@
 file_basename: War Dog Shriketroop
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-shriketroop
-item_index: '347'
+item_index: '354'
 item_name: War Dog Shriketroop
 scc:
   - mcdm.monsters.v1:monster:war-dog-shriketroop
 scdc:
-  - 1.1.1:2:347
+  - 1.1.1:2:354
 source: mcdm.monsters.v1
 type: monster
 ---

@@ -2,12 +2,12 @@
 file_basename: Iron Champion Doru
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: iron-champion-doru
-item_index: '370'
+item_index: '377'
 item_name: Iron Champion Doru
 scc:
   - mcdm.monsters.v1:monster:iron-champion-doru
 scdc:
-  - 1.1.1:2:370
+  - 1.1.1:2:377
 source: mcdm.monsters.v1
 type: monster
 ---

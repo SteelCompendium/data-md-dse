@@ -2,12 +2,12 @@
 file_basename: War Dog Amalgamite
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-amalgamite
-item_index: '371'
+item_index: '378'
 item_name: War Dog Amalgamite
 scc:
   - mcdm.monsters.v1:monster:war-dog-amalgamite
 scdc:
-  - 1.1.1:2:371
+  - 1.1.1:2:378
 source: mcdm.monsters.v1
 type: monster
 ---

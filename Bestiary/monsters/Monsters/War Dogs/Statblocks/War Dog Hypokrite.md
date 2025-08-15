@@ -2,12 +2,12 @@
 file_basename: War Dog Hypokrite
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-hypokrite
-item_index: '376'
+item_index: '383'
 item_name: War Dog Hypokrite
 scc:
   - mcdm.monsters.v1:monster:war-dog-hypokrite
 scdc:
-  - 1.1.1:2:376
+  - 1.1.1:2:383
 source: mcdm.monsters.v1
 type: monster
 ---

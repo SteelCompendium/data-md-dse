@@ -2,12 +2,12 @@
 file_basename: War Dog Eviscerite
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-eviscerite
-item_index: '345'
+item_index: '352'
 item_name: War Dog Eviscerite
 scc:
   - mcdm.monsters.v1:monster:war-dog-eviscerite
 scdc:
-  - 1.1.1:2:345
+  - 1.1.1:2:352
 source: mcdm.monsters.v1
 type: monster
 ---

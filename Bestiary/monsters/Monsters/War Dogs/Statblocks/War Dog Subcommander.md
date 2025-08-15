@@ -2,12 +2,12 @@
 file_basename: War Dog Subcommander
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-subcommander
-item_index: '361'
+item_index: '368'
 item_name: War Dog Subcommander
 scc:
   - mcdm.monsters.v1:monster:war-dog-subcommander
 scdc:
-  - 1.1.1:2:361
+  - 1.1.1:2:368
 source: mcdm.monsters.v1
 type: monster
 ---

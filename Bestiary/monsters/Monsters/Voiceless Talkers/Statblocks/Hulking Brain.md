@@ -2,12 +2,12 @@
 file_basename: Hulking Brain
 file_dpath: Monsters/Voiceless Talkers/Statblocks
 item_id: hulking-brain
-item_index: '329'
+item_index: '336'
 item_name: Hulking Brain
 scc:
   - mcdm.monsters.v1:monster:hulking-brain
 scdc:
-  - 1.1.1:2:329
+  - 1.1.1:2:336
 source: mcdm.monsters.v1
 type: monster
 ---

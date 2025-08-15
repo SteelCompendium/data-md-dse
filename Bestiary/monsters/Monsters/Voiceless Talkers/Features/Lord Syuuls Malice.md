@@ -2,12 +2,12 @@
 file_basename: Lord Syuuls Malice
 file_dpath: Monsters/Voiceless Talkers/Features
 item_id: lord-syuuls-malice
-item_index: '36'
+item_index: '37'
 item_name: Lord Syuul's Malice
 scc:
   - mcdm.monsters.v1:monster.feature:lord-syuuls-malice
 scdc:
-  - 1.1.1:2.2:36
+  - 1.1.1:2.2:37
 source: mcdm.monsters.v1
 type: monster/feature
 ---

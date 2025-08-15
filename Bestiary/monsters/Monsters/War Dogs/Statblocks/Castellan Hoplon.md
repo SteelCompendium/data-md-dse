@@ -2,12 +2,12 @@
 file_basename: Castellan Hoplon
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: castellan-hoplon
-item_index: '378'
+item_index: '385'
 item_name: Castellan Hoplon
 scc:
   - mcdm.monsters.v1:monster:castellan-hoplon
 scdc:
-  - 1.1.1:2:378
+  - 1.1.1:2:385
 source: mcdm.monsters.v1
 type: monster
 ---

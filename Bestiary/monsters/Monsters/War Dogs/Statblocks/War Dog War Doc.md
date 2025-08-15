@@ -2,12 +2,12 @@
 file_basename: War Dog War Doc
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-war-doc
-item_index: '379'
+item_index: '386'
 item_name: War Dog War Doc
 scc:
   - mcdm.monsters.v1:monster:war-dog-war-doc
 scdc:
-  - 1.1.1:2:379
+  - 1.1.1:2:386
 source: mcdm.monsters.v1
 type: monster
 ---

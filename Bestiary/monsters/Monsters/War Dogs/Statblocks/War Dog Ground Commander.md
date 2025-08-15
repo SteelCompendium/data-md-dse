@@ -2,12 +2,12 @@
 file_basename: War Dog Ground Commander
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-ground-commander
-item_index: '348'
+item_index: '355'
 item_name: War Dog Ground Commander
 scc:
   - mcdm.monsters.v1:monster:war-dog-ground-commander
 scdc:
-  - 1.1.1:2:348
+  - 1.1.1:2:355
 source: mcdm.monsters.v1
 type: monster
 ---

@@ -2,12 +2,12 @@
 file_basename: Lord Syuul
 file_dpath: Monsters/Lord Syuul
 item_id: lord-syuul
-item_index: '25'
+item_index: '26'
 item_name: Lord Syuul
 scc:
   - mcdm.monsters.v1:monster.section:lord-syuul
 scdc:
-  - 1.1.1:2.1:25
+  - 1.1.1:2.1:26
 source: mcdm.monsters.v1
 type: monster/section
 ---

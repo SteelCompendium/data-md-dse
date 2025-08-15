@@ -2,12 +2,12 @@
 file_basename: War Dog Firestarter
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-firestarter
-item_index: '386'
+item_index: '393'
 item_name: War Dog Firestarter
 scc:
   - mcdm.monsters.v1:monster:war-dog-firestarter
 scdc:
-  - 1.1.1:2:386
+  - 1.1.1:2:393
 source: mcdm.monsters.v1
 type: monster
 ---
