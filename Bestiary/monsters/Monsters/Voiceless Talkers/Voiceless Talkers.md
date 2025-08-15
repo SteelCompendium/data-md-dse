@@ -2,12 +2,12 @@
 file_basename: Voiceless Talkers
 file_dpath: Monsters/Voiceless Talkers
 item_id: voiceless-talkers
-item_index: 08
+item_index: 09
 item_name: Voiceless Talkers
 scc:
   - mcdm.monsters.v1:monster.section:voiceless-talkers
 scdc:
-  - 1.1.1:2.1:08
+  - 1.1.1:2.1:09
 source: mcdm.monsters.v1
 type: monster/section
 ---

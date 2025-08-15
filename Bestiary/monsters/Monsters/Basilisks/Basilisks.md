@@ -2,12 +2,12 @@
 file_basename: Basilisks
 file_dpath: Monsters/Basilisks
 item_id: basilisks
-item_index: 09
+item_index: '10'
 item_name: Basilisks
 scc:
   - mcdm.monsters.v1:monster.section:basilisks
 scdc:
-  - 1.1.1:2.1:09
+  - 1.1.1:2.1:10
 source: mcdm.monsters.v1
 type: monster/section
 ---
