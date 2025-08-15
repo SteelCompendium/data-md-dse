@@ -38,7 +38,7 @@ type: monster
 > **3 Malice:** The size of the cube and the potency both increase by 1.
 
 <!-- -->
-> 🏹 **The Wode Protects Us 3 Malice**
+> 🏹 **The Wode Protects Us (3 Malice)**
 >
 > | **Magic, Ranged** |                 **Maneuver** |
 > | ----------------- | ---------------------------: |

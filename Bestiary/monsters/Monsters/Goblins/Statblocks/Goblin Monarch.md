@@ -36,7 +36,7 @@ type: monster
 > **Effect:** One ally within 10 squares of the monarch can make a free strike.
 
 <!-- -->
-> 🏹 **Get in Here! 1 Malice**
+> 🏹 **Get in Here! (1 Malice)**
 >
 > | **Ranged**       |   **Maneuver** |
 > | ---------------- | -------------: |

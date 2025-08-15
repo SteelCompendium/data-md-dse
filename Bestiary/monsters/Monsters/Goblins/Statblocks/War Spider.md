@@ -49,7 +49,7 @@ type: monster
 > - **17+:** 12 damage
 
 <!-- -->
-> 👤 **Trample 5 Malice**
+> 👤 **Trample (5 Malice)**
 >
 > | **-**       | **Main action** |
 > | ----------- | --------------: |

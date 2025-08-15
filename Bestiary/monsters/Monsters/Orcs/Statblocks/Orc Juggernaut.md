@@ -36,7 +36,7 @@ type: monster
 > **Effect:** A target who is already prone takes an extra 6 damage.
 
 <!-- -->
-> ❗️ **Hrraaaaaagh! 1 Malice**
+> ❗️ **Hrraaaaaagh! (1 Malice)**
 >
 > | **-**       | **Free triggered action** |
 > | ----------- | ------------------------: |

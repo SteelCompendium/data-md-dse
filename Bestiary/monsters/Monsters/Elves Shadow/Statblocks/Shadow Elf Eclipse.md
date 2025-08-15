@@ -55,7 +55,7 @@ type: monster
 > | ---------------- | --------------------------: |
 > | **📏 Ranged 10** | **🎯 The triggering enemy** |
 >
-> **Trigger:** An enemy within distance uses an ability that emits light, including abilities that deal fire or lightning damage .
+> **Trigger:** An enemy within distance uses an ability that emits light, including abilities that deal fire or lightning damage.
 >
 > **Effect:** The target has a double bane on the ability.
 

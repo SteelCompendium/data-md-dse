@@ -14,11 +14,11 @@ type: monster
 
 ###### Orc Eye of Grole
 
-|                Humanoid, Orc                |          -          |       Level 1       |    Platoon Artillery    |          EV 6          |
-| :-----------------------------------------: | :-----------------: | :-----------------: | :---------------------: | :--------------------: |
-|              **1M**<br/> Size               |  **6**<br/> Speed   | **20**<br/> Stamina |  **0**<br/> Stability   | **4**<br/> Free Strike |
-| **Cold, fire , or lightning**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
-|              **+1**<br/> Might              | **+1**<br/> Agility | **+0**<br/> Reason  |  **+0**<br/> Intuition  |  **-2**<br/> Presence  |
+|               Humanoid, Orc                |          -          |       Level 1       |    Platoon Artillery    |          EV 6          |
+| :----------------------------------------: | :-----------------: | :-----------------: | :---------------------: | :--------------------: |
+|              **1M**<br/> Size              |  **6**<br/> Speed   | **20**<br/> Stamina |  **0**<br/> Stability   | **4**<br/> Free Strike |
+| **Cold, fire, or lightning**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+|             **+1**<br/> Might              | **+1**<br/> Agility | **+0**<br/> Reason  |  **+0**<br/> Intuition  |  **-2**<br/> Presence  |
 
 <!-- -->
 > ⭐️ **Elemental Affinity**

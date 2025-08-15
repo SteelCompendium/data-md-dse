@@ -51,7 +51,7 @@ type: monster
 > **3 Malice:** Each ally within 3 squares of any target has a +2 bonus to speed until the end of their next turn.
 
 <!-- -->
-> ❗️ **Ever-Ready Rodent 2 Malice**
+> ❗️ **Ever-Ready Rodent (2 Malice)**
 >
 > | **Magic, Ranged** |      **Free triggered action** |
 > | ----------------- | -----------------------------: |
