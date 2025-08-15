@@ -2,12 +2,12 @@
 file_basename: War Dog Blood Jumper
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-blood-jumper
-item_index: '346'
+item_index: '347'
 item_name: War Dog Blood Jumper
 scc:
   - mcdm.monsters.v1:monster:war-dog-blood-jumper
 scdc:
-  - 1.1.1:2:346
+  - 1.1.1:2:347
 source: mcdm.monsters.v1
 type: monster
 ---

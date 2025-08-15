@@ -2,12 +2,12 @@
 file_basename: War Dog Tetrarch
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-tetrarch
-item_index: '351'
+item_index: '352'
 item_name: War Dog Tetrarch
 scc:
   - mcdm.monsters.v1:monster:war-dog-tetrarch
 scdc:
-  - 1.1.1:2:351
+  - 1.1.1:2:352
 source: mcdm.monsters.v1
 type: monster
 ---

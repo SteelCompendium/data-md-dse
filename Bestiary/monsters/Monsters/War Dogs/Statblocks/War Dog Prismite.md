@@ -2,12 +2,12 @@
 file_basename: War Dog Prismite
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-prismite
-item_index: '355'
+item_index: '356'
 item_name: War Dog Prismite
 scc:
   - mcdm.monsters.v1:monster:war-dog-prismite
 scdc:
-  - 1.1.1:2:355
+  - 1.1.1:2:356
 source: mcdm.monsters.v1
 type: monster
 ---

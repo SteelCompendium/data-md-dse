@@ -2,12 +2,12 @@
 file_basename: War Dog Hunter Killer
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-hunter-killer
-item_index: '349'
+item_index: '350'
 item_name: War Dog Hunter-Killer
 scc:
   - mcdm.monsters.v1:monster:war-dog-hunter-killer
 scdc:
-  - 1.1.1:2:349
+  - 1.1.1:2:350
 source: mcdm.monsters.v1
 type: monster
 ---

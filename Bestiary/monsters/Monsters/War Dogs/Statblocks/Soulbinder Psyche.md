@@ -2,12 +2,12 @@
 file_basename: Soulbinder Psyche
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: soulbinder-psyche
-item_index: '377'
+item_index: '378'
 item_name: Soulbinder Psyche
 scc:
   - mcdm.monsters.v1:monster:soulbinder-psyche
 scdc:
-  - 1.1.1:2:377
+  - 1.1.1:2:378
 source: mcdm.monsters.v1
 type: monster
 ---

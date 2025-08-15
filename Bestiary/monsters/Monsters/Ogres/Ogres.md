@@ -2,12 +2,12 @@
 file_basename: Ogres
 file_dpath: Monsters/Ogres
 item_id: ogres
-item_index: '47'
+item_index: '48'
 item_name: Ogres
 scc:
   - mcdm.monsters.v1:monster.section:ogres
 scdc:
-  - 1.1.1:2.1:47
+  - 1.1.1:2.1:48
 source: mcdm.monsters.v1
 type: monster/section
 ---

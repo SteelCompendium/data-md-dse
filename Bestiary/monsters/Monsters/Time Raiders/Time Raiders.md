@@ -2,12 +2,12 @@
 file_basename: Time Raiders
 file_dpath: Monsters/Time Raiders
 item_id: time-raiders
-item_index: '35'
+item_index: '36'
 item_name: Time Raiders
 scc:
   - mcdm.monsters.v1:monster.section:time-raiders
 scdc:
-  - 1.1.1:2.1:35
+  - 1.1.1:2.1:36
 source: mcdm.monsters.v1
 type: monster/section
 ---

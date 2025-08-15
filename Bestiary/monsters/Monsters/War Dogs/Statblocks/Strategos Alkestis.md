@@ -2,12 +2,12 @@
 file_basename: Strategos Alkestis
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: strategos-alkestis
-item_index: '347'
+item_index: '348'
 item_name: Strategos Alkestis
 scc:
   - mcdm.monsters.v1:monster:strategos-alkestis
 scdc:
-  - 1.1.1:2:347
+  - 1.1.1:2:348
 source: mcdm.monsters.v1
 type: monster
 ---

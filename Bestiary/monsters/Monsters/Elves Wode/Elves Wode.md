@@ -2,12 +2,12 @@
 file_basename: Elves Wode
 file_dpath: Monsters/Elves Wode
 item_id: elves-wode
-item_index: '25'
+item_index: '26'
 item_name: Elves, Wode
 scc:
   - mcdm.monsters.v1:monster.section:elves-wode
 scdc:
-  - 1.1.1:2.1:25
+  - 1.1.1:2.1:26
 source: mcdm.monsters.v1
 type: monster/section
 ---

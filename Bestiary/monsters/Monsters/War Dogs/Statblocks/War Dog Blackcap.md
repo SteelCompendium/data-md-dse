@@ -2,12 +2,12 @@
 file_basename: War Dog Blackcap
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-blackcap
-item_index: '363'
+item_index: '364'
 item_name: War Dog Blackcap
 scc:
   - mcdm.monsters.v1:monster:war-dog-blackcap
 scdc:
-  - 1.1.1:2:363
+  - 1.1.1:2:364
 source: mcdm.monsters.v1
 type: monster
 ---

@@ -2,12 +2,12 @@
 file_basename: War Dog Socialite
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-socialite
-item_index: '357'
+item_index: '358'
 item_name: War Dog Socialite
 scc:
   - mcdm.monsters.v1:monster:war-dog-socialite
 scdc:
-  - 1.1.1:2:357
+  - 1.1.1:2:358
 source: mcdm.monsters.v1
 type: monster
 ---

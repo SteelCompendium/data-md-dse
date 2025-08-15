@@ -2,12 +2,12 @@
 file_basename: War Dog Thanatite
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-thanatite
-item_index: '361'
+item_index: '362'
 item_name: War Dog Thanatite
 scc:
   - mcdm.monsters.v1:monster:war-dog-thanatite
 scdc:
-  - 1.1.1:2:361
+  - 1.1.1:2:362
 source: mcdm.monsters.v1
 type: monster
 ---

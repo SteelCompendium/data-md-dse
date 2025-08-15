@@ -2,12 +2,12 @@
 file_basename: War Dog Geomancer
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-geomancer
-item_index: '341'
+item_index: '342'
 item_name: War Dog Geomancer
 scc:
   - mcdm.monsters.v1:monster:war-dog-geomancer
 scdc:
-  - 1.1.1:2:341
+  - 1.1.1:2:342
 source: mcdm.monsters.v1
 type: monster
 ---

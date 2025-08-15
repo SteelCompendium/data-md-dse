@@ -2,12 +2,12 @@
 file_basename: War Dog Iron Priest
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-iron-priest
-item_index: '339'
+item_index: '340'
 item_name: War Dog Iron Priest
 scc:
   - mcdm.monsters.v1:monster:war-dog-iron-priest
 scdc:
-  - 1.1.1:2:339
+  - 1.1.1:2:340
 source: mcdm.monsters.v1
 type: monster
 ---

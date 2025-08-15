@@ -2,12 +2,12 @@
 file_basename: War Dog Teletalite
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-teletalite
-item_index: '366'
+item_index: '367'
 item_name: War Dog Teletalite
 scc:
   - mcdm.monsters.v1:monster:war-dog-teletalite
 scdc:
-  - 1.1.1:2:366
+  - 1.1.1:2:367
 source: mcdm.monsters.v1
 type: monster
 ---

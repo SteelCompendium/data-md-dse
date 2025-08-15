@@ -2,12 +2,12 @@
 file_basename: War Dog War Frog
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-war-frog
-item_index: '379'
+item_index: '380'
 item_name: War Dog War Frog
 scc:
   - mcdm.monsters.v1:monster:war-dog-war-frog
 scdc:
-  - 1.1.1:2:379
+  - 1.1.1:2:380
 source: mcdm.monsters.v1
 type: monster
 ---

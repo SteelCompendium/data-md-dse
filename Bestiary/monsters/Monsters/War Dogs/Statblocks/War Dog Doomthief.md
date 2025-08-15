@@ -2,12 +2,12 @@
 file_basename: War Dog Doomthief
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-doomthief
-item_index: '378'
+item_index: '379'
 item_name: War Dog Doomthief
 scc:
   - mcdm.monsters.v1:monster:war-dog-doomthief
 scdc:
-  - 1.1.1:2:378
+  - 1.1.1:2:379
 source: mcdm.monsters.v1
 type: monster
 ---

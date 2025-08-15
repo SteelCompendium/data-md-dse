@@ -2,12 +2,12 @@
 file_basename: War Dog Mischievite
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-mischievite
-item_index: '371'
+item_index: '372'
 item_name: War Dog Mischievite
 scc:
   - mcdm.monsters.v1:monster:war-dog-mischievite
 scdc:
-  - 1.1.1:2:371
+  - 1.1.1:2:372
 source: mcdm.monsters.v1
 type: monster
 ---

@@ -2,12 +2,12 @@
 file_basename: War Dog Tetherite
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-tetherite
-item_index: '374'
+item_index: '375'
 item_name: War Dog Tetherite
 scc:
   - mcdm.monsters.v1:monster:war-dog-tetherite
 scdc:
-  - 1.1.1:2:374
+  - 1.1.1:2:375
 source: mcdm.monsters.v1
 type: monster
 ---

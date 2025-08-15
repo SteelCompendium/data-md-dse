@@ -2,12 +2,12 @@
 file_basename: War Dog Neuronite
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-neuronite
-item_index: '369'
+item_index: '370'
 item_name: War Dog Neuronite
 scc:
   - mcdm.monsters.v1:monster:war-dog-neuronite
 scdc:
-  - 1.1.1:2:369
+  - 1.1.1:2:370
 source: mcdm.monsters.v1
 type: monster
 ---

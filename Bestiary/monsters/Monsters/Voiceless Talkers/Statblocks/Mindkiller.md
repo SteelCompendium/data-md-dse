@@ -2,12 +2,12 @@
 file_basename: Mindkiller
 file_dpath: Monsters/Voiceless Talkers/Statblocks
 item_id: mindkiller
-item_index: '330'
+item_index: '331'
 item_name: Mindkiller
 scc:
   - mcdm.monsters.v1:monster:mindkiller
 scdc:
-  - 1.1.1:2:330
+  - 1.1.1:2:331
 source: mcdm.monsters.v1
 type: monster
 ---

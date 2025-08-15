@@ -2,12 +2,12 @@
 file_basename: War Dog Breaker
 file_dpath: Monsters/War Dogs/Statblocks
 item_id: war-dog-breaker
-item_index: '364'
+item_index: '365'
 item_name: War Dog Breaker
 scc:
   - mcdm.monsters.v1:monster:war-dog-breaker
 scdc:
-  - 1.1.1:2:364
+  - 1.1.1:2:365
 source: mcdm.monsters.v1
 type: monster
 ---

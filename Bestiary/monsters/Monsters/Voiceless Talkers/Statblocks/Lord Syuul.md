@@ -2,12 +2,12 @@
 file_basename: Lord Syuul
 file_dpath: Monsters/Voiceless Talkers/Statblocks
 item_id: lord-syuul
-item_index: '327'
+item_index: '328'
 item_name: Lord Syuul
 scc:
   - mcdm.monsters.v1:monster:lord-syuul
 scdc:
-  - 1.1.1:2:327
+  - 1.1.1:2:328
 source: mcdm.monsters.v1
 type: monster
 ---

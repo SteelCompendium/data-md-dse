@@ -2,12 +2,12 @@
 file_basename: Humans
 file_dpath: Monsters/Humans
 item_id: humans
-item_index: '33'
+item_index: '34'
 item_name: Humans
 scc:
   - mcdm.monsters.v1:monster.section:humans
 scdc:
-  - 1.1.1:2.1:33
+  - 1.1.1:2.1:34
 source: mcdm.monsters.v1
 type: monster/section
 ---

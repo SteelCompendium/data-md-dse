@@ -2,12 +2,12 @@
 file_basename: Kingfissure Worm
 file_dpath: Monsters/Kingfissure Worm
 item_id: kingfissure-worm
-item_index: '20'
+item_index: '21'
 item_name: Kingfissure Worm
 scc:
   - mcdm.monsters.v1:monster.section:kingfissure-worm
 scdc:
-  - 1.1.1:2.1:20
+  - 1.1.1:2.1:21
 source: mcdm.monsters.v1
 type: monster/section
 ---

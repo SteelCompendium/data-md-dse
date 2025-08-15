@@ -2,12 +2,12 @@
 file_basename: Voiceless Talker Graywarper
 file_dpath: Monsters/Voiceless Talkers/Statblocks
 item_id: voiceless-talker-graywarper
-item_index: '325'
+item_index: '326'
 item_name: Voiceless Talker Graywarper
 scc:
   - mcdm.monsters.v1:monster:voiceless-talker-graywarper
 scdc:
-  - 1.1.1:2:325
+  - 1.1.1:2:326
 source: mcdm.monsters.v1
 type: monster
 ---
