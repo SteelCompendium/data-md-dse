@@ -2,12 +2,12 @@
 file_basename: Dwarf Marauder
 file_dpath: Monsters/Dwarves/Statblocks
 item_id: dwarf-marauder
-item_index: '341'
+item_index: '342'
 item_name: Dwarf Marauder
 scc:
   - mcdm.monsters.v1:monster:dwarf-marauder
 scdc:
-  - 1.1.1:2:341
+  - 1.1.1:2:342
 source: mcdm.monsters.v1
 type: monster
 ---

@@ -2,12 +2,12 @@
 file_basename: Lich
 file_dpath: Monsters/Lich/Statblocks
 item_id: lich
-item_index: '336'
+item_index: '337'
 item_name: Lich
 scc:
   - mcdm.monsters.v1:monster:lich
 scdc:
-  - 1.1.1:2:336
+  - 1.1.1:2:337
 source: mcdm.monsters.v1
 type: monster
 ---

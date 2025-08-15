@@ -2,12 +2,12 @@
 file_basename: Elves Shadow
 file_dpath: Monsters/Elves Shadow
 item_id: elves-shadow
-item_index: '24'
+item_index: '25'
 item_name: Elves, Shadow
 scc:
   - mcdm.monsters.v1:monster.section:elves-shadow
 scdc:
-  - 1.1.1:2.1:24
+  - 1.1.1:2.1:25
 source: mcdm.monsters.v1
 type: monster/section
 ---

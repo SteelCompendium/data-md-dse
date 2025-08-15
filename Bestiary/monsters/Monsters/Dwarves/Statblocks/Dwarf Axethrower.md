@@ -2,12 +2,12 @@
 file_basename: Dwarf Axethrower
 file_dpath: Monsters/Dwarves/Statblocks
 item_id: dwarf-axethrower
-item_index: '345'
+item_index: '346'
 item_name: Dwarf Axethrower
 scc:
   - mcdm.monsters.v1:monster:dwarf-axethrower
 scdc:
-  - 1.1.1:2:345
+  - 1.1.1:2:346
 source: mcdm.monsters.v1
 type: monster
 ---

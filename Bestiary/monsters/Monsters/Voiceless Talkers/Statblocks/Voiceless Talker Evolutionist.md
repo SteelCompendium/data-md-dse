@@ -2,12 +2,12 @@
 file_basename: Voiceless Talker Evolutionist
 file_dpath: Monsters/Voiceless Talkers/Statblocks
 item_id: voiceless-talker-evolutionist
-item_index: '328'
+item_index: '329'
 item_name: Voiceless Talker Evolutionist
 scc:
   - mcdm.monsters.v1:monster:voiceless-talker-evolutionist
 scdc:
-  - 1.1.1:2:328
+  - 1.1.1:2:329
 source: mcdm.monsters.v1
 type: monster
 ---
@@ -98,4 +98,8 @@ type: monster
 > - **12-16:** 12 lightning damage
 > - **17+:** 15 lightning damage
 >
-> **Effect:** Until the end of the encounter, the evolutionist is surrounded by a psionic electrical storm that is a 5 aura. The area is difficult terrain for enemies, and any enemy who enters the area for the first time in a round or starts their turn there takes 8 lightning damage.
+> **Effect:** Until the end of the encounter, the evolutionist is surrounded by a psionic electrical storm that is a 5 aura. The area is difficult terrain for enemies, and any enemy who enters the area for the first time in a round or starts their turn there takes 8 lightning damage. ## Lord Syuul
+
+"Yours is an interesting mind, Tyract. I wonder what it *tastes* like?"
+
+Chief Design Architect of the living synlirii high science vessel *Waking Nightmare*, Lord Syuul (*see-YOU-ull*) scours the timescape looking for novel genetic specimens he can torture into new species. His spies, informants, and allies are always on the lookout for subjects with unique hereditary traits the Interlace might extract.
