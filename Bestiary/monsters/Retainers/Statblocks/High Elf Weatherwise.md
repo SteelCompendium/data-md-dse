@@ -54,7 +54,7 @@ source: mcdm.monsters.v1
 ###### Level 7 Retainer Advancement Ability
 
 <!-- -->
-> ❇️ **Spring's Rebirth Encounter**
+> ❇️ **Spring's Rebirth (Encounter)**
 >
 > | **Area, Magic** |              **Main action** |
 > | --------------- | ---------------------------: |

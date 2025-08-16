@@ -28,7 +28,7 @@ source: mcdm.monsters.v1
 > - **17+:** 13 corruption or fire damage
 
 <!-- -->
-> ❗️ **Tempting Offer Encounter**
+> ❗️ **Tempting Offer (Encounter)**
 >
 > | **Ranged, Strike** |      **Free triggered action** |
 > | ------------------ | -----------------------------: |
@@ -63,7 +63,7 @@ source: mcdm.monsters.v1
 ###### Level 10 Retainer Advancement Ability
 
 <!-- -->
-> 🔳 **Hell On Earth Encounter**
+> 🔳 **Hell On Earth (Encounter)**
 >
 > | **Area, Magic, Ranged** | **Main action** |
 > | ----------------------- | --------------: |

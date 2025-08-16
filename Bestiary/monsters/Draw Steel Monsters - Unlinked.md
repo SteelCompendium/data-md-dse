@@ -9941,7 +9941,7 @@ However, not every shadow elf force is affiliate d wit h th queen. Some are exil
 > **Effect:** The target has a double bane on the ability.
 
 <!-- -->
-> ⭐️ **End Effec**
+> ⭐️ **End Effect**
 >
 > At the end of each of their turns, the eclipse can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
 
@@ -12156,7 +12156,7 @@ At the start of any gnoll's turn, you can spend Malice to activate one of the fo
 > Whenever a non-minion ally within 5 squares of the carnage is reduced to 0 Stamina, the carnage can move up to their speed, then can either make a melee free strike against two creatures or use Shrapnel Whip against one creature.
 
 <!-- -->
-> ⭐️ **End Effec**
+> ⭐️ **End Effect**
 >
 > At the end of each of their turns, the carnage can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
 
@@ -14403,7 +14403,7 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 > **Effect:** The target is marked until the start of the blackguard's next turn. The blackguard and each of their allies gain an edge on abilities used against targets marked by the blackguard.
 
 <!-- -->
-> ⭐️ **End Effec**
+> ⭐️ **End Effect**
 >
 > At the end of each of their turns, the blackguard can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
 
@@ -18273,19 +18273,19 @@ At the start of any rival's turn, you can spend Malice to activate one of the fo
 
 ##### Rival Ancestries Table
 
-| Keyword                              | Size Adjustment | Stability Adjustment | Ancestral Trait                                                                                                                                                                                                                                                                                                                                 |
-| ------------------------------------ | --------------- | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Devil                                | 1M              | 0                    | **Prehensile Tail:** The rival can't be flanked.                                                                                                                                                                                                                                                                                                |
-| Draconian (for the<br>dragon knight) | 1M              | +1                   | **Wings:** The rival can fly. While flying, their stability is 0.                                                                                                                                                                                                                                                                               |
-| Dwarf                                | 1M              | +2                   | **Great Fortitude:** The rival can't be made weakened.                                                                                                                                                                                                                                                                                          |
-| High Elf/Wode Elf                    | 1M              | 0                    | **Otherworldly Grace:** At the start of each of their turns, the rival can choose one effect on them that can be<br>ended by a saving throw. That effect instead ends at the end of their turn.                                                                                                                                                 |
-| Hakaan                               | 1L              | +2                   | **Forceful:** When the rival force moves a creature or object, they can force move them an additional 2 squares.                                                                                                                                                                                                                                |
-| Human                                | 1M              | +1                   | **Determination:** As a maneuver, the rival can end the frightened, slowed, or weakened condition on themself.                                                                                                                                                                                                                                  |
-| Memonek                              | 1M              | -1 (minimum 0)       | **Nonstop:** The rival can't be made slowed.                                                                                                                                                                                                                                                                                                    |
-| Orc                                  | 1M              | +2                   | **Glowing Recovery:** Once per round, the rival can use a maneuver to regain Stamina equal to 5 times their level.                                                                                                                                                                                                                              |
-| Polder                               | 1S              | 0                    | **Nimblestep:** The rival ignores difficult terrain and can move at full speed while sneaking.                                                                                                                                                                                                                                                  |
-| Revenant                             | 1M              | +1                   | **Vengeance Mark:** The rival places a magic sigil on an enemy within 10 squares of them. The rival always knows<br>the direction to that enemy while the sigil is active on them. As a main action, the rival can detonate the sigil,<br>dealing damage to the target equal to the rival's free strike and sliding the target up to 2 squares. |
-| Time Raider                          | 1M              | 0                    | **Four-Armed Martial Arts:** Whenever the rival uses the Grab or Knockback maneuver, they can target one<br>additional creature.                                                                                                                                                                                                                |
+| Keyword                           | Size Adjustment | Stability Adjustment | Ancestral Trait                                                                                                                                                                                                                                                                                                                           |
+| --------------------------------- | --------------- | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Devil                             | 1M              | 0                    | **Prehensile Tail:** The rival can't be flanked.                                                                                                                                                                                                                                                                                          |
+| Draconian (for the dragon knight) | 1M              | +1                   | **Wings:** The rival can fly. While flying, their stability is 0.                                                                                                                                                                                                                                                                         |
+| Dwarf                             | 1M              | +2                   | **Great Fortitude:** The rival can't be made weakened.                                                                                                                                                                                                                                                                                    |
+| High Elf/Wode Elf                 | 1M              | 0                    | **Otherworldly Grace:** At the start of each of their turns, the rival can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn.                                                                                                                                              |
+| Hakaan                            | 1L              | +2                   | **Forceful:** When the rival force moves a creature or object, they can force move them an additional 2 squares.                                                                                                                                                                                                                          |
+| Human                             | 1M              | +1                   | **Determination:** As a maneuver, the rival can end the frightened, slowed, or weakened condition on themself.                                                                                                                                                                                                                            |
+| Memonek                           | 1M              | -1 (minimum 0)       | **Nonstop:** The rival can't be made slowed.                                                                                                                                                                                                                                                                                              |
+| Orc                               | 1M              | +2                   | **Glowing Recovery:** Once per round, the rival can use a maneuver to regain Stamina equal to 5 times their level.                                                                                                                                                                                                                        |
+| Polder                            | 1S              | 0                    | **Nimblestep:** The rival ignores difficult terrain and can move at full speed while sneaking.                                                                                                                                                                                                                                            |
+| Revenant                          | 1M              | +1                   | **Vengeance Mark:** The rival places a magic sigil on an enemy within 10 squares of them. The rival always knows the direction to that enemy while the sigil is active on them. As a main action, the rival can detonate the sigil, dealing damage to the target equal to the rival's free strike and sliding the target up to 2 squares. |
+| Time Raider                       | 1M              | 0                    | **Four-Armed Martial Arts:** Whenever the rival uses the Grab or Knockback maneuver, they can target one additional creature.                                                                                                                                                                                                             |
 
 ### Rivals-1st Echelon
 
@@ -19420,7 +19420,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 > | ------------------------------ | ----------------------------: |
 > | **📏 3 cube within 10**        | **🎯 Each enemy in the area** |
 >
-> **Effect:** The area becomes overgrown with caustic vines until the end of the encounter. While in the area, any enemy has acid weakness 5 and is slowed. Any enemy who ends their turn in the area and has m< 4 is restrained (save ends).
+> **Effect:** The area becomes overgrown with caustic vines until the end of the encounter. While in the area, any enemy has acid weakness 5 and is slowed. Any enemy who ends their turn in the area and has M < 4 is restrained (save ends).
 
 <!-- -->
 > ❗️ **Breach of Nihility**
@@ -21967,7 +21967,7 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 <!-- -->
 > ⭐️ **Burn Bright**
 >
-> If the waxen takes fire damage, they ignite. While ignited, the waxen takes 4 fire damage at the start of each of their turns and their strikes deal an extra 4 fire damag.
+> If the waxen takes fire damage, they ignite. While ignited, the waxen takes 4 fire damage at the start of each of their turns and their strikes deal an extra 4 fire damage.
 
 **<span class="steel-compendium-statblock">Vampire</span>**
 
@@ -22546,9 +22546,9 @@ At the start of Rhodar's turn, you can spend Malice to activate one of the follo
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 10 fire damage ; R < 4 weakened (save ends)
-> - **12-16:** 16 fire damage ; R < 5 weakened (save ends)
-> - **17+:** 20 fire damage ; R < 6 weakened (save ends)
+> - **≤11:** 10 fire damage; R < 4 weakened (save ends)
+> - **12-16:** 16 fire damage; R < 5 weakened (save ends)
+> - **17+:** 20 fire damage; R < 6 weakened (save ends)
 >
 > **Effect:** Rhodar teleports to an unoccupied space adjacent to one target after the ability resolve.
 
@@ -22606,7 +22606,7 @@ At the start of a lich's turn, you can spend Malice to activate one of the follo
 <!-- -->
 > 🌀 **Cloud of Deceit (7 Malice)**
 >
-> The lich summons a mind-altering mist, turns invisible until the start of their next turn, and moves up to half their speed. Each enemy within 20 squares of the lich's starting point who has i\<4\] is deceived. While deceived, a creature perceives all allies and enemies as the lich, and perceives the environment as an unfamiliar wasteland corrupted by necrotic blight. If other creatures attempt to communicate with a deceived creature, that creature interprets their words as ghastly taunts in the lich's voice.
+> The lich summons a mind-altering mist, turns invisible until the start of their next turn, and moves up to half their speed. Each enemy within 20 squares of the lich's starting point who has I < 4 is deceived. While deceived, a creature perceives all allies and enemies as the lich, and perceives the environment as an unfamiliar wasteland corrupted by necrotic blight. If other creatures attempt to communicate with a deceived creature, that creature interprets their words as ghastly taunts in the lich's voice.
 >
 > This effect lasts until an affected creature takes damage or an ally uses a main action to shake them out of it. Each time this feature is used during an encounter, the distance of the effect decreases by 5 squares (to a minimum of 5 squares) and the potency increases by 1.
 
@@ -23188,7 +23188,7 @@ Most valok communicate exclusively in Rallarian.
 > - **12-16:** 12 fire damage; the target is burning (EoT
 > - **17+:** 8 fire damage
 >
-> A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round. Additionally, the area is burning until the end of the encounter. While the area is burning, it is difficul t terrai n an d an y enem takes 3 fire damage for each square of the area they enter.
+> A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round. Additionally, the area is burning until the end of the encounter. While the area is burning, it is difficult terrain and any enemy takes 3 fire damage for each square of the area they enter.
 
 <!-- -->
 > ❗️ **Quick Blast (1 Malice)**
@@ -23547,7 +23547,7 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 > **Effect:** Until the start of the artillerist's next turn, the next psionic ability used against the target automatically treats its initial power roll as a 17. The creature using the ability can still roll to determine if they score a critical hit.
 
 <!-- -->
-> ❗️ **Tactical Reposition 1 Malice**
+> ❗️ **Tactical Reposition (1 Malice)**
 >
 > | **-**       | **Triggered action** |
 > | ----------- | -------------------: |
@@ -24342,7 +24342,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 > | ----------------- | ----------------------------: |
 > | **📏 5 burst**    | **🎯 Each enemy in the area** |
 >
-> **Effect:** The neuronite chooses one ally within 10 squares. Each target is either taunted by the ally, or the ally has damage immunity 3 whenever any target makes a strike against them (the neuronite's choice). Either effect lasts until the start of the neuronite 's next turn
+> **Effect:** The neuronite chooses one ally within 10 squares. Each target is either taunted by the ally, or the ally has damage immunity 3 whenever any target makes a strike against them (the neuronite's choice). Either effect lasts until the start of the neuronite's next turn
 
 <!-- -->
 > ⭐️ **Loyalty Collar**
@@ -25935,7 +25935,7 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 >
 > - **≤11:** 15 damage
 > - **12-16:** 21 damage; Doru gains an edge on his next power roll; M < 4 slide 3
-> - **17+:** 25 damage; Doru has a double edge on his next power roll; m< 5 slide 5
+> - **17+:** 25 damage; Doru has a double edge on his next power roll; M < 5 slide 5
 >
 > **Effect:** The damage from this ability can't be reduced in any way.
 >
@@ -26242,7 +26242,7 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 > | --------------- | -------------------------------: |
 > | **📏 5 burst**  | **🎯 Each creature in the area** |
 >
-> **Effect:** Until the start of the next round, each target enemy who has i< 4 is dazed, each target enemy who has M < 4 is restrained, and each target enemy who has A < 4 can't use triggered actions. Additionally, until the end of the encounter, Alkestis and each target ally have damage immunity 3 and deal an extra 5 damage with strikes.
+> **Effect:** Until the start of the next round, each target enemy who has I < 4 is dazed, each target enemy who has M < 4 is restrained, and each target enemy who has A < 4 can't use triggered actions. Additionally, until the end of the encounter, Alkestis and each target ally have damage immunity 3 and deal an extra 5 damage with strikes.
 
 ## Werewolf
 
@@ -26514,7 +26514,7 @@ At the start of any wyvern's turn, you can spend Malice to activate one of the f
 > | ----------- | -----------: |
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The lurker flies up to their speed, then can attempt to hide . Each enemy the lurker moves adjacent to during this movement can choose to take 3 sonic damage or fall prone.
+> **Effect:** The lurker flies up to their speed, then can attempt to hide. Each enemy the lurker moves adjacent to during this movement can choose to take 3 sonic damage or fall prone.
 
 <!-- -->
 > ❗️ \*\*Retaliatory Dive \*\*
@@ -26535,7 +26535,7 @@ At the start of any wyvern's turn, you can spend Malice to activate one of the f
 <!-- -->
 > ⭐️ **Tenacious Hunter**
 >
-> Any creature affected by a condition imposed by a wyvern can 't be hidden from the lurker.
+> Any creature affected by a condition imposed by a wyvern can't be hidden from the lurker.
 
 **<span class="steel-compendium-statblock">Wyvern Predator</span>**
 
@@ -26607,7 +26607,7 @@ At the start of any wyvern's turn, you can spend Malice to activate one of the f
 <!-- -->
 > ⭐️ **Tenacious Hunter**
 >
-> Any creature affected by a condition imposed by a wyvern can 't be hidden from the predator.
+> Any creature affected by a condition imposed by a wyvern can't be hidden from the predator.
 
 ## Xorannox the Tyract
 
@@ -28985,7 +28985,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 **<span class="steel-compendium-ability">Level 4 Role Advancement Ability</span>**
 
 <!-- -->
-> ❗️ **Watch Out! Encounter**
+> ❗️ **Watch Out! (Encounter)**
 >
 > | **Melee**      |         **Triggered action** |
 > | -------------- | ---------------------------: |
@@ -29153,7 +29153,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 **<span class="steel-compendium-ability">Level 7 Role Advancement Ability</span>**
 
 <!-- -->
-> 👤 **Giddyup! Encounter**
+> 👤 **Giddyup! (Encounter)**
 >
 > | **-**          | **Move action** |
 > | -------------- | --------------: |
@@ -29211,7 +29211,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 **<span class="steel-compendium-ability">Level 10 Role Advancement Ability</span>**
 
 <!-- -->
-> 🗡 **Back from the Dead Encounter**
+> 🗡 **Back from the Dead (Encounter)**
 >
 > | **Melee**      | **Main action** |
 > | -------------- | --------------: |
@@ -29284,7 +29284,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 **<span class="steel-compendium-ability">Level 10 Retainer Advancement Ability</span>**
 
 <!-- -->
-> ❗️ **Trip of the Tongue Encounter**
+> ❗️ **Trip of the Tongue (Encounter)**
 >
 > | **Melee**      |          **Triggered action** |
 > | -------------- | ----------------------------: |
@@ -29412,7 +29412,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > - **17+:** 13 corruption or fire damage
 
 <!-- -->
-> ❗️ **Tempting Offer Encounter**
+> ❗️ **Tempting Offer (Encounter)**
 >
 > | **Ranged, Strike** |      **Free triggered action** |
 > | ------------------ | -----------------------------: |
@@ -29447,7 +29447,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 **<span class="steel-compendium-ability">Level 10 Retainer Advancement Ability</span>**
 
 <!-- -->
-> 🔳 **Hell On Earth Encounter**
+> 🔳 **Hell On Earth (Encounter)**
 >
 > | **Area, Magic, Ranged** | **Main action** |
 > | ----------------------- | --------------: |
@@ -29477,7 +29477,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > - **17+:** 14 damage; push 2
 
 <!-- -->
-> 🗡 **I'm Not a Steed, You're Equipment Encounter**
+> 🗡 **I'm Not a Steed, You're Equipment (Encounter)**
 >
 > | **Melee**      |              **Main action** |
 > | -------------- | ---------------------------: |
@@ -29651,7 +29651,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 **<span class="steel-compendium-ability">Level 7 Retainer Advancement Ability</span>**
 
 <!-- -->
-> ❇️ **Spring's Rebirth Encounter**
+> ❇️ **Spring's Rebirth (Encounter)**
 >
 > | **Area, Magic** |              **Main action** |
 > | --------------- | ---------------------------: |
@@ -29698,13 +29698,13 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > **Effect:** Whenever the shade starts their turn with concealment from the target, they gain 1 surge.
 
 <!-- -->
-> 🔳 **Duskfall Encounter**
+> 🔳 **Duskfall (Encounter)**
 >
 > | **Area, Magic**        |   **Maneuver** |
 > | ---------------------- | -------------: |
 > | **📏 3 cube within 1** | **🎯 Special** |
 >
-> **Effect:** Until the end of the next turn, the area is filled with darkness . The shade's mentor ignores concealment created by this darkness.
+> **Effect:** Until the end of the next turn, the area is filled with darkness. The shade's mentor ignores concealment created by this darkness.
 
 <!-- -->
 > ⭐️ **Of the Umbra**
@@ -29726,7 +29726,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > - **12-16:** 12 poison damage; weakened (save ends)
 > - **17+:** 16 poison damage; weakened (save ends)
 >
-> **Effect:** The slow-poison needle is initially painless, with the damage and effect delayed until the start of the target 's next turn. If the shade is hidden, using this ability doesn't cause them to be revealed.
+> **Effect:** The slow-poison needle is initially painless, with the damage and effect delayed until the start of the target's next turn. If the shade is hidden, using this ability doesn't cause them to be revealed.
 
 **<span class="steel-compendium-ability">Level 10 Retainer Advancement Ability</span>**
 
@@ -29793,7 +29793,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 **<span class="steel-compendium-ability">Level 7 Retainer Advancement Ability</span>**
 
 <!-- -->
-> 👤 **Magic Arrows Encounter**
+> 👤 **Magic Arrows (Encounter)**
 >
 > | **-**       | **Maneuver** |
 > | ----------- | -----------: |
@@ -29845,7 +29845,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 **<span class="steel-compendium-ability">Level 4 Retainer Advancement Ability</span>**
 
 <!-- -->
-> ❗️ **Frenzied Bite Encounter**
+> ❗️ **Frenzied Bite (Encounter)**
 >
 > | **-**       | **Triggered action** |
 > | ----------- | -------------------: |
@@ -29873,7 +29873,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 **<span class="steel-compendium-ability">Level 10 Retainer Advancement Ability</span>**
 
 <!-- -->
-> 👤 **Horrific Feas Encounter**
+> 👤 **Horrific Feas (Encounter)**
 >
 > | **-**       | **Main action** |
 > | ----------- | --------------: |
@@ -30132,7 +30132,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 **<span class="steel-compendium-ability">Level 4 Retainer Advancement Ability</span>**
 
 <!-- -->
-> ❗️ **Shield Block Encounter**
+> ❗️ **Shield Block (Encounter)**
 >
 > | **Ranged**      |             **Triggered action** |
 > | --------------- | -------------------------------: |
@@ -30223,7 +30223,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 **<span class="steel-compendium-ability">Level 7 Retainer Advancement Ability</span>**
 
 <!-- -->
-> 👤 **Triumphant Bay Encounter**
+> 👤 **Triumphant Bay (Encounter)**
 >
 > | **-**       | **Maneuver** |
 > | ----------- | -----------: |
@@ -30275,7 +30275,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 **<span class="steel-compendium-ability">Level 4 Retainer Advancement Ability</span>**
 
 <!-- -->
-> 👤 **Blood Oath Encounter**
+> 👤 **Blood Oath (Encounter)**
 >
 > | **Self**    | **Maneuver** |
 > | ----------- | -----------: |
@@ -30286,7 +30286,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 **<span class="steel-compendium-ability">Level 7 Retainer Advancement Ability</span>**
 
 <!-- -->
-> 👤 **Mow 'Em Down Encounter**
+> 👤 **Mow 'Em Down (Encounter)**
 >
 > | **-**                  | **Main action** |
 > | ---------------------- | --------------: |
@@ -30413,7 +30413,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 **<span class="steel-compendium-ability">Level 4 Retainer Advancement Ability</span>**
 
 <!-- -->
-> 🏹 **Stim Charge Encounter**
+> 🏹 **Stim Charge (Encounter)**
 >
 > | **Ranged**      |     **Main action** |
 > | --------------- | ------------------: |
@@ -30506,7 +30506,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 **<span class="steel-compendium-ability">Level 10 Retainer Advancement Ability</span>**
 
 <!-- -->
-> ❗️ **Fire Bad Encounter**
+> ❗️ **Fire Bad (Encounter)**
 >
 > | **-**       | **Triggered action** |
 > | ----------- | -------------------: |
@@ -30621,7 +30621,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > | ----------- | --------------: |
 > | **📏 Self** |     **🎯 Self** |
 >
-> **Effect:** While adjacent to their mentor, the unquiet spirit enters the mentor's space. A spirit who enters their mentor's space this way moves with the mentor, can't be sensed, and can't affect or be affected by other creatures or objects. They can 't take main actions , maneuvers, or move actions, except to use this ability to leave their mentor's space and appear in an adjacent space.
+> **Effect:** While adjacent to their mentor, the unquiet spirit enters the mentor's space. A spirit who enters their mentor's space this way moves with the mentor, can't be sensed, and can't affect or be affected by other creatures or objects. They can't take main actions, maneuvers, or move actions, except to use this ability to leave their mentor's space and appear in an adjacent space.
 
 <!-- -->
 > ⭐️ **Corruptive Phasing**
@@ -30663,7 +30663,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 **<span class="steel-compendium-ability">Level 10 Retainer Advancement Ability</span>**
 
 <!-- -->
-> 🏹 **Death Phase Encounter**
+> 🏹 **Death Phase (Encounter)**
 >
 > | **Magic, Ranged, Strike** |     **Main action** |
 > | ------------------------- | ------------------: |

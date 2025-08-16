@@ -337,7 +337,7 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 > **Effect:** Until the start of the artillerist's next turn, the next psionic ability used against the target automatically treats its initial power roll as a 17. The creature using the ability can still roll to determine if they score a critical hit.
 
 <!-- -->
-> ❗️ **Tactical Reposition 1 Malice**
+> ❗️ **Tactical Reposition (1 Malice)**
 >
 > | **-**       | **Triggered action** |
 > | ----------- | -------------------: |

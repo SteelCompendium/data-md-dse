@@ -328,7 +328,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 ###### Level 4 Role Advancement Ability
 
 <!-- -->
-> ❗️ **Watch Out! Encounter**
+> ❗️ **Watch Out! (Encounter)**
 >
 > | **Melee**      |         **Triggered action** |
 > | -------------- | ---------------------------: |
@@ -496,7 +496,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 ###### Level 7 Role Advancement Ability
 
 <!-- -->
-> 👤 **Giddyup! Encounter**
+> 👤 **Giddyup! (Encounter)**
 >
 > | **-**          | **Move action** |
 > | -------------- | --------------: |
@@ -554,7 +554,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 ###### Level 10 Role Advancement Ability
 
 <!-- -->
-> 🗡 **Back from the Dead Encounter**
+> 🗡 **Back from the Dead (Encounter)**
 >
 > | **Melee**      | **Main action** |
 > | -------------- | --------------: |
@@ -627,7 +627,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 ###### Level 10 Retainer Advancement Ability
 
 <!-- -->
-> ❗️ **Trip of the Tongue Encounter**
+> ❗️ **Trip of the Tongue (Encounter)**
 >
 > | **Melee**      |          **Triggered action** |
 > | -------------- | ----------------------------: |
@@ -755,7 +755,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > - **17+:** 13 corruption or fire damage
 
 <!-- -->
-> ❗️ **Tempting Offer Encounter**
+> ❗️ **Tempting Offer (Encounter)**
 >
 > | **Ranged, Strike** |      **Free triggered action** |
 > | ------------------ | -----------------------------: |
@@ -790,7 +790,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 ###### Level 10 Retainer Advancement Ability
 
 <!-- -->
-> 🔳 **Hell On Earth Encounter**
+> 🔳 **Hell On Earth (Encounter)**
 >
 > | **Area, Magic, Ranged** | **Main action** |
 > | ----------------------- | --------------: |
@@ -820,7 +820,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > - **17+:** 14 damage; push 2
 
 <!-- -->
-> 🗡 **I'm Not a Steed, You're Equipment Encounter**
+> 🗡 **I'm Not a Steed, You're Equipment (Encounter)**
 >
 > | **Melee**      |              **Main action** |
 > | -------------- | ---------------------------: |
@@ -994,7 +994,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 ###### Level 7 Retainer Advancement Ability
 
 <!-- -->
-> ❇️ **Spring's Rebirth Encounter**
+> ❇️ **Spring's Rebirth (Encounter)**
 >
 > | **Area, Magic** |              **Main action** |
 > | --------------- | ---------------------------: |
@@ -1041,13 +1041,13 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > **Effect:** Whenever the shade starts their turn with concealment from the target, they gain 1 surge.
 
 <!-- -->
-> 🔳 **Duskfall Encounter**
+> 🔳 **Duskfall (Encounter)**
 >
 > | **Area, Magic**        |   **Maneuver** |
 > | ---------------------- | -------------: |
 > | **📏 3 cube within 1** | **🎯 Special** |
 >
-> **Effect:** Until the end of the next turn, the area is filled with darkness . The shade's mentor ignores concealment created by this darkness.
+> **Effect:** Until the end of the next turn, the area is filled with darkness. The shade's mentor ignores concealment created by this darkness.
 
 <!-- -->
 > ⭐️ **Of the Umbra**
@@ -1069,7 +1069,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > - **12-16:** 12 poison damage; weakened (save ends)
 > - **17+:** 16 poison damage; weakened (save ends)
 >
-> **Effect:** The slow-poison needle is initially painless, with the damage and effect delayed until the start of the target 's next turn. If the shade is hidden, using this ability doesn't cause them to be revealed.
+> **Effect:** The slow-poison needle is initially painless, with the damage and effect delayed until the start of the target's next turn. If the shade is hidden, using this ability doesn't cause them to be revealed.
 
 ###### Level 10 Retainer Advancement Ability
 
@@ -1136,7 +1136,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 ###### Level 7 Retainer Advancement Ability
 
 <!-- -->
-> 👤 **Magic Arrows Encounter**
+> 👤 **Magic Arrows (Encounter)**
 >
 > | **-**       | **Maneuver** |
 > | ----------- | -----------: |
@@ -1188,7 +1188,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 ###### Level 4 Retainer Advancement Ability
 
 <!-- -->
-> ❗️ **Frenzied Bite Encounter**
+> ❗️ **Frenzied Bite (Encounter)**
 >
 > | **-**       | **Triggered action** |
 > | ----------- | -------------------: |
@@ -1216,7 +1216,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 ###### Level 10 Retainer Advancement Ability
 
 <!-- -->
-> 👤 **Horrific Feas Encounter**
+> 👤 **Horrific Feas (Encounter)**
 >
 > | **-**       | **Main action** |
 > | ----------- | --------------: |
@@ -1475,7 +1475,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 ###### Level 4 Retainer Advancement Ability
 
 <!-- -->
-> ❗️ **Shield Block Encounter**
+> ❗️ **Shield Block (Encounter)**
 >
 > | **Ranged**      |             **Triggered action** |
 > | --------------- | -------------------------------: |
@@ -1566,7 +1566,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 ###### Level 7 Retainer Advancement Ability
 
 <!-- -->
-> 👤 **Triumphant Bay Encounter**
+> 👤 **Triumphant Bay (Encounter)**
 >
 > | **-**       | **Maneuver** |
 > | ----------- | -----------: |
@@ -1618,7 +1618,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 ###### Level 4 Retainer Advancement Ability
 
 <!-- -->
-> 👤 **Blood Oath Encounter**
+> 👤 **Blood Oath (Encounter)**
 >
 > | **Self**    | **Maneuver** |
 > | ----------- | -----------: |
@@ -1629,7 +1629,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 ###### Level 7 Retainer Advancement Ability
 
 <!-- -->
-> 👤 **Mow 'Em Down Encounter**
+> 👤 **Mow 'Em Down (Encounter)**
 >
 > | **-**                  | **Main action** |
 > | ---------------------- | --------------: |
@@ -1756,7 +1756,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 ###### Level 4 Retainer Advancement Ability
 
 <!-- -->
-> 🏹 **Stim Charge Encounter**
+> 🏹 **Stim Charge (Encounter)**
 >
 > | **Ranged**      |     **Main action** |
 > | --------------- | ------------------: |
@@ -1849,7 +1849,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 ###### Level 10 Retainer Advancement Ability
 
 <!-- -->
-> ❗️ **Fire Bad Encounter**
+> ❗️ **Fire Bad (Encounter)**
 >
 > | **-**       | **Triggered action** |
 > | ----------- | -------------------: |
@@ -1964,7 +1964,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > | ----------- | --------------: |
 > | **📏 Self** |     **🎯 Self** |
 >
-> **Effect:** While adjacent to their mentor, the unquiet spirit enters the mentor's space. A spirit who enters their mentor's space this way moves with the mentor, can't be sensed, and can't affect or be affected by other creatures or objects. They can 't take main actions , maneuvers, or move actions, except to use this ability to leave their mentor's space and appear in an adjacent space.
+> **Effect:** While adjacent to their mentor, the unquiet spirit enters the mentor's space. A spirit who enters their mentor's space this way moves with the mentor, can't be sensed, and can't affect or be affected by other creatures or objects. They can't take main actions, maneuvers, or move actions, except to use this ability to leave their mentor's space and appear in an adjacent space.
 
 <!-- -->
 > ⭐️ **Corruptive Phasing**
@@ -2006,7 +2006,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 ###### Level 10 Retainer Advancement Ability
 
 <!-- -->
-> 🏹 **Death Phase Encounter**
+> 🏹 **Death Phase (Encounter)**
 >
 > | **Magic, Ranged, Strike** |     **Main action** |
 > | ------------------------- | ------------------: |

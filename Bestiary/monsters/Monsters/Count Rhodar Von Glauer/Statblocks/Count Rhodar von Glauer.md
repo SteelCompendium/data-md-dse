@@ -161,8 +161,8 @@ type: monster
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 10 fire damage ; R < 4 weakened (save ends)
-> - **12-16:** 16 fire damage ; R < 5 weakened (save ends)
-> - **17+:** 20 fire damage ; R < 6 weakened (save ends)
+> - **≤11:** 10 fire damage; R < 4 weakened (save ends)
+> - **12-16:** 16 fire damage; R < 5 weakened (save ends)
+> - **17+:** 20 fire damage; R < 6 weakened (save ends)
 >
 > **Effect:** Rhodar teleports to an unoccupied space adjacent to one target after the ability resolve.

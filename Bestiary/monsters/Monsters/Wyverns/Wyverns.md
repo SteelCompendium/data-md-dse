@@ -102,7 +102,7 @@ At the start of any wyvern's turn, you can spend Malice to activate one of the f
 > | ----------- | -----------: |
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The lurker flies up to their speed, then can attempt to hide . Each enemy the lurker moves adjacent to during this movement can choose to take 3 sonic damage or fall prone.
+> **Effect:** The lurker flies up to their speed, then can attempt to hide. Each enemy the lurker moves adjacent to during this movement can choose to take 3 sonic damage or fall prone.
 
 <!-- -->
 > ❗️ **Retaliatory Dive**
@@ -123,7 +123,7 @@ At the start of any wyvern's turn, you can spend Malice to activate one of the f
 <!-- -->
 > ⭐️ **Tenacious Hunter**
 >
-> Any creature affected by a condition imposed by a wyvern can 't be hidden from the lurker.
+> Any creature affected by a condition imposed by a wyvern can't be hidden from the lurker.
 
 ###### Wyvern Predator
 
@@ -195,4 +195,4 @@ At the start of any wyvern's turn, you can spend Malice to activate one of the f
 <!-- -->
 > ⭐️ **Tenacious Hunter**
 >
-> Any creature affected by a condition imposed by a wyvern can 't be hidden from the predator.
+> Any creature affected by a condition imposed by a wyvern can't be hidden from the predator.
