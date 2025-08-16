@@ -12975,7 +12975,7 @@ Hags are treacherous by nature, and they only recruit creatures they can trust t
 
 Most hags speak Anjali, Caelian, Khelt, and Yllyric, with older hags often knowing several more languages.
 
-#### Hag Malice
+**<span class="steel-compendium-malice">Hag Malice</span>**
 
 At the start of a hag's turn, you can spend Malice to activate one of the following features.
 
@@ -13939,7 +13939,7 @@ Humans are connected to the natural world in a way that many other folk are not.
 
 Most humans speak Caelian and one Vaslorian human language.
 
-#### Human Malice
+**<span class="steel-compendium-malice">Human Malice</span>**
 
 At the start of any human's turn, you can spend Malice to activate one of the following features.
 
@@ -14817,7 +14817,7 @@ The gummy brick is a deadly ooze-a monster shaped of acidic goo and driven by en
 
 Most kobolds speak Kethaic and can understand Caelian.
 
-#### Kobold Malice
+**<span class="steel-compendium-malice">Kobold Malice</span>**
 
 At the start of any kobolds's turn, you can spend Malice to activate one of the following features.
 
@@ -15894,7 +15894,7 @@ A manticore who develops a taste for humanoids can rarely be tamed. But a young 
 
 Most manticores can mimic Caelian and one language commonly spoken in the region where they dwell. Except in rare cases, manticores don't communicate in full sentences and are too driven by hunger to engage in negotiation.
 
-#### Manticore Malice
+**<span class="steel-compendium-malice">Manticore Malice</span>**
 
 At the start of any manticore's turn, you can spend Malice to activate one of the following features.
 
@@ -16271,7 +16271,7 @@ Even evil minotaurs can be fiercely loyal friends, gladly charging into certain 
 
 Most minotaurs speak their own dialect of Khamish.
 
-### Minotaur Malice
+**<span class="steel-compendium-malice">Minotaur Malice</span>**
 
 At the start of any minotaur's turn, you can spend Malice to activate one of the following features.
 
@@ -22777,7 +22777,7 @@ While two classes of valok-servok and multivok-have been discovered, ancient ste
 
 Ruined valok litter the deepest ruins of the steel dwarves, and without the steel dwarves' secrets, their valiar and iridoss are useless to modern smiths. But some valok still labor in the depths, carrying out the orders given to them long ago and ready to end any who interfere.
 
-#### Valok Malice Malice Features
+**<span class="steel-compendium-malice">Valok Malice</span>**
 
 At the start of any valok's turn, you can spend Malice to activate one of the following features.
 
@@ -26446,7 +26446,7 @@ A wyvern's infamous temper is easily provoked, particularly if their eggs or hat
 
 Wyverns are unable to speak. However, a clever hero carrying a feast of fresh meat might be able to reason with one.
 
-#### Wyvern Malice Malice Features
+**<span class="steel-compendium-malice">Wyvern Malice Malice Features</span>**
 
 At the start of any wyvern's turn, you can spend Malice to activate one of the following features.
 
@@ -29390,7 +29390,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Effect:** The target takes 15 damage, they are no longer grabbed, and they fall prone.
 
-**<span class="steel-compendium-ability">Devil Defector</span>**
+**<span class="steel-compendium-statblock">Devil Defector</span>**
 
 |    Devil, Infernal     |          -          |      Level 5      |    Hexer Retainer     |         EV -         |
 | :--------------------: | :-----------------: | :---------------: | :-------------------: | :------------------: |
@@ -29603,7 +29603,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Effect:** Until the start of the mortar's next turn, strikes made against the mortar or any ally adjacent to them take a bane.
 
-High Elf Weatherwise
+**<span class="steel-compendium-statblock">High Elf Weatherwise</span>**
 
 | Fey, High Elf, Humanoid |         -         |      Level 1      |  Controller Retainer  |         EV -         |
 | :---------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |

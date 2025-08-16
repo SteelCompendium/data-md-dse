@@ -946,7 +946,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Effect:** Until the start of the mortar's next turn, strikes made against the mortar or any ally adjacent to them take a bane.
 
-High Elf Weatherwise
+###### High Elf Weatherwise
 
 | Fey, High Elf, Humanoid |          -          |       Level 1       |   Controller Retainer   |          EV -          |
 | :---------------------: | :-----------------: | :-----------------: | :---------------------: | :--------------------: |

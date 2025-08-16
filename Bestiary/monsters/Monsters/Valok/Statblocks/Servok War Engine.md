@@ -2,12 +2,12 @@
 file_basename: Servok War Engine
 file_dpath: Monsters/Valok/Statblocks
 item_id: servok-war-engine
-item_index: '328'
+item_index: '329'
 item_name: Servok War Engine
 scc:
   - mcdm.monsters.v1:monster:servok-war-engine
 scdc:
-  - 1.1.1:2:328
+  - 1.1.1:2:329
 source: mcdm.monsters.v1
 type: monster
 ---

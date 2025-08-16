@@ -2,12 +2,12 @@
 file_basename: Count Rhodar von Glauer
 file_dpath: Monsters/Count Rhodar Von Glauer/Statblocks
 item_id: count-rhodar-von-glauer
-item_index: '286'
+item_index: '287'
 item_name: Count Rhodar von Glauer
 scc:
   - mcdm.monsters.v1:monster:count-rhodar-von-glauer
 scdc:
-  - 1.1.1:2:286
+  - 1.1.1:2:287
 source: mcdm.monsters.v1
 type: monster
 ---
