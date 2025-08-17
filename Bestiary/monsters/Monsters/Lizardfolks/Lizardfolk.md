@@ -48,7 +48,7 @@ In times of crisis, such as a food shortage, an evil lizardfolk leader can explo
 
 Most lizardfolk speak Caelian and their own dialect of Khamish.
 
-###### Lizardfolk Malice
+###### Lizardfolk Malice (Malice Features)
 
 At the start of any lizardfolk's turn, you can spend Malice to activate one of the following features.
 

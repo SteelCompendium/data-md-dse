@@ -40,7 +40,7 @@ Kingfissure worms never stop growing, and the oldest are truly immense, easily m
 
 For all their might and vitality, kingfissure worms are primarily ambush hunters, and like any ambush hunter, they need delicate and precise senses to detect and target their prey when it approaches. As burrowing creatures, they have a finely tuned sense of touch able to detect even the most minute vibrations while in direct contact with earth and stone. This fills the role of their primary sense, and their rudimentary eyesight leaves them dreadfully nearsighted. In combination, their poor vision and reliance on ground-conducted vibrations means that they have almost no way of pinpointing flying creatures, and many species of birds find kingfissure worm territory exceptionally safe and free from predators.
 
-###### Kingfissure Worm Malice
+###### Kingfissure Worm Malice (Malice Features)
 
 At the start of a kingfissure worm's turn or when an action's trigger occurs, you can spend Malice to activate one of the following features.
 
