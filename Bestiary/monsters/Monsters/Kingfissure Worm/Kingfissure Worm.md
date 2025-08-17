@@ -80,7 +80,7 @@ At the start of a kingfissure worm's turn or when an action's trigger occurs, yo
 >
 > **Effect:** Until the end of the next round, each target takes a −3 penalty to stability, treats all terrain as difficult terrain, and takes 10 damage whenever they are knocked prone.
 
-###### Kingfissure Wor
+###### Kingfissure Worm
 
 |     Beast, Worm     |            -             |       Level 7        |          Solo           |         EV 108         |
 | :-----------------: | :----------------------: | :------------------: | :---------------------: | :--------------------: |

@@ -130,7 +130,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > | **Melee, Strike, Weapon** |     **Main action** |
 > | ------------------------- | ------------------: |
-> | **📏 Melee 1**            | \*\*🎯 One creature |
+> | **📏 Melee 1**            | **🎯 One creature** |
 >
 > **Power Roll + highest characteristic:**
 >
