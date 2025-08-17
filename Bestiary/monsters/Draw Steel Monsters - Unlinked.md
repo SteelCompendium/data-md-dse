@@ -15101,7 +15101,7 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 >
 > | **Area**       |                 **Maneuver** |
 > | -------------- | ---------------------------: |
-> | **📏 5 Burst** | **🎯 Each ally in the area** |
+> | **📏 5 burst** | **🎯 Each ally in the area** |
 >
 > **Effect:** Each target regains 5 Stamina.
 
@@ -15235,7 +15235,7 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 >
 > | **Area**       |         **Triggered action** |
 > | -------------- | ---------------------------: |
-> | **📏 5 Burst** | **🎯 Each ally in the area** |
+> | **📏 5 burst** | **🎯 Each ally in the area** |
 >
 > **Trigger:** A creature uses an ability that targets the centurion or an ally of the centurion within distance.
 >
@@ -15315,7 +15315,7 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 >
 > | **Area, Weapon** |                  **Main action** |
 > | ---------------- | -------------------------------: |
-> | **📏 2 Burst**   | **🎯 Each creature in the area** |
+> | **📏 2 burst**   | **🎯 Each creature in the area** |
 >
 > **Effect:** The drangolin uses the Dig maneuver to breach the surface before using this ability. Each target in the area where the drangolin breaches takes an extra 2 fire damage.
 >
@@ -15467,7 +15467,7 @@ At the start of any lightbender's turn, you can spend Malice to activate one of 
 >
 > | **Area, Magic** |                          **Main action** |
 > | --------------- | ---------------------------------------: |
-> | **📏 2 Burst**  | **🎯 Each enemy and object in the area** |
+> | **📏 2 burst**  | **🎯 Each enemy and object in the area** |
 >
 > **Power Roll + 2:**
 >
@@ -15853,7 +15853,7 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 >
 > | **Area**        |                                 **-** |
 > | --------------- | ------------------------------------: |
-> | **📏 10 Burst** | **🎯 Self and each ally in the area** |
+> | **📏 10 burst** | **🎯 Self and each ally in the area** |
 >
 > **Effect:** Each target moves up to their speed and can make a free strike. Each target gains temporary Stamina equal to the damage they deal.
 
@@ -15870,7 +15870,7 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 
 | **Area**        |                                 **-** |
 | --------------- | ------------------------------------: |
-| **📏 10 Burst** | **🎯 Self and each ally in the area** |
+| **📏 10 burst** | **🎯 Self and each ally in the area** |
 
 **Effect:** Each target moves up to their speed. Until the end of the encounter, whenever a creature comes adjacent to a target or starts their turn there, the target can make a free strike against them.
 
@@ -15999,7 +15999,7 @@ At the start of any manticore's turn, you can spend Malice to activate one of th
 >
 > | **Area, Magic** |                            **-** |
 > | --------------- | -------------------------------: |
-> | **📏 5 Burst**  | **🎯 Each creature in the area** |
+> | **📏 5 burst**  | **🎯 Each creature in the area** |
 >
 > - **≤11:** Frightened (EoT); if the target has I < 2 they are instead frightened (save ends)
 > - **12-16:** Frightened (EoT); if the target has I < 3 they are instead frightened (save ends)
@@ -17561,7 +17561,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 >
 > | **Area, Weapon** |                          **Main action** |
 > | ---------------- | ---------------------------------------: |
-> | **📏 3 Burst**   | **🎯 Each enemy and object in the area** |
+> | **📏 3 burst**   | **🎯 Each enemy and object in the area** |
 >
 > **Power Roll + 2:**
 >
@@ -17640,7 +17640,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 >
 > | \*\* Area\*\*   |                        **-** |
 > | --------------- | ---------------------------: |
-> | **📏 10 Burst** | **🎯 Each ally in the area** |
+> | **📏 10 burst** | **🎯 Each ally in the area** |
 >
 > **Effect:** Each target moves up to their speed. Each enemy adjacent to a target after this move makes an Intuition test.
 >
@@ -17732,7 +17732,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 >
 > | **Area**       |   **Maneuver** |
 > | -------------- | -------------: |
-> | **📏 3 Burst** | **🎯 Special** |
+> | **📏 3 burst** | **🎯 Special** |
 >
 > **Effect:** The scyza kicks up a sandstorm, granting concealment to themself and any ally in the area until the end of the scyza's next turn. Each enemy in the area makes an Intuition test.
 >
@@ -20345,7 +20345,7 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 >
 > | **Area**        |                                 **-** |
 > | --------------- | ------------------------------------: |
-> | **📏 10 Burst** | **🎯 Self and each ally in the area** |
+> | **📏 10 burst** | **🎯 Self and each ally in the area** |
 >
 > **Effect:** Each target can end one effect on them or can move up to their speed.
 
@@ -28535,7 +28535,7 @@ A foreboding obelisk shaped of dark stone harrows the minds and spirits of those
 >
 > | **Area, Magic** |     **Free triggered action** |
 > | --------------- | ----------------------------: |
-> | **📏 10 Burst** | **🎯 Each enemy in the area** |
+> | **📏 10 burst** | **🎯 Each enemy in the area** |
 >
 > **Trigger:** A new round starts.
 >
@@ -30020,7 +30020,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > | **Area, Magic** |               **Main action** |
 > | --------------- | ----------------------------: |
-> | **📏 3 Burst**  | **🎯 Each enemy in the area** |
+> | **📏 3 burst**  | **🎯 Each enemy in the area** |
 >
 > **Power Roll + highest characteristic:**
 >

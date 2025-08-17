@@ -137,7 +137,7 @@ At the start of any manticore's turn, you can spend Malice to activate one of th
 >
 > | **Area, Magic** |                            **-** |
 > | --------------- | -------------------------------: |
-> | **📏 5 Burst**  | **🎯 Each creature in the area** |
+> | **📏 5 burst**  | **🎯 Each creature in the area** |
 >
 > - **≤11:** Frightened (EoT); if the target has I < 2 they are instead frightened (save ends)
 > - **12-16:** Frightened (EoT); if the target has I < 3 they are instead frightened (save ends)

@@ -144,7 +144,7 @@ At the start of any lightbender's turn, you can spend Malice to activate one of 
 >
 > | **Area, Magic** |                          **Main action** |
 > | --------------- | ---------------------------------------: |
-> | **📏 2 Burst**  | **🎯 Each enemy and object in the area** |
+> | **📏 2 burst**  | **🎯 Each enemy and object in the area** |
 >
 > **Power Roll + 2:**
 >

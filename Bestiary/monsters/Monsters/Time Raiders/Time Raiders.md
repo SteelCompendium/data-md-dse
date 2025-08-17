@@ -485,7 +485,7 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 >
 > | **Area**        |                                 **-** |
 > | --------------- | ------------------------------------: |
-> | **📏 10 Burst** | **🎯 Self and each ally in the area** |
+> | **📏 10 burst** | **🎯 Self and each ally in the area** |
 >
 > **Effect:** Each target can end one effect on them or can move up to their speed.
 
