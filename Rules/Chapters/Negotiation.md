@@ -225,6 +225,7 @@ Arguments that appeal to the vengeance motivation contend that the NPC can gain 
 - "The servants of Ajax killed your sister as she scoured the city for his cults. The Black Iron Pact works for the Overlord. Give us her diaries, and we might uncover the pact's hideaway and deal a great blow to your hated foes."
 - "That prankster Huckable made your trousers tear at the last council meeting. Don't you want to pay him back? We can arrange a delicious prank at the next gathering, but we need you to guarantee the safety of the orc refugees."
 
+<!-- -->
 > **NPCs Change Over Time**
 >
 > Just like the heroes, NPCs in negotiations are complex individuals who can change over time. It's possible that the heroes might have to negotiate with the same NPC for several different favors during the course of a campaign, over which time the NPC's motivations and pitfalls might change. If the heroes turn a bandit captain with the greed and power motivations into a temporary ally, that criminal might learn from them, changing their ways to rob only those who exploit the poor and giving those earnings to people in need. The next time the heroes negotiate with the bandit captain, they have the benevolence and protection motivations.
@@ -298,6 +299,7 @@ At the Director's discretion, a particularly well-roleplayed or well-reasoned ar
 
 If the heroes attempt to appeal to a motivation that's already been appealed to, the NPC's interest remains the same and their patience decreases by 1.
 
+<!-- -->
 > **Appealing to Multiple Motivations**
 >
 > If a hero makes an argument that appears to appeal to more than one of an NPC's motivations, the Director can ask for clarification. After listing the motivations it seemed as though the player was trying to appeal to, they can ask the player to pick one from the list. If the player had another motivation in mind, it's up to the Director whether the argument appealed to that specific motivation or not.
@@ -320,6 +322,7 @@ If the heroes try to use the same argument without a pitfall or motivation twice
 
 If a hero lies to an NPC with an argument that fails to increase the NPC's interest, the Director can decide that the NPC catches the lie and is offended by it. The NPC's interest decreases by 1, in addition to any decrease imposed by the failure.
 
+<!-- -->
 > **Everyone Can Participate**
 >
 > Since Reason and Intuition with creatively applied skills can be used to make arguments, all heroes can actively participate in the process of negotiation. The hero with the highest Presence who has the Persuade skill doesn't automatically have to be the one who makes all the tests.
@@ -423,6 +426,7 @@ The heroes are engaging in a negotiation with Zola Honeycut, the human guildmast
 
 Zola is neutral toward the heroes when the negotiation begins. She knows them only by reputation, though she understands that they too believe Saxton is a tyrant who must be stopped. However, standing up to that tyrant has cost her people dearly, and she's not sure she's ready to rejoin the fight. One wrong move could spell the end of the Clock!
 
+<!-- -->
 > **Zola Honeycut Negotiation Stats**
 >
 > - **Interest: 2**
