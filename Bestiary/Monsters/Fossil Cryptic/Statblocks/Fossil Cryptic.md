@@ -1,0 +1,195 @@
+---
+agility: 2
+ancestry:
+- Elemental
+ev: '48'
+file_basename: Fossil Cryptic
+file_dpath: Monsters/Fossil Cryptic/Statblocks
+free_strike: 5
+intuition: 1
+item_id: fossil-cryptic
+item_index: '413'
+item_name: Fossil Cryptic
+level: 2
+might: 3
+presence: 0
+reason: 1
+roles:
+- Solo
+scc:
+- mcdm.monsters.v1:monster:fossil-cryptic
+scdc:
+- 1.1.1:2:413
+size: 1L
+source: mcdm.monsters.v1
+speed: 8
+stability: 3
+stamina: '250'
+type: monster
+---
+
+```ds-statblock
+name: Fossil Cryptic
+level: 2
+roles:
+  - Solo
+ancestry:
+  - Elemental
+ev: "48"
+stamina: "250"
+speed: 8
+movement: Burrow
+size: 1L
+stability: 3
+free_strike: 5
+might: 3
+agility: 2
+reason: 1
+intuition: 1
+presence: 0
+traits:
+  - name: Solo Monster
+    effects:
+      - effect: At the end of each of their turns, the cryptic can take 5 damage to end
+          one effect on them that can be ended by a saving throw. This damage
+          can't be reduced in any way.
+        name: End Effect
+      - effect: The cryptic can take two turns each round. They can't take turns
+          consecutively.
+        name: Solo Turns
+  - name: Churning Trunk
+    effects:
+      - effect: The cryptic is constantly surrounded by a 1 aura of swirling debris that
+          obscures their form. Ranged abilities that target the cryptic take a
+          bane. Additionally, any enemy who enters the aura for the first time
+          in a round or starts their turn there takes 5 damage
+  - name: Seismic Step
+    effects:
+      - effect: The cryptic ignores difficult terrain. Additionally, they have line of
+          effect to any creature with concealment if that creature is touching
+          the ground.
+abilities:
+  - name: Sand Slam
+    cost: Signature Ability
+    keywords:
+      - Melee
+      - Strike
+      - Weapon
+    type: Main action
+    distance: Melee 2
+    target: Two creatures or objects
+    effects:
+      - roll: Power Roll + 3
+        t1: 8 damage; A < 1 slide 2
+        t2: 12 damage; A < 2 slide 2, prone
+        t3: 15 damage; A < 3 slide 3, prone and can't stand (EoT)
+      - effect: If a target made prone this way is already prone, they are instead
+          restrained (EoT).
+  - name: Stone Bone Storm
+    keywords:
+      - Area
+    type: Main action
+    distance: 6 x 1 line within 1
+    target: Each enemy in the area
+    effects:
+      - roll: Power Roll + 3
+        t1: 4 damage; M < 1 push 2
+        t2: 7 damage; M < 2 prone
+        t3: 10 damage; M < 3 prone
+      - effect: The cryptic reforms their body and appears in an unoccupied space in the
+          area.
+  - name: Stoneshift
+    keywords:
+      - Ranged
+    type: Maneuver
+    distance: Ranged 5
+    target: One creature or object on the ground
+    effects:
+      - effect: The cryptic slides the target up to 3 squares.
+      - effect: The ability targets one additional target.
+        cost: 2 Malice
+  - name: Dissipate
+    cost: 1 Malice
+    keywords:
+      - "-"
+    type: Triggered action
+    distance: Self
+    target: Self
+    trigger: The cryptic takes damage.
+    effects:
+      - effect: The cryptic halves the damage, ignores any nondamaging effects
+          associated with it, and shifts up to 3 squares
+  - name: Shatterstone
+    cost: 5 Malice
+    keywords:
+      - Area
+    type: Triggered action
+    distance: 2 burst
+    target: Each enemy in the area
+    trigger: The cryptic uses the Dig maneuver to resurface.
+    effects:
+      - effect: Before using the Dig maneuver, the cryptic moves up to their speed. They
+          then create the burst when they breach the surface.
+      - roll: Power Roll + 3
+        t1: 4 damage; push 2
+        t2: 7 damage; push 3, prone
+        t3: 10 damage; push 4, prone
+  - name: First Warning Quake
+    cost: Villain Action 1
+    keywords:
+      - Area
+    type: "-"
+    distance: 10 burst
+    target: Each enemy in the area
+    effects:
+      - effect: A target must be on the ground.
+        name: Special
+      - effect: |-
+          Each target makes a **Might test**.
+          - **≤11:** Prone and can't stand (EoT)
+          - **12-16:** Prone
+          - **17+:** No effect
+  - name: Final Warning Fissure
+    cost: Villain Action 2
+    keywords:
+      - Area
+    type: "-"
+    distance: 5 burst
+    target: Each enemy in the area
+    effects:
+      - effect: A target must be on the ground.
+        name: Special
+      - effect: >-
+          The area drops 2 squares and is difficult terrain. Each target enemy
+          falls, while each target ally drops safely. Additionally, each target
+          enemy makes an **Agility test**.
+
+          - **≤11:** 9 damage; prone
+
+          - **12-16:** 5 damage
+
+          - **17+:** The target moves to the nearest unoccupied space outside
+          the area.
+  - name: No Escape
+    cost: Villain Action 3
+    keywords:
+      - Ranged
+    type: "-"
+    distance: Ranged 10
+    target: Two creatures or objects
+    effects:
+      - effect: The cryptic makes an initial power roll that calls down stone pillars
+          from the ceiling.
+      - roll: Power Roll + 3
+        t1: 5 damage; prone; M < 1 restrained (save ends)
+        t2: 9 damage; prone; M < 2 restrained (save ends)
+        t3: 12 damage; prone; M < 3 restrained (save ends)
+      - effect: The cryptic then makes a second power roll that raises stone pillars
+          from the floor (**📏 Ranged 10** | **🎯 Two creatures or objects on
+          the ground**)
+      - roll: Power Roll + 3
+        t1: 2 damage; vertical slide 2
+        t2: 3 damage; vertical slide 4
+        t3: 4 damage; vertical slide 6; if this movement brings the target into contact
+          with the ceiling, they are restrained (save ends).
+```
