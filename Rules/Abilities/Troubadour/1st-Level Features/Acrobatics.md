@@ -10,25 +10,55 @@ item_id: acrobatics
 item_index: '17'
 item_name: Acrobatics
 keywords:
-  - Area
-  - Magic
-  - Performance
+- Area
+- Magic
+- Performance
 level: 1
 scc:
-  - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:acrobatics
+- mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:acrobatics
 scdc:
-  - 1.1.1:13.2.3.1:17
+- 1.1.1:13.2.3.1:17
 source: mcdm.heroes.v1
 target: Self and each ally in the area
 type: feature/ability/troubadour/1st-level-feature
 ---
 
-###### Acrobatics
-
-*Folks love a good tumble.*
-
-| **Area, Magic, Performance** |                         **No action** |
-| ---------------------------- | ------------------------------------: |
-| **📏 5 aura**                | **🎯 Self and each ally in the area** |
-
-**Effect:** While this performance is active, each target who starts their turn in the area can automatically obtain a tier 3 outcome on one test made to jump, tumble, or climb as part of their movement before the end of their turn.
+```ds-ability
+name: Acrobatics
+flavor: Folks love a good tumble.
+keywords:
+  - Area
+  - Magic
+  - Performance
+type: No action
+distance: 5 aura
+target: Self and each ally in the area
+metadata:
+  action_type: No action
+  class: troubadour
+  distance: 5 aura
+  feature_type: ability
+  file_basename: Acrobatics
+  file_dpath: Troubadour/1st-Level Features
+  flavor: Folks love a good tumble.
+  item_id: acrobatics
+  item_index: "17"
+  item_name: Acrobatics
+  keywords:
+    - Area
+    - Magic
+    - Performance
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:acrobatics
+  scdc:
+    - 1.1.1:13.2.3.1:17
+  source: mcdm.heroes.v1
+  target: Self and each ally in the area
+  type: feature/ability/troubadour/1st-level-feature
+effects:
+  - effect: While this performance is active, each target who starts their turn in
+      the area can automatically obtain a tier 3 outcome on one test made to
+      jump, tumble, or climb as part of their movement before the end of their
+      turn.
+```

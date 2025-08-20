@@ -13,32 +13,65 @@ item_id: expert-fencer-11-drama
 item_index: '02'
 item_name: Expert Fencer (11 Drama)
 keywords:
-  - Charge
-  - Melee
-  - Strike
-  - Weapon
+- Charge
+- Melee
+- Strike
+- Weapon
 level: 9
 scc:
-  - mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:expert-fencer-11-drama
+- mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:expert-fencer-11-drama
 scdc:
-  - 1.1.1:13.2.3.7:02
+- 1.1.1:13.2.3.7:02
 source: mcdm.heroes.v1
 target: One creature or object
 type: feature/ability/troubadour/9th-level-feature
 ---
 
-###### Expert Fencer (11 Drama)
-
-*If you can land the strike, the crowd goes wild.*
-
-| **Charge, Melee, Strike, Weapon** |               **Main action** |
-| --------------------------------- | ----------------------------: |
-| **📏 Melee 3**                    | **🎯 One creature or object** |
-
-**Power Roll + Agility:**
-
-- **≤11:** 15 + A damage
-- **12-16:** 21 + A damage
-- **17+:** 28 + A damage; M < STRONG, bleeding (save ends)
-
-**Effect:** This ability can't obtain better than a tier 2 outcome unless the target is at maximum distance. If you obtain a tier 3 outcome with a natural 17 or higher, you gain 3 surges that you can use immediately.
+```ds-ability
+name: Expert Fencer
+cost: 11 Drama
+flavor: If you can land the strike, the crowd goes wild.
+keywords:
+  - Charge
+  - Melee
+  - Strike
+  - Weapon
+type: Main action
+distance: Melee 3
+target: One creature or object
+metadata:
+  action_type: Main action
+  class: troubadour
+  cost: 11 Drama
+  cost_amount: 11
+  cost_resource: Drama
+  distance: Melee 3
+  feature_type: ability
+  file_basename: Expert Fencer
+  file_dpath: Troubadour/9th-Level Features
+  flavor: If you can land the strike, the crowd goes wild.
+  item_id: expert-fencer-11-drama
+  item_index: "02"
+  item_name: Expert Fencer (11 Drama)
+  keywords:
+    - Charge
+    - Melee
+    - Strike
+    - Weapon
+  level: 9
+  scc:
+    - mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:expert-fencer-11-drama
+  scdc:
+    - 1.1.1:13.2.3.7:02
+  source: mcdm.heroes.v1
+  target: One creature or object
+  type: feature/ability/troubadour/9th-level-feature
+effects:
+  - roll: Power Roll + Agility
+    t1: 15 + A damage
+    t2: 21 + A damage
+    t3: 28 + A damage; M < STRONG, bleeding (save ends)
+  - effect: This ability can't obtain better than a tier 2 outcome unless the target
+      is at maximum distance. If you obtain a tier 3 outcome with a natural 17
+      or higher, you gain 3 surges that you can use immediately.
+```

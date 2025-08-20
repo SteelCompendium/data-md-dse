@@ -13,23 +13,51 @@ item_id: hustle-9-focus
 item_index: '02'
 item_name: Hustle! (9 Focus)
 keywords:
-  - Area
+- Area
 level: 6
 scc:
-  - mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:hustle-9-focus
+- mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:hustle-9-focus
 scdc:
-  - 1.1.1:13.2.4.3:02
+- 1.1.1:13.2.4.3:02
 source: mcdm.heroes.v1
 target: Self and each ally in the area
 type: feature/ability/tactician/6th-level-feature
 ---
 
-###### Hustle! (9 Focus)
-
-*You and your allies coordinate to form a new battle line.*
-
-| **Area**       |                          **Maneuver** |
-| -------------- | ------------------------------------: |
-| **📏 2 burst** | **🎯 Self and each ally in the area** |
-
-**Effect:** You mark two enemies within 10 squares of you. Each target can shift up to their speed. You and each target gain 2 surges.
+```ds-ability
+name: Hustle!
+cost: 9 Focus
+flavor: You and your allies coordinate to form a new battle line.
+keywords:
+  - Area
+type: Maneuver
+distance: 2 burst
+target: Self and each ally in the area
+metadata:
+  action_type: Maneuver
+  class: tactician
+  cost: 9 Focus
+  cost_amount: 9
+  cost_resource: Focus
+  distance: 2 burst
+  feature_type: ability
+  file_basename: Hustle
+  file_dpath: Tactician/6th-Level Features
+  flavor: You and your allies coordinate to form a new battle line.
+  item_id: hustle-9-focus
+  item_index: "02"
+  item_name: Hustle! (9 Focus)
+  keywords:
+    - Area
+  level: 6
+  scc:
+    - mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:hustle-9-focus
+  scdc:
+    - 1.1.1:13.2.4.3:02
+  source: mcdm.heroes.v1
+  target: Self and each ally in the area
+  type: feature/ability/tactician/6th-level-feature
+effects:
+  - effect: You mark two enemies within 10 squares of you. Each target can shift up
+      to their speed. You and each target gain 2 surges.
+```

@@ -8,13 +8,31 @@ item_index: '07'
 item_name: Clear Mind
 level: 10
 scc:
-  - mcdm.heroes.v1:feature.trait.talent.10th-level-feature:clear-mind
+- mcdm.heroes.v1:feature.trait.talent.10th-level-feature:clear-mind
 scdc:
-  - 1.1.1:13.1.1.4:07
+- 1.1.1:13.1.1.4:07
 source: mcdm.heroes.v1
 type: feature/trait/talent/10th-level-feature
 ---
 
-#### Clear Mind
-
-The first time each combat round that a creature is force moved, you gain 3 clarity instead of 2.
+```ds-ability
+name: Clear Mind
+metadata:
+  class: talent
+  feature_type: trait
+  file_basename: Clear Mind
+  file_dpath: Talent/10th-Level Features
+  item_id: clear-mind
+  item_index: "07"
+  item_name: Clear Mind
+  level: 10
+  scc:
+    - mcdm.heroes.v1:feature.trait.talent.10th-level-feature:clear-mind
+  scdc:
+    - 1.1.1:13.1.1.4:07
+  source: mcdm.heroes.v1
+  type: feature/trait/talent/10th-level-feature
+effects:
+  - effect: The first time each combat round that a creature is force moved, you
+      gain 3 clarity instead of 2.
+```

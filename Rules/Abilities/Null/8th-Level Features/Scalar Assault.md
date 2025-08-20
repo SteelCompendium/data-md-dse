@@ -8,33 +8,64 @@ distance: 3 cube within 1
 feature_type: ability
 file_basename: Scalar Assault
 file_dpath: Null/8th-Level Features
-flavor: You warp reality to grow a limb for just a moment and make a single devastating attack.
+flavor: You warp reality to grow a limb for just a moment and make a single devastating
+  attack.
 item_id: scalar-assault-11-discipline
 item_index: '02'
 item_name: Scalar Assault (11 Discipline)
 keywords:
-  - Area
-  - Psionic
+- Area
+- Psionic
 level: 8
 scc:
-  - mcdm.heroes.v1:feature.ability.null.8th-level-feature:scalar-assault-11-discipline
+- mcdm.heroes.v1:feature.ability.null.8th-level-feature:scalar-assault-11-discipline
 scdc:
-  - 1.1.1:13.2.6.2:02
+- 1.1.1:13.2.6.2:02
 source: mcdm.heroes.v1
 target: Each enemy in the area
 type: feature/ability/null/8th-level-feature
 ---
 
-###### Scalar Assault (11 Discipline)
-
-*You warp reality to grow a limb for just a moment and make a single devastating attack.*
-
-| **Area, Psionic**      |               **Main action** |
-| ---------------------- | ----------------------------: |
-| **📏 3 cube within 1** | **🎯 Each enemy in the area** |
-
-**Power Roll + Agility:**
-
-- **≤11:** 12 psychic damage; push 3
-- **12-16:** 17 psychic damage; push 5
-- **17+:** 23 psychic damage; push 7
+```ds-ability
+name: Scalar Assault
+cost: 11 Discipline
+flavor: You warp reality to grow a limb for just a moment and make a single
+  devastating attack.
+keywords:
+  - Area
+  - Psionic
+type: Main action
+distance: 3 cube within 1
+target: Each enemy in the area
+metadata:
+  action_type: Main action
+  class: "null"
+  cost: 11 Discipline
+  cost_amount: 11
+  cost_resource: Discipline
+  distance: 3 cube within 1
+  feature_type: ability
+  file_basename: Scalar Assault
+  file_dpath: Null/8th-Level Features
+  flavor: You warp reality to grow a limb for just a moment and make a single
+    devastating attack.
+  item_id: scalar-assault-11-discipline
+  item_index: "02"
+  item_name: Scalar Assault (11 Discipline)
+  keywords:
+    - Area
+    - Psionic
+  level: 8
+  scc:
+    - mcdm.heroes.v1:feature.ability.null.8th-level-feature:scalar-assault-11-discipline
+  scdc:
+    - 1.1.1:13.2.6.2:02
+  source: mcdm.heroes.v1
+  target: Each enemy in the area
+  type: feature/ability/null/8th-level-feature
+effects:
+  - roll: Power Roll + Agility
+    t1: 12 psychic damage; push 3
+    t2: 17 psychic damage; push 5
+    t3: 23 psychic damage; push 7
+```

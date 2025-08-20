@@ -10,31 +10,57 @@ item_id: instigator
 item_index: '24'
 item_name: Instigator
 keywords:
-  - Melee
-  - Strike
-  - Weapon
+- Melee
+- Strike
+- Weapon
 level: 1
 scc:
-  - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:instigator
+- mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:instigator
 scdc:
-  - 1.1.1:13.2.3.1:24
+- 1.1.1:13.2.3.1:24
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/troubadour/1st-level-feature
 ---
 
-###### Instigator
-
-*I didn't do it! What?*
-
-| **Melee, Strike, Weapon** |     **Main action** |
-| ------------------------- | ------------------: |
-| **📏 Melee 1**            | **🎯 One creature** |
-
-**Power Roll + Presence:**
-
-- **≤11:** 3 + P damage
-- **12-16:** 6 + P damage
-- **17+:** 9 + P damage
-
-**Effect:** The target is taunted by you or a willing ally adjacent to you until the end of the target's next turn.
+```ds-ability
+name: Instigator
+flavor: I didn't do it! What?
+keywords:
+  - Melee
+  - Strike
+  - Weapon
+type: Main action
+distance: Melee 1
+target: One creature
+metadata:
+  action_type: Main action
+  class: troubadour
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Instigator
+  file_dpath: Troubadour/1st-Level Features
+  flavor: I didn't do it! What?
+  item_id: instigator
+  item_index: "24"
+  item_name: Instigator
+  keywords:
+    - Melee
+    - Strike
+    - Weapon
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:instigator
+  scdc:
+    - 1.1.1:13.2.3.1:24
+  source: mcdm.heroes.v1
+  target: One creature
+  type: feature/ability/troubadour/1st-level-feature
+effects:
+  - roll: Power Roll + Presence
+    t1: 3 + P damage
+    t2: 6 + P damage
+    t3: 9 + P damage
+  - effect: The target is taunted by you or a willing ally adjacent to you until the
+      end of the target's next turn.
+```

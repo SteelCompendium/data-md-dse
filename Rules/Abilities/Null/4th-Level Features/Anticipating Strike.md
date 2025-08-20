@@ -13,34 +13,64 @@ item_id: anticipating-strike-9-discipline
 item_index: '01'
 item_name: Anticipating Strike (9 Discipline)
 keywords:
-  - Melee
-  - Psionic
-  - Strike
-  - Weapon
+- Melee
+- Psionic
+- Strike
+- Weapon
 level: 4
 scc:
-  - mcdm.heroes.v1:feature.ability.null.4th-level-feature:anticipating-strike-9-discipline
+- mcdm.heroes.v1:feature.ability.null.4th-level-feature:anticipating-strike-9-discipline
 scdc:
-  - 1.1.1:13.2.6.7:01
+- 1.1.1:13.2.6.7:01
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/null/4th-level-feature
 ---
 
-###### Anticipating Strike (9 Discipline)
-
-*You suddenly strike an enemy, then grab them in a psionically enhanced grip.*
-
-| **Melee, Psionic, Strike, Weapon** |  **Free triggered** |
-| ---------------------------------- | ------------------: |
-| **📏 Melee 1**                     | **🎯 One creature** |
-
-**Trigger:** The target moves or uses a main action.
-
-**Power Roll + Agility:**
-
-- **≤11:** 7 + A damage; I < WEAK, restrained (save ends)
-- **12-16:** 10 + A damage; I < AVERAGE, restrained (save ends)
-- **17+:** 13 + A damage; I < STRONG, restrained (save ends)
-
-**Effect:** This strike resolves before the triggering movement or main action.
+```ds-ability
+name: Anticipating Strike
+cost: 9 Discipline
+flavor: You suddenly strike an enemy, then grab them in a psionically enhanced grip.
+keywords:
+  - Melee
+  - Psionic
+  - Strike
+  - Weapon
+type: Free triggered
+distance: Melee 1
+target: One creature
+trigger: The target moves or uses a main action.
+metadata:
+  action_type: Free triggered
+  class: "null"
+  cost: 9 Discipline
+  cost_amount: 9
+  cost_resource: Discipline
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Anticipating Strike
+  file_dpath: Null/4th-Level Features
+  flavor: You suddenly strike an enemy, then grab them in a psionically enhanced grip.
+  item_id: anticipating-strike-9-discipline
+  item_index: "01"
+  item_name: Anticipating Strike (9 Discipline)
+  keywords:
+    - Melee
+    - Psionic
+    - Strike
+    - Weapon
+  level: 4
+  scc:
+    - mcdm.heroes.v1:feature.ability.null.4th-level-feature:anticipating-strike-9-discipline
+  scdc:
+    - 1.1.1:13.2.6.7:01
+  source: mcdm.heroes.v1
+  target: One creature
+  type: feature/ability/null/4th-level-feature
+effects:
+  - roll: Power Roll + Agility
+    t1: 7 + A damage; I < WEAK, restrained (save ends)
+    t2: 10 + A damage; I < AVERAGE, restrained (save ends)
+    t3: 13 + A damage; I < STRONG, restrained (save ends)
+  - effect: This strike resolves before the triggering movement or main action.
+```

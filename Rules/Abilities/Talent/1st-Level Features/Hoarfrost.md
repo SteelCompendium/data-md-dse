@@ -10,32 +10,61 @@ item_id: hoarfrost
 item_index: '05'
 item_name: Hoarfrost
 keywords:
-  - Cryokinesis
-  - Psionic
-  - Ranged
-  - Strike
+- Cryokinesis
+- Psionic
+- Ranged
+- Strike
 level: 1
 scc:
-  - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:hoarfrost
+- mcdm.heroes.v1:feature.ability.talent.1st-level-feature:hoarfrost
 scdc:
-  - 1.1.1:13.2.1.1:05
+- 1.1.1:13.2.1.1:05
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/talent/1st-level-feature
 ---
 
-###### Hoarfrost
-
-*You blast a foe with a pulse of cold energy.*
-
-| **Cryokinesis, Psionic, Ranged**, **Strike** |     **Main action** |
-| -------------------------------------------- | ------------------: |
-| **📏 Ranged 10**                             | **🎯 One creature** |
-
-**Power Roll + Reason:**
-
-- **≤11:** 2 + R cold damage; M < WEAK, slowed (EoT)
-- **12-16:** 4 + R cold damage; M < AVERAGE, slowed (EoT)
-- **17+:** 6 + R cold damage; M < STRONG, slowed (EoT)
-
-**Strained:** You are slowed until the end of your next turn. Additionally, a target slowed by this ability is restrained instead.
+```ds-ability
+name: Hoarfrost
+flavor: You blast a foe with a pulse of cold energy.
+keywords:
+  - Cryokinesis
+  - Psionic
+  - Ranged
+  - Strike
+type: Main action
+distance: Ranged 10
+target: One creature
+metadata:
+  action_type: Main action
+  class: talent
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Hoarfrost
+  file_dpath: Talent/1st-Level Features
+  flavor: You blast a foe with a pulse of cold energy.
+  item_id: hoarfrost
+  item_index: "05"
+  item_name: Hoarfrost
+  keywords:
+    - Cryokinesis
+    - Psionic
+    - Ranged
+    - Strike
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:hoarfrost
+  scdc:
+    - 1.1.1:13.2.1.1:05
+  source: mcdm.heroes.v1
+  target: One creature
+  type: feature/ability/talent/1st-level-feature
+effects:
+  - roll: Power Roll + Reason
+    t1: 2 + R cold damage; M < WEAK, slowed (EoT)
+    t2: 4 + R cold damage; M < AVERAGE, slowed (EoT)
+    t3: 6 + R cold damage; M < STRONG, slowed (EoT)
+  - effect: You are slowed until the end of your next turn. Additionally, a target
+      slowed by this ability is restrained instead.
+    name: Strained
+```

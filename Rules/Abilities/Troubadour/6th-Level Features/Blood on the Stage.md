@@ -13,29 +13,59 @@ item_id: blood-on-the-stage-9-drama
 item_index: '06'
 item_name: Blood on the Stage (9 Drama)
 keywords:
-  - Melee
-  - Strike
-  - Weapon
+- Melee
+- Strike
+- Weapon
 level: 6
 scc:
-  - mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:blood-on-the-stage-9-drama
+- mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:blood-on-the-stage-9-drama
 scdc:
-  - 1.1.1:13.2.3.3:06
+- 1.1.1:13.2.3.3:06
 source: mcdm.heroes.v1
 target: One creature or object
 type: feature/ability/troubadour/6th-level-feature
 ---
 
-###### Blood on the Stage (9 Drama)
-
-*It's love and blood or drama and blood. Either way, there's always blood.*
-
-| **Melee, Strike, Weapon** |               **Main action** |
-| ------------------------- | ----------------------------: |
-| **📏 Melee 1**            | **🎯 One creature or object** |
-
-**Power Roll + Agility:**
-
-- **≤11:** 12 + A damage; M < WEAK, bleeding (save ends)
-- **12-16:** 18 + A damage; M < AVERAGE, bleeding (save ends)
-- **17+:** 24 + A damage; bleeding (EoT), or if M < STRONG, bleeding (save ends)
+```ds-ability
+name: Blood on the Stage
+cost: 9 Drama
+flavor: It's love and blood or drama and blood. Either way, there's always blood.
+keywords:
+  - Melee
+  - Strike
+  - Weapon
+type: Main action
+distance: Melee 1
+target: One creature or object
+metadata:
+  action_type: Main action
+  class: troubadour
+  cost: 9 Drama
+  cost_amount: 9
+  cost_resource: Drama
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Blood on the Stage
+  file_dpath: Troubadour/6th-Level Features
+  flavor: It's love and blood or drama and blood. Either way, there's always blood.
+  item_id: blood-on-the-stage-9-drama
+  item_index: "06"
+  item_name: Blood on the Stage (9 Drama)
+  keywords:
+    - Melee
+    - Strike
+    - Weapon
+  level: 6
+  scc:
+    - mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:blood-on-the-stage-9-drama
+  scdc:
+    - 1.1.1:13.2.3.3:06
+  source: mcdm.heroes.v1
+  target: One creature or object
+  type: feature/ability/troubadour/6th-level-feature
+effects:
+  - roll: Power Roll + Agility
+    t1: 12 + A damage; M < WEAK, bleeding (save ends)
+    t2: 18 + A damage; M < AVERAGE, bleeding (save ends)
+    t3: 24 + A damage; bleeding (EoT), or if M < STRONG, bleeding (save ends)
+```

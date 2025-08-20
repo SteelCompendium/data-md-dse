@@ -8,33 +8,67 @@ distance: 3 burst
 feature_type: ability
 file_basename: Death Rattle
 file_dpath: Fury/9th-Level Features
-flavor: You unleash an otherworldly cry that rips through your enemies, killing the weakest of them.
+flavor: You unleash an otherworldly cry that rips through your enemies, killing the
+  weakest of them.
 item_id: death-rattle-11-ferocity
 item_index: '05'
 item_name: Death Rattle (11 Ferocity)
 keywords:
-  - Area
-  - Magic
+- Area
+- Magic
 level: 9
 scc:
-  - mcdm.heroes.v1:feature.ability.fury.9th-level-feature:death-rattle-11-ferocity
+- mcdm.heroes.v1:feature.ability.fury.9th-level-feature:death-rattle-11-ferocity
 scdc:
-  - 1.1.1:13.2.5.6:05
+- 1.1.1:13.2.5.6:05
 source: mcdm.heroes.v1
 target: Each enemy in the area
 type: feature/ability/fury/9th-level-feature
 ---
 
-###### Death Rattle (11 Ferocity)
-
-*You unleash an otherworldly cry that rips through your enemies, killing the weakest of them.*
-
-| **Area, Magic** |               **Main action** |
-| --------------- | ----------------------------: |
-| **📏 3 burst**  | **🎯 Each enemy in the area** |
-
-**Power Roll + Might:**
-
-- **≤11:** 4 psychic damage; any target who is a minion is reduced to 0 Stamina
-- **12-16:** 6 psychic damage; any target who is a minion is reduced to 0 Stamina, as does one winded target who is not a leader or solo creature
-- **17+:** 10 psychic damage; each target who is not a leader or solo creature is winded; any target who is a minion is reduced to 0 Stamina, as does one winded target who is not a leader or solo creature
+```ds-ability
+name: Death Rattle
+cost: 11 Ferocity
+flavor: You unleash an otherworldly cry that rips through your enemies, killing
+  the weakest of them.
+keywords:
+  - Area
+  - Magic
+type: Main action
+distance: 3 burst
+target: Each enemy in the area
+metadata:
+  action_type: Main action
+  class: fury
+  cost: 11 Ferocity
+  cost_amount: 11
+  cost_resource: Ferocity
+  distance: 3 burst
+  feature_type: ability
+  file_basename: Death Rattle
+  file_dpath: Fury/9th-Level Features
+  flavor: You unleash an otherworldly cry that rips through your enemies, killing
+    the weakest of them.
+  item_id: death-rattle-11-ferocity
+  item_index: "05"
+  item_name: Death Rattle (11 Ferocity)
+  keywords:
+    - Area
+    - Magic
+  level: 9
+  scc:
+    - mcdm.heroes.v1:feature.ability.fury.9th-level-feature:death-rattle-11-ferocity
+  scdc:
+    - 1.1.1:13.2.5.6:05
+  source: mcdm.heroes.v1
+  target: Each enemy in the area
+  type: feature/ability/fury/9th-level-feature
+effects:
+  - roll: Power Roll + Might
+    t1: 4 psychic damage; any target who is a minion is reduced to 0 Stamina
+    t2: 6 psychic damage; any target who is a minion is reduced to 0 Stamina, as
+      does one winded target who is not a leader or solo creature
+    t3: 10 psychic damage; each target who is not a leader or solo creature is
+      winded; any target who is a minion is reduced to 0 Stamina, as does one
+      winded target who is not a leader or solo creature
+```

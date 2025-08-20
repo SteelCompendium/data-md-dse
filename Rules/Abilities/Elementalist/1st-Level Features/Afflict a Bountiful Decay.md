@@ -10,33 +10,64 @@ item_id: afflict-a-bountiful-decay
 item_index: 09
 item_name: Afflict a Bountiful Decay
 keywords:
-  - Green
-  - Magic
-  - Ranged
-  - Rot
-  - Strike
+- Green
+- Magic
+- Ranged
+- Rot
+- Strike
 level: 1
 scc:
-  - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:afflict-a-bountiful-decay
+- mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:afflict-a-bountiful-decay
 scdc:
-  - 1.1.1:13.2.9.1:09
+- 1.1.1:13.2.9.1:09
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/elementalist/1st-level-feature
 ---
 
-###### Afflict a Bountiful Decay
-
-*Your curse causes your foe's flesh to rot off as spores that aid your allies.*
-
-| **Green, Magic, Ranged, Rot, Strike** |     **Main action** |
-| ------------------------------------- | ------------------: |
-| **📏 Ranged 10**                      | **🎯 One creature** |
-
-**Power Roll + Reason:**
-
-- **≤11:** 2 + R corruption damage
-- **12-16:** 4 + R corruption damage
-- **17+:** 6 + R corruption damage
-
-**Effect:** Choose yourself or one ally within distance. That character can end one effect on them that is ended by a saving throw or that ends at the end of their turn.
+```ds-ability
+name: Afflict a Bountiful Decay
+flavor: Your curse causes your foe's flesh to rot off as spores that aid your allies.
+keywords:
+  - Green
+  - Magic
+  - Ranged
+  - Rot
+  - Strike
+type: Main action
+distance: Ranged 10
+target: One creature
+metadata:
+  action_type: Main action
+  class: elementalist
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Afflict a Bountiful Decay
+  file_dpath: Elementalist/1st-Level Features
+  flavor: Your curse causes your foe's flesh to rot off as spores that aid your allies.
+  item_id: afflict-a-bountiful-decay
+  item_index: 9
+  item_name: Afflict a Bountiful Decay
+  keywords:
+    - Green
+    - Magic
+    - Ranged
+    - Rot
+    - Strike
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:afflict-a-bountiful-decay
+  scdc:
+    - 1.1.1:13.2.9.1:09
+  source: mcdm.heroes.v1
+  target: One creature
+  type: feature/ability/elementalist/1st-level-feature
+effects:
+  - roll: Power Roll + Reason
+    t1: 2 + R corruption damage
+    t2: 4 + R corruption damage
+    t3: 6 + R corruption damage
+  - effect: Choose yourself or one ally within distance. That character can end one
+      effect on them that is ended by a saving throw or that ends at the end of
+      their turn.
+```

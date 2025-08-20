@@ -13,31 +13,65 @@ item_id: volcanos-embrace-5-essence
 item_index: '05'
 item_name: Volcano's Embrace (5 Essence)
 keywords:
-  - Earth
-  - Fire
-  - Magic
-  - Ranged
-  - Strike
+- Earth
+- Fire
+- Magic
+- Ranged
+- Strike
 level: 2
 scc:
-  - mcdm.heroes.v1:feature.ability.elementalist.2nd-level-feature:volcanos-embrace-5-essence
+- mcdm.heroes.v1:feature.ability.elementalist.2nd-level-feature:volcanos-embrace-5-essence
 scdc:
-  - 1.1.1:13.2.9.5:05
+- 1.1.1:13.2.9.5:05
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/elementalist/2nd-level-feature
 ---
 
-###### Volcano's Embrace (5 Essence)
-
-*Wrap them up in fire and melting stone.*
-
-| **Earth, Fire, Magic, Ranged, Strike** |     **Main action** |
-| -------------------------------------- | ------------------: |
-| **📏 Ranged 10**                       | **🎯 One creature** |
-
-**Power Roll + Reason:**
-
-- **≤11:** 5 + R fire damage; A < WEAK, restrained (save ends)
-- **12-16:** 9 + R fire damage; A < AVERAGE, restrained (save ends)
-- **17+:** 12 + R fire damage; A < STRONG, restrained (save ends)
+```ds-ability
+name: Volcano's Embrace
+cost: 5 Essence
+flavor: Wrap them up in fire and melting stone.
+keywords:
+  - Earth
+  - Fire
+  - Magic
+  - Ranged
+  - Strike
+type: Main action
+distance: Ranged 10
+target: One creature
+metadata:
+  action_type: Main action
+  class: elementalist
+  cost: 5 Essence
+  cost_amount: 5
+  cost_resource: Essence
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Volcanos Embrace
+  file_dpath: Elementalist/2nd-Level Features
+  flavor: Wrap them up in fire and melting stone.
+  item_id: volcanos-embrace-5-essence
+  item_index: "05"
+  item_name: Volcano's Embrace (5 Essence)
+  keywords:
+    - Earth
+    - Fire
+    - Magic
+    - Ranged
+    - Strike
+  level: 2
+  scc:
+    - mcdm.heroes.v1:feature.ability.elementalist.2nd-level-feature:volcanos-embrace-5-essence
+  scdc:
+    - 1.1.1:13.2.9.5:05
+  source: mcdm.heroes.v1
+  target: One creature
+  type: feature/ability/elementalist/2nd-level-feature
+effects:
+  - roll: Power Roll + Reason
+    t1: 5 + R fire damage; A < WEAK, restrained (save ends)
+    t2: 9 + R fire damage; A < AVERAGE, restrained (save ends)
+    t3: 12 + R fire damage; A < STRONG, restrained (save ends)
+```

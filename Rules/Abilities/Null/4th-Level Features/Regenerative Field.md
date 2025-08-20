@@ -8,13 +8,31 @@ item_index: 08
 item_name: Regenerative Field
 level: 4
 scc:
-  - mcdm.heroes.v1:feature.trait.null.4th-level-feature:regenerative-field
+- mcdm.heroes.v1:feature.trait.null.4th-level-feature:regenerative-field
 scdc:
-  - 1.1.1:13.1.6.9:08
+- 1.1.1:13.1.6.9:08
 source: mcdm.heroes.v1
 type: feature/trait/null/4th-level-feature
 ---
 
-#### Regenerative Field
-
-The first time each combat round that an enemy in the area of your Null Field ability uses a main action, you gain 2 discipline instead of 1.
+```ds-ability
+name: Regenerative Field
+metadata:
+  class: "null"
+  feature_type: trait
+  file_basename: Regenerative Field
+  file_dpath: Null/4th-Level Features
+  item_id: regenerative-field
+  item_index: 8
+  item_name: Regenerative Field
+  level: 4
+  scc:
+    - mcdm.heroes.v1:feature.trait.null.4th-level-feature:regenerative-field
+  scdc:
+    - 1.1.1:13.1.6.9:08
+  source: mcdm.heroes.v1
+  type: feature/trait/null/4th-level-feature
+effects:
+  - effect: The first time each combat round that an enemy in the area of your Null
+      Field ability uses a main action, you gain 2 discipline instead of 1.
+```

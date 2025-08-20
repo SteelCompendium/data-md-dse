@@ -10,27 +10,50 @@ item_id: furious-change
 item_index: '14'
 item_name: Furious Change
 keywords:
-  - '-'
+- '-'
 level: 1
 scc:
-  - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:furious-change
+- mcdm.heroes.v1:feature.ability.fury.1st-level-feature:furious-change
 scdc:
-  - 1.1.1:13.2.5.1:14
+- 1.1.1:13.2.5.1:14
 source: mcdm.heroes.v1
 target: One enemy
 type: feature/ability/fury/1st-level-feature
 ---
 
-###### Furious Change
-
-*In your anger, you revert to a more bestial form.*
-
-| **-**            |    **Triggered** |
-| ---------------- | ---------------: |
-| **📏 Ranged 10** | **🎯 One enemy** |
-
-**Trigger:** You lose Stamina and are not dying.
-
-**Effect:** You gain temporary Stamina equal to your Might score and can enter your animal form or hybrid form.
-
-**Spend 1 Ferocity:** If you are not dying, you can spend a Recovery.
+```ds-ability
+name: Furious Change
+flavor: In your anger, you revert to a more bestial form.
+keywords:
+  - "-"
+type: Triggered
+distance: Ranged 10
+target: One enemy
+trigger: You lose Stamina and are not dying.
+metadata:
+  action_type: Triggered
+  class: fury
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Furious Change
+  file_dpath: Fury/1st-Level Features
+  flavor: In your anger, you revert to a more bestial form.
+  item_id: furious-change
+  item_index: "14"
+  item_name: Furious Change
+  keywords:
+    - "-"
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:furious-change
+  scdc:
+    - 1.1.1:13.2.5.1:14
+  source: mcdm.heroes.v1
+  target: One enemy
+  type: feature/ability/fury/1st-level-feature
+effects:
+  - effect: You gain temporary Stamina equal to your Might score and can enter your
+      animal form or hybrid form.
+  - effect: If you are not dying, you can spend a Recovery.
+    cost: Spend 1 Ferocity
+```

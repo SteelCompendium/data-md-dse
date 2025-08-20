@@ -13,29 +13,67 @@ item_id: luminous-champion-aloft-9-essence
 item_index: '04'
 item_name: Luminous Champion Aloft (9 Essence)
 keywords:
-  - Fire
-  - Green
-  - Magic
-  - Ranged
-  - Void
+- Fire
+- Green
+- Magic
+- Ranged
+- Void
 level: 6
 scc:
-  - mcdm.heroes.v1:feature.ability.elementalist.6th-level-feature:luminous-champion-aloft-9-essence
+- mcdm.heroes.v1:feature.ability.elementalist.6th-level-feature:luminous-champion-aloft-9-essence
 scdc:
-  - 1.1.1:13.2.9.3:04
+- 1.1.1:13.2.9.3:04
 source: mcdm.heroes.v1
 target: Self or one ally
 type: feature/ability/elementalist/6th-level-feature
 ---
 
-###### Luminous Champion Aloft (9 Essence)
-
-*They shine vibrantly, a beautiful diamond in the night sky.*
-
-| **Fire, Green, Magic, Ranged, Void** |            **Maneuver** |
-| ------------------------------------ | ----------------------: |
-| **📏 Ranged 10**                     | **🎯 Self or one ally** |
-
-**Effect:** The target has a +3 bonus to speed, they can fly, and their abilities ignore concealment. Additionally, whenever the target gains their Heroic Resource, they gain 1 additional Heroic Resource. This effect lasts until the start of your next turn.
-
-**Persistent 1:** The effect lasts until the start of your next turn.
+```ds-ability
+name: Luminous Champion Aloft
+cost: 9 Essence
+flavor: They shine vibrantly, a beautiful diamond in the night sky.
+keywords:
+  - Fire
+  - Green
+  - Magic
+  - Ranged
+  - Void
+type: Maneuver
+distance: Ranged 10
+target: Self or one ally
+metadata:
+  action_type: Maneuver
+  class: elementalist
+  cost: 9 Essence
+  cost_amount: 9
+  cost_resource: Essence
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Luminous Champion Aloft
+  file_dpath: Elementalist/6th-Level Features
+  flavor: They shine vibrantly, a beautiful diamond in the night sky.
+  item_id: luminous-champion-aloft-9-essence
+  item_index: "04"
+  item_name: Luminous Champion Aloft (9 Essence)
+  keywords:
+    - Fire
+    - Green
+    - Magic
+    - Ranged
+    - Void
+  level: 6
+  scc:
+    - mcdm.heroes.v1:feature.ability.elementalist.6th-level-feature:luminous-champion-aloft-9-essence
+  scdc:
+    - 1.1.1:13.2.9.3:04
+  source: mcdm.heroes.v1
+  target: Self or one ally
+  type: feature/ability/elementalist/6th-level-feature
+effects:
+  - effect: The target has a +3 bonus to speed, they can fly, and their abilities
+      ignore concealment. Additionally, whenever the target gains their Heroic
+      Resource, they gain 1 additional Heroic Resource. This effect lasts until
+      the start of your next turn.
+  - effect: The effect lasts until the start of your next turn.
+    name: Persistent 1
+```

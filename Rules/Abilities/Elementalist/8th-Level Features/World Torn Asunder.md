@@ -13,31 +13,63 @@ item_id: world-torn-asunder-11-essence
 item_index: '04'
 item_name: World Torn Asunder (11 Essence)
 keywords:
-  - Area
-  - Earth
-  - Magic
+- Area
+- Earth
+- Magic
 level: 8
 scc:
-  - mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:world-torn-asunder-11-essence
+- mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:world-torn-asunder-11-essence
 scdc:
-  - 1.1.1:13.2.9.2:04
+- 1.1.1:13.2.9.2:04
 source: mcdm.heroes.v1
 target: Each enemy in the area
 type: feature/ability/elementalist/8th-level-feature
 ---
 
-###### World Torn Asunder (11 Essence)
-
-*You stomp your foot and quake the whole world over.*
-
-| **Area, Earth, Magic** |               **Main action** |
-| ---------------------- | ----------------------------: |
-| **📏 5 burst**         | **🎯 Each enemy in the area** |
-
-**Power Roll + Reason:**
-
-- **≤11:** M < WEAK, prone
-- **12-16:** M < AVERAGE, prone
-- **17+:** M < STRONG, prone
-
-**Effect:** You create a fissure in the ground adjacent to you that is a 10 x 2 line and 6 squares deep. Each creature in the area who is prone and size 2 or smaller falls in. Other creatures can enter the fissure or can shift to the nearest unoccupied space of their choice outside it.
+```ds-ability
+name: World Torn Asunder
+cost: 11 Essence
+flavor: You stomp your foot and quake the whole world over.
+keywords:
+  - Area
+  - Earth
+  - Magic
+type: Main action
+distance: 5 burst
+target: Each enemy in the area
+metadata:
+  action_type: Main action
+  class: elementalist
+  cost: 11 Essence
+  cost_amount: 11
+  cost_resource: Essence
+  distance: 5 burst
+  feature_type: ability
+  file_basename: World Torn Asunder
+  file_dpath: Elementalist/8th-Level Features
+  flavor: You stomp your foot and quake the whole world over.
+  item_id: world-torn-asunder-11-essence
+  item_index: "04"
+  item_name: World Torn Asunder (11 Essence)
+  keywords:
+    - Area
+    - Earth
+    - Magic
+  level: 8
+  scc:
+    - mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:world-torn-asunder-11-essence
+  scdc:
+    - 1.1.1:13.2.9.2:04
+  source: mcdm.heroes.v1
+  target: Each enemy in the area
+  type: feature/ability/elementalist/8th-level-feature
+effects:
+  - roll: Power Roll + Reason
+    t1: M < WEAK, prone
+    t2: M < AVERAGE, prone
+    t3: M < STRONG, prone
+  - effect: You create a fissure in the ground adjacent to you that is a 10 x 2 line
+      and 6 squares deep. Each creature in the area who is prone and size 2 or
+      smaller falls in. Other creatures can enter the fissure or can shift to
+      the nearest unoccupied space of their choice outside it.
+```

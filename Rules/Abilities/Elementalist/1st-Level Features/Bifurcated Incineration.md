@@ -10,30 +10,58 @@ item_id: bifurcated-incineration
 item_index: '04'
 item_name: Bifurcated Incineration
 keywords:
-  - Fire
-  - Magic
-  - Ranged
-  - Strike
+- Fire
+- Magic
+- Ranged
+- Strike
 level: 1
 scc:
-  - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:bifurcated-incineration
+- mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:bifurcated-incineration
 scdc:
-  - 1.1.1:13.2.9.1:04
+- 1.1.1:13.2.9.1:04
 source: mcdm.heroes.v1
 target: Two creatures or objects
 type: feature/ability/elementalist/1st-level-feature
 ---
 
-###### Bifurcated Incineration
-
-*Two jets of flame lance out at your command.*
-
-| **Fire, Magic, Ranged, Strike** |                 **Main action** |
-| ------------------------------- | ------------------------------: |
-| **📏 Ranged 10**                | **🎯 Two creatures or objects** |
-
-**Power Roll + Reason:**
-
-- **≤11:** 2 fire damage
-- **12-16:** 4 fire damage
-- **17+:** 6 fire damage
+```ds-ability
+name: Bifurcated Incineration
+flavor: Two jets of flame lance out at your command.
+keywords:
+  - Fire
+  - Magic
+  - Ranged
+  - Strike
+type: Main action
+distance: Ranged 10
+target: Two creatures or objects
+metadata:
+  action_type: Main action
+  class: elementalist
+  distance: Ranged 10
+  feature_type: ability
+  file_basename: Bifurcated Incineration
+  file_dpath: Elementalist/1st-Level Features
+  flavor: Two jets of flame lance out at your command.
+  item_id: bifurcated-incineration
+  item_index: "04"
+  item_name: Bifurcated Incineration
+  keywords:
+    - Fire
+    - Magic
+    - Ranged
+    - Strike
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:bifurcated-incineration
+  scdc:
+    - 1.1.1:13.2.9.1:04
+  source: mcdm.heroes.v1
+  target: Two creatures or objects
+  type: feature/ability/elementalist/1st-level-feature
+effects:
+  - roll: Power Roll + Reason
+    t1: 2 fire damage
+    t2: 4 fire damage
+    t3: 6 fire damage
+```

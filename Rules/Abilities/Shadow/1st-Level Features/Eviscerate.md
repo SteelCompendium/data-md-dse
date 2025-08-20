@@ -13,30 +13,62 @@ item_id: eviscerate-3-insight
 item_index: '02'
 item_name: Eviscerate (3 Insight)
 keywords:
-  - Melee
-  - Ranged
-  - Strike
-  - Weapon
+- Melee
+- Ranged
+- Strike
+- Weapon
 level: 1
 scc:
-  - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:eviscerate-3-insight
+- mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:eviscerate-3-insight
 scdc:
-  - 1.1.1:13.2.2.1:02
+- 1.1.1:13.2.2.1:02
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/shadow/1st-level-feature
 ---
 
-###### Eviscerate (3 Insight)
-
-*You leave your foe bleeding out after a devastating attack.*
-
-| **Melee, Ranged, Strike, Weapon** |     **Main action** |
-| --------------------------------- | ------------------: |
-| **📏 Melee 1 or ranged 5**        | **🎯 One creature** |
-
-**Power Roll + Agility:**
-
-- **≤11:** 4 + A damage; R < WEAK, bleeding (save ends)
-- **12-16:** 6 + A damage; R < AVERAGE, bleeding (save ends)
-- **17+:** 10 + A damage; R < STRONG, bleeding (save ends)
+```ds-ability
+name: Eviscerate
+cost: 3 Insight
+flavor: You leave your foe bleeding out after a devastating attack.
+keywords:
+  - Melee
+  - Ranged
+  - Strike
+  - Weapon
+type: Main action
+distance: Melee 1 or ranged 5
+target: One creature
+metadata:
+  action_type: Main action
+  class: shadow
+  cost: 3 Insight
+  cost_amount: 3
+  cost_resource: Insight
+  distance: Melee 1 or ranged 5
+  feature_type: ability
+  file_basename: Eviscerate
+  file_dpath: Shadow/1st-Level Features
+  flavor: You leave your foe bleeding out after a devastating attack.
+  item_id: eviscerate-3-insight
+  item_index: "02"
+  item_name: Eviscerate (3 Insight)
+  keywords:
+    - Melee
+    - Ranged
+    - Strike
+    - Weapon
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:eviscerate-3-insight
+  scdc:
+    - 1.1.1:13.2.2.1:02
+  source: mcdm.heroes.v1
+  target: One creature
+  type: feature/ability/shadow/1st-level-feature
+effects:
+  - roll: Power Roll + Agility
+    t1: 4 + A damage; R < WEAK, bleeding (save ends)
+    t2: 6 + A damage; R < AVERAGE, bleeding (save ends)
+    t3: 10 + A damage; R < STRONG, bleeding (save ends)
+```

@@ -10,26 +10,50 @@ item_id: night-watch
 item_index: '01'
 item_name: Night Watch
 keywords:
-  - Ranged
-  - Weapon
+- Ranged
+- Weapon
 level: 4
 scc:
-  - mcdm.heroes.v1:feature.ability.shadow.4th-level-feature:night-watch
+- mcdm.heroes.v1:feature.ability.shadow.4th-level-feature:night-watch
 scdc:
-  - 1.1.1:13.2.2.8:01
+- 1.1.1:13.2.2.8:01
 source: mcdm.heroes.v1
 target: One ally
 type: feature/ability/shadow/4th-level-feature
 ---
 
-###### Night Watch
-
-*A steely dagger from out of the blue knocks another weapon off course.*
-
-| **Ranged, Weapon** |   **Triggered** |
-| ------------------ | --------------: |
-| **📏 Ranged 5**    | **🎯 One ally** |
-
-**Trigger:** The target takes damage from another creature's ability while you are hidden.
-
-**Effect:** The target takes half the damage. You remain hidden.
+```ds-ability
+name: Night Watch
+flavor: A steely dagger from out of the blue knocks another weapon off course.
+keywords:
+  - Ranged
+  - Weapon
+type: Triggered
+distance: Ranged 5
+target: One ally
+trigger: The target takes damage from another creature's ability while you are hidden.
+metadata:
+  action_type: Triggered
+  class: shadow
+  distance: Ranged 5
+  feature_type: ability
+  file_basename: Night Watch
+  file_dpath: Shadow/4th-Level Features
+  flavor: A steely dagger from out of the blue knocks another weapon off course.
+  item_id: night-watch
+  item_index: "01"
+  item_name: Night Watch
+  keywords:
+    - Ranged
+    - Weapon
+  level: 4
+  scc:
+    - mcdm.heroes.v1:feature.ability.shadow.4th-level-feature:night-watch
+  scdc:
+    - 1.1.1:13.2.2.8:01
+  source: mcdm.heroes.v1
+  target: One ally
+  type: feature/ability/shadow/4th-level-feature
+effects:
+  - effect: The target takes half the damage. You remain hidden.
+```

@@ -6,31 +6,53 @@ item_id: grab
 item_index: '10'
 item_name: Grab
 scc:
-  - mcdm.heroes.v1:common\_ability.maneuver:grab
+- mcdm.heroes.v1:common\_ability.maneuver:grab
 scdc:
-  - 1.1.1:14.3:10
+- 1.1.1:14.3:10
 source: mcdm.heroes.v1
 type: common\_ability/maneuver
 ---
 
-#### Grab
+```ds-ability
+name: Grab
+metadata:
+  class: combat
+  file_basename: Grab
+  file_dpath: Abilities/Common/Maneuvers
+  item_id: grab
+  item_index: "10"
+  item_name: Grab
+  scc:
+    - mcdm.heroes.v1:common\_ability.maneuver:grab
+  scdc:
+    - 1.1.1:14.3:10
+  source: mcdm.heroes.v1
+  type: common\_ability/maneuver
+effects:
+  - effect: >-
+      A creature seeking to keep a foe close and locked down can attempt to grab
+      a creature using the following ability.
 
-A creature seeking to keep a foe close and locked down can attempt to grab a creature using the following ability.
+      ###### Grab
 
-###### Grab
+      | **Melee, Weapon** |        **Maneuver** |
 
-| **Melee, Weapon** |        **Maneuver** |
-| ----------------- | ------------------: |
-| **📏 Melee 1**    | **🎯 One creature** |
+      | ----------------- | ------------------: |
 
-**Power Roll + Might:**
+      | **📏 Melee 1**    | **🎯 One creature** |
+  - roll: Power Roll + Might
+    t1: No effect.
+    t2: You can grab the target, but if you do, the target can make a melee free
+      strike against you before they are grabbed.
+    t3: The target is grabbed by you.
+  - effect: >-
+      You can usually target only creatures of your size or smaller. If your
+      Might score is 2 or higher, you can target any creature with a size equal
+      to or less than your Might score.
 
-- **≤11:** No effect.
-- **12-16:** You can grab the target, but if you do, the target can make a melee free strike against you before they are grabbed.
-- **17+:** The target is grabbed by you.
+      Unless otherwise indicated, a creature can grab only one creature at a
+      time.
 
-**Effect:** You can usually target only creatures of your size or smaller. If your Might score is 2 or higher, you can target any creature with a size equal to or less than your Might score.
-
-Unless otherwise indicated, a creature can grab only one creature at a time.
-
-See [Conditions](#page-91-2) in [Chapter 5: Classes](#page-83-2) for information on the grabbed condition.
+      See [Conditions](#page-91-2) in [Chapter 5: Classes](#page-83-2) for
+      information on the grabbed condition.
+```

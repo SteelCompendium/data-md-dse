@@ -13,30 +13,62 @@ item_id: concussive-strike-3-focus
 item_index: '10'
 item_name: Concussive Strike (3 Focus)
 keywords:
-  - Melee
-  - Ranged
-  - Strike
-  - Weapon
+- Melee
+- Ranged
+- Strike
+- Weapon
 level: 1
 scc:
-  - mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:concussive-strike-3-focus
+- mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:concussive-strike-3-focus
 scdc:
-  - 1.1.1:13.2.4.1:10
+- 1.1.1:13.2.4.1:10
 source: mcdm.heroes.v1
 target: One creature or object
 type: feature/ability/tactician/1st-level-feature
 ---
 
-###### Concussive Strike (3 Focus)
-
-*Your precise strike leaves your foe struggling to respond.*
-
-| **Melee, Ranged, Strike, Weapon** |               **Main action** |
-| --------------------------------- | ----------------------------: |
-| **📏 Melee 1 or ranged 5**        | **🎯 One creature or object** |
-
-**Power Roll + Might:**
-
-- **≤11:** 3 + M damage; M < WEAK, dazed (save ends)
-- **12-16:** 5 + M damage; M < AVERAGE, dazed (save ends)
-- **17+:** 8 + M damage; M < STRONG, dazed (save ends)
+```ds-ability
+name: Concussive Strike
+cost: 3 Focus
+flavor: Your precise strike leaves your foe struggling to respond.
+keywords:
+  - Melee
+  - Ranged
+  - Strike
+  - Weapon
+type: Main action
+distance: Melee 1 or ranged 5
+target: One creature or object
+metadata:
+  action_type: Main action
+  class: tactician
+  cost: 3 Focus
+  cost_amount: 3
+  cost_resource: Focus
+  distance: Melee 1 or ranged 5
+  feature_type: ability
+  file_basename: Concussive Strike
+  file_dpath: Tactician/1st-Level Features
+  flavor: Your precise strike leaves your foe struggling to respond.
+  item_id: concussive-strike-3-focus
+  item_index: "10"
+  item_name: Concussive Strike (3 Focus)
+  keywords:
+    - Melee
+    - Ranged
+    - Strike
+    - Weapon
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:concussive-strike-3-focus
+  scdc:
+    - 1.1.1:13.2.4.1:10
+  source: mcdm.heroes.v1
+  target: One creature or object
+  type: feature/ability/tactician/1st-level-feature
+effects:
+  - roll: Power Roll + Might
+    t1: 3 + M damage; M < WEAK, dazed (save ends)
+    t2: 5 + M damage; M < AVERAGE, dazed (save ends)
+    t3: 8 + M damage; M < STRONG, dazed (save ends)
+```

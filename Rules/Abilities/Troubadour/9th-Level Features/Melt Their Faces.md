@@ -8,37 +8,71 @@ distance: Melee 1 or ranged 10
 feature_type: ability
 file_basename: Melt Their Faces
 file_dpath: Troubadour/9th-Level Features
-flavor: The power of music rips through the reality around the target and blows them away.
+flavor: The power of music rips through the reality around the target and blows them
+  away.
 item_id: melt-their-faces-11-drama
 item_index: '04'
 item_name: Melt Their Faces (11 Drama)
 keywords:
-  - Magic
-  - Melee
-  - Ranged
-  - Strike
+- Magic
+- Melee
+- Ranged
+- Strike
 level: 9
 scc:
-  - mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:melt-their-faces-11-drama
+- mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:melt-their-faces-11-drama
 scdc:
-  - 1.1.1:13.2.3.7:04
+- 1.1.1:13.2.3.7:04
 source: mcdm.heroes.v1
 target: One creature or object
 type: feature/ability/troubadour/9th-level-feature
 ---
 
-###### Melt Their Faces (11 Drama)
-
-*The power of music rips through the reality around the target and blows them away.*
-
-| **Magic, Melee, Ranged, Strike** |               **Main action** |
-| -------------------------------- | ----------------------------: |
-| **📏 Melee 1 or ranged 10**      | **🎯 One creature or object** |
-
-**Power Roll + Presence:**
-
-- **≤11:** 12 + P sonic damage; push 5
-- **12-16:** 16 + P sonic damage; push 10
-- **17+:** 22 + P sonic damage; push 15
-
-**Effect:** Forced movement from this ability ignores stability.
+```ds-ability
+name: Melt Their Faces
+cost: 11 Drama
+flavor: The power of music rips through the reality around the target and blows
+  them away.
+keywords:
+  - Magic
+  - Melee
+  - Ranged
+  - Strike
+type: Main action
+distance: Melee 1 or ranged 10
+target: One creature or object
+metadata:
+  action_type: Main action
+  class: troubadour
+  cost: 11 Drama
+  cost_amount: 11
+  cost_resource: Drama
+  distance: Melee 1 or ranged 10
+  feature_type: ability
+  file_basename: Melt Their Faces
+  file_dpath: Troubadour/9th-Level Features
+  flavor: The power of music rips through the reality around the target and blows
+    them away.
+  item_id: melt-their-faces-11-drama
+  item_index: "04"
+  item_name: Melt Their Faces (11 Drama)
+  keywords:
+    - Magic
+    - Melee
+    - Ranged
+    - Strike
+  level: 9
+  scc:
+    - mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:melt-their-faces-11-drama
+  scdc:
+    - 1.1.1:13.2.3.7:04
+  source: mcdm.heroes.v1
+  target: One creature or object
+  type: feature/ability/troubadour/9th-level-feature
+effects:
+  - roll: Power Roll + Presence
+    t1: 12 + P sonic damage; push 5
+    t2: 16 + P sonic damage; push 10
+    t3: 22 + P sonic damage; push 15
+  - effect: Forced movement from this ability ignores stability.
+```
