@@ -74,4 +74,5 @@ abilities:
         t2: 4 damage
         t3: 6 damage
       - effect: The cloak shifts up to 2 squares
+        name: Effect
 ```

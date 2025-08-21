@@ -72,4 +72,5 @@ abilities:
         t3: 3 damage
       - effect: Until the start of the veles's next turn, the target can't make
           opportunity attacks against any kobold.
+        name: Effect
 ```

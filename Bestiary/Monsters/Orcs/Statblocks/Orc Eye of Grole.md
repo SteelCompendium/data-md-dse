@@ -79,6 +79,7 @@ abilities:
         t2: 9 damage; slide 4, or the eye shifts up to 4 squares away from the target
         t3: 12 damage; slide 6, or the eye shifts up to 6 squares away from the target
       - effect: This ability deals cold, fire, or lightning damage.
+        name: Effect
   - name: Power Burst
     cost: 3 Malice
     keywords:
@@ -95,4 +96,5 @@ abilities:
       - effect: This ability deals cold, fire, or lightning damage, and any enemy
           targeted by the ability has damage weakness 3 to the same damage type
           (save ends).
+        name: Effect
 ```

@@ -73,4 +73,5 @@ abilities:
         t3: 5 poison damage
       - effect: The dart gains an edge on this ability against any target who has less
           than full Stamina.
+        name: Effect
 ```

@@ -74,6 +74,7 @@ abilities:
         t2: 11 damage; prone
         t3: 14 damage; prone; M < 2 bleeding (save ends)
       - effect: A target who is already prone takes an extra 6 damage.
+        name: Effect
   - name: Hrraaaaaagh!
     cost: 1 Malice
     keywords:
@@ -84,4 +85,5 @@ abilities:
     trigger: The juggernaut takes damage.
     effects:
       - effect: The juggernaut moves up to their speed and can make a free strike.
+        name: Effect
 ```

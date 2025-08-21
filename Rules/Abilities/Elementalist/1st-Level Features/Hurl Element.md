@@ -64,4 +64,5 @@ effects:
   - effect: "When you make this strike, choose the damage type from one of the
       following options: acid, cold, corruption, fire, lightning, poison, or
       sonic."
+    name: Effect
 ```

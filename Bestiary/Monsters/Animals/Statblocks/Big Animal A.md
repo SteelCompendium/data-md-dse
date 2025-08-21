@@ -78,6 +78,7 @@ abilities:
       - effect: The target vertical slides up to 3 squares. If the target is an ally,
           they can make a free strike at the end of the forced movement, then
           fall without taking damage.
+        name: Effect
   - name: Juke
     keywords:
       - "-"
@@ -87,4 +88,5 @@ abilities:
     trigger: The animal is targeted by an area ability.
     effects:
       - effect: The animal shifts up to 2 squares before the ability resolves.
+        name: Effect
 ```

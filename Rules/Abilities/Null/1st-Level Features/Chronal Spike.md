@@ -75,4 +75,5 @@ effects:
       strike. Additionally, whenever an effect lets you make a free strike or
       use a signature ability, you can use this ability instead, paying its
       discipline cost as usual.
+    name: Effect
 ```

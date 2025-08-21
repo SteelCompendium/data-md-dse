@@ -76,6 +76,7 @@ abilities:
         t3: 12 damage; pull 2
       - effect: If the target is pulled into the animal swarm, that forced movement
           deals damage only at the Director's determination.
+        name: Effect
   - name: Impede
     keywords:
       - Area
@@ -85,4 +86,5 @@ abilities:
     effects:
       - effect: The area is difficult terrain for enemies until the start of the animal
           swarm's next turn.
+        name: Effect
 ```

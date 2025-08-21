@@ -62,4 +62,5 @@ effects:
     t2: 4 + I damage
     t3: 6 + I damage
   - effect: You can have this ability deal holy damage.
+    name: Effect
 ```

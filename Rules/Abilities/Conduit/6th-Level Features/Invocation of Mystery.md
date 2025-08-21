@@ -62,4 +62,5 @@ metadata:
   type: feature/ability/conduit/6th-level-feature
 effects:
   - effect: Each target is invisible until the start of your next turn.
+    name: Effect
 ```

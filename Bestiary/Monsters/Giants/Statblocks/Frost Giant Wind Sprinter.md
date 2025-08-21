@@ -77,6 +77,7 @@ abilities:
         t2: 17 damage; A < 3 bleeding (save ends)
         t3: 21 damage; A < 4 bleeding (save ends)
       - effect: A target who is already bleeding takes an extra 1d6 cold damage.
+        name: Effect
   - name: Blizzard Surge
     cost: 5 Malice
     keywords:
@@ -88,6 +89,7 @@ abilities:
       - effect: The wind sprinter shifts up to their speed and uses Cold Axe against
           each enemy who comes within 2 squares of them during the move. The
           wind sprinter makes one power roll against all targets.
+        name: Effect
   - name: Ice Dance
     keywords:
       - Melee
@@ -98,6 +100,7 @@ abilities:
       - effect: The wind sprinter and the target each shift up to 6 squares while
           staying adjacent to each other. The target can then jump up to 5
           squares and make a free strike.
+        name: Effect
   - name: Begone, Smallfolk!
     keywords:
       - "-"
@@ -108,4 +111,5 @@ abilities:
     effects:
       - effect: The wind sprinter moves up to their speed and uses Cold Axe against one
           target.
+        name: Effect
 ```

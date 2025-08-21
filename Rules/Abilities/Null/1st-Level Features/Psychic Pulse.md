@@ -66,4 +66,5 @@ effects:
       increases by 1. At the end of your current turn, each enemy in the area of
       your Null Field ability takes psychic damage equal to your Intuition
       score.
+    name: Effect
 ```

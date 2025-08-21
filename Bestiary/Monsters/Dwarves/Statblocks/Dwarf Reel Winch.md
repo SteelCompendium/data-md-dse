@@ -72,6 +72,7 @@ abilities:
       - effect: The target is pulled up to 5 squares. A target restrained by a dwarf can
           be force moved by this ability. This forced movement doesn't end the
           restrained condition unless the Director determines otherwise.
+        name: Effect
   - name: Reel Them In
     cost: 3 Malice
     keywords:
@@ -85,4 +86,5 @@ abilities:
           be pulled an additional 2 squares. A target restrained by a dwarf can
           be force moved by this ability. This forced movement doesn't end the
           restrained condition unless the Director determines otherwise.
+        name: Effect
 ```

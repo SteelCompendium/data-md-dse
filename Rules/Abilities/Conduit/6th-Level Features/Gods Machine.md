@@ -61,7 +61,8 @@ metadata:
   target: Special
   type: feature/ability/conduit/6th-level-feature
 effects:
-  - effect: You conjure a size 2 rolling machine that appears in an unoccupied space
+  - name: Effect
+    effect: You conjure a size 2 rolling machine that appears in an unoccupied space
       within distance. The machine has 50 Stamina and immunity all to poison and
       psychic damage. It disappears at the end of the encounter, if its Stamina
       drops to 0, or if you are dying. When the machine first appears, make the

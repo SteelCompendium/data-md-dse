@@ -74,4 +74,5 @@ effects:
     t2: 6 + A damage; vertical push 10
     t3: 9 + A damage; vertical push 15
   - effect: A creature force moved by this ability must be moved straight upward.
+    name: Effect
 ```

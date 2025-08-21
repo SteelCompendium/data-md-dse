@@ -96,6 +96,7 @@ abilities:
         t3: 26 damage; A < 4 slowed (save ends)
       - effect: This damage can't be reduced in any way. While a target is slowed this
           way, any strike against them has a double edge.
+        name: Effect
   - name: Chief's Command
     keywords:
       - Ranged
@@ -104,6 +105,7 @@ abilities:
     target: One ally
     effects:
       - effect: The target shifts up to their speed and can use a main action
+        name: Effect
   - name: Quick Shield
     keywords:
       - Ranged
@@ -116,4 +118,5 @@ abilities:
       - effect: The target gains 15 temporary Stamina. Each time this triggered action
           is used, the amount of temporary Stamina received decreases by 3 (to a
           minimum of 0).
+        name: Effect
 ```

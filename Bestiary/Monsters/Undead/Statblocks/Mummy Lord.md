@@ -79,6 +79,7 @@ abilities:
         t3: 17 corruption damage; I < 4 bleeding (save ends)
       - effect: While the target is bleeding this way, the potency of any ability used
           against them increases by 1 for the target.
+        name: Effect
   - name: Binding Curse
     cost: 1 Malice
     keywords:
@@ -94,6 +95,7 @@ abilities:
         t3: 16 corruption damage; I < 4 frightened (save ends)
       - effect: While frightened this way, a target takes 4 psychic damage whenever they
           use a move action.
+        name: Effect
       - effect: This ability targets one additional target for each 2 Malice spent.
         cost: 2+ Malice
   - name: Summon My Guard
@@ -106,6 +108,7 @@ abilities:
     trigger: The mummy lord is made winded for the first time in the encounter.
     effects:
       - effect: One mummy or four ghoul cravers appear within distance.
+        name: Effect
   - name: Plague of Flies
     cost: Villain Action 1
     keywords:
@@ -120,6 +123,7 @@ abilities:
         t2: 8 poison damage
         t3: 10 poison damage
       - effect: Each target takes a bane on their next strike.
+        name: Effect
   - name: Land's Guardian
     cost: Villain Action 2
     keywords:
@@ -128,17 +132,14 @@ abilities:
     distance: Self
     target: Self
     effects:
-      - effect: >-
-          The mummy lord gains a +2 bonus to speed and can automatically burrow
-          at full speed while moving. They can then use the Dig maneuver. The
-          next time the mummy lord breaches the surface, each enemy within 2
-          squares of the mummy lord makes an **Agility test**.
-
-          - **≤11:** Prone and can't stand (EoT)
-
-          - **12-16:** Prone
-
-          - **17+:** No effect
+      - name: Effect
+        effect: The mummy lord gains a +2 bonus to speed and can automatically burrow at
+          full speed while moving. They can then use the Dig maneuver. The next
+          time the mummy lord breaches the surface, each enemy within 2 squares
+          of the mummy lord makes an **Agility test**.
+        t1: Prone and can't stand (EoT)
+        t2: Prone
+        t3: No effect
   - name: Unbound Horrors
     cost: Villain Action 3
     keywords:

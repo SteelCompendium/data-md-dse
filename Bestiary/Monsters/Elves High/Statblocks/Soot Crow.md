@@ -68,4 +68,5 @@ abilities:
         t3: 3 damage; taunted (EoT)
       - effect: Until the end of their turn, the soot crow ignores opportunity attacks
           from the target.
+        name: Effect
 ```

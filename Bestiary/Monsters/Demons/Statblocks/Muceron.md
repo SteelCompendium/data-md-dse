@@ -75,6 +75,7 @@ abilities:
         t3: 8 damage; pull 4
       - effect: If the target is pulled adjacent to the muceron, the muceron can either
           make a free strike or use the Grab maneuver against them.
+        name: Effect
   - name: Tongue Pull
     cost: 2 Malice
     keywords:
@@ -86,4 +87,5 @@ abilities:
     target: Three creatures or objects
     effects:
       - effect: The muceron pulls each target up to 5 squares.
+        name: Effect
 ```

@@ -68,4 +68,5 @@ effects:
       and can be placed in occupied squares. Creatures can enter and pass
       through the wall. Each enemy who enters the area for the first time in a
       combat round or starts their turn there takes 15 damage.
+    name: Effect
 ```

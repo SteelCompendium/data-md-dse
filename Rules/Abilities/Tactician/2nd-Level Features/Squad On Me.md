@@ -60,4 +60,5 @@ metadata:
 effects:
   - effect: Until the start of your next turn, each target has a bonus to stability
       equal to your Might score. Additionally, each target gains 2 surges.
+    name: Effect
 ```

@@ -69,6 +69,7 @@ effects:
       opportunity attacks. If the target ends their turn inside solid matter,
       they are forced out into the space where they entered it and this effect
       ends.
+    name: Effect
   - effect: The effect lasts until the start of your next turn.
     name: Persistent 1
 ```

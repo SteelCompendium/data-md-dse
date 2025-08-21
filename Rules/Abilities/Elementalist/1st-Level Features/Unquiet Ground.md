@@ -68,4 +68,5 @@ effects:
     t2: 5 damage
     t3: 7 damage
   - effect: The ground beneath the area is difficult terrain for enemies.
+    name: Effect
 ```

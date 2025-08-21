@@ -66,4 +66,5 @@ effects:
     t3: 9 + I holy damage
   - effect: You or one ally within distance gains temporary Stamina equal to your
       Intuition score.
+    name: Effect
 ```

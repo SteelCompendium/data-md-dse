@@ -72,6 +72,7 @@ effects:
       your Reason score. Additionally, whenever an enemy uses a melee ability
       against the target while they are under this effect, the enemy takes 5
       fire damage.
+    name: Effect
   - effect: The target gains 2 surges. You are weakened and slowed (save ends).
     name: Strained
 ```

@@ -77,6 +77,7 @@ abilities:
           targets are force moved. Until the start of the torlas's next turn,
           the area is difficult terrain, and each creature who moves in the area
           takes 1 damage for each square moved.
+        name: Effect
   - name: Grasping Tendons
     keywords:
       - Magic
@@ -86,4 +87,5 @@ abilities:
     target: Three creatures
     effects:
       - effect: The torlas pulls each target up to 3 squares.
+        name: Effect
 ```

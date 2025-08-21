@@ -81,6 +81,7 @@ abilities:
         t3: 3 18 damage; M < 2 slowed (save ends)
       - effect: Locratix deals 6 damage to each creature or object in a 2 x 1 line
           behind the target.
+        name: Effect
   - name: Acidic Stun
     cost: 2 Malice
     keywords:
@@ -96,6 +97,7 @@ abilities:
         t3: 15 acid damage; M < 3 dazed (save ends)
       - effect: While dazed this way, a target takes an extra 6 damage from Locratix's
           abilities.
+        name: Effect
   - name: Takeoff
     keywords:
       - "-"
@@ -105,6 +107,7 @@ abilities:
     effects:
       - effect: Locratix flies up to her speed. Any creature adjacent to the space on
           the ground she took off from who has A < 2 is knocked prone.
+        name: Effect
   - name: Stay Back!
     keywords:
       - Melee

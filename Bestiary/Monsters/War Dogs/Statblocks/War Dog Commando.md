@@ -74,4 +74,5 @@ abilities:
         t3: 5 damage
       - effect: After using this ability, the commando can attempt to hide even if
           observed.
+        name: Effect
 ```

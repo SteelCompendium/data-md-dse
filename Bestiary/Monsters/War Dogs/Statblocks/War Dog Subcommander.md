@@ -76,6 +76,7 @@ abilities:
         t3: 7 damage
       - effect: One ally within 5 squares of the subcommander can make a free strike
           against the target.
+        name: Effect
   - name: Posthumous Promotion
     keywords:
       - Magic
@@ -85,4 +86,5 @@ abilities:
     target: One war dog
     effects:
       - effect: If the target has a loyalty collar, they are reduced to 0 Stamina.
+        name: Effect
 ```

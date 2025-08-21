@@ -56,6 +56,7 @@ metadata:
 effects:
   - effect: The next ability roll an ally makes against the target before the start
       of your next turn gains an edge.
+    name: Effect
   - effect: You target one additional creature or object.
     cost: Spend 1 Clarity
 ```

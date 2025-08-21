@@ -76,6 +76,7 @@ abilities:
         t3: 11 damage; grabbed, and the target takes a bane on the Escape Grab maneuver
       - effect: Any target grabbed this way takes 4 psychic damage at the start of each
           of the tormenauk's turns.
+        name: Effect
   - name: Agony Wail
     cost: 5 Malice
     keywords:
@@ -90,4 +91,5 @@ abilities:
         t2: 6 psychic damage; I < 2 dazed (save ends)
         t3: 8 psychic damage; I < 3 dazed (save ends)
       - effect: The potency increases by 1 if the target is grabbed by the tormenauk.
+        name: Effect
 ```

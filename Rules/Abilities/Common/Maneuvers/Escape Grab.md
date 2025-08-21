@@ -52,4 +52,5 @@ effects:
 
       See [Conditions](#page-91-2) in [Chapter 5: Classes](#page-83-2) for
       information on the grabbed condition.
+    name: Effect
 ```

@@ -73,4 +73,5 @@ effects:
     t3: 21 + I damage; A < STRONG, restrained (save ends)
   - effect: While restrained this way, the target takes 10 damage at the start of
       each of your turns.
+    name: Effect
 ```

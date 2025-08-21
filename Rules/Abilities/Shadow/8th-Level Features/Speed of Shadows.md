@@ -62,4 +62,5 @@ effects:
       signature ability that gains an edge three times, or use a strike
       signature ability that has a double edge twice. You can shift up to 2
       squares between each use.
+    name: Effect
 ```

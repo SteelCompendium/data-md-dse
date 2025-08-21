@@ -78,4 +78,5 @@ effects:
       forced movement takes psychic damage equal to the total number of squares
       the target was force moved. While the target is dazed this way, they see
       glimpses of creatures from other parts of the timescape.
+    name: Effect
 ```

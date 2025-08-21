@@ -64,4 +64,5 @@ effects:
     t3: Each target gains 3 surges.
   - effect: A target can end one effect on them that is ended by a saving throw or
       that ends at the end of their turn, or a prone target can stand up.
+    name: Effect
 ```

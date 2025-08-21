@@ -55,6 +55,7 @@ metadata:
   type: feature/ability/conduit/1st-level-feature
 effects:
   - effect: The target can spend a Recovery.
+    name: Effect
   - effect: >-
       For each piety spent, choose one of the following enhancements:
 

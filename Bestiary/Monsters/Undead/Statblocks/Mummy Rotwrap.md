@@ -72,4 +72,5 @@ abilities:
         t3: 8 damage; pull 3
       - effect: Each ally gains an edge on strikes made against the target until the end
           of the round
+        name: Effect
 ```

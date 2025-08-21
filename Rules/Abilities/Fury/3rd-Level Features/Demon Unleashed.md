@@ -61,4 +61,5 @@ effects:
   - effect: Until the end of the encounter or until you are dying, each enemy who
       starts their turn adjacent to you and has P < STRONG is frightened until
       the end of their turn.
+    name: Effect
 ```

@@ -67,6 +67,7 @@ abilities:
         t2: 9 damage
         t3: 12 damage
       - effect: The animal shifts up to 2 squares between strikes.
+        name: Effect
   - name: Rush
     keywords:
       - "-"
@@ -75,4 +76,5 @@ abilities:
     target: Self
     effects:
       - effect: The animal moves up to their speed.
+        name: Effect
 ```

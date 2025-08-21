@@ -74,4 +74,5 @@ effects:
   - effect: Choose one ally within distance. While the target is affected by this
       ability, each time they use an ability, that ally can make a free strike
       against them after the ability is resolved.
+    name: Effect
 ```

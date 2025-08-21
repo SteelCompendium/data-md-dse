@@ -65,4 +65,5 @@ metadata:
 effects:
   - effect: Each target gains 1 surge, then gains 1 surge at the start of each
       combat round until the end of the encounter.
+    name: Effect
 ```

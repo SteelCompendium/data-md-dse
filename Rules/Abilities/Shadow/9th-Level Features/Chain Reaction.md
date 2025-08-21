@@ -61,7 +61,8 @@ metadata:
   target: One creature or object
   type: feature/ability/shadow/9th-level-feature
 effects:
-  - effect: Each enemy within 3 squares of the target who is not currently targeted
+  - name: Effect
+    effect: Each enemy within 3 squares of the target who is not currently targeted
       by this ability also becomes targeted by this ability. This effect
       continues until there are no more available targets. The ability deals
       acid, fire, or poison damage (your choice).

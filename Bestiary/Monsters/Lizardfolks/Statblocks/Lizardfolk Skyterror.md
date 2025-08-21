@@ -75,6 +75,7 @@ abilities:
         t2: 7 damage
         t3: 9 damage; prone
       - effect: If the skyterror is flying, they shift up to 4 squares.
+        name: Effect
   - name: Poison Blow Dart
     keywords:
       - Ranged
@@ -90,4 +91,5 @@ abilities:
         t3: 7 damage; M < 2 weakened (save ends)
       - effect: Any creature who ends their turn adjacent to a target weakened this way
           is weakened until the end of their next turn.
+        name: Effect
 ```

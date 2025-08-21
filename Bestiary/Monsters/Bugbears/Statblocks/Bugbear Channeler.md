@@ -69,6 +69,7 @@ abilities:
         t3: 13 damage; pull 4
       - effect: Each target must be on the ground, and each square a target is pulled
           through is difficult terrain for enemies.
+        name: Effect
   - name: Blistering Element
     keywords:
       - Area
@@ -77,7 +78,8 @@ abilities:
     distance: 3 burst
     target: Each enemy in the area
     effects:
-      - effect: "The channeler chooses one of the following damage types: acid, cold,
+      - name: Effect
+        effect: "The channeler chooses one of the following damage types: acid, cold,
           corruption, fire, or poison."
       - roll: Power Roll + 2
         t1: 2 damage; M < 0 bleeding (save ends)
@@ -99,6 +101,7 @@ abilities:
         t3: 11 corruption damage; P < 2 the target is shapechanged (save ends)
       - effect: A shapechanged creature is slowed and has fire weakness 10 as their
           limbs stretch and their skin becomes paper thin.
+        name: Effect
   - name: Throw
     keywords:
       - Melee
@@ -111,6 +114,7 @@ abilities:
         name: Special
       - effect: The target is vertical pushed up to 3 squares. An ally doesn't take
           damage from being force moved this way.
+        name: Effect
   - name: Catcher
     keywords:
       - Melee
@@ -121,6 +125,7 @@ abilities:
       ally willingly moves within distance.
     effects:
       - effect: The target is grabbed by the channeler.
+        name: Effect
   - name: Shadow Veil
     keywords:
       - Magic
@@ -132,4 +137,5 @@ abilities:
     effects:
       - effect: The target is wrapped in shadow and halves the damage. The target can't
           be targeted by strikes until the start of their next turn.
+        name: Effect
 ```

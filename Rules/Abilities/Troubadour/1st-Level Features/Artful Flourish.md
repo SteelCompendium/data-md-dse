@@ -62,6 +62,7 @@ effects:
     t2: 5 damage
     t3: 7 damage
   - effect: You can shift up to 3 squares.
+    name: Effect
   - effect: You can target one additional creature or object for every 2 drama spent.
     cost: Spend 2+ Drama
 ```

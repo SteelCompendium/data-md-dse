@@ -73,4 +73,5 @@ abilities:
         t3: 10 damage; push 4
       - effect: Each enemy adjacent to the target before the forced movement takes 5
           fire damage
+        name: Effect
 ```

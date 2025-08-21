@@ -67,4 +67,5 @@ abilities:
         t2: 4 damage
         t3: 5 damage; grabbed or prone
       - effect: If the target is restrained, they take an extra 2 damage.
+        name: Effect
 ```

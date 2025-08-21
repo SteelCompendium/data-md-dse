@@ -74,6 +74,7 @@ abilities:
         t3: 18 damage
       - effect: The mournblade is invisible to the target until the start of the
           mournblade's next turn.
+        name: Effect
   - name: Shadow Step
     keywords:
       - Magic
@@ -83,4 +84,5 @@ abilities:
     effects:
       - effect: If the mournblade has concealment, they can teleport up to 10 squares to
           a space with concealment created by darkness.
+        name: Effect
 ```

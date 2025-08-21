@@ -79,6 +79,7 @@ abilities:
           to 3 squares. A target restrained by a dwarf can be force moved by
           this ability. This forced movement doesn't end the restrained
           condition unless the Director determines otherwise.
+        name: Effect
   - name: Stunning Blast
     cost: 3 Malice
     keywords:

@@ -77,6 +77,7 @@ abilities:
           choose a second target within distance for the strike. The first
           target takes half of any damage from the strike and the second target
           takes any remaining damage.
+        name: Effect
   - name: Vanish
     cost: 1 Malice
     keywords:
@@ -88,4 +89,5 @@ abilities:
     effects:
       - effect: The target is invisible until the start of their next turn. They can
           then move up to 3 squares and attempt to hide.
+        name: Effect
 ```

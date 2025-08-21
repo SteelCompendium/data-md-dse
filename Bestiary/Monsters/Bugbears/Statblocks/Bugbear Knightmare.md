@@ -80,4 +80,5 @@ abilities:
         t3: 8 corruption damage; grabbed; P < 4 bleeding (save ends)
       - effect: A target grabbed this way or already grabbed by the knightmare can be
           vertical pushed up to 5 squares.
+        name: Effect
 ```

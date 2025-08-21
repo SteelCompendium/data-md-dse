@@ -69,4 +69,5 @@ effects:
     t2: 5 holy damage
     t3: 7 holy damage
   - effect: Each ally in the area can spend a Recovery.
+    name: Effect
 ```

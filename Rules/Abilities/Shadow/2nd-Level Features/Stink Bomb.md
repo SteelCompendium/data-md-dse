@@ -68,4 +68,5 @@ effects:
   - effect: The gas remains in the area until the end of the encounter. Any creature
       who starts their turn in the area and has M < AVERAGE is weakened (save
       ends).
+    name: Effect
 ```

@@ -68,6 +68,7 @@ effects:
       carrying or wearing such an object (such as a mirror, an unpainted metal
       shield, or shiny metal plate armor), you can target one additional
       creature or object within 3 squares of the first target.
+    name: Effect
   - effect: You gain 1 surge that you can use immediately, and you take damage equal
       to your Reason score that can't be reduced in any way.
     name: Strained

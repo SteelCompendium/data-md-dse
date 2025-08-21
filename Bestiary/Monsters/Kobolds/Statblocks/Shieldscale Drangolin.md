@@ -85,6 +85,7 @@ abilities:
       - effect: The drangolin shifts up to their speed and uses Fiery Claws against each
           creature who comes adjacent to them during the shift. The drangolin
           makes one power roll against all targets.
+        name: Effect
   - name: Erupt
     cost: 3 Malice
     keywords:
@@ -94,7 +95,8 @@ abilities:
     distance: 2 burst
     target: Each creature in the area
     effects:
-      - effect: The drangolin uses the Dig maneuver to breach the surface before using
+      - name: Effect
+        effect: The drangolin uses the Dig maneuver to breach the surface before using
           this ability. Each target in the area where the drangolin breaches
           takes an extra 2 fire damage.
       - roll: Power Roll + 2

@@ -76,6 +76,7 @@ abilities:
         t3: 9 cold damage; P < 3 slowed (save ends)
       - effect: Any living creature who dies from this damage rises at the start of the
           next round as a ghoul craver under the Director's control.
+        name: Effect
   - name: Hidden Movement
     keywords:
       - "-"
@@ -85,6 +86,7 @@ abilities:
     effects:
       - effect: The wraith turns invisible, moves up to their speed, and is visible
           again.
+        name: Effect
   - name: Stolen Vitality
     cost: 1 Malice
     keywords:
@@ -97,4 +99,5 @@ abilities:
     effects:
       - effect: The target regains only half the Stamina, and the wraith regains the
           remaining Stamina.
+        name: Effect
 ```

@@ -63,4 +63,5 @@ effects:
       teleported in a way that would harm them (such as over a cliff), leave
       them dying, or result in them suffering a condition or other negative
       effect.
+    name: Effect
 ```

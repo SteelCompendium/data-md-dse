@@ -67,10 +67,11 @@ metadata:
   target: Three allies
   type: feature/ability/talent/9th-level-feature
 effects:
-  - effect: Each target can use any main action available to them as a free
+  - name: Effect
+    effect: Each target can use any main action available to them as a free
       triggered action, but they lose their main action on their next turn.
-  - effect: Make a power roll that targets you and each enemy within distance.
-    name: Strained
+  - name: Strained
+    effect: Make a power roll that targets you and each enemy within distance.
   - roll: Power Roll + Presence
     t1: 4 corruption damage; slowed (save ends)
     t2: 6 corruption damage; slowed (save ends)

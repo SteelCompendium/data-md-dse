@@ -66,4 +66,5 @@ effects:
   - effect: The effect ends on the target and is applied to the creature who imposed
       the effect on them. That creature also takes damage equal to three times
       your Presence score.
+    name: Effect
 ```

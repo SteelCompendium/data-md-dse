@@ -115,6 +115,7 @@ abilities:
           increases the potency by 1. A target restrained this way magi- cally
           begins to turn to stone, and a target who ends two consecutive turns
           restrained this way is petrified
+        name: Effect
   - name: Nimble Escape
     keywords:
       - "-"
@@ -124,6 +125,7 @@ abilities:
     effects:
       - effect: The medusa shifts up to 3 squares and can attempt to hide even if
           observed.
+        name: Effect
   - name: Venomous Spit
     cost: 2 Malice
     keywords:
@@ -148,6 +150,7 @@ abilities:
     effects:
       - effect: The medusa can use Petrify against each target without spending Malice.
           A target who doesn't have cover increases the potency by 1.
+        name: Effect
   - name: Serpent Wings
     cost: Villain Action 2
     keywords:
@@ -159,6 +162,7 @@ abilities:
       - effect: The medusa temporarily manifests wings and flies up to their speed
           without provoking opportunity attacks. During or after this movement,
           they can use Snake Bites and Damning Gaze once each.
+        name: Effect
   - name: Stone Puppets
     cost: Villain Action 3
     keywords:
@@ -168,14 +172,14 @@ abilities:
     distance: 10 burst
     target: Special
     effects:
-      - effect: |-
-          8 acid damage; P < 3 weakened (save ends)
-          - **12-16:** 13 acid damage; P < 4 weakened (save ends)
-          - **17+:** 17 acid damage; P < 5 weakened (save ends)
-        cost: ≤11
+      - cost: ≤11
+        effect: 8 acid damage; P < 3 weakened (save ends)
+        t2: 13 acid damage; P < 4 weakened (save ends)
+        t3: 17 acid damage; P < 5 weakened (save ends)
       - effect: As a free triggered action, each stone statue and creature restrained or
           slowed by Petrify within distance moves up to their speed and uses a
           signature ability that gains an edge, targeting an enemy of the
           medusa's choice. A stone statue without its own statistics has speed 5
           and uses the medusa's free strike.
+        name: Effect
 ```

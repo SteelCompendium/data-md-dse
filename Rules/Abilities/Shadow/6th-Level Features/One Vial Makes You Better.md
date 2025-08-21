@@ -67,4 +67,5 @@ effects:
       A creature who drinks the potion can spend up to 2 Recoveries, and has
       acid immunity, fire immunity, or poison immunity (their choice) equal to
       your level until the end of the encounter.
+    name: Effect
 ```

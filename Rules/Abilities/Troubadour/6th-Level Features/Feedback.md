@@ -64,7 +64,8 @@ metadata:
   target: Each enemy in the area
   type: feature/ability/troubadour/6th-level-feature
 effects:
-  - effect: A prone target ignores this ability.
+  - name: Effect
+    effect: A prone target ignores this ability.
   - roll: Power Roll + Presence
     t1: 7 sonic damage; P < WEAK, prone
     t2: 10 sonic damage; P < AVERAGE, prone

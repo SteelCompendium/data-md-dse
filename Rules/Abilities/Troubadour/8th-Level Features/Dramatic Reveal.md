@@ -63,4 +63,5 @@ effects:
       an ally within distance of that ability into the creature's space in a
       plume of rose petals. You or the teleported ally can then make a melee
       free strike.
+    name: Effect
 ```

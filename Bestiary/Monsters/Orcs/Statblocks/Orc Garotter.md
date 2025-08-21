@@ -71,6 +71,7 @@ abilities:
         t3: 12 damage; the garroter shifts up to 3 squares
       - effect: If this ability gains an edge or has a double edge, it deals an extra 4
           damage.
+        name: Effect
   - name: Strangle
     keywords:
       - Melee
@@ -86,6 +87,7 @@ abilities:
         t3: 12 damage; grabbed; I < 2 dazed (save ends)
       - effect: While grabbed this way, a target can't communicate or use magic
           abilities.
+        name: Effect
   - name: Chroma Cloak
     cost: 1 Malice
     keywords:

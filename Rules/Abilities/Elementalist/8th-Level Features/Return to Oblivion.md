@@ -73,4 +73,5 @@ effects:
       enters the vortex or starts their turn there is knocked prone. At the end
       of the round, if a winded enemy who is not a leader or solo creature is in
       the vortex, they are instantly destroyed.
+    name: Effect
 ```

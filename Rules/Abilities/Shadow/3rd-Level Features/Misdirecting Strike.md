@@ -73,4 +73,5 @@ effects:
     t3: 18 + A damage
   - effect: The target is taunted by a willing ally within 5 squares of you until
       the end of the target's next turn.
+    name: Effect
 ```

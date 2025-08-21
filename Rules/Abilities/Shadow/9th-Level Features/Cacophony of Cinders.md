@@ -64,7 +64,8 @@ metadata:
   target: Self
   type: feature/ability/shadow/9th-level-feature
 effects:
-  - effect: You shift up to twice your speed, making one power roll that targets
+  - name: Effect
+    effect: You shift up to twice your speed, making one power roll that targets
       each creature you come adjacent to during the shift.
   - roll: Power Roll + Agility
     t1: An enemy takes 6 damage; an ally can teleport up to 3 squares.

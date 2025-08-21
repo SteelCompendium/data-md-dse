@@ -95,6 +95,7 @@ abilities:
           two additional targets within 2 squares of an original target and
           having a double bane against those targets. The lightbearer makes one
           power roll against all targets.
+        name: Effect
   - name: Travel By Fire
     keywords:
       - Magic
@@ -106,6 +107,7 @@ abilities:
       - effect: The lightbearer can target themself with this ability. Each target takes
           1d6 fire damage and teleports in a plume of smoke to swap places with
           the other target.
+        name: Effect
   - name: Emergency Beacon
     keywords:
       - "-"
@@ -117,4 +119,5 @@ abilities:
       - effect: The lightbearer emits a beacon of light until the start of their next
           turn. Each fire giant who has line of effect to the lightbearer has a
           double edge on abilities.
+        name: Effect
 ```

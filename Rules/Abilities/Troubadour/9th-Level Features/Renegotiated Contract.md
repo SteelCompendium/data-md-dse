@@ -64,7 +64,8 @@ metadata:
   target: One creature
   type: feature/ability/troubadour/9th-level-feature
 effects:
-  - effect: Add your current Stamina to your target's current Stamina, then you have
+  - name: Effect
+    effect: Add your current Stamina to your target's current Stamina, then you have
       half that total Stamina and the target has the remainder. If either of you
       would gain more Stamina this way than their Stamina maximum, the
       difference in Stamina between what that creature would gain and their

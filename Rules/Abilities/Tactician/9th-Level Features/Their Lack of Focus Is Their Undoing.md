@@ -67,7 +67,8 @@ metadata:
   target: Three enemies
   type: feature/ability/tactician/9th-level-feature
 effects:
-  - effect: Each target uses a signature ability against one or more targets of your
+  - name: Effect
+    effect: Each target uses a signature ability against one or more targets of your
       choosing, with each ability automatically obtaining a tier 3 outcome on
       the power roll. After resolving the targets' abilities, you make a power
       roll against each original target.

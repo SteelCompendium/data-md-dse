@@ -70,4 +70,5 @@ effects:
     t3: 14 + A damage; P < STRONG, weakened (save ends)
   - effect: You can become bleeding (save ends) to deal an extra 5 corruption damage
       to the target.
+    name: Effect
 ```

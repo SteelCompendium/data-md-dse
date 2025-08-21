@@ -70,4 +70,5 @@ effects:
     t3: 20 + M damage; M < STRONG, slowed (save ends)
   - effect: While slowed this way, the target takes 1 damage for every square they
       move, including from forced movement.
+    name: Effect
 ```

@@ -72,4 +72,5 @@ effects:
       you are dying. At the start of each of your turns, you can move the storm
       up to 5 squares (no action required). On subsequent turns while the storm
       is active, you can use a maneuver to make its power roll.
+    name: Effect
 ```

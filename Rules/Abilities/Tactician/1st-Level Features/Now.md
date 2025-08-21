@@ -59,4 +59,5 @@ metadata:
   type: feature/ability/tactician/1st-level-feature
 effects:
   - effect: Each target can make a free strike.
+    name: Effect
 ```

@@ -73,6 +73,7 @@ abilities:
         t3: 9 poison damage; M < 3 weakened (save ends)
       - effect: A target enemy is subject to this ability's power roll. A target ally
           instead gains 5 temporary Stamina and can make a free strike.
+        name: Effect
   - name: Posthumous Promotion
     keywords:
       - Magic
@@ -82,6 +83,7 @@ abilities:
     target: One war dog
     effects:
       - effect: If the target has a loyalty collar, they are reduced to 0 Stamina.
+        name: Effect
   - name: Sanguine Stimulants
     cost: 1 Malice
     keywords:
@@ -94,4 +96,5 @@ abilities:
     effects:
       - effect: Each ally adjacent to the dead ally deals an extra 6 damage on their
           next strike.
+        name: Effect
 ```

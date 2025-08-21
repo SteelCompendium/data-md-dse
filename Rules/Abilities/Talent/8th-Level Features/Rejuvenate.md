@@ -78,6 +78,7 @@ effects:
 
       - The target gains 2 surges, and gains a +3 bonus to speed until the end
       of the encounter.
+    name: Effect
   - effect: You and the target both permanently grow visibly younger (the equivalent
       of 20 human years, to the minimum of an 18-yearold). Additionally, you are
       weakened and slowed (save ends).

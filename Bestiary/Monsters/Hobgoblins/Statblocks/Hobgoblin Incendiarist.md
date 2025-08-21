@@ -81,6 +81,7 @@ abilities:
       - effect: A burning creature takes 1d6 fire damage at the start of each of their
           turns. A burning object takes 1d6 fire damage at the end of each
           round.
+        name: Effect
   - name: Fireball Volley
     cost: 3 Malice
     keywords:
@@ -98,4 +99,5 @@ abilities:
       - effect: A burning creature takes 1d6 fire damage at the start of each of their
           turns. A burning object takes 1d6 fire damage at the end of each
           round.
+        name: Effect
 ```

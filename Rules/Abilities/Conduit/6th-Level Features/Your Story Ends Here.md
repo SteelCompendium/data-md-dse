@@ -70,4 +70,5 @@ effects:
     t3: 19 + I corruption damage; R < STRONG, weakened (save ends)
   - effect: If this damage kills the target, you and each ally within distance can
       spend a Recovery.
+    name: Effect
 ```

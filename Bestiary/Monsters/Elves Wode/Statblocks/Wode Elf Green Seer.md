@@ -71,6 +71,7 @@ abilities:
         t2: 7 damage; I < 1 restrained (save ends)
         t3: 9 damage; I < 2 restrained (save ends)
       - effect: While restrained this way, a target can't search for hidden creatures.
+        name: Effect
   - name: The Natural Cycle
     cost: 3 Malice
     keywords:
@@ -87,6 +88,7 @@ abilities:
         t3: 6 damage; P < 1 bleeding (save ends); the target has a double bane on
           strikes (save ends)
       - effect: While bleeding or weakened this way, a target is covered in lichen.
+        name: Effect
   - name: Foreseen Punishment
     keywords:
       - Ranged
@@ -98,4 +100,5 @@ abilities:
     effects:
       - effect: The green seer makes a free strike against the target after the target's
           triggered action is resolved.
+        name: Effect
 ```

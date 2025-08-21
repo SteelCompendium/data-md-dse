@@ -72,4 +72,5 @@ abilities:
         t2: 2 damage
         t3: 3 damage
       - effect: The target takes a bane on their next strike.
+        name: Effect
 ```

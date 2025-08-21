@@ -72,4 +72,5 @@ effects:
     t2: 9 damage
     t3: 12 damage
   - effect: The ground in or directly beneath the area drops 3 squares.
+    name: Effect
 ```

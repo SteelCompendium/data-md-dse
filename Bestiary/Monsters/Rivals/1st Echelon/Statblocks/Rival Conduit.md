@@ -75,6 +75,7 @@ abilities:
         t3: 13 holy damage
       - effect: The conduit or one ally within distance regains Stamina equal to half
           the damage dealt.
+        name: Effect
   - name: Imbue with Might
     cost: 2 Malice
     keywords:
@@ -85,4 +86,5 @@ abilities:
     target: Self and five allie
     effects:
       - effect: Each target gains an edge on their next strike.
+        name: Effect
 ```

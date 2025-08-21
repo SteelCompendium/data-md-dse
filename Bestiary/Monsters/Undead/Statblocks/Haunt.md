@@ -75,6 +75,7 @@ abilities:
       - effect: If the target is force moved into another creature's space, that
           creature takes an additional 4 damage and the haunt slides them up to
           2 squares.
+        name: Effect
   - name: Crushing Despair
     cost: 3 Malice
     keywords:
@@ -90,4 +91,5 @@ abilities:
         t3: 7 damage; I < 4 prone
       - effect: A target knocked prone this way can't use the Stand Up maneuver on
           themself while any haunt is within 20 squares of them.
+        name: Effect
 ```

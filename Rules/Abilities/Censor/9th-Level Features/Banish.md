@@ -75,4 +75,5 @@ effects:
       target can do nothing but make saving throws, and takes 10 holy damage
       each time they do so. If the target is reduced to 0 Stamina while
       banished, they are lost to the timescape.
+    name: Effect
 ```

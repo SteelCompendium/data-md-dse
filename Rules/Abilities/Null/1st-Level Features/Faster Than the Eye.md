@@ -66,4 +66,5 @@ effects:
     t3: 7 damage
   - effect: You can deal damage equal to your Agility score to one creature or
       object adjacent to you.
+    name: Effect
 ```

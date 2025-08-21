@@ -87,6 +87,7 @@ abilities:
         t2: 13 damage; M < 1 weakened (save ends)
         t3: 16 damage; M < 2 weakened (save ends)
       - effect: One ally adjacent to the target regains 5 Stamina.
+        name: Effect
   - name: Overwatch
     keywords:
       - Ranged
@@ -97,4 +98,5 @@ abilities:
     effects:
       - effect: At any point during the movement, the tactician makes a free strike
           against the target.
+        name: Effect
 ```

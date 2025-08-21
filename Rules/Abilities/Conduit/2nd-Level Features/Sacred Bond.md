@@ -66,4 +66,5 @@ effects:
       The original target suffers any effects associated with the damage.
       Additionally, whenever one target spends a Recovery, the other target can
       use a free triggered action to spend a Recovery.
+    name: Effect
 ```

@@ -63,4 +63,5 @@ effects:
       target of any ability you use, with that target taking an extra 15 damage
       of the chosen type. Additionally, whenever you gain ferocity from taking
       damage, the source of the damage takes 5 damage of the chosen type.
+    name: Effect
 ```

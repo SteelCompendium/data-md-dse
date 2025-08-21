@@ -79,6 +79,7 @@ abilities:
         t2: 17 damage; A < 3 bleeding (save ends)
         t3: 21 damage; A < 4 bleeding (save ends)
       - effect: If the target is frightened, this ability gains an edge.
+        name: Effect
   - name: Tail Spike
     keywords:
       - Ranged
@@ -104,11 +105,10 @@ abilities:
     distance: Melee 1
     target: Two creatures or objects
     effects:
-      - effect: |-
-          Slide 1; A < 2 3 damage
-          - **12-16:** Slide 2; A < 3 5 damage
-          - **17+:** Slide 4; A < 4 7 damage
-        cost: ≤11
+      - cost: ≤11
+        effect: Slide 1; A < 2 3 damage
+        t2: Slide 2; A < 3 5 damage
+        t3: Slide 4; A < 4 7 damage
   - name: Reflexive Instinct
     cost: 2 Malice
     keywords:
@@ -120,6 +120,7 @@ abilities:
     effects:
       - effect: The manticore shifts up to 5 squares into the air, then can use Tail
           Spike against the target.
+        name: Effect
   - name: Trumpeting Howl
     cost: Villain Action 1
     keywords:
@@ -129,16 +130,12 @@ abilities:
     distance: 5 burst
     target: Each creature in the area
     effects:
-      - effect: >-
-          Frightened (EoT); if the target has I < 2 they are instead frightened
+      - cost: ≤11
+        effect: Frightened (EoT); if the target has I < 2 they are instead frightened
           (save ends)
-
-          - **12-16:** Frightened (EoT); if the target has I < 3 they are
-          instead frightened (save ends)
-
-          - **17+:** Frightened (EoT); if the target has I < 4 they are instead
-          dazed (save ends)
-        cost: ≤11
+        t2: Frightened (EoT); if the target has I < 3 they are instead frightened (save
+          ends)
+        t3: Frightened (EoT); if the target has I < 4 they are instead dazed (save ends)
   - name: Cornered Predator
     cost: Villain Action 2
     keywords:
@@ -149,6 +146,7 @@ abilities:
     effects:
       - effect: The manticore shifts up to their speed, then can use Tail Spike against
           each enemy within distance of that ability.
+        name: Effect
   - name: Debilitating Poison
     cost: Villain Action 3
     keywords:
@@ -162,4 +160,5 @@ abilities:
           weakened creatures. Additionally, any creature weakened by the
           manticore's Tail Spike ability has their speed halved and takes an
           extra 3 poison damage at the start of each of their turns.
+        name: Effect
 ```

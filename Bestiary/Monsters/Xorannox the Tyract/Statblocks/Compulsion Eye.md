@@ -74,4 +74,5 @@ abilities:
       - effect: As a free triggered action, a charmed target immediately moves up to
           their speed and can make a free strike against an enemy of Xorannox's
           choice. The target is then no longer charmed.
+        name: Effect
 ```

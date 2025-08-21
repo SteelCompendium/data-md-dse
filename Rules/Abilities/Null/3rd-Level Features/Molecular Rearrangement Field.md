@@ -64,4 +64,5 @@ effects:
       combat round or starts their turn there is bleeding (save ends). Each ally
       who enters the area for the first time in a combat round or starts their
       turn there gains temporary Stamina equal to your Intuition score.
+    name: Effect
 ```

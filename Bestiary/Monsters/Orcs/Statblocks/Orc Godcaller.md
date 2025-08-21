@@ -79,6 +79,7 @@ abilities:
     target: One ally
     effects:
       - effect: The target moves up to their speed and can use a main action.
+        name: Effect
       - effect: The godcaller targets a second ally.
         cost: 3 Malice
   - name: Rallying Ostinato
@@ -92,4 +93,5 @@ abilities:
     effects:
       - effect: Each target regains 15 Stamina and ignores difficult terrain until the
           end of the encounter.
+        name: Effect
 ```

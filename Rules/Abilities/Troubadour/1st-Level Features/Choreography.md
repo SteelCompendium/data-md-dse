@@ -59,4 +59,5 @@ metadata:
 effects:
   - effect: While this performance is active, each target who starts their turn in
       the area gains a +2 bonus to speed until the end of their turn.
+    name: Effect
 ```

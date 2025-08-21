@@ -60,4 +60,5 @@ effects:
     t3: 5 holy damage
   - effect: You can teleport yourself and each ally in the area to unoccupied spaces
       in the area.
+    name: Effect
 ```

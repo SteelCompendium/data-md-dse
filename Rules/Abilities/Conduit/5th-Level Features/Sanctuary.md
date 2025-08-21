@@ -68,4 +68,5 @@ effects:
       next turn and can spend any number of Recoveries. At the start of their
       turn, the target reappears in the space they left or the nearest
       unoccupied space of their choice.
+    name: Effect
 ```

@@ -70,4 +70,5 @@ metadata:
 effects:
   - effect: You target a creature adjacent to you with the same strike, using the
       same power roll as the triggering strike.
+    name: Effect
 ```

@@ -80,11 +80,10 @@ abilities:
     distance: 1 burst
     target: Each enemy or object in the area
     effects:
-      - effect: |-
-          3 damage
-          - **12-16:** 6 damage
-          - **17+:** 8 damage; A < 2 bleeding (save ends)
-        cost: ≤11
+      - cost: ≤11
+        effect: 3 damage
+        t2: 6 damage
+        t3: 8 damage; A < 2 bleeding (save ends)
   - name: Swat
     keywords:
       - Melee
@@ -94,4 +93,5 @@ abilities:
     trigger: A creature or object within distance deals damage to the predator.
     effects:
       - effect: The target is pushed up to 5 squares.
+        name: Effect
 ```

@@ -67,4 +67,5 @@ effects:
     t3: 10 fire damage
   - effect: Each ally in the area deals fire damage equal to your Intuition score
       with their next strike made before the end of their next turn.
+    name: Effect
 ```

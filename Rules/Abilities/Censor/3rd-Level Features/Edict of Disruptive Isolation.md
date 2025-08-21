@@ -66,4 +66,5 @@ effects:
       holy damage equal to your Presence score at the end of each of your turns.
       A target takes an extra 2d6 holy damage if they are judged by you or if
       they are adjacent to any enemy.
+    name: Effect
 ```

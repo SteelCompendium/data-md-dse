@@ -67,6 +67,7 @@ effects:
       the aura is active. Each ally target who starts or ends their turn in the
       area can also fly until the start of their next turn or until the effect
       ends.
+    name: Effect
   - effect: When you use this ability outside of combat without spending ferocity,
       you must spend 1 uninterrupted minute summoning a primordial storm that
       fills the area, and you take 1d6 damage before the ability takes effect.

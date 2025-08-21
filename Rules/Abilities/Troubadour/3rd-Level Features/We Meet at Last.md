@@ -71,4 +71,5 @@ effects:
       communicate a motivating or dispiriting message to the target, either
       granting them 2 surges or forcing them to take a bane on the next ability
       roll they make before the start of your next turn.
+    name: Effect
 ```

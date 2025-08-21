@@ -60,4 +60,5 @@ metadata:
 effects:
   - effect: Each target gains 1 surge and can use a signature ability that has a
       double edge.
+    name: Effect
 ```

@@ -72,6 +72,7 @@ abilities:
       - effect: A target restrained by a dwarf can be force moved by this ability. This
           forced movement doesn't end the restrained condition unless the
           Director determines otherwise.
+        name: Effect
   - name: Sleep Grenade
     cost: 3 Malice
     keywords:
@@ -87,4 +88,5 @@ abilities:
         t3: 8 poison damage; I < 2 dazed (save ends)
       - effect: A target dazed this way treats their characteristic scores as 1 lower
           for the purpose of resisting potencies.
+        name: Effect
 ```

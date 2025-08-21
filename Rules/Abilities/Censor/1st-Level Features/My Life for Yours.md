@@ -57,6 +57,7 @@ metadata:
 effects:
   - effect: You spend a Recovery and the target regains Stamina equal to your
       recovery value.
+    name: Effect
   - effect: You can end one effect on the target that is ended by a saving throw or
       that ends at the end of their turn, or a prone target can stand up.
     cost: Spend 1 Wrath

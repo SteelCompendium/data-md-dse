@@ -78,6 +78,7 @@ abilities:
           bloodrunner moved on their turn before using this ability. An ally
           targeted by this ability ignores the damage and can move up to that
           same distance.
+        name: Effect
       - effect: An ally targeted by this ability can make a free strike after the forced
           movement is resolved.
         cost: 2 Malice

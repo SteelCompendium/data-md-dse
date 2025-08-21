@@ -75,6 +75,7 @@ abilities:
         t3: 21 holy damage; vertical slide 4
       - effect: The conduit or one ally within distance regains Stamina equal to half
           the damage dealt.
+        name: Effect
   - name: Imbue with Power
     cost: 3 Malice
     keywords:
@@ -85,4 +86,5 @@ abilities:
     target: Self and five allie
     effects:
       - effect: Each target has a double edge on their next strike.
+        name: Effect
 ```

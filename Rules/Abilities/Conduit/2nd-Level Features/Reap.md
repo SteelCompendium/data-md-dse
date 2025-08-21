@@ -63,4 +63,5 @@ metadata:
 effects:
   - effect: Until the start of your next turn, each time a target kills an enemy,
       they regain Stamina equal to 5 + your Intuition score.
+    name: Effect
 ```

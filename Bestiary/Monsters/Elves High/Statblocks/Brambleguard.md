@@ -67,6 +67,7 @@ abilities:
           they extend themself into a 5 wall. Each ally who starts their turn
           adjacent to the brambleguard regains 5 Stamina and can apply the Magic
           keyword to their weapon abilities until the end of their turn.
+        name: Effect
   - name: Whip Frenzy
     keywords:
       - Area

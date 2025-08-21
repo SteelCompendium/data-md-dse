@@ -90,6 +90,7 @@ abilities:
       - effect: The griffon shifts up to their speed along the ground in straight line.
           Each enemy who comes adjacent to the griffon during this shift can
           choose to either take 5 damage or be knocked prone
+        name: Effect
   - name: Power Wing Buffet
     cost: 3 Malice
     keywords:
@@ -114,4 +115,5 @@ abilities:
           they reach the ground. The target takes 3 damage for each square the
           griffon dove, and if they have A < 2, they are grabbed or knocked
           prone.
+        name: Effect
 ```

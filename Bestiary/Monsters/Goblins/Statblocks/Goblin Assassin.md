@@ -73,6 +73,7 @@ abilities:
         t3: 7 damage
       - effect: If this ability gains an edge or has a double edge, it deals an extra 2
           damage.
+        name: Effect
   - name: Shadow Chains
     cost: 3 Malice
     keywords:

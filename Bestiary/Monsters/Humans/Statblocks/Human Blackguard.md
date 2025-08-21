@@ -76,6 +76,7 @@ abilities:
         t2: 6 damage; M < 2 slowed (save ends)
         t3: 8 damage; M < 3 slowed (save ends)
       - effect: One ally within 10 squares can make a free strike.
+        name: Effect
       - effect: One ally within 10 squares can use their signature ability instead.
         cost: 1 Malice
   - name: You!
@@ -88,6 +89,7 @@ abilities:
       - effect: The target is marked until the start of the blackguard's next turn. The
           blackguard and each of their allies gain an edge on abilities used
           against targets marked by the blackguard.
+        name: Effect
   - name: Parry!
     keywords:
       - Melee
@@ -98,6 +100,7 @@ abilities:
       them.
     effects:
       - effect: The damage is halved.
+        name: Effect
   - name: Advance!
     cost: Villain Action 1
     keywords:
@@ -108,6 +111,7 @@ abilities:
     effects:
       - effect: The blackguard shifts up to their speed. During or after this movement,
           they can use their Zweihander Swing twice.
+        name: Effect
   - name: Back!
     cost: Villain Action 2
     keywords:
@@ -118,6 +122,7 @@ abilities:
     target: Each enemy in the area
     effects:
       - effect: The blackguard slides each target up to 5 squares.
+        name: Effect
   - name: I Can Throw My Blade and So Should You!
     cost: Villain Action 3
     keywords:
@@ -132,4 +137,5 @@ abilities:
       - effect: The blackguard uses their Zweihander Swing against each target. Each
           ally within 5 squares of the area can then make a free strike against
           a target (one target per ally)
+        name: Effect
 ```

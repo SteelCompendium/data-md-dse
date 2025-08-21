@@ -65,4 +65,5 @@ effects:
   - effect: The target obtains a tier 1 or tier 3 outcome on their power roll (your
       choice). You can then choose another target within distance, who obtains
       the opposite outcome on their next power roll.
+    name: Effect
 ```

@@ -74,6 +74,7 @@ effects:
       ignore concealment. Additionally, whenever the target gains their Heroic
       Resource, they gain 1 additional Heroic Resource. This effect lasts until
       the start of your next turn.
+    name: Effect
   - effect: The effect lasts until the start of your next turn.
     name: Persistent 1
 ```

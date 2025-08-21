@@ -73,6 +73,7 @@ abilities:
         t3: 24 corruption damage; M < 5 bleeding (save ends)
       - effect: The vampire regains Stamina equal to half the damage dealt, and can end
           one effect on them that can be ended by a saving throw
+        name: Effect
       - effect: The vampire shifts 3 after striking the last target, and can target one
           additional creature for every 2 malice spent.
         cost: 2+ Malice
@@ -85,6 +86,7 @@ abilities:
     target: Special
     effects:
       - effect: Two blood-starved vampires appear in unoccupied spaces within distance.
+        name: Effect
   - name: Redirected Charm
     cost: 3 Malice
     keywords:
@@ -96,6 +98,7 @@ abilities:
     trigger: A creature makes a strike against the vampire.
     effects:
       - effect: The target becomes the new target of the strike.
+        name: Effect
   - name: Let Us Feast!
     cost: Villain Action 1
     keywords:
@@ -105,6 +108,7 @@ abilities:
     target: Each enemy in the area
     effects:
       - effect: Each target who has P < 4 is now bleeding (save ends).
+        name: Effect
   - name: Red Mist Rising
     cost: Villain Action 2
     keywords:
@@ -122,4 +126,5 @@ abilities:
           the vampire can't move or be targeted by abilities, but they can use
           Crimson Embrace against a target in the area. The vampire reforms in
           an unoccupied space in the area at the end of the round.
+        name: Effect
 ```

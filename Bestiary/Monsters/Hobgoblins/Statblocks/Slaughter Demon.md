@@ -85,6 +85,7 @@ abilities:
       - effect: A creature restrained this way moves with the slaughter demon. The
           slaughter demon can have up to six creatures or objects restrained at
           once.
+        name: Effect
   - name: Tail Stinger
     cost: 3 Malice
     keywords:
@@ -100,6 +101,7 @@ abilities:
         t2: 16 poison damage; M < 2 weakened (save ends)
         t3: 20 poison damage; M < 3 weakened (save ends)
       - effect: A target weakened this way also has damage weakness 3.
+        name: Effect
   - name: Devour Soul
     keywords:
       - Area
@@ -111,4 +113,5 @@ abilities:
     effects:
       - effect: The target can't be brought back to life. Until the end of the
           encounter, the slaughter demon gains an edge on power rolls.
+        name: Effect
 ```

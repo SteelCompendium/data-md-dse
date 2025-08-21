@@ -74,4 +74,5 @@ effects:
   - effect: If you are disguised as a creature the target knew using your I'm No
       Threat ability, this ability deals extra damage equal to three times your
       Agility score.
+    name: Effect
 ```

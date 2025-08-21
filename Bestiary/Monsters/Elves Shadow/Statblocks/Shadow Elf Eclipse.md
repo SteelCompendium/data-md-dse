@@ -101,6 +101,7 @@ abilities:
       abilities that deal fire or lightning damage.
     effects:
       - effect: The target has a double bane on the ability.
+        name: Effect
   - name: From the Shadows
     cost: Villain Action 1
     keywords:
@@ -112,6 +113,7 @@ abilities:
       - effect: The eclipse calls forth one brush stalker into an unoccupied space
           within distance. Each ally within distance can then shift up to their
           speed and make a free strike.
+        name: Effect
   - name: Cast Away All Hope
     cost: Villain Action 2
     keywords:
@@ -125,6 +127,7 @@ abilities:
           round, allies ignore edges and double edges on any targets' abilities,
           and ignore any nondamaging effects of any target's damage-dealing
           abilities.
+        name: Effect
   - name: Umbral Hunger
     cost: Villain Action 3
     keywords:
@@ -141,4 +144,5 @@ abilities:
       - effect: The area is shrouded in darkness that creates concealment until the end
           of the encounter. Any enemy who starts their turn in the area takes 5
           corruption damage.
+        name: Effect
 ```

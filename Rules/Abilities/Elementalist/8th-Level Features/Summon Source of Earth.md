@@ -68,6 +68,7 @@ effects:
       you use this ability again. They can't regain Stamina during the
       encounter. When the source's Stamina is reduced to 0, you can't use this
       ability again until you earn 1 or more Victories.
+    name: Effect
   - effect: The source takes another turn. They are dismissed at the start of your
       next turn.
     name: Persistent 2

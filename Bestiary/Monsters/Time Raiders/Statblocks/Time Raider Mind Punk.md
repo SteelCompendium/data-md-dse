@@ -73,6 +73,7 @@ abilities:
         t3: 11 damage; M < 2 dazed (save ends)
       - effect: A target who ends their next turn adjacent to the other target falls
           prone.
+        name: Effect
   - name: Mindpunk
     cost: 2 Malice
     keywords:

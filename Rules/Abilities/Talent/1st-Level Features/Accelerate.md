@@ -55,6 +55,7 @@ metadata:
   type: feature/ability/talent/1st-level-feature
 effects:
   - effect: The target shifts up to a number of squares equal to your Reason score.
+    name: Effect
   - effect: The target can use a maneuver.
     cost: Spend 2 Clarity
 ```

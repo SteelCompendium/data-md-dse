@@ -62,4 +62,5 @@ effects:
       any time (no action required). If the spirit takes any damage, they are
       dismissed and you take 1d10 psychic damage that can't be reduced in any
       way.
+    name: Effect
 ```

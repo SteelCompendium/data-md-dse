@@ -59,6 +59,7 @@ metadata:
   type: feature/ability/elementalist/1st-level-feature
 effects:
   - effect: The target can spend a Recovery.
+    name: Effect
   - effect: The target can spend an additional Recovery for each essence spent.
     cost: Spend 1+ Essence
 ```

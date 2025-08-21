@@ -67,4 +67,5 @@ abilities:
         t2: 2 poison damage
         t3: 3 poison damage
       - effect: The target takes a bane on their next strike.
+        name: Effect
 ```

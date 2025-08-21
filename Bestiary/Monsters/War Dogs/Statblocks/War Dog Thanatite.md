@@ -65,7 +65,8 @@ abilities:
     distance: Ranged 10
     target: One ally
     effects:
-      - effect: The target dies and the thanatite makes one power roll against each
+      - name: Effect
+        effect: The target dies and the thanatite makes one power roll against each
           enemy within 2 squares of the target.
       - roll: Power Roll + 3
         t1: 3 corruption damage; A < 1 slowed (save ends)
@@ -87,4 +88,5 @@ abilities:
           share one or more squares with the target. Each enemy in the area when
           the wall is created vertically slides up to 2 squares and is knocked
           prone. Each square of the wall has 3 Stamina.
+        name: Effect
 ```

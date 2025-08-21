@@ -72,4 +72,5 @@ abilities:
         t3: 5 damage; pull 3
       - effect: If the target is pulled adjacent to the ensnarer, the ensnarer can make
           a free strike against them.
+        name: Effect
 ```

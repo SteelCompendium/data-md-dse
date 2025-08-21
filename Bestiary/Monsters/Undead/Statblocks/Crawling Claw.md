@@ -74,4 +74,5 @@ abilities:
         t3: 3 damage
       - effect: The crawling claw shifts up to a number of squares equal to the damage
           dealt.
+        name: Effect
 ```

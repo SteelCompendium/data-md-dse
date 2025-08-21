@@ -72,6 +72,7 @@ abilities:
       - effect: Any ally within 2 squares of the iron priest gains an edge on their next
           strike. If any target lost a Recovery, any affected ally has a double
           edge instead.
+        name: Effect
   - name: Iron Banner
     cost: 2+ Malice
     keywords:
@@ -90,4 +91,5 @@ abilities:
           - The target's strikes deal an extra 3 holy damage.
 
           - The target has a +3 bonus to speed.
+        name: Effect
 ```

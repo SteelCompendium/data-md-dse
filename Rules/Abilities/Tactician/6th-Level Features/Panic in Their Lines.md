@@ -73,4 +73,5 @@ effects:
     t3: 13 + M damage; slide 5
   - effect: If a target is force moved into another creature, they must make a free
       strike against that creature.
+    name: Effect
 ```

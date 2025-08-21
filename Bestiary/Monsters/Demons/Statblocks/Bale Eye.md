@@ -75,6 +75,7 @@ abilities:
         t2: 8 psychic damage
         t3: 9 psychic damage
       - effect: The target has corruption weakness 5 (EoT).
+        name: Effect
       - effect: If the target has I < 2, they have corruption weakness 5 (save ends).
         cost: 2 Malice
   - name: Demonwarp Tears
@@ -87,8 +88,8 @@ abilities:
     distance: 4 cube within 5
     target: Each enemy in the area
     effects:
-      - effect: The bale eye must create the cube beneath themself.
-        name: Special
+      - name: Special
+        effect: The bale eye must create the cube beneath themself.
       - roll: Power Roll + 3
         t1: 3 psychic damage; A < 1 the target is warped (save ends)
         t2: 5 psychic damage; A < 2 the target is warped (save ends)
@@ -96,4 +97,5 @@ abilities:
       - effect: While warped, a creature has a double bane on power rolls using any
           characteristic higher than 0, and has a double edge on power rolls
           using any characteristic lower than 0.
+        name: Effect
 ```

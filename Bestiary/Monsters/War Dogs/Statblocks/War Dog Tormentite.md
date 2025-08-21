@@ -77,6 +77,7 @@ abilities:
       - effect: Strikes made against a target marked this way gain an edge.
           Additionally, whenever the tormentite takes damage, each target marked
           by them takes 3 damage.
+        name: Effect
   - name: Vortex of Pain
     cost: 3 Malice
     keywords:
@@ -94,4 +95,5 @@ abilities:
           can be ended by a saving throw, and can give that effect to one targe
       - effect: The tormentite regains 2 Stamina for each creature targeted by this
           ability.
+        name: Effect
 ```

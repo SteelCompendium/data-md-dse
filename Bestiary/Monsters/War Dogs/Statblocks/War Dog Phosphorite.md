@@ -67,24 +67,21 @@ abilities:
     distance: Ranged 10
     target: One creature or object
     effects:
-      - effect: A detonator attaches to the target. At the end of each round, roll a
+      - name: Effect
+        effect: A detonator attaches to the target. At the end of each round, roll a
           die. On an odd result, the detonator explodes, triggering the
           following power roll.
       - roll: Power Roll + 2
         t1: 4 acid damage; M < 0 bleeding (save ends)
         t2: 6 acid damage; M < 1 bleeding (save ends)
         t3: 10 acid damage; M < 2 bleeding (save ends)
-      - effect: >-
-          A creature adjacent to the target can attempt an **Agility test** as a
+      - name: Special
+        effect: A creature adjacent to the target can attempt an **Agility test** as a
           maneuver to remove the detonator.
-
-          - **≤11:** No effect
-
-          - **12-16:** The detonator is disarmed and destroyed.
-
-          - **17+:** The creature can attach the detonator to another creature
-          or object within 5 squares of them.
-        name: Special
+        t1: No effect
+        t2: The detonator is disarmed and destroyed.
+        t3: The creature can attach the detonator to another creature or object within 5
+          squares of them.
   - name: Posthumous Promotion
     keywords:
       - Magic
@@ -94,4 +91,5 @@ abilities:
     target: One war dog
     effects:
       - effect: If the target has a loyalty collar, they are reduced to 0 Stamina.
+        name: Effect
 ```

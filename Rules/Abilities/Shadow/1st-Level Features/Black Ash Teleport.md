@@ -54,6 +54,7 @@ effects:
   - effect: You teleport up to 5 squares. If you have concealment or cover at your
       destination, you can use the Hide maneuver even if you are observed. If
       you successfully hide using this maneuver, you gain 1 surge.
+    name: Effect
   - effect: You teleport 1 additional square for each insight spent.
     cost: Spend 1+ Insight
 ```

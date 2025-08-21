@@ -70,4 +70,5 @@ effects:
     t3: 16 + A damage
   - effect: The target can make a melee free strike against you. If they do, you can
       make a melee free strike against the target.
+    name: Effect
 ```

@@ -74,6 +74,7 @@ effects:
     t3: 23 + R damage; R < STRONG, the target has a double bane on power rolls (save
       ends)
   - effect: The target can't communicate with anyone until the end of the encounter.
+    name: Effect
   - effect: You take 3d6 damage.
     name: Strained
 ```

@@ -87,6 +87,7 @@ abilities:
         t3: 22 damage; prone; M < 4 restrained (save ends)
       - effect: In suitably soft ground, a target restrained this way is etrenched in a
           1-square-deep hole.
+        name: Effect
   - name: Unload Rocks
     cost: 3 Malice
     keywords:
@@ -95,17 +96,13 @@ abilities:
     distance: 4 cube within 1
     target: Each enemy and object in the area
     effects:
-      - effect: >-
-          Each target makes an **Agility test**.
-
-          - **≤11:** 14 damage; slide 4; the miner's allies have concealment
-          from the target (save ends)
-
-          - **12-16:** 11 damage; slide 2
-
-          - **17+:** 7 damage
-
-          The area is difficult terrain
+      - name: Effect
+        effect: Each target makes an **Agility test**.
+        t1: 14 damage; slide 4; the miner's allies have concealment from the target
+          (save ends)
+        t2: 11 damage; slide 2
+        t3: 7 damage
+      - effect: The area is difficult terrain
   - name: Break Ground
     cost: 5 Malice
     keywords:
@@ -114,19 +111,15 @@ abilities:
     distance: 20 x 1 line within 1
     target: Each enemy and object in the area
     effects:
-      - effect: >-
-          A 5-square-deep fissure opens along the ground in the area. Each ally
-          in the area can shift into the nearest unoccupied space outside the
+      - name: Effect
+        effect: A 5-square-deep fissure opens along the ground in the area. Each ally in
+          the area can shift into the nearest unoccupied space outside the
           fissure. Each target makes an **Agility test**.
-
-          - **≤11:** 14 damage; the target falls into the fissure, and is prone
-          and can't stand (EoT)
-
-          - **12-16:** 11 damage; the target is prone and hanging onto the edge
-          of the fissure
-
-          - **17+:** 7 damage; the target can shift into the nearest unoccupied
-          space outside the fissure
+        t1: 14 damage; the target falls into the fissure, and is prone and can't stand
+          (EoT)
+        t2: 11 damage; the target is prone and hanging onto the edge of the fissure
+        t3: 7 damage; the target can shift into the nearest unoccupied space outside the
+          fissure
   - name: Miner Inconvenience
     cost: 2 Malice
     keywords:
@@ -140,4 +133,5 @@ abilities:
           miner's initial space. While the miner is in the area, they ignore the
           nondamaging effects of any strike made against them, including the
           triggering strike.
+        name: Effect
 ```

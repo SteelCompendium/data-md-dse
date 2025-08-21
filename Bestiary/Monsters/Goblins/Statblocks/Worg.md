@@ -81,4 +81,5 @@ abilities:
     target: Self
     effects:
       - effect: The worg moves up to their speed.
+        name: Effect
 ```

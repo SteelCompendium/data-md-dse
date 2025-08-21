@@ -67,4 +67,5 @@ effects:
     t3: Vertical slide 10
   - effect: The pillars vanish as soon as the effects of the forced movement are
       resolved.
+    name: Effect
 ```

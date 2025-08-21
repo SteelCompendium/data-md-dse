@@ -88,4 +88,5 @@ abilities:
     target: Self
     effects:
       - effect: The remasch can teleport up to 2 squares and uses Abyssal Strike.
+        name: Effect
 ```

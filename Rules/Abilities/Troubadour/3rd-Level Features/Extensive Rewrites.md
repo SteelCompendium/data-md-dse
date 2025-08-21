@@ -68,4 +68,5 @@ effects:
   - effect: Instead of sliding a target, you can swap their location with another
       target as long as each can fit into the other's space. You can't slide
       targets into other creatures or objects using this ability.
+    name: Effect
 ```

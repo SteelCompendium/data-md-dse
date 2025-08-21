@@ -70,4 +70,5 @@ effects:
     t3: 18 + I holy damage; slide 6
   - effect: Each ally the target comes adjacent to during the forced movement can
       spend a Recovery.
+    name: Effect
 ```

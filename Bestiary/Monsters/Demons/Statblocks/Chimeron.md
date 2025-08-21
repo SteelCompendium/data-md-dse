@@ -86,4 +86,5 @@ abilities:
     trigger: The chimeron is targeted by a damage-dealing strike.
     effects:
       - effect: The chimeron halves the damage.
+        name: Effect
 ```

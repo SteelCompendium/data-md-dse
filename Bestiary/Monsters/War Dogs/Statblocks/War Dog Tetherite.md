@@ -96,7 +96,8 @@ abilities:
     distance: 4 cube within 10
     target: Each creature in the area
     effects:
-      - effect: Each target makes an Agility test. The same condition is imposed on each
+      - name: Effect
+        effect: Each target makes an Agility test. The same condition is imposed on each
           affected target.
       - roll: Power Roll + 3
         t1: 5 fire damage; slowed or weakened (save ends

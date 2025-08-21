@@ -73,6 +73,7 @@ abilities:
       - effect: A burning creature takes 1d6 fire damage at the start of each of their
           turns. A burning object takes 1d6 fire damage at the end of each
           round.
+        name: Effect
   - name: Caldera
     cost: 5 Malice
     keywords:
@@ -89,6 +90,7 @@ abilities:
           The rest of the area is on fire until the end of the encounter. A
           creature who enters the area for the first time in a round or starts
           their turn there takes 3 fire damage.
+        name: Effect
   - name: Blazing Leap
     keywords:
       - "-"
@@ -98,6 +100,7 @@ abilities:
     effects:
       - effect: The red fist jumps up to 5 squares. Each creature adjacent to them when
           they land takes 5 fire damage.
+        name: Effect
   - name: Heat and Pressure
     keywords:
       - Melee
@@ -107,15 +110,12 @@ abilities:
     trigger: A creature within distance willingly moves or shifts away from the red
       fist.
     effects:
-      - effect: >-
-          The target makes a **Might test**. A target with fire immunity
+      - name: Effect
+        effect: The target makes a **Might test**. A target with fire immunity
           automatically obtains a tier 3 outcome.
-
-          - **≤11:** Weakened and slowed (save ends)
-
-          - **12-16:** Weakened (EoT)
-
-          - **17+:** No effect
+        t1: Weakened and slowed (save ends)
+        t2: Weakened (EoT)
+        t3: No effect
   - name: Guardian Block
     keywords:
       - Melee
@@ -126,4 +126,5 @@ abilities:
     effects:
       - effect: The red fist becomes the target of the triggering ability, then can make
           a free strike against the enemy after the ability resolves.
+        name: Effect
 ```

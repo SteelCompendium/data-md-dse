@@ -65,7 +65,8 @@ abilities:
     distance: Ranged 8
     target: One creature or object per minion
     effects:
-      - effect: The tantrum unearths a rock or a hunk of terrain and tosses it. If a
+      - name: Effect
+        effect: The tantrum unearths a rock or a hunk of terrain and tosses it. If a
           size 1L, 1M, or 1S creature or object adjacent to the tantrum has A <
           3 the tantrum can grab them to use as the projectile for this ability.
       - roll: Power Roll + 4

@@ -61,6 +61,7 @@ effects:
   - effect: You gain a +2 bonus to speed until the end of your turn. Additionally,
       the next power roll you make this turn can't have an outcome lower than
       tier 2.
+    name: Effect
   - effect: You gain a +4 bonus to speed instead.
     cost: Spend 1 Drama
 ```

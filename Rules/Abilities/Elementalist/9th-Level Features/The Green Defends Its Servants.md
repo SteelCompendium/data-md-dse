@@ -70,6 +70,7 @@ effects:
       30 temporary Stamina that lasts until depleted or until the effect ends.
       If this temporary Stamina disappears, the effect ends and the shield
       explodes, dealing 10 damage to each enemy within 5 squares of the target.
+    name: Effect
   - effect: The effect lasts until the start of your next turn.
     name: Persistent 2
 ```

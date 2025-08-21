@@ -71,6 +71,7 @@ abilities:
       - effect: The target can't use triggered actions until the start of the next
           round. Additionally, if the sneak started their turn hidden from the
           target, this ability deals an extra 4 damage.
+        name: Effect
   - name: Shadow Cloak
     cost: 3 Malice
     keywords:
@@ -84,6 +85,7 @@ abilities:
         t2: 3 damage; I < 1 the sneak has concealment from the target (save ends)
         t3: 4 damage; I < 2 the sneak has concealment from the target (save ends)
       - effect: The sneak shifts up to their speed and can attempt to hide.
+        name: Effect
   - name: Carving Dagger
     keywords:
       - Ranged
@@ -99,6 +101,7 @@ abilities:
         t3: 14 damage; M < 2 bleeding (save ends)
       - effect: While bleeding this way, the target can't hide from the sneak or their
           allies.
+        name: Effect
   - name: Throw
     keywords:
       - Melee
@@ -111,6 +114,7 @@ abilities:
         name: Special
       - effect: The target is vertical pushed up to 4 squares. An ally doesn't take
           damage from being force moved this way.
+        name: Effect
   - name: Catcher
     keywords:
       - Melee
@@ -121,6 +125,7 @@ abilities:
       ally willingly moves within distance.
     effects:
       - effect: The target is grabbed by the sneak.
+        name: Effect
   - name: Clever Trick
     cost: 1 Malice
     keywords:
@@ -132,4 +137,5 @@ abilities:
     effects:
       - effect: The sneak chooses one enemy within distance of the strike to become the
           target of the strike.
+        name: Effect
 ```

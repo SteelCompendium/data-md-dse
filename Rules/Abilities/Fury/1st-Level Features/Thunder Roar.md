@@ -66,4 +66,5 @@ metadata:
 effects:
   - effect: The targets are force moved one at a time, starting with the target
       nearest to you, and can be pushed into other targets in the same line.
+    name: Effect
 ```

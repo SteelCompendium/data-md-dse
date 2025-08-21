@@ -62,4 +62,5 @@ effects:
       triggered action, and deals extra damage with that ability equal to your
       Reason score. The ability has its Heroic Resource cost reduced by 1 + your
       Reason score (minimum cost 0).
+    name: Effect
 ```

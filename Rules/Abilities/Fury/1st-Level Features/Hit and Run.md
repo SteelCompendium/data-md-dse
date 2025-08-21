@@ -63,4 +63,5 @@ effects:
     t2: 5 + M damage
     t3: 7 + M damage; A < STRONG, slowed (save ends)
   - effect: You can shift 1 square.
+    name: Effect
 ```

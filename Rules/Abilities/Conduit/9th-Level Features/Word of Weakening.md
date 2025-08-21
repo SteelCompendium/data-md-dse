@@ -69,4 +69,5 @@ effects:
     t2: 15 + I corruption damage; A < AVERAGE, weakened (save ends)
     t3: 21 + I corruption damage; A < STRONG, weakened (save ends)
   - effect: While weakened this way, the target has damage weakness 10.
+    name: Effect
 ```

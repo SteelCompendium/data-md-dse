@@ -114,6 +114,7 @@ abilities:
       - effect: An immolated creature takes 10 fire damage whenever they use a main
           action and a maneuver on their turn. This damage can't be reduced in
           any way.
+        name: Effect
   - name: Hopeless Place
     keywords:
       - Area
@@ -128,6 +129,7 @@ abilities:
         t3: 16 corruption damage; P < 6 the target is hopeless (save ends)
       - effect: A hopeless creature can't benefit from edges or double edges, can't gain
           or use surges, and can't gain temporary Stamina.
+        name: Effect
       - effect: The distance of this ability increases to a 20 burst and its potency
           increases by 1.
         cost: 3 Malice
@@ -147,6 +149,7 @@ abilities:
         t3: 29 psychic damage
       - effect: A target who has M < 4 is wracked with pain (save ends). A creature
           wracked with pain has a double bane on abilities.
+        name: Effect
       - effect: The lich chooses one additional target.
         cost: 3 Malice
       - effect: "Each creature wracked with pain gains one of the following conditions
@@ -165,6 +168,7 @@ abilities:
     effects:
       - effect: If the target has P < 4, they swap places with the lich to become the
           new target of the triggering ability.
+        name: Effect
   - name: Cages of Wasting
     cost: Villain Action 1
     keywords:
@@ -175,13 +179,14 @@ abilities:
     distance: Two 3 cubes within 10
     target: Each creature in the area
     effects:
-      - effect: |-
-          Each target makes an Agility test.
-          - **≤11:** 10 corruption damage; restrained (save ends)
-          - **12-16:** 16 corruption damage; restrained (EoT)
-          - **17+:** 20 corruption damage
+      - name: Effect
+        effect: Each target makes an Agility test.
+        t1: 10 corruption damage; restrained (save ends)
+        t2: 16 corruption damage; restrained (EoT)
+        t3: 20 corruption damage
       - effect: The lich deals an additional 10 corruption damage to each creature
           restrained this way.
+        name: Effect
   - name: My Power Alone
     cost: Villain Action 2
     keywords:
@@ -193,6 +198,7 @@ abilities:
     effects:
       - effect: A target can't use heroic abilities until the start of the lich's next
           turn.
+        name: Effect
   - name: Arms of Necrosis
     cost: Villain Action 3
     keywords:
@@ -208,4 +214,5 @@ abilities:
         t3: 16 corruption damage; A < 6 frightened (save ends)
       - effect: At the end of each of the lich's turns, they regain 10 Stamina for each
           creature frightened this way.
+        name: Effect
 ```

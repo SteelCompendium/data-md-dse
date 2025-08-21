@@ -64,4 +64,5 @@ effects:
       ability is a minion, the entire squad is killed. If the target of the
       triggering ability is a leader or solo creature, the triggering ability's
       power roll automatically obtains a tier 3 outcome.
+    name: Effect
 ```

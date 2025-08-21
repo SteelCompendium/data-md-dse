@@ -85,4 +85,5 @@ abilities:
           which can't be dispersed by wind. The area is difficult terrain for
           non-goblins, and each non-goblin who moves in the area takes 2 poison
           damage for each square moved.
+        name: Effect
 ```

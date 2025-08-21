@@ -61,4 +61,5 @@ effects:
   - effect: Each target gains 1 surge and can use a signature ability as a free
       triggered action. That ability gains an edge on the power roll and
       increases the potency of any potency effects by 1.
+    name: Effect
 ```

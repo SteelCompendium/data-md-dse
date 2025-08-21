@@ -73,6 +73,7 @@ abilities:
           target restrained by a dwarf can be force moved by this ability. This
           forced movement doesn't end the restrained condition unless the
           Director determines otherwise.
+        name: Effect
       - effect: If the target is pushed into another creature, the target and the
           creature are each restrained until the end of their next turn.
         cost: 5 Malice
@@ -88,4 +89,5 @@ abilities:
       - effect: The gunner makes a free strike against the target, and the prone,
           restrained, and slowed conditions on the target end. The target is
           then restrained (save ends).
+        name: Effect
 ```

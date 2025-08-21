@@ -74,4 +74,5 @@ effects:
       this way, each of their allies within 5 squares of them who can make a
       triggered free strike against a different creature must make the free
       strike against the target instead.
+    name: Effect
 ```

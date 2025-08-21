@@ -63,4 +63,5 @@ metadata:
 effects:
   - effect: At the end of each of your turns until the end of the encounter or until
       you are dying, each target gains 3 surges.
+    name: Effect
 ```

@@ -67,4 +67,5 @@ effects:
       cold damage immunity granted by your Entropic Adaptability trait, you
       ignore the negative effects of dying, and you have a +2 bonus to
       potencies.
+    name: Effect
 ```

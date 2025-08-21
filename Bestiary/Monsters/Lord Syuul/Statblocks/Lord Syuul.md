@@ -100,6 +100,7 @@ abilities:
       - effect: Any supernatural ability used by a creature in the area has a double
           bane. All reactive tests made against magic or psionic effects in the
           area have a double edge.
+        name: Effect
   - name: Mind Blown
     cost: 7 Malice
     keywords:
@@ -116,6 +117,7 @@ abilities:
         t3: 24 damage
       - effect: If this action reduces the target to 0 Stamina and they have a brain,
           their brain explodes, instantly killing them.
+        name: Effect
   - name: You Come With Me
     keywords:
       - Psionic
@@ -136,6 +138,7 @@ abilities:
     effects:
       - effect: Until the start of his next turn, Lord Syuul gains immunity 5 to the
           triggering damage type.
+        name: Effect
   - name: See Only Me
     cost: Villain Action 1
     keywords:
@@ -145,17 +148,14 @@ abilities:
     distance: 10 burst
     target: Each enemy in the area
     effects:
-      - effect: >-
-          Each target makes an **Intuition test**.
-
-          - **≤11:** 16 psychic damage; the target has no line of effect to any
-          creture except Lord Syuul, and takes a bane on strikes targeting Lord
-          Syuul (save ends)
-
-          - **12-16:** 13 psychic damage; the target has no line of effect to
-          any creature except Lord Syuul (save ends)
-
-          - **17+:** 7 psychic damage
+      - name: Effect
+        effect: Each target makes an **Intuition test**.
+        t1: 16 psychic damage; the target has no line of effect to any creture except
+          Lord Syuul, and takes a bane on strikes targeting Lord Syuul (save
+          ends)
+        t2: 13 psychic damage; the target has no line of effect to any creature except
+          Lord Syuul (save ends)
+        t3: 7 psychic damage
   - name: Phantom Pain
     cost: Villain Action 2
     keywords:
@@ -170,6 +170,7 @@ abilities:
           square. Whenever a creature touches or damages the double with a melee
           strike, they take 10 psychic damage. If Lord Syuul takes damage, his
           invisibility ends and the double disappears.
+        name: Effect
   - name: Mindshatter
     cost: Villain Action 3
     keywords:
@@ -184,4 +185,5 @@ abilities:
         t2: 13 psychic damage
         t3: 16 psychic damage
       - effect: Until the end of the encounter, each target has damage weakness 3.
+        name: Effect
 ```

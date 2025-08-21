@@ -76,4 +76,5 @@ effects:
       dealt. If the target is killed by this damage, you can deal any damage
       over what was required to kill them to another creature within 5 squares
       of the target.
+    name: Effect
 ```

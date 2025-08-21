@@ -63,4 +63,5 @@ effects:
     t3: 9 + M damage
   - effect: You gain 2 surges, and the target can make an opportunity attack against
       you as a free triggered action.
+    name: Effect
 ```

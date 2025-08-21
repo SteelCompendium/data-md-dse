@@ -87,6 +87,7 @@ abilities:
         t2: 21 damage; M < 3 weakened (save ends)
         t3: 26 damage; M < 4 weakened (save ends)
       - effect: Two allies adjacent to the target each regain 7 Stamina.
+        name: Effect
   - name: Quickshot
     keywords:
       - Ranged
@@ -97,4 +98,5 @@ abilities:
     effects:
       - effect: At any point during the movement, the tactician uses a signature ability
           against the target.
+        name: Effect
 ```

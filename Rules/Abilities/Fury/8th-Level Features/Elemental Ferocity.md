@@ -63,4 +63,5 @@ effects:
       encounter or until you are dying, whenever an enemy damages you, they take
       10 damage of the chosen type. If this damage reduces the enemy to 0
       Stamina, you gain 10 temporary Stamina.
+    name: Effect
 ```

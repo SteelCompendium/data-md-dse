@@ -73,4 +73,5 @@ effects:
     t3: Slide 7
   - effect: This forced movement ignores stability. Instead, the forced movement is
       reduced by a number equal to the target's Intuition score.
+    name: Effect
 ```

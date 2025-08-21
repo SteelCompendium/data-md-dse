@@ -83,4 +83,5 @@ abilities:
     effects:
       - effect: The target takes half the damage and the knightfell takes the other
           half.
+        name: Effect
 ```

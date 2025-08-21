@@ -72,6 +72,7 @@ abilities:
         t2: 12 damage; pull 2
         t3: 15 damage; pull 3
       - effect: A target pulled adjacent to the sunderer is automatically grabbed.
+        name: Effect
   - name: Fearsome Bay
     cost: 5 Malice
     keywords:
@@ -86,6 +87,7 @@ abilities:
         t3: I < 2 frightened (save ends)
       - effect: Until the end of their next turn, the minotaur has damage immunity 2 and
           deals an extra 5 damage with strikes.
+        name: Effect
   - name: Disemboweling Horns
     cost: 3 Malice
     keywords:
@@ -97,14 +99,15 @@ abilities:
     distance: Melee 2
     target: One creature
     effects:
-      - effect: The target must be grabbed by the sunderer.
-        name: Special
+      - name: Special
+        effect: The target must be grabbed by the sunderer.
       - roll: Power Roll + 2
         t1: 5 damage; M < 0 bleeding (save ends)
         t2: 8 damage; M < 1 bleeding (save ends)
         t3: 9 damage; M < 2 bleeding (save ends)
       - effect: While bleeding this way, the target takes 1d6 damage at the start of
           each of their turns.
+        name: Effect
   - name: Retaliatory Strike
     keywords:
       - Ranged
@@ -115,4 +118,5 @@ abilities:
     effects:
       - effect: The sunderer uses the Charge main action and Spiked Maul against the
           target.
+        name: Effect
 ```

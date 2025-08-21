@@ -64,7 +64,8 @@ metadata:
   target: Special
   type: feature/ability/troubadour/2nd-level-feature
 effects:
-  - effect: The area is haunted by a swirling horde of phantoms until the end of the
+  - name: Effect
+    effect: The area is haunted by a swirling horde of phantoms until the end of the
       encounter. Allies can enter any square of the area without spending
       movement. At the end of each of your turns, you can make one power roll
       that targets each enemy in the area.

@@ -63,4 +63,5 @@ effects:
     t3: 5 damage
   - effect: You can slide one adjacent enemy up to a number of squares equal to your
       Intuition score.
+    name: Effect
 ```

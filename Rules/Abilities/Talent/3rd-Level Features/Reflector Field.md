@@ -69,6 +69,7 @@ effects:
       on the ally and reflected back at the enemy. The ability deals half the
       damage to the enemy that it would have dealt to the ally and loses any
       additional effects.
+    name: Effect
   - effect: The size of the aura increases by 1. Whenever your aura reflects an
       ability, you take 2d6 damage and forget a memory, as determined by you and
       the Director.

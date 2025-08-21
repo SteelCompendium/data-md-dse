@@ -81,4 +81,5 @@ effects:
       and they have R < STRONG, they are dazed (save ends). If the target is
       reduced to 0 Stamina before one or both allies has made their strike, the
       ally or allies can pick a different target.
+    name: Effect
 ```

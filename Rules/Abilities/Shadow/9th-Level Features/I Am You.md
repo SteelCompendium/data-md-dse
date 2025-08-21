@@ -65,4 +65,5 @@ effects:
       and speed (if they are better than yours), and can use any types of
       movement they can use. You can also use the target's signature ability,
       using their bonus for the power roll.
+    name: Effect
 ```

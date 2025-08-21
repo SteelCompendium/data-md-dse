@@ -91,6 +91,7 @@ abilities:
         t2: 9 poison damage; M < 2 weakened (save ends)
         t3: 11 poison damage; M < 3 weakened (save ends)
       - effect: Each troll in the area ignores the damage and instead regains 3 Stamina.
+        name: Effect
   - name: Gourmet Flesh
     cost: 2 Malice
     keywords:
@@ -103,6 +104,7 @@ abilities:
           damage type and condition imposed to one of the following pairs:
           corruption damage and dazed, acid damage and restrained, or lightning
           damage and frightened."
+        name: Effect
   - name: Acquired Taste
     keywords:
       - Melee
@@ -115,4 +117,5 @@ abilities:
       - effect: The butcher makes a free strike against the target. Until the end of
           their next turn, the butcher gains an edge on power rolls and deals an
           extra 3 damage with strikes.
+        name: Effect
 ```

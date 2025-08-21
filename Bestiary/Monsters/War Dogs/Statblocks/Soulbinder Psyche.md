@@ -76,6 +76,7 @@ abilities:
         t3: 24 holy damage; R < 5 the target is soulbound (save ends)
       - effect: A soulbound creature can't benefit from edges or double edges, and can't
           gain or use surges.
+        name: Effect
   - name: Soulstorm
     cost: 2 Malice
     keywords:
@@ -94,6 +95,7 @@ abilities:
           the start of each of her turns, Psyche can use a maneuver to main-
           tain this effect, move the area up to 5 squares, and make the power
           roll against each creature in the area's new location.
+        name: Effect
       - effect: Until the start of Psyche's next turn, if this ability makes a creature
           weakened, that creature is also soulbound (save ends; see Soulbind
           above).
@@ -108,6 +110,7 @@ abilities:
     effects:
       - effect: Each target takes 5 damage from a self-inflicted wound, and if they have
           M < 4 Psyche slides them up to 5 squares.
+        name: Effect
   - name: Spirit Form
     keywords:
       - "-"
@@ -120,6 +123,7 @@ abilities:
           difficult terrain during this movement. The first time she moves
           through any creature during this movement, that creature takes 5
           corruption damage.
+        name: Effect
   - name: Vengeance for the Slain
     keywords:
       - Ranged
@@ -129,6 +133,7 @@ abilities:
     trigger: A war dog within distance is made winded or reduced to 0 Stamina.
     effects:
       - effect: The target loses all their surges and takes 5 corruption damage.
+        name: Effect
       - effect: The target also takes a bane on their next strike.
         cost: 1 Malice
   - name: Immortal Flare
@@ -140,4 +145,5 @@ abilities:
     target: One creature or object
     effects:
       - effect: The target takes 10 psychic damage.
+        name: Effect
 ```

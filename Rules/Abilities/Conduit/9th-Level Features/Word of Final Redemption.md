@@ -67,4 +67,5 @@ effects:
       costs a Heroic Resource or Malice, the creature can use it without any
       cost. For the purpose of using this ability, your allies and enemies are
       the target's allies and enemies, and you decide who the ability targets.
+    name: Effect
 ```

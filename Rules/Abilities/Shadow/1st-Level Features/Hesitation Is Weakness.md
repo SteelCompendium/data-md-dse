@@ -61,4 +61,5 @@ metadata:
   type: feature/ability/shadow/1st-level-feature
 effects:
   - effect: You take your turn after the triggering hero.
+    name: Effect
 ```

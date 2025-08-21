@@ -68,4 +68,5 @@ effects:
       power roll of their choice made during their next turn, is no longer
       slowed or weakened if they were before, and can immediately take their
       turn after yours if they have not taken their turn already this round.
+    name: Effect
 ```

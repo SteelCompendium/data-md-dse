@@ -75,6 +75,7 @@ abilities:
         t3: 7 damage
       - effect: Until the start of the skeleton's next turn, the target takes 2 damage
           the first time they willingly move on their turn
+        name: Effect
   - name: Bone Spur
     cost: 2 Malice
     keywords:
@@ -89,4 +90,5 @@ abilities:
         t2: 2 damage; M < 1 bleeding (save ends)
         t3: 3 damage; M < 2 bleeding (save ends)
       - effect: Each target takes a bane on their next strike.
+        name: Effect
 ```

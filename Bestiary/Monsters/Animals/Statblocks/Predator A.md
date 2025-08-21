@@ -75,6 +75,7 @@ abilities:
     effects:
       - effect: The predator assesses their environment or lets loose a threatening roar
           and gains an edge on their next strike.
+        name: Effect
   - name: Quick Strike
     keywords:
       - Melee
@@ -87,4 +88,5 @@ abilities:
     effects:
       - effect: The predator makes a free strike against the target. If the predator was
           hidden from the target, the strike deals an extra 3 damage.
+        name: Effect
 ```

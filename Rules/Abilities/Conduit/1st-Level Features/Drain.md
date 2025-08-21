@@ -62,4 +62,5 @@ effects:
     t2: 5 + I corruption damage
     t3: 7 + I corruption damage
   - effect: You or one ally within distance can spend a Recovery.
+    name: Effect
 ```

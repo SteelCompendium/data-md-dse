@@ -79,4 +79,5 @@ abilities:
         t3: 6 corruption damage; push 2
       - effect: The lancer deals an extra 2 damage if they have high ground against the
           target.
+        name: Effect
 ```

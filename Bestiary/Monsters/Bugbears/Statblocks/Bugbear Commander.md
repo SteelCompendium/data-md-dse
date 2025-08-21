@@ -74,6 +74,7 @@ abilities:
         t3: 13 damage; one target is grabbed
       - effect: One ally within 5 squares of the commander gains an edge on their next
           strike until the start of the commander's next turn.
+        name: Effect
   - name: You Next!
     keywords:
       - Ranged
@@ -82,6 +83,7 @@ abilities:
     target: One ally
     effects:
       - effect: The target moves up to their speed and uses a signature ability.
+        name: Effect
   - name: Fall Back!
     cost: 5 Malice
     keywords:
@@ -91,6 +93,7 @@ abilities:
     target: Each ally in the area
     effects:
       - effect: Each target shifts up to their speed, then can use the Throw maneuver.
+        name: Effect
   - name: Throw
     keywords:
       - Melee
@@ -103,6 +106,7 @@ abilities:
         name: Special
       - effect: The target is vertical pushed up to 4 squares. An ally doesn't take
           damage from being force moved this way.
+        name: Effect
   - name: Catcher
     keywords:
       - Melee
@@ -113,4 +117,5 @@ abilities:
       ally willingly moves within distance.
     effects:
       - effect: The target is grabbed by the commander.
+        name: Effect
 ```

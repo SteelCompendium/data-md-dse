@@ -69,4 +69,5 @@ effects:
     t2: 13 + M damage
     t3: 18 + M damage
   - effect: You and each ally adjacent to the target gain 10 temporary Stamina.
+    name: Effect
 ```

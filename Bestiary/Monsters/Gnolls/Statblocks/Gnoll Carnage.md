@@ -82,6 +82,7 @@ abilities:
         t3: 14 damage; A < 3 bleeding and dazed (save ends)
       - effect: An ally targeted by this ability ignores the damage and can make a free
           strike.
+        name: Effect
   - name: Carnage's Cackletongue
     cost: 4 Malice
     keywords:
@@ -94,6 +95,7 @@ abilities:
           start of the carnage's next turn. If any target hasn't used their own
           Cackletongue maneuver on this turn, they can use it immediately at no
           cost.
+        name: Effect
   - name: Call Up From the Abyss
     cost: Villain Action 1
     keywords:
@@ -105,6 +107,7 @@ abilities:
     effects:
       - effect: The carnage summons four abyssal hyenas into unoccupied spaces within
           distance.
+        name: Effect
   - name: Edacity
     cost: Villain Action 2
     keywords:
@@ -116,6 +119,7 @@ abilities:
       - effect: Each target moves up to their speed and can make a free strike. Any
           creature damaged by one of these free strikes who has M < 2 is knocked
           prone.
+        name: Effect
   - name: Deepest Wounds
     cost: Villain Action 3
     keywords:
@@ -125,16 +129,13 @@ abilities:
     distance: 5 burst
     target: Each winded enemy in the area
     effects:
-      - effect: >-
-          The carnage's eyes and all exposed blood within distance glow bright
+      - name: Effect
+        effect: The carnage's eyes and all exposed blood within distance glow bright
           red. Each target makes a **Presence test**.
-
-          - **≤11:** The target can't regain Stamina until the end of the
-          encounter.
-
-          - **12-16:** The target can't regain Stamina (save ends).
-
-          - **17+:** No effect
+        t1: The target can't regain Stamina until the end of the encounter.
+        t2: The target can't regain Stamina (save ends).
+        t3: No effect
       - effect: Until the end of the encounter, all gnolls have a double edge on power
           rolls that target a winded enemy.
+        name: Effect
 ```

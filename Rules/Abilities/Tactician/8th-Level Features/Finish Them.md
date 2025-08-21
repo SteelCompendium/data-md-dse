@@ -61,4 +61,5 @@ metadata:
 effects:
   - effect: The target is killed. Additionally, the creature who caused the target
       to be winded can spend a Recovery.
+    name: Effect
 ```

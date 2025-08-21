@@ -71,6 +71,7 @@ abilities:
         t2: 5 damage; A < 1 grabbed
         t3: 6 damage; A < 2 grabbed
       - effect: The amalgamite can have up to four targets grabbed at once.
+        name: Effect
       - effect: The amalgamite deals 3 damage to each creature grabbed this way or who
           they already have grabbed, and regains Stamina equal to the damage
           dealt.
@@ -84,4 +85,5 @@ abilities:
     target: One war dog
     effects:
       - effect: If the target has a loyalty collar, they are reduced to 0 Stamina.
+        name: Effect
 ```

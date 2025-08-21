@@ -72,6 +72,7 @@ abilities:
       - effect: A burning creature takes 1d6 fire damage at the start of each of their
           turns. A burning object takes 1d6 fire damage at the end of each
           round.
+        name: Effect
   - name: Call Abyssal Hyenas
     cost: 3 Malice
     keywords:
@@ -82,6 +83,7 @@ abilities:
     effects:
       - effect: Two abyssal hyenas claw up from the ground in unoccupied spaces within
           distance.
+        name: Effect
   - name: Summoner's Cackletongue
     cost: 4 Malice
     keywords:
@@ -93,4 +95,5 @@ abilities:
       - effect: One abyssal hyena target turns into a gnoll marauder, keeping their
           current Stamina. If any target hasn't used their own Cackletongue
           maneuver on this turn, they can use it immediately at no cost.
+        name: Effect
 ```

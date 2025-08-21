@@ -69,6 +69,7 @@ abilities:
         t3: 5 damage
       - effect: If the mischiever is hidden when they use this ability, they can target
           two creatures.
+        name: Effect
   - name: Ready Rodent
     keywords:
       - Melee
@@ -79,4 +80,5 @@ abilities:
     trigger: An ally deals damage to the target.
     effects:
       - effect: The mischiever makes a free strike against the target.
+        name: Effect
 ```

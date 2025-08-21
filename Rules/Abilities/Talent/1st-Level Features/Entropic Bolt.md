@@ -66,6 +66,7 @@ effects:
     t3: 5 + P corruption damage; P < STRONG, slowed (save ends)
   - effect: The target takes an extra 1 corruption damage for each additional time
       they are targeted by this ability during the encounter.
+    name: Effect
   - effect: You gain 1 clarity when you obtain a tier 2 or tier 3 outcome on the
       power roll.
     name: Strained

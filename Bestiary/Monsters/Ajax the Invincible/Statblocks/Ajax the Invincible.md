@@ -83,6 +83,7 @@ abilities:
         t2: 22 damage; M < 5 the target loses 1d3 Recoveries
         t3: 26 damage; M < 6 prone and the target loses 1d3 Recoveries
       - effect: Ajax shifts up to 2 squares between striking each target.
+        name: Effect
       - effect: Ajax can strike one additional target for each Malice spent.
         cost: 1+ Malice
   - name: Decree by the Jade Hand
@@ -100,6 +101,7 @@ abilities:
         t3: 21 holy damage; slide 8; P < 6 the target is hexed (save ends)
       - effect: A hexed target glows green, and each of their heroic abilities has its
           cost increased by 2.
+        name: Effect
       - effect: The potency increases by 1. Additionally, the ground beneath the area
           drops 3 squares and is difficult terrain. Each flying target who has M
           < 5 is knocked prone.
@@ -122,6 +124,7 @@ abilities:
           target. The vine stays attached to a grabbed target until it takes
           damage from a strike, the target escapes the grab, or Ajax causes the
           vine to release the target (no action required).
+        name: Effect
       - effect: This ability can be replaced with the features of a different treasure
           Ajax has acquired.
         name: Special
@@ -141,6 +144,7 @@ abilities:
           the bead ignites takes 20 fire damage, and if they have A < 5, they
           are dazed (save ends). Any enemy who starts their turn in the area
           takes 10 fire damage.
+        name: Effect
   - name: Is This What They Taught You?
     keywords:
       - Ranged
@@ -153,6 +157,7 @@ abilities:
           this way, Ajax gains an edge on power rolls against them, and whenever
           the target uses a triggered action involving their mark on Ajax, he
           can make a free strike against them.
+        name: Effect
   - name: Shieldbreaker Talisman
     keywords:
       - Magic
@@ -165,6 +170,7 @@ abilities:
       - effect: Ajax makes a free strike against the target, dealing extra damage equal
           to twice the amount that was reduced. This extra damage can't be
           reduced in any way.
+        name: Effect
   - name: Who's Hesitating?
     keywords:
       - "-"
@@ -176,6 +182,7 @@ abilities:
       - effect: Ajax shifts up to his speed and can make a free strike. If the target
           has R < 4, this free strike also makes them weakened until the end of
           their next turn.
+        name: Effect
   - name: Your Obsession With Me Betrays You
     keywords:
       - Magic
@@ -187,6 +194,7 @@ abilities:
     effects:
       - effect: If the target has I < 4, they use a signature ability against a target
           of Ajax's choice.
+        name: Effect
   - name: You Would Flounder Your Assault?
     cost: 2 Malice
     keywords:
@@ -197,6 +205,7 @@ abilities:
     trigger: A creature within 10 squares regains Stamina.
     effects:
       - effect: Ajax regains the same amount of Stamina.
+        name: Effect
   - name: Phoenix Wing King
     cost: Villain Action 1
     keywords:
@@ -213,6 +222,7 @@ abilities:
         t3: 21 fire damage; A < 6 weakened (save ends)
       - effect: Ajax flies at high speed to cut through each target, then appears in an
           unoccupied space within distance.
+        name: Effect
   - name: I've Learned Their Tricks
     cost: Villain Action 2
     keywords:
@@ -225,6 +235,7 @@ abilities:
           surges to 0. Additionally, until the end of the round, Ajax ignores
           edges and double edges on any target's abilities, and ignores any
           nondamaging effects of any target's damage-dealing abilities.
+        name: Effect
       - effect: This villain action can be replaced with a villain action from a
           creature any target has previously encountered.
         name: Special
@@ -241,4 +252,5 @@ abilities:
           deals damage to them. For each target not knocked prone, Ajax can move
           up to his speed toward that target and use Blade of the Gol King
           against them.
+        name: Effect
 ```

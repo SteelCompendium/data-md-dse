@@ -78,6 +78,7 @@ abilities:
         t3: 10 damage; A < 3 bleeding and weakened (save ends)
       - effect: This ability deals an extra 6 damage if the hypokrite is hidden or
           disguised.
+        name: Effect
   - name: Feign Death
     cost: 2 Malice
     keywords:
@@ -90,4 +91,5 @@ abilities:
       - effect: The hypokrite detonates their loyalty collar to deal 2d6 damage to each
           adjacent enemy, but teleports to an unoccupied space adjacent to an
           ally within distance and remains alive.
+        name: Effect
 ```

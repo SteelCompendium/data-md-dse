@@ -74,4 +74,5 @@ effects:
   - effect: When the target ends their next turn, or if they drop to 0 Stamina
       before then, each enemy adjacent to them takes fire damage equal to twice
       your Reason score. Each affected enemy then gains this same effect.
+    name: Effect
 ```

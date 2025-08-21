@@ -60,6 +60,7 @@ effects:
       determine the new target's destination, and can push the target instead of
       using the original forced movement type. Additionally, the forced movement
       distance gains a bonus equal to your Might score.
+    name: Effect
   - effect: The forced movement distance gains a bonus equal to twice your Might
       score instead.
     cost: Spend 1 Ferocity

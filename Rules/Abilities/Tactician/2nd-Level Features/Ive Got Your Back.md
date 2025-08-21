@@ -69,4 +69,5 @@ effects:
     t2: 9 + R damage; taunted (EoT)
     t3: 12 + R damage; taunted (EoT)
   - effect: One ally adjacent to the target can spend a Recovery.
+    name: Effect
 ```

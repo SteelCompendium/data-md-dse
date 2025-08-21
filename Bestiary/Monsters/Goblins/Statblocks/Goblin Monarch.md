@@ -75,6 +75,7 @@ abilities:
         t2: 10 damage
         t3: 13 damage
       - effect: One ally within 10 squares of the monarch can make a free strike.
+        name: Effect
   - name: Get in Here!
     cost: 1 Malice
     keywords:
@@ -84,6 +85,7 @@ abilities:
     target: Special
     effects:
       - effect: Two goblin runners appear in unoccupied spaces within distance.
+        name: Effect
   - name: Meat Shield
     keywords:
       - Melee
@@ -93,6 +95,7 @@ abilities:
     trigger: A creature targets the monarch with a strike.
     effects:
       - effect: The ally is the target of the triggering strike instead
+        name: Effect
   - name: What Are You Waiting For?
     cost: Villain Action 1
     keywords:
@@ -102,6 +105,7 @@ abilities:
     target: Each ally in the area
     effects:
       - effect: Each target can move up to their speed or make a free strike.
+        name: Effect
   - name: Focus Fire
     cost: Villain Action 2
     keywords:
@@ -112,6 +116,7 @@ abilities:
     effects:
       - effect: Each ally within 10 squares of the target can move up to their speed
           toward the target.
+        name: Effect
   - name: Kill!
     cost: Villain Action 3
     keywords:
@@ -122,4 +127,5 @@ abilities:
     effects:
       - effect: Each enemy in the encounter takes 2 damage for each goblin adjacent to
           them.
+        name: Effect
 ```

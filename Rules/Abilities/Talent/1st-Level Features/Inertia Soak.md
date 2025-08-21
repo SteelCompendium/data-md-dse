@@ -73,6 +73,7 @@ effects:
       a number of squares equal to your Reason score. When pushing an ally, the
       target can ignore that ally's stability. A creature can only be force
       moved this way once a turn.
+    name: Effect
   - effect: You are weakened (save ends). While you are weakened this way, whenever
       you are force moved, the forced movement distance gains a +5 bonus.
     name: Strained

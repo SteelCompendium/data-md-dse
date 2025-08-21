@@ -70,4 +70,5 @@ effects:
       the guest star is reduced to 0 Stamina, they retreat or revert to a
       bystander. The same bystander can't be uplifted this way more than once
       during an encounter."
+    name: Effect
 ```

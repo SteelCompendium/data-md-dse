@@ -56,4 +56,5 @@ metadata:
   type: feature/ability/shadow/4th-level-feature
 effects:
   - effect: The target takes half the damage. You remain hidden.
+    name: Effect
 ```

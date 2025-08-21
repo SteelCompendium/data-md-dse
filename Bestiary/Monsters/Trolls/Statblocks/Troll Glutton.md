@@ -94,6 +94,7 @@ abilities:
           object larger than them and doesn't knock the creature prone or
           destroy the object, the glutton's movement ends and they are dazed
           until the end of their next turn.
+        name: Effect
   - name: Food Frenzy
     keywords:
       - "-"
@@ -103,6 +104,7 @@ abilities:
     effects:
       - effect: Until the start of their next turn, the glutton has a double edge on
           strikes, and strikes made against them gain an edge
+        name: Effect
   - name: Spiteful Retort
     cost: 1 Malice
     keywords:
@@ -113,4 +115,5 @@ abilities:
     trigger: The glutton is reduced to 0 Stamina but doesn't die.
     effects:
       - effect: The glutton uses Voracious Mastication against an adjacent creature.
+        name: Effect
 ```

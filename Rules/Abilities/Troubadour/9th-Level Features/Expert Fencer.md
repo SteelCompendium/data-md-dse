@@ -74,4 +74,5 @@ effects:
   - effect: This ability can't obtain better than a tier 2 outcome unless the target
       is at maximum distance. If you obtain a tier 3 outcome with a natural 17
       or higher, you gain 3 surges that you can use immediately.
+    name: Effect
 ```

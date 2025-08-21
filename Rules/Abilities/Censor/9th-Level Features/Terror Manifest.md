@@ -72,4 +72,5 @@ effects:
       is winded, they take an extra 25 psychic damage. If a target frightened
       this way is not a leader or solo creature and is winded, they are reduced
       to 0 Stamina.
+    name: Effect
 ```

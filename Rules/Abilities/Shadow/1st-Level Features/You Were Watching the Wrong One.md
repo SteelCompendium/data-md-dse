@@ -65,4 +65,5 @@ effects:
       you gain 1 surge. If you are flanking the target when you use this
       ability, choose one ally who is flanking with you. That ally also gains 1
       surge.
+    name: Effect
 ```

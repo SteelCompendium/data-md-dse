@@ -81,6 +81,7 @@ abilities:
       - effect: The target is wet (save ends). Any ally targeted by this ability ignores
           the damage, is wet until the end of the encounter, and is pulled up to
           6 squares, ignoring stability.
+        name: Effect
   - name: Hop To It
     cost: 2 Malice
     keywords:
@@ -91,4 +92,5 @@ abilities:
     effects:
       - effect: The slink jumps up to 3 squares. If they have cover or concealment when
           they land, they can attempt to hide.
+        name: Effect
 ```

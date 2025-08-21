@@ -71,4 +71,5 @@ abilities:
         t3: 10 fire damage; this damage ignores immunity
       - effect: This ability ignores concealment. A winded target takes an extra 5
           damage.
+        name: Effect
 ```

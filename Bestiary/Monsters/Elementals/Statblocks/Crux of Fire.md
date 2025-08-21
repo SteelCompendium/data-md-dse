@@ -71,6 +71,7 @@ abilities:
       - effect: A burning creature takes 1d6 fire damage at the start of each of their
           turns. A burning object takes 1d6 fire damage at the end of each
           round.
+        name: Effect
   - name: Convocation of Flames
     keywords:
       - Magic
@@ -80,6 +81,7 @@ abilities:
     target: Self or one elemental
     effects:
       - effect: Until the start of the crux's next turn, the target has fire immunity 5.
+        name: Effect
       - effect: Until the end of the encounter, the ground within 3 squares of the
           target is wreathed in fire. Any enemy who enters that area for the
           first time in a round or starts their turn there takes 3 fire damage.
@@ -96,4 +98,5 @@ abilities:
       - effect: The crux ignores any effects associated with the damage and can fly up
           to their speed. If the crux doesn't end this movement on solid ground,
           they fall.
+        name: Effect
 ```

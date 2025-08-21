@@ -63,4 +63,5 @@ effects:
       you ignore difficult terrain. The illusion and your invisibility last
       until the end of your next turn, or until the illusion is interacted with,
       you take damage, or you use a main action or a maneuver.
+    name: Effect
 ```

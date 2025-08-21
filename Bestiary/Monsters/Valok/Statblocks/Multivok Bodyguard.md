@@ -96,6 +96,7 @@ abilities:
         t3: 26 damage; prone; M < 4 weakened (save ends)
       - effect: The bodyguard has a double edge on this ability if it was previously
           used against the same target in this encounter.
+        name: Effect
   - name: Magnetic Pull
     keywords:
       - Area
@@ -109,6 +110,7 @@ abilities:
       - effect: Each target is pulled up to 8 squares, or if they have M < 3, they are
           pulled up to 15 squares. The bodyguard can make a free strike against
           each target who ends this forced movement adjacent to them.
+        name: Effect
   - name: Valiar Cloak
     keywords:
       - Melee
@@ -119,4 +121,5 @@ abilities:
       bodyguard can use this ability after seeing the outcome of the power roll.
     effects:
       - effect: The bodyguard becomes the triggering ability's target instead.
+        name: Effect
 ```

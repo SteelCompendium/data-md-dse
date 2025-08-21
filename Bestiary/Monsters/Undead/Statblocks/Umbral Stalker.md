@@ -88,6 +88,7 @@ abilities:
         t3: 4 cold damage
       - effect: Until the end of the stalker's next turn, the area provides concealment,
           and blocks line of effect for enemies
+        name: Effect
   - name: Shadow Jump
     cost: 1 Malice
     keywords:

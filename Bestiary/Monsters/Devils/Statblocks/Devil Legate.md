@@ -79,6 +79,7 @@ abilities:
         t3: \\17 damage; A < 3 slowed (save ends)
       - effect: If the targets are adjacent to each other, this ability deals an extra 3
           damage.
+        name: Effect
   - name: Writ of Execution
     keywords:
       - Charge
@@ -98,6 +99,7 @@ abilities:
           ignores difficult terrain during the charge. Each creature and object
           whose space the legate moves through takes the damage from this
           ability, but not its additional effects.
+        name: Effect
   - name: Law and Order
     keywords:
       - Melee
@@ -107,6 +109,7 @@ abilities:
     effects:
       - effect: The target is taunted by the legate (save ends). The legate can have
           only one creature taunted at a time.
+        name: Effect
   - name: Devilish Charm
     cost: 2 Malice
     keywords:
@@ -117,9 +120,9 @@ abilities:
     target: The triggering creature
     trigger: A creature targets the legate with a strike.
     effects:
-      - effect: |-
-          The target makes a Presence test
-          - **≤11:** The legate chooses a new target for the strike.
-          - **12-16:** The legate halves the triggering damage.
-          - **17+:** The target takes a bane on the strike.
+      - name: Effect
+        effect: The target makes a Presence test
+        t1: The legate chooses a new target for the strike.
+        t2: The legate halves the triggering damage.
+        t3: The target takes a bane on the strike.
 ```

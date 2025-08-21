@@ -76,4 +76,5 @@ abilities:
         t3: 7 corruption damage; P < 4 weakened
       - effect: This weakened condition ends if an affected target ends their turn with
           no spirit within 5 squares of them.
+        name: Effect
 ```

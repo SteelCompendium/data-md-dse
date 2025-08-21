@@ -71,4 +71,5 @@ effects:
     t2: 9 + M damage
     t3: 13 + M damage
   - effect: You can spend a Recovery.
+    name: Effect
 ```

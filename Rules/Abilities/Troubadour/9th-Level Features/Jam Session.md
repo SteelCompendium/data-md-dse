@@ -68,4 +68,5 @@ effects:
   - effect: Each creature within distance gains a +5 bonus to speed until the end of
       their next turn. While under this effect, each target must use their full
       movement during their turn.
+    name: Effect
 ```

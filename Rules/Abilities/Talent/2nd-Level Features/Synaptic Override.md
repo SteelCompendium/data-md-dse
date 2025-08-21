@@ -74,6 +74,7 @@ effects:
       that would harm them (such as over a cliff), leave them dying, or result
       in them suffering a condition or other negative effect. However, you can
       move them to provoke opportunity attacks.
+    name: Effect
   - effect: You take 1d6 damage and are weakened until the end of your turn.
     name: Strained
 ```

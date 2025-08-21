@@ -71,4 +71,5 @@ effects:
   - effect: When you slide the target, you can move into any square they leave. If
       you take damage from an opportunity attack by moving this way, the target
       takes the same damage.
+    name: Effect
 ```

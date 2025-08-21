@@ -33,12 +33,11 @@ metadata:
   source: mcdm.heroes.v1
   type: feature/trait/conduit/1st-level-feature
 effects:
-  - effect: >-
-      You gain 2 piety the first time in an encounter that you or a creature
+  - effect: You gain 2 piety the first time in an encounter that you or a creature
       within 10 squares takes damage greater than 10 + your level in a single
       turn.
-
-      - **Prayer Effect:** Choose up to three allies within 10 squares of you,
-      or choose yourself instead of one ally. Each target gains 2 surges.
     name: Piety
+  - effect: Choose up to three allies within 10 squares of you, or choose yourself
+      instead of one ally. Each target gains 2 surges.
+    name: Prayer Effect
 ```

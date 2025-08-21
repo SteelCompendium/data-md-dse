@@ -67,7 +67,8 @@ metadata:
   target: Each creature and object in the area
   type: feature/ability/talent/6th-level-feature
 effects:
-  - effect: >-
+  - name: Effect
+    effect: >-
       The area is frozen in time until the start of your next turn. Each object
       in the area is restrained and can't fall until the effect ends. Until the
       effect ends, creatures in the area who are reduced to 0 Stamina or would

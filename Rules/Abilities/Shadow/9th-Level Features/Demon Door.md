@@ -74,4 +74,5 @@ effects:
     t3: 25 + A corruption damage; push 7
   - effect: On a critical hit, the target is grabbed by the demon and pulled through
       the portal before it closes, never to be seen again.
+    name: Effect
 ```

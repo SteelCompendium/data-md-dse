@@ -74,4 +74,5 @@ effects:
       they can't willingly leave the area (save ends)
   - effect: Each ally within distance can't obtain lower than a tier 2 outcome on
       the next test they make before the start of your next turn.
+    name: Effect
 ```

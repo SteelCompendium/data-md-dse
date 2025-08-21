@@ -75,6 +75,7 @@ abilities:
         t2: 12 psychic damage; R < 4 restrained (save ends)
         t3: 14 psychic damage; R < 5 restrained (save ends)
       - effect: The izyak can slide any target restrained this way up to 3 squares.
+        name: Effect
       - effect: The izyak can vertical slide any target restrained this way up to 6
           squares instead. A target left in midair doesn't fall until the
           restrained condition ends.
@@ -95,6 +96,7 @@ abilities:
         t3: 9 psychic damage; I < 5 dazed (save ends)
       - effect: Any target dazed this way must use a move action to move their speed
           toward the izyak on their next turn.
+        name: Effect
       - effect: The area increases to a 6 cube.
         cost: 2 Malice
 ```

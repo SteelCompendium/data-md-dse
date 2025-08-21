@@ -71,6 +71,7 @@ abilities:
         t2: 17 damage; slide 3; M < 3 6 acid damage
         t3: 21 damage; slide 4; M < 4 8 acid damage
       - effect: One ally within distance ends one condition on themself.
+        name: Effect
   - name: The Chasm Engulfs
     cost: 4 Malice
     keywords:
@@ -88,6 +89,7 @@ abilities:
         t3: 14 damage; restrained (save ends)
       - effect: The area is difficult terrain for enemies until the end of the
           encounter. Any enemy in the area has acid weakness 5.
+        name: Effect
   - name: Maw of the Abyss
     keywords:
       - Magic
@@ -99,4 +101,5 @@ abilities:
     effects:
       - effect: The elementalist can teleport up to 4 squares. Each creature adjacent to
           the space they leave or appear in takes 4 corruption damage.
+        name: Effect
 ```

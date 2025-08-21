@@ -73,4 +73,5 @@ effects:
     t3: 9 + M holy damage
   - effect: Until the start of your next turn, enemies take a bane on ability rolls
       made against you or any ally adjacent to you.
+    name: Effect
 ```

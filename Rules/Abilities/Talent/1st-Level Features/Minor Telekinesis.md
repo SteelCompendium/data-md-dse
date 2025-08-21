@@ -58,6 +58,7 @@ metadata:
   type: feature/ability/talent/1st-level-feature
 effects:
   - effect: You slide the target up to a number of squares equal to your Reason score.
+    name: Effect
   - effect: The size of the creature or object you can target increases by 1 for
       every 2 clarity spent.
     cost: Spend 2+ Clarity

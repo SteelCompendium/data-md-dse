@@ -80,4 +80,5 @@ effects:
   - effect: You choose the new targets for the original target's free strike or
       ability. Additionally, if you are hidden or disguised, using this ability
       doesn't cause you to be revealed.
+    name: Effect
 ```

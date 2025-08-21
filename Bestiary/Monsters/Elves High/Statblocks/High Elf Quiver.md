@@ -73,4 +73,5 @@ abilities:
         t2: 4 damage
         t3: 5 damage
       - effect: Each ally adjacent to the target shifts up to 2 squares
+        name: Effect
 ```

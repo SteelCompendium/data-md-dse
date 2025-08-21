@@ -62,4 +62,5 @@ effects:
       signature ability that gains an edge. After resolving their ability, each
       target can shift up to 2 squares and become hidden even if they have no
       cover or concealment, or if they are observed.
+    name: Effect
 ```

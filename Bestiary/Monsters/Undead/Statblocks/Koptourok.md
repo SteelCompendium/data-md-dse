@@ -73,6 +73,7 @@ abilities:
         t3: 11 damage; M < 4 grabbed
       - effect: A creature grabbed this way is suffocating. The koptourok can have up to
           two creatures grabbed at once.
+        name: Effect
   - name: Inhale
     cost: 3 Malice
     keywords:
@@ -89,4 +90,5 @@ abilities:
       - effect: This ability gains an edge against any target grabbed by the koptourok.
           If one or more targets are pulled adjacent to the kop- tourok, the
           koptourok can fly until the end of the encounter
+        name: Effect
 ```

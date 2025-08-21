@@ -67,7 +67,8 @@ metadata:
   target: Self
   type: feature/ability/troubadour/1st-level-feature
 effects:
-  - effect: You shift up to your speed. You make one power roll that targets each
+  - name: Effect
+    effect: You shift up to your speed. You make one power roll that targets each
       enemy you move adjacent to during this shift.
   - roll: Power Roll + Agility or Presence
     t1: Taunted (EoT); A < WEAK, prone

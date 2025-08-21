@@ -73,6 +73,7 @@ abilities:
         t2: 15 damage
         t3: 18 damage
       - effect: The next ability used against the target has a double edge.
+        name: Effect
       - effect: Each non-minion ally within 3 squares of the target can make a free
           strike against them.
         cost: 5 Malice
@@ -91,4 +92,5 @@ abilities:
         t2: 10 damage; I < 2 bleeding (save ends)
         t3: 12 damage; I < 3 bleeding (save ends)
       - effect: Each target is pushed up to 4 squares.
+        name: Effect
 ```

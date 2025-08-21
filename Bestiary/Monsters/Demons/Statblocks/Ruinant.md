@@ -83,8 +83,8 @@ abilities:
     distance: Ranged 10
     target: Three creatures
     effects:
-      - effect: Each target must be at less than full Stamina.
-        name: Special
+      - name: Special
+        effect: Each target must be at less than full Stamina.
       - roll: Power Roll + 2
         t1: 1 corruption damage
         t2: 2 corruption damage

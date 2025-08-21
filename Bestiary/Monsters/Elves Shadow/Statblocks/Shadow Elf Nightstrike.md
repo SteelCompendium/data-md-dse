@@ -76,4 +76,5 @@ abilities:
       - effect: The nightstrike shifts to leap over the target and into an unoccupied
           space adjacent to the target, opposite from the nightstrike's original
           space.
+        name: Effect
 ```

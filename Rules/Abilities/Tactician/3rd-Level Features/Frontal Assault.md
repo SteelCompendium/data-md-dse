@@ -64,4 +64,5 @@ effects:
       shift up to 2 squares. Additionally, any ally using the Charge main action
       to target a creature marked by you can use a melee strike signature
       ability or a melee strike heroic ability instead of a melee free strike.
+    name: Effect
 ```

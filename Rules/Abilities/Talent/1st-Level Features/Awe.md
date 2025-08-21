@@ -70,7 +70,8 @@ metadata:
   target: One creature
   type: feature/ability/talent/1st-level-feature
 effects:
-  - effect: If you target an ally, they gain temporary Stamina equal to three times
+  - name: Effect
+    effect: If you target an ally, they gain temporary Stamina equal to three times
       your Presence score, and they can end one effect on them that is ended by
       a saving throw or that ends at the end of their turn. If you target an
       enemy, you make a power roll.

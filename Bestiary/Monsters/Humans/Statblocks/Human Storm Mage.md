@@ -98,4 +98,5 @@ abilities:
         t3: Slide 6; M < 2 slowed (save ends)
       - effect: The gust of wind disperses gas or vapor and extinguishes any flames,
           including supernatural effects.
+        name: Effect
 ```

@@ -90,6 +90,7 @@ abilities:
           this ability, she can subsequently use the outcome of that roll
           instead of rolling whenever she uses this ability until the end of the
           encounter.
+        name: Effect
       - effect: The ability targets one additional target for each 2 Malice spent.
         cost: 2+ Malice
   - name: Elevate
@@ -103,6 +104,7 @@ abilities:
     effects:
       - effect: The ground in the area rises 5 squares, creating a pillar of dirt. Any
           creature in the area moves with the ground to its new elevation.
+        name: Effect
       - effect: Aeolyxria creates an additional pillar for each Malice spent.
         cost: 1+ Malice
   - name: Blood For Blood

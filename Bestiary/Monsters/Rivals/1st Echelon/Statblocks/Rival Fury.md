@@ -92,4 +92,5 @@ abilities:
         t3: 16 damage; M < 2 grabbed
       - effect: The target must be the fury's size or smaller. While the target is
           grabbed this way, the fury gains an edge on strikes against them.
+        name: Effect
 ```

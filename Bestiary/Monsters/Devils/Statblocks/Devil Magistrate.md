@@ -78,6 +78,7 @@ abilities:
         t3: 18 fire damage; R < 3 dazed (save ends)
       - effect: The magistrate shifts up to 3 squares before or after using this
           ability, or between each strike.
+        name: Effect
   - name: Verdict
     keywords:
       - Melee
@@ -94,6 +95,7 @@ abilities:
           - **17+:** 21 damage
       - effect: This ability has a double edge if the magistrate was hidden from the
           target, and deals an extra 5 damage if the target is dazed.
+        name: Effect
   - name: Justice Turns Its Gaze
     keywords:
       - "-"
@@ -104,6 +106,7 @@ abilities:
       - effect: The magistrate turns invisible until the start of their next turn, and
           can attempt to hide as a free maneuver before the end of the current
           turn.
+        name: Effect
   - name: Devilish Charm
     cost: 2 Malice
     keywords:
@@ -114,9 +117,9 @@ abilities:
     target: The triggering creature
     trigger: A creature targets the magistrate with a strike.
     effects:
-      - effect: |-
-          The target makes a Presence test
-          - **≤11:** The magistrate chooses a new target for the strike.
-          - **12-16:** The magistrate halves the triggering damage.
-          - **17+:** The target takes a bane on the strike.
+      - name: Effect
+        effect: The target makes a Presence test
+        t1: The magistrate chooses a new target for the strike.
+        t2: The magistrate halves the triggering damage.
+        t3: The target takes a bane on the strike.
 ```

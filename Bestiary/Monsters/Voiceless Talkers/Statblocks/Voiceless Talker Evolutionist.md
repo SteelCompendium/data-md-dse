@@ -86,6 +86,7 @@ abilities:
     target: One creature
     effects:
       - effect: The evolutionist teleports to swap places with the target.
+        name: Effect
   - name: Adaptability
     keywords:
       - Psionic
@@ -96,6 +97,7 @@ abilities:
     effects:
       - effect: Until the start of their next turn, the evolutionist has damage immunity
           5 to the triggering damage type.
+        name: Effect
   - name: Show Me Who You Are
     cost: Villain Action 1
     keywords:
@@ -105,16 +107,12 @@ abilities:
     distance: 5 burst
     target: Each enemy in the area
     effects:
-      - effect: >-
-          Each target makes an Intuition test.
-
-          - **≤11:** The target uses a signature ability against the nearest
-          enemy within distance.
-
-          - **12-16:** The target makes a free strike against the nearest enemy
-          within distance.
-
-          - **17+:** Frightened (save ends)
+      - name: Effect
+        effect: Each target makes an Intuition test.
+        t1: The target uses a signature ability against the nearest enemy within
+          distance.
+        t2: The target makes a free strike against the nearest enemy within distance.
+        t3: Frightened (save ends)
   - name: Release the Thralls
     cost: Villain Action 2
     keywords:
@@ -127,6 +125,7 @@ abilities:
       - effect: The evolutionist teleports eight minions of level 4 or lower into
           unoccupied spaces within distance. All eight minions can be of any
           monster type but must share the same name.
+        name: Effect
   - name: Brainstorm
     cost: Villain Action 3
     keywords:
@@ -144,4 +143,5 @@ abilities:
           psionic electrical storm that is a 5 aura. The area is difficult
           terrain for enemies, and any enemy who enters the area for the first
           time in a round or starts their turn there takes 8 lightning damage.
+        name: Effect
 ```

@@ -74,4 +74,5 @@ abilities:
         t3: 3 damage
       - effect: If the rogue is disguised or hidden when they use this ability, it deals
           an extra 3 damage.
+        name: Effect
 ```

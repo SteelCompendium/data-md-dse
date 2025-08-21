@@ -76,4 +76,5 @@ abilities:
         t3: 7 damage; M < 4 bleeding (EoT)
       - effect: If a target made bleeding this way is already bleeding, they are instead
           knocked prone and can't stand until the end of their next turn.
+        name: Effect
 ```

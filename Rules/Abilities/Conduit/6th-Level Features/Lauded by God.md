@@ -65,4 +65,5 @@ metadata:
   type: feature/ability/conduit/6th-level-feature
 effects:
   - effect: Each target gains 3 of their Heroic Resource.
+    name: Effect
 ```

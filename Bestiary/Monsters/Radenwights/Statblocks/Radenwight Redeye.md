@@ -76,4 +76,5 @@ abilities:
     trigger: An ally deals damage to the target.
     effects:
       - effect: The redeye makes a free strike against the target.
+        name: Effect
 ```

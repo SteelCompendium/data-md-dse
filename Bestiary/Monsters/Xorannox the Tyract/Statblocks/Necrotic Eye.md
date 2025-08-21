@@ -73,4 +73,5 @@ abilities:
         t3: 20 corruption damage; M < 4 bleeding (save ends)
       - effect: If this damage or the Stamina loss from bleeding this way reduces a
           target creature's Stamina to 0, that creature dies.
+        name: Effect
 ```

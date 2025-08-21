@@ -89,6 +89,7 @@ abilities:
         t3: 15 damage; M < 3 dazed (save ends)
       - effect: The target is no longer grabbed by the deathrex, and the deathrex slides
           them up to 5 squares.
+        name: Effect
   - name: Trundle
     keywords:
       - "-"
@@ -99,6 +100,7 @@ abilities:
       - effect: The deathrex moves up to their speed. They can make a free strike
           against each creature who makes an opportunity attack against them
           during this movement.
+        name: Effect
   - name: Swat the Fly
     keywords:
       - Melee
@@ -109,6 +111,7 @@ abilities:
       deathrex.
     effects:
       - effect: The deathrex slides the target up to 5 squares.
+        name: Effect
   - name: Snack Attack
     cost: Villain Action 1
     keywords:
@@ -119,6 +122,7 @@ abilities:
     effects:
       - effect: Each target moves up to their speed and can make a free strike. Each
           target gains temporary Stamina equal to the damage they deal.
+        name: Effect
   - name: Shed Some Skin
     cost: Villain Action 2
     keywords:
@@ -131,4 +135,5 @@ abilities:
           duplicate in the space they started in. The duplicate acts on the
           deathrex's turn and has the deathrex's characteristics, but has 10
           Stamina and no villain actions.
+        name: Effect
 ```

@@ -66,4 +66,5 @@ effects:
       players can work with the Director to determine when the target takes
       their turn each combat round. At the end of the encounter, the target
       turns to dust and is blown away.
+    name: Effect
 ```

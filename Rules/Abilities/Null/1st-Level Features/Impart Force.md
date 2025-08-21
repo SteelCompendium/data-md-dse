@@ -74,4 +74,5 @@ effects:
   - effect: An object you target must be your size or smaller. You gain an edge on
       this ability. Additionally, for each square you push the target, they take
       1 psychic damage.
+    name: Effect
 ```

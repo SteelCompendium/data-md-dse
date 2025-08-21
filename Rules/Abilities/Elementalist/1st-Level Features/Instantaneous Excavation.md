@@ -64,7 +64,8 @@ metadata:
   target: Special
   type: feature/ability/elementalist/1st-level-feature
 effects:
-  - effect: You open up two holes with 1-square openings that are 4 squares deep,
+  - name: Effect
+    effect: You open up two holes with 1-square openings that are 4 squares deep,
       which can be placed on any mundane surface within distance. You can place
       these holes next to each other to create fewer holes with wider openings.
       When the holes open, make a separate power roll for each creature on the

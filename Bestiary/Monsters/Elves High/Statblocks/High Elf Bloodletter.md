@@ -73,6 +73,7 @@ abilities:
         t3: 12 damage; R < 2 bleeding (save ends)
       - effect: The bloodletter and each of their allies has a double edge on abilities
           targeting a creature bleeding this way.
+        name: Effect
   - name: Blood Haze
     cost: 2 Malice
     keywords:
@@ -87,4 +88,5 @@ abilities:
           weakness 3 while in the area. The bloodletter can then shift up to
           their speed, and can attempt to hide if they end that shift with
           concealment.
+        name: Effect
 ```

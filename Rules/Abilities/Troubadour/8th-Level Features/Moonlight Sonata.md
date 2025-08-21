@@ -65,4 +65,5 @@ effects:
       move and use either a main action or a maneuver, but can't spend
       Recoveries or use triggered actions. At the end of the encounter, each
       target who chose to take turns this way turns to dust and blows away.
+    name: Effect
 ```

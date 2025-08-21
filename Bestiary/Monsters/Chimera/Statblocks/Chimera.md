@@ -82,6 +82,7 @@ abilities:
         t3: 16 damage
       - effect: This strike deals an extra 3 damage if it gains an edge or has a double
           edge.
+        name: Effect
   - name: Dragon's Eruption
     cost: 5 Malice
     keywords:
@@ -131,7 +132,8 @@ abilities:
     target: The triggering creature
     trigger: A creature makes a strike against the chimera and obtains a tier 1 outcome.
     effects:
-      - effect: The chimera shifts up to 5 squares. If they end this shift within
+      - name: Effect
+        effect: The chimera shifts up to 5 squares. If they end this shift within
           distance of the target, make a power roll.
       - effect: |-
           **Power Roll + 3**
@@ -147,6 +149,7 @@ abilities:
     target: Each enemy in the area
     effects:
       - effect: The chimera can use Bite and Lion's Toss against each target.
+        name: Effect
   - name: Fire Solo
     cost: Villain Action 2
     keywords:
@@ -156,6 +159,7 @@ abilities:
     target: Self
     effects:
       - effect: The chimera uses Dragon's Eruption and Roar without spending Malice.
+        name: Effect
   - name: Chorus of Destruction
     cost: Villain Action 3
     keywords:
@@ -168,4 +172,5 @@ abilities:
           strike against each enemy who comes adjacent to them during the shift.
           When the chimera ends this shift, they use Dragon's Eruption. The use
           of these abilities as part of this villain action costs no Malice.
+        name: Effect
 ```

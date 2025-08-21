@@ -70,6 +70,7 @@ abilities:
         t2: 11 damage; A < 1 prone
         t3: 14 damage; A < 2 prone
       - effect: The pouncer can make a free strike against each target they knock prone.
+        name: Effect
   - name: Sparking Tail Whip
     keywords:
       - Area
@@ -84,6 +85,7 @@ abilities:
         t3: 10 damage; A < 2 the target is dazzled (save ends)
       - effect: A dazzled target takes a bane on strikes and has line of effect only
           within 1 square.
+        name: Effect
   - name: Illusory Feint
     cost: 5 Malice
     keywords:
@@ -94,14 +96,14 @@ abilities:
     distance: 3 cube within 10
     target: Each enemy in the area
     effects:
-      - effect: |-
-          I < 0 dazed (save ends)
-          - **12-16:** I < 1 dazed (save ends)
-          - **17+:** I < 2 dazed (save ends)
-        cost: ≤11
+      - cost: ≤11
+        effect: I < 0 dazed (save ends)
+        t2: I < 1 dazed (save ends)
+        t3: I < 2 dazed (save ends)
       - effect: While dazed this way, a target has speed 0. If a target takes damage, or
           if someone else uses a main action to shake the target out of their
           stupor, the dazed condition ends.
+        name: Effect
   - name: Striking Afterimage
     keywords:
       - Magic
@@ -114,4 +116,5 @@ abilities:
           associated with it, and can teleport up to 5 squares. If they teleport
           into concealment or cover, the pouncer can immediately attempt to hide
           as a free maneuver.
+        name: Effect
 ```

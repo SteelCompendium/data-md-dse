@@ -71,4 +71,5 @@ abilities:
         t3: 5 damage
       - effect: If the sniper doesn't use a move action this turn, this ability gains an
           edge.
+        name: Effect
 ```

@@ -100,4 +100,5 @@ abilities:
         t3: 13 corruption damage; M < 4 frightened (save ends)
       - effect: If the handmaiden was totally within their host's body at the start of
           this turn, the ability deals an extra 8 damage.
+        name: Effect
 ```

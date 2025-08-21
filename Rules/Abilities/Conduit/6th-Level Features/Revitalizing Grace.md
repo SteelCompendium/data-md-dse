@@ -64,4 +64,5 @@ effects:
   - effect: Each target can spend any number of Recoveries. Additionally, each
       target can end one effect on themself that is ended by a saving throw or
       that ends at the end of their turn, or they can stand up if prone.
+    name: Effect
 ```

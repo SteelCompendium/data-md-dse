@@ -67,4 +67,5 @@ effects:
   - effect: Until the end of the encounter, whenever the target takes damage while
       winded, they can use a free triggered action to deal half the damage they
       took to the source of the damage.
+    name: Effect
 ```

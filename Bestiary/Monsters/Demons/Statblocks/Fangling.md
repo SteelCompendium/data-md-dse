@@ -78,6 +78,7 @@ abilities:
         t2: 7 damage
         t3: 9 damage
       - effect: Each enemy adjacent to the fangling takes 2 damage.
+        name: Effect
   - name: Tumbling Gore
     cost: 2 Malice
     keywords:

@@ -64,4 +64,5 @@ effects:
     t3: You gain 20 temporary Stamina.
   - effect: While you have temporary Stamina from this ability, you can't be made
       bleeding even while dying.
+    name: Effect
 ```

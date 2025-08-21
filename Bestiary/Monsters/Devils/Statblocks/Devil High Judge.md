@@ -98,6 +98,7 @@ abilities:
       - effect: While charmed this way, a creature treats the high judge as an ally, and
           the high judge can spend 1 Malice on their turn to make that creature
           move up to 3 squares.
+        name: Effect
   - name: Devilish Suggestion
     cost: 2 Malice
     keywords:
@@ -108,18 +109,14 @@ abilities:
     target: The triggering creature
     trigger: A creature targets the high judge with a strike.
     effects:
-      - effect: >-
-          The target makes a **Presence test**.
-
-          - **≤11:** The target is charmed (save ends).
-
-          - **12-16:** The high judge chooses a new target for the strike.
-
-          - **17+:** The target takes a bane on the strike.
-
-          While charmed this way, a creature treats the high judge as an ally,
-          and the high judge can spend 1 Malice on their turn to make that
-          creature move up to 3 squares.
+      - name: Effect
+        effect: The target makes a **Presence test**.
+        t1: The target is charmed (save ends).
+        t2: The high judge chooses a new target for the strike.
+        t3: The target takes a bane on the strike.
+      - effect: While charmed this way, a creature treats the high judge as an ally, and
+          the high judge can spend 1 Malice on their turn to make that creature
+          move up to 3 squares.
   - name: All Rise
     cost: Villain Action 1
     keywords:
@@ -129,18 +126,14 @@ abilities:
     distance: 3 burst
     target: Each enemy in the area
     effects:
-      - effect: >-
-          The target makes a **Presence test**.
-
-          - **≤11:** 15 psychic damage; the target is charmed (save ends)
-
-          - **12-16:** 12 psychic damage; the target is charmed (save ends)
-
-          - **17+:** 7 psychic damage
-
-          While charmed this way, a creature treats the high judge as an ally,
-          and the high judge can spend 1 Malice on their turn to make that
-          creature move up to 3 squares.
+      - name: Effect
+        effect: The target makes a **Presence test**.
+        t1: 15 psychic damage; the target is charmed (save ends)
+        t2: 12 psychic damage; the target is charmed (save ends)
+        t3: 7 psychic damage
+      - effect: While charmed this way, a creature treats the high judge as an ally, and
+          the high judge can spend 1 Malice on their turn to make that creature
+          move up to 3 squares.
   - name: Heed My Decree
     cost: Villain Action 2
     keywords:
@@ -152,6 +145,7 @@ abilities:
       - effect: Each target shifts up to their speed. The high judge can make each
           creature charmed by All Rise, Compel the Jury, or Devilish Suggestion
           move up to half that creature's speed.
+        name: Effect
   - name: Deceptive Stratagem
     cost: Villain Action 3
     keywords:
@@ -167,4 +161,5 @@ abilities:
           make a free strike against a target of the high judge's choice. Each
           creature charmed by All Rise, Compel the Jury, or Devilish Suggestion
           makes a free strike against a target of the high judge's choice.
+        name: Effect
 ```

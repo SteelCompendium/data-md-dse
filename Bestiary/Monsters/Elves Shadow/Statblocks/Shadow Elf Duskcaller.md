@@ -74,6 +74,7 @@ abilities:
         t3: 16 damage
       - effect: If the duskcaller has concealment, they can target one additional
           creature or object.
+        name: Effect
   - name: The Lay of Cor'thoroth
     keywords:
       - Area
@@ -85,6 +86,7 @@ abilities:
     effects:
       - effect: Until the start of the duskcaller's next turn, the area is filled with
           darkness.
+        name: Effect
       - effect: The size of the cube increases by 3.
         cost: 2 Malice
 ```

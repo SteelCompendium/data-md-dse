@@ -78,4 +78,5 @@ effects:
       target, you and any ally adjacent to the target gain 1 surge whenever the
       target takes damage. The mushrooms can be removed by the target or an
       adjacent creature as a main action.
+    name: Effect
 ```

@@ -71,4 +71,5 @@ effects:
   - effect: At the end of each of your turns, a target dazed this way deals holy
       damage equal to twice your Presence score to each enemy within 2 squares
       of them.
+    name: Effect
 ```

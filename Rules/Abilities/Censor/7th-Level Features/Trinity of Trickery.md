@@ -68,4 +68,5 @@ effects:
       action to switch places with a duplicate within their line of effect,
       making the duplicate the target of the ability instead. When either
       duplicate takes damage, it is destroyed.
+    name: Effect
 ```

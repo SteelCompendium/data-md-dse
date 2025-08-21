@@ -72,4 +72,5 @@ effects:
       square adjacent to the wall and has M < AVERAGE is slowed (save ends).
       Each enemy who is force moved into the wall and has M < AVERAGE is
       restrained (save ends).
+    name: Effect
 ```

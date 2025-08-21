@@ -120,18 +120,12 @@ abilities:
     distance: 5 cube within 10
     target: Each creature and object in the area
     effects:
-      - effect: >-
-          Each target makes an **Agility test**.
-
-          - **≤11:** 18 corruption damage; the target is dragonsealed (save
-          ends)
-
-          - **12-16:** 14 corruption damage; the target is dragonsealed (save
-          ends)
-
-          - **17+:** 9 corruption damage
-
-          Only creatures with souls can be dragonsealed by the omen dragon. A
+      - name: Effect
+        effect: Each target makes an **Agility test**.
+        t1: 18 corruption damage; the target is dragonsealed (save ends)
+        t2: 14 corruption damage; the target is dragonsealed (save ends)
+        t3: 9 corruption damage
+      - effect: Only creatures with souls can be dragonsealed by the omen dragon. A
           dragonsealed creature appears ghastly and pale, their Presence score
           is treated as 1 lower for the purpose of resisting potencies, and they
           can't treat other creatures as allies.
@@ -163,6 +157,7 @@ abilities:
       - effect: Each target must be dragonsealed. Each target takes 9 corruption damage,
           and the omen dragon regains Stamina equal to half the total damage
           dealt. The target then loses their dragonseal.
+        name: Effect
   - name: Don't Turn Away
     cost: 1 Malice
     keywords:
@@ -175,6 +170,7 @@ abilities:
       - effect: The dragon shifts up to their speed, and the Deathcount of each
           dragonsealed creature who comes adjacent to the dragon during this
           shift is reduced by 1.
+        name: Effect
   - name: Repent!
     cost: 2 Malice
     keywords:
@@ -186,6 +182,7 @@ abilities:
     effects:
       - effect: The target must choose between making a free strike against themself or
           gaining a Deathcount of 5.
+        name: Effect
   - name: What You Deserve
     cost: Villain Action 1
     keywords:
@@ -200,6 +197,7 @@ abilities:
         t2: Pull 2; the target has a Deathcount of 8
         t3: Pull 3; the target has a Deathcount of 6
       - effect: Each target receives a premonition of their imminent death.
+        name: Effect
   - name: Souls of the Broken
     cost: Villain Action 2
     keywords:
@@ -210,7 +208,8 @@ abilities:
     distance: Ranged 10
     target: Five creatures
     effects:
-      - effect: The dragon spits fragments of souls to attempt to possess the targets,
+      - name: Effect
+        effect: The dragon spits fragments of souls to attempt to possess the targets,
           making a separate power roll for each target.
       - roll: Power Roll + 5
         t1: P < 5 frightened (save ends)
@@ -228,4 +227,5 @@ abilities:
       - effect: Each target must be dragonsealed. The dragon's eyes glow with unequalled
           malevolence, and any target who has a Deathcount has that Deathcount
           reduced to 1.
+        name: Effect
 ```

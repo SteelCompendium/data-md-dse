@@ -68,6 +68,7 @@ effects:
       until the start of your next turn. Whenever the target force moves a
       creature or object while under this effect, the forced movement distance
       gains a +5 bonus.
+    name: Effect
   - effect: You can't use maneuvers (save ends).
     name: Strained
 ```

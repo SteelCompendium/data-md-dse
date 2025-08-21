@@ -70,6 +70,7 @@ abilities:
         t3: 18 damage
       - effect: If this ability gains an edge or has a double edge, it deals an extra 4
           damage.
+        name: Effect
   - name: Piercing Tails
     keywords:
       - Melee
@@ -79,13 +80,13 @@ abilities:
     distance: Melee 2
     target: One creature or object
     effects:
-      - effect: |-
-          8 damage
-          - **12-16:** 12 damage; M < 1 bleeding (save ends)
-          - **17+:** 15 damage; M < 2 bleeding (save ends)
-        cost: ≤11
+      - cost: ≤11
+        effect: 8 damage
+        t2: 12 damage; M < 1 bleeding (save ends)
+        t3: 15 damage; M < 2 bleeding (save ends)
       - effect: While bleeding this way, the target takes a bane on tests to search for
           the lightbender while they are hidden.
+        name: Effect
   - name: Hypnotic Mane
     cost: 5 Malice
     keywords:
@@ -95,14 +96,14 @@ abilities:
     distance: 3 burst
     target: Each enemy in the area
     effects:
-      - effect: |-
-          I < 0 dazed (save ends)
-          - **12-16:** I < 1 dazed (save ends)
-          - **17+:** I < 2 dazed (save ends)
-        cost: ≤11
+      - cost: ≤11
+        effect: I < 0 dazed (save ends)
+        t2: I < 1 dazed (save ends)
+        t3: I < 2 dazed (save ends)
       - effect: While dazed this way, a target has speed 0. If a target takes damage, or
           if someone else uses a main action to shake the target out of their
           stupor, the dazed condition ends.
+        name: Effect
   - name: Stalker's Afterimage
     keywords:
       - Magic
@@ -115,4 +116,5 @@ abilities:
           associated with it, and can teleport up to 5 squares. If they teleport
           into concealment or cover, the lightbender can immediately attempt to
           hide as a free maneuver.
+        name: Effect
 ```

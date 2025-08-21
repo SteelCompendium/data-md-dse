@@ -71,6 +71,7 @@ abilities:
         t3: 8 sonic damage; slide 5, the maestro shifts up to 5 squares
       - effect: Each ally within distance can use Ready Rodent as a free triggered
           action once before the end of the round.
+        name: Effect
   - name: Tempo Changer
     keywords:
       - Magic
@@ -99,6 +100,7 @@ abilities:
       an ally.
     effects:
       - effect: The maestro makes a free strike against the target.
+        name: Effect
   - name: Overture
     cost: Villain Action 1
     keywords:
@@ -108,6 +110,7 @@ abilities:
     target: Each ally in the area
     effects:
       - effect: Each target can shift up to their speed or take the Defend action.
+        name: Effect
   - name: Solo Act
     cost: Villain Action 2
     keywords:
@@ -118,6 +121,7 @@ abilities:
     effects:
       - effect: Until the end of their next turn, the target halves any damage they
           take, gains a +4 damage bonus to strikes, and has their speed doubled.
+        name: Effect
   - name: Rondo of Rat
     cost: Villain Action 3
     keywords:
@@ -129,4 +133,5 @@ abilities:
       - effect: Each target stands, makes a free strike, then falls dead again. Any ally
           of the targets can use Ready Rodent as a free triggered action once in
           conjunction with these free strikes.
+        name: Effect
 ```

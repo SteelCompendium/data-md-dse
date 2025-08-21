@@ -53,6 +53,7 @@ metadata:
   type: feature/ability/tactician/1st-level-feature
 effects:
   - effect: The target gains 2 surges, which they can use on the triggering damage.
+    name: Effect
   - effect: If the damage has any potency effect associated with it, the potency is
       increased by 1.
     cost: Spend 1 Focus

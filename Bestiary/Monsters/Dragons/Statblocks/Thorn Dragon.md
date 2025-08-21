@@ -112,16 +112,12 @@ abilities:
     distance: 10 x 1 line within 1
     target: Each enemy and object in the area
     effects:
-      - effect: >-
-          Each target makes a **Might test**.
-
-          - **≤11:** 12 poison damage; the target is dragonsealed (save ends)
-
-          - **12-16:** 9 poison damage; the target is dragonsealed (save ends)
-
-          - **17+:** 5 poison damage
-
-          A dragonsealed creature has their wounds bound by nettles and thorns,
+      - name: Effect
+        effect: Each target makes a **Might test**.
+        t1: 12 poison damage; the target is dragonsealed (save ends)
+        t2: 9 poison damage; the target is dragonsealed (save ends)
+        t3: 5 poison damage
+      - effect: A dragonsealed creature has their wounds bound by nettles and thorns,
           causing them to take an extra 1d3 damage whenever they take damage
           rolled as a d6 or a d3.
   - name: Spinous Tail Swing
@@ -152,6 +148,7 @@ abilities:
       - effect: Each target must be dragonsealed. Each target is pulled up to 5 squares
           toward the dragon, who gains 5 temporary Stamina for each target
           pulled.
+        name: Effect
   - name: Prickly Situation
     keywords:
       - Magic
@@ -163,6 +160,7 @@ abilities:
     effects:
       - effect: The target is pulled up to 5 squares toward the dragon, and if they have
           A < 2, they are restrained until the end of their next turn.
+        name: Effect
   - name: Thorny Scales
     cost: 1 Malice
     keywords:
@@ -174,6 +172,7 @@ abilities:
     effects:
       - effect: The dragon makes a free strike against the target, and if the target has
           M < 2, they are bleeding until the end of their next turn.
+        name: Effect
   - name: Briar Bindings
     cost: Villain Action 1
     keywords:
@@ -199,6 +198,7 @@ abilities:
           end of the encounter, any adjacent creature who targets the dragon
           with a melee strike takes 3 damage. The dragon then uses their
           Provoking Nettles ability.
+        name: Effect
   - name: Malign Thicket
     cost: Villain Action 3
     keywords:
@@ -212,6 +212,7 @@ abilities:
           twice at no cost. Until the end of the encounter, any creature force
           moved by the dragon takes 1d3 poison damage, and if they have M < 2,
           they are weakened (save ends).
+        name: Effect
       - effect: If the Thorn Dragon's Domain trait is in effect, any creature other than
           the dragon who starts their turn on the encounter map takes 1d3 poison
           damage.

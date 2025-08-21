@@ -90,6 +90,7 @@ abilities:
         t2: 17 damage; M < 3 weakened or the target is slimed (save ends)
         t3: 20 damage; M < 4 weakened and the target is slimed (save ends)
       - effect: A slimed target takes 4 psychic damage whenever they make a power roll.
+        name: Effect
   - name: Slime Spew
     keywords:
       - Area
@@ -104,6 +105,7 @@ abilities:
         t3: 13 acid damage; A < 4 push special and prone
       - effect: Each creature pushed this way is pushed to an unoccupied space in the
           area as far as possible from the olothec.
+        name: Effect
       - effect: The area is difficult terrain. Any creature who enters the area or moves
           within it for the first time on a turn and has A < 3 is knocked prone.
         cost: 1 Malice
@@ -124,6 +126,7 @@ abilities:
       - effect: Each time a target is transformed, the Director chooses one of the
           following transformations. When a target ends the transformed effect,
           all transformations on them end.
+        name: Effect
       - effect: The target's head becomes a ball of slime. They can't communicate and
           have line of effect only within 3 squares.
         name: Head
@@ -143,6 +146,7 @@ abilities:
       - effect: The olothec teleports to an unoccupied space within 10 squares.
           Alternatively, they swap places with a creature or object within 5
           squares of them.
+        name: Effect
   - name: Liquify
     keywords:
       - Psionic
@@ -154,6 +158,7 @@ abilities:
     effects:
       - effect: The target takes 8 psychic damage and has psychic weakness 3 until the
           end of the olothec's next turn.
+        name: Effect
   - name: Horrifying Form
     cost: Villain Action 1
     keywords:
@@ -170,6 +175,7 @@ abilities:
         t3: 17 psychic damage; P < 4 frightened (save ends)
       - effect: While frightened this way, a target can't make saving throws to end any
           other effects
+        name: Effect
   - name: Psychic Pulse
     cost: Villain Action 2
     keywords:
@@ -184,6 +190,7 @@ abilities:
           (save ends). A slimed target takes 4 psychic damage whenever they make
           a power roll. Additionally, until the start of their next turn, the
           olothec has damage immunity 4.
+        name: Effect
   - name: Return to Perfection
     cost: Villain Action 3
     keywords:
@@ -199,4 +206,5 @@ abilities:
         t3: 16 psychic damage; R < 3 the target is devolved (save ends)
       - effect: A devolved creature has a −1 score for all their characteristics other
           than Reason.
+        name: Effect
 ```

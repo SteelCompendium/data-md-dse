@@ -64,7 +64,8 @@ metadata:
   target: One creature
   type: feature/ability/fury/6th-level-feature
 effects:
-  - effect: You shift up to your speed.
+  - name: Effect
+    effect: You shift up to your speed.
   - roll: Power Roll + Might
     t1: 4 + M damage; P < WEAK, frightened (save ends)
     t2: 6 + M damage; P < AVERAGE, frightened (save ends)
@@ -73,4 +74,5 @@ effects:
       strike, they are reduced to 0 Stamina and you choose an enemy within 5
       squares of you. If that enemy has P < AVERAGE, they are frightened of you
       (save ends).
+    name: Effect
 ```

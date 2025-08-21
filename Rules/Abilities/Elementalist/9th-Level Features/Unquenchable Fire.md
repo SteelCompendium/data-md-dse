@@ -72,4 +72,5 @@ effects:
     t2: 18 + R fire damage; I < AVERAGE, dazed (save ends)
     t3: 25 + R fire damage; I < STRONG, dazed (save ends)
   - effect: This damage ignores immunity.
+    name: Effect
 ```

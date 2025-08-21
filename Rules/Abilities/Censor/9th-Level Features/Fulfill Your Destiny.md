@@ -65,4 +65,5 @@ effects:
   - effect: The target takes their turn after the triggering hero, and immediately
       removes all conditions and negative effects on themself. During their
       turn, the target has a double edge on power rolls.
+    name: Effect
 ```

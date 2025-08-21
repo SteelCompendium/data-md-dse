@@ -80,6 +80,7 @@ abilities:
         t3: 11 damage; grabbed
       - effect: A 3-cube area of ground centered on the target is difficult terrain for
           enemies.
+        name: Effect
   - name: Mourning Cry
     cost: 3 Malice
     keywords:
@@ -95,4 +96,5 @@ abilities:
         t3: 7 corruption damage; I < 4 frightened (save ends)
       - effect: A target frightened this way is frightened of all undead. This effect
           ends early if the mournling is destroyed
+        name: Effect
 ```

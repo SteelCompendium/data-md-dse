@@ -76,6 +76,7 @@ abilities:
         t3: 13 damage; the griffon shifts up to 3 squares
       - effect: If this ability is used as part of the Charge main action, the griffon
           can grab one of the targets
+        name: Effect
   - name: Crack the Earth
     keywords:
       - Area
@@ -84,9 +85,10 @@ abilities:
     distance: 3 cube within 8
     target: Each enemy in the area
     effects:
-      - effect: The griffon must be flying and must have a creature or object grabbed.
-        name: Special
-      - effect: The griffon flies up to half their speed toward the ground, then sends
+      - name: Special
+        effect: The griffon must be flying and must have a creature or object grabbed.
+      - name: Effect
+        effect: The griffon flies up to half their speed toward the ground, then sends
           the creature or object they've grabbed hurtling down. The creature or
           object hits the ground to turn the area into an impact crater, and
           takes falling damage that can't be reduced in any way.
@@ -102,8 +104,8 @@ abilities:
     distance: 4 x 2 line within 1
     target: Each creature or object in the area
     effects:
-      - effect: A target object must be size 2 or smaller.
-        name: Special
+      - name: Special
+        effect: A target object must be size 2 or smaller.
       - roll: Power Roll + 2
         t1: Push 3; A < 0 the forced movement is vertical
         t2: Push 4; A < 1 the forced movement is vertical
@@ -119,4 +121,5 @@ abilities:
     effects:
       - effect: The griffon halves the damage, ignores any nondamaging effects
           associated with it, and shifts up to 2 squares
+        name: Effect
 ```

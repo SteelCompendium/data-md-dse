@@ -76,6 +76,7 @@ abilities:
       - effect: If a target made prone this way is already prone, they are instead
           restrained (save ends). If the target was also unable to stand, that
           effect ends when they are no longer restrained this way.
+        name: Effect
   - name: Convocation of Verdure
     keywords:
       - Magic
@@ -86,6 +87,7 @@ abilities:
     effects:
       - effect: The target gains 15 temporary Stamina that lasts until the start of the
           field's next turn.
+        name: Effect
       - effect: Until the end of the encounter, the ground within 1 square of the target
           is overgrown with underbrush and vines. Whenever any enemy makes a
           strike against the target while within line of effect of that area,
@@ -105,4 +107,5 @@ abilities:
     effects:
       - effect: The target takes 6 damage, and if they have A < 2, they are bleeding
           (save ends).
+        name: Effect
 ```

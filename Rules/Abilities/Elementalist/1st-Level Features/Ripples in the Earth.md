@@ -74,4 +74,5 @@ effects:
       that square, with a height in squares up to your Reason score. The pillar
       can't collide with any creatures or objects, nor can it force creatures
       raised by it to collide with other creatures or objects.
+    name: Effect
 ```

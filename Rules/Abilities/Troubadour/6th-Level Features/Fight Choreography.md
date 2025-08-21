@@ -72,4 +72,5 @@ effects:
       you. You choose which enemies your free strike targets and which enemies
       the target creature's free strike targets. You then slide the target 5
       squares, ignoring stability.
+    name: Effect
 ```

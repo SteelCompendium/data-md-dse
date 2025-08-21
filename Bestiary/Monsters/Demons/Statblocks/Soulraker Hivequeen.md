@@ -82,6 +82,7 @@ abilities:
         t3: 23 poison damage; M < 5 the target is implanted
       - effect: An implanted target has a soulraker handmaiden parasite gestating in
           them (see the handmaiden's Implanted Parasite trait).
+        name: Effect
   - name: Forced Gestation
     cost: 3 Malice
     keywords:
@@ -93,6 +94,7 @@ abilities:
       - effect: The hivequeen lets loose a subsonic call to each target, forcing them to
           immediately emerge from their host's body as a mature soulraker
           handmaiden and make a free strike.
+        name: Effect
   - name: For the Queen!
     cost: 2 Malice
     keywords:
@@ -105,6 +107,7 @@ abilities:
       attacker's turn.
     effects:
       - effect: Two soulraker minions appear within distance.
+        name: Effect
       - effect: A soulraker praetorian also appears within distance.
         cost: 2 Malice
   - name: Kicking the Nest
@@ -118,6 +121,7 @@ abilities:
       - effect: Each target can move their speed and make a free strike. If no minions
           are present, four soulraker minions are summoned into unoccupied
           spaces within distance before the hivequeen uses this villain action.
+        name: Effect
   - name: Buzz Off!
     cost: Villain Action 2
     keywords:
@@ -131,6 +135,7 @@ abilities:
         t2: Push 3; I < 4 dazed (save ends)
         t3: 11 sonic damage; push 3; I < 5 dazed (save ends)
       - effect: The hivequeen shifts up to her speed.
+        name: Effect
   - name: Bomber Wasp Warfare
     cost: Villain Action 3
     keywords:

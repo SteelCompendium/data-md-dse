@@ -54,6 +54,7 @@ metadata:
 effects:
   - effect: You take half the damage, then can teleport up to 4 squares after the
       triggering effect resolves.
+    name: Effect
   - effect: You teleport 1 additional square for each insight spent.
     cost: Spend 1+ Insight
 ```

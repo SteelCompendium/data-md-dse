@@ -67,7 +67,8 @@ metadata:
   target: One creature
   type: feature/ability/tactician/9th-level-feature
 effects:
-  - effect: The target is marked by you.
+  - name: Effect
+    effect: The target is marked by you.
   - roll: Power Roll + Might
     t1: 8 + M damage
     t2: 13 + M damage
@@ -75,4 +76,5 @@ effects:
   - effect: Until the end of the encounter or until you are dying, you can use a
       signature or heroic ability instead of a free strike against any target
       marked by you.
+    name: Effect
 ```

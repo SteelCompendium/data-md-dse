@@ -73,6 +73,7 @@ abilities:
         t3: 14 damage; A < 2 bleeding (save ends)
       - effect: The hijack is hidden from any creature who is bleeding from this ability
           until that condition ends.
+        name: Effect
   - name: Psi-Sickle
     keywords:
       - Psionic
@@ -86,4 +87,5 @@ abilities:
           the distance between them. If the target is larger than the hijack,
           the hijack moves adjacent to the target. Otherwise, the target is
           pulled up to 4 squares toward the hijack.
+        name: Effect
 ```

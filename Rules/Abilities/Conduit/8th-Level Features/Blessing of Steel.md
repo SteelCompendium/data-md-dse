@@ -63,4 +63,5 @@ metadata:
 effects:
   - effect: Until the end of the encounter, any ability roll made against a target
       takes a bane and each target has damage immunity 5.
+    name: Effect
 ```

@@ -69,6 +69,7 @@ abilities:
         t3: 14 damage; push 6, prone
       - effect: Any target who takes damage from this forced movement takes an extra 4
           damage.
+        name: Effect
   - name: Grabby Hand
     cost: 1 Malice
     keywords:
@@ -84,6 +85,7 @@ abilities:
         t2: 11 damage; grabbed
         t3: 14 damage; grabbed
       - effect: A target grabbed this way takes a bane on the Escape Grab maneuver.
+        name: Effect
   - name: People Bowling
     cost: 3 Malice
     keywords:
@@ -93,7 +95,8 @@ abilities:
     distance: 6 x 1 line within 1
     target: Each creature and object in the area
     effects:
-      - effect: The goon must have a size 1 creature or object grabbed, which they hurl
+      - name: Effect
+        effect: The goon must have a size 1 creature or object grabbed, which they hurl
           across the area, ending the grab. The hurled creature or object is
           targeted by the ability, and lands in the last square of the line or
           the nearest unoccupied square of the goon's choice.
@@ -110,4 +113,5 @@ abilities:
     trigger: A creature or object within distance moves or shifts away from the goon.
     effects:
       - effect: The goon slides the target up to 5 squares
+        name: Effect
 ```

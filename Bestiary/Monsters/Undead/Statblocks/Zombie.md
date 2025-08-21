@@ -76,6 +76,7 @@ abilities:
           damage. A creature who takes 5 or more corruption damage this way
           becomes insatiably hungry for flesh, and must complete the Find a Cure
           downtime project in Draw Steel: Heroes to end this effect"
+        name: Effect
   - name: Zombie Dust
     cost: 3 Malice
     keywords:
@@ -84,7 +85,8 @@ abilities:
     distance: 2 burst
     target: Each enemy in the area
     effects:
-      - effect: The zombie falls prone, expelling a wave of rot and dust.
+      - name: Effect
+        effect: The zombie falls prone, expelling a wave of rot and dust.
       - roll: Power Roll + 2
         t1: 2 corruption damage
         t2: 3 corruption damage; M < 1 weakened (save ends)

@@ -74,6 +74,7 @@ abilities:
         t2: 10 corruption damage; M < 3 5 corruption damage and bleed- ing (save ends)
         t3: 11 corruption damage; M < 4 7 corruption damage and bleeding (save ends)
       - effect: The vampire regains Stamina equal to any corruption damage dealt.
+        name: Effect
   - name: Vicious Pursuit
     cost: 3 Malice
     keywords:
@@ -90,6 +91,7 @@ abilities:
         t3: 11 damage; A < 4 slowed (save ends)
       - effect: If the target is bleeding, the vampire shifts up to their speed before
           using this ability.
+        name: Effect
   - name: Reactive Charm
     cost: 2 Malice
     keywords:
@@ -101,4 +103,5 @@ abilities:
     trigger: A creature makes a strike against the vampire.
     effects:
       - effect: The target becomes the new target of the strike.
+        name: Effect
 ```

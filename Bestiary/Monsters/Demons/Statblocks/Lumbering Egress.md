@@ -85,6 +85,7 @@ abilities:
       - effect: Four level 1 demon minions (most commonly ensnarers, frenzieds, and
           pitlings) burst forth from the egress and appear in unoccupied spaces
           in the area.
+        name: Effect
       - effect: Four level 4 demon minions (most commonly orliq, grulqins, and wobalas)
           appear instead.
         cost: 2 Malice
@@ -100,6 +101,7 @@ abilities:
       reduced below 25 Stamina.
     effects:
       - effect: Eight ensnarers appear anywhere in the area.
+        name: Effect
   - name: Frenzied Deluge
     cost: Villain Action 1
     keywords:
@@ -125,6 +127,7 @@ abilities:
           space within distance. Four level 4 demon minions (most commonly
           orliq, grulqins, and wobalas) appear in squares in the egress's former
           space.
+        name: Effect
   - name: Blood of the Abyss
     cost: Villain Action 3
     keywords:
@@ -142,4 +145,5 @@ abilities:
           encounter map. A torrent of churned-up minion bodies, blood, and ichor
           erupts from the egress, dealing an extra 1 damage for each minion
           destroyed this way.
+        name: Effect
 ```

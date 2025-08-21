@@ -59,6 +59,7 @@ metadata:
   type: feature/ability/elementalist/1st-level-feature
 effects:
   - effect: The target takes half the damage.
+    name: Effect
   - effect: If the damage has any potency effects associated with it, the potency is
       reduced by 1 for the target.
     cost: Spend 1 Essence

@@ -75,4 +75,5 @@ abilities:
         t3: 5 damage
       - effect: The decrepit skeleton chooses one other target within distance, who
           takes 1 damage.
+        name: Effect
 ```

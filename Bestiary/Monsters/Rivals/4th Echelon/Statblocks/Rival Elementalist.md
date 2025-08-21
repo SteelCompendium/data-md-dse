@@ -71,6 +71,7 @@ abilities:
         t2: 20 damage; slide 4; M < 4 7 acid damage
         t3: 24 damage; slide 5; M < 5 9 acid damage
       - effect: One ally within distance ends all conditions on themself.
+        name: Effect
   - name: The World Consumes
     cost: 5 Malice
     keywords:
@@ -86,6 +87,7 @@ abilities:
           encounter. While in the area, any enemy has acid weakness 5 and is
           slowed. Any enemy who ends their turn in the area and has M < 4 is
           restrained (save ends).
+        name: Effect
   - name: Breach of Nihility
     keywords:
       - Magic
@@ -97,4 +99,5 @@ abilities:
     effects:
       - effect: The elementalist can teleport up to 5 squares. Each creature adjacent to
           the space they leave or appear in takes 5 corruption damage.
+        name: Effect
 ```

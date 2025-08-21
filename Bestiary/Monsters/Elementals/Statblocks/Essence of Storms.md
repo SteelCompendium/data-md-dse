@@ -69,6 +69,7 @@ abilities:
         t2: 5 damage, 4 lightning damage; push 1
         t3: 5 damage, 7 lightning damage; push 3
       - effect: The essence shifts up to 3 squares before or after using this ability.
+        name: Effect
   - name: Convocation of Squalls
     keywords:
       - Magic
@@ -79,6 +80,7 @@ abilities:
     effects:
       - effect: Until the start of the essence's next turn, the target has lightning
           immunity 5.
+        name: Effect
       - effect: Until the end of the encounter, a vortex surrounds the target in a 3
           aura. The area is difficult terrain for enemies. Additionally, at the
           end of each of the target's turns, they can push one creature in the
@@ -95,4 +97,5 @@ abilities:
     trigger: A creature within distance deals damage to the essence.
     effects:
       - effect: The target takes 5 lightning damage.
+        name: Effect
 ```

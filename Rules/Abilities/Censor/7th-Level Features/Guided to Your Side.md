@@ -58,4 +58,5 @@ effects:
       willing creature who you are bonded to with your Invocation of the Heart
       feature. You don't need line of effect to the bonded creature but you must
       be on the same world.
+    name: Effect
 ```

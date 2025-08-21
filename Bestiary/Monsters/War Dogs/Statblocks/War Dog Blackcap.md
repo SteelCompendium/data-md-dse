@@ -83,6 +83,7 @@ abilities:
         t3: 12 damage; M < 4 bleeding and weakened (save ends)
       - effect: The blackcap can teleport up to their speed before using this ability,
           creating an ash clone (see below) in their original square.
+        name: Effect
   - name: Ashes to Ashes
     keywords:
       - Ranged
@@ -91,4 +92,5 @@ abilities:
     target: Up to three ash clones
     effects:
       - effect: Each target makes a free strike.
+        name: Effect
 ```

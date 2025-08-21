@@ -79,6 +79,7 @@ abilities:
         t2: 7 psychic damage; I < 2 slowed (save ends)
         t3: 10 psychic damage; I < 3 slowed (save ends)
       - effect: One ally within 10 squares of the chorogaunt shifts up to their speed.
+        name: Effect
   - name: Chaotic Entrancing Harmony
     keywords:
       - Area
@@ -87,6 +88,7 @@ abilities:
     target: Each enemy in the area
     effects:
       - effect: The chorogaunt slides each target up to 3 squares, ignoring stability.
+        name: Effect
   - name: I Thrive on Pain
     cost: 3 Malice
     keywords:
@@ -98,6 +100,7 @@ abilities:
     effects:
       - effect: Any damage from the strike is halved, and the chorogaunt's abilities
           deal an extra 3 damage until the end of their next turn.
+        name: Effect
   - name: Frightening Tones
     cost: Villain Action 1
     keywords:
@@ -108,6 +111,7 @@ abilities:
     effects:
       - effect: Each target must choose between taking 5 psychic damage, or being
           frightened (save ends).
+        name: Effect
   - name: Bully the Weak
     cost: Villain Action 2
     keywords:
@@ -120,6 +124,7 @@ abilities:
       - effect: The chorogaunt kills the target, and each other ally in the encounter
           deals an extra 3 damage with strikes until the end of the round. The
           Director gains Malice equal to the number of heroes in the encounter.
+        name: Effect
   - name: Running Cacophony
     cost: Villain Action 3
     keywords:
@@ -130,4 +135,5 @@ abilities:
     effects:
       - effect: The chorogaunt shifts up to their speed, uses Agonizing Harmony, shifts
           up to their speed, and then uses Agonizing Harmony again.
+        name: Effect
 ```

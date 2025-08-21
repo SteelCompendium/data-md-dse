@@ -61,4 +61,5 @@ metadata:
 effects:
   - effect: You take a bonus turn immediately after the triggering creature. This
       ability can be used only once per combat round.
+    name: Effect
 ```

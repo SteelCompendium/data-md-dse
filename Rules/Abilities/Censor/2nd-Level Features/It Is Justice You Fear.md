@@ -71,4 +71,5 @@ effects:
   - effect: If the target is already frightened of you or another creature and this
       ability would frighten them again, they instead take psychic damage equal
       to twice your Presence score.
+    name: Effect
 ```

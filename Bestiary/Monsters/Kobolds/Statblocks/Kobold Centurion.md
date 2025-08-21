@@ -76,6 +76,7 @@ abilities:
         t3: 13 damage; M < 1 weakened (save ends)
       - effect: Each ally adjacent to a target can make a free strike against that
           target.
+        name: Effect
       - effect: While weakened this way, a target is also restrained.
         cost: 3 Malice
   - name: Concentrate All Fire on That Hero!
@@ -87,6 +88,7 @@ abilities:
     effects:
       - effect: Until the start of the centurion's next turn, the centurion and their
           allies gain an edge on power rolls against the target.
+        name: Effect
       - effect: This ability targets one additional target for each 3 Malice spent.
         cost: 3+ Malice
   - name: Testudo!
@@ -101,6 +103,7 @@ abilities:
       - effect: Each target shifts up to 2 squares before the damage is resolved. Each
           kobold with the Shield? Shield! trait gains damage immunity 2 against
           the triggering ability.
+        name: Effect
   - name: Firetail Pilum
     cost: Villain Action 1
     keywords:
@@ -114,6 +117,7 @@ abilities:
           make one power roll against all targets, and the ability deals an
           extra 5 damage. While weakened by that ability, each target takes 2
           fire damage at the start of each of their turns.
+        name: Effect
   - name: Boom Pilum!
     cost: Villain Action 2
     keywords:
@@ -126,6 +130,7 @@ abilities:
     effects:
       - effect: The centurion uses Pilum against each target and has a double edge. Each
           target is then pushed up to 3 squares.
+        name: Effect
   - name: Are You Not Entertained?!
     cost: Villain Action 3
     keywords:
@@ -137,4 +142,5 @@ abilities:
       - effect: A target who has P < 2 is taunted (save ends). Each ally within distance
           can make a free strike. Additionally, until the end of the encounter,
           the centurion has damage immunity 2.
+        name: Effect
 ```

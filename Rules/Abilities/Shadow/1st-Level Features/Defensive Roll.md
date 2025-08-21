@@ -56,6 +56,7 @@ effects:
       after the triggering effect resolves. If you end this shift with
       concealment or cover, you can use the Hide maneuver even if you are
       observed.
+    name: Effect
   - effect: The potency of any effects associated with the damage are reduced by 1
       for you.
     cost: Spend 1 Insight

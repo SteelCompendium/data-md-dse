@@ -70,4 +70,5 @@ effects:
     t3: 26 + M holy damage
   - effect: Until the end of the encounter or until you are dying, the target has
       damage weakness 10.
+    name: Effect
 ```

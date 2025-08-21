@@ -67,9 +67,9 @@ metadata:
   target: Special
   type: feature/ability/elementalist/3rd-level-feature
 effects:
-  - effect: The number of creatures you target with this ability is determined by
+  - name: Special
+    effect: The number of creatures you target with this ability is determined by
       your power roll.
-    name: Special
   - roll: Power Roll + Reason
     t1: One creature
     t2: Two creatures
@@ -80,4 +80,5 @@ effects:
       the end of their second turn, they fade from existence for 1 hour, after
       which they reappear in their original space or the nearest unoccupied
       space.
+    name: Effect
 ```

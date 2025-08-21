@@ -69,6 +69,7 @@ abilities:
         t2: 4 damage
         t3: 5 damage
       - effect: One ally adjacent to the target can make a free strike against them.
+        name: Effect
   - name: Get Reckless!
     keywords:
       - Area
@@ -78,6 +79,7 @@ abilities:
     effects:
       - effect: Until the start of the underboss's next turn, each target gains an edge
           on strikes, and any strike made against a target gains an edge.
+        name: Effect
       - effect: Strikes made against targets no longer gain an edge.
         cost: 2 Malice
 ```

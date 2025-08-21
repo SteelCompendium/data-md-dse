@@ -81,6 +81,7 @@ abilities:
         t2: 8 damage, 4 corruption damage
         t3: 8 damage, 7 corruption damage
       - effect: The next strike made against the target has a double edge.
+        name: Effect
       - effect: One ally adjacent to the target can use their signature ability.
         cost: 3 Malice
   - name: On My Mark!
@@ -91,4 +92,5 @@ abilities:
     target: One ally
     effects:
       - effect: The target moves up to their speed and can make a free strike.
+        name: Effect
 ```

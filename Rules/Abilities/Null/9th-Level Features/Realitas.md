@@ -79,4 +79,5 @@ effects:
       the timescape who are not present in the encounter. Loved ones of the
       forgotten creature retain a faint sense of melancholy. This effect can be
       reversed only at the Director's discretion.
+    name: Effect
 ```

@@ -79,6 +79,7 @@ abilities:
         t3: 13 acid damage; A < 3 dazed (save ends)
       - effect: The next time the target makes a strike against the daybringer, the
           target takes 4 acid damage after the strike is resolved.
+        name: Effect
       - effect: The daybringer jumps up to 3 squares before or after using this ability.
         cost: 1 Malice
   - name: Sun Lamp
@@ -92,6 +93,7 @@ abilities:
           the start of their next turn. During that time, each angulotl who
           starts their turn within 10 squares of the daybringer regains 5
           Stamina and gains a +3 bonus to speed until the end of their turn.
+        name: Effect
   - name: Tongue Slap
     keywords:
       - Melee
@@ -102,6 +104,7 @@ abilities:
       a critical hit.
     effects:
       - effect: The outcome of the strike's power roll is reduced by one tier.
+        name: Effect
       - effect: The target is pulled up to 4 squares after the strike resolves.
         cost: 2 Malice
   - name: New Dawn
@@ -114,6 +117,7 @@ abilities:
     effects:
       - effect: Four **angulotl pollywogs** erupt from the daybringer's back and waddle
           into unoccupied spaces within distance.
+        name: Effect
   - name: Plague of Frogs
     cost: Villain Action 2
     keywords:
@@ -124,6 +128,7 @@ abilities:
     effects:
       - effect: Each target can jump up to 4 squares. Each non-minion target can make a
           free strike at the end of the jump.
+        name: Effect
   - name: It Is Day
     cost: Villain Action 3
     keywords:
@@ -138,4 +143,5 @@ abilities:
           illuminated target gains an edge. Additionally, each enemy in the
           encounter who is wet has that effect end and takes 6 acid damage. Each
           angulotl in the encounter has a double edge on their next strike.
+        name: Effect
 ```

@@ -71,6 +71,7 @@ abilities:
         t3: 10 corruption damage; pull 2; M < 3 restrained (save ends)
       - effect: The next ability the mummy uses against the target has any potency
           increased by 1 for the target.
+        name: Effect
   - name: Eldritch Curse
     cost: 3 Malice
     keywords:
@@ -86,6 +87,7 @@ abilities:
         t3: 7 corruption damage; I < 3 the target is cursed (save ends)
       - effect: A cursed target is bleeding and weakened, and allies gain an edge on
           strikes made against them.
+        name: Effect
   - name: Blast of Mummy Dust
     cost: 1 Malice
     keywords:
@@ -97,4 +99,5 @@ abilities:
       their turn within distance of one.
     effects:
       - effect: The target takes 8 poison damage
+        name: Effect
 ```

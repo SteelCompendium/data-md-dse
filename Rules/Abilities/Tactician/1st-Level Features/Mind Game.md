@@ -67,11 +67,13 @@ metadata:
   target: One creature or object
   type: feature/ability/tactician/1st-level-feature
 effects:
-  - effect: You mark the target.
+  - name: Effect
+    effect: You mark the target.
   - roll: Power Roll + Might
     t1: 4 + M damage; R < WEAK, weakened (save ends)
     t2: 6 + M damage; R < AVERAGE, weakened (save ends)
     t3: 10 + M damage; R < STRONG, weakened (save ends)
   - effect: Before the start of your next turn, the first time any ally deals damage
       to any target marked by you, that ally can spend a Recovery.
+    name: Effect
 ```

@@ -74,6 +74,7 @@ abilities:
         t3: 13 damage; pull 3; A < 2 restrained (save ends)
       - effect: This ability can target creatures on parallel planes of existence and
           pull them onto the nemesis's plane.
+        name: Effect
   - name: Kinetic Crush
     cost: 2 Malice
     keywords:
@@ -90,4 +91,5 @@ abilities:
         t3: 13 psychic damage; M < 2 slowed (save ends)
       - effect: Any creature slowed this way takes 2 damage for each square they move or
           are force moved until that condition ends.
+        name: Effect
 ```

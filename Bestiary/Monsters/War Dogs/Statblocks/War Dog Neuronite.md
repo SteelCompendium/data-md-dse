@@ -81,6 +81,7 @@ abilities:
     target: One war dog
     effects:
       - effect: If the target has a loyalty collar, they are reduced to 0 Stamina.
+        name: Effect
   - name: The Voice
     cost: 1 Malice
     keywords:
@@ -94,4 +95,5 @@ abilities:
           taunted by the ally, or the ally has damage immunity 3 whenever any
           target makes a strike against them (the neuronite's choice). Either
           effect lasts until the start of the neuronite's next turn
+        name: Effect
 ```

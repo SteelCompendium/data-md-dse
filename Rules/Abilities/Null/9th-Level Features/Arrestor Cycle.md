@@ -73,4 +73,5 @@ effects:
       acted. A target who doesn't lose their turn takes psychic damage equal to
       twice your Intuition score for each main action they take until the end of
       their next turn.
+    name: Effect
 ```

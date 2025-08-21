@@ -61,4 +61,5 @@ metadata:
 effects:
   - effect: You take half the damage, negate any effects associated with the damage
       for you, and gain 3 surges.
+    name: Effect
 ```

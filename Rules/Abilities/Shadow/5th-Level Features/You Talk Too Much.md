@@ -72,4 +72,5 @@ effects:
     t2: 15 + A damage; P < AVERAGE, dazed (save ends)
     t3: 21 + A damage; P < STRONG, dazed (save ends)
   - effect: The target can't communicate with anyone until the end of the encounter.
+    name: Effect
 ```

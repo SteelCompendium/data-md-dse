@@ -93,6 +93,7 @@ abilities:
         t3: 20 acid damage; M < 3 weakened (save ends)
       - effect: A target weakened this way takes 1d4 acid damage at the start of each of
           their turns.
+        name: Effect
   - name: Swooping Torment
     keywords:
       - "-"
@@ -103,6 +104,7 @@ abilities:
       - effect: The lurker flies up to their speed, then can attempt to hide. Each enemy
           the lurker moves adjacent to during this movement can choose to take 3
           sonic damage or fall prone.
+        name: Effect
   - name: Retaliatory Dive
     keywords:
       - Ranged
@@ -114,4 +116,5 @@ abilities:
     effects:
       - effect: The lurker flies adjacent to the target and can make a free strike
           against them.
+        name: Effect
 ```

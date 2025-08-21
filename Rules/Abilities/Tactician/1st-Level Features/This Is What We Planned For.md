@@ -60,4 +60,5 @@ metadata:
 effects:
   - effect: Each target who hasn't acted yet this combat round can take their turn
       in any order immediately after yours.
+    name: Effect
 ```

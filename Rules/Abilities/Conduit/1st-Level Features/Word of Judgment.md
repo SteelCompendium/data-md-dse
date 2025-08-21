@@ -56,6 +56,7 @@ metadata:
   type: feature/ability/conduit/1st-level-feature
 effects:
   - effect: The power roll takes a bane against the target.
+    name: Effect
   - effect: The power roll has a double bane against the target.
     cost: Spend 1 Piety
 ```

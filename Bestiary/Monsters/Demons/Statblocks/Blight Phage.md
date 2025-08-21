@@ -77,6 +77,7 @@ abilities:
       - effect: A puddle of blight-digested soul juice-covers the ground in the target's
           square, which is affected as if by Seeping Blight (see the Level 7+
           Demon Malice feature).
+        name: Effect
   - name: Blight Rain
     cost: 3 Malice
     keywords:
@@ -90,6 +91,7 @@ abilities:
         name: Special
       - effect: The blight phage spins and sheds corruptive blight to fill the area,
           which is treated as if affected by Seeping Blight.
+        name: Effect
       - effect: The blight phage chooses three 2 cube areas within 10 squares of the
           phage. Each area is covered with blight and treated as if affected by
           Seeping Blight.

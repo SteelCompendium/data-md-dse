@@ -76,6 +76,7 @@ abilities:
         t3: 12 damage; A < 2 prone and can't stand (save ends)
       - effect: Each target must be on the ground, and the ground in each target's space
           rises 1 square.
+        name: Effect
   - name: Sinkhole
     cost: 3 Malice
     keywords:
@@ -90,4 +91,5 @@ abilities:
         t2: 7 damage; M < 1 restrained (save ends)
         t3: 10 damage; M < 2 restrained (save ends)
       - effect: The area is difficult terrain
+        name: Effect
 ```

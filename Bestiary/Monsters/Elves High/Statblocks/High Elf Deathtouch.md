@@ -88,4 +88,5 @@ abilities:
           outcome on power rolls. They can still roll to determine if they score
           a critical hit. At the end of their next turn, the target immediately
           dies.
+        name: Effect
 ```

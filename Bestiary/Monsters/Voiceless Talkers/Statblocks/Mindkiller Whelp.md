@@ -84,4 +84,5 @@ abilities:
       - effect: The whelp transforms into a mindkiller whose Stamina equals their
           squad's Stamina pool before transforming. The Stamina pool then loses
           the whelp's Stamina.
+        name: Effect
 ```

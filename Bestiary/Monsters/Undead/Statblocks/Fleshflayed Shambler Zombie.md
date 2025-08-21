@@ -74,4 +74,5 @@ abilities:
         t3: 7 damage
       - effect: If this ability gains an edge or has a double edge, the target is
           bleeding (save ends).
+        name: Effect
 ```

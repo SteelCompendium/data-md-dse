@@ -79,6 +79,7 @@ abilities:
         t3: 14 damage; I < 4 dazed (save ends)
       - effect: If the target has any effect on them that can be ended by a saving throw
           or that ends at the end of their turn, they are also knocked prone.
+        name: Effect
   - name: Far Flung
     cost: 3 Malice
     keywords:
@@ -94,6 +95,7 @@ abilities:
         t3: Vertical push 12
       - effect: Against a target who is prone or grabbed, this ability has a double
           edge.
+        name: Effect
   - name: Polish Stone Shape
     keywords:
       - Area
@@ -104,6 +106,7 @@ abilities:
       - effect: The ground in the area becomes slick and glossy. Any non-giant who
           starts or ends their turn in the area is knocked prone and slides 2
           squares.
+        name: Effect
   - name: Break Armor
     cost: 1 Malice
     keywords:
@@ -117,4 +120,5 @@ abilities:
           a +3 bonus to speed until the end of the encounter. The damage
           weakness increases by 3 each time the marble stone giant uses this
           ability in the same encounter.
+        name: Effect
 ```

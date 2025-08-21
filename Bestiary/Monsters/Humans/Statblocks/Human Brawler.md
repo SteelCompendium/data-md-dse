@@ -78,6 +78,7 @@ abilities:
         t3: 12 damage; M < 2 grabbed and the target takes a bane on the Escape Grab
           maneuver
       - effect: A target who is already grabbed takes an extra 2 damage.
+        name: Effect
   - name: Throw
     cost: 1 Malice
     keywords:
@@ -87,4 +88,5 @@ abilities:
     target: One creature grabbed by the brawler
     effects:
       - effect: The brawler pushes the target up to 5 squares.
+        name: Effect
 ```

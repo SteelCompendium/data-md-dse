@@ -63,4 +63,5 @@ metadata:
 effects:
   - effect: The target has an additional main action they can use on their next
       turn, and gains 3 of their Heroic Resource.
+    name: Effect
 ```

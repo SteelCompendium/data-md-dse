@@ -74,6 +74,7 @@ abilities:
         t3: 7 corruption damage; I < 3 dazed (save ends)
       - effect: The fiktin violently changes shape, dealing an extra 6 damage to any
           target they were hidden from with their Aggressive Mimicry ability.
+        name: Effect
   - name: Aggressive Mimicry
     cost: 1 Malice
     keywords:
@@ -85,4 +86,5 @@ abilities:
       - effect: The fiktin transforms into a mundane object of their size or smaller and
           is automatically hidden. They can revert to their true form as a free
           maneuver.
+        name: Effect
 ```

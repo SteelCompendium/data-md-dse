@@ -77,4 +77,5 @@ abilities:
           for this ability, dealing an extra 5 damage to that creature or object
           and the target. They then end the grab and leave the creature or
           object prone in an unoccupied space adjacent to the target.
+        name: Effect
 ```

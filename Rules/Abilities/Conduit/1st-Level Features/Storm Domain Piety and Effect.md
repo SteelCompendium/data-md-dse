@@ -33,11 +33,10 @@ metadata:
   source: mcdm.heroes.v1
   type: feature/trait/conduit/1st-level-feature
 effects:
-  - effect: >-
-      You gain 2 piety the first time in an encounter that an enemy within 10
+  - effect: You gain 2 piety the first time in an encounter that an enemy within 10
       squares is force moved.
-
-      - **Prayer Effect:** Each enemy in a 3 cube within 10 squares takes
-      lightning damage equal to twice your Intuition score.
     name: Piety
+  - effect: Each enemy in a 3 cube within 10 squares takes lightning damage equal to
+      twice your Intuition score.
+    name: Prayer Effect
 ```

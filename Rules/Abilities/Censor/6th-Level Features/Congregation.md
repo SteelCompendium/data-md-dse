@@ -75,4 +75,5 @@ effects:
       against the target
   - effect: Each ally can shift up to 2 squares and gains 2 surges before making the
       strike.
+    name: Effect
 ```

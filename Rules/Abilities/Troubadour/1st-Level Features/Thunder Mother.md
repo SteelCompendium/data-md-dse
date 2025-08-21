@@ -60,7 +60,8 @@ metadata:
   target: One creature
   type: feature/ability/troubadour/1st-level-feature
 effects:
-  - effect: At the end of each combat round while this performance is active, you
+  - name: Effect
+    effect: At the end of each combat round while this performance is active, you
       can make a power roll against the target that ignores cover. You can't
       target the same creature twice with this effect.
   - roll: Power Roll + Presence

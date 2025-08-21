@@ -80,6 +80,7 @@ abilities:
         t3: 21 damage; M < 4 slowed (save ends)
       - effect: If a target was already slowed, that condition continues but their speed
           is 0 until the end of their next turn.
+        name: Effect
   - name: Forked Knife
     cost: 3 Malice
     keywords:
@@ -99,6 +100,7 @@ abilities:
           immunity 5. Whenever the knife takes damage, it deals 4 sonic damage
           to each enemy within 3 squares. The knife lasts until the end of the
           encounter, and can't be picked up or manipulated.
+        name: Effect
   - name: Cobblestone Shape
     keywords:
       - "-"
@@ -109,6 +111,7 @@ abilities:
       - effect: The basalt stone giant moves up to their speed. Each square that they
           leave during this move is difficult terrain for enemies Giants ignore
           this difficult terrain.
+        name: Effect
   - name: Resonate Rune
     keywords:
       - Area
@@ -120,4 +123,5 @@ abilities:
     effects:
       - effect: The target is pushed up to 3 squares, or if they have A < 3, they are
           pushed up to 6 squares and knocked prone.
+        name: Effect
 ```

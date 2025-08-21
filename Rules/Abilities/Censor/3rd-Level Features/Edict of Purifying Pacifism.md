@@ -67,4 +67,5 @@ effects:
   - effect: Until the end of the encounter or until you are dying, whenever a target
       makes a strike, they take holy damage equal to twice your Presence score.
       A target judged by you takes an extra 2d6 holy damage.
+    name: Effect
 ```

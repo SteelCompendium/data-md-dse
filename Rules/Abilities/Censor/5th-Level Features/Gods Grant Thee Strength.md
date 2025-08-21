@@ -63,4 +63,5 @@ effects:
       stand up. The target then gains 2 surges, can shift up to their speed
       while ignoring difficult terrain, and can use a strike signature ability
       as a free triggered action.
+    name: Effect
 ```

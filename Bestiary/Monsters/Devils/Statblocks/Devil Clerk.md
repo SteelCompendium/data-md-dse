@@ -74,4 +74,5 @@ abilities:
         t3: 7 damage; push 3
       - effect: Any target adjacent to two or more clerks is taunted until the end of
           their next turn.
+        name: Effect
 ```

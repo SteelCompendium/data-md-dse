@@ -70,4 +70,5 @@ abilities:
         t2: 2 damage
         t3: 3 damage
       - effect: One ally within 3 squares of the princeps shifts up to 2 squares
+        name: Effect
 ```

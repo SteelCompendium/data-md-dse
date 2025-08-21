@@ -75,6 +75,7 @@ abilities:
         t3: 16 damage
       - effect: Until the end of the current turn, the moondancer ignores opportunity
           attacks from the target.
+        name: Effect
   - name: Dissolve
     keywords:
       - Magic
@@ -85,4 +86,5 @@ abilities:
     effects:
       - effect: The moondancer can teleport up to 10 squares to a space with concealment
           created by darkness.
+        name: Effect
 ```

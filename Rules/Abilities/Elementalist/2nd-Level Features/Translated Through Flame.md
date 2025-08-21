@@ -67,7 +67,8 @@ metadata:
   target: Self or one ally
   type: feature/ability/elementalist/2nd-level-feature
 effects:
-  - effect: The target is teleported to another space within distance. Make a power
+  - name: Effect
+    effect: The target is teleported to another space within distance. Make a power
       roll that affects each enemy adjacent to the target's new space.
   - roll: Power Roll + Reason
     t1: 3 fire damage

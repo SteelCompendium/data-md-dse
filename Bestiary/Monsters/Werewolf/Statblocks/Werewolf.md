@@ -127,6 +127,7 @@ abilities:
         t2: 6 damage; push 3; the target gains 1 rage
         t3: 7 damage; slide 3; the target gains 3 rage
       - effect: The werewolf shifts up to their speed before using this ability
+        name: Effect
   - name: Wall Leap
     keywords:
       - "-"
@@ -138,6 +139,7 @@ abilities:
           werewolf jumps off the wall up to 4 squares and can make a melee free
           strike. If the target of the free strike has M < 2, they are knocked
           prone.
+        name: Effect
   - name: Facepalm and Head Slam
     cost: 2 Malice
     keywords:
@@ -150,6 +152,7 @@ abilities:
     effects:
       - effect: The target is knocked prone and takes 5 damage before the triggering
           ability is resolved.
+        name: Effect
   - name: Howl
     cost: Villain Action 1
     keywords:
@@ -158,17 +161,15 @@ abilities:
     distance: 5 burst
     target: Each enemy in the area
     effects:
-      - effect: >-
-          Each target makes an Intuition test.
-
-          - **≤11:** The target must move their speed in a straight line away
-          from the werewolf; frightened (save ends)
-
-          - **12-16:** Frightened (EoT)
-
-          - **17+:** No effect
+      - name: Effect
+        effect: Each target makes an Intuition test.
+        t1: The target must move their speed in a straight line away from the werewolf;
+          frightened (save ends)
+        t2: Frightened (EoT)
+        t3: No effect
       - effect: Any enemy in the encounter who has 1 or more rage gains 4 rage and howls
           along with the werewolf.
+        name: Effect
   - name: Full Wolf
     cost: Villain Action 2
     keywords:
@@ -183,6 +184,7 @@ abilities:
           way. While in wolf form, they have speed 10 and stability 2, their
           strikes gain a +2 damage bonus and bestow an additional 1 rage, and
           the potency of Accursed Bite increases by 1.
+        name: Effect
   - name: Rampage
     cost: Villain Action 3
     keywords:
@@ -198,4 +200,5 @@ abilities:
         t3: 11 damage; the target gains 8 rage; M < 3 bleeding (save ends)
       - effect: The werewolf shifts up to their speed before and after using this
           ability.
+        name: Effect
 ```

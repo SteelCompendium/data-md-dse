@@ -87,6 +87,7 @@ abilities:
         t2: 16 damage; M < 4 weakened (save ends)
         t3: 20 damage; M < 5 weakened (save ends)
       - effect: Each ally in the area regains 10 Stamina.
+        name: Effect
   - name: Battlefield Control
     keywords:
       - Ranged
@@ -97,4 +98,5 @@ abilities:
     effects:
       - effect: At any point during the movement, the tactician and one ally within
           distance can use a signature ability against the target.
+        name: Effect
 ```

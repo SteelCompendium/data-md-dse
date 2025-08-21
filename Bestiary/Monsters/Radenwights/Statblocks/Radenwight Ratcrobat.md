@@ -70,6 +70,7 @@ abilities:
         t3: 8 damage
       - effect: The ratcrobat shifts up to 2 squares after striking the first target,
           then can shift 1 square after striking the second target.
+        name: Effect
   - name: Over Here, Thanks
     keywords:
       - Melee
@@ -79,6 +80,7 @@ abilities:
     effects:
       - effect: The ratcrobat slides the target up to 3 squares, then can shift into any
           square the target left
+        name: Effect
   - name: Ready Rodent
     keywords:
       - Melee
@@ -89,4 +91,5 @@ abilities:
     trigger: An ally deals damage to the target.
     effects:
       - effect: The ratcrobat makes a free strike against the target.
+        name: Effect
 ```

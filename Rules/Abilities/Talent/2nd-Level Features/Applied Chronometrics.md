@@ -74,6 +74,7 @@ effects:
   - effect: Until the start of your next turn, each target gains a +5 bonus to
       speed, they can't be made dazed, and they can use an additional maneuver
       on their turn. If a target is already dazed, that condition ends for them.
+    name: Effect
   - effect: Your speed is halved until the end of the encounter.
     name: Strained
 ```

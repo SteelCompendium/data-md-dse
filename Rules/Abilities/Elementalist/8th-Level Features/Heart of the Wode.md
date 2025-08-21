@@ -79,4 +79,5 @@ effects:
       Each enemy who ends their turn within 3 squares of the tree is restrained
       until the end of their next turn. A creature restrained this way can use a
       main action to end the effect early.
+    name: Effect
 ```

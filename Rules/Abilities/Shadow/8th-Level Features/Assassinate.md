@@ -70,4 +70,5 @@ effects:
     t3: 24 + A damage
   - effect: A target who is not a minion, leader, or solo creature and who is winded
       after taking this damage is reduced to 0 Stamina.
+    name: Effect
 ```

@@ -73,6 +73,7 @@ abilities:
           target restrained by a dwarf can be force moved by this ability. This
           forced movement doesn't end the restrained condition unless the
           Director determines otherwise.
+        name: Effect
       - effect: This ability targets one additional target.
         cost: 3 Malice
   - name: Intercepting Shield
@@ -86,4 +87,5 @@ abilities:
     effects:
       - effect: The shieldwall becomes the target of the triggering strike and halves
           the damage.
+        name: Effect
 ```

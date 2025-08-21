@@ -92,4 +92,5 @@ abilities:
         t3: 9 psychic damage; P < 5 bleeding (save ends)
       - effect: Any creature who is bleeding from this ability loses 2d6 Stamina instead
           of 1d6.
+        name: Effect
 ```

@@ -74,6 +74,7 @@ abilities:
         t3: 14 corruption damage; I < 5 frightened (save ends)
       - effect: A creature frightened this way takes a bane on any ability that targets
           undead.
+        name: Effect
   - name: Mystic Battery
     cost: 1 Malice
     keywords:
@@ -87,4 +88,5 @@ abilities:
       - effect: Any damage dealt by or Stamina regained from the ability is halved. The
           lithgekh regains Stamina equal to the remaining damage dealt or
           Stamina gained.
+        name: Effect
 ```

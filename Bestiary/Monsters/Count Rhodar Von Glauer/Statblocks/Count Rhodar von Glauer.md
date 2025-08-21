@@ -95,6 +95,7 @@ abilities:
           spears, each of which can be used to impale a target. At the start of
           each of his turns, Rhodar can summon any of his spears back to
           himself, ending the restrained condition on an impaled target.
+        name: Effect
   - name: Disarming Glare
     keywords:
       - Area
@@ -103,16 +104,12 @@ abilities:
     distance: 5 burst
     target: Each enemy in the area
     effects:
-      - effect: >-
-          Each target makes an Intuition test.
-
-          - **≤11:** 16 corruption damage; frightened (save ends)
-
-          - **12-16:** 13 corruption damage; frightened (EoT)
-
-          - **17+:** 8 corruption damage
-
-          While a target is frightened this way, Rhodar ignores banes and double
+      - name: Effect
+        effect: Each target makes an Intuition test.
+        t1: 16 corruption damage; frightened (save ends)
+        t2: 13 corruption damage; frightened (EoT)
+        t3: 8 corruption damage
+      - effect: While a target is frightened this way, Rhodar ignores banes and double
           banes on abilities used against them.
   - name: Vermilion Fangs
     cost: 3 Malice
@@ -130,6 +127,7 @@ abilities:
         t3: 30 corruption damage; prone; M < 6 the target is bleeding until the end of
           the encounter
       - effect: Rhodar regains Stamina equal to half the damage dealt.
+        name: Effect
   - name: Sanguineous Flourish
     cost: 5 Malice
     keywords:
@@ -145,6 +143,7 @@ abilities:
         t3: 6 damage, 10 corruption damage; push 7; M < 6 bleeding (save ends)
       - effect: Rhodar shifts up to his speed before or after using this ability He
           regains Stamina equal to half the total corruption damage dealt.
+        name: Effect
   - name: Vengeance of Rhöl
     cost: 2 Malice
     keywords:
@@ -160,6 +159,7 @@ abilities:
           their turn there takes 5 corruption damage. At the end of the round,
           the spirits violently disperse. Each enemy within 2 squares of an area
           and has P < 5 is weakened (save ends).
+        name: Effect
   - name: Reactive Rebuke
     cost: 2 Malice
     keywords:
@@ -172,6 +172,7 @@ abilities:
     effects:
       - effect: A target who has I < 5 is frightened. This effect ends if the target is
           11 or more squares from Rhodar.
+        name: Effect
   - name: Red Tide
     cost: Villain Action 1
     keywords:
@@ -189,6 +190,7 @@ abilities:
           encounter
       - effect: While a creature is blood soaked, Rhodar has a double edge on abilities
           used against them.
+        name: Effect
   - name: Sanguine Mist
     cost: Villain Action 2
     keywords:
@@ -198,17 +200,14 @@ abilities:
     distance: 5 burst
     target: Each enemy in the area
     effects:
-      - effect: >-
-          Each target makes a Presence test.
-
-          - **≤11:** 16 corruption damage; the target is bleeding until the end
-          of the encounter
-
-          - **12-16:** 13 corruption damage; bleeding (save ends)
-
-          - **17+:** 8 corruption damage
+      - name: Effect
+        effect: Each target makes a Presence test.
+        t1: 16 corruption damage; the target is bleeding until the end of the encounter
+        t2: 13 corruption damage; bleeding (save ends)
+        t3: 8 corruption damage
       - effect: Rhodar teleports to an unoccupied space in the area. If he has lost the
           damage immunity from his Grave Ward trait, he regains it.
+        name: Effect
   - name: Fires of Dracul
     cost: Villain Action 3
     keywords:
@@ -224,4 +223,5 @@ abilities:
         t3: 20 fire damage; R < 6 weakened (save ends)
       - effect: Rhodar teleports to an unoccupied space adjacent to one target after the
           ability resolve.
+        name: Effect
 ```

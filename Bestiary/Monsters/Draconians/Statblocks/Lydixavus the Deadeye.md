@@ -100,6 +100,7 @@ abilities:
           its space, using the power roll for the Ice Lob ability, and targeting
           the triggering creature and each creature and object adjacent to the
           ice mine.
+        name: Effect
   - name: Wasn't Aiming For You
     keywords:
       - "-"
@@ -110,4 +111,5 @@ abilities:
     effects:
       - effect: Lydixavus uses their signature ability again, targeting a creature
           within 5 squares of the original target.
+        name: Effect
 ```

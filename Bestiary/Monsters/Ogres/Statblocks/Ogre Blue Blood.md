@@ -74,4 +74,5 @@ abilities:
         t2: 7 damage; M < 3 prone
         t3: 8 damage; prone
       - effect: A target who is already prone takes an extra 4 damage.
+        name: Effect
 ```

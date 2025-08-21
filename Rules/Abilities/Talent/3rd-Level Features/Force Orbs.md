@@ -67,7 +67,8 @@ metadata:
   target: Self
   type: feature/ability/talent/3rd-level-feature
 effects:
-  - effect: >-
+  - name: Effect
+    effect: >-
       You create three size 1T orbs that orbit your body. Each orb gives you a
       cumulative damage immunity 1. Each time you take damage, you lose 1 orb.
 

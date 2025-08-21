@@ -63,4 +63,5 @@ effects:
       All This Confusion ability. Before you teleport, you can make a free
       strike against a creature who damaged you to trigger In All This
       Confusion. After you teleport, you can spend a Recovery.
+    name: Effect
 ```

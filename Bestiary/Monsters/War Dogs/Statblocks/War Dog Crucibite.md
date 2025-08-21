@@ -74,6 +74,7 @@ abilities:
       - effect: The area is covered in sticky fire until the start of the crucibite's
           next turn. Any creature who enters the area for the first time in a
           round or starts their turn there takes 2 fire damage
+        name: Effect
       - effect: The area becomes a 10 x 1 line, and if any ally of the crucibite is in
           the area when it is created, the ability deals an extra 2 damage to
           each target.
@@ -87,4 +88,5 @@ abilities:
     target: One war dog
     effects:
       - effect: If the target has a loyalty collar, they are reduced to 0 Stamina.
+        name: Effect
 ```

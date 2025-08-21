@@ -72,4 +72,5 @@ effects:
       and 6 squares deep. Each creature in the area who is prone and size 2 or
       smaller falls in. Other creatures can enter the fissure or can shift to
       the nearest unoccupied space of their choice outside it.
+    name: Effect
 ```

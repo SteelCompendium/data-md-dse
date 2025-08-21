@@ -73,4 +73,5 @@ effects:
     t3: 11 + M holy damage
   - effect: You can spend a Recovery to allow yourself or one ally within 10 squares
       to regain Stamina equal to your recovery value.
+    name: Effect
 ```

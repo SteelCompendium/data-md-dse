@@ -72,6 +72,7 @@ abilities:
         t2: 8 damage; pull 3; M < 1 slowed (save ends)
         t3: 10 damage; pull 5; M < 2 slowed (save ends)
       - effect: While slowed this way, a target can't search for hidden creatures.
+        name: Effect
       - effect: The size of the cube and the potency both increase by 1.
         cost: 3 Malice
   - name: The Wode Protects Us
@@ -85,4 +86,5 @@ abilities:
     effects:
       - effect: Each target can teleport up to 10 squares to a space that has cover or
           concealment.
+        name: Effect
 ```

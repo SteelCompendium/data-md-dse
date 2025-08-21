@@ -67,7 +67,8 @@ metadata:
   target: One creature or object
   type: feature/ability/shadow/5th-level-feature
 effects:
-  - effect: You and the target are removed from the encounter map until the start of
+  - name: Effect
+    effect: You and the target are removed from the encounter map until the start of
       your next turn. You reappear in the spaces you left or the nearest
       unoccupied spaces. Make a power roll upon your return.
   - roll: Power Roll + Agility

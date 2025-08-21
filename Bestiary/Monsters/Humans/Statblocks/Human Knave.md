@@ -80,4 +80,5 @@ abilities:
         t2: 9 damage
         t3: 12 damage; M < 2 the target has a double bane on their next power roll
       - effect: The target is taunted (EoT).
+        name: Effect
 ```

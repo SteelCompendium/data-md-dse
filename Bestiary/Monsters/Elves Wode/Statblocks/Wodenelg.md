@@ -78,6 +78,7 @@ abilities:
         t3: 9 damage
       - effect: The wodenelg's rider can make a free strike at any point during the
           charge.
+        name: Effect
   - name: Where I End the Woods Begin
     cost: 3 Malice
     keywords:
@@ -88,4 +89,5 @@ abilities:
     effects:
       - effect: The wodenelg and their rider become invisible until the start of the
           wodenelg's next turn.
+        name: Effect
 ```

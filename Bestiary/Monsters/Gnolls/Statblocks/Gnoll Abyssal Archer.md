@@ -75,6 +75,7 @@ abilities:
         t2: 6 corruption damage
         t3: 8 corruption damage; M < 2 slowed (save ends)
       - effect: This ability gains an edge against any target not at full Stamina.
+        name: Effect
   - name: Archer's Cackletongue
     cost: 2 Malice
     keywords:
@@ -86,4 +87,5 @@ abilities:
       - effect: Until the end of their next turn, each target gains an edge on their
           next strike. If any target hasn't used their own Cackletongue maneuver
           on this turn, they can use it immediately at no cost.
+        name: Effect
 ```

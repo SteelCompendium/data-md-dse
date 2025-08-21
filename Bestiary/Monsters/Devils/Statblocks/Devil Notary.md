@@ -74,4 +74,5 @@ abilities:
         t3: 6 fire damage; R < 3 the target takes a bane on their next strike
       - effect: One non-minion devil within 5 squares of the notary gains an edge on
           their next strike.
+        name: Effect
 ```

@@ -83,6 +83,7 @@ abilities:
         t3: 17 fire damage; R < 3 slowed (save ends)
       - effect: If this ability gains an edge or has a double edge, the target can't
           communicate with anyone until the end of their next turn.
+        name: Effect
   - name: Smoke Bomb
     cost: 3 Malice
     keywords:
@@ -92,14 +93,9 @@ abilities:
     distance: 3 burst
     target: Each enemy in the area
     effects:
-      - effect: >-
-          Each target makes a Might test.
-
-          - **≤11:** 11 damage; the target has a double bane on their next power
-          roll
-
-          - **12-16:** 9 damage; the target takes a bane on their next power
-          roll
-
-          - **17+:** 5 damage
+      - name: Effect
+        effect: Each target makes a Might test.
+        t1: 11 damage; the target has a double bane on their next power roll
+        t2: 9 damage; the target takes a bane on their next power roll
+        t3: 5 damage
 ```

@@ -90,6 +90,7 @@ abilities:
         t2: 8 corruption damage; P < 2 5 corruption damage
         t3: 10 corruption damage; P < 3 6 corruption damage
       - effect: This ability gains an edge against a target who has a soul.
+        name: Effect
       - effect: The hag regains Stamina equal to half the damage dealt.
         cost: 3 Malice
   - name: Shapeshifter
@@ -103,6 +104,7 @@ abilities:
           cat to a humanoid. If the hag uses this ability while outside of any
           enemy's line of effect, they can choose to be automatically hidden.
           The hag can return to their original form as a free maneuver.
+        name: Effect
       - effect: The hag becomes a size 2 creature instead, from a bear to an ogre. While
           in this form, the hag's melee abilities gain a +1 bonus to distance
           and deal an extra 4 damage.
@@ -123,6 +125,7 @@ abilities:
         t3: Vertical slide 5; R < 3 restrained (EoT)
       - effect: While restrained this way, a creature who is vertical force moved is
           suspended in midair. The creature falls when the condition ends.
+        name: Effect
   - name: Snackies for Sweeties
     cost: Villain Action 1
     keywords:
@@ -132,23 +135,20 @@ abilities:
     distance: 5 burst
     target: Each creature in the area
     effects:
-      - effect: The hag attaches an ornate explosive pastry to each target who has A <
+      - name: Effect
+        effect: The hag attaches an ornate explosive pastry to each target who has A <
           2. At the end of the round, the hag makes one power roll against each
           creature with a pastry attached to them.
       - roll: Power Roll + 3
         t1: 6 poison damage
         t2: 10 poison damage
         t3: 13 poison damage
-      - effect: >-
-          A creature wearing a pastry or adjacent to a creature wearing a pastry
+      - name: Special
+        effect: A creature wearing a pastry or adjacent to a creature wearing a pastry
           can attempt an **Agility test** to remove the pastry as a maneuver.
-
-          - **≤11:** The hag makes the power roll for all pastries.
-
-          - **12-16:** The pastry is not removed.
-
-          - **17+:** The pastry is removed and can no longer explode.
-        name: Special
+        t1: The hag makes the power roll for all pastries.
+        t2: The pastry is not removed.
+        t3: The pastry is removed and can no longer explode.
   - name: Predator's Alacrity
     cost: Villain Action 2
     keywords:
@@ -161,6 +161,7 @@ abilities:
       - effect: Before using this villain action, the hag shifts up to their speed. They
           then use Corrosive Claws against each target, push each target up to 2
           squares, and shift up to their speed again
+        name: Effect
   - name: Open the Oven
     cost: Villain Action 3
     keywords:
@@ -177,4 +178,5 @@ abilities:
       - effect: The hag turns the area into a roiling oven until the end of the
           encounter. Any creature in area takes an extra 5 damage from the hag's
           damage-dealing abilities.
+        name: Effect
 ```

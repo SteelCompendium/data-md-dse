@@ -61,6 +61,7 @@ effects:
   - effect: You teleport the target up to a number of squares equal to your Reason
       score. If the target moves to trigger this ability, you can teleport them
       at any point during the move.
+    name: Effect
   - effect: You teleport the target up to a number of squares equal to twice your
       Reason score instead.
     cost: Spend 1 Essence

@@ -71,6 +71,7 @@ abilities:
         t3: 12 damage; grabbed
       - effect: A target grabbed this way takes 2 damage at the start of each of the
           bruxer's turns.
+        name: Effect
   - name: Flurry of Bites
     cost: 3 Malice
     keywords:
@@ -94,4 +95,5 @@ abilities:
     trigger: An ally deals damage to the target.
     effects:
       - effect: The bruxer makes a free strike against the target.
+        name: Effect
 ```

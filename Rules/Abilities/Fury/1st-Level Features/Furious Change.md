@@ -54,6 +54,7 @@ metadata:
 effects:
   - effect: You gain temporary Stamina equal to your Might score and can enter your
       animal form or hybrid form.
+    name: Effect
   - effect: If you are not dying, you can spend a Recovery.
     cost: Spend 1 Ferocity
 ```

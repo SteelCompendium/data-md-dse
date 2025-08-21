@@ -56,6 +56,7 @@ metadata:
   type: feature/ability/conduit/1st-level-feature
 effects:
   - effect: The power roll gains an edge.
+    name: Effect
   - effect: The power roll has a double edge.
     cost: Spend 1 Piety
 ```

@@ -107,6 +107,7 @@ abilities:
       - effect: The kingfissure worm must have one or more tongues to use this ability.
           As a maneuver, the kingfissure worm can pull up to two creatures
           grabbed this way adjacent to them.
+        name: Effect
   - name: Maw
     keywords:
       - Charge
@@ -136,6 +137,7 @@ abilities:
     target: One grabbed creature
     effects:
       - effect: The target is swallowed (see Swallowed).
+        name: Effect
   - name: Tongue Whip
     keywords:
       - Melee
@@ -151,6 +153,7 @@ abilities:
           object against the target, dealing 13 damage to both. If this ability
           is used at range, it deals an extra 5 damage and the grabbed creature
           or object is released.
+        name: Effect
   - name: Tearing Recoil
     keywords:
       - "-"
@@ -162,6 +165,7 @@ abilities:
       - effect: The kingfissure worm deals 5 damage to the creature or object the tongue
           had grabbed, releases that creature or object, then pulls the damaged
           tongue back into their mouth.
+        name: Effect
   - name: King's Fissure
     cost: Villain Action 1
     keywords:
@@ -171,20 +175,16 @@ abilities:
     distance: 20 x 4 line within 1
     target: Each creature and object in the area
     effects:
-      - effect: Each target must be on the ground.
-        name: Special
-      - effect: >-
-          The area becomes a 10-square-deep fissure in the earth. Each target
+      - name: Special
+        effect: Each target must be on the ground.
+      - name: Effect
+        effect: The area becomes a 10-square-deep fissure in the earth. Each target
           makes an **Agility test**.
-
-          - **≤11:** 10 damage; the target falls into the fissure, lands prone,
-          and can't stand (EoT)
-
-          - **12-16:** 10 damage; the target is knocked prone and left hanging
-          at the edge of the area
-
-          - **17+:** The target shifts to the nearest unoccupied space outside
-          the area.
+        t1: 10 damage; the target falls into the fissure, lands prone, and can't stand
+          (EoT)
+        t2: 10 damage; the target is knocked prone and left hanging at the edge of the
+          area
+        t3: The target shifts to the nearest unoccupied space outside the area.
   - name: Earth Breach
     cost: Villain Action 2
     keywords:
@@ -200,6 +200,7 @@ abilities:
           movement takes 10 damage, and if they have A < 4 they are knocked
           prone. Any creature who is made winded by this damage is swallowed
           (see Swallowed).
+        name: Effect
   - name: Better Out Than In
     cost: Villain Action 3
     keywords:
@@ -216,4 +217,5 @@ abilities:
       - effect: Each creature swallowed by the worm is regurgitated and automatically
           subject to the tier 3 outcome, then lands prone in an unoccupied space
           within 5 squares of the kingfissure worm.
+        name: Effect
 ```

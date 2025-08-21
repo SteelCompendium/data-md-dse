@@ -70,4 +70,5 @@ effects:
       enemies can't. Any enemy who moves within 2 squares of the spirit for the
       first time in a combat round or starts their turn there takes holy damage
       equal to your Intuition score.
+    name: Effect
 ```

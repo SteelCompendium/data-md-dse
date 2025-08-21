@@ -65,4 +65,5 @@ effects:
       approach within 5 squares of you by moving or by being force moved by any
       enemy. Targets can be force moved closer to you by you or your allies, or
       can move closer because of your movement.
+    name: Effect
 ```

@@ -75,6 +75,7 @@ abilities:
         t2: 12 damage; M < 1 restrained (save ends)
         t3: 15 damage; M < 2 restrained (save ends)
       - effect: The target's space is difficult terrain.
+        name: Effect
   - name: Convocation of Quartz
     keywords:
       - Magic
@@ -86,6 +87,7 @@ abilities:
       - effect: Until the start of the force's next turn, any melee strike made against
           the target takes a bane if it doesn't already have a bane or double
           bane.
+        name: Effect
       - effect: Until the end of the encounter, the target grows a carapace of stone.
           They have a +3 bonus to stability and gain 15 temporary Stamina.
         cost: 3 Malice
@@ -101,4 +103,5 @@ abilities:
       - effect: The force halves the damage, and has damage weakness 3 and a +3 bonus to
           speed until the end of the encounter. This damage weakness increases
           by 3 each time the force uses this ability in the same encounter.
+        name: Effect
 ```

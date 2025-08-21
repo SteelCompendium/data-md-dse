@@ -75,4 +75,5 @@ abilities:
           line away from the draconite
       - effect: If this damage leaves the target winded, they are frightened of the
           draconite until the end of the target's next turn.
+        name: Effect
 ```

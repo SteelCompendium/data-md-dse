@@ -72,4 +72,5 @@ effects:
     t2: 7 fire damage; A < AVERAGE, weakened (save ends)
     t3: 10 fire damage; A < STRONG, weakened (save ends)
   - effect: Each ally in the area can shift up to 2 squares.
+    name: Effect
 ```

@@ -93,4 +93,5 @@ abilities:
           damage at the start of each of their turns, and regains 5 Stamina each
           time they use an ability or other effect that allows another creature
           to spend a Recovery.
+        name: Effect
 ```

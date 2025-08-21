@@ -74,4 +74,5 @@ effects:
   - effect: You can shift up to 4 squares, bringing the target with you. While
       grabbed this way, the target takes damage equal to twice your Might score
       at the start of each of your turns.
+    name: Effect
 ```

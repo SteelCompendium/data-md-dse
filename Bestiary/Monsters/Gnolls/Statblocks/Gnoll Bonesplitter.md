@@ -71,6 +71,7 @@ abilities:
         t3: 8 damage; grabbed; M < 2 the target takes a bane on the Escape Grab maneuver
       - effect: While the bonesplitter has a target grabbed, they can't use Three-Tail
           Flail against another target.
+        name: Effect
   - name: Bonesplitter's Cackletongue
     cost: 4 Malice
     keywords:
@@ -82,4 +83,5 @@ abilities:
       - effect: Up to three targets can make a free strike. If any target hasn't used
           their own Cackletongue maneuver on this turn, they can use it
           immediately at no cost.
+        name: Effect
 ```

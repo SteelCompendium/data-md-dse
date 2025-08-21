@@ -70,4 +70,5 @@ effects:
   - effect: Choose yourself or one ally within distance. That character can end one
       effect on them that is ended by a saving throw or that ends at the end of
       their turn.
+    name: Effect
 ```

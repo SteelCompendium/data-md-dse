@@ -72,4 +72,5 @@ abilities:
         t2: 4 damage
         t3: 5 damage
       - effect: This ability ignores cover and concealment.
+        name: Effect
 ```

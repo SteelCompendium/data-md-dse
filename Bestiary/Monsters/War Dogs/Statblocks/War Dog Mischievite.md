@@ -76,6 +76,7 @@ abilities:
         t3: 8 damage; R < 3 the target is dazzled (save ends)
       - effect: A dazzled target takes a bane on strikes and has line of effect only
           within 1 square.
+        name: Effect
   - name: Misdirection
     keywords:
       - Ranged
@@ -85,6 +86,7 @@ abilities:
     effects:
       - effect: The mischievite swaps positions with the target. An ally targeted by
           this ability can make a free strike before or after being swapped.
+        name: Effect
       - effect: The mischievite can use this ability as a triggered action when they are
           targeted by an ability. If they do, the swapped target becomes the new
           target of the triggering ability.

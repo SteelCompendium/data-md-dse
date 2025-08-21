@@ -70,4 +70,5 @@ effects:
     t3: 13 damage
   - effect: You can take the Disengage move action as a free maneuver before or
       after you use this ability.
+    name: Effect
 ```

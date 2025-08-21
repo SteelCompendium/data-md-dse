@@ -70,4 +70,5 @@ effects:
     t3: 8 + M damage; M < STRONG, bleeding (save ends)
   - effect: While bleeding this way, the target takes damage equal to your Might
       score at the end of each of your turns.
+    name: Effect
 ```

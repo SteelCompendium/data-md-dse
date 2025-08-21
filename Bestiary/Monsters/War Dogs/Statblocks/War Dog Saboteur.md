@@ -72,4 +72,5 @@ abilities:
         t3: 8 fire damage; push
       - effect: The space the target occupies fills with dark smoke and blocks line of
           effect until the start of the saboteur's next turn
+        name: Effect
 ```

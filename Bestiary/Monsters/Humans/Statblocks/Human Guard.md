@@ -73,4 +73,5 @@ abilities:
         t3: 5 damage
       - effect: If the guard is flanked, they can make a free strike against a different
           target adjacent to them.
+        name: Effect
 ```

@@ -73,6 +73,7 @@ abilities:
       - effect: Whenever a creature bleeding this way takes damage from that condition,
           their speed decreases by 1 (to a minimum of 0) until that condition
           ends.
+        name: Effect
   - name: Flower of Frost
     cost: 3 Malice
     keywords:
@@ -82,18 +83,15 @@ abilities:
     distance: Ranged 15
     target: Special
     effects:
-      - effect: >-
-          The storm hurler throws three size 1L ice javelins into unoccupied
+      - name: Effect
+        effect: The storm hurler throws three size 1L ice javelins into unoccupied
           squares within distance. Each javelin has 30 Stamina and fire weakness
           5. At the start of the storm hurler's next turn, all javelins not
           destroyed explode in a shower of icicles. Each enemy and object within
           3 squares of an exploding javelin makes an **Agility test**.
-
-          - **≤11:** 14 cold damage; push 4; bleeding (save ends)
-
-          - **12-16:** 11 cold damage; push 2; slowed (save ends)
-
-          - **17+:** 7 cold damage
+        t1: 14 cold damage; push 4; bleeding (save ends)
+        t2: 11 cold damage; push 2; slowed (save ends)
+        t3: 7 cold damage
   - name: Ice Dance
     keywords:
       - Melee
@@ -104,6 +102,7 @@ abilities:
       - effect: The storm hurler and the target each shift up to 6 squares while staying
           adjacent to each other. The target can then jump up to 5 squares and
           make a free strike.
+        name: Effect
   - name: Frozen Retribution
     keywords:
       - "-"
@@ -115,4 +114,5 @@ abilities:
       - effect: The triggering strike has a double bane. If the strike obtains a tier 1
           outcome, the storm hurler uses Ice Javelins against the creature who
           made it.
+        name: Effect
 ```

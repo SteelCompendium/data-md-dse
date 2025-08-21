@@ -76,4 +76,5 @@ effects:
       actions or free triggered actions, ability rolls made against them gain an
       edge, and their characteristic scores are considered 1 lower for the
       purpose of resisting potencies.
+    name: Effect
 ```

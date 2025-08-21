@@ -63,4 +63,5 @@ effects:
       triggering creature and strike. You can teleport to an unoccupied space
       within 3 squares of that creature and can make a free strike against them.
       You can then spend a Recovery.
+    name: Effect
 ```

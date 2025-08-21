@@ -78,6 +78,7 @@ abilities:
           restrained moves to the nearest unoccupied space adjacent to the
           brick. The brick can have as many creatures or objects engulfed as
           will fit within their space
+        name: Effect
       - effect: This ability targets one additional target.
         cost: 2 Malice
   - name: You Didn't Pay Attention!
@@ -90,4 +91,5 @@ abilities:
     effects:
       - effect: The brick uses Engulf against the triggering creature and has a double
           edge.
+        name: Effect
 ```

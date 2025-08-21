@@ -74,6 +74,7 @@ abilities:
         t3: 16 damage; I < 3 bleeding (save ends)
       - effect: The panther can make a free strike against a creature or object adjacent
           to the target.
+        name: Effect
   - name: Bladestorm
     cost: 3 Malice
     keywords:
@@ -88,4 +89,5 @@ abilities:
         t2: 8 corruption damage; I < 2 dazed (save ends)
         t3: 10 corruption damage; I < 3 dazed (save ends)
       - effect: The panther has a double edge on strikes against targets dazed this way.
+        name: Effect
 ```

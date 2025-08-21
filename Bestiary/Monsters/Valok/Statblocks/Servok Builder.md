@@ -76,11 +76,11 @@ abilities:
     distance: 3 cube within 5
     target: Each enemy and object in the area
     effects:
-      - effect: |-
-          Each target must make either an Agility test or an **Intuition test**.
-          - **≤11:** 15 damage; push 5, prone
-          - **12-16:** 12 damage; push 3
-          - **17+:** 8 damage
+      - name: Effect
+        effect: Each target must make either an Agility test or an **Intuition test**.
+        t1: 15 damage; push 5, prone
+        t2: 12 damage; push 3
+        t3: 8 damage
   - name: Construction Arm
     keywords:
       - Melee
@@ -102,15 +102,12 @@ abilities:
     distance: 6 x 3 line within 1
     target: Special
     effects:
-      - effect: >-
-          The area is covered in wet concrete and is difficult terrain. An enemy
+      - name: Effect
+        effect: The area is covered in wet concrete and is difficult terrain. An enemy
           who starts their turn in the concrete makes a **Might test**.
-
-          - **≤11:** Restrained (EoT)
-
-          - **12-16:** Slowed (EoT)
-
-          - **17+:** No effect
+        t1: Restrained (EoT)
+        t2: Slowed (EoT)
+        t3: No effect
   - name: Build Wall
     keywords:
       - Area
@@ -122,6 +119,7 @@ abilities:
       - effect: The builder creates a concrete wall. They can also remove any unoccupied
           squares of wet concrete within 3 squares of them, creating two
           additional squares of wall for each square of concrete removed.
+        name: Effect
   - name: Sputter
     cost: 1 Malice
     keywords:
@@ -138,4 +136,5 @@ abilities:
       - effect: While a creature is restrained this way, or if the target is an object,
           the target and their space are encased in wet concrete. A creature no
           longer restrained leaves squares of wet concrete behind.
+        name: Effect
 ```

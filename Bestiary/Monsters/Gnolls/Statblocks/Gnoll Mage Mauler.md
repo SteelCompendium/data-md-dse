@@ -70,4 +70,5 @@ abilities:
         t2: 3 cold damage
         t3: 5 lightning damage; the target can't use magic abilities (EoT)
       - effect: The target takes a bane on their next power roll.
+        name: Effect
 ```

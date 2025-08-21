@@ -72,4 +72,5 @@ effects:
   - effect: The first time on a turn that the target deals damage to another
       creature, the target of this ability takes 1d10 lightning damage (save
       ends).
+    name: Effect
 ```

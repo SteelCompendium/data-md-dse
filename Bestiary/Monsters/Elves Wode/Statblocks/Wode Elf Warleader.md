@@ -79,6 +79,7 @@ abilities:
         t2: 12 damage; M < 2 restrained (save ends)
         t3: 15 damage; M < 3 restrained (save ends)
       - effect: The warleader can teleport up to 3 squares between each strike.
+        name: Effect
       - effect: A target restrained by this ability takes an extra 3 damage.
         cost: 2 Malice
   - name: Fairness Is a Human Concept
@@ -92,6 +93,7 @@ abilities:
       - effect: Each non-minion target can make a free strike, then each target shifts
           up to 3 squares. A target who has cover or concealment at the end of
           this shift can attempt to hide at the end of the warleader's turn.
+        name: Effect
   - name: Wode Sickness
     keywords:
       - Ranged
@@ -103,6 +105,7 @@ abilities:
       - effect: The target must not have taken their turn this round. The target takes
           their turn immediately, and if they have P < 2 they are bleeding and
           take a bane on strikes until the end of their turn.
+        name: Effect
   - name: You Will All Witness my Blade
     cost: Villain Action 1
     keywords:
@@ -113,6 +116,7 @@ abilities:
     effects:
       - effect: The warleader uses Wodeblade against each target and gains an edge on
           the power roll.
+        name: Effect
   - name: Suppressing Volley
     cost: Villain Action 2
     keywords:
@@ -123,6 +127,7 @@ abilities:
     effects:
       - effect: The warleader can use Wodeblade. Each target can then make a free
           strike.
+        name: Effect
   - name: Is It Now or Is It Then?
     cost: Villain Action 3
     keywords:
@@ -133,4 +138,5 @@ abilities:
     effects:
       - effect: Each target is invisible until the start of the next round. The
           warleader then uses Wodeblade.
+        name: Effect
 ```

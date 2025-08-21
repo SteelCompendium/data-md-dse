@@ -74,4 +74,5 @@ effects:
   - effect: Until the start of your next turn, whenever the target moves or is force
       moved, you can use a free triggered action to shift up to your speed. You
       must end this shift adjacent to the target.
+    name: Effect
 ```

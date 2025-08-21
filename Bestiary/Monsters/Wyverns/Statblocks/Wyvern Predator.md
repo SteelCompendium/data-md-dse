@@ -77,6 +77,7 @@ abilities:
         t3: 17 damage; M < 3 slowed (save ends)
       - effect: If a target slowed this way is already slowed, they are instead
           restrained (save ends).
+        name: Effect
   - name: Tail Sweep
     keywords:
       - Area
@@ -119,4 +120,5 @@ abilities:
     effects:
       - effect: The predator uses Sedating Stinger against the target, then shifts up to
           3 squares
+        name: Effect
 ```

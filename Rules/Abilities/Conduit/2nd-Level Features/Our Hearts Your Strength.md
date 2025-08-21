@@ -65,4 +65,5 @@ effects:
       start of each of the target's turns, they gain a bonus to speed and a
       bonus to rolled damage equal to the number of allies within 10 squares of
       them. This bonus lasts until the start of their next turn.
+    name: Effect
 ```

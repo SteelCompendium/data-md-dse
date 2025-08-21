@@ -70,6 +70,7 @@ abilities:
         t2: 8 damage
         t3: 10 damage; I < 3 frightened (save ends)
       - effect: This ability gains an edge while charging.
+        name: Effect
       - effect: The ability deals an extra 3 fire damage to the target and each enemy
           adjacent to the target.
         cost: 2 Malice
@@ -81,7 +82,8 @@ abilities:
     distance: Special; see below
     target: Special
     effects:
-      - effect: The equivite moves up to their speed and ignores difficult terrain. Any
+      - name: Effect
+        effect: The equivite moves up to their speed and ignores difficult terrain. Any
           mundane size 1 object whose space they move through is destroyed. The
           equivite makes one power roll against each enemy whose space they move
           through for the first time

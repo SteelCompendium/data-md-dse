@@ -76,6 +76,7 @@ abilities:
           of the pestilite's next turn. Any creature who enters the area for the
           first time in a round or starts their turn there takes 2 poison
           damage.
+        name: Effect
   - name: Posthumous Promotion
     keywords:
       - Magic
@@ -85,4 +86,5 @@ abilities:
     target: One war dog
     effects:
       - effect: If the target has a loyalty collar, they are reduced to 0 Stamina.
+        name: Effect
 ```

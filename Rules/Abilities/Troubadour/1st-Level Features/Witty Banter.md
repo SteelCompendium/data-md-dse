@@ -66,6 +66,7 @@ effects:
     t3: 7 + P psychic damage
   - effect: One ally within 10 squares of you can end one effect on them that is
       ended by a saving throw or that ends at the end of their turn.
+    name: Effect
   - effect: The chosen ally can spend a Recovery.
     cost: Spend 1 Drama
 ```

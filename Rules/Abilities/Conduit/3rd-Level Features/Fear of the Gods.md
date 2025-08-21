@@ -69,4 +69,5 @@ effects:
     t2: 9 psychic damage; I < AVERAGE, frightened (save ends)
     t3: 13 psychic damage; I < STRONG, frightened (save ends)
   - effect: Each target is frightened of you or a creature you choose within distance.
+    name: Effect
 ```

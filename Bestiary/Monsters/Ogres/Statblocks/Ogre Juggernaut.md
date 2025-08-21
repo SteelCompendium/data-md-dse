@@ -84,7 +84,8 @@ abilities:
     distance: 3 burst
     target: Each creature in the area
     effects:
-      - effect: The juggernaut jumps up to 6 squares before using this ability.
+      - name: Effect
+        effect: The juggernaut jumps up to 6 squares before using this ability.
       - roll: Power Roll + 2
         t1: 4 damage
         t2: 6 damage; push 2; M < 1 prone
@@ -97,13 +98,13 @@ abilities:
     distance: 3 burst
     target: Each enemy in the area
     effects:
-      - effect: |-
-          I < 0 frightened (save ends)
-          - **12-16:** I < 1 frightened (save ends)
-          - **17+:** I < 2 frightened (save ends)
-        cost: ≤11
+      - cost: ≤11
+        effect: I < 0 frightened (save ends)
+        t2: I < 1 frightened (save ends)
+        t3: I < 2 frightened (save ends)
       - effect: While a target is frightened this way, any ogre gains an edge on strikes
           against them.
+        name: Effect
   - name: Hrraaaaaagh!
     keywords:
       - ree triggered action
@@ -113,4 +114,5 @@ abilities:
     trigger: The juggernaut takes damage.
     effects:
       - effect: The juggernaut moves up to their speed and can make a free strike.
+        name: Effect
 ```

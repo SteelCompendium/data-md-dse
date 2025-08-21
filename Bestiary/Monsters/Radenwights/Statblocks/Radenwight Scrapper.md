@@ -77,4 +77,5 @@ abilities:
     trigger: An ally deals damage to the target.
     effects:
       - effect: The scrapper makes a free strike against the target.
+        name: Effect
 ```

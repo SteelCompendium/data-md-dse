@@ -77,4 +77,5 @@ abilities:
         t3: 8 poison damage
       - effect: All soulraker demons have concealment from the target until the start of
           the stinger's next turn.
+        name: Effect
 ```

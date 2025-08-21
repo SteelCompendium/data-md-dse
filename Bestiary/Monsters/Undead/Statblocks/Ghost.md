@@ -78,6 +78,7 @@ abilities:
         t2: 10 cold damage; P < 2 slowed (save ends)
         t3: 13 cold damage; P < 3 slowed (save ends)
       - effect: The next strike made against the target gains an edge.
+        name: Effect
   - name: Haunt
     keywords:
       - Ranged
@@ -86,6 +87,7 @@ abilities:
     target: Self or one ally with a Phasing trait
     effects:
       - effect: The target shifts up to their speed
+        name: Effect
       - effect: The ghost chooses one additional target.
         cost: 2 Malice
   - name: Shriek
@@ -100,6 +102,7 @@ abilities:
     effects:
       - effect: The ghost halves the damage from the strike and the target takes 2 sonic
           damage.
+        name: Effect
   - name: Paranormal Activity
     cost: Villain Action 1
     keywords:
@@ -111,6 +114,7 @@ abilities:
     effects:
       - effect: Each target rises 1 square into the air and is vertically pulled up to 5
           squares toward the nearest enemy within 3 squares of the target.
+        name: Effect
   - name: Spirited Away
     cost: Villain Action 2
     keywords:
@@ -128,6 +132,7 @@ abilities:
           then rises 1 square at the end of each of their turns. If a levitated
           target can't already fly, they can fly but are slowed and weakened
           while flying this way
+        name: Effect
   - name: Awful Wail
     cost: Villain Action 3
     keywords:
@@ -143,4 +148,5 @@ abilities:
         t3: 8 sonic damage
       - effect: A target who has P < 2 is reduced to 1 Stamina if they are winded after
           taking this damage.
+        name: Effect
 ```

@@ -63,4 +63,5 @@ metadata:
 effects:
   - effect: Until the end of the encounter or until you are dying, whenever a target
       starts their turn in the area, they can spend a Recovery.
+    name: Effect
 ```

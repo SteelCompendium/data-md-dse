@@ -112,17 +112,13 @@ abilities:
     distance: 4 cube within 10
     target: Each creature and object in the area
     effects:
-      - effect: >-
-          Each target makes a **Might test**.
-
-          - **≤11:** 20 sonic damage; the target is dragonsealed (save ends)
-
-          - **12-16:** 16 sonic damage; the target is dragonsealed (save ends)
-
-          - **17+:** 10 sonic damage
-
-          A dragonsealed target emits a golden aura, and takes 2 damage per
-          square moved when falling or when force moved into an obstacle.
+      - name: Effect
+        effect: Each target makes a **Might test**.
+        t1: 20 sonic damage; the target is dragonsealed (save ends)
+        t2: 16 sonic damage; the target is dragonsealed (save ends)
+        t3: 10 sonic damage
+      - effect: A dragonsealed target emits a golden aura, and takes 2 damage per square
+          moved when falling or when force moved into an obstacle.
   - name: Cosmic Tail Ray
     keywords:
       - Magic
@@ -139,6 +135,7 @@ abilities:
         t3: 25 holy damage; A < 6 weakened (save ends)
       - effect: If a target made weakened this way is already weakened, they are instead
           dazed until the end of their next turn.
+        name: Effect
   - name: Investiture of Gravity
     cost: 5 Malice
     keywords:
@@ -152,6 +149,7 @@ abilities:
           vertical slides each target 10 squares in that direction, ignoring
           stability. A target who strikes an obstacle takes damage as if they
           had fallen the forced movement distance.
+        name: Effect
   - name: Field Collapse
     keywords:
       - "-"
@@ -165,6 +163,7 @@ abilities:
           dragon's Voidshroud Wyrmscale Aura trait takes 5 sonic damage and is
           pulled up to 5 squares toward the dragon. The area of the wyrmscale
           aura then resets to 1.
+        name: Effect
   - name: A Hero Faces the Void
     cost: 2 Malice
     keywords:
@@ -180,6 +179,7 @@ abilities:
         t2: 16 psychic damage; P < 5 frightened (save ends)
         t3: 20 psychic damage; P < 6 frightened (save ends)
       - effect: While frightened this way, the target can't use the triggering ability.
+        name: Effect
   - name: Impactful Arrival
     cost: Villain Action 1
     keywords:
@@ -191,6 +191,7 @@ abilities:
     effects:
       - effect: Each target takes 30 fire damage, and if they have M < 5, they are
           knocked prone.
+        name: Effect
       - effect: The dragon can use this ability before the encounter begins.
         name: Special
   - name: Burning Aurora
@@ -206,6 +207,7 @@ abilities:
           Heroic Resource at the start of each of their turns (to a minimum of
           0). The dragon then uses their Cosmic Tail Ray ability with a double
           edge, targeting four creatures or objects.
+        name: Effect
   - name: Voidlight Breath
     cost: Villain Action 3
     keywords:
@@ -215,16 +217,12 @@ abilities:
     distance: ∞ x 3 line within 1
     target: Each enemy and object in the area
     effects:
-      - effect: >-
-          Each target makes an Agility test.
-
-          - **≤11:** 25 damage; I < 6 the target is annihilated
-
-          - **12-16:** 21 damage; I < 5 the target is annihilated
-
-          - **17+:** 15 damage; I < 4 the target is annihilated
-
-          An annihilated target must make the test again, decreasing the potency
+      - name: Effect
+        effect: Each target makes an Agility test.
+        t1: 25 damage; I < 6 the target is annihilated
+        t2: 21 damage; I < 5 the target is annihilated
+        t3: 15 damage; I < 4 the target is annihilated
+      - effect: An annihilated target must make the test again, decreasing the potency
           for themself by 2 each time they are annihilated. A creature reduced
           to 0 Stamina by this dies and their soul is destroyed.
 ```

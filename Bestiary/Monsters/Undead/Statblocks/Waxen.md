@@ -74,6 +74,7 @@ abilities:
         t3: 12 damage; A < 4 slowed (save ends)
       - effect: If a target made slowed this way is already slowed, they are instead
           restrained (save ends).
+        name: Effect
   - name: Erupt
     cost: 3 Malice
     keywords:
@@ -83,17 +84,10 @@ abilities:
     distance: 2 burst
     target: Each enemy in the area
     effects:
-      - effect: >-
-          If the waxen is ignited (see Burn Bright), they shift up to their
-          speed before using this ability. Each target makes an **Agility
-          test**.
-
-          - **≤11:** 10 damage
-
-          - **12-16:** 8 damage
-
-          - **17+:** 5 damage
-
-          - The waxen is then destroyed and the area is difficult terrain for
-          enemies.
+      - name: Effect
+        effect: If the waxen is ignited (see Burn Bright), they shift up to their speed
+          before using this ability. Each target makes an **Agility test**.
+        t1: 10 damage
+        t2: 8 damage
+        t3: 5 damage
 ```

@@ -87,4 +87,5 @@ abilities:
     effects:
       - effect: Until the start of their next turn, the breaker has a double edge on
           abilities and is automatically affected by all potency effect
+        name: Effect
 ```

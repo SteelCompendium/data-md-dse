@@ -87,6 +87,7 @@ abilities:
         t3: 16 damage; M < 3 prone
       - effect: The roughneck can jump up to 5 squares to an unoccupied space within
           distance of the target before making this strike.
+        name: Effect
   - name: Drag Through Hell
     cost: 3 Malice
     keywords:
@@ -102,6 +103,7 @@ abilities:
           dragged through. When this movement ends, the target is no longer
           grabbed and falls prone. Each square the target was dragged through is
           difficult terrain for enemies.
+        name: Effect
   - name: Throw
     keywords:
       - Melee
@@ -114,6 +116,7 @@ abilities:
         name: Special
       - effect: The target is vertical pushed up to 5 squares. An ally doesn't take
           damage from being force moved this way.
+        name: Effect
   - name: Catcher
     keywords:
       - Melee
@@ -124,6 +127,7 @@ abilities:
       ally willingly moves within distance.
     effects:
       - effect: The target is grabbed by the roughneck.
+        name: Effect
   - name: Flying Sawblade
     keywords:
       - Melee
@@ -134,4 +138,5 @@ abilities:
     effects:
       - effect: The roughneck uses Haymaker against a creature or object at any point
           during the forced movement, or after falling as a result of it.
+        name: Effect
 ```

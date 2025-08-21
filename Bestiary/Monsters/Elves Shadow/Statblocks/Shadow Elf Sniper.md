@@ -74,4 +74,5 @@ abilities:
         t2: 5 damage
         t3: 7 damage
       - effect: The next strike made against the target gains an edge.
+        name: Effect
 ```

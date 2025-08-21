@@ -61,7 +61,8 @@ metadata:
   target: Four allies
   type: feature/ability/conduit/1st-level-feature
 effects:
-  - effect: You can target yourself instead of one ally with this ability.
+  - name: Effect
+    effect: You can target yourself instead of one ally with this ability.
   - roll: Power Roll + Intuition
     t1: The target gains 5 temporary Stamina.
     t2: The target gains 10 temporary Stamina.

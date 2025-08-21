@@ -71,6 +71,7 @@ abilities:
       - effect: While the target is adjacent to any enemy, the adeptus gains an edge on
           this ability. Each enemy adjacent to the target takes 2 lighting
           damage.
+        name: Effect
   - name: Arcane Telum
     cost: 3 Malice
     keywords:
@@ -86,4 +87,5 @@ abilities:
         t2: 5 damage
         t3: 6 damage
       - effect: This ability ignores banes, double banes, and damage immunity.
+        name: Effect
 ```

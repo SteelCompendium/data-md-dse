@@ -52,6 +52,7 @@ metadata:
   type: feature/ability/tactician/1st-level-feature
 effects:
   - effect: The target can use a signature ability as a free triggered action.
+    name: Effect
   - effect: You target two allies instead of one.
     cost: Spend 5 Focus
 ```

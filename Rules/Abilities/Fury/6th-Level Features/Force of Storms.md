@@ -73,4 +73,5 @@ effects:
     t3: 16 + M damage; push 7
   - effect: When the target ends this forced movement, each creature within 2
       squares of the target is pushed 3 squares.
+    name: Effect
 ```

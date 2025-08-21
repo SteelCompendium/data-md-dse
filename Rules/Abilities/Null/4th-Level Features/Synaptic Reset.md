@@ -63,4 +63,5 @@ metadata:
 effects:
   - effect: Each target can end any conditions or effects on themself, and gains 5
       temporary Stamina for each condition or effect removed.
+    name: Effect
 ```

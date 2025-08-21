@@ -86,6 +86,7 @@ abilities:
           creature who enters the area or starts their turn there slides 3
           squares toward the end of the area in the chosen direction. Each enemy
           in the area when it first appears takes 3 damage before they slide
+        name: Effect
       - effect: The helix creates a second kinetic lane.
         cost: 3 Malice
 ```

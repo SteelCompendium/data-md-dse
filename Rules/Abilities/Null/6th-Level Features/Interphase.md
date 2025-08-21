@@ -59,4 +59,5 @@ metadata:
   type: feature/ability/null/6th-level-feature
 effects:
   - effect: You can use up to three signature abilities, each of which gains an edge.
+    name: Effect
 ```

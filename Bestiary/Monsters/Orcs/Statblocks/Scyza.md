@@ -72,6 +72,7 @@ abilities:
         t3: 14 damage; prone
       - effect: The scyza roars, and if the target has I < 2, they are frightened (save
           ends).
+        name: Effect
   - name: Whiptail
     keywords:
       - Melee
@@ -88,6 +89,7 @@ abilities:
       - effect: Against a target on top of the scyza, this ability gains an edge, and
           the target is pushed into an unoccupied adjacent square and knocked
           prone.
+        name: Effect
   - name: Crestfall
     cost: 2 Malice
     keywords:
@@ -110,16 +112,13 @@ abilities:
     distance: 3 burst
     target: Special
     effects:
-      - effect: >-
-          The scyza kicks up a sandstorm, granting concealment to themself and
-          any ally in the area until the end of the scyza's next turn. Each
-          enemy in the area makes an Intuition test.
-
-          - **≤11:** 10 damage; prone; slowed (EoT)
-
-          - **12-16:** 7 damage; slowed (EoT)
-
-          - **17+:** 4 damage
+      - name: Effect
+        effect: The scyza kicks up a sandstorm, granting concealment to themself and any
+          ally in the area until the end of the scyza's next turn. Each enemy in
+          the area makes an Intuition test.
+        t1: 10 damage; prone; slowed (EoT)
+        t2: 7 damage; slowed (EoT)
+        t3: 4 damage
   - name: Brace and Break
     keywords:
       - "-"
@@ -131,4 +130,5 @@ abilities:
       - effect: Any damage dealt by the triggering ability is halved. If the creature or
           object who used the ability is within 3 squares of the scyza, the
           scyza can make a free strike against them.
+        name: Effect
 ```

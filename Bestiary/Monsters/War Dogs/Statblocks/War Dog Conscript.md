@@ -74,4 +74,5 @@ abilities:
         t2: 2 damage
         t3: 3 damage
       - effect: If used with the Charge main action, this ability gains an edge.
+        name: Effect
 ```

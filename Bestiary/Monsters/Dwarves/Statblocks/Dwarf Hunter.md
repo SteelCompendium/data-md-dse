@@ -68,4 +68,5 @@ abilities:
       - effect: A target restrained by a dwarf can be force moved by this ability. This
           forced movement doesn't end the restrained condition unless the
           Director determines otherwise.
+        name: Effect
 ```

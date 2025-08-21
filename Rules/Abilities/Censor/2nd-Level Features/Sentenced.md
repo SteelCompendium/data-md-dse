@@ -73,4 +73,5 @@ effects:
     t3: 12 + P damage; P < STRONG, restrained (save ends)
   - effect: While the target is restrained this way, your abilities that impose
       forced movement can still move them.
+    name: Effect
 ```

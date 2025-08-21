@@ -66,4 +66,5 @@ effects:
     t3: 8 + I holy damage
   - effect: One ally within distance gains a number of surges equal to the tier
       outcome of your power roll.
+    name: Effect
 ```

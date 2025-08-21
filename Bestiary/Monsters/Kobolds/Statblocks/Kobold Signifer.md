@@ -78,6 +78,7 @@ abilities:
         t3: 5 damage
       - effect: One ally within 10 squares of the signifer can shift up to their speed
           if they end that shift adjacent to an ally
+        name: Effect
       - effect: One additional ally can shift for each 2 Malice spent
         cost: 2+ Malice
   - name: Glory to the Legion
@@ -89,4 +90,5 @@ abilities:
     target: Each ally in the area
     effects:
       - effect: Each target regains 5 Stamina.
+        name: Effect
 ```

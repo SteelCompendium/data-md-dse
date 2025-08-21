@@ -71,4 +71,5 @@ abilities:
         t3: 7 damage; prone; A < 5 5 damage and restrained (save ends)
       - effect: The cyclops automatically treats their initial power roll as a 17. They
           can still roll to determine if they score a critical hit.
+        name: Effect
 ```

@@ -65,6 +65,7 @@ effects:
     t2: 6 + P damage
     t3: 9 + P damage
   - effect: You gain 1 surge.
+    name: Effect
   - effect: The target takes an extra 3 damage. You also take 3 damage that can't be
       reduced in any way.
     name: Strained

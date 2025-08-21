@@ -78,4 +78,5 @@ abilities:
       - effect: The distance increases to melee 2. If the mohler is 1 or more squares
           beneath the target before they use this ability, a target who has M <
           1 is also knocked prone.
+        name: Effect
 ```

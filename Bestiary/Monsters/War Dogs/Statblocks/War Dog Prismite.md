@@ -81,6 +81,7 @@ abilities:
     effects:
       - effect: Until the start of the prismite's next turn, each target has cover and
           gains a +2 bonus to stability.
+        name: Effect
   - name: Tractor Beam
     cost: 1 Malice
     keywords:
@@ -93,4 +94,5 @@ abilities:
     effects:
       - effect: The target is pulled up to 5 squares toward the prismite and any damage
           from the triggering ability is halved.
+        name: Effect
 ```

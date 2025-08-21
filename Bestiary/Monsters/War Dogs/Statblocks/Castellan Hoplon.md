@@ -80,6 +80,7 @@ abilities:
         t3: 24 damage; push 5
       - effect: Two allies within 10 squares of Hoplon each shift up to their speed,
           then can take the Defend main action or make a free strike.
+        name: Effect
   - name: Summon the Onyx Tower
     cost: 5 Malice
     keywords:
@@ -96,6 +97,7 @@ abilities:
           their turns, and war dogs inside the tower can observe through and
           have line of effect through its walls. This ability can be used only
           once per encounter.
+        name: Effect
   - name: Shield Warden
     cost: 2 Malice
     keywords:
@@ -104,13 +106,13 @@ abilities:
     distance: 3 burst
     target: Each enemy in the area
     effects:
-      - effect: |-
-          R < 3 taunted (EoT)
-          - **12-16:** R < 4 taunted (EoT)
-          - **17+:** R < 5 taunted (EoT)
-        cost: ≤11
+      - cost: ≤11
+        effect: R < 3 taunted (EoT)
+        t2: R < 4 taunted (EoT)
+        t3: R < 5 taunted (EoT)
       - effect: Until the start of Hoplon's next turn, any enemy ability that includes
           him as a target takes a bane.
+        name: Effect
   - name: Timely Intervention
     keywords:
       - Magic
@@ -123,4 +125,5 @@ abilities:
           becomes the new target of the ability. He can then make a free strike
           against the enemy, and if that enemy has R < 4 they are taunted until
           the end of their next turn.
+        name: Effect
 ```

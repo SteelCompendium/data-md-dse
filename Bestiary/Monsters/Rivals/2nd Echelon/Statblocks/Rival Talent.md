@@ -94,4 +94,5 @@ abilities:
     trigger: A creature deals damage to the talent.
     effects:
       - effect: The talent halves the damage and shifts up to 2 squares
+        name: Effect
 ```

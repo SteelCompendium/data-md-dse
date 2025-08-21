@@ -67,7 +67,8 @@ metadata:
   target: Self
   type: feature/ability/null/6th-level-feature
 effects:
-  - effect: You can shift up to your speed, and squares occupied by enemies or
+  - name: Effect
+    effect: You can shift up to your speed, and squares occupied by enemies or
       objects are not difficult terrain for this shift. You make one power roll
       that targets each enemy you moved through during this shift.
   - roll: Power Roll + Agility

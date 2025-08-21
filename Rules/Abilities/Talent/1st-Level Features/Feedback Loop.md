@@ -59,4 +59,5 @@ metadata:
   type: feature/ability/talent/1st-level-feature
 effects:
   - effect: The target takes psychic damage equal to half the triggering damage.
+    name: Effect
 ```

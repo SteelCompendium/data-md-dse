@@ -92,4 +92,5 @@ abilities:
         t2: 4 acid damage; M < 3 slowed (save ends)
         t3: 6 acid damage; M < 4 slowed (save ends)
       - effect: The area is difficult terrain
+        name: Effect
 ```

@@ -80,4 +80,5 @@ effects:
   - effect: You can choose to have this ability deal sonic damage. Additionally, you
       can use this ability against the same target for the next 2 combat rounds
       without spending drama.
+    name: Effect
 ```

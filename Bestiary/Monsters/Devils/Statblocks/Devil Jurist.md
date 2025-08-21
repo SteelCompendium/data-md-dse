@@ -79,6 +79,7 @@ abilities:
       - effect: A burning creature takes 1d6 fire damage at the start of each of their
           turns. A burning object takes 1d6 fire damage at the end of each
           round.
+        name: Effect
       - effect: The jurist can target one additional creature or object for each Malice
           spent.
         cost: 1+ Malice
@@ -96,6 +97,7 @@ abilities:
           - **12-16:** 10 damage; slide 3
           - **17+:** 12 damage; slide 5
       - effect: If the target has M < 2, the forced distance movement gains a +3 bonus.
+        name: Effect
   - name: Ashes to Ashes
     keywords:
       - Magic
@@ -116,9 +118,9 @@ abilities:
     target: The triggering creature
     trigger: A creature targets the jurist with a strike.
     effects:
-      - effect: |-
-          The target makes a Presence test
-          - **≤11:** The jurist chooses a new target for the strike.
-          - **12-16:** The jurist halves the triggering damage.
-          - **17+:** The target takes a bane on the strike.
+      - name: Effect
+        effect: The target makes a Presence test
+        t1: The jurist chooses a new target for the strike.
+        t2: The jurist halves the triggering damage.
+        t3: The target takes a bane on the strike.
 ```

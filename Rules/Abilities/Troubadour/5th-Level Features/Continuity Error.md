@@ -70,4 +70,5 @@ effects:
       the other entity persists as the original entity and this effect ends. The
       effect also ends if both entities occupy the same space, causing them to
       automatically merge and combine their current Stamina.
+    name: Effect
 ```

@@ -60,4 +60,5 @@ effects:
   - effect: At the end of each of your turns while this performance is active, you
       can choose up to a number of targets equal to your Presence score. Each
       chosen target can spend a Recovery.
+    name: Effect
 ```

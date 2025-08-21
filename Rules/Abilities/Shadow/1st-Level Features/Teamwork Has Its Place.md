@@ -66,4 +66,5 @@ effects:
     t3: 9 + A damage
   - effect: If any ally is adjacent to the target, you gain 1 surge before making
       the power roll.
+    name: Effect
 ```

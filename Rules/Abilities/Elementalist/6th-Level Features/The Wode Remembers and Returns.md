@@ -74,6 +74,7 @@ effects:
       in unoccupied spaces within it until the start of your next turn. The area
       is difficult terrain for enemies, and any ally who ends their turn in the
       area has cover.
+    name: Effect
   - effect: The area remains until the start of your next turn. Additionally, at the
       start of your turn, each ally in the area can spend a Recovery.
     name: Persistent 2

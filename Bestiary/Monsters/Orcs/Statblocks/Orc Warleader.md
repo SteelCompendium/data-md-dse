@@ -69,6 +69,7 @@ abilities:
     target: One ally
     effects:
       - effect: The target moves up to their speed and can use a main action.
+        name: Effect
       - effect: The warleader targets two allies.
         cost: 1 Malice
       - effect: The warleader targets one ally and a minion squad.
@@ -96,6 +97,7 @@ abilities:
     effects:
       - effect: Each target moves up to their speed and can use the Grab maneuver, which
           gains an edge.
+        name: Effect
   - name: Courtesy Call
     keywords:
       - Ranged
@@ -106,6 +108,7 @@ abilities:
     effects:
       - effect: The target has a double edge on their next power roll before the end of
           the encounter.
+        name: Effect
   - name: Close In
     cost: Villain Action 1
     keywords:
@@ -114,15 +117,12 @@ abilities:
     distance: 10 burst
     target: Each ally in the area
     effects:
-      - effect: >-
-          Each target moves up to their speed. Each enemy adjacent to a target
+      - name: Effect
+        effect: Each target moves up to their speed. Each enemy adjacent to a target
           after this move makes an Intuition test.
-
-          - **≤11:** Frightened of the warleader (save ends)
-
-          - **12-16:** Frightened of the warleader (EoT)
-
-          - **17+:** No effect
+        t1: Frightened of the warleader (save ends)
+        t2: Frightened of the warleader (EoT)
+        t3: No effect
   - name: Familial Reinforcements
     cost: Villain Action 2
     keywords:
@@ -133,6 +133,7 @@ abilities:
     effects:
       - effect: The warleader shifts up to their speed, and four orc blitzers appear in
           unoccupied spaces within distance.
+        name: Effect
   - name: I'll Do This Myself
     cost: Villain Action 3
     keywords:
@@ -143,4 +144,5 @@ abilities:
     effects:
       - effect: Three times in succession, the warleader shifts up to their speed and
           can use Mace Lariat.
+        name: Effect
 ```

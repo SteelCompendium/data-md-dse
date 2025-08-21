@@ -69,4 +69,5 @@ effects:
     t2: 5 damage; P < AVERAGE, slowed (save ends)
     t3: 6 damage; P < STRONG, restrained (save ends)
   - effect: The area is difficult terrain for enemies.
+    name: Effect
 ```

@@ -75,6 +75,7 @@ abilities:
         t3: 6 damage; push 5; A < 3 slowed (save ends)
       - effect: The doomthief can't willingly move on the same turn they use this
           ability.
+        name: Effect
   - name: Expanding Doom
     cost: 4 Malice
     keywords:
@@ -86,4 +87,5 @@ abilities:
       - effect: The doomthief has damage immunity 4 and the size of the aura from their
           Doom Magnet trait increases by 3, both until the start of their next
           turn.
+        name: Effect
 ```

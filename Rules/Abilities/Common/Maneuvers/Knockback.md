@@ -47,4 +47,5 @@ effects:
   - effect: You can usually target only creatures of your size or smaller. If your
       Might score is 2 or higher, you can target any creature with a size equal
       to or less than your Might score.
+    name: Effect
 ```

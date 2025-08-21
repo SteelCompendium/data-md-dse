@@ -75,6 +75,7 @@ effects:
     t2: 10 + P damage; P < AVERAGE, dazed (save ends)
     t3: 14 + P damage; P < STRONG, dazed (save ends)
   - effect: The target takes a bane on Presence tests until the end of the encounter.
+    name: Effect
   - effect: The potency of this ability increases by 1. You take 2d6 damage and gain
       3 surges that you can use immediately.
     name: Strained

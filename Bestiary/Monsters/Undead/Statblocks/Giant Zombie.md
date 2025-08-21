@@ -88,4 +88,5 @@ abilities:
     effects:
       - effect: The creatures or objects are smashed together using Rotten Smash, which
           has a double edge.
+        name: Effect
 ```

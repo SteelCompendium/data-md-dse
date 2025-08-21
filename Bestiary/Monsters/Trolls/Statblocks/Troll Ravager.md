@@ -76,4 +76,5 @@ abilities:
         t3: 8 damage; the ravager shifts up to 3 squares
       - effect: The ravager's squad's Stamina pool regains Stamina equal to half the
           damage dealt.
+        name: Effect
 ```

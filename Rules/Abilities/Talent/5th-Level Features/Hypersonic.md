@@ -67,7 +67,8 @@ metadata:
   target: Each enemy in the area
   type: feature/ability/talent/5th-level-feature
 effects:
-  - effect: You teleport to a square on the opposite side of the area before making
+  - name: Effect
+    effect: You teleport to a square on the opposite side of the area before making
       the power roll.
   - roll: Power Roll + Reason
     t1: 12 sonic damage

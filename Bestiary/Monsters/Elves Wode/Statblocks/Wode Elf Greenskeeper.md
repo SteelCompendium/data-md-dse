@@ -72,6 +72,7 @@ abilities:
         t3: 9 damage
       - effect: The target is taunted until the end of their next turn, and the
           greenskeeper shifts up to 3 squares
+        name: Effect
       - effect: The distance increases to Melee 5.
         cost: 2 Malice
   - name: Overgrowth
@@ -87,4 +88,5 @@ abilities:
           encounter, providing cover and concealment for the greenskeeper and
           their allies. The area is difficult terrain for enemies and any enemy
           who starts their turn in the area takes 3 damage.
+        name: Effect
 ```

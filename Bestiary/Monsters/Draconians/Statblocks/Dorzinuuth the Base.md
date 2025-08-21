@@ -92,7 +92,8 @@ abilities:
     distance: 5 x 2 line within 1
     target: Each enemy in the area
     effects:
-      - effect: Before the power roll is made, Dorzinuuth shifts to an unoccupied space
+      - name: Effect
+        effect: Before the power roll is made, Dorzinuuth shifts to an unoccupied space
           adjacent to the end of the line.
       - roll: Power Roll + 4
         t1: 7 damage
@@ -108,6 +109,7 @@ abilities:
     effects:
       - effect: Dorzinuuth shields the triggering ally with his wings, halving the
           damage.
+        name: Effect
   - name: Roaring Gambit
     cost: Villain Action 1
     keywords:
@@ -116,16 +118,14 @@ abilities:
     distance: 5 burst
     target: Each enemy in the area
     effects:
-      - effect: >-
-          Dorzinuuth lets loose a powerful roar. Each target makes a **Reason
+      - name: Effect
+        effect: Dorzinuuth lets loose a powerful roar. Each target makes a **Reason
           test**.
-
-          - **≤11:** Frightened (save ends)
-
-          - **12-16:** Frightened (EoT)
-
-          - **17+:** No effect.
+        t1: Frightened (save ends)
+        t2: Frightened (EoT)
+        t3: No effect.
       - effect: Each ally in the area gains an edge on their next strike.
+        name: Effect
   - name: Wings of Second Wind
     cost: Villain Action 2
     keywords:
@@ -135,6 +135,7 @@ abilities:
     target: Self and each ally in the area
     effects:
       - effect: Each target shifts or flies up to their speed and regains 10 Stamina.
+        name: Effect
   - name: Snap, Crackle, Pop
     cost: Villain Action 3
     keywords:
@@ -147,4 +148,5 @@ abilities:
       - effect: Dorzinuuth covers the targets in an electrifying mesh. Whenever a target
           takes damage from a melee ability, the attacker takes 6 lightning
           damage.
+        name: Effect
 ```

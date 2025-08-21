@@ -61,4 +61,5 @@ effects:
       the area doesn't take a bane on strikes against creatures with
       concealment. Once during their turn, they can search for hidden creatures
       as a free maneuver (see Hide and Sneak in Chapter 9: Tests)."
+    name: Effect
 ```

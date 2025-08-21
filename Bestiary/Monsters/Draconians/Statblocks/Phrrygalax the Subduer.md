@@ -96,6 +96,7 @@ abilities:
       - effect: Phrrygalax flies up to his speed and lands in an unoccupied space on the
           ground. Each creature adjacent to where he lands who has A < 2 is
           knocked prone.
+        name: Effect
   - name: Armor of the Ancients
     cost: 2 Malice
     keywords:
@@ -108,6 +109,7 @@ abilities:
       - effect: Phrrygalax takes no damage and instead regains the same amount of
           Stamina. He then swaps his current damage immunity with the triggering
           damage type.
+        name: Effect
   - name: Still Your Tongue!
     keywords:
       - "-"
@@ -119,4 +121,5 @@ abilities:
     effects:
       - effect: Phrrygalax shifts up to his speed and uses Baneful Blade against the
           triggering creature. That ability deals an extra 7 damage.
+        name: Effect
 ```

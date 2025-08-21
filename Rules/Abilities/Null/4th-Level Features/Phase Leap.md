@@ -65,4 +65,5 @@ effects:
       space of your afterimage as if you were still there. Additionally, if your
       Null Field ability is active, your afterimage also projects the aura from
       that ability, which you control as if you were in the afterimage's space.
+    name: Effect
 ```

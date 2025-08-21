@@ -67,7 +67,8 @@ metadata:
   target: Each ally and enemy in the area
   type: feature/ability/talent/9th-level-feature
 effects:
-  - effect: You and each target ally can't obtain lower than a tier 2 outcome on
+  - name: Effect
+    effect: You and each target ally can't obtain lower than a tier 2 outcome on
       power rolls until the start of your next turn. Each target enemy is
       affected by the ability's power roll.
   - roll: Power Roll + Reason

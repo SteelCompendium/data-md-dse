@@ -75,4 +75,5 @@ effects:
     t2: 16 + P sonic damage; push 10
     t3: 22 + P sonic damage; push 15
   - effect: Forced movement from this ability ignores stability.
+    name: Effect
 ```

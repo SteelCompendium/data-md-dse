@@ -67,11 +67,11 @@ abilities:
     distance: 3 cube within 4
     target: Each enemy and object in the area
     effects:
-      - effect: |-
-          Each target makes either an **Agility test** or an **Intuition test**.
-          - **≤11:** 18 fire damage; prone; weakened (save ends)
-          - **12-16:** 14 fire damage; prone
-          - **17+:** 9 fire damage
+      - name: Effect
+        effect: Each target makes either an **Agility test** or an **Intuition test**.
+        t1: 18 fire damage; prone; weakened (save ends)
+        t2: 14 fire damage; prone
+        t3: 9 fire damage
   - name: Burning Kick
     keywords:
       - Charge
@@ -109,6 +109,7 @@ abilities:
     trigger: A fire giant ally within distance makes a strike.
     effects:
       - effect: The strike has a double edge and deals an extra 10 fire damage.
+        name: Effect
   - name: Forward!
     cost: Villain Action 1
     keywords:
@@ -121,6 +122,7 @@ abilities:
           enemy who takes damage from a free strike this way and who has A < 4
           is burning (save ends). A burning enemy takes 1d6 fire damage at the
           start of each of their turns.
+        name: Effect
   - name: Burning Legion
     cost: Villain Action 2
     keywords:
@@ -131,6 +133,7 @@ abilities:
     effects:
       - effect: The chief shifts up to 10 squares. Five fire giant fireballer then
           arrive in unoccupied spaces within distance.
+        name: Effect
   - name: All to Cinders
     cost: Villain Action 3
     keywords:
@@ -139,15 +142,12 @@ abilities:
     distance: 10 burst
     target: Self and each fire giant ally in the are
     effects:
-      - effect: >-
-          Each target unleashes a wave of fire, and each enemy within 2 squares
-          of any target makes an Agility test. An enemy affected by two targets
+      - name: Effect
+        effect: Each target unleashes a wave of fire, and each enemy within 2 squares of
+          any target makes an Agility test. An enemy affected by two targets
           takes a bane on the test, while an enemy affected by three or more
           targets has a double bane.
-
-          - **≤11:** 18 fire damage
-
-          - **12-16:** 14 fire damage
-
-          - **17+:** 9 fire damage
+        t1: 18 fire damage
+        t2: 14 fire damage
+        t3: 9 fire damage
 ```

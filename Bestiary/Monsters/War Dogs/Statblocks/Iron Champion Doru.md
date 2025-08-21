@@ -82,6 +82,7 @@ abilities:
         t2: 21 damage; Doru gains an edge on his next power roll; M < 4 slide 3
         t3: 25 damage; Doru has a double edge on his next power roll; M < 5 slide 5
       - effect: The damage from this ability can't be reduced in any way.
+        name: Effect
       - effect: This ability targets one additional target.
         cost: 3 Malice
   - name: Bloody Whirlwind
@@ -98,6 +99,7 @@ abilities:
         t2: 11 damage; A < 4 bleeding (save ends)
         t3: 15 damage; A < 5 bleeding (save ends)
       - effect: This ability deals an extra 5 damage for each winded target in the area.
+        name: Effect
   - name: Hunting Leap
     keywords:
       - Ranged
@@ -109,6 +111,7 @@ abilities:
           a free strike against them. If the target is bleeding or winded, the
           distance of the ability becomes Ranged 10 and the free strike deals an
           extra 5 damage.
+        name: Effect
   - name: Laugh It Off
     keywords:
       - "-"
@@ -119,4 +122,5 @@ abilities:
     effects:
       - effect: The triggering strike takes a bane and Doru gains an edge on his next
           power roll.
+        name: Effect
 ```

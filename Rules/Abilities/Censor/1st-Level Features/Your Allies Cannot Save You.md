@@ -63,4 +63,5 @@ effects:
     t3: 8 + M holy damage
   - effect: Each enemy adjacent to the target is pushed away from the target up to a
       number of squares equal to your Presence score.
+    name: Effect
 ```

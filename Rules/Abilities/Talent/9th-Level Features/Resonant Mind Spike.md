@@ -75,6 +75,7 @@ effects:
     t2: 24 + R psychic damage
     t3: 28 + R psychic damage
   - effect: This ability ignores cover and concealment.
+    name: Effect
   - effect: The ability roll scores a critical hit on a natural 17 or higher. You
       take half the damage the target takes, and you can't reduce this damage in
       any way.

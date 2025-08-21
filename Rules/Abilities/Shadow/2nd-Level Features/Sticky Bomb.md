@@ -58,7 +58,8 @@ metadata:
   target: One creature
   type: feature/ability/shadow/2nd-level-feature
 effects:
-  - effect: You attach a small bomb to a creature. If you are hidden from the
+  - name: Effect
+    effect: You attach a small bomb to a creature. If you are hidden from the
       creature, they don't notice the bomb and you remain hidden. The creature
       otherwise notices the bomb and can disarm and remove it as a main action.
       If they don't, at the end of your next turn, the bomb detonates. When the

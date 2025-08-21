@@ -73,7 +73,8 @@ metadata:
   target: One creature
   type: feature/ability/elementalist/2nd-level-feature
 effects:
-  - effect: The target uses their signature ability against a creature of your
+  - name: Effect
+    effect: The target uses their signature ability against a creature of your
       choice. This signature ability can target the creature even if it usually
       wouldn't. You then make a power roll against the target of this ability.
   - roll: Power Roll + Reason

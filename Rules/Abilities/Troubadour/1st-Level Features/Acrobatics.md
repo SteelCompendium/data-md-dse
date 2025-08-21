@@ -61,4 +61,5 @@ effects:
       the area can automatically obtain a tier 3 outcome on one test made to
       jump, tumble, or climb as part of their movement before the end of their
       turn.
+    name: Effect
 ```

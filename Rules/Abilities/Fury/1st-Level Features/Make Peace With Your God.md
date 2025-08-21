@@ -60,4 +60,5 @@ metadata:
 effects:
   - effect: You gain 1 surge, and the next ability roll you make this turn
       automatically obtains a tier 3 outcome.
+    name: Effect
 ```

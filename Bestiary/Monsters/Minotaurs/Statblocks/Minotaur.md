@@ -72,6 +72,7 @@ abilities:
         t2: 11 damage; push 2
         t3: 14 damage; push 3
       - effect: The minotaur shifts up to 3 squares
+        name: Effect
   - name: Primal Bay
     cost: 3 Malice
     keywords:
@@ -83,6 +84,7 @@ abilities:
       - effect: Until the end of their next turn, the minotaur has damage immunity 2 and
           deals an extra 5 damage with strikes. On their next turn, the minotaur
           can use one additional maneuver.
+        name: Effect
   - name: Goring Horns
     cost: 5 Malice
     keywords:
@@ -100,6 +102,7 @@ abilities:
         t3: 9 damage; I < 2 dazed (save ends)
       - effect: If this ability is used as part of the Charge main action, its potency
           increases by 1.
+        name: Effect
   - name: Retaliatory Strike
     keywords:
       - Ranged
@@ -110,4 +113,5 @@ abilities:
     effects:
       - effect: The minotaur uses theCharge main action and either Flail and Blade or
           Goring Horns against the target.
+        name: Effect
 ```

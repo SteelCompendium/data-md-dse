@@ -68,4 +68,5 @@ effects:
       or other opening that is 1 square or smaller in a mundane dirt, stone, or
       metal surface. The opening is sealed by the same material that makes up
       the surface.
+    name: Effect
 ```

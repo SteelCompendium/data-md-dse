@@ -62,4 +62,5 @@ effects:
       forced movement gains a +2 bonus to the forced movement distance until the
       end of their turn. Additionally, once per combat round, each target can
       use a triggered action as a free triggered action.
+    name: Effect
 ```

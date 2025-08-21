@@ -74,6 +74,7 @@ abilities:
         t3: 17 lightning damage; R < 3 dazed (save ends)
       - effect: Until the start of the ordinator's next turn, each ally high elf in the
           encounter gains an edge on ability rolls against the target.
+        name: Effect
   - name: Elemental Uproar
     keywords:
       - Area
@@ -84,6 +85,7 @@ abilities:
     effects:
       - effect: Each target can move up to their speed or make a free strike. Elemental
           mote targets can, instead, use their Spark of Life trait.
+        name: Effect
   - name: Summon Elemental
     cost: 2 Malice
     keywords:
@@ -94,6 +96,7 @@ abilities:
     effects:
       - effect: The ordinator summons four elemental motes or four soot crows into
           unoccupied space within distance.
+        name: Effect
       - effect: The ordinator instead summons one ceramic horse or one winded
           brambleguard into an unoccupied space within distance.
         cost: 3 Malice
@@ -108,6 +111,7 @@ abilities:
     effects:
       - effect: The ordinator uses Lightning Rod against the target after the ability is
           resolved.
+        name: Effect
   - name: Fountains Roar, Now Free From the Earth
     cost: Villain Action 1
     keywords:
@@ -119,6 +123,7 @@ abilities:
     effects:
       - effect: Each target glows briefly, and can end one effect on themself then move
           up to their speed.
+        name: Effect
   - name: And the Sun Forsook Her Children
     cost: Villain Action 2
     keywords:
@@ -129,12 +134,13 @@ abilities:
     distance: 5 cube within 10
     target: Each enemy in the area
     effects:
-      - effect: |-
-          Each target makes a **Presence test**.
-          - **≤11:** 12 corruption damage; pull 5 toward the center of the cube
-          - **12-16:** 9 corruption damage; pull 3 toward the center of the cube
-          - **17+:** Pull 1 toward the center of the cube
+      - name: Effect
+        effect: Each target makes a **Presence test**.
+        t1: 12 corruption damage; pull 5 toward the center of the cube
+        t2: 9 corruption damage; pull 3 toward the center of the cube
+        t3: Pull 1 toward the center of the cube
       - effect: The area turns dark and distorted, and is difficult terrain for enemies.
+        name: Effect
   - name: But We Will Change Her Mind
     cost: Villain Action 3
     keywords:
@@ -146,4 +152,5 @@ abilities:
     effects:
       - effect: Each target's free strike now has the Magic keyword and can target two
           creatures or objects. Additionally, each target glows with magic.
+        name: Effect
 ```

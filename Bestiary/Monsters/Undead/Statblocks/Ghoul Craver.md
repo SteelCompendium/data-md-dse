@@ -76,4 +76,5 @@ abilities:
         t2: 4 damage
         t3: 6 damage
       - effect: This ability has a double edge against a bleeding target.
+        name: Effect
 ```

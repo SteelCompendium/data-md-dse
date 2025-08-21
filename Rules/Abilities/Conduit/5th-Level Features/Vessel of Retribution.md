@@ -66,4 +66,5 @@ metadata:
 effects:
   - effect: The first time the target is dying or winded before the end of the
       encounter, each enemy within 5 squares of them takes 15 holy damage.
+    name: Effect
 ```

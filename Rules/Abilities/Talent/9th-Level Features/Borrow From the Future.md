@@ -68,4 +68,5 @@ effects:
       determine. A target can't gain more than 3 of their Heroic Resource this
       way. After using this ability, you can't gain any clarity until the end of
       the next combat round.
+    name: Effect
 ```

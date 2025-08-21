@@ -78,6 +78,7 @@ abilities:
         t2: 17 damage; R < 3 weakened (save ends)
         t3: 21 damage; R < 4 weakened (save ends)
       - effect: If the target is already weakened, they are also bleeding (save ends).
+        name: Effect
   - name: Crag Burst
     cost: 3 Malice
     keywords:
@@ -92,6 +93,7 @@ abilities:
         t3: 14 damage; vertical push 4
       - effect: The area is difficult terrain. Whenever a creature enters square in the
           area, they take 3 damage.
+        name: Effect
   - name: Castle Stone Shape
     keywords:
       - "-"
@@ -101,6 +103,7 @@ abilities:
     effects:
       - effect: The granite stone giant moves up to their speed and creates a 14 wall of
           stone in squares adjacent to the path of their movement.
+        name: Effect
   - name: Pillar
     keywords:
       - Melee
@@ -113,4 +116,5 @@ abilities:
       - effect: A 1-square pillar of stone rises 5 squares out of the ground beneath the
           target, who moves with the ground to its new elevation, then is
           vertical pushed 5 squares.
+        name: Effect
 ```

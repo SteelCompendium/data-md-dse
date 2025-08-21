@@ -73,6 +73,7 @@ abilities:
         t3: 9 damage, 4 psychic damage
       - effect: Any power roll made against the target gains an edge until the start of
           the vertex's next turn.
+        name: Effect
   - name: Split Space
     cost: 5 Malice
     keywords:
@@ -90,6 +91,7 @@ abilities:
           the portal at the chosen location. The portal lasts until the vertex
           uses this ability again, dismisses the portal (no action required), or
           is transported by the portal.
+        name: Effect
   - name: Invigorated March
     keywords:
       - Area
@@ -99,4 +101,5 @@ abilities:
     target: Each ally in the area
     effects:
       - effect: Each target shifts up to half their speed.
+        name: Effect
 ```

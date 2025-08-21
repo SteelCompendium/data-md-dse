@@ -88,6 +88,7 @@ effects:
 
       - They can use their highest characteristic instead of Might for Might
       power rolls.
+    name: Effect
   - effect: The effect lasts until the start of your next turn. Additionally, at the
       start of your turn, the target can spend 2 Recoveries.
     name: Persistent 2

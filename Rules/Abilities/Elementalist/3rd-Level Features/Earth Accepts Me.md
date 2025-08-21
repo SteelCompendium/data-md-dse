@@ -61,4 +61,5 @@ effects:
       anything outside the object and vice versa. You can travel through the
       object freely until you exit it. If the object you meld with is destroyed,
       you take 10 damage and exit the object.
+    name: Effect
 ```

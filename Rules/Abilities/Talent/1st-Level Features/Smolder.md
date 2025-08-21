@@ -70,7 +70,8 @@ metadata:
   target: One creature
   type: feature/ability/talent/1st-level-feature
 effects:
-  - effect: "Choose the damage type and the weakness for this ability from one of
+  - name: Effect
+    effect: "Choose the damage type and the weakness for this ability from one of
       the following: acid, corruption, or fire. The target takes damage before
       this ability imposes any weakness."
   - roll: Power Roll + Reason

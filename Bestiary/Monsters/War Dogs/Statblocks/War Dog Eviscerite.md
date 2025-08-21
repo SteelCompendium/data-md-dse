@@ -72,6 +72,7 @@ abilities:
         t3: 5 damage; pull 2
       - effect: The eviscerite can automatically grab a target pulled adjacent to them
           this way.
+        name: Effect
   - name: Posthumous Promotion
     keywords:
       - Magic
@@ -81,4 +82,5 @@ abilities:
     target: One war dog
     effects:
       - effect: If the target has a loyalty collar, they are reduced to 0 Stamina.
+        name: Effect
 ```

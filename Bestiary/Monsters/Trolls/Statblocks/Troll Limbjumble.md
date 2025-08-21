@@ -72,4 +72,5 @@ abilities:
         t3: 6 damage; prone
       - effect: If a target made prone this way is already prone, they are grabbed
           instead.
+        name: Effect
 ```

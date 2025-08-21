@@ -63,6 +63,7 @@ effects:
       interact with a creature, when you use this ability again, or when you end
       the illusion (no action required). If you end this illusion by harming
       another creature, you gain 1 surge.
+    name: Effect
   - effect: Choose a creature whose size is no more than 1 greater than yours and
       who is within 10 squares. This ability's illusion makes you appear as that
       creature. This illusion covers your entire body, including clothing and

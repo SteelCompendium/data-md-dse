@@ -65,4 +65,5 @@ effects:
   - effect: You can spend a Recovery to allow the target to regain Stamina equal to
       your recovery value. The target can then take their turn immediately
       before the triggering enemy.
+    name: Effect
 ```

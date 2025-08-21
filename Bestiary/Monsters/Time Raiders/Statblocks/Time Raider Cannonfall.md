@@ -72,6 +72,7 @@ abilities:
         t2: 7 sonic damage
         t3: 10 sonic damage; prone; M < 2 slowed (save ends)
       - effect: A layer of ground beneath the area that is 1 square deep is destroyed.
+        name: Effect
   - name: Buss Buffe
     cost: 1 Malice
     keywords:
@@ -84,4 +85,5 @@ abilities:
     effects:
       - effect: The damage is halved for the cannonfall and each target also affected by
           the triggering ability
+        name: Effect
 ```

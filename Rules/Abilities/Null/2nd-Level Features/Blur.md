@@ -60,4 +60,5 @@ metadata:
 effects:
   - effect: You can use a signature or heroic ability. You gain an edge on that
       ability's power rolls.
+    name: Effect
 ```

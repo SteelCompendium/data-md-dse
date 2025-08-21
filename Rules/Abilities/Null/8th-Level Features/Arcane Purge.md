@@ -77,4 +77,5 @@ effects:
   - effect: While suppressed, a target takes psychic damage equal to twice your
       Intuition score at the start of their turns, whenever they use a
       supernatural ability, or whenever they use an ability that costs Malice.
+    name: Effect
 ```

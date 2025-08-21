@@ -64,12 +64,13 @@ metadata:
   target: One enemy
   type: feature/ability/talent/6th-level-feature
 effects:
-  - effect: The target has damage weakness 5 until the end of your next turn.
+  - name: Effect
+    effect: The target has damage weakness 5 until the end of your next turn.
       Whenever the target takes damage while they have this weakness, they are
       knocked prone.
-  - effect: This ability gains the Strike keyword as the vision hurts the target's
+  - name: Strained
+    effect: This ability gains the Strike keyword as the vision hurts the target's
       psyche. You make a power roll, then are weakened (save ends).
-    name: Strained
   - roll: Power Roll + Presence
     t1: 8 + P psychic damage
     t2: 13 + P psychic damage

@@ -118,6 +118,7 @@ abilities:
           The beheaded target can survive without their head for 24 hours, and
           can reattach their head as a maneuver by entering its square. A target
           who remains beheaded for 24 hours dies.
+        name: Effect
   - name: Scramble
     keywords:
       - "-"
@@ -129,6 +130,7 @@ abilities:
           time a creature comes adjacent to the bredbeddle during the shift, the
           bredbeddle can push that creature 1 square. Each square the bredbeddle
           exits during the shift is difficult terrain.
+        name: Effect
   - name: Headway
     cost: 5 Malice
     keywords:
@@ -139,7 +141,8 @@ abilities:
     distance: Ranged 20
     target: One creature or object
     effects:
-      - effect: The bredbeddle must have a head in their possession (attached to them or
+      - name: Effect
+        effect: The bredbeddle must have a head in their possession (attached to them or
           not), which they throw at the target. If the head was attached, the
           bredbeddle is left headless.
       - roll: Power Roll + 3
@@ -158,6 +161,7 @@ abilities:
       - effect: The bredbeddle uses the same ability against the triggering creature
           after the triggering strike is resolved, using that creature's bonus
           to any power rolls they make.
+        name: Effect
   - name: Turn Green
     cost: Villain Action 1
     keywords:
@@ -174,6 +178,7 @@ abilities:
       - effect: Green shadows crawl out from under the bredbeddle's feet and turn each
           target green. The bredbeddle has a double edge on power rolls against
           any target turned green this way.
+        name: Effect
   - name: Challenge
     cost: Villain Action 2
     keywords:
@@ -182,19 +187,16 @@ abilities:
     distance: Ranged 5
     target: One enemy
     effects:
-      - effect: >-
-          The bredbeddle points at the target and issues them a challenge. If
-          the target refuses, they turn green until the end of the encounter
-          (see Turn Green). If the target accepts the challenge, the bredbeddle
+      - name: Effect
+        effect: The bredbeddle points at the target and issues them a challenge. If the
+          target refuses, they turn green until the end of the encounter (see
+          Turn Green). If the target accepts the challenge, the bredbeddle
           shifts adjacent to the target, who makes a **Might test** with no
           additional modifiers.
-
-          - **≤11:** The target is beheaded (see Lop).
-
-          - **12-16:** The target makes the test again.
-
-          - **17+:** The target can choose to deal 40 damage to the bredbeddle
-          or remove the bredbeddle's head.
+        t1: The target is beheaded (see Lop).
+        t2: The target makes the test again.
+        t3: The target can choose to deal 40 damage to the bredbeddle or remove the
+          bredbeddle's head.
   - name: Headlam Rampage
     cost: Villain Action 3
     keywords:
@@ -205,14 +207,9 @@ abilities:
     distance: Melee 2
     target: Four creatures
     effects:
-      - effect: >-
-          6 damage; bleeding (save ends); or if the target has A < 1 they are
+      - cost: ≤11
+        effect: 6 damage; bleeding (save ends); or if the target has A < 1 they are
           beheaded (see Lop).
-
-          - **12-16:** 7 damage; bleeding (save ends); or if the target has A <
-          2 they are beheaded
-
-          - **17+:** 8 damage; bleeding (save ends); or if the target has A < 3
-          they are beheaded
-        cost: ≤11
+        t2: 7 damage; bleeding (save ends); or if the target has A < 2 they are beheaded
+        t3: 8 damage; bleeding (save ends); or if the target has A < 3 they are beheaded
 ```

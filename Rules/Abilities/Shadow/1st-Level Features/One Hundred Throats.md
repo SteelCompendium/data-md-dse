@@ -61,7 +61,8 @@ metadata:
   target: Self
   type: feature/ability/shadow/1st-level-feature
 effects:
-  - effect: You shift up to your speed and make one power roll that targets up to
+  - name: Effect
+    effect: You shift up to your speed and make one power roll that targets up to
       three enemies who came adjacent to you during the move.
   - roll: Power Roll + Agility
     t1: 3 damage

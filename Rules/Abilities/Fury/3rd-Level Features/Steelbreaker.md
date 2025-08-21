@@ -59,4 +59,5 @@ metadata:
   type: feature/ability/fury/3rd-level-feature
 effects:
   - effect: You gain 20 temporary Stamina.
+    name: Effect
 ```

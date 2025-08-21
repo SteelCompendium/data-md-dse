@@ -74,4 +74,5 @@ effects:
   - effect: While grabbed this way, the target takes a bane on the Escape Grab
       maneuver. Each time they use that maneuver, they take damage equal to
       twice your Agility score.
+    name: Effect
 ```

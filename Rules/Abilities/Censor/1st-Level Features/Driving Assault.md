@@ -73,4 +73,5 @@ effects:
     t3: 9 + M damage; push 5
   - effect: You can shift up to your speed in a straight line toward the target
       after pushing them.
+    name: Effect
 ```

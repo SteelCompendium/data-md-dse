@@ -61,4 +61,5 @@ metadata:
 effects:
   - effect: Choose an enemy within distance of the triggering strike, including the
       enemy who targeted you. The strike targets that enemy instead.
+    name: Effect
 ```

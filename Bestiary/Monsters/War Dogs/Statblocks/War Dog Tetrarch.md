@@ -74,6 +74,7 @@ abilities:
         t2: 16 damage; taunted (EoT)
         t3: 19 damage; taunted (EoT)
       - effect: A creature taunted this way takes a bane on strikes.
+        name: Effect
       - effect: Each target loses 1d3 Recoveries.
         cost: 3 Malice
   - name: Get Them, You Dolts! 1 Malice per target
@@ -86,6 +87,7 @@ abilities:
       - effect: Each target shifts up to their speed and can make a free strike. If the
           free strike targets an enemy taunted by the tetrarch, it deals an
           extra 4 damage.
+        name: Effect
   - name: Sneering Disregard
     keywords:
       - Ranged
@@ -98,6 +100,7 @@ abilities:
       - effect: The power roll has a double bane. If the target obtains a tier 1
           outcome, the tetrarch ignores any of the power roll's effects other
           than damage and the target is frightened of the tetrarch (save ends).
+        name: Effect
   - name: Enter the Fray
     cost: Villain Action 1
     keywords:
@@ -106,7 +109,8 @@ abilities:
     distance: 2 burst
     target: Each enemy in the area
     effects:
-      - effect: The tetrarch can jump up to 7 squares before using this ability.
+      - name: Effect
+        effect: The tetrarch can jump up to 7 squares before using this ability.
       - roll: Power Roll + 4
         t1: Push 2; I < 2 frightened (save ends)
         t2: Push 4; I < 3 frightened (save ends)
@@ -128,6 +132,7 @@ abilities:
       - effect: The area is set ablaze until the end of the encounter. While ablaze, the
           area is difficult terrain, and any creature takes 2 fire damage for
           each square in the area they enter for the first time in a round
+        name: Effect
   - name: You Would Dare?!
     cost: Villain Action 3
     keywords:
@@ -138,4 +143,5 @@ abilities:
     effects:
       - effect: Until the end of the encounter, the tetrarch has damage immunity 2, and
           their Houndblade ability targets three creatures or objects.
+        name: Effect
 ```

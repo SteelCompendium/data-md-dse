@@ -80,6 +80,7 @@ abilities:
         t3: 22 damage; the strike spreads 2 squares
       - effect: The strike's spread is the distance it expands from a target to nearby
           enemies. Each enemy within that distance takes 3 damage.
+        name: Effect
       - effect: Each enemy within the strike spread takes an extra 3 damage.
         cost: 2 Malice
   - name: Mind Jolt
@@ -105,6 +106,7 @@ abilities:
           used against the target automatically treats its initial power roll as
           a 17. The creature using the ability can still roll to determine if
           they score a critical hit.
+        name: Effect
   - name: Tactical Reposition
     cost: 1 Malice
     keywords:
@@ -116,4 +118,5 @@ abilities:
     effects:
       - effect: The artillerist can teleport up to 5 squares and ignores any effects
           associated with the damage
+        name: Effect
 ```

@@ -65,4 +65,5 @@ effects:
       increases by 1, and you and any ally benefit from concealment while in the
       area. At the end of this turn, each enemy in the area takes cold damage
       equal to your Intuition score.
+    name: Effect
 ```

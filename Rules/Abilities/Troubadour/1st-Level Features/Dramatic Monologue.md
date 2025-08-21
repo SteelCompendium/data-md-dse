@@ -66,6 +66,7 @@ effects:
       - You insult a foe where they're most vulnerable. One enemy within
       distance takes a bane on the next power roll they make before the end of
       their next turn.
+    name: Effect
   - effect: You can choose two targets for the chosen effect.
     cost: Spend 1 Drama
 ```

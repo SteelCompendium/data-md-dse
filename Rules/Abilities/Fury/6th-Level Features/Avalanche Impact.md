@@ -58,7 +58,8 @@ metadata:
   target: Self
   type: feature/ability/fury/6th-level-feature
 effects:
-  - effect: You jump up to your maximum jump distance and make one power roll that
+  - name: Effect
+    effect: You jump up to your maximum jump distance and make one power roll that
       targets each creature adjacent to the space where you land.
   - roll: Power Roll + Might
     t1: 4 damage; push 1

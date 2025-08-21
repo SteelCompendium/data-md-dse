@@ -71,4 +71,5 @@ abilities:
         t3: 5 damage
       - effect: While adjacent to any ally, the sagittarion gains an edge on this
           ability.
+        name: Effect
 ```

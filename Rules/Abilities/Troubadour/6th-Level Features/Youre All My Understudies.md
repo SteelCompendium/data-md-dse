@@ -64,4 +64,5 @@ effects:
   - effect: Until the end of the encounter, each target gains the speed bonus,
       weapon distance bonus, disengage bonus, and stability bonus of your
       currently equipped kit in addition to their own kit's bonuses.
+    name: Effect
 ```

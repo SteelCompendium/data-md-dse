@@ -73,4 +73,5 @@ abilities:
         t2: 5 damage
         t3: 7 damage; M < 3 bleeding (save ends)
       - effect: Each creature adjacent to the target takes 2 damage.
+        name: Effect
 ```

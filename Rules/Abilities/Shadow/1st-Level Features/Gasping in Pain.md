@@ -62,4 +62,5 @@ effects:
     t2: 5 + A damage
     t3: 8 + A damage; I < STRONG, prone
   - effect: One ally within 5 squares of the target gains 1 surge.
+    name: Effect
 ```

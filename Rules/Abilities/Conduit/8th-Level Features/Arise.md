@@ -69,4 +69,5 @@ effects:
       turn, and can stand up if they are prone. Additionally, at the start of
       each of their turns until the end of the encounter or until they are
       dying, the target gains 3 surges.
+    name: Effect
 ```

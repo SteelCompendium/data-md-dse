@@ -64,4 +64,5 @@ effects:
   - effect: Each target can make a ranged free strike that gains an edge against any
       enemy marked by you within distance of their ranged free strike. A target
       ignores banes and double banes when making this strike.
+    name: Effect
 ```

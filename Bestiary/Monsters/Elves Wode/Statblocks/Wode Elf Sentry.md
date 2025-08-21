@@ -72,6 +72,7 @@ abilities:
         t3: 9 damage; the target is marked (save ends)
       - effect: Allies gain an edge on abilities against a target marked by any wode
           elf.
+        name: Effect
       - effect: The sentry targets two additional creatures or objects.
         cost: 3 Malice
   - name: Death Blossom
@@ -84,4 +85,5 @@ abilities:
     target: Each marked enemy
     effects:
       - effect: Each target takes 3 damage.
+        name: Effect
 ```

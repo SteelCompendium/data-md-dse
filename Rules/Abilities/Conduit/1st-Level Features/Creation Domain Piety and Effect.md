@@ -33,12 +33,11 @@ metadata:
   source: mcdm.heroes.v1
   type: feature/trait/conduit/1st-level-feature
 effects:
-  - effect: >-
-      You gain 2 piety the first time in an encounter that a creature within 10
-      squares uses an area ability.
-
-      - **Prayer Effect:** You summon the forces of creation and create a wall
-      of stone within 10 squares whose size is 5 + your Intuition score. The
-      wall lasts until the end of the encounter.
+  - effect: You gain 2 piety the first time in an encounter that a creature within
+      10 squares uses an area ability.
     name: Piety
+  - effect: You summon the forces of creation and create a wall of stone within 10
+      squares whose size is 5 + your Intuition score. The wall lasts until the
+      end of the encounter.
+    name: Prayer Effect
 ```

@@ -73,6 +73,7 @@ abilities:
         t2: 9 damage
         t3: 12 damage
       - effect: This ability ignores cover and concealment.
+        name: Effect
       - effect: This ability targets one additional target.
         cost: 3 Malice
 ```

@@ -75,4 +75,5 @@ abilities:
         t2: 7 cold damage; the wraith shifts up to 2 square
         t3: 9 cold damage; P < 5 slowed (save ends); the wraith shifts up to 3 squares
       - effect: The wraith turns invisible until the start of their next turn.
+        name: Effect
 ```

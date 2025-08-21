@@ -54,6 +54,7 @@ metadata:
 effects:
   - effect: You take half the damage from the triggering effect and can shift up to
       a number of squares equal to your Agility score.
+    name: Effect
   - effect: If the damage has any potency effects associated with it, the potency is
       reduced by 1 for you.
     cost: Spend 1 Ferocity

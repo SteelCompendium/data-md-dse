@@ -72,4 +72,5 @@ effects:
       present, you and your allies choose which portal to emerge from when
       entering a portal, and a creature who force moves an enemy into a portal
       chooses that enemy's destination portal.
+    name: Effect
 ```

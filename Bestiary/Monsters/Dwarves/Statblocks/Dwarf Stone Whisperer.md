@@ -73,6 +73,7 @@ abilities:
       - effect: A target restrained by a dwarf can be force moved by this ability. This
           forced movement doesn't end the restrained condition unless the
           Director determines otherwise.
+        name: Effect
   - name: Stone Wave
     cost: 3 Malice
     keywords:
@@ -90,4 +91,5 @@ abilities:
       - effect: The area is difficult terrain for enemies. A target restrained by a
           dwarf can be force moved by this ability. This forced movement doesn't
           end the restrained condition unless the Director determines otherwise.
+        name: Effect
 ```

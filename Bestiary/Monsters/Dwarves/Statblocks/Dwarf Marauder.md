@@ -74,6 +74,7 @@ abilities:
       - effect: A target restrained by a dwarf can be force moved by this ability. This
           forced movement doesn't end the restrained condition unless the
           Director determines otherwise.
+        name: Effect
       - effect: A target force moved adjacent to an ally of the marauder lord is
           restrained until the end of their next turn.
         cost: 3 Malice
@@ -88,6 +89,7 @@ abilities:
       - effect: The target vertical slides up to 5 squares. A target restrained by a
           dwarf can be force moved by this ability. This forced movement doesn't
           end the restrained condition unless the Director determines otherwise.
+        name: Effect
       - effect: This ability takes the Area keyword and loses the Ranged keyword, its
           distance becomes a 10 burst, and it targets each restrained creature
           in the area.
@@ -103,6 +105,7 @@ abilities:
     effects:
       - effect: The target halves any damage from the strike and the triggering creature
           takes 4 damage.
+        name: Effect
   - name: Ajax Will Pay Well for These Specimens
     cost: Villain Action 1
     keywords:
@@ -116,6 +119,7 @@ abilities:
     effects:
       - effect: The marauder lord uses Levitating Axes against each target, making one
           power roll against all targets.
+        name: Effect
   - name: Don't Let Them Escape!
     cost: Villain Action 2
     keywords:
@@ -126,6 +130,7 @@ abilities:
     effects:
       - effect: Each target shifts up to their speed. The marauder lord then uses
           Levitating Axes.
+        name: Effect
   - name: Test Your Metal!
     cost: Villain Action 3
     keywords:
@@ -138,4 +143,5 @@ abilities:
       - effect: The marauder lord creates three size 2 metal objects in unoccupied
           spaces within distance. Whenever the marauder lord uses Magnetomancy,
           they can additionally target one of these objects.
+        name: Effect
 ```

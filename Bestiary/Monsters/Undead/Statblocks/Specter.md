@@ -86,4 +86,5 @@ abilities:
     effects:
       - effect: The specter turns invisible, moves up to their speed, and is visible
           again.
+        name: Effect
 ```

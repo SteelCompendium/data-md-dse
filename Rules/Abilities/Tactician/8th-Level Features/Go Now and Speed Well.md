@@ -62,4 +62,5 @@ effects:
       free triggered action. The ability has a double edge on the power roll,
       ignores damage immunity, and increases the potency of any potency effects
       by 1.
+    name: Effect
 ```

@@ -66,4 +66,5 @@ effects:
       - You teleport up to a number of squares equal to your Reason score. If
       you choose this option, you can spend essence to teleport 1 additional
       square for each essence spent.
+    name: Effect
 ```

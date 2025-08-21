@@ -67,4 +67,5 @@ effects:
       ally within 3 squares of the statue gains this same benefit. The statue is
       destroyed if it takes 20 or more damage. It has immunity all to poison and
       psychic damage.
+    name: Effect
 ```

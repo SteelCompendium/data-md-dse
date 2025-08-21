@@ -53,6 +53,7 @@ metadata:
   type: feature/ability/null/1st-level-feature
 effects:
   - effect: You take half the damage.
+    name: Effect
   - effect: The potency of one effect associated with the damage is reduced by 1 for
       you.
     cost: Spend 1 Discipline

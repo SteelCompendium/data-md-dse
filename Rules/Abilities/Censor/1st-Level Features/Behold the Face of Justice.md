@@ -82,4 +82,5 @@ effects:
       of them is frightened of you (save ends)
   - effect: Each enemy frightened this way is pushed up to 2 squares away from the
       target and takes psychic damage equal to your Presence score.
+    name: Effect
 ```

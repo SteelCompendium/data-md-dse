@@ -67,4 +67,5 @@ effects:
   - effect: Before the push is resolved, you teleport the target to a square
       adjacent to you and opposite the one they started in. If the target can't
       be teleported this way, you can't push them.
+    name: Effect
 ```

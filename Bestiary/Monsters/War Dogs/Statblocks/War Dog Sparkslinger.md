@@ -75,4 +75,5 @@ abilities:
         t3: 7 lightning damage; the lightning spreads 2 squares
       - effect: The lightning's spread is the distance it arcs from a target to nearby
           enemies. Each enemy within that distance takes 2 lightning damage.
+        name: Effect
 ```

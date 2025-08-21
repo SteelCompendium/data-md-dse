@@ -75,6 +75,7 @@ abilities:
           this ability obtains a tier 3 outcome against one or more creatures
           who are already seared, the firestarter can use Enflame as a free
           triggered action
+        name: Effect
   - name: Enflame
     keywords:
       - Magic
@@ -83,13 +84,10 @@ abilities:
     distance: Ranged 10
     target: Special
     effects:
-      - effect: >-
-          This ability targets each enemy within 2 squares of any seared
-          creature within distance.
-
-          - **≤11:** 2 fire damage
-
-          - **12-16:** 4 fire damage; A < 3 the target is seared (save ends)
-
-          - **17+:** 6 fire damage; A < 4 the target is seared (save ends)
+      - name: Effect
+        effect: This ability targets each enemy within 2 squares of any seared creature
+          within distance.
+        t1: 2 fire damage
+        t2: 4 fire damage; A < 3 the target is seared (save ends)
+        t3: 6 fire damage; A < 4 the target is seared (save ends)
 ```

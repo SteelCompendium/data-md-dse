@@ -73,6 +73,7 @@ abilities:
         t3: 5 holy damage; R < 2 the target is illuminated (save ends)
       - effect: An illuminated creature or object can't hide or become invisible, and
           any strike made against an illuminated target gains an edge.
+        name: Effect
   - name: Noxious Bubble
     cost: 2 Malice
     keywords:
@@ -83,16 +84,13 @@ abilities:
     distance: 2 cube of unoccupied space within 10
     target: Special
     effects:
-      - effect: >-
-          A bubble of toxic gas fills the area, ready to pop. If any creature or
+      - name: Effect
+        effect: A bubble of toxic gas fills the area, ready to pop. If any creature or
           object touches the bubble or if the bubble takes damage, it bursts.
           Each angulotl adjacent to the bubble is wet until the end of the
           encounter, and each enemy adjacent to the bubble makes a **Might
           test**.
-
-          - **≤11:** 3 poison damage; the target is wet and weakened (save ends)
-
-          - **12-16:** 2 poison damage; the target is wet (save ends)
-
-          - **17+:** 1 poison damage; the target is wet (EoT)
+        t1: 3 poison damage; the target is wet and weakened (save ends)
+        t2: 2 poison damage; the target is wet (save ends)
+        t3: 1 poison damage; the target is wet (EoT)
 ```

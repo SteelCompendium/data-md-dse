@@ -60,4 +60,5 @@ metadata:
 effects:
   - effect: Each target gains 2 surges. Additionally, they can spend a Recovery,
       remove any conditions or effects on them, and stand up if they are prone.
+    name: Effect
 ```

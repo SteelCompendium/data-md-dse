@@ -78,6 +78,7 @@ abilities:
         t3: 15 damage; pull 3
       - effect: One ally within 10 squares of the ground commander can make a free
           strike.
+        name: Effect
       - effect: A target who has I < 2 and who is adjacent to the ground commander after
           this ability is resolved is grabbed (save ends). This grab can't be
           escaped using the Escape Grab maneuver. The ground commander can grab
@@ -92,6 +93,7 @@ abilities:
     target: Each war dog in the area
     effects:
       - effect: Any target who has a loyalty collar is reduced to 0 Stamina.
+        name: Effect
   - name: Final Orders
     keywords:
       - Magic
@@ -104,6 +106,7 @@ abilities:
       - effect: Even if reduced to 0 Stamina, the target moves up to their speed and can
           make a free strike after the triggering effect is resolved The target
           then immediately dies.
+        name: Effect
   - name: Combined Arms
     cost: Villain Action 1
     keywords:
@@ -114,6 +117,7 @@ abilities:
     effects:
       - effect: Each target can make a ranged free strike, then immediately use the
           Charge main action.
+        name: Effect
   - name: Make an Example of Them
     cost: Villain Action 2
     keywords:
@@ -126,6 +130,7 @@ abilities:
       - effect: Each ally within 5 squares of the target moves up to their speed and can
           make a free strike against the target. If the target has I < 2, they
           are frightened of the ground commander (save ends).
+        name: Effect
   - name: Claim Them for the Body Banks
     cost: Villain Action 3
     keywords:
@@ -138,4 +143,5 @@ abilities:
       - effect: Each target ally shifts up to 2 squares and can use the Grab maneuver.
           Until the end of the encounter, each target enemy takes a bane on the
           Escape Grab maneuver.
+        name: Effect
 ```

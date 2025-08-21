@@ -65,4 +65,5 @@ effects:
     t2: 7 + A damage
     t3: 10 + A damage
   - effect: You can shift up to half your speed before or after you make this strike.
+    name: Effect
 ```

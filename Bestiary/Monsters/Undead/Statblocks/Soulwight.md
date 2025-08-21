@@ -73,6 +73,7 @@ abilities:
       - effect: The target appears to rapidly age each time they take damage from this
           ability. The target regains their former appearance when the soulwight
           is destroyed.
+        name: Effect
   - name: Stolen Vitality
     cost: 3 Malice
     keywords:
@@ -85,4 +86,5 @@ abilities:
       - effect: The target regains 10 Stamina. The soulwight can't use this maneuver
           again until after they strike a creature with their Soulstealer
           Longsword.
+        name: Effect
 ```

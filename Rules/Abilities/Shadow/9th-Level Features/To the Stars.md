@@ -73,4 +73,5 @@ effects:
     t3: 11 + A fire damage; vertical push 15
   - effect: The ground beneath a 3-cube area around the target's starting position
       is difficult terrain.
+    name: Effect
 ```

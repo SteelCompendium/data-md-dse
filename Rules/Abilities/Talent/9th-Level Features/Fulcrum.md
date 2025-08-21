@@ -64,7 +64,8 @@ metadata:
   target: Each enemy and object in the area
   type: feature/ability/talent/9th-level-feature
 effects:
-  - effect: Make a power roll to determine the area of this ability. Each target is
+  - name: Effect
+    effect: Make a power roll to determine the area of this ability. Each target is
       vertical pushed 6 squares. You can target only objects of size 1L or
       smaller.
   - roll: Power Roll + Reason

@@ -61,4 +61,5 @@ effects:
       the effect. If the forced movement is reduced to 0 squares, the target can
       push the source of the forced movement a number of squares equal to your
       Reason score.
+    name: Effect
 ```

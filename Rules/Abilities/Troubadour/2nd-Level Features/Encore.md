@@ -66,4 +66,5 @@ effects:
       Resource, and cost no Malice. When you make the strike, you use your
       Presence score for any power rolls, and any damage you deal is sonic
       damage.
+    name: Effect
 ```

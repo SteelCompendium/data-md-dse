@@ -74,4 +74,5 @@ effects:
   - effect: If this forced movement causes a target to slam into you, you take no
       damage from the collision and the target takes the damage you would have
       taken.
+    name: Effect
 ```

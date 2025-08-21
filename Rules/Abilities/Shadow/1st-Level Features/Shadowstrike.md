@@ -65,4 +65,5 @@ metadata:
   type: feature/ability/shadow/1st-level-feature
 effects:
   - effect: You use a strike signature ability twice.
+    name: Effect
 ```

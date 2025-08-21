@@ -77,4 +77,5 @@ abilities:
         t3: 9 damage
       - effect: The tyburaki can make a free strike against each enemy adjacent to the
           target.
+        name: Effect
 ```

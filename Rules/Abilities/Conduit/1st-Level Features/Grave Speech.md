@@ -58,4 +58,5 @@ effects:
       you. The trauma of dying can make a creature's memory of that event hazy,
       but the target otherwise knows all they knew in life. After 1 minute, the
       effect ends. You can't use this ability on the same creature twice.
+    name: Effect
 ```

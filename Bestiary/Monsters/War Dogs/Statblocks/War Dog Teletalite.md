@@ -74,6 +74,7 @@ abilities:
         t3: 7 damage; slide 3
       - effect: The teletalite gains an edge on this ability if any ally is adjacent to
           the target.
+        name: Effect
       - effect: The teletalite teleports the target 3 squares before sliding them.
         cost: 1 Malice
   - name: Posthumous Promotion
@@ -85,6 +86,7 @@ abilities:
     target: One war dog
     effects:
       - effect: If the target has a loyalty collar, they are reduced to 0 Stamina.
+        name: Effect
   - name: Corrupted Ash Teleport
     cost: 1 Malice
     keywords:
@@ -95,4 +97,5 @@ abilities:
     effects:
       - effect: The teletalite can teleport up to 5 squares and gains an edge on strikes
           until the end of their turn.
+        name: Effect
 ```

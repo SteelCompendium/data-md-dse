@@ -73,6 +73,7 @@ abilities:
         t2: 12 lightning damage
         t3: 15 lightning damage
       - effect: The next strike made against the target deals an extra 5 damage.
+        name: Effect
   - name: Mourning Till Dusk
     cost: 3 Malice
     keywords:
@@ -87,4 +88,5 @@ abilities:
         t2: The target regains 9 Stamina.
         t3: The target regains 12 Stamina and the Director gains 3 Malice.
       - effect: Each target gains an edge on their next strike.
+        name: Effect
 ```

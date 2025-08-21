@@ -107,6 +107,7 @@ abilities:
           they take a −1 penalty to their Reason, Intuition, or Presence score
           and the mindkiller has a +1 bonus to the same score, all until the end
           of the encounter.
+        name: Effect
   - name: Meat Shield
     keywords:
       - "-"
@@ -117,6 +118,7 @@ abilities:
     effects:
       - effect: The mindkiller halves the damage. If the mindkiller has a creature
           grabbed, that creature takes the other half of the damage.
+        name: Effect
       - effect: A grabbed creature takes the damage instead of the mindkiller.
         cost: 3 Malice
 ```

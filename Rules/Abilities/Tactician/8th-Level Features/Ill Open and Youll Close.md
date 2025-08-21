@@ -76,4 +76,5 @@ effects:
       Resource, as long as they have enough Heroic Resource to pay for the
       ability. If the target is reduced to 0 Stamina before the chosen ally has
       used their ability, the ally can pick a different target.
+    name: Effect
 ```

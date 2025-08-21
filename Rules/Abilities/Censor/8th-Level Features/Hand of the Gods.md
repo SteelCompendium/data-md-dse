@@ -71,4 +71,5 @@ effects:
   - effect: Until the end of the encounter, while the target is judged by you, you
       can choose to make them the source of any of your abilities. Additionally,
       the target counts as an ally for the purpose of flanking.
+    name: Effect
 ```

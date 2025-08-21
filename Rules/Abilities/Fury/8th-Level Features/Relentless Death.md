@@ -67,7 +67,8 @@ metadata:
   target: Self
   type: feature/ability/fury/8th-level-feature
 effects:
-  - effect: You shift up to your speed. Each enemy you move adjacent to during this
+  - name: Effect
+    effect: You shift up to your speed. Each enemy you move adjacent to during this
       movement takes damage equal to twice your Might score. Then make one power
       roll that targets each enemy you move adjacent to during this shift. You
       gain 1 ferocity for each target who dies as a result of this ability

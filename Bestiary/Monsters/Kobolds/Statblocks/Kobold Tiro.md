@@ -70,4 +70,5 @@ abilities:
         t2: 2 damage; the tiro can shift 1 square
         t3: 3 damage; the tiro shifts up to 2 squares
       - effect: The target can't shift until the start of the tiro's next turn
+        name: Effect
 ```

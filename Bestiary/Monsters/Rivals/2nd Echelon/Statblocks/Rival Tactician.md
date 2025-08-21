@@ -87,6 +87,7 @@ abilities:
         t2: 16 damage; M < 2 weakened (save ends)
         t3: 21 damage; M < 3 weakened (save ends)
       - effect: One ally adjacent to the target regains 7 Stamina.
+        name: Effect
   - name: Take the Opening
     keywords:
       - Ranged
@@ -97,4 +98,5 @@ abilities:
     effects:
       - effect: At any point during the movement, the tactician and one ally within
           distance can each make a free strike against the target.
+        name: Effect
 ```

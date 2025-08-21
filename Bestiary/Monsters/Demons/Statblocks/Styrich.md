@@ -75,6 +75,7 @@ abilities:
         t3: 12 damage; pull 3, grabbed
       - effect: Any target restrained by the styrich's Tangled Nest ability can be
           pulled the distance determined by the power roll.
+        name: Effect
   - name: Tangled Nest
     cost: 5 Malice
     keywords:

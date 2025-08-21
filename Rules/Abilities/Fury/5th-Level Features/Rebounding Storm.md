@@ -73,4 +73,5 @@ effects:
       remaining distance away from the creature or object in the direction they
       came from. As long as forced movement remains, this effect continues if
       the target collides with another creature or object.
+    name: Effect
 ```

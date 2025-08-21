@@ -54,6 +54,7 @@ metadata:
 effects:
   - effect: At any time during the target's movement, one ally can make a free
       strike against them.
+    name: Effect
   - effect: If the target has R < AVERAGE, they are slowed (EoT).
     cost: Spend 1 Focus
 ```

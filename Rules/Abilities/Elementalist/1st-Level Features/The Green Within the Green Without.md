@@ -65,4 +65,5 @@ effects:
     t2: 5 + R damage
     t3: 7 + R damage
   - effect: You slide one creature within 10 squares of the target up to 2 squares.
+    name: Effect
 ```

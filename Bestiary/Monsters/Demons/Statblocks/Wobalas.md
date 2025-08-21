@@ -70,4 +70,5 @@ abilities:
         t3: 7 psychic damage
       - effect: The target takes a bane on their next strike. If the target is winded,
           they have a double bane on their next strike instead.
+        name: Effect
 ```

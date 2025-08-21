@@ -64,4 +64,5 @@ effects:
   - effect: Choose yourself or one ally within distance. That character can impose a
       bane on one power roll made against them before the end of their next
       turn.
+    name: Effect
 ```

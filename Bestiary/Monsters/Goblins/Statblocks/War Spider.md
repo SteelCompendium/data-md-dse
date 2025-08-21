@@ -101,6 +101,7 @@ abilities:
       - effect: The spider shifts up to their speed and uses Leg Blade against each
           creature who comes adjacent to them during the shift. The spider makes
           one power roll against all targets.
+        name: Effect
   - name: Web
     keywords:
       - Area
@@ -114,6 +115,7 @@ abilities:
         t2: A < 1 restrained (save ends)
         t3: A < 2 restrained (save ends)
       - effect: The area is difficult terrain for enemies.
+        name: Effect
   - name: Skitter
     keywords:
       - "-"
@@ -124,4 +126,5 @@ abilities:
     effects:
       - effect: The damage is halved, and the spider shifts up to 2 squares after the
           triggering effect resolve
+        name: Effect
 ```

@@ -83,4 +83,5 @@ abilities:
     effects:
       - effect: The shadow coats their weapon with poison. They gain an edge on their
           next strike, and any potency for that strike increases by 1.
+        name: Effect
 ```

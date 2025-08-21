@@ -79,6 +79,7 @@ abilities:
       - effect: This ability ignores stability. The geomancer declares a direction for
           the area, and any creature pushed by this ability is pushed to the
           last space in the area in the chosen direction.
+        name: Effect
       - effect: The ground beneath the area becomes a 2-square-deep trench after the
           power roll is resolved
         cost: 2 Malice
@@ -93,4 +94,5 @@ abilities:
     effects:
       - effect: The geomancer raises a wall of stone set with viewing gaps. Creatures
           have line of effect through the wall while adjacent to it.
+        name: Effect
 ```

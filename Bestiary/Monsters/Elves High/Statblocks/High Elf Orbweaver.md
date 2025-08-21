@@ -87,4 +87,5 @@ abilities:
           as the target unless they are already adjacent to them, or if they
           immediately shift into an unoccupied space adjacent to the target (no
           action required).
+        name: Effect
 ```

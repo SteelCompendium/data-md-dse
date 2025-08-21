@@ -61,7 +61,8 @@ metadata:
   target: Special
   type: feature/ability/conduit/9th-level-feature
 effects:
-  - effect: >-
+  - name: Effect
+    effect: >-
       You conjure a size 4 dragon that appears in an unoccupied space within
       distance. The dragon has speed 6 and can fly, stability 4, 100 Stamina,
       immunity all to fire damage, and uses your characteristics. The dragon

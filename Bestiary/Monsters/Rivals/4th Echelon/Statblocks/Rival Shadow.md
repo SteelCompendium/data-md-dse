@@ -85,4 +85,5 @@ abilities:
       - effect: The shadow coats their weapon with poison. They have a double edge on
           their next strike, any potency for that strike increases by 2, and if
           the target has M < 4, they are weakened (save ends).
+        name: Effect
 ```

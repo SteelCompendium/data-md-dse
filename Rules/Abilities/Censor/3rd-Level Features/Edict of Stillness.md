@@ -66,4 +66,5 @@ effects:
       moves or is force moved out of the area, they take holy damage equal to
       twice your Presence score. A target judged by you who moves willingly
       takes an extra 2d6 holy damage.
+    name: Effect
 ```

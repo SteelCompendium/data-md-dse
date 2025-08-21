@@ -72,6 +72,7 @@ effects:
     t2: 9 damage; vertical pull 7 toward the center of the area
     t3: 13 damage; vertical pull 10 toward the center of the area
   - effect: Targets closest to the center of the area are pulled first.
+    name: Effect
   - effect: The size of the area increases by 2. You also target yourself and each
       ally within distance.
     name: Strained

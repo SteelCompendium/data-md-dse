@@ -92,4 +92,5 @@ abilities:
         t2: 10 lightning damage
         t3: 13 lightning damage
       - effect: Each target loses all their surges.
+        name: Effect
 ```

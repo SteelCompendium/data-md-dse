@@ -79,6 +79,7 @@ abilities:
         t3: 18 fire damage; I < 1 frightened (save ends)
       - effect: The adjudicator can slide a target frightened by this ability up to 2
           squares.
+        name: Effect
   - name: Adjudicator's Interdiction
     keywords:
       - Magic
@@ -87,16 +88,12 @@ abilities:
     distance: Ranged 10
     target: One creature
     effects:
-      - effect: >-
-          The target makes a Presence test
-
-          - **≤11:** The target is slowed, takes a bane on power rolls, and
-          can't regain Stamina (save ends).
-
-          - **12-16:** The target is slowed and takes a bane on power rolls
+      - name: Effect
+        effect: The target makes a Presence test
+        t1: The target is slowed, takes a bane on power rolls, and can't regain Stamina
           (save ends).
-
-          - **17+:** Slowed (save ends)
+        t2: The target is slowed and takes a bane on power rolls (save ends).
+        t3: Slowed (save ends)
   - name: Quid Pro Quo
     keywords:
       - Magic
@@ -106,6 +103,7 @@ abilities:
     target: One ally or frightened creature
     effects:
       - effect: The adjudicator and the target teleport to switch places.
+        name: Effect
   - name: Devilish Charm
     cost: 2 Malice
     keywords:
@@ -117,4 +115,5 @@ abilities:
     trigger: A creature targets the adjudicator with a strike.
     effects:
       - effect: The target makes a Presence test
+        name: Effect
 ```

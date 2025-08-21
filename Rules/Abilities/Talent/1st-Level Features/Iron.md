@@ -68,6 +68,7 @@ effects:
       score, and they gain 10 temporary Stamina and 2 surges. This stability
       increase lasts until the target no longer has temporary Stamina from this
       ability.
+    name: Effect
   - effect: You can't use maneuvers (save ends).
     name: Strained
 ```

@@ -82,6 +82,7 @@ effects:
       target takes damage that wasn't dealt by or also taken by another stitched
       target, each other stitched target takes half the damage the initial
       target took.
+    name: Effect
   - effect: You target yourself and three enemies instead.
     name: Strained
 ```

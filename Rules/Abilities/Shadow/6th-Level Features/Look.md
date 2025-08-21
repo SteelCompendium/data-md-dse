@@ -65,4 +65,5 @@ metadata:
 effects:
   - effect: Until the start of your next turn, any ability roll made against a
       target gains an edge.
+    name: Effect
 ```

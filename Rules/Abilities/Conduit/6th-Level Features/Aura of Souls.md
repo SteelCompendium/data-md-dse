@@ -65,4 +65,5 @@ effects:
       each of your turns, you can slide each creature in the area up to a number
       of squares equal to your Intuition score. This forced movement ignores
       stability for your allies.
+    name: Effect
 ```

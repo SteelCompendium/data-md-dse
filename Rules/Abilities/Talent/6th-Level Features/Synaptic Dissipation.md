@@ -70,7 +70,8 @@ metadata:
   target: Special
   type: feature/ability/talent/6th-level-feature
 effects:
-  - effect: You target a number of creatures with this ability determined by the
+  - name: Effect
+    effect: You target a number of creatures with this ability determined by the
       outcome of your power roll. You and your allies are invisible to each
       target until the start of your next turn.
   - roll: Power Roll + Reason

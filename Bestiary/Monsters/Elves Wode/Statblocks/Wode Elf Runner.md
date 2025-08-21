@@ -75,4 +75,5 @@ abilities:
         t3: 3 damage
       - effect: If this ability is used as part of the Charge main action, the runner
           shifts up to 2 squares first
+        name: Effect
 ```

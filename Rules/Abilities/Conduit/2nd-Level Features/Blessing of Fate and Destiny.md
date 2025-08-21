@@ -71,4 +71,5 @@ effects:
 
       - Whenever a target makes a power roll, they must roll three dice and use
       the lowest two rolls.
+    name: Effect
 ```

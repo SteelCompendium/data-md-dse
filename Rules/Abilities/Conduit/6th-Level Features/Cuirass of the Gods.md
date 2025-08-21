@@ -66,4 +66,5 @@ metadata:
 effects:
   - effect: You can target yourself instead of one creature with this ability. Each
       target has damage immunity 5 until the start of your next turn.
+    name: Effect
 ```

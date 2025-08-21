@@ -72,4 +72,5 @@ abilities:
       - effect: If the snare started their turn hidden from the target, the target is
           automatically grabbed. A target grabbed this way or already grabbed by
           the snare can be vertical pushed up to 4 squares.
+        name: Effect
 ```

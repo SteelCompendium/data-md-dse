@@ -75,4 +75,5 @@ effects:
       turn, any effects from the ability's tier outcomes other than damage are
       negated for all targets. Ability effects that always happen regardless of
       the power roll work as usual.
+    name: Effect
 ```

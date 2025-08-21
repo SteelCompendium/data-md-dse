@@ -73,4 +73,5 @@ abilities:
         t2: 4 damage; push 1
         t3: 6 damage; push 3
       - effect: Any target within 2 squares of the sweeper takes an extra 3 damage.
+        name: Effect
 ```

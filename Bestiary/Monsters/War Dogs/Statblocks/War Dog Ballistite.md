@@ -75,6 +75,7 @@ abilities:
         t3: 11 damage; push 5
       - effect: Any target pushed into an obstacle is knocked prone, and if they have M
           < 3 they are restrained (save ends).
+        name: Effect
   - name: Kill Zone
     cost: 3 Malice
     keywords:
@@ -88,4 +89,5 @@ abilities:
       - effect: Until the start of the ballistite's next turn, the area is difficult
           terrain, and any ranged ability targeting an enemy in the area deals
           an extra 8 damage.
+        name: Effect
 ```

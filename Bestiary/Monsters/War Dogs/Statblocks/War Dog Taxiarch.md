@@ -76,6 +76,7 @@ abilities:
           ends)
       - effect: The spread is the distance the charge arcs from a target to nearby
           enemies. Each enemy within spread takes 5 lightning damage.
+        name: Effect
       - effect: The lighting spread increases by 2 squares. Additionally, any creature
           who takes lightning damage from this ability and who has M < 4 is
           slowed until the end of their next turn.
@@ -92,6 +93,7 @@ abilities:
     effects:
       - effect: Each target shifts up to their speed and can make a free strike that
           deals an extra 5 lightning damage.
+        name: Effect
   - name: Thunderstruck
     keywords:
       - Magic
@@ -105,6 +107,7 @@ abilities:
           and is thunderstruck (save ends). A thunderstruck creature has
           lightning weakness 5, and the taxiarch gains an edge on power rolls
           against them.
+        name: Effect
   - name: Magnetic Trickery
     cost: Villain Action 1
     keywords:
@@ -115,6 +118,7 @@ abilities:
     target: Each enemy in the area
     effects:
       - effect: Slide 5, and if the the target has M < 4, they fall prone.
+        name: Effect
   - name: Conductor of Combat
     cost: Villain Action 2
     keywords:
@@ -126,6 +130,7 @@ abilities:
     effects:
       - effect: Each target shifts up to their speed, then can make a free strike or use
           a maneuver.
+        name: Effect
   - name: Unlimited Power!
     cost: Villain Action 3
     keywords:
@@ -135,17 +140,12 @@ abilities:
     distance: 3 burst
     target: Each creature in the area
     effects:
-      - effect: >-
-          Each target makes an Agility test.
-
-          - **≤11:** 18 lightning damage; the target is thunderstruck (save
-          ends)
-
-          - **12-16:** 14 lightning damage; the target is thunderstruck (EoT)
-
-          - **17+:** 9 lightning damage
-
-          See Thunderstruck. Additionally, until the end of the encounter, any
+      - name: Effect
+        effect: Each target makes an Agility test.
+        t1: 18 lightning damage; the target is thunderstruck (save ends)
+        t2: 14 lightning damage; the target is thunderstruck (EoT)
+        t3: 9 lightning damage
+      - effect: See Thunderstruck. Additionally, until the end of the encounter, any
           enemy who moves within 3 squares of the taxiarch for the first time in
           a round or starts their turn there takes 3 lightning damage.
 ```

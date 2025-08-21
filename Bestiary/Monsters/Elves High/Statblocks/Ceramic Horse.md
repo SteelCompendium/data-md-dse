@@ -82,6 +82,7 @@ abilities:
         t2: 5 damage
         t3: 7 damage
       - effect: Any target who is prone takes an extra 2 damage.
+        name: Effect
   - name: Buck
     cost: 2 Malice
     keywords:
@@ -93,4 +94,5 @@ abilities:
       - effect: The horse vertical slides the target up to 3 squares, ignoring
           stability. The target can use a ranged ability at any point during
           this forced movement, and takes no damage if they then fall.
+        name: Effect
 ```

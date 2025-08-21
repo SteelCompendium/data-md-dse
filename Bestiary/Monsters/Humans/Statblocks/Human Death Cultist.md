@@ -87,4 +87,5 @@ abilities:
           They immediately die at the end of the encounter or if the death
           cultist is killed. A target can be revived multiple times by this
           ability.
+        name: Effect
 ```

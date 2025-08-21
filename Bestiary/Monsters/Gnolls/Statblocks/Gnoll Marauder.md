@@ -82,4 +82,5 @@ abilities:
       - effect: Each target shifts up to their speed. If any target hasn't used their
           own Cackletongue maneuver on this turn, they can use it immediately at
           no cost.
+        name: Effect
 ```

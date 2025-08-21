@@ -72,6 +72,7 @@ abilities:
         t2: 11 damage
         t3: 14 damage; A < 2 restrained (save ends)
       - effect: The gweiadur shifts up to 3 squares
+        name: Effect
       - effect: If this ability restrains the target, one enemy adjacent to the target
           is also restrained (save ends).
         cost: 3 Malice
@@ -91,4 +92,5 @@ abilities:
         t3: 9 damage; R < 2 slowed and the target is marked (save ends)
       - effect: Allies gain an edge on abilities against a target marked by any wode
           elf.
+        name: Effect
 ```

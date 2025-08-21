@@ -63,4 +63,5 @@ metadata:
 effects:
   - effect: Until the end of the encounter or until you are dying, each target who
       starts their turn in the area gains 10 temporary Stamina.
+    name: Effect
 ```

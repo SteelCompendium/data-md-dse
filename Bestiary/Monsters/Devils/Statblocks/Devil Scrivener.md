@@ -75,4 +75,5 @@ abilities:
         t2: 5 corruption damage; slowed (EoT)
         t3: 6 corruption damage; slowed (EoT)
       - effect: The scrivener can shift 1 square.
+        name: Effect
 ```

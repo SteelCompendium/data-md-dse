@@ -68,4 +68,5 @@ effects:
       end this movement adjacent to the other target and on solid ground. Each
       target can then make a melee free strike that deals extra damage equal to
       twice their highest characteristic score.
+    name: Effect
 ```

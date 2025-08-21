@@ -72,4 +72,5 @@ effects:
 
       This ability remains active even after an encounter ends. It ends only if
       you are dying or if you willingly end it (no action required).
+    name: Effect
 ```

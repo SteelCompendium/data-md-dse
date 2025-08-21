@@ -85,7 +85,8 @@ abilities:
     distance: Melee 1
     target: Each enemy
     effects:
-      - effect: A target must be grabbed by the hulking brain, and is no longer grabbed
+      - name: Effect
+        effect: A target must be grabbed by the hulking brain, and is no longer grabbed
           after the power roll is resolved
       - roll: Power Roll + 3
         t1: 7 damage; M < 1 3 damage
@@ -99,6 +100,7 @@ abilities:
     target: Self
     effects:
       - effect: The hulking brain shifts up to 4 squares, ignoring difficu terrain.
+        name: Effect
   - name: Brawny Buffe
     cost: 1 Malice
     keywords:
@@ -111,6 +113,7 @@ abilities:
     effects:
       - effect: The hulking brain shifts adjacent to the ally and becomes the new target
           of the ability.
+        name: Effect
       - effect: The enemy is knocked prone.
         cost: 2 Malice
 ```

@@ -95,7 +95,8 @@ abilities:
     distance: Melee 1
     target: One creature
     effects:
-      - effect: The target must be grabbed by the invader.
+      - name: Effect
+        effect: The target must be grabbed by the invader.
       - roll: Power Roll + 3
         t1: 6 damage; vertical slide 2
         t2: 10 damage; vertical slide 2
@@ -110,4 +111,5 @@ abilities:
     trigger: A creature grabbed by the invader resists an ability's potency.
     effects:
       - effect: The potency increases by 2.
+        name: Effect
 ```

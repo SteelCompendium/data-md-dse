@@ -72,6 +72,7 @@ effects:
       enemy who enters the area for the first time in a combat round or starts
       their turn there takes fire damage equal to your Reason score for each
       square of the area they start their turn in or enter.
+    name: Effect
   - effect: The wall lasts until the start of your next turn, and you can add a
       number of squares to the wall equal to your Reason score.
     name: Persistent 1

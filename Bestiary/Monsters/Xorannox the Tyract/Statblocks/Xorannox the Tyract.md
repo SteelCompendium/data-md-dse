@@ -101,6 +101,7 @@ abilities:
         t2: Vertical push 5
         t3: Vertical push 7
       - effect: Xorannox shifts up to his speed before or after using this ability.
+        name: Effect
   - name: Optical Collusion
     keywords:
       - "-"
@@ -109,6 +110,7 @@ abilities:
     target: Self
     effects:
       - effect: Xorannox commands all his eyestalks to move up to their speed.
+        name: Effect
   - name: Shutout
     cost: 2 Malice
     keywords:
@@ -121,6 +123,7 @@ abilities:
           supernatural effects from treasures in the area. New supernatural
           effects can't be activated in the area until the end of Xorannox's
           next turn.
+        name: Effect
   - name: Cower!
     keywords:
       - Psionic
@@ -131,6 +134,7 @@ abilities:
     trigger: A creature within distance deals damage to Xorannox.
     effects:
       - effect: If the target has I < 3 they are frightened (save ends)
+        name: Effect
   - name: Disruption Beam
     cost: Villain Action 1
     keywords:
@@ -155,6 +159,7 @@ abilities:
     effects:
       - effect: Xorannox recreates any destroyed eyestalks, which return in unoccupied
           spaces on the encounter map with full Stamina.
+        name: Effect
   - name: Panoptibeam
     cost: Villain Action 3
     keywords:
@@ -165,4 +170,5 @@ abilities:
     effects:
       - effect: Xorannox directs each of his eyestalks to use a signature ability
           against any target.
+        name: Effect
 ```

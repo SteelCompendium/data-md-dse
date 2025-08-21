@@ -76,6 +76,7 @@ abilities:
       - effect: The ground and any surfaces in the area pool with slime. The slime is
           difficult terrain for enemies, and any enemy is bleeding while in the
           area.
+        name: Effect
   - name: Spew Slide
     cost: 1 Malice
     keywords:
@@ -90,4 +91,5 @@ abilities:
           occupied before the shift is covered in slime that is difficult
           terrain for enemies. Additionally, any enemy is bleeding while in the
           slime.
+        name: Effect
 ```

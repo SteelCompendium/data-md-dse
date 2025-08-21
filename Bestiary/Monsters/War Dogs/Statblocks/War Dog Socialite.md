@@ -74,4 +74,5 @@ abilities:
         t2: The target makes a free strike (tier 2 result) against themself
         t3: The target makes a free strike (tier 3 result) against themself
       - effect: The target takes an extra 5 damage for each surge they have.
+        name: Effect
 ```

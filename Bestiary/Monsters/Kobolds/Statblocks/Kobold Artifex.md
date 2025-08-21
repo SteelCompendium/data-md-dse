@@ -70,6 +70,7 @@ abilities:
         t3: 5 damage; pull 3
       - effect: If this forced movement triggers a trap that uses a power roll, that
           roll has a double edge.
+        name: Effect
   - name: Activate Trap
     keywords:
       - Ranged
@@ -78,6 +79,7 @@ abilities:
     target: One trap or other terrain object
     effects:
       - effect: The trap or terrain object instantly triggers.
+        name: Effect
       - effect: The artifex places a new trap in the encounter and can instantly trigger
           it. The artifex prefers working with angry beehives, flammable oil,
           snare traps, and spike traps (see Dynamic Terrain).

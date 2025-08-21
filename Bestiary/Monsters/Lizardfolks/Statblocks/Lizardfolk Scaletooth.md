@@ -72,6 +72,7 @@ abilities:
         t3: 12 damage; A < 2 bleeding (save ends)
       - effect: If the scaletooth has the target grabbed, the potency of this ability
           increases by 1.
+        name: Effect
   - name: Tail Whip
     cost: 2 Malice
     keywords:

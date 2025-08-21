@@ -73,4 +73,5 @@ abilities:
         t3: 7 damage
       - effect: The grulqin gains an edge on this ability if they previously moved 3 or
           more squares in a straight line on their turn.
+        name: Effect
 ```

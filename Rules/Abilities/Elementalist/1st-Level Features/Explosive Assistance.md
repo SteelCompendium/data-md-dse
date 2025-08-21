@@ -59,6 +59,7 @@ metadata:
   type: feature/ability/elementalist/1st-level-feature
 effects:
   - effect: The forced movement distance gains a bonus equal to your Reason score.
+    name: Effect
   - effect: The forced movement distance gains a bonus equal to twice your Reason
       score instead.
     cost: Spend 1 Essence

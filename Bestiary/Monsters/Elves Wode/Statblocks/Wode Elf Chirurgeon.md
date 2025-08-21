@@ -74,6 +74,7 @@ abilities:
         t2: 9 damage; push 3
         t3: 12 damage; push 5
       - effect: The chirurgeon can make a ranged free strike before using this ability.
+        name: Effect
       - effect: The chirurgeon uses this ability again.
         cost: 5 Malice
   - name: The Wode Protects Us
@@ -87,4 +88,5 @@ abilities:
     effects:
       - effect: Each target can teleport up to 10 squares to a space that has cover or
           concealment.
+        name: Effect
 ```

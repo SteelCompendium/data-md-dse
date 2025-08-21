@@ -64,7 +64,8 @@ metadata:
   target: Self
   type: feature/ability/tactician/2nd-level-feature
 effects:
-  - effect: You shift up to your speed directly toward an ally, ending adjacent to
+  - name: Effect
+    effect: You shift up to your speed directly toward an ally, ending adjacent to
       them, then swapping locations with that ally as long as you can fit into
       each other's spaces. The ally can spend a Recovery, and you can make the
       following weapon strike with a distance of melee 1 against a creature.

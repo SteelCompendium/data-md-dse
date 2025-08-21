@@ -77,4 +77,5 @@ abilities:
         t3: 9 damage; push 4; A < 4 5 damage
       - effect: The crack trooper's squad's Stamina pool regains Stamina equal to half
           the damage dealt.
+        name: Effect
 ```

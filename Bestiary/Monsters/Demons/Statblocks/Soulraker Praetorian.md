@@ -77,6 +77,7 @@ abilities:
         t2: 10 poison damage; push 2
         t3: 11 poison damage; push 4; A < 4 grabbed
       - effect: The praetorian can shift into each square the target leaves.
+        name: Effect
   - name: Stinging Departure
     cost: 2 Malice
     keywords:
@@ -90,4 +91,5 @@ abilities:
           of their stinger in the target, and shifts up to half their speed. The
           target is bleeding until they remove the stinger fragment as a free
           maneuver, taking 6 damage in the process.
+        name: Effect
 ```

@@ -70,4 +70,5 @@ effects:
     t3: 5 + M holy damage
   - effect: When a target who is not a leader or solo creature is made winded by
       this ability, they are reduced to 0 Stamina.
+    name: Effect
 ```

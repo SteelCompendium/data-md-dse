@@ -78,6 +78,7 @@ effects:
       Steel: Monsters](https://mcdm.gg/DS-Monsters)*). After you make the power
       roll, you or one ally within distance have a double edge on the next power
       roll you make before the end of the encounter."
+    name: Effect
   - effect: You feel dispirited until you finish a respite. If you obtain a tier 3
       outcome on the power roll, you and the target each have damage weakness 5
       (save ends).

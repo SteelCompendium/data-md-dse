@@ -62,4 +62,5 @@ effects:
       dying, whenever the Director spends Malice (see *[Draw Steel:
       Monsters](https://mcdm.gg/DS-Monsters)*), choose yourself or one ally
       within 10 squares. The chosen character gains 2 of their Heroic Resource."
+    name: Effect
 ```

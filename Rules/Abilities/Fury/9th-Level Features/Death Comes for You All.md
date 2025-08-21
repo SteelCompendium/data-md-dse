@@ -73,4 +73,5 @@ effects:
     t3: 15 damage; push 7
   - effect: If this forced movement causes a target to be hurled through an object,
       that target takes an extra 10 damage.
+    name: Effect
 ```

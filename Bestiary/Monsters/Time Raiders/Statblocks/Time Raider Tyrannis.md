@@ -80,6 +80,7 @@ abilities:
         t3: 15 corruption damage
       - effect: Each target takes a −2 penalty to speed until the start of the
           tyrannis's next turn.
+        name: Effect
   - name: Air Raid!
     cost: 3 Malice
     keywords:
@@ -91,6 +92,7 @@ abilities:
     effects:
       - effect: Each target can fly up to their speed and make a free strike. If a
           target doesn't land in an unoccupied space, they fall.
+        name: Effect
   - name: Precog Reflexes
     keywords:
       - Psionic
@@ -102,6 +104,7 @@ abilities:
     effects:
       - effect: The strike takes a bane. After the strike resolves, the tyrannis can
           make a free strike against the target.
+        name: Effect
       - effect: The strike has a double bane instead.
         cost: 2 Malice
   - name: We Will Won!
@@ -115,6 +118,7 @@ abilities:
     effects:
       - effect: Each target gains 15 temporary Stamina, and has their speed doubled
           until the end of their next turn.
+        name: Effect
   - name: Stick to the Plan!
     cost: Villain Action 2
     keywords:
@@ -124,6 +128,7 @@ abilities:
     target: Self and each ally in the area
     effects:
       - effect: Each target can end one effect on them or can move up to their speed.
+        name: Effect
   - name: Armageddon
     cost: Villain Action 3
     keywords:
@@ -137,4 +142,5 @@ abilities:
           squares of the tyrannis's space (see Gravity Well). Whenever an enemy
           enters a square with a sensor mine in it, the mine explodes, dealing 3
           damage to the enemy.
+        name: Effect
 ```

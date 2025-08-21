@@ -84,6 +84,7 @@ abilities:
         t3: 16 damage; grabbed
       - effect: A size 1 target grabbed this way takes 3 acid damage at the start of
           each of their turns.
+        name: Effect
   - name: Claw Swing
     keywords:
       - Melee
@@ -98,6 +99,7 @@ abilities:
         t2: 8 damage; A < 2 grabbed
         t3: 11 damage; A < 3 grabbed
       - effect: The arixx can vertically slide each grabbed target up to 3 squares.
+        name: Effect
   - name: Spitfire
     keywords:
       - Ranged
@@ -114,6 +116,7 @@ abilities:
       - effect: The ground beneath each target is covered in burning acid until the end
           of the encounter. Any enemy who enters an affected space for the first
           time in a round or starts their turn there takes 2 acid damage.
+        name: Effect
   - name: Dirt Devil
     cost: 3 Malice
     keywords:
@@ -129,6 +132,7 @@ abilities:
       - effect: The arixx flings rocks and debris to fill the area, and has a double
           edge on the power roll if they started their turn underground. The
           area is difficult terrain.
+        name: Effect
   - name: Dust Cloud
     keywords:
       - Area
@@ -139,6 +143,7 @@ abilities:
       - effect: The arixx kicks up dust to fill the area until the start of their next
           turn, then moves up to their speed. Any enemy in the area or who
           targets a creature in the area takes a bane on power rolls.
+        name: Effect
   - name: Skitter
     keywords:
       - "-"
@@ -149,6 +154,7 @@ abilities:
     effects:
       - effect: The arixx halves the damage and shifts up to 3 squares after the
           triggering effect resolves.
+        name: Effect
   - name: Acid Spew
     cost: Villain Action 1
     keywords:
@@ -165,6 +171,7 @@ abilities:
       - effect: The ground in the area is covered in a puddle of acid until the end of
           the encounter. Any enemy who enters the area for the first time in a
           round or starts their turn there takes 2 acid damage.
+        name: Effect
   - name: Sinkhole
     cost: Villain Action 2
     keywords:
@@ -176,6 +183,7 @@ abilities:
       - effect: The arixx shifts up to their speed. If they end this shift above ground
           and within 2 squares of a creature, they use Bite against the creature
           and can then use the Dig maneuver.
+        name: Effect
   - name: Acid and Claws
     cost: Villain Action 3
     keywords:

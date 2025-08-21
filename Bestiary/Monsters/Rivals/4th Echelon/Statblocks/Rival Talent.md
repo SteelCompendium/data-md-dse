@@ -103,4 +103,5 @@ abilities:
       - effect: The talent halves the damage and shifts up to 2 squares. The triggering
           creature takes psychic damage equal to half the damage dealt and is
           pushed up to 5 squares.
+        name: Effect
 ```

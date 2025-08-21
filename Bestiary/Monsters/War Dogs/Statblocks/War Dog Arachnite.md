@@ -80,6 +80,7 @@ abilities:
       - effect: "This ability ignores cover and concealment. The arachnite chooses one
           of the following damage types when making the strike: acid, cold,
           fire, lightning, poison, psychic, or sonic"
+        name: Effect
       - effect: The arachnite can use this ability as if they were in the space of any
           ally within distance.
         cost: 2 Malice
@@ -92,4 +93,5 @@ abilities:
     target: Special
     effects:
       - effect: The area is difficult terrain until the end of the encounter
+        name: Effect
 ```

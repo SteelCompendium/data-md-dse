@@ -64,4 +64,5 @@ effects:
       of their next turn. Additionally, when you use an ability that deals
       rolled damage against any enemy taunted by you, the ability deals extra
       damage equal to twice your Might score and increases its potency by 1.
+    name: Effect
 ```

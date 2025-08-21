@@ -72,6 +72,7 @@ abilities:
         t3: 13 poison damage
       - effect: This ability gains an edge against targets the basilisk has previously
           dealt poison damage to.
+        name: Effect
   - name: Petrifying Eye Beams
     keywords:
       - Area
@@ -80,9 +81,9 @@ abilities:
     distance: 5 × 2 line within 1
     target: Special
     effects:
-      - effect: The area extends from both the basilisk's eyes, and this ability targets
+      - name: Special
+        effect: The area extends from both the basilisk's eyes, and this ability targets
           the first creature without cover on either side of the area.
-        name: Special
       - roll: Power Roll + 2
         t1: M < 0 restrained (save ends)
         t2: M < 1 restrained (save ends)
@@ -94,6 +95,7 @@ abilities:
           them can use a main action to cut encroaching stone from the target's
           body, dealing 8 damage to the target that can't be reduced in any way
           and ending this effect.
+        name: Effect
   - name: Poison Fumes
     cost: 5 Malice
     keywords:
@@ -117,4 +119,5 @@ abilities:
     effects:
       - effect: Each target takes 5 damage. Any target who has A < 2 is also bleeding
           (save ends).
+        name: Effect
 ```

@@ -62,7 +62,8 @@ metadata:
   target: One ally
   type: feature/ability/tactician/6th-level-feature
 effects:
-  - effect: The target takes half the damage. You then make a power roll against the
+  - name: Effect
+    effect: The target takes half the damage. You then make a power roll against the
       triggering creature.
   - roll: Power Roll + Might
     t1: A < WEAK, dazed (save ends)

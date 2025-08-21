@@ -93,4 +93,5 @@ abilities:
       - effect: The target must be the fury's size or smaller. While the target is
           grabbed this way, the fury and their allies gain an edge on strikes
           against them.
+        name: Effect
 ```

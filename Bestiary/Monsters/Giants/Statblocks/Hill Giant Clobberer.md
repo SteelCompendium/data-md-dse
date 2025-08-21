@@ -80,6 +80,7 @@ abilities:
         t2: 17 damage; prone
         t3: 21 damage; prone
       - effect: A target who is already prone takes an extra 12 damage.
+        name: Effect
   - name: Stomp
     cost: 3 Malice
     keywords:
@@ -96,6 +97,7 @@ abilities:
         t3: 25 damage; prone; M < 4 can't stand (save ends)
       - effect: In suitably soft ground, the target is entrenched in a 2-square deep
           hole.
+        name: Effect
   - name: Hill Quake
     keywords:
       - Area
@@ -103,13 +105,14 @@ abilities:
     distance: 3 burst
     target: Each enemy in the area
     effects:
-      - effect: |-
-          Each target must make either a **Might test** or an **Agility test**.
-          - **≤11:** 6 damage; vertical push 3
-          - **12-16:** 2 damage; vertical push 2
-          - **17+:** Push 2
+      - name: Effect
+        effect: Each target must make either a **Might test** or an **Agility test**.
+        t1: 6 damage; vertical push 3
+        t2: 2 damage; vertical push 2
+        t3: Push 2
       - effect: The clobberer can choose to fall prone in order to double the forced
           movement distance.
+        name: Effect
   - name: You Ain't Getting Away
     keywords:
       - Melee
@@ -118,15 +121,11 @@ abilities:
     target: The triggering creature
     trigger: A creature within distance moves or shifts away from the clobberer.
     effects:
-      - effect: >-
-          The target makes an Agility test.
-
-          - **≤11:** Grabbed, and the target takes a bane on the Escape Grab
-          maneuver
-
-          - **12-16:** Grabbed
-
-          - **17+:** No effect
+      - name: Effect
+        effect: The target makes an Agility test.
+        t1: Grabbed, and the target takes a bane on the Escape Grab maneuver
+        t2: Grabbed
+        t3: No effect
       - effect: A target who would be grabbed by this ability is instead either vertical
           pushed up to 5 squares; or they take 5 damage, are knocked prone, and
           can't stand until the end of their next turn.

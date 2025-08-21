@@ -73,4 +73,5 @@ effects:
     t3: 20 damage
   - effect: Unless you score a critical hit, this ability can't reduce a non-minion
       target below 1 Stamina.
+    name: Effect
 ```

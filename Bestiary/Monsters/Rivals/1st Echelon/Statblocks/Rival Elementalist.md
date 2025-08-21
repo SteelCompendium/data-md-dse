@@ -87,6 +87,7 @@ abilities:
         t3: 8 damage; restrained (save ends)
       - effect: The area is difficult terrain for enemies until the end of the
           encounter. Any enemy in the area has acid weakness 2.
+        name: Effect
   - name: Jaws of the Void
     keywords:
       - Magic
@@ -98,4 +99,5 @@ abilities:
     effects:
       - effect: The elementalist can teleport up to 2 squares. Each creature adjacent to
           the space they leave takes 2 corruption damage.
+        name: Effect
 ```

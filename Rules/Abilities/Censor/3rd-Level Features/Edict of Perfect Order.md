@@ -69,4 +69,5 @@ effects:
       Monsters](https://mcdm.gg/DS-Monsters)*), they take holy damage equal to
       three times your Presence score. A target judged by you takes an extra 2d6
       holy damage."
+    name: Effect
 ```

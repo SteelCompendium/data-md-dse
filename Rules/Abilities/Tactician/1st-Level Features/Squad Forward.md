@@ -59,4 +59,5 @@ metadata:
   type: feature/ability/tactician/1st-level-feature
 effects:
   - effect: Each target can move up to their speed.
+    name: Effect
 ```

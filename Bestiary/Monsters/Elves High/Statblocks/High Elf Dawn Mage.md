@@ -73,4 +73,5 @@ abilities:
         t2: 2 holy damage
         t3: 3 holy damage
       - effect: Until the start of the dawn mage's next turn, the target can't hide.
+        name: Effect
 ```

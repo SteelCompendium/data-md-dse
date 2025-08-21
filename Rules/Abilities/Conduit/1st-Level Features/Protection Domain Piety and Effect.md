@@ -33,13 +33,12 @@ metadata:
   source: mcdm.heroes.v1
   type: feature/trait/conduit/1st-level-feature
 effects:
-  - effect: >-
-      You gain 2 piety the first time in an encounter that you or any ally
+  - effect: You gain 2 piety the first time in an encounter that you or any ally
       within 10 squares gains temporary Stamina, or uses a triggered action to
       reduce incoming damage or to impose a bane or double bane on an enemy's
       power roll.
-
-      - **Prayer Effect:** One ally within 10 squares gains temporary Stamina
-      equal to four times your Intuition score.
     name: Piety
+  - effect: One ally within 10 squares gains temporary Stamina equal to four times
+      your Intuition score.
+    name: Prayer Effect
 ```

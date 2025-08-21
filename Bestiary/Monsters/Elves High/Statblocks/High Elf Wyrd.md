@@ -74,6 +74,7 @@ abilities:
         t3: Vertical push 6
       - effect: For each elemental mote adjacent to the wyrd, the size of the cube
           increases by 1.
+        name: Effect
   - name: Summon Elemental
     cost: 2 Malice
     keywords:
@@ -84,6 +85,7 @@ abilities:
     effects:
       - effect: The wyrd summons two elemental motes or two soot crows into unoccupied
           spaces within distance.
+        name: Effect
   - name: Wyrd Warp
     cost: 2 Malice
     keywords:
@@ -97,4 +99,5 @@ abilities:
           raising the ground or pushing it down to create a trench. Any creature
           in the area moves with the terrain to its new higher elevation, or
           falls if the ground is lowered beneath them.
+        name: Effect
 ```

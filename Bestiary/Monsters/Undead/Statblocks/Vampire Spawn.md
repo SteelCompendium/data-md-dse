@@ -74,6 +74,7 @@ abilities:
         t2: 7 corruption damage; M < 2 bleeding (save ends)
         t3: 9 corruption damage; M < 3 bleeding (save ends)
       - effect: The vampire spawn regains Stamina equal to any corruption damage dealt.
+        name: Effect
       - effect: The target takes an additional 3 corruption damage.
         cost: 1 Malice
   - name: Vampiric Celerity
@@ -86,4 +87,5 @@ abilities:
       - effect: The vampire spawn can shift 1 square, then move up to their speed. The
           next ability the vampire uses before the start of their next turn
           gains an edge.
+        name: Effect
 ```

@@ -63,4 +63,5 @@ effects:
     t3: 10 + P psychic damage
   - effect: Each time the target willingly moves before the end of your next turn,
       they take 1 psychic damage for each square they move.
+    name: Effect
 ```

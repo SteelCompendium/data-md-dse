@@ -65,4 +65,5 @@ effects:
       increases by 1. While the area of that ability is enlarged this way,
       whenever an enemy in the area takes rolled damage, they take extra psychic
       damage equal to twice your Intuition score.
+    name: Effect
 ```

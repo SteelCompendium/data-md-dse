@@ -61,4 +61,5 @@ effects:
   - effect: Until the end of the encounter, whenever an enemy moves or is force
       moved adjacent to you or damages you, you can take the Disengage move
       action as a free triggered action.
+    name: Effect
 ```

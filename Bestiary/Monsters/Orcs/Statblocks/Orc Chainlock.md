@@ -76,6 +76,7 @@ abilities:
         t3: 9 damage; pull 3; M < 2 the target is hooked (save ends)
       - effect: A hooked target can't move more than 3 squares away from the chainlock's
           position when this ability is used.
+        name: Effect
   - name: Heavy Crossbolt
     cost: 3 Malice
     keywords:

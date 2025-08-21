@@ -69,6 +69,7 @@ abilities:
       - effect: A target restrained by a dwarf can be force moved by this ability. This
           forced movement doesn't end the restrained condition unless the
           Director determines otherwise.
+        name: Effect
   - name: Steam-Powered Snare
     cost: 3 Malice
     keywords:
@@ -79,16 +80,12 @@ abilities:
     distance: 3 cube within 5
     target: Each enemy in the area
     effects:
-      - effect: >-
-          Each target makes a **Might test**.
-
-          - **≤11:** 7 damage; restrained (EoT)
-
-          - **12-16:** 5 damage; slowed (EoT)
-
-          - **17+:** No effect.
-
-          The snare remains until the end of the encounter. Any enemy who moves
+      - name: Effect
+        effect: Each target makes a **Might test**.
+        t1: 7 damage; restrained (EoT)
+        t2: 5 damage; slowed (EoT)
+        t3: No effect.
+      - effect: The snare remains until the end of the encounter. Any enemy who moves
           into the area for the first time in a round or starts their turn there
           must make the test.
 ```

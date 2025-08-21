@@ -73,4 +73,5 @@ abilities:
         t2: 2 corruption damage
         t3: 3 corruption damage
       - effect: One creature within 5 squares regains 1 Stamina.
+        name: Effect
 ```

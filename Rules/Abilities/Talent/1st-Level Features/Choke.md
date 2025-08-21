@@ -73,4 +73,5 @@ effects:
     t3: 8 + R damage; M < STRONG, restrained (save ends)
   - effect: You can vertical pull the target up to 2 squares. If the target is made
       restrained by this ability, this forced movement ignores their stability.
+    name: Effect
 ```

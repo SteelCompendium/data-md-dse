@@ -78,6 +78,7 @@ abilities:
           creature adjacent to the target. If they do so and that creature and
           the target both have A < 2, the creature and the target are both
           prone. On any tier outcome, the zephyr can then shift up to 2 squares
+        name: Effect
   - name: Windwalk
     keywords:
       - "-"
@@ -87,4 +88,5 @@ abilities:
     effects:
       - effect: The zephyr flies up to their speed. If they don't end this movment on
           solid ground, they are prone.
+        name: Effect
 ```

@@ -59,7 +59,8 @@ metadata:
   target: Three creatures
   type: feature/ability/shadow/6th-level-feature
 effects:
-  - effect: >-
+  - name: Effect
+    effect: >-
       You ready, hand, or lob a potion to each target, who can immediately quaff
       the potion (no action required). If they don't drink the potion right
       away, they must use the Use Consumable maneuver to consume it later. The

@@ -55,4 +55,5 @@ effects:
       effect to them, and strike no other creature first, you gain an edge on
       the next strike you make against the assessed creature, and gain 1 surge
       you can use only on that strike.
+    name: Effect
 ```

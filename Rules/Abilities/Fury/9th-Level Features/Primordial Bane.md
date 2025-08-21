@@ -74,4 +74,5 @@ effects:
   - effect: Choose acid, cold, corruption, fire, lightning, poison, or sonic damage.
       The target loses any damage immunity to the chosen type and gains weakness
       10 to the chosen type (save ends).
+    name: Effect
 ```

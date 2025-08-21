@@ -63,4 +63,5 @@ effects:
     t3: 9 + P damage
   - effect: The target is taunted by you or a willing ally adjacent to you until the
       end of the target's next turn.
+    name: Effect
 ```

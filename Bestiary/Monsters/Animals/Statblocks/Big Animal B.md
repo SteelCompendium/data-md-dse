@@ -79,6 +79,7 @@ abilities:
       - effect: The animal moves up to their speed. They can make a free strike against
           each creature who makes an opportunity attack against them during this
           movement.
+        name: Effect
   - name: Animal Rally
     keywords:
       - "-"
@@ -90,4 +91,5 @@ abilities:
       - effect: The animal moves up to their speed. If they end their turn adjacent to
           the target, they can use the Stand Up maneuver to let the target
           stand, then get on to ride them.
+        name: Effect
 ```

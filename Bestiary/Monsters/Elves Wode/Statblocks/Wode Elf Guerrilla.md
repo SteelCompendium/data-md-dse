@@ -77,6 +77,7 @@ abilities:
         t2: 11 damage
         t3: 14 damage; M < 2 bleeding (save ends)
       - effect: The guerrilla can teleport up to 3 squares.
+        name: Effect
       - effect: This ability targets one additional target, and deals an additional 3
           damage if both targets are adjacent to each other.
         cost: 3 Malice
@@ -93,4 +94,5 @@ abilities:
         name: Special
       - effect: The targets take their turn immediately. Each target gains an edge on
           abilities until the end of their turn.
+        name: Effect
 ```

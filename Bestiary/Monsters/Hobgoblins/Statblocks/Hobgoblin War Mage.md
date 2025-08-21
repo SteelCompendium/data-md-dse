@@ -81,6 +81,7 @@ abilities:
         t3: 11 fire damage; M < 3 weakened (save ends)
       - effect: Before using this ability, the war mage can teleport a creature within
           10 squares of them up to 2 squares.
+        name: Effect
   - name: Enchantments of War
     keywords:
       - Magic
@@ -93,6 +94,7 @@ abilities:
           next power roll. The war mage can spend any amount of their current
           Stamina to increase the temporary Stamina each target gains by an
           equivalent amount.
+        name: Effect
   - name: Unhallowed Ground
     cost: 3 Malice
     keywords:
@@ -106,6 +108,7 @@ abilities:
       - effect: The war mage consecrates the area and causes it to smolder until the end
           of the encounter. The area is difficult terrain and an enemy in the
           area has fire weakness 10.
+        name: Effect
   - name: Magic Siphon
     keywords:
       - Magic
@@ -118,4 +121,5 @@ abilities:
       - effect: Any damage dealt or Stamina regained from the creature's ability is
           halved. The war mage regains Stamina equal to the remaining damage
           dealt or Stamina regained.
+        name: Effect
 ```

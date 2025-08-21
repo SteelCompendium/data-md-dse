@@ -72,6 +72,7 @@ abilities:
         t3: 9 sonic damage; push 4
       - effect: The piper or one ally within distance regains Stamina equal to the
           damage dealt.
+        name: Effect
   - name: Vivace Vivace!
     keywords:
       - Area
@@ -82,6 +83,7 @@ abilities:
     effects:
       - effect: Each target who has used their Ready Rodent ability this round regains
           the use of their triggered action.
+        name: Effect
       - effect: The area increases to a 6 burst.
         cost: 2 Malice
   - name: Ready Rodent
@@ -94,4 +96,5 @@ abilities:
     trigger: An ally deals damage to the target.
     effects:
       - effect: The piper makes a free strike against the target.
+        name: Effect
 ```

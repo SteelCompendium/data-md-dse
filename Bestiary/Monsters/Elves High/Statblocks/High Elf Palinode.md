@@ -87,4 +87,5 @@ abilities:
     effects:
       - effect: Each target can teleport to an unoccupied space adjacent to the
           palinode. The palinode and each target then gain 5 temporary Stamina.
+        name: Effect
 ```

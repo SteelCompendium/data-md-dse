@@ -85,6 +85,7 @@ abilities:
         t3: 15 damage; A < 3 slide 3, prone and can't stand (EoT)
       - effect: If a target made prone this way is already prone, they are instead
           restrained (EoT).
+        name: Effect
   - name: Stone Bone Storm
     keywords:
       - Area
@@ -98,6 +99,7 @@ abilities:
         t3: 10 damage; M < 3 prone
       - effect: The cryptic reforms their body and appears in an unoccupied space in the
           area.
+        name: Effect
   - name: Stoneshift
     keywords:
       - Ranged
@@ -106,6 +108,7 @@ abilities:
     target: One creature or object on the ground
     effects:
       - effect: The cryptic slides the target up to 3 squares.
+        name: Effect
       - effect: The ability targets one additional target.
         cost: 2 Malice
   - name: Dissipate
@@ -119,6 +122,7 @@ abilities:
     effects:
       - effect: The cryptic halves the damage, ignores any nondamaging effects
           associated with it, and shifts up to 3 squares
+        name: Effect
   - name: Shatterstone
     cost: 5 Malice
     keywords:
@@ -128,7 +132,8 @@ abilities:
     target: Each enemy in the area
     trigger: The cryptic uses the Dig maneuver to resurface.
     effects:
-      - effect: Before using the Dig maneuver, the cryptic moves up to their speed. They
+      - name: Effect
+        effect: Before using the Dig maneuver, the cryptic moves up to their speed. They
           then create the burst when they breach the surface.
       - roll: Power Roll + 3
         t1: 4 damage; push 2
@@ -142,13 +147,13 @@ abilities:
     distance: 10 burst
     target: Each enemy in the area
     effects:
-      - effect: A target must be on the ground.
-        name: Special
-      - effect: |-
-          Each target makes a **Might test**.
-          - **≤11:** Prone and can't stand (EoT)
-          - **12-16:** Prone
-          - **17+:** No effect
+      - name: Special
+        effect: A target must be on the ground.
+      - name: Effect
+        effect: Each target makes a **Might test**.
+        t1: Prone and can't stand (EoT)
+        t2: Prone
+        t3: No effect
   - name: Final Warning Fissure
     cost: Villain Action 2
     keywords:
@@ -157,19 +162,15 @@ abilities:
     distance: 5 burst
     target: Each enemy in the area
     effects:
-      - effect: A target must be on the ground.
-        name: Special
-      - effect: >-
-          The area drops 2 squares and is difficult terrain. Each target enemy
+      - name: Special
+        effect: A target must be on the ground.
+      - name: Effect
+        effect: The area drops 2 squares and is difficult terrain. Each target enemy
           falls, while each target ally drops safely. Additionally, each target
           enemy makes an **Agility test**.
-
-          - **≤11:** 9 damage; prone
-
-          - **12-16:** 5 damage
-
-          - **17+:** The target moves to the nearest unoccupied space outside
-          the area.
+        t1: 9 damage; prone
+        t2: 5 damage
+        t3: The target moves to the nearest unoccupied space outside the area.
   - name: No Escape
     cost: Villain Action 3
     keywords:
@@ -178,7 +179,8 @@ abilities:
     distance: Ranged 10
     target: Two creatures or objects
     effects:
-      - effect: The cryptic makes an initial power roll that calls down stone pillars
+      - name: Effect
+        effect: The cryptic makes an initial power roll that calls down stone pillars
           from the ceiling.
       - roll: Power Roll + 3
         t1: 5 damage; prone; M < 1 restrained (save ends)

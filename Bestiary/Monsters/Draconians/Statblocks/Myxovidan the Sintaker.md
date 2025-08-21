@@ -95,6 +95,7 @@ abilities:
     target: One ally
     effects:
       - effect: Myxovidan and the target shift to swap places.
+        name: Effect
   - name: Anyone Can Do That
     cost: 2 Malice
     keywords:
@@ -108,4 +109,5 @@ abilities:
           creature. If the ability has a power roll, Myxovidan uses his highest
           characteristic score for the roll. If Myxovidan gets a higher tier
           outcome than the triggering creature, the Director gains 2 Malice.
+        name: Effect
 ```

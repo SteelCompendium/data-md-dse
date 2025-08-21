@@ -71,4 +71,5 @@ effects:
   - effect: You disappear before making the power roll. After the power roll is
       resolved, you appear in the first unoccupied space at the far end of the
       line.
+    name: Effect
 ```

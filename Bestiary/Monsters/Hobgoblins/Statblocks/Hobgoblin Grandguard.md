@@ -97,4 +97,5 @@ abilities:
         t3: 14 damage
       - effect: Each target is pushed up to 10 squares in the same direction, and the
           grandguard shifts into the area left behind by the targets.
+        name: Effect
 ```

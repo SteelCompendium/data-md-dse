@@ -92,6 +92,7 @@ abilities:
         t3: 18 damage; M < 4 bleeding (save ends); A < 2 grabbed
       - effect: The ashen hoarder can have up to two size 1 creatures grabbed at a time.
           | |
+        name: Effect
   - name: Corpse Bomb
     keywords:
       - Area
@@ -127,6 +128,7 @@ abilities:
       - effect: An impaled creature is restrained and bleeding, and moves with the ashen
           hoarder. The ashen hoarder can have three creatures impaled with this
           ability at a time.
+        name: Effect
   - name: Bone Dozer
     keywords:
       - "-"
@@ -139,6 +141,7 @@ abilities:
           the nearest unoccupied space outside the path, or if they have M < 3
           is pushed forward until the movement ends. Any creature who is force
           moved forward into an obstacle is dazed (save ends).
+        name: Effect
   - name: Armor of Corpses
     cost: 2 Malice
     keywords:
@@ -151,6 +154,7 @@ abilities:
       - effect: The ashen hoarder halves the damage. If the ashen hoarder has one or
           more creatures impaled, the Malice cost of this feature is reduced by
           1 and one impaled creature takes the other half of the damage.
+        name: Effect
   - name: Skeletal Eruption
     cost: Villain Action 1
     keywords:
@@ -166,6 +170,7 @@ abilities:
         t3: 14 damage, vertical push 3
       - effect: Each target is force moved straight up, then falls. A target who would
           normally land prone after falling is instead restrained (save ends).
+        name: Effect
   - name: Mobile Mine Field
     cost: Villain Action 2
     keywords:
@@ -183,6 +188,7 @@ abilities:
           exploding mine also explode. At the start of each of the ashen
           hoarder's turns, each unexploded zombie mine can be moved up to 2
           squares.
+        name: Effect
   - name: Ossuary Assault
     cost: Villain Action 3
     keywords:
@@ -196,4 +202,5 @@ abilities:
       - effect: The ashen hoarder moves up to their speed and uses Claw and Blade with a
           double edge against one target. On a tier 3 outcome, the ashen hoarder
           can use Impale without spending Malice.
+        name: Effect
 ```

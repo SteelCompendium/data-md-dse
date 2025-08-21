@@ -62,4 +62,5 @@ metadata:
   type: feature/ability/conduit/3rd-level-feature
 effects:
   - effect: The target gains 20 temporary Stamina and 3 surges.
+    name: Effect
 ```

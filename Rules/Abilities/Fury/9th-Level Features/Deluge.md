@@ -69,4 +69,5 @@ effects:
     t2: 10 damage
     t3: 15 damage
   - effect: This ability deals your primordial damage type and ignores damage immunity.
+    name: Effect
 ```

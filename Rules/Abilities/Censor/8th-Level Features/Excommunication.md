@@ -72,4 +72,5 @@ effects:
       damage equal to twice your Presence score to each enemy within 2 squares
       of them. Additionally, a target weakened this way can't be targeted by
       their allies' abilities.
+    name: Effect
 ```

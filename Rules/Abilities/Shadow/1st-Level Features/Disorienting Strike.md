@@ -69,4 +69,5 @@ effects:
     t2: 6 + A damage; slide 3
     t3: 10 + A damage; slide 5
   - effect: You can shift into any square the target leaves when you slide them.
+    name: Effect
 ```

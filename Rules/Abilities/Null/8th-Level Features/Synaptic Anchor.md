@@ -67,4 +67,5 @@ effects:
       < AVERAGE, they are dazed (save ends). While the triggering creature is
       dazed this way, they take psychic damage equal to your Intuition score
       whenever they use a main action.
+    name: Effect
 ```

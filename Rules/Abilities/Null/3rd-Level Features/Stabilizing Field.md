@@ -68,4 +68,5 @@ effects:
       each of your turns to end one effect on you that is ended by a saving
       throw or that ends at the end of your turn. Each ally in the area also
       gains these benefits.
+    name: Effect
 ```

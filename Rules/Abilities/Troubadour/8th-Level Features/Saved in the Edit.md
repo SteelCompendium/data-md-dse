@@ -76,4 +76,5 @@ effects:
 
       - The target has a bonus to speed and a penalty to stability equal to your
       Presence score.
+    name: Effect
 ```

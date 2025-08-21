@@ -74,6 +74,7 @@ abilities:
           creature of the cackler's choice
       - effect: An ally targeted by this ability ignores the damage and can make a free
           strike.
+        name: Effect
   - name: Cackler's Cackletongue
     cost: 4 Malice
     keywords:
@@ -83,14 +84,11 @@ abilities:
     distance: 2 burst
     target: Each creature in the area
     effects:
-      - effect: >-
-          Each enemy target makes an **Intuition test**. If any target hasn't
-          used their own Cackletongue maneuver on this turn, they can use it
+      - name: Effect
+        effect: Each enemy target makes an **Intuition test**. If any target hasn't used
+          their own Cackletongue maneuver on this turn, they can use it
           immediately at no cost.
-
-          - **≤11:** Frightened (save ends)
-
-          - **12-16:** Frightened (EoT)
-
-          - **17+:** No effect
+        t1: Frightened (save ends)
+        t2: Frightened (EoT)
+        t3: No effect
 ```

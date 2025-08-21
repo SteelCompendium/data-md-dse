@@ -95,6 +95,7 @@ abilities:
         t3: 34 damage; I < 5 dazed (save ends)
       - effect: This damage can't be reduced in any way. This ability can't be used
           again until the start of the next round.
+        name: Effect
   - name: Destructive Rollout
     keywords:
       - "-"
@@ -107,6 +108,7 @@ abilities:
           time the war engine moves through a creature's space during this
           movement, that creature can choose to either fall prone or take 10
           damage.
+        name: Effect
   - name: Burning Oil
     cost: 3 Malice
     keywords:
@@ -115,16 +117,12 @@ abilities:
     distance: 20 x 1 line within 1
     target: Each enemy and object in the area
     effects:
-      - effect: >-
-          Each target makes an Agility test.
-
-          - **≤11:** 16 fire damage; the target is burning (save ends
-
-          - **12-16:** 12 fire damage; the target is burning (EoT
-
-          - **17+:** 8 fire damage
-
-          A burning creature takes 1d6 fire damage at the start of each of their
+      - name: Effect
+        effect: Each target makes an Agility test.
+        t1: 16 fire damage; the target is burning (save ends
+        t2: 12 fire damage; the target is burning (EoT
+        t3: 8 fire damage
+      - effect: A burning creature takes 1d6 fire damage at the start of each of their
           turns. A burning object takes 1d6 fire damage at the end of each
           round. Additionally, the area is burning until the end of the
           encounter. While the area is burning, it is difficult terrain and any
@@ -145,4 +143,5 @@ abilities:
         t2: 12 damage; push 5
         t3: 16 damage; push 8
       - effect: This damage can't be reduced in any way.
+        name: Effect
 ```

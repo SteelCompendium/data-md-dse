@@ -73,6 +73,7 @@ abilities:
         t2: 14 damage
         t3: 17 damage
       - effect: The target takes a bane on their next strike.
+        name: Effect
       - effect: The target instead has a double bane on the next ability they use.
         cost: 3 Malice
   - name: Enemies in the Dark

@@ -66,4 +66,5 @@ metadata:
 effects:
   - effect: Each target can teleport up to 5 squares. Any teleported target who was
       slowed is no longer slowed.
+    name: Effect
 ```

@@ -76,6 +76,7 @@ abilities:
         t3: 13 fire damage
       - effect: Until the end of their turn, the trooper doesn't provoke opportunity
           attacks from any target.
+        name: Effect
   - name: Fight Me, Coward!
     keywords:
       - Magic
@@ -87,4 +88,5 @@ abilities:
       - effect: If the target has P < 2, they are taunted (EoT). While taunted this way,
           the target takes 1d6 fire damage whenever they use an ability or
           strike that doesn't target the trooper.
+        name: Effect
 ```

@@ -70,4 +70,5 @@ effects:
     t3: 20 + M damage
   - effect: Until the end of the encounter, whenever any ally deals damage to a
       target judged by you, that ally gains 1 surge.
+    name: Effect
 ```

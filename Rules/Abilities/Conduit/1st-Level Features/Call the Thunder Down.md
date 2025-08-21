@@ -70,4 +70,5 @@ effects:
     t3: 5 sonic damage; push 3
   - effect: You can push each willing ally in the area the same distance, ignoring
       stability.
+    name: Effect
 ```

@@ -73,4 +73,5 @@ effects:
     t2: 10 + A damage; I < AVERAGE, restrained (save ends)
     t3: 13 + A damage; I < STRONG, restrained (save ends)
   - effect: This strike resolves before the triggering movement or main action.
+    name: Effect
 ```

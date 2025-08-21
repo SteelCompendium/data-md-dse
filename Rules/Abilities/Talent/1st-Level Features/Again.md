@@ -57,4 +57,5 @@ metadata:
 effects:
   - effect: You can use this ability after seeing the result of the triggering roll.
       The target must reroll the power roll and use the new roll.
+    name: Effect
 ```

@@ -95,6 +95,7 @@ abilities:
     target: One ally
     effects:
       - effect: The target moves up to their speed and can use a signature ability.
+        name: Effect
   - name: An Army From Blood
     cost: 3 Malice
     keywords:
@@ -106,6 +107,7 @@ abilities:
     effects:
       - effect: Three hobgoblin recruits manifest from the target's blood into
           unoccupied spaces adjacent to the target.
+        name: Effect
   - name: Advance!
     cost: Villain Action 1
     keywords:
@@ -116,6 +118,7 @@ abilities:
     effects:
       - effect: Each target gains 10 temporary Stamina and can move up to their speed.
           Then each non-minion target can make a free strike.
+        name: Effect
   - name: Skulls Abound
     cost: Villain Action 2
     keywords:
@@ -130,6 +133,7 @@ abilities:
           time in a round or starts their turn there takes 8 corruption damage
           and takes a bane on their next power roll until the start of their
           next turn.
+        name: Effect
   - name: I Am Fire! I Am Death!
     cost: Villain Action 3
     keywords:
@@ -146,4 +150,5 @@ abilities:
       - effect: Until the end of the encounter, the bloodlord is wreathed in black
           flames. Whenever any adjacent enemy grabs the bloodlord or uses a
           melee ability against them, that enemy takes 5 corruption damage.
+        name: Effect
 ```

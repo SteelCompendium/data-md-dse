@@ -74,6 +74,7 @@ abilities:
         t2: 7 damage
         t3: 9 damage
       - effect: The target can't shift until the end of their next turn
+        name: Effect
       - effect: This ability targets one additional target.
         cost: 1 Malice
   - name: Horrid Wail
@@ -90,4 +91,5 @@ abilities:
         t3: 4 psychic damage; I < 3 frightened (save ends)
       - effect: A target who is still frightened this way at the end of the encounter
           can't take a respite activity during their next respite.
+        name: Effect
 ```

@@ -65,4 +65,5 @@ effects:
     t2: 6 + R corruption damage
     t3: 9 + R corruption damage
   - effect: You can teleport up to a number of squares equal to your Reason score.
+    name: Effect
 ```

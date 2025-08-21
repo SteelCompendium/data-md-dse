@@ -73,4 +73,5 @@ effects:
       is reduced to 0 Stamina before the end of the encounter, you can use a
       free triggered action to move this effect to another creature within
       distance.
+    name: Effect
 ```

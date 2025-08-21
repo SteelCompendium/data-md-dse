@@ -72,4 +72,5 @@ effects:
     t2: 10 + I corruption damage
     t3: 15 + I corruption damage
   - effect: One ally within distance can spend any number of Recoveries.
+    name: Effect
 ```

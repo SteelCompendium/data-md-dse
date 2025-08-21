@@ -63,4 +63,5 @@ effects:
       enemy takes fire damage equal to your Agility score. Additionally, a
       target who ends this movement in concealment or cover can use the Hide
       maneuver even if they are observed.
+    name: Effect
 ```

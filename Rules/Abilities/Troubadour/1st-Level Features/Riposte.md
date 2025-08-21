@@ -54,4 +54,5 @@ metadata:
 effects:
   - effect: The target makes a free strike against the creature who made the
       triggering strike.
+    name: Effect
 ```

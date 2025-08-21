@@ -75,4 +75,5 @@ effects:
       you can spend 3 wrath to deal holy damage to them equal to your Presence
       score, then change the target of the strike to another target within the
       strike's distance.
+    name: Effect
 ```

@@ -71,6 +71,7 @@ abilities:
         t3: 12 damage; taunted (EoT)
       - effect: This ability has a double edge against any target who dealt damage to
           the rampart this round.
+        name: Effect
   - name: Castling
     keywords:
       - "-"
@@ -80,6 +81,7 @@ abilities:
     effects:
       - effect: The rampart moves or shifts up to their speed adjacent to the target,
           then can swap places with the target.
+        name: Effect
   - name: No.
     keywords:
       - "-"
@@ -90,4 +92,5 @@ abilities:
       doesn't also target the rampart.
     effects:
       - effect: The rampart becomes the target of the triggering ability instead.
+        name: Effect
 ```

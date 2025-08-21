@@ -74,4 +74,5 @@ abilities:
         t3: 8 damage; slide 3
       - effect: A target who is force moved into an obstacle and has M < 3 is bleeding
           (save ends).
+        name: Effect
 ```

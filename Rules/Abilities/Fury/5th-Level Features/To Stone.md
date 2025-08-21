@@ -77,4 +77,5 @@ effects:
       Additionally, a creature who fails the saving throw while restrained this
       way is petrified until they are given a supernatural cure or you choose to
       reverse the effect (no action required).
+    name: Effect
 ```

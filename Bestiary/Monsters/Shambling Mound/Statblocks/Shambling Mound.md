@@ -121,6 +121,7 @@ abilities:
           shambling mound dies or their sack is destroyed, each engulfed
           creature is freed and appears in an unoccupied space within 2 squares
           of the shambling mound.
+        name: Effect
       - effect: The shambling mound can engulf one additional target for each 2 Malice
           spent.
         cost: 2+ Malice
@@ -134,6 +135,7 @@ abilities:
       - effect: Each creature engulfed by the shambling mound takes 5 poison damage. The
           shambling mound gains 5 temporary Stamina for each creature who takes
           damage this way.
+        name: Effect
   - name: Tether Down
     keywords:
       - Melee
@@ -171,6 +173,7 @@ abilities:
     effects:
       - effect: The shambling mound uses Engulf against each target without spending
           Malice.
+        name: Effect
   - name: Exposed Crux
     cost: Villain Action 3
     keywords:
@@ -183,4 +186,5 @@ abilities:
           holding them together. The distance of the shambling mound's melee
           abilities increases to melee 10, the creature has a double edge on
           power rolls, and strikes made against them gain an edge.
+        name: Effect
 ```

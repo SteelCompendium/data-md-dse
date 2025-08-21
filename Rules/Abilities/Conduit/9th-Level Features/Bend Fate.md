@@ -63,4 +63,5 @@ metadata:
 effects:
   - effect: Until the end of the encounter or until you are dying, each of the
       target's power rolls has its outcome improved by one tier.
+    name: Effect
 ```

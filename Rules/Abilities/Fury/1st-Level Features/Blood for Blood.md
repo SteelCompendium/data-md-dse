@@ -70,4 +70,5 @@ effects:
     t3: 10 + M damage; M < STRONG, bleeding and weakened (save ends)
   - effect: You can deal 1d6 damage to yourself to deal an extra 1d6 damage to the
       target.
+    name: Effect
 ```

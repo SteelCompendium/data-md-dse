@@ -73,4 +73,5 @@ effects:
     t2: 10 fire damage; the Director loses 3 Malice
     t3: 15 fire damage; the Director loses 4 Malice
   - effect: The Director's Malice can become negative as a result of this ability.
+    name: Effect
 ```

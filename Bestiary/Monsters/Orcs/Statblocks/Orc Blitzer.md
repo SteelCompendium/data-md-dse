@@ -71,4 +71,5 @@ abilities:
         t3: 3 damage
       - effect: A target who starts their next turn adjacent to three or more blitzers
           takes 3 damage.
+        name: Effect
 ```

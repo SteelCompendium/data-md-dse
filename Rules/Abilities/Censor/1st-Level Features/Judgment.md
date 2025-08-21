@@ -82,4 +82,5 @@ effects:
 
       You can choose only one free triggered action option at a time, even if
       multiple options are triggered by the same effect.
+    name: Effect
 ```

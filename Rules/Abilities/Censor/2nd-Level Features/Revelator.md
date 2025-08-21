@@ -68,4 +68,5 @@ effects:
       Additionally, each hidden target is automatically revealed and can't
       become hidden again until the start of your next turn. You can then use
       your Judgment ability against one target as a free triggered action.
+    name: Effect
 ```

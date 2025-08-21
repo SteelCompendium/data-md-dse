@@ -82,4 +82,5 @@ effects:
       target takes fire damage from the fall, and each enemy within 3 squares of
       where they land takes the same amount of fire damage. The ground within 3
       squares of where the target lands is difficult terrain.
+    name: Effect
 ```

@@ -107,6 +107,7 @@ abilities:
       - effect: Aurumvas chooses a supernatural treasure or an item made of gold and
           teleports to an unoccupied space adjacent to that object, then ends
           one effect on him that can be ended by a saving throw.
+        name: Effect
   - name: Time Is Money
     cost: Villain Action 1
     keywords:
@@ -118,6 +119,7 @@ abilities:
     effects:
       - effect: Aurumvas warps time with his abyssal avarice. Each target can teleport
           up to their speed and make a free strike.
+        name: Effect
   - name: Hostile Acquisition
     cost: Villain Action 2
     keywords:
@@ -132,6 +134,7 @@ abilities:
           While an affected treasure is worn or held by a hero, each time that
           hero gains any amount of their Heroic Resource, the Director gains 1
           Malice.
+        name: Effect
   - name: No Matter the Cost
     cost: Villain Action 3
     keywords:
@@ -142,7 +145,8 @@ abilities:
     distance: Four 3 cubes within 10
     target: Each creature in the area
     effects:
-      - effect: Aurumvas summons treasures from his vaults into the area, then causes
+      - name: Effect
+        effect: Aurumvas summons treasures from his vaults into the area, then causes
           them to explode.
       - roll: Power Roll + 5
         t1: 1 10 fire damage; push 1

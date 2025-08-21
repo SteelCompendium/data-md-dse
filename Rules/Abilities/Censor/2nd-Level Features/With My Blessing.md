@@ -65,4 +65,5 @@ effects:
       ability or a strike heroic ability, and has a double edge on that ability.
       If a heroic ability is chosen, reduce its Heroic Resource cost by 3 (to a
       minimum cost of 0).
+    name: Effect
 ```

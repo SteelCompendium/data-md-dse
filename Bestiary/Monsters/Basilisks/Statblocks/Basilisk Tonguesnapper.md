@@ -73,6 +73,7 @@ abilities:
         t3: 14 acid damage; pull 3
       - effect: This ability can pull targets restrained by Petrifying Eye Beams, and
           ignores stability if it does so.
+        name: Effect
       - effect: The tonguesnapper targets two additional creatures or objects.
         cost: 3 Malice
   - name: Petrifying Eye Beams
@@ -83,9 +84,9 @@ abilities:
     distance: 5 x 2 line within 1
     target: Special
     effects:
-      - effect: The area extends from both the tonguesnapper's eyes, and this ability
+      - name: Special
+        effect: The area extends from both the tonguesnapper's eyes, and this ability
           targets the first creature without cover on either side of the area.
-        name: Special
       - roll: Power Roll + 2
         t1: A < 0 restrained (save ends)
         t2: A < 1 restrained (save ends)
@@ -97,6 +98,7 @@ abilities:
           them can use a main action to cut encroaching stone from the target's
           body, dealing 8 damage to the target that can't be reduced in any way
           and ending this effect.
+        name: Effect
   - name: Wink
     cost: 2 Malice
     keywords:
@@ -108,13 +110,13 @@ abilities:
     distance: Melee 1 or ranged 10
     target: One creature
     effects:
-      - effect: |-
-          8 corruption damage; R < 0 dazed (save ends)
-          - **12-16:** 10 corruption damage; R < 1 dazed (save ends)
-          - **17+:** 14 corruption damage; R < 2 dazed and slowed (save ends)
-        cost: ≤11
+      - cost: ≤11
+        effect: 8 corruption damage; R < 0 dazed (save ends)
+        t2: 10 corruption damage; R < 1 dazed (save ends)
+        t3: 14 corruption damage; R < 2 dazed and slowed (save ends)
       - effect: A creature dazed this way can't benefit from edges or double edges and
           can't gain or use surges.
+        name: Effect
   - name: Neurotoxin Splash
     keywords:
       - Area
@@ -125,4 +127,5 @@ abilities:
     effects:
       - effect: Each target takes 4 acid damage. Any target who has M < 2 is also slowed
           (save ends).
+        name: Effect
 ```
