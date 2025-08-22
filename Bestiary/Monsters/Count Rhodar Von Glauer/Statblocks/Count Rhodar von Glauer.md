@@ -6,7 +6,7 @@ ancestry:
 ev: '144'
 file_basename: Count Rhodar von Glauer
 file_dpath: Monsters/Count Rhodar Von Glauer/Statblocks
-free_strike: 0
+free_strike: 10
 intuition: 2
 item_id: count-rhodar-von-glauer
 item_index: '287'
@@ -23,9 +23,9 @@ scdc:
 - 1.1.1:2:287
 size: 1M
 source: mcdm.monsters.v1
-speed: 1
-stability: 1
-stamina: '26503'
+speed: 12
+stability: 3
+stamina: '650'
 type: monster
 ---
 
@@ -38,15 +38,15 @@ ancestry:
   - Undead
   - Vampire
 ev: "144"
-stamina: "26503"
+stamina: "650"
 immunities:
   - Corruption 10
   - poison 10
-speed: 1
+speed: 12
 movement: Fly, hover, teleport
 size: 1M
-stability: 1
-free_strike: 0
+stability: 3
+free_strike: 10
 might: 3
 agility: 5
 reason: 2
