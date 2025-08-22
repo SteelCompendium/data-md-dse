@@ -7,7 +7,7 @@ cost_resource: Discipline
 distance: Melee 1
 feature_type: ability
 file_basename: Anticipating Strike
-file_dpath: Null/4th-Level Features
+file_dpath: Null/5th-Level Features
 flavor: You suddenly strike an enemy, then grab them in a psionically enhanced grip.
 item_id: anticipating-strike-9-discipline
 item_index: '01'
@@ -17,14 +17,14 @@ keywords:
 - Psionic
 - Strike
 - Weapon
-level: 4
+level: 5
 scc:
-- mcdm.heroes.v1:feature.ability.null.4th-level-feature:anticipating-strike-9-discipline
+- mcdm.heroes.v1:feature.ability.null.5th-level-feature:anticipating-strike-9-discipline
 scdc:
-- 1.1.1:13.2.6.7:01
+- 1.1.1:13.2.6.4:01
 source: mcdm.heroes.v1
 target: One creature
-type: feature/ability/null/4th-level-feature
+type: feature/ability/null/5th-level-feature
 ---
 
 ```ds-ability
@@ -49,7 +49,7 @@ metadata:
   distance: Melee 1
   feature_type: ability
   file_basename: Anticipating Strike
-  file_dpath: Null/4th-Level Features
+  file_dpath: Null/5th-Level Features
   flavor: You suddenly strike an enemy, then grab them in a psionically enhanced grip.
   item_id: anticipating-strike-9-discipline
   item_index: "01"
@@ -59,14 +59,14 @@ metadata:
     - Psionic
     - Strike
     - Weapon
-  level: 4
+  level: 5
   scc:
-    - mcdm.heroes.v1:feature.ability.null.4th-level-feature:anticipating-strike-9-discipline
+    - mcdm.heroes.v1:feature.ability.null.5th-level-feature:anticipating-strike-9-discipline
   scdc:
-    - 1.1.1:13.2.6.7:01
+    - 1.1.1:13.2.6.4:01
   source: mcdm.heroes.v1
   target: One creature
-  type: feature/ability/null/4th-level-feature
+  type: feature/ability/null/5th-level-feature
 effects:
   - roll: Power Roll + Agility
     t1: 7 + A damage; I < WEAK, restrained (save ends)

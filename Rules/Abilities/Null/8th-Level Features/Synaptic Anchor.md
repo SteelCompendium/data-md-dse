@@ -63,8 +63,8 @@ metadata:
   target: Self or one creature
   type: feature/ability/null/8th-level-feature
 effects:
-  - effect: The target takes half the damage, and if the triggering crea ture has I
-      < AVERAGE, they are dazed (save ends). While the triggering creature is
+  - effect: The target takes half the damage, and if the triggering creature has I <
+      AVERAGE, they are dazed (save ends). While the triggering creature is
       dazed this way, they take psychic damage equal to your Intuition score
       whenever they use a main action.
     name: Effect

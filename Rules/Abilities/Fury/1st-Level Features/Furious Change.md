@@ -1,7 +1,7 @@
 ---
 action_type: Triggered
 class: fury
-distance: Ranged 10
+distance: Self
 feature_type: ability
 file_basename: Furious Change
 file_dpath: Fury/1st-Level Features
@@ -17,7 +17,7 @@ scc:
 scdc:
 - 1.1.1:13.2.5.1:14
 source: mcdm.heroes.v1
-target: One enemy
+target: Self
 type: feature/ability/fury/1st-level-feature
 ---
 
@@ -27,13 +27,13 @@ flavor: In your anger, you revert to a more bestial form.
 keywords:
   - "-"
 type: Triggered
-distance: Ranged 10
-target: One enemy
+distance: Self
+target: Self
 trigger: You lose Stamina and are not dying.
 metadata:
   action_type: Triggered
   class: fury
-  distance: Ranged 10
+  distance: Self
   feature_type: ability
   file_basename: Furious Change
   file_dpath: Fury/1st-Level Features
@@ -49,7 +49,7 @@ metadata:
   scdc:
     - 1.1.1:13.2.5.1:14
   source: mcdm.heroes.v1
-  target: One enemy
+  target: Self
   type: feature/ability/fury/1st-level-feature
 effects:
   - effect: You gain temporary Stamina equal to your Might score and can enter your

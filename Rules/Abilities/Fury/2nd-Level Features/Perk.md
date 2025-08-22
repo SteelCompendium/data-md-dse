@@ -34,5 +34,5 @@ metadata:
   type: feature/trait/fury/2nd-level-feature
 effects:
   - effect: "You gain one crafting, exploration, or intrigue perk of your choice.
-      See [Chapter 7: Perks](#dead-link)"
+      See [Chapter 7: Perks](#dead-link)."
 ```

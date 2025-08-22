@@ -64,6 +64,10 @@ metadata:
   target: Each enemy in the area
   type: feature/ability/fury/1st-level-feature
 effects:
+  - roll: Power Roll + Might
+    t1: 6 damage; push 2
+    t2: 9 damage; push 4
+    t3: 13 damage; push 6
   - effect: The targets are force moved one at a time, starting with the target
       nearest to you, and can be pushed into other targets in the same line.
     name: Effect

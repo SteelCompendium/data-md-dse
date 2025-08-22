@@ -10,6 +10,7 @@ item_id: blessing-of-secrets
 item_index: '01'
 item_name: Blessing of Secrets
 keywords:
+- Area
 - Magic
 level: 4
 scc:
@@ -25,6 +26,7 @@ type: feature/ability/conduit/4th-level-feature
 name: Blessing of Secrets
 flavor: You project an illusory aura that makes you and allies harder to notice.
 keywords:
+  - Area
   - Magic
 type: Maneuver
 distance: 3 aura
@@ -41,6 +43,7 @@ metadata:
   item_index: "01"
   item_name: Blessing of Secrets
   keywords:
+    - Area
     - Magic
   level: 4
   scc:
