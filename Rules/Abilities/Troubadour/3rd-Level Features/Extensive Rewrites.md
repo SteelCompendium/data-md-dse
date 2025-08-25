@@ -1,5 +1,5 @@
 ---
-action_type: No action
+action_type: Maneuver
 class: troubadour
 cost: 7 Drama
 cost_amount: 7
@@ -32,11 +32,11 @@ flavor: No, this isn't right. That foe was over there!
 keywords:
   - Area
   - Magic
-type: No action
+type: Maneuver
 distance: 4 burst
 target: Each enemy in the area
 metadata:
-  action_type: No action
+  action_type: Maneuver
   class: troubadour
   cost: 7 Drama
   cost_amount: 7
