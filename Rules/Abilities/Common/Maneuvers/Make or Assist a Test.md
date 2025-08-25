@@ -6,11 +6,11 @@ item_id: make-or-assist-a-test
 item_index: '01'
 item_name: Make or Assist a Test
 scc:
-- mcdm.heroes.v1:common\_ability.maneuver:make-or-assist-a-test
+- mcdm.heroes.v1:common-ability.maneuver:make-or-assist-a-test
 scdc:
 - 1.1.1:14.3:01
 source: mcdm.heroes.v1
-type: common\_ability/maneuver
+type: common-ability/maneuver
 ---
 
 ```ds-ability
@@ -23,11 +23,11 @@ metadata:
   item_index: "01"
   item_name: Make or Assist a Test
   scc:
-    - mcdm.heroes.v1:common\_ability.maneuver:make-or-assist-a-test
+    - mcdm.heroes.v1:common-ability.maneuver:make-or-assist-a-test
   scdc:
     - 1.1.1:14.3:01
   source: mcdm.heroes.v1
-  type: common\_ability/maneuver
+  type: common-ability/maneuver
 effects:
   - effect: >-
       Many tests are maneuvers if made in combat. Searching a chest with a

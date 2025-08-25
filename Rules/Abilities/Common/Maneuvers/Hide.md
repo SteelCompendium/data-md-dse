@@ -6,11 +6,11 @@ item_id: hide
 item_index: 09
 item_name: Hide
 scc:
-- mcdm.heroes.v1:common\_ability.maneuver:hide
+- mcdm.heroes.v1:common-ability.maneuver:hide
 scdc:
 - 1.1.1:14.3:09
 source: mcdm.heroes.v1
-type: common\_ability/maneuver
+type: common-ability/maneuver
 ---
 
 ```ds-ability
@@ -23,11 +23,11 @@ metadata:
   item_index: 9
   item_name: Hide
   scc:
-    - mcdm.heroes.v1:common\_ability.maneuver:hide
+    - mcdm.heroes.v1:common-ability.maneuver:hide
   scdc:
     - 1.1.1:14.3:09
   source: mcdm.heroes.v1
-  type: common\_ability/maneuver
+  type: common-ability/maneuver
 effects:
   - effect: "Using the Hide maneuver, a creature attempts to hide from other
       creatures who aren't observing them while they have cover or concealment.

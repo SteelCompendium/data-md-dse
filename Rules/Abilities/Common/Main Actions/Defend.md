@@ -6,11 +6,11 @@ item_id: defend
 item_index: '01'
 item_name: Defend
 scc:
-- mcdm.heroes.v1:common\_ability.main\_action:defend
+- mcdm.heroes.v1:common-ability.main-action:defend
 scdc:
 - 1.1.1:14.1:01
 source: mcdm.heroes.v1
-type: common\_ability/main\_action
+type: common-ability/main-action
 ---
 
 ```ds-ability
@@ -23,11 +23,11 @@ metadata:
   item_index: "01"
   item_name: Defend
   scc:
-    - mcdm.heroes.v1:common\_ability.main\_action:defend
+    - mcdm.heroes.v1:common-ability.main-action:defend
   scdc:
     - 1.1.1:14.1:01
   source: mcdm.heroes.v1
-  type: common\_ability/main\_action
+  type: common-ability/main-action
 effects:
   - effect: "When a creature takes the Defend main action, ability rolls made
       against them have a double bane until the start of their next turn.

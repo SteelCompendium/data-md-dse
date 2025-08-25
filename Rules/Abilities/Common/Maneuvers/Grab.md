@@ -6,11 +6,11 @@ item_id: grab
 item_index: '10'
 item_name: Grab
 scc:
-- mcdm.heroes.v1:common\_ability.maneuver:grab
+- mcdm.heroes.v1:common-ability.maneuver:grab
 scdc:
 - 1.1.1:14.3:10
 source: mcdm.heroes.v1
-type: common\_ability/maneuver
+type: common-ability/maneuver
 ---
 
 ```ds-ability
@@ -23,11 +23,11 @@ metadata:
   item_index: "10"
   item_name: Grab
   scc:
-    - mcdm.heroes.v1:common\_ability.maneuver:grab
+    - mcdm.heroes.v1:common-ability.maneuver:grab
   scdc:
     - 1.1.1:14.3:10
   source: mcdm.heroes.v1
-  type: common\_ability/maneuver
+  type: common-ability/maneuver
 effects:
   - effect: >-
       A creature seeking to keep a foe close and locked down can attempt to grab

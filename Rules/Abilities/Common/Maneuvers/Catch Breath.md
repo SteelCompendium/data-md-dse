@@ -6,11 +6,11 @@ item_id: catch-breath
 item_index: '02'
 item_name: Catch Breath
 scc:
-- mcdm.heroes.v1:common\_ability.maneuver:catch-breath
+- mcdm.heroes.v1:common-ability.maneuver:catch-breath
 scdc:
 - 1.1.1:14.3:02
 source: mcdm.heroes.v1
-type: common\_ability/maneuver
+type: common-ability/maneuver
 ---
 
 ```ds-ability
@@ -23,11 +23,11 @@ metadata:
   item_index: "02"
   item_name: Catch Breath
   scc:
-    - mcdm.heroes.v1:common\_ability.maneuver:catch-breath
+    - mcdm.heroes.v1:common-ability.maneuver:catch-breath
   scdc:
     - 1.1.1:14.3:02
   source: mcdm.heroes.v1
-  type: common\_ability/maneuver
+  type: common-ability/maneuver
 effects:
   - effect: >-
       A creature who uses the Catch Breath maneuver spends a Recovery and

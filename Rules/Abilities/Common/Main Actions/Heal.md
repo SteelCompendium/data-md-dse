@@ -6,11 +6,11 @@ item_id: heal
 item_index: '02'
 item_name: Heal
 scc:
-- mcdm.heroes.v1:common\_ability.main\_action:heal
+- mcdm.heroes.v1:common-ability.main-action:heal
 scdc:
 - 1.1.1:14.1:02
 source: mcdm.heroes.v1
-type: common\_ability/main\_action
+type: common-ability/main-action
 ---
 
 ```ds-ability
@@ -23,11 +23,11 @@ metadata:
   item_index: "02"
   item_name: Heal
   scc:
-    - mcdm.heroes.v1:common\_ability.main\_action:heal
+    - mcdm.heroes.v1:common-ability.main-action:heal
   scdc:
     - 1.1.1:14.1:02
   source: mcdm.heroes.v1
-  type: common\_ability/main\_action
+  type: common-ability/main-action
 effects:
   - effect: A creature who uses the Heal main action employs medicine or inspiring
       words to make an adjacent creature feel better and stay in the fight. The

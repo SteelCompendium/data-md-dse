@@ -6,11 +6,11 @@ item_id: free-strike
 item_index: '04'
 item_name: Free Strike
 scc:
-- mcdm.heroes.v1:common\_ability.main\_action:free-strike
+- mcdm.heroes.v1:common-ability.main-action:free-strike
 scdc:
 - 1.1.1:14.1:04
 source: mcdm.heroes.v1
-type: common\_ability/main\_action
+type: common-ability/main-action
 ---
 
 ```ds-ability
@@ -23,11 +23,11 @@ metadata:
   item_index: "04"
   item_name: Free Strike
   scc:
-    - mcdm.heroes.v1:common\_ability.main\_action:free-strike
+    - mcdm.heroes.v1:common-ability.main-action:free-strike
   scdc:
     - 1.1.1:14.1:04
   source: mcdm.heroes.v1
-  type: common\_ability/main\_action
+  type: common-ability/main-action
 effects:
   - effect: A creature can use this main action to make a free strike (see
       [Free](#page-289-1) [Strikes](#page-289-1) below). Most of the time,
