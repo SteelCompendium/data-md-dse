@@ -16,7 +16,8 @@ type: feature/trait/troubadour/6th-level-feature
 ---
 
 ```ds-ability
-name: Perk
+name: ""
+icon: Perk
 metadata:
   class: troubadour
   feature_type: trait

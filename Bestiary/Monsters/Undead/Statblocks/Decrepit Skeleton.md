@@ -60,6 +60,7 @@ traits:
           take 1 damage and the effect end.
 abilities:
   - name: Bone Bow
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged

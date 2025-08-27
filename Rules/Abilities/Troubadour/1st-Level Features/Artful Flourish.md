@@ -24,7 +24,8 @@ type: feature/ability/troubadour/1st-level-feature
 ---
 
 ```ds-ability
-name: Artful Flourish
+name: ""
+icon: Artful Flourish
 flavor: And they said practicing fencing was a waste!
 keywords:
   - Melee

@@ -16,7 +16,8 @@ type: feature/trait/elementalist/10th-level-feature
 ---
 
 ```ds-ability
-name: Master of Fire
+name: ""
+icon: Master of Fire
 metadata:
   class: elementalist
   feature_type: trait
@@ -36,6 +37,7 @@ effects:
   - effect: >-
       The damage bonus of your Acolyte of Fire feature increases to +5 and
       applies to all your magic abilities.
+
 
       Additionally, your Return to Formlessness ability can be used on
       supernatural objects (but not on artifacts). When you melt a treasure (see

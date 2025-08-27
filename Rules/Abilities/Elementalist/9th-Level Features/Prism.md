@@ -26,8 +26,8 @@ type: feature/ability/elementalist/9th-level-feature
 ---
 
 ```ds-ability
-name: Prism
-cost: 11 Essence
+name: ""
+icon: Prism (11 Essence)
 flavor: You split your essence, allowing you to cast multiple effects at once.
 keywords:
   - Magic

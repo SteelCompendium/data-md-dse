@@ -56,6 +56,7 @@ traits:
           damage can't be reduced in any way.
 abilities:
   - name: Levitating Axes
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Melee
@@ -79,6 +80,7 @@ abilities:
           restrained until the end of their next turn.
         cost: 3 Malice
   - name: Magnetomancy
+    icon: 🏹
     keywords:
       - Psionic
       - Ranged
@@ -95,6 +97,7 @@ abilities:
           in the area.
         cost: 5 Malice
   - name: Your Weapon Is Useless
+    icon: ❗️
     keywords:
       - Psionic
       - Ranged
@@ -107,6 +110,7 @@ abilities:
           takes 4 damage.
         name: Effect
   - name: Ajax Will Pay Well for These Specimens
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -121,6 +125,7 @@ abilities:
           power roll against all targets.
         name: Effect
   - name: Don't Let Them Escape!
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Area
@@ -132,6 +137,7 @@ abilities:
           Levitating Axes.
         name: Effect
   - name: Test Your Metal!
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Psionic

@@ -16,7 +16,8 @@ type: feature/trait/fury/2nd-level-feature
 ---
 
 ```ds-ability
-name: Unstoppable Force
+name: ""
+icon: Unstoppable Force
 metadata:
   class: fury
   feature_type: trait

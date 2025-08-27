@@ -55,6 +55,7 @@ traits:
       - effect: The stinker doesn't provoke opportunity attacks by moving
 abilities:
   - name: Toxic Winds
+    icon: 🔳
     cost: Signature Ability
     keywords:
       - Area
@@ -72,6 +73,7 @@ abilities:
           square.
         cost: 1+ Malice
   - name: Swamp Gas
+    icon: 🔳
     keywords:
       - Area
       - Magic

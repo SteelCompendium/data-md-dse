@@ -26,7 +26,8 @@ type: feature/ability/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: Unquiet Ground
+name: ""
+icon: Unquiet Ground
 flavor: A sudden storm of detritus assaults your foes and leaves them struggling
   to move.
 keywords:

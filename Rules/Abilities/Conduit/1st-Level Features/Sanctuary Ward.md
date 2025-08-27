@@ -16,7 +16,8 @@ type: feature/trait/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: Sanctuary Ward
+name: ""
+icon: Sanctuary Ward
 metadata:
   class: conduit
   feature_type: trait

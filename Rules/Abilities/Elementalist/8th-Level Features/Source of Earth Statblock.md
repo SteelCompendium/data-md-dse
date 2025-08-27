@@ -16,7 +16,8 @@ type: feature/trait/elementalist/8th-level-feature
 ---
 
 ```ds-ability
-name: Source of Earth Statblock
+name: ""
+icon: Source of Earth Statblock
 metadata:
   class: elementalist
   feature_type: trait
@@ -36,6 +37,7 @@ effects:
   - effect: >-
       **Source of Earth**
 
+
       |       Elemental       |            -             |       Level
       8       |          BRUTE          |          EV -          |
 
@@ -53,18 +55,22 @@ effects:
   - effect: >-
       **Earthwalk**
 
+
       Difficult terrain composed of earth and stone doesn't cost the source
       extra movement.
   - effect: |-
       **Tunneler**
+
       When the source burrows, they create a size 2 tunnel.
   - effect: >-
       **Earth Harness**
+
 
       A creature that has the Earth Accepts Me ability can use it as a free
       action to meld into the source.
   - effect: |-
       **Boulder Bash**
+
       | **Melee, Ranged, Strike, Weapon** |                 **Signature** |
       | --------------------------------- | ----------------------------: |
       | **📏 Melee 2 or ranged 10**       | **🎯 One creature or object** |

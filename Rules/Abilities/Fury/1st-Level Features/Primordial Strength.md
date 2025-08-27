@@ -16,7 +16,8 @@ type: feature/trait/fury/1st-level-feature
 ---
 
 ```ds-ability
-name: Primordial Strength
+name: ""
+icon: Primordial Strength
 metadata:
   class: fury
   feature_type: trait
@@ -38,6 +39,7 @@ effects:
       damage equal to your Might score. Additionally, whenever you push another
       creature into an object, the creature takes extra damage equal to your
       Might score.
+
 
       As your ferocity grows, you gain benefits as noted on the Berserker
       Growing Ferocity table. Benefits are cumulative except where an improved

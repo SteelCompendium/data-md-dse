@@ -61,6 +61,7 @@ traits:
           force moved into objects.
 abilities:
   - name: Draining Rake
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

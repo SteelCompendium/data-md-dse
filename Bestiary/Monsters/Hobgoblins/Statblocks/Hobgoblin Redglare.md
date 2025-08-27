@@ -62,6 +62,7 @@ traits:
           Each creature adjacent to the redglare takes 3 fire damage.
 abilities:
   - name: Eye Flash
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -76,6 +77,7 @@ abilities:
         t2: 14 corruption damage; P < 2 restrained (save ends)
         t3: 17 corruption damage; P < 3 restrained (save ends)
   - name: Glare of the Old Judgments
+    icon: 🏹
     cost: 5 Malice
     keywords:
       - Magic

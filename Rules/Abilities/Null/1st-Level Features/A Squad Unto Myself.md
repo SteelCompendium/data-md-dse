@@ -27,8 +27,8 @@ type: feature/ability/null/1st-level-feature
 ---
 
 ```ds-ability
-name: A Squad Unto Myself
-cost: 5 Discipline
+name: ""
+icon: A Squad Unto Myself (5 Discipline)
 flavor: You move so quickly, it seems as though an army assaulted your foes.
 keywords:
   - Area

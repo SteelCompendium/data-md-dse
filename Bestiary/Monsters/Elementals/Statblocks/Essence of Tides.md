@@ -61,6 +61,7 @@ traits:
           provoke opportunity attacks.
 abilities:
   - name: Water Wing
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Magic
@@ -78,6 +79,7 @@ abilities:
           additional squares whenever they are force moved (save ends).
         name: Effect
   - name: Convocation of Waves
+    icon: 🏹
     keywords:
       - Magic
       - Ranged
@@ -95,6 +97,7 @@ abilities:
           has M < 2 is slowed (save ends).
         cost: 3 Malice
   - name: Sea-Salted Wounds
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - Melee

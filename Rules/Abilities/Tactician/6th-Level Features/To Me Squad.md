@@ -28,8 +28,8 @@ type: feature/ability/tactician/6th-level-feature
 ---
 
 ```ds-ability
-name: To Me Squad!
-cost: 9 Focus
+name: ""
+icon: To Me Squad! (9 Focus)
 flavor: You lead your allies in a charge.
 keywords:
   - Charge

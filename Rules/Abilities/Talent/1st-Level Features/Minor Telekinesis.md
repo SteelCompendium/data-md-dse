@@ -24,7 +24,8 @@ type: feature/ability/talent/1st-level-feature
 ---
 
 ```ds-ability
-name: Minor Telekinesis
+name: ""
+icon: Minor Telekinesis
 flavor: Wisps of psychic energy ripple visibly from your brain as you force the
   target to move using only your mind.
 keywords:

@@ -16,7 +16,8 @@ type: feature/trait/conduit/10th-level-feature
 ---
 
 ```ds-ability
-name: Divine Power
+name: ""
+icon: Divine Power
 metadata:
   class: conduit
   feature_type: trait
@@ -37,6 +38,7 @@ effects:
       You have an epic resource called divine power. Each time you finish a
       respite, you gain divine power equal to the XP you gain. You can spend
       divine power on your abilities as if it were piety.
+
 
       Additionally, you can spend divine power as if it were piety to use any
       conduit abilities you don't have, as the gods answer your prayers with

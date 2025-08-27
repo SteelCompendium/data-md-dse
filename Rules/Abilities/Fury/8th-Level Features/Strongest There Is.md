@@ -16,7 +16,8 @@ type: feature/trait/fury/8th-level-feature
 ---
 
 ```ds-ability
-name: Strongest There Is
+name: ""
+icon: Strongest There Is
 metadata:
   class: fury
   feature_type: trait

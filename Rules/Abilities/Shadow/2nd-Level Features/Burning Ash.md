@@ -16,7 +16,8 @@ type: feature/trait/shadow/2nd-level-feature
 ---
 
 ```ds-ability
-name: Burning Ash
+name: ""
+icon: Burning Ash
 metadata:
   class: shadow
   feature_type: trait

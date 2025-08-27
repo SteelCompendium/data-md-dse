@@ -29,8 +29,8 @@ type: feature/ability/talent/5th-level-feature
 ---
 
 ```ds-ability
-name: Soulbound
-cost: 9 Clarity
+name: ""
+icon: Soulbound (9 Clarity)
 flavor: You fire a piercing bolt of psychic energy that lances through two foes
   and leaves a faint intangible thread between them.
 keywords:

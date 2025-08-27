@@ -26,8 +26,8 @@ type: feature/ability/troubadour/2nd-level-feature
 ---
 
 ```ds-ability
-name: Encore
-cost: 5 Drama
+name: ""
+icon: Encore (5 Drama)
 flavor: Again! Again!
 keywords:
   - Magic

@@ -27,8 +27,8 @@ type: feature/ability/tactician/2nd-level-feature
 ---
 
 ```ds-ability
-name: I've Got Your Back
-cost: 5 Focus
+name: ""
+icon: I've Got Your Back (5 Focus)
 flavor: Your enemy will think twice about attacking your friend.
 keywords:
   - Ranged

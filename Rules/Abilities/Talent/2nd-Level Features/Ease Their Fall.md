@@ -16,7 +16,8 @@ type: feature/trait/talent/2nd-level-feature
 ---
 
 ```ds-ability
-name: Ease Their Fall
+name: ""
+icon: Ease Their Fall
 metadata:
   class: talent
   feature_type: trait

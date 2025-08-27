@@ -52,6 +52,7 @@ presence: 0
 traits: []
 abilities:
   - name: Handaxes
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Charge

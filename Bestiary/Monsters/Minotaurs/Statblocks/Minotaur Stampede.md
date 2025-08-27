@@ -62,6 +62,7 @@ traits:
           whose space they share.
 abilities:
   - name: Bull Rush
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge

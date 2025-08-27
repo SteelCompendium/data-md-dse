@@ -16,7 +16,8 @@ type: feature/trait/troubadour/5th-level-feature
 ---
 
 ```ds-ability
-name: Verbal Duel
+name: ""
+icon: Verbal Duel
 metadata:
   class: troubadour
   feature_type: trait

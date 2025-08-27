@@ -25,7 +25,8 @@ type: feature/ability/null/1st-level-feature
 ---
 
 ```ds-ability
-name: Joint Lock
+name: ""
+icon: Joint Lock
 flavor: You contort your enemy's body into a stance they struggle to escape from.
 keywords:
   - Melee

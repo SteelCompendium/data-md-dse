@@ -59,6 +59,7 @@ traits:
           signature ability until the end of the encounter.
 abilities:
   - name: Quill Pushing
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

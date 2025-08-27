@@ -22,7 +22,8 @@ type: feature/ability/fury/1st-level-feature
 ---
 
 ```ds-ability
-name: Unearthly Reflexes
+name: ""
+icon: Unearthly Reflexes
 flavor: You are as elusive as a hummingbird.
 keywords:
   - "-"

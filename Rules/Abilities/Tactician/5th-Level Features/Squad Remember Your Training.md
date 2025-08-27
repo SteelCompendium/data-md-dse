@@ -25,8 +25,8 @@ type: feature/ability/tactician/5th-level-feature
 ---
 
 ```ds-ability
-name: Squad! Remember Your Training!
-cost: 9 Focus
+name: ""
+icon: Squad! Remember Your Training! (9 Focus)
 flavor: You remind your allies how to best use their gear.
 keywords:
   - Ranged

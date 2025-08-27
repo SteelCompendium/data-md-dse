@@ -61,6 +61,7 @@ traits:
           Stamina, the chainlock is reduced to 1 Stamina instead.
 abilities:
   - name: Hook and Chain
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -78,6 +79,7 @@ abilities:
           position when this ability is used.
         name: Effect
   - name: Heavy Crossbolt
+    icon: 🏹
     cost: 3 Malice
     keywords:
       - Ranged

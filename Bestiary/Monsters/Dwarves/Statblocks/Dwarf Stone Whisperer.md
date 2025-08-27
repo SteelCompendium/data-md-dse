@@ -58,6 +58,7 @@ traits:
           they entered it.
 abilities:
   - name: Tile Slide
+    icon: 🔳
     cost: Signature Ability
     keywords:
       - Area
@@ -75,6 +76,7 @@ abilities:
           Director determines otherwise.
         name: Effect
   - name: Stone Wave
+    icon: 🔳
     cost: 3 Malice
     keywords:
       - Area

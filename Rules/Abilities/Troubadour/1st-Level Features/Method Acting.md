@@ -27,8 +27,8 @@ type: feature/ability/troubadour/1st-level-feature
 ---
 
 ```ds-ability
-name: Method Acting
-cost: 5 Drama
+name: ""
+icon: Method Acting (5 Drama)
 flavor: They're so hurt by your performance, you start to believe it yourself.
 keywords:
   - Melee

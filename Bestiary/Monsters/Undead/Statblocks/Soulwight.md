@@ -57,6 +57,7 @@ traits:
           instead have 1 Stamina and fall prone.
 abilities:
   - name: Soulstealer Longsword
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -75,6 +76,7 @@ abilities:
           is destroyed.
         name: Effect
   - name: Stolen Vitality
+    icon: 🏹
     cost: 3 Malice
     keywords:
       - Magic

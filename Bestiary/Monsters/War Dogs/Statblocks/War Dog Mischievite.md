@@ -60,6 +60,7 @@ traits:
           explodes, dealing 2d6 damage to each adjacent enemy and object.
 abilities:
   - name: Fuse-Iron Knives
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Melee
@@ -78,6 +79,7 @@ abilities:
           within 1 square.
         name: Effect
   - name: Misdirection
+    icon: 🏹
     keywords:
       - Ranged
     type: Maneuver

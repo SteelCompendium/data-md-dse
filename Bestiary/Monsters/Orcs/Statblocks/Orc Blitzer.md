@@ -56,6 +56,7 @@ traits:
           before dying.
 abilities:
   - name: Lugged Spear
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

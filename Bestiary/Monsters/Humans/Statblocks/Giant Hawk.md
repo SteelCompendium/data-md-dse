@@ -56,6 +56,7 @@ traits:
           a free strike during or after the movement.
 abilities:
   - name: Talons
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -73,6 +74,7 @@ abilities:
           damage.
         cost: 2 Malice
   - name: Dive
+    icon: 👤
     cost: 1 Malice
     keywords:
       - "-"

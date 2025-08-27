@@ -56,6 +56,7 @@ traits:
           before dying.
 abilities:
   - name: Explosive Mote
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic

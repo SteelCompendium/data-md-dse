@@ -59,6 +59,7 @@ traits:
           enemies. The brick is hidden until they act.
 abilities:
   - name: Engulf
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -82,6 +83,7 @@ abilities:
       - effect: This ability targets one additional target.
         cost: 2 Malice
   - name: You Didn't Pay Attention!
+    icon: ❗️
     keywords:
       - "-"
     type: Free triggered action

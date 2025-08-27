@@ -16,7 +16,8 @@ type: feature/trait/null/10th-level-feature
 ---
 
 ```ds-ability
-name: Manifold Resonance
+name: ""
+icon: Manifold Resonance
 metadata:
   class: "null"
   feature_type: trait
@@ -40,6 +41,7 @@ effects:
       Field ability to any location in the timescape known to you, known to any
       other creature in the area, or where any supernatural treasure in the area
       has been before.
+
 
       Whenever you use an ability, you gain 1 discipline that can be used only
       to apply a benefit from your Psi Boost feature to that ability.

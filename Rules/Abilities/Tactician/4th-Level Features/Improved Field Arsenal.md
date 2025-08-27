@@ -16,7 +16,8 @@ type: feature/trait/tactician/4th-level-feature
 ---
 
 ```ds-ability
-name: Improved Field Arsenal
+name: ""
+icon: Improved Field Arsenal
 metadata:
   class: tactician
   feature_type: trait

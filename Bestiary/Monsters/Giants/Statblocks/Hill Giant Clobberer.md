@@ -65,6 +65,7 @@ traits:
           to distract the clobberer. The clobberer targets that enemy instead
 abilities:
   - name: Clobberin' Club
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge
@@ -82,6 +83,7 @@ abilities:
       - effect: A target who is already prone takes an extra 12 damage.
         name: Effect
   - name: Stomp
+    icon: 🗡
     cost: 3 Malice
     keywords:
       - Melee
@@ -99,6 +101,7 @@ abilities:
           hole.
         name: Effect
   - name: Hill Quake
+    icon: ❇️
     keywords:
       - Area
     type: Maneuver
@@ -114,6 +117,7 @@ abilities:
           movement distance.
         name: Effect
   - name: You Ain't Getting Away
+    icon: ❗️
     keywords:
       - Melee
     type: Triggered action

@@ -23,7 +23,8 @@ type: feature/ability/talent/1st-level-feature
 ---
 
 ```ds-ability
-name: Remote Assistance
+name: ""
+icon: Remote Assistance
 flavor: An ally gains the benefit of your intellect.
 keywords:
   - Psionic

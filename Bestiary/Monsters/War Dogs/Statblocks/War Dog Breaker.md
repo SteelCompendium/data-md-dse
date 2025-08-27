@@ -64,6 +64,7 @@ traits:
           dealing 3d6 damage to each adjacent enemy and object.
 abilities:
   - name: Pile Bunker Gauntlet
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge
@@ -79,6 +80,7 @@ abilities:
         t2: 17 damage; slide 4; prone or M < 3 dazed (save ends)
         t3: 21 damage; slide 4; prone; M < 4 dazed (save ends)
   - name: Surging Power
+    icon: 👤
     keywords:
       - "-"
     type: Maneuver

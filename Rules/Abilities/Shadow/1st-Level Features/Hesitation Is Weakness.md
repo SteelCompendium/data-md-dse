@@ -25,8 +25,8 @@ type: feature/ability/shadow/1st-level-feature
 ---
 
 ```ds-ability
-name: Hesitation Is Weakness
-cost: 1 Insight
+name: ""
+icon: Hesitation Is Weakness (1 Insight)
 flavor: Keep up the attack. Never give them a moment's grace.
 keywords:
   - "-"

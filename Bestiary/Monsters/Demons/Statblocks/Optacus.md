@@ -55,6 +55,7 @@ presence: 1
 traits: []
 abilities:
   - name: Optical Flare
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic

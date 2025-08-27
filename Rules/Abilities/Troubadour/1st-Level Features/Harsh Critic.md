@@ -28,8 +28,8 @@ type: feature/ability/troubadour/1st-level-feature
 ---
 
 ```ds-ability
-name: Harsh Critic
-cost: 3 Drama
+name: ""
+icon: Harsh Critic (3 Drama)
 flavor: Just one bad review will ruin their day.
 keywords:
   - Magic

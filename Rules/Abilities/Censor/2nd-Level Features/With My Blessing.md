@@ -26,8 +26,8 @@ type: feature/ability/censor/2nd-level-feature
 ---
 
 ```ds-ability
-name: With My Blessing
-cost: 5 Wrath
+name: ""
+icon: With My Blessing (5 Wrath)
 flavor: A word in prayer, and the gods show the way.
 keywords:
   - Magic

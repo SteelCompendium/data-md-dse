@@ -28,8 +28,8 @@ type: feature/ability/elementalist/3rd-level-feature
 ---
 
 ```ds-ability
-name: Maw of Earth
-cost: 7 Essence
+name: ""
+icon: Maw of Earth (7 Essence)
 flavor: You open up the ground, spewing out shrapnel of stone and debris.
 keywords:
   - Area

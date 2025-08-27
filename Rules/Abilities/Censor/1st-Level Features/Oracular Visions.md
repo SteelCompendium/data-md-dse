@@ -16,7 +16,8 @@ type: feature/trait/censor/1st-level-feature
 ---
 
 ```ds-ability
-name: Oracular Visions
+name: ""
+icon: Oracular Visions
 metadata:
   class: censor
   feature_type: trait

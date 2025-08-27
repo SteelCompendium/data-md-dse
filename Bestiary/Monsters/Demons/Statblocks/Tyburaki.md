@@ -62,6 +62,7 @@ traits:
       - effect: Any creature within 2 squares of the tyburaki can't be hidden from them.
 abilities:
   - name: Tail Bite
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

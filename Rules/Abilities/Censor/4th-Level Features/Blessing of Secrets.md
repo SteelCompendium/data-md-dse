@@ -23,7 +23,8 @@ type: feature/ability/censor/4th-level-feature
 ---
 
 ```ds-ability
-name: Blessing of Secrets
+name: ""
+icon: Blessing of Secrets
 flavor: You project an illusory aura that makes you and allies harder to notice.
 keywords:
   - Area

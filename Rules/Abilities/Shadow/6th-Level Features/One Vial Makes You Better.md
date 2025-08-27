@@ -25,8 +25,8 @@ type: feature/ability/shadow/6th-level-feature
 ---
 
 ```ds-ability
-name: One Vial Makes You Better
-cost: 9 Insight
+name: ""
+icon: One Vial Makes You Better (9 Insight)
 flavor: A well-timed throw of a potion will keep your allies in the fight.
 keywords:
   - Ranged

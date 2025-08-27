@@ -24,7 +24,8 @@ type: feature/ability/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: Return to Formlessness
+name: ""
+icon: Return to Formlessness
 flavor: With the merest touch, you cause an object to turn to slag or ash.
 keywords:
   - Fire

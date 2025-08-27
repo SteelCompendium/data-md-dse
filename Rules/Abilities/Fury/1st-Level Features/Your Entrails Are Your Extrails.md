@@ -27,8 +27,8 @@ type: feature/ability/fury/1st-level-feature
 ---
 
 ```ds-ability
-name: Your Entrails Are Your Extrails!
-cost: 3 Ferocity
+name: ""
+icon: Your Entrails Are Your Extrails! (3 Ferocity)
 flavor: Hard for them to fight when they're busy holding in their giblets.
 keywords:
   - Melee

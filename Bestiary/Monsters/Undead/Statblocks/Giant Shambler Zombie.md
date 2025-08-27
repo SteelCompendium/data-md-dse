@@ -58,6 +58,7 @@ traits:
       - effect: Each ally adjacent to the shambler has damage immunity 3.
 abilities:
   - name: Rotten Kick
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

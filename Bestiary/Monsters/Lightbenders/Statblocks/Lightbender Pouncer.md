@@ -55,6 +55,7 @@ traits:
           ends automatically at the end of their next turn.
 abilities:
   - name: Pounce
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge
@@ -72,6 +73,7 @@ abilities:
       - effect: The pouncer can make a free strike against each target they knock prone.
         name: Effect
   - name: Sparking Tail Whip
+    icon: ❇️
     keywords:
       - Area
       - Magic
@@ -87,6 +89,7 @@ abilities:
           within 1 square.
         name: Effect
   - name: Illusory Feint
+    icon: 🔳
     cost: 5 Malice
     keywords:
       - Area
@@ -105,6 +108,7 @@ abilities:
           stupor, the dazed condition ends.
         name: Effect
   - name: Striking Afterimage
+    icon: ❗️
     keywords:
       - Magic
     type: Triggered action

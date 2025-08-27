@@ -93,17 +93,14 @@ traits:
           this feature even if they are dazed.
   - name: Afflictive Overgrowth
     effects:
-      - effect: >-
-          The dragon summons poisonous, biting thorns around their foes. Each
+      - effect: The dragon summons poisonous, biting thorns around their foes. Each
           enemy on the encounter map makes an **Agility test**.
-
-          - **≤11:** 12 poison damage; restrained (save ends)
-
-          - **12-16:** 9 poison damage; bleeding (save ends)
-
-          - **17+:** 5 poison damage; bleeding (EoT)
+        t1: 12 poison damage; restrained (save ends)
+        t2: 9 poison damage; bleeding (save ends)
+        t3: 5 poison damage; bleeding (EoT)
 abilities:
   - name: Virulent Breath
+    icon: 🔳
     cost: Signature Ability
     keywords:
       - Area
@@ -121,6 +118,7 @@ abilities:
           causing them to take an extra 1d3 damage whenever they take damage
           rolled as a d6 or a d3.
   - name: Spinous Tail Swing
+    icon: 🗡
     keywords:
       - Charge
       - Melee
@@ -138,6 +136,7 @@ abilities:
           bleeding (save ends).
         cost: 2 Malice
   - name: Investiture of Verdure
+    icon: ❇️
     cost: 5 Malice
     keywords:
       - Area
@@ -150,6 +149,7 @@ abilities:
           pulled.
         name: Effect
   - name: Prickly Situation
+    icon: ❗️
     keywords:
       - Magic
       - Ranged
@@ -162,6 +162,7 @@ abilities:
           A < 2, they are restrained until the end of their next turn.
         name: Effect
   - name: Thorny Scales
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - Melee
@@ -174,6 +175,7 @@ abilities:
           M < 2, they are bleeding until the end of their next turn.
         name: Effect
   - name: Briar Bindings
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -187,6 +189,7 @@ abilities:
         t2: 9 damage; A < 2 restrained (save ends)
         t3: 12 damage; A < 3 restrained (save ends)
   - name: Thorned Armor
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - "-"
@@ -200,6 +203,7 @@ abilities:
           Provoking Nettles ability.
         name: Effect
   - name: Malign Thicket
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - "-"

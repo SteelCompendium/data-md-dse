@@ -16,7 +16,8 @@ type: feature/trait/censor/4th-level-feature
 ---
 
 ```ds-ability
-name: Oracular Warning
+name: ""
+icon: Oracular Warning
 metadata:
   class: censor
   feature_type: trait

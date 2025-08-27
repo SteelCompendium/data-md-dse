@@ -16,7 +16,8 @@ type: feature/trait/null/1st-level-feature
 ---
 
 ```ds-ability
-name: Discipline Outside of Combat
+name: ""
+icon: Discipline Outside of Combat
 metadata:
   class: "null"
   feature_type: trait
@@ -39,6 +40,7 @@ effects:
       Whenever you use an ability or effect outside of combat that costs
       discipline, you can't use that same ability or effect outside of combat
       again until you earn 1 or more Victories or finish a respite.
+
 
       When you use an ability outside of combat that lets you spend unlimited
       discipline on its effect, you can use it as if you had spent an amount of

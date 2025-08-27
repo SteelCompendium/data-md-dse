@@ -16,7 +16,8 @@ type: feature/trait/talent/10th-level-feature
 ---
 
 ```ds-ability
-name: Vision
+name: ""
+icon: Vision
 metadata:
   class: talent
   feature_type: trait
@@ -37,6 +38,7 @@ effects:
       You have an epic resource called vision. Each time you finish a respite,
       you gain vision equal to the XP you gain. You can spend vision on your
       abilities as if it were clarity.
+
 
       Additionally, you can spend vision to use one additional psionic ability
       on your turn, provided you pay the entire cost of the ability in vision.

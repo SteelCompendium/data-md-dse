@@ -16,7 +16,8 @@ type: feature/trait/censor/1st-level-feature
 ---
 
 ```ds-ability
-name: Inspired Deception
+name: ""
+icon: Inspired Deception
 metadata:
   class: censor
   feature_type: trait

@@ -62,6 +62,7 @@ traits:
           from the predator.
 abilities:
   - name: Sedating Stinger
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Magic
@@ -79,6 +80,7 @@ abilities:
           restrained (save ends).
         name: Effect
   - name: Tail Sweep
+    icon: 🔳
     keywords:
       - Area
       - Weapon
@@ -94,6 +96,7 @@ abilities:
           line or creating a new line.
         cost: 5 Malice
   - name: Grasping Jaws
+    icon: 🗡
     cost: 2 Malice
     keywords:
       - Magic
@@ -109,6 +112,7 @@ abilities:
         t3: 17 damage; A < 3 grabbed and the target takes a bane on the Escape Grab
           maneuver
   - name: Deterring Sting
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - Melee

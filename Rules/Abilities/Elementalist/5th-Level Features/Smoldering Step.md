@@ -16,7 +16,8 @@ type: feature/trait/elementalist/5th-level-feature
 ---
 
 ```ds-ability
-name: Smoldering Step
+name: ""
+icon: Smoldering Step
 metadata:
   class: elementalist
   feature_type: trait
@@ -37,6 +38,7 @@ effects:
       You can use 1 square of movement to walk into an area of fire your size or
       larger and teleport to any other area of fire your size or larger within
       10 squares of the first area.
+
 
       Additionally, whenever you use a fire ability or are targeted by an
       ability that deals fire damage, each enemy adjacent to you takes fire

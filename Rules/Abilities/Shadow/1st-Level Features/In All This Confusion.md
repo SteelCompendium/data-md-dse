@@ -22,7 +22,8 @@ type: feature/ability/shadow/1st-level-feature
 ---
 
 ```ds-ability
-name: In All This Confusion
+name: ""
+icon: In All This Confusion
 flavor: You vanish in a plume of black smoke to avoid danger.
 keywords:
   - Magic

@@ -23,7 +23,8 @@ type: feature/ability/fury/1st-level-feature
 ---
 
 ```ds-ability
-name: Lines of Force
+name: ""
+icon: Lines of Force
 flavor: You redirect the energy of motion.
 keywords:
   - Magic

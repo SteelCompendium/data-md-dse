@@ -29,8 +29,8 @@ type: feature/ability/elementalist/6th-level-feature
 ---
 
 ```ds-ability
-name: Magma Titan
-cost: 9 Essence
+name: ""
+icon: Magma Titan (9 Essence)
 flavor: Their body swells with lava, mud, and might, towering over their enemies.
 keywords:
   - Earth

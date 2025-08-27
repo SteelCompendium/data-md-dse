@@ -60,6 +60,7 @@ traits:
           force moved into objects.
 abilities:
   - name: Decaying Touch
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Magic
@@ -78,6 +79,7 @@ abilities:
           specter under the Director's control.
         cost: 2 Malice
   - name: Hidden Movement
+    icon: 👤
     keywords:
       - "-"
     type: Maneuver

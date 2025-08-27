@@ -16,7 +16,8 @@ type: feature/trait/conduit/8th-level-feature
 ---
 
 ```ds-ability
-name: 8th-Level Domain Feature
+name: ""
+icon: 8th-Level Domain Feature
 metadata:
   class: conduit
   feature_type: trait

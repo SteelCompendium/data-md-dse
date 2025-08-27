@@ -61,6 +61,7 @@ traits:
           power rolls they make against each other.
 abilities:
   - name: Brutal Impact
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -77,6 +78,7 @@ abilities:
       - effect: Each target who has M < 1 is slowed (save ends).
         cost: 2 Malice
   - name: Let's Tussle
+    icon: 🗡
     cost: 2 Malice
     keywords:
       - Melee

@@ -63,6 +63,7 @@ traits:
           explodes, dealing 2d6 damage to each adjacent enemy and object.
 abilities:
   - name: Needle-Knife
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -80,6 +81,7 @@ abilities:
           disguised.
         name: Effect
   - name: Feign Death
+    icon: ❗️
     cost: 2 Malice
     keywords:
       - Ranged

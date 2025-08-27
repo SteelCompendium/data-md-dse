@@ -56,6 +56,7 @@ traits:
           can make a melee free strike.
 abilities:
   - name: Flame Wad
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -74,6 +75,7 @@ abilities:
           round.
         name: Effect
   - name: Call Abyssal Hyenas
+    icon: 🏹
     cost: 3 Malice
     keywords:
       - Ranged
@@ -85,6 +87,7 @@ abilities:
           distance.
         name: Effect
   - name: Summoner's Cackletongue
+    icon: ❇️
     cost: 4 Malice
     keywords:
       - Area

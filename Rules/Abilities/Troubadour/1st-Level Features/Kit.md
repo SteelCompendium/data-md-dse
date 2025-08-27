@@ -16,7 +16,8 @@ type: feature/trait/troubadour/1st-level-feature
 ---
 
 ```ds-ability
-name: Kit
+name: ""
+icon: Kit
 metadata:
   class: troubadour
   feature_type: trait

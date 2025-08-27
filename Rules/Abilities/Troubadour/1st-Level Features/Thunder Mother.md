@@ -25,7 +25,8 @@ type: feature/ability/troubadour/1st-level-feature
 ---
 
 ```ds-ability
-name: '"Thunder Mother"'
+name: ""
+icon: '"Thunder Mother"'
 flavor: All for thunder motherrr! ♪ Run and hide for coverrr!♪
 keywords:
   - Magic

@@ -23,7 +23,8 @@ type: feature/ability/censor/7th-level-feature
 ---
 
 ```ds-ability
-name: Guided to Your Side
+name: ""
+icon: Guided to Your Side
 flavor: You concentrate on a friend and teleport to them.
 keywords:
   - Magic

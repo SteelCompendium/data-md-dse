@@ -61,6 +61,7 @@ traits:
           power rolls they make against each other.
 abilities:
   - name: Seismic Crush
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -77,6 +78,7 @@ abilities:
       - effect: Each target who has M < 4 is bleeding and slowed (save ends).
         cost: 2 Malice
   - name: Death Grip
+    icon: 🗡
     cost: 4 Malice
     keywords:
       - Melee

@@ -16,7 +16,8 @@ type: feature/trait/censor/7th-level-feature
 ---
 
 ```ds-ability
-name: Your Triumphs Are Remembered
+name: ""
+icon: Your Triumphs Are Remembered
 metadata:
   class: censor
   feature_type: trait

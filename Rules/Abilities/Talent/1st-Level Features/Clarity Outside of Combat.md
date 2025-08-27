@@ -16,7 +16,8 @@ type: feature/trait/talent/1st-level-feature
 ---
 
 ```ds-ability
-name: Clarity Outside of Combat
+name: ""
+icon: Clarity Outside of Combat
 metadata:
   class: talent
   feature_type: trait
@@ -39,6 +40,7 @@ effects:
       use an ability or effect outside of combat that costs clarity, you can't
       use that same ability or effect outside of combat again until you earn 1
       or more Victories or finish a respite.
+
 
       Additionally, whenever you use any ability or effect that costs clarity
       within 1 minute of using another such ability, you take 1d6 damage and

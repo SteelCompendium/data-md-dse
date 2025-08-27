@@ -56,6 +56,7 @@ traits:
           roll to power rolls they make against each other.
 abilities:
   - name: Command From the Back
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged
@@ -73,6 +74,7 @@ abilities:
           signature ability.
         cost: 4 Malice
   - name: Safeguard
+    icon: 🏹
     cost: 3 Malice
     keywords:
       - Ranged
@@ -89,6 +91,7 @@ abilities:
       - effect: Two allies adjacent to the target each regain 7 Stamina.
         name: Effect
   - name: Quickshot
+    icon: ❗️
     keywords:
       - Ranged
     type: Triggered action

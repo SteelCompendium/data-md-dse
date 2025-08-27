@@ -16,7 +16,8 @@ type: feature/trait/null/9th-level-feature
 ---
 
 ```ds-ability
-name: I Am the Weapon
+name: ""
+icon: I Am the Weapon
 metadata:
   class: "null"
   feature_type: trait

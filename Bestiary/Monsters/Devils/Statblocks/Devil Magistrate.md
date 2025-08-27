@@ -63,6 +63,7 @@ traits:
           end of the encounter.
 abilities:
   - name: Edge of the Law
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -80,6 +81,7 @@ abilities:
           ability, or between each strike.
         name: Effect
   - name: Verdict
+    icon: 🗡
     keywords:
       - Melee
       - Strike
@@ -88,15 +90,15 @@ abilities:
     distance: Melee 1
     target: One creature
     effects:
-      - effect: |-
-          **Power Roll + 3**
-          - **≤11:** 11 damage
-          - **12-16:** 17 damage
-          - **17+:** 21 damage
+      - effect: "**Power Roll + 3**"
+        t1: 11 damage
+        t2: 17 damage
+        t3: 21 damage
       - effect: This ability has a double edge if the magistrate was hidden from the
           target, and deals an extra 5 damage if the target is dazed.
         name: Effect
   - name: Justice Turns Its Gaze
+    icon: 👤
     keywords:
       - "-"
     type: Maneuver
@@ -108,6 +110,7 @@ abilities:
           turn.
         name: Effect
   - name: Devilish Charm
+    icon: ❗️
     cost: 2 Malice
     keywords:
       - Magic

@@ -58,6 +58,7 @@ traits:
           concealment have a double bane instead.
 abilities:
   - name: Spear
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Charge

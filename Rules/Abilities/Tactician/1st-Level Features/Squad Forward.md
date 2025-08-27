@@ -25,8 +25,8 @@ type: feature/ability/tactician/1st-level-feature
 ---
 
 ```ds-ability
-name: Squad! Forward!
-cost: 3 Focus
+name: ""
+icon: Squad! Forward! (3 Focus)
 flavor: On your command, you and your allies force back the enemy line.
 keywords:
   - Ranged

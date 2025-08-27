@@ -53,6 +53,7 @@ presence: 0
 traits: []
 abilities:
   - name: Eyes-On-Me-Shot
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged
@@ -67,6 +68,7 @@ abilities:
         t2: 4 damage
         t3: 5 damage
   - name: Ready Rodent
+    icon: ❗️
     keywords:
       - Melee
       - Weapon

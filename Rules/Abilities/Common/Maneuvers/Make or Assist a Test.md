@@ -14,7 +14,8 @@ type: common-ability/maneuver
 ---
 
 ```ds-ability
-name: Make or Assist a Test
+name: ""
+icon: Make or Assist a Test
 metadata:
   class: combat
   file_basename: Make or Assist a Test
@@ -34,6 +35,7 @@ effects:
       Reason test, picking a door's lock with an Agility test, or lifting a
       portcullis with a Might test would all be maneuvers. Assisting a test is
       also a maneuver in combat (see Assist a Test in Chapter 9: Tests).
+
 
       Complex or time-consuming tests might require a main action if made in
       combat-or could take so long that they can't be made during combat at all.

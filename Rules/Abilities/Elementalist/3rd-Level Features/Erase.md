@@ -28,8 +28,8 @@ type: feature/ability/elementalist/3rd-level-feature
 ---
 
 ```ds-ability
-name: Erase
-cost: 7 Essence
+name: ""
+icon: Erase (7 Essence)
 flavor: With a flick of the wrist, you phase creatures out of existence.
 keywords:
   - Magic

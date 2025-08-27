@@ -16,7 +16,8 @@ type: feature/trait/elementalist/6th-level-feature
 ---
 
 ```ds-ability
-name: Perk
+name: ""
+icon: Perk
 metadata:
   class: elementalist
   feature_type: trait

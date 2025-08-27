@@ -61,6 +61,7 @@ traits:
           them.
 abilities:
   - name: Many Maws
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -78,6 +79,7 @@ abilities:
           of the tormenauk's turns.
         name: Effect
   - name: Agony Wail
+    icon: ❇️
     cost: 5 Malice
     keywords:
       - Area

@@ -58,6 +58,7 @@ traits:
           they are weakened (save ends)
 abilities:
   - name: Roiling Fist
+    icon: 🔳
     cost: Signature Ability
     keywords:
       - Area
@@ -73,6 +74,7 @@ abilities:
         t2: 14 fire damage; prone
         t3: 9 fire damage
   - name: Burning Kick
+    icon: 🗡
     keywords:
       - Charge
       - Melee
@@ -87,6 +89,7 @@ abilities:
         t2: 19 damage; push 10; A < 4, 9 fire damage
         t3: 23 damage; push 15; A < 5, 9 fire damage
   - name: Lava Pillar
+    icon: 🔳
     cost: 3 Malice
     keywords:
       - Area
@@ -100,6 +103,7 @@ abilities:
         t2: 7 fire damage; M < 4, vertical push 4
         t3: 9 fire damage; M < 5, vertical push 5
   - name: Fuel the Fire
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - Ranged
@@ -111,6 +115,7 @@ abilities:
       - effect: The strike has a double edge and deals an extra 10 fire damage.
         name: Effect
   - name: Forward!
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -124,6 +129,7 @@ abilities:
           start of each of their turns.
         name: Effect
   - name: Burning Legion
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Ranged
@@ -135,6 +141,7 @@ abilities:
           arrive in unoccupied spaces within distance.
         name: Effect
   - name: All to Cinders
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

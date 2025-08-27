@@ -60,6 +60,7 @@ traits:
           explodes, dealing 1d6 damage to each adjacent enemy and object.
 abilities:
   - name: Synlirii Grafts
+    icon: ❇️
     cost: Signature Ability
     keywords:
       - Area
@@ -73,6 +74,7 @@ abilities:
         t2: 2 psychic damage; vertical slide 2
         t3: 3 psychic damage; vertical slide 3
   - name: Posthumous Promotion
+    icon: 🏹
     keywords:
       - Magic
       - Ranged
@@ -83,6 +85,7 @@ abilities:
       - effect: If the target has a loyalty collar, they are reduced to 0 Stamina.
         name: Effect
   - name: The Voice
+    icon: ❇️
     cost: 1 Malice
     keywords:
       - Area

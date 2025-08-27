@@ -55,6 +55,7 @@ traits:
           difficult terrain.
 abilities:
   - name: Spitfire
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -73,6 +74,7 @@ abilities:
           round.
         name: Effect
   - name: Convocation of Flames
+    icon: 🏹
     keywords:
       - Magic
       - Ranged
@@ -87,6 +89,7 @@ abilities:
           first time in a round or starts their turn there takes 3 fire damage.
         cost: 3 Malice
   - name: Flame Jet
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - Magic

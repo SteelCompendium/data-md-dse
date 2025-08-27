@@ -59,6 +59,7 @@ traits:
           strikes deal an extra 4 fire damage.
 abilities:
   - name: Wax Fling
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged
@@ -76,6 +77,7 @@ abilities:
           restrained (save ends).
         name: Effect
   - name: Erupt
+    icon: ❇️
     cost: 3 Malice
     keywords:
       - Area

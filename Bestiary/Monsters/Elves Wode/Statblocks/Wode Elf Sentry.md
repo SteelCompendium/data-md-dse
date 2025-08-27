@@ -57,6 +57,7 @@ traits:
           concealment have a double bane instead.
 abilities:
   - name: Tracer Longbow
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged
@@ -76,6 +77,7 @@ abilities:
       - effect: The sentry targets two additional creatures or objects.
         cost: 3 Malice
   - name: Death Blossom
+    icon: ❇️
     cost: 2 Malice
     keywords:
       - Area

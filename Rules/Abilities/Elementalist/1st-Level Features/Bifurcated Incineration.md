@@ -25,7 +25,8 @@ type: feature/ability/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: Bifurcated Incineration
+name: ""
+icon: Bifurcated Incineration
 flavor: Two jets of flame lance out at your command.
 keywords:
   - Fire

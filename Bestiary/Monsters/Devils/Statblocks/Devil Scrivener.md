@@ -60,6 +60,7 @@ traits:
           their signature ability until the end of the encounter.
 abilities:
   - name: Litigation
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge

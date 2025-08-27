@@ -16,7 +16,8 @@ type: feature/trait/tactician/5th-level-feature
 ---
 
 ```ds-ability
-name: Leave No Trace
+name: ""
+icon: Leave No Trace
 metadata:
   class: tactician
   feature_type: trait

@@ -54,6 +54,7 @@ traits:
       - effect: While winded, the goon has damage immunity 2.
 abilities:
   - name: Club Swing
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -71,6 +72,7 @@ abilities:
           damage.
         name: Effect
   - name: Grabby Hand
+    icon: 🗡
     cost: 1 Malice
     keywords:
       - Melee
@@ -87,6 +89,7 @@ abilities:
       - effect: A target grabbed this way takes a bane on the Escape Grab maneuver.
         name: Effect
   - name: People Bowling
+    icon: 🔳
     cost: 3 Malice
     keywords:
       - Area
@@ -105,6 +108,7 @@ abilities:
         t2: 9 damage
         t3: 12 damage; prone
   - name: Swat the Fly
+    icon: ❗️
     keywords:
       - Melee
     type: Triggered action

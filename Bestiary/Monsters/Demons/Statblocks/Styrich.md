@@ -60,6 +60,7 @@ traits:
       - effect: Any creature within 2 squares of the styrich can't be hidden from them.
 abilities:
   - name: Hair Whip
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -77,6 +78,7 @@ abilities:
           pulled the distance determined by the power roll.
         name: Effect
   - name: Tangled Nest
+    icon: ❇️
     cost: 5 Malice
     keywords:
       - Area

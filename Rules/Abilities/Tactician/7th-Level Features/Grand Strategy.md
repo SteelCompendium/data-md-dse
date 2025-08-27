@@ -16,7 +16,8 @@ type: feature/trait/tactician/7th-level-feature
 ---
 
 ```ds-ability
-name: Grand Strategy
+name: ""
+icon: Grand Strategy
 metadata:
   class: tactician
   feature_type: trait

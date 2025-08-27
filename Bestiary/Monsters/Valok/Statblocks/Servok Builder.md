@@ -67,6 +67,7 @@ traits:
           still grants its additional main action.
 abilities:
   - name: Wrecking Ball
+    icon: 🔳
     cost: Signature Ability
     keywords:
       - Area
@@ -82,6 +83,7 @@ abilities:
         t2: 12 damage; push 3
         t3: 8 damage
   - name: Construction Arm
+    icon: 🗡
     keywords:
       - Melee
       - Strike
@@ -95,6 +97,7 @@ abilities:
         t2: 23 damage; grabbed
         t3: 28 damage; grabbed; M < 4 vertical push 5
   - name: Lay the Foundation
+    icon: 🔳
     cost: 3 Malice
     keywords:
       - Area
@@ -109,6 +112,7 @@ abilities:
         t2: Slowed (EoT)
         t3: No effect
   - name: Build Wall
+    icon: 🔳
     keywords:
       - Area
       - Ranged
@@ -121,6 +125,7 @@ abilities:
           additional squares of wall for each square of concrete removed.
         name: Effect
   - name: Sputter
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - Melee

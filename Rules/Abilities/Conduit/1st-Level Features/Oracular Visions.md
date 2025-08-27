@@ -16,7 +16,8 @@ type: feature/trait/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: Oracular Visions
+name: ""
+icon: Oracular Visions
 metadata:
   class: conduit
   feature_type: trait

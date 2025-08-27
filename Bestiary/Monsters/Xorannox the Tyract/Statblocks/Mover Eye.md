@@ -58,6 +58,7 @@ traits:
           lose this immunity until the end of the round.
 abilities:
   - name: Telekinetic Beam
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Psionic

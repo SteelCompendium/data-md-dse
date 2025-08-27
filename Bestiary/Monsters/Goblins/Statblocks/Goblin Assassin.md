@@ -58,6 +58,7 @@ traits:
       - effect: The assassin can attempt to hide even while observed
 abilities:
   - name: Sword Stab
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -75,6 +76,7 @@ abilities:
           damage.
         name: Effect
   - name: Shadow Chains
+    icon: 🏹
     cost: 3 Malice
     keywords:
       - Magic

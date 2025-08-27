@@ -28,8 +28,8 @@ type: feature/ability/talent/5th-level-feature
 ---
 
 ```ds-ability
-name: Hypersonic
-cost: 9 Clarity
+name: ""
+icon: Hypersonic (9 Clarity)
 flavor: You move fast enough to turn around and watch your foes feel the aftermath.
 keywords:
   - Area

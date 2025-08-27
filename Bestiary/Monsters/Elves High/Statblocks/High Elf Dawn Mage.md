@@ -59,6 +59,7 @@ traits:
           at the end of their turn.
 abilities:
   - name: Bright Bolt
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic

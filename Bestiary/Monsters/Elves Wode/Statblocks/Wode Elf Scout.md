@@ -61,6 +61,7 @@ traits:
           concealment have a double bane instead.
 abilities:
   - name: Daggers
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Melee

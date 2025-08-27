@@ -26,8 +26,8 @@ type: feature/ability/null/3rd-level-feature
 ---
 
 ```ds-ability
-name: Stabilizing Field
-cost: 7 Discipline
+name: ""
+icon: Stabilizing Field (7 Discipline)
 flavor: You project order, making it harder for your enemies to interfere with
   you and your allies.
 keywords:

@@ -16,7 +16,8 @@ type: feature/trait/null/7th-level-feature
 ---
 
 ```ds-ability
-name: Skill
+name: ""
+icon: Skill
 metadata:
   class: "null"
   feature_type: trait

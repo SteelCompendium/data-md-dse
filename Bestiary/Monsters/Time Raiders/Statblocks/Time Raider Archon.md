@@ -58,6 +58,7 @@ traits:
           concealment.
 abilities:
   - name: Brutal Flail
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

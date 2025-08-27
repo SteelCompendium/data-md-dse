@@ -16,7 +16,8 @@ type: feature/trait/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: Persistent Magic
+name: ""
+icon: Persistent Magic
 metadata:
   class: elementalist
   feature_type: trait
@@ -43,6 +44,7 @@ effects:
       the ability's persistent value, which enables the ability's persistent
       effect. All your active persistent abilities end at the end of the
       encounter.
+
 
       You can't maintain any abilities that would make you earn a negative
       amount of essence at the start of your turn. You can stop maintaining an

@@ -56,6 +56,7 @@ traits:
           free strike.
 abilities:
   - name: Moment of Brutality
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -76,6 +77,7 @@ abilities:
           strike.
         name: Effect
   - name: Cackler's Cackletongue
+    icon: ❇️
     cost: 4 Malice
     keywords:
       - Area

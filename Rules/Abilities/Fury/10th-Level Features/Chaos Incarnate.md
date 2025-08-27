@@ -16,7 +16,8 @@ type: feature/trait/fury/10th-level-feature
 ---
 
 ```ds-ability
-name: Chaos Incarnate
+name: ""
+icon: Chaos Incarnate
 metadata:
   class: fury
   feature_type: trait
@@ -39,6 +40,7 @@ effects:
       lightning, poison, and sonic damage equal to twice your Might score. If
       you are a stormwight, your damage immunity from your Primordial Storm
       feature (see Stormwight Kits) increases to three times your Might score.
+
 
       When any elemental or any other creature whose abilities deal acid, cold,
       corruption, fire, lightning, poison, or sonic damage first becomes aware

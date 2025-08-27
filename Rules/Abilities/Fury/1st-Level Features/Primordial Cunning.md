@@ -16,7 +16,8 @@ type: feature/trait/fury/1st-level-feature
 ---
 
 ```ds-ability
-name: Primordial Cunning
+name: ""
+icon: Primordial Cunning
 metadata:
   class: fury
   feature_type: trait
@@ -36,6 +37,7 @@ effects:
   - effect: >-
       You are never surprised. Additionally, whenever you would push a target
       with forced movement, you can slide them instead.
+
 
       As your ferocity grows, you gain benefits as noted on the Reaver Growing
       Ferocity table. Benefits are cumulative except where an improved benefit

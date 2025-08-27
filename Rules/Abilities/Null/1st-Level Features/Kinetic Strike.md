@@ -25,7 +25,8 @@ type: feature/ability/null/1st-level-feature
 ---
 
 ```ds-ability
-name: Kinetic Strike
+name: ""
+icon: Kinetic Strike
 flavor: Your opponent staggers. They cannot ignore you.
 keywords:
   - Melee

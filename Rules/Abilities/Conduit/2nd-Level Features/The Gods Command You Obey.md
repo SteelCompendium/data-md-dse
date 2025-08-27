@@ -27,8 +27,8 @@ type: feature/ability/conduit/2nd-level-feature
 ---
 
 ```ds-ability
-name: The Gods Command You Obey
-cost: 5 Piety
+name: ""
+icon: The Gods Command You Obey (5 Piety)
 flavor: You speak with the voice of your saint, commanding your enemies.
 keywords:
   - Magic

@@ -27,8 +27,8 @@ type: feature/ability/troubadour/9th-level-feature
 ---
 
 ```ds-ability
-name: Rising Tension
-cost: 11 Drama
+name: ""
+icon: Rising Tension (11 Drama)
 flavor: You narrate the tension of the scene and put all hope into your
   protagonist to turn things around.
 keywords:

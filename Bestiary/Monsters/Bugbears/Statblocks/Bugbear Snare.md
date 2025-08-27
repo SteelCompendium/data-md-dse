@@ -56,6 +56,7 @@ presence: 1
 traits: []
 abilities:
   - name: Cut 'Em Low! Signature Ability
+    icon: 🗡
     keywords:
       - Charge
       - Melee

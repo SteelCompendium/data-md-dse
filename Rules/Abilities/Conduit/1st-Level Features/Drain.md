@@ -24,7 +24,8 @@ type: feature/ability/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: Drain
+name: ""
+icon: Drain
 flavor: You drain the energy from your target to revitalize yourself or an ally.
 keywords:
   - Magic

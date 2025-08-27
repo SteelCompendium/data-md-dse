@@ -27,8 +27,8 @@ type: feature/ability/troubadour/2nd-level-feature
 ---
 
 ```ds-ability
-name: En Garde!
-cost: 5 Drama
+name: ""
+icon: En Garde! (5 Drama)
 flavor: Wait, it's... Guard! Turn! Parry! Dodge! Spin! Thrust! Ha!
 keywords:
   - Melee
@@ -65,9 +65,9 @@ metadata:
   type: feature/ability/troubadour/2nd-level-feature
 effects:
   - roll: Power Roll + Agility
-    t1: 7 + A damage
-    t2: 11 + A damage
-    t3: 16 + A damage
+    t1: 7 + **A** damage
+    t2: 11 + **A** damage
+    t3: 16 + **A** damage
   - effect: The target can make a melee free strike against you. If they do, you can
       make a melee free strike against the target.
     name: Effect

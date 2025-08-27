@@ -16,7 +16,8 @@ type: feature/trait/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: Ward of Delightful Consequences
+name: ""
+icon: Ward of Delightful Consequences
 metadata:
   class: elementalist
   feature_type: trait

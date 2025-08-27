@@ -27,8 +27,8 @@ type: feature/ability/shadow/1st-level-feature
 ---
 
 ```ds-ability
-name: Shadowstrike
-cost: 5 Insight
+name: ""
+icon: Shadowstrike (5 Insight)
 flavor: They have no idea what the college taught you.
 keywords:
   - Magic

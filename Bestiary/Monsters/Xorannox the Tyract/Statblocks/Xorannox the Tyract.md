@@ -75,6 +75,7 @@ traits:
           turns.
 abilities:
   - name: Toothful Thrashing
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -89,6 +90,7 @@ abilities:
         t2: 20 damage; slide 3; M < 3 bleeding (EoT)
         t3: 23 damage; vertical slide 3; M < 4 bleeding (EoT)
   - name: Grav Spike
+    icon: ❇️
     keywords:
       - Area
       - Psionic
@@ -103,6 +105,7 @@ abilities:
       - effect: Xorannox shifts up to his speed before or after using this ability.
         name: Effect
   - name: Optical Collusion
+    icon: 👤
     keywords:
       - "-"
     type: Maneuver
@@ -112,6 +115,7 @@ abilities:
       - effect: Xorannox commands all his eyestalks to move up to their speed.
         name: Effect
   - name: Shutout
+    icon: 🔳
     cost: 2 Malice
     keywords:
       - Area
@@ -125,6 +129,7 @@ abilities:
           next turn.
         name: Effect
   - name: Cower!
+    icon: ❗️
     keywords:
       - Psionic
       - Ranged
@@ -136,6 +141,7 @@ abilities:
       - effect: If the target has I < 3 they are frightened (save ends)
         name: Effect
   - name: Disruption Beam
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Psionic
@@ -150,6 +156,7 @@ abilities:
         t2: 17 psychic damage; R < 3 dazed (save ends)
         t3: 20 psychic damage; R < 4 dazed (save ends)
   - name: All Eyes, All Rise
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - "-"
@@ -161,6 +168,7 @@ abilities:
           spaces on the encounter map with full Stamina.
         name: Effect
   - name: Panoptibeam
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

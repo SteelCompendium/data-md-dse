@@ -24,7 +24,8 @@ type: feature/ability/troubadour/8th-level-feature
 ---
 
 ```ds-ability
-name: Radical Fantasia
+name: ""
+icon: Radical Fantasia
 flavor: 𝅘𝅥𝅮♪Viras, my Viras, will you hold their hands as they cryyy-aaaiigh?♪
 keywords:
   - Area

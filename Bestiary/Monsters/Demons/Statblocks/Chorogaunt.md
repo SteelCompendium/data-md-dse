@@ -66,6 +66,7 @@ traits:
           them.
 abilities:
   - name: Agonizing Harmony
+    icon: ❇️
     cost: Signature Ability
     keywords:
       - Area
@@ -81,6 +82,7 @@ abilities:
       - effect: One ally within 10 squares of the chorogaunt shifts up to their speed.
         name: Effect
   - name: Chaotic Entrancing Harmony
+    icon: ❇️
     keywords:
       - Area
     type: Maneuver
@@ -90,6 +92,7 @@ abilities:
       - effect: The chorogaunt slides each target up to 3 squares, ignoring stability.
         name: Effect
   - name: I Thrive on Pain
+    icon: ❗️
     cost: 3 Malice
     keywords:
       - Magic
@@ -102,6 +105,7 @@ abilities:
           deal an extra 3 damage until the end of their next turn.
         name: Effect
   - name: Frightening Tones
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Ranged
@@ -113,6 +117,7 @@ abilities:
           frightened (save ends).
         name: Effect
   - name: Bully the Weak
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Magic
@@ -126,6 +131,7 @@ abilities:
           Director gains Malice equal to the number of heroes in the encounter.
         name: Effect
   - name: Running Cacophony
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Magic

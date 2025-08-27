@@ -56,6 +56,7 @@ traits:
           can add a d3 roll to power rolls they make against each other.
 abilities:
   - name: Verdant Rains
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Green
@@ -73,6 +74,7 @@ abilities:
       - effect: One ally within distance ends one condition on themself.
         name: Effect
   - name: The Chasm Engulfs
+    icon: 🔳
     cost: 4 Malice
     keywords:
       - Area
@@ -91,6 +93,7 @@ abilities:
           encounter. Any enemy in the area has acid weakness 5.
         name: Effect
   - name: Maw of the Abyss
+    icon: ❗️
     keywords:
       - Magic
       - Void

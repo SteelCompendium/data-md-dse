@@ -16,7 +16,8 @@ type: feature/trait/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: Bastion Ward
+name: ""
+icon: Bastion Ward
 metadata:
   class: conduit
   feature_type: trait

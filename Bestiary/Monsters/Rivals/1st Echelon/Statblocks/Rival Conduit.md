@@ -59,6 +59,7 @@ traits:
           roll to power rolls they make against each other.
 abilities:
   - name: Thunder of Heavens
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Magic
@@ -77,6 +78,7 @@ abilities:
           the damage dealt.
         name: Effect
   - name: Imbue with Might
+    icon: 🏹
     cost: 2 Malice
     keywords:
       - Magic

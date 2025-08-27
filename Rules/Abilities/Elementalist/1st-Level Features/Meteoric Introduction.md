@@ -25,7 +25,8 @@ type: feature/ability/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: Meteoric Introduction
+name: ""
+icon: Meteoric Introduction
 flavor: You give your enemy a gentle tap-like an asteroid impact.
 keywords:
   - Earth

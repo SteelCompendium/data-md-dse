@@ -59,6 +59,7 @@ traits:
           roll to power rolls they make against each other.
 abilities:
   - name: Ambuscade
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -75,6 +76,7 @@ abilities:
       - effect: The shadow can teleport up to 6 squares, then can attempt to hide.
         cost: 1 Malice
   - name: Poison the Blade
+    icon: 👤
     keywords:
       - "-"
     type: Maneuver

@@ -24,7 +24,8 @@ type: feature/ability/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: Holy Lash
+name: ""
+icon: Holy Lash
 flavor: A tendril of divine energy shoots forth to draw in your foe.
 keywords:
   - Magic

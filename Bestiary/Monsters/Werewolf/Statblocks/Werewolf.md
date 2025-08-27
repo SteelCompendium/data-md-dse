@@ -78,6 +78,7 @@ traits:
       - effect: The werewolf ignores difficult terrain
 abilities:
   - name: Accursed Bite
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge
@@ -101,6 +102,7 @@ abilities:
           Cure downtime project in \"Draw Steel: Heroes\" to end this effect"
         cost: 2 Malice
   - name: Ripping Claws
+    icon: 🗡
     keywords:
       - Melee
       - Strike
@@ -114,6 +116,7 @@ abilities:
         t2: 11 damage; the target gains 1 rage; M < 2 bleeding (save ends)
         t3: 14 damage; the target gains 3 rage; M < 3 bleeding (save ends)
   - name: Berserker Slash
+    icon: ❇️
     cost: 3 Malice
     keywords:
       - Area
@@ -129,6 +132,7 @@ abilities:
       - effect: The werewolf shifts up to their speed before using this ability
         name: Effect
   - name: Wall Leap
+    icon: 👤
     keywords:
       - "-"
     type: Maneuver
@@ -141,6 +145,7 @@ abilities:
           prone.
         name: Effect
   - name: Facepalm and Head Slam
+    icon: ❗️
     cost: 2 Malice
     keywords:
       - Melee
@@ -154,6 +159,7 @@ abilities:
           ability is resolved.
         name: Effect
   - name: Howl
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -171,6 +177,7 @@ abilities:
           along with the werewolf.
         name: Effect
   - name: Full Wolf
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - "-"
@@ -186,6 +193,7 @@ abilities:
           the potency of Accursed Bite increases by 1.
         name: Effect
   - name: Rampage
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

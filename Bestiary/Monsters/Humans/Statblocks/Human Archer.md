@@ -58,6 +58,7 @@ traits:
       - effect: The archer ignores concealment if it's granted by a supernatural effect.
 abilities:
   - name: Crossbow
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged

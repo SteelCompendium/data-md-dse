@@ -29,8 +29,8 @@ type: feature/ability/elementalist/5th-level-feature
 ---
 
 ```ds-ability
-name: Web of All That's Come Before
-cost: 9 Essence
+name: ""
+icon: Web of All That's Come Before (9 Essence)
 flavor: Threads you've been weaving through your adventures create a vibrant,
   pearlescent web.
 keywords:

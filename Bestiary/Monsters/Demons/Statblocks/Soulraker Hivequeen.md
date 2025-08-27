@@ -66,6 +66,7 @@ traits:
           line of effect to such creatures.
 abilities:
   - name: Stinging Ovipositor
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Magic
@@ -84,6 +85,7 @@ abilities:
           them (see the handmaiden's Implanted Parasite trait).
         name: Effect
   - name: Forced Gestation
+    icon: ❇️
     cost: 3 Malice
     keywords:
       - Area
@@ -96,6 +98,7 @@ abilities:
           handmaiden and make a free strike.
         name: Effect
   - name: For the Queen!
+    icon: ❗️
     cost: 2 Malice
     keywords:
       - Area
@@ -111,6 +114,7 @@ abilities:
       - effect: A soulraker praetorian also appears within distance.
         cost: 2 Malice
   - name: Kicking the Nest
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -123,6 +127,7 @@ abilities:
           spaces within distance before the hivequeen uses this villain action.
         name: Effect
   - name: Buzz Off!
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Area
@@ -137,6 +142,7 @@ abilities:
       - effect: The hivequeen shifts up to her speed.
         name: Effect
   - name: Bomber Wasp Warfare
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

@@ -27,8 +27,8 @@ type: feature/ability/fury/9th-level-feature
 ---
 
 ```ds-ability
-name: Deluge
-cost: 11 Ferocity
+name: ""
+icon: Deluge (11 Ferocity)
 flavor: You summon your primordial storm.
 keywords:
   - Area

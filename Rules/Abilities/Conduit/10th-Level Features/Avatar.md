@@ -16,7 +16,8 @@ type: feature/trait/conduit/10th-level-feature
 ---
 
 ```ds-ability
-name: Avatar
+name: ""
+icon: Avatar
 metadata:
   class: conduit
   feature_type: trait
@@ -39,6 +40,7 @@ effects:
       those prayers and your ward as a respite activity. You can also use a
       maneuver to activate one of your domain effects (see Domain Piety and
       Effects) without needing to pray.
+
 
       Additionally, whenever you take a respite, you can open a portal to rest
       in the presence of your deity and bring along any allies. When you do, you

@@ -60,6 +60,7 @@ traits:
           damage to each wet enemy within 2 squares.
 abilities:
   - name: Hookclaw
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

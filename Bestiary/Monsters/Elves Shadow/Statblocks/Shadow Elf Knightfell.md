@@ -59,6 +59,7 @@ traits:
           the knightfell has concealment, they have damage immunity 3.
 abilities:
   - name: Suffusing Strike
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -73,6 +74,7 @@ abilities:
         t2: 12 corruption damage; R < 2 taunted (EoT)
         t3: 15 corruption damage; R < 3 taunted (EoT)
   - name: Trick of the Eye
+    icon: ❗️
     keywords:
       - Magic
       - Melee

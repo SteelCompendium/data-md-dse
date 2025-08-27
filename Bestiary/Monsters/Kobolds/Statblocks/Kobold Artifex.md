@@ -55,6 +55,7 @@ traits:
           stability 1, has cover, and grants cover to allies.
 abilities:
   - name: Chain Hook
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged
@@ -72,6 +73,7 @@ abilities:
           roll has a double edge.
         name: Effect
   - name: Activate Trap
+    icon: ⭐️
     keywords:
       - Ranged
     type: Maneuver

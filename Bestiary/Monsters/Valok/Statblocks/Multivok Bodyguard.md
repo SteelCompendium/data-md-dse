@@ -67,6 +67,7 @@ traits:
           still grants its additional main action.
 abilities:
   - name: Gatling Bolt Gun
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged
@@ -81,6 +82,7 @@ abilities:
         t2: 18 damage
         t3: 22 damage; A < 4 bleeding (save ends)
   - name: Valiar Axe
+    icon: 🗡
     cost: 3 Malice
     keywords:
       - Melee
@@ -98,6 +100,7 @@ abilities:
           used against the same target in this encounter.
         name: Effect
   - name: Magnetic Pull
+    icon: ❇️
     keywords:
       - Area
     type: Maneuver
@@ -112,6 +115,7 @@ abilities:
           each target who ends this forced movement adjacent to them.
         name: Effect
   - name: Valiar Cloak
+    icon: ❗️
     keywords:
       - Melee
     type: Triggered action

@@ -60,6 +60,7 @@ traits:
           the end of their turn.
 abilities:
   - name: Twystrd
+    icon: 🔳
     cost: Signature Ability
     keywords:
       - Area
@@ -76,6 +77,7 @@ abilities:
           increases by 1.
         name: Effect
   - name: Summon Elemental
+    icon: 🏹
     cost: 2 Malice
     keywords:
       - Ranged
@@ -87,6 +89,7 @@ abilities:
           spaces within distance.
         name: Effect
   - name: Wyrd Warp
+    icon: 🔳
     cost: 2 Malice
     keywords:
       - Area

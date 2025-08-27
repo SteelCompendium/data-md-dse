@@ -24,7 +24,8 @@ type: feature/ability/censor/1st-level-feature
 ---
 
 ```ds-ability
-name: Your Allies Cannot Save You!
+name: ""
+icon: Your Allies Cannot Save You!
 flavor: Your magic strike turns your foe's guilt into a burst of holy power.
 keywords:
   - Melee

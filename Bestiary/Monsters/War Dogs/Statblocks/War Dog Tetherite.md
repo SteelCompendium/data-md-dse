@@ -73,6 +73,7 @@ traits:
           make a free strike. A minion who does so is then reduced to 0
 abilities:
   - name: Banded Dagger
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -87,6 +88,7 @@ abilities:
         t2: 4 damage
         t3: 5 damage
   - name: Fire for Effect
+    icon: 🔳
     cost: 5 Malice
     keywords:
       - Area

@@ -16,7 +16,8 @@ type: feature/trait/troubadour/2nd-level-feature
 ---
 
 ```ds-ability
-name: Appeal to the Muses
+name: ""
+icon: Appeal to the Muses
 metadata:
   class: troubadour
   feature_type: trait
@@ -38,6 +39,7 @@ effects:
       fellows' spirits, appealing to the muses to heighten a battle's drama.
       However, irony is eager to hand your fortune to the villain to achieve the
       same end.
+
 
       Before you roll to gain drama at the start of your turn, you can make your
       appeal (no action required). If you do, your roll gains the following

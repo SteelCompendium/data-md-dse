@@ -28,8 +28,8 @@ type: feature/ability/tactician/6th-level-feature
 ---
 
 ```ds-ability
-name: Panic in Their Lines
-cost: 9 Focus
+name: ""
+icon: Panic in Their Lines (9 Focus)
 flavor: You confuse your foes, causing them to turn on each other.
 keywords:
   - Melee

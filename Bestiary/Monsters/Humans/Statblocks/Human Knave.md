@@ -65,6 +65,7 @@ traits:
       - effect: The knave ignores concealment if it's granted by a supernatural effect.
 abilities:
   - name: Morningstar and Javelin
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Melee

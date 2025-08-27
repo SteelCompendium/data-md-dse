@@ -62,6 +62,7 @@ traits:
           opening exists between Lydixavus and the target.
 abilities:
   - name: Breathsnipe
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged
@@ -76,6 +77,7 @@ abilities:
         t2: 16 cold damage; the target takes a bane on their next strike
         t3: 19 cold damage; the target has a double bane on their next strike
   - name: Ice Lob
+    icon: 🔳
     keywords:
       - Area
       - Magic
@@ -89,6 +91,7 @@ abilities:
         t2: 12 cold damage; M < 2 dazed (save ends)
         t3: 15 cold damage; M < 3 dazed (save ends)
   - name: Parting Gift
+    icon: 👤
     keywords:
       - "-"
     type: Maneuver
@@ -102,6 +105,7 @@ abilities:
           ice mine.
         name: Effect
   - name: Wasn't Aiming For You
+    icon: ❗️
     keywords:
       - "-"
     type: Triggered action

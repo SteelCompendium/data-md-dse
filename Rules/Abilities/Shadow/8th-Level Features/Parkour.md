@@ -16,7 +16,8 @@ type: feature/trait/shadow/8th-level-feature
 ---
 
 ```ds-ability
-name: Parkour
+name: ""
+icon: Parkour
 metadata:
   class: shadow
   feature_type: trait

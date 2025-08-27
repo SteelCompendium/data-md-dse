@@ -67,6 +67,7 @@ traits:
           carnage, keeping their current Stamina.
 abilities:
   - name: Shrapnel Whip
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -84,6 +85,7 @@ abilities:
           strike.
         name: Effect
   - name: Carnage's Cackletongue
+    icon: ❇️
     cost: 4 Malice
     keywords:
       - Area
@@ -97,6 +99,7 @@ abilities:
           cost.
         name: Effect
   - name: Call Up From the Abyss
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Magic
@@ -109,6 +112,7 @@ abilities:
           distance.
         name: Effect
   - name: Edacity
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Area
@@ -121,6 +125,7 @@ abilities:
           prone.
         name: Effect
   - name: Deepest Wounds
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

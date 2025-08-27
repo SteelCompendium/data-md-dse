@@ -60,6 +60,7 @@ traits:
           concealment, they have damage immunity 3.
 abilities:
   - name: Lumina Arrow
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged

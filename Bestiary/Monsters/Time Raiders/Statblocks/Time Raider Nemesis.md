@@ -58,6 +58,7 @@ traits:
           concealment.
 abilities:
   - name: Golden Scythe
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -76,6 +77,7 @@ abilities:
           pull them onto the nemesis's plane.
         name: Effect
   - name: Kinetic Crush
+    icon: 🏹
     cost: 2 Malice
     keywords:
       - Psionic

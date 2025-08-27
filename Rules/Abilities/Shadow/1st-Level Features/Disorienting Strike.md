@@ -27,8 +27,8 @@ type: feature/ability/shadow/1st-level-feature
 ---
 
 ```ds-ability
-name: Disorienting Strike
-cost: 3 Insight
+name: ""
+icon: Disorienting Strike (3 Insight)
 flavor: Your attack leaves them reeling, allowing you to follow up.
 keywords:
   - Melee

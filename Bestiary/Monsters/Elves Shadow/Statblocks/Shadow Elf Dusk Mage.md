@@ -60,6 +60,7 @@ traits:
           dusk mage has concealment, they have damage immunity 3.
 abilities:
   - name: Gloom Bolt
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic

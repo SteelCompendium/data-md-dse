@@ -63,6 +63,7 @@ traits:
           damage, they halve the damage from a tier 1 outcome
 abilities:
   - name: Rotten Smash
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -77,6 +78,7 @@ abilities:
         t2: 14 damage; A < 2 grabbed
         t3: 17 damage; A < 3 grabbed
   - name: Knocking Heads
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - "-"

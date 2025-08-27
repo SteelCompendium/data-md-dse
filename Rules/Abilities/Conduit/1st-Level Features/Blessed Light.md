@@ -25,7 +25,8 @@ type: feature/ability/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: Blessed Light
+name: ""
+icon: Blessed Light
 flavor: Burning radiance falls upon your foe, transferring some of their energy
   to a nearby ally.
 keywords:

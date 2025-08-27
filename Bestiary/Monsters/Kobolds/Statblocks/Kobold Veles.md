@@ -56,6 +56,7 @@ traits:
           stability 1, has cover, and grants cover to allies.
 abilities:
   - name: Pilium
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Melee

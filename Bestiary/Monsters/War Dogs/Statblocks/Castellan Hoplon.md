@@ -65,6 +65,7 @@ traits:
           damage on strikes, all until the end of the encounter.
 abilities:
   - name: Inspiring Strike
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -82,6 +83,7 @@ abilities:
           then can take the Defend main action or make a free strike.
         name: Effect
   - name: Summon the Onyx Tower
+    icon: 🏹
     cost: 5 Malice
     keywords:
       - Ranged
@@ -99,6 +101,7 @@ abilities:
           once per encounter.
         name: Effect
   - name: Shield Warden
+    icon: ❇️
     cost: 2 Malice
     keywords:
       - Area
@@ -114,6 +117,7 @@ abilities:
           him as a target takes a bane.
         name: Effect
   - name: Timely Intervention
+    icon: ❗️
     keywords:
       - Magic
     type: Triggered action

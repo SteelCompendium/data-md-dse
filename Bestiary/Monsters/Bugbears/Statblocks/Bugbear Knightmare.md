@@ -64,6 +64,7 @@ traits:
           rolled as a d6 or a d3 for each knightmare adjacent to them.
 abilities:
   - name: Corrosive Blade
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Magic

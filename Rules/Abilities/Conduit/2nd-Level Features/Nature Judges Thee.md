@@ -27,8 +27,8 @@ type: feature/ability/conduit/2nd-level-feature
 ---
 
 ```ds-ability
-name: Nature Judges Thee
-cost: 5 Piety
+name: ""
+icon: Nature Judges Thee (5 Piety)
 flavor: Mystical thorned vines appear at your bidding and bind your foes.
 keywords:
   - Area

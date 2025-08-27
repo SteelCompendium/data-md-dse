@@ -58,6 +58,7 @@ traits:
           effect.
 abilities:
   - name: Rapier and Dagger
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -75,6 +76,7 @@ abilities:
           damage.
         cost: 2 Malice
   - name: Dagger Storm
+    icon: 🌀
     cost: 5 Malice
     keywords:
       - "-"

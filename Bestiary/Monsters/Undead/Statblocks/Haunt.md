@@ -59,6 +59,7 @@ traits:
           damage from being force moved into objects.
 abilities:
   - name: Lash Out
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -77,6 +78,7 @@ abilities:
           2 squares.
         name: Effect
   - name: Crushing Despair
+    icon: ❇️
     cost: 3 Malice
     keywords:
       - Area

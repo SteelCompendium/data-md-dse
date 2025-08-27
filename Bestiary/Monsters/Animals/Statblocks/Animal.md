@@ -53,6 +53,7 @@ traits:
           on their abilities or turn a double bane into a bane.
 abilities:
   - name: Natural Weapon
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -69,6 +70,7 @@ abilities:
       - effect: The animal shifts up to 2 squares between strikes.
         name: Effect
   - name: Rush
+    icon: 👤
     keywords:
       - "-"
     type: Maneuver

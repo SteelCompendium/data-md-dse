@@ -23,7 +23,8 @@ type: feature/ability/talent/1st-level-feature
 ---
 
 ```ds-ability
-name: Repel
+name: ""
+icon: Repel
 flavor: They aren't going anywhere, but you might!
 keywords:
   - Psionic

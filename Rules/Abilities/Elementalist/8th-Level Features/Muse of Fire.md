@@ -28,8 +28,8 @@ type: feature/ability/elementalist/8th-level-feature
 ---
 
 ```ds-ability
-name: Muse of Fire
-cost: 11 Essence
+name: ""
+icon: Muse of Fire (11 Essence)
 flavor: The fire burns hot enough to sear the face of any god watching.
 keywords:
   - Area
@@ -68,8 +68,8 @@ metadata:
   type: feature/ability/elementalist/8th-level-feature
 effects:
   - roll: Power Roll + Reason
-    t1: "7 fire damage; the Director loses 2 Malice (see [Draw Steel:
-      Monsters](https://mcdm.gg/DS-Monsters))"
+    t1: "7 fire damage; the Director loses 2 Malice (see *[Draw Steel:
+      Monsters](https://mcdm.gg/DS-Monsters)*)"
     t2: 10 fire damage; the Director loses 3 Malice
     t3: 15 fire damage; the Director loses 4 Malice
   - effect: The Director's Malice can become negative as a result of this ability.

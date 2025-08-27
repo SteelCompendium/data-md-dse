@@ -55,6 +55,7 @@ traits:
       - effect: The underboss doesn't provoke opportunity attacks by moving.
 abilities:
   - name: Swordplay
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -71,6 +72,7 @@ abilities:
       - effect: One ally adjacent to the target can make a free strike against them.
         name: Effect
   - name: Get Reckless!
+    icon: ❇️
     keywords:
       - Area
     type: Maneuver

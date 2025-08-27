@@ -27,8 +27,8 @@ type: feature/ability/fury/1st-level-feature
 ---
 
 ```ds-ability
-name: Back!
-cost: 3 Ferocity
+name: ""
+icon: Back! (3 Ferocity)
 flavor: You hew about you with your mighty weapon, hurling enemies backward.
 keywords:
   - Area

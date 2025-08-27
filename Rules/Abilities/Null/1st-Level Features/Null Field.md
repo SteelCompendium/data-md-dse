@@ -23,7 +23,8 @@ type: feature/ability/null/1st-level-feature
 ---
 
 ```ds-ability
-name: Null Field
+name: ""
+icon: Null Field
 flavor: You project an aura that dampens the power of your foes.
 keywords:
   - Area

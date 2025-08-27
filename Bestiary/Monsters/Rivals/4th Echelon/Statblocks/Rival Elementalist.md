@@ -56,6 +56,7 @@ traits:
           can add a d3 roll to power rolls they make against each other.
 abilities:
   - name: Viridescent Storm
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Green
@@ -73,6 +74,7 @@ abilities:
       - effect: One ally within distance ends all conditions on themself.
         name: Effect
   - name: The World Consumes
+    icon: 🔳
     cost: 5 Malice
     keywords:
       - Area
@@ -89,6 +91,7 @@ abilities:
           restrained (save ends).
         name: Effect
   - name: Breach of Nihility
+    icon: ❗️
     keywords:
       - Magic
       - Void

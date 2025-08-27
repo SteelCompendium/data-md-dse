@@ -56,6 +56,7 @@ traits:
           on their abilities or turn a double bane into a bane.
 abilities:
   - name: Natural Weapon
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -70,6 +71,7 @@ abilities:
         t2: 10 damage; push 1
         t3: 13 damage; push 2
   - name: Trundle
+    icon: 👤
     keywords:
       - "-"
     type: Maneuver
@@ -81,6 +83,7 @@ abilities:
           movement.
         name: Effect
   - name: Animal Rally
+    icon: ❗️
     keywords:
       - "-"
     type: Triggered action

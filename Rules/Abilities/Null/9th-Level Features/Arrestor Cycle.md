@@ -27,8 +27,8 @@ type: feature/ability/null/9th-level-feature
 ---
 
 ```ds-ability
-name: Arrestor Cycle
-cost: 11 Discipline
+name: ""
+icon: Arrestor Cycle (11 Discipline)
 flavor: You trap your foe in a looping cycle of time, where they relive the last
   few seconds over and over again.
 keywords:

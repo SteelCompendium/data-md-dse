@@ -55,6 +55,7 @@ traits:
           starts their turn adjacent to a brambleguard takes 4 damage
 abilities:
   - name: Wall of Roses
+    icon: 🔳
     cost: Signature Ability
     keywords:
       - Area
@@ -69,6 +70,7 @@ abilities:
           keyword to their weapon abilities until the end of their turn.
         name: Effect
   - name: Whip Frenzy
+    icon: ❇️
     keywords:
       - Area
       - Weapon

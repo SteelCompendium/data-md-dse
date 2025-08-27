@@ -57,6 +57,7 @@ traits:
           squares toward the source of the damage.
 abilities:
   - name: Wild Slam
+    icon: ❇️
     cost: Signature Ability
     keywords:
       - Area

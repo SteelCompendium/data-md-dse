@@ -27,8 +27,8 @@ type: feature/ability/talent/9th-level-feature
 ---
 
 ```ds-ability
-name: Fulcrum
-cost: 11 Clarity
+name: ""
+icon: Fulcrum (11 Clarity)
 flavor: You precisely manipulate the creatures around you.
 keywords:
   - Area

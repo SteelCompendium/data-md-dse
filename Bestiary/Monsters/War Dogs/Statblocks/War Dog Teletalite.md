@@ -58,6 +58,7 @@ traits:
           explodes, dealing 1d6 damage to each adjacent enemy and object.
 abilities:
   - name: Corrupted Ash Daggers
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Melee
@@ -78,6 +79,7 @@ abilities:
       - effect: The teletalite teleports the target 3 squares before sliding them.
         cost: 1 Malice
   - name: Posthumous Promotion
+    icon: 🏹
     keywords:
       - Magic
       - Ranged
@@ -88,6 +90,7 @@ abilities:
       - effect: If the target has a loyalty collar, they are reduced to 0 Stamina.
         name: Effect
   - name: Corrupted Ash Teleport
+    icon: 👤
     cost: 1 Malice
     keywords:
       - Magic

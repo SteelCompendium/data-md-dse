@@ -61,6 +61,7 @@ traits:
           Stamina, the warleader is reduced to 1 Stamina instead.
 abilities:
   - name: Go.
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged
@@ -75,6 +76,7 @@ abilities:
       - effect: The warleader targets one ally and a minion squad.
         cost: 3 Malice
   - name: Mace Lariat
+    icon: 🗡
     keywords:
       - Melee
       - Strike
@@ -88,6 +90,7 @@ abilities:
         t2: 10 damage; push 3; M < 2 dazed (save ends)
         t3: 13 damage; push 5; M < 3 dazed (save ends)
   - name: Lockdown
+    icon: 🏹
     cost: 3 Malice
     keywords:
       - Ranged
@@ -99,6 +102,7 @@ abilities:
           gains an edge.
         name: Effect
   - name: Courtesy Call
+    icon: ❗️
     keywords:
       - Ranged
     type: Triggered action
@@ -110,6 +114,7 @@ abilities:
           the encounter.
         name: Effect
   - name: Close In
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - \\ Area\\
@@ -124,6 +129,7 @@ abilities:
         t2: Frightened of the warleader (EoT)
         t3: No effect
   - name: Familial Reinforcements
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Ranged
@@ -135,6 +141,7 @@ abilities:
           unoccupied spaces within distance.
         name: Effect
   - name: I'll Do This Myself
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - "-"

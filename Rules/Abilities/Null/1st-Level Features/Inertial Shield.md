@@ -22,7 +22,8 @@ type: feature/ability/null/1st-level-feature
 ---
 
 ```ds-ability
-name: Inertial Shield
+name: ""
+icon: Inertial Shield
 flavor: You intuit the course of an incoming attack, reducing its effects.
 keywords:
   - Psionic

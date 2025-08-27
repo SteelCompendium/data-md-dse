@@ -57,6 +57,7 @@ traits:
           against them, that enemy takes 5 fire damage.
 abilities:
   - name: Flaming Punch
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -75,6 +76,7 @@ abilities:
           round.
         name: Effect
   - name: Caldera
+    icon: ❇️
     cost: 5 Malice
     keywords:
       - Area
@@ -92,6 +94,7 @@ abilities:
           their turn there takes 3 fire damage.
         name: Effect
   - name: Blazing Leap
+    icon: 👤
     keywords:
       - "-"
     type: Maneuver
@@ -102,6 +105,7 @@ abilities:
           they land takes 5 fire damage.
         name: Effect
   - name: Heat and Pressure
+    icon: ❗️
     keywords:
       - Melee
     type: Free triggered action
@@ -117,6 +121,7 @@ abilities:
         t2: Weakened (EoT)
         t3: No effect
   - name: Guardian Block
+    icon: ❗️
     keywords:
       - Melee
     type: Triggered action

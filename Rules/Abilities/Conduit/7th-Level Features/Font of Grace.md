@@ -16,7 +16,8 @@ type: feature/trait/conduit/7th-level-feature
 ---
 
 ```ds-ability
-name: Font of Grace
+name: ""
+icon: Font of Grace
 metadata:
   class: conduit
   feature_type: trait

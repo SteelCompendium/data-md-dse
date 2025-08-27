@@ -63,6 +63,7 @@ traits:
           fire damage while at 0 Stamina
 abilities:
   - name: Savoring Bite
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -79,6 +80,7 @@ abilities:
       - effect: The butcher regains Stamina equal to the damage dealt.
         cost: 1 Malice
   - name: Rotten Scraps
+    icon: 🔳
     keywords:
       - Area
       - Ranged
@@ -93,6 +95,7 @@ abilities:
       - effect: Each troll in the area ignores the damage and instead regains 3 Stamina.
         name: Effect
   - name: Gourmet Flesh
+    icon: 👤
     cost: 2 Malice
     keywords:
       - "-"
@@ -106,6 +109,7 @@ abilities:
           damage and frightened."
         name: Effect
   - name: Acquired Taste
+    icon: ❗️
     keywords:
       - Melee
     type: Triggered action

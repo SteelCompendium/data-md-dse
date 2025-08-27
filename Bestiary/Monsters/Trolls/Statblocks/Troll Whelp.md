@@ -60,6 +60,7 @@ traits:
           troll limbjumbles with 4 Stamina.
 abilities:
   - name: Jaws and Claws
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

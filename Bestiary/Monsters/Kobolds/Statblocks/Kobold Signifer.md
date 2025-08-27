@@ -63,6 +63,7 @@ traits:
           block with the signifer stat block.
 abilities:
   - name: Signum
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -82,6 +83,7 @@ abilities:
       - effect: One additional ally can shift for each 2 Malice spent
         cost: 2+ Malice
   - name: Glory to the Legion
+    icon: ❇️
     cost: 5 Malice
     keywords:
       - Area

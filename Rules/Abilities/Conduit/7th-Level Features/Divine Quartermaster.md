@@ -16,7 +16,8 @@ type: feature/trait/conduit/7th-level-feature
 ---
 
 ```ds-ability
-name: Divine Quartermaster
+name: ""
+icon: Divine Quartermaster
 metadata:
   class: conduit
   feature_type: trait

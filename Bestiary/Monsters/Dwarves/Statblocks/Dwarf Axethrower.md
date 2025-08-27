@@ -52,6 +52,7 @@ presence: 0
 traits: []
 abilities:
   - name: Whistling Axes
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Melee

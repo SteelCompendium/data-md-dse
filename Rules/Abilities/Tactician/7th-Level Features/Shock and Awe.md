@@ -16,7 +16,8 @@ type: feature/trait/tactician/7th-level-feature
 ---
 
 ```ds-ability
-name: Shock and Awe
+name: ""
+icon: Shock and Awe
 metadata:
   class: tactician
   feature_type: trait

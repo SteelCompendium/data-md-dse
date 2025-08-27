@@ -25,7 +25,8 @@ type: feature/ability/troubadour/1st-level-feature
 ---
 
 ```ds-ability
-name: Cutting Sarcasm
+name: ""
+icon: Cutting Sarcasm
 flavor: There you are, radiating your usual charisma.
 keywords:
   - Magic

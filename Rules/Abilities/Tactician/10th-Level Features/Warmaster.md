@@ -16,7 +16,8 @@ type: feature/trait/tactician/10th-level-feature
 ---
 
 ```ds-ability
-name: Warmaster
+name: ""
+icon: Warmaster
 metadata:
   class: tactician
   feature_type: trait
@@ -38,6 +39,7 @@ effects:
       Whenever you or any ally makes an ability roll against a target marked by
       you, the character making the roll can roll three dice and choose which
       two to use.
+
 
       Additionally, whenever an ally uses a heroic ability that targets one or
       more creatures marked by you, they spend 2 fewer of their Heroic Resource

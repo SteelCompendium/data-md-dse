@@ -61,6 +61,7 @@ traits:
           a bane on their abilities or turn a double bane into a bane.
 abilities:
   - name: Flurry
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -78,6 +79,7 @@ abilities:
           deals damage only at the Director's determination.
         name: Effect
   - name: Impede
+    icon: ❇️
     keywords:
       - Area
     type: Maneuver

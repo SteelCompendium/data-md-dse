@@ -58,6 +58,7 @@ traits:
           they lose this immunity until the end of the round.
 abilities:
   - name: Explosion
+    icon: 🔳
     cost: Signature Ability
     keywords:
       - Psionic

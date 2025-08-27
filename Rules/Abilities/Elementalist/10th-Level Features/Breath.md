@@ -16,7 +16,8 @@ type: feature/trait/elementalist/10th-level-feature
 ---
 
 ```ds-ability
-name: Breath
+name: ""
+icon: Breath
 metadata:
   class: elementalist
   feature_type: trait
@@ -38,6 +39,7 @@ effects:
       you gain breath equal to the XP you gain. You can spend any number of
       breath to gain essence (no action required). When you do, 1 breath becomes
       3 essence.
+
 
       Breath remains until you convert it to essence.
 ```

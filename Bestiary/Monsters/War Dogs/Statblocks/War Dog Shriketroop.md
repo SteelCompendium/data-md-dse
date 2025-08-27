@@ -58,6 +58,7 @@ traits:
           explodes, dealing 2d6 damage to each adjacent enemy and object.
 abilities:
   - name: Canis Shrikegun
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged

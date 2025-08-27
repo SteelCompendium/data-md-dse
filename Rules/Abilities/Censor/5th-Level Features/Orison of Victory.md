@@ -25,8 +25,8 @@ type: feature/ability/censor/5th-level-feature
 ---
 
 ```ds-ability
-name: Orison of Victory
-cost: 9 Wrath
+name: ""
+icon: Orison of Victory (9 Wrath)
 flavor: You channel your god's will to overcome hardship and inflict pain.
 keywords:
   - Area

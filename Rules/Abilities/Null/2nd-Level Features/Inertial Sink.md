@@ -16,7 +16,8 @@ type: feature/trait/null/2nd-level-feature
 ---
 
 ```ds-ability
-name: Inertial Sink
+name: ""
+icon: Inertial Sink
 metadata:
   class: "null"
   feature_type: trait
@@ -38,6 +39,7 @@ effects:
       interacting with creatures and objects, such as for determining whether
       you can lift an object, whether you are affected by forced movement, and
       so forth. This has no effect on whether you can be grabbed.
+
 
       Additionally, when you fall, you reduce the effective height of the fall
       by 5 squares in addition to any other reductions. Whenever you take damage

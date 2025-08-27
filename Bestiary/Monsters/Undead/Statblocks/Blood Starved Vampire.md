@@ -61,6 +61,7 @@ traits:
           against a bleeding creature on their turn if they are able to.
 abilities:
   - name: Feeding Frenzy
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

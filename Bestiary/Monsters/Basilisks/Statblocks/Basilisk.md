@@ -57,6 +57,7 @@ traits:
           enemies.
 abilities:
   - name: Noxious Bite
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -74,6 +75,7 @@ abilities:
           dealt poison damage to.
         name: Effect
   - name: Petrifying Eye Beams
+    icon: 🔳
     keywords:
       - Area
       - Magic
@@ -97,6 +99,7 @@ abilities:
           and ending this effect.
         name: Effect
   - name: Poison Fumes
+    icon: 🔳
     cost: 5 Malice
     keywords:
       - Area
@@ -110,6 +113,7 @@ abilities:
         t2: 6 poison damage; M < 1 weakened and slowed (save ends)
         t3: 9 poison damage; M < 2 weakened and slowed (save ends)
   - name: Lash Out
+    icon: ❗️
     keywords:
       - Area
     type: Triggered action

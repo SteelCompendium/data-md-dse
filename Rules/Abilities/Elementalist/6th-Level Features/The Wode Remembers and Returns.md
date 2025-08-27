@@ -29,8 +29,8 @@ type: feature/ability/elementalist/6th-level-feature
 ---
 
 ```ds-ability
-name: The Wode Remembers and Returns
-cost: 9 Essence
+name: ""
+icon: The Wode Remembers and Returns (9 Essence)
 flavor: You create a terrarium that spans from canopy above to underbrush below.
 keywords:
   - Area

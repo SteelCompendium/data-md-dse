@@ -60,6 +60,7 @@ traits:
           power rolls they make against each other.
 abilities:
   - name: Inertial Flow
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -74,6 +75,7 @@ abilities:
         t2: 17 damage; the null shifts up to 4 squares; A < 3 13 damage
         t3: 21 damage; the null shifts up to 5 squares; A < 4 17 damage
   - name: Stun
+    icon: 🗡
     cost: 3 Malice
     keywords:
       - Melee

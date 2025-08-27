@@ -56,6 +56,7 @@ traits:
           make a melee free strike.
 abilities:
   - name: Three-Tail Flail
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -73,6 +74,7 @@ abilities:
           Flail against another target.
         name: Effect
   - name: Bonesplitter's Cackletongue
+    icon: ❇️
     cost: 4 Malice
     keywords:
       - Area

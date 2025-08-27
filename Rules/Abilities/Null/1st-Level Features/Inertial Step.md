@@ -25,7 +25,8 @@ type: feature/ability/null/1st-level-feature
 ---
 
 ```ds-ability
-name: Inertial Step
+name: ""
+icon: Inertial Step
 flavor: You flit about the battlefield and take an opportunistic strike.
 keywords:
   - Melee

@@ -27,8 +27,8 @@ type: feature/ability/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: No More Than a Breeze
-cost: 5 Essence
+name: ""
+icon: No More Than a Breeze (5 Essence)
 flavor: The material substance of a creature shreds away at your command.
 keywords:
   - Magic

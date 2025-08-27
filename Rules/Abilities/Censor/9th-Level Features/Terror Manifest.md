@@ -27,8 +27,8 @@ type: feature/ability/censor/9th-level-feature
 ---
 
 ```ds-ability
-name: Terror Manifest
-cost: 11 Wrath
+name: ""
+icon: Terror Manifest (11 Wrath)
 flavor: '"I know what you fear."'
 keywords:
   - Magic

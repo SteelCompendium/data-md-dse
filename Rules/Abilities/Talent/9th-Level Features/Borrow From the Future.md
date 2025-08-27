@@ -27,8 +27,8 @@ type: feature/ability/talent/9th-level-feature
 ---
 
 ```ds-ability
-name: Borrow From the Future
-cost: 11 Clarity
+name: ""
+icon: Borrow From the Future (11 Clarity)
 flavor: You lean on future heroism to assist you in the now.
 keywords:
   - Area

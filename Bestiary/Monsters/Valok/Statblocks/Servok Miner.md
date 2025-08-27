@@ -72,6 +72,7 @@ traits:
           grants its additional main action.
 abilities:
   - name: Drill Press
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -89,6 +90,7 @@ abilities:
           1-square-deep hole.
         name: Effect
   - name: Unload Rocks
+    icon: 🔳
     cost: 3 Malice
     keywords:
       - Area
@@ -104,6 +106,7 @@ abilities:
         t3: 7 damage
       - effect: The area is difficult terrain
   - name: Break Ground
+    icon: 🔳
     cost: 5 Malice
     keywords:
       - Area
@@ -121,6 +124,7 @@ abilities:
         t3: 7 damage; the target can shift into the nearest unoccupied space outside the
           fissure
   - name: Miner Inconvenience
+    icon: ❗️
     cost: 2 Malice
     keywords:
       - Area

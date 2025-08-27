@@ -16,7 +16,8 @@ type: feature/trait/censor/4th-level-feature
 ---
 
 ```ds-ability
-name: Wode Road
+name: ""
+icon: Wode Road
 metadata:
   class: censor
   feature_type: trait

@@ -58,6 +58,7 @@ traits:
           M < 1 is slowed (save ends).
 abilities:
   - name: Prehensile Tongue
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -77,6 +78,7 @@ abilities:
       - effect: The tonguesnapper targets two additional creatures or objects.
         cost: 3 Malice
   - name: Petrifying Eye Beams
+    icon: 🔳
     keywords:
       - Area
       - Magic
@@ -100,6 +102,7 @@ abilities:
           and ending this effect.
         name: Effect
   - name: Wink
+    icon: ⚔️
     cost: 2 Malice
     keywords:
       - Magic
@@ -118,6 +121,7 @@ abilities:
           can't gain or use surges.
         name: Effect
   - name: Neurotoxin Splash
+    icon: ❗️
     keywords:
       - Area
     type: Triggered action

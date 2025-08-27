@@ -58,6 +58,7 @@ traits:
           against them, that enemy takes 2 poison damage.
 abilities:
   - name: Refulgent Beams
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -75,6 +76,7 @@ abilities:
           any strike made against an illuminated target gains an edge.
         name: Effect
   - name: Noxious Bubble
+    icon: 🔳
     cost: 2 Malice
     keywords:
       - Area

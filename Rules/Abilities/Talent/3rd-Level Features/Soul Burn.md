@@ -29,8 +29,8 @@ type: feature/ability/talent/3rd-level-feature
 ---
 
 ```ds-ability
-name: Soul Burn
-cost: 7 Clarity
+name: ""
+icon: Soul Burn (7 Clarity)
 flavor: You blast their soul out of their body, leaving it to helplessly float
   back to a weakened husk.
 keywords:

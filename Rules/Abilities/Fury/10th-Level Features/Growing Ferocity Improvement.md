@@ -16,7 +16,8 @@ type: feature/trait/fury/10th-level-feature
 ---
 
 ```ds-ability
-name: Growing Ferocity Improvement
+name: ""
+icon: Growing Ferocity Improvement
 metadata:
   class: fury
   feature_type: trait

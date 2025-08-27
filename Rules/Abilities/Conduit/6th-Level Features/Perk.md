@@ -16,7 +16,8 @@ type: feature/trait/conduit/6th-level-feature
 ---
 
 ```ds-ability
-name: Perk
+name: ""
+icon: Perk
 metadata:
   class: conduit
   feature_type: trait

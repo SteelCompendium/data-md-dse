@@ -64,6 +64,7 @@ traits:
           on a power roll.
 abilities:
   - name: Houndgun and Houndblade
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Melee
@@ -84,6 +85,7 @@ abilities:
           make a free strike against the target.
         cost: 2 Malice
   - name: Focus Fire
+    icon: 🏹
     keywords:
       - Ranged
     type: Maneuver
@@ -94,6 +96,7 @@ abilities:
           damage taken by the target has no effect
         name: Effect
   - name: Artillery Enfilade
+    icon: ❗️
     cost: 2 Malice
     keywords:
       - Area
@@ -111,6 +114,7 @@ abilities:
       - effect: The area is difficult terrain until the start of the next round
         name: Effect
   - name: Fog of War
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - "-"
@@ -123,6 +127,7 @@ abilities:
           double edge on their next power roll.
         name: Effect
   - name: Send in the Second Wave
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Ranged
@@ -134,6 +139,7 @@ abilities:
           shriketrooper appears in an unoccupied space within distance.
         name: Effect
   - name: The Silver Wolf's Final Stratagem
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

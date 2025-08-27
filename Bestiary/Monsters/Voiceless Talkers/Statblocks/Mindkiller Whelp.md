@@ -60,6 +60,7 @@ traits:
           space.
 abilities:
   - name: Eager Claws
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -74,6 +75,7 @@ abilities:
         t2: 5 damage; the target takes a bane on their next strike
         t3: 7 damage; the target takes a bane on their next strike
   - name: Feast
+    icon: ❗️
     keywords:
       - Psionic
     type: Triggered action

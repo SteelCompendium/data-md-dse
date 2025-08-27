@@ -58,6 +58,7 @@ traits:
           lose this immunity until the end of the round.
 abilities:
   - name: Toxic Vapors
+    icon: 🔳
     cost: Signature Ability
     keywords:
       - Area

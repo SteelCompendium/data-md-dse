@@ -62,6 +62,7 @@ traits:
           their turn within 2 squares of the wind sprinter can't shift.
 abilities:
   - name: Cold Axe
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge
@@ -79,6 +80,7 @@ abilities:
       - effect: A target who is already bleeding takes an extra 1d6 cold damage.
         name: Effect
   - name: Blizzard Surge
+    icon: 👤
     cost: 5 Malice
     keywords:
       - "-"
@@ -91,6 +93,7 @@ abilities:
           wind sprinter makes one power roll against all targets.
         name: Effect
   - name: Ice Dance
+    icon: 🗡
     keywords:
       - Melee
     type: Maneuver
@@ -102,6 +105,7 @@ abilities:
           squares and make a free strike.
         name: Effect
   - name: Begone, Smallfolk!
+    icon: ❗️
     keywords:
       - "-"
     type: Triggered action

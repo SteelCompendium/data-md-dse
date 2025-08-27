@@ -53,6 +53,7 @@ presence: -2
 traits: []
 abilities:
   - name: Claws
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

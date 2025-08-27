@@ -16,7 +16,8 @@ type: feature/trait/null/5th-level-feature
 ---
 
 ```ds-ability
-name: Instant Action
+name: ""
+icon: Instant Action
 metadata:
   class: "null"
   feature_type: trait

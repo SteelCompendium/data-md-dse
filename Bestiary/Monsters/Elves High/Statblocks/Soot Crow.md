@@ -53,6 +53,7 @@ presence: 1
 traits: []
 abilities:
   - name: Heckle
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

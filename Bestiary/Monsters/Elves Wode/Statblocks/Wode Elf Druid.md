@@ -58,6 +58,7 @@ traits:
           concealment have a double bane instead.
 abilities:
   - name: Entangling Vines
+    icon: 🔳
     cost: Signature Ability
     keywords:
       - Area
@@ -76,6 +77,7 @@ abilities:
       - effect: The size of the cube and the potency both increase by 1.
         cost: 3 Malice
   - name: The Wode Protects Us
+    icon: 🏹
     cost: 3 Malice
     keywords:
       - Magic

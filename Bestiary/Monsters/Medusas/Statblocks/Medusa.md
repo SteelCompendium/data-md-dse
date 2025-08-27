@@ -69,6 +69,7 @@ traits:
       - effect: The medusa can't be flanked
 abilities:
   - name: Snake Bites
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -83,6 +84,7 @@ abilities:
         t2: 16 damage; M < 3 slowed (save ends)
         t3: 19 damage; M < 4 slowed (save ends)
   - name: Damning Gaze
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -99,6 +101,7 @@ abilities:
       - effect: The medusa targets two additional creatures or objects.
         cost: 3 Malice
   - name: Petrify
+    icon: ❇️
     cost: 5 Malice
     keywords:
       - Area
@@ -117,6 +120,7 @@ abilities:
           restrained this way is petrified
         name: Effect
   - name: Nimble Escape
+    icon: 👤
     keywords:
       - "-"
     type: Maneuver
@@ -127,6 +131,7 @@ abilities:
           observed.
         name: Effect
   - name: Venomous Spit
+    icon: ❗️
     cost: 2 Malice
     keywords:
       - Melee
@@ -140,6 +145,7 @@ abilities:
         t2: 18 acid damage
         t3: 22 acid damage
   - name: Mass Petrify
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Magic
@@ -152,6 +158,7 @@ abilities:
           A target who doesn't have cover increases the potency by 1.
         name: Effect
   - name: Serpent Wings
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - "-"
@@ -164,6 +171,7 @@ abilities:
           they can use Snake Bites and Damning Gaze once each.
         name: Effect
   - name: Stone Puppets
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

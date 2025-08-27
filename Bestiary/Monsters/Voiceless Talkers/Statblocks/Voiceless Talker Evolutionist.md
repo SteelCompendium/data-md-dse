@@ -63,6 +63,7 @@ traits:
           minion in the encounter.
 abilities:
   - name: Psionic Intrusion
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Melee
@@ -78,6 +79,7 @@ abilities:
         t2: 16 psychic damage; R < 3 slowed (save ends)
         t3: 19 psychic damage; R < 4 slowed (save ends)
   - name: Carpe Quadratum
+    icon: 🏹
     keywords:
       - Psionic
       - Ranged
@@ -88,6 +90,7 @@ abilities:
       - effect: The evolutionist teleports to swap places with the target.
         name: Effect
   - name: Adaptability
+    icon: ❗️
     keywords:
       - Psionic
     type: Triggered action
@@ -99,6 +102,7 @@ abilities:
           5 to the triggering damage type.
         name: Effect
   - name: Show Me Who You Are
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -114,6 +118,7 @@ abilities:
         t2: The target makes a free strike against the nearest enemy within distance.
         t3: Frightened (save ends)
   - name: Release the Thralls
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Psionic
@@ -127,6 +132,7 @@ abilities:
           monster type but must share the same name.
         name: Effect
   - name: Brainstorm
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

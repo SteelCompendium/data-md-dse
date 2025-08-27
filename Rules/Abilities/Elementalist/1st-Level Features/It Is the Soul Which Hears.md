@@ -16,7 +16,8 @@ type: feature/trait/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: It Is the Soul Which Hears
+name: ""
+icon: It Is the Soul Which Hears
 metadata:
   class: elementalist
   feature_type: trait
@@ -39,6 +40,7 @@ effects:
       with these creatures doesn't make them inherently more intelligent, but
       you can use Reason instead of Presence while making tests to influence
       them.
+
 
       Additionally, you can touch a living plant that is not a plant creature to
       communicate with it telepathically. You can use words to communicate with

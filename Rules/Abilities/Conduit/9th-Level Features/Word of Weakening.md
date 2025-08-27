@@ -27,8 +27,8 @@ type: feature/ability/conduit/9th-level-feature
 ---
 
 ```ds-ability
-name: Word of Weakening
-cost: 11 Piety
+name: ""
+icon: Word of Weakening (11 Piety)
 flavor: You utter a divine word that makes a foe brittle.
 keywords:
   - Magic

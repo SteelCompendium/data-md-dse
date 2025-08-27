@@ -59,6 +59,7 @@ traits:
           the moondancer has concealment, they have damage immunity 3.
 abilities:
   - name: Crescent Sweep
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge
@@ -77,6 +78,7 @@ abilities:
           attacks from the target.
         name: Effect
   - name: Dissolve
+    icon: ❗️
     keywords:
       - Magic
     type: Triggered action

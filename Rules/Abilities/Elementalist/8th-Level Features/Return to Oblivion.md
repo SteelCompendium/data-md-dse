@@ -28,8 +28,8 @@ type: feature/ability/elementalist/8th-level-feature
 ---
 
 ```ds-ability
-name: Return to Oblivion
-cost: 11 Essence
+name: ""
+icon: Return to Oblivion (11 Essence)
 flavor: You create a tear in reality that could consume everything.
 keywords:
   - Area

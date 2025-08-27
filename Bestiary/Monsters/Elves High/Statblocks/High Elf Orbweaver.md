@@ -58,6 +58,7 @@ traits:
           at the end of their turn.
 abilities:
   - name: Awash
+    icon: 🔳
     cost: Signature Ability
     keywords:
       - Area
@@ -71,6 +72,7 @@ abilities:
         t2: 6 cold damage; M < 1 push 5 or prone
         t3: 9 cold damage; M < 2 slide 5 or prone
   - name: Aetherweb
+    icon: 🏹
     keywords:
       - Magic
       - Ranged

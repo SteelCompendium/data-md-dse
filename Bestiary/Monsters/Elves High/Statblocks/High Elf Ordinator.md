@@ -59,6 +59,7 @@ traits:
           instead end at the end of the ordinator's turn
 abilities:
   - name: Lightning Rod
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -76,6 +77,7 @@ abilities:
           encounter gains an edge on ability rolls against the target.
         name: Effect
   - name: Elemental Uproar
+    icon: ❇️
     keywords:
       - Area
       - Magic
@@ -87,6 +89,7 @@ abilities:
           mote targets can, instead, use their Spark of Life trait.
         name: Effect
   - name: Summon Elemental
+    icon: 🏹
     cost: 2 Malice
     keywords:
       - Ranged
@@ -101,6 +104,7 @@ abilities:
           brambleguard into an unoccupied space within distance.
         cost: 3 Malice
   - name: Enough!
+    icon: ❗️
     keywords:
       - Ranged
     type: Triggered action
@@ -113,6 +117,7 @@ abilities:
           resolved.
         name: Effect
   - name: Fountains Roar, Now Free From the Earth
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -125,6 +130,7 @@ abilities:
           up to their speed.
         name: Effect
   - name: And the Sun Forsook Her Children
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Area
@@ -142,6 +148,7 @@ abilities:
       - effect: The area turns dark and distorted, and is difficult terrain for enemies.
         name: Effect
   - name: But We Will Change Her Mind
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

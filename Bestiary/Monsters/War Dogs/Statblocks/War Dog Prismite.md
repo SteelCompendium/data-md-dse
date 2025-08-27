@@ -56,6 +56,7 @@ traits:
           psychic damage to each enemy within 2 squares of them.
 abilities:
   - name: Grasping Tonguetacles
+    icon: ❇️
     cost: Signature Ability
     keywords:
       - Area
@@ -71,6 +72,7 @@ abilities:
         t3: 8 psychic damage; R < 4 grabbed and the target takes a bane on the Escape
           Grab maneuver, pull 2
   - name: Hard Light Field
+    icon: 🔳
     keywords:
       - Area
       - Psionic
@@ -83,6 +85,7 @@ abilities:
           gains a +2 bonus to stability.
         name: Effect
   - name: Tractor Beam
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - Psionic

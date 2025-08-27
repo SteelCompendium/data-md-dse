@@ -57,6 +57,7 @@ traits:
           Stamina pool increases as if each limbjumble were at full Stamina.
 abilities:
   - name: Arm and a Leg
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

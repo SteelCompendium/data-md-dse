@@ -61,6 +61,7 @@ traits:
           them.
 abilities:
   - name: Warp Touch
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Magic
@@ -79,6 +80,7 @@ abilities:
       - effect: The effects of being slowed and weakened this way can't be ignored.
         name: Special
   - name: Soul Flay
+    icon: 🔳
     cost: 5 Malice
     keywords:
       - Area

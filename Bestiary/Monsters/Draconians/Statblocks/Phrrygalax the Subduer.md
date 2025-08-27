@@ -60,6 +60,7 @@ traits:
           damage on his next strike.
 abilities:
   - name: Baneful Blade
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -74,6 +75,7 @@ abilities:
         t2: 16 damage; M < 1 bleeding (save ends)
         t3: 19 damage; M < 2 3 damage, bleeding (save ends)
   - name: Spinning Spit
+    icon: ❇️
     cost: 2 Malice
     keywords:
       - Area
@@ -87,6 +89,7 @@ abilities:
         t2: 13 fire damage
         t3: 16 fire damage
   - name: Heavy Landing
+    icon: 👤
     keywords:
       - Area
     type: Maneuver
@@ -98,6 +101,7 @@ abilities:
           knocked prone.
         name: Effect
   - name: Armor of the Ancients
+    icon: ❗️
     cost: 2 Malice
     keywords:
       - "-"
@@ -111,6 +115,7 @@ abilities:
           damage type.
         name: Effect
   - name: Still Your Tongue!
+    icon: ❗️
     keywords:
       - "-"
     type: Free triggered action

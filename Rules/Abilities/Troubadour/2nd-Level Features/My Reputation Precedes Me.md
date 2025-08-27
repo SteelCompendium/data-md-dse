@@ -16,7 +16,8 @@ type: feature/trait/troubadour/2nd-level-feature
 ---
 
 ```ds-ability
-name: My Reputation Precedes Me
+name: ""
+icon: My Reputation Precedes Me
 metadata:
   class: troubadour
   feature_type: trait
@@ -41,6 +42,7 @@ effects:
       your Scene Partner feature. While the bond is active, all heroes present
       treat their Renown as 2 higher than usual for the purpose of entering into
       a negotiation with the bonded NPC.
+
 
       The Director can award the heroes 1 hero token to make you infamous among
       the group of creatures instead, and preventing you from forming this bond.

@@ -55,6 +55,7 @@ traits:
           stability 1, has cover, and grants cover to allies.
 abilities:
   - name: Gladius
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -72,6 +73,7 @@ abilities:
           squad shift up to 2 squares before this ability is used.
         cost: 3 Malice
   - name: Shield Bash
+    icon: 🗡
     keywords:
       - Melee
       - Strike

@@ -16,7 +16,8 @@ type: feature/trait/tactician/7th-level-feature
 ---
 
 ```ds-ability
-name: Seize the Initiative
+name: ""
+icon: Seize the Initiative
 metadata:
   class: tactician
   feature_type: trait

@@ -57,6 +57,7 @@ traits:
           to navigate, search, or seek.
 abilities:
   - name: Flail and Blade
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge
@@ -74,6 +75,7 @@ abilities:
       - effect: The minotaur shifts up to 3 squares
         name: Effect
   - name: Primal Bay
+    icon: 👤
     cost: 3 Malice
     keywords:
       - "-"
@@ -86,6 +88,7 @@ abilities:
           can use one additional maneuver.
         name: Effect
   - name: Goring Horns
+    icon: 🗡
     cost: 5 Malice
     keywords:
       - Charge
@@ -104,6 +107,7 @@ abilities:
           increases by 1.
         name: Effect
   - name: Retaliatory Strike
+    icon: ❗️
     keywords:
       - Ranged
     type: Triggered action

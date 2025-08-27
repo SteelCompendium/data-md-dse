@@ -16,7 +16,8 @@ type: feature/trait/shadow/1st-level-feature
 ---
 
 ```ds-ability
-name: Insight in Combat
+name: ""
+icon: Insight in Combat
 metadata:
   class: shadow
   feature_type: trait
@@ -38,6 +39,7 @@ effects:
       tracked in combat rounds (as determined by the Director), you gain insight
       equal to your Victories. At the start of each of your turns during combat,
       you gain 1d3 insight.
+
 
       Additionally, the first time each combat round that you deal damage
       incorporating 1 or more surges, you gain 1 insight.

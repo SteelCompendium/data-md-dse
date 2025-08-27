@@ -23,7 +23,8 @@ type: feature/ability/shadow/4th-level-feature
 ---
 
 ```ds-ability
-name: Night Watch
+name: ""
+icon: Night Watch
 flavor: A steely dagger from out of the blue knocks another weapon off course.
 keywords:
   - Ranged

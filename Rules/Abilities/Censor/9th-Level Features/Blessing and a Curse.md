@@ -26,8 +26,8 @@ type: feature/ability/censor/9th-level-feature
 ---
 
 ```ds-ability
-name: Blessing and a Curse
-cost: 11 Wrath
+name: ""
+icon: Blessing and a Curse (11 Wrath)
 flavor: The gods bless and damn in equal measure.
 keywords:
   - Magic

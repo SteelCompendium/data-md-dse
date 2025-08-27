@@ -56,6 +56,7 @@ traits:
           to 2 squares, ignoring stability.
 abilities:
   - name: Piercing Trill
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Magic
@@ -74,6 +75,7 @@ abilities:
           damage dealt.
         name: Effect
   - name: Vivace Vivace!
+    icon: ❇️
     keywords:
       - Area
       - Magic
@@ -87,6 +89,7 @@ abilities:
       - effect: The area increases to a 6 burst.
         cost: 2 Malice
   - name: Ready Rodent
+    icon: ❗️
     keywords:
       - Melee
       - Weapon

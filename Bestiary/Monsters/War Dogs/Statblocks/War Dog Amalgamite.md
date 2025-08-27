@@ -57,6 +57,7 @@ traits:
           explodes, dealing 1d6 damage to each adjacent enemy and object.
 abilities:
   - name: Several Arms
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -77,6 +78,7 @@ abilities:
           dealt.
         cost: 3 Malice
   - name: Posthumous Promotion
+    icon: 🏹
     keywords:
       - Magic
       - Ranged

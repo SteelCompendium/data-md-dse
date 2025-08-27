@@ -22,7 +22,8 @@ type: feature/ability/shadow/1st-level-feature
 ---
 
 ```ds-ability
-name: I'm No Threat
+name: ""
+icon: I'm No Threat
 flavor: Taking on an illusory countenance gives you an advantage on subterfuge.
 keywords:
   - Magic

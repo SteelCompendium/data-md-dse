@@ -60,6 +60,7 @@ traits:
           fewer minions in it.
 abilities:
   - name: Crush Underfoot
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

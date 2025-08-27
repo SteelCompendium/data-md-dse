@@ -14,7 +14,8 @@ type: common-ability/maneuver
 ---
 
 ```ds-ability
-name: Escape Grab
+name: ""
+icon: Escape Grab
 metadata:
   class: combat
   file_basename: Escape Grab
@@ -33,6 +34,7 @@ effects:
       A creature who is grabbed by another creature, an object, or an effect
       (see [Grab](#page-287-5) below) can attempt to escape by using the
       following ability.
+
 
       ###### Escape Grab
 

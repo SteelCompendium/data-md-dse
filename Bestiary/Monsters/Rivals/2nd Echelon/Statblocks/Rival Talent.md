@@ -56,6 +56,7 @@ traits:
           roll to power rolls they make against each other.
 abilities:
   - name: Overwhelming Rend
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Psionic
@@ -71,6 +72,7 @@ abilities:
         t2: 14 psychic damage; push 3; M < 2 prone
         t3: 17 psychic damage; push 4; M < 3 prone
   - name: Disarrange Thoughts
+    icon: 🏹
     cost: 2 Malice
     keywords:
       - Psionic
@@ -85,6 +87,7 @@ abilities:
         t2: 6 psychic damage; R < 2 dazed (save ends)
         t3: 6 psychic damage; R < 3 dazed and slowed (save ends)
   - name: Precognitive Shift
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - Psionic

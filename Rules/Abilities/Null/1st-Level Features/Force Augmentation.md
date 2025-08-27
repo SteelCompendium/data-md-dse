@@ -16,7 +16,8 @@ type: feature/trait/null/1st-level-feature
 ---
 
 ```ds-ability
-name: Force Augmentation
+name: ""
+icon: Force Augmentation
 metadata:
   class: "null"
   feature_type: trait

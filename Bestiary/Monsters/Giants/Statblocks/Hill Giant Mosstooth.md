@@ -60,6 +60,7 @@ traits:
           to distract the mosstooth. The mosstooth targets that enemy instead.
 abilities:
   - name: Swing
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

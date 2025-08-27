@@ -22,7 +22,8 @@ type: feature/ability/troubadour/1st-level-feature
 ---
 
 ```ds-ability
-name: Turnabout Is Fair Play
+name: ""
+icon: Turnabout Is Fair Play
 flavor: All's fair in love and whatever.
 keywords:
   - Ranged

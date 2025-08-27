@@ -56,6 +56,7 @@ traits:
           Stamina, the godcaller is reduced to 1 Stamina instead.
 abilities:
   - name: Power Chord
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Magic
@@ -71,6 +72,7 @@ abilities:
         t2: 7 sonic damage
         t3: 9 sonic damage; P < 2 weakened (save ends)
   - name: Cadenza
+    icon: 🏹
     keywords:
       - Magic
       - Ranged
@@ -83,6 +85,7 @@ abilities:
       - effect: The godcaller targets a second ally.
         cost: 3 Malice
   - name: Rallying Ostinato
+    icon: 🏹
     cost: 2 Malice
     keywords:
       - Magic

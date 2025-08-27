@@ -25,7 +25,8 @@ type: feature/ability/talent/1st-level-feature
 ---
 
 ```ds-ability
-name: Entropic Bolt
+name: ""
+icon: Entropic Bolt
 flavor: You advance an enemy's age for a moment.
 keywords:
   - Chronopathy

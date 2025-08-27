@@ -26,8 +26,8 @@ type: feature/ability/troubadour/2nd-level-feature
 ---
 
 ```ds-ability
-name: Guest Star
-cost: 5 Drama
+name: ""
+icon: Guest Star (5 Drama)
 flavor: We offered them a percentage of the gross. So they're working for free!
 keywords:
   - Magic

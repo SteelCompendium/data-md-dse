@@ -25,7 +25,8 @@ type: feature/ability/talent/1st-level-feature
 ---
 
 ```ds-ability
-name: Hoarfrost
+name: ""
+icon: Hoarfrost
 flavor: You blast a foe with a pulse of cold energy.
 keywords:
   - Cryokinesis

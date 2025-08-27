@@ -58,6 +58,7 @@ traits:
           damage can't be reduced in any way.
 abilities:
   - name: Houndblade
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Charge
@@ -78,6 +79,7 @@ abilities:
       - effect: Each target loses 1d3 Recoveries.
         cost: 3 Malice
   - name: Get Them, You Dolts! 1 Malice per target
+    icon: 🏹
     keywords:
       - Ranged
     type: Maneuver
@@ -89,6 +91,7 @@ abilities:
           extra 4 damage.
         name: Effect
   - name: Sneering Disregard
+    icon: ❗️
     keywords:
       - Ranged
     type: Triggered action
@@ -102,6 +105,7 @@ abilities:
           than damage and the target is frightened of the tetrarch (save ends).
         name: Effect
   - name: Enter the Fray
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -116,6 +120,7 @@ abilities:
         t2: Push 4; I < 3 frightened (save ends)
         t3: Push 5; I < 4 frightened (save ends)
   - name: Lay Waste
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Area
@@ -134,6 +139,7 @@ abilities:
           each square in the area they enter for the first time in a round
         name: Effect
   - name: You Would Dare?!
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - "-"

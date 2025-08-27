@@ -61,6 +61,7 @@ traits:
           adjacent to them takes 3 sonic damage.
 abilities:
   - name: Soul Stinger
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

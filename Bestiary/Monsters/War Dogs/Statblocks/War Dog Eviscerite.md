@@ -57,6 +57,7 @@ traits:
           explodes, dealing 1d6 damage to each adjacent enemy and object.
 abilities:
   - name: Chainsaw Whip
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -74,6 +75,7 @@ abilities:
           this way.
         name: Effect
   - name: Posthumous Promotion
+    icon: 🏹
     keywords:
       - Magic
       - Ranged

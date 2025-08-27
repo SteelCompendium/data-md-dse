@@ -65,6 +65,7 @@ traits:
           creatures underground when they do so.
 abilities:
   - name: Buried in Sand
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Magic

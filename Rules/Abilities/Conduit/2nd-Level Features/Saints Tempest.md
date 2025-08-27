@@ -28,8 +28,8 @@ type: feature/ability/conduit/2nd-level-feature
 ---
 
 ```ds-ability
-name: Saint's Tempest
-cost: 5 Piety
+name: ""
+icon: Saint's Tempest (5 Piety)
 flavor: A raging storm appears, striking your foes with lightning and throwing
   them around with wind.
 keywords:

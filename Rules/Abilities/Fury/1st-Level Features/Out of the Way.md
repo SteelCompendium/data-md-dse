@@ -27,8 +27,8 @@ type: feature/ability/fury/1st-level-feature
 ---
 
 ```ds-ability
-name: Out of the Way!
-cost: 3 Ferocity
+name: ""
+icon: Out of the Way! (3 Ferocity)
 flavor: Your enemies will clear your path-whether they want to or not.
 keywords:
   - Melee

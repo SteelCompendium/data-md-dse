@@ -25,8 +25,8 @@ type: feature/ability/tactician/3rd-level-feature
 ---
 
 ```ds-ability
-name: Stay Strong and Focus!
-cost: 7 Focus
+name: ""
+icon: Stay Strong and Focus! (7 Focus)
 flavor: '"We can do this! Keep faith and hold fast!"'
 keywords:
   - "-"

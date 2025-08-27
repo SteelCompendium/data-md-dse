@@ -57,6 +57,7 @@ traits:
           or concealment have a double bane instead.
 abilities:
   - name: Growing Longsword
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -76,6 +77,7 @@ abilities:
       - effect: The distance increases to Melee 5.
         cost: 2 Malice
   - name: Overgrowth
+    icon: 🔳
     cost: 3 Malice
     keywords:
       - Area

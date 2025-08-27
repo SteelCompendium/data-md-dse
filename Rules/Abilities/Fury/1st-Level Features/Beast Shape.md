@@ -16,7 +16,8 @@ type: feature/trait/fury/1st-level-feature
 ---
 
 ```ds-ability
-name: Beast Shape
+name: ""
+icon: Beast Shape
 metadata:
   class: fury
   feature_type: trait

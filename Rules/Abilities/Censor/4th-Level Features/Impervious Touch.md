@@ -16,7 +16,8 @@ type: feature/trait/censor/4th-level-feature
 ---
 
 ```ds-ability
-name: Impervious Touch
+name: ""
+icon: Impervious Touch
 metadata:
   class: censor
   feature_type: trait
@@ -39,6 +40,7 @@ effects:
       immunity all to untyped damage. You can maintain this spell on a number of
       objects equal to your Presence score, and you can end the spell on any
       object at any time (no action required).
+
 
       Additionally, you can place this spell on a building or vehicle (or a
       similar structure with the Director's approval) that is of a size larger

@@ -25,8 +25,8 @@ type: feature/ability/shadow/2nd-level-feature
 ---
 
 ```ds-ability
-name: Sticky Bomb
-cost: 5 Insight
+name: ""
+icon: Sticky Bomb (5 Insight)
 flavor: Explosives are best when they're attached to an enemy.
 keywords:
   - Ranged

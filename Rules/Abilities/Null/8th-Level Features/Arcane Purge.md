@@ -29,8 +29,8 @@ type: feature/ability/null/8th-level-feature
 ---
 
 ```ds-ability
-name: Arcane Purge
-cost: 11 Discipline
+name: ""
+icon: Arcane Purge (11 Discipline)
 flavor: You focus your null field into a pressure point strike that prevents
   your foe from channeling sorcery.
 keywords:

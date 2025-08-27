@@ -16,7 +16,8 @@ type: feature/trait/shadow/2nd-level-feature
 ---
 
 ```ds-ability
-name: Friend!
+name: ""
+icon: Friend!
 metadata:
   class: shadow
   feature_type: trait
@@ -38,6 +39,7 @@ effects:
       moments. Whenever an enemy uses an ability or trait that targets multiple
       allies and you are within distance of the effect, you can choose to be a
       target of the effect as well.
+
 
       Additionally, when you use your I'm No Threat ability, you can take the
       Disengage move action as part of that ability.

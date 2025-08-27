@@ -66,6 +66,7 @@ traits:
           damage.
 abilities:
   - name: Blightblade
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Magic
@@ -85,6 +86,7 @@ abilities:
       - effect: One ally adjacent to the target can use their signature ability.
         cost: 3 Malice
   - name: On My Mark!
+    icon: 🏹
     keywords:
       - Ranged
     type: Maneuver

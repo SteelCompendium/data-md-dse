@@ -29,8 +29,8 @@ type: feature/ability/elementalist/6th-level-feature
 ---
 
 ```ds-ability
-name: Luminous Champion Aloft
-cost: 9 Essence
+name: ""
+icon: Luminous Champion Aloft (9 Essence)
 flavor: They shine vibrantly, a beautiful diamond in the night sky.
 keywords:
   - Fire

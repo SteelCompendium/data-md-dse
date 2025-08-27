@@ -64,6 +64,7 @@ traits:
           has concealment, they have damage immunity 3.
 abilities:
   - name: Manifold Blade
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -80,6 +81,7 @@ abilities:
       - effect: The potency increases by 1.
         cost: 2 Malice
   - name: Grasping Shadow
+    icon: 🏹
     keywords:
       - Magic
       - Ranged
@@ -92,6 +94,7 @@ abilities:
         t2: Pull 7; I < 3 slowed (save ends)
         t3: Pull 10; I < 4 slowed (save ends)
   - name: Put It Out!
+    icon: ❗️
     keywords:
       - Ranged
     type: Triggered action
@@ -103,6 +106,7 @@ abilities:
       - effect: The target has a double bane on the ability.
         name: Effect
   - name: From the Shadows
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Ranged
@@ -115,6 +119,7 @@ abilities:
           speed and make a free strike.
         name: Effect
   - name: Cast Away All Hope
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Area
@@ -129,6 +134,7 @@ abilities:
           abilities.
         name: Effect
   - name: Umbral Hunger
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

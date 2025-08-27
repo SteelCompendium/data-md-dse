@@ -61,6 +61,7 @@ traits:
           can end one condition affecting the.
 abilities:
   - name: Serrated Saber
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -78,6 +79,7 @@ abilities:
       - effect: A creature weakened this way is also bleeding.
         cost: 2 Malice
   - name: Shared Sickness
+    icon: ❗️
     keywords:
       - Psionic
       - Ranged

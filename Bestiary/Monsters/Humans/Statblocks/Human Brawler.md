@@ -63,6 +63,7 @@ traits:
           effect.
 abilities:
   - name: Haymaker
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -80,6 +81,7 @@ abilities:
       - effect: A target who is already grabbed takes an extra 2 damage.
         name: Effect
   - name: Throw
+    icon: 🗡
     cost: 1 Malice
     keywords:
       - Melee

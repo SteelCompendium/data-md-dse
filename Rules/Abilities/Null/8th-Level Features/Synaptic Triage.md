@@ -16,7 +16,8 @@ type: feature/trait/null/8th-level-feature
 ---
 
 ```ds-ability
-name: Synaptic Triage
+name: ""
+icon: Synaptic Triage
 metadata:
   class: "null"
   feature_type: trait

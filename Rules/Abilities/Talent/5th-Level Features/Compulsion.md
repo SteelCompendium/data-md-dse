@@ -16,7 +16,8 @@ type: feature/trait/talent/5th-level-feature
 ---
 
 ```ds-ability
-name: Compulsion
+name: ""
+icon: Compulsion
 metadata:
   class: talent
   feature_type: trait

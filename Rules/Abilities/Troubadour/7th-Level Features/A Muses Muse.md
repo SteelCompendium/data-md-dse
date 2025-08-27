@@ -16,7 +16,8 @@ type: feature/trait/troubadour/7th-level-feature
 ---
 
 ```ds-ability
-name: A Muse's Muse
+name: ""
+icon: A Muse's Muse
 metadata:
   class: troubadour
   feature_type: trait

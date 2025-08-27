@@ -57,6 +57,7 @@ traits:
       - effect: >-
           Any melee ability targeting the storm mage takes a bane.
 
+
           Additionally, whenever the mage takes damage from an adjacent enemy,
           the enemy takes 2 lightning damage, and if they have R < 1 they are
           pushed up to 2 squares.
@@ -66,6 +67,7 @@ traits:
           effect.
 abilities:
   - name: Lightning Bolt
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -84,6 +86,7 @@ abilities:
           object in the area.
         cost: 5 Malice
   - name: Gust of Wind
+    icon: 🔳
     cost: 3 Malice
     keywords:
       - Area

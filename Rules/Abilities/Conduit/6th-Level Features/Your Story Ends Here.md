@@ -27,8 +27,8 @@ type: feature/ability/conduit/6th-level-feature
 ---
 
 ```ds-ability
-name: Your Story Ends Here
-cost: 9 Piety
+name: ""
+icon: Your Story Ends Here (9 Piety)
 flavor: You bend the fate of a foe, willing them to die.
 keywords:
   - Magic

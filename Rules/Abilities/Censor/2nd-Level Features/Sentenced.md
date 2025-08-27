@@ -28,8 +28,8 @@ type: feature/ability/censor/2nd-level-feature
 ---
 
 ```ds-ability
-name: Sentenced
-cost: 5 Wrath
+name: ""
+icon: Sentenced (5 Wrath)
 flavor: The shock of your condemnation freezes your enemy in their boots.
 keywords:
   - Magic

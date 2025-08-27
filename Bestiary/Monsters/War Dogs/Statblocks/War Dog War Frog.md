@@ -61,6 +61,7 @@ traits:
           explodes, dealing 1d6 damage to each adjacent enemy and object.
 abilities:
   - name: Poisoned Dagger
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Melee

@@ -60,6 +60,7 @@ traits:
           explodes, dealing 3d6 damage to each adjacent enemy and object.
 abilities:
   - name: Biokinetic Ballista
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged
@@ -77,6 +78,7 @@ abilities:
           < 3 they are restrained (save ends).
         name: Effect
   - name: Kill Zone
+    icon: 🔳
     cost: 3 Malice
     keywords:
       - Area

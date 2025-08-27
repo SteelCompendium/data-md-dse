@@ -16,7 +16,8 @@ type: feature/trait/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: Revitalizing Ritual
+name: ""
+icon: Revitalizing Ritual
 metadata:
   class: conduit
   feature_type: trait

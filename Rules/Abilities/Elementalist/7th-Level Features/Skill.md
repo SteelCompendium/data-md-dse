@@ -16,7 +16,8 @@ type: feature/trait/elementalist/7th-level-feature
 ---
 
 ```ds-ability
-name: Skill
+name: ""
+icon: Skill
 metadata:
   class: elementalist
   feature_type: trait

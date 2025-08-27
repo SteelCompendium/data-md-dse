@@ -16,7 +16,8 @@ type: feature/trait/tactician/1st-level-feature
 ---
 
 ```ds-ability
-name: Field Arsenal
+name: ""
+icon: Field Arsenal
 metadata:
   class: tactician
   feature_type: trait
@@ -40,6 +41,7 @@ effects:
       or change one kit, you can choose or change your second kit as well. See
       Chapter 6: Kits for more information. (*Quick Build:* Shining Armor,
       Sniper.)
+
 
       If both kits grant you the same benefit, you take one or the other and
       can't change your choice until you finish a respite. (This usually means

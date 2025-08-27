@@ -29,8 +29,8 @@ type: feature/ability/elementalist/2nd-level-feature
 ---
 
 ```ds-ability
-name: Volcano's Embrace
-cost: 5 Essence
+name: ""
+icon: Volcano's Embrace (5 Essence)
 flavor: Wrap them up in fire and melting stone.
 keywords:
   - Earth

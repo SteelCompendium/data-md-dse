@@ -66,6 +66,7 @@ traits:
           Each creature adjacent to the brandbearer takes 2 fire damage.
 abilities:
   - name: Searing Grasp
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Magic

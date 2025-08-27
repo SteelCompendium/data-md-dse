@@ -61,6 +61,7 @@ traits:
           them.
 abilities:
   - name: Blight Pus
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -79,6 +80,7 @@ abilities:
           Demon Malice feature).
         name: Effect
   - name: Blight Rain
+    icon: 🔳
     cost: 3 Malice
     keywords:
       - Area

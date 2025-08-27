@@ -63,6 +63,7 @@ traits:
           damage.
 abilities:
   - name: Soul Burn
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -81,6 +82,7 @@ abilities:
           P < 2 is weakened (save ends).
         cost: 2 Malice
   - name: Burning Legion
+    icon: 🏹
     cost: 1 Malice
     keywords:
       - Magic

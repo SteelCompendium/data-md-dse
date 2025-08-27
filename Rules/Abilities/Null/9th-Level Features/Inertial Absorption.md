@@ -25,8 +25,8 @@ type: feature/ability/null/9th-level-feature
 ---
 
 ```ds-ability
-name: Inertial Absorption
-cost: 11 Discipline
+name: ""
+icon: Inertial Absorption (11 Discipline)
 flavor: You absorb an attack to empower your body.
 keywords:
   - Psionic

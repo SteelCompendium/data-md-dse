@@ -61,6 +61,7 @@ traits:
           concealment have a double bane instead.
 abilities:
   - name: Splinter Dagger
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Magic
@@ -82,6 +83,7 @@ abilities:
           damage if both targets are adjacent to each other.
         cost: 3 Malice
   - name: Do Not Hesitate in the Wode
+    icon: ❗️
     cost: 3 Malice
     keywords:
       - Ranged

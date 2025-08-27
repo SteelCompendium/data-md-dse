@@ -59,6 +59,7 @@ traits:
           has concealment, they have damage immunity 3.
 abilities:
   - name: Lumina Assault
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged
@@ -78,6 +79,7 @@ abilities:
           strike against them.
         cost: 5 Malice
   - name: Splitbow
+    icon: 🔳
     cost: 2 Malice
     keywords:
       - Area

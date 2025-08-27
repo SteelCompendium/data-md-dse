@@ -52,6 +52,7 @@ presence: 0
 traits: []
 abilities:
   - name: Snaring Javelin
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged

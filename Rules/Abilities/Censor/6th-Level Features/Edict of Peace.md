@@ -26,8 +26,8 @@ type: feature/ability/censor/6th-level-feature
 ---
 
 ```ds-ability
-name: Edict of Peace
-cost: 9 Wrath
+name: ""
+icon: Edict of Peace (9 Wrath)
 flavor: You anticipate your foes' moves and deny them.
 keywords:
   - Area

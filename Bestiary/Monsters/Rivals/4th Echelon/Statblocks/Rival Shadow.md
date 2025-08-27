@@ -60,6 +60,7 @@ traits:
           roll to power rolls they make against each other.
 abilities:
   - name: A Hush of Ash
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -76,6 +77,7 @@ abilities:
       - effect: The shadow can teleport up to 10 squares, then can attempt to hide.
         cost: 1 Malice
   - name: Envenomed Steel
+    icon: 👤
     keywords:
       - "-"
     type: Maneuver

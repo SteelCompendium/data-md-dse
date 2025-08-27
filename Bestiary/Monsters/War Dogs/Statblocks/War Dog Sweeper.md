@@ -58,6 +58,7 @@ traits:
           dealing 1d6 damage to each enemy and object within 2 squares of them.
 abilities:
   - name: Shrikegun Shot
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Melee

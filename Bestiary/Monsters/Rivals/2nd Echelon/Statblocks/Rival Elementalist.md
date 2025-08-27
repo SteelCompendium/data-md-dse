@@ -56,6 +56,7 @@ traits:
           can add a d3 roll to power rolls they make against each other.
 abilities:
   - name: The Thriving Wilds
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Green
@@ -71,6 +72,7 @@ abilities:
         t2: 14 damage; slide 2; M < 2 5 acid damage
         t3: 17 damage; slide 3; M < 3 7 acid damage
   - name: The Depths Hunger
+    icon: 🔳
     cost: 4 Malice
     keywords:
       - Area
@@ -89,6 +91,7 @@ abilities:
           encounter. Any enemy in the area has acid weakness 3.
         name: Effect
   - name: Fissures of Darkness
+    icon: ❗️
     keywords:
       - Magic
       - Void

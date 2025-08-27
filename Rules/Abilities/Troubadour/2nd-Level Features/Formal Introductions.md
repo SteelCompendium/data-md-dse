@@ -16,7 +16,8 @@ type: feature/trait/troubadour/2nd-level-feature
 ---
 
 ```ds-ability
-name: Formal Introductions
+name: ""
+icon: Formal Introductions
 metadata:
   class: troubadour
   feature_type: trait
@@ -39,6 +40,7 @@ effects:
       the notice to the target personally if you are in the same general area,
       send it by courier, or leave it in a covert location for the target to
       find. You can have only one notice active at a time.
+
 
       The Director determines when the target receives your notice. When the
       target receives the notice, they become alarmed and take desperate

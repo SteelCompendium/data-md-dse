@@ -58,6 +58,7 @@ traits:
           squares of the vampire can't hide.
 abilities:
   - name: Crimson Embrace
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -78,6 +79,7 @@ abilities:
           additional creature for every 2 malice spent.
         cost: 2+ Malice
   - name: Arise, My Children
+    icon: 🏹
     cost: 2 Malice
     keywords:
       - Ranged
@@ -88,6 +90,7 @@ abilities:
       - effect: Two blood-starved vampires appear in unoccupied spaces within distance.
         name: Effect
   - name: Redirected Charm
+    icon: ❗️
     cost: 3 Malice
     keywords:
       - Magic
@@ -100,6 +103,7 @@ abilities:
       - effect: The target becomes the new target of the strike.
         name: Effect
   - name: Let Us Feast!
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Ranged
@@ -110,6 +114,7 @@ abilities:
       - effect: Each target who has P < 4 is now bleeding (save ends).
         name: Effect
   - name: Red Mist Rising
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Area

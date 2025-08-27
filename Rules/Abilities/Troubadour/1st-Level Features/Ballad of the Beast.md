@@ -24,7 +24,8 @@ type: feature/ability/troubadour/1st-level-feature
 ---
 
 ```ds-ability
-name: '"Ballad of the Beast"'
+name: ""
+icon: '"Ballad of the Beast"'
 flavor: Teeth are bare! ♪ Eyes black! ♪ No escaping the beast!♪
 keywords:
   - Area

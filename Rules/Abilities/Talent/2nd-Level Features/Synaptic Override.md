@@ -27,8 +27,8 @@ type: feature/ability/talent/2nd-level-feature
 ---
 
 ```ds-ability
-name: Synaptic Override
-cost: 5 Clarity
+name: ""
+icon: Synaptic Override (5 Clarity)
 flavor: You control an enemy's nervous system. How pleasant for them.
 keywords:
   - Psionic

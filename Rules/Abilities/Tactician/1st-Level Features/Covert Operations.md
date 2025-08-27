@@ -16,7 +16,8 @@ type: feature/trait/tactician/1st-level-feature
 ---
 
 ```ds-ability
-name: Covert Operations
+name: ""
+icon: Covert Operations
 metadata:
   class: tactician
   feature_type: trait
@@ -38,6 +39,7 @@ effects:
       allies gains an edge on tests using any skill from the intrigue skill
       group. Additionally, you can use the Lead skill to assist another creature
       with any test made using a skill from the intrigue group.
+
 
       At the Director's discretion, you and your allies can use skills from the
       intrigue skill group to attempt research or reconnaissance during a

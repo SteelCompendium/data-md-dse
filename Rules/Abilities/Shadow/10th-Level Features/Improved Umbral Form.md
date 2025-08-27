@@ -16,7 +16,8 @@ type: feature/trait/shadow/10th-level-feature
 ---
 
 ```ds-ability
-name: Improved Umbral Form
+name: ""
+icon: Improved Umbral Form
 metadata:
   class: shadow
   feature_type: trait
@@ -39,6 +40,7 @@ effects:
       required). Additionally, you are always wreathed in darkness that grants
       you concealment while in this form, and creatures no longer gain an edge
       on strikes against you.
+
 
       While you are in your umbral form, you can spend 1 uninterrupted minute
       concentrating on a location where you've been before. At the end of that

@@ -14,7 +14,8 @@ type: common-ability/maneuver
 ---
 
 ```ds-ability
-name: Grab
+name: ""
+icon: Grab
 metadata:
   class: combat
   file_basename: Grab
@@ -32,6 +33,7 @@ effects:
   - effect: >-
       A creature seeking to keep a foe close and locked down can attempt to grab
       a creature using the following ability.
+
 
       ###### Grab
 

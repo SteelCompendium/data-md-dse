@@ -24,7 +24,8 @@ type: feature/ability/troubadour/1st-level-feature
 ---
 
 ```ds-ability
-name: Acrobatics
+name: ""
+icon: Acrobatics
 flavor: Folks love a good tumble.
 keywords:
   - Area

@@ -16,7 +16,8 @@ type: feature/trait/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: Essence in Combat
+name: ""
+icon: Essence in Combat
 metadata:
   class: elementalist
   feature_type: trait
@@ -38,6 +39,7 @@ effects:
       tracked in combat rounds (as determined by the Director), you gain essence
       equal to your Victories. At the start of each of your turns during combat,
       you gain 2 essence.
+
 
       Additionally, the first time each combat round that you or a creature
       within 10 squares takes damage that isn't untyped or holy damage, you gain

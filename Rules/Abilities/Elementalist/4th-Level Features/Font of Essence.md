@@ -16,7 +16,8 @@ type: feature/trait/elementalist/4th-level-feature
 ---
 
 ```ds-ability
-name: Font of Essence
+name: ""
+icon: Font of Essence
 metadata:
   class: elementalist
   feature_type: trait

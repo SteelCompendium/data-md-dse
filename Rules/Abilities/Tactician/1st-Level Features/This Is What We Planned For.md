@@ -25,8 +25,8 @@ type: feature/ability/tactician/1st-level-feature
 ---
 
 ```ds-ability
-name: This Is What We Planned For
-cost: 5 Focus
+name: ""
+icon: This Is What We Planned For (5 Focus)
 flavor: All those coordination drills you made them do finally pay off.
 keywords:
   - Ranged

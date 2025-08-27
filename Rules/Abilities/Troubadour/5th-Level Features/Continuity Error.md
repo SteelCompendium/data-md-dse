@@ -26,8 +26,8 @@ type: feature/ability/troubadour/5th-level-feature
 ---
 
 ```ds-ability
-name: Continuity Error
-cost: 9 Drama
+name: ""
+icon: Continuity Error (9 Drama)
 flavor: Your subject is written into two places at once.
 keywords:
   - Magic

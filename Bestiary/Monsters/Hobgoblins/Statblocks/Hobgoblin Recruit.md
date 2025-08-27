@@ -66,6 +66,7 @@ traits:
           creature adjacent to the recruit takes 2 fire damage.
 abilities:
   - name: Sword Lunge
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

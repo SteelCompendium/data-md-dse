@@ -28,8 +28,8 @@ type: feature/ability/talent/2nd-level-feature
 ---
 
 ```ds-ability
-name: Applied Chronometrics
-cost: 5 Clarity
+name: ""
+icon: Applied Chronometrics (5 Clarity)
 flavor: Time slows down around you. Your heartbeat is the only gauge of the
   extra moments you've gained.
 keywords:

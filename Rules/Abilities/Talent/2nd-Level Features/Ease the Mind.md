@@ -16,7 +16,8 @@ type: feature/trait/talent/2nd-level-feature
 ---
 
 ```ds-ability
-name: Ease the Mind
+name: ""
+icon: Ease the Mind
 metadata:
   class: talent
   feature_type: trait

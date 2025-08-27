@@ -60,6 +60,7 @@ traits:
           The revived creature returns with 3 Stamina.
 abilities:
   - name: Dweomer Plume
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Magic

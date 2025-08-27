@@ -16,7 +16,8 @@ type: feature/trait/talent/5th-level-feature
 ---
 
 ```ds-ability
-name: Remote Amplification
+name: ""
+icon: Remote Amplification
 metadata:
   class: talent
   feature_type: trait

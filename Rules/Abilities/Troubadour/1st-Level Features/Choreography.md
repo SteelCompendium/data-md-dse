@@ -24,7 +24,8 @@ type: feature/ability/troubadour/1st-level-feature
 ---
 
 ```ds-ability
-name: Choreography
+name: ""
+icon: Choreography
 flavor: Taps, kicks, steps. It's all "choreography."
 keywords:
   - Area

@@ -59,6 +59,7 @@ traits:
           invader's space, and the ability has a double edge.
 abilities:
   - name: Tentacle
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -73,6 +74,7 @@ abilities:
         t2: 15 damage; M < 2 grabbed
         t3: 18 damage; M < 3 grabbed
   - name: Psionic Boom
+    icon: ❇️
     cost: 3 Malice
     keywords:
       - Area
@@ -88,6 +90,7 @@ abilities:
       - effect: The size of the burst increases to 5.
         cost: 2 Malice
   - name: Tentacle Toss
+    icon: 🗡
     keywords:
       - Melee
       - Psionic
@@ -102,6 +105,7 @@ abilities:
         t2: 10 damage; vertical slide 2
         t3: 12 damage; vertical slide 3
   - name: Brain Drain
+    icon: ❗️
     keywords:
       - Melee
       - Psionic

@@ -61,6 +61,7 @@ traits:
           another brush stalker is frightened
 abilities:
   - name: Gore
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge
@@ -76,6 +77,7 @@ abilities:
         t2: 10 damage
         t3: 13 damage
   - name: Reclamation
+    icon: ❇️
     cost: 2 Malice
     keywords:
       - Area

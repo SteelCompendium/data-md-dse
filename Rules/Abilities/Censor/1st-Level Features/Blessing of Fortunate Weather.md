@@ -16,7 +16,8 @@ type: feature/trait/censor/1st-level-feature
 ---
 
 ```ds-ability
-name: Blessing of Fortunate Weather
+name: ""
+icon: Blessing of Fortunate Weather
 metadata:
   class: censor
   feature_type: trait

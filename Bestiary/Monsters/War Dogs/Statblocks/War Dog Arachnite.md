@@ -64,6 +64,7 @@ traits:
           explodes, dealing 2d6 damage to each adjacent enemy and object.
 abilities:
   - name: Longarm Shrikegun
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged
@@ -85,6 +86,7 @@ abilities:
           ally within distance.
         cost: 2 Malice
   - name: Web Vial
+    icon: 🔳
     keywords:
       - Area
       - Ranged

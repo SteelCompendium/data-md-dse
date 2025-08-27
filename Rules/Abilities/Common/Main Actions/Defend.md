@@ -14,7 +14,8 @@ type: common-ability/main-action
 ---
 
 ```ds-ability
-name: Defend
+name: ""
+icon: Defend
 metadata:
   class: combat
   file_basename: Defend

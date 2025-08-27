@@ -16,7 +16,8 @@ type: feature/trait/shadow/2nd-level-feature
 ---
 
 ```ds-ability
-name: Perk
+name: ""
+icon: Perk
 metadata:
   class: shadow
   feature_type: trait

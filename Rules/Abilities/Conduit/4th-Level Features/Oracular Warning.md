@@ -16,7 +16,8 @@ type: feature/trait/conduit/4th-level-feature
 ---
 
 ```ds-ability
-name: Oracular Warning
+name: ""
+icon: Oracular Warning
 metadata:
   class: conduit
   feature_type: trait

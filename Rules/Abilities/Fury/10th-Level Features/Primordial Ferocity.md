@@ -16,7 +16,8 @@ type: feature/trait/fury/10th-level-feature
 ---
 
 ```ds-ability
-name: Primordial Ferocity
+name: ""
+icon: Primordial Ferocity
 metadata:
   class: fury
   feature_type: trait

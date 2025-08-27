@@ -28,8 +28,8 @@ type: feature/ability/fury/6th-level-feature
 ---
 
 ```ds-ability
-name: Death Strike
-cost: 9 Ferocity
+name: ""
+icon: Death Strike (9 Ferocity)
 flavor: Once you taste your foe's blood, you become more efficient and turn
   every killing blow into an opportunity.
 keywords:

@@ -28,8 +28,8 @@ type: feature/ability/null/2nd-level-feature
 ---
 
 ```ds-ability
-name: Gravitic Strike
-cost: 5 Discipline
+name: ""
+icon: Gravitic Strike (5 Discipline)
 flavor: Your fist emanates gravitic force that pulls a distant enemy closer.
 keywords:
   - Melee

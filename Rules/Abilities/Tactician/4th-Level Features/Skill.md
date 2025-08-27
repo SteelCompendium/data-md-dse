@@ -16,7 +16,8 @@ type: feature/trait/tactician/4th-level-feature
 ---
 
 ```ds-ability
-name: Skill
+name: ""
+icon: Skill
 metadata:
   class: tactician
   feature_type: trait

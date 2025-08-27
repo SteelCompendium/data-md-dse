@@ -59,6 +59,7 @@ traits:
           damage can't be reduced in any way.
 abilities:
   - name: Stunning Surge
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -82,6 +83,7 @@ abilities:
           slowed until the end of their next turn.
         cost: 2 Malice
   - name: Overcharge
+    icon: 🔳
     cost: 2 Malice
     keywords:
       - Area
@@ -95,6 +97,7 @@ abilities:
           deals an extra 5 lightning damage.
         name: Effect
   - name: Thunderstruck
+    icon: ❗️
     keywords:
       - Magic
       - Melee
@@ -109,6 +112,7 @@ abilities:
           against them.
         name: Effect
   - name: Magnetic Trickery
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -120,6 +124,7 @@ abilities:
       - effect: Slide 5, and if the the target has M < 4, they fall prone.
         name: Effect
   - name: Conductor of Combat
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Area
@@ -132,6 +137,7 @@ abilities:
           a maneuver.
         name: Effect
   - name: Unlimited Power!
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

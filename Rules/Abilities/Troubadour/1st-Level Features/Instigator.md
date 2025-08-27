@@ -24,7 +24,8 @@ type: feature/ability/troubadour/1st-level-feature
 ---
 
 ```ds-ability
-name: Instigator
+name: ""
+icon: Instigator
 flavor: I didn't do it! What?
 keywords:
   - Melee

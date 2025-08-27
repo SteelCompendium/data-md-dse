@@ -16,7 +16,8 @@ type: feature/trait/censor/4th-level-feature
 ---
 
 ```ds-ability
-name: Skill
+name: ""
+icon: Skill
 metadata:
   class: censor
   feature_type: trait

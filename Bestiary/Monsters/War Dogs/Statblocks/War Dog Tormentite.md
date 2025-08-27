@@ -61,6 +61,7 @@ traits:
           explodes, dealing 2d6 damage to each adjacent enemy and object.
 abilities:
   - name: Mark of Agony
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -79,6 +80,7 @@ abilities:
           by them takes 3 damage.
         name: Effect
   - name: Vortex of Pain
+    icon: 🔳
     cost: 3 Malice
     keywords:
       - Area

@@ -61,6 +61,7 @@ traits:
       - effect: While riding the spider, two size 1 allies can occupy the same space
 abilities:
   - name: Bite
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -78,6 +79,7 @@ abilities:
           ends).
         cost: 2 Malice
   - name: Leg Blade
+    icon: 🗡
     keywords:
       - Melee
       - Strike
@@ -91,6 +93,7 @@ abilities:
         t2: 9 damage
         t3: 12 damage
   - name: Trample
+    icon: 👤
     cost: 5 Malice
     keywords:
       - "-"
@@ -103,6 +106,7 @@ abilities:
           one power roll against all targets.
         name: Effect
   - name: Web
+    icon: 🔳
     keywords:
       - Area
       - Weapon
@@ -117,6 +121,7 @@ abilities:
       - effect: The area is difficult terrain for enemies.
         name: Effect
   - name: Skitter
+    icon: ❗️
     keywords:
       - "-"
     type: Triggered action

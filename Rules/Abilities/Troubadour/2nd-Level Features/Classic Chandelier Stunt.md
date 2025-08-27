@@ -27,8 +27,8 @@ type: feature/ability/troubadour/2nd-level-feature
 ---
 
 ```ds-ability
-name: Classic Chandelier Stunt
-cost: 5 Drama
+name: ""
+icon: Classic Chandelier Stunt (5 Drama)
 flavor: Audiences love this bit.
 keywords:
   - Melee

@@ -26,8 +26,8 @@ type: feature/ability/censor/7th-level-feature
 ---
 
 ```ds-ability
-name: Trinity of Trickery
-cost: 9 Wrath
+name: ""
+icon: Trinity of Trickery (9 Wrath)
 flavor: Hey! I'm over here. No, here, numbskull.
 keywords:
   - Magic

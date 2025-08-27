@@ -16,7 +16,8 @@ type: feature/trait/null/4th-level-feature
 ---
 
 ```ds-ability
-name: Enhanced Null Field
+name: ""
+icon: Enhanced Null Field
 metadata:
   class: "null"
   feature_type: trait

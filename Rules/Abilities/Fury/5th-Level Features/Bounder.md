@@ -16,7 +16,8 @@ type: feature/trait/fury/5th-level-feature
 ---
 
 ```ds-ability
-name: Bounder
+name: ""
+icon: Bounder
 metadata:
   class: fury
   feature_type: trait

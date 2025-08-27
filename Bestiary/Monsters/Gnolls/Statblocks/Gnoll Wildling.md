@@ -56,6 +56,7 @@ traits:
           to 0 Stamina, the wildling can move up to their speed.
 abilities:
   - name: Flail
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

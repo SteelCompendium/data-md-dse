@@ -71,6 +71,7 @@ traits:
           head falls off after 24 hours. A head that falls off this way can no
           longer be attached to this bredbeddle.
 
+
           A creature must succeed on a **hard Might test** made as a maneuver to
           rip a head off the bredbeddle. If they fail, the bredbeddle can make a
           free strike against them.
@@ -80,6 +81,7 @@ traits:
           their Heady or Not trait.
 abilities:
   - name: Executioner's Swing
+    icon: ❇️
     cost: Signature Ability
     keywords:
       - Area
@@ -96,6 +98,7 @@ abilities:
           who come within distance of this ability during the shift.
         name: Malice
   - name: Lop
+    icon: 🗡
     cost: 3 Malice
     keywords:
       - Magic
@@ -120,6 +123,7 @@ abilities:
           who remains beheaded for 24 hours dies.
         name: Effect
   - name: Scramble
+    icon: 👤
     keywords:
       - "-"
     type: Maneuver
@@ -132,6 +136,7 @@ abilities:
           exits during the shift is difficult terrain.
         name: Effect
   - name: Headway
+    icon: 🏹
     cost: 5 Malice
     keywords:
       - Ranged
@@ -150,6 +155,7 @@ abilities:
         t2: 13 damage; prone; M < 2 dazed (save ends)
         t3: 16 damage; prone; M < 3 dazed (save ends)
   - name: Envious Imitation
+    icon: ❗️
     cost: 2 Malice
     keywords:
       - Magic
@@ -163,6 +169,7 @@ abilities:
           to any power rolls they make.
         name: Effect
   - name: Turn Green
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -180,6 +187,7 @@ abilities:
           any target turned green this way.
         name: Effect
   - name: Challenge
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Ranged
@@ -198,6 +206,7 @@ abilities:
         t3: The target can choose to deal 40 damage to the bredbeddle or remove the
           bredbeddle's head.
   - name: Headlam Rampage
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Melee

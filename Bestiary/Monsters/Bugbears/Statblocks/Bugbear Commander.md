@@ -59,6 +59,7 @@ traits:
           on themself at the start of each of their turns.
 abilities:
   - name: Inspiring Swordplay
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -76,6 +77,7 @@ abilities:
           strike until the start of the commander's next turn.
         name: Effect
   - name: You Next!
+    icon: 🏹
     keywords:
       - Ranged
     type: Main Action
@@ -85,6 +87,7 @@ abilities:
       - effect: The target moves up to their speed and uses a signature ability.
         name: Effect
   - name: Fall Back!
+    icon: ❇️
     cost: 5 Malice
     keywords:
       - Area
@@ -95,6 +98,7 @@ abilities:
       - effect: Each target shifts up to their speed, then can use the Throw maneuver.
         name: Effect
   - name: Throw
+    icon: 🗡
     keywords:
       - Melee
       - Strike
@@ -108,6 +112,7 @@ abilities:
           damage from being force moved this way.
         name: Effect
   - name: Catcher
+    icon: ❗️
     keywords:
       - Melee
     type: Free triggered action

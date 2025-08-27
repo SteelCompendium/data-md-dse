@@ -16,7 +16,8 @@ type: feature/trait/censor/4th-level-feature
 ---
 
 ```ds-ability
-name: Light of Revelation
+name: ""
+icon: Light of Revelation
 metadata:
   class: censor
   feature_type: trait

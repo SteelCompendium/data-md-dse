@@ -56,6 +56,7 @@ traits:
           melee free strike.
 abilities:
   - name: Fury Flail
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -72,6 +73,7 @@ abilities:
       - effect: This ability targets one additional target for each 2 Malice spent.
         cost: 2+ Malice
   - name: Marauder's Cackletongue
+    icon: ❇️
     cost: 3 Malice
     keywords:
       - Area

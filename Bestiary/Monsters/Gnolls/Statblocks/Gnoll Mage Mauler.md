@@ -56,6 +56,7 @@ traits:
           reduced to 0 Stamina, the mage mauler can move up to their speed.
 abilities:
   - name: Wizard Ripper
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Magic

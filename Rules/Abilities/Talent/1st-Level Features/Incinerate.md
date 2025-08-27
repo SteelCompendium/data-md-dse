@@ -26,7 +26,8 @@ type: feature/ability/talent/1st-level-feature
 ---
 
 ```ds-ability
-name: Incinerate
+name: ""
+icon: Incinerate
 flavor: The air erupts into a column of smokeless flame.
 keywords:
   - Area

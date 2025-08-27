@@ -25,8 +25,8 @@ type: feature/ability/shadow/8th-level-feature
 ---
 
 ```ds-ability
-name: Speed of Shadows
-cost: 11 Insight
+name: ""
+icon: Speed of Shadows (11 Insight)
 flavor: You make multiple strikes against a foe before they even notice they're dead.
 keywords:
   - Magic

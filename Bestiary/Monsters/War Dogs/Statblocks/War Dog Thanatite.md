@@ -57,6 +57,7 @@ traits:
           explodes, dealing 2d6 damage to each adjacent enemy and object.
 abilities:
   - name: Snaking Entrails
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -76,6 +77,7 @@ abilities:
           the thanatite (save ends).
         cost: 3 Malice
   - name: Wall of Flesh
+    icon: 🔳
     keywords:
       - Area
       - Magic

@@ -59,6 +59,7 @@ traits:
           the noctis mage has concealment, they have damage immunity 3.
 abilities:
   - name: Blotting Bolt
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -77,6 +78,7 @@ abilities:
       - effect: The target instead has a double bane on the next ability they use.
         cost: 3 Malice
   - name: Enemies in the Dark
+    icon: 🏹
     cost: 3 Malice
     keywords:
       - Magic

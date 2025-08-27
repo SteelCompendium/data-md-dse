@@ -16,7 +16,8 @@ type: feature/trait/troubadour/10th-level-feature
 ---
 
 ```ds-ability
-name: Applause
+name: ""
+icon: Applause
 metadata:
   class: troubadour
   feature_type: trait
@@ -37,6 +38,7 @@ effects:
       You have an epic resource called applause. Each time you finish a respite,
       you gain applause equal to the XP you gain. You can spend applause on your
       abilities as if it were drama.
+
 
       Additionally, whenever you or a creature within 3 squares would obtain a
       failure or a tier 1 outcome on a test, you can spend 1 applause to improve

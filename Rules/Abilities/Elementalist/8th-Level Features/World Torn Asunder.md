@@ -27,8 +27,8 @@ type: feature/ability/elementalist/8th-level-feature
 ---
 
 ```ds-ability
-name: World Torn Asunder
-cost: 11 Essence
+name: ""
+icon: World Torn Asunder (11 Essence)
 flavor: You stomp your foot and quake the whole world over.
 keywords:
   - Area

@@ -16,7 +16,8 @@ type: feature/trait/talent/6th-level-feature
 ---
 
 ```ds-ability
-name: Psi Boost
+name: ""
+icon: Psi Boost
 metadata:
   class: talent
   feature_type: trait
@@ -40,6 +41,7 @@ effects:
       end of the turn which the ability is first used. You can apply multiple
       psi boosts to an ability, but only one instance of each specific boost.
       You can use the following psi boosts.
+
 
       ##### Dynamic Power (1 Clarity)
 

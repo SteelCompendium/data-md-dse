@@ -69,6 +69,7 @@ traits:
       - effect: While Dorzinuuth isn't flying, strikes made against him take a bane.
 abilities:
   - name: Punishing Flail
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -85,6 +86,7 @@ abilities:
       - effect: If the target has M < 4, they are also bleeding (save ends).
         cost: 2 Malice
   - name: I'll Cut A Path
+    icon: 🔳
     keywords:
       - Area
       - Weapon
@@ -100,6 +102,7 @@ abilities:
         t2: 13 damage; M < 3 prone
         t3: 15 damage; M < 4 prone
   - name: Watch Your Six!
+    icon: ❗️
     keywords:
       - Melee
     type: Triggered action
@@ -111,6 +114,7 @@ abilities:
           damage.
         name: Effect
   - name: Roaring Gambit
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -127,6 +131,7 @@ abilities:
       - effect: Each ally in the area gains an edge on their next strike.
         name: Effect
   - name: Wings of Second Wind
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Area
@@ -137,6 +142,7 @@ abilities:
       - effect: Each target shifts or flies up to their speed and regains 10 Stamina.
         name: Effect
   - name: Snap, Crackle, Pop
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

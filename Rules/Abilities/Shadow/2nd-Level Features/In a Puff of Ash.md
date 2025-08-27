@@ -29,8 +29,8 @@ type: feature/ability/shadow/2nd-level-feature
 ---
 
 ```ds-ability
-name: In a Puff of Ash
-cost: 5 Insight
+name: ""
+icon: In a Puff of Ash (5 Insight)
 flavor: You enchant a strike with your teleportation magic.
 keywords:
   - Magic

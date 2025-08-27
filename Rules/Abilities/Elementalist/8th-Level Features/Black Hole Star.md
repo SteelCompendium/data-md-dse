@@ -16,7 +16,8 @@ type: feature/trait/elementalist/8th-level-feature
 ---
 
 ```ds-ability
-name: Black Hole Star
+name: ""
+icon: Black Hole Star
 metadata:
   class: elementalist
   feature_type: trait
@@ -40,6 +41,7 @@ effects:
       vertical pull that target up to 5 squares. If their stability reduces this
       forced movement, they are pulled a minimum of 2 squares. This forced
       movement ignores stability for your allies.
+
 
       Additionally, your Mantle of Essence improves. While in the area of the
       aura, enemies and objects have their stability reduced by an amount equal

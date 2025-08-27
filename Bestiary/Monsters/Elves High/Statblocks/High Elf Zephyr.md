@@ -61,6 +61,7 @@ traits:
           the end of their turn.
 abilities:
   - name: Sweeping Blade
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -80,6 +81,7 @@ abilities:
           prone. On any tier outcome, the zephyr can then shift up to 2 squares
         name: Effect
   - name: Windwalk
+    icon: 👤
     keywords:
       - "-"
     type: Maneuver

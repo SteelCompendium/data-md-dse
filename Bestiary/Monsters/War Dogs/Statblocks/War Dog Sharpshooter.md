@@ -58,6 +58,7 @@ traits:
           explodes, dealing 1d3 damage to each adjacent enemy and object.
 abilities:
   - name: Bolt Launcher
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged

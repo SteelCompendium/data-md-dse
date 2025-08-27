@@ -65,6 +65,7 @@ traits:
           Each creature adjacent to the incendiarist takes 3 fire damage.
 abilities:
   - name: Fire Crossbow
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged
@@ -83,6 +84,7 @@ abilities:
           round.
         name: Effect
   - name: Fireball Volley
+    icon: 🔳
     cost: 3 Malice
     keywords:
       - Area

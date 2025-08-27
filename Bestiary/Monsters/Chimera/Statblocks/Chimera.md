@@ -67,6 +67,7 @@ traits:
           they can move their speed toward an enemy.
 abilities:
   - name: Bite
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -84,6 +85,7 @@ abilities:
           edge.
         name: Effect
   - name: Dragon's Eruption
+    icon: 🔳
     cost: 5 Malice
     keywords:
       - Area
@@ -98,6 +100,7 @@ abilities:
         t2: 5 fire damage; A < 2 5 fire damage
         t3: 7 fire damage; A < 3 7 fire damage
   - name: Roar
+    icon: ❇️
     cost: 5 Malice
     keywords:
       - Area
@@ -111,6 +114,7 @@ abilities:
         t2: 8 psychic damage; I < 2 frightened (save ends)
         t3: 10 psychic damage; I < 3 frightened (save ends)
   - name: Lion's Toss
+    icon: 🗡
     keywords:
       - Melee
       - Weapon
@@ -123,6 +127,7 @@ abilities:
         t2: Vertical push 3
         t3: Vertical push 5
   - name: Ram's Defiance
+    icon: ❗️
     keywords:
       - Melee
       - Strike
@@ -135,12 +140,12 @@ abilities:
       - name: Effect
         effect: The chimera shifts up to 5 squares. If they end this shift within
           distance of the target, make a power roll.
-      - effect: |-
-          **Power Roll + 3**
-          - **≤11:** 6 damage; M < 1 slowed (save ends)
-          - **12-16:** 8 damage; prone; M < 2 slowed (save ends)
-          - **17+:** 10 damage; prone; M < 3 slowed (save ends)
+      - effect: "**Power Roll + 3**"
+        t1: 6 damage; M < 1 slowed (save ends)
+        t2: 8 damage; prone; M < 2 slowed (save ends)
+        t3: 10 damage; prone; M < 3 slowed (save ends)
   - name: Overture of Destruction
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -151,6 +156,7 @@ abilities:
       - effect: The chimera can use Bite and Lion's Toss against each target.
         name: Effect
   - name: Fire Solo
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - "-"
@@ -161,6 +167,7 @@ abilities:
       - effect: The chimera uses Dragon's Eruption and Roar without spending Malice.
         name: Effect
   - name: Chorus of Destruction
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - "-"

@@ -58,6 +58,7 @@ traits:
           until the end of their next turn.
 abilities:
   - name: Nip
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

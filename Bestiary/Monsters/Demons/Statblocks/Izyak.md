@@ -61,6 +61,7 @@ traits:
       - effect: Any creature within 2 squares of the izyak can't be hidden from them.
 abilities:
   - name: Nostalgic Wanderlust
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Psionic
@@ -81,6 +82,7 @@ abilities:
           restrained condition ends.
         cost: 3 Malice
   - name: Ruinous Temptation
+    icon: 🔳
     cost: 3 Malice
     keywords:
       - Area

@@ -25,8 +25,8 @@ type: feature/ability/shadow/6th-level-feature
 ---
 
 ```ds-ability
-name: Cinderstorm
-cost: 9 Insight
+name: ""
+icon: Cinderstorm (9 Insight)
 flavor: You teleport your friends in a burst of ash and fire.
 keywords:
   - Magic

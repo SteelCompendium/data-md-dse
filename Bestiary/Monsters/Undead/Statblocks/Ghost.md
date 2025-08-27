@@ -64,6 +64,7 @@ traits:
           force moved into objects.
 abilities:
   - name: Heat Death
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -80,6 +81,7 @@ abilities:
       - effect: The next strike made against the target gains an edge.
         name: Effect
   - name: Haunt
+    icon: 🏹
     keywords:
       - Ranged
     type: Maneuver
@@ -91,6 +93,7 @@ abilities:
       - effect: The ghost chooses one additional target.
         cost: 2 Malice
   - name: Shriek
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - Magic
@@ -104,6 +107,7 @@ abilities:
           damage.
         name: Effect
   - name: Paranormal Activity
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -116,6 +120,7 @@ abilities:
           squares toward the nearest enemy within 3 squares of the target.
         name: Effect
   - name: Spirited Away
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Area
@@ -134,6 +139,7 @@ abilities:
           while flying this way
         name: Effect
   - name: Awful Wail
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

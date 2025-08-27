@@ -65,6 +65,7 @@ traits:
           action until the end of the encounter.
 abilities:
   - name: Infernal Decree
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -82,6 +83,7 @@ abilities:
           by a devil gains an edge.
         cost: 2 Malice
   - name: Compel the Jury
+    icon: 🏹
     keywords:
       - Magic
       - Ranged
@@ -90,16 +92,16 @@ abilities:
     distance: Ranged 12
     target: Two creatures
     effects:
-      - effect: |-
-          **Power Roll + 4**
-          - **≤11:** I < 2 the target is charmed (save ends)
-          - **12-16:** I < 3 the target is charmed (save ends)
-          - **17+:** I < 4 the target is charmed (save ends)
+      - effect: "**Power Roll + 4**"
+        t1: I < 2 the target is charmed (save ends)
+        t2: I < 3 the target is charmed (save ends)
+        t3: I < 4 the target is charmed (save ends)
       - effect: While charmed this way, a creature treats the high judge as an ally, and
           the high judge can spend 1 Malice on their turn to make that creature
           move up to 3 squares.
         name: Effect
   - name: Devilish Suggestion
+    icon: ❗️
     cost: 2 Malice
     keywords:
       - Magic
@@ -118,6 +120,7 @@ abilities:
           the high judge can spend 1 Malice on their turn to make that creature
           move up to 3 squares.
   - name: All Rise
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -135,6 +138,7 @@ abilities:
           the high judge can spend 1 Malice on their turn to make that creature
           move up to 3 squares.
   - name: Heed My Decree
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Area
@@ -147,6 +151,7 @@ abilities:
           move up to half that creature's speed.
         name: Effect
   - name: Deceptive Stratagem
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Magic

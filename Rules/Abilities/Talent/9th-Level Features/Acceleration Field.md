@@ -28,8 +28,8 @@ type: feature/ability/talent/9th-level-feature
 ---
 
 ```ds-ability
-name: Acceleration Field
-cost: 11 Clarity
+name: ""
+icon: Acceleration Field (11 Clarity)
 flavor: You forcibly stuff more moments into a critical point in time, knowing
   full well you might need to steal some of your own.
 keywords:

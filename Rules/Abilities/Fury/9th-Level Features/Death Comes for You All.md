@@ -28,8 +28,8 @@ type: feature/ability/fury/9th-level-feature
 ---
 
 ```ds-ability
-name: Death Comes for You All!
-cost: 11 Ferocity
+name: ""
+icon: Death Comes for You All! (11 Ferocity)
 flavor: You use your weapon to create a destructive shockwave.
 keywords:
   - Area

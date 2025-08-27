@@ -28,8 +28,8 @@ type: feature/ability/talent/8th-level-feature
 ---
 
 ```ds-ability
-name: Mindwipe
-cost: 11 Clarity
+name: ""
+icon: Mindwipe (11 Clarity)
 flavor: You attempt to make them forget all their training.
 keywords:
   - Melee

@@ -16,7 +16,8 @@ type: feature/trait/talent/7th-level-feature
 ---
 
 ```ds-ability
-name: Skill
+name: ""
+icon: Skill
 metadata:
   class: talent
   feature_type: trait

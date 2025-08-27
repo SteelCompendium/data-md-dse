@@ -65,6 +65,7 @@ traits:
           Each creature adjacent to the grandguard takes 3 fire damage
 abilities:
   - name: Tower Shield Smash
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -82,6 +83,7 @@ abilities:
           target.
         cost: 3 Malice
   - name: Thunder Rush
+    icon: 🔳
     cost: 3 Malice
     keywords:
       - Area

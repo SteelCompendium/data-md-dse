@@ -64,6 +64,7 @@ traits:
           concealment have a double bane instead.
 abilities:
   - name: Wodeblade
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Magic
@@ -83,6 +84,7 @@ abilities:
       - effect: A target restrained by this ability takes an extra 3 damage.
         cost: 2 Malice
   - name: Fairness Is a Human Concept
+    icon: ❇️
     cost: 5 Malice
     keywords:
       - Area
@@ -95,6 +97,7 @@ abilities:
           this shift can attempt to hide at the end of the warleader's turn.
         name: Effect
   - name: Wode Sickness
+    icon: ❗️
     keywords:
       - Ranged
     type: Triggered action
@@ -107,6 +110,7 @@ abilities:
           take a bane on strikes until the end of their turn.
         name: Effect
   - name: You Will All Witness my Blade
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -118,6 +122,7 @@ abilities:
           the power roll.
         name: Effect
   - name: Suppressing Volley
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Area
@@ -129,6 +134,7 @@ abilities:
           strike.
         name: Effect
   - name: Is It Now or Is It Then?
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

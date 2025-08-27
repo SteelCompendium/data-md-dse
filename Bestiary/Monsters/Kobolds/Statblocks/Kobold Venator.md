@@ -64,6 +64,7 @@ traits:
           stability 1, has cover, and grants cover to allies.
 abilities:
   - name: Dolabra and Net
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

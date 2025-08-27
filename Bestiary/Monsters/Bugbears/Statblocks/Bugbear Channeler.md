@@ -55,6 +55,7 @@ presence: 2
 traits: []
 abilities:
   - name: Shadow Drag
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -71,6 +72,7 @@ abilities:
           through is difficult terrain for enemies.
         name: Effect
   - name: Blistering Element
+    icon: ❇️
     keywords:
       - Area
       - Magic
@@ -86,6 +88,7 @@ abilities:
         t2: 3 damage; M < 1 bleeding (save ends)
         t3: 4 damage; M < 2 bleeding (save ends)
   - name: Twist Shape
+    icon: 🏹
     cost: 5 Malice
     keywords:
       - Magic
@@ -103,6 +106,7 @@ abilities:
           limbs stretch and their skin becomes paper thin.
         name: Effect
   - name: Throw
+    icon: 🗡
     keywords:
       - Melee
       - Strike
@@ -116,6 +120,7 @@ abilities:
           damage from being force moved this way.
         name: Effect
   - name: Catcher
+    icon: ❗️
     keywords:
       - Melee
     type: Free triggered action
@@ -127,6 +132,7 @@ abilities:
       - effect: The target is grabbed by the channeler.
         name: Effect
   - name: Shadow Veil
+    icon: ❗️
     keywords:
       - Magic
       - Ranged

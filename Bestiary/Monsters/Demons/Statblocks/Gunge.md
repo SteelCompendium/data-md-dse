@@ -60,6 +60,7 @@ traits:
       - effect: Any creature within 2 squares of the gunge can't be hidden from them.
 abilities:
   - name: Bilious Expulsion
+    icon: 🔳
     cost: Signature Ability
     keywords:
       - Area
@@ -78,6 +79,7 @@ abilities:
           area.
         name: Effect
   - name: Spew Slide
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - "-"

@@ -29,8 +29,8 @@ type: feature/ability/null/8th-level-feature
 ---
 
 ```ds-ability
-name: Phase Hurl
-cost: 11 Discipline
+name: ""
+icon: Phase Hurl (11 Discipline)
 flavor: You throw your foe out of phase with this manifold, causing them to harm
   other enemies as they return.
 keywords:

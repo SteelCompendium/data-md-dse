@@ -26,8 +26,8 @@ type: feature/ability/conduit/2nd-level-feature
 ---
 
 ```ds-ability
-name: Blessing of Fate and Destiny
-cost: 5 Piety
+name: ""
+icon: Blessing of Fate and Destiny (5 Piety)
 flavor: Your enemies suffer their fate; your allies embrace their destiny!
 keywords:
   - Magic

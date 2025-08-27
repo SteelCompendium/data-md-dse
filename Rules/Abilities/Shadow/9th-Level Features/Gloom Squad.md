@@ -16,7 +16,8 @@ type: feature/trait/shadow/9th-level-feature
 ---
 
 ```ds-ability
-name: Gloom Squad
+name: ""
+icon: Gloom Squad
 metadata:
   class: shadow
   feature_type: trait
@@ -44,6 +45,7 @@ effects:
       action that they can use only to make a free strike. While making a free
       strike, a clone must choose targets that you or another clone aren't also
       striking.
+
 
       Outside of combat, you can have one clone active for every 2 Victories you
       have. If a clone is destroyed, you must wait 1 hour before creating

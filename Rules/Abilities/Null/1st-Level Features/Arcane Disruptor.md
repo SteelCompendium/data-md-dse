@@ -28,8 +28,8 @@ type: feature/ability/null/1st-level-feature
 ---
 
 ```ds-ability
-name: Arcane Disruptor
-cost: 5 Discipline
+name: ""
+icon: Arcane Disruptor (5 Discipline)
 flavor: Your blow reorders a foe's body, causing pain if they attempt to channel
   sorcery.
 keywords:
@@ -70,9 +70,9 @@ metadata:
   type: feature/ability/null/1st-level-feature
 effects:
   - roll: Power Roll + Agility
-    t1: 8 + A psychic damage; M < WEAK, weakened (save ends)
-    t2: 12 + A psychic damage; M < AVERAGE, weakened (save ends)
-    t3: 16 + A psychic damage; M < STRONG, weakened (save ends)
+    t1: 8 + **A** psychic damage; M < WEAK, weakened (save ends)
+    t2: 12 + **A** psychic damage; M < AVERAGE, weakened (save ends)
+    t3: 16 + **A** psychic damage; M < STRONG, weakened (save ends)
   - effect: While weakened this way, the target takes damage equal to your Intuition
       score whenever they use a supernatural ability that costs Malice.
     name: Effect

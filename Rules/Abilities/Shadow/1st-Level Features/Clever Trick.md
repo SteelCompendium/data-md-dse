@@ -25,8 +25,8 @@ type: feature/ability/shadow/1st-level-feature
 ---
 
 ```ds-ability
-name: Clever Trick
-cost: 1 Insight
+name: ""
+icon: Clever Trick (1 Insight)
 flavor: You sow a moment of confusion in combat, to your enemy's peril.
 keywords:
   - Magic

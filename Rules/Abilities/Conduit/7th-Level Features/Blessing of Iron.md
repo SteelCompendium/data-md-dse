@@ -16,7 +16,8 @@ type: feature/trait/conduit/7th-level-feature
 ---
 
 ```ds-ability
-name: Blessing of Iron
+name: ""
+icon: Blessing of Iron
 metadata:
   class: conduit
   feature_type: trait

@@ -25,8 +25,8 @@ type: feature/ability/tactician/1st-level-feature
 ---
 
 ```ds-ability
-name: Now!
-cost: 5 Focus
+name: ""
+icon: Now! (5 Focus)
 flavor: Your allies wait for your command-then unleash death!
 keywords:
   - Ranged

@@ -57,6 +57,7 @@ traits:
           their turn within 2 squares of the storm hurler can't shift.
 abilities:
   - name: Ice Javelins
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -75,6 +76,7 @@ abilities:
           ends.
         name: Effect
   - name: Flower of Frost
+    icon: 🏹
     cost: 3 Malice
     keywords:
       - Magic
@@ -93,6 +95,7 @@ abilities:
         t2: 11 cold damage; push 2; slowed (save ends)
         t3: 7 cold damage
   - name: Ice Dance
+    icon: 🗡
     keywords:
       - Melee
     type: Maneuver
@@ -104,6 +107,7 @@ abilities:
           make a free strike.
         name: Effect
   - name: Frozen Retribution
+    icon: ❗️
     keywords:
       - "-"
     type: Triggered action

@@ -16,7 +16,8 @@ type: feature/trait/fury/2nd-level-feature
 ---
 
 ```ds-ability
-name: Inescapable Wrath
+name: ""
+icon: Inescapable Wrath
 metadata:
   class: fury
   feature_type: trait

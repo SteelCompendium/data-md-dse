@@ -56,6 +56,7 @@ traits:
           between the dwarf and the target.
 abilities:
   - name: Concussive Grenade
+    icon: 🔳
     cost: Signature Ability
     keywords:
       - Area
@@ -74,6 +75,7 @@ abilities:
           Director determines otherwise.
         name: Effect
   - name: Sleep Grenade
+    icon: 🔳
     cost: 3 Malice
     keywords:
       - Ranged

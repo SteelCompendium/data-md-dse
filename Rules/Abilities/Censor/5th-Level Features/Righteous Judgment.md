@@ -27,8 +27,8 @@ type: feature/ability/censor/5th-level-feature
 ---
 
 ```ds-ability
-name: Righteous Judgment
-cost: 9 Wrath
+name: ""
+icon: Righteous Judgment (9 Wrath)
 flavor: You amplify the power of your judgment.
 keywords:
   - Melee

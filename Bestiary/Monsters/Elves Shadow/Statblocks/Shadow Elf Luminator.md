@@ -59,6 +59,7 @@ traits:
           the luminator has concealment, they have damage immunity 3.
 abilities:
   - name: Lumina Mark
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -75,6 +76,7 @@ abilities:
       - effect: The next strike made against the target deals an extra 5 damage.
         name: Effect
   - name: Mourning Till Dusk
+    icon: ❇️
     cost: 3 Malice
     keywords:
       - Area

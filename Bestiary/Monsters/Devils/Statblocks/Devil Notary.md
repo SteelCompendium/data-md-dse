@@ -59,6 +59,7 @@ traits:
           signature ability until the end of the encounter.
 abilities:
   - name: Importunity
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic

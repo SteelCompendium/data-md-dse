@@ -28,8 +28,8 @@ type: feature/ability/shadow/1st-level-feature
 ---
 
 ```ds-ability
-name: Eviscerate
-cost: 3 Insight
+name: ""
+icon: Eviscerate (3 Insight)
 flavor: You leave your foe bleeding out after a devastating attack.
 keywords:
   - Melee

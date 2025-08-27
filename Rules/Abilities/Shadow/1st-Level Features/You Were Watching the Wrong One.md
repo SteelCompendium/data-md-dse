@@ -24,7 +24,8 @@ type: feature/ability/shadow/1st-level-feature
 ---
 
 ```ds-ability
-name: You Were Watching the Wrong One
+name: ""
+icon: You Were Watching the Wrong One
 flavor: They can't watch both of you at once.
 keywords:
   - Melee

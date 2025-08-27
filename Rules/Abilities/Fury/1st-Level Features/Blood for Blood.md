@@ -27,8 +27,8 @@ type: feature/ability/fury/1st-level-feature
 ---
 
 ```ds-ability
-name: Blood for Blood!
-cost: 5 Ferocity
+name: ""
+icon: Blood for Blood! (5 Ferocity)
 flavor: See how well they fight after you've bled them dry.
 keywords:
   - Melee

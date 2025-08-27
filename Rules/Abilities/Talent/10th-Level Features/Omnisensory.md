@@ -16,7 +16,8 @@ type: feature/trait/talent/10th-level-feature
 ---
 
 ```ds-ability
-name: Omnisensory
+name: ""
+icon: Omnisensory
 metadata:
   class: talent
   feature_type: trait

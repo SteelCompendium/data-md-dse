@@ -60,6 +60,7 @@ traits:
           power rolls they make against each other.
 abilities:
   - name: Agile Stride
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -74,6 +75,7 @@ abilities:
         t2: 14 damage; the null shifts up to 4 squares; A < 2 11 damage
         t3: 17 damage; the null shifts up to 5 squares; A < 3 11 damage
   - name: Deaden
+    icon: 🗡
     cost: 2 Malice
     keywords:
       - Melee

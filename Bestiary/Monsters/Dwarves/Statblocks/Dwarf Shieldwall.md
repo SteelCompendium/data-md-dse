@@ -56,6 +56,7 @@ traits:
           creature's next turn.
 abilities:
   - name: Wide Axe
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -77,6 +78,7 @@ abilities:
       - effect: This ability targets one additional target.
         cost: 3 Malice
   - name: Intercepting Shield
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - "-"

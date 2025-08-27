@@ -16,7 +16,8 @@ type: feature/trait/talent/4th-level-feature
 ---
 
 ```ds-ability
-name: Mind Projection
+name: ""
+icon: Mind Projection
 metadata:
   class: talent
   feature_type: trait
@@ -39,6 +40,7 @@ effects:
       separate entity with size 1T. Your mind automatically has concealment, and
       can freely move through solid matter. If you end your turn inside solid
       matter, you are forced out into the space where you entered it.
+
 
       Any abilities or features you use originate from your mind. Both your mind
       and your body can take damage while separated, with any such damage

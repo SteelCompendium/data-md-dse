@@ -58,6 +58,7 @@ traits:
           corpse when using the Reconstitute feature (see Reconstitute)
 abilities:
   - name: Syringe Crossbow
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged
@@ -75,6 +76,7 @@ abilities:
           instead gains 5 temporary Stamina and can make a free strike.
         name: Effect
   - name: Posthumous Promotion
+    icon: 🏹
     keywords:
       - Magic
       - Ranged
@@ -85,6 +87,7 @@ abilities:
       - effect: If the target has a loyalty collar, they are reduced to 0 Stamina.
         name: Effect
   - name: Sanguine Stimulants
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - Magic

@@ -74,6 +74,7 @@ traits:
       - effect: The area within 6 squares of the shambling mound is difficult terrain.
 abilities:
   - name: Vine Lash
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -92,6 +93,7 @@ abilities:
       - effect: Each target takes 7 poison damage.
         cost: 3 Malice
   - name: Seismic Slam
+    icon: ❇️
     keywords:
       - Area
       - Weapon
@@ -104,6 +106,7 @@ abilities:
         t2: 6 damage; M < 3 dazed (save ends)
         t3: 7 damage; M < 4 dazed (save ends)
   - name: Engulf
+    icon: 🗡
     cost: 2 Malice
     keywords:
       - Melee
@@ -126,6 +129,7 @@ abilities:
           spent.
         cost: 2+ Malice
   - name: Leech
+    icon: 👤
     keywords:
       - "-"
     type: Maneuver
@@ -137,6 +141,7 @@ abilities:
           damage this way.
         name: Effect
   - name: Tether Down
+    icon: ❗️
     keywords:
       - Melee
     type: Triggered action
@@ -149,6 +154,7 @@ abilities:
       - **17+:** 15 damage; M < 4 restrained (EoT)
     effects: []
   - name: Ravenous Overgrowth
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -164,6 +170,7 @@ abilities:
         t3: 15 damage; pull 6; the target has poison weakness 5 until the end of the
           encounter
   - name: Composting
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Melee
@@ -175,6 +182,7 @@ abilities:
           Malice.
         name: Effect
   - name: Exposed Crux
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Melee

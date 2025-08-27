@@ -76,6 +76,7 @@ traits:
           hidden from the olothec.
 abilities:
   - name: Devolving Tentacles
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -92,6 +93,7 @@ abilities:
       - effect: A slimed target takes 4 psychic damage whenever they make a power roll.
         name: Effect
   - name: Slime Spew
+    icon: 🔳
     keywords:
       - Area
       - Weapon
@@ -110,6 +112,7 @@ abilities:
           within it for the first time on a turn and has A < 3 is knocked prone.
         cost: 1 Malice
   - name: Oozing Transformation
+    icon: 🏹
     cost: 2 Malice
     keywords:
       - Psionic
@@ -137,6 +140,7 @@ abilities:
           double edges and can't gain or use surges.
         name: Torso
   - name: Jaunt
+    icon: 👤
     keywords:
       - Psionic
     type: Maneuver
@@ -148,6 +152,7 @@ abilities:
           squares of them.
         name: Effect
   - name: Liquify
+    icon: ❗️
     keywords:
       - Psionic
       - Ranged
@@ -160,6 +165,7 @@ abilities:
           end of the olothec's next turn.
         name: Effect
   - name: Horrifying Form
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Psionic
@@ -177,6 +183,7 @@ abilities:
           other effects
         name: Effect
   - name: Psychic Pulse
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Area
@@ -192,6 +199,7 @@ abilities:
           olothec has damage immunity 4.
         name: Effect
   - name: Return to Perfection
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

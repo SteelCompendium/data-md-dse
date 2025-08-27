@@ -64,6 +64,7 @@ traits:
       - effect: The grilp has concealment from all creatures.
 abilities:
   - name: Flyby Bite
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

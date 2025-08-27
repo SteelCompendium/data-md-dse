@@ -29,8 +29,8 @@ type: feature/ability/talent/6th-level-feature
 ---
 
 ```ds-ability
-name: Synaptic Dissipation
-cost: 9 Clarity
+name: ""
+icon: Synaptic Dissipation (9 Clarity)
 flavor: You manipulate your enemies' minds and make them wonder if you were ever
   really there in the first place.
 keywords:

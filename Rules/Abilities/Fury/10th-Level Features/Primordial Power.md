@@ -16,7 +16,8 @@ type: feature/trait/fury/10th-level-feature
 ---
 
 ```ds-ability
-name: Primordial Power
+name: ""
+icon: Primordial Power
 metadata:
   class: fury
   feature_type: trait
@@ -37,6 +38,7 @@ effects:
       You have an epic resource called primordial power. Each time you finish a
       respite, you gain primordial power equal to the XP you gain. You can spend
       primordial power on your abilities as if it were ferocity.
+
 
       Additionally, you can spend any amount of primordial power as a free
       maneuver, ending one effect on you for each primordial power spent.

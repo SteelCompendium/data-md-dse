@@ -16,7 +16,8 @@ type: feature/trait/censor/4th-level-feature
 ---
 
 ```ds-ability
-name: Characteristic Increase
+name: ""
+icon: Characteristic Increase
 metadata:
   class: censor
   feature_type: trait

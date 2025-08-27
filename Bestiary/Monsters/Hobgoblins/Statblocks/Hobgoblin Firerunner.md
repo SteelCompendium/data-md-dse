@@ -69,6 +69,7 @@ traits:
           Each creature adjacent to the firerunner takes 3 fire damage.
 abilities:
   - name: Flaming Kick
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge
@@ -84,6 +85,7 @@ abilities:
         t2: 13 fire damage
         t3: 16 fire damage; A < 3 dazed (EoT)
   - name: Blazing Trail
+    icon: 👤
     keywords:
       - Magic
     type: Maneuver

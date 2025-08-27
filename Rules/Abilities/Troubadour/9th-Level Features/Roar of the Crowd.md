@@ -16,7 +16,8 @@ type: feature/trait/troubadour/9th-level-feature
 ---
 
 ```ds-ability
-name: Roar of the Crowd
+name: ""
+icon: Roar of the Crowd
 metadata:
   class: troubadour
   feature_type: trait
@@ -36,6 +37,7 @@ effects:
   - effect: >-
       You are empowered by your audience, near and far. You can't be made
       frightened, and if you are prone, you can stand up as a free maneuver.
+
 
       Additionally, whenever you spend a Recovery, you can forgo regaining
       Stamina to invoke the roar of an invisible applauding audience. You and

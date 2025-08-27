@@ -16,7 +16,8 @@ type: feature/trait/troubadour/1st-level-feature
 ---
 
 ```ds-ability
-name: Drama in Combat
+name: ""
+icon: Drama in Combat
 metadata:
   class: troubadour
   feature_type: trait
@@ -38,6 +39,7 @@ effects:
       tracked in combat rounds (as determined by the Director), you gain drama
       equal to your Victories. At the start of each of your turns during combat,
       you gain 1d3 drama.
+
 
       Additionally, you gain drama when certain events occur during a combat
       encounter:

@@ -28,8 +28,8 @@ type: feature/ability/talent/1st-level-feature
 ---
 
 ```ds-ability
-name: Inertia Soak
-cost: 5 Clarity
+name: ""
+icon: Inertia Soak (5 Clarity)
 flavor: Your psionic energy surrounds the target and pushes everything else away
   from them.
 keywords:

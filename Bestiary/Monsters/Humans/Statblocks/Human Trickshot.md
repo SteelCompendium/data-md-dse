@@ -58,6 +58,7 @@ traits:
           effect.
 abilities:
   - name: Trick Crossbow
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Melee

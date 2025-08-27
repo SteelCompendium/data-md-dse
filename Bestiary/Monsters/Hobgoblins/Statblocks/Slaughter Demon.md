@@ -69,6 +69,7 @@ traits:
           any strike made against them gains an edge.
 abilities:
   - name: Steely Skewer
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -87,6 +88,7 @@ abilities:
           once.
         name: Effect
   - name: Tail Stinger
+    icon: 🗡
     cost: 3 Malice
     keywords:
       - Melee
@@ -103,6 +105,7 @@ abilities:
       - effect: A target weakened this way also has damage weakness 3.
         name: Effect
   - name: Devour Soul
+    icon: ❗️
     keywords:
       - Area
       - Magic

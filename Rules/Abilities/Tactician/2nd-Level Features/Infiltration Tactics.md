@@ -16,7 +16,8 @@ type: feature/trait/tactician/2nd-level-feature
 ---
 
 ```ds-ability
-name: Infiltration Tactics
+name: ""
+icon: Infiltration Tactics
 metadata:
   class: tactician
   feature_type: trait

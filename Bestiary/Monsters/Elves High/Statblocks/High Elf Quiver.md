@@ -59,6 +59,7 @@ traits:
           the end of their turn.
 abilities:
   - name: Heavy Arrow
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged

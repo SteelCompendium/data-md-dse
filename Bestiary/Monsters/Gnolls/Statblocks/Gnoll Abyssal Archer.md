@@ -61,6 +61,7 @@ traits:
           opening exists between the archer and the target.
 abilities:
   - name: Dark Longbow
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged
@@ -77,6 +78,7 @@ abilities:
       - effect: This ability gains an edge against any target not at full Stamina.
         name: Effect
   - name: Archer's Cackletongue
+    icon: ❇️
     cost: 2 Malice
     keywords:
       - Area

@@ -56,6 +56,7 @@ traits:
           roll to power rolls they make against each other.
 abilities:
   - name: Dual Targeting Shot
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged
@@ -73,6 +74,7 @@ abilities:
           targets.
         cost: 2 Malice
   - name: I'll Cover You!
+    icon: 🏹
     cost: 3 Malice
     keywords:
       - Ranged
@@ -89,6 +91,7 @@ abilities:
       - effect: One ally adjacent to the target regains 5 Stamina.
         name: Effect
   - name: Overwatch
+    icon: ❗️
     keywords:
       - Ranged
     type: Triggered action

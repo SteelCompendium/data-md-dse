@@ -16,7 +16,8 @@ type: feature/trait/troubadour/4th-level-feature
 ---
 
 ```ds-ability
-name: Melodrama
+name: ""
+icon: Melodrama
 metadata:
   class: troubadour
   feature_type: trait
@@ -37,6 +38,7 @@ effects:
       You have more ways of getting the most drama out of a situation. Choose
       two of the following events to add to the events that grant you drama
       during battle:
+
 
       - Whenever a creature rolls a natural 2 on a power roll, you gain 2 drama.
 

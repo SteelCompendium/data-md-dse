@@ -59,6 +59,7 @@ traits:
           explodes, dealing 1d6 damage to each adjacent enemy and object.
 abilities:
   - name: Flamebelcher
+    icon: 🔳
     cost: Signature Ability
     keywords:
       - Area
@@ -80,6 +81,7 @@ abilities:
           each target.
         cost: 3 Malice
   - name: Posthumous Promotion
+    icon: 🏹
     keywords:
       - Magic
       - Ranged

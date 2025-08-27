@@ -56,6 +56,7 @@ traits:
           ignore difficult terrain.
 abilities:
   - name: Bluster
+    icon: ❇️
     cost: Signature Ability
     keywords:
       - Area
@@ -71,6 +72,7 @@ abilities:
       - effect: The essence shifts up to 3 squares before or after using this ability.
         name: Effect
   - name: Convocation of Squalls
+    icon: 🏹
     keywords:
       - Magic
       - Ranged
@@ -87,6 +89,7 @@ abilities:
           area up to 5 squares.
         cost: 3 Malice
   - name: Thunderclap
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - Magic

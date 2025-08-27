@@ -26,8 +26,8 @@ type: feature/ability/shadow/1st-level-feature
 ---
 
 ```ds-ability
-name: One Hundred Throats
-cost: 5 Insight
+name: ""
+icon: One Hundred Throats (5 Insight)
 flavor: As you move across the battlefield, every foe within reach feels your wrath.
 keywords:
   - Melee

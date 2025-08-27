@@ -64,6 +64,7 @@ traits:
           end of the encounter.
 abilities:
   - name: Infernal Injunction
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -81,6 +82,7 @@ abilities:
           squares.
         name: Effect
   - name: Adjudicator's Interdiction
+    icon: 🏹
     keywords:
       - Magic
       - Ranged
@@ -95,6 +97,7 @@ abilities:
         t2: The target is slowed and takes a bane on power rolls (save ends).
         t3: Slowed (save ends)
   - name: Quid Pro Quo
+    icon: 🏹
     keywords:
       - Magic
       - Ranged
@@ -105,6 +108,7 @@ abilities:
       - effect: The adjudicator and the target teleport to switch places.
         name: Effect
   - name: Devilish Charm
+    icon: ❗️
     cost: 2 Malice
     keywords:
       - Magic

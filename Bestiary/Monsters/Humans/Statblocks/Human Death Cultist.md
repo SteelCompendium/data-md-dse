@@ -58,6 +58,7 @@ traits:
           effect.
 abilities:
   - name: Death Scythe
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Magic
@@ -76,6 +77,7 @@ abilities:
       - effect: The death cultist regains Stamina equal to half the damage dealt.
         cost: 2 Malice
   - name: Rise, My Minions
+    icon: ❇️
     cost: 1 Malice per minion
     keywords:
       - Area

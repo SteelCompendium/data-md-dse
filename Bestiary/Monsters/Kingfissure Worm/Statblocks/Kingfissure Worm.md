@@ -90,6 +90,7 @@ traits:
           of suffering those conditions' usual effects on speed.
 abilities:
   - name: Tongue Grab
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -109,6 +110,7 @@ abilities:
           grabbed this way adjacent to them.
         name: Effect
   - name: Maw
+    icon: 🗡
     keywords:
       - Charge
       - Melee
@@ -129,6 +131,7 @@ abilities:
           creature takes 8 damage and is pushed up to 3 squares.
         cost: 2 Malice
   - name: Consume
+    icon: 🗡
     cost: 2 Malice
     keywords:
       - Melee
@@ -139,6 +142,7 @@ abilities:
       - effect: The target is swallowed (see Swallowed).
         name: Effect
   - name: Tongue Whip
+    icon: ⚔️
     keywords:
       - Melee
       - Ranged
@@ -155,6 +159,7 @@ abilities:
           or object is released.
         name: Effect
   - name: Tearing Recoil
+    icon: ❗️
     keywords:
       - "-"
     type: Triggered action
@@ -167,6 +172,7 @@ abilities:
           tongue back into their mouth.
         name: Effect
   - name: King's Fissure
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -186,6 +192,7 @@ abilities:
           area
         t3: The target shifts to the nearest unoccupied space outside the area.
   - name: Earth Breach
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Weapon
@@ -202,6 +209,7 @@ abilities:
           (see Swallowed).
         name: Effect
   - name: Better Out Than In
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

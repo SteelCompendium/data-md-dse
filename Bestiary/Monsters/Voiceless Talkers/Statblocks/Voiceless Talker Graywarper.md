@@ -57,6 +57,7 @@ traits:
           the graywarper's space.
 abilities:
   - name: Phase Chant
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Psionic

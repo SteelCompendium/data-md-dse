@@ -28,8 +28,8 @@ type: feature/ability/null/1st-level-feature
 ---
 
 ```ds-ability
-name: Stunning Blow
-cost: 3 Discipline
+name: ""
+icon: Stunning Blow (3 Discipline)
 flavor: You focus your psionic technique into a concussive punch.
 keywords:
   - Melee

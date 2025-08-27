@@ -25,8 +25,8 @@ type: feature/ability/tactician/5th-level-feature
 ---
 
 ```ds-ability
-name: You've Still Got Something Left
-cost: 9 Focus
+name: ""
+icon: You've Still Got Something Left (9 Focus)
 flavor: You push an ally to use a heroic ability sooner than they otherwise would.
 keywords:
   - Ranged

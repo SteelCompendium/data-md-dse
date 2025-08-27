@@ -26,8 +26,8 @@ type: feature/ability/censor/9th-level-feature
 ---
 
 ```ds-ability
-name: Edict of Unyielding Resolve
-cost: 11 Wrath
+name: ""
+icon: Edict of Unyielding Resolve (11 Wrath)
 flavor: You and your allies are clad in shimmering armor.
 keywords:
   - Area

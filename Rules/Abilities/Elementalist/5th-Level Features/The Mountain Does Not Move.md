@@ -16,7 +16,8 @@ type: feature/trait/elementalist/5th-level-feature
 ---
 
 ```ds-ability
-name: The Mountain Does Not Move
+name: ""
+icon: The Mountain Does Not Move
 metadata:
   class: elementalist
   feature_type: trait
@@ -36,6 +37,7 @@ effects:
   - effect: >-
       You stand firm and magnetize your allies to stay grounded. Your stability
       increases by your level.
+
 
       Additionally, whenever an ally within distance of your Hurl Element
       ability is force moved, you can use a free triggered action to decrease

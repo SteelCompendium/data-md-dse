@@ -56,6 +56,7 @@ traits:
           roll to power rolls they make against each other.
 abilities:
   - name: Mark Targets
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged
@@ -73,6 +74,7 @@ abilities:
           target.
         cost: 3 Malice
   - name: Preserve and Protect
+    icon: 🏹
     cost: 3 Malice
     keywords:
       - Ranged
@@ -89,6 +91,7 @@ abilities:
       - effect: One ally adjacent to the target regains 7 Stamina.
         name: Effect
   - name: Take the Opening
+    icon: ❗️
     keywords:
       - Ranged
     type: Triggered action

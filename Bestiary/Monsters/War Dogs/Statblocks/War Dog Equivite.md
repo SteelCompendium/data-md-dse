@@ -55,6 +55,7 @@ traits:
           explodes, dealing 2d6 damage to each adjacent enemy and object.
 abilities:
   - name: Fuse-Iron Lance
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge
@@ -75,6 +76,7 @@ abilities:
           adjacent to the target.
         cost: 2 Malice
   - name: Blazing Charge
+    icon: 🗡
     keywords:
       - Melee
       - Weapon

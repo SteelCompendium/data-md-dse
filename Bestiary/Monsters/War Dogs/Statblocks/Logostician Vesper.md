@@ -63,6 +63,7 @@ traits:
           squares.
 abilities:
   - name: Portal to the Firing Line
+    icon: 🔳
     cost: Signature Ability
     keywords:
       - Area
@@ -87,6 +88,7 @@ abilities:
           or 7 damage if they choose to fall prone.
         cost: 2 Malice
   - name: Portal to the Mantle
+    icon: 🔳
     cost: 3 Malice
     keywords:
       - Area
@@ -106,6 +108,7 @@ abilities:
           the start of each round.
         name: Effect
   - name: Portal to the Void
+    icon: 🔳
     keywords:
       - Area
       - Magic
@@ -129,6 +132,7 @@ abilities:
           slowed until the end of their turn.
         cost: 2 Malice
   - name: Portal to the Sky
+    icon: ❗️
     keywords:
       - Ranged
     type: Triggered action

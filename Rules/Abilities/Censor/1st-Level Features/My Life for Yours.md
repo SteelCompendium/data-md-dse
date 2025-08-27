@@ -23,7 +23,8 @@ type: feature/ability/censor/1st-level-feature
 ---
 
 ```ds-ability
-name: My Life for Yours
+name: ""
+icon: My Life for Yours
 flavor: You channel some of your vitality into more resilience for you or an ally.
 keywords:
   - Magic

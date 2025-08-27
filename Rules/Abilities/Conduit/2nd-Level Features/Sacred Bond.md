@@ -26,8 +26,8 @@ type: feature/ability/conduit/2nd-level-feature
 ---
 
 ```ds-ability
-name: Sacred Bond
-cost: 5 Piety
+name: ""
+icon: Sacred Bond (5 Piety)
 flavor: You forge a divine connection between two creatures.
 keywords:
   - Magic

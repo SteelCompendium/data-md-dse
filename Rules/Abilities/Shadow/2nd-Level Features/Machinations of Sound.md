@@ -28,8 +28,8 @@ type: feature/ability/shadow/2nd-level-feature
 ---
 
 ```ds-ability
-name: Machinations of Sound
-cost: 5 Insight
+name: ""
+icon: Machinations of Sound (5 Insight)
 flavor: Illusory sounds make your foes reposition themselves as they cower or
   investigate the disturbance.
 keywords:

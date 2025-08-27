@@ -57,6 +57,7 @@ traits:
           concealment.
 abilities:
   - name: Golden Sickles
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -75,6 +76,7 @@ abilities:
           until that condition ends.
         name: Effect
   - name: Psi-Sickle
+    icon: 🏹
     keywords:
       - Psionic
       - Ranged

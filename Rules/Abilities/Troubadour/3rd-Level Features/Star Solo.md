@@ -30,8 +30,8 @@ type: feature/ability/troubadour/3rd-level-feature
 ---
 
 ```ds-ability
-name: Star Solo
-cost: 7 Drama
+name: ""
+icon: Star Solo (7 Drama)
 flavor: Your performance travels and doesn't stop moving until your audience is
   completely rocked.
 keywords:

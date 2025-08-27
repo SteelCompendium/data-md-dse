@@ -16,7 +16,8 @@ type: feature/trait/troubadour/4th-level-feature
 ---
 
 ```ds-ability
-name: Skill
+name: ""
+icon: Skill
 metadata:
   class: troubadour
   feature_type: trait

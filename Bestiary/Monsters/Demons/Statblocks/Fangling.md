@@ -64,6 +64,7 @@ traits:
       - effect: Any creature within 2 squares of the fangling can't be hidden from them
 abilities:
   - name: Tooth! Tusk! Claw!
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -80,6 +81,7 @@ abilities:
       - effect: Each enemy adjacent to the fangling takes 2 damage.
         name: Effect
   - name: Tumbling Gore
+    icon: 🔳
     cost: 2 Malice
     keywords:
       - Area

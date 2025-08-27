@@ -25,8 +25,8 @@ type: feature/ability/tactician/3rd-level-feature
 ---
 
 ```ds-ability
-name: Hit 'Em Hard!
-cost: 7 Focus
+name: ""
+icon: Hit 'Em Hard! (7 Focus)
 flavor: Your allies see the advantages in attacking the targets you select.
 keywords:
   - "-"

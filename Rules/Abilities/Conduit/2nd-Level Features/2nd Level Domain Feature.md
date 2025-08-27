@@ -16,7 +16,8 @@ type: feature/trait/conduit/2nd-level-feature
 ---
 
 ```ds-ability
-name: 2nd-Level Domain Feature
+name: ""
+icon: 2nd-Level Domain Feature
 metadata:
   class: conduit
   feature_type: trait

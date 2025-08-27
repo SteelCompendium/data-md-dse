@@ -16,7 +16,8 @@ type: feature/trait/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: "Green: Acolyte of the Green"
+name: ""
+icon: "Green: Acolyte of the Green"
 metadata:
   class: elementalist
   feature_type: trait

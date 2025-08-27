@@ -16,7 +16,8 @@ type: feature/trait/censor/1st-level-feature
 ---
 
 ```ds-ability
-name: Protective Circle
+name: ""
+icon: Protective Circle
 metadata:
   class: censor
   feature_type: trait

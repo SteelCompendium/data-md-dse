@@ -57,6 +57,7 @@ traits:
           condition, then shift up to 2 squares.
 abilities:
   - name: Razor Bite
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -74,6 +75,7 @@ abilities:
           increases by 1.
         name: Effect
   - name: Tail Whip
+    icon: 🗡
     cost: 2 Malice
     keywords:
       - Melee

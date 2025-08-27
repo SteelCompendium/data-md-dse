@@ -22,7 +22,8 @@ type: feature/ability/tactician/1st-level-feature
 ---
 
 ```ds-ability
-name: Mark
+name: ""
+icon: Mark
 flavor: You draw your allies' attention to a specific foe-with devastating effect.
 keywords:
   - Ranged

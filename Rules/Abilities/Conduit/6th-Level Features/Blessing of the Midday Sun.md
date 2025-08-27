@@ -26,8 +26,8 @@ type: feature/ability/conduit/6th-level-feature
 ---
 
 ```ds-ability
-name: Blessing of the Midday Sun
-cost: 9 Piety
+name: ""
+icon: Blessing of the Midday Sun (9 Piety)
 flavor: Your body emits a heat that bakes your enemies and inspires your allies.
 keywords:
   - Area

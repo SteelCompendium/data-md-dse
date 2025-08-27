@@ -69,6 +69,7 @@ traits:
           edge on the strike instead of taking a bane.
 abilities:
   - name: Bite
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -86,6 +87,7 @@ abilities:
           each of their turns.
         name: Effect
   - name: Claw Swing
+    icon: 🗡
     keywords:
       - Melee
       - Strike
@@ -101,6 +103,7 @@ abilities:
       - effect: The arixx can vertically slide each grabbed target up to 3 squares.
         name: Effect
   - name: Spitfire
+    icon: 🏹
     keywords:
       - Ranged
       - Strike
@@ -118,6 +121,7 @@ abilities:
           time in a round or starts their turn there takes 2 acid damage.
         name: Effect
   - name: Dirt Devil
+    icon: ❇️
     cost: 3 Malice
     keywords:
       - Area
@@ -134,6 +138,7 @@ abilities:
           area is difficult terrain.
         name: Effect
   - name: Dust Cloud
+    icon: ❇️
     keywords:
       - Area
     type: Maneuver
@@ -145,6 +150,7 @@ abilities:
           targets a creature in the area takes a bane on power rolls.
         name: Effect
   - name: Skitter
+    icon: ❗️
     keywords:
       - "-"
     type: Triggered action
@@ -156,6 +162,7 @@ abilities:
           triggering effect resolves.
         name: Effect
   - name: Acid Spew
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -173,6 +180,7 @@ abilities:
           round or starts their turn there takes 2 acid damage.
         name: Effect
   - name: Sinkhole
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - "-"
@@ -185,6 +193,7 @@ abilities:
           and can then use the Dig maneuver.
         name: Effect
   - name: Acid and Claws
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

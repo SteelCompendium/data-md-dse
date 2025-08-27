@@ -64,6 +64,7 @@ traits:
           effect to the.
 abilities:
   - name: Psionic Rifle Burst
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Psionic
@@ -84,6 +85,7 @@ abilities:
       - effect: Each enemy within the strike spread takes an extra 3 damage.
         cost: 2 Malice
   - name: Mind Jolt
+    icon: 🔳
     keywords:
       - Area
       - Psionic
@@ -96,6 +98,7 @@ abilities:
         t2: 10 lightning damage; I < 2 slowed (save ends)
         t3: 13 lightning damage; I < 3 slowed (save ends)
   - name: In Our Sights
+    icon: 🏹
     keywords:
       - Ranged
     type: Maneuver
@@ -108,6 +111,7 @@ abilities:
           they score a critical hit.
         name: Effect
   - name: Tactical Reposition
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - "-"

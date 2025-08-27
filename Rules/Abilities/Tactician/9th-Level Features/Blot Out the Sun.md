@@ -26,8 +26,8 @@ type: feature/ability/tactician/9th-level-feature
 ---
 
 ```ds-ability
-name: Blot Out the Sun!
-cost: 11 Focus
+name: ""
+icon: Blot Out the Sun! (11 Focus)
 flavor: What makes a good soldier? The ability to fire four shots a minute in
   any weather.
 keywords:

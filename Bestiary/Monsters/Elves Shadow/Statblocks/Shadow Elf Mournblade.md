@@ -59,6 +59,7 @@ traits:
           the mournblade has concealment, they have damage immunity 3.
 abilities:
   - name: Knife in the Dark
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -76,6 +77,7 @@ abilities:
           mournblade's next turn.
         name: Effect
   - name: Shadow Step
+    icon: 👤
     keywords:
       - Magic
     type: Maneuver

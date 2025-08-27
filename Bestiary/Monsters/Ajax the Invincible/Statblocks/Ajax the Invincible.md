@@ -68,6 +68,7 @@ traits:
           per round.
 abilities:
   - name: Blade of the Gol King
+    icon: 🗡
     keywords:
       - Charge
       - Magic
@@ -87,6 +88,7 @@ abilities:
       - effect: Ajax can strike one additional target for each Malice spent.
         cost: 1+ Malice
   - name: Decree by the Jade Hand
+    icon: 🔳
     keywords:
       - Area
       - Magic
@@ -107,6 +109,7 @@ abilities:
           < 5 is knocked prone.
         cost: 3 Malice
   - name: Divine Vine
+    icon: 🏹
     keywords:
       - Magic
       - Ranged
@@ -129,6 +132,7 @@ abilities:
           Ajax has acquired.
         name: Special
   - name: Bead of Hell
+    icon: 🔳
     cost: 2 Malice
     keywords:
       - Area
@@ -146,6 +150,7 @@ abilities:
           takes 10 fire damage.
         name: Effect
   - name: Is This What They Taught You?
+    icon: ❗️
     keywords:
       - Ranged
     type: Triggered action
@@ -159,6 +164,7 @@ abilities:
           can make a free strike against them.
         name: Effect
   - name: Shieldbreaker Talisman
+    icon: ❗️
     keywords:
       - Magic
       - Melee
@@ -172,6 +178,7 @@ abilities:
           reduced in any way.
         name: Effect
   - name: Who's Hesitating?
+    icon: ❗️
     keywords:
       - "-"
     type: Triggered action
@@ -184,6 +191,7 @@ abilities:
           their next turn.
         name: Effect
   - name: Your Obsession With Me Betrays You
+    icon: ❗️
     keywords:
       - Magic
       - Ranged
@@ -196,6 +204,7 @@ abilities:
           of Ajax's choice.
         name: Effect
   - name: You Would Flounder Your Assault?
+    icon: ❗️
     cost: 2 Malice
     keywords:
       - Magic
@@ -207,6 +216,7 @@ abilities:
       - effect: Ajax regains the same amount of Stamina.
         name: Effect
   - name: Phoenix Wing King
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -224,6 +234,7 @@ abilities:
           unoccupied space within distance.
         name: Effect
   - name: I've Learned Their Tricks
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Area
@@ -240,6 +251,7 @@ abilities:
           creature any target has previously encountered.
         name: Special
   - name: Awe of the Iron Crown
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

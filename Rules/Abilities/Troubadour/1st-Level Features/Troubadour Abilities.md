@@ -16,7 +16,8 @@ type: feature/trait/troubadour/1st-level-feature
 ---
 
 ```ds-ability
-name: Troubadour Abilities
+name: ""
+icon: Troubadour Abilities
 metadata:
   class: troubadour
   feature_type: trait

@@ -53,6 +53,7 @@ traits:
           on their abilities or turn a double bane into a bane.
 abilities:
   - name: Natural Weapon
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -67,6 +68,7 @@ abilities:
         t2: 9 damage; A < 1 3 damage
         t3: 12 damage; A < 2 3 damage
   - name: Toss
+    icon: 🗡
     keywords:
       - Melee
     type: Maneuver
@@ -80,6 +82,7 @@ abilities:
           fall without taking damage.
         name: Effect
   - name: Juke
+    icon: ❗️
     keywords:
       - "-"
     type: Triggered action

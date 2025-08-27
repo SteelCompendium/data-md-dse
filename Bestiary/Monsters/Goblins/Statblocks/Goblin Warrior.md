@@ -55,6 +55,7 @@ traits:
       - effect: The warrior doesn't provoke opportunity attacks by moving
 abilities:
   - name: Spear Charge
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge
@@ -70,6 +71,7 @@ abilities:
         t2: 4 damage
         t3: 5 damage
   - name: Bury the Point
+    icon: 🗡
     cost: 2 Malice
     keywords:
       - Melee

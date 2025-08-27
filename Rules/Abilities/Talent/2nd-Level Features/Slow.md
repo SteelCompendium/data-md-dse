@@ -27,8 +27,8 @@ type: feature/ability/talent/2nd-level-feature
 ---
 
 ```ds-ability
-name: Slow
-cost: 5 Clarity
+name: ""
+icon: Slow (5 Clarity)
 flavor: Perhaps they wonder why everyone else is moving so quickly?
 keywords:
   - Chronopathy

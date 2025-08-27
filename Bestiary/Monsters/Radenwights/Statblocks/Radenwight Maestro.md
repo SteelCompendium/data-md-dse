@@ -57,6 +57,7 @@ traits:
           can't be reduced in any way.
 abilities:
   - name: Cacophony
+    icon: ❇️
     cost: Signature Ability
     keywords:
       - Area
@@ -73,6 +74,7 @@ abilities:
           action once before the end of the round.
         name: Effect
   - name: Tempo Changer
+    icon: 🏹
     keywords:
       - Magic
       - Ranged
@@ -89,6 +91,7 @@ abilities:
           the end of their next turn.
         cost: 3 Malice
   - name: Ever-Ready Rodent
+    icon: ❗️
     cost: 2 Malice
     keywords:
       - Magic
@@ -102,6 +105,7 @@ abilities:
       - effect: The maestro makes a free strike against the target.
         name: Effect
   - name: Overture
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -112,6 +116,7 @@ abilities:
       - effect: Each target can shift up to their speed or take the Defend action.
         name: Effect
   - name: Solo Act
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Ranged
@@ -123,6 +128,7 @@ abilities:
           take, gains a +4 damage bonus to strikes, and has their speed doubled.
         name: Effect
   - name: Rondo of Rat
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

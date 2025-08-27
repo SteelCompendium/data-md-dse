@@ -64,6 +64,7 @@ traits:
           against them, that enemy takes 3 poison damage.
 abilities:
   - name: Acid Grasp
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -83,6 +84,7 @@ abilities:
       - effect: The daybringer jumps up to 3 squares before or after using this ability.
         cost: 1 Malice
   - name: Sun Lamp
+    icon: 👤
     keywords:
       - "-"
     type: Maneuver
@@ -95,6 +97,7 @@ abilities:
           Stamina and gains a +3 bonus to speed until the end of their turn.
         name: Effect
   - name: Tongue Slap
+    icon: ❗️
     keywords:
       - Melee
     type: Triggered action
@@ -108,6 +111,7 @@ abilities:
       - effect: The target is pulled up to 4 squares after the strike resolves.
         cost: 2 Malice
   - name: New Dawn
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Ranged
@@ -119,6 +123,7 @@ abilities:
           into unoccupied spaces within distance.
         name: Effect
   - name: Plague of Frogs
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Area
@@ -130,6 +135,7 @@ abilities:
           free strike at the end of the jump.
         name: Effect
   - name: It Is Day
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - "-"

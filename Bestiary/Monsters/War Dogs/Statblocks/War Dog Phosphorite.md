@@ -59,6 +59,7 @@ traits:
           explodes, dealing 1d6 damage to each adjacent enemy and object.
 abilities:
   - name: Caustic Detonator
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -83,6 +84,7 @@ abilities:
         t3: The creature can attach the detonator to another creature or object within 5
           squares of them.
   - name: Posthumous Promotion
+    icon: 🏹
     keywords:
       - Magic
       - Ranged

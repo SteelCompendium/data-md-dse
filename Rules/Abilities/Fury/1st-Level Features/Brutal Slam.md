@@ -24,7 +24,8 @@ type: feature/ability/fury/1st-level-feature
 ---
 
 ```ds-ability
-name: Brutal Slam
+name: ""
+icon: Brutal Slam
 flavor: The heavy impact of your weapon attacks drives your foes ever back.
 keywords:
   - Melee

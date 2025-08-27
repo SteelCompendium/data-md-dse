@@ -16,7 +16,8 @@ type: feature/trait/conduit/9th-level-feature
 ---
 
 ```ds-ability
-name: Ordained
+name: ""
+icon: Ordained
 metadata:
   class: conduit
   feature_type: trait

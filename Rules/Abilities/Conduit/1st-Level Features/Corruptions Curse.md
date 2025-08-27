@@ -27,8 +27,8 @@ type: feature/ability/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: Corruption's Curse
-cost: 5 Piety
+name: ""
+icon: Corruption's Curse (5 Piety)
 flavor: Cursed by you, your enemy takes more damage from your allies.
 keywords:
   - Magic

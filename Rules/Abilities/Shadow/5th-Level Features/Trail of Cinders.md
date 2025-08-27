@@ -16,7 +16,8 @@ type: feature/trait/shadow/5th-level-feature
 ---
 
 ```ds-ability
-name: Trail of Cinders
+name: ""
+icon: Trail of Cinders
 metadata:
   class: shadow
   feature_type: trait
@@ -36,6 +37,7 @@ effects:
   - effect: >-
       Whenever you reduce a non-minion creature to 0 Stamina, you can
       immediately use a free maneuver to use your Black Ash Teleport ability.
+
 
       Additionally, you can now bring an adjacent willing creature along with
       you whenever you use a shadow ability to teleport. The creature appears in

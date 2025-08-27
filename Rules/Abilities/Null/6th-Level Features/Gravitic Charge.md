@@ -25,8 +25,8 @@ type: feature/ability/null/6th-level-feature
 ---
 
 ```ds-ability
-name: Gravitic Charge
-cost: 9 Discipline
+name: ""
+icon: Gravitic Charge (9 Discipline)
 flavor: You channel your discipline into momentum that defies gravity.
 keywords:
   - Psionic

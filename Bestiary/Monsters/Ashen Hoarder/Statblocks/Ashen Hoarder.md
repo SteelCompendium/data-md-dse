@@ -75,6 +75,7 @@ traits:
           and can't be brought back to life until their soul is recovered.
 abilities:
   - name: Claw and Blade
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -94,6 +95,7 @@ abilities:
           | |
         name: Effect
   - name: Corpse Bomb
+    icon: 🔳
     keywords:
       - Area
       - Magic
@@ -111,6 +113,7 @@ abilities:
       - effect: The ashen hoarder targets a second 4 cube within distance.
         cost: 3 Malice
   - name: Impale
+    icon: 🔳
     cost: 3 Malice
     keywords:
       - Area
@@ -122,6 +125,7 @@ abilities:
       - effect: >-
           **Power Roll + 4:**
 
+
           6 corruption damage; M < 2 the target is impaled (save ends) 11
           corruption damage; M < 3 the target is impaled (save ends) 14
           corruption damage; M < 4 the target is impaled (save ends)
@@ -130,6 +134,7 @@ abilities:
           ability at a time.
         name: Effect
   - name: Bone Dozer
+    icon: 👤
     keywords:
       - "-"
     type: Maneuver
@@ -143,6 +148,7 @@ abilities:
           moved forward into an obstacle is dazed (save ends).
         name: Effect
   - name: Armor of Corpses
+    icon: ❗️
     cost: 2 Malice
     keywords:
       - "-"
@@ -156,6 +162,7 @@ abilities:
           1 and one impaled creature takes the other half of the damage.
         name: Effect
   - name: Skeletal Eruption
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -172,6 +179,7 @@ abilities:
           normally land prone after falling is instead restrained (save ends).
         name: Effect
   - name: Mobile Mine Field
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Area
@@ -190,6 +198,7 @@ abilities:
           squares.
         name: Effect
   - name: Ossuary Assault
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Melee

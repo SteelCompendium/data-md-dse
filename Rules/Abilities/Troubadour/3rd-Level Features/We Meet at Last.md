@@ -26,8 +26,8 @@ type: feature/ability/troubadour/3rd-level-feature
 ---
 
 ```ds-ability
-name: We Meet at Last
-cost: 7 Drama
+name: ""
+icon: We Meet at Last (7 Drama)
 flavor: You magically intertwine your fate with another creature-for better or worse.
 keywords:
   - Magic

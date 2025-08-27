@@ -26,8 +26,8 @@ type: feature/ability/troubadour/1st-level-feature
 ---
 
 ```ds-ability
-name: Hypnotic Overtones
-cost: 3 Drama
+name: ""
+icon: Hypnotic Overtones (3 Drama)
 flavor: You produce an entrancing note that twists the senses in a spectacular fashion.
 keywords:
   - Area

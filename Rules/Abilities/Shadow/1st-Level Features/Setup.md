@@ -27,8 +27,8 @@ type: feature/ability/shadow/1st-level-feature
 ---
 
 ```ds-ability
-name: Setup
-cost: 5 Insight
+name: ""
+icon: Setup (5 Insight)
 flavor: Your friends will thank you.
 keywords:
   - Ranged

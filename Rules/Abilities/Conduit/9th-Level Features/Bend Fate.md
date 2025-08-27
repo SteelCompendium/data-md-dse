@@ -26,8 +26,8 @@ type: feature/ability/conduit/9th-level-feature
 ---
 
 ```ds-ability
-name: Bend Fate
-cost: 11 Piety
+name: ""
+icon: Bend Fate (11 Piety)
 flavor: The gods know you must prevail, and they bless your fate.
 keywords:
   - Magic

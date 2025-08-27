@@ -60,6 +60,7 @@ traits:
           explodes, dealing 1d6 damage to each adjacent enemy and object.
 abilities:
   - name: Galvanic Arc
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic

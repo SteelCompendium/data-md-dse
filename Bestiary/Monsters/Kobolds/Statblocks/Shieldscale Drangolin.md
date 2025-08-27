@@ -59,6 +59,7 @@ traits:
           move with them
 abilities:
   - name: Fiery Claws
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -75,6 +76,7 @@ abilities:
       - effect: If the drangolin is size 3, the distance becomes Melee 2.
         name: Special
   - name: Drangolin Plume
+    icon: 👤
     cost: 5 Malice
     keywords:
       - "-"
@@ -87,6 +89,7 @@ abilities:
           makes one power roll against all targets.
         name: Effect
   - name: Erupt
+    icon: ❇️
     cost: 3 Malice
     keywords:
       - Area

@@ -57,6 +57,7 @@ traits:
           to navigate, search, or seek.
 abilities:
   - name: Spiked Maul
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge
@@ -74,6 +75,7 @@ abilities:
       - effect: A target pulled adjacent to the sunderer is automatically grabbed.
         name: Effect
   - name: Fearsome Bay
+    icon: ❇️
     cost: 5 Malice
     keywords:
       - Area
@@ -89,6 +91,7 @@ abilities:
           deals an extra 5 damage with strikes.
         name: Effect
   - name: Disemboweling Horns
+    icon: 🗡
     cost: 3 Malice
     keywords:
       - Charge
@@ -109,6 +112,7 @@ abilities:
           each of their turns.
         name: Effect
   - name: Retaliatory Strike
+    icon: ❗️
     keywords:
       - Ranged
     type: Triggered action

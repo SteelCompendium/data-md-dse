@@ -58,6 +58,7 @@ traits:
           instead ends at the end of their turn.
 abilities:
   - name: Razor's Edge
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -75,6 +76,7 @@ abilities:
           targeting a creature bleeding this way.
         name: Effect
   - name: Blood Haze
+    icon: ❇️
     cost: 2 Malice
     keywords:
       - Area

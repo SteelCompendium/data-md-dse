@@ -16,7 +16,8 @@ type: feature/trait/elementalist/10th-level-feature
 ---
 
 ```ds-ability
-name: Essential Being
+name: ""
+icon: Essential Being
 metadata:
   class: elementalist
   feature_type: trait

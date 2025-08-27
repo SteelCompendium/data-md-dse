@@ -16,7 +16,8 @@ type: feature/trait/talent/1st-level-feature
 ---
 
 ```ds-ability
-name: Speed Augmentation
+name: ""
+icon: Speed Augmentation
 metadata:
   class: talent
   feature_type: trait

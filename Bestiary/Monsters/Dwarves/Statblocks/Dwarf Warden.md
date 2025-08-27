@@ -55,6 +55,7 @@ traits:
           as if the enemy were grabbed by them.
 abilities:
   - name: Concussive Maul
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -73,6 +74,7 @@ abilities:
           Director determines otherwise.
         name: Effect
   - name: Concussive Shockwave
+    icon: 🔳
     cost: 5 Malice
     keywords:
       - Area

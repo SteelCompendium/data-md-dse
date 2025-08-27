@@ -16,7 +16,8 @@ type: feature/trait/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: Inspired Deception
+name: ""
+icon: Inspired Deception
 metadata:
   class: conduit
   feature_type: trait

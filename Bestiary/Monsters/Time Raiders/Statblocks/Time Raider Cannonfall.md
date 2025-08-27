@@ -57,6 +57,7 @@ traits:
           concealment or cover.
 abilities:
   - name: Sunderbuss
+    icon: 🔳
     cost: Signature Ability
     keywords:
       - Area
@@ -74,6 +75,7 @@ abilities:
       - effect: A layer of ground beneath the area that is 1 square deep is destroyed.
         name: Effect
   - name: Buss Buffe
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - Area

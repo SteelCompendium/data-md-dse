@@ -58,6 +58,7 @@ traits:
           concealment have a double bane instead.
 abilities:
   - name: Wild Ax
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Charge
@@ -78,6 +79,7 @@ abilities:
       - effect: The chirurgeon uses this ability again.
         cost: 5 Malice
   - name: The Wode Protects Us
+    icon: 🏹
     cost: 3 Malice
     keywords:
       - Magic

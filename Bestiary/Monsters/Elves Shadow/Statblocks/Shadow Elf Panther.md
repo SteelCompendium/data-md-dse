@@ -59,6 +59,7 @@ traits:
           has concealment, they have damage immunity 3.
 abilities:
   - name: Dusk Cleave
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -76,6 +77,7 @@ abilities:
           to the target.
         name: Effect
   - name: Bladestorm
+    icon: ❇️
     cost: 3 Malice
     keywords:
       - Area

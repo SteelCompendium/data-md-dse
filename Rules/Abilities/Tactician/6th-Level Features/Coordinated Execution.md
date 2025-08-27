@@ -25,8 +25,8 @@ type: feature/ability/tactician/6th-level-feature
 ---
 
 ```ds-ability
-name: Coordinated Execution
-cost: 9 Focus
+name: ""
+icon: Coordinated Execution (9 Focus)
 flavor: You direct your ally to make a killing blow.
 keywords:
   - Ranged

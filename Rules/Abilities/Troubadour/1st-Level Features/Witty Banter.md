@@ -25,7 +25,8 @@ type: feature/ability/troubadour/1st-level-feature
 ---
 
 ```ds-ability
-name: Witty Banter
+name: ""
+icon: Witty Banter
 flavor: A lyrical (and physical) jab insults an enemy and inspires an ally.
 keywords:
   - Magic

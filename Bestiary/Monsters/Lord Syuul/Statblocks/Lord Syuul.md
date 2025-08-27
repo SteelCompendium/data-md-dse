@@ -68,6 +68,7 @@ traits:
           observed using a psionic ability.
 abilities:
   - name: Tentacle Grab
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -85,6 +86,7 @@ abilities:
           by Lord Syuul is pulled up to 10 squares.
         cost: 2 Malice
   - name: Dampening Grenade
+    icon: 🔳
     keywords:
       - Area
       - Psionic
@@ -102,6 +104,7 @@ abilities:
           area have a double edge.
         name: Effect
   - name: Mind Blown
+    icon: 🗡
     cost: 7 Malice
     keywords:
       - Melee
@@ -119,6 +122,7 @@ abilities:
           their brain explodes, instantly killing them.
         name: Effect
   - name: You Come With Me
+    icon: 👤
     keywords:
       - Psionic
     type: Maneuver
@@ -129,6 +133,7 @@ abilities:
           object he has grabbed. He can release grabbed creatures and objects
           before or after teleporting
   - name: Adaptability
+    icon: ❗️
     keywords:
       - Psionic
     type: Triggered action
@@ -140,6 +145,7 @@ abilities:
           triggering damage type.
         name: Effect
   - name: See Only Me
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -157,6 +163,7 @@ abilities:
           Lord Syuul (save ends)
         t3: 7 psychic damage
   - name: Phantom Pain
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Psionic
@@ -172,6 +179,7 @@ abilities:
           invisibility ends and the double disappears.
         name: Effect
   - name: Mindshatter
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

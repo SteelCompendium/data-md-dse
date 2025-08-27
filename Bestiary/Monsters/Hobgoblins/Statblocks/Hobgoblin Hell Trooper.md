@@ -61,6 +61,7 @@ traits:
           creature adjacent to the trooper takes 3 fire damage.
 abilities:
   - name: Fire Flail
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -78,6 +79,7 @@ abilities:
           attacks from any target.
         name: Effect
   - name: Fight Me, Coward!
+    icon: 🏹
     keywords:
       - Magic
       - Ranged

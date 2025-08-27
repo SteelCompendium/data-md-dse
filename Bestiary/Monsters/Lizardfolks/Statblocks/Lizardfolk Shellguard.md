@@ -58,6 +58,7 @@ traits:
           condition, then shift up to 2 squares.
 abilities:
   - name: Shield Smash
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

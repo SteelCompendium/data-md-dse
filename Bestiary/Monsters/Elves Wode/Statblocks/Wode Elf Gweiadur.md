@@ -58,6 +58,7 @@ traits:
           concealment have a double bane instead.
 abilities:
   - name: Snare Bow
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged
@@ -77,6 +78,7 @@ abilities:
           is also restrained (save ends).
         cost: 3 Malice
   - name: You Activated My Trap!
+    icon: 🔳
     cost: 3 Malice
     keywords:
       - Area

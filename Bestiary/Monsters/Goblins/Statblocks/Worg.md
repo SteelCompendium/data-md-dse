@@ -58,6 +58,7 @@ traits:
       - effect: If the worg's rider has the Crafty trait, the worg also has that trait.
 abilities:
   - name: Bite
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge
@@ -73,6 +74,7 @@ abilities:
         t2: 4 damage
         t3: 5 damage
   - name: Sprint
+    icon: 👤
     cost: 1 Malice
     keywords:
       - "-"

@@ -63,6 +63,7 @@ traits:
           explodes, dealing 3d6 damage to each adjacent enemy and object.
 abilities:
   - name: Earthwave
+    icon: 🔳
     cost: Signature Ability
     keywords:
       - Area
@@ -84,6 +85,7 @@ abilities:
           power roll is resolved
         cost: 2 Malice
   - name: Siegeworks
+    icon: 🔳
     keywords:
       - Area
       - Magic

@@ -16,7 +16,8 @@ type: feature/trait/censor/7th-level-feature
 ---
 
 ```ds-ability
-name: Gods' Library
+name: ""
+icon: Gods' Library
 metadata:
   class: censor
   feature_type: trait

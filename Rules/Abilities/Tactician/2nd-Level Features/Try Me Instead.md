@@ -27,8 +27,8 @@ type: feature/ability/tactician/2nd-level-feature
 ---
 
 ```ds-ability
-name: Try Me Instead
-cost: 5 Focus
+name: ""
+icon: Try Me Instead (5 Focus)
 flavor: '"Try picking on someone my size."'
 keywords:
   - Melee

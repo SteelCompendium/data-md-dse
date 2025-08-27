@@ -28,8 +28,8 @@ type: feature/ability/censor/1st-level-feature
 ---
 
 ```ds-ability
-name: Driving Assault
-cost: 3 Wrath
+name: ""
+icon: Driving Assault (3 Wrath)
 flavor: As you force your enemy back with your weapon, you use your faith to
   stay close.
 keywords:

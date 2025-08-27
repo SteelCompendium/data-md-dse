@@ -61,6 +61,7 @@ traits:
           force moved into objects.
 abilities:
   - name: Life Drain
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

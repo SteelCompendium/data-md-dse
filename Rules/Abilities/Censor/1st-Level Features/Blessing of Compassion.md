@@ -16,7 +16,8 @@ type: feature/trait/censor/1st-level-feature
 ---
 
 ```ds-ability
-name: Blessing of Compassion
+name: ""
+icon: Blessing of Compassion
 metadata:
   class: censor
   feature_type: trait
@@ -37,6 +38,7 @@ effects:
       You exude a magic presence that can soothe those willing to socially
       engage with you. You gain an edge on any test made to assist another
       creature with a test.
+
 
       Additionally, when you are present at the start of a negotiation, one NPC
       of your choice has their patience increased by 1 (to a maximum of 5), and

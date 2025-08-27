@@ -25,8 +25,8 @@ type: feature/ability/fury/8th-level-feature
 ---
 
 ```ds-ability
-name: Primordial Rage
-cost: 11 Ferocity
+name: ""
+icon: Primordial Rage (11 Ferocity)
 flavor: Your ferocity manifests into primordial power.
 keywords:
   - Magic

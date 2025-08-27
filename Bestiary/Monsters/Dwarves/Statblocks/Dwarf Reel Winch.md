@@ -56,6 +56,7 @@ traits:
           (save ends).
 abilities:
   - name: Snaring Crossbow
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged
@@ -74,6 +75,7 @@ abilities:
           restrained condition unless the Director determines otherwise.
         name: Effect
   - name: Reel Them In
+    icon: 🏹
     cost: 3 Malice
     keywords:
       - Ranged

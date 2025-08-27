@@ -61,6 +61,7 @@ traits:
           speed until the end of their turn.
 abilities:
   - name: Razor Claws
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge
@@ -76,6 +77,7 @@ abilities:
         t2: 4 damage
         t3: 5 damage; M < 2 bleeding (save ends)
   - name: Leap
+    icon: 👤
     keywords:
       - "-"
     type: Maneuver

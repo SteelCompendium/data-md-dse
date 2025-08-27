@@ -28,8 +28,8 @@ type: feature/ability/fury/9th-level-feature
 ---
 
 ```ds-ability
-name: Shower of Blood
-cost: 11 Ferocity
+name: ""
+icon: Shower of Blood (11 Ferocity)
 flavor: You shock your foes with the brutality of your strike, resetting the
   balance of combat.
 keywords:

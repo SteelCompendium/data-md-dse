@@ -25,7 +25,8 @@ type: feature/ability/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: Warrior's Prayer
+name: ""
+icon: Warrior's Prayer
 flavor: Your quickly uttered prayer lends aggressive divine energy to a friend
   engaged in melee.
 keywords:

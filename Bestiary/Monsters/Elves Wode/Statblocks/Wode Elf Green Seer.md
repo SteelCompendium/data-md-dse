@@ -57,6 +57,7 @@ traits:
           concealment have a double bane instead.
 abilities:
   - name: The Forest's Embrace
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -73,6 +74,7 @@ abilities:
       - effect: While restrained this way, a target can't search for hidden creatures.
         name: Effect
   - name: The Natural Cycle
+    icon: 🏹
     cost: 3 Malice
     keywords:
       - Magic
@@ -90,6 +92,7 @@ abilities:
       - effect: While bleeding or weakened this way, a target is covered in lichen.
         name: Effect
   - name: Foreseen Punishment
+    icon: ❗️
     keywords:
       - Ranged
     type: Free triggered action

@@ -59,6 +59,7 @@ traits:
           explodes, dealing 1d6 damage to each adjacent enemy and object.
 abilities:
   - name: Plaguecaster
+    icon: 🔳
     cost: Signature Ability
     keywords:
       - Area
@@ -78,6 +79,7 @@ abilities:
           damage.
         name: Effect
   - name: Posthumous Promotion
+    icon: 🏹
     keywords:
       - Magic
       - Ranged

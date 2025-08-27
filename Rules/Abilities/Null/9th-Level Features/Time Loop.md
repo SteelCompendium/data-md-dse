@@ -25,8 +25,8 @@ type: feature/ability/null/9th-level-feature
 ---
 
 ```ds-ability
-name: Time Loop
-cost: 11 Discipline
+name: ""
+icon: Time Loop (11 Discipline)
 flavor: You show shadows what true speed is.
 keywords:
   - Psionic

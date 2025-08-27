@@ -58,6 +58,7 @@ traits:
           concealment.
 abilities:
   - name: Psionic Slam
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -75,6 +76,7 @@ abilities:
           the vertex's next turn.
         name: Effect
   - name: Split Space
+    icon: 🔳
     cost: 5 Malice
     keywords:
       - Area
@@ -93,6 +95,7 @@ abilities:
           is transported by the portal.
         name: Effect
   - name: Invigorated March
+    icon: ❇️
     keywords:
       - Area
       - Psionic

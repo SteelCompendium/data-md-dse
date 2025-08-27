@@ -26,8 +26,8 @@ type: feature/ability/conduit/2nd-level-feature
 ---
 
 ```ds-ability
-name: Morning Light
-cost: 5 Piety
+name: ""
+icon: Morning Light (5 Piety)
 flavor: Light shines at your command, burning your foes and blessing your allies.
 keywords:
   - Area

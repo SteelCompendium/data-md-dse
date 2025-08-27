@@ -58,6 +58,7 @@ traits:
           concealment have a double bane instead.
 abilities:
   - name: Heavy Longbow
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged

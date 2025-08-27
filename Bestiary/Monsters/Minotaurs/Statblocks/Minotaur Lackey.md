@@ -58,6 +58,7 @@ traits:
           navigate, search, or seek.
 abilities:
   - name: Horn Vault
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge

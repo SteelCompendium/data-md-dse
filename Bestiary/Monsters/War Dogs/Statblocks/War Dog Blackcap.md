@@ -66,6 +66,7 @@ traits:
           are also weakened (save ends)
 abilities:
   - name: Flesh-Eater Knife
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Magic
@@ -85,6 +86,7 @@ abilities:
           creating an ash clone (see below) in their original square.
         name: Effect
   - name: Ashes to Ashes
+    icon: 🏹
     keywords:
       - Ranged
     type: Maneuver

@@ -23,7 +23,8 @@ type: feature/ability/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: Lightfall
+name: ""
+icon: Lightfall
 flavor: A rain of holy light scours your enemies and repositions your allies.
 keywords:
   - Area

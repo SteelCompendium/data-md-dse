@@ -62,6 +62,7 @@ traits:
           explodes, dealing 2d6 damage to each adjacent enemy and object.
 abilities:
   - name: Conditioning Spear
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Melee
@@ -85,6 +86,7 @@ abilities:
           up to two creatures at a time.
         cost: 1 Malice
   - name: Highest Posthumous Promotion
+    icon: ❇️
     keywords:
       - Area
       - Magic
@@ -95,6 +97,7 @@ abilities:
       - effect: Any target who has a loyalty collar is reduced to 0 Stamina.
         name: Effect
   - name: Final Orders
+    icon: ❗️
     keywords:
       - Magic
       - Ranged
@@ -108,6 +111,7 @@ abilities:
           then immediately dies.
         name: Effect
   - name: Combined Arms
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -119,6 +123,7 @@ abilities:
           Charge main action.
         name: Effect
   - name: Make an Example of Them
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Magic
@@ -132,6 +137,7 @@ abilities:
           are frightened of the ground commander (save ends).
         name: Effect
   - name: Claim Them for the Body Banks
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

@@ -16,7 +16,8 @@ type: feature/trait/elementalist/10th-level-feature
 ---
 
 ```ds-ability
-name: Master of Earth
+name: ""
+icon: Master of Earth
 metadata:
   class: elementalist
   feature_type: trait
@@ -35,6 +36,7 @@ metadata:
 effects:
   - effect: >-
       You have damage immunity 5.
+
 
       Additionally, as a respite activity, you can shape the mundane earth
       around you in a 1-mile radius. You can open sinkholes, form mountains,

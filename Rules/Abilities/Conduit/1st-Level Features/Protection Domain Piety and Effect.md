@@ -16,7 +16,8 @@ type: feature/trait/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: Protection Domain Piety and Effect
+name: ""
+icon: Protection Domain Piety and Effect
 metadata:
   class: conduit
   feature_type: trait

@@ -25,8 +25,8 @@ type: feature/ability/tactician/9th-level-feature
 ---
 
 ```ds-ability
-name: Squad! Hit and Run!
-cost: 11 Focus
+name: ""
+icon: Squad! Hit and Run! (11 Focus)
 flavor: I had to pry this secret from the shadow colleges.
 keywords:
   - Ranged

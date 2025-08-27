@@ -16,7 +16,8 @@ type: feature/trait/shadow/2nd-level-feature
 ---
 
 ```ds-ability
-name: Trained Assassin
+name: ""
+icon: Trained Assassin
 metadata:
   class: shadow
   feature_type: trait

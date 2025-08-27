@@ -63,6 +63,7 @@ traits:
           the encounter.
 abilities:
   - name: Fire and Brimstone
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -84,6 +85,7 @@ abilities:
           spent.
         cost: 1+ Malice
   - name: Dismissal with Prejudice
+    icon: ❇️
     keywords:
       - Area
       - Magic
@@ -91,14 +93,14 @@ abilities:
     distance: 2 burst
     target: Each enemy in the area
     effects:
-      - effect: |-
-          **Power Roll + 3**
-          - **≤11:** 6 damage; slide 1
-          - **12-16:** 10 damage; slide 3
-          - **17+:** 12 damage; slide 5
+      - effect: "**Power Roll + 3**"
+        t1: 6 damage; slide 1
+        t2: 10 damage; slide 3
+        t3: 12 damage; slide 5
       - effect: If the target has M < 2, the forced distance movement gains a +3 bonus.
         name: Effect
   - name: Ashes to Ashes
+    icon: 🏹
     keywords:
       - Magic
       - Ranged
@@ -109,6 +111,7 @@ abilities:
       - effect: If the target is burning (see Fire and Brimstone), they take 6 fire
           damage.
   - name: Devilish Charm
+    icon: ❗️
     cost: 2 Malice
     keywords:
       - Magic

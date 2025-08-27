@@ -16,7 +16,8 @@ type: feature/trait/null/4th-level-feature
 ---
 
 ```ds-ability
-name: Characteristic Increase
+name: ""
+icon: Characteristic Increase
 metadata:
   class: "null"
   feature_type: trait

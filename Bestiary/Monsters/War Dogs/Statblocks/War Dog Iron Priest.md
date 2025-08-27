@@ -57,6 +57,7 @@ traits:
           iron priest obtains a tier 3 outcome on a power roll.
 abilities:
   - name: Houndcannon
+    icon: 🔳
     cost: Signature Ability
     keywords:
       - Area
@@ -74,6 +75,7 @@ abilities:
           edge instead.
         name: Effect
   - name: Iron Banner
+    icon: ❇️
     cost: 2+ Malice
     keywords:
       - Area

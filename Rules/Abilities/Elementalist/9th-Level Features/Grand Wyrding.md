@@ -16,7 +16,8 @@ type: feature/trait/elementalist/9th-level-feature
 ---
 
 ```ds-ability
-name: Grand Wyrding
+name: ""
+icon: Grand Wyrding
 metadata:
   class: elementalist
   feature_type: trait
@@ -36,6 +37,7 @@ effects:
   - effect: >-
       You have mastered the magic of shaping a wyrd, and can use your Wyrding
       feature as a main action.
+
 
       Additionally, when you have 5 or more Victories, choose one of the
       following damage types: acid, cold, corruption, fire, lightning, poison,

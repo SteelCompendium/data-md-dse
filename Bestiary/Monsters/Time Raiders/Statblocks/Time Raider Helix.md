@@ -58,6 +58,7 @@ traits:
           concealment.
 abilities:
   - name: Blaster Volley
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Psionic
@@ -73,6 +74,7 @@ abilities:
         t2: 8 corruption damage; push 4
         t3: 11 corruption damage; push 6, prone
   - name: Kinetic Lane
+    icon: 🔳
     keywords:
       - Area
       - Psionic

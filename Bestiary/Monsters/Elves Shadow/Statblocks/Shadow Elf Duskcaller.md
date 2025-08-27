@@ -59,6 +59,7 @@ traits:
           the duskcaller has concealment, they have damage immunity 3.
 abilities:
   - name: Night Knife
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -76,6 +77,7 @@ abilities:
           creature or object.
         name: Effect
   - name: The Lay of Cor'thoroth
+    icon: 🔳
     keywords:
       - Area
       - Magic

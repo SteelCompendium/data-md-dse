@@ -59,6 +59,7 @@ traits:
           against them, that enemy takes 1 poison damage.
 abilities:
   - name: Hop and Chop
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

@@ -26,8 +26,8 @@ type: feature/ability/troubadour/5th-level-feature
 ---
 
 ```ds-ability
-name: Patter Song
-cost: 9 Drama
+name: ""
+icon: Patter Song (9 Drama)
 flavor: Dazzle them with your fancy patter and they forget where they were.
 keywords:
   - Magic

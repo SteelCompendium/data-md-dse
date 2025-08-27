@@ -27,8 +27,8 @@ type: feature/ability/shadow/1st-level-feature
 ---
 
 ```ds-ability
-name: Get In Get Out
-cost: 3 Insight
+name: ""
+icon: Get In Get Out (3 Insight)
 flavor: Move unexpectedly, strike fast, and be gone!
 keywords:
   - Melee

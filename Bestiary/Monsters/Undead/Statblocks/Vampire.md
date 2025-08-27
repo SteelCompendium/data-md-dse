@@ -60,6 +60,7 @@ traits:
           on their turn if they are able to.
 abilities:
   - name: Exsanguinating Bite
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -76,6 +77,7 @@ abilities:
       - effect: The vampire regains Stamina equal to any corruption damage dealt.
         name: Effect
   - name: Vicious Pursuit
+    icon: 🗡
     cost: 3 Malice
     keywords:
       - Melee
@@ -93,6 +95,7 @@ abilities:
           using this ability.
         name: Effect
   - name: Reactive Charm
+    icon: ❗️
     cost: 2 Malice
     keywords:
       - Magic

@@ -58,6 +58,7 @@ traits:
           condition, then shift up to 2 squares.
 abilities:
   - name: Tonguelash
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

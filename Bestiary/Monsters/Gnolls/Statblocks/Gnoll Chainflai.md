@@ -56,6 +56,7 @@ traits:
           to 0 Stamina, the chainflail can move up to their speed.
 abilities:
   - name: Chain Shotput
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged

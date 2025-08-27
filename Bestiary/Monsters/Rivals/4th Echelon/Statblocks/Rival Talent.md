@@ -56,6 +56,7 @@ traits:
           roll to power rolls they make against each other.
 abilities:
   - name: Override
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Psionic
@@ -76,6 +77,7 @@ abilities:
           would harm them.
         cost: 4 Malice
   - name: Steal Time
+    icon: 🏹
     cost: 3 Malice
     keywords:
       - Chronopathy
@@ -92,6 +94,7 @@ abilities:
       - effect: \*\*Effect:\*\*One ally within distance can use an additional main
           action on their next turn.
   - name: Psionic Retribution
+    icon: ❗️
     cost: 2 Malice
     keywords:
       - Psionic

@@ -25,7 +25,8 @@ type: feature/ability/talent/1st-level-feature
 ---
 
 ```ds-ability
-name: Spirit Sword
+name: ""
+icon: Spirit Sword
 flavor: You form a blade of mind energy and stab your target, invigorating yourself.
 keywords:
   - Animapathy

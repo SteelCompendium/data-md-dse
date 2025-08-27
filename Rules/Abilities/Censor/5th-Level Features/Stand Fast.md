@@ -16,7 +16,8 @@ type: feature/trait/censor/5th-level-feature
 ---
 
 ```ds-ability
-name: Stand Fast!
+name: ""
+icon: Stand Fast!
 metadata:
   class: censor
   feature_type: trait

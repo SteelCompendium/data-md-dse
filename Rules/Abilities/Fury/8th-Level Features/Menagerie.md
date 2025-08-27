@@ -16,7 +16,8 @@ type: feature/trait/fury/8th-level-feature
 ---
 
 ```ds-ability
-name: Menagerie
+name: ""
+icon: Menagerie
 metadata:
   class: fury
   feature_type: trait

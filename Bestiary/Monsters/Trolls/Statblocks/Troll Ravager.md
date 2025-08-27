@@ -61,6 +61,7 @@ traits:
           while their squad's Stamina pool is at 0 Stamina
 abilities:
   - name: Dine and Dash
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

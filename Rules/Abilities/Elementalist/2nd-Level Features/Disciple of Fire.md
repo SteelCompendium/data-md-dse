@@ -16,7 +16,8 @@ type: feature/trait/elementalist/2nd-level-feature
 ---
 
 ```ds-ability
-name: Disciple of Fire
+name: ""
+icon: Disciple of Fire
 metadata:
   class: elementalist
   feature_type: trait
@@ -38,6 +39,7 @@ effects:
       you rip away the protections of others. You have fire immunity equal to 5
       plus your level. Additionally, fire damage you deal ignores a target's
       fire immunity.
+
 
       At the start of a combat encounter, you gain a number of surges equal to
       your Victories. Whenever you spend a surge to deal extra damage, you can

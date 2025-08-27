@@ -14,7 +14,8 @@ type: common-ability/main-action
 ---
 
 ```ds-ability
-name: Charge
+name: ""
+icon: Charge
 metadata:
   class: combat
   file_basename: Charge
@@ -35,6 +36,7 @@ effects:
       Strikes](#page-289-1) below) against a target when they end their move. If
       the creature has an ability with the Charge keyword, they can use that
       ability against the target instead of a free strike.
+
 
       A creature can't move through difficult terrain or shift when they charge.
       They can fly or burrow as part of the Charge main action if they have that

@@ -16,7 +16,8 @@ type: feature/trait/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: Deity and Domains
+name: ""
+icon: Deity and Domains
 metadata:
   class: conduit
   feature_type: trait
@@ -38,6 +39,7 @@ effects:
       Religion, or ask your Director about the deities in your campaign world.
       With the Director's permission, you can also create your own deity and
       choose four domains to be part of their portfolio.
+
 
       After choosing your deity, pick two domains from their portfolio. The two
       domains you pick make up your subclass, and your choice of domains

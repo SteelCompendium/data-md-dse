@@ -16,7 +16,8 @@ type: feature/trait/talent/8th-level-feature
 ---
 
 ```ds-ability
-name: Mindlink
+name: ""
+icon: Mindlink
 metadata:
   class: talent
   feature_type: trait

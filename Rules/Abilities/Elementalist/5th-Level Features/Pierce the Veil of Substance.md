@@ -16,7 +16,8 @@ type: feature/trait/elementalist/5th-level-feature
 ---
 
 ```ds-ability
-name: Pierce the Veil of Substance
+name: ""
+icon: Pierce the Veil of Substance
 metadata:
   class: elementalist
   feature_type: trait
@@ -37,6 +38,7 @@ effects:
       Solidity is merely a suggestion to you. Mundane barriers that are 1 square
       thick or less do not block your senses or line of effect. You can only
       sense or have line of effect past one such barrier at a time.
+
 
       Additionally, whenever you use a void ability, you or one ally within
       distance of the ability can teleport a number of squares equal to your

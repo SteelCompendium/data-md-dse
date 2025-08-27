@@ -65,6 +65,7 @@ traits:
           make a free strike against each adjacent enemy.
 abilities:
   - name: Mudslide
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -82,6 +83,7 @@ abilities:
           enemies.
         name: Effect
   - name: Mourning Cry
+    icon: ❇️
     cost: 3 Malice
     keywords:
       - Area

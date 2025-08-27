@@ -28,8 +28,8 @@ type: feature/ability/talent/9th-level-feature
 ---
 
 ```ds-ability
-name: Synaptic Terror
-cost: 11 Clarity
+name: ""
+icon: Synaptic Terror (11 Clarity)
 flavor: You project a terrifying image into the brains of your foes, and their
   fear psionically invigorates your allies.
 keywords:

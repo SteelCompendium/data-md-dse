@@ -54,6 +54,7 @@ presence: 1
 traits: []
 abilities:
   - name: Despair Bolt
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic

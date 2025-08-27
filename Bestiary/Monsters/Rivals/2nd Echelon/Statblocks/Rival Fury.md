@@ -61,6 +61,7 @@ traits:
           power rolls they make against each other.
 abilities:
   - name: Thunderous Slam
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -77,6 +78,7 @@ abilities:
       - effect: Each target who has M < 2 is slowed (save ends).
         cost: 2 Malice
   - name: Roughed Up
+    icon: 🗡
     cost: 3 Malice
     keywords:
       - Melee

@@ -16,7 +16,8 @@ type: feature/trait/elementalist/2nd-level-feature
 ---
 
 ```ds-ability
-name: Disciple of Earth
+name: ""
+icon: Disciple of Earth
 metadata:
   class: elementalist
   feature_type: trait

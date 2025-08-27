@@ -22,7 +22,8 @@ type: feature/ability/shadow/1st-level-feature
 ---
 
 ```ds-ability
-name: Black Ash Teleport
+name: ""
+icon: Black Ash Teleport
 flavor: In a swirl of black ash, you step from one place to another.
 keywords:
   - Magic

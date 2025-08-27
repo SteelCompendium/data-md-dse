@@ -25,8 +25,8 @@ type: feature/ability/fury/3rd-level-feature
 ---
 
 ```ds-ability
-name: Face the Storm!
-cost: 7 Ferocity
+name: ""
+icon: Face the Storm! (7 Ferocity)
 flavor: Shocked in the face of your naked brutality, your enemy's instincts take over.
 keywords:
   - Magic

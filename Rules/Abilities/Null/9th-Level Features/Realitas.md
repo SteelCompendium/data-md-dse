@@ -28,8 +28,8 @@ type: feature/ability/null/9th-level-feature
 ---
 
 ```ds-ability
-name: Realitas
-cost: 11 Discipline
+name: ""
+icon: Realitas (11 Discipline)
 flavor: Your essential hyperreality disrupts your enemy's connection to existence.
 keywords:
   - Melee

@@ -26,8 +26,8 @@ type: feature/ability/tactician/6th-level-feature
 ---
 
 ```ds-ability
-name: Battle Plan
-cost: 9 Focus
+name: ""
+icon: Battle Plan (9 Focus)
 flavor: With new understanding of your foes, you create the perfect plan to win
   the battle.
 keywords:

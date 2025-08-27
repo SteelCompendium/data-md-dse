@@ -26,8 +26,8 @@ type: feature/ability/conduit/3rd-level-feature
 ---
 
 ```ds-ability
-name: Saint's Raiment
-cost: 7 Piety
+name: ""
+icon: Saint's Raiment (7 Piety)
 flavor: An ally becomes the wearer of an empowered golden cloak.
 keywords:
   - Magic

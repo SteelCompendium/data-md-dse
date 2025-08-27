@@ -60,6 +60,7 @@ traits:
           can't be reduced in any way.
 abilities:
   - name: Handaxe
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Melee
@@ -77,6 +78,7 @@ abilities:
       - effect: One ally within 10 squares of the monarch can make a free strike.
         name: Effect
   - name: Get in Here!
+    icon: 🏹
     cost: 1 Malice
     keywords:
       - Ranged
@@ -87,6 +89,7 @@ abilities:
       - effect: Two goblin runners appear in unoccupied spaces within distance.
         name: Effect
   - name: Meat Shield
+    icon: ❗️
     keywords:
       - Melee
     type: Triggered action
@@ -97,6 +100,7 @@ abilities:
       - effect: The ally is the target of the triggering strike instead
         name: Effect
   - name: What Are You Waiting For?
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -107,6 +111,7 @@ abilities:
       - effect: Each target can move up to their speed or make a free strike.
         name: Effect
   - name: Focus Fire
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Ranged
@@ -118,6 +123,7 @@ abilities:
           toward the target.
         name: Effect
   - name: Kill!
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - "-"

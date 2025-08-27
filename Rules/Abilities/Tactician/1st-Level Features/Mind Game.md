@@ -28,8 +28,8 @@ type: feature/ability/tactician/1st-level-feature
 ---
 
 ```ds-ability
-name: Mind Game
-cost: 5 Focus
+name: ""
+icon: Mind Game (5 Focus)
 flavor: Your attack demoralizes your foe. Your allies begin to think you can win.
 keywords:
   - Melee

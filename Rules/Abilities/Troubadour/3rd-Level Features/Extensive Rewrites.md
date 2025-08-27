@@ -26,8 +26,8 @@ type: feature/ability/troubadour/3rd-level-feature
 ---
 
 ```ds-ability
-name: Extensive Rewrites
-cost: 7 Drama
+name: ""
+icon: Extensive Rewrites (7 Drama)
 flavor: No, this isn't right. That foe was over there!
 keywords:
   - Area

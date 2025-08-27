@@ -16,7 +16,8 @@ type: feature/trait/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: Prayer of Soldier's Skill
+name: ""
+icon: Prayer of Soldier's Skill
 metadata:
   class: conduit
   feature_type: trait
@@ -40,6 +41,7 @@ effects:
       bonus increases by 3 at 4th, 7th, and 10th levels. While you wield a light
       weapon, you gain a +1 damage bonus with weapon abilities, including free
       strikes. You can use light armor treasures and light weapon treasures.
+
 
       If you have a kit, you can't take this blessing.
 ```

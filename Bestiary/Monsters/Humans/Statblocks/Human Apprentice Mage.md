@@ -59,6 +59,7 @@ traits:
           supernatural effect.
 abilities:
   - name: Lightning Strike
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic

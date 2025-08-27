@@ -16,7 +16,8 @@ type: feature/trait/talent/5th-level-feature
 ---
 
 ```ds-ability
-name: Triangulate
+name: ""
+icon: Triangulate
 metadata:
   class: talent
   feature_type: trait

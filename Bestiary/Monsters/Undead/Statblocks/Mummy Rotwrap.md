@@ -57,6 +57,7 @@ presence: -2
 traits: []
 abilities:
   - name: Fetid Wrappings
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

@@ -60,6 +60,7 @@ traits:
           bane.
 abilities:
   - name: Claw Swipes
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge
@@ -78,6 +79,7 @@ abilities:
           can grab one of the targets
         name: Effect
   - name: Crack the Earth
+    icon: 🔳
     keywords:
       - Area
       - Ranged
@@ -97,6 +99,7 @@ abilities:
         t2: 6 damage; A < 1 push 3
         t3: 9 damage; A < 2 push 4; prone
   - name: Wing Buffet
+    icon: 🔳
     cost: 3 Malice
     keywords:
       - Area
@@ -111,6 +114,7 @@ abilities:
         t2: Push 4; A < 1 the forced movement is vertical
         t3: Push 5; A < 2 the forced movement is vertical
   - name: Zephyr Feint
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - "-"

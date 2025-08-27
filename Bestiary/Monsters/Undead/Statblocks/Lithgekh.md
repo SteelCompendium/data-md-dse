@@ -59,6 +59,7 @@ traits:
           abilities.
 abilities:
   - name: Heartstopper
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -76,6 +77,7 @@ abilities:
           undead.
         name: Effect
   - name: Mystic Battery
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - Magic

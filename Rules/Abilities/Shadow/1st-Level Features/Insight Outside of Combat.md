@@ -16,7 +16,8 @@ type: feature/trait/shadow/1st-level-feature
 ---
 
 ```ds-ability
-name: Insight Outside of Combat
+name: ""
+icon: Insight Outside of Combat
 metadata:
   class: shadow
   feature_type: trait
@@ -39,6 +40,7 @@ effects:
       use an ability or effect outside of combat that costs insight, you can't
       use that same ability or effect outside of combat again until you earn 1
       or more Victories or finish a respite.
+
 
       When you use an ability outside of combat that lets you spend unlimited
       insight on its effect, such as Black Ash Teleport, you can use it as if

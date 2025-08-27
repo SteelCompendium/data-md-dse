@@ -55,6 +55,7 @@ traits:
           instead ends automatically at the end of their next turn.
 abilities:
   - name: Flash Swipe
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -72,6 +73,7 @@ abilities:
           damage.
         name: Effect
   - name: Piercing Tails
+    icon: 🗡
     keywords:
       - Melee
       - Strike
@@ -88,6 +90,7 @@ abilities:
           the lightbender while they are hidden.
         name: Effect
   - name: Hypnotic Mane
+    icon: ❇️
     cost: 5 Malice
     keywords:
       - Area
@@ -105,6 +108,7 @@ abilities:
           stupor, the dazed condition ends.
         name: Effect
   - name: Stalker's Afterimage
+    icon: ❗️
     keywords:
       - Magic
     type: Triggered action

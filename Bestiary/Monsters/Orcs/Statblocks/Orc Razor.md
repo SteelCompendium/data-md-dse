@@ -56,6 +56,7 @@ traits:
           dying.
 abilities:
   - name: Boot and Blade
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Melee

@@ -56,6 +56,7 @@ traits:
           roll to power rolls they make against each other.
 abilities:
   - name: Control Synapses
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Psionic
@@ -75,6 +76,7 @@ abilities:
           that would harm them.
         cost: 3 Malice
   - name: Disorientate
+    icon: 🏹
     cost: 2 Malice
     keywords:
       - Psionic
@@ -89,6 +91,7 @@ abilities:
         t2: 8 psychic damage; R < 3 dazed and slowed (save ends)
         t3: 8 psychic damage; R < 4 dazed and slowed (save ends)
   - name: Mind Requital
+    icon: ❗️
     cost: 2 Malice
     keywords:
       - Psionic

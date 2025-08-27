@@ -56,6 +56,7 @@ traits:
       - effect: The runner doesn't provoke opportunity attacks by moving
 abilities:
   - name: Club Charge
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge

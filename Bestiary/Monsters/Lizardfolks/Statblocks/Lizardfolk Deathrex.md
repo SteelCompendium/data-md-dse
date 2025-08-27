@@ -58,6 +58,7 @@ traits:
           shift up to 2 squares.
 abilities:
   - name: Ripper Spear
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -74,6 +75,7 @@ abilities:
       - effect: One target adjacent to the deathrex is grabbed in the deathrex's mouth.
         cost: 1 Malice
   - name: Death Roll
+    icon: 🗡
     cost: 3 Malice
     keywords:
       - Melee
@@ -91,6 +93,7 @@ abilities:
           them up to 5 squares.
         name: Effect
   - name: Trundle
+    icon: 👤
     keywords:
       - "-"
     type: Maneuver
@@ -102,6 +105,7 @@ abilities:
           during this movement.
         name: Effect
   - name: Swat the Fly
+    icon: ❗️
     keywords:
       - Melee
     type: Triggered action
@@ -113,6 +117,7 @@ abilities:
       - effect: The deathrex slides the target up to 5 squares.
         name: Effect
   - name: Snack Attack
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -124,6 +129,7 @@ abilities:
           target gains temporary Stamina equal to the damage they deal.
         name: Effect
   - name: Shed Some Skin
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - "-"

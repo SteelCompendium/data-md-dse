@@ -27,8 +27,8 @@ type: feature/ability/censor/3rd-level-feature
 ---
 
 ```ds-ability
-name: Edict of Purifying Pacifism
-cost: 7 Wrath
+name: ""
+icon: Edict of Purifying Pacifism (7 Wrath)
 flavor: You shed a righteous energy that punishes enemies who would harm you or
   your allies.
 keywords:

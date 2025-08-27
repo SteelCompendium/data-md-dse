@@ -26,8 +26,8 @@ type: feature/ability/shadow/9th-level-feature
 ---
 
 ```ds-ability
-name: I Am You
-cost: 11 Insight
+name: ""
+icon: I Am You (11 Insight)
 flavor: Your mask reflects your foe's face. Surely they won't need it much longer.
 keywords:
   - Magic

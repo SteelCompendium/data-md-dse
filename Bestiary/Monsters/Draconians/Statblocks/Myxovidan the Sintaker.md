@@ -60,6 +60,7 @@ traits:
           they regain 3 less Stamina.
 abilities:
   - name: Breaking Palm
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -76,6 +77,7 @@ abilities:
       - effect: Myxovidan regains Stamina equal to half the damage dealt.
         cost: 2 Malice
   - name: Expunging Exhalation
+    icon: ❇️
     keywords:
       - Area
       - Magic
@@ -88,6 +90,7 @@ abilities:
         t2: 12 corruption damage; M < 2 the target has corruption weakness 3 (save ends)
         t3: 15 corruption damage; M < 3 the target has corruption weakness 3 (save ends)
   - name: Step and Swap
+    icon: 🏹
     keywords:
       - Ranged
     type: Maneuver
@@ -97,6 +100,7 @@ abilities:
       - effect: Myxovidan and the target shift to swap places.
         name: Effect
   - name: Anyone Can Do That
+    icon: ❗️
     cost: 2 Malice
     keywords:
       - "-"

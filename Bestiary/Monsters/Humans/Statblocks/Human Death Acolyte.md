@@ -59,6 +59,7 @@ traits:
           effect.
 abilities:
   - name: Necrotic Bolt
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged

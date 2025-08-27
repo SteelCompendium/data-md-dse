@@ -62,6 +62,7 @@ traits:
           has that trait.
 abilities:
   - name: Gore
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge
@@ -80,6 +81,7 @@ abilities:
           charge.
         name: Effect
   - name: Where I End the Woods Begin
+    icon: 👤
     cost: 3 Malice
     keywords:
       - "-"

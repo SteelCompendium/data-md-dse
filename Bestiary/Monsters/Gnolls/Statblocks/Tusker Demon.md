@@ -64,6 +64,7 @@ traits:
           strike made against them gains an edge
 abilities:
   - name: Gore
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge
@@ -82,6 +83,7 @@ abilities:
           extra 4 damage.
         name: Effect
   - name: Vengeful Tusker
+    icon: ❗️
     keywords:
       - Ranged
     type: Triggered action

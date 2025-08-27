@@ -29,8 +29,8 @@ type: feature/ability/talent/2nd-level-feature
 ---
 
 ```ds-ability
-name: Overwhelm
-cost: 5 Clarity
+name: ""
+icon: Overwhelm (5 Clarity)
 flavor: You overload their senses, turning all their subconscious thoughts into
   conscious ones.
 keywords:

@@ -67,6 +67,7 @@ traits:
       - effect: The mindkiller can move through enemies' spaces at their usual speed.
 abilities:
   - name: Killer Claws
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -81,6 +82,7 @@ abilities:
         t2: 17 damage; A < 2 grabbed
         t3: 21 damage; A < 3 grabbed
   - name: Concealing Strike
+    icon: 🏹
     cost: 2 Malice
     keywords:
       - Psionic
@@ -95,6 +97,7 @@ abilities:
         t2: 15 damage; R < 2 the mindkiller is invisible to the target (save ends)
         t3: 18 damage; R < 3 the mindkiller is invisible to the target (save ends)
   - name: Mindwipe
+    icon: 🗡
     keywords:
       - Melee
       - Psionic
@@ -109,6 +112,7 @@ abilities:
           of the encounter.
         name: Effect
   - name: Meat Shield
+    icon: ❗️
     keywords:
       - "-"
     type: Triggered action

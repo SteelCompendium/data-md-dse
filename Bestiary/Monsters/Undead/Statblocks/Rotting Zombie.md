@@ -60,6 +60,7 @@ traits:
           space, they are slowed (save ends) and the effect end.
 abilities:
   - name: Rotting Fist
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

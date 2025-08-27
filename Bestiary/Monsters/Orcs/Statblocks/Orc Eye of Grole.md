@@ -65,6 +65,7 @@ traits:
           eye is reduced to 1 Stamina instead.
 abilities:
   - name: Elemental Discharge
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -81,6 +82,7 @@ abilities:
       - effect: This ability deals cold, fire, or lightning damage.
         name: Effect
   - name: Power Burst
+    icon: 🔳
     cost: 3 Malice
     keywords:
       - Area

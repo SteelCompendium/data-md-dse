@@ -58,6 +58,7 @@ traits:
           against them, that enemy takes 2 poison damage.
 abilities:
   - name: Blowgun
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged

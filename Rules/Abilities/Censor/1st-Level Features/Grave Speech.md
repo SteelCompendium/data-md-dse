@@ -22,7 +22,8 @@ type: feature/ability/censor/1st-level-feature
 ---
 
 ```ds-ability
-name: Grave Speech
+name: ""
+icon: Grave Speech
 flavor: You commune with the lingering soul of the recently dead.
 keywords:
   - Magic

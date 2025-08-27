@@ -60,6 +60,7 @@ traits:
           damage from being force moved into objects.
 abilities:
   - name: Chilling Grasp
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Magic
@@ -74,6 +75,7 @@ abilities:
         t2: 6 cold damage; the stalker can shift 1 square
         t3: 7 cold damage; the stalker shifts up to 2 squares
   - name: Freezing Dark
+    icon: 🔳
     cost: 3 Malice
     keywords:
       - Area
@@ -90,6 +92,7 @@ abilities:
           and blocks line of effect for enemies
         name: Effect
   - name: Shadow Jump
+    icon: 👤
     cost: 1 Malice
     keywords:
       - "-"

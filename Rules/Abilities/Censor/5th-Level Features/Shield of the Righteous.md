@@ -27,8 +27,8 @@ type: feature/ability/censor/5th-level-feature
 ---
 
 ```ds-ability
-name: Shield of the Righteous
-cost: 9 Wrath
+name: ""
+icon: Shield of the Righteous (9 Wrath)
 flavor: You strike a foe and create a fleet of divine shields that protect your allies.
 keywords:
   - Melee

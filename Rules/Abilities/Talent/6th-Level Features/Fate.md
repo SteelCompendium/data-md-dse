@@ -27,8 +27,8 @@ type: feature/ability/talent/6th-level-feature
 ---
 
 ```ds-ability
-name: Fate
-cost: 9 Clarity
+name: ""
+icon: Fate (9 Clarity)
 flavor: Your foe gets a glimpse of how it will end for them.
 keywords:
   - Chronopathy

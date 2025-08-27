@@ -27,8 +27,8 @@ type: feature/ability/fury/1st-level-feature
 ---
 
 ```ds-ability
-name: Thunder Roar
-cost: 5 Ferocity
+name: ""
+icon: Thunder Roar (5 Ferocity)
 flavor: You unleash a howl that hurls your enemies back.
 keywords:
   - Area

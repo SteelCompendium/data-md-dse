@@ -58,6 +58,7 @@ traits:
       - effect: The rogue ignores concealment if it's granted by a supernatural effect.
 abilities:
   - name: Concealed Dagger
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Melee

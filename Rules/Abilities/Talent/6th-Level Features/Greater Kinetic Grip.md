@@ -28,8 +28,8 @@ type: feature/ability/talent/6th-level-feature
 ---
 
 ```ds-ability
-name: Greater Kinetic Grip
-cost: 9 Clarity
+name: ""
+icon: Greater Kinetic Grip (9 Clarity)
 flavor: You raise the target into the air without breaking a sweat.
 keywords:
   - Psionic

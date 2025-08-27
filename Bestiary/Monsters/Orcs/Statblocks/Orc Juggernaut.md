@@ -60,6 +60,7 @@ traits:
           Stamina, the juggernaut is reduced to 1 Stamina instead.
 abilities:
   - name: Haymaker Greataxe
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -76,6 +77,7 @@ abilities:
       - effect: A target who is already prone takes an extra 6 damage.
         name: Effect
   - name: Hrraaaaaagh!
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - "-"

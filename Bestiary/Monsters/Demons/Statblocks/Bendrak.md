@@ -60,6 +60,7 @@ traits:
       - effect: Any creature within 2 squares of the bendrak can't be hidden from them.
 abilities:
   - name: Warp Perceptions
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -79,6 +80,7 @@ abilities:
           takes any remaining damage.
         name: Effect
   - name: Vanish
+    icon: 🏹
     cost: 1 Malice
     keywords:
       - Magic

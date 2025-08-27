@@ -56,6 +56,7 @@ traits:
           Stamina, the garroter is reduced to 1 Stamina instead.
 abilities:
   - name: Dagger Feint
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -73,6 +74,7 @@ abilities:
           damage.
         name: Effect
   - name: Strangle
+    icon: 🗡
     keywords:
       - Melee
       - Strike
@@ -89,6 +91,7 @@ abilities:
           abilities.
         name: Effect
   - name: Chroma Cloak
+    icon: 👤
     cost: 1 Malice
     keywords:
       - "-"

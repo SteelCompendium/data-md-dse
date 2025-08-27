@@ -58,6 +58,7 @@ traits:
           explodes, dealing 3d6 damage to each adjacent enemy and object.
 abilities:
   - name: Fuse-Iron Rocket
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged

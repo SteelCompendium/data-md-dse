@@ -59,6 +59,7 @@ traits:
           instead have 1 Stamina and fall prone.
 abilities:
   - name: Bone Shards
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Melee
@@ -77,6 +78,7 @@ abilities:
           the first time they willingly move on their turn
         name: Effect
   - name: Bone Spur
+    icon: ❇️
     cost: 2 Malice
     keywords:
       - Area

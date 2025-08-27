@@ -56,6 +56,7 @@ traits:
           roll to power rolls they make against each other.
 abilities:
   - name: Reverberating Blast
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Psionic
@@ -71,6 +72,7 @@ abilities:
         t2: 10 psychic damage; push 2; M < 1 prone
         t3: 13 psychic damage; push 3; M < 2 prone
   - name: Muddle the Mind
+    icon: 🏹
     cost: 2 Malice
     keywords:
       - Psionic
@@ -85,6 +87,7 @@ abilities:
         t2: R < 1 dazed (save ends)
         t3: R < 2 dazed and slowed (save ends)
   - name: Precognitive Shift
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - Psionic

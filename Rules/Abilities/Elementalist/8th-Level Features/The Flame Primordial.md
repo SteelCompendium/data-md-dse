@@ -16,7 +16,8 @@ type: feature/trait/elementalist/8th-level-feature
 ---
 
 ```ds-ability
-name: The Flame Primordial
+name: ""
+icon: The Flame Primordial
 metadata:
   class: elementalist
   feature_type: trait
@@ -39,6 +40,7 @@ effects:
       take an extra 1d6 fire damage. If you deal fire damage to a mundane
       object, you can use a free triggered action to target it with your Return
       to Formlessness ability instead.
+
 
       Additionally, any enemy who starts their turn adjacent to you has fire
       weakness equal to your Reason score until the start of their next turn.

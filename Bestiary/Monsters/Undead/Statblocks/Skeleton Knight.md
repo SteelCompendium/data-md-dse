@@ -65,6 +65,7 @@ traits:
           instead.
 abilities:
   - name: Four Swords Swing
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

@@ -76,6 +76,7 @@ traits:
           of Rhodar can't hide.
 abilities:
   - name: Spear of the Damned
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Magic
@@ -97,6 +98,7 @@ abilities:
           himself, ending the restrained condition on an impaled target.
         name: Effect
   - name: Disarming Glare
+    icon: ❇️
     keywords:
       - Area
       - Magic
@@ -112,6 +114,7 @@ abilities:
       - effect: While a target is frightened this way, Rhodar ignores banes and double
           banes on abilities used against them.
   - name: Vermilion Fangs
+    icon: 🗡
     cost: 3 Malice
     keywords:
       - Melee
@@ -129,6 +132,7 @@ abilities:
       - effect: Rhodar regains Stamina equal to half the damage dealt.
         name: Effect
   - name: Sanguineous Flourish
+    icon: ❇️
     cost: 5 Malice
     keywords:
       - Area
@@ -145,6 +149,7 @@ abilities:
           regains Stamina equal to half the total corruption damage dealt.
         name: Effect
   - name: Vengeance of Rhöl
+    icon: 🔳
     cost: 2 Malice
     keywords:
       - Area
@@ -161,6 +166,7 @@ abilities:
           and has P < 5 is weakened (save ends).
         name: Effect
   - name: Reactive Rebuke
+    icon: ❗️
     cost: 2 Malice
     keywords:
       - Magic
@@ -174,6 +180,7 @@ abilities:
           11 or more squares from Rhodar.
         name: Effect
   - name: Red Tide
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -192,6 +199,7 @@ abilities:
           used against them.
         name: Effect
   - name: Sanguine Mist
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Area
@@ -209,6 +217,7 @@ abilities:
           damage immunity from his Grave Ward trait, he regains it.
         name: Effect
   - name: Fires of Dracul
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

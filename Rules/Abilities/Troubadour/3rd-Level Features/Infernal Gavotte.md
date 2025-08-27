@@ -28,8 +28,8 @@ type: feature/ability/troubadour/3rd-level-feature
 ---
 
 ```ds-ability
-name: Infernal Gavotte
-cost: 7 Drama
+name: ""
+icon: Infernal Gavotte (7 Drama)
 flavor: A spicy performance lights a fire under your allies' feet.
 keywords:
   - Area

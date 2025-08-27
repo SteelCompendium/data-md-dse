@@ -16,7 +16,8 @@ type: feature/trait/fury/5th-level-feature
 ---
 
 ```ds-ability
-name: Stormborn
+name: ""
+icon: Stormborn
 metadata:
   class: fury
   feature_type: trait

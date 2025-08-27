@@ -16,7 +16,8 @@ type: feature/trait/talent/9th-level-feature
 ---
 
 ```ds-ability
-name: Fortress of Perfect Thought
+name: ""
+icon: Fortress of Perfect Thought
 metadata:
   class: talent
   feature_type: trait
@@ -36,6 +37,7 @@ effects:
   - effect: >-
       Your mind is an impenetrable palace that shields you from danger. You gain
       the following effects:
+
 
       - You can breathe even when there is no breathable air.
 

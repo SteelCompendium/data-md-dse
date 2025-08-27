@@ -28,8 +28,8 @@ type: feature/ability/null/1st-level-feature
 ---
 
 ```ds-ability
-name: Chronal Spike
-cost: 3 Discipline
+name: ""
+icon: Chronal Spike (3 Discipline)
 flavor: You foresee the best moment to strike, then exploit it.
 keywords:
   - Melee

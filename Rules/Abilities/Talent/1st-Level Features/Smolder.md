@@ -29,8 +29,8 @@ type: feature/ability/talent/1st-level-feature
 ---
 
 ```ds-ability
-name: Smolder
-cost: 3 Clarity
+name: ""
+icon: Smolder (3 Clarity)
 flavor: Smoke flows from your enemy like tears as their skin begins to blacken
   and flake.
 keywords:

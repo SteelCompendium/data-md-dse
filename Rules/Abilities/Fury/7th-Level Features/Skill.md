@@ -16,7 +16,8 @@ type: feature/trait/fury/7th-level-feature
 ---
 
 ```ds-ability
-name: Skill
+name: ""
+icon: Skill
 metadata:
   class: fury
   feature_type: trait

@@ -16,7 +16,8 @@ type: feature/trait/tactician/10th-level-feature
 ---
 
 ```ds-ability
-name: True Focus
+name: ""
+icon: True Focus
 metadata:
   class: tactician
   feature_type: trait

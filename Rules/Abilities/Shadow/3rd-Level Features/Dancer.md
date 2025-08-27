@@ -25,8 +25,8 @@ type: feature/ability/shadow/3rd-level-feature
 ---
 
 ```ds-ability
-name: Dancer
-cost: 7 Insight
+name: ""
+icon: Dancer (7 Insight)
 flavor: You enter a flow state that makes you nearly impossible to pin down.
 keywords:
   - "-"

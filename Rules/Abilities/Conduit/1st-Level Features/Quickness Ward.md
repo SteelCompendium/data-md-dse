@@ -16,7 +16,8 @@ type: feature/trait/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: Quickness Ward
+name: ""
+icon: Quickness Ward
 metadata:
   class: conduit
   feature_type: trait

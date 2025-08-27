@@ -25,7 +25,8 @@ type: feature/ability/null/1st-level-feature
 ---
 
 ```ds-ability
-name: Pressure Points
+name: ""
+icon: Pressure Points
 flavor: You strike at key nerve clusters to leave your foe staggered.
 keywords:
   - Melee

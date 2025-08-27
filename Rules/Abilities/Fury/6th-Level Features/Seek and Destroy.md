@@ -27,8 +27,8 @@ type: feature/ability/fury/6th-level-feature
 ---
 
 ```ds-ability
-name: Seek and Destroy
-cost: 9 Ferocity
+name: ""
+icon: Seek and Destroy (9 Ferocity)
 flavor: You break through the enemy lines to make an example.
 keywords:
   - Melee

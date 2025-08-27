@@ -16,7 +16,8 @@ type: feature/trait/elementalist/10th-level-feature
 ---
 
 ```ds-ability
-name: Master of Void
+name: ""
+icon: Master of Void
 metadata:
   class: elementalist
   feature_type: trait
@@ -35,6 +36,7 @@ metadata:
 effects:
   - effect: >-
       Whenever you willingly move, you can teleport.
+
 
       Additionally, your mind is connected to the mystery and helps you find the
       answers you seek. You no longer require project sources for research

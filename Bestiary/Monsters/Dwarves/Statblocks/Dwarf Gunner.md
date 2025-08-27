@@ -55,6 +55,7 @@ traits:
           object adjacent to the target takes 3 damage.
 abilities:
   - name: Portable Ballista
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged
@@ -78,6 +79,7 @@ abilities:
           creature are each restrained until the end of their next turn.
         cost: 5 Malice
   - name: Ensnaring Chains
+    icon: 🏹
     cost: 5 Malice
     keywords:
       - Ranged

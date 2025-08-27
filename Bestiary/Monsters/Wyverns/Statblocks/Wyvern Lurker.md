@@ -62,6 +62,7 @@ traits:
           from the lurker.
 abilities:
   - name: Agonizing Stinger
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Magic
@@ -78,6 +79,7 @@ abilities:
       - effect: One target hidden from the lurker takes an extra 6 acid damage.
         cost: 1 Malice
   - name: Acidic Anguish
+    icon: 🗡
     cost: 3 Malice
     keywords:
       - Magic
@@ -95,6 +97,7 @@ abilities:
           their turns.
         name: Effect
   - name: Swooping Torment
+    icon: 👤
     keywords:
       - "-"
     type: Maneuver
@@ -106,6 +109,7 @@ abilities:
           sonic damage or fall prone.
         name: Effect
   - name: Retaliatory Dive
+    icon: ❗️
     keywords:
       - Ranged
     type: Triggered action

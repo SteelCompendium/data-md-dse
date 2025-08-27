@@ -26,8 +26,8 @@ type: feature/ability/censor/2nd-level-feature
 ---
 
 ```ds-ability
-name: Prescient Grace
-cost: 5 Wrath
+name: ""
+icon: Prescient Grace (5 Wrath)
 flavor: Gifted by a prescient vision, you warn an ally of an impending attack.
 keywords:
   - Magic

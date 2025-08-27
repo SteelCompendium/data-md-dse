@@ -16,7 +16,8 @@ type: feature/trait/censor/4th-level-feature
 ---
 
 ```ds-ability
-name: Invocation of the Heart
+name: ""
+icon: Invocation of the Heart
 metadata:
   class: censor
   feature_type: trait

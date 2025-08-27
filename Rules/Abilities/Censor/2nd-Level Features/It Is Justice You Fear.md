@@ -27,8 +27,8 @@ type: feature/ability/censor/2nd-level-feature
 ---
 
 ```ds-ability
-name: It Is Justice You Fear
-cost: 5 Wrath
+name: ""
+icon: It Is Justice You Fear (5 Wrath)
 flavor: I am but a vessel. Your own deeds weigh upon you.
 keywords:
   - Magic

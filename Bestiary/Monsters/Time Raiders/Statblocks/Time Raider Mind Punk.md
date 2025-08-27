@@ -57,6 +57,7 @@ traits:
           concealment.
 abilities:
   - name: Repelling Psihander
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -75,6 +76,7 @@ abilities:
           prone.
         name: Effect
   - name: Mindpunk
+    icon: ❇️
     cost: 2 Malice
     keywords:
       - Area

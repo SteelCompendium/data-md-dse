@@ -65,6 +65,7 @@ traits:
           opportunity attacks from that creature during that turn.
 abilities:
   - name: Carnivorous Bite
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -81,6 +82,7 @@ abilities:
       - effect: If the target is frightened, this ability gains an edge.
         name: Effect
   - name: Tail Spike
+    icon: 🏹
     keywords:
       - Ranged
       - Strike
@@ -97,6 +99,7 @@ abilities:
           of each of their turns.
         cost: 1 Malice
   - name: Harrying Claws
+    icon: 🗡
     keywords:
       - Melee
       - Strike
@@ -110,6 +113,7 @@ abilities:
         t2: Slide 2; A < 3 5 damage
         t3: Slide 4; A < 4 7 damage
   - name: Reflexive Instinct
+    icon: ❗️
     cost: 2 Malice
     keywords:
       - Ranged
@@ -122,6 +126,7 @@ abilities:
           Spike against the target.
         name: Effect
   - name: Trumpeting Howl
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -137,6 +142,7 @@ abilities:
           ends)
         t3: Frightened (EoT); if the target has I < 4 they are instead dazed (save ends)
   - name: Cornered Predator
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - "-"
@@ -148,6 +154,7 @@ abilities:
           each enemy within distance of that ability.
         name: Effect
   - name: Debilitating Poison
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - "-"

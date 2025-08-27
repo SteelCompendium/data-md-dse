@@ -60,6 +60,7 @@ traits:
           wraith doesn't take damage from being force moved into objects
 abilities:
   - name: Chilling Gravetouch
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Magic
@@ -78,6 +79,7 @@ abilities:
           next round as a ghoul craver under the Director's control.
         name: Effect
   - name: Hidden Movement
+    icon: 👤
     keywords:
       - "-"
     type: Maneuver
@@ -88,6 +90,7 @@ abilities:
           again.
         name: Effect
   - name: Stolen Vitality
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - Magic

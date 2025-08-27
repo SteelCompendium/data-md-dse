@@ -16,7 +16,8 @@ type: feature/trait/censor/7th-level-feature
 ---
 
 ```ds-ability
-name: Ride the Lightning
+name: ""
+icon: Ride the Lightning
 metadata:
   class: censor
   feature_type: trait

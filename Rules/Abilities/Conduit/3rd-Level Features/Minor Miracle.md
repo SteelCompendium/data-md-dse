@@ -16,7 +16,8 @@ type: feature/trait/conduit/3rd-level-feature
 ---
 
 ```ds-ability
-name: Minor Miracle
+name: ""
+icon: Minor Miracle
 metadata:
   class: conduit
   feature_type: trait
@@ -41,6 +42,7 @@ effects:
       return to life for the ritual to work. If they are not willing, you
       instinctively understand that as you start the respite activity and can
       cease it immediately.
+
 
       A creature with a willing soul returns to life at the end of the respite
       with full Stamina and half their Recoveries. You regain only half your

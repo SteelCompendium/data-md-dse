@@ -26,8 +26,8 @@ type: feature/ability/conduit/8th-level-feature
 ---
 
 ```ds-ability
-name: Blessing of the Blade
-cost: 11 Piety
+name: ""
+icon: Blessing of the Blade (11 Piety)
 flavor: '"The power of the gods is within you, friends. Allow me to unleash it."'
 keywords:
   - Area

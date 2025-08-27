@@ -29,8 +29,8 @@ type: feature/ability/talent/6th-level-feature
 ---
 
 ```ds-ability
-name: Synaptic Conditioning
-cost: 9 Clarity
+name: ""
+icon: Synaptic Conditioning (9 Clarity)
 flavor: It's a subtle mindset shift. It's not that they're your enemy-you just
   don't like them!
 keywords:

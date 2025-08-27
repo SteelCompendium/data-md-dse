@@ -55,6 +55,7 @@ traits:
           stability 1, has cover, and grants cover to allies.
 abilities:
   - name: Shocking Bolt
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -73,6 +74,7 @@ abilities:
           damage.
         name: Effect
   - name: Arcane Telum
+    icon: 🏹
     cost: 3 Malice
     keywords:
       - Magic

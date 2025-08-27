@@ -14,7 +14,8 @@ type: common-ability/maneuver
 ---
 
 ```ds-ability
-name: Catch Breath
+name: ""
+icon: Catch Breath
 metadata:
   class: combat
   file_basename: Catch Breath
@@ -34,6 +35,7 @@ effects:
       regains Stamina equal to their recovery value. (See below for
       [Stamina.](#page-291-0) See [Recoveries](#page-21-3) in [Chapter 1: The
       Basics](#page-17-3).)
+
 
       A creature who is dying (see [Dying and Death](#page-292-1) in
       [Stamina](#page-291-0) below) can't use the Catch Breath maneuver, but

@@ -24,7 +24,8 @@ type: feature/ability/troubadour/3rd-level-feature
 ---
 
 ```ds-ability
-name: '"Never-Ending Hero"'
+name: ""
+icon: '"Never-Ending Hero"'
 flavor: And toniiight we can truly say ♪ They will alllways find a way!♪
 keywords:
   - Area

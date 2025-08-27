@@ -22,7 +22,8 @@ type: feature/ability/tactician/1st-level-feature
 ---
 
 ```ds-ability
-name: Overwatch
+name: ""
+icon: Overwatch
 flavor: Under your direction, an ally waits for just the right moment to strike.
 keywords:
   - Ranged

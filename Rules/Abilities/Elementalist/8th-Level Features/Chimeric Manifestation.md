@@ -16,7 +16,8 @@ type: feature/trait/elementalist/8th-level-feature
 ---
 
 ```ds-ability
-name: Chimeric Manifestation
+name: ""
+icon: Chimeric Manifestation
 metadata:
   class: elementalist
   feature_type: trait
@@ -37,6 +38,7 @@ effects:
       Nature isn't static and unchanging, and neither are you. You can enter or
       exit your animal form as a free maneuver the first time you use your
       Disciple of the Green feature on your turn.
+
 
       Additionally, whenever you use your Disciple of the Green feature, you can
       select an additional animal form and gain the positive benefits from both

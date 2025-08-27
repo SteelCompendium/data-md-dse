@@ -22,7 +22,8 @@ type: feature/ability/troubadour/1st-level-feature
 ---
 
 ```ds-ability
-name: Riposte
+name: ""
+icon: Riposte
 flavor: "\"I'd have brought treats had I known I'd be fighting a dog.\""
 keywords:
   - Melee

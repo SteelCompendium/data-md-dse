@@ -89,16 +89,12 @@ traits:
           bane.
   - name: Rise and Fall
     effects:
-      - effect: >-
-          The dragon flies up to 10 squares and carries fated souls with them.
+      - effect: The dragon flies up to 10 squares and carries fated souls with them.
           Each creature in the area of the dragon's Stagnant Wyrmscale Aura
           trait makes a **Presence test**.
-
-          - **≤11:** Vertical pull 10
-
-          - **12-16:** Vertical pull 6
-
-          - **17+:** Vertical pull 4
+        t1: Vertical pull 10
+        t2: Vertical pull 6
+        t3: Vertical pull 4
   - name: Solo Action
     effects:
       - effect: The dragon takes an additional main action on their turn. They can use
@@ -111,6 +107,7 @@ traits:
           flames they enter.
 abilities:
   - name: Corroding Breath
+    icon: 🔳
     cost: Signature Ability
     keywords:
       - Area
@@ -130,6 +127,7 @@ abilities:
           is treated as 1 lower for the purpose of resisting potencies, and they
           can't treat other creatures as allies.
   - name: Barbed Tail Swing
+    icon: 🗡
     keywords:
       - Charge
       - Melee
@@ -147,6 +145,7 @@ abilities:
           squares.
         cost: 3 Malice
   - name: Detonation
+    icon: ❇️
     cost: 5 Malice
     keywords:
       - Area
@@ -159,6 +158,7 @@ abilities:
           dealt. The target then loses their dragonseal.
         name: Effect
   - name: Don't Turn Away
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - "-"
@@ -172,6 +172,7 @@ abilities:
           shift is reduced by 1.
         name: Effect
   - name: Repent!
+    icon: ❗️
     cost: 2 Malice
     keywords:
       - Ranged
@@ -184,6 +185,7 @@ abilities:
           gaining a Deathcount of 5.
         name: Effect
   - name: What You Deserve
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -199,6 +201,7 @@ abilities:
       - effect: Each target receives a premonition of their imminent death.
         name: Effect
   - name: Souls of the Broken
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Magic
@@ -216,6 +219,7 @@ abilities:
         t2: P < 5 the target moves up to their speed toward the dragon
         t3: P < 5 the target makes a free strike against the nearest ally
   - name: So Long and Goodnight
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

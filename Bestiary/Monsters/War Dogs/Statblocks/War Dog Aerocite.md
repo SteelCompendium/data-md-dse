@@ -62,6 +62,7 @@ traits:
           explodes, dealing 3d6 damage to each adjacent enemy and object.
 abilities:
   - name: Dive Bomb
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -78,6 +79,7 @@ abilities:
       - effect: An enemy force moved by this ability is grabbed instead.
         cost: 1 Malice
   - name: Caustic Paste Bomb
+    icon: 🔳
     cost: 2 Malice
     keywords:
       - Area

@@ -61,6 +61,7 @@ traits:
           underground when they do so.
 abilities:
   - name: Slam Into Dirt
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -77,6 +78,7 @@ abilities:
       - effect: The target's space is difficult terrain.
         name: Effect
   - name: Convocation of Quartz
+    icon: 🏹
     keywords:
       - Magic
       - Ranged
@@ -92,6 +94,7 @@ abilities:
           They have a +3 bonus to stability and gain 15 temporary Stamina.
         cost: 3 Malice
   - name: Break Armor
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - "-"

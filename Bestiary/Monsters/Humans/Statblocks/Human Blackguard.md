@@ -63,6 +63,7 @@ traits:
           effect
 abilities:
   - name: Zweihander Swing
+    icon: ❇️
     cost: Signature Ability
     keywords:
       - Area
@@ -80,6 +81,7 @@ abilities:
       - effect: One ally within 10 squares can use their signature ability instead.
         cost: 1 Malice
   - name: You!
+    icon: 🏹
     keywords:
       - Ranged
     type: Maneuver
@@ -91,6 +93,7 @@ abilities:
           against targets marked by the blackguard.
         name: Effect
   - name: Parry!
+    icon: ❗️
     keywords:
       - Melee
     type: Triggered action
@@ -102,6 +105,7 @@ abilities:
       - effect: The damage is halved.
         name: Effect
   - name: Advance!
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - "-"
@@ -113,6 +117,7 @@ abilities:
           they can use their Zweihander Swing twice.
         name: Effect
   - name: Back!
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Area
@@ -124,6 +129,7 @@ abilities:
       - effect: The blackguard slides each target up to 5 squares.
         name: Effect
   - name: I Can Throw My Blade and So Should You!
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

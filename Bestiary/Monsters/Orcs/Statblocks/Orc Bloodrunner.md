@@ -61,6 +61,7 @@ traits:
           Stamina, the bloodrunner is reduced to 1 Stamina instead.
 abilities:
   - name: Shield Bash
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

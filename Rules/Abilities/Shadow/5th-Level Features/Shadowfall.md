@@ -27,8 +27,8 @@ type: feature/ability/shadow/5th-level-feature
 ---
 
 ```ds-ability
-name: Shadowfall
-cost: 9 Insight
+name: ""
+icon: Shadowfall (9 Insight)
 flavor: You vanish. They fall. You reappear.
 keywords:
   - Area

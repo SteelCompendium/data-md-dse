@@ -26,8 +26,8 @@ type: feature/ability/tactician/2nd-level-feature
 ---
 
 ```ds-ability
-name: Fog of War
-cost: 5 Focus
+name: ""
+icon: Fog of War (5 Focus)
 flavor: Your unorthodox strategy causes enemies to lash out in fear, heedless of
   who they might be attacking.
 keywords:

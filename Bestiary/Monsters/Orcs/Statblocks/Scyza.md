@@ -57,6 +57,7 @@ traits:
       - effect: While riding the scyza, three size 1 allies can occupy the same space.
 abilities:
   - name: Clawed Kick
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -74,6 +75,7 @@ abilities:
           ends).
         name: Effect
   - name: Whiptail
+    icon: 🗡
     keywords:
       - Melee
       - Strike
@@ -91,6 +93,7 @@ abilities:
           prone.
         name: Effect
   - name: Crestfall
+    icon: 🔳
     cost: 2 Malice
     keywords:
       - Area
@@ -105,6 +108,7 @@ abilities:
         t2: 7 damage, 2 sonic damage; R < 1 dazed (save ends)
         t3: 9 damage, 3 sonic damage; R < 2 dazed (save ends)
   - name: Sandstorm
+    icon: ❇️
     cost: 3 Malice
     keywords:
       - Area
@@ -120,6 +124,7 @@ abilities:
         t2: 7 damage; slowed (EoT)
         t3: 4 damage
   - name: Brace and Break
+    icon: ❗️
     keywords:
       - "-"
     type: Triggered action

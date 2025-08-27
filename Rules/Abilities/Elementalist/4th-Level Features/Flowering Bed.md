@@ -16,7 +16,8 @@ type: feature/trait/elementalist/4th-level-feature
 ---
 
 ```ds-ability
-name: Flowering Bed
+name: ""
+icon: Flowering Bed
 metadata:
   class: elementalist
   feature_type: trait

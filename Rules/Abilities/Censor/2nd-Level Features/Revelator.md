@@ -27,8 +27,8 @@ type: feature/ability/censor/2nd-level-feature
 ---
 
 ```ds-ability
-name: Revelator
-cost: 5 Wrath
+name: ""
+icon: Revelator (5 Wrath)
 flavor: You channel holy energy to harm unbelievers and reveal those hidden from
   your judgment.
 keywords:

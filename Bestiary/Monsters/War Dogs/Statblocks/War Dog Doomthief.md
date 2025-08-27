@@ -61,6 +61,7 @@ traits:
           explodes, dealing 2d6 damage to each adjacent enemy and object.
 abilities:
   - name: Ripper Shrikegun
+    icon: 🔳
     cost: Signature Ability
     keywords:
       - Area
@@ -77,6 +78,7 @@ abilities:
           ability.
         name: Effect
   - name: Expanding Doom
+    icon: 👤
     cost: 4 Malice
     keywords:
       - "-"

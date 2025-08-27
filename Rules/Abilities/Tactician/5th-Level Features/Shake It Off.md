@@ -16,7 +16,8 @@ type: feature/trait/tactician/5th-level-feature
 ---
 
 ```ds-ability
-name: Shake It Off
+name: ""
+icon: Shake It Off
 metadata:
   class: tactician
   feature_type: trait

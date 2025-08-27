@@ -60,6 +60,7 @@ traits:
           Ovipositor has no physical or mental signs of the handmaiden gestating
           inside the host's body.
 
+
           After 1d3 + 1 weeks of gestation, the handmaiden fully forms inside
           the host. The handmaiden always moves with and occupies the same space
           as the host and can't be separated from them. While totally within the
@@ -85,6 +86,7 @@ traits:
           strike made against them gains an edge.
 abilities:
   - name: Emergent Horrors
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

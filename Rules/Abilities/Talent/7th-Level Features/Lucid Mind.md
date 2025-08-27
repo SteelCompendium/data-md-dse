@@ -16,7 +16,8 @@ type: feature/trait/talent/7th-level-feature
 ---
 
 ```ds-ability
-name: Lucid Mind
+name: ""
+icon: Lucid Mind
 metadata:
   class: talent
   feature_type: trait

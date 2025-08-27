@@ -16,7 +16,8 @@ type: feature/trait/fury/7th-level-feature
 ---
 
 ```ds-ability
-name: Characteristic Increase
+name: ""
+icon: Characteristic Increase
 metadata:
   class: fury
   feature_type: trait

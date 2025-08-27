@@ -27,8 +27,8 @@ type: feature/ability/censor/3rd-level-feature
 ---
 
 ```ds-ability
-name: Edict of Perfect Order
-cost: 7 Wrath
+name: ""
+icon: Edict of Perfect Order (7 Wrath)
 flavor: Within the area of your divine presence, your enemies will regret using
   their fell abilities.
 keywords:

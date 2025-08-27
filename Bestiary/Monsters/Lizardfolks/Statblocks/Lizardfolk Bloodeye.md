@@ -57,6 +57,7 @@ traits:
           condition, then shift up to 2 squares.
 abilities:
   - name: Bola Knock
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged
@@ -71,6 +72,7 @@ abilities:
         t2: 7 damage; A < 1 restrained (save ends)
         t3: 9 damage; A < 2 restrained (save ends)
   - name: Bloodshot
+    icon: 🏹
     cost: 2 Malice
     keywords:
       - Ranged

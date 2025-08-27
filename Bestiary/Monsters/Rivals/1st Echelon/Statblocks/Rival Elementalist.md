@@ -56,6 +56,7 @@ traits:
           can add a d3 roll to power rolls they make against each other.
 abilities:
   - name: The Writhing Green
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Green
@@ -71,6 +72,7 @@ abilities:
         t2: 10 damage; slide 2
         t3: 13 damage; slide 3
   - name: The Earth Devours
+    icon: 🔳
     cost: 3 Malice
     keywords:
       - Area
@@ -89,6 +91,7 @@ abilities:
           encounter. Any enemy in the area has acid weakness 2.
         name: Effect
   - name: Jaws of the Void
+    icon: ❗️
     keywords:
       - Magic
       - Void

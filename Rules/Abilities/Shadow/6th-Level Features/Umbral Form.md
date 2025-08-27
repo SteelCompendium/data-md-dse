@@ -16,7 +16,8 @@ type: feature/trait/shadow/6th-level-feature
 ---
 
 ```ds-ability
-name: Umbral Form
+name: ""
+icon: Umbral Form
 metadata:
   class: shadow
   feature_type: trait
@@ -39,6 +40,7 @@ effects:
       encounter, until you are dying, or after 1 uninterrupted hour of quiet
       focus outside of combat. You gain the following effects while in this
       form:
+
 
       - You can automatically climb at full speed while moving.
 

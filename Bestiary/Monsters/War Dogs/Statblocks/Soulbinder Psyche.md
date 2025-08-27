@@ -61,6 +61,7 @@ traits:
           and transfers this effect to the nearest war dog when they die.
 abilities:
   - name: Soulbind
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -78,6 +79,7 @@ abilities:
           gain or use surges.
         name: Effect
   - name: Soulstorm
+    icon: 🔳
     cost: 2 Malice
     keywords:
       - Area
@@ -101,6 +103,7 @@ abilities:
           above).
         cost: 1 Malice
   - name: Command the Awakened
+    icon: ❇️
     keywords:
       - Magic
       - Ranged
@@ -112,6 +115,7 @@ abilities:
           M < 4 Psyche slides them up to 5 squares.
         name: Effect
   - name: Spirit Form
+    icon: ❗️
     keywords:
       - "-"
     type: Triggered action
@@ -125,6 +129,7 @@ abilities:
           corruption damage.
         name: Effect
   - name: Vengeance for the Slain
+    icon: ❗️
     keywords:
       - Ranged
     type: Free triggered action
@@ -137,6 +142,7 @@ abilities:
       - effect: The target also takes a bane on their next strike.
         cost: 1 Malice
   - name: Immortal Flare
+    icon: 🏹
     keywords:
       - Magic
       - Ranged

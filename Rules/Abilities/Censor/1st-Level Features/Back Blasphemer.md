@@ -25,7 +25,8 @@ type: feature/ability/censor/1st-level-feature
 ---
 
 ```ds-ability
-name: Back Blasphemer!
+name: ""
+icon: Back Blasphemer!
 flavor: You channel power through your weapon to repel foes.
 keywords:
   - Area

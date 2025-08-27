@@ -16,7 +16,8 @@ type: feature/trait/fury/1st-level-feature
 ---
 
 ```ds-ability
-name: Ferocity in Combat
+name: ""
+icon: Ferocity in Combat
 metadata:
   class: fury
   feature_type: trait
@@ -38,6 +39,7 @@ effects:
       tracked in combat rounds (as determined by the Director), you gain
       ferocity equal to your Victories. At the start of each of your turns
       during combat, you gain 1d3 ferocity.
+
 
       Additionally, the first time each combat round that you take damage, you
       gain 1 ferocity. The first time you become winded or are dying in an

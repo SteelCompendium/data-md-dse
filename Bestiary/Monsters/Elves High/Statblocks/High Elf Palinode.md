@@ -60,6 +60,7 @@ traits:
           at the end of their turn.
 abilities:
   - name: Instill Regret
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -78,6 +79,7 @@ abilities:
           next respite.
         cost: 2 Malice
   - name: Recall
+    icon: 🏹
     keywords:
       - Magic
       - Ranged

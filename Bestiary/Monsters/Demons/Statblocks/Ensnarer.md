@@ -57,6 +57,7 @@ traits:
       - effect: Any creature within 2 squares of the ensnarer can't be hidden from them.
 abilities:
   - name: Barbed Tongues
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

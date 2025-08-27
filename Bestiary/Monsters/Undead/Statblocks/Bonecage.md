@@ -55,6 +55,7 @@ presence: -1
 traits: []
 abilities:
   - name: Ribcage Chomp
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -77,6 +78,7 @@ abilities:
       - effect: While grabbed this way, a target can't teleport or be teleported.
         cost: 3 Malice
   - name: Labyrinth of Bone
+    icon: 🔳
     cost: 5 Malice
     keywords:
       - Area

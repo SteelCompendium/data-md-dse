@@ -58,6 +58,7 @@ traits:
           also weakened (save ends)
 abilities:
   - name: Choking Grasp
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -75,6 +76,7 @@ abilities:
           two creatures grabbed at once.
         name: Effect
   - name: Inhale
+    icon: ❇️
     cost: 3 Malice
     keywords:
       - Area

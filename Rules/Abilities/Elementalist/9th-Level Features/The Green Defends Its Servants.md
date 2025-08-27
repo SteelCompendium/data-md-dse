@@ -27,8 +27,8 @@ type: feature/ability/elementalist/9th-level-feature
 ---
 
 ```ds-ability
-name: The Green Defends Its Servants
-cost: 11 Essence
+name: ""
+icon: The Green Defends Its Servants (11 Essence)
 flavor: A luminous green shield shows its true beauty the more it cracks.
 keywords:
   - Green

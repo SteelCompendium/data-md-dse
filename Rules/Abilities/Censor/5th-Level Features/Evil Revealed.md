@@ -16,7 +16,8 @@ type: feature/trait/censor/5th-level-feature
 ---
 
 ```ds-ability
-name: Evil Revealed
+name: ""
+icon: Evil Revealed
 metadata:
   class: censor
   feature_type: trait

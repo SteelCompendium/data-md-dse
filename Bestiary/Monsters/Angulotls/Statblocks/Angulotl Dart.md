@@ -59,6 +59,7 @@ traits:
           against them, that enemy takes 1 poison damage.
 abilities:
   - name: Poison Dart
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged

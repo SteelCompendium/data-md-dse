@@ -57,6 +57,7 @@ traits:
       - effect: Any creature within 2 squares of the frenzied can't be hidden from them.
 abilities:
   - name: Rip and Tear
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge

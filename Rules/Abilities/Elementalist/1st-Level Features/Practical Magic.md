@@ -22,7 +22,8 @@ type: feature/ability/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: Practical Magic
+name: ""
+icon: Practical Magic
 flavor: Your mastery of elemental power lets you customize your conjurations.
 keywords:
   - Magic

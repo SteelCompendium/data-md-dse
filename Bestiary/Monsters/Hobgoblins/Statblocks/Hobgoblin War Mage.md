@@ -66,6 +66,7 @@ traits:
           throws.
 abilities:
   - name: Hellfire
+    icon: 🔳
     cost: Signature Ability
     keywords:
       - Area
@@ -83,6 +84,7 @@ abilities:
           10 squares of them up to 2 squares.
         name: Effect
   - name: Enchantments of War
+    icon: 🏹
     keywords:
       - Magic
       - Ranged
@@ -96,6 +98,7 @@ abilities:
           equivalent amount.
         name: Effect
   - name: Unhallowed Ground
+    icon: 🔳
     cost: 3 Malice
     keywords:
       - Area
@@ -110,6 +113,7 @@ abilities:
           area has fire weakness 10.
         name: Effect
   - name: Magic Siphon
+    icon: ❗️
     keywords:
       - Magic
       - Ranged

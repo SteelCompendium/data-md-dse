@@ -60,6 +60,7 @@ traits:
           enemy.
 abilities:
   - name: Spittlesplash
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged
@@ -74,6 +75,7 @@ abilities:
         t2: 15 poison damage; M < 2 slowed (save ends)
         t3: 18 poison damage; M < 3 slowed (save ends)
   - name: Experimental Treasure
+    icon: 🏹
     keywords:
       - Magic
       - Ranged
@@ -94,6 +96,7 @@ abilities:
       - effect: The ability targets one additional target for each 2 Malice spent.
         cost: 2+ Malice
   - name: Elevate
+    icon: 🔳
     cost: 2 Malice
     keywords:
       - Area
@@ -108,6 +111,7 @@ abilities:
       - effect: Aeolyxria creates an additional pillar for each Malice spent.
         cost: 1+ Malice
   - name: Blood For Blood
+    icon: ❗️
     keywords:
       - Ranged
       - Weapon

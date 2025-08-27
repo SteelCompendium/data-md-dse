@@ -56,6 +56,7 @@ traits:
           before dying.
 abilities:
   - name: Call to Victory
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Magic

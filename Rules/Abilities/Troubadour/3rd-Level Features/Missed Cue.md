@@ -16,7 +16,8 @@ type: feature/trait/troubadour/3rd-level-feature
 ---
 
 ```ds-ability
-name: Missed Cue
+name: ""
+icon: Missed Cue
 metadata:
   class: troubadour
   feature_type: trait

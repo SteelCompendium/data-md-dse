@@ -16,7 +16,8 @@ type: feature/trait/troubadour/10th-level-feature
 ---
 
 ```ds-ability
-name: Perk
+name: ""
+icon: Perk
 metadata:
   class: troubadour
   feature_type: trait

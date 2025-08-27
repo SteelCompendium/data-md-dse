@@ -16,7 +16,8 @@ type: feature/trait/talent/1st-level-feature
 ---
 
 ```ds-ability
-name: Talent Tradition
+name: ""
+icon: Talent Tradition
 metadata:
   class: talent
   feature_type: trait
@@ -33,34 +34,27 @@ metadata:
   source: mcdm.heroes.v1
   type: feature/trait/talent/1st-level-feature
 effects:
-  - effect: >-
-      Psionic abilities are grouped into categories according to their effects,
-      with each category comprising one of many talent traditions:
-
-      - **Animapathy** abilities allow you to manipulate, meld, and exchange the
-      souls of living things.
-
-      - **Chronopathy** abilities allow you to view future and past events, and
-      to manipulate time to aid allies and hinder foes.
-
-      - **Cryokinesis** abilities allow you to manifest and manipulate absolute
-      cold to enemies and the environment alike.
-
-      - **Metamorphosis** abilities allow you to strengthen and manipulate your
-      body and the bodies of others to perform preternatural exploits.
-
-      - **Pyrokinesis** abilities allow you to create and manipulate fire by
-      interacting with the potential energy found in all things.
-
-      - **Resopathy** abilities allow you to manipulate matter and space to
+  - effect: "Psionic abilities are grouped into categories according to their
+      effects, with each category comprising one of many talent traditions:"
+  - effect: "- **Animapathy** abilities allow you to manipulate, meld, and exchange
+      the souls of living things."
+  - effect: "- **Chronopathy** abilities allow you to view future and past events,
+      and to manipulate time to aid allies and hinder foes."
+  - effect: "- **Cryokinesis** abilities allow you to manifest and manipulate
+      absolute cold to enemies and the environment alike."
+  - effect: "- **Metamorphosis** abilities allow you to strengthen and manipulate
+      your body and the bodies of others to perform preternatural exploits."
+  - effect: "- **Pyrokinesis** abilities allow you to create and manipulate fire by
+      interacting with the potential energy found in all things."
+  - effect: "- **Resopathy** abilities allow you to manipulate matter and space to
       create, alter, or displace your environment and the creatures and objects
-      in it.
-
-      - **Telekinesis** abilities allow you to physically manipulate creatures
-      and objects.
-
+      in it."
+  - effect: "- **Telekinesis** abilities allow you to physically manipulate
+      creatures and objects."
+  - effect: >-
       - **Telepathy** abilities allow you to communicate with, read, and
       influence the minds of other creatures.
+
 
       You choose a talent tradition from the following options: chronopathy,
       telekinesis, or telepathy. Your talent tradition is your subclass, and

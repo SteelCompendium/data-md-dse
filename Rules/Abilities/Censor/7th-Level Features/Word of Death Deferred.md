@@ -16,7 +16,8 @@ type: feature/trait/censor/7th-level-feature
 ---
 
 ```ds-ability
-name: Word of Death Deferred
+name: ""
+icon: Word of Death Deferred
 metadata:
   class: censor
   feature_type: trait
@@ -38,6 +39,7 @@ effects:
       of your My Life for Yours ability dies and you are not dying, you can use
       a free triggered action to instead have that ally fall unconscious until
       they regain Stamina.
+
 
       Additionally, your abilities deal an extra 5 damage to winded creatures.
 ```

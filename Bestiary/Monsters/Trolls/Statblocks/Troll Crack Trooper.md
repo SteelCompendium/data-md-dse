@@ -61,6 +61,7 @@ traits:
           damage while their squad's Stamina pool is at 0 Stamina.
 abilities:
   - name: Charging Chomp
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge

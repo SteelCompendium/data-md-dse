@@ -56,6 +56,7 @@ traits:
           Stamina, the rampart is reduced to 1 Stamina instead.
 abilities:
   - name: My Spear, My Foe
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -73,6 +74,7 @@ abilities:
           the rampart this round.
         name: Effect
   - name: Castling
+    icon: 👤
     keywords:
       - "-"
     type: Maneuver
@@ -83,6 +85,7 @@ abilities:
           then can swap places with the target.
         name: Effect
   - name: No.
+    icon: ❗️
     keywords:
       - "-"
     type: Triggered action

@@ -66,6 +66,7 @@ traits:
           against her.
 abilities:
   - name: Skewer
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -83,6 +84,7 @@ abilities:
           behind the target.
         name: Effect
   - name: Acidic Stun
+    icon: 🔳
     cost: 2 Malice
     keywords:
       - Area
@@ -99,6 +101,7 @@ abilities:
           abilities.
         name: Effect
   - name: Takeoff
+    icon: 👤
     keywords:
       - "-"
     type: Maneuver
@@ -109,6 +112,7 @@ abilities:
           the ground she took off from who has A < 2 is knocked prone.
         name: Effect
   - name: Stay Back!
+    icon: ❗️
     keywords:
       - Melee
     type: Triggered action

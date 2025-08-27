@@ -16,7 +16,8 @@ type: feature/trait/fury/1st-level-feature
 ---
 
 ```ds-ability
-name: Ferocity Outside of Combat
+name: ""
+icon: Ferocity Outside of Combat
 metadata:
   class: fury
   feature_type: trait
@@ -39,6 +40,7 @@ effects:
       use an ability or effect outside of combat that costs ferocity, you can't
       use that same ability or effect outside of combat again until you earn 1
       or more Victories or finish a respite.
+
 
       When you use an ability outside of combat that lets you spend unlimited
       ferocity on its effect, such as To the Uttermost End, you can use it as if

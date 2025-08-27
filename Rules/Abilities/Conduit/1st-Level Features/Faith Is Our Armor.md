@@ -26,8 +26,8 @@ type: feature/ability/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: Faith Is Our Armor
-cost: 5 Piety
+name: ""
+icon: Faith Is Our Armor (5 Piety)
 flavor: The heroes' armor glows with golden light, granting divine protection.
 keywords:
   - Magic

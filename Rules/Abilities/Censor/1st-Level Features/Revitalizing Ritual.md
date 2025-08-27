@@ -16,7 +16,8 @@ type: feature/trait/censor/1st-level-feature
 ---
 
 ```ds-ability
-name: Revitalizing Ritual
+name: ""
+icon: Revitalizing Ritual
 metadata:
   class: censor
   feature_type: trait

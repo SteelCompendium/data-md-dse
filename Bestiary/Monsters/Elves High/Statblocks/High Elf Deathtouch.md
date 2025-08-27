@@ -58,6 +58,7 @@ traits:
           instead ends at the end of their turn.
 abilities:
   - name: Heartpiercer
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged
@@ -77,6 +78,7 @@ abilities:
           area.
         cost: 5 Malice
   - name: Kiss of Death
+    icon: 🗡
     keywords:
       - Magic
       - Melee

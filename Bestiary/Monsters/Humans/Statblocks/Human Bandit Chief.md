@@ -63,6 +63,7 @@ traits:
           effect
 abilities:
   - name: Whip and Magic Longsword
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Magic
@@ -83,6 +84,7 @@ abilities:
       - effect: This ability targets one additional target.
         cost: 2 Malice
   - name: Kneel, Peasant!
+    icon: 🗡
     keywords:
       - Melee
     type: Maneuver
@@ -97,6 +99,7 @@ abilities:
           burst that targets each enemy in the area.
         cost: 2 Malice
   - name: Bloodstones
+    icon: ❗️
     keywords:
       - Magic
     type: Triggered action
@@ -108,6 +111,7 @@ abilities:
           the power roll by one tier. This damage can't be reduced in any way.
         name: Effect
   - name: Shoot!
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -118,6 +122,7 @@ abilities:
       - effect: Each target makes a ranged free strike.
         name: Effect
   - name: Form Up!
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Area
@@ -130,6 +135,7 @@ abilities:
           they have damage immunity 2.
         name: Effect
   - name: Lead From the Front
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - "-"

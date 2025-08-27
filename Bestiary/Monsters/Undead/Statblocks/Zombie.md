@@ -59,6 +59,7 @@ traits:
           instead have 10 Stamina and fall prone
 abilities:
   - name: Clobber and Clutch
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -78,6 +79,7 @@ abilities:
           downtime project in Draw Steel: Heroes to end this effect"
         name: Effect
   - name: Zombie Dust
+    icon: ❇️
     cost: 3 Malice
     keywords:
       - Area

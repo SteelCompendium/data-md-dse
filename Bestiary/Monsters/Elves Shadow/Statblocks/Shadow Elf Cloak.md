@@ -60,6 +60,7 @@ traits:
           concealment, they have damage immunity 3.
 abilities:
   - name: Stick and Poke
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

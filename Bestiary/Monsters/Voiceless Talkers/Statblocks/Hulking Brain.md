@@ -60,6 +60,7 @@ traits:
           hulking brain's space.
 abilities:
   - name: Four-Way Grasp
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -78,6 +79,7 @@ abilities:
       - effect: The potency increases by 1.
         cost: 2 Malice
   - name: Cerebral Suplex
+    icon: 🗡
     keywords:
       - Melee
       - Strike
@@ -93,6 +95,7 @@ abilities:
         t2: 10 damage; M < 2 3 damage
         t3: 13 damage; M < 3 6 damage
   - name: Lumber
+    icon: 👤
     keywords:
       - "-"
     type: Maneuver
@@ -102,6 +105,7 @@ abilities:
       - effect: The hulking brain shifts up to 4 squares, ignoring difficu terrain.
         name: Effect
   - name: Brawny Buffe
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - "-"

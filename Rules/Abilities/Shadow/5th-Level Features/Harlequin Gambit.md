@@ -16,7 +16,8 @@ type: feature/trait/shadow/5th-level-feature
 ---
 
 ```ds-ability
-name: Harlequin Gambit
+name: ""
+icon: Harlequin Gambit
 metadata:
   class: shadow
   feature_type: trait
@@ -37,6 +38,7 @@ effects:
       Whenever you reduce an adjacent non-minion creature to 0 Stamina, you can
       immediately use a free maneuver to use your I'm No Threat ability and then
       move up to your speed.
+
 
       If the creature is the same size as you, you can disguise yourself as them
       using I'm No Threat without spending insight. If you do, while I'm No

@@ -60,6 +60,7 @@ traits:
       - effect: Any creature within 2 squares of the ruinant can't be hidden from them.
 abilities:
   - name: Bloodletting Claws
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -74,6 +75,7 @@ abilities:
         t2: 4 damage
         t3: 5 damage; M < 2 bleeding (save ends)
   - name: Salt Wounds
+    icon: 🏹
     cost: 3 Malice
     keywords:
       - Magic

@@ -16,7 +16,8 @@ type: feature/trait/tactician/5th-level-feature
 ---
 
 ```ds-ability
-name: I Predicted That
+name: ""
+icon: I Predicted That
 metadata:
   class: tactician
   feature_type: trait

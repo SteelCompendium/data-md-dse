@@ -25,8 +25,8 @@ type: feature/ability/tactician/3rd-level-feature
 ---
 
 ```ds-ability
-name: Rout
-cost: 7 Focus
+name: ""
+icon: Rout (7 Focus)
 flavor: The tide begins to turn.
 keywords:
   - "-"

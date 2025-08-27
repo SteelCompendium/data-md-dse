@@ -55,6 +55,7 @@ traits:
       - effect: The cursespitter doesn't provoke opportunity attacks by moving.
 abilities:
   - name: Eye of Surlach
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -68,6 +69,7 @@ abilities:
         t1: 3 corruption damage; I < 0 weakened (save ends)
         t2: 5 corruption damage; I < 2 weakened (save ends)
   - name: Dizzying Hex
+    icon: 🏹
     cost: 1 Malice
     keywords:
       - Magic

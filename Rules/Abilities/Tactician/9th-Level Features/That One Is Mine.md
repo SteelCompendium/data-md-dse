@@ -28,8 +28,8 @@ type: feature/ability/tactician/9th-level-feature
 ---
 
 ```ds-ability
-name: That One Is Mine!
-cost: 11 Focus
+name: ""
+icon: That One Is Mine! (11 Focus)
 flavor: You focus on making an enemy irrelevant.
 keywords:
   - Melee

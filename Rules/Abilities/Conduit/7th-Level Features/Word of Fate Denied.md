@@ -16,7 +16,8 @@ type: feature/trait/conduit/7th-level-feature
 ---
 
 ```ds-ability
-name: Word of Fate Denied
+name: ""
+icon: Word of Fate Denied
 metadata:
   class: conduit
   feature_type: trait

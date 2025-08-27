@@ -64,6 +64,7 @@ traits:
         cost: 5 Malice
 abilities:
   - name: Accursed Slam
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -81,6 +82,7 @@ abilities:
           against them increases by 1 for the target.
         name: Effect
   - name: Binding Curse
+    icon: 🏹
     cost: 1 Malice
     keywords:
       - Magic
@@ -99,6 +101,7 @@ abilities:
       - effect: This ability targets one additional target for each 2 Malice spent.
         cost: 2+ Malice
   - name: Summon My Guard
+    icon: ❗️
     cost: 2 Malice
     keywords:
       - Ranged
@@ -110,6 +113,7 @@ abilities:
       - effect: One mummy or four ghoul cravers appear within distance.
         name: Effect
   - name: Plague of Flies
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -125,6 +129,7 @@ abilities:
       - effect: Each target takes a bane on their next strike.
         name: Effect
   - name: Land's Guardian
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - "-"
@@ -141,6 +146,7 @@ abilities:
         t2: Prone
         t3: No effect
   - name: Unbound Horrors
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

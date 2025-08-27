@@ -25,7 +25,8 @@ type: feature/ability/null/1st-level-feature
 ---
 
 ```ds-ability
-name: Faster Than the Eye
+name: ""
+icon: Faster Than the Eye
 flavor: You strike so quickly that your hands become a blur.
 keywords:
   - Melee

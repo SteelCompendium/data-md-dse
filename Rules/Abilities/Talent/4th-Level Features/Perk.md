@@ -16,7 +16,8 @@ type: feature/trait/talent/4th-level-feature
 ---
 
 ```ds-ability
-name: Perk
+name: ""
+icon: Perk
 metadata:
   class: talent
   feature_type: trait

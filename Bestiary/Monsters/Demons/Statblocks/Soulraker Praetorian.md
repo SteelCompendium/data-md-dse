@@ -63,6 +63,7 @@ traits:
           to them takes 6 sonic damage.
 abilities:
   - name: Barbed Stinger
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -79,6 +80,7 @@ abilities:
       - effect: The praetorian can shift into each square the target leaves.
         name: Effect
   - name: Stinging Departure
+    icon: ❗️
     cost: 2 Malice
     keywords:
       - "-"

@@ -64,6 +64,7 @@ traits:
           the end of their turn
 abilities:
   - name: Violent Thrashing
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -80,6 +81,7 @@ abilities:
         t3: 14 damage; one target is pushed up to 2 squares and knocked prone; the other
           target is vertical pushed up to 3 squares
   - name: Bound Ahead
+    icon: 👤
     cost: 5 Malice
     keywords:
       - "-"
@@ -92,6 +94,7 @@ abilities:
           choose to either take 5 damage or be knocked prone
         name: Effect
   - name: Power Wing Buffet
+    icon: 🔳
     cost: 3 Malice
     keywords:
       - Area
@@ -104,6 +107,7 @@ abilities:
         t2: Push 4; M < 1 the forced movement is vertical
         t3: Push 6; M < 2 the forced movement is vertical
   - name: Circle and Strike
+    icon: ❗️
     keywords:
       - Ranged
     type: Triggered action

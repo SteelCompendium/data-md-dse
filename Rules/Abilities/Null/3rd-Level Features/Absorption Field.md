@@ -25,8 +25,8 @@ type: feature/ability/null/3rd-level-feature
 ---
 
 ```ds-ability
-name: Absorption Field
-cost: 7 Discipline
+name: ""
+icon: Absorption Field (7 Discipline)
 flavor: Your null field absorbs kinetic energy.
 keywords:
   - Psionic

@@ -25,7 +25,8 @@ type: feature/ability/censor/1st-level-feature
 ---
 
 ```ds-ability
-name: Halt Miscreant!
+name: ""
+icon: Halt Miscreant!
 flavor: You infuse your weapon with holy magic that makes it difficult for your
   foe to get away.
 keywords:

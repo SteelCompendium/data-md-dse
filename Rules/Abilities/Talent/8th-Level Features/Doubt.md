@@ -29,8 +29,8 @@ type: feature/ability/talent/8th-level-feature
 ---
 
 ```ds-ability
-name: Doubt
-cost: 11 Clarity
+name: ""
+icon: Doubt (11 Clarity)
 flavor: You tug at the strings of the foe's anima and unravel them, allowing
   someone else to take advantage of their drive.
 keywords:

@@ -27,8 +27,8 @@ type: feature/ability/conduit/3rd-level-feature
 ---
 
 ```ds-ability
-name: Words of Wrath and Grace
-cost: 7 Piety
+name: ""
+icon: Words of Wrath and Grace (7 Piety)
 flavor: Your saint grants your enemies a vision of pain and fills your allies
   with healing energy.
 keywords:

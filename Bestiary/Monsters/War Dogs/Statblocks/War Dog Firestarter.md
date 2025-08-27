@@ -59,6 +59,7 @@ traits:
           explodes, dealing 3d6 damage to each adjacent enemy and object.
 abilities:
   - name: Twin Flamebelchers
+    icon: 🔳
     cost: Signature Ability
     keywords:
       - Area
@@ -77,6 +78,7 @@ abilities:
           triggered action
         name: Effect
   - name: Enflame
+    icon: 🏹
     keywords:
       - Magic
       - Ranged

@@ -28,8 +28,8 @@ type: feature/ability/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: Behold the Mystery
-cost: 3 Essence
+name: ""
+icon: Behold the Mystery (3 Essence)
 flavor: You open a rift into the void to harry your foes.
 keywords:
   - Area

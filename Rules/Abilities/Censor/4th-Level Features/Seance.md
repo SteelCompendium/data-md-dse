@@ -16,7 +16,8 @@ type: feature/trait/censor/4th-level-feature
 ---
 
 ```ds-ability
-name: Seance
+name: ""
+icon: Seance
 metadata:
   class: censor
   feature_type: trait

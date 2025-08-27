@@ -16,7 +16,8 @@ type: feature/trait/conduit/9th-level-feature
 ---
 
 ```ds-ability
-name: Faith's Sword
+name: ""
+icon: Faith's Sword
 metadata:
   class: conduit
   feature_type: trait

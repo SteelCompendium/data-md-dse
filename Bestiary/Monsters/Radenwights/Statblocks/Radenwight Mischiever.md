@@ -53,6 +53,7 @@ presence: 0
 traits: []
 abilities:
   - name: Dagger Dance
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Melee
@@ -71,6 +72,7 @@ abilities:
           two creatures.
         name: Effect
   - name: Ready Rodent
+    icon: ❗️
     keywords:
       - Melee
       - Weapon

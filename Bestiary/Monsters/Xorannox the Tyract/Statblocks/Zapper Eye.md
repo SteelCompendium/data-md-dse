@@ -79,6 +79,7 @@ traits:
           stability. Each time this feature is used, its previous effect ends.
 abilities:
   - name: Lightning Beam
+    icon: 🔳
     cost: Signature Ability
     keywords:
       - Area

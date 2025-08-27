@@ -16,7 +16,8 @@ type: feature/trait/fury/6th-level-feature
 ---
 
 ```ds-ability
-name: Primordial Portal
+name: ""
+icon: Primordial Portal
 metadata:
   class: fury
   feature_type: trait
@@ -43,6 +44,7 @@ effects:
       in your network is destroyed, it is no longer part of the network. You can
       remove a portal from your network no matter your distance from it,
       including across different worlds (no action required).
+
 
       (Exploring Quintessence is possible from your island, but continued safety
       is not guaranteed.)

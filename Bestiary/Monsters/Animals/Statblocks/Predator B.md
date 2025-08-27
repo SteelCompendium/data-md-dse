@@ -59,6 +59,7 @@ traits:
           bane on their abilities or turn a double bane into a bane.
 abilities:
   - name: Natural Weapon
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -73,6 +74,7 @@ abilities:
         t2: 11 damage; push 1; M < 1 prone
         t3: 14 damage; push 2; M < 1 prone
   - name: Wild Swing
+    icon: ❇️
     keywords:
       - Area
       - Weapon
@@ -85,6 +87,7 @@ abilities:
         t2: 6 damage
         t3: 8 damage; A < 2 bleeding (save ends)
   - name: Swat
+    icon: ❗️
     keywords:
       - Melee
     type: Triggered action

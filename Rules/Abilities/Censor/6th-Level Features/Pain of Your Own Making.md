@@ -26,8 +26,8 @@ type: feature/ability/censor/6th-level-feature
 ---
 
 ```ds-ability
-name: Pain of Your Own Making
-cost: 9 Wrath
+name: ""
+icon: Pain of Your Own Making (9 Wrath)
 flavor: You reverse the effects from an evildoer.
 keywords:
   - Magic

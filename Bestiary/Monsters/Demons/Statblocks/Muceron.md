@@ -60,6 +60,7 @@ traits:
       - effect: Any creature within 2 squares of the muceron can't be hidden from them.
 abilities:
   - name: Barbed Tongues
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -77,6 +78,7 @@ abilities:
           make a free strike or use the Grab maneuver against them.
         name: Effect
   - name: Tongue Pull
+    icon: 🏹
     cost: 2 Malice
     keywords:
       - Ranged

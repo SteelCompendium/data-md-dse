@@ -28,8 +28,8 @@ type: feature/ability/talent/3rd-level-feature
 ---
 
 ```ds-ability
-name: Force Orbs
-cost: 7 Clarity
+name: ""
+icon: Force Orbs (7 Clarity)
 flavor: Spheres of solid psionic energy float around you.
 keywords:
   - Psionic

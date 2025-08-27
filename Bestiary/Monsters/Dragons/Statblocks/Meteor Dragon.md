@@ -82,16 +82,12 @@ traits:
           this feature even if they are dazed.
   - name: Starfall
     effects:
-      - effect: >-
-          The dragon drops stars into five 2 cubes anywhere on the encounter
-          map. The area is difficult terrain, and each creature and object in
-          the area when it appears makes an **Agility test**.
-
-          - **≤11:** 20 holy damage; slowed (save ends), prone
-
-          - **12-16:** 16 holy damage; slowed (save ends)
-
-          - **17+:** 10 holy damage
+      - effect: The dragon drops stars into five 2 cubes anywhere on the encounter map.
+          The area is difficult terrain, and each creature and object in the
+          area when it appears makes an **Agility test**.
+        t1: 20 holy damage; slowed (save ends), prone
+        t2: 16 holy damage; slowed (save ends)
+        t3: 10 holy damage
   - name: Event Horizon
     effects:
       - effect: A black hole manifests as a 1 cube within 20 squares of the dragon in an
@@ -103,6 +99,7 @@ traits:
           hole disappears.
 abilities:
   - name: Gravity Well
+    icon: 🔳
     cost: Signature Ability
     keywords:
       - Area
@@ -120,6 +117,7 @@ abilities:
       - effect: A dragonsealed target emits a golden aura, and takes 2 damage per square
           moved when falling or when force moved into an obstacle.
   - name: Cosmic Tail Ray
+    icon: ⚔️
     keywords:
       - Magic
       - Melee
@@ -137,6 +135,7 @@ abilities:
           dazed until the end of their next turn.
         name: Effect
   - name: Investiture of Gravity
+    icon: ❇️
     cost: 5 Malice
     keywords:
       - Area
@@ -151,6 +150,7 @@ abilities:
           had fallen the forced movement distance.
         name: Effect
   - name: Field Collapse
+    icon: ❗️
     keywords:
       - "-"
     type: Free triggered action
@@ -165,6 +165,7 @@ abilities:
           aura then resets to 1.
         name: Effect
   - name: A Hero Faces the Void
+    icon: ❗️
     cost: 2 Malice
     keywords:
       - Magic
@@ -181,6 +182,7 @@ abilities:
       - effect: While frightened this way, the target can't use the triggering ability.
         name: Effect
   - name: Impactful Arrival
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -195,6 +197,7 @@ abilities:
       - effect: The dragon can use this ability before the encounter begins.
         name: Special
   - name: Burning Aurora
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - "-"
@@ -209,6 +212,7 @@ abilities:
           edge, targeting four creatures or objects.
         name: Effect
   - name: Voidlight Breath
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

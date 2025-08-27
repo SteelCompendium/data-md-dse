@@ -64,6 +64,7 @@ traits:
           creatures underground when they do so.
 abilities:
   - name: Jagged Stone Club
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -80,6 +81,7 @@ abilities:
       - effect: If the target is already weakened, they are also bleeding (save ends).
         name: Effect
   - name: Crag Burst
+    icon: ❇️
     cost: 3 Malice
     keywords:
       - Area
@@ -95,6 +97,7 @@ abilities:
           area, they take 3 damage.
         name: Effect
   - name: Castle Stone Shape
+    icon: 👤
     keywords:
       - "-"
     type: Maneuver
@@ -105,6 +108,7 @@ abilities:
           stone in squares adjacent to the path of their movement.
         name: Effect
   - name: Pillar
+    icon: ❗️
     keywords:
       - Melee
     type: Triggered action

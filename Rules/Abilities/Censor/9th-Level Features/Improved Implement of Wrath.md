@@ -16,7 +16,8 @@ type: feature/trait/censor/9th-level-feature
 ---
 
 ```ds-ability
-name: Improved Implement of Wrath
+name: ""
+icon: Improved Implement of Wrath
 metadata:
   class: censor
   feature_type: trait
@@ -36,6 +37,7 @@ effects:
   - effect: >-
       The weapon you target with your Implement of Wrath feature gains the
       following additional benefits:
+
 
       - The weapon's wielder and each ally adjacent to them gain a +2 bonus to
       saving throws.

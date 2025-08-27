@@ -67,6 +67,7 @@ traits:
           still grants its additional main action.
 abilities:
   - name: Blade Rake
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -81,6 +82,7 @@ abilities:
         t2: 21 damage; pull 3
         t3: 25 damage; pull 6
   - name: Prismacore Cannon
+    icon: 🏹
     keywords:
       - Ranged
       - Strike
@@ -97,6 +99,7 @@ abilities:
           again until the start of the next round.
         name: Effect
   - name: Destructive Rollout
+    icon: 👤
     keywords:
       - "-"
     type: Maneuver
@@ -110,6 +113,7 @@ abilities:
           damage.
         name: Effect
   - name: Burning Oil
+    icon: 🔳
     cost: 3 Malice
     keywords:
       - Area
@@ -128,6 +132,7 @@ abilities:
           encounter. While the area is burning, it is difficult terrain and any
           enemy takes 3 fire damage for each square of the area they enter.
   - name: Quick Blast
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - Ranged

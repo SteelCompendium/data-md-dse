@@ -61,6 +61,7 @@ traits:
           power rolls they make against each other.
 abilities:
   - name: Bonebreaker
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -77,6 +78,7 @@ abilities:
       - effect: Each target who has M < 3 is bleeding and slowed (save ends).
         cost: 3 Malice
   - name: Steelfist
+    icon: 🗡
     cost: 3 Malice
     keywords:
       - Melee

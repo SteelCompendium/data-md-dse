@@ -61,6 +61,7 @@ traits:
       - effect: Any creature within 5 squares of the bale eye can't be hidden from them.
 abilities:
   - name: Wilting Visions
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -79,6 +80,7 @@ abilities:
       - effect: If the target has I < 2, they have corruption weakness 5 (save ends).
         cost: 2 Malice
   - name: Demonwarp Tears
+    icon: 🔳
     cost: 5 Malice
     keywords:
       - Area

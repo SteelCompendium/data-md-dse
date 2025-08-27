@@ -25,8 +25,8 @@ type: feature/ability/tactician/9th-level-feature
 ---
 
 ```ds-ability
-name: Counterstrategy
-cost: 11 Focus
+name: ""
+icon: Counterstrategy (11 Focus)
 flavor: I've identified a way to negate their strengths.
 keywords:
   - "-"

@@ -16,7 +16,8 @@ type: feature/trait/shadow/10th-level-feature
 ---
 
 ```ds-ability
-name: Subterfuge
+name: ""
+icon: Subterfuge
 metadata:
   class: shadow
   feature_type: trait
@@ -37,6 +38,7 @@ effects:
       You have an epic resource called subterfuge. Each time you finish a
       respite, you gain subterfuge equal to the XP you gain. You can spend
       subterfuge on your abilities as if it were insight.
+
 
       Additionally, you can spend subterfuge to take additional maneuvers on
       your turn. You can use one maneuver for each subterfuge you spend.

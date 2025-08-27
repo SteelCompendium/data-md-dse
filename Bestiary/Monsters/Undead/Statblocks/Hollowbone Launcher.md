@@ -59,6 +59,7 @@ traits:
           dealing 2 damage to each adjacent creature
 abilities:
   - name: Hollowbone Slug
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged

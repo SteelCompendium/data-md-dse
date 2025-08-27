@@ -60,6 +60,7 @@ traits:
           the nightstrike has concealment, they have damage immunity 3.
 abilities:
   - name: Vault
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

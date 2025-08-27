@@ -25,8 +25,8 @@ type: feature/ability/troubadour/1st-level-feature
 ---
 
 ```ds-ability
-name: Harmonize
-cost: 3 Drama
+name: ""
+icon: Harmonize (3 Drama)
 flavor: Give the chorus a little punch.
 keywords:
   - Ranged

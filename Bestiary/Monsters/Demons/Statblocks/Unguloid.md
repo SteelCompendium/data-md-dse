@@ -57,6 +57,7 @@ traits:
       - effect: Any creature within 2 squares of the unguloid can't be hidden from them.
 abilities:
   - name: Gore Horn
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge

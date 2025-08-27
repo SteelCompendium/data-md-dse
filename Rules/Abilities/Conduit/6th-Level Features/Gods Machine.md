@@ -26,8 +26,8 @@ type: feature/ability/conduit/6th-level-feature
 ---
 
 ```ds-ability
-name: Gods' Machine
-cost: 9 Piety
+name: ""
+icon: Gods' Machine (9 Piety)
 flavor: You conjure a whirring tank made of blades and metal.
 keywords:
   - Magic

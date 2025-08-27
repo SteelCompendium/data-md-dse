@@ -28,8 +28,8 @@ type: feature/ability/fury/9th-level-feature
 ---
 
 ```ds-ability
-name: Primordial Bane
-cost: 11 Ferocity
+name: ""
+icon: Primordial Bane (11 Ferocity)
 flavor: You attune the target to be weaker to a specific element.
 keywords:
   - Magic

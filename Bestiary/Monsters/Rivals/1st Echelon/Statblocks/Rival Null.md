@@ -60,6 +60,7 @@ traits:
           power rolls they make against each other.
 abilities:
   - name: Nimble Step
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -74,6 +75,7 @@ abilities:
         t2: 10 damage; the null shifts up to 3 squares
         t3: 13 damage; the null shifts up to 4 squares
   - name: Numb
+    icon: 🗡
     cost: 2 Malice
     keywords:
       - Melee

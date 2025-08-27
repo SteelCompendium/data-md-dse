@@ -63,6 +63,7 @@ traits:
           against them, that enemy takes 5 fire damage.
 abilities:
   - name: Flamelash
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Magic
@@ -77,6 +78,7 @@ abilities:
         t2: 17 fire damage; slide 4
         t3: 22 fire damage; slide 6
   - name: Living Blaze
+    icon: 🏹
     cost: 3 Malice
     keywords:
       - Magic
@@ -97,6 +99,7 @@ abilities:
           power roll against all targets.
         name: Effect
   - name: Travel By Fire
+    icon: 🏹
     keywords:
       - Magic
       - Ranged
@@ -109,6 +112,7 @@ abilities:
           the other target.
         name: Effect
   - name: Emergency Beacon
+    icon: ❗️
     keywords:
       - "-"
     type: Triggered action

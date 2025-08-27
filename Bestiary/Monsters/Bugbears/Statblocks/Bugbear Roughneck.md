@@ -55,6 +55,7 @@ presence: 0
 traits: []
 abilities:
   - name: Haymaker
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -73,6 +74,7 @@ abilities:
           distance becomes a 1 burst, and it targets each enemy in the area.
         cost: 5 Malice
   - name: Leaping Fury
+    icon: 🗡
     keywords:
       - Melee
       - Strike
@@ -89,6 +91,7 @@ abilities:
           distance of the target before making this strike.
         name: Effect
   - name: Drag Through Hell
+    icon: 🗡
     cost: 3 Malice
     keywords:
       - Melee
@@ -105,6 +108,7 @@ abilities:
           difficult terrain for enemies.
         name: Effect
   - name: Throw
+    icon: 🗡
     keywords:
       - Melee
       - Strike
@@ -118,6 +122,7 @@ abilities:
           damage from being force moved this way.
         name: Effect
   - name: Catcher
+    icon: ❗️
     keywords:
       - Melee
     type: Free triggered action
@@ -129,6 +134,7 @@ abilities:
       - effect: The target is grabbed by the roughneck.
         name: Effect
   - name: Flying Sawblade
+    icon: ❗️
     keywords:
       - Melee
     type: Triggered action

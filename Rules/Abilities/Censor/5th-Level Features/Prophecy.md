@@ -16,7 +16,8 @@ type: feature/trait/censor/5th-level-feature
 ---
 
 ```ds-ability
-name: Prophecy
+name: ""
+icon: Prophecy
 metadata:
   class: censor
   feature_type: trait
@@ -41,6 +42,7 @@ effects:
       creature within 10 squares makes a power roll, you can use a free
       triggered action to replace the total on the dice with your first recorded
       roll.
+
 
       You discard each roll as it is used, and each time you earn Victories, you
       add new rolls to the bottom of the list. Any unused rolls are discarded

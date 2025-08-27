@@ -16,7 +16,8 @@ type: feature/trait/fury/4th-level-feature
 ---
 
 ```ds-ability
-name: Perk
+name: ""
+icon: Perk
 metadata:
   class: fury
   feature_type: trait

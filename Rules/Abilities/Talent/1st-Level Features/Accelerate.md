@@ -23,7 +23,8 @@ type: feature/ability/talent/1st-level-feature
 ---
 
 ```ds-ability
-name: Accelerate
+name: ""
+icon: Accelerate
 flavor: To your ally, it seems as though the world has slowed down.
 keywords:
   - Psionic

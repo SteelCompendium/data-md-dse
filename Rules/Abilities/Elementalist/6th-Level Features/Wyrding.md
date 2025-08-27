@@ -16,7 +16,8 @@ type: feature/trait/elementalist/6th-level-feature
 ---
 
 ```ds-ability
-name: Wyrding
+name: ""
+icon: Wyrding
 metadata:
   class: elementalist
   feature_type: trait
@@ -36,6 +37,7 @@ effects:
   - effect: >-
       You can spend 10 uninterrupted minutes to create a freeform magic spell
       for a variety of situations. Choose one of the following magical effects:
+
 
       - You create a mundane object of a size equal to your Reason score or
       smaller.

@@ -61,6 +61,7 @@ traits:
           adjacent to them takes 3 sonic damage.
 abilities:
   - name: Barb Launch
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic

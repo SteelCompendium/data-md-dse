@@ -56,6 +56,7 @@ traits:
           Additionally, any enemy adjacent to the bruxer can't shift.
 abilities:
   - name: Lockjaw
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -73,6 +74,7 @@ abilities:
           bruxer's turns.
         name: Effect
   - name: Flurry of Bites
+    icon: ❇️
     cost: 3 Malice
     keywords:
       - Area
@@ -86,6 +88,7 @@ abilities:
         t2: 5 damage; A < 1 bleeding (save ends)
         t3: 8 damage; A < 2 bleeding (save ends)
   - name: Ready Rodent
+    icon: ❗️
     keywords:
       - Melee
       - Weapon

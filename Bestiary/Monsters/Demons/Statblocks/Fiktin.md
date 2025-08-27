@@ -60,6 +60,7 @@ traits:
       - effect: Any creature within 2 squares of the fiktin can't be hidden from them.
 abilities:
   - name: Violent Transformation
+    icon: ❇️
     cost: Signature Ability
     keywords:
       - Area
@@ -76,6 +77,7 @@ abilities:
           target they were hidden from with their Aggressive Mimicry ability.
         name: Effect
   - name: Aggressive Mimicry
+    icon: 👤
     cost: 1 Malice
     keywords:
       - Magic

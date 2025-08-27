@@ -26,8 +26,8 @@ type: feature/ability/conduit/2nd-level-feature
 ---
 
 ```ds-ability
-name: Wellspring of Grace
-cost: 5 Piety
+name: ""
+icon: Wellspring of Grace (5 Piety)
 flavor: A holy light is emitted from your body, healing your allies.
 keywords:
   - Area

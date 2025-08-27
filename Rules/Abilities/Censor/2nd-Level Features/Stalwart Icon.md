@@ -16,7 +16,8 @@ type: feature/trait/censor/2nd-level-feature
 ---
 
 ```ds-ability
-name: Stalwart Icon
+name: ""
+icon: Stalwart Icon
 metadata:
   class: censor
   feature_type: trait

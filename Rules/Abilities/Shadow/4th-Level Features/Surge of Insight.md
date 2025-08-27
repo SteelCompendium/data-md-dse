@@ -16,7 +16,8 @@ type: feature/trait/shadow/4th-level-feature
 ---
 
 ```ds-ability
-name: Surge of Insight
+name: ""
+icon: Surge of Insight
 metadata:
   class: shadow
   feature_type: trait
@@ -36,6 +37,7 @@ effects:
   - effect: >-
       The first time each combat round that you deal damage incorporating 1 or
       more surges, you gain 2 insight instead of 1.
+
 
       As a 5th-level shadow, you gain the following features.
 ```

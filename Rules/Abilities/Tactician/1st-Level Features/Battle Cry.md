@@ -25,8 +25,8 @@ type: feature/ability/tactician/1st-level-feature
 ---
 
 ```ds-ability
-name: Battle Cry
-cost: 3 Focus
+name: ""
+icon: Battle Cry (3 Focus)
 flavor: You shout a phrase that galvanizes your team.
 keywords:
   - Ranged

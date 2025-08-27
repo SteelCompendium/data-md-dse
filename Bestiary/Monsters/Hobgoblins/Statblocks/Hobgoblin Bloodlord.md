@@ -67,6 +67,7 @@ traits:
           damage can't be reduced in any way
 abilities:
   - name: Soul Sword
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Magic
@@ -88,6 +89,7 @@ abilities:
           oldest mark ends.
         cost: 2 Malice
   - name: Take Point!
+    icon: 🏹
     keywords:
       - Ranged
     type: Maneuver
@@ -97,6 +99,7 @@ abilities:
       - effect: The target moves up to their speed and can use a signature ability.
         name: Effect
   - name: An Army From Blood
+    icon: ❗️
     cost: 3 Malice
     keywords:
       - Ranged
@@ -109,6 +112,7 @@ abilities:
           unoccupied spaces adjacent to the target.
         name: Effect
   - name: Advance!
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -120,6 +124,7 @@ abilities:
           Then each non-minion target can make a free strike.
         name: Effect
   - name: Skulls Abound
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Area
@@ -135,6 +140,7 @@ abilities:
           next turn.
         name: Effect
   - name: I Am Fire! I Am Death!
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

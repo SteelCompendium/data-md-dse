@@ -68,6 +68,7 @@ traits:
           Each creature adjacent to the smokebinder takes 3 fire damage.
 abilities:
   - name: Choking Bolt
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -85,6 +86,7 @@ abilities:
           communicate with anyone until the end of their next turn.
         name: Effect
   - name: Smoke Bomb
+    icon: ❇️
     cost: 3 Malice
     keywords:
       - Area

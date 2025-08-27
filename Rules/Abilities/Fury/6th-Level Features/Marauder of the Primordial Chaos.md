@@ -16,7 +16,8 @@ type: feature/trait/fury/6th-level-feature
 ---
 
 ```ds-ability
-name: Marauder of the Primordial Chaos
+name: ""
+icon: Marauder of the Primordial Chaos
 metadata:
   class: fury
   feature_type: trait
@@ -38,6 +39,7 @@ effects:
       stronger, you automatically sense any elemental creatures or magic sources
       of elemental power, such as a lava pool or a lake overlapping with
       Quintessence, within 1 mile of you.
+
 
       Additionally, you can speak with elemental creatures, and when you are in
       a negotiation with an elemental, you treat your Renown as 1 higher than

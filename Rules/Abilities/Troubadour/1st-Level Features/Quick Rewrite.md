@@ -27,8 +27,8 @@ type: feature/ability/troubadour/1st-level-feature
 ---
 
 ```ds-ability
-name: Quick Rewrite
-cost: 3 Drama
+name: ""
+icon: Quick Rewrite (3 Drama)
 flavor: You write something unexpected into the scene that hinders your enemy.
 keywords:
   - Area

@@ -84,20 +84,19 @@ traits:
           compelled (save ends). A compelled creature must do everything in
           their power to move toward and touch the soulstone.
 
+
           A creature who touches an inhabited soulstone makes a **Might test**
           that takes a bane.
-
-          - **≤11:** The creature is reduced to 0 Stamina and the lich manifests
-          adjacent to the soulstone with full Stamina.
-
-          - **12-16:** The creature is reduced to 0 Stamina and the lich
-          manifests adjacent to the soulstone with 300 Stamina.
-
-          - **17+:** The creature has their Stamina reduced to their winded
-          value unless it is already lower, and the lich manifests adjacent to
-          the soulstone with 100 Stamina.
+        t1: The creature is reduced to 0 Stamina and the lich manifests adjacent to the
+          soulstone with full Stamina.
+        t2: The creature is reduced to 0 Stamina and the lich manifests adjacent to the
+          soulstone with 300 Stamina.
+        t3: The creature has their Stamina reduced to their winded value unless it is
+          already lower, and the lich manifests adjacent to the soulstone with
+          100 Stamina.
 abilities:
   - name: Conflagration
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -116,6 +115,7 @@ abilities:
           any way.
         name: Effect
   - name: Hopeless Place
+    icon: ❇️
     keywords:
       - Area
       - Magic
@@ -134,6 +134,7 @@ abilities:
           increases by 1.
         cost: 3 Malice
   - name: Pain Unending
+    icon: 🏹
     cost: 2 Malice
     keywords:
       - Magic
@@ -158,6 +159,7 @@ abilities:
           longer wracked with pain."
         cost: 2+ Malice
   - name: Baleful Swap
+    icon: ❗️
     cost: 2 Malice
     keywords:
       - Ranged
@@ -170,6 +172,7 @@ abilities:
           new target of the triggering ability.
         name: Effect
   - name: Cages of Wasting
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -188,6 +191,7 @@ abilities:
           restrained this way.
         name: Effect
   - name: My Power Alone
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Area
@@ -200,6 +204,7 @@ abilities:
           turn.
         name: Effect
   - name: Arms of Necrosis
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

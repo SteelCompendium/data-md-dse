@@ -16,7 +16,8 @@ type: feature/trait/censor/1st-level-feature
 ---
 
 ```ds-ability
-name: Sanctified Weapon
+name: ""
+icon: Sanctified Weapon
 metadata:
   class: censor
   feature_type: trait

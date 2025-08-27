@@ -28,8 +28,8 @@ type: feature/ability/talent/6th-level-feature
 ---
 
 ```ds-ability
-name: Gravitic Well
-cost: 9 Clarity
+name: ""
+icon: Gravitic Well (9 Clarity)
 flavor: You bend gravity into a fine point and pull your foes toward it.
 keywords:
   - Area

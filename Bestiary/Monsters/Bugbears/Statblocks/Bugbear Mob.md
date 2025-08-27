@@ -62,6 +62,7 @@ traits:
           they share.
 abilities:
   - name: Mug and Tear
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

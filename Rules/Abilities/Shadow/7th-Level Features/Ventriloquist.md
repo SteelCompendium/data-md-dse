@@ -16,7 +16,8 @@ type: feature/trait/shadow/7th-level-feature
 ---
 
 ```ds-ability
-name: Ventriloquist
+name: ""
+icon: Ventriloquist
 metadata:
   class: shadow
   feature_type: trait

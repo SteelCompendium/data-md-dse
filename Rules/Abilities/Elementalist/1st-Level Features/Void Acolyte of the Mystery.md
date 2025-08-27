@@ -16,7 +16,8 @@ type: feature/trait/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: "Void: Acolyte of the Mystery"
+name: ""
+icon: "Void: Acolyte of the Mystery"
 metadata:
   class: elementalist
   feature_type: trait

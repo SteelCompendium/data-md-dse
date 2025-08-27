@@ -24,7 +24,8 @@ type: feature/ability/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: Hurl Element
+name: ""
+icon: Hurl Element
 flavor: You cast a ball of elemental energy at a foe.
 keywords:
   - Magic

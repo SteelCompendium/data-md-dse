@@ -28,8 +28,8 @@ type: feature/ability/elementalist/5th-level-feature
 ---
 
 ```ds-ability
-name: Combustion Deferred
-cost: 9 Essence
+name: ""
+icon: Combustion Deferred (9 Essence)
 flavor: Your flames dance from kindling to kindling to kindling.
 keywords:
   - Fire

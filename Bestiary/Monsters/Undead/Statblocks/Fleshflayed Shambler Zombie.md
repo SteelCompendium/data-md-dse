@@ -59,6 +59,7 @@ traits:
           ability against them takes 2 damage.
 abilities:
   - name: Bone Carvers
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

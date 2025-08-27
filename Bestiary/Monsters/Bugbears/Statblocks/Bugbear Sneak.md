@@ -55,6 +55,7 @@ presence: 0
 traits: []
 abilities:
   - name: Sucker Punch
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -73,6 +74,7 @@ abilities:
           target, this ability deals an extra 4 damage.
         name: Effect
   - name: Shadow Cloak
+    icon: ❇️
     cost: 3 Malice
     keywords:
       - Area
@@ -87,6 +89,7 @@ abilities:
       - effect: The sneak shifts up to their speed and can attempt to hide.
         name: Effect
   - name: Carving Dagger
+    icon: 🏹
     keywords:
       - Ranged
       - Strike
@@ -103,6 +106,7 @@ abilities:
           allies.
         name: Effect
   - name: Throw
+    icon: 🗡
     keywords:
       - Melee
       - Strike
@@ -116,6 +120,7 @@ abilities:
           damage from being force moved this way.
         name: Effect
   - name: Catcher
+    icon: ❗️
     keywords:
       - Melee
     type: Free triggered action
@@ -127,6 +132,7 @@ abilities:
       - effect: The target is grabbed by the sneak.
         name: Effect
   - name: Clever Trick
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - "-"

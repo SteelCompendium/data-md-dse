@@ -56,6 +56,7 @@ traits:
           or fewer minions in it.
 abilities:
   - name: Throw Fit
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged

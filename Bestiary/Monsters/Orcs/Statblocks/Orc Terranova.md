@@ -61,6 +61,7 @@ traits:
           Stamina, the terranova is reduced to 1 Stamina instead.
 abilities:
   - name: Earth Pillar
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -78,6 +79,7 @@ abilities:
           rises 1 square.
         name: Effect
   - name: Sinkhole
+    icon: ❇️
     cost: 3 Malice
     keywords:
       - Area

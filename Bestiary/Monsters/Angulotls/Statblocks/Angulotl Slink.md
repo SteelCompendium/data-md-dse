@@ -65,6 +65,7 @@ traits:
           against them, that enemy takes 2 poison damage.
 abilities:
   - name: Tonguelash
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -83,6 +84,7 @@ abilities:
           6 squares, ignoring stability.
         name: Effect
   - name: Hop To It
+    icon: 👤
     cost: 2 Malice
     keywords:
       - "-"

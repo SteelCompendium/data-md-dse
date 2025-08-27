@@ -16,7 +16,8 @@ type: feature/trait/troubadour/4th-level-feature
 ---
 
 ```ds-ability
-name: Hear Ye, Hear Ye!
+name: ""
+icon: Hear Ye, Hear Ye!
 metadata:
   class: troubadour
   feature_type: trait
@@ -33,18 +34,14 @@ metadata:
   source: mcdm.heroes.v1
   type: feature/trait/troubadour/4th-level-feature
 effects:
-  - effect: >-
-      By bragging, intimidating, leading, or lying, you attempt to spread one
-      piece of information into the local area. Make a Presence test:
-
-      - **≤11:** Your information reaches no one.
-
-      - **12-16:** Your information reaches the nearest populated area of town
-      size or larger. You and each ally present when you make the test gain an
-      edge on Presence tests in that area until one of you spends a Recovery.
-
-      - **17+:** Your information reaches the nearest populated area of town
-      size or larger, plus the next closest such population. You and allies
-      present for your test gain an edge on Presence tests made in those areas
-      until you start your next respite.
+  - effect: "By bragging, intimidating, leading, or lying, you attempt to spread one
+      piece of information into the local area. Make a Presence test:"
+    t1: Your information reaches no one.
+    t2: Your information reaches the nearest populated area of town size or larger.
+      You and each ally present when you make the test gain an edge on Presence
+      tests in that area until one of you spends a Recovery.
+    t3: Your information reaches the nearest populated area of town size or larger,
+      plus the next closest such population. You and allies present for your
+      test gain an edge on Presence tests made in those areas until you start
+      your next respite.
 ```

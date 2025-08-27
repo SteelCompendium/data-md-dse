@@ -25,8 +25,8 @@ type: feature/ability/tactician/5th-level-feature
 ---
 
 ```ds-ability
-name: Win This Day!
-cost: 9 Focus
+name: ""
+icon: Win This Day! (9 Focus)
 flavor: You inspire your allies to recover and gather their strength.
 keywords:
   - Area

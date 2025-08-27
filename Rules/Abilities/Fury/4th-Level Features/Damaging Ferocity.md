@@ -16,7 +16,8 @@ type: feature/trait/fury/4th-level-feature
 ---
 
 ```ds-ability
-name: Damaging Ferocity
+name: ""
+icon: Damaging Ferocity
 metadata:
   class: fury
   feature_type: trait

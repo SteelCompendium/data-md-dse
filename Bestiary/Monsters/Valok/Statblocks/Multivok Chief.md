@@ -67,6 +67,7 @@ traits:
           grants its additional main action.
 abilities:
   - name: Pneumatic Punch
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -81,6 +82,7 @@ abilities:
         t2: 18 damage; push 5
         t3: 22 damage; push 8
   - name: Targeting Beam
+    icon: 🏹
     cost: 3 Malice
     keywords:
       - Ranged
@@ -98,6 +100,7 @@ abilities:
           way, any strike against them has a double edge.
         name: Effect
   - name: Chief's Command
+    icon: 🏹
     keywords:
       - Ranged
     type: Maneuver
@@ -107,6 +110,7 @@ abilities:
       - effect: The target shifts up to their speed and can use a main action
         name: Effect
   - name: Quick Shield
+    icon: ❗️
     keywords:
       - Ranged
     type: Triggered action

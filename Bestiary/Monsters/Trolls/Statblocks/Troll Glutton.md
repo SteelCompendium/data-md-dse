@@ -63,6 +63,7 @@ traits:
           fire damage while at 0 Stamina
 abilities:
   - name: Voracious Mastication
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -79,6 +80,7 @@ abilities:
       - effect: The glutton regains Stamina equal to the damage dealt.
         cost: 1 Malice
   - name: Crash Through
+    icon: 👤
     cost: 3 Malice
     keywords:
       - "-"
@@ -96,6 +98,7 @@ abilities:
           until the end of their next turn.
         name: Effect
   - name: Food Frenzy
+    icon: 👤
     keywords:
       - "-"
     type: Maneuver
@@ -106,6 +109,7 @@ abilities:
           strikes, and strikes made against them gain an edge
         name: Effect
   - name: Spiteful Retort
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - Melee

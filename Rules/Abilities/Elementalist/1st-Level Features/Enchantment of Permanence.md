@@ -16,7 +16,8 @@ type: feature/trait/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: Enchantment of Permanence
+name: ""
+icon: Enchantment of Permanence
 metadata:
   class: elementalist
   feature_type: trait

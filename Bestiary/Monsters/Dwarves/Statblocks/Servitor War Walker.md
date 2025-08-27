@@ -61,6 +61,7 @@ traits:
           rolls. A creature restrained this way moves with the war walker.
 abilities:
   - name: Grasping Claws
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge
@@ -81,6 +82,7 @@ abilities:
           condition unless the Director determines otherwise.
         name: Effect
   - name: Stunning Blast
+    icon: ❇️
     cost: 3 Malice
     keywords:
       - Area

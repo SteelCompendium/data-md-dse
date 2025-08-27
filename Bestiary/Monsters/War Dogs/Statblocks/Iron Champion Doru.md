@@ -68,6 +68,7 @@ traits:
           20 damage to each enemy and object within 3 squares of him.
 abilities:
   - name: Houndaxe
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -86,6 +87,7 @@ abilities:
       - effect: This ability targets one additional target.
         cost: 3 Malice
   - name: Bloody Whirlwind
+    icon: ❇️
     cost: 2 Malice
     keywords:
       - Area
@@ -101,6 +103,7 @@ abilities:
       - effect: This ability deals an extra 5 damage for each winded target in the area.
         name: Effect
   - name: Hunting Leap
+    icon: 🏹
     keywords:
       - Ranged
     type: Maneuver
@@ -113,6 +116,7 @@ abilities:
           extra 5 damage.
         name: Effect
   - name: Laugh It Off
+    icon: ❗️
     keywords:
       - "-"
     type: Triggered action

@@ -16,7 +16,8 @@ type: feature/trait/conduit/4th-level-feature
 ---
 
 ```ds-ability
-name: Blessed Domain
+name: ""
+icon: Blessed Domain
 metadata:
   class: conduit
   feature_type: trait

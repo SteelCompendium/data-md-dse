@@ -16,7 +16,8 @@ type: feature/trait/censor/4th-level-feature
 ---
 
 ```ds-ability
-name: Blessing of Life
+name: ""
+icon: Blessing of Life
 metadata:
   class: censor
   feature_type: trait

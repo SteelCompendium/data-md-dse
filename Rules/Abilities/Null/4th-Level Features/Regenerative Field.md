@@ -16,7 +16,8 @@ type: feature/trait/null/4th-level-feature
 ---
 
 ```ds-ability
-name: Regenerative Field
+name: ""
+icon: Regenerative Field
 metadata:
   class: "null"
   feature_type: trait

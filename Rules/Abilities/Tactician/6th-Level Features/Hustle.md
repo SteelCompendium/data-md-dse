@@ -25,8 +25,8 @@ type: feature/ability/tactician/6th-level-feature
 ---
 
 ```ds-ability
-name: Hustle!
-cost: 9 Focus
+name: ""
+icon: Hustle! (9 Focus)
 flavor: You and your allies coordinate to form a new battle line.
 keywords:
   - Area

@@ -56,6 +56,7 @@ traits:
       - effect: The sniper doesn't provoke opportunity attacks by moving.
 abilities:
   - name: Bow
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged

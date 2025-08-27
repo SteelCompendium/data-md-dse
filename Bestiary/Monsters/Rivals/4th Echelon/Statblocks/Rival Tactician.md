@@ -56,6 +56,7 @@ traits:
           roll to power rolls they make against each other.
 abilities:
   - name: Forward Assault
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged
@@ -73,6 +74,7 @@ abilities:
           signature ability that has a double edge.
         cost: 5 Malice
   - name: Guardian From Afar
+    icon: 🔳
     cost: 3 Malice
     keywords:
       - Area
@@ -89,6 +91,7 @@ abilities:
       - effect: Each ally in the area regains 10 Stamina.
         name: Effect
   - name: Battlefield Control
+    icon: ❗️
     keywords:
       - Ranged
     type: Triggered action

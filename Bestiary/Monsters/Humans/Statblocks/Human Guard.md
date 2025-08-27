@@ -58,6 +58,7 @@ traits:
       - effect: The guard ignores concealment if it's granted by a supernatural effect.
 abilities:
   - name: Halberd
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

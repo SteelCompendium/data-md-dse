@@ -28,8 +28,8 @@ type: feature/ability/null/1st-level-feature
 ---
 
 ```ds-ability
-name: Relentless Nemesis
-cost: 3 Discipline
+name: ""
+icon: Relentless Nemesis (3 Discipline)
 flavor: You strike, and for the next few moments, your enemy can't escape you.
 keywords:
   - Melee

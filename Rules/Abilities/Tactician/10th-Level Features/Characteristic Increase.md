@@ -16,7 +16,8 @@ type: feature/trait/tactician/10th-level-feature
 ---
 
 ```ds-ability
-name: Characteristic Increase
+name: ""
+icon: Characteristic Increase
 metadata:
   class: tactician
   feature_type: trait

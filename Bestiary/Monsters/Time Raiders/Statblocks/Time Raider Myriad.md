@@ -58,6 +58,7 @@ traits:
           concealment.
 abilities:
   - name: Fifth Fist
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

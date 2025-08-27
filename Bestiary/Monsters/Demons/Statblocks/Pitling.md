@@ -62,6 +62,7 @@ traits:
       - effect: Any creature within 2 squares of the pitling can't be hidden from them.
 abilities:
   - name: Spit
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Ranged

@@ -22,7 +22,8 @@ type: feature/ability/censor/1st-level-feature
 ---
 
 ```ds-ability
-name: Hands of the Maker
+name: ""
+icon: Hands of the Maker
 flavor: You craft objects with the power of your mind.
 keywords:
   - Magic

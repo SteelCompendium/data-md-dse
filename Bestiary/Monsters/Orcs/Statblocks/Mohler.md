@@ -62,6 +62,7 @@ traits:
           ground, the ground above where they burrow is difficult terrain.
 abilities:
   - name: Earth Bump
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

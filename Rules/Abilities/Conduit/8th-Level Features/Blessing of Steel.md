@@ -26,8 +26,8 @@ type: feature/ability/conduit/8th-level-feature
 ---
 
 ```ds-ability
-name: Blessing of Steel
-cost: 11 Piety
+name: ""
+icon: Blessing of Steel (11 Piety)
 flavor: A protective aura defends your allies from harm.
 keywords:
   - Area

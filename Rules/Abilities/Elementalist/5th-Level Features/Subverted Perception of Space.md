@@ -28,8 +28,8 @@ type: feature/ability/elementalist/5th-level-feature
 ---
 
 ```ds-ability
-name: Subverted Perception of Space
-cost: 9 Essence
+name: ""
+icon: Subverted Perception of Space (9 Essence)
 flavor: You rip an enemy's world in twain.
 keywords:
   - Magic

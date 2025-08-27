@@ -24,7 +24,8 @@ type: feature/ability/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: Sacrificial Offer
+name: ""
+icon: Sacrificial Offer
 flavor: Divine magic tears at your foe and defends a nearby friend.
 keywords:
   - Magic

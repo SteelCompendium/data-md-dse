@@ -56,6 +56,7 @@ presence: 0
 traits: []
 abilities:
   - name: Accursed Bindings
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -73,6 +74,7 @@ abilities:
           increased by 1 for the target.
         name: Effect
   - name: Eldritch Curse
+    icon: 🏹
     cost: 3 Malice
     keywords:
       - Magic
@@ -89,6 +91,7 @@ abilities:
           strikes made against them.
         name: Effect
   - name: Blast of Mummy Dust
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - Area

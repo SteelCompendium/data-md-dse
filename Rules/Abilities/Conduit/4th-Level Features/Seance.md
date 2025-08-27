@@ -16,7 +16,8 @@ type: feature/trait/conduit/4th-level-feature
 ---
 
 ```ds-ability
-name: Seance
+name: ""
+icon: Seance
 metadata:
   class: conduit
   feature_type: trait

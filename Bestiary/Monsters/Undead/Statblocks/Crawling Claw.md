@@ -59,6 +59,7 @@ traits:
       - effect: Allies can't flank with the crawling cla.
 abilities:
   - name: Fingernails
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

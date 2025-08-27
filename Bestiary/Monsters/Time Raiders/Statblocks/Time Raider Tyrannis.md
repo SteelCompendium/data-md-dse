@@ -63,6 +63,7 @@ traits:
           concealment.
 abilities:
   - name: Gatling Blaster
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Melee
@@ -82,6 +83,7 @@ abilities:
           tyrannis's next turn.
         name: Effect
   - name: Air Raid!
+    icon: 🏹
     cost: 3 Malice
     keywords:
       - Psionic
@@ -94,6 +96,7 @@ abilities:
           target doesn't land in an unoccupied space, they fall.
         name: Effect
   - name: Precog Reflexes
+    icon: ❗️
     keywords:
       - Psionic
       - Ranged
@@ -108,6 +111,7 @@ abilities:
       - effect: The strike has a double bane instead.
         cost: 2 Malice
   - name: We Will Won!
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Psionic
@@ -120,6 +124,7 @@ abilities:
           until the end of their next turn.
         name: Effect
   - name: Stick to the Plan!
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Area
@@ -130,6 +135,7 @@ abilities:
       - effect: Each target can end one effect on them or can move up to their speed.
         name: Effect
   - name: Armageddon
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

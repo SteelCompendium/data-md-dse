@@ -27,8 +27,8 @@ type: feature/ability/fury/5th-level-feature
 ---
 
 ```ds-ability
-name: Debilitating Strike
-cost: 9 Ferocity
+name: ""
+icon: Debilitating Strike (9 Ferocity)
 flavor: You need just one blow to sabotage your target.
 keywords:
   - Melee

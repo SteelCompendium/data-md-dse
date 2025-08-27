@@ -23,7 +23,8 @@ type: feature/ability/talent/1st-level-feature
 ---
 
 ```ds-ability
-name: Again
+name: ""
+icon: Again
 flavor: You step back a split second to see if things play out a little differently.
 keywords:
   - Psionic

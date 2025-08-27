@@ -16,7 +16,8 @@ type: feature/trait/censor/4th-level-feature
 ---
 
 ```ds-ability
-name: Windwalk
+name: ""
+icon: Windwalk
 metadata:
   class: censor
   feature_type: trait

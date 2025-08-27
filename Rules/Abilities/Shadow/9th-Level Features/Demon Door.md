@@ -28,8 +28,8 @@ type: feature/ability/shadow/9th-level-feature
 ---
 
 ```ds-ability
-name: Demon Door
-cost: 11 Insight
+name: ""
+icon: Demon Door (11 Insight)
 flavor: You create a temporary portal to allow a massive demonic hand to reach through.
 keywords:
   - Magic

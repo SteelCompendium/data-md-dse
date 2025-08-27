@@ -65,6 +65,7 @@ traits:
       - effect: Any creature within 5 squares of Aurumvas can't be hidden from him.
 abilities:
   - name: Greedy Hands
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Magic
@@ -81,6 +82,7 @@ abilities:
       - effect: Aurumvas regains Stamina equal to the damage dealt.
         cost: 2 Malice
   - name: Covetous Bolts
+    icon: 🏹
     cost: 3 Malice
     keywords:
       - Magic
@@ -97,6 +99,7 @@ abilities:
       - effect: While dazed this way, a target can't gain Heroic Resources.
         cost: 2 Malice
   - name: Greed Is Good
+    icon: 🏹
     cost: 2 Malice
     keywords:
       - Ranged
@@ -109,6 +112,7 @@ abilities:
           one effect on him that can be ended by a saving throw.
         name: Effect
   - name: Time Is Money
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -121,6 +125,7 @@ abilities:
           up to their speed and make a free strike.
         name: Effect
   - name: Hostile Acquisition
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Ranged
@@ -136,6 +141,7 @@ abilities:
           Malice.
         name: Effect
   - name: No Matter the Cost
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

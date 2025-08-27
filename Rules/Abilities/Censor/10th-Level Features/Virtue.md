@@ -16,7 +16,8 @@ type: feature/trait/censor/10th-level-feature
 ---
 
 ```ds-ability
-name: Virtue
+name: ""
+icon: Virtue
 metadata:
   class: censor
   feature_type: trait
@@ -37,6 +38,7 @@ effects:
       You have an epic resource called virtue. Each time you finish a respite,
       you gain virtue equal to the XP you gain. You can spend virtue on your
       abilities as if it were wrath.
+
 
       Additionally, you can spend 3 virtue to access one of your deity's domains
       that you usually don't have access to. When you do, you can use that

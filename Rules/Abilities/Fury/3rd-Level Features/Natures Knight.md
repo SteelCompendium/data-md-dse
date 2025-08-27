@@ -16,7 +16,8 @@ type: feature/trait/fury/3rd-level-feature
 ---
 
 ```ds-ability
-name: Nature's Knight
+name: ""
+icon: Nature's Knight
 metadata:
   class: fury
   feature_type: trait
@@ -37,6 +38,7 @@ effects:
       You can speak with animals and elementals. Additionally, you automatically
       sense the presence of animals and elementals within 10 squares of you,
       even if they are hidden.
+
 
       When you are in a negotiation with an animal or elemental, you treat your
       Renown as 1 higher than usual. This stacks with the increase to your

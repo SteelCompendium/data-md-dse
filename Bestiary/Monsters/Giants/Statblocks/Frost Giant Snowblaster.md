@@ -58,6 +58,7 @@ traits:
           turn within 2 squares of the snowblaster can't shift.
 abilities:
   - name: Slushfall
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic

@@ -24,7 +24,8 @@ type: feature/ability/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: Motivate Earth
+name: ""
+icon: Motivate Earth
 flavor: The earth rises, falls, or opens up at your command.
 keywords:
   - Earth

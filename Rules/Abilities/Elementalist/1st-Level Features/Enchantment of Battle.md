@@ -16,7 +16,8 @@ type: feature/trait/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: Enchantment of Battle
+name: ""
+icon: Enchantment of Battle
 metadata:
   class: elementalist
   feature_type: trait
@@ -40,6 +41,7 @@ effects:
       you wield a light weapon, you gain a +1 damage bonus with weapon
       abilities, including free strikes. You can use light armor treasures and
       light weapon treasures.
+
 
       If you have a kit, you can't take this enchantment.
 ```

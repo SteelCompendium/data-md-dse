@@ -16,7 +16,8 @@ type: feature/trait/elementalist/7th-level-feature
 ---
 
 ```ds-ability
-name: Mantle of Quintessence
+name: ""
+icon: Mantle of Quintessence
 metadata:
   class: elementalist
   feature_type: trait
@@ -35,6 +36,7 @@ metadata:
 effects:
   - effect: >-
       Your Mantle of Essence feature no longer requires essence.
+
 
       Additionally, your Mantle of Essence now radiates magic that creates a
       calming air. Creatures in the area of the mantle's aura have their

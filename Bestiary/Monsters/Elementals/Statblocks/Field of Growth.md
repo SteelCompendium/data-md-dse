@@ -60,6 +60,7 @@ traits:
           abilities, even if they don't have line of effect to that creature.
 abilities:
   - name: Hampering Roots
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -78,6 +79,7 @@ abilities:
           effect ends when they are no longer restrained this way.
         name: Effect
   - name: Convocation of Verdure
+    icon: 🏹
     keywords:
       - Magic
       - Ranged
@@ -96,6 +98,7 @@ abilities:
           or starts their turn there is knocked prone.
         cost: 3 Malice
   - name: Rose Thorn Lash
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - Magic

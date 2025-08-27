@@ -27,8 +27,8 @@ type: feature/ability/fury/5th-level-feature
 ---
 
 ```ds-ability
-name: Rebounding Storm
-cost: 9 Ferocity
+name: ""
+icon: Rebounding Storm (9 Ferocity)
 flavor: You knock around enemies like playthings.
 keywords:
   - Melee

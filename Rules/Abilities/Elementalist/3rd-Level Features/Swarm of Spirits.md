@@ -27,8 +27,8 @@ type: feature/ability/elementalist/3rd-level-feature
 ---
 
 ```ds-ability
-name: Swarm of Spirits
-cost: 7 Essence
+name: ""
+icon: Swarm of Spirits (7 Essence)
 flavor: Guardian animal spirits surround you to harry your foes and bolster your
   allies.
 keywords:

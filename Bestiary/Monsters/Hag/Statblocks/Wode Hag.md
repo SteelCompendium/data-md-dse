@@ -64,6 +64,7 @@ traits:
       - effect: Magic and psionic abilities used against the hag take a bane.
 abilities:
   - name: Corrosive Claws
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -78,6 +79,7 @@ abilities:
         t2: 13 corruption damage; A < 2 weakened (save ends)
         t3: 16 corruption damage; A < 3 weakened (save ends)
   - name: Soul Steal
+    icon: 🔳
     keywords:
       - Area
       - Magic
@@ -94,6 +96,7 @@ abilities:
       - effect: The hag regains Stamina equal to half the damage dealt.
         cost: 3 Malice
   - name: Shapeshifter
+    icon: 👤
     keywords:
       - Magic
     type: Maneuver
@@ -110,6 +113,7 @@ abilities:
           and deal an extra 4 damage.
         cost: 5 Malice
   - name: Turned Upside Down
+    icon: ❗️
     cost: 2 Malice
     keywords:
       - Area
@@ -127,6 +131,7 @@ abilities:
           suspended in midair. The creature falls when the condition ends.
         name: Effect
   - name: Snackies for Sweeties
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -150,6 +155,7 @@ abilities:
         t2: The pastry is not removed.
         t3: The pastry is removed and can no longer explode.
   - name: Predator's Alacrity
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Area
@@ -163,6 +169,7 @@ abilities:
           squares, and shift up to their speed again
         name: Effect
   - name: Open the Oven
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

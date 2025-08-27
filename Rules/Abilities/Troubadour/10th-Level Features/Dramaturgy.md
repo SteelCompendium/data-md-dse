@@ -16,7 +16,8 @@ type: feature/trait/troubadour/10th-level-feature
 ---
 
 ```ds-ability
-name: Dramaturgy
+name: ""
+icon: Dramaturgy
 metadata:
   class: troubadour
   feature_type: trait

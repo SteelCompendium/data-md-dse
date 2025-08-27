@@ -23,7 +23,8 @@ type: feature/ability/shadow/8th-level-feature
 ---
 
 ```ds-ability
-name: Time Bomb
+name: ""
+icon: Time Bomb
 flavor: The longer it cooks, the bigger the boom.
 keywords:
   - Area

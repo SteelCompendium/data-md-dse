@@ -14,7 +14,8 @@ type: common-ability/maneuver
 ---
 
 ```ds-ability
-name: Knockback
+name: ""
+icon: Knockback
 metadata:
   class: combat
   file_basename: Knockback
@@ -32,6 +33,7 @@ effects:
   - effect: >-
       A creature wanting to push an adjacent creature away from them can attempt
       to shove that creature using the following ability.
+
 
       ###### Knockback
 

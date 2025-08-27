@@ -62,6 +62,7 @@ traits:
       - effect: Any creature within 2 squares of the orliq can't be hidden from them.
 abilities:
   - name: Soul Prism
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Magic

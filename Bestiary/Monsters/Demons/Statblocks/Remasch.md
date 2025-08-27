@@ -61,6 +61,7 @@ traits:
       - effect: Any creature within 2 squares of the remasch can't be hidden from them.
 abilities:
   - name: Abyssal Strike
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Magic
@@ -80,6 +81,7 @@ abilities:
           destination.
         cost: 5 Malice
   - name: Grasping Shadow
+    icon: 👤
     cost: 3 Malice
     keywords:
       - Magic

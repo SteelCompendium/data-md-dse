@@ -26,8 +26,8 @@ type: feature/ability/conduit/6th-level-feature
 ---
 
 ```ds-ability
-name: Aura of Souls
-cost: 9 Piety
+name: ""
+icon: Aura of Souls (9 Piety)
 flavor: A whirlwind of souls of the dead flies around you at your command.
 keywords:
   - Area

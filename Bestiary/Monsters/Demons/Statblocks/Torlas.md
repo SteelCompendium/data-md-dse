@@ -60,6 +60,7 @@ traits:
       - effect: Any creature within 2 squares of the torlas can't be hidden from them.
 abilities:
   - name: Floor to Flesh
+    icon: 🔳
     cost: Signature Ability
     keywords:
       - Area
@@ -79,6 +80,7 @@ abilities:
           takes 1 damage for each square moved.
         name: Effect
   - name: Grasping Tendons
+    icon: 🏹
     keywords:
       - Magic
       - Ranged

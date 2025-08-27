@@ -16,7 +16,8 @@ type: feature/trait/censor/8th-level-feature
 ---
 
 ```ds-ability
-name: Perk
+name: ""
+icon: Perk
 metadata:
   class: censor
   feature_type: trait

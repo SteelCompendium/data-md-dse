@@ -62,6 +62,7 @@ traits:
           dealing 3d6 damage to each adjacent enemy and object.
 abilities:
   - name: Jumplance
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge

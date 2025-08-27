@@ -23,7 +23,8 @@ type: feature/ability/censor/1st-level-feature
 ---
 
 ```ds-ability
-name: Judgment
+name: ""
+icon: Judgment
 flavor: You utter a prayer that outlines your foe in holy energy.
 keywords:
   - Magic

@@ -26,8 +26,8 @@ type: feature/ability/null/8th-level-feature
 ---
 
 ```ds-ability
-name: Synaptic Anchor
-cost: 11 Discipline
+name: ""
+icon: Synaptic Anchor (11 Discipline)
 flavor: You disrupt an enemy's strike and create a feedback loop in their mind,
   preventing them from focusing on future attacks.
 keywords:

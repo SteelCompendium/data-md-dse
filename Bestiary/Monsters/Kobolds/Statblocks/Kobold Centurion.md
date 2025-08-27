@@ -60,6 +60,7 @@ traits:
           stability 3, has cover, and grants cover to allies.
 abilities:
   - name: Pilum
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Melee
@@ -80,6 +81,7 @@ abilities:
       - effect: While weakened this way, a target is also restrained.
         cost: 3 Malice
   - name: Concentrate All Fire on That Hero!
+    icon: 🏹
     keywords:
       - Ranged
     type: Maneuver
@@ -92,6 +94,7 @@ abilities:
       - effect: This ability targets one additional target for each 3 Malice spent.
         cost: 3+ Malice
   - name: Testudo!
+    icon: ❗️
     keywords:
       - Area
     type: Triggered action
@@ -105,6 +108,7 @@ abilities:
           the triggering ability.
         name: Effect
   - name: Firetail Pilum
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - "-"
@@ -119,6 +123,7 @@ abilities:
           fire damage at the start of each of their turns.
         name: Effect
   - name: Boom Pilum!
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Area
@@ -132,6 +137,7 @@ abilities:
           target is then pushed up to 3 squares.
         name: Effect
   - name: Are You Not Entertained?!
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

@@ -16,7 +16,8 @@ type: feature/trait/censor/10th-level-feature
 ---
 
 ```ds-ability
-name: Wrath of the Gods
+name: ""
+icon: Wrath of the Gods
 metadata:
   class: censor
   feature_type: trait

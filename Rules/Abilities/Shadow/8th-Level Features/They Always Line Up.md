@@ -28,8 +28,8 @@ type: feature/ability/shadow/8th-level-feature
 ---
 
 ```ds-ability
-name: They Always Line Up
-cost: 11 Insight
+name: ""
+icon: They Always Line Up (11 Insight)
 flavor: You fire a projectile so fast that it passes through a line of foes,
   hamstringing them.
 keywords:

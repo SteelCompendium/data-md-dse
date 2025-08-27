@@ -64,6 +64,7 @@ traits:
           creatures underground when they do so.
 abilities:
   - name: Rune-Signed Blade
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Magic
@@ -82,6 +83,7 @@ abilities:
           is 0 until the end of their next turn.
         name: Effect
   - name: Forked Knife
+    icon: ⚔️
     cost: 3 Malice
     keywords:
       - Melee
@@ -102,6 +104,7 @@ abilities:
           encounter, and can't be picked up or manipulated.
         name: Effect
   - name: Cobblestone Shape
+    icon: 👤
     keywords:
       - "-"
     type: Maneuver
@@ -113,6 +116,7 @@ abilities:
           this difficult terrain.
         name: Effect
   - name: Resonate Rune
+    icon: ❗️
     keywords:
       - Area
       - Magic

@@ -61,6 +61,7 @@ traits:
           condition, then shift up to 2 squares.
 abilities:
   - name: Glaive Rush
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -77,6 +78,7 @@ abilities:
       - effect: If the skyterror is flying, they shift up to 4 squares.
         name: Effect
   - name: Poison Blow Dart
+    icon: 🏹
     keywords:
       - Ranged
       - Strike

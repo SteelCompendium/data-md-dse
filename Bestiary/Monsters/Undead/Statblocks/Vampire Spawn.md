@@ -60,6 +60,7 @@ traits:
           against a bleeding creature on their turn if they are able to.
 abilities:
   - name: Exsanguinating Bite
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -78,6 +79,7 @@ abilities:
       - effect: The target takes an additional 3 corruption damage.
         cost: 1 Malice
   - name: Vampiric Celerity
+    icon: 👤
     keywords:
       - "-"
     type: Maneuver

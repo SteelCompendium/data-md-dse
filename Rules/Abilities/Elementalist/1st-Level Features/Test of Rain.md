@@ -28,8 +28,8 @@ type: feature/ability/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: Test of Rain
-cost: 5 Essence
+name: ""
+icon: Test of Rain (5 Essence)
 flavor: You call down a rain that burns your enemies and restores your allies.
 keywords:
   - Area

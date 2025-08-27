@@ -60,6 +60,7 @@ traits:
           adjacent to them takes 3 sonic damage.
 abilities:
   - name: Chitin Bash
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

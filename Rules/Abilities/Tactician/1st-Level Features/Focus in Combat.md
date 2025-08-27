@@ -16,7 +16,8 @@ type: feature/trait/tactician/1st-level-feature
 ---
 
 ```ds-ability
-name: Focus in Combat
+name: ""
+icon: Focus in Combat
 metadata:
   class: tactician
   feature_type: trait
@@ -38,6 +39,7 @@ effects:
       tracked in combat rounds (as determined by the Director), you gain focus
       equal to your Victories. At the start of each of your turns during combat,
       you gain 2 focus.
+
 
       Additionally, the first time each combat round that you or any ally
       damages a creature marked by you (see Mark below), you gain 1 focus. The

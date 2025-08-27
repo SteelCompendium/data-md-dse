@@ -27,8 +27,8 @@ type: feature/ability/conduit/5th-level-feature
 ---
 
 ```ds-ability
-name: Vessel of Retribution
-cost: 9 Piety
+name: ""
+icon: Vessel of Retribution (9 Piety)
 flavor: You infuse yourself or an ally with the retributive energy of the gods,
   waiting to be unleashed.
 keywords:

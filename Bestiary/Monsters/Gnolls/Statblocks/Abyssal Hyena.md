@@ -58,6 +58,7 @@ traits:
           free strike before dying.
 abilities:
   - name: Snapjaw
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

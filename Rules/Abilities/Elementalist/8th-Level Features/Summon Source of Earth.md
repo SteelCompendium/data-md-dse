@@ -24,7 +24,8 @@ type: feature/ability/elementalist/8th-level-feature
 ---
 
 ```ds-ability
-name: Summon Source of Earth
+name: ""
+icon: Summon Source of Earth
 flavor: The ground rumbles as an elemental bursts forth, ready to serve.
 keywords:
   - Earth

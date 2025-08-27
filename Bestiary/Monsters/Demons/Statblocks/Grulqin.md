@@ -57,6 +57,7 @@ traits:
       - effect: Any creature within 2 squares of the grulqin can't be hidden from them.
 abilities:
   - name: Spinning Bone Blade
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge

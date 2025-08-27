@@ -16,7 +16,8 @@ type: feature/trait/conduit/4th-level-feature
 ---
 
 ```ds-ability
-name: Saint's Epiphany
+name: ""
+icon: Saint's Epiphany
 metadata:
   class: conduit
   feature_type: trait

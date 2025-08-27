@@ -16,7 +16,8 @@ type: feature/trait/censor/6th-level-feature
 ---
 
 ```ds-ability
-name: Implement of Wrath
+name: ""
+icon: Implement of Wrath
 metadata:
   class: censor
   feature_type: trait
@@ -38,6 +39,7 @@ effects:
       including your own, to channel supernatural power as an implement of your
       god's wrath. The weapon becomes magic and gains the following benefits
       until your next respite:
+
 
       - Strikes with the weapon deal extra holy damage equal to the wielder's
       highest characteristic score.

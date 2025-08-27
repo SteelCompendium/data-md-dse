@@ -64,6 +64,7 @@ traits:
           the encounter.
 abilities:
   - name: Infernal Pike
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -76,11 +77,12 @@ abilities:
       - roll: Power Roll + 3
         t1: 9 damage
         t2: 14 damage; A < 2 slowed (save ends)
-        t3: \\17 damage; A < 3 slowed (save ends)
+        t3: \*\*17 damage; A < 3 slowed (save ends)
       - effect: If the targets are adjacent to each other, this ability deals an extra 3
           damage.
         name: Effect
   - name: Writ of Execution
+    icon: 🗡
     keywords:
       - Charge
       - Melee
@@ -90,17 +92,17 @@ abilities:
     distance: Melee 2
     target: Two creatures or objects
     effects:
-      - effect: |-
-          **Power Roll + 3**
-          - **≤11:** 6 damage; M < 1 prone
-          - **12-16:** 11 damage; M < 2 prone and can't stand (save ends)
-          - \*\*17+:\*\*14 damage; M < 3 prone and can't stand (save ends)
+      - effect: "**Power Roll + 3**"
+        t1: 6 damage; M < 1 prone
+        t2: 11 damage; M < 2 prone and can't stand (save ends)
+        t3: \*\*14 damage; M < 3 prone and can't stand (save ends)
       - effect: If this ability is used as part of the Charge main action, the legate
           ignores difficult terrain during the charge. Each creature and object
           whose space the legate moves through takes the damage from this
           ability, but not its additional effects.
         name: Effect
   - name: Law and Order
+    icon: 🗡
     keywords:
       - Melee
     type: Maneuver
@@ -111,6 +113,7 @@ abilities:
           only one creature taunted at a time.
         name: Effect
   - name: Devilish Charm
+    icon: ❗️
     cost: 2 Malice
     keywords:
       - Magic

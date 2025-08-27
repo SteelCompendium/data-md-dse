@@ -70,6 +70,7 @@ traits:
           the ground.
 abilities:
   - name: Sand Slam
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -87,6 +88,7 @@ abilities:
           restrained (EoT).
         name: Effect
   - name: Stone Bone Storm
+    icon: 🔳
     keywords:
       - Area
     type: Main action
@@ -101,6 +103,7 @@ abilities:
           area.
         name: Effect
   - name: Stoneshift
+    icon: 🏹
     keywords:
       - Ranged
     type: Maneuver
@@ -112,6 +115,7 @@ abilities:
       - effect: The ability targets one additional target.
         cost: 2 Malice
   - name: Dissipate
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - "-"
@@ -124,6 +128,7 @@ abilities:
           associated with it, and shifts up to 3 squares
         name: Effect
   - name: Shatterstone
+    icon: ❗️
     cost: 5 Malice
     keywords:
       - Area
@@ -140,6 +145,7 @@ abilities:
         t2: 7 damage; push 3, prone
         t3: 10 damage; push 4, prone
   - name: First Warning Quake
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Area
@@ -155,6 +161,7 @@ abilities:
         t2: Prone
         t3: No effect
   - name: Final Warning Fissure
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Area
@@ -172,6 +179,7 @@ abilities:
         t2: 5 damage
         t3: The target moves to the nearest unoccupied space outside the area.
   - name: No Escape
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Ranged

@@ -16,7 +16,8 @@ type: feature/trait/conduit/4th-level-feature
 ---
 
 ```ds-ability
-name: Wode Road
+name: ""
+icon: Wode Road
 metadata:
   class: conduit
   feature_type: trait

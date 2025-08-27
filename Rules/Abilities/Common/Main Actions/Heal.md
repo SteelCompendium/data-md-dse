@@ -14,7 +14,8 @@ type: common-ability/main-action
 ---
 
 ```ds-ability
-name: Heal
+name: ""
+icon: Heal
 metadata:
   class: combat
   file_basename: Heal

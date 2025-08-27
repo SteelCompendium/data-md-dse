@@ -60,6 +60,7 @@ traits:
       - effect: While winded, the juggernaut has damage immunity 2.
 abilities:
   - name: Pitchfork Catapult
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge
@@ -77,6 +78,7 @@ abilities:
       - effect: Each target who has M < 1 is bleeding (save ends).
         cost: 1 Malice
   - name: Earth-Breaking Jump
+    icon: ❇️
     keywords:
       - Area
       - Weapon
@@ -91,6 +93,7 @@ abilities:
         t2: 6 damage; push 2; M < 1 prone
         t3: 9 damage; push 4; M < 2 prone
   - name: Horrible Bellow
+    icon: ❇️
     cost: 2 Malice
     keywords:
       - Area
@@ -106,6 +109,7 @@ abilities:
           against them.
         name: Effect
   - name: Hrraaaaaagh!
+    icon: ❗️
     keywords:
       - ree triggered action
     type: "-"

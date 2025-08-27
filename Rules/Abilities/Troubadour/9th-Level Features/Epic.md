@@ -28,8 +28,8 @@ type: feature/ability/troubadour/9th-level-feature
 ---
 
 ```ds-ability
-name: Epic
-cost: 11 Drama
+name: ""
+icon: Epic (11 Drama)
 flavor: Your story tells a tale of the villain's waning power and how the heroes
   rose to the occasion to stop them.
 keywords:

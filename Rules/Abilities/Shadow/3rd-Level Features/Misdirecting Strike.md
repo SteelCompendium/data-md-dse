@@ -28,8 +28,8 @@ type: feature/ability/shadow/3rd-level-feature
 ---
 
 ```ds-ability
-name: Misdirecting Strike
-cost: 7 Insight
+name: ""
+icon: Misdirecting Strike (7 Insight)
 flavor: '"Why are you looking at ME?!"'
 keywords:
   - Melee

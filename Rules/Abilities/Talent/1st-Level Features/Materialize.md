@@ -26,7 +26,8 @@ type: feature/ability/talent/1st-level-feature
 ---
 
 ```ds-ability
-name: Materialize
+name: ""
+icon: Materialize
 flavor: You picture an object in your mind and give it form-directly above your
   opponent's head.
 keywords:

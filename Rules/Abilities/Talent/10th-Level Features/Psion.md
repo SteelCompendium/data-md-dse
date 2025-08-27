@@ -16,7 +16,8 @@ type: feature/trait/talent/10th-level-feature
 ---
 
 ```ds-ability
-name: Psion
+name: ""
+icon: Psion
 metadata:
   class: talent
   feature_type: trait
@@ -36,6 +37,7 @@ effects:
   - effect: >-
       At the start of each of your turns during combat, you gain 1d3 + 2 clarity
       instead of 1d3 + 1.
+
 
       Additionally, you can choose to not take damage from having negative
       clarity. You can also choose to take on any ability's strained effect even

@@ -29,8 +29,8 @@ type: feature/ability/talent/3rd-level-feature
 ---
 
 ```ds-ability
-name: Fling Through Time
-cost: 7 Clarity
+name: ""
+icon: Fling Through Time (7 Clarity)
 flavor: You hurl the target through the annals of time, forcing them to witness
   every moment of their existence all at once.
 keywords:

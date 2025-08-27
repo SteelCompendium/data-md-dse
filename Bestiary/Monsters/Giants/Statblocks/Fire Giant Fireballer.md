@@ -58,6 +58,7 @@ traits:
           against them, that enemy takes 5 fire damage.
 abilities:
   - name: Blazing Leap
+    icon: ❇️
     cost: Signature Ability
     keywords:
       - Area

@@ -16,7 +16,8 @@ type: feature/trait/tactician/8th-level-feature
 ---
 
 ```ds-ability
-name: Bait and Ambush
+name: ""
+icon: Bait and Ambush
 metadata:
   class: tactician
   feature_type: trait

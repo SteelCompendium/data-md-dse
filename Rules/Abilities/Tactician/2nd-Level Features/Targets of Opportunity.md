@@ -26,8 +26,8 @@ type: feature/ability/tactician/2nd-level-feature
 ---
 
 ```ds-ability
-name: Targets of Opportunity
-cost: 5 Focus
+name: ""
+icon: Targets of Opportunity (5 Focus)
 flavor: You point out easy targets to your friends, allowing them to include
   more enemies in their attacks.
 keywords:

@@ -58,6 +58,7 @@ traits:
           can't be reduced in any way.
 abilities:
   - name: Ensnarer Cannon
+    icon: 🏹
     cost: Signature Ability
     keywords:
       - Magic
@@ -70,11 +71,12 @@ abilities:
       - roll: Power Roll + 4
         t1: 11 corruption damage; A < 2 restrained (save ends)
         t2: 16 corruption damage; A < 3 restrained (save ends)
-        t3: 19 corruption damage; A < 4 restrained (save ends)\\ |
+        t3: 19 corruption damage; A < 4 restrained (save ends)\*\* |
       - effect: Two ensnarers appear in unoccupied spaces adjacent to each target. On a
           tier 3 outcome, four ensnarers appear.
         cost: 2 Malice
   - name: Demonic Egress
+    icon: ❇️
     cost: 2 Malice
     keywords:
       - Area
@@ -90,6 +92,7 @@ abilities:
           appear instead.
         cost: 2 Malice
   - name: Abyssal Protectors
+    icon: ❗️
     cost: 2 Malice
     keywords:
       - Area
@@ -103,6 +106,7 @@ abilities:
       - effect: Eight ensnarers appear anywhere in the area.
         name: Effect
   - name: Frenzied Deluge
+    icon: ☠️
     cost: Villain Action 1
     keywords:
       - Ranged
@@ -116,6 +120,7 @@ abilities:
         t3: 3 15 corruption damage; two frenzieds appear in unoccupied spaces adjacent
           to each target
   - name: Fold Space
+    icon: ☠️
     cost: Villain Action 2
     keywords:
       - Ranged
@@ -129,6 +134,7 @@ abilities:
           space.
         name: Effect
   - name: Blood of the Abyss
+    icon: ☠️
     cost: Villain Action 3
     keywords:
       - Area

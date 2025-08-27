@@ -27,8 +27,8 @@ type: feature/ability/conduit/8th-level-feature
 ---
 
 ```ds-ability
-name: Arise!
-cost: 11 Piety
+name: ""
+icon: Arise! (11 Piety)
 flavor: Your deity rewards you or an ally on the verge of defeat with a miracle
   burst of strength and resolve.
 keywords:

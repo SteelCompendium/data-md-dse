@@ -55,6 +55,7 @@ traits:
           ceramic horse also has that trait.
 abilities:
   - name: Elemental Charge
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge
@@ -70,6 +71,7 @@ abilities:
         t2: 7 fire damage
         t3: 9 lightning damage; M < 2 prone
   - name: Stomp
+    icon: ❇️
     keywords:
       - Area
       - Weapon
@@ -84,6 +86,7 @@ abilities:
       - effect: Any target who is prone takes an extra 2 damage.
         name: Effect
   - name: Buck
+    icon: 👤
     cost: 2 Malice
     keywords:
       - "-"

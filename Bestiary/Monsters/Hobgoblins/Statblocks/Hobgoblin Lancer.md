@@ -62,6 +62,7 @@ traits:
           creature adjacent to the lancer takes 2 fire damage.
 abilities:
   - name: Grim Thrust
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Magic

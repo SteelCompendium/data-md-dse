@@ -51,6 +51,7 @@ presence: 0
 traits: []
 abilities:
   - name: Concussive Bolts
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Charge
@@ -71,6 +72,7 @@ abilities:
           Director determines otherwise.
         name: Effect
   - name: Steam-Powered Snare
+    icon: 🔳
     cost: 3 Malice
     keywords:
       - Area

@@ -16,7 +16,8 @@ type: feature/trait/troubadour/8th-level-feature
 ---
 
 ```ds-ability
-name: Deleted Scene
+name: ""
+icon: Deleted Scene
 metadata:
   class: troubadour
   feature_type: trait

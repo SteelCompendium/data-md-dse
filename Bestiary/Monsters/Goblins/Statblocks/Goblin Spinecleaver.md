@@ -56,6 +56,7 @@ traits:
       - effect: The spinecleaver doesn't provoke opportunity attacks by moving
 abilities:
   - name: Axe
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee

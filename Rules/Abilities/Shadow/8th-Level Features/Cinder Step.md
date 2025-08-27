@@ -16,7 +16,8 @@ type: feature/trait/shadow/8th-level-feature
 ---
 
 ```ds-ability
-name: Cinder Step
+name: ""
+icon: Cinder Step
 metadata:
   class: shadow
   feature_type: trait

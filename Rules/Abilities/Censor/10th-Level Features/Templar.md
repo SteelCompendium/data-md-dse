@@ -16,7 +16,8 @@ type: feature/trait/censor/10th-level-feature
 ---
 
 ```ds-ability
-name: Templar
+name: ""
+icon: Templar
 metadata:
   class: censor
   feature_type: trait
@@ -42,6 +43,7 @@ effects:
       If the effect calls for the use of your Intuition score, you use your
       Presence score instead. If the effect uses your conduit level, use your
       censor level instead.
+
 
       Additionally, whenever you take a respite, you can open a portal to rest
       in the presence of your deity and bring along any allies. When you do, you

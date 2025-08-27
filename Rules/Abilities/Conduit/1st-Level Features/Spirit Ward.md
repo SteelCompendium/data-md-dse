@@ -16,7 +16,8 @@ type: feature/trait/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: Spirit Ward
+name: ""
+icon: Spirit Ward
 metadata:
   class: conduit
   feature_type: trait

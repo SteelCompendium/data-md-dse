@@ -25,8 +25,8 @@ type: feature/ability/censor/5th-level-feature
 ---
 
 ```ds-ability
-name: Gods Grant Thee Strength
-cost: 9 Wrath
+name: ""
+icon: Gods Grant Thee Strength (9 Wrath)
 flavor: You channel divine force for movement that cannot be stopped.
 keywords:
   - Ranged

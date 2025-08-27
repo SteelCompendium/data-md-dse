@@ -16,7 +16,8 @@ type: feature/trait/null/6th-level-feature
 ---
 
 ```ds-ability
-name: Elemental Absorption
+name: ""
+icon: Elemental Absorption
 metadata:
   class: "null"
   feature_type: trait

@@ -25,8 +25,8 @@ type: feature/ability/null/6th-level-feature
 ---
 
 ```ds-ability
-name: Interphase
-cost: 9 Discipline
+name: ""
+icon: Interphase (9 Discipline)
 flavor: You slip into a faster timestream to act more quickly.
 keywords:
   - Psionic

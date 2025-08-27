@@ -58,6 +58,7 @@ traits:
           navigate, search, or seek.
 abilities:
   - name: Javelin and Bellow
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Charge

@@ -60,6 +60,7 @@ traits:
       - effect: Any creature within 2 squares of the chimeron can't be hidden from them.
 abilities:
   - name: Flux Gnash
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -77,6 +78,7 @@ abilities:
           ability deals and which condition it imposes.
         name: Special
   - name: Pain Absorption
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - "-"

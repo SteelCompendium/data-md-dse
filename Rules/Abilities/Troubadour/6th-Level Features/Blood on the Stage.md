@@ -27,8 +27,8 @@ type: feature/ability/troubadour/6th-level-feature
 ---
 
 ```ds-ability
-name: Blood on the Stage
-cost: 9 Drama
+name: ""
+icon: Blood on the Stage (9 Drama)
 flavor: It's love and blood or drama and blood. Either way, there's always blood.
 keywords:
   - Melee

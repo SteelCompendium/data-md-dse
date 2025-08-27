@@ -27,8 +27,8 @@ type: feature/ability/tactician/2nd-level-feature
 ---
 
 ```ds-ability
-name: No Dying on My Watch
-cost: 5 Focus
+name: ""
+icon: No Dying on My Watch (5 Focus)
 flavor: You prioritize saving an ally over your own safety.
 keywords:
   - Ranged

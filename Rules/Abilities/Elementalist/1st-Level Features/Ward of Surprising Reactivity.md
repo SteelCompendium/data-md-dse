@@ -16,7 +16,8 @@ type: feature/trait/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: Ward of Surprising Reactivity
+name: ""
+icon: Ward of Surprising Reactivity
 metadata:
   class: elementalist
   feature_type: trait

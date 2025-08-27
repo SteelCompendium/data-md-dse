@@ -16,7 +16,8 @@ type: feature/trait/fury/7th-level-feature
 ---
 
 ```ds-ability
-name: Elemental Form
+name: ""
+icon: Elemental Form
 metadata:
   class: fury
   feature_type: trait
@@ -38,6 +39,7 @@ effects:
       flows within you. Whenever you show strong emotion or increase your
       ferocity, elemental motes attuned to your mood flit around you, and your
       skin changes in appearance to reflect an element of your choice.
+
 
       Additionally, if you are a berserker or reaver, you have immunity to acid,
       cold, corruption, fire, lightning, poison, and sonic damage equal to your

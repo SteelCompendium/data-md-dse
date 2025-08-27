@@ -60,6 +60,7 @@ traits:
       - effect: The mournling's shape can't be changed by any external effect.
 abilities:
   - name: Multiarm Strike
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -78,6 +79,7 @@ abilities:
       - effect: This ability targets one additional target.
         cost: 1 Malice
   - name: Horrid Wail
+    icon: ❇️
     keywords:
       - Area
       - Magic

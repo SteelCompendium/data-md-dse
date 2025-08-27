@@ -16,7 +16,8 @@ type: feature/trait/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: Ward of Nature's Affection
+name: ""
+icon: Ward of Nature's Affection
 metadata:
   class: elementalist
   feature_type: trait

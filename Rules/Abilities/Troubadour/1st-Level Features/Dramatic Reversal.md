@@ -26,8 +26,8 @@ type: feature/ability/troubadour/1st-level-feature
 ---
 
 ```ds-ability
-name: Dramatic Reversal
-cost: 5 Drama
+name: ""
+icon: Dramatic Reversal (5 Drama)
 flavor: Give the audience a surprise.
 keywords:
   - Area

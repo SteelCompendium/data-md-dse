@@ -58,6 +58,7 @@ traits:
       - effect: The raider ignores concealment if it's granted by a supernatural effect.
 abilities:
   - name: Handaxes
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge

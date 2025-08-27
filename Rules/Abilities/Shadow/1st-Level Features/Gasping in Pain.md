@@ -24,7 +24,8 @@ type: feature/ability/shadow/1st-level-feature
 ---
 
 ```ds-ability
-name: Gasping in Pain
+name: ""
+icon: Gasping in Pain
 flavor: Your precise strikes let your allies take advantage of a target's agony.
 keywords:
   - Melee

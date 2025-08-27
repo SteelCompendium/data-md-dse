@@ -27,8 +27,8 @@ type: feature/ability/conduit/9th-level-feature
 ---
 
 ```ds-ability
-name: Night Falls
-cost: 11 Piety
+name: ""
+icon: Night Falls (11 Piety)
 flavor: You summon darkness that thwarts only your foes.
 keywords:
   - Area

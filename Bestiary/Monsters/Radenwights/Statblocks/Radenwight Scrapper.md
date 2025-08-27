@@ -53,6 +53,7 @@ presence: 2
 traits: []
 abilities:
   - name: Buckler Bash
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge
@@ -68,6 +69,7 @@ abilities:
         t2: 2 damage; taunted (EoT)
         t3: 3 damage; taunted (EoT)
   - name: Ready Rodent
+    icon: ❗️
     keywords:
       - Melee
       - Weapon

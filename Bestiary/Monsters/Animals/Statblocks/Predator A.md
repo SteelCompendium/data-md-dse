@@ -53,6 +53,7 @@ traits:
           bane on their abilities or turn a double bane into a bane.
 abilities:
   - name: Natural Weapon
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -67,6 +68,7 @@ abilities:
         t2: 10 damage; M < 1 prone
         t3: 13 damage; M < 1 prone
   - name: Ready to Strike
+    icon: 👤
     keywords:
       - "-"
     type: Maneuver
@@ -77,6 +79,7 @@ abilities:
           and gains an edge on their next strike.
         name: Effect
   - name: Quick Strike
+    icon: ❗️
     keywords:
       - Melee
       - Strike

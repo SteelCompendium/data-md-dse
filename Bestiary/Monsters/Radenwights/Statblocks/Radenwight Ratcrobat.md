@@ -55,6 +55,7 @@ traits:
       - effect: The ratcrobat gains an edge on strikes against larger creatures.
 abilities:
   - name: En Garde
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -72,6 +73,7 @@ abilities:
           then can shift 1 square after striking the second target.
         name: Effect
   - name: Over Here, Thanks
+    icon: 🗡
     keywords:
       - Melee
     type: Maneuver
@@ -82,6 +84,7 @@ abilities:
           square the target left
         name: Effect
   - name: Ready Rodent
+    icon: ❗️
     keywords:
       - Melee
       - Weapon

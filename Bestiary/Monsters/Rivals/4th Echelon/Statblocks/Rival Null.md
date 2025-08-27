@@ -61,6 +61,7 @@ traits:
           power rolls they make against each other.
 abilities:
   - name: Kinetic Danse
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -75,6 +76,7 @@ abilities:
         t2: 20 damage; the null shifts up to 5 squares; A < 4 15 damage
         t3: 24 damage; the null shifts up to 6 squares; A < 5 19 damage
   - name: Incapacitate
+    icon: 🗡
     cost: 5 Malice
     keywords:
       - Melee

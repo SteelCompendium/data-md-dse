@@ -59,6 +59,7 @@ traits:
           roll to power rolls they make against each other.
 abilities:
   - name: Sunder the Very Skies
+    icon: ⚔️
     cost: Signature Ability
     keywords:
       - Magic
@@ -79,6 +80,7 @@ abilities:
       - effect: Two additional allies within distance regain the same amount of Stamina.
         cost: 2 Malice
   - name: Empyrean Boon
+    icon: 🏹
     cost: 5 Malice
     keywords:
       - Magic

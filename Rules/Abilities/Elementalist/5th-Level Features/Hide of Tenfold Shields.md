@@ -16,7 +16,8 @@ type: feature/trait/elementalist/5th-level-feature
 ---
 
 ```ds-ability
-name: Hide of Tenfold Shields
+name: ""
+icon: Hide of Tenfold Shields
 metadata:
   class: elementalist
   feature_type: trait
@@ -37,6 +38,7 @@ effects:
       Your animal forms become hardier. You gain temporary Stamina equal to your
       level when you enter an animal form in combat, which is added to any
       temporary Stamina provided by the animal form.
+
 
       Additionally, an adjacent ally can use a maneuver to pet you. If they do
       so, you can lose temporary Stamina down to a minimum of 0. The ally gains

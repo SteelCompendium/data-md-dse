@@ -28,8 +28,8 @@ type: feature/ability/talent/1st-level-feature
 ---
 
 ```ds-ability
-name: Choke
-cost: 3 Clarity
+name: ""
+icon: Choke (3 Clarity)
 flavor: You crush a foe in a telekinetic grip.
 keywords:
   - Psionic

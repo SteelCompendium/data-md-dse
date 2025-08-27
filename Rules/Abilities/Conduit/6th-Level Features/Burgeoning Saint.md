@@ -16,7 +16,8 @@ type: feature/trait/conduit/6th-level-feature
 ---
 
 ```ds-ability
-name: Burgeoning Saint
+name: ""
+icon: Burgeoning Saint
 metadata:
   class: conduit
   feature_type: trait
@@ -36,6 +37,7 @@ effects:
   - effect: >-
       You are infused with the power your deity reserves for their most worthy
       instruments. You have the following benefits:
+
 
       - You gain an edge on Presence tests made to interact with other
       creatures.

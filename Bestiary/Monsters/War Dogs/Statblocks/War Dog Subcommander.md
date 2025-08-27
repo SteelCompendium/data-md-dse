@@ -61,6 +61,7 @@ traits:
           explodes, dealing 1d6 damage to each adjacent enemy and object.
 abilities:
   - name: Command Saber
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Melee
@@ -78,6 +79,7 @@ abilities:
           against the target.
         name: Effect
   - name: Posthumous Promotion
+    icon: 🏹
     keywords:
       - Magic
       - Ranged

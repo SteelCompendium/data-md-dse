@@ -16,7 +16,8 @@ type: feature/trait/conduit/7th-level-feature
 ---
 
 ```ds-ability
-name: Gods' Library
+name: ""
+icon: Gods' Library
 metadata:
   class: conduit
   feature_type: trait

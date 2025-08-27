@@ -61,6 +61,7 @@ traits:
           to speed until the end of their turn.
 abilities:
   - name: Taste
+    icon: 🗡
     cost: Signature Ability
     keywords:
       - Charge

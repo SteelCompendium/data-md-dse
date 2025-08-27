@@ -64,6 +64,7 @@ traits:
           creatures underground when they do so.
 abilities:
   - name: Marble From a Great Sling
+    icon: 🔳
     cost: Signature Ability
     keywords:
       - Area
@@ -81,6 +82,7 @@ abilities:
           or that ends at the end of their turn, they are also knocked prone.
         name: Effect
   - name: Far Flung
+    icon: 🗡
     cost: 3 Malice
     keywords:
       - Melee
@@ -97,6 +99,7 @@ abilities:
           edge.
         name: Effect
   - name: Polish Stone Shape
+    icon: 🔳
     keywords:
       - Area
     type: Maneuver
@@ -108,6 +111,7 @@ abilities:
           squares.
         name: Effect
   - name: Break Armor
+    icon: ❗️
     cost: 1 Malice
     keywords:
       - "-"
