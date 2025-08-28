@@ -5,67 +5,77 @@ item_id: ram-level-2-trap-ambusher
 item_index: '01'
 item_name: Ram (Level 2 Trap Ambusher)
 scc:
-  - mcdm.monsters.v1:dynamic-terrain.mechanism:ram-level-2-trap-ambusher
+- mcdm.monsters.v1:dynamic-terrain.mechanism:ram-level-2-trap-ambusher
 scdc:
-  - 1.1.1:4.1:01
+- 1.1.1:4.1:01
 source: mcdm.monsters.v1
 type: dynamic-terrain/mechanism
 ---
 
-###### Ram (Level 2 Trap Ambusher)
-
-A heavy wooden ram drops down or swings into the fray, crushing all in its path.
-
-- **EV:** 3
-- **Stamina:** 3 per square
-- **Size:** Any area; the area can't be moved through
-- **Typical Space:** 1 x 3-square area or a 2 x 2-square area
-- **Direction:** One side of the ram is defined as the front.
-
-> 🌀 **Deactivate**
->
-> As a maneuver, a creature adjacent to a ram can make an **Agility test**.
->
-> - **≤11:** The creature triggers the ram and is affected as if in its space.
-> - **12-16:** The ram is deactivated but the creature is slowed (EoT).
-> - **17+:** The ram is deactivated and doesn't trigger.
-
-> ❕ **Activate**
->
-> A pressure plate, switch, or other linked trigger is activated.
->
-> **Effect:** The **Ram** ability.
-
-> ❗️ **Ram**
->
-> | **Area, Weapon** |                   **Free triggered action** |
-> | ---------------- | ------------------------------------------: |
-> | **📏 Special**   | **🎯 Each creature and object in the area** |
->
-> **Trigger:** A pressure plate, switch, or other linked trigger is activated.
->
-> **Special:** The area of this ability is the path the ram moves through from its starting position.
->
-> **Power Roll + 2:**
->
-> - **≤11:** 3 damage; slide 1, ignoring stability
-> - **12-16:** 6 damage; push 3
-> - **17+:** 9 damage; push 5
->
-> **Effect:** A target slid by the ram ends up on one side of it or the other (choose randomly). The ram must be manually reset.
-
-> ⭐️ **Upgrades**
->
-> **Stone (+1 EV)** The ram is made of stone, has 6 Stamina per square, and deals an extra 1d3 damage.
->
-> **Metal (+2 EV)** The ram is made of metal, has 9 Stamina per square, and deals an extra 1d6 damage.
->
-> **Repeating (+1 EV)** The ram automatically resets at the start of each round.
->
-> **Rapid Repeating (+3 EV)** The ram automatically resets at the start of each turn.
->
-> **Multiple Rams (+3 EV per additional ram)** Multiple rams can be used to represent a larger mechanism, such as a stack of tumbling logs.
-
-> ⭐️ **Hidden**
->
-> The ram is hidden until triggered or detected.
+~~~ds-featureblock
+name: Ram
+type: Trap Ambusher
+level: 2
+ev: "3"
+flavor: A heavy wooden ram drops down or swings into the fray, crushing all in
+  its path.
+stamina: 3 per square
+size: Any area; the area can't be moved through
+stats:
+  - name: Typical Space
+    value: 1 x 3-square area or a 2 x 2-square area
+  - name: Direction
+    value: One side of the ram is defined as the front.
+features:
+  - name: Deactivate
+    icon: 🌀
+    effects:
+      - effect: As a maneuver, a creature adjacent to a ram can make an **Agility
+          test**.
+        t1: The creature triggers the ram and is affected as if in its space.
+        t2: The ram is deactivated but the creature is slowed (EoT).
+        t3: The ram is deactivated and doesn't trigger.
+  - name: Activate
+    icon: ❕
+    effects:
+      - effect: A pressure plate, switch, or other linked trigger is activated.
+      - effect: The **Ram** ability.
+        name: Effect
+  - name: Ram
+    icon: ❗️
+    keywords:
+      - Area
+      - Weapon
+    type: Free triggered action
+    distance: Special
+    target: Each creature and object in the area
+    trigger: A pressure plate, switch, or other linked trigger is activated.
+    effects:
+      - name: Special
+        effect: The area of this ability is the path the ram moves through from its
+          starting position.
+      - roll: Power Roll + 2
+        t1: 3 damage; slide 1, ignoring stability
+        t2: 6 damage; push 3
+        t3: 9 damage; push 5
+      - effect: A target slid by the ram ends up on one side of it or the other (choose
+          randomly). The ram must be manually reset.
+        name: Effect
+  - name: Upgrades
+    icon: ⭐️
+    effects:
+      - effect: "**Stone (+1 EV)** The ram is made of stone, has 6 Stamina per square,
+          and deals an extra 1d3 damage."
+      - effect: "**Metal (+2 EV)** The ram is made of metal, has 9 Stamina per square,
+          and deals an extra 1d6 damage."
+      - effect: "**Repeating (+1 EV)** The ram automatically resets at the start of each
+          round."
+      - effect: "**Rapid Repeating (+3 EV)** The ram automatically resets at the start
+          of each turn."
+      - effect: "**Multiple Rams (+3 EV per additional ram)** Multiple rams can be used
+          to represent a larger mechanism, such as a stack of tumbling logs."
+  - name: Hidden
+    icon: ⭐️
+    effects:
+      - effect: The ram is hidden until triggered or detected.
+~~~

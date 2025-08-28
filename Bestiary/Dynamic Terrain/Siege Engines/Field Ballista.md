@@ -5,99 +5,117 @@ item_id: field-ballista-level-2-siege-engine-artillery
 item_index: '06'
 item_name: Field Ballista (Level 2 Siege Engine Artillery)
 scc:
-  - mcdm.monsters.v1:dynamic-terrain.siege-engine:field-ballista-level-2-siege-engine-artillery
+- mcdm.monsters.v1:dynamic-terrain.siege-engine:field-ballista-level-2-siege-engine-artillery
 scdc:
-  - 1.1.1:4.2:06
+- 1.1.1:4.2:06
 source: mcdm.monsters.v1
 type: dynamic-terrain/siege-engine
 ---
 
-###### Field Ballista (Level 2 Siege Engine Artillery)
+~~~ds-featureblock
+name: Field Ballista
+type: Siege Engine Artillery
+level: 2
+ev: "8"
+flavor: A massive crossbow fires thick metal bolts with devastating effect.
+stamina: "40"
+size: "2"
+stats: []
+features:
+  - name: Deactivate
+    icon: 🌀
+    effects:
+      - effect: As a maneuver, a creature adjacent to a field ballista can make an
+          **Agility test**.
+        t1: The creature accidentally activates the **Release Bolt** ability.
+        t2: The field ballista is deactivated but the creature is slowed (EoT).
+        t3: The field ballista is deactivated and can't be used.
+  - name: Release Bolt
+    icon: 🏹
+    keywords:
+      - Ranged
+      - Strike
+      - Weapon
+    type: Main action (Adjacent creature)
+    distance: Ranged 20
+    target: One creature or object
+    effects:
+      - roll: Power Roll + 2
+        t1: 5 damage
+        t2: 8 damage; M < 1 push 1
+        t3: 11 damage; M < 2 push 2
+      - effect: This ability can't be used again until the field ballista is reloaded.
+        name: Effect
+  - name: Reload
+    icon: ⭐️
+    keywords:
+      - "-"
+    type: Main action (Adjacent creature)
+    distance: "-"
+    target: "-"
+    effects:
+      - effect: The field ballista is reloaded, allowing **Release Bolt** to be used
+          again. This action can be used only once per round.
+        name: Effect
+  - name: Spot
+    icon: ⭐️
+    keywords:
+      - "-"
+    type: Main action (Adjacent creature)
+    distance: "-"
+    target: "-"
+    effects: []
+  - name: Move
+    icon: ⭐️
+    keywords:
+      - "-"
+    type: Main action (Adjacent creature)
+    distance: "-"
+    target: "-"
+    effects:
+      - effect: The field ballista and the creature using this action move together up
+          to 3 squares.
+        name: Effect
+  - name: Upgrades
+    icon: ⭐️
+    effects:
+      - effect: "**Penetrating Bolt (+2 EV)** The field ballista targets the nearest two
+          additional creatures or objects in a straight line beyond the initial
+          target."
+      - effect: >-
+          **Chain Bolt (+2EV)** The field ballista's bolts are set with heavy
+          chains that wrap around targets. The **Chain Bolt** ability replaces
+          **Release Bolt**, and the field ballista gains the **Crank the Chain**
+          ability.
 
-A massive crossbow fires thick metal bolts with devastating effect.
 
-- **EV:** 8
-- **Stamina:** 40
-- **Size:** 2
+          🏹 **Chain Bolt**
 
-> 🌀 **Deactivate**
->
-> As a maneuver, a creature adjacent to a field ballista can make an **Agility test**.
->
-> - **≤11:** The creature accidentally activates the **Release Bolt** ability.
-> - **12-16:** The field ballista is deactivated but the creature is slowed (EoT).
-> - **17+:** The field ballista is deactivated and can't be used.
+          | **- - Ranged, Strike, Weapon** | **Main action (Adjacent creature)**
+          |
 
-> 🏹 **Release Bolt**
->
-> | **Ranged, Strike, Weapon** | **Main action (Adjacent creature)** |
-> | -------------------------- | ----------------------------------: |
-> | **📏 Ranged 20**           |       **🎯 One creature or object** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 5 damage
-> - **12-16:** 8 damage; M < 1 push 1
-> - **17+:** 11 damage; M < 2 push 2
->
-> **Effect:** This ability can't be used again until the field ballista is reloaded.
+          | ------------------------------ | ----------------------------------:
+          |
 
-> ⭐️ **Reload**
->
-> | **-**    | **Main action (Adjacent creature)** |
-> | -------- | ----------------------------------: |
-> | **📏 -** |                            **🎯 -** |
->
-> **Effect:** The field ballista is reloaded, allowing **Release Bolt** to be used again. This action can be used only once per round.
-
-> ⭐️ **Spot**
->
-> | **-**    | **Main action (Adjacent creature)** |
-> | -------- | ----------------------------------: |
-> | **📏 -** |                            **🎯 -** |
-
-**Effect:** The next use of **Release Bolt** gains an edge and has a +10 bonus to ranged distance. This action can be used only once per round.
-
-> ⭐️ **Move**
->
-> | **-**    | **Main action (Adjacent creature)** |
-> | -------- | ----------------------------------: |
-> | **📏 -** |                            **🎯 -** |
->
-> **Effect:** The field ballista and the creature using this action move together up to 3 squares.
-
-> ⭐️ **Upgrades**
->
-> **Penetrating Bolt (+2 EV)** The field ballista targets the nearest two additional creatures or objects in a straight line beyond the initial target.
->
-> **Chain Bolt (+2EV)** The field ballista's bolts are set with heavy chains that wrap around targets. The **Chain Bolt** ability replaces **Release Bolt**, and the field ballista gains the **Crank the Chain** ability.
->
-> 🏹 **Chain Bolt**
->
-> | **- - Ranged, Strike, Weapon** | **Main action (Adjacent creature)** |
-> | ------------------------------ | ----------------------------------: |
-> | **📏 Ranged 20**               |       **🎯 One creature or object** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 4 damage
-> - **12-16:** 7 damage; M < 1 slowed (save ends)
-> - **17+:** 10 damage; M < 2 slowed (save ends)
->
-> **Effect:** This ability can't be used again until the field ballista is reloaded.
->
-> 🏹 **Crank the Chain**
->
-> | **Ranged, Strike, Weapon** | **Main action (Adjacent creature)** |
-> | -------------------------- | ----------------------------------: |
-> | **📏 Ranged 20**           |                 **🎯 One creature** |
->
-> **Special:** The target must be slowed by the field ballista.
->
-> **Power Roll + 2:**
->
-> - **≤11:** Pull 1
-> - **12-16:** Pull
-> - **17+:** 3 Pull 5
->
-> **Effect:** This forced movement triggers opportunity attacks.
+          | **📏 Ranged 20**               |       **🎯 One creature or object**
+          |
+      - roll: Power Roll + 2
+        t1: 4 damage
+        t2: 7 damage; M < 1 slowed (save ends)
+        t3: 10 damage; M < 2 slowed (save ends)
+      - name: Effect
+        effect: |-
+          This ability can't be used again until the field ballista is reloaded.
+          🏹 **Crank the Chain**
+          | **Ranged, Strike, Weapon** | **Main action (Adjacent creature)** |
+          | -------------------------- | ----------------------------------: |
+          | **📏 Ranged 20**           |                 **🎯 One creature** |
+      - name: Special
+        effect: The target must be slowed by the field ballista.
+      - roll: Power Roll + 2
+        t1: Pull 1
+        t2: Pull
+        t3: 3 Pull 5
+      - effect: This forced movement triggers opportunity attacks.
+        name: Effect
+~~~
