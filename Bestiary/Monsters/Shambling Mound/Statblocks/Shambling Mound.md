@@ -147,12 +147,12 @@ abilities:
     type: Triggered action
     distance: Melee 6
     target: The triggering creature
-    trigger: |-
-      A creature within distance willingly moves.
-      - **≤11:** 7 damage; M < 2 restrained (EoT)
-      - **12-16:** 12 damage; M < 3 restrained (EoT)
-      - **17+:** 15 damage; M < 4 restrained (EoT)
-    effects: []
+    trigger: A creature within distance willingly moves.
+    effects:
+      - roll: Power Roll + 4
+        t1: 7 damage; M < 2 restrained (EoT)
+        t2: 12 damage; M < 3 restrained (EoT)
+        t3: 15 damage; M < 4 restrained (EoT)
   - name: Ravenous Overgrowth
     icon: ☠️
     cost: Villain Action 1

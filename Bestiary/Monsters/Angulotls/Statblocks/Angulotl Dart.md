@@ -71,6 +71,7 @@ abilities:
     effects:
       - roll: Power Roll + 2
         t1: 2 poison damage
+        t2: 4 poison damage
         t3: 5 poison damage
       - effect: The dart gains an edge on this ability against any target who has less
           than full Stamina.

@@ -72,6 +72,7 @@ abilities:
     effects:
       - roll: Power Roll + 2
         t1: 2 damage
+        t2: 4 damage
         t3: 5 damage; grabbed
       - effect: Any target grabbed this way takes 2 lightning damage at the start of
           each of their turns.

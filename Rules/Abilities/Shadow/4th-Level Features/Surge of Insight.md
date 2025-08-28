@@ -33,10 +33,6 @@ metadata:
   source: mcdm.heroes.v1
   type: feature/trait/shadow/4th-level-feature
 effects:
-  - effect: >-
-      The first time each combat round that you deal damage incorporating 1 or
+  - effect: The first time each combat round that you deal damage incorporating 1 or
       more surges, you gain 2 insight instead of 1.
-
-
-      As a 5th-level shadow, you gain the following features.
 ```

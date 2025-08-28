@@ -69,13 +69,14 @@ traits:
 abilities:
   - name: Blade of the Gol King
     icon: 🗡
+    cost: Signature Ability
     keywords:
       - Charge
       - Magic
       - Melee
       - Strike
       - Weapon
-    type: Signature Ability
+    type: Main Action
     distance: Melee 1
     target: Two creatures or objects
     effects:

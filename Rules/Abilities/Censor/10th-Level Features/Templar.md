@@ -46,9 +46,8 @@ effects:
 
       Additionally, whenever you take a respite, you can open a portal to rest
       in the presence of your deity and bring along any allies. When you do, you
-      can ask your deity three questions, which the Director must
-
-      answer honestly if your deity knows the answers (though they might answer
+      can ask your deity three questions, which the Director must answer
+      honestly if your deity knows the answers (though they might answer
       cryptically or incompletely). When you finish your respite, you and your
       allies can appear at any location in the timescape where someone worships
       your deity.

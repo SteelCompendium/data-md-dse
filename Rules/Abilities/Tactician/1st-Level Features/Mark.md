@@ -78,7 +78,8 @@ effects:
       equal to your Reason score.
 
       - If you damage a creature marked by you with a melee ability, the
-      creature is taunted by you until the end of their next turn. You can't
-      gain more than one benefit from the same trigger.
+      creature is taunted by you until the end of their next turn.
+
+      You can't gain more than one benefit from the same trigger.
     name: Effect
 ```

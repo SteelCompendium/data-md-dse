@@ -80,7 +80,7 @@ effects:
       of the encounter.
     name: Effect
   - effect: You and the target both permanently grow visibly younger (the equivalent
-      of 20 human years, to the minimum of an 18-yearold). Additionally, you are
-      weakened and slowed (save ends).
+      of 20 human years, to the minimum of an 18-year-old). Additionally, you
+      are weakened and slowed (save ends).
     name: Strained
 ```
