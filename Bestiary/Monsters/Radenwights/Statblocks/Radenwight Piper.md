@@ -1,8 +1,8 @@
 ---
 agility: 0
 ancestry:
-- Humanoid
-- Radenwight
+  - Humanoid
+  - Radenwight
 ev: '6'
 file_basename: Radenwight Piper
 file_dpath: Monsters/Radenwights/Statblocks
@@ -16,11 +16,11 @@ might: 0
 presence: 1
 reason: 0
 roles:
-- Platoon Support
+  - Platoon Support
 scc:
-- mcdm.monsters.v1:monster:radenwight-piper
+  - mcdm.monsters.v1:monster:radenwight-piper
 scdc:
-- 1.1.1:2:150
+  - 1.1.1:2:150
 size: 1S
 source: mcdm.monsters.v1
 speed: 5
@@ -29,75 +29,48 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
-name: Radenwight Piper
-level: 1
-roles:
-  - Platoon Support
-ancestry:
-  - Humanoid
-  - Radenwight
-ev: "6"
-stamina: "30"
-speed: 5
-movement: Climb
-size: 1S
-stability: 0
-free_strike: 3
-might: 0
-agility: 0
-reason: 0
-intuition: 2
-presence: 1
-traits:
-  - name: Musical Suggestion
-    effects:
-      - effect: At the end of the piper's turn, they can slide one adjacent creature up
-          to 2 squares, ignoring stability.
-abilities:
-  - name: Piercing Trill
-    icon: ⚔️
-    cost: Signature Ability
-    keywords:
-      - Magic
-      - Melee
-      - Ranged
-      - Strike
-    type: Main action
-    distance: Melee 1 or ranged 10
-    target: One creature or object
-    effects:
-      - roll: Power Roll + 2
-        t1: 5 sonic damage; push 1
-        t2: 7 sonic damage; push 3
-        t3: 9 sonic damage; push 4
-      - effect: The piper or one ally within distance regains Stamina equal to the
-          damage dealt.
-        name: Effect
-  - name: Vivace Vivace!
-    icon: ❇️
-    keywords:
-      - Area
-      - Magic
-    type: Maneuver
-    distance: 3 burst
-    target: Each ally in the area
-    effects:
-      - effect: Each target who has used their Ready Rodent ability this round regains
-          the use of their triggered action.
-        name: Effect
-      - effect: The area increases to a 6 burst.
-        cost: 2 Malice
-  - name: Ready Rodent
-    icon: ❗️
-    keywords:
-      - Melee
-      - Weapon
-    type: Triggered action
-    distance: Melee 1
-    target: One creature
-    trigger: An ally deals damage to the target.
-    effects:
-      - effect: The piper makes a free strike against the target.
-        name: Effect
-```
+###### Radenwight Piper
+
+| Humanoid, Radenwight |            -            |       Level 1       |     Platoon Support     |          EV 6          |
+| :------------------: | :---------------------: | :-----------------: | :---------------------: | :--------------------: |
+|   **1S**<br/> Size   |    **5**<br/> Speed     | **30**<br/> Stamina |  **0**<br/> Stability   | **3**<br/> Free Strike |
+| **-**<br/> Immunity  | **Climb**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+|   **0**<br/> Might   |   **0**<br/> Agility    |  **0**<br/> Reason  |  **+2**<br/> Intuition  |  **+1**<br/> Presence  |
+
+> ⚔️ **Piercing Trill (Signature Ability)**
+>
+> | **Magic, Melee, Ranged, Strike** |               **Main action** |
+> | -------------------------------- | ----------------------------: |
+> | **📏 Melee 1 or ranged 10**      | **🎯 One creature or object** |
+>
+> **Power Roll + 2:**
+>
+> - **≤11:** 5 sonic damage; push 1
+> - **12-16:** 7 sonic damage; push 3
+> - **17+:** 9 sonic damage; push 4
+>
+> **Effect:** The piper or one ally within distance regains Stamina equal to the damage dealt.
+
+> ❇️ **Vivace Vivace!**
+>
+> | **Area, Magic** |                 **Maneuver** |
+> | --------------- | ---------------------------: |
+> | **📏 3 burst**  | **🎯 Each ally in the area** |
+>
+> **Effect:** Each target who has used their Ready Rodent ability this round regains the use of their triggered action.
+>
+> **2 Malice:** The area increases to a 6 burst.
+
+> ❗️ **Ready Rodent**
+>
+> | **Melee, Weapon** | **Triggered action** |
+> | ----------------- | -------------------: |
+> | **📏 Melee 1**    |  **🎯 One creature** |
+>
+> **Trigger:** An ally deals damage to the target.
+>
+> **Effect:** The piper makes a free strike against the target.
+
+> ⭐️ **Musical Suggestion**
+>
+> At the end of the piper's turn, they can slide one adjacent creature up to 2 squares, ignoring stability.

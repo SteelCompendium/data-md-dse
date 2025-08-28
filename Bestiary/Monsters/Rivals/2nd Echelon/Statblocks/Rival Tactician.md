@@ -1,8 +1,8 @@
 ---
 agility: 0
 ancestry:
-- Humanoid
-- Rival
+  - Humanoid
+  - Rival
 ev: '28'
 file_basename: Rival Tactician
 file_dpath: Monsters/Rivals/2nd Echelon/Statblocks
@@ -16,11 +16,11 @@ might: 3
 presence: 1
 reason: 2
 roles:
-- Elite Artillery
+  - Elite Artillery
 scc:
-- mcdm.monsters.v1:monster:rival-tactician
+  - mcdm.monsters.v1:monster:rival-tactician
 scdc:
-- 1.1.1:2:19
+  - 1.1.1:2:19
 size: 1M
 source: mcdm.monsters.v1
 speed: 5
@@ -29,77 +29,52 @@ stamina: '120'
 type: monster
 ---
 
-```ds-statblock
-name: Rival Tactician
-level: 5
-roles:
-  - Elite Artillery
-ancestry:
-  - Humanoid
-  - Rival
-ev: "28"
-stamina: "120"
-speed: 5
-size: 1M
-stability: 2
-free_strike: 7
-might: 3
-agility: 0
-reason: 2
-intuition: 0
-presence: 1
-traits:
-  - name: Rivalry
-    effects:
-      - effect: At the start of an encounter, the tactician chooses one creature within
-          their line of effect. Both the tactician and the creature can add a d3
-          roll to power rolls they make against each other.
-abilities:
-  - name: Mark Targets
-    icon: 🏹
-    cost: Signature Ability
-    keywords:
-      - Ranged
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Ranged 10
-    target: Two creatures or objects
-    effects:
-      - roll: Power Roll + 3
-        t1: 10 damage
-        t2: 15 damage
-        t3: 18 damage
-      - effect: Two allies within distance can use a signature ability against the same
-          target.
-        cost: 3 Malice
-  - name: Preserve and Protect
-    icon: 🏹
-    cost: 3 Malice
-    keywords:
-      - Ranged
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Ranged 5
-    target: One creature or object
-    effects:
-      - roll: Power Roll + 3
-        t1: 11 damage; M < 1 weakened (save ends)
-        t2: 16 damage; M < 2 weakened (save ends)
-        t3: 21 damage; M < 3 weakened (save ends)
-      - effect: One ally adjacent to the target regains 7 Stamina.
-        name: Effect
-  - name: Take the Opening
-    icon: ❗️
-    keywords:
-      - Ranged
-    type: Triggered action
-    distance: Ranged 10
-    target: The triggering enemy
-    trigger: An enemy within distance willingly moves.
-    effects:
-      - effect: At any point during the movement, the tactician and one ally within
-          distance can each make a free strike against the target.
-        name: Effect
-```
+###### Rival Tactician
+
+|   Humanoid, Rival   |          -          |       Level 5        |     Elite Artillery     |         EV 28          |
+| :-----------------: | :-----------------: | :------------------: | :---------------------: | :--------------------: |
+|  **1M**<br/> Size   |  **5**<br/> Speed   | **120**<br/> Stamina |  **2**<br/> Stability   | **7**<br/> Free Strike |
+| **-**<br/> Immunity | **-**<br/> Movement |          -           | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+|  **+3**<br/> Might  | **0**<br/> Agility  |  **+2**<br/> Reason  |  **0**<br/> Intuition   |  **+1**<br/> Presence  |
+
+> 🏹 **Mark Targets (Signature Ability)**
+>
+> | **Ranged, Strike, Weapon** |                 **Main action** |
+> | -------------------------- | ------------------------------: |
+> | **📏 Ranged 10**           | **🎯 Two creatures or objects** |
+>
+> **Power Roll + 3:**
+>
+> - **≤11:** 10 damage
+> - **12-16:** 15 damage
+> - **17+:** 18 damage
+>
+> **3 Malice:** Two allies within distance can use a signature ability against the same target.
+
+> 🏹 **Preserve and Protect (3 Malice)**
+>
+> | **Ranged, Strike, Weapon** |               **Main action** |
+> | -------------------------- | ----------------------------: |
+> | **📏 Ranged 5**            | **🎯 One creature or object** |
+>
+> **Power Roll + 3:**
+>
+> - **≤11:** 11 damage; M < 1 weakened (save ends)
+> - **12-16:** 16 damage; M < 2 weakened (save ends)
+> - **17+:** 21 damage; M < 3 weakened (save ends)
+>
+> **Effect:** One ally adjacent to the target regains 7 Stamina.
+
+> ❗️ **Take the Opening**
+>
+> | **Ranged**       |        **Triggered action** |
+> | ---------------- | --------------------------: |
+> | **📏 Ranged 10** | **🎯 The triggering enemy** |
+>
+> **Trigger:** An enemy within distance willingly moves.
+>
+> **Effect:** At any point during the movement, the tactician and one ally within distance can each make a free strike against the target.
+
+> ⭐️ **Rivalry**
+>
+> At the start of an encounter, the tactician chooses one creature within their line of effect. Both the tactician and the creature can add a d3 roll to power rolls they make against each other.

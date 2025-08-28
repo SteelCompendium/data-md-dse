@@ -1,8 +1,8 @@
 ---
 agility: 5
 ancestry:
-- Abyssal
-- Demon
+  - Abyssal
+  - Demon
 ev: 12 for four minions
 file_basename: Tyburaki
 file_dpath: Monsters/Demons/Statblocks
@@ -16,11 +16,11 @@ might: 2
 presence: -1
 reason: 0
 roles:
-- Minion Harrier
+  - Minion Harrier
 scc:
-- mcdm.monsters.v1:monster:tyburaki
+  - mcdm.monsters.v1:monster:tyburaki
 scdc:
-- 1.1.1:2:259
+  - 1.1.1:2:259
 size: '2'
 source: mcdm.monsters.v1
 speed: 8
@@ -29,54 +29,32 @@ stamina: '15'
 type: monster
 ---
 
-```ds-statblock
-name: Tyburaki
-level: 10
-roles:
-  - Minion Harrier
-ancestry:
-  - Abyssal
-  - Demon
-ev: 12 for four minions
-stamina: "15"
-weaknesses:
-  - Holy 5
-speed: 8
-movement: Swim
-size: "2"
-stability: 0
-free_strike: 4
-with_captain: +4 damage bonus to strikes
-might: 2
-agility: 5
-reason: 0
-intuition: 3
-presence: -1
-traits:
-  - name: Breacher
-    effects:
-      - effect: While swimming, the tyburaki can jump 5 squares as part of their
-          movement.
-  - name: Soulsight
-    effects:
-      - effect: Any creature within 2 squares of the tyburaki can't be hidden from them.
-abilities:
-  - name: Tail Bite
-    icon: 🗡
-    cost: Signature Ability
-    keywords:
-      - Melee
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Melee 3
-    target: One creature or object per minion
-    effects:
-      - roll: Power Roll + 5
-        t1: 4 damage
-        t2: 7 damage
-        t3: 9 damage
-      - effect: The tyburaki can make a free strike against each enemy adjacent to the
-          target.
-        name: Effect
-```
+###### Tyburaki
+
+|   Abyssal, Demon    |           -            |      Level 10       |                  Minion Harrier                  |   EV 12 for four minions   |
+| :-----------------: | :--------------------: | :-----------------: | :----------------------------------------------: | :------------------------: |
+|   **2**<br/> Size   |    **8**<br/> Speed    | **15**<br/> Stamina |               **0**<br/> Stability               |   **4**<br/> Free Strike   |
+| **-**<br/> Immunity | **Swim**<br/> Movement |          -          | **+4 damage bonus to strikes**<br/> With Captain | **Holy 5**<br/> Weaknesses |
+|  **+2**<br/> Might  |  **+5**<br/> Agility   | **+0**<br/> Reason  |              **+3**<br/> Intuition               |    **-1**<br/> Presence    |
+
+> 🗡 **Tail Bite (Signature Ability)**
+>
+> | **Melee, Strike, Weapon** |                          **Main action** |
+> | ------------------------- | ---------------------------------------: |
+> | **📏 Melee 3**            | **🎯 One creature or object per minion** |
+>
+> **Power Roll + 5:**
+>
+> - **≤11:** 4 damage
+> - **12-16:** 7 damage
+> - **17+:** 9 damage
+>
+> **Effect:** The tyburaki can make a free strike against each enemy adjacent to the target.
+
+> ⭐️ **Breacher**
+>
+> While swimming, the tyburaki can jump 5 squares as part of their movement.
+
+> ⭐️ **Soulsight**
+>
+> Any creature within 2 squares of the tyburaki can't be hidden from them.

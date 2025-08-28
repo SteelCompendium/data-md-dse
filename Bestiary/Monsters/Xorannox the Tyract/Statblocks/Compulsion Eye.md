@@ -1,9 +1,9 @@
 ---
 agility: 1
 ancestry:
-- Eyestalk
-- Horror
-- Overmind
+  - Eyestalk
+  - Horror
+  - Overmind
 ev: '-'
 file_basename: Compulsion Eye
 file_dpath: Monsters/Xorannox the Tyract/Statblocks
@@ -17,11 +17,11 @@ might: -1
 presence: -1
 reason: 4
 roles:
-- Controller
+  - Controller
 scc:
-- mcdm.monsters.v1:monster:compulsion-eye
+  - mcdm.monsters.v1:monster:compulsion-eye
 scdc:
-- 1.1.1:2:318
+  - 1.1.1:2:318
 size: 1M
 source: mcdm.monsters.v1
 speed: 5
@@ -30,50 +30,28 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
-name: Compulsion Eye
-level: 6
-roles:
-  - Controller
-ancestry:
-  - Eyestalk
-  - Horror
-  - Overmind
-ev: "-"
-stamina: "30"
-speed: 5
-movement: Fly, hover
-size: 1M
-stability: 0
-free_strike: 3
-might: -1
-agility: 1
-reason: 4
-intuition: 1
-presence: -1
-traits:
-  - name: Psionic Barrier
-    effects:
-      - effect: The compulsion eye has damage immunity 15. When they use a main action,
-          they lose this immunity until the end of the round.
-abilities:
-  - name: Compulsion Beam
-    icon: 🏹
-    cost: Signature Ability
-    keywords:
-      - Psionic
-      - Ranged
-      - Strike
-    type: Main action
-    distance: Ranged 6
-    target: One creature
-    effects:
-      - roll: Power Roll + 4
-        t1: I < 2 the target is charmed
-        t2: I < 3 the target is charmed
-        t3: I < 4 the target is charmed
-      - effect: As a free triggered action, a charmed target immediately moves up to
-          their speed and can make a free strike against an enemy of Xorannox's
-          choice. The target is then no longer charmed.
-        name: Effect
-```
+###### Compulsion Eye
+
+| Eyestalk, Horror, Overmind |              -               |       Level 6       |       Controller        |          EV -          |
+| :------------------------: | :--------------------------: | :-----------------: | :---------------------: | :--------------------: |
+|      **1M**<br/> Size      |       **5**<br/> Speed       | **30**<br/> Stamina |  **0**<br/> Stability   | **3**<br/> Free Strike |
+|    **-**<br/> Immunity     | **Fly, hover**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+|     **-1**<br/> Might      |     **+1**<br/> Agility      | **+4**<br/> Reason  |  **+1**<br/> Intuition  |  **-1**<br/> Presence  |
+
+> 🏹 **Compulsion Beam (Signature Ability)**
+>
+> | **Psionic, Ranged, Strike** |     **Main action** |
+> | --------------------------- | ------------------: |
+> | **📏 Ranged 6**             | **🎯 One creature** |
+>
+> **Power Roll + 4:**
+>
+> - **≤11:** I < 2 the target is charmed
+> - **12-16:** I < 3 the target is charmed
+> - **17+:** I < 4 the target is charmed
+>
+> **Effect:** As a free triggered action, a charmed target immediately moves up to their speed and can make a free strike against an enemy of Xorannox's choice. The target is then no longer charmed.
+
+> ⭐️ **Psionic Barrier**
+>
+> The compulsion eye has damage immunity 15. When they use a main action, they lose this immunity until the end of the round.

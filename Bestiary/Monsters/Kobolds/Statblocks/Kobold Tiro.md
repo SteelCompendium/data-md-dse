@@ -1,8 +1,8 @@
 ---
 agility: 2
 ancestry:
-- Humanoid
-- Kobold
+  - Humanoid
+  - Kobold
 ev: 3 for four minions
 file_basename: Kobold Tiro
 file_dpath: Monsters/Kobolds/Statblocks
@@ -16,11 +16,11 @@ might: 0
 presence: 0
 reason: 0
 roles:
-- Minion Defender
+  - Minion Defender
 scc:
-- mcdm.monsters.v1:monster:kobold-tiro
+  - mcdm.monsters.v1:monster:kobold-tiro
 scdc:
-- 1.1.1:2:96
+  - 1.1.1:2:96
 size: 1S
 source: mcdm.monsters.v1
 speed: 5
@@ -29,47 +29,28 @@ stamina: '5'
 type: monster
 ---
 
-```ds-statblock
-name: Kobold Tiro
-level: 1
-roles:
-  - Minion Defender
-ancestry:
-  - Humanoid
-  - Kobold
-ev: 3 for four minions
-stamina: "5"
-speed: 5
-size: 1S
-stability: 0
-free_strike: 1
-with_captain: +1 bonus to speed
-might: 0
-agility: 2
-reason: 0
-intuition: 0
-presence: 0
-traits:
-  - name: Shield? Shield!
-    effects:
-      - effect: While adjacent to an ally who also has this trait, the tiro has
-          stability 1, has cover, and grants cover to allies.
-abilities:
-  - name: Pugio
-    icon: 🗡
-    cost: Signature Ability
-    keywords:
-      - Melee
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Melee 1
-    target: One creature or object per minion
-    effects:
-      - roll: Power Roll + 2
-        t1: 1 damage
-        t2: 2 damage; the tiro can shift 1 square
-        t3: 3 damage; the tiro shifts up to 2 squares
-      - effect: The target can't shift until the start of the tiro's next turn
-        name: Effect
-```
+###### Kobold Tiro
+
+|  Humanoid, Kobold   |          -          |      Level 1       |             Minion Defender             | EV 3 for four minions  |
+| :-----------------: | :-----------------: | :----------------: | :-------------------------------------: | :--------------------: |
+|  **1S**<br/> Size   |  **5**<br/> Speed   | **5**<br/> Stamina |          **0**<br/> Stability           | **1**<br/> Free Strike |
+| **-**<br/> Immunity | **-**<br/> Movement |         -          | **+1 bonus to speed**<br/> With Captain | **-**<br/> Weaknesses  |
+|  **0**<br/> Might   | **+2**<br/> Agility | **0**<br/> Reason  |          **0**<br/> Intuition           |  **0**<br/> Presence   |
+
+> 🗡 **Pugio (Signature Ability)**
+>
+> | **Melee, Strike, Weapon** |                          **Main action** |
+> | ------------------------- | ---------------------------------------: |
+> | **📏 Melee 1**            | **🎯 One creature or object per minion** |
+>
+> **Power Roll + 2:**
+>
+> - **≤11:** 1 damage
+> - **12-16:** 2 damage; the tiro can shift 1 square
+> - **17+:** 3 damage; the tiro shifts up to 2 squares
+>
+> **Effect:** The target can't shift until the start of the tiro's next turn
+
+> ⭐️ **Shield? Shield!**
+>
+> While adjacent to an ally who also has this trait, the tiro has stability 1, has cover, and grants cover to allies.

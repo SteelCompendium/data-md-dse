@@ -1,8 +1,8 @@
 ---
 agility: 1
 ancestry:
-- Horror
-- Voiceless Talker
+  - Horror
+  - Voiceless Talker
 ev: '32'
 file_basename: Voiceless Talker Invader
 file_dpath: Monsters/Voiceless Talkers/Statblocks
@@ -16,11 +16,11 @@ might: -1
 presence: 2
 reason: 3
 roles:
-- Elite Controller
+  - Elite Controller
 scc:
-- mcdm.monsters.v1:monster:voiceless-talker-invader
+  - mcdm.monsters.v1:monster:voiceless-talker-invader
 scdc:
-- 1.1.1:2:341
+  - 1.1.1:2:341
 size: 1M
 source: mcdm.monsters.v1
 speed: 5
@@ -29,91 +29,64 @@ stamina: '140'
 type: monster
 ---
 
-```ds-statblock
-name: Voiceless Talker Invader
-level: 6
-roles:
-  - Elite Controller
-ancestry:
-  - Horror
-  - Voiceless Talker
-ev: "32"
-stamina: "140"
-immunities:
-  - Psychic 6
-speed: 5
-movement: Hover, teleport
-size: 1M
-stability: 2
-free_strike: 7
-might: -1
-agility: 1
-reason: 3
-intuition: 2
-presence: 2
-traits:
-  - name: Psionic Amplifier
-    effects:
-      - effect: Whenever a non-minion voiceless talker within 5 squares of the invader
-          uses a psionic ability, they can do so as if they were in the
-          invader's space, and the ability has a double edge.
-abilities:
-  - name: Tentacle
-    icon: 🗡
-    cost: Signature Ability
-    keywords:
-      - Melee
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Melee 2
-    target: Two creatures or objects
-    effects:
-      - roll: Power Roll + 3
-        t1: 10 damage
-        t2: 15 damage; M < 2 grabbed
-        t3: 18 damage; M < 3 grabbed
-  - name: Psionic Boom
-    icon: ❇️
-    cost: 3 Malice
-    keywords:
-      - Area
-      - Psionic
-    type: Main action
-    distance: 3 burst
-    target: Each enemy in the area
-    effects:
-      - roll: Power Roll + 3
-        t1: 6 psychic damage; R < 1 push 2
-        t2: 10 psychic damage; R < 2 push 3
-        t3: 12 psychic damage; R < 3 push 4 and prone
-      - effect: The size of the burst increases to 5.
-        cost: 2 Malice
-  - name: Tentacle Toss
-    icon: 🗡
-    keywords:
-      - Melee
-      - Psionic
-    type: Maneuver
-    distance: Melee 1
-    target: One creature
-    effects:
-      - name: Effect
-        effect: The target must be grabbed by the invader.
-      - roll: Power Roll + 3
-        t1: 6 damage; vertical slide 2
-        t2: 10 damage; vertical slide 2
-        t3: 12 damage; vertical slide 3
-  - name: Brain Drain
-    icon: ❗️
-    keywords:
-      - Melee
-      - Psionic
-    type: Triggered action
-    distance: Special
-    target: The triggering creature
-    trigger: A creature grabbed by the invader resists an ability's potency.
-    effects:
-      - effect: The potency increases by 2.
-        name: Effect
-```
+###### Voiceless Talker Invader
+
+|  Horror, Voiceless Talker   |                 -                 |       Level 6        |    Elite Controller     |         EV 32          |
+| :-------------------------: | :-------------------------------: | :------------------: | :---------------------: | :--------------------: |
+|      **1M**<br/> Size       |         **5**<br/> Speed          | **140**<br/> Stamina |  **2**<br/> Stability   | **7**<br/> Free Strike |
+| **Psychic 6**<br/> Immunity | **Hover, teleport**<br/> Movement |          -           | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+|      **-1**<br/> Might      |        **+1**<br/> Agility        |  **+3**<br/> Reason  |  **+2**<br/> Intuition  |  **+2**<br/> Presence  |
+
+> 🗡 **Tentacle (Signature Ability)**
+>
+> | **Melee, Strike, Weapon** |                 **Main action** |
+> | ------------------------- | ------------------------------: |
+> | **📏 Melee 2**            | **🎯 Two creatures or objects** |
+>
+> **Power Roll + 3:**
+>
+> - **≤11:** 10 damage
+> - **12-16:** 15 damage; M < 2 grabbed
+> - **17+:** 18 damage; M < 3 grabbed
+
+> ❇️ **Psionic Boom (3 Malice)**
+>
+> | **Area, Psionic** |               **Main action** |
+> | ----------------- | ----------------------------: |
+> | **📏 3 burst**    | **🎯 Each enemy in the area** |
+>
+> **Power Roll + 3:**
+>
+> - **≤11:** 6 psychic damage; R < 1 push 2
+> - **12-16:** 10 psychic damage; R < 2 push 3
+> - **17+:** 12 psychic damage; R < 3 push 4 and prone
+>
+> **2 Malice:** The size of the burst increases to 5.
+
+> 🗡 **Tentacle Toss**
+>
+> | **Melee, Psionic** |        **Maneuver** |
+> | ------------------ | ------------------: |
+> | **📏 Melee 1**     | **🎯 One creature** |
+>
+> **Effect:** The target must be grabbed by the invader.
+>
+> **Power Roll + 3:**
+>
+> - **≤11:** 6 damage; vertical slide 2
+> - **12-16:** 10 damage; vertical slide 2
+> - **17+:** 12 damage; vertical slide 3
+
+> ❗️ **Brain Drain**
+>
+> | **Melee, Psionic** |           **Triggered action** |
+> | ------------------ | -----------------------------: |
+> | **📏 Special**     | **🎯 The triggering creature** |
+>
+> **Trigger:** A creature grabbed by the invader resists an ability's potency.
+>
+> **Effect:** The potency increases by 2.
+
+> ⭐️ **Psionic Amplifier**
+>
+> Whenever a non-minion voiceless talker within 5 squares of the invader uses a psionic ability, they can do so as if they were in the invader's space, and the ability has a double edge.

@@ -1,8 +1,8 @@
 ---
 agility: 5
 ancestry:
-- Abyssal
-- Demon
+  - Abyssal
+  - Demon
 ev: 12 for four minions
 file_basename: Unguloid
 file_dpath: Monsters/Demons/Statblocks
@@ -16,11 +16,11 @@ might: 5
 presence: -1
 reason: -1
 roles:
-- Minion Brute
+  - Minion Brute
 scc:
-- mcdm.monsters.v1:monster:unguloid
+  - mcdm.monsters.v1:monster:unguloid
 scdc:
-- 1.1.1:2:254
+  - 1.1.1:2:254
 size: '2'
 source: mcdm.monsters.v1
 speed: 8
@@ -29,50 +29,28 @@ stamina: '17'
 type: monster
 ---
 
-```ds-statblock
-name: Unguloid
-level: 10
-roles:
-  - Minion Brute
-ancestry:
-  - Abyssal
-  - Demon
-ev: 12 for four minions
-stamina: "17"
-weaknesses:
-  - Holy 5
-speed: 8
-size: "2"
-stability: 3
-free_strike: 5
-with_captain: Have a double edge on strikes
-might: 5
-agility: 5
-reason: -1
-intuition: -1
-presence: -1
-traits:
-  - name: Soulsight
-    effects:
-      - effect: Any creature within 2 squares of the unguloid can't be hidden from them.
-abilities:
-  - name: Gore Horn
-    icon: 🗡
-    cost: Signature Ability
-    keywords:
-      - Charge
-      - Melee
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Melee 1
-    target: One creature or object per minion
-    effects:
-      - roll: Power Roll + 5
-        t1: 5 damage; push 2
-        t2: 8 damage; push 4
-        t3: 10 damage; push 6
-      - effect: If this ability is used as part of a charge for which the unguloid moves
-          2 squares or more, it deals an extra 10 damage.
-        name: Effect
-```
+###### Unguloid
+
+|   Abyssal, Demon    |          -          |      Level 10       |                    Minion Brute                     |   EV 12 for four minions   |
+| :-----------------: | :-----------------: | :-----------------: | :-------------------------------------------------: | :------------------------: |
+|   **2**<br/> Size   |  **8**<br/> Speed   | **17**<br/> Stamina |                **3**<br/> Stability                 |   **5**<br/> Free Strike   |
+| **-**<br/> Immunity | **-**<br/> Movement |          -          | **Have a double edge on strikes**<br/> With Captain | **Holy 5**<br/> Weaknesses |
+|  **+5**<br/> Might  | **+5**<br/> Agility | **-1**<br/> Reason  |                **-1**<br/> Intuition                |    **-1**<br/> Presence    |
+
+> 🗡 **Gore Horn (Signature Ability)**
+>
+> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
+> | --------------------------------- | ---------------------------------------: |
+> | **📏 Melee 1**                    | **🎯 One creature or object per minion** |
+>
+> **Power Roll + 5:**
+>
+> - **≤11:** 5 damage; push 2
+> - **12-16:** 8 damage; push 4
+> - **17+:** 10 damage; push 6
+>
+> **Effect:** If this ability is used as part of a charge for which the unguloid moves 2 squares or more, it deals an extra 10 damage.
+
+> ⭐️ **Soulsight**
+>
+> Any creature within 2 squares of the unguloid can't be hidden from them.

@@ -1,9 +1,9 @@
 ---
 agility: 2
 ancestry:
-- Fey
-- High Elf
-- Humanoid
+  - Fey
+  - High Elf
+  - Humanoid
 ev: 3 for four minions
 file_basename: High Elf Quiver
 file_dpath: Monsters/Elves High/Statblocks
@@ -17,11 +17,11 @@ might: 0
 presence: 0
 reason: 1
 roles:
-- Minion Artillery
+  - Minion Artillery
 scc:
-- mcdm.monsters.v1:monster:high-elf-quiver
+  - mcdm.monsters.v1:monster:high-elf-quiver
 scdc:
-- 1.1.1:2:108
+  - 1.1.1:2:108
 size: 1M
 source: mcdm.monsters.v1
 speed: 5
@@ -30,49 +30,28 @@ stamina: '3'
 type: monster
 ---
 
-```ds-statblock
-name: High Elf Quiver
-level: 1
-roles:
-  - Minion Artillery
-ancestry:
-  - Fey
-  - High Elf
-  - Humanoid
-ev: 3 for four minions
-stamina: "3"
-speed: 5
-size: 1M
-stability: 0
-free_strike: 2
-with_captain: +5 bonus to ranged distance
-might: 0
-agility: 2
-reason: 1
-intuition: 0
-presence: 0
-traits:
-  - name: Otherworldly Grace
-    effects:
-      - effect: At the start of each of their turns, the quiver can choose one effect on
-          them that can be ended by a saving throw. That effect instead ends at
-          the end of their turn.
-abilities:
-  - name: Heavy Arrow
-    icon: 🏹
-    cost: Signature Ability
-    keywords:
-      - Ranged
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Ranged 10
-    target: One creature or object per minion
-    effects:
-      - roll: Power Roll + 2
-        t1: 2 damage
-        t2: 4 damage
-        t3: 5 damage
-      - effect: Each ally adjacent to the target shifts up to 2 squares
-        name: Effect
-```
+###### High Elf Quiver
+
+| Fey, High Elf, Humanoid |          -          |      Level 1       |                 Minion Artillery                  | EV 3 for four minions  |
+| :---------------------: | :-----------------: | :----------------: | :-----------------------------------------------: | :--------------------: |
+|    **1M**<br/> Size     |  **5**<br/> Speed   | **3**<br/> Stamina |               **0**<br/> Stability                | **2**<br/> Free Strike |
+|   **-**<br/> Immunity   | **-**<br/> Movement |         -          | **+5 bonus to ranged distance**<br/> With Captain | **-**<br/> Weaknesses  |
+|    **0**<br/> Might     | **+2**<br/> Agility | **+1**<br/> Reason |               **0**<br/> Intuition                |  **0**<br/> Presence   |
+
+> 🏹 **Heavy Arrow (Signature Ability)**
+>
+> | **Ranged, Strike, Weapon** |                          **Main action** |
+> | -------------------------- | ---------------------------------------: |
+> | **📏 Ranged 10**           | **🎯 One creature or object per minion** |
+>
+> **Power Roll + 2:**
+>
+> - **≤11:** 2 damage
+> - **12-16:** 4 damage
+> - **17+:** 5 damage
+>
+> **Effect:** Each ally adjacent to the target shifts up to 2 squares
+
+> ⭐️ **Otherworldly Grace**
+>
+> At the start of each of their turns, the quiver can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn.

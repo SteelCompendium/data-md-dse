@@ -1,8 +1,8 @@
 ---
 agility: 1
 ancestry:
-- Giant
-- Stone Giant
+  - Giant
+  - Stone Giant
 ev: '40'
 file_basename: Granite Stone Giant
 file_dpath: Monsters/Giants/Statblocks
@@ -16,11 +16,11 @@ might: 4
 presence: 1
 reason: 1
 roles:
-- Elite Defender
+  - Elite Defender
 scc:
-- mcdm.monsters.v1:monster:granite-stone-giant
+  - mcdm.monsters.v1:monster:granite-stone-giant
 scdc:
-- 1.1.1:2:204
+  - 1.1.1:2:204
 size: '4'
 source: mcdm.monsters.v1
 speed: 7
@@ -29,96 +29,68 @@ stamina: '247'
 type: monster
 ---
 
-```ds-statblock
-name: Granite Stone Giant
-level: 8
-roles:
-  - Elite Defender
-ancestry:
-  - Giant
-  - Stone Giant
-ev: "40"
-stamina: "247"
-speed: 7
-movement: Burrow
-size: "4"
-stability: 10
-free_strike: 8
-might: 4
-agility: 1
-reason: 1
-intuition: 2
-presence: 1
-traits:
-  - name: Stonebreaker Flesh
-    effects:
-      - effect: Whenever an enemy obtains a tier 1 outcome on a melee ability used
-          against the granite stone giant, they take a bane on that ability
-          until the end of the encounter.
-  - name: Stone Steps
-    effects:
-      - effect: The granite stone giant ignores difficult terrain.
-  - name: Stone Swim
-    effects:
-      - effect: The granite stone giant can burrow through stone, but can't drag other
-          creatures underground when they do so.
-abilities:
-  - name: Jagged Stone Club
-    icon: 🗡
-    cost: Signature Ability
-    keywords:
-      - Melee
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Melee 3
-    target: Two creatures or objects
-    effects:
-      - roll: Power Roll + 4
-        t1: 12 damage
-        t2: 17 damage; R < 3 weakened (save ends)
-        t3: 21 damage; R < 4 weakened (save ends)
-      - effect: If the target is already weakened, they are also bleeding (save ends).
-        name: Effect
-  - name: Crag Burst
-    icon: ❇️
-    cost: 3 Malice
-    keywords:
-      - Area
-    type: Main action
-    distance: 2 burst
-    target: Each enemy and object in the area
-    effects:
-      - roll: Power Roll + 4
-        t1: 6 damage; push 2
-        t2: 10 damage; push 4
-        t3: 14 damage; vertical push 4
-      - effect: The area is difficult terrain. Whenever a creature enters square in the
-          area, they take 3 damage.
-        name: Effect
-  - name: Castle Stone Shape
-    icon: 👤
-    keywords:
-      - "-"
-    type: Maneuver
-    distance: Self
-    target: Self
-    effects:
-      - effect: The granite stone giant moves up to their speed and creates a 14 wall of
-          stone in squares adjacent to the path of their movement.
-        name: Effect
-  - name: Pillar
-    icon: ❗️
-    keywords:
-      - Melee
-    type: Triggered action
-    distance: Melee 3
-    target: The triggering creature or object
-    trigger: A creature or object within distance moves or shifts away from the
-      granite stone giant.
-    effects:
-      - effect: A 1-square pillar of stone rises 5 squares out of the ground beneath the
-          target, who moves with the ground to its new elevation, then is
-          vertical pushed 5 squares.
-        name: Effect
-```
+###### Granite Stone Giant
+
+| Giant, Stone Giant  |            -             |       Level 8        |     Elite Defender      |         EV 40          |
+| :-----------------: | :----------------------: | :------------------: | :---------------------: | :--------------------: |
+|   **4**<br/> Size   |     **7**<br/> Speed     | **247**<br/> Stamina |  **10**<br/> Stability  | **8**<br/> Free Strike |
+| **-**<br/> Immunity | **Burrow**<br/> Movement |          -           | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+|  **+4**<br/> Might  |   **+1**<br/> Agility    |  **+1**<br/> Reason  |  **+2**<br/> Intuition  |  **+1**<br/> Presence  |
+
+> 🗡 **Jagged Stone Club (Signature Ability)**
+>
+> | **Melee, Strike, Weapon** |                 **Main action** |
+> | ------------------------- | ------------------------------: |
+> | **📏 Melee 3**            | **🎯 Two creatures or objects** |
+>
+> **Power Roll + 4:**
+>
+> - **≤11:** 12 damage
+> - **12-16:** 17 damage; R < 3 weakened (save ends)
+> - **17+:** 21 damage; R < 4 weakened (save ends)
+>
+> **Effect:** If the target is already weakened, they are also bleeding (save ends).
+
+> ❇️ **Crag Burst (3 Malice)**
+>
+> | **Area**       |                          **Main action** |
+> | -------------- | ---------------------------------------: |
+> | **📏 2 burst** | **🎯 Each enemy and object in the area** |
+>
+> **Power Roll + 4:**
+>
+> - **≤11:** 6 damage; push 2
+> - **12-16:** 10 damage; push 4
+> - **17+:** 14 damage; vertical push 4
+>
+> **Effect:** The area is difficult terrain. Whenever a creature enters square in the area, they take 3 damage.
+
+> 👤 **Castle Stone Shape**
+>
+> | **-**       | **Maneuver** |
+> | ----------- | -----------: |
+> | **📏 Self** |  **🎯 Self** |
+>
+> **Effect:** The granite stone giant moves up to their speed and creates a 14 wall of stone in squares adjacent to the path of their movement.
+
+> ❗️ **Pillar**
+>
+> | **Melee**      |                     **Triggered action** |
+> | -------------- | ---------------------------------------: |
+> | **📏 Melee 3** | **🎯 The triggering creature or object** |
+>
+> **Trigger:** A creature or object within distance moves or shifts away from the granite stone giant.
+>
+> **Effect:** A 1-square pillar of stone rises 5 squares out of the ground beneath the target, who moves with the ground to its new elevation, then is vertical pushed 5 squares.
+
+> ⭐️ **Stonebreaker Flesh**
+>
+> Whenever an enemy obtains a tier 1 outcome on a melee ability used against the granite stone giant, they take a bane on that ability until the end of the encounter.
+
+> ⭐️ **Stone Steps**
+>
+> The granite stone giant ignores difficult terrain.
+
+> ⭐️ **Stone Swim**
+>
+> The granite stone giant can burrow through stone, but can't drag other creatures underground when they do so.

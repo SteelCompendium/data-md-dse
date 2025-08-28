@@ -1,9 +1,9 @@
 ---
 agility: 3
 ancestry:
-- Fey
-- Humanoid
-- Shadow Elf
+  - Fey
+  - Humanoid
+  - Shadow Elf
 ev: '16'
 file_basename: Shadow Elf Mournblade
 file_dpath: Monsters/Elves Shadow/Statblocks
@@ -17,11 +17,11 @@ might: 2
 presence: 0
 reason: 1
 roles:
-- Platoon Ambusher
+  - Platoon Ambusher
 scc:
-- mcdm.monsters.v1:monster:shadow-elf-mournblade
+  - mcdm.monsters.v1:monster:shadow-elf-mournblade
 scdc:
-- 1.1.1:2:222
+  - 1.1.1:2:222
 size: 1M
 source: mcdm.monsters.v1
 speed: 5
@@ -30,61 +30,36 @@ stamina: '80'
 type: monster
 ---
 
-```ds-statblock
-name: Shadow Elf Mournblade
-level: 6
-roles:
-  - Platoon Ambusher
-ancestry:
-  - Fey
-  - Humanoid
-  - Shadow Elf
-ev: "16"
-stamina: "80"
-speed: 5
-movement: Climb
-size: 1M
-stability: 0
-free_strike: 7
-might: 2
-agility: 3
-reason: 1
-intuition: 2
-presence: 0
-traits:
-  - name: Of the Umbra
-    effects:
-      - effect: The mournblade ignores concealment created by darkness. While the
-          mournblade is in direct sunlight, they have damage weakness 3. While
-          the mournblade has concealment, they have damage immunity 3.
-abilities:
-  - name: Knife in the Dark
-    icon: 🗡
-    cost: Signature Ability
-    keywords:
-      - Melee
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Melee 1
-    target: One creature or object
-    effects:
-      - roll: Power Roll + 3
-        t1: 10 damage
-        t2: 15 damage
-        t3: 18 damage
-      - effect: The mournblade is invisible to the target until the start of the
-          mournblade's next turn.
-        name: Effect
-  - name: Shadow Step
-    icon: 👤
-    keywords:
-      - Magic
-    type: Maneuver
-    distance: Self
-    target: Self
-    effects:
-      - effect: If the mournblade has concealment, they can teleport up to 10 squares to
-          a space with concealment created by darkness.
-        name: Effect
-```
+###### Shadow Elf Mournblade
+
+| Fey, Humanoid, Shadow Elf |            -            |       Level 6       |    Platoon Ambusher     |         EV 16          |
+| :-----------------------: | :---------------------: | :-----------------: | :---------------------: | :--------------------: |
+|     **1M**<br/> Size      |    **5**<br/> Speed     | **80**<br/> Stamina |  **0**<br/> Stability   | **7**<br/> Free Strike |
+|    **-**<br/> Immunity    | **Climb**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+|     **+2**<br/> Might     |   **+3**<br/> Agility   | **+1**<br/> Reason  |  **+2**<br/> Intuition  |  **0**<br/> Presence   |
+
+> 🗡 **Knife in the Dark (Signature Ability)**
+>
+> | **Melee, Strike, Weapon** |               **Main action** |
+> | ------------------------- | ----------------------------: |
+> | **📏 Melee 1**            | **🎯 One creature or object** |
+>
+> **Power Roll + 3:**
+>
+> - **≤11:** 10 damage
+> - **12-16:** 15 damage
+> - **17+:** 18 damage
+>
+> **Effect:** The mournblade is invisible to the target until the start of the mournblade's next turn.
+
+> 👤 **Shadow Step**
+>
+> | **Magic**   | **Maneuver** |
+> | ----------- | -----------: |
+> | **📏 Self** |  **🎯 Self** |
+>
+> **Effect:** If the mournblade has concealment, they can teleport up to 10 squares to a space with concealment created by darkness.
+
+> ⭐️ **Of the Umbra**
+>
+> The mournblade ignores concealment created by darkness. While the mournblade is in direct sunlight, they have damage weakness 3. While the mournblade has concealment, they have damage immunity 3.

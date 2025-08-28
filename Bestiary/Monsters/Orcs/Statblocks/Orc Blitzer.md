@@ -1,8 +1,8 @@
 ---
 agility: 2
 ancestry:
-- Humanoid
-- Orc
+  - Humanoid
+  - Orc
 ev: 3 for four minions
 file_basename: Orc Blitzer
 file_dpath: Monsters/Orcs/Statblocks
@@ -16,11 +16,11 @@ might: 1
 presence: 0
 reason: 0
 roles:
-- Minion Harrier
+  - Minion Harrier
 scc:
-- mcdm.monsters.v1:monster:orc-blitzer
+  - mcdm.monsters.v1:monster:orc-blitzer
 scdc:
-- 1.1.1:2:133
+  - 1.1.1:2:133
 size: 1M
 source: mcdm.monsters.v1
 speed: 7
@@ -29,48 +29,28 @@ stamina: '4'
 type: monster
 ---
 
-```ds-statblock
-name: Orc Blitzer
-level: 1
-roles:
-  - Minion Harrier
-ancestry:
-  - Humanoid
-  - Orc
-ev: 3 for four minions
-stamina: "4"
-speed: 7
-size: 1M
-stability: 0
-free_strike: 1
-with_captain: +2 bonus to speed
-might: 1
-agility: 2
-reason: 0
-intuition: 0
-presence: 0
-traits:
-  - name: Bloodfire Bur
-    effects:
-      - effect: If the blitzer is reduced to 0 Stamina, they can make a free strike
-          before dying.
-abilities:
-  - name: Lugged Spear
-    icon: 🗡
-    cost: Signature Ability
-    keywords:
-      - Melee
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Melee 1
-    target: One creature or object per minion
-    effects:
-      - roll: Power Roll + 2
-        t1: 1 damage
-        t2: 2 damage
-        t3: 3 damage
-      - effect: A target who starts their next turn adjacent to three or more blitzers
-          takes 3 damage.
-        name: Effect
-```
+###### Orc Blitzer
+
+|    Humanoid, Orc    |          -          |      Level 1       |             Minion Harrier              | EV 3 for four minions  |
+| :-----------------: | :-----------------: | :----------------: | :-------------------------------------: | :--------------------: |
+|  **1M**<br/> Size   |  **7**<br/> Speed   | **4**<br/> Stamina |          **0**<br/> Stability           | **1**<br/> Free Strike |
+| **-**<br/> Immunity | **-**<br/> Movement |         -          | **+2 bonus to speed**<br/> With Captain | **-**<br/> Weaknesses  |
+|  **+1**<br/> Might  | **+2**<br/> Agility | **0**<br/> Reason  |          **0**<br/> Intuition           |  **0**<br/> Presence   |
+
+> 🗡 **Lugged Spear (Signature Ability)**
+>
+> | **Melee, Strike, Weapon** |                          **Main action** |
+> | ------------------------- | ---------------------------------------: |
+> | **📏 Melee 1**            | **🎯 One creature or object per minion** |
+>
+> **Power Roll + 2:**
+>
+> - **≤11:** 1 damage
+> - **12-16:** 2 damage
+> - **17+:** 3 damage
+>
+> **Effect:** A target who starts their next turn adjacent to three or more blitzers takes 3 damage.
+
+> ⭐️ **Bloodfire Bur**
+>
+> If the blitzer is reduced to 0 Stamina, they can make a free strike before dying.

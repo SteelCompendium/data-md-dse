@@ -1,8 +1,8 @@
 ---
 agility: 2
 ancestry:
-- Humanoid
-- Time Raider
+  - Humanoid
+  - Time Raider
 ev: '10'
 file_basename: Time Raider Armiger
 file_dpath: Monsters/Time Raiders/Statblocks
@@ -16,11 +16,11 @@ might: 0
 presence: 0
 reason: 2
 roles:
-- Platoon Defender
+  - Platoon Defender
 scc:
-- mcdm.monsters.v1:monster:time-raider-armiger
+  - mcdm.monsters.v1:monster:time-raider-armiger
 scdc:
-- 1.1.1:2:141
+  - 1.1.1:2:141
 size: 1M
 source: mcdm.monsters.v1
 speed: 5
@@ -29,68 +29,46 @@ stamina: '60'
 type: monster
 ---
 
-```ds-statblock
-name: Time Raider Armiger
-level: 3
-roles:
-  - Platoon Defender
-ancestry:
-  - Humanoid
-  - Time Raider
-ev: "10"
-stamina: "60"
-immunities:
-  - Psychic 3
-speed: 5
-size: 1M
-stability: 0
-free_strike: 5
-might: 0
-agility: 2
-reason: 2
-intuition: 2
-presence: 0
-traits:
-  - name: Foresight
-    effects:
-      - effect: The armiger doesn't take a bane on strikes against creatures with
-          concealment.
-  - name: Kuran'zoi Heraldry
-    effects:
-      - effect: Any time raider who starts their turn with line of effect to the armiger
-          can end one condition affecting the.
-abilities:
-  - name: Serrated Saber
-    icon: 🗡
-    cost: Signature Ability
-    keywords:
-      - Melee
-      - Psionic
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Melee 1
-    target: One creature or object
-    effects:
-      - roll: Power Roll + 2
-        t1: 7 damage
-        t2: 10 damage
-        t3: 13 damage; R < 2 weakened (save ends)
-      - effect: A creature weakened this way is also bleeding.
-        cost: 2 Malice
-  - name: Shared Sickness
-    icon: ❗️
-    keywords:
-      - Psionic
-      - Ranged
-    type: Triggered action
-    distance: Ranged 20
-    target: The triggering creature
-    trigger: A creature deals damage to any ally of the armiger who the armiger has
-      line of effect to
-    effects:
-      - roll: Power Roll + 2
-        t1: 4 psychic damage; R < 0 5 poison damage
-        t2: 6 psychic damage; R < 1 5 poison damage
-        t3: 9 psychic damage; R < 2 5 poison damage
-```
+###### Time Raider Armiger
+
+|    Humanoid, Time Raider    |          -          |       Level 3       |    Platoon Defender     |         EV 10          |
+| :-------------------------: | :-----------------: | :-----------------: | :---------------------: | :--------------------: |
+|      **1M**<br/> Size       |  **5**<br/> Speed   | **60**<br/> Stamina |  **0**<br/> Stability   | **5**<br/> Free Strike |
+| **Psychic 3**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+|      **0**<br/> Might       | **+2**<br/> Agility | **+2**<br/> Reason  |  **+2**<br/> Intuition  |  **0**<br/> Presence   |
+
+> 🗡 **Serrated Saber (Signature Ability)**
+>
+> | **Melee, Psionic, Strike, Weapon** |               **Main action** |
+> | ---------------------------------- | ----------------------------: |
+> | **📏 Melee 1**                     | **🎯 One creature or object** |
+>
+> **Power Roll + 2:**
+>
+> - **≤11:** 7 damage
+> - **12-16:** 10 damage
+> - **17+:** 13 damage; R < 2 weakened (save ends)
+>
+> **2 Malice:** A creature weakened this way is also bleeding.
+
+> ❗️ **Shared Sickness**
+>
+> | **Psionic, Ranged** |           **Triggered action** |
+> | ------------------- | -----------------------------: |
+> | **📏 Ranged 20**    | **🎯 The triggering creature** |
+>
+> **Trigger:** A creature deals damage to any ally of the armiger who the armiger has line of effect to
+>
+> **Power Roll + 2:**
+>
+> - **≤11:** 4 psychic damage; R < 0 5 poison damage
+> - **12-16:** 6 psychic damage; R < 1 5 poison damage
+> - **17+:** 9 psychic damage; R < 2 5 poison damage
+
+> ⭐️ **Foresight**
+>
+> The armiger doesn't take a bane on strikes against creatures with concealment.
+
+> ⭐️ **Kuran'zoi Heraldry**
+>
+> Any time raider who starts their turn with line of effect to the armiger can end one condition affecting the.

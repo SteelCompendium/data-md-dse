@@ -1,7 +1,7 @@
 ---
 agility: 1
 ancestry:
-- Animal
+  - Animal
 ev: '16'
 file_basename: Predator B
 file_dpath: Monsters/Animals/Statblocks
@@ -15,11 +15,11 @@ might: 2
 presence: 0
 reason: -1
 roles:
-- Elite Brute
+  - Elite Brute
 scc:
-- mcdm.monsters.v1:monster:predator-b
+  - mcdm.monsters.v1:monster:predator-b
 scdc:
-- 1.1.1:2:248
+  - 1.1.1:2:248
 size: '3'
 source: mcdm.monsters.v1
 speed: 5
@@ -28,73 +28,50 @@ stamina: '100'
 type: monster
 ---
 
-```ds-statblock
-name: Predator B
-level: 3
-roles:
-  - Elite Brute
-ancestry:
-  - Animal
-ev: "16"
-stamina: "100"
-speed: 5
-size: "3"
-stability: 2
-free_strike: 5
-might: 2
-agility: 1
-reason: -1
-intuition: 1
-presence: 0
-traits:
-  - name: Trample
-    effects:
-      - effect: The predator can move through enemies' and objects' spaces at their
-          usual speed. Any mundane size 2 or smaller object whose space they
-          move through is destroyed. When the predator enters a creature's space
-          for the first time on a turn, that creature takes 3 damage.
-  - name: Nature's Spirit
-    effects:
-      - effect: While outdoors or in a natural environment, the predator can negate a
-          bane on their abilities or turn a double bane into a bane.
-abilities:
-  - name: Natural Weapon
-    icon: 🗡
-    cost: Signature Ability
-    keywords:
-      - Melee
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Melee 2
-    target: Two creatures or objects
-    effects:
-      - roll: Power Roll + 2
-        t1: 7 damage
-        t2: 11 damage; push 1; M < 1 prone
-        t3: 14 damage; push 2; M < 1 prone
-  - name: Wild Swing
-    icon: ❇️
-    keywords:
-      - Area
-      - Weapon
-    type: Main action
-    distance: 1 burst
-    target: Each enemy or object in the area
-    effects:
-      - cost: ≤11
-        effect: 3 damage
-        t2: 6 damage
-        t3: 8 damage; A < 2 bleeding (save ends)
-  - name: Swat
-    icon: ❗️
-    keywords:
-      - Melee
-    type: Triggered action
-    distance: Melee 1
-    target: The triggering creature or object
-    trigger: A creature or object within distance deals damage to the predator.
-    effects:
-      - effect: The target is pushed up to 5 squares.
-        name: Effect
-```
+###### Predator B
+
+|       Animal        |          -          |       Level 3        |       Elite Brute       |         EV 16          |
+| :-----------------: | :-----------------: | :------------------: | :---------------------: | :--------------------: |
+|   **3**<br/> Size   |  **5**<br/> Speed   | **100**<br/> Stamina |  **2**<br/> Stability   | **5**<br/> Free Strike |
+| **-**<br/> Immunity | **-**<br/> Movement |          -           | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+|  **+2**<br/> Might  | **+1**<br/> Agility |  **-1**<br/> Reason  |  **+1**<br/> Intuition  |  **+0**<br/> Presence  |
+
+> 🗡 **Natural Weapon (Signature Ability)**
+>
+> | **Melee, Strike, Weapon** |                 **Main action** |
+> | ------------------------- | ------------------------------: |
+> | **📏 Melee 2**            | **🎯 Two creatures or objects** |
+>
+> **Power Roll + 2:**
+>
+> - **≤11:** 7 damage
+> - **12-16:** 11 damage; push 1; M < 1 prone
+> - **17+:** 14 damage; push 2; M < 1 prone
+
+> ❇️ **Wild Swing**
+>
+> | **Area, Weapon** |                         **Main action** |
+> | ---------------- | --------------------------------------: |
+> | **📏 1 burst**   | **🎯 Each enemy or object in the area** |
+>
+> - **≤11:** 3 damage
+> - **12-16:** 6 damage
+> - **17+:** 8 damage; A < 2 bleeding (save ends)
+
+> ❗️ **Swat**
+>
+> | **Melee**      |                     **Triggered action** |
+> | -------------- | ---------------------------------------: |
+> | **📏 Melee 1** | **🎯 The triggering creature or object** |
+>
+> **Trigger:** A creature or object within distance deals damage to the predator.
+>
+> **Effect:** The target is pushed up to 5 squares.
+
+> ⭐️ **Trample**
+>
+> The predator can move through enemies' and objects' spaces at their usual speed. Any mundane size 2 or smaller object whose space they move through is destroyed. When the predator enters a creature's space for the first time on a turn, that creature takes 3 damage.
+
+> ⭐️ **Nature's Spirit**
+>
+> While outdoors or in a natural environment, the predator can negate a bane on their abilities or turn a double bane into a bane.

@@ -1,9 +1,9 @@
 ---
 agility: 1
 ancestry:
-- Fey
-- Humanoid
-- Wode Elf
+  - Fey
+  - Humanoid
+  - Wode Elf
 ev: '6'
 file_basename: Wode Elf Green Seer
 file_dpath: Monsters/Elves Wode/Statblocks
@@ -17,11 +17,11 @@ might: 0
 presence: 1
 reason: 0
 roles:
-- Platoon Hexer
+  - Platoon Hexer
 scc:
-- mcdm.monsters.v1:monster:wode-elf-green-seer
+  - mcdm.monsters.v1:monster:wode-elf-green-seer
 scdc:
-- 1.1.1:2:223
+  - 1.1.1:2:223
 size: 1M
 source: mcdm.monsters.v1
 speed: 7
@@ -30,78 +30,52 @@ stamina: '20'
 type: monster
 ---
 
-```ds-statblock
-name: Wode Elf Green Seer
-level: 1
-roles:
-  - Platoon Hexer
-ancestry:
-  - Fey
-  - Humanoid
-  - Wode Elf
-ev: "6"
-stamina: "20"
-speed: 7
-size: 1M
-stability: 0
-free_strike: 3
-might: 0
-agility: 1
-reason: 0
-intuition: 2
-presence: 1
-traits:
-  - name: Masking Glamor
-    effects:
-      - effect: Abilities targeting the green seer that would take a bane from cover or
-          concealment have a double bane instead.
-abilities:
-  - name: The Forest's Embrace
-    icon: 🏹
-    cost: Signature Ability
-    keywords:
-      - Magic
-      - Ranged
-      - Strike
-    type: Main action
-    distance: Ranged 10
-    target: One creature or object
-    effects:
-      - roll: Power Roll + 2
-        t1: 5 damage
-        t2: 7 damage; I < 1 restrained (save ends)
-        t3: 9 damage; I < 2 restrained (save ends)
-      - effect: While restrained this way, a target can't search for hidden creatures.
-        name: Effect
-  - name: The Natural Cycle
-    icon: 🏹
-    cost: 3 Malice
-    keywords:
-      - Magic
-      - Ranged
-      - Strike
-    type: Maneuver
-    distance: Ranged 10
-    target: Two creatures
-    effects:
-      - roll: Power Roll + 2
-        t1: 2 damage
-        t2: 4 damage; P < 1 weakened (save ends)
-        t3: 6 damage; P < 1 bleeding (save ends); the target has a double bane on
-          strikes (save ends)
-      - effect: While bleeding or weakened this way, a target is covered in lichen.
-        name: Effect
-  - name: Foreseen Punishment
-    icon: ❗️
-    keywords:
-      - Ranged
-    type: Free triggered action
-    distance: Ranged 5
-    target: The triggering creature
-    trigger: A creature uses a triggered action targeting the green seer or an ally
-      within distance.
-    effects:
-      - effect: The green seer makes a free strike against the target after the target's
-          triggered action is resolved.
-        name: Effect
-```
+###### Wode Elf Green Seer
+
+| Fey, Humanoid, Wode Elf |          -          |       Level 1       |      Platoon Hexer      |          EV 6          |
+| :---------------------: | :-----------------: | :-----------------: | :---------------------: | :--------------------: |
+|    **1M**<br/> Size     |  **7**<br/> Speed   | **20**<br/> Stamina |  **0**<br/> Stability   | **3**<br/> Free Strike |
+|   **-**<br/> Immunity   | **-**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+|    **0**<br/> Might     | **+1**<br/> Agility |  **0**<br/> Reason  |  **+2**<br/> Intuition  |  **+1**<br/> Presence  |
+
+> 🏹 **The Forest's Embrace (Signature Ability)**
+>
+> | **Magic, Ranged, Strike** |               **Main action** |
+> | ------------------------- | ----------------------------: |
+> | **📏 Ranged 10**          | **🎯 One creature or object** |
+>
+> **Power Roll + 2:**
+>
+> - **≤11:** 5 damage
+> - **12-16:** 7 damage; I < 1 restrained (save ends)
+> - **17+:** 9 damage; I < 2 restrained (save ends)
+>
+> **Effect:** While restrained this way, a target can't search for hidden creatures.
+
+> 🏹 **The Natural Cycle (3 Malice)**
+>
+> | **Magic, Ranged, Strike** |         **Maneuver** |
+> | ------------------------- | -------------------: |
+> | **📏 Ranged 10**          | **🎯 Two creatures** |
+>
+> **Power Roll + 2:**
+>
+> - **≤11:** 2 damage
+> - **12-16:** 4 damage; P < 1 weakened (save ends)
+> - **17+:** 6 damage; P < 1 bleeding (save ends); the target has a double bane on strikes (save ends)
+>
+> **Effect:** While bleeding or weakened this way, a target is covered in lichen.
+
+> ❗️ **Foreseen Punishment**
+>
+> | **Ranged**      |      **Free triggered action** |
+> | --------------- | -----------------------------: |
+> | **📏 Ranged 5** | **🎯 The triggering creature** |
+>
+> **Trigger:** A creature uses a triggered action targeting the green seer or an ally within distance.
+>
+> **Effect:** The green seer makes a free strike against the target after the target's triggered action is resolved.
+
+> ⭐️ **Masking Glamor**
+>
+> Abilities targeting the green seer that would take a bane from cover or concealment have a double bane instead.

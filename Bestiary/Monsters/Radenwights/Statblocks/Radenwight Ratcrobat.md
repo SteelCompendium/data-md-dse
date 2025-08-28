@@ -1,8 +1,8 @@
 ---
 agility: 2
 ancestry:
-- Humanoid
-- Radenwight
+  - Humanoid
+  - Radenwight
 ev: '6'
 file_basename: Radenwight Ratcrobat
 file_dpath: Monsters/Radenwights/Statblocks
@@ -16,11 +16,11 @@ might: -1
 presence: 1
 reason: 0
 roles:
-- Platoon Harrier
+  - Platoon Harrier
 scc:
-- mcdm.monsters.v1:monster:radenwight-ratcrobat
+  - mcdm.monsters.v1:monster:radenwight-ratcrobat
 scdc:
-- 1.1.1:2:152
+  - 1.1.1:2:152
 size: 1S
 source: mcdm.monsters.v1
 speed: 7
@@ -29,70 +29,46 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
-name: Radenwight Ratcrobat
-level: 1
-roles:
-  - Platoon Harrier
-ancestry:
-  - Humanoid
-  - Radenwight
-ev: "6"
-stamina: "30"
-speed: 7
-movement: Climb
-size: 1S
-stability: 0
-free_strike: 3
-might: -1
-agility: 2
-reason: 0
-intuition: 0
-presence: 1
-traits:
-  - name: Gymratstics
-    effects:
-      - effect: The ratcrobat gains an edge on strikes against larger creatures.
-abilities:
-  - name: En Garde
-    icon: 🗡
-    cost: Signature Ability
-    keywords:
-      - Melee
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Melee 1
-    target: Two creatures or objects
-    effects:
-      - roll: Power Roll + 2
-        t1: 4 damage
-        t2: 6 damage
-        t3: 8 damage
-      - effect: The ratcrobat shifts up to 2 squares after striking the first target,
-          then can shift 1 square after striking the second target.
-        name: Effect
-  - name: Over Here, Thanks
-    icon: 🗡
-    keywords:
-      - Melee
-    type: Maneuver
-    distance: Melee 1
-    target: One enemy
-    effects:
-      - effect: The ratcrobat slides the target up to 3 squares, then can shift into any
-          square the target left
-        name: Effect
-  - name: Ready Rodent
-    icon: ❗️
-    keywords:
-      - Melee
-      - Weapon
-    type: Triggered action
-    distance: Melee 1
-    target: One creature
-    trigger: An ally deals damage to the target.
-    effects:
-      - effect: The ratcrobat makes a free strike against the target.
-        name: Effect
-```
+###### Radenwight Ratcrobat
+
+| Humanoid, Radenwight |            -            |       Level 1       |     Platoon Harrier     |          EV 6          |
+| :------------------: | :---------------------: | :-----------------: | :---------------------: | :--------------------: |
+|   **1S**<br/> Size   |    **7**<br/> Speed     | **30**<br/> Stamina |  **0**<br/> Stability   | **3**<br/> Free Strike |
+| **-**<br/> Immunity  | **Climb**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+|  **-1**<br/> Might   |   **+2**<br/> Agility   |  **0**<br/> Reason  |  **0**<br/> Intuition   |  **+1**<br/> Presence  |
+
+> 🗡 **En Garde (Signature Ability)**
+>
+> | **Melee, Strike, Weapon** |                 **Main action** |
+> | ------------------------- | ------------------------------: |
+> | **📏 Melee 1**            | **🎯 Two creatures or objects** |
+>
+> **Power Roll + 2:**
+>
+> - **≤11:** 4 damage
+> - **12-16:** 6 damage
+> - **17+:** 8 damage
+>
+> **Effect:** The ratcrobat shifts up to 2 squares after striking the first target, then can shift 1 square after striking the second target.
+
+> 🗡 **Over Here, Thanks**
+>
+> | **Melee**      |     **Maneuver** |
+> | -------------- | ---------------: |
+> | **📏 Melee 1** | **🎯 One enemy** |
+>
+> **Effect:** The ratcrobat slides the target up to 3 squares, then can shift into any square the target left
+
+> ❗️ **Ready Rodent**
+>
+> | **Melee, Weapon** | **Triggered action** |
+> | ----------------- | -------------------: |
+> | **📏 Melee 1**    |  **🎯 One creature** |
+>
+> **Trigger:** An ally deals damage to the target.
+>
+> **Effect:** The ratcrobat makes a free strike against the target.
+
+> ⭐️ **Gymratstics**
+>
+> The ratcrobat gains an edge on strikes against larger creatures.

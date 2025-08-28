@@ -1,8 +1,8 @@
 ---
 agility: 2
 ancestry:
-- Animal
-- Human
+  - Animal
+  - Human
 ev: '6'
 file_basename: Giant Hawk
 file_dpath: Monsters/Humans/Statblocks
@@ -16,11 +16,11 @@ might: 2
 presence: -2
 reason: -3
 roles:
-- Platoon Mount
+  - Platoon Mount
 scc:
-- mcdm.monsters.v1:monster:giant-hawk
+  - mcdm.monsters.v1:monster:giant-hawk
 scdc:
-- 1.1.1:2:168
+  - 1.1.1:2:168
 size: '2'
 source: mcdm.monsters.v1
 speed: 5
@@ -29,59 +29,36 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
-name: Giant Hawk
-level: 1
-roles:
-  - Platoon Mount
-ancestry:
-  - Animal
-  - Human
-ev: "6"
-stamina: "30"
-speed: 5
-movement: Fly
-size: "2"
-stability: 0
-free_strike: 3
-might: 2
-agility: 2
-reason: -3
-intuition: 1
-presence: -2
-traits:
-  - name: Mounted Platform
-    effects:
-      - effect: Once per turn when the hawk moves, any creature riding the hawk can make
-          a free strike during or after the movement.
-abilities:
-  - name: Talons
-    icon: 🗡
-    cost: Signature Ability
-    keywords:
-      - Melee
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Melee 1
-    target: One creature or object
-    effects:
-      - roll: Power Roll + 2
-        t1: 5 damage
-        t2: 7 damage
-        t3: 9 damage; grabbed
-      - effect: If this ability gains an edge or has a double edge, it deals an extra 2
-          damage.
-        cost: 2 Malice
-  - name: Dive
-    icon: 👤
-    cost: 1 Malice
-    keywords:
-      - "-"
-    type: Maneuver
-    distance: Self
-    target: Self
-    effects:
-      - effect: The hawk moves up to their speed.
-        name: Effect
-```
+###### Giant Hawk
+
+|    Animal, Human    |           -           |       Level 1       |      Platoon Mount      |          EV 6          |
+| :-----------------: | :-------------------: | :-----------------: | :---------------------: | :--------------------: |
+|   **2**<br/> Size   |   **5**<br/> Speed    | **30**<br/> Stamina |  **0**<br/> Stability   | **3**<br/> Free Strike |
+| **-**<br/> Immunity | **Fly**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+|  **+2**<br/> Might  |  **+2**<br/> Agility  | **-3**<br/> Reason  |  **+1**<br/> Intuition  |  **-2**<br/> Presence  |
+
+> 🗡 **Talons (Signature Ability)**
+>
+> | **Melee, Strike, Weapon** |               **Main action** |
+> | ------------------------- | ----------------------------: |
+> | **📏 Melee 1**            | **🎯 One creature or object** |
+>
+> **Power Roll + 2:**
+>
+> - **≤11:** 5 damage
+> - **12-16:** 7 damage
+> - **17+:** 9 damage; grabbed
+>
+> **2 Malice:** If this ability gains an edge or has a double edge, it deals an extra 2 damage.
+
+> 👤 **Dive (1 Malice)**
+>
+> | **-**       | **Maneuver** |
+> | ----------- | -----------: |
+> | **📏 Self** |  **🎯 Self** |
+>
+> **Effect:** The hawk moves up to their speed.
+
+> ⭐️ **Mounted Platform**
+>
+> Once per turn when the hawk moves, any creature riding the hawk can make a free strike during or after the movement.

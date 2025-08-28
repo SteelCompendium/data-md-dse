@@ -1,9 +1,9 @@
 ---
 agility: 2
 ancestry:
-- Fey
-- Humanoid
-- Wode Elf
+  - Fey
+  - Humanoid
+  - Wode Elf
 ev: '6'
 file_basename: Wode Elf Sentry
 file_dpath: Monsters/Elves Wode/Statblocks
@@ -17,11 +17,11 @@ might: 0
 presence: 1
 reason: 0
 roles:
-- Platoon Support
+  - Platoon Support
 scc:
-- mcdm.monsters.v1:monster:wode-elf-sentry
+  - mcdm.monsters.v1:monster:wode-elf-sentry
 scdc:
-- 1.1.1:2:226
+  - 1.1.1:2:226
 size: 1M
 source: mcdm.monsters.v1
 speed: 7
@@ -30,62 +30,38 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
-name: Wode Elf Sentry
-level: 1
-roles:
-  - Platoon Support
-ancestry:
-  - Fey
-  - Humanoid
-  - Wode Elf
-ev: "6"
-stamina: "30"
-speed: 7
-size: 1M
-stability: 0
-free_strike: 3
-might: 0
-agility: 2
-reason: 0
-intuition: 0
-presence: 1
-traits:
-  - name: Masking Glamor
-    effects:
-      - effect: Abilities targeting the sentry that would take a bane from cover or
-          concealment have a double bane instead.
-abilities:
-  - name: Tracer Longbow
-    icon: 🏹
-    cost: Signature Ability
-    keywords:
-      - Ranged
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Ranged 10
-    target: One creature or object
-    effects:
-      - roll: Power Roll + 2
-        t1: 5 damage
-        t2: 7 damage
-        t3: 9 damage; the target is marked (save ends)
-      - effect: Allies gain an edge on abilities against a target marked by any wode
-          elf.
-        name: Effect
-      - effect: The sentry targets two additional creatures or objects.
-        cost: 3 Malice
-  - name: Death Blossom
-    icon: ❇️
-    cost: 2 Malice
-    keywords:
-      - Area
-      - Weapon
-    type: Maneuver
-    distance: 5 burst
-    target: Each marked enemy
-    effects:
-      - effect: Each target takes 3 damage.
-        name: Effect
-```
+###### Wode Elf Sentry
+
+| Fey, Humanoid, Wode Elf |          -          |       Level 1       |     Platoon Support     |          EV 6          |
+| :---------------------: | :-----------------: | :-----------------: | :---------------------: | :--------------------: |
+|    **1M**<br/> Size     |  **7**<br/> Speed   | **30**<br/> Stamina |  **0**<br/> Stability   | **3**<br/> Free Strike |
+|   **-**<br/> Immunity   | **-**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+|    **0**<br/> Might     | **+2**<br/> Agility |  **0**<br/> Reason  |  **0**<br/> Intuition   |  **+1**<br/> Presence  |
+
+> 🏹 **Tracer Longbow (Signature Ability)**
+>
+> | **Ranged, Strike, Weapon** |               **Main action** |
+> | -------------------------- | ----------------------------: |
+> | **📏 Ranged 10**           | **🎯 One creature or object** |
+>
+> **Power Roll + 2:**
+>
+> - **≤11:** 5 damage
+> - **12-16:** 7 damage
+> - **17+:** 9 damage; the target is marked (save ends)
+>
+> **Effect:** Allies gain an edge on abilities against a target marked by any wode elf.
+>
+> **3 Malice:** The sentry targets two additional creatures or objects.
+
+> ❇️ **Death Blossom (2 Malice)**
+>
+> | **Area, Weapon** |             **Maneuver** |
+> | ---------------- | -----------------------: |
+> | **📏 5 burst**   | **🎯 Each marked enemy** |
+>
+> **Effect:** Each target takes 3 damage.
+
+> ⭐️ **Masking Glamor**
+>
+> Abilities targeting the sentry that would take a bane from cover or concealment have a double bane instead.

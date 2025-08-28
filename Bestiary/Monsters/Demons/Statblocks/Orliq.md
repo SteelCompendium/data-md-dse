@@ -1,8 +1,8 @@
 ---
 agility: 3
 ancestry:
-- Abyssal
-- Demon
+  - Abyssal
+  - Demon
 ev: 6 for four minions
 file_basename: Orliq
 file_dpath: Monsters/Demons/Statblocks
@@ -16,11 +16,11 @@ might: -1
 presence: -1
 reason: 1
 roles:
-- Minion Harrier
+  - Minion Harrier
 scc:
-- mcdm.monsters.v1:monster:orliq
+  - mcdm.monsters.v1:monster:orliq
 scdc:
-- 1.1.1:2:274
+  - 1.1.1:2:274
 size: 1T
 source: mcdm.monsters.v1
 speed: 6
@@ -29,52 +29,30 @@ stamina: '8'
 type: monster
 ---
 
-```ds-statblock
-name: Orliq
-level: 4
-roles:
-  - Minion Harrier
-ancestry:
-  - Abyssal
-  - Demon
-ev: 6 for four minions
-stamina: "8"
-weaknesses:
-  - Holy 5
-speed: 6
-movement: Fly
-size: 1T
-stability: 0
-free_strike: 2
-with_captain: +2 bonus to speed
-might: -1
-agility: 3
-reason: 1
-intuition: 0
-presence: -1
-traits:
-  - name: Imposing Energy
-    effects:
-      - effect: Any enemy who starts their turn with two or more orliq adjacent to them
-          is slowed (EoT).
-  - name: Soulsight
-    effects:
-      - effect: Any creature within 2 squares of the orliq can't be hidden from them.
-abilities:
-  - name: Soul Prism
-    icon: 🗡
-    cost: Signature Ability
-    keywords:
-      - Magic
-      - Melee
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Melee 1
-    target: One creature or object per minion
-    effects:
-      - roll: Power Roll + 3
-        t1: 2 corruption damage; slide 2
-        t2: 4 corruption damage; vertical slide 2
-        t3: 6 corruption damage; vertical slide 2
-```
+###### Orliq
+
+|   Abyssal, Demon    |           -           |      Level 4       |             Minion Harrier              |   EV 6 for four minions    |
+| :-----------------: | :-------------------: | :----------------: | :-------------------------------------: | :------------------------: |
+|  **1T**<br/> Size   |   **6**<br/> Speed    | **8**<br/> Stamina |          **0**<br/> Stability           |   **2**<br/> Free Strike   |
+| **-**<br/> Immunity | **Fly**<br/> Movement |         -          | **+2 bonus to speed**<br/> With Captain | **Holy 5**<br/> Weaknesses |
+|  **-1**<br/> Might  |  **+3**<br/> Agility  | **+1**<br/> Reason |          **+0**<br/> Intuition          |    **-1**<br/> Presence    |
+
+> 🗡 **Soul Prism (Signature Ability)**
+>
+> | **Magic, Melee, Strike, Weapon** |                          **Main action** |
+> | -------------------------------- | ---------------------------------------: |
+> | **📏 Melee 1**                   | **🎯 One creature or object per minion** |
+>
+> **Power Roll + 3:**
+>
+> - **≤11:** 2 corruption damage; slide 2
+> - **12-16:** 4 corruption damage; vertical slide 2
+> - **17+:** 6 corruption damage; vertical slide 2
+
+> ⭐️ **Imposing Energy**
+>
+> Any enemy who starts their turn with two or more orliq adjacent to them is slowed (EoT).
+
+> ⭐️ **Soulsight**
+>
+> Any creature within 2 squares of the orliq can't be hidden from them.

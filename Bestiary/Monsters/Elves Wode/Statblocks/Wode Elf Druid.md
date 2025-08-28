@@ -1,9 +1,9 @@
 ---
 agility: 1
 ancestry:
-- Fey
-- Humanoid
-- Wode Elf
+  - Fey
+  - Humanoid
+  - Wode Elf
 ev: '8'
 file_basename: Wode Elf Druid
 file_dpath: Monsters/Elves Wode/Statblocks
@@ -17,11 +17,11 @@ might: 0
 presence: 2
 reason: 0
 roles:
-- Platoon Controller
+  - Platoon Controller
 scc:
-- mcdm.monsters.v1:monster:wode-elf-druid
+  - mcdm.monsters.v1:monster:wode-elf-druid
 scdc:
-- 1.1.1:2:229
+  - 1.1.1:2:229
 size: 1M
 source: mcdm.monsters.v1
 speed: 7
@@ -30,63 +30,38 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
-name: Wode Elf Druid
-level: 2
-roles:
-  - Platoon Controller
-ancestry:
-  - Fey
-  - Humanoid
-  - Wode Elf
-ev: "8"
-stamina: "30"
-speed: 7
-movement: Climb
-size: 1M
-stability: 0
-free_strike: 3
-might: 0
-agility: 1
-reason: 0
-intuition: 0
-presence: 2
-traits:
-  - name: Masking Glamor
-    effects:
-      - effect: Abilities targeting the druid that would take a bane from cover or
-          concealment have a double bane instead.
-abilities:
-  - name: Entangling Vines
-    icon: 🔳
-    cost: Signature Ability
-    keywords:
-      - Area
-      - Magic
-      - Ranged
-    type: Main action
-    distance: 3 cube within 10
-    target: Each enemy in the area
-    effects:
-      - roll: Power Roll + 2
-        t1: 5 damage; pull 1
-        t2: 8 damage; pull 3; M < 1 slowed (save ends)
-        t3: 10 damage; pull 5; M < 2 slowed (save ends)
-      - effect: While slowed this way, a target can't search for hidden creatures.
-        name: Effect
-      - effect: The size of the cube and the potency both increase by 1.
-        cost: 3 Malice
-  - name: The Wode Protects Us
-    icon: 🏹
-    cost: 3 Malice
-    keywords:
-      - Magic
-      - Ranged
-    type: Maneuver
-    distance: Ranged 5
-    target: Self and three allies
-    effects:
-      - effect: Each target can teleport up to 10 squares to a space that has cover or
-          concealment.
-        name: Effect
-```
+###### Wode Elf Druid
+
+| Fey, Humanoid, Wode Elf |            -            |       Level 2       |   Platoon Controller    |          EV 8          |
+| :---------------------: | :---------------------: | :-----------------: | :---------------------: | :--------------------: |
+|    **1M**<br/> Size     |    **7**<br/> Speed     | **30**<br/> Stamina |  **0**<br/> Stability   | **3**<br/> Free Strike |
+|   **-**<br/> Immunity   | **Climb**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+|    **0**<br/> Might     |   **+1**<br/> Agility   |  **0**<br/> Reason  |  **0**<br/> Intuition   |  **+2**<br/> Presence  |
+
+> 🔳 **Entangling Vines (Signature Ability)**
+>
+> | **Area, Magic, Ranged** |               **Main action** |
+> | ----------------------- | ----------------------------: |
+> | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
+>
+> **Power Roll + 2:**
+>
+> - **≤11:** 5 damage; pull 1
+> - **12-16:** 8 damage; pull 3; M < 1 slowed (save ends)
+> - **17+:** 10 damage; pull 5; M < 2 slowed (save ends)
+>
+> **Effect:** While slowed this way, a target can't search for hidden creatures.
+>
+> **3 Malice:** The size of the cube and the potency both increase by 1.
+
+> 🏹 **The Wode Protects Us (3 Malice)**
+>
+> | **Magic, Ranged** |                 **Maneuver** |
+> | ----------------- | ---------------------------: |
+> | **📏 Ranged 5**   | **🎯 Self and three allies** |
+>
+> **Effect:** Each target can teleport up to 10 squares to a space that has cover or concealment.
+
+> ⭐️ **Masking Glamor**
+>
+> Abilities targeting the druid that would take a bane from cover or concealment have a double bane instead.

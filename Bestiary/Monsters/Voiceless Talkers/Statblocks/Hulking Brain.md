@@ -1,8 +1,8 @@
 ---
 agility: 1
 ancestry:
-- Horror
-- Voiceless Talker
+  - Horror
+  - Voiceless Talker
 ev: '32'
 file_basename: Hulking Brain
 file_dpath: Monsters/Voiceless Talkers/Statblocks
@@ -16,11 +16,11 @@ might: 3
 presence: 0
 reason: -2
 roles:
-- Elite Brute
+  - Elite Brute
 scc:
-- mcdm.monsters.v1:monster:hulking-brain
+  - mcdm.monsters.v1:monster:hulking-brain
 scdc:
-- 1.1.1:2:337
+  - 1.1.1:2:337
 size: 1L
 source: mcdm.monsters.v1
 speed: 5
@@ -29,95 +29,68 @@ stamina: '180'
 type: monster
 ---
 
-```ds-statblock
-name: Hulking Brain
-level: 6
-roles:
-  - Elite Brute
-ancestry:
-  - Horror
-  - Voiceless Talker
-ev: "32"
-stamina: "180"
-speed: 5
-size: 1L
-stability: 4
-free_strike: 7
-might: 3
-agility: 1
-reason: -2
-intuition: -2
-presence: 0
-traits:
-  - name: Biceps to Spare
-    effects:
-      - effect: The hulking brain can carry up to four size 1 creatures they have
-          grabbed, and takes no penalty to their speed while doing so.
-  - name: Psionic Conductor
-    effects:
-      - effect: Whenever a non-minion voiceless talker within 5 squares of the hulking
-          brain uses a psionic ability, they can do so as if they were in the
-          hulking brain's space.
-abilities:
-  - name: Four-Way Grasp
-    icon: 🗡
-    cost: Signature Ability
-    keywords:
-      - Melee
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Melee 1
-    target: Four creatures or objects
-    effects:
-      - roll: Power Roll + 3
-        t1: 7 damage
-        t2: 10 damage; A < 2 grabbed
-        t3: 11 damage; A < 3 grabbed
-      - effect: The hulking brain can have up to four size 1 creatures grabbed.
-        name: Special
-      - effect: The potency increases by 1.
-        cost: 2 Malice
-  - name: Cerebral Suplex
-    icon: 🗡
-    keywords:
-      - Melee
-      - Strike
-    type: Main action
-    distance: Melee 1
-    target: Each enemy
-    effects:
-      - name: Effect
-        effect: A target must be grabbed by the hulking brain, and is no longer grabbed
-          after the power roll is resolved
-      - roll: Power Roll + 3
-        t1: 7 damage; M < 1 3 damage
-        t2: 10 damage; M < 2 3 damage
-        t3: 13 damage; M < 3 6 damage
-  - name: Lumber
-    icon: 👤
-    keywords:
-      - "-"
-    type: Maneuver
-    distance: Self
-    target: Self
-    effects:
-      - effect: The hulking brain shifts up to 4 squares, ignoring difficu terrain.
-        name: Effect
-  - name: Brawny Buffe
-    icon: ❗️
-    cost: 1 Malice
-    keywords:
-      - "-"
-    type: Free triggered action
-    distance: Self
-    target: Self
-    trigger: An ally voiceless talker within 5 squares takes damage from an enemy
-      ability.
-    effects:
-      - effect: The hulking brain shifts adjacent to the ally and becomes the new target
-          of the ability.
-        name: Effect
-      - effect: The enemy is knocked prone.
-        cost: 2 Malice
-```
+###### Hulking Brain
+
+| Horror, Voiceless Talker |          -          |       Level 6        |       Elite Brute       |         EV 32          |
+| :----------------------: | :-----------------: | :------------------: | :---------------------: | :--------------------: |
+|     **1L**<br/> Size     |  **5**<br/> Speed   | **180**<br/> Stamina |  **4**<br/> Stability   | **7**<br/> Free Strike |
+|   **-**<br/> Immunity    | **-**<br/> Movement |          -           | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+|    **+3**<br/> Might     | **+1**<br/> Agility |  **-2**<br/> Reason  |  **-2**<br/> Intuition  |  **0**<br/> Presence   |
+
+> 🗡 **Four-Way Grasp (Signature Ability)**
+>
+> | **Melee, Strike, Weapon** |                  **Main action** |
+> | ------------------------- | -------------------------------: |
+> | **📏 Melee 1**            | **🎯 Four creatures or objects** |
+>
+> **Power Roll + 3:**
+>
+> - **≤11:** 7 damage
+> - **12-16:** 10 damage; A < 2 grabbed
+> - **17+:** 11 damage; A < 3 grabbed
+>
+> **Special:** The hulking brain can have up to four size 1 creatures grabbed.
+>
+> **2 Malice:** The potency increases by 1.
+
+> 🗡 **Cerebral Suplex**
+>
+> | **Melee, Strike** |   **Main action** |
+> | ----------------- | ----------------: |
+> | **📏 Melee 1**    | **🎯 Each enemy** |
+>
+> **Effect:** A target must be grabbed by the hulking brain, and is no longer grabbed after the power roll is resolved
+>
+> **Power Roll + 3:**
+>
+> - **≤11:** 7 damage; M < 1 3 damage
+> - **12-16:** 10 damage; M < 2 3 damage
+> - **17+:** 13 damage; M < 3 6 damage
+
+> 👤 **Lumber**
+>
+> | **-**       | **Maneuver** |
+> | ----------- | -----------: |
+> | **📏 Self** |  **🎯 Self** |
+>
+> **Effect:** The hulking brain shifts up to 4 squares, ignoring difficu terrain.
+
+> ❗️ **Brawny Buffe (1 Malice)**
+>
+> | **-**       | **Free triggered action** |
+> | ----------- | ------------------------: |
+> | **📏 Self** |               **🎯 Self** |
+>
+> **Trigger:** An ally voiceless talker within 5 squares takes damage from an enemy ability.
+>
+> **Effect:** The hulking brain shifts adjacent to the ally and becomes the new target of the ability.
+>
+> **2 Malice:** The enemy is knocked prone.
+
+> ⭐️ **Biceps to Spare**
+>
+> The hulking brain can carry up to four size 1 creatures they have grabbed, and takes no penalty to their speed while doing so.
+
+> ⭐️ **Psionic Conductor**
+>
+> Whenever a non-minion voiceless talker within 5 squares of the hulking brain uses a psionic ability, they can do so as if they were in the hulking brain's space.

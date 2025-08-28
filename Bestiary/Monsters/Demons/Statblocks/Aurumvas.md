@@ -1,8 +1,8 @@
 ---
 agility: 2
 ancestry:
-- Abyssal
-- Demon
+  - Abyssal
+  - Demon
 ev: '48'
 file_basename: Aurumvas
 file_dpath: Monsters/Demons/Statblocks
@@ -16,11 +16,11 @@ might: 5
 presence: 5
 reason: 5
 roles:
-- Leader
+  - Leader
 scc:
-- mcdm.monsters.v1:monster:aurumvas
+  - mcdm.monsters.v1:monster:aurumvas
 scdc:
-- 1.1.1:2:267
+  - 1.1.1:2:267
 size: '3'
 source: mcdm.monsters.v1
 speed: 8
@@ -29,133 +29,88 @@ stamina: '260'
 type: monster
 ---
 
-```ds-statblock
-name: Aurumvas
-level: 10
-roles:
-  - Leader
-ancestry:
-  - Abyssal
-  - Demon
-ev: "48"
-stamina: "260"
-weaknesses:
-  - Holy 5
-speed: 8
-movement: Fly
-size: "3"
-stability: 2
-free_strike: 10
-might: 5
-agility: 2
-reason: 5
-intuition: 3
-presence: 5
-traits:
-  - name: Absorb Soul
-    effects:
-      - effect: Whenever any demon is reduced to 0 Stamina within 10 squares of
-          Aurumvas, the Director gains 1 Malice. Aurumvas loses this trait while
-          he is dazed.
-  - name: More... More...
-    effects:
-      - effect: While Aurumvas is winded, he has a double edge on strikes.
-  - name: Soulsight
-    effects:
-      - effect: Any creature within 5 squares of Aurumvas can't be hidden from him.
-abilities:
-  - name: Greedy Hands
-    icon: 🗡
-    cost: Signature Ability
-    keywords:
-      - Magic
-      - Melee
-      - Strike
-    type: Main action
-    distance: Melee 2
-    target: Two creatures or objects
-    effects:
-      - roll: Power Roll + 5
-        t1: 15 corruption damage; R < 4 weakened (save ends)
-        t2: 20 corruption damage; R < 5 weakened (save ends)
-        t3: 24 corruption damage; R < 6 weakened (save ends)
-      - effect: Aurumvas regains Stamina equal to the damage dealt.
-        cost: 2 Malice
-  - name: Covetous Bolts
-    icon: 🏹
-    cost: 3 Malice
-    keywords:
-      - Magic
-      - Ranged
-      - Strike
-    type: Main action
-    distance: Ranged 20
-    target: Two creatures
-    effects:
-      - roll: Power Roll + 5
-        t1: 15 psychic damage; P < 4 dazed (save ends)
-        t2: 20 psychic damage; P < 5 dazed (save ends)
-        t3: 24 psychic damage; P < 6 dazed (save ends)
-      - effect: While dazed this way, a target can't gain Heroic Resources.
-        cost: 2 Malice
-  - name: Greed Is Good
-    icon: 🏹
-    cost: 2 Malice
-    keywords:
-      - Ranged
-    type: Maneuver
-    distance: Ranged 10
-    target: Special
-    effects:
-      - effect: Aurumvas chooses a supernatural treasure or an item made of gold and
-          teleports to an unoccupied space adjacent to that object, then ends
-          one effect on him that can be ended by a saving throw.
-        name: Effect
-  - name: Time Is Money
-    icon: ☠️
-    cost: Villain Action 1
-    keywords:
-      - Area
-      - Magic
-    type: "-"
-    distance: 20 burst
-    target: Self and each ally in the area
-    effects:
-      - effect: Aurumvas warps time with his abyssal avarice. Each target can teleport
-          up to their speed and make a free strike.
-        name: Effect
-  - name: Hostile Acquisition
-    icon: ☠️
-    cost: Villain Action 2
-    keywords:
-      - Ranged
-    type: "-"
-    distance: Ranged 10
-    target: Special
-    effects:
-      - effect: Aurumvas chooses up to three treasures within distance that he has line
-          of effect to and that aren't artifacts. Until the end of the
-          encounter, ethereal golden snakes swirl around the target treasures.
-          While an affected treasure is worn or held by a hero, each time that
-          hero gains any amount of their Heroic Resource, the Director gains 1
-          Malice.
-        name: Effect
-  - name: No Matter the Cost
-    icon: ☠️
-    cost: Villain Action 3
-    keywords:
-      - Area
-      - Magic
-      - Ranged
-    type: "-"
-    distance: Four 3 cubes within 10
-    target: Each creature in the area
-    effects:
-      - name: Effect
-        effect: Aurumvas summons treasures from his vaults into the area, then causes
-          them to explode.
-      - roll: Power Roll + 5
-        t1: 1 10 fire damage; push 1
-        t2: 2 15 fire damage; push 2
-        t3: 3 19 fire damage; push 3
-```
+###### Aurumvas
+
+|   Abyssal, Demon    |           -           |       Level 10       |         Leader          |           EV 48            |
+| :-----------------: | :-------------------: | :------------------: | :---------------------: | :------------------------: |
+|   **3**<br/> Size   |   **8**<br/> Speed    | **260**<br/> Stamina |  **2**<br/> Stability   |  **10**<br/> Free Strike   |
+| **-**<br/> Immunity | **Fly**<br/> Movement |          -           | **-**<br/> With Captain | **Holy 5**<br/> Weaknesses |
+|  **+5**<br/> Might  |  **+2**<br/> Agility  |  **+5**<br/> Reason  |  **+3**<br/> Intuition  |    **+5**<br/> Presence    |
+
+> ⭐️ **Absorb Soul**
+>
+> Whenever any demon is reduced to 0 Stamina within 10 squares of Aurumvas, the Director gains 1 Malice. Aurumvas loses this trait while he is dazed.
+
+> 🗡 **Greedy Hands (Signature Ability)**
+>
+> | **Magic, Melee, Strike** |                 **Main action** |
+> | ------------------------ | ------------------------------: |
+> | **📏 Melee 2**           | **🎯 Two creatures or objects** |
+>
+> **Power Roll + 5:**
+>
+> - **≤11:** 15 corruption damage; R < 4 weakened (save ends)
+> - **12-16:** 20 corruption damage; R < 5 weakened (save ends)
+> - **17+:** 24 corruption damage; R < 6 weakened (save ends)
+>
+> **2 Malice:** Aurumvas regains Stamina equal to the damage dealt.
+
+> 🏹 **Covetous Bolts (3 Malice)**
+>
+> | **Magic, Ranged, Strike** |      **Main action** |
+> | ------------------------- | -------------------: |
+> | **📏 Ranged 20**          | **🎯 Two creatures** |
+>
+> **Power Roll + 5:**
+>
+> - **≤11:** 15 psychic damage; P < 4 dazed (save ends)
+> - **12-16:** 20 psychic damage; P < 5 dazed (save ends)
+> - **17+:** 24 psychic damage; P < 6 dazed (save ends)
+>
+> **2 Malice:** While dazed this way, a target can't gain Heroic Resources.
+
+> 🏹 **Greed Is Good (2 Malice)**
+>
+> | **Ranged**       |   **Maneuver** |
+> | ---------------- | -------------: |
+> | **📏 Ranged 10** | **🎯 Special** |
+>
+> **Effect:** Aurumvas chooses a supernatural treasure or an item made of gold and teleports to an unoccupied space adjacent to that object, then ends one effect on him that can be ended by a saving throw.
+
+> ⭐️ **More... More...**
+>
+> While Aurumvas is winded, he has a double edge on strikes.
+
+> ⭐️ **Soulsight**
+>
+> Any creature within 5 squares of Aurumvas can't be hidden from him.
+
+> ☠️ **Time Is Money (Villain Action 1)**
+>
+> | **Area, Magic** |                                 **-** |
+> | --------------- | ------------------------------------: |
+> | **📏 20 burst** | **🎯 Self and each ally in the area** |
+>
+> **Effect:** Aurumvas warps time with his abyssal avarice. Each target can teleport up to their speed and make a free strike.
+
+> ☠️ **Hostile Acquisition (Villain Action 2)**
+>
+> | **Ranged**       |          **-** |
+> | ---------------- | -------------: |
+> | **📏 Ranged 10** | **🎯 Special** |
+>
+> **Effect:** Aurumvas chooses up to three treasures within distance that he has line of effect to and that aren't artifacts. Until the end of the encounter, ethereal golden snakes swirl around the target treasures. While an affected treasure is worn or held by a hero, each time that hero gains any amount of their Heroic Resource, the Director gains 1 Malice.
+
+> ☠️ **No Matter the Cost (Villain Action 3)**
+>
+> | **Area, Magic, Ranged**       |                            **-** |
+> | ----------------------------- | -------------------------------: |
+> | **📏 Four 3 cubes within 10** | **🎯 Each creature in the area** |
+>
+> **Effect:** Aurumvas summons treasures from his vaults into the area, then causes them to explode.
+>
+> **Power Roll + 5:**
+>
+> - **≤11:** 1 10 fire damage; push 1
+> - **12-16:** 2 15 fire damage; push 2
+> - **17+:** 3 19 fire damage; push 3

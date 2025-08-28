@@ -1,8 +1,8 @@
 ---
 agility: 3
 ancestry:
-- Humanoid
-- Rival
+  - Humanoid
+  - Rival
 ev: '28'
 file_basename: Rival Null
 file_dpath: Monsters/Rivals/2nd Echelon/Statblocks
@@ -16,11 +16,11 @@ might: 0
 presence: 0
 reason: 2
 roles:
-- Elite Harrier
+  - Elite Harrier
 scc:
-- mcdm.monsters.v1:monster:rival-null
+  - mcdm.monsters.v1:monster:rival-null
 scdc:
-- 1.1.1:2:14
+  - 1.1.1:2:14
 size: 1M
 source: mcdm.monsters.v1
 speed: 7
@@ -29,65 +29,42 @@ stamina: '140'
 type: monster
 ---
 
-```ds-statblock
-name: Rival Null
-level: 5
-roles:
-  - Elite Harrier
-ancestry:
-  - Humanoid
-  - Rival
-ev: "28"
-stamina: "140"
-speed: 7
-size: 1M
-stability: 3
-free_strike: 6
-might: 0
-agility: 3
-reason: 2
-intuition: 3
-presence: 0
-traits:
-  - name: Inertial Shield
-    effects:
-      - effect: The first time each round that the null is targeted by a damage-dealing
-          strike, they halve the damage.
-  - name: Rivalry
-    effects:
-      - effect: At the start of an encounter, the null chooses one creature within their
-          line of effect. Both the null and the creature can add a d3 roll to
-          power rolls they make against each other.
-abilities:
-  - name: Agile Stride
-    icon: 🗡
-    cost: Signature Ability
-    keywords:
-      - Melee
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Melee 1
-    target: Two creatures or objects
-    effects:
-      - roll: Power Roll + 3
-        t1: 9 damage; the null shifts up to 3 squares; A < 1 6 damage
-        t2: 14 damage; the null shifts up to 4 squares; A < 2 11 damage
-        t3: 17 damage; the null shifts up to 5 squares; A < 3 11 damage
-  - name: Deaden
-    icon: 🗡
-    cost: 2 Malice
-    keywords:
-      - Melee
-      - Psionic
-      - Strike
-      - Weapon
-    type: Maneuver
-    distance: Melee 1
-    target: One creature or object
-    effects:
-      - roll: Power Roll + 3
-        t1: 9 damage; R < 1 dazed (EoT)
-        t2: 14 damage; R < 2 dazed (save ends)
-        t3: 17 damage; R < 3 dazed and restrained (save ends)
-```
+###### Rival Null
+
+|   Humanoid, Rival   |          -          |       Level 5        |      Elite Harrier      |         EV 28          |
+| :-----------------: | :-----------------: | :------------------: | :---------------------: | :--------------------: |
+|  **1M**<br/> Size   |  **7**<br/> Speed   | **140**<br/> Stamina |  **3**<br/> Stability   | **6**<br/> Free Strike |
+| **-**<br/> Immunity | **-**<br/> Movement |          -           | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+|  **0**<br/> Might   | **+3**<br/> Agility |  **+2**<br/> Reason  |  **+3**<br/> Intuition  |  **0**<br/> Presence   |
+
+> 🗡 **Agile Stride (Signature Ability)**
+>
+> | **Melee, Strike, Weapon** |                 **Main action** |
+> | ------------------------- | ------------------------------: |
+> | **📏 Melee 1**            | **🎯 Two creatures or objects** |
+>
+> **Power Roll + 3:**
+>
+> - **≤11:** 9 damage; the null shifts up to 3 squares; A < 1 6 damage
+> - **12-16:** 14 damage; the null shifts up to 4 squares; A < 2 11 damage
+> - **17+:** 17 damage; the null shifts up to 5 squares; A < 3 11 damage
+
+> 🗡 **Deaden (2 Malice)**
+>
+> | **Melee, Psionic, Strike, Weapon** |                  **Maneuver** |
+> | ---------------------------------- | ----------------------------: |
+> | **📏 Melee 1**                     | **🎯 One creature or object** |
+>
+> **Power Roll + 3:**
+>
+> - **≤11:** 9 damage; R < 1 dazed (EoT)
+> - **12-16:** 14 damage; R < 2 dazed (save ends)
+> - **17+:** 17 damage; R < 3 dazed and restrained (save ends)
+
+> ⭐️ **Inertial Shield**
+>
+> The first time each round that the null is targeted by a damage-dealing strike, they halve the damage.
+
+> ⭐️ **Rivalry**
+>
+> At the start of an encounter, the null chooses one creature within their line of effect. Both the null and the creature can add a d3 roll to power rolls they make against each other.

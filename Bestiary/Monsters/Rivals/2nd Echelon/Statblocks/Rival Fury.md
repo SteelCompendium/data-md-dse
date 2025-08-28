@@ -1,8 +1,8 @@
 ---
 agility: 2
 ancestry:
-- Humanoid
-- Rival
+  - Humanoid
+  - Rival
 ev: '28'
 file_basename: Rival Fury
 file_dpath: Monsters/Rivals/2nd Echelon/Statblocks
@@ -16,11 +16,11 @@ might: 3
 presence: 1
 reason: 0
 roles:
-- Elite Brute
+  - Elite Brute
 scc:
-- mcdm.monsters.v1:monster:rival-fury
+  - mcdm.monsters.v1:monster:rival-fury
 scdc:
-- 1.1.1:2:15
+  - 1.1.1:2:15
 size: 1M
 source: mcdm.monsters.v1
 speed: 5
@@ -29,71 +29,46 @@ stamina: '160'
 type: monster
 ---
 
-```ds-statblock
-name: Rival Fury
-level: 5
-roles:
-  - Elite Brute
-ancestry:
-  - Humanoid
-  - Rival
-ev: "28"
-stamina: "160"
-speed: 5
-size: 1M
-stability: 3
-free_strike: 7
-might: 3
-agility: 2
-reason: 0
-intuition: 0
-presence: 1
-traits:
-  - name: Overpower
-    effects:
-      - effect: Once per turn, when the fury force moves a creature or object, or shifts
-          adjacent to a creature or object, they can use a signature ability
-          against that creature or object.
-  - name: Rivalry
-    effects:
-      - effect: At the start of an encounter, the fury chooses one creature within their
-          line of effect. Both the fury and the creature can add a d3 roll to
-          power rolls they make against each other.
-abilities:
-  - name: Thunderous Slam
-    icon: 🗡
-    cost: Signature Ability
-    keywords:
-      - Melee
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Melee 1
-    target: Two creatures or objects
-    effects:
-      - roll: Power Roll + 3
-        t1: 10 damage; push 2
-        t2: 15 damage; push 3
-        t3: 18 damage; push 4
-      - effect: Each target who has M < 2 is slowed (save ends).
-        cost: 2 Malice
-  - name: Roughed Up
-    icon: 🗡
-    cost: 3 Malice
-    keywords:
-      - Melee
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Melee 1
-    target: One creature
-    effects:
-      - roll: Power Roll + 3
-        t1: 11 damage; M < 1 grabbed
-        t2: 16 damage; M < 2 grabbed
-        t3: 21 damage; M < 3 grabbed
-      - effect: The target must be the fury's size or smaller. While the target is
-          grabbed this way, the fury and their allies gain an edge on strikes
-          against them.
-        name: Effect
-```
+###### Rival Fury
+
+|   Humanoid, Rival   |          -          |       Level 5        |       Elite Brute       |         EV 28          |
+| :-----------------: | :-----------------: | :------------------: | :---------------------: | :--------------------: |
+|  **1M**<br/> Size   |  **5**<br/> Speed   | **160**<br/> Stamina |  **3**<br/> Stability   | **7**<br/> Free Strike |
+| **-**<br/> Immunity | **-**<br/> Movement |          -           | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+|  **+3**<br/> Might  | **+2**<br/> Agility |  **0**<br/> Reason   |  **0**<br/> Intuition   |  **+1**<br/> Presence  |
+
+> 🗡 **Thunderous Slam (Signature Ability)**
+>
+> | **Melee, Strike, Weapon** |                 **Main action** |
+> | ------------------------- | ------------------------------: |
+> | **📏 Melee 1**            | **🎯 Two creatures or objects** |
+>
+> **Power Roll + 3:**
+>
+> - **≤11:** 10 damage; push 2
+> - **12-16:** 15 damage; push 3
+> - **17+:** 18 damage; push 4
+>
+> **2 Malice:** Each target who has M < 2 is slowed (save ends).
+
+> 🗡 **Roughed Up (3 Malice)**
+>
+> | **Melee, Strike, Weapon** |     **Main action** |
+> | ------------------------- | ------------------: |
+> | **📏 Melee 1**            | **🎯 One creature** |
+>
+> **Power Roll + 3:**
+>
+> - **≤11:** 11 damage; M < 1 grabbed
+> - **12-16:** 16 damage; M < 2 grabbed
+> - **17+:** 21 damage; M < 3 grabbed
+>
+> **Effect:** The target must be the fury's size or smaller. While the target is grabbed this way, the fury and their allies gain an edge on strikes against them.
+
+> ⭐️ **Overpower**
+>
+> Once per turn, when the fury force moves a creature or object, or shifts adjacent to a creature or object, they can use a signature ability against that creature or object.
+
+> ⭐️ **Rivalry**
+>
+> At the start of an encounter, the fury chooses one creature within their line of effect. Both the fury and the creature can add a d3 roll to power rolls they make against each other.

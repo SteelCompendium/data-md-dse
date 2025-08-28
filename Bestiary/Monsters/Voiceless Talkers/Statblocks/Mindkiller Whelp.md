@@ -1,8 +1,8 @@
 ---
 agility: 3
 ancestry:
-- Horror
-- Voiceless Talker
+  - Horror
+  - Voiceless Talker
 ev: 8 for four minions
 file_basename: Mindkiller Whelp
 file_dpath: Monsters/Voiceless Talkers/Statblocks
@@ -16,11 +16,11 @@ might: -1
 presence: 0
 reason: 1
 roles:
-- Minion Hexer
+  - Minion Hexer
 scc:
-- mcdm.monsters.v1:monster:mindkiller-whelp
+  - mcdm.monsters.v1:monster:mindkiller-whelp
 scdc:
-- 1.1.1:2:338
+  - 1.1.1:2:338
 size: 1S
 source: mcdm.monsters.v1
 speed: 4
@@ -29,62 +29,36 @@ stamina: '9'
 type: monster
 ---
 
-```ds-statblock
-name: Mindkiller Whelp
-level: 6
-roles:
-  - Minion Hexer
-ancestry:
-  - Horror
-  - Voiceless Talker
-ev: 8 for four minions
-stamina: "9"
-immunities:
-  - Psychic 6
-speed: 4
-movement: Fly, hover
-size: 1S
-stability: 0
-free_strike: 3
-with_captain: +2 damage bonus to strikes
-might: -1
-agility: 3
-reason: 1
-intuition: 1
-presence: 0
-traits:
-  - name: Psionic Conductor
-    effects:
-      - effect: Whenever a non-minion voiceless talker within 5 squares of the whelp
-          uses a psionic ability, they can do so as if they were in the whelp's
-          space.
-abilities:
-  - name: Eager Claws
-    icon: 🗡
-    cost: Signature Ability
-    keywords:
-      - Melee
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Melee 1
-    target: One creature or object per minion
-    effects:
-      - roll: Power Roll + 3
-        t1: 3 damage
-        t2: 5 damage; the target takes a bane on their next strike
-        t3: 7 damage; the target takes a bane on their next strike
-  - name: Feast
-    icon: ❗️
-    keywords:
-      - Psionic
-    type: Triggered action
-    distance: Self
-    target: Self
-    trigger: The whelp reduces a non-minion creature to 0 Stamina.
-    effects:
-      - effect: The whelp transforms into a mindkiller whose Stamina equals their
-          squad's Stamina pool before transforming. The Stamina pool then loses
-          the whelp's Stamina.
-        name: Effect
-```
+###### Mindkiller Whelp
+
+|  Horror, Voiceless Talker   |              -               |      Level 6       |                   Minion Hexer                   | EV 8 for four minions  |
+| :-------------------------: | :--------------------------: | :----------------: | :----------------------------------------------: | :--------------------: |
+|      **1S**<br/> Size       |       **4**<br/> Speed       | **9**<br/> Stamina |               **0**<br/> Stability               | **3**<br/> Free Strike |
+| **Psychic 6**<br/> Immunity | **Fly, hover**<br/> Movement |         -          | **+2 damage bonus to strikes**<br/> With Captain | **-**<br/> Weaknesses  |
+|      **-1**<br/> Might      |     **+3**<br/> Agility      | **+1**<br/> Reason |              **+1**<br/> Intuition               |  **0**<br/> Presence   |
+
+> 🗡 **Eager Claws (Signature Ability)**
+>
+> | **Melee, Strike, Weapon** |                          **Main action** |
+> | ------------------------- | ---------------------------------------: |
+> | **📏 Melee 1**            | **🎯 One creature or object per minion** |
+>
+> **Power Roll + 3:**
+>
+> - **≤11:** 3 damage
+> - **12-16:** 5 damage; the target takes a bane on their next strike
+> - **17+:** 7 damage; the target takes a bane on their next strike
+
+> ❗️ **Feast**
+>
+> | **Psionic** | **Triggered action** |
+> | ----------- | -------------------: |
+> | **📏 Self** |          **🎯 Self** |
+>
+> **Trigger:** The whelp reduces a non-minion creature to 0 Stamina.
+>
+> **Effect:** The whelp transforms into a mindkiller whose Stamina equals their squad's Stamina pool before transforming. The Stamina pool then loses the whelp's Stamina.
+
+> ⭐️ **Psionic Conductor**
+>
+> Whenever a non-minion voiceless talker within 5 squares of the whelp uses a psionic ability, they can do so as if they were in the whelp's space.

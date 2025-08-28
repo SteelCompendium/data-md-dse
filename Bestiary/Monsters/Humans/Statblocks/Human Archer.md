@@ -1,8 +1,8 @@
 ---
 agility: 2
 ancestry:
-- Human
-- Humanoid
+  - Human
+  - Humanoid
 ev: 3 for four minions
 file_basename: Human Archer
 file_dpath: Monsters/Humans/Statblocks
@@ -16,11 +16,11 @@ might: 0
 presence: 0
 reason: 0
 roles:
-- Minion Artillery
+  - Minion Artillery
 scc:
-- mcdm.monsters.v1:monster:human-archer
+  - mcdm.monsters.v1:monster:human-archer
 scdc:
-- 1.1.1:2:169
+  - 1.1.1:2:169
 size: 1M
 source: mcdm.monsters.v1
 speed: 5
@@ -29,47 +29,26 @@ stamina: '3'
 type: monster
 ---
 
-```ds-statblock
-name: Human Archer
-level: 1
-roles:
-  - Minion Artillery
-ancestry:
-  - Human
-  - Humanoid
-ev: 3 for four minions
-stamina: "3"
-immunities:
-  - Corruption 1
-  - psychic 1
-speed: 5
-size: 1M
-stability: 0
-free_strike: 2
-with_captain: +5 bonus to ranged distance
-might: 0
-agility: 2
-reason: 0
-intuition: 0
-presence: 0
-traits:
-  - name: Supernatural Insight
-    effects:
-      - effect: The archer ignores concealment if it's granted by a supernatural effect.
-abilities:
-  - name: Crossbow
-    icon: 🏹
-    cost: Signature Ability
-    keywords:
-      - Ranged
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Ranged 10
-    target: One creature or object per minion
-    effects:
-      - roll: Power Roll + 2
-        t1: 2 damage
-        t2: 4 damage
-        t3: 5 damage
-```
+###### Human Archer
+
+|              Human, Humanoid              |          -          |      Level 1       |                 Minion Artillery                  | EV 3 for four minions  |
+| :---------------------------------------: | :-----------------: | :----------------: | :-----------------------------------------------: | :--------------------: |
+|             **1M**<br/> Size              |  **5**<br/> Speed   | **3**<br/> Stamina |               **0**<br/> Stability                | **2**<br/> Free Strike |
+| **Corruption 1, psychic 1**<br/> Immunity | **-**<br/> Movement |         -          | **+5 bonus to ranged distance**<br/> With Captain | **-**<br/> Weaknesses  |
+|             **0**<br/> Might              | **+2**<br/> Agility | **0**<br/> Reason  |               **0**<br/> Intuition                |  **0**<br/> Presence   |
+
+> 🏹 **Crossbow (Signature Ability)**
+>
+> | **Ranged, Strike, Weapon** |                          **Main action** |
+> | -------------------------- | ---------------------------------------: |
+> | **📏 Ranged 10**           | **🎯 One creature or object per minion** |
+>
+> **Power Roll + 2:**
+>
+> - **≤11:** 2 damage
+> - **12-16:** 4 damage
+> - **17+:** 5 damage
+
+> ⭐️ **Supernatural Insight**
+>
+> The archer ignores concealment if it's granted by a supernatural effect.

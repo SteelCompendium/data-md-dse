@@ -1,9 +1,9 @@
 ---
 agility: 1
 ancestry:
-- Accursed
-- Humanoid
-- Minotaur
+  - Accursed
+  - Humanoid
+  - Minotaur
 ev: '20'
 file_basename: Minotaur Sunderer
 file_dpath: Monsters/Minotaurs/Statblocks
@@ -17,11 +17,11 @@ might: 2
 presence: -1
 reason: 0
 roles:
-- Elite Brute
+  - Elite Brute
 scc:
-- mcdm.monsters.v1:monster:minotaur-sunderer
+  - mcdm.monsters.v1:monster:minotaur-sunderer
 scdc:
-- 1.1.1:2:175
+  - 1.1.1:2:175
 size: '2'
 source: mcdm.monsters.v1
 speed: 6
@@ -30,97 +30,68 @@ stamina: '120'
 type: monster
 ---
 
-```ds-statblock
-name: Minotaur Sunderer
-level: 3
-roles:
-  - Elite Brute
-ancestry:
-  - Accursed
-  - Humanoid
-  - Minotaur
-ev: "20"
-stamina: "120"
-speed: 6
-size: "2"
-stability: 2
-free_strike: 6
-might: 2
-agility: 1
-reason: 0
-intuition: 2
-presence: -1
-traits:
-  - name: Minotaur Sense
-    effects:
-      - effect: The sunderer can't obtain less than a tier 2 outcome when making tests
-          to navigate, search, or seek.
-abilities:
-  - name: Spiked Maul
-    icon: 🗡
-    cost: Signature Ability
-    keywords:
-      - Charge
-      - Melee
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Melee 2
-    target: Two creatures or objects
-    effects:
-      - roll: Power Roll + 2
-        t1: 8 damage; pull 1
-        t2: 12 damage; pull 2
-        t3: 15 damage; pull 3
-      - effect: A target pulled adjacent to the sunderer is automatically grabbed.
-        name: Effect
-  - name: Fearsome Bay
-    icon: ❇️
-    cost: 5 Malice
-    keywords:
-      - Area
-    type: Main action
-    distance: 3 burst
-    target: Each enemy in the area
-    effects:
-      - roll: Power Roll + 2
-        t1: I < 0 frightened (save ends)
-        t2: I < 1 frightened (save ends)
-        t3: I < 2 frightened (save ends)
-      - effect: Until the end of their next turn, the minotaur has damage immunity 2 and
-          deals an extra 5 damage with strikes.
-        name: Effect
-  - name: Disemboweling Horns
-    icon: 🗡
-    cost: 3 Malice
-    keywords:
-      - Charge
-      - Melee
-      - Strike
-      - Weapon
-    type: Maneuver
-    distance: Melee 2
-    target: One creature
-    effects:
-      - name: Special
-        effect: The target must be grabbed by the sunderer.
-      - roll: Power Roll + 2
-        t1: 5 damage; M < 0 bleeding (save ends)
-        t2: 8 damage; M < 1 bleeding (save ends)
-        t3: 9 damage; M < 2 bleeding (save ends)
-      - effect: While bleeding this way, the target takes 1d6 damage at the start of
-          each of their turns.
-        name: Effect
-  - name: Retaliatory Strike
-    icon: ❗️
-    keywords:
-      - Ranged
-    type: Triggered action
-    distance: Ranged 6
-    target: The triggering creature
-    trigger: A creature within distance deals damage to the sunderer.
-    effects:
-      - effect: The sunderer uses the Charge main action and Spiked Maul against the
-          target.
-        name: Effect
-```
+###### Minotaur Sunderer
+
+| Accursed, Humanoid, Minotaur |          -          |       Level 3        |       Elite Brute       |         EV 20          |
+| :--------------------------: | :-----------------: | :------------------: | :---------------------: | :--------------------: |
+|       **2**<br/> Size        |  **6**<br/> Speed   | **120**<br/> Stamina |  **2**<br/> Stability   | **6**<br/> Free Strike |
+|     **-**<br/> Immunity      | **-**<br/> Movement |          -           | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+|      **+2**<br/> Might       | **+1**<br/> Agility |  **0**<br/> Reason   |  **+2**<br/> Intuition  |  **-1**<br/> Presence  |
+
+> 🗡 **Spiked Maul (Signature Ability)**
+>
+> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
+> | --------------------------------- | ------------------------------: |
+> | **📏 Melee 2**                    | **🎯 Two creatures or objects** |
+>
+> **Power Roll + 2:**
+>
+> - **≤11:** 8 damage; pull 1
+> - **12-16:** 12 damage; pull 2
+> - **17+:** 15 damage; pull 3
+>
+> **Effect:** A target pulled adjacent to the sunderer is automatically grabbed.
+
+> ❇️ **Fearsome Bay (5 Malice)**
+>
+> | **Area**       |               **Main action** |
+> | -------------- | ----------------------------: |
+> | **📏 3 burst** | **🎯 Each enemy in the area** |
+>
+> **Power Roll + 2:**
+>
+> - **≤11:** I < 0 frightened (save ends)
+> - **12-16:** I < 1 frightened (save ends)
+> - **17+:** I < 2 frightened (save ends)
+>
+> **Effect:** Until the end of their next turn, the minotaur has damage immunity 2 and deals an extra 5 damage with strikes.
+
+> 🗡 **Disemboweling Horns (3 Malice)**
+>
+> | **Charge, Melee, Strike, Weapon** |        **Maneuver** |
+> | --------------------------------- | ------------------: |
+> | **📏 Melee 2**                    | **🎯 One creature** |
+>
+> **Special:** The target must be grabbed by the sunderer.
+>
+> **Power Roll + 2:**
+>
+> - **≤11:** 5 damage; M < 0 bleeding (save ends)
+> - **12-16:** 8 damage; M < 1 bleeding (save ends)
+> - **17+:** 9 damage; M < 2 bleeding (save ends)
+>
+> **Effect:** While bleeding this way, the target takes 1d6 damage at the start of each of their turns.
+
+> ❗️ **Retaliatory Strike**
+>
+> | **Ranged**      |           **Triggered action** |
+> | --------------- | -----------------------------: |
+> | **📏 Ranged 6** | **🎯 The triggering creature** |
+>
+> **Trigger:** A creature within distance deals damage to the sunderer.
+>
+> **Effect:** The sunderer uses the Charge main action and Spiked Maul against the target.
+
+> ⭐️ **Minotaur Sense**
+>
+> The sunderer can't obtain less than a tier 2 outcome when making tests to navigate, search, or seek.

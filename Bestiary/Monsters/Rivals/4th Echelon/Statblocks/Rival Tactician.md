@@ -1,8 +1,8 @@
 ---
 agility: 2
 ancestry:
-- Humanoid
-- Rival
+  - Humanoid
+  - Rival
 ev: '48'
 file_basename: Rival Tactician
 file_dpath: Monsters/Rivals/4th Echelon/Statblocks
@@ -16,11 +16,11 @@ might: 5
 presence: 3
 reason: 4
 roles:
-- Elite Artillery
+  - Elite Artillery
 scc:
-- mcdm.monsters.v1:monster:rival-tactician
+  - mcdm.monsters.v1:monster:rival-tactician
 scdc:
-- 1.1.1:2:33
+  - 1.1.1:2:33
 size: 1M
 source: mcdm.monsters.v1
 speed: 5
@@ -29,77 +29,52 @@ stamina: '220'
 type: monster
 ---
 
-```ds-statblock
-name: Rival Tactician
-level: 10
-roles:
-  - Elite Artillery
-ancestry:
-  - Humanoid
-  - Rival
-ev: "48"
-stamina: "220"
-speed: 5
-size: 1M
-stability: 2
-free_strike: 10
-might: 5
-agility: 2
-reason: 4
-intuition: 0
-presence: 3
-traits:
-  - name: Rivalry
-    effects:
-      - effect: At the start of an encounter, the tactician chooses one creature within
-          their line of effect. Both the tactician and the creature can add a d3
-          roll to power rolls they make against each other.
-abilities:
-  - name: Forward Assault
-    icon: 🏹
-    cost: Signature Ability
-    keywords:
-      - Ranged
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Ranged 10
-    target: Two creatures or objects
-    effects:
-      - roll: Power Roll + 5
-        t1: 15 damage
-        t2: 21 damage; A < 4 prone and can't stand (EoT)
-        t3: 25 damage; prone; A < 5 can't stand (EoT)
-      - effect: Two allies within distance move up to their speed and can use a
-          signature ability that has a double edge.
-        cost: 5 Malice
-  - name: Guardian From Afar
-    icon: 🔳
-    cost: 3 Malice
-    keywords:
-      - Area
-      - Ranged
-      - Weapon
-    type: Main action
-    distance: 3 cube within 10
-    target: One creature in the area
-    effects:
-      - roll: Power Roll + 5
-        t1: 10 damage; M < 3 weakened (save ends)
-        t2: 16 damage; M < 4 weakened (save ends)
-        t3: 20 damage; M < 5 weakened (save ends)
-      - effect: Each ally in the area regains 10 Stamina.
-        name: Effect
-  - name: Battlefield Control
-    icon: ❗️
-    keywords:
-      - Ranged
-    type: Triggered action
-    distance: Ranged 10
-    target: The triggering enemy
-    trigger: An enemy within distance willingly moves.
-    effects:
-      - effect: At any point during the movement, the tactician and one ally within
-          distance can use a signature ability against the target.
-        name: Effect
-```
+###### Rival Tactician
+
+|   Humanoid, Rival   |          -          |       Level 10       |     Elite Artillery     |          EV 48          |
+| :-----------------: | :-----------------: | :------------------: | :---------------------: | :---------------------: |
+|  **1M**<br/> Size   |  **5**<br/> Speed   | **220**<br/> Stamina |  **2**<br/> Stability   | **10**<br/> Free Strike |
+| **-**<br/> Immunity | **-**<br/> Movement |          -           | **-**<br/> With Captain |  **-**<br/> Weaknesses  |
+|  **+5**<br/> Might  | **+2**<br/> Agility |  **+4**<br/> Reason  |  **0**<br/> Intuition   |  **+3**<br/> Presence   |
+
+> 🏹 **Forward Assault (Signature Ability)**
+>
+> | **Ranged, Strike, Weapon** |                 **Main action** |
+> | -------------------------- | ------------------------------: |
+> | **📏 Ranged 10**           | **🎯 Two creatures or objects** |
+>
+> **Power Roll + 5:**
+>
+> - **≤11:** 15 damage
+> - **12-16:** 21 damage; A < 4 prone and can't stand (EoT)
+> - **17+:** 25 damage; prone; A < 5 can't stand (EoT)
+>
+> **5 Malice:** Two allies within distance move up to their speed and can use a signature ability that has a double edge.
+
+> 🔳 **Guardian From Afar (3 Malice)**
+>
+> | **Area, Ranged, Weapon** |                 **Main action** |
+> | ------------------------ | ------------------------------: |
+> | **📏 3 cube within 10**  | **🎯 One creature in the area** |
+>
+> **Power Roll + 5:**
+>
+> - **≤11:** 10 damage; M < 3 weakened (save ends)
+> - **12-16:** 16 damage; M < 4 weakened (save ends)
+> - **17+:** 20 damage; M < 5 weakened (save ends)
+>
+> **Effect:** Each ally in the area regains 10 Stamina.
+
+> ❗️ **Battlefield Control**
+>
+> | **Ranged**       |        **Triggered action** |
+> | ---------------- | --------------------------: |
+> | **📏 Ranged 10** | **🎯 The triggering enemy** |
+>
+> **Trigger:** An enemy within distance willingly moves.
+>
+> **Effect:** At any point during the movement, the tactician and one ally within distance can use a signature ability against the target.
+
+> ⭐️ **Rivalry**
+>
+> At the start of an encounter, the tactician chooses one creature within their line of effect. Both the tactician and the creature can add a d3 roll to power rolls they make against each other.

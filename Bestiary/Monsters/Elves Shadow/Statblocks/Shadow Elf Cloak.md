@@ -1,9 +1,9 @@
 ---
 agility: 1
 ancestry:
-- Fey
-- Humanoid
-- Shadow Elf
+  - Fey
+  - Humanoid
+  - Shadow Elf
 ev: 6 for four minions
 file_basename: Shadow Elf Cloak
 file_dpath: Monsters/Elves Shadow/Statblocks
@@ -17,11 +17,11 @@ might: 3
 presence: 0
 reason: 0
 roles:
-- Minion Harrier
+  - Minion Harrier
 scc:
-- mcdm.monsters.v1:monster:shadow-elf-cloak
+  - mcdm.monsters.v1:monster:shadow-elf-cloak
 scdc:
-- 1.1.1:2:212
+  - 1.1.1:2:212
 size: 1M
 source: mcdm.monsters.v1
 speed: 8
@@ -30,50 +30,28 @@ stamina: '8'
 type: monster
 ---
 
-```ds-statblock
-name: Shadow Elf Cloak
-level: 4
-roles:
-  - Minion Harrier
-ancestry:
-  - Fey
-  - Humanoid
-  - Shadow Elf
-ev: 6 for four minions
-stamina: "8"
-speed: 8
-movement: Climb
-size: 1M
-stability: 0
-free_strike: 2
-with_captain: +2 bonus to speed
-might: 3
-agility: 1
-reason: 0
-intuition: 0
-presence: 0
-traits:
-  - name: Of the Umbra
-    effects:
-      - effect: The cloak ignores concealment created by darkness. While the cloak is in
-          direct sunlight, they have damage weakness 3. While the cloak has
-          concealment, they have damage immunity 3.
-abilities:
-  - name: Stick and Poke
-    icon: 🗡
-    cost: Signature Ability
-    keywords:
-      - Melee
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Melee 1
-    target: One creature or object per minion
-    effects:
-      - roll: Power Roll + 3
-        t1: 2 damage
-        t2: 4 damage
-        t3: 6 damage
-      - effect: The cloak shifts up to 2 squares
-        name: Effect
-```
+###### Shadow Elf Cloak
+
+| Fey, Humanoid, Shadow Elf |            -            |      Level 4       |             Minion Harrier              | EV 6 for four minions  |
+| :-----------------------: | :---------------------: | :----------------: | :-------------------------------------: | :--------------------: |
+|     **1M**<br/> Size      |    **8**<br/> Speed     | **8**<br/> Stamina |          **0**<br/> Stability           | **2**<br/> Free Strike |
+|    **-**<br/> Immunity    | **Climb**<br/> Movement |         -          | **+2 bonus to speed**<br/> With Captain | **-**<br/> Weaknesses  |
+|     **+3**<br/> Might     |   **+1**<br/> Agility   | **0**<br/> Reason  |          **0**<br/> Intuition           |  **0**<br/> Presence   |
+
+> 🗡 **Stick and Poke (Signature Ability)**
+>
+> | **Melee, Strike, Weapon** |                          **Main action** |
+> | ------------------------- | ---------------------------------------: |
+> | **📏 Melee 1**            | **🎯 One creature or object per minion** |
+>
+> **Power Roll + 3:**
+>
+> - **≤11:** 2 damage
+> - **12-16:** 4 damage
+> - **17+:** 6 damage
+>
+> **Effect:** The cloak shifts up to 2 squares
+
+> ⭐️ **Of the Umbra**
+>
+> The cloak ignores concealment created by darkness. While the cloak is in direct sunlight, they have damage weakness 3. While the cloak has concealment, they have damage immunity 3.

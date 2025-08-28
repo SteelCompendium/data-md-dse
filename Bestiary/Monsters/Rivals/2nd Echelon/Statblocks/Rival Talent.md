@@ -1,8 +1,8 @@
 ---
 agility: 0
 ancestry:
-- Humanoid
-- Rival
+  - Humanoid
+  - Rival
 ev: '28'
 file_basename: Rival Talent
 file_dpath: Monsters/Rivals/2nd Echelon/Statblocks
@@ -16,11 +16,11 @@ might: 0
 presence: 1
 reason: 3
 roles:
-- Elite Hexer
+  - Elite Hexer
 scc:
-- mcdm.monsters.v1:monster:rival-talent
+  - mcdm.monsters.v1:monster:rival-talent
 scdc:
-- 1.1.1:2:18
+  - 1.1.1:2:18
 size: 1M
 source: mcdm.monsters.v1
 speed: 5
@@ -29,73 +29,48 @@ stamina: '120'
 type: monster
 ---
 
-```ds-statblock
-name: Rival Talent
-level: 5
-roles:
-  - Elite Hexer
-ancestry:
-  - Humanoid
-  - Rival
-ev: "28"
-stamina: "120"
-speed: 5
-size: 1M
-stability: 2
-free_strike: 6
-might: 0
-agility: 0
-reason: 3
-intuition: 0
-presence: 1
-traits:
-  - name: Rivalry
-    effects:
-      - effect: At the start of an encounter, the talent chooses one creature within
-          their line of effect. Both the talent and the creature can add a d3
-          roll to power rolls they make against each other.
-abilities:
-  - name: Overwhelming Rend
-    icon: 🏹
-    cost: Signature Ability
-    keywords:
-      - Psionic
-      - Ranged
-      - Strike
-      - Telekinesis
-    type: Main action
-    distance: Ranged 10
-    target: Two creatures or objects
-    effects:
-      - roll: Power Roll + 3
-        t1: 9 psychic damage; push 2; M < 1 prone
-        t2: 14 psychic damage; push 3; M < 2 prone
-        t3: 17 psychic damage; push 4; M < 3 prone
-  - name: Disarrange Thoughts
-    icon: 🏹
-    cost: 2 Malice
-    keywords:
-      - Psionic
-      - Ranged
-      - Telepathy
-    type: Maneuver
-    distance: Ranged 10
-    target: One creature or object
-    effects:
-      - roll: Power Roll + 3
-        t1: 6 psychic damage; R < 1 dazed (save ends)
-        t2: 6 psychic damage; R < 2 dazed (save ends)
-        t3: 6 psychic damage; R < 3 dazed and slowed (save ends)
-  - name: Precognitive Shift
-    icon: ❗️
-    cost: 1 Malice
-    keywords:
-      - Psionic
-    type: Triggered action
-    distance: Self
-    target: Self
-    trigger: A creature deals damage to the talent.
-    effects:
-      - effect: The talent halves the damage and shifts up to 2 squares
-        name: Effect
-```
+###### Rival Talent
+
+|   Humanoid, Rival   |          -          |       Level 5        |       Elite Hexer       |         EV 28          |
+| :-----------------: | :-----------------: | :------------------: | :---------------------: | :--------------------: |
+|  **1M**<br/> Size   |  **5**<br/> Speed   | **120**<br/> Stamina |  **2**<br/> Stability   | **6**<br/> Free Strike |
+| **-**<br/> Immunity | **-**<br/> Movement |          -           | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+|  **0**<br/> Might   | **0**<br/> Agility  |  **+3**<br/> Reason  |  **0**<br/> Intuition   |  **+1**<br/> Presence  |
+
+> 🏹 **Overwhelming Rend (Signature Ability)**
+>
+> | **Psionic, Ranged, Strike, Telekinesis** |                 **Main action** |
+> | ---------------------------------------- | ------------------------------: |
+> | **📏 Ranged 10**                         | **🎯 Two creatures or objects** |
+>
+> **Power Roll + 3:**
+>
+> - **≤11:** 9 psychic damage; push 2; M < 1 prone
+> - **12-16:** 14 psychic damage; push 3; M < 2 prone
+> - **17+:** 17 psychic damage; push 4; M < 3 prone
+
+> 🏹 **Disarrange Thoughts (2 Malice)**
+>
+> | **Psionic, Ranged, Telepathy** |                  **Maneuver** |
+> | ------------------------------ | ----------------------------: |
+> | **📏 Ranged 10**               | **🎯 One creature or object** |
+>
+> **Power Roll + 3:**
+>
+> - **≤11:** 6 psychic damage; R < 1 dazed (save ends)
+> - **12-16:** 6 psychic damage; R < 2 dazed (save ends)
+> - **17+:** 6 psychic damage; R < 3 dazed and slowed (save ends)
+
+> ❗️ **Precognitive Shift (1 Malice)**
+>
+> | **Psionic** | **Triggered action** |
+> | ----------- | -------------------: |
+> | **📏 Self** |          **🎯 Self** |
+>
+> **Trigger:** A creature deals damage to the talent.
+>
+> **Effect:** The talent halves the damage and shifts up to 2 squares
+
+> ⭐️ **Rivalry**
+>
+> At the start of an encounter, the talent chooses one creature within their line of effect. Both the talent and the creature can add a d3 roll to power rolls they make against each other.

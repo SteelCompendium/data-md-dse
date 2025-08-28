@@ -1,9 +1,9 @@
 ---
 agility: 1
 ancestry:
-- Eyestalk
-- Horror
-- Overmind
+  - Eyestalk
+  - Horror
+  - Overmind
 ev: '-'
 file_basename: Mover Eye
 file_dpath: Monsters/Xorannox the Tyract/Statblocks
@@ -17,11 +17,11 @@ might: -1
 presence: -1
 reason: 4
 roles:
-- Controller
+  - Controller
 scc:
-- mcdm.monsters.v1:monster:mover-eye
+  - mcdm.monsters.v1:monster:mover-eye
 scdc:
-- 1.1.1:2:317
+  - 1.1.1:2:317
 size: 1M
 source: mcdm.monsters.v1
 speed: 5
@@ -30,46 +30,26 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
-name: Mover Eye
-level: 6
-roles:
-  - Controller
-ancestry:
-  - Eyestalk
-  - Horror
-  - Overmind
-ev: "-"
-stamina: "30"
-speed: 5
-movement: Fly, hover
-size: 1M
-stability: 0
-free_strike: 3
-might: -1
-agility: 1
-reason: 4
-intuition: 1
-presence: -1
-traits:
-  - name: Psionic Barrier
-    effects:
-      - effect: The mover eye has damage immunity 15. When they use a main action, they
-          lose this immunity until the end of the round.
-abilities:
-  - name: Telekinetic Beam
-    icon: 🏹
-    cost: Signature Ability
-    keywords:
-      - Psionic
-      - Ranged
-      - Strike
-    type: Main action
-    distance: Ranged 6
-    target: Two creatures or objects
-    effects:
-      - roll: Power Roll + 4
-        t1: 11 damage; slide 4
-        t2: 17 damage; slide 5
-        t3: 20 damage; slide 6
-```
+###### Mover Eye
+
+| Eyestalk, Horror, Overmind |              -               |       Level 6       |       Controller        |          EV -          |
+| :------------------------: | :--------------------------: | :-----------------: | :---------------------: | :--------------------: |
+|      **1M**<br/> Size      |       **5**<br/> Speed       | **30**<br/> Stamina |  **0**<br/> Stability   | **3**<br/> Free Strike |
+|    **-**<br/> Immunity     | **Fly, hover**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+|     **-1**<br/> Might      |     **+1**<br/> Agility      | **+4**<br/> Reason  |  **+1**<br/> Intuition  |  **-1**<br/> Presence  |
+
+> 🏹 **Telekinetic Beam (Signature Ability)**
+>
+> | **Psionic, Ranged, Strike** |                 **Main action** |
+> | --------------------------- | ------------------------------: |
+> | **📏 Ranged 6**             | **🎯 Two creatures or objects** |
+>
+> **Power Roll + 4:**
+>
+> - **≤11:** 11 damage; slide 4
+> - **12-16:** 17 damage; slide 5
+> - **17+:** 20 damage; slide 6
+
+> ⭐️ **Psionic Barrier**
+>
+> The mover eye has damage immunity 15. When they use a main action, they lose this immunity until the end of the round.

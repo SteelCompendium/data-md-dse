@@ -1,8 +1,8 @@
 ---
 agility: 1
 ancestry:
-- Humanoid
-- Time Raider
+  - Humanoid
+  - Time Raider
 ev: '10'
 file_basename: Time Raider Vertex
 file_dpath: Monsters/Time Raiders/Statblocks
@@ -16,11 +16,11 @@ might: 1
 presence: 0
 reason: 2
 roles:
-- Platoon Support
+  - Platoon Support
 scc:
-- mcdm.monsters.v1:monster:time-raider-vertex
+  - mcdm.monsters.v1:monster:time-raider-vertex
 scdc:
-- 1.1.1:2:146
+  - 1.1.1:2:146
 size: '2'
 source: mcdm.monsters.v1
 speed: 5
@@ -29,80 +29,44 @@ stamina: '62'
 type: monster
 ---
 
-```ds-statblock
-name: Time Raider Vertex
-level: 3
-roles:
-  - Platoon Support
-ancestry:
-  - Humanoid
-  - Time Raider
-ev: "10"
-stamina: "62"
-immunities:
-  - Psychic 3
-speed: 5
-movement: Fly, hover
-size: "2"
-stability: 2
-free_strike: 5
-might: 1
-agility: 1
-reason: 2
-intuition: 1
-presence: 0
-traits:
-  - name: Foresight
-    effects:
-      - effect: The vertex doesn't take a bane on strikes against creatures with
-          concealment.
-abilities:
-  - name: Psionic Slam
-    icon: 🗡
-    cost: Signature Ability
-    keywords:
-      - Melee
-      - Psionic
-      - Strike
-    type: Main action
-    distance: Melee 2
-    target: One creature
-    effects:
-      - roll: Power Roll + 2
-        t1: 5 damage, 2 psychic damage
-        t2: 7 damage, 3 psychic damage
-        t3: 9 damage, 4 psychic damage
-      - effect: Any power roll made against the target gains an edge until the start of
-          the vertex's next turn.
-        name: Effect
-  - name: Split Space
-    icon: 🔳
-    cost: 5 Malice
-    keywords:
-      - Area
-      - Psionic
-      - Ranged
-    type: Main action
-    distance: 2 cube within 10
-    target: Special
-    effects:
-      - effect: A portal fills the area, connecting to a location the vertex has
-          experienced on any plane of existence, in person or otherwise. Any
-          creature who enters the portal for the first time in a round or starts
-          their turn there is instantly teleported to any unoccupied space in
-          the portal at the chosen location. The portal lasts until the vertex
-          uses this ability again, dismisses the portal (no action required), or
-          is transported by the portal.
-        name: Effect
-  - name: Invigorated March
-    icon: ❇️
-    keywords:
-      - Area
-      - Psionic
-    type: Maneuver
-    distance: 4 burst
-    target: Each ally in the area
-    effects:
-      - effect: Each target shifts up to half their speed.
-        name: Effect
-```
+###### Time Raider Vertex
+
+|    Humanoid, Time Raider    |              -               |       Level 3       |     Platoon Support     |         EV 10          |
+| :-------------------------: | :--------------------------: | :-----------------: | :---------------------: | :--------------------: |
+|       **2**<br/> Size       |       **5**<br/> Speed       | **62**<br/> Stamina |  **2**<br/> Stability   | **5**<br/> Free Strike |
+| **Psychic 3**<br/> Immunity | **Fly, hover**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+|      **+1**<br/> Might      |     **+1**<br/> Agility      | **+2**<br/> Reason  |  **+1**<br/> Intuition  |  **0**<br/> Presence   |
+
+> 🗡 **Psionic Slam (Signature Ability)**
+>
+> | **Melee, Psionic, Strike** |     **Main action** |
+> | -------------------------- | ------------------: |
+> | **📏 Melee 2**             | **🎯 One creature** |
+>
+> **Power Roll + 2:**
+>
+> - **≤11:** 5 damage, 2 psychic damage
+> - **12-16:** 7 damage, 3 psychic damage
+> - **17+:** 9 damage, 4 psychic damage
+>
+> **Effect:** Any power roll made against the target gains an edge until the start of the vertex's next turn.
+
+> 🔳 **Split Space (5 Malice)**
+>
+> | **Area, Psionic, Ranged** | **Main action** |
+> | ------------------------- | --------------: |
+> | **📏 2 cube within 10**   |  **🎯 Special** |
+>
+> **Effect:** A portal fills the area, connecting to a location the vertex has experienced on any plane of existence, in person or otherwise. Any creature who enters the portal for the first time in a round or starts their turn there is instantly teleported to any unoccupied space in the portal at the chosen location. The portal lasts until the vertex uses this ability again, dismisses the portal (no action required), or is transported by the portal.
+
+> ❇️ **Invigorated March**
+>
+> | **Area, Psionic** |                 **Maneuver** |
+> | ----------------- | ---------------------------: |
+> | **📏 4 burst**    | **🎯 Each ally in the area** |
+>
+> **Effect:** Each target shifts up to half their speed.
+
+> ⭐️ **Foresight**
+>
+> The vertex doesn't take a bane on strikes against creatures with concealment.

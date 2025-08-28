@@ -1,8 +1,8 @@
 ---
 agility: 1
 ancestry:
-- Humanoid
-- Orc
+  - Humanoid
+  - Orc
 ev: 3 for four minions
 file_basename: Orc Razor
 file_dpath: Monsters/Orcs/Statblocks
@@ -16,11 +16,11 @@ might: 2
 presence: 0
 reason: 0
 roles:
-- Minion Brute
+  - Minion Brute
 scc:
-- mcdm.monsters.v1:monster:orc-razor
+  - mcdm.monsters.v1:monster:orc-razor
 scdc:
-- 1.1.1:2:132
+  - 1.1.1:2:132
 size: 1L
 source: mcdm.monsters.v1
 speed: 6
@@ -29,47 +29,28 @@ stamina: '5'
 type: monster
 ---
 
-```ds-statblock
-name: Orc Razor
-level: 1
-roles:
-  - Minion Brute
-ancestry:
-  - Humanoid
-  - Orc
-ev: 3 for four minions
-stamina: "5"
-speed: 6
-size: 1L
-stability: 0
-free_strike: 2
-with_captain: +1 damage bonus to strikes
-might: 2
-agility: 1
-reason: 0
-intuition: 0
-presence: 0
-traits:
-  - name: Bloodfire Burn
-    effects:
-      - effect: If the razor is reduced to 0 Stamina, they can make a free strike before
-          dying.
-abilities:
-  - name: Boot and Blade
-    icon: 🏹
-    cost: Signature Ability
-    keywords:
-      - Melee
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Melee 1
-    target: One creature or object per minion
-    effects:
-      - roll: Power Roll + 2
-        t1: 2 damage;
-        t2: 4 damage; push 3
-        t3: 5 damage; push 3 or prone
-      - effect: The razor gains an edge against any target affected by a condition.
-        name: Effect
-```
+###### Orc Razor
+
+|    Humanoid, Orc    |          -          |      Level 1       |                   Minion Brute                   | EV 3 for four minions  |
+| :-----------------: | :-----------------: | :----------------: | :----------------------------------------------: | :--------------------: |
+|  **1L**<br/> Size   |  **6**<br/> Speed   | **5**<br/> Stamina |               **0**<br/> Stability               | **2**<br/> Free Strike |
+| **-**<br/> Immunity | **-**<br/> Movement |         -          | **+1 damage bonus to strikes**<br/> With Captain | **-**<br/> Weaknesses  |
+|  **+2**<br/> Might  | **+1**<br/> Agility | **0**<br/> Reason  |               **0**<br/> Intuition               |  **0**<br/> Presence   |
+
+> 🏹 **Boot and Blade (Signature Ability)**
+>
+> | **Melee, Strike, Weapon** |                          **Main action** |
+> | ------------------------- | ---------------------------------------: |
+> | **📏 Melee 1**            | **🎯 One creature or object per minion** |
+>
+> **Power Roll + 2:**
+>
+> - **≤11:** 2 damage;
+> - **12-16:** 4 damage; push 3
+> - **17+:** 5 damage; push 3 or prone
+>
+> **Effect:** The razor gains an edge against any target affected by a condition.
+
+> ⭐️ **Bloodfire Burn**
+>
+> If the razor is reduced to 0 Stamina, they can make a free strike before dying.

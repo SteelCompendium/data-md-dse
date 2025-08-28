@@ -1,8 +1,8 @@
 ---
 agility: 3
 ancestry:
-- Horror
-- Voiceless Talker
+  - Horror
+  - Voiceless Talker
 ev: '32'
 file_basename: Voiceless Talker Artillerist
 file_dpath: Monsters/Voiceless Talkers/Statblocks
@@ -16,11 +16,11 @@ might: 0
 presence: 1
 reason: 3
 roles:
-- Elite Artillery
+  - Elite Artillery
 scc:
-- mcdm.monsters.v1:monster:voiceless-talker-artillerist
+  - mcdm.monsters.v1:monster:voiceless-talker-artillerist
 scdc:
-- 1.1.1:2:342
+  - 1.1.1:2:342
 size: 1M
 source: mcdm.monsters.v1
 speed: 5
@@ -29,98 +29,64 @@ stamina: '140'
 type: monster
 ---
 
-```ds-statblock
-name: Voiceless Talker Artillerist
-level: 6
-roles:
-  - Elite Artillery
-ancestry:
-  - Horror
-  - Voiceless Talker
-ev: "32"
-stamina: "140"
-immunities:
-  - Psychic 6
-speed: 5
-movement: Hover, teleport
-size: 1M
-stability: 2
-free_strike: 7
-might: 0
-agility: 3
-reason: 3
-intuition: 2
-presence: 1
-traits:
-  - name: Psionic Conductor
-    effects:
-      - effect: Whenever a non-minion voiceless talker within 5 squares of the
-          artillerist uses a psionic ability, they can do so as if they were in
-          the artillerist's space.
-  - name: Locked On
-    effects:
-      - effect: The artillerist ignores invisibility, cover, and concealment. A creature
-          can't hide from the artillerist while the artillerist has line of
-          effect to the.
-abilities:
-  - name: Psionic Rifle Burst
-    icon: 🏹
-    cost: Signature Ability
-    keywords:
-      - Psionic
-      - Ranged
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Ranged 10
-    target: One creature or object
-    effects:
-      - roll: Power Roll + 3
-        t1: 11 damage
-        t2: 19 damage; the strike spreads 1 square
-        t3: 22 damage; the strike spreads 2 squares
-      - effect: The strike's spread is the distance it expands from a target to nearby
-          enemies. Each enemy within that distance takes 3 damage.
-        name: Effect
-      - effect: Each enemy within the strike spread takes an extra 3 damage.
-        cost: 2 Malice
-  - name: Mind Jolt
-    icon: 🔳
-    keywords:
-      - Area
-      - Psionic
-    type: Main action
-    distance: 10 x 1 line within 10
-    target: Each enemy in the area
-    effects:
-      - roll: Power Roll + 3
-        t1: 6 lightning damage
-        t2: 10 lightning damage; I < 2 slowed (save ends)
-        t3: 13 lightning damage; I < 3 slowed (save ends)
-  - name: In Our Sights
-    icon: 🏹
-    keywords:
-      - Ranged
-    type: Maneuver
-    distance: Ranged 10
-    target: One creature
-    effects:
-      - effect: Until the start of the artillerist's next turn, the next psionic ability
-          used against the target automatically treats its initial power roll as
-          a 17. The creature using the ability can still roll to determine if
-          they score a critical hit.
-        name: Effect
-  - name: Tactical Reposition
-    icon: ❗️
-    cost: 1 Malice
-    keywords:
-      - "-"
-    type: Triggered action
-    distance: Self
-    target: Self
-    trigger: The artillerist takes damage.
-    effects:
-      - effect: The artillerist can teleport up to 5 squares and ignores any effects
-          associated with the damage
-        name: Effect
-```
+###### Voiceless Talker Artillerist
+
+|  Horror, Voiceless Talker   |                 -                 |       Level 6        |     Elite Artillery     |         EV 32          |
+| :-------------------------: | :-------------------------------: | :------------------: | :---------------------: | :--------------------: |
+|      **1M**<br/> Size       |         **5**<br/> Speed          | **140**<br/> Stamina |  **2**<br/> Stability   | **7**<br/> Free Strike |
+| **Psychic 6**<br/> Immunity | **Hover, teleport**<br/> Movement |          -           | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+|      **0**<br/> Might       |        **+3**<br/> Agility        |  **+3**<br/> Reason  |  **+2**<br/> Intuition  |  **+1**<br/> Presence  |
+
+> 🏹 **Psionic Rifle Burst (Signature Ability)**
+>
+> | **Psionic, Ranged, Strike, Weapon** |               **Main action** |
+> | ----------------------------------- | ----------------------------: |
+> | **📏 Ranged 10**                    | **🎯 One creature or object** |
+>
+> **Power Roll + 3:**
+>
+> - **≤11:** 11 damage
+> - **12-16:** 19 damage; the strike spreads 1 square
+> - **17+:** 22 damage; the strike spreads 2 squares
+>
+> **Effect:** The strike's spread is the distance it expands from a target to nearby enemies. Each enemy within that distance takes 3 damage.
+>
+> **2 Malice:** Each enemy within the strike spread takes an extra 3 damage.
+
+> 🔳 **Mind Jolt**
+>
+> | **Area, Psionic**            |               **Main action** |
+> | ---------------------------- | ----------------------------: |
+> | **📏 10 x 1 line within 10** | **🎯 Each enemy in the area** |
+>
+> **Power Roll + 3:**
+>
+> - **≤11:** 6 lightning damage
+> - **12-16:** 10 lightning damage; I < 2 slowed (save ends)
+> - **17+:** 13 lightning damage; I < 3 slowed (save ends)
+
+> 🏹 **In Our Sights**
+>
+> | **Ranged**       |        **Maneuver** |
+> | ---------------- | ------------------: |
+> | **📏 Ranged 10** | **🎯 One creature** |
+>
+> **Effect:** Until the start of the artillerist's next turn, the next psionic ability used against the target automatically treats its initial power roll as a 17. The creature using the ability can still roll to determine if they score a critical hit.
+
+> ❗️ **Tactical Reposition (1 Malice)**
+>
+> | **-**       | **Triggered action** |
+> | ----------- | -------------------: |
+> | **📏 Self** |          **🎯 Self** |
+>
+> **Trigger:** The artillerist takes damage.
+>
+> **Effect:** The artillerist can teleport up to 5 squares and ignores any effects associated with the damage
+
+> ⭐️ **Psionic Conductor**
+>
+> Whenever a non-minion voiceless talker within 5 squares of the artillerist uses a psionic ability, they can do so as if they were in the artillerist's space.
+
+> ⭐️ **Locked On**
+>
+> The artillerist ignores invisibility, cover, and concealment. A creature can't hide from the artillerist while the artillerist has line of effect to the.

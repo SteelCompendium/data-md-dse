@@ -1,8 +1,8 @@
 ---
 agility: 2
 ancestry:
-- Human
-- Humanoid
+  - Human
+  - Humanoid
 ev: 3 for four minions
 file_basename: Human Rogue
 file_dpath: Monsters/Humans/Statblocks
@@ -16,11 +16,11 @@ might: 0
 presence: 1
 reason: 0
 roles:
-- Minion Ambusher
+  - Minion Ambusher
 scc:
-- mcdm.monsters.v1:monster:human-rogue
+  - mcdm.monsters.v1:monster:human-rogue
 scdc:
-- 1.1.1:2:157
+  - 1.1.1:2:157
 size: 1M
 source: mcdm.monsters.v1
 speed: 7
@@ -29,51 +29,28 @@ stamina: '4'
 type: monster
 ---
 
-```ds-statblock
-name: Human Rogue
-level: 1
-roles:
-  - Minion Ambusher
-ancestry:
-  - Human
-  - Humanoid
-ev: 3 for four minions
-stamina: "4"
-immunities:
-  - Corruption 1
-  - psychic 1
-speed: 7
-size: 1M
-stability: 0
-free_strike: 2
-with_captain: Gain an edge on strikes
-might: 0
-agility: 2
-reason: 0
-intuition: 0
-presence: 1
-traits:
-  - name: Supernatural Insight
-    effects:
-      - effect: The rogue ignores concealment if it's granted by a supernatural effect.
-abilities:
-  - name: Concealed Dagger
-    icon: ⚔️
-    cost: Signature Ability
-    keywords:
-      - Melee
-      - Ranged
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Melee 1 or Ranged 5
-    target: One creature or object per minion
-    effects:
-      - roll: Power Roll + 2
-        t1: 1 damage
-        t2: 2 damage
-        t3: 3 damage
-      - effect: If the rogue is disguised or hidden when they use this ability, it deals
-          an extra 3 damage.
-        name: Effect
-```
+###### Human Rogue
+
+|              Human, Humanoid              |          -          |      Level 1       |                Minion Ambusher                | EV 3 for four minions  |
+| :---------------------------------------: | :-----------------: | :----------------: | :-------------------------------------------: | :--------------------: |
+|             **1M**<br/> Size              |  **7**<br/> Speed   | **4**<br/> Stamina |             **0**<br/> Stability              | **2**<br/> Free Strike |
+| **Corruption 1, psychic 1**<br/> Immunity | **-**<br/> Movement |         -          | **Gain an edge on strikes**<br/> With Captain | **-**<br/> Weaknesses  |
+|             **0**<br/> Might              | **+2**<br/> Agility | **0**<br/> Reason  |             **0**<br/> Intuition              |  **+1**<br/> Presence  |
+
+> ⚔️ **Concealed Dagger (Signature Ability)**
+>
+> | **Melee, Ranged, Strike, Weapon** |                          **Main action** |
+> | --------------------------------- | ---------------------------------------: |
+> | **📏 Melee 1 or Ranged 5**        | **🎯 One creature or object per minion** |
+>
+> **Power Roll + 2:**
+>
+> - **≤11:** 1 damage
+> - **12-16:** 2 damage
+> - **17+:** 3 damage
+>
+> **Effect:** If the rogue is disguised or hidden when they use this ability, it deals an extra 3 damage.
+
+> ⭐️ **Supernatural Insight**
+>
+> The rogue ignores concealment if it's granted by a supernatural effect.

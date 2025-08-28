@@ -1,9 +1,9 @@
 ---
 agility: 2
 ancestry:
-- Abyssal
-- Demon
-- Soulraker
+  - Abyssal
+  - Demon
+  - Soulraker
 ev: 9 for four minions
 file_basename: Soulraker Soldier
 file_dpath: Monsters/Demons/Statblocks
@@ -17,11 +17,11 @@ might: 4
 presence: -1
 reason: -1
 roles:
-- Minion Brute
+  - Minion Brute
 scc:
-- mcdm.monsters.v1:monster:soulraker-soldier
+  - mcdm.monsters.v1:monster:soulraker-soldier
 scdc:
-- 1.1.1:2:273
+  - 1.1.1:2:273
 size: '2'
 source: mcdm.monsters.v1
 speed: 6
@@ -30,48 +30,26 @@ stamina: '13'
 type: monster
 ---
 
-```ds-statblock
-name: Soulraker Soldier
-level: 7
-roles:
-  - Minion Brute
-ancestry:
-  - Abyssal
-  - Demon
-  - Soulraker
-ev: 9 for four minions
-stamina: "13"
-weaknesses:
-  - Holy 5
-speed: 6
-size: "2"
-stability: 2
-free_strike: 4
-with_captain: Gain an edge on strikes
-might: 4
-agility: 2
-reason: -1
-intuition: -1
-presence: -1
-traits:
-  - name: Abyssal Buzzing
-    effects:
-      - effect: Any enemy who starts their turn with two or more soulraker minions
-          adjacent to them takes 3 sonic damage.
-abilities:
-  - name: Chitin Bash
-    icon: 🗡
-    cost: Signature Ability
-    keywords:
-      - Melee
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Melee 1
-    target: One creature or object per minion
-    effects:
-      - roll: Power Roll + 4
-        t1: 4 damage; push 2
-        t2: 7 damage; push 2
-        t3: 8 damage; push 4
-```
+###### Soulraker Soldier
+
+| Abyssal, Demon, Soulraker |          -          |       Level 7       |                 Minion Brute                  |   EV 9 for four minions    |
+| :-----------------------: | :-----------------: | :-----------------: | :-------------------------------------------: | :------------------------: |
+|      **2**<br/> Size      |  **6**<br/> Speed   | **13**<br/> Stamina |             **2**<br/> Stability              |   **4**<br/> Free Strike   |
+|    **-**<br/> Immunity    | **-**<br/> Movement |          -          | **Gain an edge on strikes**<br/> With Captain | **Holy 5**<br/> Weaknesses |
+|     **+4**<br/> Might     | **+2**<br/> Agility | **-1**<br/> Reason  |             **-1**<br/> Intuition             |    **-1**<br/> Presence    |
+
+> 🗡 **Chitin Bash (Signature Ability)**
+>
+> | **Melee, Strike, Weapon** |                          **Main action** |
+> | ------------------------- | ---------------------------------------: |
+> | **📏 Melee 1**            | **🎯 One creature or object per minion** |
+>
+> **Power Roll + 4:**
+>
+> - **≤11:** 4 damage; push 2
+> - **12-16:** 7 damage; push 2
+> - **17+:** 8 damage; push 4
+
+> ⭐️ **Abyssal Buzzing**
+>
+> Any enemy who starts their turn with two or more soulraker minions adjacent to them takes 3 sonic damage.

@@ -1,9 +1,9 @@
 ---
 agility: 2
 ancestry:
-- Fey
-- Humanoid
-- Wode Elf
+  - Fey
+  - Humanoid
+  - Wode Elf
 ev: '10'
 file_basename: Wode Elf Gweiadur
 file_dpath: Monsters/Elves Wode/Statblocks
@@ -17,11 +17,11 @@ might: 0
 presence: 0
 reason: 0
 roles:
-- Platoon Artillery
+  - Platoon Artillery
 scc:
-- mcdm.monsters.v1:monster:wode-elf-gweiadur
+  - mcdm.monsters.v1:monster:wode-elf-gweiadur
 scdc:
-- 1.1.1:2:228
+  - 1.1.1:2:228
 size: 1M
 source: mcdm.monsters.v1
 speed: 7
@@ -30,69 +30,44 @@ stamina: '40'
 type: monster
 ---
 
-```ds-statblock
-name: Wode Elf Gweiadur
-level: 3
-roles:
-  - Platoon Artillery
-ancestry:
-  - Fey
-  - Humanoid
-  - Wode Elf
-ev: "10"
-stamina: "40"
-speed: 7
-movement: Climb
-size: 1M
-stability: 0
-free_strike: 5
-might: 0
-agility: 2
-reason: 0
-intuition: 1
-presence: 0
-traits:
-  - name: Masking Glamor
-    effects:
-      - effect: Abilities targeting the gweiadur that would take a bane from cover or
-          concealment have a double bane instead.
-abilities:
-  - name: Snare Bow
-    icon: 🏹
-    cost: Signature Ability
-    keywords:
-      - Ranged
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Ranged 15
-    target: One creature or object
-    effects:
-      - roll: Power Roll + 2
-        t1: 7 damage
-        t2: 11 damage
-        t3: 14 damage; A < 2 restrained (save ends)
-      - effect: The gweiadur shifts up to 3 squares
-        name: Effect
-      - effect: If this ability restrains the target, one enemy adjacent to the target
-          is also restrained (save ends).
-        cost: 3 Malice
-  - name: You Activated My Trap!
-    icon: 🔳
-    cost: 3 Malice
-    keywords:
-      - Area
-      - Magic
-      - Ranged
-    type: Maneuver
-    distance: 3 cube within 10
-    target: Each enemy in the area
-    effects:
-      - roll: Power Roll + 2
-        t1: 4 damage; R < 0 the target is marked (save ends)
-        t2: 6 damage; R < 1 slowed and the target is marked (save ends)
-        t3: 9 damage; R < 2 slowed and the target is marked (save ends)
-      - effect: Allies gain an edge on abilities against a target marked by any wode
-          elf.
-        name: Effect
-```
+###### Wode Elf Gweiadur
+
+| Fey, Humanoid, Wode Elf |            -            |       Level 3       |    Platoon Artillery    |         EV 10          |
+| :---------------------: | :---------------------: | :-----------------: | :---------------------: | :--------------------: |
+|    **1M**<br/> Size     |    **7**<br/> Speed     | **40**<br/> Stamina |  **0**<br/> Stability   | **5**<br/> Free Strike |
+|   **-**<br/> Immunity   | **Climb**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+|    **0**<br/> Might     |   **+2**<br/> Agility   |  **0**<br/> Reason  |  **+1**<br/> Intuition  |  **0**<br/> Presence   |
+
+> 🏹 **Snare Bow (Signature Ability)**
+>
+> | **Ranged, Strike, Weapon** |               **Main action** |
+> | -------------------------- | ----------------------------: |
+> | **📏 Ranged 15**           | **🎯 One creature or object** |
+>
+> **Power Roll + 2:**
+>
+> - **≤11:** 7 damage
+> - **12-16:** 11 damage
+> - **17+:** 14 damage; A < 2 restrained (save ends)
+>
+> **Effect:** The gweiadur shifts up to 3 squares
+>
+> **3 Malice:** If this ability restrains the target, one enemy adjacent to the target is also restrained (save ends).
+
+> 🔳 **You Activated My Trap! (3 Malice)**
+>
+> | **Area, Magic, Ranged** |                  **Maneuver** |
+> | ----------------------- | ----------------------------: |
+> | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
+>
+> **Power Roll + 2:**
+>
+> - **≤11:** 4 damage; R < 0 the target is marked (save ends)
+> - **12-16:** 6 damage; R < 1 slowed and the target is marked (save ends)
+> - **17+:** 9 damage; R < 2 slowed and the target is marked (save ends)
+>
+> **Effect:** Allies gain an edge on abilities against a target marked by any wode elf.
+
+> ⭐️ **Masking Glamor**
+>
+> Abilities targeting the gweiadur that would take a bane from cover or concealment have a double bane instead.

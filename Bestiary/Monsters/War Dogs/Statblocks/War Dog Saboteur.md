@@ -1,9 +1,9 @@
 ---
 agility: 2
 ancestry:
-- Humanoid
-- Soulless
-- War Dog
+  - Humanoid
+  - Soulless
+  - War Dog
 ev: 9 for four minions
 file_basename: War Dog Saboteur
 file_dpath: Monsters/War Dogs/Statblocks
@@ -17,11 +17,11 @@ might: -1
 presence: 1
 reason: 4
 roles:
-- Minion Ambusher
+  - Minion Ambusher
 scc:
-- mcdm.monsters.v1:monster:war-dog-saboteur
+  - mcdm.monsters.v1:monster:war-dog-saboteur
 scdc:
-- 1.1.1:2:375
+  - 1.1.1:2:375
 size: 1S
 source: mcdm.monsters.v1
 speed: 6
@@ -30,48 +30,28 @@ stamina: '12'
 type: monster
 ---
 
-```ds-statblock
-name: War Dog Saboteur
-level: 7
-roles:
-  - Minion Ambusher
-ancestry:
-  - Humanoid
-  - Soulless
-  - War Dog
-ev: 9 for four minions
-stamina: "12"
-speed: 6
-size: 1S
-stability: 0
-free_strike: 4
-with_captain: +5 bonus to ranged distance
-might: -1
-agility: 2
-reason: 4
-intuition: 3
-presence: 1
-traits:
-  - name: Loyalty Collar
-    effects:
-      - effect: When the saboteur is reduced to 0 Stamina, their loyalty collar
-          explodes, dealing 2d6 damage to each adjacent enemy and object.
-abilities:
-  - name: Fuse-Iron Bomb
-    icon: 🏹
-    cost: Signature Ability
-    keywords:
-      - Ranged
-      - Weapon
-    type: Main action
-    distance: Ranged 5
-    target: One creature or object per minion
-    effects:
-      - roll: Power Roll + 4
-        t1: 4 fire damage
-        t2: 7 fire damage; push
-        t3: 8 fire damage; push
-      - effect: The space the target occupies fills with dark smoke and blocks line of
-          effect until the start of the saboteur's next turn
-        name: Effect
-```
+###### War Dog Saboteur
+
+| Humanoid, Soulless, War Dog |          -          |       Level 7       |                  Minion Ambusher                  | EV 9 for four minions  |
+| :-------------------------: | :-----------------: | :-----------------: | :-----------------------------------------------: | :--------------------: |
+|      **1S**<br/> Size       |  **6**<br/> Speed   | **12**<br/> Stamina |               **0**<br/> Stability                | **4**<br/> Free Strike |
+|     **-**<br/> Immunity     | **-**<br/> Movement |          -          | **+5 bonus to ranged distance**<br/> With Captain | **-**<br/> Weaknesses  |
+|      **-1**<br/> Might      | **+2**<br/> Agility | **+4**<br/> Reason  |               **+3**<br/> Intuition               |  **+1**<br/> Presence  |
+
+> 🏹 **Fuse-Iron Bomb (Signature Ability)**
+>
+> | **Ranged, Weapon** |                          **Main action** |
+> | ------------------ | ---------------------------------------: |
+> | **📏 Ranged 5**    | **🎯 One creature or object per minion** |
+>
+> **Power Roll + 4:**
+>
+> - **≤11:** 4 fire damage
+> - **12-16:** 7 fire damage; push
+> - **17+:** 8 fire damage; push
+>
+> **Effect:** The space the target occupies fills with dark smoke and blocks line of effect until the start of the saboteur's next turn
+
+> ⭐️ **Loyalty Collar**
+>
+> When the saboteur is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object.

@@ -1,9 +1,9 @@
 ---
 agility: 3
 ancestry:
-- Devil
-- Hobgoblin
-- Infernal
+  - Devil
+  - Hobgoblin
+  - Infernal
 ev: 6 for four minions
 file_basename: Grilp
 file_dpath: Monsters/Hobgoblins/Statblocks
@@ -17,11 +17,11 @@ might: -1
 presence: 0
 reason: 0
 roles:
-- Minion Ambusher
+  - Minion Ambusher
 scc:
-- mcdm.monsters.v1:monster:grilp
+  - mcdm.monsters.v1:monster:grilp
 scdc:
-- 1.1.1:2:180
+  - 1.1.1:2:180
 size: 1T
 source: mcdm.monsters.v1
 speed: 7
@@ -30,54 +30,32 @@ stamina: '8'
 type: monster
 ---
 
-```ds-statblock
-name: Grilp
-level: 4
-roles:
-  - Minion Ambusher
-ancestry:
-  - Devil
-  - Hobgoblin
-  - Infernal
-ev: 6 for four minions
-stamina: "8"
-immunities:
-  - Fire 2
-speed: 7
-movement: Fly
-size: 1T
-stability: 0
-free_strike: 3
-with_captain: +2 bonus to speed
-might: -1
-agility: 3
-reason: 0
-intuition: 1
-presence: 0
-traits:
-  - name: Bat Out Of Hell
-    effects:
-      - effect: Any enemy who makes a saving throw takes a −1 penalty to the saving
-          throw for each grilp adjacent to them.
-  - name: Shifting Camouflage
-    effects:
-      - effect: The grilp has concealment from all creatures.
-abilities:
-  - name: Flyby Bite
-    icon: 🗡
-    cost: Signature Ability
-    keywords:
-      - Melee
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Melee 1
-    target: One creature or object per minion
-    effects:
-      - roll: Power Roll + 3
-        t1: 3 damage
-        t2: 5 damage
-        t3: 7 damage; the grilp shifts up to 2 squares
-      - effect: The grilp moves up to their speed and can attempt to hide.
-        name: Effect
-```
+###### Grilp
+
+| Devil, Hobgoblin, Infernal |           -           |      Level 4       |             Minion Ambusher             | EV 6 for four minions  |
+| :------------------------: | :-------------------: | :----------------: | :-------------------------------------: | :--------------------: |
+|      **1T**<br/> Size      |   **7**<br/> Speed    | **8**<br/> Stamina |          **0**<br/> Stability           | **3**<br/> Free Strike |
+|  **Fire 2**<br/> Immunity  | **Fly**<br/> Movement |         -          | **+2 bonus to speed**<br/> With Captain | **-**<br/> Weaknesses  |
+|     **-1**<br/> Might      |  **+3**<br/> Agility  | **0**<br/> Reason  |          **+1**<br/> Intuition          |  **0**<br/> Presence   |
+
+> 🗡 **Flyby Bite (Signature Ability)**
+>
+> | **Melee, Strike, Weapon** |                          **Main action** |
+> | ------------------------- | ---------------------------------------: |
+> | **📏 Melee 1**            | **🎯 One creature or object per minion** |
+>
+> **Power Roll + 3:**
+>
+> - **≤11:** 3 damage
+> - **12-16:** 5 damage
+> - **17+:** 7 damage; the grilp shifts up to 2 squares
+>
+> **Effect:** The grilp moves up to their speed and can attempt to hide.
+
+> ⭐️ **Bat Out Of Hell**
+>
+> Any enemy who makes a saving throw takes a −1 penalty to the saving throw for each grilp adjacent to them.
+
+> ⭐️ **Shifting Camouflage**
+>
+> The grilp has concealment from all creatures.

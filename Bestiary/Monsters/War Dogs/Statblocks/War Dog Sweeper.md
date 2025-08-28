@@ -1,9 +1,9 @@
 ---
 agility: 3
 ancestry:
-- Humanoid
-- Soulless
-- War Dog
+  - Humanoid
+  - Soulless
+  - War Dog
 ev: 6 for four minions
 file_basename: War Dog Sweeper
 file_dpath: Monsters/War Dogs/Statblocks
@@ -17,11 +17,11 @@ might: 0
 presence: 0
 reason: 0
 roles:
-- Minion Harrier
+  - Minion Harrier
 scc:
-- mcdm.monsters.v1:monster:war-dog-sweeper
+  - mcdm.monsters.v1:monster:war-dog-sweeper
 scdc:
-- 1.1.1:2:382
+  - 1.1.1:2:382
 size: 1M
 source: mcdm.monsters.v1
 speed: 6
@@ -30,49 +30,28 @@ stamina: '8'
 type: monster
 ---
 
-```ds-statblock
-name: War Dog Sweeper
-level: 4
-roles:
-  - Minion Harrier
-ancestry:
-  - Humanoid
-  - Soulless
-  - War Dog
-ev: 6 for four minions
-stamina: "8"
-speed: 6
-size: 1M
-stability: 0
-free_strike: 2
-with_captain: Gain an edge on strikes
-might: 0
-agility: 3
-reason: 0
-intuition: 2
-presence: 0
-traits:
-  - name: Shrapnel-Laced Loyalty Collar
-    effects:
-      - effect: When the sweeper is reduced to 0 Stamina, their loyalty collar explodes,
-          dealing 1d6 damage to each enemy and object within 2 squares of them.
-abilities:
-  - name: Shrikegun Shot
-    icon: ⚔️
-    cost: Signature Ability
-    keywords:
-      - Melee
-      - Ranged
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Melee 1 or ranged 3
-    target: One creature or object per minion
-    effects:
-      - roll: Power Roll + 3
-        t1: 2 damage
-        t2: 4 damage; push 1
-        t3: 6 damage; push 3
-      - effect: Any target within 2 squares of the sweeper takes an extra 3 damage.
-        name: Effect
-```
+###### War Dog Sweeper
+
+| Humanoid, Soulless, War Dog |          -          |      Level 4       |                Minion Harrier                 | EV 6 for four minions  |
+| :-------------------------: | :-----------------: | :----------------: | :-------------------------------------------: | :--------------------: |
+|      **1M**<br/> Size       |  **6**<br/> Speed   | **8**<br/> Stamina |             **0**<br/> Stability              | **2**<br/> Free Strike |
+|     **-**<br/> Immunity     | **-**<br/> Movement |         -          | **Gain an edge on strikes**<br/> With Captain | **-**<br/> Weaknesses  |
+|      **0**<br/> Might       | **+3**<br/> Agility | **0**<br/> Reason  |             **+2**<br/> Intuition             |  **0**<br/> Presence   |
+
+> ⚔️ **Shrikegun Shot (Signature Ability)**
+>
+> | **Melee, Ranged, Strike, Weapon** |                          **Main action** |
+> | --------------------------------- | ---------------------------------------: |
+> | **📏 Melee 1 or ranged 3**        | **🎯 One creature or object per minion** |
+>
+> **Power Roll + 3:**
+>
+> - **≤11:** 2 damage
+> - **12-16:** 4 damage; push 1
+> - **17+:** 6 damage; push 3
+>
+> **Effect:** Any target within 2 squares of the sweeper takes an extra 3 damage.
+
+> ⭐️ **Shrapnel-Laced Loyalty Collar**
+>
+> When the sweeper is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each enemy and object within 2 squares of them.

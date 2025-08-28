@@ -1,7 +1,7 @@
 ---
 agility: 5
 ancestry:
-- Undead
+  - Undead
 ev: '36'
 file_basename: Vampire Lord
 file_dpath: Monsters/Undead/Statblocks
@@ -15,11 +15,11 @@ might: 2
 presence: 2
 reason: 1
 roles:
-- Leader
+  - Leader
 scc:
-- mcdm.monsters.v1:monster:vampire-lord
+  - mcdm.monsters.v1:monster:vampire-lord
 scdc:
-- 1.1.1:2:72
+  - 1.1.1:2:72
 size: 1M
 source: mcdm.monsters.v1
 speed: 1
@@ -28,108 +28,90 @@ stamina: '2200'
 type: monster
 ---
 
-```ds-statblock
-name: Vampire Lord
-level: 7
-roles:
-  - Leader
-ancestry:
-  - Undead
-ev: "36"
-stamina: "2200"
-immunities:
-  - Corruption 9
-  - poison 9
-speed: 1
-movement: Climb, hover, teleport
-size: 1M
-stability: 3
-free_strike: 7
-might: 2
-agility: 5
-reason: 1
-intuition: 1
-presence: 2
-traits:
-  - name: Lord's Bloodthirst
-    effects:
-      - effect: The vampire has speed 15 and an edge on power rolls while any creature
-          within 20 squares of them is bleeding. Any bleeding creature within 5
-          squares of the vampire can't hide.
-abilities:
-  - name: Crimson Embrace
-    icon: 🗡
-    cost: Signature Ability
-    keywords:
-      - Melee
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Melee 1
-    target: One creature
-    effects:
-      - roll: Power Roll + 5
-        t1: 13 corruption damage; M < 3 bleeding (save ends)
-        t2: 21 corruption damage; M < 4 bleeding (save ends)
-        t3: 24 corruption damage; M < 5 bleeding (save ends)
-      - effect: The vampire regains Stamina equal to half the damage dealt, and can end
-          one effect on them that can be ended by a saving throw
-        name: Effect
-      - effect: The vampire shifts 3 after striking the last target, and can target one
-          additional creature for every 2 malice spent.
-        cost: 2+ Malice
-  - name: Arise, My Children
-    icon: 🏹
-    cost: 2 Malice
-    keywords:
-      - Ranged
-    type: Maneuver
-    distance: Ranged 10
-    target: Special
-    effects:
-      - effect: Two blood-starved vampires appear in unoccupied spaces within distance.
-        name: Effect
-  - name: Redirected Charm
-    icon: ❗️
-    cost: 3 Malice
-    keywords:
-      - Magic
-      - Ranged
-    type: Free triggered action
-    distance: Ranged 5
-    target: One enemy
-    trigger: A creature makes a strike against the vampire.
-    effects:
-      - effect: The target becomes the new target of the strike.
-        name: Effect
-  - name: Let Us Feast!
-    icon: ☠️
-    cost: Villain Action 1
-    keywords:
-      - Ranged
-    type: "-"
-    distance: 20 burst
-    target: Each enemy in the area
-    effects:
-      - effect: Each target who has P < 4 is now bleeding (save ends).
-        name: Effect
-  - name: Red Mist Rising
-    icon: ☠️
-    cost: Villain Action 2
-    keywords:
-      - Area
-      - Magic
-    type: "-"
-    distance: 5 burst
-    target: Each enemy in the area
-    effects:
-      - roll: Power Roll + 5
-        t1: 2 damage; M < 3 6 corruption damage
-        t2: 7 damage; M < 4 6 corruption damage
-        t3: 10 damage; M < 5 6 corruption damage
-      - effect: The vampire turns to mist, filling the area. Until the end of the round,
-          the vampire can't move or be targeted by abilities, but they can use
-          Crimson Embrace against a target in the area. The vampire reforms in
-          an unoccupied space in the area at the end of the round.
-        name: Effect
-```
+###### Vampire Lord
+
+|                  Undead                  |                    -                     |        Level 7        |         Leader          |         EV 36          |
+| :--------------------------------------: | :--------------------------------------: | :-------------------: | :---------------------: | :--------------------: |
+|             **1M**<br/> Size             |             **1**<br/> Speed             | **2200**<br/> Stamina |  **3**<br/> Stability   | **7**<br/> Free Strike |
+| **Corruption 9, poison 9**<br/> Immunity | **Climb, hover, teleport**<br/> Movement |           -           | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+|            **+2**<br/> Might             |           **+5**<br/> Agility            |  **+1**<br/> Reason   |  **+1**<br/> Intuition  |  **+2**<br/> Presence  |
+
+> 🗡 **Crimson Embrace (Signature Ability)**
+>
+> | **Melee, Strike, Weapon** |     **Main action** |
+> | ------------------------- | ------------------: |
+> | **📏 Melee 1**            | **🎯 One creature** |
+>
+> **Power Roll + 5:**
+>
+> - **≤11:** 13 corruption damage; M < 3 bleeding (save ends)
+> - **12-16:** 21 corruption damage; M < 4 bleeding (save ends)
+> - **17+:** 24 corruption damage; M < 5 bleeding (save ends)
+>
+> **Effect:** The vampire regains Stamina equal to half the damage dealt, and can end one effect on them that can be ended by a saving throw
+>
+> **2+ Malice:** The vampire shifts 3 after striking the last target, and can target one additional creature for every 2 malice spent.
+
+> 🏹 **Arise, My Children (2 Malice)**
+>
+> | **Ranged**       |   **Maneuver** |
+> | ---------------- | -------------: |
+> | **📏 Ranged 10** | **🎯 Special** |
+>
+> **Effect:** Two blood-starved vampires appear in unoccupied spaces within distance.
+
+> ❗️ **Redirected Charm (3 Malice)**
+>
+> | **Magic, Ranged** | **Free triggered action** |
+> | ----------------- | ------------------------: |
+> | **📏 Ranged 5**   |          **🎯 One enemy** |
+>
+> **Trigger:** A creature makes a strike against the vampire.
+>
+> **Effect:** The target becomes the new target of the strike.
+
+> ⭐️ **Lord's Bloodthirst**
+>
+> The vampire has speed 15 and an edge on power rolls while any creature within 20 squares of them is bleeding. Any bleeding creature within 5 squares of the vampire can't hide.
+
+> ☠️ **Let Us Feast! (Villain Action 1)**
+>
+> | **Ranged**      |                         **-** |
+> | --------------- | ----------------------------: |
+> | **📏 20 burst** | **🎯 Each enemy in the area** |
+>
+> **Effect:** Each target who has P < 4 is now bleeding (save ends).
+
+> ☠️ **Red Mist Rising (Villain Action 2)**
+>
+> | **Area, Magic** |                         **-** |
+> | --------------- | ----------------------------: |
+> | **📏 5 burst**  | **🎯 Each enemy in the area** |
+>
+> **Power Roll + 5:**
+>
+> - **≤11:** 2 damage; M < 3 6 corruption damage
+> - **12-16:** 7 damage; M < 4 6 corruption damage
+> - **17+:** 10 damage; M < 5 6 corruption damage
+>
+> **Effect:** The vampire turns to mist, filling the area. Until the end of the round, the vampire can't move or be targeted by abilities, but they can use Crimson Embrace against a target in the area. The vampire reforms in an unoccupied space in the area at the end of the round.
+
+☠️ **Sacrifice (Villain Action 3)**
+
+| **Magic, Ranged** |                   **-** |
+| ----------------- | ----------------------: |
+| **📏 Ranged 20**  | **🎯 Each chosen ally** |
+
+**Effect:** Each target is marked for sacrifice. At the end of the round, each target who isn't dead or destroyed takes 50 corruption damage. The vampire then uses the following ability.
+
+**Wave of Blood:**
+
+| **Area, Magic** |                         **-** |
+| --------------- | ----------------------------: |
+| **📏 20 burst** | **🎯 Each enemy in the area** |
+
+**Effect:** Each target makes a **Might test**. This ability deals an extra 5 damage for each creature killed by the Sacrifice villain action
+
+- **≤11:** 11 corruption damage
+- **12-16:** 8 corruption damage
+- **17+:** 2 corruption damage
