@@ -1,8 +1,8 @@
 ---
 agility: 3
 ancestry:
-  - Abyssal
-  - Demon
+- Abyssal
+- Demon
 ev: 12 for four minions
 file_basename: Optacus
 file_dpath: Monsters/Demons/Statblocks
@@ -16,11 +16,11 @@ might: 1
 presence: 1
 reason: 1
 roles:
-  - Minion Artillery
+- Minion Artillery
 scc:
-  - mcdm.monsters.v1:monster:optacus
+- mcdm.monsters.v1:monster:optacus
 scdc:
-  - 1.1.1:2:282
+- 1.1.1:2:282
 size: 1S
 source: mcdm.monsters.v1
 speed: 6
@@ -29,24 +29,48 @@ stamina: '14'
 type: monster
 ---
 
-###### Optacus
-
-|   Abyssal, Demon    |            -            |      Level 10       |            Minion Artillery             |   EV 12 for four minions   |
-| :-----------------: | :---------------------: | :-----------------: | :-------------------------------------: | :------------------------: |
-|  **1S**<br/> Size   |    **6**<br/> Speed     | **14**<br/> Stamina |          **0**<br/> Stability           |   **5**<br/> Free Strike   |
-| **-**<br/> Immunity | **Climb**<br/> Movement |          -          | **+4 bonus to speed**<br/> With Captain | **Holy 5**<br/> Weaknesses |
-|  **+1**<br/> Might  |   **+3**<br/> Agility   | **+1**<br/> Reason  |          **+5**<br/> Intuition          |    **+1**<br/> Presence    |
-
-> 🏹 **Optical Flare (Signature Ability)**
->
-> | **Magic, Ranged, Strike, Weapon** |                          **Main action** |
-> | --------------------------------- | ---------------------------------------: |
-> | **📏 Ranged 20**                  | **🎯 One creature or object per minion** |
->
-> **Power Roll + 5:**
->
-> - **≤11:** 5 fire damage
-> - **12-16:** 8 fire damage
-> - **17+:** 10 fire damage; this damage ignores immunity
->
-> **Effect:** This ability ignores concealment. A winded target takes an extra 5 damage.
+```ds-statblock
+name: Optacus
+level: 10
+roles:
+  - Minion Artillery
+ancestry:
+  - Abyssal
+  - Demon
+ev: 12 for four minions
+stamina: "14"
+weaknesses:
+  - Holy 5
+speed: 6
+movement: Climb
+size: 1S
+stability: 0
+free_strike: 5
+with_captain: +4 bonus to speed
+might: 1
+agility: 3
+reason: 1
+intuition: 5
+presence: 1
+traits: []
+abilities:
+  - name: Optical Flare
+    icon: 🏹
+    cost: Signature Ability
+    keywords:
+      - Magic
+      - Ranged
+      - Strike
+      - Weapon
+    type: Main action
+    distance: Ranged 20
+    target: One creature or object per minion
+    effects:
+      - roll: Power Roll + 5
+        t1: 5 fire damage
+        t2: 8 fire damage
+        t3: 10 fire damage; this damage ignores immunity
+      - effect: This ability ignores concealment. A winded target takes an extra 5
+          damage.
+        name: Effect
+```

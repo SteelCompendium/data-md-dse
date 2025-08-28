@@ -1,8 +1,8 @@
 ---
 agility: 0
 ancestry:
-  - Abyssal
-  - Demon
+- Abyssal
+- Demon
 ev: '9'
 file_basename: Blight Phage
 file_dpath: Monsters/Demons/Statblocks
@@ -16,11 +16,11 @@ might: 0
 presence: 4
 reason: 4
 roles:
-  - Horde Controller
+- Horde Controller
 scc:
-  - mcdm.monsters.v1:monster:blight-phage
+- mcdm.monsters.v1:monster:blight-phage
 scdc:
-  - 1.1.1:2:283
+- 1.1.1:2:283
 size: '3'
 source: mcdm.monsters.v1
 speed: 6
@@ -29,44 +29,73 @@ stamina: '40'
 type: monster
 ---
 
-###### Blight Phage
-
-|   Abyssal, Demon    |          -          |       Level 7       |    Horde Controller     |            EV 9            |
-| :-----------------: | :-----------------: | :-----------------: | :---------------------: | :------------------------: |
-|   **3**<br/> Size   |  **6**<br/> Speed   | **40**<br/> Stamina |  **0**<br/> Stability   |   **3**<br/> Free Strike   |
-| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 5**<br/> Weaknesses |
-|  **+0**<br/> Might  | **+0**<br/> Agility | **+4**<br/> Reason  |  **+2**<br/> Intuition  |    **+4**<br/> Presence    |
-
-> 🏹 **Blight Pus (Signature Ability)**
->
-> | **Magic, Ranged, Strike** |               **Main action** |
-> | ------------------------- | ----------------------------: |
-> | **📏 Ranged 10**          | **🎯 One creature or object** |
->
-> **Power Roll + 4:**
->
-> - **≤11:** 7 corruption damage
-> - **12-16:** 10 corruption damage
-> - **17+:** 11 corruption damage
->
-> **Effect:** A puddle of blight-digested soul juice-covers the ground in the target's square, which is affected as if by Seeping Blight (see the Level 7+ Demon Malice feature).
-
-> 🔳 **Blight Rain (3 Malice)**
->
-> | **Area, Magic**        |                  **Maneuver** |
-> | ---------------------- | ----------------------------: |
-> | **📏 5 cube within 1** | **🎯 Each enemy in the area** |
->
-> **Special:** The blight phage must create the cube beneath themself.
->
-> **Effect:** The blight phage spins and sheds corruptive blight to fill the area, which is treated as if affected by Seeping Blight.
->
-> **2 Malice:** The blight phage chooses three 2 cube areas within 10 squares of the phage. Each area is covered with blight and treated as if affected by Seeping Blight.
-
-> ⭐️ **Lethe**
->
-> While the blight phage is winded, they gain an edge on strikes, and any strike made against them gains an edge.
-
-> ⭐️ **Soulsight**
->
-> Any creature within 2 squares of the blight phage can't be hidden from them.
+```ds-statblock
+name: Blight Phage
+level: 7
+roles:
+  - Horde Controller
+ancestry:
+  - Abyssal
+  - Demon
+ev: "9"
+stamina: "40"
+weaknesses:
+  - Holy 5
+speed: 6
+size: "3"
+stability: 0
+free_strike: 3
+might: 0
+agility: 0
+reason: 4
+intuition: 2
+presence: 4
+traits:
+  - name: Lethe
+    effects:
+      - effect: While the blight phage is winded, they gain an edge on strikes, and any
+          strike made against them gains an edge.
+  - name: Soulsight
+    effects:
+      - effect: Any creature within 2 squares of the blight phage can't be hidden from
+          them.
+abilities:
+  - name: Blight Pus
+    icon: 🏹
+    cost: Signature Ability
+    keywords:
+      - Magic
+      - Ranged
+      - Strike
+    type: Main action
+    distance: Ranged 10
+    target: One creature or object
+    effects:
+      - roll: Power Roll + 4
+        t1: 7 corruption damage
+        t2: 10 corruption damage
+        t3: 11 corruption damage
+      - effect: A puddle of blight-digested soul juice-covers the ground in the target's
+          square, which is affected as if by Seeping Blight (see the Level 7+
+          Demon Malice feature).
+        name: Effect
+  - name: Blight Rain
+    icon: 🔳
+    cost: 3 Malice
+    keywords:
+      - Area
+      - Magic
+    type: Maneuver
+    distance: 5 cube within 1
+    target: Each enemy in the area
+    effects:
+      - effect: The blight phage must create the cube beneath themself.
+        name: Special
+      - effect: The blight phage spins and sheds corruptive blight to fill the area,
+          which is treated as if affected by Seeping Blight.
+        name: Effect
+      - effect: The blight phage chooses three 2 cube areas within 10 squares of the
+          phage. Each area is covered with blight and treated as if affected by
+          Seeping Blight.
+        cost: 2 Malice
+```

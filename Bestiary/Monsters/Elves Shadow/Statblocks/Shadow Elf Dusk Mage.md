@@ -1,9 +1,9 @@
 ---
 agility: 3
 ancestry:
-  - Fey
-  - Humanoid
-  - Shadow Elf
+- Fey
+- Humanoid
+- Shadow Elf
 ev: 6 for four minions
 file_basename: Shadow Elf Dusk Mage
 file_dpath: Monsters/Elves Shadow/Statblocks
@@ -17,11 +17,11 @@ might: 0
 presence: 0
 reason: 2
 roles:
-  - Minion Hexer
+- Minion Hexer
 scc:
-  - mcdm.monsters.v1:monster:shadow-elf-dusk-mage
+- mcdm.monsters.v1:monster:shadow-elf-dusk-mage
 scdc:
-  - 1.1.1:2:209
+- 1.1.1:2:209
 size: 1M
 source: mcdm.monsters.v1
 speed: 5
@@ -30,26 +30,48 @@ stamina: '7'
 type: monster
 ---
 
-###### Shadow Elf Dusk Mage
-
-| Fey, Humanoid, Shadow Elf |            -            |      Level 4       |                 Minion Hexer                  | EV 6 for four minions  |
-| :-----------------------: | :---------------------: | :----------------: | :-------------------------------------------: | :--------------------: |
-|     **1M**<br/> Size      |    **5**<br/> Speed     | **7**<br/> Stamina |             **0**<br/> Stability              | **2**<br/> Free Strike |
-|    **-**<br/> Immunity    | **Climb**<br/> Movement |         -          | **Gain an edge on strikes**<br/> With Captain | **-**<br/> Weaknesses  |
-|     **0**<br/> Might      |   **+3**<br/> Agility   | **+2**<br/> Reason |             **0**<br/> Intuition              |  **0**<br/> Presence   |
-
-> 🏹 **Gloom Bolt (Signature Ability)**
->
-> | **Magic, Ranged, Strike** |                          **Main action** |
-> | ------------------------- | ---------------------------------------: |
-> | **📏 Ranged 5**           | **🎯 One creature or object per minion** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 2 damage
-> - **12-16:** 4 damage; A < 2 slowed (save ends)
-> - **17+:** 6 damage; A < 3 slowed (save ends)
-
-> ⭐️ **Of the Umbra**
->
-> The dusk mage ignores concealment created by darkness. While the dusk mage is in direct sunlight, they have damage weakness 3. While the dusk mage has concealment, they have damage immunity 3.
+```ds-statblock
+name: Shadow Elf Dusk Mage
+level: 4
+roles:
+  - Minion Hexer
+ancestry:
+  - Fey
+  - Humanoid
+  - Shadow Elf
+ev: 6 for four minions
+stamina: "7"
+speed: 5
+movement: Climb
+size: 1M
+stability: 0
+free_strike: 2
+with_captain: Gain an edge on strikes
+might: 0
+agility: 3
+reason: 2
+intuition: 0
+presence: 0
+traits:
+  - name: Of the Umbra
+    effects:
+      - effect: The dusk mage ignores concealment created by darkness. While the dusk
+          mage is in direct sunlight, they have damage weakness 3. While the
+          dusk mage has concealment, they have damage immunity 3.
+abilities:
+  - name: Gloom Bolt
+    icon: 🏹
+    cost: Signature Ability
+    keywords:
+      - Magic
+      - Ranged
+      - Strike
+    type: Main action
+    distance: Ranged 5
+    target: One creature or object per minion
+    effects:
+      - roll: Power Roll + 3
+        t1: 2 damage
+        t2: 4 damage; A < 2 slowed (save ends)
+        t3: 6 damage; A < 3 slowed (save ends)
+```

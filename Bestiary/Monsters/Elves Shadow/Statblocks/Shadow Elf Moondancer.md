@@ -1,9 +1,9 @@
 ---
 agility: 3
 ancestry:
-  - Fey
-  - Humanoid
-  - Shadow Elf
+- Fey
+- Humanoid
+- Shadow Elf
 ev: '14'
 file_basename: Shadow Elf Moondancer
 file_dpath: Monsters/Elves Shadow/Statblocks
@@ -17,11 +17,11 @@ might: 1
 presence: 0
 reason: 1
 roles:
-  - Platoon Harrier
+- Platoon Harrier
 scc:
-  - mcdm.monsters.v1:monster:shadow-elf-moondancer
+- mcdm.monsters.v1:monster:shadow-elf-moondancer
 scdc:
-  - 1.1.1:2:211
+- 1.1.1:2:211
 size: 1M
 source: mcdm.monsters.v1
 speed: 7
@@ -30,38 +30,63 @@ stamina: '70'
 type: monster
 ---
 
-###### Shadow Elf Moondancer
-
-| Fey, Humanoid, Shadow Elf |            -            |       Level 5       |     Platoon Harrier     |         EV 14          |
-| :-----------------------: | :---------------------: | :-----------------: | :---------------------: | :--------------------: |
-|     **1M**<br/> Size      |    **7**<br/> Speed     | **70**<br/> Stamina |  **0**<br/> Stability   | **6**<br/> Free Strike |
-|    **-**<br/> Immunity    | **Climb**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
-|     **+1**<br/> Might     |   **+3**<br/> Agility   | **+1**<br/> Reason  |  **+2**<br/> Intuition  |  **0**<br/> Presence   |
-
-> 🗡 **Crescent Sweep (Signature Ability)**
->
-> | **Charge, Melee, Strike, Weapon** |               **Main action** |
-> | --------------------------------- | ----------------------------: |
-> | **📏 Melee 1**                    | **🎯 One creature or object** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 9 damage
-> - **12-16:** 13 damage
-> - **17+:** 16 damage
->
-> **Effect:** Until the end of the current turn, the moondancer ignores opportunity attacks from the target.
-
-> ❗️ **Dissolve**
->
-> | **Magic**   | **Triggered action** |
-> | ----------- | -------------------: |
-> | **📏 Self** |          **🎯 Self** |
->
-> **Trigger:** The moondancer takes damage from a strike.
->
-> **Effect:** The moondancer can teleport up to 10 squares to a space with concealment created by darkness.
-
-> ⭐️ **Of the Umbra**
->
-> The moondancer ignores concealment created by darkness. While the moondancer is in direct sunlight, they have damage weakness 3. While the moondancer has concealment, they have damage immunity 3.
+```ds-statblock
+name: Shadow Elf Moondancer
+level: 5
+roles:
+  - Platoon Harrier
+ancestry:
+  - Fey
+  - Humanoid
+  - Shadow Elf
+ev: "14"
+stamina: "70"
+speed: 7
+movement: Climb
+size: 1M
+stability: 0
+free_strike: 6
+might: 1
+agility: 3
+reason: 1
+intuition: 2
+presence: 0
+traits:
+  - name: Of the Umbra
+    effects:
+      - effect: The moondancer ignores concealment created by darkness. While the
+          moondancer is in direct sunlight, they have damage weakness 3. While
+          the moondancer has concealment, they have damage immunity 3.
+abilities:
+  - name: Crescent Sweep
+    icon: 🗡
+    cost: Signature Ability
+    keywords:
+      - Charge
+      - Melee
+      - Strike
+      - Weapon
+    type: Main action
+    distance: Melee 1
+    target: One creature or object
+    effects:
+      - roll: Power Roll + 3
+        t1: 9 damage
+        t2: 13 damage
+        t3: 16 damage
+      - effect: Until the end of the current turn, the moondancer ignores opportunity
+          attacks from the target.
+        name: Effect
+  - name: Dissolve
+    icon: ❗️
+    keywords:
+      - Magic
+    type: Triggered action
+    distance: Self
+    target: Self
+    trigger: The moondancer takes damage from a strike.
+    effects:
+      - effect: The moondancer can teleport up to 10 squares to a space with concealment
+          created by darkness.
+        name: Effect
+```

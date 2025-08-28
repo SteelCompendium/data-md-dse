@@ -1,8 +1,8 @@
 ---
 agility: 2
 ancestry:
-  - Humanoid
-  - Radenwight
+- Humanoid
+- Radenwight
 ev: 3 for 4 minions
 file_basename: Radenwight Redeye
 file_dpath: Monsters/Radenwights/Statblocks
@@ -16,11 +16,11 @@ might: 1
 presence: 0
 reason: -1
 roles:
-  - Minion Artillery
+- Minion Artillery
 scc:
-  - mcdm.monsters.v1:monster:radenwight-redeye
+- mcdm.monsters.v1:monster:radenwight-redeye
 scdc:
-  - 1.1.1:2:155
+- 1.1.1:2:155
 size: 1S
 source: mcdm.monsters.v1
 speed: 5
@@ -29,32 +29,54 @@ stamina: '3'
 type: monster
 ---
 
-###### Radenwight Redeye
-
-| Humanoid, Radenwight |            -            |      Level 1       |               Minion Artillery                |   EV 3 for 4 minions   |
-| :------------------: | :---------------------: | :----------------: | :-------------------------------------------: | :--------------------: |
-|   **1S**<br/> Size   |    **5**<br/> Speed     | **3**<br/> Stamina |             **0**<br/> Stability              | **2**<br/> Free Strike |
-| **-**<br/> Immunity  | **Climb**<br/> Movement |         -          | **Gain an edge on strikes**<br/> With Captain | **-**<br/> Weaknesses  |
-|  **+1**<br/> Might   |   **+2**<br/> Agility   | **-1**<br/> Reason |             **0**<br/> Intuition              |  **0**<br/> Presence   |
-
-> 🏹 **Eyes-On-Me-Shot (Signature Ability)**
->
-> | **Ranged, Strike, Weapon** |                          **Main action** |
-> | -------------------------- | ---------------------------------------: |
-> | **📏 Ranged 10**           | **🎯 One creature or object per minion** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 2 damage
-> - **12-16:** 4 damage
-> - **17+:** 5 damage
-
-> ❗️ **Ready Rodent**
->
-> | **Melee, Weapon** | **Triggered action** |
-> | ----------------- | -------------------: |
-> | **📏 Melee 1**    |  **🎯 One creature** |
->
-> **Trigger:** An ally deals damage to the target.
->
-> **Effect:** The redeye makes a free strike against the target.
+```ds-statblock
+name: Radenwight Redeye
+level: 1
+roles:
+  - Minion Artillery
+ancestry:
+  - Humanoid
+  - Radenwight
+ev: 3 for 4 minions
+stamina: "3"
+speed: 5
+movement: Climb
+size: 1S
+stability: 0
+free_strike: 2
+with_captain: Gain an edge on strikes
+might: 1
+agility: 2
+reason: -1
+intuition: 0
+presence: 0
+traits: []
+abilities:
+  - name: Eyes-On-Me-Shot
+    icon: 🏹
+    cost: Signature Ability
+    keywords:
+      - Ranged
+      - Strike
+      - Weapon
+    type: Main action
+    distance: Ranged 10
+    target: One creature or object per minion
+    effects:
+      - roll: Power Roll + 2
+        t1: 2 damage
+        t2: 4 damage
+        t3: 5 damage
+  - name: Ready Rodent
+    icon: ❗️
+    keywords:
+      - Melee
+      - Weapon
+    type: Triggered action
+    distance: Melee 1
+    target: One creature
+    trigger: An ally deals damage to the target.
+    effects:
+      - effect: The redeye makes a free strike against the target.
+        name: Effect
+```

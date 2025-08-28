@@ -1,8 +1,8 @@
 ---
 agility: 2
 ancestry:
-  - Humanoid
-  - Radenwight
+- Humanoid
+- Radenwight
 ev: 3 for 4 minions
 file_basename: Radenwight Swiftpaw
 file_dpath: Monsters/Radenwights/Statblocks
@@ -16,11 +16,11 @@ might: 0
 presence: -1
 reason: 1
 roles:
-  - Minion Harrier
+- Minion Harrier
 scc:
-  - mcdm.monsters.v1:monster:radenwight-swiftpaw
+- mcdm.monsters.v1:monster:radenwight-swiftpaw
 scdc:
-  - 1.1.1:2:156
+- 1.1.1:2:156
 size: 1S
 source: mcdm.monsters.v1
 speed: 7
@@ -29,32 +29,54 @@ stamina: '4'
 type: monster
 ---
 
-###### Radenwight Swiftpaw
-
-| Humanoid, Radenwight |            -            |      Level 1       |                Minion Harrier                 |   EV 3 for 4 minions   |
-| :------------------: | :---------------------: | :----------------: | :-------------------------------------------: | :--------------------: |
-|   **1S**<br/> Size   |    **7**<br/> Speed     | **4**<br/> Stamina |             **0**<br/> Stability              | **1**<br/> Free Strike |
-| **-**<br/> Immunity  | **Climb**<br/> Movement |         -          | **Gain an edge on strikes**<br/> With Captain | **-**<br/> Weaknesses  |
-|   **0**<br/> Might   |   **+2**<br/> Agility   | **+1**<br/> Reason |             **0**<br/> Intuition              |  **-1**<br/> Presence  |
-
-> 🗡 **Rapier Flunge (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |                          **Main action** |
-> | ------------------------- | ---------------------------------------: |
-> | **📏 Melee 1**            | **🎯 One creature or object per minion** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 1 damage; slide 1, the swiftpaw can shift 1 square
-> - **12-16:** 2 damage; slide 2, the swiftpaw shifts up to 2 squares
-> - **17+:** 3 damage; slide 3, the swiftpaw shifts up to 3 squares
-
-> ❗️ **Ready Rodent**
->
-> | **Melee, Weapon** | **Triggered action** |
-> | ----------------- | -------------------: |
-> | **📏 Melee 1**    |  **🎯 One creature** |
->
-> **Trigger:** An ally deals damage to the target.
->
-> **Effect:** The swiftpaw makes a free strike against the targe.
+```ds-statblock
+name: Radenwight Swiftpaw
+level: 1
+roles:
+  - Minion Harrier
+ancestry:
+  - Humanoid
+  - Radenwight
+ev: 3 for 4 minions
+stamina: "4"
+speed: 7
+movement: Climb
+size: 1S
+stability: 0
+free_strike: 1
+with_captain: Gain an edge on strikes
+might: 0
+agility: 2
+reason: 1
+intuition: 0
+presence: -1
+traits: []
+abilities:
+  - name: Rapier Flunge
+    icon: 🗡
+    cost: Signature Ability
+    keywords:
+      - Melee
+      - Strike
+      - Weapon
+    type: Main action
+    distance: Melee 1
+    target: One creature or object per minion
+    effects:
+      - roll: Power Roll + 2
+        t1: 1 damage; slide 1, the swiftpaw can shift 1 square
+        t2: 2 damage; slide 2, the swiftpaw shifts up to 2 squares
+        t3: 3 damage; slide 3, the swiftpaw shifts up to 3 squares
+  - name: Ready Rodent
+    icon: ❗️
+    keywords:
+      - Melee
+      - Weapon
+    type: Triggered action
+    distance: Melee 1
+    target: One creature
+    trigger: An ally deals damage to the target.
+    effects:
+      - effect: The swiftpaw makes a free strike against the targe.
+        name: Effect
+```

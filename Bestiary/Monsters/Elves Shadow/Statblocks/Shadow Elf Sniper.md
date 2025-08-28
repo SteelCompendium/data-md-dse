@@ -1,9 +1,9 @@
 ---
 agility: 3
 ancestry:
-  - Fey
-  - Humanoid
-  - Shadow Elf
+- Fey
+- Humanoid
+- Shadow Elf
 ev: 6 for four minions
 file_basename: Shadow Elf Sniper
 file_dpath: Monsters/Elves Shadow/Statblocks
@@ -17,11 +17,11 @@ might: 1
 presence: 0
 reason: 0
 roles:
-  - Minion Artillery
+- Minion Artillery
 scc:
-  - mcdm.monsters.v1:monster:shadow-elf-sniper
+- mcdm.monsters.v1:monster:shadow-elf-sniper
 scdc:
-  - 1.1.1:2:218
+- 1.1.1:2:218
 size: 1M
 source: mcdm.monsters.v1
 speed: 5
@@ -30,28 +30,50 @@ stamina: '7'
 type: monster
 ---
 
-###### Shadow Elf Sniper
-
-| Fey, Humanoid, Shadow Elf |            -            |      Level 4       |                 Minion Artillery                 | EV 6 for four minions  |
-| :-----------------------: | :---------------------: | :----------------: | :----------------------------------------------: | :--------------------: |
-|     **1M**<br/> Size      |    **5**<br/> Speed     | **7**<br/> Stamina |               **0**<br/> Stability               | **3**<br/> Free Strike |
-|    **-**<br/> Immunity    | **Climb**<br/> Movement |         -          | **+2 damage bonus to strikes**<br/> With Captain | **-**<br/> Weaknesses  |
-|     **+1**<br/> Might     |   **+3**<br/> Agility   | **0**<br/> Reason  |               **0**<br/> Intuition               |  **0**<br/> Presence   |
-
-> 🏹 **Lumina Arrow (Signature Ability)**
->
-> | **Ranged, Strike, Weapon** |                          **Main action** |
-> | -------------------------- | ---------------------------------------: |
-> | **📏 Ranged 7**            | **🎯 One creature or object per minion** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 3 damage
-> - **12-16:** 5 damage
-> - **17+:** 7 damage
->
-> **Effect:** The next strike made against the target gains an edge.
-
-> ⭐️ **Of the Umbra**
->
-> The sniper ignores concealment created by darkness. While the sniper is in direct sunlight, they have damage weakness 3. While the sniper has concealment, they have damage immunity 3.
+```ds-statblock
+name: Shadow Elf Sniper
+level: 4
+roles:
+  - Minion Artillery
+ancestry:
+  - Fey
+  - Humanoid
+  - Shadow Elf
+ev: 6 for four minions
+stamina: "7"
+speed: 5
+movement: Climb
+size: 1M
+stability: 0
+free_strike: 3
+with_captain: +2 damage bonus to strikes
+might: 1
+agility: 3
+reason: 0
+intuition: 0
+presence: 0
+traits:
+  - name: Of the Umbra
+    effects:
+      - effect: The sniper ignores concealment created by darkness. While the sniper is
+          in direct sunlight, they have damage weakness 3. While the sniper has
+          concealment, they have damage immunity 3.
+abilities:
+  - name: Lumina Arrow
+    icon: 🏹
+    cost: Signature Ability
+    keywords:
+      - Ranged
+      - Strike
+      - Weapon
+    type: Main action
+    distance: Ranged 7
+    target: One creature or object per minion
+    effects:
+      - roll: Power Roll + 3
+        t1: 3 damage
+        t2: 5 damage
+        t3: 7 damage
+      - effect: The next strike made against the target gains an edge.
+        name: Effect
+```

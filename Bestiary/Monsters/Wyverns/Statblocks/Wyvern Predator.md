@@ -1,8 +1,8 @@
 ---
 agility: 2
 ancestry:
-  - Beast
-  - Wyvern
+- Beast
+- Wyvern
 ev: '24'
 file_basename: Wyvern Predator
 file_dpath: Monsters/Wyverns/Statblocks
@@ -16,11 +16,11 @@ might: 3
 presence: 0
 reason: -1
 roles:
-  - Elite Brute
+- Elite Brute
 scc:
-  - mcdm.monsters.v1:monster:wyvern-predator
+- mcdm.monsters.v1:monster:wyvern-predator
 scdc:
-  - 1.1.1:2:122
+- 1.1.1:2:122
 size: '3'
 source: mcdm.monsters.v1
 speed: 7
@@ -29,68 +29,100 @@ stamina: '140'
 type: monster
 ---
 
-###### Wyvern Predator
-
-|      Beast, Wyvern       |           -           |       Level 4        |       Elite Brute       |         EV 24          |
-| :----------------------: | :-------------------: | :------------------: | :---------------------: | :--------------------: |
-|     **3**<br/> Size      |   **7**<br/> Speed    | **140**<br/> Stamina |  **3**<br/> Stability   | **6**<br/> Free Strike |
-| **Acid 5**<br/> Immunity | **Fly**<br/> Movement |          -           | **-**<br/> With Captain | **-**<br/> Weaknesses  |
-|    **+3**<br/> Might     |  **+2**<br/> Agility  |  **-1**<br/> Reason  |  **+1**<br/> Intuition  |  **0**<br/> Presence   |
-
-> 🗡 **Sedating Stinger (Signature Ability)**
->
-> | **Magic, Strike, Weapon** |                 **Main action** |
-> | ------------------------- | ------------------------------: |
-> | **📏 Melee 3**            | **🎯 Two creatures or objects** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 9 damage
-> - **12-16:** 14 damage; M < 2 slowed (save ends)
-> - **17+:** 17 damage; M < 3 slowed (save ends)
->
-> **Effect:** If a target slowed this way is already slowed, they are instead restrained (save ends).
-
-> 🔳 **Tail Sweep**
->
-> | **Area, Weapon**           |                          **Main action** |
-> | -------------------------- | ---------------------------------------: |
-> | **📏 6 x 3 line within 1** | **🎯 Each enemy and object in the area** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 6 damage; A < 1 3 acid damage
-> - **12-16:** 11 damage; A < 2 3 acid damage
-> - **17+:** 14 damage; A < 3 3 acid damage
->
-> **5 Malice:** The predator uses this ability a second time, either recreating the same line or creating a new line.
-
-> 🗡 **Grasping Jaws (2 Malice)**
->
-> | **Magic, Strike, Weapon** |                  **Maneuver** |
-> | ------------------------- | ----------------------------: |
-> | **📏 Melee 2**            | **🎯 One creature or object** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 9 damage; A < 1 grabbed
-> - **12-16:** 14 damage; A < 2 grabbed
-> - **17+:** 17 damage; A < 3 grabbed and the target takes a bane on the Escape Grab maneuver
-
-> ❗️ **Deterring Sting (1 Malice)**
->
-> | **Melee**      |           **Triggered action** |
-> | -------------- | -----------------------------: |
-> | **📏 Melee 3** | **🎯 The triggering creature** |
->
-> **Trigger:** A creature within distance deals damage to the predator with a melee ability.
->
-> **Effect:** The predator uses Sedating Stinger against the target, then shifts up to 3 squares
-
-> ⭐️ **Stubborn Rage**
->
-> While winded or within 10 squares of another wyvern, the predator can't be made dazed or frightened.
-
-> ⭐️ **Tenacious Hunter**
->
-> Any creature affected by a condition imposed by a wyvern can't be hidden from the predator.
+```ds-statblock
+name: Wyvern Predator
+level: 4
+roles:
+  - Elite Brute
+ancestry:
+  - Beast
+  - Wyvern
+ev: "24"
+stamina: "140"
+immunities:
+  - Acid 5
+speed: 7
+movement: Fly
+size: "3"
+stability: 3
+free_strike: 6
+might: 3
+agility: 2
+reason: -1
+intuition: 1
+presence: 0
+traits:
+  - name: Stubborn Rage
+    effects:
+      - effect: While winded or within 10 squares of another wyvern, the predator can't
+          be made dazed or frightened.
+  - name: Tenacious Hunter
+    effects:
+      - effect: Any creature affected by a condition imposed by a wyvern can't be hidden
+          from the predator.
+abilities:
+  - name: Sedating Stinger
+    icon: 🗡
+    cost: Signature Ability
+    keywords:
+      - Magic
+      - Strike
+      - Weapon
+    type: Main action
+    distance: Melee 3
+    target: Two creatures or objects
+    effects:
+      - roll: Power Roll + 3
+        t1: 9 damage
+        t2: 14 damage; M < 2 slowed (save ends)
+        t3: 17 damage; M < 3 slowed (save ends)
+      - effect: If a target slowed this way is already slowed, they are instead
+          restrained (save ends).
+        name: Effect
+  - name: Tail Sweep
+    icon: 🔳
+    keywords:
+      - Area
+      - Weapon
+    type: Main action
+    distance: 6 x 3 line within 1
+    target: Each enemy and object in the area
+    effects:
+      - roll: Power Roll + 3
+        t1: 6 damage; A < 1 3 acid damage
+        t2: 11 damage; A < 2 3 acid damage
+        t3: 14 damage; A < 3 3 acid damage
+      - effect: The predator uses this ability a second time, either recreating the same
+          line or creating a new line.
+        cost: 5 Malice
+  - name: Grasping Jaws
+    icon: 🗡
+    cost: 2 Malice
+    keywords:
+      - Magic
+      - Strike
+      - Weapon
+    type: Maneuver
+    distance: Melee 2
+    target: One creature or object
+    effects:
+      - roll: Power Roll + 3
+        t1: 9 damage; A < 1 grabbed
+        t2: 14 damage; A < 2 grabbed
+        t3: 17 damage; A < 3 grabbed and the target takes a bane on the Escape Grab
+          maneuver
+  - name: Deterring Sting
+    icon: ❗️
+    cost: 1 Malice
+    keywords:
+      - Melee
+    type: Triggered action
+    distance: Melee 3
+    target: The triggering creature
+    trigger: A creature within distance deals damage to the predator with a melee
+      ability.
+    effects:
+      - effect: The predator uses Sedating Stinger against the target, then shifts up to
+          3 squares
+        name: Effect
+```

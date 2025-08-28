@@ -1,9 +1,9 @@
 ---
 agility: 2
 ancestry:
-  - Fey
-  - Humanoid
-  - Wode Elf
+- Fey
+- Humanoid
+- Wode Elf
 ev: '8'
 file_basename: Wode Elf Chirurgeon
 file_dpath: Monsters/Elves Wode/Statblocks
@@ -17,11 +17,11 @@ might: 1
 presence: 1
 reason: 0
 roles:
-  - Platoon Harrier
+- Platoon Harrier
 scc:
-  - mcdm.monsters.v1:monster:wode-elf-chirurgeon
+- mcdm.monsters.v1:monster:wode-elf-chirurgeon
 scdc:
-  - 1.1.1:2:235
+- 1.1.1:2:235
 size: 1M
 source: mcdm.monsters.v1
 speed: 7
@@ -30,38 +30,65 @@ stamina: '40'
 type: monster
 ---
 
-###### Wode Elf Chirurgeon
-
-| Fey, Humanoid, Wode Elf |            -            |       Level 2       |     Platoon Harrier     |          EV 8          |
-| :---------------------: | :---------------------: | :-----------------: | :---------------------: | :--------------------: |
-|    **1M**<br/> Size     |    **7**<br/> Speed     | **40**<br/> Stamina |  **0**<br/> Stability   | **4**<br/> Free Strike |
-|   **-**<br/> Immunity   | **Climb**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
-|    **+1**<br/> Might    |   **+2**<br/> Agility   |  **0**<br/> Reason  |  **0**<br/> Intuition   |  **+1**<br/> Presence  |
-
-> ⚔️ **Wild Ax (Signature Ability)**
->
-> | **Charge, Melee, Ranged, Strike, Weapon** |               **Main action** |
-> | ----------------------------------------- | ----------------------------: |
-> | **📏 Melee 1 or ranged 5**                | **🎯 One creature or object** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 6 damage; push 1
-> - **12-16:** 9 damage; push 3
-> - **17+:** 12 damage; push 5
->
-> **Effect:** The chirurgeon can make a ranged free strike before using this ability.
->
-> **5 Malice:** The chirurgeon uses this ability again.
-
-> 🏹 **The Wode Protects Us (3 Malice)**
->
-> | **Magic, Ranged** |                 **Maneuver** |
-> | ----------------- | ---------------------------: |
-> | **📏 Ranged 5**   | **🎯 Self and three allies** |
->
-> **Effect:** Each target can teleport up to 10 squares to a space that has cover or concealment.
-
-> ⭐️ **Masking Glamor**
->
-> Abilities targeting the chirurgeon that would take a bane from cover or concealment have a double bane instead.
+```ds-statblock
+name: Wode Elf Chirurgeon
+level: 2
+roles:
+  - Platoon Harrier
+ancestry:
+  - Fey
+  - Humanoid
+  - Wode Elf
+ev: "8"
+stamina: "40"
+speed: 7
+movement: Climb
+size: 1M
+stability: 0
+free_strike: 4
+might: 1
+agility: 2
+reason: 0
+intuition: 0
+presence: 1
+traits:
+  - name: Masking Glamor
+    effects:
+      - effect: Abilities targeting the chirurgeon that would take a bane from cover or
+          concealment have a double bane instead.
+abilities:
+  - name: Wild Ax
+    icon: ⚔️
+    cost: Signature Ability
+    keywords:
+      - Charge
+      - Melee
+      - Ranged
+      - Strike
+      - Weapon
+    type: Main action
+    distance: Melee 1 or ranged 5
+    target: One creature or object
+    effects:
+      - roll: Power Roll + 2
+        t1: 6 damage; push 1
+        t2: 9 damage; push 3
+        t3: 12 damage; push 5
+      - effect: The chirurgeon can make a ranged free strike before using this ability.
+        name: Effect
+      - effect: The chirurgeon uses this ability again.
+        cost: 5 Malice
+  - name: The Wode Protects Us
+    icon: 🏹
+    cost: 3 Malice
+    keywords:
+      - Magic
+      - Ranged
+    type: Maneuver
+    distance: Ranged 5
+    target: Self and three allies
+    effects:
+      - effect: Each target can teleport up to 10 squares to a space that has cover or
+          concealment.
+        name: Effect
+```

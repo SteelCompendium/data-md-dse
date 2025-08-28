@@ -1,8 +1,8 @@
 ---
 agility: 2
 ancestry:
-  - Humanoid
-  - Kobold
+- Humanoid
+- Kobold
 ev: 3 for four minions
 file_basename: Kobold Veles
 file_dpath: Monsters/Kobolds/Statblocks
@@ -16,11 +16,11 @@ might: 0
 presence: 0
 reason: 0
 roles:
-  - Minion Harrier
+- Minion Harrier
 scc:
-  - mcdm.monsters.v1:monster:kobold-veles
+- mcdm.monsters.v1:monster:kobold-veles
 scdc:
-  - 1.1.1:2:95
+- 1.1.1:2:95
 size: 1S
 source: mcdm.monsters.v1
 speed: 6
@@ -29,28 +29,49 @@ stamina: '4'
 type: monster
 ---
 
-###### Kobold Veles
-
-|  Humanoid, Kobold   |          -          |      Level 1       |             Minion Harrier              | EV 3 for four minions  |
-| :-----------------: | :-----------------: | :----------------: | :-------------------------------------: | :--------------------: |
-|  **1S**<br/> Size   |  **6**<br/> Speed   | **4**<br/> Stamina |          **0**<br/> Stability           | **1**<br/> Free Strike |
-| **-**<br/> Immunity | **-**<br/> Movement |         -          | **+1 bonus to speed**<br/> With Captain | **-**<br/> Weaknesses  |
-|  **0**<br/> Might   | **+2**<br/> Agility | **0**<br/> Reason  |          **0**<br/> Intuition           |  **0**<br/> Presence   |
-
-> ⚔️ **Pilium (Signature Ability)**
->
-> | **Melee, Ranged, Strike, Weapon** |                          **Main action** |
-> | --------------------------------- | ---------------------------------------: |
-> | **📏 Melee 1 or Ranged 5**        | **🎯 One creature or object per minion** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 1 damage
-> - **12-16:** 2 damage
-> - **17+:** 3 damage
->
-> **Effect:** Until the start of the veles's next turn, the target can't make opportunity attacks against any kobold.
-
-> ⭐️ **Shield? Shield!**
->
-> While adjacent to an ally who also has this trait, the veles has stability 1, has cover, and grants cover to allies.
+```ds-statblock
+name: Kobold Veles
+level: 1
+roles:
+  - Minion Harrier
+ancestry:
+  - Humanoid
+  - Kobold
+ev: 3 for four minions
+stamina: "4"
+speed: 6
+size: 1S
+stability: 0
+free_strike: 1
+with_captain: +1 bonus to speed
+might: 0
+agility: 2
+reason: 0
+intuition: 0
+presence: 0
+traits:
+  - name: Shield? Shield!
+    effects:
+      - effect: While adjacent to an ally who also has this trait, the veles has
+          stability 1, has cover, and grants cover to allies.
+abilities:
+  - name: Pilium
+    icon: ⚔️
+    cost: Signature Ability
+    keywords:
+      - Melee
+      - Ranged
+      - Strike
+      - Weapon
+    type: Main action
+    distance: Melee 1 or Ranged 5
+    target: One creature or object per minion
+    effects:
+      - roll: Power Roll + 2
+        t1: 1 damage
+        t2: 2 damage
+        t3: 3 damage
+      - effect: Until the start of the veles's next turn, the target can't make
+          opportunity attacks against any kobold.
+        name: Effect
+```

@@ -1,8 +1,8 @@
 ---
 agility: 0
 ancestry:
-  - Dwarf
-  - Humanoid
+- Dwarf
+- Humanoid
 ev: 3 for 4 minions
 file_basename: Dwarf Catchpole
 file_dpath: Monsters/Dwarves/Statblocks
@@ -16,11 +16,11 @@ might: 2
 presence: 0
 reason: 0
 roles:
-  - Minion Brute
+- Minion Brute
 scc:
-  - mcdm.monsters.v1:monster:dwarf-catchpole
+- mcdm.monsters.v1:monster:dwarf-catchpole
 scdc:
-  - 1.1.1:2:398
+- 1.1.1:2:398
 size: 1M
 source: mcdm.monsters.v1
 speed: 5
@@ -29,24 +29,44 @@ stamina: '7'
 type: monster
 ---
 
-###### Dwarf Catchpole
-
-|   Dwarf, Humanoid   |          -          |      Level 1       |               Minion Brute                |   EV 3 for 4 minions   |
-| :-----------------: | :-----------------: | :----------------: | :---------------------------------------: | :--------------------: |
-|  **1M**<br/> Size   |  **5**<br/> Speed   | **7**<br/> Stamina |           **2**<br/> Stability            | **2**<br/> Free Strike |
-| **-**<br/> Immunity | **-**<br/> Movement |         -          | **+2 bonus to Stamina**<br/> With Captain | **-**<br/> Weaknesses  |
-|  **+2**<br/> Might  | **+0**<br/> Agility | **+0**<br/> Reason |           **+0**<br/> Intuition           |  **+0**<br/> Presence  |
-
-> 🗡 **Maul (Signature Ability)**
->
-> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
-> | --------------------------------- | ---------------------------------------: |
-> | **📏 Melee 1**                    | **🎯 One creature or object per minion** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 2 damage
-> - **12-16:** 4 damage
-> - **17+:** 5 damage; grabbed or prone
->
-> **Effect:** If the target is restrained, they take an extra 2 damage.
+```ds-statblock
+name: Dwarf Catchpole
+level: 1
+roles:
+  - Minion Brute
+ancestry:
+  - Dwarf
+  - Humanoid
+ev: 3 for 4 minions
+stamina: "7"
+speed: 5
+size: 1M
+stability: 2
+free_strike: 2
+with_captain: +2 bonus to Stamina
+might: 2
+agility: 0
+reason: 0
+intuition: 0
+presence: 0
+traits: []
+abilities:
+  - name: Maul
+    icon: 🗡
+    cost: Signature Ability
+    keywords:
+      - Charge
+      - Melee
+      - Strike
+      - Weapon
+    type: Main action
+    distance: Melee 1
+    target: One creature or object per minion
+    effects:
+      - roll: Power Roll + 2
+        t1: 2 damage
+        t2: 4 damage
+        t3: 5 damage; grabbed or prone
+      - effect: If the target is restrained, they take an extra 2 damage.
+        name: Effect
+```

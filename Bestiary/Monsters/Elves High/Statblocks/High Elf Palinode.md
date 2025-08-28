@@ -1,9 +1,9 @@
 ---
 agility: 0
 ancestry:
-  - Fey
-  - High Elf
-  - Humanoid
+- Fey
+- High Elf
+- Humanoid
 ev: '6'
 file_basename: High Elf Palinode
 file_dpath: Monsters/Elves High/Statblocks
@@ -17,11 +17,11 @@ might: 0
 presence: 1
 reason: 0
 roles:
-  - Platoon Support
+- Platoon Support
 scc:
-  - mcdm.monsters.v1:monster:high-elf-palinode
+- mcdm.monsters.v1:monster:high-elf-palinode
 scdc:
-  - 1.1.1:2:111
+- 1.1.1:2:111
 size: 1M
 source: mcdm.monsters.v1
 speed: 5
@@ -30,36 +30,64 @@ stamina: '30'
 type: monster
 ---
 
-###### High Elf Palinode
-
-|   Fey, High Elf, Humanoid   |          -          |       Level 1       |     Platoon Support     |          EV 6          |
-| :-------------------------: | :-----------------: | :-----------------: | :---------------------: | :--------------------: |
-|      **1M**<br/> Size       |  **5**<br/> Speed   | **30**<br/> Stamina |  **0**<br/> Stability   | **3**<br/> Free Strike |
-| **Psychic 5**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
-|      **0**<br/> Might       | **0**<br/> Agility  |  **0**<br/> Reason  |  **+2**<br/> Intuition  |  **+1**<br/> Presence  |
-
-> 🏹 **Instill Regret (Signature Ability)**
->
-> | **Magic, Ranged, Strike** |     **Main action** |
-> | ------------------------- | ------------------: |
-> | **📏 Ranged 8**           | **🎯 One creature** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 5 psychic damage
-> - **12-16:** 7 psychic damage; I < 1 weakened (save ends)
-> - **17+:** 9 psychic damage; I < 2 weakened (save ends)
->
-> **2 Malice:** The potency increases by 1. If the target is weakened this way at the end of the encounter, they can't take a respite activity during their next respite.
-
-> 🏹 **Recall**
->
-> | **Magic, Ranged** |      **Maneuver** |
-> | ----------------- | ----------------: |
-> | **📏 Ranged 5**   | **🎯 Two allies** |
->
-> **Effect:** Each target can teleport to an unoccupied space adjacent to the palinode. The palinode and each target then gain 5 temporary Stamina.
-
-> ⭐️ **Otherworldly Grace**
->
-> At the start of each of their turns, the palinode can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn.
+```ds-statblock
+name: High Elf Palinode
+level: 1
+roles:
+  - Platoon Support
+ancestry:
+  - Fey
+  - High Elf
+  - Humanoid
+ev: "6"
+stamina: "30"
+immunities:
+  - Psychic 5
+speed: 5
+size: 1M
+stability: 0
+free_strike: 3
+might: 0
+agility: 0
+reason: 0
+intuition: 2
+presence: 1
+traits:
+  - name: Otherworldly Grace
+    effects:
+      - effect: At the start of each of their turns, the palinode can choose one effect
+          on them that can be ended by a saving throw. That effect instead ends
+          at the end of their turn.
+abilities:
+  - name: Instill Regret
+    icon: 🏹
+    cost: Signature Ability
+    keywords:
+      - Magic
+      - Ranged
+      - Strike
+    type: Main action
+    distance: Ranged 8
+    target: One creature
+    effects:
+      - roll: Power Roll + 2
+        t1: 5 psychic damage
+        t2: 7 psychic damage; I < 1 weakened (save ends)
+        t3: 9 psychic damage; I < 2 weakened (save ends)
+      - effect: The potency increases by 1. If the target is weakened this way at the
+          end of the encounter, they can't take a respite activity during their
+          next respite.
+        cost: 2 Malice
+  - name: Recall
+    icon: 🏹
+    keywords:
+      - Magic
+      - Ranged
+    type: Maneuver
+    distance: Ranged 5
+    target: Two allies
+    effects:
+      - effect: Each target can teleport to an unoccupied space adjacent to the
+          palinode. The palinode and each target then gain 5 temporary Stamina.
+        name: Effect
+```

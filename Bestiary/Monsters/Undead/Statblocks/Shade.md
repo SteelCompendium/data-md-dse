@@ -1,7 +1,7 @@
 ---
 agility: 1
 ancestry:
-  - Undead
+- Undead
 ev: 3 for four minions
 file_basename: Shade
 file_dpath: Monsters/Undead/Statblocks
@@ -15,11 +15,11 @@ might: -5
 presence: 2
 reason: 0
 roles:
-  - Minion Ambusher
+- Minion Ambusher
 scc:
-  - mcdm.monsters.v1:monster:shade
+- mcdm.monsters.v1:monster:shade
 scdc:
-  - 1.1.1:2:65
+- 1.1.1:2:65
 size: 1M
 source: mcdm.monsters.v1
 speed: 5
@@ -28,26 +28,52 @@ stamina: '4'
 type: monster
 ---
 
-###### Shade
-
-|                  Undead                  |              -               |      Level 1       |             Minion Ambusher             | EV 3 for four minions  |
-| :--------------------------------------: | :--------------------------: | :----------------: | :-------------------------------------: | :--------------------: |
-|             **1M**<br/> Size             |       **5**<br/> Speed       | **4**<br/> Stamina |          **1**<br/> Stability           | **2**<br/> Free Strike |
-| **Corruption 1, poison 1**<br/> Immunity | **Fly, hover**<br/> Movement |         -          | **+2 bonus to speed**<br/> With Captain | **-**<br/> Weaknesses  |
-|            **-5**<br/> Might             |     **+1**<br/> Agility      | **0**<br/> Reason  |          **0**<br/> Intuition           |  **+2**<br/> Presence  |
-
-> 🗡 **Life Drain (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |                          **Main action** |
-> | ------------------------- | ---------------------------------------: |
-> | **📏 Melee 1**            | **🎯 One creature or object per minion** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 2 corruption damage
-> - **12-16:** 4 corruption damage
-> - **17+:** 5 corruption damage; the target must move up to their speed and can't end that movement closer to any shade
-
-> ⭐️ **Shadow Phasing**
->
-> The shade can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the shade moves through a creature, that creature takes 1 corruption damage. The shade doesn't take damage from being force moved into objects.
+```ds-statblock
+name: Shade
+level: 1
+roles:
+  - Minion Ambusher
+ancestry:
+  - Undead
+ev: 3 for four minions
+stamina: "4"
+immunities:
+  - Corruption 1
+  - poison 1
+speed: 5
+movement: Fly, hover
+size: 1M
+stability: 1
+free_strike: 2
+with_captain: +2 bonus to speed
+might: -5
+agility: 1
+reason: 0
+intuition: 0
+presence: 2
+traits:
+  - name: Shadow Phasing
+    effects:
+      - effect: The shade can move through creatures and objects at their usual speed,
+          but can't end their turn inside a creature or object. The first time
+          in a round that the shade moves through a creature, that creature
+          takes 1 corruption damage. The shade doesn't take damage from being
+          force moved into objects.
+abilities:
+  - name: Life Drain
+    icon: 🗡
+    cost: Signature Ability
+    keywords:
+      - Melee
+      - Strike
+      - Weapon
+    type: Main action
+    distance: Melee 1
+    target: One creature or object per minion
+    effects:
+      - roll: Power Roll + 2
+        t1: 2 corruption damage
+        t2: 4 corruption damage
+        t3: 5 corruption damage; the target must move up to their speed and can't end
+          that movement closer to any shade
+```

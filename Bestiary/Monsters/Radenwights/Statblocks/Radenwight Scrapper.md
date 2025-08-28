@@ -1,8 +1,8 @@
 ---
 agility: 1
 ancestry:
-  - Humanoid
-  - Radenwight
+- Humanoid
+- Radenwight
 ev: 3 for 4 minions
 file_basename: Radenwight Scrapper
 file_dpath: Monsters/Radenwights/Statblocks
@@ -16,11 +16,11 @@ might: -1
 presence: 2
 reason: 0
 roles:
-  - Minion Defender
+- Minion Defender
 scc:
-  - mcdm.monsters.v1:monster:radenwight-scrapper
+- mcdm.monsters.v1:monster:radenwight-scrapper
 scdc:
-  - 1.1.1:2:154
+- 1.1.1:2:154
 size: 1S
 source: mcdm.monsters.v1
 speed: 5
@@ -29,32 +29,55 @@ stamina: '5'
 type: monster
 ---
 
-###### Radenwight Scrapper
-
-| Humanoid, Radenwight |            -            |      Level 1       |                 Minion Defender                  |   EV 3 for 4 minions   |
-| :------------------: | :---------------------: | :----------------: | :----------------------------------------------: | :--------------------: |
-|   **1S**<br/> Size   |    **5**<br/> Speed     | **5**<br/> Stamina |               **1**<br/> Stability               | **1**<br/> Free Strike |
-| **-**<br/> Immunity  | **Climb**<br/> Movement |         -          | **+2 bonus to melee distance**<br/> With Captain | **-**<br/> Weaknesses  |
-|  **-1**<br/> Might   |   **+1**<br/> Agility   | **0**<br/> Reason  |               **0**<br/> Intuition               |  **+2**<br/> Presence  |
-
-> 🗡 **Buckler Bash (Signature Ability)**
->
-> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
-> | --------------------------------- | ---------------------------------------: |
-> | **📏 Melee 1**                    | **🎯 One creature or object per minion** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 1 damage
-> - **12-16:** 2 damage; taunted (EoT)
-> - **17+:** 3 damage; taunted (EoT)
-
-> ❗️ **Ready Rodent**
->
-> | **Melee, Weapon** | **Triggered action** |
-> | ----------------- | -------------------: |
-> | **📏 Melee 1**    |  **🎯 One creature** |
->
-> **Trigger:** An ally deals damage to the target.
->
-> **Effect:** The scrapper makes a free strike against the target.
+```ds-statblock
+name: Radenwight Scrapper
+level: 1
+roles:
+  - Minion Defender
+ancestry:
+  - Humanoid
+  - Radenwight
+ev: 3 for 4 minions
+stamina: "5"
+speed: 5
+movement: Climb
+size: 1S
+stability: 1
+free_strike: 1
+with_captain: +2 bonus to melee distance
+might: -1
+agility: 1
+reason: 0
+intuition: 0
+presence: 2
+traits: []
+abilities:
+  - name: Buckler Bash
+    icon: 🗡
+    cost: Signature Ability
+    keywords:
+      - Charge
+      - Melee
+      - Strike
+      - Weapon
+    type: Main action
+    distance: Melee 1
+    target: One creature or object per minion
+    effects:
+      - roll: Power Roll + 2
+        t1: 1 damage
+        t2: 2 damage; taunted (EoT)
+        t3: 3 damage; taunted (EoT)
+  - name: Ready Rodent
+    icon: ❗️
+    keywords:
+      - Melee
+      - Weapon
+    type: Triggered action
+    distance: Melee 1
+    target: One creature
+    trigger: An ally deals damage to the target.
+    effects:
+      - effect: The scrapper makes a free strike against the target.
+        name: Effect
+```

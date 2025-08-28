@@ -1,8 +1,8 @@
 ---
 agility: 3
 ancestry:
-  - Undead
-  - Vampire
+- Undead
+- Vampire
 ev: '6'
 file_basename: Vampire Spawn
 file_dpath: Monsters/Undead/Statblocks
@@ -16,11 +16,11 @@ might: 2
 presence: 2
 reason: -1
 roles:
-  - Horde Harrier
+- Horde Harrier
 scc:
-  - mcdm.monsters.v1:monster:vampire-spawn
+- mcdm.monsters.v1:monster:vampire-spawn
 scdc:
-  - 1.1.1:2:54
+- 1.1.1:2:54
 size: 1M
 source: mcdm.monsters.v1
 speed: 5
@@ -29,38 +29,65 @@ stamina: '30'
 type: monster
 ---
 
-###### Vampire Spawn
-
-|             Undead, Vampire              |            -            |       Level 4       |      Horde Harrier      |          EV 6          |
-| :--------------------------------------: | :---------------------: | :-----------------: | :---------------------: | :--------------------: |
-|             **1M**<br/> Size             |    **5**<br/> Speed     | **30**<br/> Stamina |  **0**<br/> Stability   | **2**<br/> Free Strike |
-| **Corruption 4, poison 4**<br/> Immunity | **Climb**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
-|            **+2**<br/> Might             |   **+3**<br/> Agility   | **-1**<br/> Reason  |  **+1**<br/> Intuition  |  **+2**<br/> Presence  |
-
-> 🗡 **Exsanguinating Bite (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |               **Main action** |
-> | ------------------------- | ----------------------------: |
-> | **📏 Melee 1**            | **🎯 One creature or object** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 5 damage
-> - **12-16:** 7 corruption damage; M < 2 bleeding (save ends)
-> - **17+:** 9 corruption damage; M < 3 bleeding (save ends)
->
-> **Effect:** The vampire spawn regains Stamina equal to any corruption damage dealt.
->
-> **1 Malice:** The target takes an additional 3 corruption damage.
-
-> 👤 **Vampiric Celerity**
->
-> | **-**       | **Maneuver** |
-> | ----------- | -----------: |
-> | **📏 Self** |  **🎯 Self** |
->
-> **Effect:** The vampire spawn can shift 1 square, then move up to their speed. The next ability the vampire uses before the start of their next turn gains an edge.
-
-> ⭐️ **Unslakable Bloodthirst**
->
-> The vampire spawn has speed 10 while any creature within 10 squares of them is bleeding. The vampire spawn must use Exsanguinating Bite against a bleeding creature on their turn if they are able to.
+```ds-statblock
+name: Vampire Spawn
+level: 4
+roles:
+  - Horde Harrier
+ancestry:
+  - Undead
+  - Vampire
+ev: "6"
+stamina: "30"
+immunities:
+  - Corruption 4
+  - poison 4
+speed: 5
+movement: Climb
+size: 1M
+stability: 0
+free_strike: 2
+might: 2
+agility: 3
+reason: -1
+intuition: 1
+presence: 2
+traits:
+  - name: Unslakable Bloodthirst
+    effects:
+      - effect: The vampire spawn has speed 10 while any creature within 10 squares of
+          them is bleeding. The vampire spawn must use Exsanguinating Bite
+          against a bleeding creature on their turn if they are able to.
+abilities:
+  - name: Exsanguinating Bite
+    icon: 🗡
+    cost: Signature Ability
+    keywords:
+      - Melee
+      - Strike
+      - Weapon
+    type: Main action
+    distance: Melee 1
+    target: One creature or object
+    effects:
+      - roll: Power Roll + 3
+        t1: 5 damage
+        t2: 7 corruption damage; M < 2 bleeding (save ends)
+        t3: 9 corruption damage; M < 3 bleeding (save ends)
+      - effect: The vampire spawn regains Stamina equal to any corruption damage dealt.
+        name: Effect
+      - effect: The target takes an additional 3 corruption damage.
+        cost: 1 Malice
+  - name: Vampiric Celerity
+    icon: 👤
+    keywords:
+      - "-"
+    type: Maneuver
+    distance: Self
+    target: Self
+    effects:
+      - effect: The vampire spawn can shift 1 square, then move up to their speed. The
+          next ability the vampire uses before the start of their next turn
+          gains an edge.
+        name: Effect
+```

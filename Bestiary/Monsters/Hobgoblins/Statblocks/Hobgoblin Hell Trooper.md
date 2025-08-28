@@ -1,10 +1,10 @@
 ---
 agility: 2
 ancestry:
-  - Goblin
-  - Hobgoblin
-  - Humanoid
-  - Infernal
+- Goblin
+- Hobgoblin
+- Humanoid
+- Infernal
 ev: '12'
 file_basename: Hobgoblin Hell Trooper
 file_dpath: Monsters/Hobgoblins/Statblocks
@@ -18,11 +18,11 @@ might: 3
 presence: 1
 reason: 0
 roles:
-  - Platoon Brute
+- Platoon Brute
 scc:
-  - mcdm.monsters.v1:monster:hobgoblin-hell-trooper
+- mcdm.monsters.v1:monster:hobgoblin-hell-trooper
 scdc:
-  - 1.1.1:2:179
+- 1.1.1:2:179
 size: 1M
 source: mcdm.monsters.v1
 speed: 5
@@ -31,36 +31,64 @@ stamina: '70'
 type: monster
 ---
 
-###### Hobgoblin Hell Trooper
-
-| Goblin, Hobgoblin, Humanoid, Infernal |          -          |       Level 4       |      Platoon Brute      |         EV 12          |
-| :-----------------------------------: | :-----------------: | :-----------------: | :---------------------: | :--------------------: |
-|           **1M**<br/> Size            |  **5**<br/> Speed   | **70**<br/> Stamina |  **2**<br/> Stability   | **6**<br/> Free Strike |
-|       **Fire 4**<br/> Immunity        | **-**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
-|           **+3**<br/> Might           | **+2**<br/> Agility |  **0**<br/> Reason  |  **0**<br/> Intuition   |  **+1**<br/> Presence  |
-
-> 🗡 **Fire Flail (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |                 **Main action** |
-> | ------------------------- | ------------------------------: |
-> | **📏 Melee 2**            | **🎯 Two creatures or objects** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 7 fire damage
-> - **12-16:** 10 fire damage
-> - **17+:** 13 fire damage
->
-> **Effect:** Until the end of their turn, the trooper doesn't provoke opportunity attacks from any target.
-
-> 🏹 **Fight Me, Coward!**
->
-> | **Magic, Ranged** |        **Maneuver** |
-> | ----------------- | ------------------: |
-> | **📏 Ranged 5**   | **🎯 One creature** |
->
-> **Effect:** If the target has P < 2, they are taunted (EoT). While taunted this way, the target takes 1d6 fire damage whenever they use an ability or strike that doesn't target the trooper.
-
-> ⭐️ **Infernal Ichor**
->
-> When the trooper is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the trooper takes 3 fire damage.
+```ds-statblock
+name: Hobgoblin Hell Trooper
+level: 4
+roles:
+  - Platoon Brute
+ancestry:
+  - Goblin
+  - Hobgoblin
+  - Humanoid
+  - Infernal
+ev: "12"
+stamina: "70"
+immunities:
+  - Fire 4
+speed: 5
+size: 1M
+stability: 2
+free_strike: 6
+might: 3
+agility: 2
+reason: 0
+intuition: 0
+presence: 1
+traits:
+  - name: Infernal Ichor
+    effects:
+      - effect: When the trooper is reduced to 0 Stamina, they spray burning blood. Each
+          creature adjacent to the trooper takes 3 fire damage.
+abilities:
+  - name: Fire Flail
+    icon: 🗡
+    cost: Signature Ability
+    keywords:
+      - Melee
+      - Strike
+      - Weapon
+    type: Main action
+    distance: Melee 2
+    target: Two creatures or objects
+    effects:
+      - roll: Power Roll + 3
+        t1: 7 fire damage
+        t2: 10 fire damage
+        t3: 13 fire damage
+      - effect: Until the end of their turn, the trooper doesn't provoke opportunity
+          attacks from any target.
+        name: Effect
+  - name: Fight Me, Coward!
+    icon: 🏹
+    keywords:
+      - Magic
+      - Ranged
+    type: Maneuver
+    distance: Ranged 5
+    target: One creature
+    effects:
+      - effect: If the target has P < 2, they are taunted (EoT). While taunted this way,
+          the target takes 1d6 fire damage whenever they use an ability or
+          strike that doesn't target the trooper.
+        name: Effect
+```

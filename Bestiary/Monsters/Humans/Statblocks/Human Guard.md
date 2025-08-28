@@ -1,8 +1,8 @@
 ---
 agility: 0
 ancestry:
-  - Human
-  - Humanoid
+- Human
+- Humanoid
 ev: 3 for four minions
 file_basename: Human Guard
 file_dpath: Monsters/Humans/Statblocks
@@ -16,11 +16,11 @@ might: 2
 presence: 0
 reason: 0
 roles:
-  - Minion Brute
+- Minion Brute
 scc:
-  - mcdm.monsters.v1:monster:human-guard
+- mcdm.monsters.v1:monster:human-guard
 scdc:
-  - 1.1.1:2:170
+- 1.1.1:2:170
 size: 1M
 source: mcdm.monsters.v1
 speed: 5
@@ -29,28 +29,50 @@ stamina: '5'
 type: monster
 ---
 
-###### Human Guard
-
-|              Human, Humanoid              |          -          |      Level 1       |              Minion Brute               | EV 3 for four minions  |
-| :---------------------------------------: | :-----------------: | :----------------: | :-------------------------------------: | :--------------------: |
-|             **1M**<br/> Size              |  **5**<br/> Speed   | **5**<br/> Stamina |          **0**<br/> Stability           | **2**<br/> Free Strike |
-| **Corruption 1, psychic 1**<br/> Immunity | **-**<br/> Movement |         -          | **+5 bonus to speed**<br/> With Captain | **-**<br/> Weaknesses  |
-|             **+2**<br/> Might             | **0**<br/> Agility  | **0**<br/> Reason  |          **0**<br/> Intuition           |  **0**<br/> Presence   |
-
-> 🗡 **Halberd (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |                          **Main action** |
-> | ------------------------- | ---------------------------------------: |
-> | **📏 Melee 2**            | **🎯 One creature or object per minion** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 2 damage
-> - **12-16:** 4 damage
-> - **17+:** 5 damage
->
-> **Effect:** If the guard is flanked, they can make a free strike against a different target adjacent to them.
-
-> ⭐️ **Supernatural Insight**
->
-> The guard ignores concealment if it's granted by a supernatural effect.
+```ds-statblock
+name: Human Guard
+level: 1
+roles:
+  - Minion Brute
+ancestry:
+  - Human
+  - Humanoid
+ev: 3 for four minions
+stamina: "5"
+immunities:
+  - Corruption 1
+  - psychic 1
+speed: 5
+size: 1M
+stability: 0
+free_strike: 2
+with_captain: +5 bonus to speed
+might: 2
+agility: 0
+reason: 0
+intuition: 0
+presence: 0
+traits:
+  - name: Supernatural Insight
+    effects:
+      - effect: The guard ignores concealment if it's granted by a supernatural effect.
+abilities:
+  - name: Halberd
+    icon: 🗡
+    cost: Signature Ability
+    keywords:
+      - Melee
+      - Strike
+      - Weapon
+    type: Main action
+    distance: Melee 2
+    target: One creature or object per minion
+    effects:
+      - roll: Power Roll + 2
+        t1: 2 damage
+        t2: 4 damage
+        t3: 5 damage
+      - effect: If the guard is flanked, they can make a free strike against a different
+          target adjacent to them.
+        name: Effect
+```

@@ -1,8 +1,8 @@
 ---
 agility: 2
 ancestry:
-  - Beast
-  - Griffon
+- Beast
+- Griffon
 ev: '16'
 file_basename: Striped Condor Griffon
 file_dpath: Monsters/Griffons/Statblocks
@@ -16,11 +16,11 @@ might: 2
 presence: 1
 reason: -1
 roles:
-  - Elite Brute
+- Elite Brute
 scc:
-  - mcdm.monsters.v1:monster:striped-condor-griffon
+- mcdm.monsters.v1:monster:striped-condor-griffon
 scdc:
-  - 1.1.1:2:88
+- 1.1.1:2:88
 size: '3'
 source: mcdm.monsters.v1
 speed: 7
@@ -29,64 +29,95 @@ stamina: '100'
 type: monster
 ---
 
-###### Striped Condor Griffon
-
-|   Beast, Griffon    |           -           |       Level 2        |       Elite Brute       |         EV 16          |
-| :-----------------: | :-------------------: | :------------------: | :---------------------: | :--------------------: |
-|   **3**<br/> Size   |   **7**<br/> Speed    | **100**<br/> Stamina |  **3**<br/> Stability   | **5**<br/> Free Strike |
-| **-**<br/> Immunity | **Fly**<br/> Movement |          -           | **-**<br/> With Captain | **-**<br/> Weaknesses  |
-|  **+2**<br/> Might  |  **+2**<br/> Agility  |  **-1**<br/> Reason  |  **+2**<br/> Intuition  |  **+1**<br/> Presence  |
-
-> 🗡 **Violent Thrashing (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |                 **Main action** |
-> | ------------------------- | ------------------------------: |
-> | **📏 Melee 2**            | **🎯 Two creatures or objects** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 7 damage; push 1
-> - **12-16:** 11 damage; one target is pushed up to 2 squares; the other target is vertical pushed up to 2 squares
-> - **17+:** 14 damage; one target is pushed up to 2 squares and knocked prone; the other target is vertical pushed up to 3 squares
-
-> 👤 **Bound Ahead (5 Malice)**
->
-> | **-**       | **Main action** |
-> | ----------- | --------------: |
-> | **📏 Self** |     **🎯 Self** |
->
-> **Effect:** The griffon shifts up to their speed along the ground in straight line. Each enemy who comes adjacent to the griffon during this shift can choose to either take 5 damage or be knocked prone
-
-> 🔳 **Power Wing Buffet (3 Malice)**
->
-> | **Area**                   |                               **Maneuver** |
-> | -------------------------- | -----------------------------------------: |
-> | **📏 5 x 3 line within 1** | **🎯 Each creature or object in the area** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** Push 2; M < 0 the forced movement is vertical
-> - **12-16:** Push 4; M < 1 the forced movement is vertical
-> - **17+:** Push 6; M < 2 the forced movement is vertical
-
-> ❗️ **Circle and Strike**
->
-> | **Ranged**      |           **Triggered action** |
-> | --------------- | -----------------------------: |
-> | **📏 Ranged 5** | **🎯 The triggering creature** |
->
-> **Trigger:** The griffon flies directly above a creature within distance
->
-> **Effect:** The griffon dives down onto the target, taking no damage from falling if they reach the ground. The target takes 3 damage for each square the griffon dove, and if they have A < 2, they are grabbed or knocked prone.
-
-> ⭐️ **Beast of Prey**
->
-> While grabbed by the griffon, a creature has a double bane on the Escape Grab maneuver.
-
-> ⭐️ **Steady**
->
-> Any power roll that could knock the griffon prone takes a bane
-
-> ⭐️ **Banded Predator**
->
-> The griffon can attempt hide even while observed. Additionally, while no enemy has line of effect to them, the griffon can attempt to hide at the end of their turn
+```ds-statblock
+name: Striped Condor Griffon
+level: 2
+roles:
+  - Elite Brute
+ancestry:
+  - Beast
+  - Griffon
+ev: "16"
+stamina: "100"
+speed: 7
+movement: Fly
+size: "3"
+stability: 3
+free_strike: 5
+might: 2
+agility: 2
+reason: -1
+intuition: 2
+presence: 1
+traits:
+  - name: Beast of Prey
+    effects:
+      - effect: While grabbed by the griffon, a creature has a double bane on the Escape
+          Grab maneuver.
+  - name: Steady
+    effects:
+      - effect: Any power roll that could knock the griffon prone takes a bane
+  - name: Banded Predator
+    effects:
+      - effect: The griffon can attempt hide even while observed. Additionally, while no
+          enemy has line of effect to them, the griffon can attempt to hide at
+          the end of their turn
+abilities:
+  - name: Violent Thrashing
+    icon: 🗡
+    cost: Signature Ability
+    keywords:
+      - Melee
+      - Strike
+      - Weapon
+    type: Main action
+    distance: Melee 2
+    target: Two creatures or objects
+    effects:
+      - roll: Power Roll + 2
+        t1: 7 damage; push 1
+        t2: 11 damage; one target is pushed up to 2 squares; the other target is
+          vertical pushed up to 2 squares
+        t3: 14 damage; one target is pushed up to 2 squares and knocked prone; the other
+          target is vertical pushed up to 3 squares
+  - name: Bound Ahead
+    icon: 👤
+    cost: 5 Malice
+    keywords:
+      - "-"
+    type: Main action
+    distance: Self
+    target: Self
+    effects:
+      - effect: The griffon shifts up to their speed along the ground in straight line.
+          Each enemy who comes adjacent to the griffon during this shift can
+          choose to either take 5 damage or be knocked prone
+        name: Effect
+  - name: Power Wing Buffet
+    icon: 🔳
+    cost: 3 Malice
+    keywords:
+      - Area
+    type: Maneuver
+    distance: 5 x 3 line within 1
+    target: Each creature or object in the area
+    effects:
+      - roll: Power Roll + 2
+        t1: Push 2; M < 0 the forced movement is vertical
+        t2: Push 4; M < 1 the forced movement is vertical
+        t3: Push 6; M < 2 the forced movement is vertical
+  - name: Circle and Strike
+    icon: ❗️
+    keywords:
+      - Ranged
+    type: Triggered action
+    distance: Ranged 5
+    target: The triggering creature
+    trigger: The griffon flies directly above a creature within distance
+    effects:
+      - effect: The griffon dives down onto the target, taking no damage from falling if
+          they reach the ground. The target takes 3 damage for each square the
+          griffon dove, and if they have A < 2, they are grabbed or knocked
+          prone.
+        name: Effect
+```

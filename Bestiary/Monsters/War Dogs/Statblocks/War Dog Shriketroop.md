@@ -1,9 +1,9 @@
 ---
 agility: 4
 ancestry:
-  - Humanoid
-  - Soulless
-  - War Dog
+- Humanoid
+- Soulless
+- War Dog
 ev: 9 for four minions
 file_basename: War Dog Shriketroop
 file_dpath: Monsters/War Dogs/Statblocks
@@ -17,11 +17,11 @@ might: 1
 presence: 1
 reason: 3
 roles:
-  - Minion Artillery
+- Minion Artillery
 scc:
-  - mcdm.monsters.v1:monster:war-dog-shriketroop
+- mcdm.monsters.v1:monster:war-dog-shriketroop
 scdc:
-  - 1.1.1:2:354
+- 1.1.1:2:354
 size: 1M
 source: mcdm.monsters.v1
 speed: 5
@@ -30,28 +30,49 @@ stamina: '10'
 type: monster
 ---
 
-###### War Dog Shriketroop
-
-| Humanoid, Soulless, War Dog |          -          |       Level 7       |               Minion Artillery                | EV 9 for four minions  |
-| :-------------------------: | :-----------------: | :-----------------: | :-------------------------------------------: | :--------------------: |
-|      **1M**<br/> Size       |  **5**<br/> Speed   | **10**<br/> Stamina |             **0**<br/> Stability              | **4**<br/> Free Strike |
-|     **-**<br/> Immunity     | **-**<br/> Movement |          -          | **Gain an edge on strikes**<br/> With Captain | **-**<br/> Weaknesses  |
-|      **+1**<br/> Might      | **+4**<br/> Agility | **+3**<br/> Reason  |             **+1**<br/> Intuition             |  **+1**<br/> Presence  |
-
-> 🏹 **Canis Shrikegun (Signature Ability)**
->
-> | **Ranged, Strike, Weapon** |                          **Main action** |
-> | -------------------------- | ---------------------------------------: |
-> | **📏 Ranged 10**           | **🎯 One creature or object per minion** |
->
-> **Power Roll + 4:**
->
-> - **≤11:** 4 damage
-> - **12-16:** 7 damage
-> - **17+:** 8 damage; I < 3 the target is frightened of all shriketroops (EoT)
->
-> **Effect:** The target must move their speed in a straight line away from the shriketroop.
-
-> ⭐️ **Loyalty Collar**
->
-> When the shriketroop is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object.
+```ds-statblock
+name: War Dog Shriketroop
+level: 7
+roles:
+  - Minion Artillery
+ancestry:
+  - Humanoid
+  - Soulless
+  - War Dog
+ev: 9 for four minions
+stamina: "10"
+speed: 5
+size: 1M
+stability: 0
+free_strike: 4
+with_captain: Gain an edge on strikes
+might: 1
+agility: 4
+reason: 3
+intuition: 1
+presence: 1
+traits:
+  - name: Loyalty Collar
+    effects:
+      - effect: When the shriketroop is reduced to 0 Stamina, their loyalty collar
+          explodes, dealing 2d6 damage to each adjacent enemy and object.
+abilities:
+  - name: Canis Shrikegun
+    icon: 🏹
+    cost: Signature Ability
+    keywords:
+      - Ranged
+      - Strike
+      - Weapon
+    type: Main action
+    distance: Ranged 10
+    target: One creature or object per minion
+    effects:
+      - roll: Power Roll + 4
+        t1: 4 damage
+        t2: 7 damage
+        t3: 8 damage; I < 3 the target is frightened of all shriketroops (EoT)
+      - effect: The target must move their speed in a straight line away from the
+          shriketroop.
+        name: Effect
+```

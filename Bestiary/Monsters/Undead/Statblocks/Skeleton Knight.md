@@ -1,8 +1,8 @@
 ---
 agility: 5
 ancestry:
-  - Undead
-  - Soulless
+- Undead
+- Soulless
 ev: 12 for four minions
 file_basename: Skeleton Knight
 file_dpath: Monsters/Undead/Statblocks
@@ -16,11 +16,11 @@ might: 3
 presence: -2
 reason: -2
 roles:
-  - Minion Defender
+- Minion Defender
 scc:
-  - mcdm.monsters.v1:monster:skeleton-knight
+- mcdm.monsters.v1:monster:skeleton-knight
 scdc:
-  - 1.1.1:2:60
+- 1.1.1:2:60
 size: 1L
 source: mcdm.monsters.v1
 speed: 5
@@ -29,30 +29,54 @@ stamina: '17'
 type: monster
 ---
 
-###### Skeleton Knight
-
-|              Undead, Soulless              |          -          |      Level 10       |                Minion Defender                | EV 12 for four minions |
-| :----------------------------------------: | :-----------------: | :-----------------: | :-------------------------------------------: | :--------------------: |
-|              **1L**<br/> Size              |  **5**<br/> Speed   | **17**<br/> Stamina |             **2**<br/> Stability              | **4**<br/> Free Strike |
-| **Corruption 10, poison 10**<br/> Immunity | **-**<br/> Movement |          -          | **Gain an edge on strikes**<br/> With Captain | **-**<br/> Weaknesses  |
-|             **+3**<br/> Might              | **+5**<br/> Agility | **-2**<br/> Reason  |             **+4**<br/> Intuition             |  **-2**<br/> Presence  |
-
-> 🗡 **Four Swords Swing (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |                          **Main action** |
-> | ------------------------- | ---------------------------------------: |
-> | **📏 Melee 1**            | **🎯 One creature or object per minion** |
->
-> **Power Roll + 5:**
->
-> - **≤11:** 4 damage
-> - **12-16:** 7 damage
-> - **17+:** 9 damage; the target can't shift (EoT
-
-> ⭐️ **Bitter Bones**
->
-> If the knight is reduced to 0 Stamina, their bones collapse to fill their space with an impassable barrier. Any enemy who comes adjacent to the barrier for the first time in a round or starts their turn there takes 5 damage.
-
-> ⭐️ **More Swings**
->
-> Whenever the knight makes a free strike, they can make two free strikes instead.
+```ds-statblock
+name: Skeleton Knight
+level: 10
+roles:
+  - Minion Defender
+ancestry:
+  - Undead
+  - Soulless
+ev: 12 for four minions
+stamina: "17"
+immunities:
+  - Corruption 10
+  - poison 10
+speed: 5
+size: 1L
+stability: 2
+free_strike: 4
+with_captain: Gain an edge on strikes
+might: 3
+agility: 5
+reason: -2
+intuition: 4
+presence: -2
+traits:
+  - name: Bitter Bones
+    effects:
+      - effect: If the knight is reduced to 0 Stamina, their bones collapse to fill
+          their space with an impassable barrier. Any enemy who comes adjacent
+          to the barrier for the first time in a round or starts their turn
+          there takes 5 damage.
+  - name: More Swings
+    effects:
+      - effect: Whenever the knight makes a free strike, they can make two free strikes
+          instead.
+abilities:
+  - name: Four Swords Swing
+    icon: 🗡
+    cost: Signature Ability
+    keywords:
+      - Melee
+      - Strike
+      - Weapon
+    type: Main action
+    distance: Melee 1
+    target: One creature or object per minion
+    effects:
+      - roll: Power Roll + 5
+        t1: 4 damage
+        t2: 7 damage
+        t3: 9 damage; the target can't shift (EoT
+```

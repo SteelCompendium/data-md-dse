@@ -1,8 +1,8 @@
 ---
 agility: 2
 ancestry:
-  - Animal
-  - Goblin
+- Animal
+- Goblin
 ev: 3 for four minions
 file_basename: Skitterling
 file_dpath: Monsters/Goblins/Statblocks
@@ -16,11 +16,11 @@ might: -5
 presence: -2
 reason: -4
 roles:
-  - Minion Hexer
+- Minion Hexer
 scc:
-  - mcdm.monsters.v1:monster:skitterling
+- mcdm.monsters.v1:monster:skitterling
 scdc:
-  - 1.1.1:2:310
+- 1.1.1:2:310
 size: 1T
 source: mcdm.monsters.v1
 speed: 5
@@ -29,24 +29,44 @@ stamina: '3'
 type: monster
 ---
 
-###### Skitterling
-
-|   Animal, Goblin    |           -           |      Level 1       |              Minion Hexer               | EV 3 for four minions  |
-| :-----------------: | :-------------------: | :----------------: | :-------------------------------------: | :--------------------: |
-|  **1T**<br/> Size   |   **5**<br/> Speed    | **3**<br/> Stamina |          **0**<br/> Stability           | **1**<br/> Free Strike |
-| **-**<br/> Immunity | **Fly**<br/> Movement |         -          | **+3 bonus to speed**<br/> With Captain | **-**<br/> Weaknesses  |
-|  **-5**<br/> Might  |  **+2**<br/> Agility  | **-4**<br/> Reason |          **0**<br/> Intuition           |  **-2**<br/> Presence  |
-
-> 🗡 **Claws (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |                **Main action** |
-> | ------------------------- | -----------------------------: |
-> | **📏 Melee 1**            | **🎯 One creature per minion** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 1 poison damage
-> - **12-16:** 2 poison damage
-> - **17+:** 3 poison damage
->
-> **Effect:** The target takes a bane on their next strike.
+```ds-statblock
+name: Skitterling
+level: 1
+roles:
+  - Minion Hexer
+ancestry:
+  - Animal
+  - Goblin
+ev: 3 for four minions
+stamina: "3"
+speed: 5
+movement: Fly
+size: 1T
+stability: 0
+free_strike: 1
+with_captain: +3 bonus to speed
+might: -5
+agility: 2
+reason: -4
+intuition: 0
+presence: -2
+traits: []
+abilities:
+  - name: Claws
+    icon: 🗡
+    cost: Signature Ability
+    keywords:
+      - Melee
+      - Strike
+      - Weapon
+    type: Main action
+    distance: Melee 1
+    target: One creature per minion
+    effects:
+      - roll: Power Roll + 2
+        t1: 1 poison damage
+        t2: 2 poison damage
+        t3: 3 poison damage
+      - effect: The target takes a bane on their next strike.
+        name: Effect
+```

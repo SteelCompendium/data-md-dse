@@ -1,8 +1,8 @@
 ---
 agility: 2
 ancestry:
-  - Undead
-  - Soulless
+- Undead
+- Soulless
 ev: 3 for four minions
 file_basename: Crawling Claw
 file_dpath: Monsters/Undead/Statblocks
@@ -16,11 +16,11 @@ might: 0
 presence: -1
 reason: -5
 roles:
-  - Minion Harrier
+- Minion Harrier
 scc:
-  - mcdm.monsters.v1:monster:crawling-claw
+- mcdm.monsters.v1:monster:crawling-claw
 scdc:
-  - 1.1.1:2:75
+- 1.1.1:2:75
 size: 1T
 source: mcdm.monsters.v1
 speed: 6
@@ -29,28 +29,51 @@ stamina: '4'
 type: monster
 ---
 
-###### Crawling Claw
-
-|             Undead, Soulless             |            -            |      Level 1       |             Minion Harrier              | EV 3 for four minions  |
-| :--------------------------------------: | :---------------------: | :----------------: | :-------------------------------------: | :--------------------: |
-|             **1T**<br/> Size             |    **6**<br/> Speed     | **4**<br/> Stamina |          **0**<br/> Stability           | **1**<br/> Free Strike |
-| **Corruption 1, poison 1**<br/> Immunity | **Climb**<br/> Movement |         -          | **+2 bonus to speed**<br/> With Captain | **-**<br/> Weaknesses  |
-|             **0**<br/> Might             |   **+2**<br/> Agility   | **-5**<br/> Reason |          **-1**<br/> Intuition          |  **-1**<br/> Presence  |
-
-> 🗡 **Fingernails (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |                          **Main action** |
-> | ------------------------- | ---------------------------------------: |
-> | **📏 Melee 1**            | **🎯 One creature or object per minion** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 1 damage
-> - **12-16:** 2 damage
-> - **17+:** 3 damage
->
-> **Effect:** The crawling claw shifts up to a number of squares equal to the damage dealt.
-
-> ⭐️ **Disorganized**
->
-> Allies can't flank with the crawling cla.
+```ds-statblock
+name: Crawling Claw
+level: 1
+roles:
+  - Minion Harrier
+ancestry:
+  - Undead
+  - Soulless
+ev: 3 for four minions
+stamina: "4"
+immunities:
+  - Corruption 1
+  - poison 1
+speed: 6
+movement: Climb
+size: 1T
+stability: 0
+free_strike: 1
+with_captain: +2 bonus to speed
+might: 0
+agility: 2
+reason: -5
+intuition: -1
+presence: -1
+traits:
+  - name: Disorganized
+    effects:
+      - effect: Allies can't flank with the crawling cla.
+abilities:
+  - name: Fingernails
+    icon: 🗡
+    cost: Signature Ability
+    keywords:
+      - Melee
+      - Strike
+      - Weapon
+    type: Main action
+    distance: Melee 1
+    target: One creature or object per minion
+    effects:
+      - roll: Power Roll + 2
+        t1: 1 damage
+        t2: 2 damage
+        t3: 3 damage
+      - effect: The crawling claw shifts up to a number of squares equal to the damage
+          dealt.
+        name: Effect
+```

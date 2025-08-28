@@ -1,7 +1,7 @@
 ---
 agility: 1
 ancestry:
-  - Animal
+- Animal
 ev: '16'
 file_basename: Big Animal B
 file_dpath: Monsters/Animals/Statblocks
@@ -15,11 +15,11 @@ might: 2
 presence: 0
 reason: -1
 roles:
-  - Elite Mount
+- Elite Mount
 scc:
-  - mcdm.monsters.v1:monster:big-animal-b
+- mcdm.monsters.v1:monster:big-animal-b
 scdc:
-  - 1.1.1:2:253
+- 1.1.1:2:253
 size: '3'
 source: mcdm.monsters.v1
 speed: 6
@@ -28,48 +28,71 @@ stamina: '80'
 type: monster
 ---
 
-###### Big Animal B
-
-|       Animal        |          -          |       Level 2       |       Elite Mount       |         EV 16          |
-| :-----------------: | :-----------------: | :-----------------: | :---------------------: | :--------------------: |
-|   **3**<br/> Size   |  **6**<br/> Speed   | **80**<br/> Stamina |  **3**<br/> Stability   | **5**<br/> Free Strike |
-| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
-|  **+2**<br/> Might  | **+1**<br/> Agility | **-1**<br/> Reason  |  **+1**<br/> Intuition  |  **+0**<br/> Presence  |
-
-> 🗡 **Natural Weapon (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |                 **Main action** |
-> | ------------------------- | ------------------------------: |
-> | **📏 Melee 2**            | **🎯 Two creatures or objects** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 7 damage
-> - **12-16:** 10 damage; push 1
-> - **17+:** 13 damage; push 2
-
-> 👤 **Trundle**
->
-> | **-**       | **Maneuver** |
-> | ----------- | -----------: |
-> | **📏 Self** |  **🎯 Self** |
->
-> **Effect:** The animal moves up to their speed. They can make a free strike against each creature who makes an opportunity attack against them during this movement.
-
-> ❗️ **Animal Rally**
->
-> | **-**            | **Triggered action** |
-> | ---------------- | -------------------: |
-> | **📏 Ranged 20** |      **🎯 One ally** |
->
-> **Trigger:** The target is knocked prone.
->
-> **Effect:** The animal moves up to their speed. If they end their turn adjacent to the target, they can use the Stand Up maneuver to let the target stand, then get on to ride them.
-
-> ⭐️ **Beast of Burden**
->
-> While riding the animal, two size 1 allies can occupy the same space.
-
-> ⭐️ **Nature's Spirit**
->
-> While outdoors or in a natural environment, the animal can negate a bane on their abilities or turn a double bane into a bane.
+```ds-statblock
+name: Big Animal B
+level: 2
+roles:
+  - Elite Mount
+ancestry:
+  - Animal
+ev: "16"
+stamina: "80"
+speed: 6
+size: "3"
+stability: 3
+free_strike: 5
+might: 2
+agility: 1
+reason: -1
+intuition: 1
+presence: 0
+traits:
+  - name: Beast of Burden
+    effects:
+      - effect: While riding the animal, two size 1 allies can occupy the same space.
+  - name: Nature's Spirit
+    effects:
+      - effect: While outdoors or in a natural environment, the animal can negate a bane
+          on their abilities or turn a double bane into a bane.
+abilities:
+  - name: Natural Weapon
+    icon: 🗡
+    cost: Signature Ability
+    keywords:
+      - Melee
+      - Strike
+      - Weapon
+    type: Main action
+    distance: Melee 2
+    target: Two creatures or objects
+    effects:
+      - roll: Power Roll + 2
+        t1: 7 damage
+        t2: 10 damage; push 1
+        t3: 13 damage; push 2
+  - name: Trundle
+    icon: 👤
+    keywords:
+      - "-"
+    type: Maneuver
+    distance: Self
+    target: Self
+    effects:
+      - effect: The animal moves up to their speed. They can make a free strike against
+          each creature who makes an opportunity attack against them during this
+          movement.
+        name: Effect
+  - name: Animal Rally
+    icon: ❗️
+    keywords:
+      - "-"
+    type: Triggered action
+    distance: Ranged 20
+    target: One ally
+    trigger: The target is knocked prone.
+    effects:
+      - effect: The animal moves up to their speed. If they end their turn adjacent to
+          the target, they can use the Stand Up maneuver to let the target
+          stand, then get on to ride them.
+        name: Effect
+```

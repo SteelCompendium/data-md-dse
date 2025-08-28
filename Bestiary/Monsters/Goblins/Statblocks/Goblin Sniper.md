@@ -1,8 +1,8 @@
 ---
 agility: 2
 ancestry:
-  - Goblin
-  - Humanoid
+- Goblin
+- Humanoid
 ev: 3 for four minions
 file_basename: Goblin Sniper
 file_dpath: Monsters/Goblins/Statblocks
@@ -16,11 +16,11 @@ might: -2
 presence: -1
 reason: 0
 roles:
-  - Minion Artillery
+- Minion Artillery
 scc:
-  - mcdm.monsters.v1:monster:goblin-sniper
+- mcdm.monsters.v1:monster:goblin-sniper
 scdc:
-  - 1.1.1:2:315
+- 1.1.1:2:315
 size: 1S
 source: mcdm.monsters.v1
 speed: 5
@@ -29,28 +29,48 @@ stamina: '3'
 type: monster
 ---
 
-###### Goblin Sniper
-
-|  Goblin, Humanoid   |            -            |      Level 1       |                 Minion Artillery                  | EV 3 for four minions  |
-| :-----------------: | :---------------------: | :----------------: | :-----------------------------------------------: | :--------------------: |
-|  **1S**<br/> Size   |    **5**<br/> Speed     | **3**<br/> Stamina |               **0**<br/> Stability                | **2**<br/> Free Strike |
-| **-**<br/> Immunity | **Climb**<br/> Movement |         -          | **+5 bonus to ranged distance**<br/> With Captain | **-**<br/> Weaknesses  |
-|  **-2**<br/> Might  |   **+2**<br/> Agility   | **0**<br/> Reason  |               **0**<br/> Intuition                |  **-1**<br/> Presence  |
-
-> 🏹 **Bow (Signature Ability)**
->
-> | **Ranged, Strike, Weapon** |                          **Main action** |
-> | -------------------------- | ---------------------------------------: |
-> | **📏 Ranged 10**           | **🎯 One creature or object per minion** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 2 damage
-> - **12-16:** 4 damage
-> - **17+:** 5 damage
->
-> **Effect:** If the sniper doesn't use a move action this turn, this ability gains an edge.
-
-> ⭐️ **Crafty**
->
-> The sniper doesn't provoke opportunity attacks by moving.
+```ds-statblock
+name: Goblin Sniper
+level: 1
+roles:
+  - Minion Artillery
+ancestry:
+  - Goblin
+  - Humanoid
+ev: 3 for four minions
+stamina: "3"
+speed: 5
+movement: Climb
+size: 1S
+stability: 0
+free_strike: 2
+with_captain: +5 bonus to ranged distance
+might: -2
+agility: 2
+reason: 0
+intuition: 0
+presence: -1
+traits:
+  - name: Crafty
+    effects:
+      - effect: The sniper doesn't provoke opportunity attacks by moving.
+abilities:
+  - name: Bow
+    icon: 🏹
+    cost: Signature Ability
+    keywords:
+      - Ranged
+      - Strike
+      - Weapon
+    type: Main action
+    distance: Ranged 10
+    target: One creature or object per minion
+    effects:
+      - roll: Power Roll + 2
+        t1: 2 damage
+        t2: 4 damage
+        t3: 5 damage
+      - effect: If the sniper doesn't use a move action this turn, this ability gains an
+          edge.
+        name: Effect
+```

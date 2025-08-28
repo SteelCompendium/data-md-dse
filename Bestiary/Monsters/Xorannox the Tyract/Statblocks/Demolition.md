@@ -1,9 +1,9 @@
 ---
 agility: 1
 ancestry:
-  - Eyestalk
-  - Horror
-  - Overmind
+- Eyestalk
+- Horror
+- Overmind
 ev: '-'
 file_basename: Demolition
 file_dpath: Monsters/Xorannox the Tyract/Statblocks
@@ -17,11 +17,11 @@ might: -1
 presence: -1
 reason: 4
 roles:
-  - Artillery
+- Artillery
 scc:
-  - mcdm.monsters.v1:monster:demolition
+- mcdm.monsters.v1:monster:demolition
 scdc:
-  - 1.1.1:2:321
+- 1.1.1:2:321
 size: 1M
 source: mcdm.monsters.v1
 speed: 5
@@ -30,26 +30,46 @@ stamina: '30'
 type: monster
 ---
 
-###### Demolition
-
-| Eyestalk, Horror, Overmind |              -               |       Level 6       |        Artillery        |          EV -          |
-| :------------------------: | :--------------------------: | :-----------------: | :---------------------: | :--------------------: |
-|      **1M**<br/> Size      |       **5**<br/> Speed       | **30**<br/> Stamina |  **0**<br/> Stability   | **3**<br/> Free Strike |
-|    **-**<br/> Immunity     | **Fly, hover**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
-|     **-1**<br/> Might      |     **+1**<br/> Agility      | **+4**<br/> Reason  |  **+1**<br/> Intuition  |  **-1**<br/> Presence  |
-
-> 🔳 **Explosion (Signature Ability)**
->
-> | **Psionic, Ranged, Strike** |               **Main action** |
-> | --------------------------- | ----------------------------: |
-> | **📏 4 cube within 10**     | **🎯 Each enemy in the area** |
->
-> **Power Roll + 4:**
->
-> - **≤11:** 6 fire damage
-> - **12-16:** 10 fire damage; M < 3 prone
-> - **17+:** 13 fire damage; M < 4 prone
-
-> ⭐️ **Psionic Barrier**
->
-> The demolition eye has damage immunity 15. When they use a main action, they lose this immunity until the end of the round.
+```ds-statblock
+name: Demolition
+level: 6
+roles:
+  - Artillery
+ancestry:
+  - Eyestalk
+  - Horror
+  - Overmind
+ev: "-"
+stamina: "30"
+speed: 5
+movement: Fly, hover
+size: 1M
+stability: 0
+free_strike: 3
+might: -1
+agility: 1
+reason: 4
+intuition: 1
+presence: -1
+traits:
+  - name: Psionic Barrier
+    effects:
+      - effect: The demolition eye has damage immunity 15. When they use a main action,
+          they lose this immunity until the end of the round.
+abilities:
+  - name: Explosion
+    icon: 🔳
+    cost: Signature Ability
+    keywords:
+      - Psionic
+      - Ranged
+      - Strike
+    type: Main action
+    distance: 4 cube within 10
+    target: Each enemy in the area
+    effects:
+      - roll: Power Roll + 4
+        t1: 6 fire damage
+        t2: 10 fire damage; M < 3 prone
+        t3: 13 fire damage; M < 4 prone
+```

@@ -1,9 +1,9 @@
 ---
 agility: 1
 ancestry:
-  - Eyestalk
-  - Horror
-  - Overmind
+- Eyestalk
+- Horror
+- Overmind
 ev: '-'
 file_basename: Necrotic Eye
 file_dpath: Monsters/Xorannox the Tyract/Statblocks
@@ -17,11 +17,11 @@ might: -1
 presence: -1
 reason: 4
 roles:
-  - Hexer
+- Hexer
 scc:
-  - mcdm.monsters.v1:monster:necrotic-eye
+- mcdm.monsters.v1:monster:necrotic-eye
 scdc:
-  - 1.1.1:2:322
+- 1.1.1:2:322
 size: 1M
 source: mcdm.monsters.v1
 speed: 5
@@ -30,28 +30,49 @@ stamina: '30'
 type: monster
 ---
 
-###### Necrotic Eye
-
-| Eyestalk, Horror, Overmind |              -               |       Level 6       |          Hexer          |          EV -          |
-| :------------------------: | :--------------------------: | :-----------------: | :---------------------: | :--------------------: |
-|      **1M**<br/> Size      |       **5**<br/> Speed       | **30**<br/> Stamina |  **0**<br/> Stability   | **3**<br/> Free Strike |
-|    **-**<br/> Immunity     | **Fly, hover**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
-|     **-1**<br/> Might      |     **+1**<br/> Agility      | **+4**<br/> Reason  |  **+1**<br/> Intuition  |  **-1**<br/> Presence  |
-
-> 🏹 **Necro Beam (Signature Ability)**
->
-> | **Psionic, Ranged, Strike** |               **Main action** |
-> | --------------------------- | ----------------------------: |
-> | **📏 Ranged 10**            | **🎯 One creature or object** |
->
-> **Power Roll + 4:**
->
-> - **≤11:** 11 corruption damage
-> - **12-16:** 17 corruption damage; M < 3 bleeding (save ends)
-> - **17+:** 20 corruption damage; M < 4 bleeding (save ends)
->
-> **Effect:** If this damage or the Stamina loss from bleeding this way reduces a target creature's Stamina to 0, that creature dies.
-
-> ⭐️ **Psionic Barrier**
->
-> The necrotic eye has damage immunity 15. When they use a main action, they lose this immunity until the end of the round.
+```ds-statblock
+name: Necrotic Eye
+level: 6
+roles:
+  - Hexer
+ancestry:
+  - Eyestalk
+  - Horror
+  - Overmind
+ev: "-"
+stamina: "30"
+speed: 5
+movement: Fly, hover
+size: 1M
+stability: 0
+free_strike: 3
+might: -1
+agility: 1
+reason: 4
+intuition: 1
+presence: -1
+traits:
+  - name: Psionic Barrier
+    effects:
+      - effect: The necrotic eye has damage immunity 15. When they use a main action,
+          they lose this immunity until the end of the round.
+abilities:
+  - name: Necro Beam
+    icon: 🏹
+    cost: Signature Ability
+    keywords:
+      - Psionic
+      - Ranged
+      - Strike
+    type: Main action
+    distance: Ranged 10
+    target: One creature or object
+    effects:
+      - roll: Power Roll + 4
+        t1: 11 corruption damage
+        t2: 17 corruption damage; M < 3 bleeding (save ends)
+        t3: 20 corruption damage; M < 4 bleeding (save ends)
+      - effect: If this damage or the Stamina loss from bleeding this way reduces a
+          target creature's Stamina to 0, that creature dies.
+        name: Effect
+```

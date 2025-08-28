@@ -1,9 +1,9 @@
 ---
 agility: 0
 ancestry:
-  - Humanoid
-  - Soulless
-  - War Dog
+- Humanoid
+- Soulless
+- War Dog
 ev: '7'
 file_basename: War Dog Tormentite
 file_dpath: Monsters/War Dogs/Statblocks
@@ -17,11 +17,11 @@ might: 0
 presence: 0
 reason: 2
 roles:
-  - Horde Hexer
+- Horde Hexer
 scc:
-  - mcdm.monsters.v1:monster:war-dog-tormentite
+- mcdm.monsters.v1:monster:war-dog-tormentite
 scdc:
-  - 1.1.1:2:391
+- 1.1.1:2:391
 size: 1M
 source: mcdm.monsters.v1
 speed: 5
@@ -30,46 +30,72 @@ stamina: '30'
 type: monster
 ---
 
-###### War Dog Tormentite
-
-| Humanoid, Soulless, War Dog |          -          |       Level 5       |       Horde Hexer       |          EV 7          |
-| :-------------------------: | :-----------------: | :-----------------: | :---------------------: | :--------------------: |
-|      **1M**<br/> Size       |  **5**<br/> Speed   | **30**<br/> Stamina |  **0**<br/> Stability   | **3**<br/> Free Strike |
-|     **-**<br/> Immunity     | **-**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
-|      **0**<br/> Might       | **0**<br/> Agility  | **+2**<br/> Reason  |  **+3**<br/> Intuition  |  **0**<br/> Presence   |
-
-> 🏹 **Mark of Agony (Signature Ability)**
->
-> | **Magic, Ranged, Strike** |               **Main action** |
-> | ------------------------- | ----------------------------: |
-> | **📏 Ranged 10**          | **🎯 One creature or object** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 6 corruption damage
-> - **12-16:** 8 corruption damage; the target is marked (save ends)
-> - **17+:** 9 corruption damage; the target is marked (save ends)
->
-> **Effect:** Strikes made against a target marked this way gain an edge. Additionally, whenever the tormentite takes damage, each target marked by them takes 3 damage.
-
-> 🔳 **Vortex of Pain (3 Malice)**
->
-> | **Area, Magic, Ranged** |               **Main action** |
-> | ----------------------- | ----------------------------: |
-> | **📏 4 cube within 10** | **🎯 Each enemy in the area** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 2 corruption damage
-> - **12-16:** 4 corruption damage
-> - **17+:** 5 corruption damage; one ally in the area can end one effect on them that can be ended by a saving throw, and can give that effect to one targe
->
-> **Effect:** The tormentite regains 2 Stamina for each creature targeted by this ability.
-
-> ⭐️ **Persistent Pain**
->
-> From the start of the encounter, the tormentite takes 1 damage at the start of each of their turns.
-
-> ⭐️ **Loyalty Collar**
->
-> When the tormentite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object.
+```ds-statblock
+name: War Dog Tormentite
+level: 5
+roles:
+  - Horde Hexer
+ancestry:
+  - Humanoid
+  - Soulless
+  - War Dog
+ev: "7"
+stamina: "30"
+speed: 5
+size: 1M
+stability: 0
+free_strike: 3
+might: 0
+agility: 0
+reason: 2
+intuition: 3
+presence: 0
+traits:
+  - name: Persistent Pain
+    effects:
+      - effect: From the start of the encounter, the tormentite takes 1 damage at the
+          start of each of their turns.
+  - name: Loyalty Collar
+    effects:
+      - effect: When the tormentite is reduced to 0 Stamina, their loyalty collar
+          explodes, dealing 2d6 damage to each adjacent enemy and object.
+abilities:
+  - name: Mark of Agony
+    icon: 🏹
+    cost: Signature Ability
+    keywords:
+      - Magic
+      - Ranged
+      - Strike
+    type: Main action
+    distance: Ranged 10
+    target: One creature or object
+    effects:
+      - roll: Power Roll + 3
+        t1: 6 corruption damage
+        t2: 8 corruption damage; the target is marked (save ends)
+        t3: 9 corruption damage; the target is marked (save ends)
+      - effect: Strikes made against a target marked this way gain an edge.
+          Additionally, whenever the tormentite takes damage, each target marked
+          by them takes 3 damage.
+        name: Effect
+  - name: Vortex of Pain
+    icon: 🔳
+    cost: 3 Malice
+    keywords:
+      - Area
+      - Magic
+      - Ranged
+    type: Main action
+    distance: 4 cube within 10
+    target: Each enemy in the area
+    effects:
+      - roll: Power Roll + 3
+        t1: 2 corruption damage
+        t2: 4 corruption damage
+        t3: 5 corruption damage; one ally in the area can end one effect on them that
+          can be ended by a saving throw, and can give that effect to one targe
+      - effect: The tormentite regains 2 Stamina for each creature targeted by this
+          ability.
+        name: Effect
+```

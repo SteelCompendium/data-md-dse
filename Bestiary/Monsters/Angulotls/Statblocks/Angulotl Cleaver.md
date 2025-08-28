@@ -1,8 +1,8 @@
 ---
 agility: 2
 ancestry:
-  - Angulotl
-  - Humanoid
+- Angulotl
+- Humanoid
 ev: 3 for 4 minions
 file_basename: Angulotl Cleaver
 file_dpath: Monsters/Angulotls/Statblocks
@@ -16,11 +16,11 @@ might: 0
 presence: 0
 reason: 0
 roles:
-  - Minion Ambusher
+- Minion Ambusher
 scc:
-  - mcdm.monsters.v1:monster:angulotl-cleaver
+- mcdm.monsters.v1:monster:angulotl-cleaver
 scdc:
-  - 1.1.1:2:240
+- 1.1.1:2:240
 size: 1S
 source: mcdm.monsters.v1
 speed: 6
@@ -29,28 +29,50 @@ stamina: '4'
 type: monster
 ---
 
-###### Angulotl Cleaver
-
-|     Angulotl, Humanoid     |               -               |      Level 1       |                 Minion Ambusher                  |   EV 3 for 4 minions   |
-| :------------------------: | :---------------------------: | :----------------: | :----------------------------------------------: | :--------------------: |
-|      **1S**<br/> Size      |       **6**<br/> Speed        | **4**<br/> Stamina |               **0**<br/> Stability               | **2**<br/> Free Strike |
-| **Poison 2**<br/> Immunity | **Climb, swim**<br/> Movement |         -          | **+1 damage bonus to strikes**<br/> With Captain | **-**<br/> Weaknesses  |
-|      **0**<br/> Might      |      **+2**<br/> Agility      | **+0**<br/> Reason |              **+1**<br/> Intuition               |  **+0**<br/> Presence  |
-
-> 🗡 **Hop and Chop (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |                          **Main action** |
-> | ------------------------- | ---------------------------------------: |
-> | **📏 Melee 1**            | **🎯 One creature or object per minion** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 2 damage
-> - **12-16:** 4 damage
-> - **17+:** 5 damage
->
-> **Effect:** The cleaver jumps up to 4 squares before or after making this strike.
-
-> ⭐️ **Toxiferous**
->
-> Whenever an adjacent enemy grabs the cleaver or uses a melee ability against them, that enemy takes 1 poison damage.
+```ds-statblock
+name: Angulotl Cleaver
+level: 1
+roles:
+  - Minion Ambusher
+ancestry:
+  - Angulotl
+  - Humanoid
+ev: 3 for 4 minions
+stamina: "4"
+immunities:
+  - Poison 2
+speed: 6
+movement: Climb, swim
+size: 1S
+stability: 0
+free_strike: 2
+with_captain: +1 damage bonus to strikes
+might: 0
+agility: 2
+reason: 0
+intuition: 1
+presence: 0
+traits:
+  - name: Toxiferous
+    effects:
+      - effect: Whenever an adjacent enemy grabs the cleaver or uses a melee ability
+          against them, that enemy takes 1 poison damage.
+abilities:
+  - name: Hop and Chop
+    icon: 🗡
+    cost: Signature Ability
+    keywords:
+      - Melee
+      - Strike
+      - Weapon
+    type: Main action
+    distance: Melee 1
+    target: One creature or object per minion
+    effects:
+      - roll: Power Roll + 2
+        t1: 2 damage
+        t2: 4 damage
+        t3: 5 damage
+      - effect: The cleaver jumps up to 4 squares before or after making this strike.
+        name: Effect
+```

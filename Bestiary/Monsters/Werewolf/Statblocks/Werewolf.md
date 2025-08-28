@@ -1,9 +1,9 @@
 ---
 agility: 2
 ancestry:
-  - Accursed
-  - Humanoid
-  - Werebeast
+- Accursed
+- Humanoid
+- Werebeast
 ev: '36'
 file_basename: Werewolf
 file_dpath: Monsters/Werewolf/Statblocks
@@ -17,11 +17,11 @@ might: 3
 presence: 1
 reason: -1
 roles:
-  - Solo
+- Solo
 scc:
-  - mcdm.monsters.v1:monster:werewolf
+- mcdm.monsters.v1:monster:werewolf
 scdc:
-  - 1.1.1:2:335
+- 1.1.1:2:335
 size: 1M
 source: mcdm.monsters.v1
 speed: 7
@@ -30,122 +30,183 @@ stamina: '200'
 type: monster
 ---
 
-###### Werewolf
-
-| Accursed, Humanoid, Werebeast |          -          |       Level 1        |          Solo           |         EV 36          |
-| :---------------------------: | :-----------------: | :------------------: | :---------------------: | :--------------------: |
-|       **1M**<br/> Size        |  **7**<br/> Speed   | **200**<br/> Stamina |  **0**<br/> Stability   | **5**<br/> Free Strike |
-|      **-**<br/> Immunity      | **-**<br/> Movement |          -           | **-**<br/> With Captain | **-**<br/> Weaknesses  |
-|       **+3**<br/> Might       | **+2**<br/> Agility |  **-1**<br/> Reason  |  **+1**<br/> Intuition  |  **+1**<br/> Presence  |
-
-> ☠️ **Solo Monster**
->
-> **End Effect:** At the end of each of their turns, the werewolf can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
->
-> **Solo Turns:** The werewolf can take two turns each round. They can't take turns consecutively.
-
-> ⭐️ **Accursed Rage**
->
-> The werewolf's ferocity is expressed through rage, and their abilities can inflict rage points on any enemy except a stormwight fury. A creature who starts their turn with 10 or more rage expends their rage. Then before taking their turn, they must shift up to their speed toward the nearest creature and make a melee free strike against them. A creature who takes damage from this free strike gains 1 rage. Accumulated rage disappears after a character finishes a respite
-
-> ⭐️ **Shapeshifter**
->
-> The werewolf enters combat in their hybrid humanoid form. Their shape can't be changed by any external effect
-
-> ⭐️ **Vukenstep**
->
-> The werewolf ignores difficult terrain
-
-> 🗡 **Accursed Bite (Signature Ability)**
->
-> | **Charge, Melee, Strike, Weapon** |               **Main action** |
-> | --------------------------------- | ----------------------------: |
-> | **📏 Melee 1**                    | **🎯 One creature or object** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 9 damage; the target gains 2 rage
-> - **12-16:** 13 damage; the target gains 4 rage
-> - **17+:** 16 damage; the target gains 5 rage
->
-> **2 Malice:** If the target has P < 0, they are afflicted with lycanthpy. Each time the target is unaffected by the potency effect, the potency increases by 1 the next time the werewolf uses the ability against the same target. A creature afflicted with lycanthrop gains 2 rage at the end of each of their turns whenever they're in combat. Their rage doesn't disappear after finishing a respite and they must complete the Find a Cure downtime project in "Draw Steel: Heroes" to end this effect
-
-> 🗡 **Ripping Claws**
->
-> | **Melee, Strike, Weapon** |                 **Main action** |
-> | ------------------------- | ------------------------------: |
-> | **📏 Melee 1**            | **🎯 Two creatures or objects** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 8 damage; M < 1 bleeding (save ends)
-> - **12-16:** 11 damage; the target gains 1 rage; M < 2 bleeding (save ends)
-> - **17+:** 14 damage; the target gains 3 rage; M < 3 bleeding (save ends)
-
-> ❇️ **Berserker Slash (3 Malice)**
->
-> | **Area, Weapon** |                          **Main action** |
-> | ---------------- | ---------------------------------------: |
-> | **📏 1 burst**   | **🎯 Each enemy and object in the area** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 4 damage; push 2
-> - **12-16:** 6 damage; push 3; the target gains 1 rage
-> - **17+:** 7 damage; slide 3; the target gains 3 rage
->
-> **Effect:** The werewolf shifts up to their speed before using this ability
-
-> 👤 **Wall Leap**
->
-> | **-**       | **Maneuver** |
-> | ----------- | -----------: |
-> | **📏 Self** |  **🎯 Self** |
->
-> **Effect:** The werewolf jumps up to 4 squares. If they end this jump at a wall, the werewolf jumps off the wall up to 4 squares and can make a melee free strike. If the target of the free strike has M < 2, they are knocked prone.
-
-> ❗️ **Facepalm and Head Slam (2 Malice)**
->
-> | **Melee**      |           **Triggered action** |
-> | -------------- | -----------------------------: |
-> | **📏 Melee 1** | **🎯 The triggering creature** |
->
-> **Trigger:** A creature within distance targets the werewolf with a melee ability after charging or moving 2 or more squares in a straight line toward them.
->
-> **Effect:** The target is knocked prone and takes 5 damage before the triggering ability is resolved.
-
-> ☠️ **Howl (Villain Action 1)**
->
-> | **Area**       |                         **-** |
-> | -------------- | ----------------------------: |
-> | **📏 5 burst** | **🎯 Each enemy in the area** |
->
-> **Effect:** Each target makes an Intuition test.
->
-> - **≤11:** The target must move their speed in a straight line away from the werewolf; frightened (save ends)
-> - **12-16:** Frightened (EoT)
-> - **17+:** No effect
->
-> **Effect:** Any enemy in the encounter who has 1 or more rage gains 4 rage and howls along with the werewolf.
-
-> ☠️ **Full Wolf (Villain Action 2)**
->
-> | **-**       |       **-** |
-> | ----------- | ----------: |
-> | **📏 Self** | **🎯 Self** |
->
-> **Effect:** The werewolf transforms into a massive wolf of size 3 until they die or until the end of the encounter. They move to a space that can accommodate their new size and push adjacent creatures out of their way. While in wolf form, they have speed 10 and stability 2, their strikes gain a +2 damage bonus and bestow an additional 1 rage, and the potency of Accursed Bite increases by 1.
-
-> ☠️ **Rampage (Villain Action 3)**
->
-> | **Area, Weapon** |                            **-** |
-> | ---------------- | -------------------------------: |
-> | **📏 2 burst**   | **🎯 Each creature in the area** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 5 damage; the target gains 2 rage; M < 1 bleeding (save ends)
-> - **12-16:** 8 damage; the target gains 4 rage; M < 2 bleeding (save ends)
-> - **17+:** 11 damage; the target gains 8 rage; M < 3 bleeding (save ends)
->
-> **Effect:** The werewolf shifts up to their speed before and after using this ability.
+```ds-statblock
+name: Werewolf
+level: 1
+roles:
+  - Solo
+ancestry:
+  - Accursed
+  - Humanoid
+  - Werebeast
+ev: "36"
+stamina: "200"
+speed: 7
+size: 1M
+stability: 0
+free_strike: 5
+might: 3
+agility: 2
+reason: -1
+intuition: 1
+presence: 1
+traits:
+  - name: Solo Monster
+    effects:
+      - effect: At the end of each of their turns, the werewolf can take 5 damage to end
+          one effect on them that can be ended by a saving throw. This damage
+          can't be reduced in any way.
+        name: End Effect
+      - effect: The werewolf can take two turns each round. They can't take turns
+          consecutively.
+        name: Solo Turns
+  - name: Accursed Rage
+    effects:
+      - effect: The werewolf's ferocity is expressed through rage, and their abilities
+          can inflict rage points on any enemy except a stormwight fury. A
+          creature who starts their turn with 10 or more rage expends their
+          rage. Then before taking their turn, they must shift up to their speed
+          toward the nearest creature and make a melee free strike against them.
+          A creature who takes damage from this free strike gains 1 rage.
+          Accumulated rage disappears after a character finishes a respite
+  - name: Shapeshifter
+    effects:
+      - effect: The werewolf enters combat in their hybrid humanoid form. Their shape
+          can't be changed by any external effect
+  - name: Vukenstep
+    effects:
+      - effect: The werewolf ignores difficult terrain
+abilities:
+  - name: Accursed Bite
+    icon: 🗡
+    cost: Signature Ability
+    keywords:
+      - Charge
+      - Melee
+      - Strike
+      - Weapon
+    type: Main action
+    distance: Melee 1
+    target: One creature or object
+    effects:
+      - roll: Power Roll + 3
+        t1: 9 damage; the target gains 2 rage
+        t2: 13 damage; the target gains 4 rage
+        t3: 16 damage; the target gains 5 rage
+      - effect: "If the target has P < 0, they are afflicted with lycanthpy. Each time
+          the target is unaffected by the potency effect, the potency increases
+          by 1 the next time the werewolf uses the ability against the same
+          target. A creature afflicted with lycanthrop gains 2 rage at the end
+          of each of their turns whenever they're in combat. Their rage doesn't
+          disappear after finishing a respite and they must complete the Find a
+          Cure downtime project in \"Draw Steel: Heroes\" to end this effect"
+        cost: 2 Malice
+  - name: Ripping Claws
+    icon: 🗡
+    keywords:
+      - Melee
+      - Strike
+      - Weapon
+    type: Main action
+    distance: Melee 1
+    target: Two creatures or objects
+    effects:
+      - roll: Power Roll + 3
+        t1: 8 damage; M < 1 bleeding (save ends)
+        t2: 11 damage; the target gains 1 rage; M < 2 bleeding (save ends)
+        t3: 14 damage; the target gains 3 rage; M < 3 bleeding (save ends)
+  - name: Berserker Slash
+    icon: ❇️
+    cost: 3 Malice
+    keywords:
+      - Area
+      - Weapon
+    type: Main action
+    distance: 1 burst
+    target: Each enemy and object in the area
+    effects:
+      - roll: Power Roll + 3
+        t1: 4 damage; push 2
+        t2: 6 damage; push 3; the target gains 1 rage
+        t3: 7 damage; slide 3; the target gains 3 rage
+      - effect: The werewolf shifts up to their speed before using this ability
+        name: Effect
+  - name: Wall Leap
+    icon: 👤
+    keywords:
+      - "-"
+    type: Maneuver
+    distance: Self
+    target: Self
+    effects:
+      - effect: The werewolf jumps up to 4 squares. If they end this jump at a wall, the
+          werewolf jumps off the wall up to 4 squares and can make a melee free
+          strike. If the target of the free strike has M < 2, they are knocked
+          prone.
+        name: Effect
+  - name: Facepalm and Head Slam
+    icon: ❗️
+    cost: 2 Malice
+    keywords:
+      - Melee
+    type: Triggered action
+    distance: Melee 1
+    target: The triggering creature
+    trigger: A creature within distance targets the werewolf with a melee ability
+      after charging or moving 2 or more squares in a straight line toward them.
+    effects:
+      - effect: The target is knocked prone and takes 5 damage before the triggering
+          ability is resolved.
+        name: Effect
+  - name: Howl
+    icon: ☠️
+    cost: Villain Action 1
+    keywords:
+      - Area
+    type: "-"
+    distance: 5 burst
+    target: Each enemy in the area
+    effects:
+      - name: Effect
+        effect: Each target makes an Intuition test.
+        t1: The target must move their speed in a straight line away from the werewolf;
+          frightened (save ends)
+        t2: Frightened (EoT)
+        t3: No effect
+      - effect: Any enemy in the encounter who has 1 or more rage gains 4 rage and howls
+          along with the werewolf.
+        name: Effect
+  - name: Full Wolf
+    icon: ☠️
+    cost: Villain Action 2
+    keywords:
+      - "-"
+    type: "-"
+    distance: Self
+    target: Self
+    effects:
+      - effect: The werewolf transforms into a massive wolf of size 3 until they die or
+          until the end of the encounter. They move to a space that can
+          accommodate their new size and push adjacent creatures out of their
+          way. While in wolf form, they have speed 10 and stability 2, their
+          strikes gain a +2 damage bonus and bestow an additional 1 rage, and
+          the potency of Accursed Bite increases by 1.
+        name: Effect
+  - name: Rampage
+    icon: ☠️
+    cost: Villain Action 3
+    keywords:
+      - Area
+      - Weapon
+    type: "-"
+    distance: 2 burst
+    target: Each creature in the area
+    effects:
+      - roll: Power Roll + 3
+        t1: 5 damage; the target gains 2 rage; M < 1 bleeding (save ends)
+        t2: 8 damage; the target gains 4 rage; M < 2 bleeding (save ends)
+        t3: 11 damage; the target gains 8 rage; M < 3 bleeding (save ends)
+      - effect: The werewolf shifts up to their speed before and after using this
+          ability.
+        name: Effect
+```

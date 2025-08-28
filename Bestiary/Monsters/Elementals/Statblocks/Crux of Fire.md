@@ -1,7 +1,7 @@
 ---
 agility: 2
 ancestry:
-  - Elemental
+- Elemental
 ev: '20'
 file_basename: Crux of Fire
 file_dpath: Monsters/Elementals/Statblocks
@@ -15,11 +15,11 @@ might: -1
 presence: 2
 reason: 0
 roles:
-  - Elite Artillery
+- Elite Artillery
 scc:
-  - mcdm.monsters.v1:monster:crux-of-fire
+- mcdm.monsters.v1:monster:crux-of-fire
 scdc:
-  - 1.1.1:2:327
+- 1.1.1:2:327
 size: 1T
 source: mcdm.monsters.v1
 speed: 6
@@ -28,48 +28,78 @@ stamina: '80'
 type: monster
 ---
 
-###### Crux of Fire
-
-|        Elemental         |          -          |       Level 3       |     Elite Artillery     |         EV 20          |
-| :----------------------: | :-----------------: | :-----------------: | :---------------------: | :--------------------: |
-|     **1T**<br/> Size     |  **6**<br/> Speed   | **80**<br/> Stamina |  **0**<br/> Stability   | **6**<br/> Free Strike |
-| **Fire 5**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
-|    **-1**<br/> Might     | **+2**<br/> Agility | **+0**<br/> Reason  |  **+1**<br/> Intuition  |  **+2**<br/> Presence  |
-
-> 🏹 **Spitfire (Signature Ability)**
->
-> | **Magic, Ranged, Strike** |                 **Main action** |
-> | ------------------------- | ------------------------------: |
-> | **📏 Ranged 12**          | **🎯 Two creatures or objects** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 8 fire damage
-> - **12-16:** 12 fire damage; A < 1 the target is burning (save ends)
-> - **17+:** 15 fire damage; A < 2 the target is burning (save ends)
->
-> **Effect:** A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
-
-> 🏹 **Convocation of Flames**
->
-> | **Magic, Ranged** |                 **Maneuver** |
-> | ----------------- | ---------------------------: |
-> | **📏 Ranged 5**   | **🎯 Self or one elemental** |
->
-> **Effect:** Until the start of the crux's next turn, the target has fire immunity 5.
->
-> **3 Malice:** Until the end of the encounter, the ground within 3 squares of the target is wreathed in fire. Any enemy who enters that area for the first time in a round or starts their turn there takes 3 fire damage.
-
-> ❗️ **Flame Jet (1 Malice)**
->
-> | **Magic**   | **Triggered action** |
-> | ----------- | -------------------: |
-> | **📏 Self** |          **🎯 Self** |
->
-> **Trigger:** The crux takes damage.
->
-> **Effect:** The crux ignores any effects associated with the damage and can fly up to their speed. If the crux doesn't end this movement on solid ground, they fall.
-
-> ⭐️ **Fickle and Free**
->
-> The crux can't be restrained, slowed, or knocked prone, and they ignore difficult terrain.
+```ds-statblock
+name: Crux of Fire
+level: 3
+roles:
+  - Elite Artillery
+ancestry:
+  - Elemental
+ev: "20"
+stamina: "80"
+immunities:
+  - Fire 5
+speed: 6
+size: 1T
+stability: 0
+free_strike: 6
+might: -1
+agility: 2
+reason: 0
+intuition: 1
+presence: 2
+traits:
+  - name: Fickle and Free
+    effects:
+      - effect: The crux can't be restrained, slowed, or knocked prone, and they ignore
+          difficult terrain.
+abilities:
+  - name: Spitfire
+    icon: 🏹
+    cost: Signature Ability
+    keywords:
+      - Magic
+      - Ranged
+      - Strike
+    type: Main action
+    distance: Ranged 12
+    target: Two creatures or objects
+    effects:
+      - roll: Power Roll + 2
+        t1: 8 fire damage
+        t2: 12 fire damage; A < 1 the target is burning (save ends)
+        t3: 15 fire damage; A < 2 the target is burning (save ends)
+      - effect: A burning creature takes 1d6 fire damage at the start of each of their
+          turns. A burning object takes 1d6 fire damage at the end of each
+          round.
+        name: Effect
+  - name: Convocation of Flames
+    icon: 🏹
+    keywords:
+      - Magic
+      - Ranged
+    type: Maneuver
+    distance: Ranged 5
+    target: Self or one elemental
+    effects:
+      - effect: Until the start of the crux's next turn, the target has fire immunity 5.
+        name: Effect
+      - effect: Until the end of the encounter, the ground within 3 squares of the
+          target is wreathed in fire. Any enemy who enters that area for the
+          first time in a round or starts their turn there takes 3 fire damage.
+        cost: 3 Malice
+  - name: Flame Jet
+    icon: ❗️
+    cost: 1 Malice
+    keywords:
+      - Magic
+    type: Triggered action
+    distance: Self
+    target: Self
+    trigger: The crux takes damage.
+    effects:
+      - effect: The crux ignores any effects associated with the damage and can fly up
+          to their speed. If the crux doesn't end this movement on solid ground,
+          they fall.
+        name: Effect
+```

@@ -1,9 +1,9 @@
 ---
 agility: 4
 ancestry:
-  - Abyssal
-  - Demon
-  - Soulraker
+- Abyssal
+- Demon
+- Soulraker
 ev: 9 for four minions
 file_basename: Soulraker Scout
 file_dpath: Monsters/Demons/Statblocks
@@ -17,11 +17,11 @@ might: 2
 presence: -1
 reason: 1
 roles:
-  - Minion Harrier
+- Minion Harrier
 scc:
-  - mcdm.monsters.v1:monster:soulraker-scout
+- mcdm.monsters.v1:monster:soulraker-scout
 scdc:
-  - 1.1.1:2:276
+- 1.1.1:2:276
 size: 1M
 source: mcdm.monsters.v1
 speed: 7
@@ -30,26 +30,49 @@ stamina: '12'
 type: monster
 ---
 
-###### Soulraker Scout
-
-| Abyssal, Demon, Soulraker |           -           |       Level 7       |                Minion Harrier                 |   EV 9 for four minions    |
-| :-----------------------: | :-------------------: | :-----------------: | :-------------------------------------------: | :------------------------: |
-|     **1M**<br/> Size      |   **7**<br/> Speed    | **12**<br/> Stamina |             **0**<br/> Stability              |   **3**<br/> Free Strike   |
-|    **-**<br/> Immunity    | **Fly**<br/> Movement |          -          | **Gain an edge on strikes**<br/> With Captain | **Holy 5**<br/> Weaknesses |
-|     **+2**<br/> Might     |  **+4**<br/> Agility  | **+1**<br/> Reason  |             **+0**<br/> Intuition             |    **-1**<br/> Presence    |
-
-> 🗡 **Soul Stinger (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |                **Main action** |
-> | ------------------------- | -----------------------------: |
-> | **📏 Melee 1**            | **🎯 One creature per minion** |
->
-> **Power Roll + 4:**
->
-> - **≤11:** 3 poison damage
-> - **12-16:** 6 poison damage; the scout can shift 1 square
-> - **17+:** 7 poison damage; the scout shifts up to 3 squares
-
-> ⭐️ **Abyssal Buzzing**
->
-> Any enemy who starts their turn with two or more soulraker minions adjacent to them takes 3 sonic damage.
+```ds-statblock
+name: Soulraker Scout
+level: 7
+roles:
+  - Minion Harrier
+ancestry:
+  - Abyssal
+  - Demon
+  - Soulraker
+ev: 9 for four minions
+stamina: "12"
+weaknesses:
+  - Holy 5
+speed: 7
+movement: Fly
+size: 1M
+stability: 0
+free_strike: 3
+with_captain: Gain an edge on strikes
+might: 2
+agility: 4
+reason: 1
+intuition: 0
+presence: -1
+traits:
+  - name: Abyssal Buzzing
+    effects:
+      - effect: Any enemy who starts their turn with two or more soulraker minions
+          adjacent to them takes 3 sonic damage.
+abilities:
+  - name: Soul Stinger
+    icon: 🗡
+    cost: Signature Ability
+    keywords:
+      - Melee
+      - Strike
+      - Weapon
+    type: Main action
+    distance: Melee 1
+    target: One creature per minion
+    effects:
+      - roll: Power Roll + 4
+        t1: 3 poison damage
+        t2: 6 poison damage; the scout can shift 1 square
+        t3: 7 poison damage; the scout shifts up to 3 squares
+```

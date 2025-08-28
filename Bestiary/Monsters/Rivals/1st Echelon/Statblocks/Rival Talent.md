@@ -1,8 +1,8 @@
 ---
 agility: 0
 ancestry:
-  - Humanoid
-  - Rival
+- Humanoid
+- Rival
 ev: '16'
 file_basename: Rival Talent
 file_dpath: Monsters/Rivals/1st Echelon/Statblocks
@@ -16,11 +16,11 @@ might: 0
 presence: 1
 reason: 2
 roles:
-  - Elite Hexer
+- Elite Hexer
 scc:
-  - mcdm.monsters.v1:monster:rival-talent
+- mcdm.monsters.v1:monster:rival-talent
 scdc:
-  - 1.1.1:2:11
+- 1.1.1:2:11
 size: 1M
 source: mcdm.monsters.v1
 speed: 5
@@ -29,48 +29,73 @@ stamina: '60'
 type: monster
 ---
 
-###### Rival Talent
-
-|   Humanoid, Rival   |          -          |       Level 2       |       Elite Hexer       |         EV 16          |
-| :-----------------: | :-----------------: | :-----------------: | :---------------------: | :--------------------: |
-|  **1M**<br/> Size   |  **5**<br/> Speed   | **60**<br/> Stamina |  **2**<br/> Stability   | **5**<br/> Free Strike |
-| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
-|  **0**<br/> Might   | **0**<br/> Agility  | **+2**<br/> Reason  |  **0**<br/> Intuition   |  **+1**<br/> Presence  |
-
-> 🏹 **Reverberating Blast (Signature Ability)**
->
-> | **Psionic, Ranged, Strike, Telekinesis** |                 **Main action** |
-> | ---------------------------------------- | ------------------------------: |
-> | **📏 Ranged 10**                         | **🎯 Two creatures or objects** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 7 psychic damage; M < 0 prone
-> - **12-16:** 10 psychic damage; push 2; M < 1 prone
-> - **17+:** 13 psychic damage; push 3; M < 2 prone
-
-> 🏹 **Muddle the Mind (2 Malice)**
->
-> | **Psionic, Ranged, Telepathy** |                  **Maneuver** |
-> | ------------------------------ | ----------------------------: |
-> | **📏 Ranged 10**               | **🎯 One creature or object** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** R < 0 slowed (save ends)
-> - **12-16:** R < 1 dazed (save ends)
-> - **17+:** R < 2 dazed and slowed (save ends)
-
-> ❗️ **Precognitive Shift (1 Malice)**
->
-> | **Psionic** | **Triggered action** |
-> | ----------- | -------------------: |
-> | **📏 Self** |          **🎯 Self** |
->
-> **Trigger:** A creature deals damage to the talent.
->
-> **Effect:** The talent halves the damage and shifts up to 2 squares
-
-> ⭐️ **Rivalry**
->
-> At the start of an encounter, the talent chooses one creature within their line of effect. Both the talent and the creature can add a d3 roll to power rolls they make against each other.
+```ds-statblock
+name: Rival Talent
+level: 2
+roles:
+  - Elite Hexer
+ancestry:
+  - Humanoid
+  - Rival
+ev: "16"
+stamina: "60"
+speed: 5
+size: 1M
+stability: 2
+free_strike: 5
+might: 0
+agility: 0
+reason: 2
+intuition: 0
+presence: 1
+traits:
+  - name: Rivalry
+    effects:
+      - effect: At the start of an encounter, the talent chooses one creature within
+          their line of effect. Both the talent and the creature can add a d3
+          roll to power rolls they make against each other.
+abilities:
+  - name: Reverberating Blast
+    icon: 🏹
+    cost: Signature Ability
+    keywords:
+      - Psionic
+      - Ranged
+      - Strike
+      - Telekinesis
+    type: Main action
+    distance: Ranged 10
+    target: Two creatures or objects
+    effects:
+      - roll: Power Roll + 2
+        t1: 7 psychic damage; M < 0 prone
+        t2: 10 psychic damage; push 2; M < 1 prone
+        t3: 13 psychic damage; push 3; M < 2 prone
+  - name: Muddle the Mind
+    icon: 🏹
+    cost: 2 Malice
+    keywords:
+      - Psionic
+      - Ranged
+      - Telepathy
+    type: Maneuver
+    distance: Ranged 10
+    target: One creature or object
+    effects:
+      - roll: Power Roll + 2
+        t1: R < 0 slowed (save ends)
+        t2: R < 1 dazed (save ends)
+        t3: R < 2 dazed and slowed (save ends)
+  - name: Precognitive Shift
+    icon: ❗️
+    cost: 1 Malice
+    keywords:
+      - Psionic
+    type: Triggered action
+    distance: Self
+    target: Self
+    trigger: A creature deals damage to the talent.
+    effects:
+      - effect: The talent halves the damage and shifts up to 2 squares
+        name: Effect
+```
