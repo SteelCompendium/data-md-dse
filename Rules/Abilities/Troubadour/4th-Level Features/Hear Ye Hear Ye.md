@@ -16,8 +16,7 @@ type: feature/trait/troubadour/4th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Hear Ye, Hear Ye!
+name: Hear Ye, Hear Ye!
 metadata:
   class: troubadour
   feature_type: trait

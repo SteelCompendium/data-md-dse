@@ -22,8 +22,7 @@ type: feature/ability/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Grave Speech
+name: Grave Speech
 flavor: You commune with the lingering soul of the recently dead.
 keywords:
   - Magic

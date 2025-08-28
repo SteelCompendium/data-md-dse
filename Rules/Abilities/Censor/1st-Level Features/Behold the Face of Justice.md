@@ -30,8 +30,8 @@ type: feature/ability/censor/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Behold the Face of Justice! (5 Wrath)
+name: Behold the Face of Justice!
+cost: 5 Wrath
 flavor: You attack a foe and your enemies behold a vision of the true nature of
   your resolve.
 keywords:

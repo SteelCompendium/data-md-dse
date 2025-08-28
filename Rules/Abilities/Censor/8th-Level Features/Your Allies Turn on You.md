@@ -27,8 +27,8 @@ type: feature/ability/censor/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Your Allies Turn on You! (11 Wrath)
+name: Your Allies Turn on You!
+cost: 11 Wrath
 flavor: You turn your enemies' ire to the target.
 keywords:
   - Ranged

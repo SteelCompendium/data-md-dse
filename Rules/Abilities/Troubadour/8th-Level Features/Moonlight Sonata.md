@@ -25,8 +25,7 @@ type: feature/ability/troubadour/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Moonlight Sonata
+name: Moonlight Sonata
 flavor: Music pours out of your heart, filling the area with the utmost delicacy
   and without damper.
 keywords:

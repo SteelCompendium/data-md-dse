@@ -16,8 +16,7 @@ type: feature/trait/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Enchantment of Destruction
+name: Enchantment of Destruction
 metadata:
   class: elementalist
   feature_type: trait

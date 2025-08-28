@@ -25,8 +25,7 @@ type: feature/ability/shadow/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Teamwork Has Its Place
+name: Teamwork Has Its Place
 flavor: You attack an enemy as an ally exposes their weakness.
 keywords:
   - Melee

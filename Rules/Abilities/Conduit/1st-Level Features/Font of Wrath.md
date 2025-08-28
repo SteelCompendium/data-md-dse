@@ -27,8 +27,8 @@ type: feature/ability/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Font of Wrath (3 Piety)
+name: Font of Wrath
+cost: 3 Piety
 flavor: A brilliant column of holy light appears on the battlefield, striking
   out at nearby enemies.
 keywords:

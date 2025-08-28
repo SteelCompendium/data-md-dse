@@ -24,8 +24,7 @@ type: feature/ability/talent/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Kinetic Pulse
+name: Kinetic Pulse
 flavor: The force of your mind hurls enemies backward.
 keywords:
   - Area

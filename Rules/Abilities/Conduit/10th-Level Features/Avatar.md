@@ -16,8 +16,7 @@ type: feature/trait/conduit/10th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Avatar
+name: Avatar
 metadata:
   class: conduit
   feature_type: trait

@@ -27,8 +27,8 @@ type: feature/ability/conduit/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Solar Flare (11 Piety)
+name: Solar Flare
+cost: 11 Piety
 flavor: You call down a sphere of fire that burns your foes to ash.
 keywords:
   - Area

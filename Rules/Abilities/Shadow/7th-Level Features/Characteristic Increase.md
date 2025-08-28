@@ -16,8 +16,7 @@ type: feature/trait/shadow/7th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Characteristic Increase
+name: Characteristic Increase
 metadata:
   class: shadow
   feature_type: trait

@@ -16,8 +16,7 @@ type: feature/trait/fury/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Primordial Portal
+name: Primordial Portal
 metadata:
   class: fury
   feature_type: trait

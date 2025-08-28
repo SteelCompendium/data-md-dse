@@ -27,8 +27,8 @@ type: feature/ability/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Violence Will Not Aid Thee (3 Piety)
+name: Violence Will Not Aid Thee
+cost: 3 Piety
 flavor: After some holy lightning, your enemy will think twice about their next attack.
 keywords:
   - Magic

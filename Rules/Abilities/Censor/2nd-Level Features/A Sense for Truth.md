@@ -16,8 +16,7 @@ type: feature/trait/censor/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: A Sense for Truth
+name: A Sense for Truth
 metadata:
   class: censor
   feature_type: trait

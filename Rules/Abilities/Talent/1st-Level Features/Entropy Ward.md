@@ -16,8 +16,7 @@ type: feature/trait/talent/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Entropy Ward
+name: Entropy Ward
 metadata:
   class: talent
   feature_type: trait

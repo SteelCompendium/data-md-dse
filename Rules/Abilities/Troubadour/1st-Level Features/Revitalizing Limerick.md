@@ -24,8 +24,7 @@ type: feature/ability/troubadour/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Revitalizing Limerick
+name: Revitalizing Limerick
 flavor: There once was a man from Capital...
 keywords:
   - Area

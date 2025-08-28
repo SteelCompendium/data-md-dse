@@ -16,8 +16,7 @@ type: feature/trait/null/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Psionic Martial Arts
+name: Psionic Martial Arts
 metadata:
   class: "null"
   feature_type: trait

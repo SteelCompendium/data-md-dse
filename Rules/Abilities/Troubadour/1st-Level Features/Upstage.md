@@ -28,8 +28,8 @@ type: feature/ability/troubadour/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Upstage (3 Drama)
+name: Upstage
+cost: 3 Drama
 flavor: As you bob and weave through the crowd, you can't help but leave the
   audience wanting more.
 keywords:

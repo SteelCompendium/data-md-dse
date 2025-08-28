@@ -27,8 +27,8 @@ type: feature/ability/fury/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Death Rattle (11 Ferocity)
+name: Death Rattle
+cost: 11 Ferocity
 flavor: You unleash an otherworldly cry that rips through your enemies, killing
   the weakest of them.
 keywords:

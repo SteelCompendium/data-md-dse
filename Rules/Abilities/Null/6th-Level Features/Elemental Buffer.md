@@ -16,8 +16,7 @@ type: feature/trait/null/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Elemental Buffer
+name: Elemental Buffer
 metadata:
   class: "null"
   feature_type: trait

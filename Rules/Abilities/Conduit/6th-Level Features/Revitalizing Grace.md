@@ -26,8 +26,8 @@ type: feature/ability/conduit/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Revitalizing Grace (9 Piety)
+name: Revitalizing Grace
+cost: 9 Piety
 flavor: With a gesture, you restore your health and that of your allies.
 keywords:
   - Area

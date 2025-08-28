@@ -25,8 +25,8 @@ type: feature/ability/shadow/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: One Vial Makes You Faster (9 Insight)
+name: One Vial Makes You Faster
+cost: 9 Insight
 flavor: Each ally who catches a potion you throw can take the battle to the next level.
 keywords:
   - Ranged

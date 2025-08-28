@@ -16,8 +16,7 @@ type: feature/trait/shadow/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Umbral Form
+name: Umbral Form
 metadata:
   class: shadow
   feature_type: trait

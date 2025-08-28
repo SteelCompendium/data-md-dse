@@ -14,8 +14,7 @@ type: common-ability/maneuver
 ---
 
 ```ds-ability
-name: ""
-icon: Hide
+name: Hide
 metadata:
   class: combat
   file_basename: Hide

@@ -28,8 +28,8 @@ type: feature/ability/null/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Arcane Disruptor (5 Discipline)
+name: Arcane Disruptor
+cost: 5 Discipline
 flavor: Your blow reorders a foe's body, causing pain if they attempt to channel
   sorcery.
 keywords:

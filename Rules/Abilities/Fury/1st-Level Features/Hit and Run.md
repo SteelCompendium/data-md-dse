@@ -24,8 +24,7 @@ type: feature/ability/fury/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Hit and Run
+name: Hit and Run
 flavor: Staying in constant motion helps you slip out of reach after a brutal assault.
 keywords:
   - Melee

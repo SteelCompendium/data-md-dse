@@ -25,8 +25,7 @@ type: feature/ability/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Grasp of Beyond
+name: Grasp of Beyond
 flavor: You absorb the life energy of another creature and use it to teleport.
 keywords:
   - Magic

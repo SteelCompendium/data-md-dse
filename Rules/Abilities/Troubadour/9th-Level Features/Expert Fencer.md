@@ -28,8 +28,8 @@ type: feature/ability/troubadour/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Expert Fencer (11 Drama)
+name: Expert Fencer
+cost: 11 Drama
 flavor: If you can land the strike, the crowd goes wild.
 keywords:
   - Charge

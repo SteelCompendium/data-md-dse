@@ -25,8 +25,8 @@ type: feature/ability/null/3rd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Molecular Rearrangement Field (7 Discipline)
+name: Molecular Rearrangement Field
+cost: 7 Discipline
 flavor: Your enemies' wounds open, your allies' wounds close.
 keywords:
   - Psionic

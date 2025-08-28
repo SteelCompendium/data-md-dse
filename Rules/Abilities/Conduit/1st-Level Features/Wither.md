@@ -24,8 +24,7 @@ type: feature/ability/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Wither
+name: Wither
 flavor: A bolt of holy energy saps the life from a foe.
 keywords:
   - Magic

@@ -25,8 +25,8 @@ type: feature/ability/tactician/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Floodgates Open (11 Focus)
+name: Floodgates Open
+cost: 11 Focus
 flavor: You direct your squad to strike in unison and with devastating effect.
 keywords:
   - Ranged

@@ -16,8 +16,7 @@ type: feature/trait/tactician/3rd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Out of Position
+name: Out of Position
 metadata:
   class: tactician
   feature_type: trait

@@ -16,8 +16,7 @@ type: feature/trait/censor/10th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Skill
+name: Skill
 metadata:
   class: censor
   feature_type: trait

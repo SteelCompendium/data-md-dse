@@ -25,8 +25,8 @@ type: feature/ability/tactician/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Finish Them! (11 Focus)
+name: Finish Them!
+cost: 11 Focus
 flavor: You point out an opening to your ally so they can land a killing blow.
 keywords:
   - Ranged

@@ -16,8 +16,7 @@ type: feature/trait/troubadour/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Fix It in Post
+name: Fix It in Post
 metadata:
   class: troubadour
   feature_type: trait

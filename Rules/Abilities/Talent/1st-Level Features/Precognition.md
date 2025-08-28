@@ -28,8 +28,8 @@ type: feature/ability/talent/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Precognition (3 Clarity)
+name: Precognition
+cost: 3 Clarity
 flavor: You give a target a glimpse into the future so that they're ready for
   what comes next.
 keywords:

@@ -27,8 +27,8 @@ type: feature/ability/talent/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Steel (11 Clarity)
+name: Steel
+cost: 11 Clarity
 flavor: The target's skin becomes covered in tough metal.
 keywords:
   - Metamorphosis

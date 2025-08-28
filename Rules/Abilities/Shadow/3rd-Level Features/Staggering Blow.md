@@ -28,8 +28,8 @@ type: feature/ability/shadow/3rd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Staggering Blow (7 Insight)
+name: Staggering Blow
+cost: 7 Insight
 flavor: There's no recovering from this.
 keywords:
   - Melee

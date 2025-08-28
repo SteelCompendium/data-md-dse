@@ -26,8 +26,8 @@ type: feature/ability/null/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Ice Pillars (9 Discipline)
+name: Ice Pillars
+cost: 9 Discipline
 flavor: Pillars of ice erupt from the ground and launch your foes into the air.
 keywords:
   - Psionic

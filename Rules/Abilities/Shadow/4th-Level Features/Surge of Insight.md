@@ -16,8 +16,7 @@ type: feature/trait/shadow/4th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Surge of Insight
+name: Surge of Insight
 metadata:
   class: shadow
   feature_type: trait

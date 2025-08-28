@@ -16,8 +16,7 @@ type: feature/trait/censor/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Wrath in Combat
+name: Wrath in Combat
 metadata:
   class: censor
   feature_type: trait

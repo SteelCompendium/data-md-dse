@@ -27,8 +27,8 @@ type: feature/ability/shadow/3rd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Pinning Shot (7 Insight)
+name: Pinning Shot
+cost: 7 Insight
 flavor: One missile-placed well and placed hard.
 keywords:
   - Ranged

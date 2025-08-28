@@ -16,8 +16,7 @@ type: feature/trait/talent/7th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Characteristic Increase
+name: Characteristic Increase
 metadata:
   class: talent
   feature_type: trait

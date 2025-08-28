@@ -16,8 +16,7 @@ type: feature/trait/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Enchantment of Celerity
+name: Enchantment of Celerity
 metadata:
   class: elementalist
   feature_type: trait

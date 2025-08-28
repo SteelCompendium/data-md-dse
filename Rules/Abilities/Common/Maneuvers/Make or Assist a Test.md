@@ -14,8 +14,7 @@ type: common-ability/maneuver
 ---
 
 ```ds-ability
-name: ""
-icon: Make or Assist a Test
+name: Make or Assist a Test
 metadata:
   class: combat
   file_basename: Make or Assist a Test

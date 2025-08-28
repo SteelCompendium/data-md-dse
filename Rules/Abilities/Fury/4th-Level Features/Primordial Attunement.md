@@ -16,8 +16,7 @@ type: feature/trait/fury/4th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Primordial Attunement
+name: Primordial Attunement
 metadata:
   class: fury
   feature_type: trait

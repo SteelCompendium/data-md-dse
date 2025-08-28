@@ -14,8 +14,7 @@ type: common-ability/maneuver
 ---
 
 ```ds-ability
-name: ""
-icon: Stand Up
+name: Stand Up
 metadata:
   class: combat
   file_basename: Stand Up

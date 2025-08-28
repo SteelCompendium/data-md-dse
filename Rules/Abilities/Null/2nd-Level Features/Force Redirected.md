@@ -28,8 +28,8 @@ type: feature/ability/null/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Force Redirected (5 Discipline)
+name: Force Redirected
+cost: 5 Discipline
 flavor: The force of your strike moves your target in a surprising direction.
 keywords:
   - Melee

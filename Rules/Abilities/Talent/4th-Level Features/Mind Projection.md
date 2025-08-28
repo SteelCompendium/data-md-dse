@@ -16,8 +16,7 @@ type: feature/trait/talent/4th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Mind Projection
+name: Mind Projection
 metadata:
   class: talent
   feature_type: trait

@@ -26,8 +26,8 @@ type: feature/ability/censor/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Blessing of the Faithful (5 Wrath)
+name: Blessing of the Faithful
+cost: 5 Wrath
 flavor: The gods reward your faith.
 keywords:
   - Area

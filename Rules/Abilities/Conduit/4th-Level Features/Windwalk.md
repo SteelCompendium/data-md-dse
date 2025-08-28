@@ -16,8 +16,7 @@ type: feature/trait/conduit/4th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Windwalk
+name: Windwalk
 metadata:
   class: conduit
   feature_type: trait

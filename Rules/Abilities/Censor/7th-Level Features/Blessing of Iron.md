@@ -16,8 +16,7 @@ type: feature/trait/censor/7th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Blessing of Iron
+name: Blessing of Iron
 metadata:
   class: censor
   feature_type: trait

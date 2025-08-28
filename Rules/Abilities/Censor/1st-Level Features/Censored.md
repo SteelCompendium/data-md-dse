@@ -27,8 +27,8 @@ type: feature/ability/censor/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Censored (5 Wrath)
+name: Censored
+cost: 5 Wrath
 flavor: Judged and sentenced.
 keywords:
   - Melee

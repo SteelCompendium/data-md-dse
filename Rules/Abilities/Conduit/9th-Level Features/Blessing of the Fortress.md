@@ -26,8 +26,8 @@ type: feature/ability/conduit/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Blessing of the Fortress (11 Piety)
+name: Blessing of the Fortress
+cost: 11 Piety
 flavor: A magic circle extends out from you, barring foes from getting close.
 keywords:
   - Area

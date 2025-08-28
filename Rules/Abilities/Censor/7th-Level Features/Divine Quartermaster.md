@@ -16,8 +16,7 @@ type: feature/trait/censor/7th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Divine Quartermaster
+name: Divine Quartermaster
 metadata:
   class: censor
   feature_type: trait

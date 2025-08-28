@@ -24,8 +24,7 @@ type: feature/ability/talent/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Levitation Field
+name: Levitation Field
 flavor: You manipulate the air around your allies so they can move as freely
   through the sky as you can.
 keywords:

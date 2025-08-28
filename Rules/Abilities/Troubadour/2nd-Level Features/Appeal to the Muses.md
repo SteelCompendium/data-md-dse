@@ -16,8 +16,7 @@ type: feature/trait/troubadour/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Appeal to the Muses
+name: Appeal to the Muses
 metadata:
   class: troubadour
   feature_type: trait

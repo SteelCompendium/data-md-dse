@@ -16,8 +16,7 @@ type: feature/trait/troubadour/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: My Reputation Precedes Me
+name: My Reputation Precedes Me
 metadata:
   class: troubadour
   feature_type: trait

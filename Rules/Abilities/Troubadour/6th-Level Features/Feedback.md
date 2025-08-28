@@ -27,8 +27,8 @@ type: feature/ability/troubadour/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Feedback (9 Drama)
+name: Feedback
+cost: 9 Drama
 flavor: Your music pounds the crowd to the beat until their hearts can't stand
   it anymore.
 keywords:

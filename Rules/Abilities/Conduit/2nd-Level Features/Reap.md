@@ -26,8 +26,8 @@ type: feature/ability/conduit/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Reap (5 Piety)
+name: Reap
+cost: 5 Piety
 flavor: The gods reward those who smite their foes.
 keywords:
   - Magic

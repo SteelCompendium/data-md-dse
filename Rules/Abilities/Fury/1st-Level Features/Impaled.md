@@ -24,8 +24,7 @@ type: feature/ability/fury/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Impaled!
+name: Impaled!
 flavor: You skewer your enemy like a boar upon a spit.
 keywords:
   - Melee

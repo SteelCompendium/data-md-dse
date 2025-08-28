@@ -16,8 +16,7 @@ type: feature/trait/tactician/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Perk
+name: Perk
 metadata:
   class: tactician
   feature_type: trait

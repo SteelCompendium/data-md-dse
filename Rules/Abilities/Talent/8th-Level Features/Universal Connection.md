@@ -16,8 +16,7 @@ type: feature/trait/talent/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Universal Connection
+name: Universal Connection
 metadata:
   class: talent
   feature_type: trait

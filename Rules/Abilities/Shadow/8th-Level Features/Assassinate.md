@@ -27,8 +27,8 @@ type: feature/ability/shadow/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Assassinate (11 Insight)
+name: Assassinate
+cost: 11 Insight
 flavor: A practiced attack will instantly kill an already weakened foe.
 keywords:
   - Melee

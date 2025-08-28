@@ -28,8 +28,8 @@ type: feature/ability/talent/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Rejuvenate (11 Clarity)
+name: Rejuvenate
+cost: 11 Clarity
 flavor: You reshape the flow of time in the target's body to return it to an
   earlier state.
 keywords:

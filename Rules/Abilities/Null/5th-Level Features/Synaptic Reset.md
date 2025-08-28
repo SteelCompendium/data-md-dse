@@ -26,8 +26,8 @@ type: feature/ability/null/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Synaptic Reset (9 Discipline)
+name: Synaptic Reset
+cost: 9 Discipline
 flavor: You expand your nullifying power to mitigate harmful effects.
 keywords:
   - Area

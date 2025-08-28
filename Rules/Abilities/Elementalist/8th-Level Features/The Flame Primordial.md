@@ -16,8 +16,7 @@ type: feature/trait/elementalist/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: The Flame Primordial
+name: The Flame Primordial
 metadata:
   class: elementalist
   feature_type: trait

@@ -16,8 +16,7 @@ type: feature/trait/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Love Domain Piety and Effect
+name: Love Domain Piety and Effect
 metadata:
   class: conduit
   feature_type: trait

@@ -14,8 +14,7 @@ type: common-ability/maneuver
 ---
 
 ```ds-ability
-name: ""
-icon: Search for Hidden Creatures
+name: Search for Hidden Creatures
 metadata:
   class: combat
   file_basename: Search for Hidden Creatures

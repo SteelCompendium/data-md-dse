@@ -16,8 +16,7 @@ type: feature/trait/shadow/10th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Careful Observation Improvement
+name: Careful Observation Improvement
 metadata:
   class: shadow
   feature_type: trait

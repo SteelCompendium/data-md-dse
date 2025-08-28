@@ -16,8 +16,7 @@ type: feature/trait/fury/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Unfettered
+name: Unfettered
 metadata:
   class: fury
   feature_type: trait

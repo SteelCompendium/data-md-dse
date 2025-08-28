@@ -24,8 +24,7 @@ type: feature/ability/elementalist/3rd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Remember Growth and Sun and Rain
+name: Remember Growth and Sun and Rain
 flavor: You stir any wood's memory and learn what it has seen.
 keywords:
   - Green

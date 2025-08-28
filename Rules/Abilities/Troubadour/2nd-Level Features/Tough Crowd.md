@@ -27,8 +27,8 @@ type: feature/ability/troubadour/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Tough Crowd (5 Drama)
+name: Tough Crowd
+cost: 5 Drama
 flavor: Your fans don't seem to like the opening act...
 keywords:
   - Area

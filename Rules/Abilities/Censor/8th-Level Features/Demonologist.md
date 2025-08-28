@@ -16,8 +16,7 @@ type: feature/trait/censor/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Demonologist
+name: Demonologist
 metadata:
   class: censor
   feature_type: trait

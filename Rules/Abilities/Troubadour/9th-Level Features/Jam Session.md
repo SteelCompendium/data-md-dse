@@ -26,8 +26,8 @@ type: feature/ability/troubadour/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Jam Session (11 Drama)
+name: Jam Session
+cost: 11 Drama
 flavor: Your jam session creates new genres that compel everyone to get up and move.
 keywords:
   - Area

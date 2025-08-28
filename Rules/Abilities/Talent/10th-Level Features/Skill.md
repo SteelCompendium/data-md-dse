@@ -16,8 +16,7 @@ type: feature/trait/talent/10th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Skill
+name: Skill
 metadata:
   class: talent
   feature_type: trait

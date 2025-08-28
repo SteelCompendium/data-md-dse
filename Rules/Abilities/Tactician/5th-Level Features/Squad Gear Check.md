@@ -27,8 +27,8 @@ type: feature/ability/tactician/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Squad! Gear Check! (9 Focus)
+name: Squad! Gear Check!
+cost: 9 Focus
 flavor: You distract a foe while your allies secure their defensive gear.
 keywords:
   - Melee

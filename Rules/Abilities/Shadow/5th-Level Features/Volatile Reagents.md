@@ -16,8 +16,7 @@ type: feature/trait/shadow/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Volatile Reagents
+name: Volatile Reagents
 metadata:
   class: shadow
   feature_type: trait

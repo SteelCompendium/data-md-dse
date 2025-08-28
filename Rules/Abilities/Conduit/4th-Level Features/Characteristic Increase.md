@@ -16,8 +16,7 @@ type: feature/trait/conduit/4th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Characteristic Increase
+name: Characteristic Increase
 metadata:
   class: conduit
   feature_type: trait

@@ -26,8 +26,7 @@ type: feature/ability/null/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Magnetic Strike
+name: Magnetic Strike
 flavor: The force of your blow extends past the limits of your body, pulling
   your enemy closer.
 keywords:

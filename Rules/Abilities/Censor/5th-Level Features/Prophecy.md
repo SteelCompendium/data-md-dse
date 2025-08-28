@@ -16,8 +16,7 @@ type: feature/trait/censor/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Prophecy
+name: Prophecy
 metadata:
   class: censor
   feature_type: trait

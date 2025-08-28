@@ -16,8 +16,7 @@ type: feature/trait/elementalist/3rd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: A Conversation With Fire
+name: A Conversation With Fire
 metadata:
   class: elementalist
   feature_type: trait

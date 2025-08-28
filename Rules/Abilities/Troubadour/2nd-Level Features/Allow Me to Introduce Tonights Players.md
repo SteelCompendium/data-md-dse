@@ -16,8 +16,7 @@ type: feature/trait/troubadour/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Allow Me to Introduce Tonight's Players
+name: Allow Me to Introduce Tonight's Players
 metadata:
   class: troubadour
   feature_type: trait

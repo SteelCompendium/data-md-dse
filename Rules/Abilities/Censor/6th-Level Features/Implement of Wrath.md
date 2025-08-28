@@ -16,8 +16,7 @@ type: feature/trait/censor/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Implement of Wrath
+name: Implement of Wrath
 metadata:
   class: censor
   feature_type: trait

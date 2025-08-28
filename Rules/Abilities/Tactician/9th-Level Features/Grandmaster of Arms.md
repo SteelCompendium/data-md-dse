@@ -16,8 +16,7 @@ type: feature/trait/tactician/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Grandmaster of Arms
+name: Grandmaster of Arms
 metadata:
   class: tactician
   feature_type: trait

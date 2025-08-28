@@ -27,8 +27,8 @@ type: feature/ability/censor/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Repent! (3 Wrath)
+name: Repent!
+cost: 3 Wrath
 flavor: You conjure memories of their sins to harry your foes.
 keywords:
   - Magic

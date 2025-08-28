@@ -26,8 +26,8 @@ type: feature/ability/null/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Psychic Pulse (3 Discipline)
+name: Psychic Pulse
+cost: 3 Discipline
 flavor: A burst of psionic energy interferes with your enemy's synapses.
 keywords:
   - Area

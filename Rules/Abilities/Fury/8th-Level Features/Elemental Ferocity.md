@@ -25,8 +25,8 @@ type: feature/ability/fury/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Elemental Ferocity (11 Ferocity)
+name: Elemental Ferocity
+cost: 11 Ferocity
 flavor: Your primordial energy makes for instant retribution.
 keywords:
   - Magic

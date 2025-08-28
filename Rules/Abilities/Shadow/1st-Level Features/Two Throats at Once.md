@@ -28,8 +28,8 @@ type: feature/ability/shadow/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Two Throats at Once (3 Insight)
+name: Two Throats at Once
+cost: 3 Insight
 flavor: A bargain.
 keywords:
   - Melee

@@ -27,8 +27,8 @@ type: feature/ability/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Curse of Terror (5 Piety)
+name: Curse of Terror
+cost: 5 Piety
 flavor: Fear of divine judgment overwhelms your foe.
 keywords:
   - Magic

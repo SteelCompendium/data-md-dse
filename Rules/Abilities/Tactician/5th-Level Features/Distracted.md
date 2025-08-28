@@ -16,8 +16,7 @@ type: feature/trait/tactician/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Distracted
+name: Distracted
 metadata:
   class: tactician
   feature_type: trait

@@ -27,8 +27,8 @@ type: feature/ability/fury/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: To the Uttermost End (5 Ferocity)
+name: To the Uttermost End
+cost: 5 Ferocity
 flavor: You gut your life force to ensure a foe's demise.
 keywords:
   - Melee

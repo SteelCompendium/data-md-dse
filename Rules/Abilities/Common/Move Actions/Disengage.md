@@ -14,8 +14,7 @@ type: common-ability/move-action
 ---
 
 ```ds-ability
-name: ""
-icon: Disengage
+name: Disengage
 metadata:
   class: combat
   file_basename: Disengage

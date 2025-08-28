@@ -16,8 +16,7 @@ type: feature/trait/censor/7th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Word of Death Deferred
+name: Word of Death Deferred
 metadata:
   class: censor
   feature_type: trait

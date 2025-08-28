@@ -24,8 +24,7 @@ type: feature/ability/talent/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Feedback Loop
+name: Feedback Loop
 flavor: Creating a brief psychic link between an enemy and their target gives
   that foe a taste of their own medicine.
 keywords:

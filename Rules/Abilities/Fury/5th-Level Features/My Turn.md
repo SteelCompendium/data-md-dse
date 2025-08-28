@@ -27,8 +27,8 @@ type: feature/ability/fury/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: My Turn! (9 Ferocity)
+name: My Turn!
+cost: 9 Ferocity
 flavor: You quickly strike back at a foe.
 keywords:
   - Melee

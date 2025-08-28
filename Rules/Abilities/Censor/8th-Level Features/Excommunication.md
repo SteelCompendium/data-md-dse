@@ -27,8 +27,8 @@ type: feature/ability/censor/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Excommunication (11 Wrath)
+name: Excommunication
+cost: 11 Wrath
 flavor: You curse your foe to become a bane to their allies.
 keywords:
   - Melee

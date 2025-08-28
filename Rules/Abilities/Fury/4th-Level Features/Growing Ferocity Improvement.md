@@ -16,8 +16,7 @@ type: feature/trait/fury/4th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Growing Ferocity Improvement
+name: Growing Ferocity Improvement
 metadata:
   class: fury
   feature_type: trait

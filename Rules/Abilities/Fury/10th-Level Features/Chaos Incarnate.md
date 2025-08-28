@@ -16,8 +16,7 @@ type: feature/trait/fury/10th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Chaos Incarnate
+name: Chaos Incarnate
 metadata:
   class: fury
   feature_type: trait

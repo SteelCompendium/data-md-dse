@@ -27,8 +27,8 @@ type: feature/ability/conduit/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Penance (9 Piety)
+name: Penance
+cost: 9 Piety
 flavor: "\"If you won't kneel, the gods will make you.\""
 keywords:
   - Area

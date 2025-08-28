@@ -16,8 +16,7 @@ type: feature/trait/conduit/4th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Invocation of the Heart
+name: Invocation of the Heart
 metadata:
   class: conduit
   feature_type: trait

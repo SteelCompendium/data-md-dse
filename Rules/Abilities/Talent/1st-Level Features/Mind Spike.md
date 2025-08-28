@@ -25,8 +25,7 @@ type: feature/ability/talent/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Mind Spike
+name: Mind Spike
 flavor: A telepathic bolt instantly zaps a creature's brain.
 keywords:
   - Psionic

@@ -28,8 +28,8 @@ type: feature/ability/shadow/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: You Talk Too Much (9 Insight)
+name: You Talk Too Much
+cost: 9 Insight
 flavor: Silence is a virtue. A knife pinning their mouth shut is the next best thing.
 keywords:
   - Melee

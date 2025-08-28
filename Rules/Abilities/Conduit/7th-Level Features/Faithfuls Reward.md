@@ -16,8 +16,7 @@ type: feature/trait/conduit/7th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Faithful's Reward
+name: Faithful's Reward
 metadata:
   class: conduit
   feature_type: trait

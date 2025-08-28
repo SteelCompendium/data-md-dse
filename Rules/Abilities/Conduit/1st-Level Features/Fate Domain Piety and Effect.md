@@ -16,8 +16,7 @@ type: feature/trait/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Fate Domain Piety and Effect
+name: Fate Domain Piety and Effect
 metadata:
   class: conduit
   feature_type: trait

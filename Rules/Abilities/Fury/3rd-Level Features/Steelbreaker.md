@@ -25,8 +25,8 @@ type: feature/ability/fury/3rd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Steelbreaker (7 Ferocity)
+name: Steelbreaker
+cost: 7 Ferocity
 flavor: See how useless their weapons are!
 keywords:
   - Magic

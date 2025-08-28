@@ -26,8 +26,8 @@ type: feature/ability/troubadour/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: You're All My Understudies (9 Drama)
+name: You're All My Understudies
+cost: 9 Drama
 flavor: It's important for everyone to know each other's lines, just in case...
 keywords:
   - Area

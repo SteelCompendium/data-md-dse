@@ -16,8 +16,7 @@ type: feature/trait/censor/4th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Improved Sanctified Weapon
+name: Improved Sanctified Weapon
 metadata:
   class: censor
   feature_type: trait

@@ -28,8 +28,8 @@ type: feature/ability/tactician/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Their Lack of Focus Is Their Undoing (11 Focus)
+name: Their Lack of Focus Is Their Undoing
+cost: 11 Focus
 flavor: You trick your enemies into attacking each other and leave them confused
   by the aftermath.
 keywords:

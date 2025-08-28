@@ -28,8 +28,8 @@ type: feature/ability/tactician/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Concussive Strike (3 Focus)
+name: Concussive Strike
+cost: 3 Focus
 flavor: Your precise strike leaves your foe struggling to respond.
 keywords:
   - Melee

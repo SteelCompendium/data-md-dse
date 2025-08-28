@@ -29,8 +29,8 @@ type: feature/ability/talent/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Awe (3 Clarity)
+name: Awe
+cost: 3 Clarity
 flavor: You project psionic energy out to a creature and take on a new visage in
   their mind.
 keywords:

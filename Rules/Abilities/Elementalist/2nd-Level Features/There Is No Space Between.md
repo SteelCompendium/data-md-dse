@@ -24,8 +24,7 @@ type: feature/ability/elementalist/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: There Is No Space Between
+name: There Is No Space Between
 flavor: Knowledge of the mystery reveals that two spaces are the same space.
 keywords:
   - Magic

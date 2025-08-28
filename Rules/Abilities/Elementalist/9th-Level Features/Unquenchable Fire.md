@@ -28,8 +28,8 @@ type: feature/ability/elementalist/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Unquenchable Fire (11 Essence)
+name: Unquenchable Fire
+cost: 11 Essence
 flavor: You let fly a fiery missile braided with pure primal energy.
 keywords:
   - Fire

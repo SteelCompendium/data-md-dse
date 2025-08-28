@@ -27,8 +27,8 @@ type: feature/ability/censor/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Banish (11 Wrath)
+name: Banish
+cost: 11 Wrath
 flavor: You sever the target's tenuous connection to the world.
 keywords:
   - Melee

@@ -16,8 +16,7 @@ type: feature/trait/censor/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Wrath Outside of Combat
+name: Wrath Outside of Combat
 metadata:
   class: censor
   feature_type: trait

@@ -16,8 +16,7 @@ type: feature/trait/conduit/10th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Most Pious
+name: Most Pious
 metadata:
   class: conduit
   feature_type: trait

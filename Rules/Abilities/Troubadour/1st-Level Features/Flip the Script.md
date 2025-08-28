@@ -27,8 +27,8 @@ type: feature/ability/troubadour/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Flip the Script (5 Drama)
+name: Flip the Script
+cost: 5 Drama
 flavor: You try a different take on events, justifying the new locations
   everyone ended up in.
 keywords:

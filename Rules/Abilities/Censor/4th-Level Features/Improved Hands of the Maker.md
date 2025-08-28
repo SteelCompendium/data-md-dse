@@ -16,8 +16,7 @@ type: feature/trait/censor/4th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Improved Hands of the Maker
+name: Improved Hands of the Maker
 metadata:
   class: censor
   feature_type: trait

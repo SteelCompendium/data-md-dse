@@ -16,8 +16,7 @@ type: feature/trait/tactician/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Kit Signature Ability
+name: Kit Signature Ability
 metadata:
   class: tactician
   feature_type: trait

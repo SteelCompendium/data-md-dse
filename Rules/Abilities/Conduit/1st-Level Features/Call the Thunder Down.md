@@ -27,8 +27,8 @@ type: feature/ability/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Call the Thunder Down (3 Piety)
+name: Call the Thunder Down
+cost: 3 Piety
 flavor: You ask your saint for thunder and your prayer is answered.
 keywords:
   - Area

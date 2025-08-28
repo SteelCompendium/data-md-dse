@@ -26,8 +26,8 @@ type: feature/ability/censor/3rd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Edict of Stillness (7 Wrath)
+name: Edict of Stillness
+cost: 7 Wrath
 flavor: The holy aura you project makes it painful for evil-doers to leave your reach.
 keywords:
   - Area

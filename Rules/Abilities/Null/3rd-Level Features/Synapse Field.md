@@ -26,8 +26,8 @@ type: feature/ability/null/3rd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Synapse Field (7 Discipline)
+name: Synapse Field
+cost: 7 Discipline
 flavor: Attacks made by allies in your null field disrupt your enemies'
   thoughts, causing psychic pain.
 keywords:

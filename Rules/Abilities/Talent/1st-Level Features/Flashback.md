@@ -28,8 +28,8 @@ type: feature/ability/talent/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Flashback (5 Clarity)
+name: Flashback
+cost: 5 Clarity
 flavor: The target is thrown several seconds back through time and gets to do it
   all again.
 keywords:

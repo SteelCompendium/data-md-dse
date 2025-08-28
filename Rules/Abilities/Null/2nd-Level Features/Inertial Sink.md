@@ -16,8 +16,7 @@ type: feature/trait/null/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Inertial Sink
+name: Inertial Sink
 metadata:
   class: "null"
   feature_type: trait

@@ -27,8 +27,8 @@ type: feature/ability/troubadour/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Renegotiated Contract (11 Drama)
+name: Renegotiated Contract
+cost: 11 Drama
 flavor: No, no. You don't die until the sequel.
 keywords:
   - Melee

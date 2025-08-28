@@ -27,8 +27,8 @@ type: feature/ability/conduit/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Sanctuary (9 Piety)
+name: Sanctuary
+cost: 9 Piety
 flavor: You send yourself or an ally to a divine manifold to instantaneously
   regain health.
 keywords:

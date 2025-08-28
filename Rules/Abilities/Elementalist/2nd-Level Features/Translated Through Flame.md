@@ -28,8 +28,8 @@ type: feature/ability/elementalist/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Translated Through Flame (5 Essence)
+name: Translated Through Flame
+cost: 5 Essence
 flavor: Your ally disappears, then reappears in a burst of fire.
 keywords:
   - Fire

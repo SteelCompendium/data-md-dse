@@ -16,8 +16,7 @@ type: feature/trait/troubadour/7th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Skill
+name: Skill
 metadata:
   class: troubadour
   feature_type: trait

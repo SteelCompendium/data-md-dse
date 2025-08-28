@@ -16,8 +16,7 @@ type: feature/trait/fury/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Harbinger of the Primordial Chaos
+name: Harbinger of the Primordial Chaos
 metadata:
   class: fury
   feature_type: trait

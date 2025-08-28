@@ -26,8 +26,8 @@ type: feature/ability/shadow/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Look! (9 Insight)
+name: Look!
+cost: 9 Insight
 flavor: You distract your foes, allowing your allies to take advantage of that
   distraction.
 keywords:

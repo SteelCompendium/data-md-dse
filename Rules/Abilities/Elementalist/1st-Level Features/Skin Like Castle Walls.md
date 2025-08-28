@@ -24,8 +24,7 @@ type: feature/ability/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Skin Like Castle Walls
+name: Skin Like Castle Walls
 flavor: You cover yourself or an ally in protective stone.
 keywords:
   - Earth

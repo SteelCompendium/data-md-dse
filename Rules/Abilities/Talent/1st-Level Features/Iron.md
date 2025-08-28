@@ -27,8 +27,8 @@ type: feature/ability/talent/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Iron (5 Clarity)
+name: Iron
+cost: 5 Clarity
 flavor: The target's skin turns to hard, dark metal, impenetrable and dense.
 keywords:
   - Metamorphosis

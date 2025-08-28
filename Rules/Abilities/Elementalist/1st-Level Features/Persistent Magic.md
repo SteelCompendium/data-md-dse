@@ -16,8 +16,7 @@ type: feature/trait/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Persistent Magic
+name: Persistent Magic
 metadata:
   class: elementalist
   feature_type: trait

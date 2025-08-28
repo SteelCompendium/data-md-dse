@@ -24,8 +24,7 @@ type: feature/ability/fury/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: To the Death!
+name: To the Death!
 flavor: Your reckless assault leaves you tactically vulnerable.
 keywords:
   - Melee

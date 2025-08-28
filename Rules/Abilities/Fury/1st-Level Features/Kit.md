@@ -16,8 +16,7 @@ type: feature/trait/fury/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Kit
+name: Kit
 metadata:
   class: fury
   feature_type: trait

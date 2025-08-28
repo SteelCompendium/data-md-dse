@@ -28,8 +28,8 @@ type: feature/ability/shadow/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: To the Stars (11 Insight)
+name: To the Stars
+cost: 11 Insight
 flavor: You attach your most potent explosive to your foe. Under less pressing
   circumstances, you're sure you could launch them into orbit.
 keywords:

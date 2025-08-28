@@ -16,8 +16,7 @@ type: feature/trait/fury/3rd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: See Through Their Tricks
+name: See Through Their Tricks
 metadata:
   class: fury
   feature_type: trait

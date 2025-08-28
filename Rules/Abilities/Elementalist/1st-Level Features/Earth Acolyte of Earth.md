@@ -16,8 +16,7 @@ type: feature/trait/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: "Earth: Acolyte of Earth"
+name: "Earth: Acolyte of Earth"
 metadata:
   class: elementalist
   feature_type: trait

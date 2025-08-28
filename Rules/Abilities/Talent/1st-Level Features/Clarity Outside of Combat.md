@@ -16,8 +16,7 @@ type: feature/trait/talent/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Clarity Outside of Combat
+name: Clarity Outside of Combat
 metadata:
   class: talent
   feature_type: trait

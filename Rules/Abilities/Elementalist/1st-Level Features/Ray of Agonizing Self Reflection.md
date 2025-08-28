@@ -25,8 +25,7 @@ type: feature/ability/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Ray of Agonizing Self-Reflection
+name: Ray of Agonizing Self-Reflection
 flavor: You inflict pain and doubt in equal measure.
 keywords:
   - Magic

@@ -16,8 +16,7 @@ type: feature/trait/shadow/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Insight Outside of Combat
+name: Insight Outside of Combat
 metadata:
   class: shadow
   feature_type: trait

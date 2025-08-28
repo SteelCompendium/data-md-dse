@@ -14,8 +14,7 @@ type: common-ability/main-action
 ---
 
 ```ds-ability
-name: ""
-icon: Charge
+name: Charge
 metadata:
   class: combat
   file_basename: Charge

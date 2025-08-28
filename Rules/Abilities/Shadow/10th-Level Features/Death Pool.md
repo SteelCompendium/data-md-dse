@@ -16,8 +16,7 @@ type: feature/trait/shadow/10th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Death Pool
+name: Death Pool
 metadata:
   class: shadow
   feature_type: trait

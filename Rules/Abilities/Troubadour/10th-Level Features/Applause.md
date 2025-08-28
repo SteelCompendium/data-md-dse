@@ -16,8 +16,7 @@ type: feature/trait/troubadour/10th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Applause
+name: Applause
 metadata:
   class: troubadour
   feature_type: trait

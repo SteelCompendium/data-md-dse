@@ -14,8 +14,7 @@ type: common-ability/move-action
 ---
 
 ```ds-ability
-name: ""
-icon: Ride
+name: Ride
 metadata:
   class: combat
   file_basename: Ride

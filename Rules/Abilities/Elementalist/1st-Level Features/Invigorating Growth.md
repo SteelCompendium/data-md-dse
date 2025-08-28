@@ -29,8 +29,8 @@ type: feature/ability/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Invigorating Growth (3 Essence)
+name: Invigorating Growth
+cost: 3 Essence
 flavor: Mushrooms erupt from a foe, sapping their vitality to spread
   strengthening spores.
 keywords:

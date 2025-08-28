@@ -16,8 +16,7 @@ type: feature/trait/fury/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Primordial Aspect
+name: Primordial Aspect
 metadata:
   class: fury
   feature_type: trait

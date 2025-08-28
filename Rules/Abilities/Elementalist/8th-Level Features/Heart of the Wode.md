@@ -28,8 +28,8 @@ type: feature/ability/elementalist/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Heart of the Wode (11 Essence)
+name: Heart of the Wode
+cost: 11 Essence
 flavor: You call forth one of the Great Tree's many splinters to provide for
   your every need.
 keywords:

@@ -22,8 +22,7 @@ type: feature/ability/shadow/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Coat the Blade
+name: Coat the Blade
 flavor: A little poison goes a long way.
 keywords:
   - "-"

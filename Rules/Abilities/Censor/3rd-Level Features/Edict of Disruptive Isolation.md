@@ -26,8 +26,8 @@ type: feature/ability/censor/3rd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Edict of Disruptive Isolation (7 Wrath)
+name: Edict of Disruptive Isolation
+cost: 7 Wrath
 flavor: The evil within your foes detonates with holy fire that burns only the guilty.
 keywords:
   - Area

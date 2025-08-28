@@ -16,8 +16,7 @@ type: feature/trait/tactician/10th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Warmaster
+name: Warmaster
 metadata:
   class: tactician
   feature_type: trait

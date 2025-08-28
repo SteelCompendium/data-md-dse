@@ -26,8 +26,7 @@ type: feature/ability/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Afflict a Bountiful Decay
+name: Afflict a Bountiful Decay
 flavor: Your curse causes your foe's flesh to rot off as spores that aid your allies.
 keywords:
   - Green

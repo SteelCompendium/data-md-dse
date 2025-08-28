@@ -16,8 +16,7 @@ type: feature/trait/tactician/10th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Command
+name: Command
 metadata:
   class: tactician
   feature_type: trait

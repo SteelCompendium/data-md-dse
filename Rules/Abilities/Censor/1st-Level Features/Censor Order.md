@@ -16,8 +16,7 @@ type: feature/trait/censor/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Censor Order
+name: Censor Order
 metadata:
   class: censor
   feature_type: trait

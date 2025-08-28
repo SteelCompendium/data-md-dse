@@ -24,8 +24,7 @@ type: feature/ability/troubadour/3rd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: '"Fire Up the Night"'
+name: '"Fire Up the Night"'
 flavor: Maybe you and I ♪ We can still bring the light!♪
 keywords:
   - Area

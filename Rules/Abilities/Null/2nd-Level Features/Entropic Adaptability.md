@@ -16,8 +16,7 @@ type: feature/trait/null/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Entropic Adaptability
+name: Entropic Adaptability
 metadata:
   class: "null"
   feature_type: trait

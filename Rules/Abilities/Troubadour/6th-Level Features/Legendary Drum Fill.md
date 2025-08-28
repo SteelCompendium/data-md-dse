@@ -27,8 +27,8 @@ type: feature/ability/troubadour/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Legendary Drum Fill (9 Drama)
+name: Legendary Drum Fill
+cost: 9 Drama
 flavor: You start a drumroll that roars like thunder with every impact the heroes make.
 keywords:
   - Area

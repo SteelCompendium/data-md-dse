@@ -16,8 +16,7 @@ type: feature/trait/conduit/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: 5th-Level Domain Feature
+name: 5th-Level Domain Feature
 metadata:
   class: conduit
   feature_type: trait

@@ -16,8 +16,7 @@ type: feature/trait/null/7th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Psi Boost
+name: Psi Boost
 metadata:
   class: "null"
   feature_type: trait

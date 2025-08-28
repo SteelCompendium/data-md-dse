@@ -16,8 +16,7 @@ type: feature/trait/null/4th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Perk
+name: Perk
 metadata:
   class: "null"
   feature_type: trait

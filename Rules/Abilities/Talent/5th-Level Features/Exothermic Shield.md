@@ -28,8 +28,8 @@ type: feature/ability/talent/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Exothermic Shield (9 Clarity)
+name: Exothermic Shield
+cost: 9 Clarity
 flavor: You encase the target in psionic flame and allow them to flicker without
   fear of burning out.
 keywords:

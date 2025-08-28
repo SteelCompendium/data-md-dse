@@ -26,8 +26,8 @@ type: feature/ability/conduit/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Divine Comedy (5 Piety)
+name: Divine Comedy
+cost: 5 Piety
 flavor: You and your allies swap places to confound your foes.
 keywords:
   - Area

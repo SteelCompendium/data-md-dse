@@ -16,8 +16,7 @@ type: feature/trait/troubadour/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Bolstering Banter
+name: Bolstering Banter
 metadata:
   class: troubadour
   feature_type: trait

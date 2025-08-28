@@ -16,8 +16,7 @@ type: feature/trait/tactician/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: See Your Enemies Driven Before You
+name: See Your Enemies Driven Before You
 metadata:
   class: tactician
   feature_type: trait

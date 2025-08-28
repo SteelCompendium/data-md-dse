@@ -28,8 +28,8 @@ type: feature/ability/fury/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Pounce (9 Ferocity)
+name: Pounce
+cost: 9 Ferocity
 flavor: You strike at the target like the ultimate predator you are.
 keywords:
   - Magic

@@ -28,8 +28,8 @@ type: feature/ability/fury/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Relentless Death (11 Ferocity)
+name: Relentless Death
+cost: 11 Ferocity
 flavor: You won't escape your fate.
 keywords:
   - Magic

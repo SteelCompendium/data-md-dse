@@ -16,8 +16,7 @@ type: feature/trait/conduit/7th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Your Triumphs Are Remembered
+name: Your Triumphs Are Remembered
 metadata:
   class: conduit
   feature_type: trait

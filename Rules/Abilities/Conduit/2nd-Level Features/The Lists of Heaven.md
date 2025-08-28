@@ -16,8 +16,7 @@ type: feature/trait/conduit/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: The Lists of Heaven
+name: The Lists of Heaven
 metadata:
   class: conduit
   feature_type: trait

@@ -16,8 +16,7 @@ type: feature/trait/null/10th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Manifold Body
+name: Manifold Body
 metadata:
   class: "null"
   feature_type: trait

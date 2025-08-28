@@ -26,8 +26,8 @@ type: feature/ability/conduit/7th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Trinity of Trickery (9 Piety)
+name: Trinity of Trickery
+cost: 9 Piety
 flavor: Hey! I'm over here. No, here, numbskull.
 keywords:
   - Magic

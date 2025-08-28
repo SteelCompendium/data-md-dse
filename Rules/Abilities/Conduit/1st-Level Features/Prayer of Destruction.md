@@ -16,8 +16,7 @@ type: feature/trait/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Prayer of Destruction
+name: Prayer of Destruction
 metadata:
   class: conduit
   feature_type: trait

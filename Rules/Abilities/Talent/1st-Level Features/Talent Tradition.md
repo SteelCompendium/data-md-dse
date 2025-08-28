@@ -16,8 +16,7 @@ type: feature/trait/talent/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Talent Tradition
+name: Talent Tradition
 metadata:
   class: talent
   feature_type: trait

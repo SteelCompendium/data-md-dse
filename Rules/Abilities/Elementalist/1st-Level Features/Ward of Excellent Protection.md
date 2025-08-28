@@ -16,8 +16,7 @@ type: feature/trait/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Ward of Excellent Protection
+name: Ward of Excellent Protection
 metadata:
   class: elementalist
   feature_type: trait

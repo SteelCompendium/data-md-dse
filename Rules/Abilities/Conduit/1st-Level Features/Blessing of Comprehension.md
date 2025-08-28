@@ -16,8 +16,7 @@ type: feature/trait/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Blessing of Comprehension
+name: Blessing of Comprehension
 metadata:
   class: conduit
   feature_type: trait

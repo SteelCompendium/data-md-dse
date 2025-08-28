@@ -27,8 +27,8 @@ type: feature/ability/talent/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Perfect Clarity (5 Clarity)
+name: Perfect Clarity
+cost: 5 Clarity
 flavor: You clear the mind of nothing but the goal.
 keywords:
   - Psionic

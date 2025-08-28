@@ -26,8 +26,8 @@ type: feature/ability/conduit/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Our Hearts Your Strength (5 Piety)
+name: Our Hearts Your Strength
+cost: 5 Piety
 flavor: An ally gains strength from their friends.
 keywords:
   - Magic

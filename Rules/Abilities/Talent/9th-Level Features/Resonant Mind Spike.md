@@ -29,8 +29,8 @@ type: feature/ability/talent/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Resonant Mind Spike (11 Clarity)
+name: Resonant Mind Spike
+cost: 11 Clarity
 flavor: You fire a telepathic bolt empowered by every consciousness within reach
   directly into your foe's mind.
 keywords:

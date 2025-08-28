@@ -16,8 +16,7 @@ type: feature/trait/null/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Rapid Processing
+name: Rapid Processing
 metadata:
   class: "null"
   feature_type: trait

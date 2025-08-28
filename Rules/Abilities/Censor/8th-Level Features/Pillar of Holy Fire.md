@@ -27,8 +27,8 @@ type: feature/ability/censor/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Pillar of Holy Fire (11 Wrath)
+name: Pillar of Holy Fire
+cost: 11 Wrath
 flavor: Your enemy's guilt fuels a holy flame that burns your foes.
 keywords:
   - Melee

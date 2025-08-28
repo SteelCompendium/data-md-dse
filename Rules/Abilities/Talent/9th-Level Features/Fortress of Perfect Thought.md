@@ -16,8 +16,7 @@ type: feature/trait/talent/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Fortress of Perfect Thought
+name: Fortress of Perfect Thought
 metadata:
   class: talent
   feature_type: trait

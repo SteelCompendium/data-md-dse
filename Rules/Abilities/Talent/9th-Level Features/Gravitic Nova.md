@@ -28,8 +28,8 @@ type: feature/ability/talent/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Gravitic Nova (11 Clarity)
+name: Gravitic Nova
+cost: 11 Clarity
 flavor: Unbridled psionic energy erupts from your body and flashes outward,
   hurling your foes back.
 keywords:

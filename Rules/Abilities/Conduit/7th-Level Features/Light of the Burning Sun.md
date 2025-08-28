@@ -16,8 +16,7 @@ type: feature/trait/conduit/7th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Light of the Burning Sun
+name: Light of the Burning Sun
 metadata:
   class: conduit
   feature_type: trait

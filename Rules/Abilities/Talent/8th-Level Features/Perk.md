@@ -16,8 +16,7 @@ type: feature/trait/talent/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Perk
+name: Perk
 metadata:
   class: talent
   feature_type: trait

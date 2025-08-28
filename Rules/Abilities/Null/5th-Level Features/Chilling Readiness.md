@@ -16,8 +16,7 @@ type: feature/trait/null/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Chilling Readiness
+name: Chilling Readiness
 metadata:
   class: "null"
   feature_type: trait

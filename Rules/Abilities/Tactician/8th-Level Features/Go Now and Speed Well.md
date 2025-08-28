@@ -25,8 +25,8 @@ type: feature/ability/tactician/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Go Now and Speed Well (11 Focus)
+name: Go Now and Speed Well
+cost: 11 Focus
 flavor: You direct an attack to strike true.
 keywords:
   - Ranged

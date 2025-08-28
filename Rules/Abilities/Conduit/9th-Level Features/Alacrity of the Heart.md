@@ -26,8 +26,8 @@ type: feature/ability/conduit/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Alacrity of the Heart (11 Piety)
+name: Alacrity of the Heart
+cost: 11 Piety
 flavor: You speak inspiring words to a friend and spur them to incredible feats.
 keywords:
   - Magic

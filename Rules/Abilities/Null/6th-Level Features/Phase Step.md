@@ -28,8 +28,8 @@ type: feature/ability/null/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Phase Step (9 Discipline)
+name: Phase Step
+cost: 9 Discipline
 flavor: You weaken your connection to this manifold, allowing you to move
   through and damage enemies.
 keywords:

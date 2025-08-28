@@ -24,8 +24,7 @@ type: feature/ability/talent/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Kinetic Grip
+name: Kinetic Grip
 flavor: You lift and hurl your foe away from you.
 keywords:
   - Psionic

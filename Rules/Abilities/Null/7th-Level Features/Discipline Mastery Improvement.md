@@ -16,8 +16,7 @@ type: feature/trait/null/7th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Discipline Mastery Improvement
+name: Discipline Mastery Improvement
 metadata:
   class: "null"
   feature_type: trait

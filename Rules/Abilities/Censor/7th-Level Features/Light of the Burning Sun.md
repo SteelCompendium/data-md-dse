@@ -16,8 +16,7 @@ type: feature/trait/censor/7th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Light of the Burning Sun
+name: Light of the Burning Sun
 metadata:
   class: censor
   feature_type: trait

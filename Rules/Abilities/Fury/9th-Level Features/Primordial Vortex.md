@@ -28,8 +28,8 @@ type: feature/ability/fury/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Primordial Vortex (11 Ferocity)
+name: Primordial Vortex
+cost: 11 Ferocity
 flavor: You channel the power of the Primordial Chaos to pull foes to you.
 keywords:
   - Area

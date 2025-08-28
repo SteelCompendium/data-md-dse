@@ -22,8 +22,7 @@ type: feature/ability/tactician/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Advanced Tactics
+name: Advanced Tactics
 flavor: Your leadership aids an ally.
 keywords:
   - Ranged

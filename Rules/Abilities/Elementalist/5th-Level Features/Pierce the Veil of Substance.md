@@ -16,8 +16,7 @@ type: feature/trait/elementalist/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Pierce the Veil of Substance
+name: Pierce the Veil of Substance
 metadata:
   class: elementalist
   feature_type: trait

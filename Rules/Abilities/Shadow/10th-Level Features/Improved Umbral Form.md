@@ -16,8 +16,7 @@ type: feature/trait/shadow/10th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Improved Umbral Form
+name: Improved Umbral Form
 metadata:
   class: shadow
   feature_type: trait

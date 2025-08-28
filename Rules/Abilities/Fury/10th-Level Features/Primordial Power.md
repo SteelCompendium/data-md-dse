@@ -16,8 +16,7 @@ type: feature/trait/fury/10th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Primordial Power
+name: Primordial Power
 metadata:
   class: fury
   feature_type: trait

@@ -16,8 +16,7 @@ type: feature/trait/fury/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Ferocity Outside of Combat
+name: Ferocity Outside of Combat
 metadata:
   class: fury
   feature_type: trait

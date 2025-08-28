@@ -26,8 +26,8 @@ type: feature/ability/censor/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Intercede (9 Wrath)
+name: Intercede
+cost: 9 Wrath
 flavor: You take your ally's place.
 keywords:
   - Magic

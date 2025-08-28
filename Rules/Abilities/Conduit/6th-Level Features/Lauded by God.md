@@ -27,8 +27,8 @@ type: feature/ability/conduit/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Lauded by God (9 Piety)
+name: Lauded by God
+cost: 9 Piety
 flavor: You beseech the gods to give your allies what they need to win the day,
   and the gods answer.
 keywords:

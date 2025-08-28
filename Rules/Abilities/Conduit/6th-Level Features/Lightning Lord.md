@@ -26,8 +26,8 @@ type: feature/ability/conduit/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Lightning Lord (9 Piety)
+name: Lightning Lord
+cost: 9 Piety
 flavor: Lightning bursts forth from your body in several directions.
 keywords:
   - Area

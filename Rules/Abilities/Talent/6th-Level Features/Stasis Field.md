@@ -28,8 +28,8 @@ type: feature/ability/talent/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Stasis Field (9 Clarity)
+name: Stasis Field
+cost: 9 Clarity
 flavor: Keep everything as it was. Ignore everything that will be.
 keywords:
   - Area

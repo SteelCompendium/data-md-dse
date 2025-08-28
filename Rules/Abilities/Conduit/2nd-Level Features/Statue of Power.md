@@ -26,8 +26,8 @@ type: feature/ability/conduit/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Statue of Power (5 Piety)
+name: Statue of Power
+cost: 5 Piety
 flavor: A marble statue of your deity rises from the earth.
 keywords:
   - Magic

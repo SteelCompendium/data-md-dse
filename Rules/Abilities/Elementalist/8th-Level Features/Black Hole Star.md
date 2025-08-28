@@ -16,8 +16,7 @@ type: feature/trait/elementalist/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Black Hole Star
+name: Black Hole Star
 metadata:
   class: elementalist
   feature_type: trait

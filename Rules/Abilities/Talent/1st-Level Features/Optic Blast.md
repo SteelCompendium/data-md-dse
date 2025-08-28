@@ -25,8 +25,7 @@ type: feature/ability/talent/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Optic Blast
+name: Optic Blast
 flavor: Your eyes emit rays of powerful enervating force.
 keywords:
   - Metamorphosis

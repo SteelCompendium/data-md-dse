@@ -26,8 +26,8 @@ type: feature/ability/conduit/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Invocation of Mystery (9 Piety)
+name: Invocation of Mystery
+cost: 9 Piety
 flavor: '"Now you see us..."'
 keywords:
   - Area

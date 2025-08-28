@@ -28,8 +28,8 @@ type: feature/ability/elementalist/3rd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Wall of Fire (7 Essence)
+name: Wall of Fire
+cost: 7 Essence
 flavor: A blazing, beautifully organized inferno erupts at your command.
 keywords:
   - Area

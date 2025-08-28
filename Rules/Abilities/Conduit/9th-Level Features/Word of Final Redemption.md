@@ -26,8 +26,8 @@ type: feature/ability/conduit/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Word of Final Redemption (11 Piety)
+name: Word of Final Redemption
+cost: 11 Piety
 flavor: Your death will fuel our victory.
 keywords:
   - Magic

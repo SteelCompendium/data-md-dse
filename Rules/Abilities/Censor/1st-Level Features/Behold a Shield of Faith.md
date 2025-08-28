@@ -28,8 +28,8 @@ type: feature/ability/censor/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Behold a Shield of Faith! (3 Wrath)
+name: Behold a Shield of Faith!
+cost: 3 Wrath
 flavor: A mighty blow turns your foe's vitality into a holy light that envelops
   you and an ally, discouraging enemies who might attack you.
 keywords:

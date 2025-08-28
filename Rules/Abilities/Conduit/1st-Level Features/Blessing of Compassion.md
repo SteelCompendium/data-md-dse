@@ -16,8 +16,7 @@ type: feature/trait/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Blessing of Compassion
+name: Blessing of Compassion
 metadata:
   class: conduit
   feature_type: trait

@@ -16,8 +16,7 @@ type: feature/trait/troubadour/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Scene Partner
+name: Scene Partner
 metadata:
   class: troubadour
   feature_type: trait

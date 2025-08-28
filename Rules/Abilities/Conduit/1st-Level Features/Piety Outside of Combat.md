@@ -16,8 +16,7 @@ type: feature/trait/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Piety Outside of Combat
+name: Piety Outside of Combat
 metadata:
   class: conduit
   feature_type: trait

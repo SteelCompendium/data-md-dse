@@ -25,8 +25,7 @@ type: feature/ability/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Viscous Fire
+name: Viscous Fire
 flavor: A jet of heavy fire erupts where you strike.
 keywords:
   - Fire

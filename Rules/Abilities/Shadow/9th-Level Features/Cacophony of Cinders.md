@@ -27,8 +27,8 @@ type: feature/ability/shadow/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Cacophony of Cinders (11 Insight)
+name: Cacophony of Cinders
+cost: 11 Insight
 flavor: You tumble through the battle, stabbing foes and teleporting allies.
 keywords:
   - Magic

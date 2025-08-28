@@ -28,8 +28,8 @@ type: feature/ability/censor/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: The Gods Punish and Defend (3 Wrath)
+name: The Gods Punish and Defend
+cost: 3 Wrath
 flavor: You channel holy energy to smite a foe and heal an ally.
 keywords:
   - Magic

@@ -28,8 +28,8 @@ type: feature/ability/fury/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Overkill (11 Ferocity)
+name: Overkill
+cost: 11 Ferocity
 flavor: You strike so no damage is wasted.
 keywords:
   - Magic

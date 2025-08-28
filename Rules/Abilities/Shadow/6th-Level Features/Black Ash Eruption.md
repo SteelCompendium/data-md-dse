@@ -29,8 +29,8 @@ type: feature/ability/shadow/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Black Ash Eruption (9 Insight)
+name: Black Ash Eruption
+cost: 9 Insight
 flavor: Your attack produces a cloud of black ash that launches an enemy into the air.
 keywords:
   - Magic

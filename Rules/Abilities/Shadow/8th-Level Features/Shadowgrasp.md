@@ -27,8 +27,8 @@ type: feature/ability/shadow/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Shadowgrasp (11 Insight)
+name: Shadowgrasp
+cost: 11 Insight
 flavor: The shadows around you give way, allowing the shadow creature within you
   to grasp at your foes.
 keywords:

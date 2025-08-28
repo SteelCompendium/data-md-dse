@@ -25,8 +25,8 @@ type: feature/ability/troubadour/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Fake Your Death (5 Drama)
+name: Fake Your Death
+cost: 5 Drama
 flavor: O happy dagger, this is thy sheath!
 keywords:
   - Magic

@@ -16,8 +16,7 @@ type: feature/trait/shadow/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Kit
+name: Kit
 metadata:
   class: shadow
   feature_type: trait

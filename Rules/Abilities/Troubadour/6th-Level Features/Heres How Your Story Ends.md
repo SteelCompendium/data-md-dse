@@ -26,8 +26,8 @@ type: feature/ability/troubadour/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Here's How Your Story Ends (9 Drama)
+name: Here's How Your Story Ends
+cost: 9 Drama
 flavor: You give away the ending of this battle, and it's not great for them.
 keywords:
   - Area

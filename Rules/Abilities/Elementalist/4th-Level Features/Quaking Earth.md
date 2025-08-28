@@ -16,8 +16,7 @@ type: feature/trait/elementalist/4th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Quaking Earth
+name: Quaking Earth
 metadata:
   class: elementalist
   feature_type: trait

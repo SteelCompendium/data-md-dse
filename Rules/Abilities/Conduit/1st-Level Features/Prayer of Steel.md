@@ -16,8 +16,7 @@ type: feature/trait/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Prayer of Steel
+name: Prayer of Steel
 metadata:
   class: conduit
   feature_type: trait

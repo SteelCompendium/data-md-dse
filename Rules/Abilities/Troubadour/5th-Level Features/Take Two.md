@@ -24,8 +24,7 @@ type: feature/ability/troubadour/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Take Two!
+name: Take Two!
 flavor: One more, and this time make it interesting.
 keywords:
   - Area

@@ -23,8 +23,7 @@ type: feature/ability/elementalist/3rd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Earth Accepts Me
+name: Earth Accepts Me
 flavor: You can slip into the stone.
 keywords:
   - Earth

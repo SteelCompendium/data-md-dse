@@ -16,8 +16,7 @@ type: feature/trait/talent/7th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Ancestral Memory
+name: Ancestral Memory
 metadata:
   class: talent
   feature_type: trait

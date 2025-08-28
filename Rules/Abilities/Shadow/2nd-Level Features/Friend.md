@@ -16,8 +16,7 @@ type: feature/trait/shadow/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Friend!
+name: Friend!
 metadata:
   class: shadow
   feature_type: trait

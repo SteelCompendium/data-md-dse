@@ -30,8 +30,8 @@ type: feature/ability/elementalist/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Subvert the Green Within (5 Essence)
+name: Subvert the Green Within
+cost: 5 Essence
 flavor: Fungal spores sprout inside your enemy's brain, allowing you to control
   their actions.
 keywords:

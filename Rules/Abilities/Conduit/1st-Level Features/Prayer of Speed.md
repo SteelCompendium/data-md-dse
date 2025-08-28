@@ -16,8 +16,7 @@ type: feature/trait/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Prayer of Speed
+name: Prayer of Speed
 metadata:
   class: conduit
   feature_type: trait

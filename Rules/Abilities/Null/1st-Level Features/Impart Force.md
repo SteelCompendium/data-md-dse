@@ -28,8 +28,8 @@ type: feature/ability/null/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Impart Force (5 Discipline)
+name: Impart Force
+cost: 5 Discipline
 flavor: A single touch from you, and your enemy flies backward.
 keywords:
   - Melee

@@ -16,8 +16,7 @@ type: feature/trait/fury/3rd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Nature's Knight
+name: Nature's Knight
 metadata:
   class: fury
   feature_type: trait

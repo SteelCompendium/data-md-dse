@@ -27,8 +27,8 @@ type: feature/ability/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Ripples in the Earth (3 Essence)
+name: Ripples in the Earth
+cost: 3 Essence
 flavor: Like a stone was dropped into a pond, waves in the earth radiate from you.
 keywords:
   - Area

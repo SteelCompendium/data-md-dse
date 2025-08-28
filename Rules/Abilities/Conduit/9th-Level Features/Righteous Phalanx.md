@@ -27,8 +27,8 @@ type: feature/ability/conduit/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Righteous Phalanx (11 Piety)
+name: Righteous Phalanx
+cost: 11 Piety
 flavor: A wall of spinning swords and knives appears where you wish.
 keywords:
   - Area

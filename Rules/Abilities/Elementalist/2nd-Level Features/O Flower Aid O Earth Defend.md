@@ -29,8 +29,8 @@ type: feature/ability/elementalist/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: O Flower Aid, O Earth Defend (5 Essence)
+name: O Flower Aid, O Earth Defend
+cost: 5 Essence
 flavor: Revitalizing plants and jagged stones grow, helping allies and hindering foes.
 keywords:
   - Area

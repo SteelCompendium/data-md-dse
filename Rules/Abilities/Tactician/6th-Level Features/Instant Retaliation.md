@@ -26,8 +26,8 @@ type: feature/ability/tactician/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Instant Retaliation (9 Focus)
+name: Instant Retaliation
+cost: 9 Focus
 flavor: You parry with almost supernatural speed.
 keywords:
   - Melee

@@ -16,8 +16,7 @@ type: feature/trait/elementalist/7th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Surging Essence
+name: Surging Essence
 metadata:
   class: elementalist
   feature_type: trait

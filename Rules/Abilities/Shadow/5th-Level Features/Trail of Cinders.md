@@ -16,8 +16,7 @@ type: feature/trait/shadow/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Trail of Cinders
+name: Trail of Cinders
 metadata:
   class: shadow
   feature_type: trait

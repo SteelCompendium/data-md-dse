@@ -28,8 +28,8 @@ type: feature/ability/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Conflagration (5 Essence)
+name: Conflagration
+cost: 5 Essence
 flavor: A storm of fire descends upon your enemies.
 keywords:
   - Area

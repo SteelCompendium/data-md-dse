@@ -28,8 +28,8 @@ type: feature/ability/null/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Phase Strike (5 Discipline)
+name: Phase Strike
+cost: 5 Discipline
 flavor: For a moment, your foe slips out of phase with this manifold.
 keywords:
   - Melee

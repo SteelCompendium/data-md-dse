@@ -27,8 +27,8 @@ type: feature/ability/censor/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Hand of the Gods (11 Wrath)
+name: Hand of the Gods
+cost: 11 Wrath
 flavor: You use your foe as a tool against your enemies.
 keywords:
   - Ranged

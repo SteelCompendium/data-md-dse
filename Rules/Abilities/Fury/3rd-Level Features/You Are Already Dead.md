@@ -27,8 +27,8 @@ type: feature/ability/fury/3rd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: You Are Already Dead (7 Ferocity)
+name: You Are Already Dead
+cost: 7 Ferocity
 flavor: Slash. Walk away.
 keywords:
   - Melee

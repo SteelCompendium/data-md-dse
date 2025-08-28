@@ -25,8 +25,8 @@ type: feature/ability/tactician/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Squad! On Me! (5 Focus)
+name: Squad! On Me!
+cost: 5 Focus
 flavor: Together we are invincible!
 keywords:
   - Area

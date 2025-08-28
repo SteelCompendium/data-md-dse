@@ -25,8 +25,8 @@ type: feature/ability/null/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Iron Body (9 Discipline)
+name: Iron Body
+cost: 9 Discipline
 flavor: You focus until your body becomes as hard as iron.
 keywords:
   - Psionic

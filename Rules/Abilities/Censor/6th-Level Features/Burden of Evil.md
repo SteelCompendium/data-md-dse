@@ -28,8 +28,8 @@ type: feature/ability/censor/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Burden of Evil (9 Wrath)
+name: Burden of Evil
+cost: 9 Wrath
 flavor: You reveal a vision of your enemies' fate that causes them to scramble
   as it staggers them.
 keywords:

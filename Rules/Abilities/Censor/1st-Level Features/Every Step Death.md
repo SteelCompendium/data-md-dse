@@ -24,8 +24,7 @@ type: feature/ability/censor/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Every Step... Death!
+name: Every Step... Death!
 flavor: You show your foe a glimpse of their fate after death.
 keywords:
   - Magic

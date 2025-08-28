@@ -23,8 +23,7 @@ type: feature/ability/troubadour/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Dramatic Monologue
+name: Dramatic Monologue
 flavor: It doesn't need to make sense. Just say it with emotion.
 keywords:
   - Magic

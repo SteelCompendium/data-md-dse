@@ -26,8 +26,8 @@ type: feature/ability/fury/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Riders on the Storm (9 Ferocity)
+name: Riders on the Storm
+cost: 9 Ferocity
 flavor: You focus your connection to the Primordial Chaos into a seething storm.
 keywords:
   - Area

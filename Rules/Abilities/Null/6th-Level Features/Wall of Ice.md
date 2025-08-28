@@ -27,8 +27,8 @@ type: feature/ability/null/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Wall of Ice (9 Discipline)
+name: Wall of Ice
+cost: 9 Discipline
 flavor: You create a wall of ice.
 keywords:
   - Area

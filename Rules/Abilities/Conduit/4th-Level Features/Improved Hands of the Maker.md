@@ -16,8 +16,7 @@ type: feature/trait/conduit/4th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Improved Hands of the Maker
+name: Improved Hands of the Maker
 metadata:
   class: conduit
   feature_type: trait

@@ -14,8 +14,7 @@ type: common-ability/maneuver
 ---
 
 ```ds-ability
-name: ""
-icon: Knockback
+name: Knockback
 metadata:
   class: combat
   file_basename: Knockback

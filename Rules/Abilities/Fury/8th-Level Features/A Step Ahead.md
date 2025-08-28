@@ -16,8 +16,7 @@ type: feature/trait/fury/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: A Step Ahead
+name: A Step Ahead
 metadata:
   class: fury
   feature_type: trait

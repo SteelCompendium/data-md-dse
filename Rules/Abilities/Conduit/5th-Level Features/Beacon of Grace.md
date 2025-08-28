@@ -27,8 +27,8 @@ type: feature/ability/conduit/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Beacon of Grace (9 Piety)
+name: Beacon of Grace
+cost: 9 Piety
 flavor: You ignite a foe with holy radiance, rewarding allies who attack them.
 keywords:
   - Magic

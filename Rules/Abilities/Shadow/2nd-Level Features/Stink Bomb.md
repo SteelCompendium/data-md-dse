@@ -26,8 +26,8 @@ type: feature/ability/shadow/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Stink Bomb (5 Insight)
+name: Stink Bomb
+cost: 5 Insight
 flavor: Putrid yellow gas explodes from a bomb you toss.
 keywords:
   - Area

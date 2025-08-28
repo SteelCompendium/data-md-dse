@@ -16,8 +16,7 @@ type: feature/trait/tactician/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Master of Arms
+name: Master of Arms
 metadata:
   class: tactician
   feature_type: trait

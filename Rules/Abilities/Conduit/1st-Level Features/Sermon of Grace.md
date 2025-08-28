@@ -26,8 +26,8 @@ type: feature/ability/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Sermon of Grace (5 Piety)
+name: Sermon of Grace
+cost: 5 Piety
 flavor: You inspire your allies with tales of your saint's great deeds.
 keywords:
   - Area

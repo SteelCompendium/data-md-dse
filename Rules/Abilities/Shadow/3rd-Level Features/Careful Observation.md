@@ -22,8 +22,7 @@ type: feature/ability/shadow/3rd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Careful Observation
+name: Careful Observation
 flavor: A moment of focus leaves a foe firmly in your sights.
 keywords:
   - Ranged

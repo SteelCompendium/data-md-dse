@@ -25,8 +25,8 @@ type: feature/ability/fury/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Avalanche Impact (9 Ferocity)
+name: Avalanche Impact
+cost: 9 Ferocity
 flavor: You leap and crash down, causing a shockwave that devastates foes.
 keywords:
   - Magic

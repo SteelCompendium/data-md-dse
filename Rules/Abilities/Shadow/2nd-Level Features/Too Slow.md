@@ -25,8 +25,8 @@ type: feature/ability/shadow/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Too Slow (5 Insight)
+name: Too Slow
+cost: 5 Insight
 flavor: Your foe made a big mistake.
 keywords:
   - "-"

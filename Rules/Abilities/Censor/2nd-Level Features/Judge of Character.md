@@ -16,8 +16,7 @@ type: feature/trait/censor/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Judge of Character
+name: Judge of Character
 metadata:
   class: censor
   feature_type: trait

@@ -16,8 +16,7 @@ type: feature/trait/troubadour/4th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Latest Goss
+name: Latest Goss
 metadata:
   class: troubadour
   feature_type: trait

@@ -23,8 +23,7 @@ type: feature/ability/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Word of Guidance
+name: Word of Guidance
 flavor: You invigorate an attacking ally with divine energy.
 keywords:
   - Magic

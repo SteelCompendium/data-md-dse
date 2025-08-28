@@ -16,8 +16,7 @@ type: feature/trait/elementalist/10th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Breath
+name: Breath
 metadata:
   class: elementalist
   feature_type: trait

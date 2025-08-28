@@ -16,8 +16,7 @@ type: feature/trait/censor/7th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Focused Wrath
+name: Focused Wrath
 metadata:
   class: censor
   feature_type: trait

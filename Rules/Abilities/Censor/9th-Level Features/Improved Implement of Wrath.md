@@ -16,8 +16,7 @@ type: feature/trait/censor/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Improved Implement of Wrath
+name: Improved Implement of Wrath
 metadata:
   class: censor
   feature_type: trait

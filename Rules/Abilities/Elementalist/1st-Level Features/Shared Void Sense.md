@@ -24,8 +24,7 @@ type: feature/ability/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Shared Void Sense
+name: Shared Void Sense
 flavor: You grant allies a taste of your unearthly vision.
 keywords:
   - Magic

@@ -16,8 +16,7 @@ type: feature/trait/elementalist/4th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Veiling Bed
+name: Veiling Bed
 metadata:
   class: elementalist
   feature_type: trait

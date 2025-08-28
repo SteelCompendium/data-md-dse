@@ -23,8 +23,7 @@ type: feature/ability/tactician/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Parry
+name: Parry
 flavor: Your quick reflexes cost an enemy the precision they seek.
 keywords:
   - Melee

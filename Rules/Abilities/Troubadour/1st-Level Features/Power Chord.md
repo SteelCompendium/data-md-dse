@@ -23,8 +23,7 @@ type: feature/ability/troubadour/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Power Chord
+name: Power Chord
 flavor: Your instrument rings true and your music blows everyone away.
 keywords:
   - Area

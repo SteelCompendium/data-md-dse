@@ -16,8 +16,7 @@ type: feature/trait/elementalist/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Source of Earth Statblock
+name: Source of Earth Statblock
 metadata:
   class: elementalist
   feature_type: trait

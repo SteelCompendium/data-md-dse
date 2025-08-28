@@ -16,8 +16,7 @@ type: feature/trait/talent/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Ease the Hours
+name: Ease the Hours
 metadata:
   class: talent
   feature_type: trait

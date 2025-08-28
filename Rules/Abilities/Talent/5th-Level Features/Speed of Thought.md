@@ -16,8 +16,7 @@ type: feature/trait/talent/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Speed of Thought
+name: Speed of Thought
 metadata:
   class: talent
   feature_type: trait

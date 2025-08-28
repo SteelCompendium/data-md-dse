@@ -23,8 +23,7 @@ type: feature/ability/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Word of Judgment
+name: Word of Judgment
 flavor: Your holy word saps an attacking enemy's strength.
 keywords:
   - Magic

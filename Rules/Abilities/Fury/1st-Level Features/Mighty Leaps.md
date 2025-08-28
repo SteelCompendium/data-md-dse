@@ -16,8 +16,7 @@ type: feature/trait/fury/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Mighty Leaps
+name: Mighty Leaps
 metadata:
   class: fury
   feature_type: trait

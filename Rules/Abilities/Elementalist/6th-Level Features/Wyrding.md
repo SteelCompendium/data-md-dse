@@ -16,8 +16,7 @@ type: feature/trait/elementalist/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Wyrding
+name: Wyrding
 metadata:
   class: elementalist
   feature_type: trait

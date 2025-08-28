@@ -25,8 +25,8 @@ type: feature/ability/tactician/3rd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Frontal Assault (7 Focus)
+name: Frontal Assault
+cost: 7 Focus
 flavor: The purpose of a charge is to break their morale and force a retreat.
 keywords:
   - "-"

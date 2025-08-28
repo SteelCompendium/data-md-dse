@@ -16,8 +16,7 @@ type: feature/trait/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Essence Outside of Combat
+name: Essence Outside of Combat
 metadata:
   class: elementalist
   feature_type: trait

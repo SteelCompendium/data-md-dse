@@ -16,8 +16,7 @@ type: feature/trait/elementalist/4th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Burning Grounds
+name: Burning Grounds
 metadata:
   class: elementalist
   feature_type: trait

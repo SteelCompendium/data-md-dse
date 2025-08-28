@@ -16,8 +16,7 @@ type: feature/trait/fury/7th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Greater Ferocity
+name: Greater Ferocity
 metadata:
   class: fury
   feature_type: trait

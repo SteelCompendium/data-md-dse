@@ -16,8 +16,7 @@ type: feature/trait/tactician/7th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Heightened Focus
+name: Heightened Focus
 metadata:
   class: tactician
   feature_type: trait

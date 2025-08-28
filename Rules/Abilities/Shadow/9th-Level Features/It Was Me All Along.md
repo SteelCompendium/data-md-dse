@@ -28,8 +28,8 @@ type: feature/ability/shadow/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: It Was Me All Along (11 Insight)
+name: It Was Me All Along
+cost: 11 Insight
 flavor: After everything you've been through together, you twist the blade and
   make the pain extra personal.
 keywords:

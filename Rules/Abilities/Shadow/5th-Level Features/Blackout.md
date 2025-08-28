@@ -27,8 +27,8 @@ type: feature/ability/shadow/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Blackout (9 Insight)
+name: Blackout
+cost: 9 Insight
 flavor: You cause a plume of shadow to erupt from your eyes and create a cloud
   of darkness.
 keywords:

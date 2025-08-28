@@ -16,8 +16,7 @@ type: feature/trait/null/7th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Improved Body
+name: Improved Body
 metadata:
   class: "null"
   feature_type: trait

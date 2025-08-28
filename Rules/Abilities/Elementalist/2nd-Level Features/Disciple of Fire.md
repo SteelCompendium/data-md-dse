@@ -16,8 +16,7 @@ type: feature/trait/elementalist/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Disciple of Fire
+name: Disciple of Fire
 metadata:
   class: elementalist
   feature_type: trait

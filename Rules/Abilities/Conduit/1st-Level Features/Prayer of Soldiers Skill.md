@@ -16,8 +16,7 @@ type: feature/trait/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Prayer of Soldier's Skill
+name: Prayer of Soldier's Skill
 metadata:
   class: conduit
   feature_type: trait

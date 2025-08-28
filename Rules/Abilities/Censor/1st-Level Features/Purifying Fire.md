@@ -29,8 +29,8 @@ type: feature/ability/censor/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Purifying Fire (5 Wrath)
+name: Purifying Fire
+cost: 5 Wrath
 flavor: The gods judge, fire cleanses.
 keywords:
   - Magic

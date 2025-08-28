@@ -16,8 +16,7 @@ type: feature/trait/censor/7th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Word of Fate Denied
+name: Word of Fate Denied
 metadata:
   class: censor
   feature_type: trait

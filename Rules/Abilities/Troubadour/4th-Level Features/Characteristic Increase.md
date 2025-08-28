@@ -16,8 +16,7 @@ type: feature/trait/troubadour/4th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Characteristic Increase
+name: Characteristic Increase
 metadata:
   class: troubadour
   feature_type: trait

@@ -16,8 +16,7 @@ type: feature/trait/talent/4th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Suspensor Field
+name: Suspensor Field
 metadata:
   class: talent
   feature_type: trait

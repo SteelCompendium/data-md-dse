@@ -25,8 +25,7 @@ type: feature/ability/null/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Phase Inversion Strike
+name: Phase Inversion Strike
 flavor: You step momentarily out of phase as you pull an enemy through you.
 keywords:
   - Melee

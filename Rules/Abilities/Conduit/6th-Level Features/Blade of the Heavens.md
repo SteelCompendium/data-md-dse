@@ -27,8 +27,8 @@ type: feature/ability/conduit/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Blade of the Heavens (9 Piety)
+name: Blade of the Heavens
+cost: 9 Piety
 flavor: A greatsword streams down from the sky, threatening to pin your foe.
 keywords:
   - Magic

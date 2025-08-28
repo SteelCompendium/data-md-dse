@@ -16,8 +16,7 @@ type: feature/trait/conduit/4th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Improved Sanctified Weapon
+name: Improved Sanctified Weapon
 metadata:
   class: conduit
   feature_type: trait

@@ -26,8 +26,8 @@ type: feature/ability/conduit/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Divine Dragon (11 Piety)
+name: Divine Dragon
+cost: 11 Piety
 flavor: From nothing but divine will, you create a powerful ally.
 keywords:
   - Magic

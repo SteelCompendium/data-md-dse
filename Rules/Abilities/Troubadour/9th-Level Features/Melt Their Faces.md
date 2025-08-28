@@ -29,8 +29,8 @@ type: feature/ability/troubadour/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Melt Their Faces (11 Drama)
+name: Melt Their Faces
+cost: 11 Drama
 flavor: The power of music rips through the reality around the target and blows
   them away.
 keywords:

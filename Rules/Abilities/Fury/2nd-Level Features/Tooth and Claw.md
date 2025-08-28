@@ -16,8 +16,7 @@ type: feature/trait/fury/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Tooth and Claw
+name: Tooth and Claw
 metadata:
   class: fury
   feature_type: trait

@@ -16,8 +16,7 @@ type: feature/trait/censor/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Blessing of Compassion
+name: Blessing of Compassion
 metadata:
   class: censor
   feature_type: trait

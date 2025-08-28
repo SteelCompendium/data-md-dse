@@ -24,8 +24,7 @@ type: feature/ability/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Staggering Curse
+name: Staggering Curse
 flavor: A blast of judgment disorients your foe.
 keywords:
   - Magic

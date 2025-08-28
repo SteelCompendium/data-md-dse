@@ -16,8 +16,7 @@ type: feature/trait/null/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Discipline Outside of Combat
+name: Discipline Outside of Combat
 metadata:
   class: "null"
   feature_type: trait

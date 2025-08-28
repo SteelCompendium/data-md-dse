@@ -30,8 +30,8 @@ type: feature/ability/elementalist/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Meteor (9 Essence)
+name: Meteor
+cost: 9 Essence
 flavor: You teleport the target into the air and let the ground and the
   elemental force of fire do the rest.
 keywords:

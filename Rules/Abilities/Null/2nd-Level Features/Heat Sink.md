@@ -26,8 +26,8 @@ type: feature/ability/null/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Heat Sink (5 Discipline)
+name: Heat Sink
+cost: 5 Discipline
 flavor: You absorb ambient heat, coating the ground in frost and precipitating
   snow from the air.
 keywords:

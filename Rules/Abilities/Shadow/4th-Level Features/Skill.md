@@ -16,8 +16,7 @@ type: feature/trait/shadow/4th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Skill
+name: Skill
 metadata:
   class: shadow
   feature_type: trait

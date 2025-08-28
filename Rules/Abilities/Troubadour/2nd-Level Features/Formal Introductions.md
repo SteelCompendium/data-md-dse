@@ -16,8 +16,7 @@ type: feature/trait/troubadour/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Formal Introductions
+name: Formal Introductions
 metadata:
   class: troubadour
   feature_type: trait

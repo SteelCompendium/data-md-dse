@@ -16,8 +16,7 @@ type: feature/trait/censor/3rd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Look On My Work and Despair
+name: Look On My Work and Despair
 metadata:
   class: censor
   feature_type: trait

@@ -28,8 +28,8 @@ type: feature/ability/elementalist/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Storm of Sands (9 Essence)
+name: Storm of Sands
+cost: 9 Essence
 flavor: Dirt and debris swirl into a dark, pulsing hurricane.
 keywords:
   - Area

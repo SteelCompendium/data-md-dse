@@ -28,8 +28,8 @@ type: feature/ability/elementalist/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Muse of Fire (11 Essence)
+name: Muse of Fire
+cost: 11 Essence
 flavor: The fire burns hot enough to sear the face of any god watching.
 keywords:
   - Area

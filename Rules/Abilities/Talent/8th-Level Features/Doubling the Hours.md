@@ -16,8 +16,7 @@ type: feature/trait/talent/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Doubling the Hours
+name: Doubling the Hours
 metadata:
   class: talent
   feature_type: trait

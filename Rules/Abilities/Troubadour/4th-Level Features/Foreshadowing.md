@@ -16,8 +16,7 @@ type: feature/trait/troubadour/4th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Foreshadowing
+name: Foreshadowing
 metadata:
   class: troubadour
   feature_type: trait

@@ -16,8 +16,7 @@ type: feature/trait/troubadour/3rd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Foil
+name: Foil
 metadata:
   class: troubadour
   feature_type: trait

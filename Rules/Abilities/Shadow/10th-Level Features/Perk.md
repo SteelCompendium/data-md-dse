@@ -16,8 +16,7 @@ type: feature/trait/shadow/10th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Perk
+name: Perk
 metadata:
   class: shadow
   feature_type: trait

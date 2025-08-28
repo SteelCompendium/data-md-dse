@@ -16,8 +16,7 @@ type: feature/trait/null/3rd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Psionic Leap
+name: Psionic Leap
 metadata:
   class: "null"
   feature_type: trait

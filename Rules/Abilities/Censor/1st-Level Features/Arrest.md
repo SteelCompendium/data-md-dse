@@ -28,8 +28,8 @@ type: feature/ability/censor/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Arrest (5 Wrath)
+name: Arrest
+cost: 5 Wrath
 flavor: '"I got you, you son of a bitch."'
 keywords:
   - Magic

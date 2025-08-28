@@ -26,8 +26,8 @@ type: feature/ability/conduit/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Radiance of Grace (11 Piety)
+name: Radiance of Grace
+cost: 11 Piety
 flavor: Intense light is emitted from your body, healing your allies.
 keywords:
   - Magic

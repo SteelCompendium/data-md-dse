@@ -16,8 +16,7 @@ type: feature/trait/tactician/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Anticipation
+name: Anticipation
 metadata:
   class: tactician
   feature_type: trait

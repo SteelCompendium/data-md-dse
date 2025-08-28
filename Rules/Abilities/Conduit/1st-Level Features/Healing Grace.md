@@ -23,8 +23,7 @@ type: feature/ability/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Healing Grace
+name: Healing Grace
 flavor: Your divine energy restores the righteous.
 keywords:
   - Magic

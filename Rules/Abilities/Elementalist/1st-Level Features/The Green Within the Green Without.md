@@ -25,8 +25,7 @@ type: feature/ability/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: The Green Within, the Green Without
+name: The Green Within, the Green Without
 flavor: Whipping vines erupt from a foe's body to grasp at another close by.
 keywords:
   - Green

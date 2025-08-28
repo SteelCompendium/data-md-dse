@@ -16,8 +16,7 @@ type: feature/trait/fury/3rd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Immovable Object
+name: Immovable Object
 metadata:
   class: fury
   feature_type: trait

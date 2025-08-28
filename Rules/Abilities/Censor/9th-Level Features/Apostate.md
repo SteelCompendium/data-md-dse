@@ -27,8 +27,8 @@ type: feature/ability/censor/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Apostate (11 Wrath)
+name: Apostate
+cost: 11 Wrath
 flavor: You channel holy energy to seal an enemy's fate.
 keywords:
   - Melee

@@ -16,8 +16,7 @@ type: feature/trait/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Death Domain Piety and Effect
+name: Death Domain Piety and Effect
 metadata:
   class: conduit
   feature_type: trait

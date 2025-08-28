@@ -16,8 +16,7 @@ type: feature/trait/null/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Density Augmentation
+name: Density Augmentation
 metadata:
   class: "null"
   feature_type: trait

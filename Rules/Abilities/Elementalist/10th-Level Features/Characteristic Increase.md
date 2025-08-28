@@ -16,8 +16,7 @@ type: feature/trait/elementalist/10th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Characteristic Increase
+name: Characteristic Increase
 metadata:
   class: elementalist
   feature_type: trait

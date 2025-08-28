@@ -27,8 +27,8 @@ type: feature/ability/troubadour/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: En Garde! (5 Drama)
+name: En Garde!
+cost: 5 Drama
 flavor: Wait, it's... Guard! Turn! Parry! Dodge! Spin! Thrust! Ha!
 keywords:
   - Melee

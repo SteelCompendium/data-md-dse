@@ -14,8 +14,7 @@ type: common-ability/move-action
 ---
 
 ```ds-ability
-name: ""
-icon: Advance
+name: Advance
 metadata:
   class: combat
   file_basename: Advance

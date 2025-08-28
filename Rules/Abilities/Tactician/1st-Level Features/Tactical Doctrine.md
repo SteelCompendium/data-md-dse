@@ -16,8 +16,7 @@ type: feature/trait/tactician/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Tactical Doctrine
+name: Tactical Doctrine
 metadata:
   class: tactician
   feature_type: trait

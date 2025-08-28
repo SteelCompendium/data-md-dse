@@ -16,8 +16,7 @@ type: feature/trait/conduit/3rd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Minor Miracle
+name: Minor Miracle
 metadata:
   class: conduit
   feature_type: trait

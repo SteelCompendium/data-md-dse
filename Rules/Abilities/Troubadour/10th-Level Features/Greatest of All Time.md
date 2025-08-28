@@ -16,8 +16,7 @@ type: feature/trait/troubadour/10th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Greatest of All Time
+name: Greatest of All Time
 metadata:
   class: troubadour
   feature_type: trait

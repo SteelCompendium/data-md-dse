@@ -16,8 +16,7 @@ type: feature/trait/tactician/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Pincer Movement
+name: Pincer Movement
 metadata:
   class: tactician
   feature_type: trait

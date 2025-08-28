@@ -16,8 +16,7 @@ type: feature/trait/elementalist/3rd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Distance Is Only Memory
+name: Distance Is Only Memory
 metadata:
   class: elementalist
   feature_type: trait

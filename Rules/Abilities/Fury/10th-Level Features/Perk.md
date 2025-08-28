@@ -16,8 +16,7 @@ type: feature/trait/fury/10th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Perk
+name: Perk
 metadata:
   class: fury
   feature_type: trait

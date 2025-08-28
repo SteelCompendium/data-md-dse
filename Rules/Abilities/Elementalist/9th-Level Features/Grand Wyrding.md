@@ -16,8 +16,7 @@ type: feature/trait/elementalist/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Grand Wyrding
+name: Grand Wyrding
 metadata:
   class: elementalist
   feature_type: trait

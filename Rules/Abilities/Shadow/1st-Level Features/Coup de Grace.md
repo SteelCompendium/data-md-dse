@@ -28,8 +28,8 @@ type: feature/ability/shadow/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Coup de Grace (5 Insight)
+name: Coup de Grace
+cost: 5 Insight
 flavor: Your blade might be the last thing they see.
 keywords:
   - Melee

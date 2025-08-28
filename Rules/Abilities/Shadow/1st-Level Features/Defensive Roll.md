@@ -22,8 +22,7 @@ type: feature/ability/shadow/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Defensive Roll
+name: Defensive Roll
 flavor: When an enemy attacks, you roll with the impact to reduce the harm.
 keywords:
   - "-"

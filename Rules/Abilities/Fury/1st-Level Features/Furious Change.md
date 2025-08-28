@@ -22,8 +22,7 @@ type: feature/ability/fury/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Furious Change
+name: Furious Change
 flavor: In your anger, you revert to a more bestial form.
 keywords:
   - "-"

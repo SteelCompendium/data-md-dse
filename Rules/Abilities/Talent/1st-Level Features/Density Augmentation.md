@@ -16,8 +16,7 @@ type: feature/trait/talent/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Density Augmentation
+name: Density Augmentation
 metadata:
   class: talent
   feature_type: trait

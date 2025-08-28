@@ -16,8 +16,7 @@ type: feature/trait/troubadour/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Roar of the Crowd
+name: Roar of the Crowd
 metadata:
   class: troubadour
   feature_type: trait

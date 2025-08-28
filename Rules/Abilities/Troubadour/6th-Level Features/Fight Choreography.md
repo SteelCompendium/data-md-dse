@@ -28,8 +28,8 @@ type: feature/ability/troubadour/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Fight Choreography (9 Drama)
+name: Fight Choreography
+cost: 9 Drama
 flavor: You and your partner make a flashy show of derring-do, then get back to
   your corners.
 keywords:

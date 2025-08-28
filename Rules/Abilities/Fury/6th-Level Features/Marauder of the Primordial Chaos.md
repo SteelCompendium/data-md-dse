@@ -16,8 +16,7 @@ type: feature/trait/fury/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Marauder of the Primordial Chaos
+name: Marauder of the Primordial Chaos
 metadata:
   class: fury
   feature_type: trait

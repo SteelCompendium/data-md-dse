@@ -14,8 +14,7 @@ type: common-ability/maneuver
 ---
 
 ```ds-ability
-name: ""
-icon: Catch Breath
+name: Catch Breath
 metadata:
   class: combat
   file_basename: Catch Breath

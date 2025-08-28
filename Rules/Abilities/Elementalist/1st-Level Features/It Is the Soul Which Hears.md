@@ -16,8 +16,7 @@ type: feature/trait/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: It Is the Soul Which Hears
+name: It Is the Soul Which Hears
 metadata:
   class: elementalist
   feature_type: trait

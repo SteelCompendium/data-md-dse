@@ -26,8 +26,8 @@ type: feature/ability/troubadour/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Love Song (9 Drama)
+name: Love Song
+cost: 9 Drama
 flavor: You play a small ditty that plants you inside your target's heart.
 keywords:
   - Magic

@@ -29,8 +29,8 @@ type: feature/ability/talent/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Levity and Gravity (5 Clarity)
+name: Levity and Gravity
+cost: 5 Clarity
 flavor: You raise the target slightly into the air, then smother them against
   the ground.
 keywords:

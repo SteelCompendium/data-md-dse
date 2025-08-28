@@ -16,8 +16,7 @@ type: feature/trait/censor/4th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Saint's Epiphany
+name: Saint's Epiphany
 metadata:
   class: censor
   feature_type: trait

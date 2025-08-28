@@ -16,8 +16,7 @@ type: feature/trait/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Sanctified Weapon
+name: Sanctified Weapon
 metadata:
   class: conduit
   feature_type: trait

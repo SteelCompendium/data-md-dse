@@ -25,8 +25,8 @@ type: feature/ability/null/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Blur (5 Discipline)
+name: Blur
+cost: 5 Discipline
 flavor: You release stored time, allowing you to act twice.
 keywords:
   - Psionic

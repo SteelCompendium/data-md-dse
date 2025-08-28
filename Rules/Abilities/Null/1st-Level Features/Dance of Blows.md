@@ -24,8 +24,7 @@ type: feature/ability/null/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Dance of Blows
+name: Dance of Blows
 flavor: You strike everywhere at once, tricking an enemy into moving out of position.
 keywords:
   - Area

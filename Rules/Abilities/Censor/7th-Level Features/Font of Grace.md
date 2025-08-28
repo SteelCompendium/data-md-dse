@@ -16,8 +16,7 @@ type: feature/trait/censor/7th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Font of Grace
+name: Font of Grace
 metadata:
   class: censor
   feature_type: trait

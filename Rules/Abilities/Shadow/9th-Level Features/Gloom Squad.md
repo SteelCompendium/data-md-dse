@@ -16,8 +16,7 @@ type: feature/trait/shadow/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Gloom Squad
+name: Gloom Squad
 metadata:
   class: shadow
   feature_type: trait

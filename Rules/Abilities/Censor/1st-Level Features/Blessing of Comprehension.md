@@ -16,8 +16,7 @@ type: feature/trait/censor/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Blessing of Comprehension
+name: Blessing of Comprehension
 metadata:
   class: censor
   feature_type: trait

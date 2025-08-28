@@ -26,8 +26,8 @@ type: feature/ability/shadow/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Chain Reaction (11 Insight)
+name: Chain Reaction
+cost: 11 Insight
 flavor: One explosion, an offense. Three explosions, an assault. Nine
   explosions, a celebration.
 keywords:

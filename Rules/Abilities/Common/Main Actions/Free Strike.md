@@ -14,8 +14,7 @@ type: common-ability/main-action
 ---
 
 ```ds-ability
-name: ""
-icon: Free Strike
+name: Free Strike
 metadata:
   class: combat
   file_basename: Free Strike

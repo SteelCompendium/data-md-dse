@@ -27,8 +27,8 @@ type: feature/ability/conduit/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Drag the Unworthy (11 Piety)
+name: Drag the Unworthy
+cost: 11 Piety
 flavor: You conjure an angel who moves a foe and heals your allies.
 keywords:
   - Magic

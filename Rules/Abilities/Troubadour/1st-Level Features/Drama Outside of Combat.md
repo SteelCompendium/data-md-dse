@@ -16,8 +16,7 @@ type: feature/trait/troubadour/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Drama Outside of Combat
+name: Drama Outside of Combat
 metadata:
   class: troubadour
   feature_type: trait

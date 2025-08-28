@@ -16,8 +16,7 @@ type: feature/trait/talent/10th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Clear Mind
+name: Clear Mind
 metadata:
   class: talent
   feature_type: trait

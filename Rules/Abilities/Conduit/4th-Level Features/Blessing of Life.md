@@ -16,8 +16,7 @@ type: feature/trait/conduit/4th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Blessing of Life
+name: Blessing of Life
 metadata:
   class: conduit
   feature_type: trait

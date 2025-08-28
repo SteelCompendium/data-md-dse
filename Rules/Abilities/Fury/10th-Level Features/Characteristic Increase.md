@@ -16,8 +16,7 @@ type: feature/trait/fury/10th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Characteristic Increase
+name: Characteristic Increase
 metadata:
   class: fury
   feature_type: trait

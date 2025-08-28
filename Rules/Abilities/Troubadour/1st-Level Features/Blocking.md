@@ -24,8 +24,7 @@ type: feature/ability/troubadour/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Blocking
+name: Blocking
 flavor: No, no, no, you lose the audience that way. Try it like this...
 keywords:
   - Area

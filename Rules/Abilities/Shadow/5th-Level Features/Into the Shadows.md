@@ -28,8 +28,8 @@ type: feature/ability/shadow/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Into the Shadows (9 Insight)
+name: Into the Shadows
+cost: 9 Insight
 flavor: You sweep your foe off their feet and plunge them into absolute darkness.
 keywords:
   - Magic

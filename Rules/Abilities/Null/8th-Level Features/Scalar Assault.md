@@ -27,8 +27,8 @@ type: feature/ability/null/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Scalar Assault (11 Discipline)
+name: Scalar Assault
+cost: 11 Discipline
 flavor: You warp reality to grow a limb for just a moment and make a single
   devastating attack.
 keywords:

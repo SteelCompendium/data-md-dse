@@ -16,8 +16,7 @@ type: feature/trait/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Inner Light
+name: Inner Light
 metadata:
   class: conduit
   feature_type: trait

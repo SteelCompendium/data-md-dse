@@ -16,8 +16,7 @@ type: feature/trait/censor/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: It Was Foretold
+name: It Was Foretold
 metadata:
   class: censor
   feature_type: trait

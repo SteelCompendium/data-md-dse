@@ -26,8 +26,8 @@ type: feature/ability/conduit/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Invocation of Undoing (9 Piety)
+name: Invocation of Undoing
+cost: 9 Piety
 flavor: You utter a secret word of destruction known only to deities.
 keywords:
   - Area

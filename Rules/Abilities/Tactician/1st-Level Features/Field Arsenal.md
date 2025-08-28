@@ -16,8 +16,7 @@ type: feature/trait/tactician/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Field Arsenal
+name: Field Arsenal
 metadata:
   class: tactician
   feature_type: trait

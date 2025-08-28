@@ -81,8 +81,7 @@ abilities:
           they can make a free strike at the end of the forced movement, then
           fall without taking damage.
         name: Effect
-  - name: Juke
-    icon: ❗️
+  - name: ❗️**Juke**
     keywords:
       - "-"
     type: Triggered action

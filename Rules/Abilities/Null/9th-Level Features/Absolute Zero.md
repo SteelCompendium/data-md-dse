@@ -25,8 +25,8 @@ type: feature/ability/null/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Absolute Zero (11 Discipline)
+name: Absolute Zero
+cost: 11 Discipline
 flavor: You become the coldest thing in the timescape.
 keywords:
   - Psionic

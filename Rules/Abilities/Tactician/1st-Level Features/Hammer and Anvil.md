@@ -28,8 +28,8 @@ type: feature/ability/tactician/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Hammer and Anvil (5 Focus)
+name: Hammer and Anvil
+cost: 5 Focus
 flavor: "\"Let's not argue about who's the hammer and who's the anvil!\""
 keywords:
   - Melee

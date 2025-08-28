@@ -28,8 +28,8 @@ type: feature/ability/conduit/3rd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Soul Siphon (7 Piety)
+name: Soul Siphon
+cost: 7 Piety
 flavor: A beam of energy connects a foe to a friend, draining life from one to
   heal the other.
 keywords:

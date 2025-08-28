@@ -14,8 +14,7 @@ type: common-ability/maneuver
 ---
 
 ```ds-ability
-name: ""
-icon: Aid Attack
+name: Aid Attack
 metadata:
   class: combat
   file_basename: Aid Attack

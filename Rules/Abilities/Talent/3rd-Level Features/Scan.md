@@ -16,8 +16,7 @@ type: feature/trait/talent/3rd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Scan
+name: Scan
 metadata:
   class: talent
   feature_type: trait

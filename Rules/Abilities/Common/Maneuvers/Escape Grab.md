@@ -14,8 +14,7 @@ type: common-ability/maneuver
 ---
 
 ```ds-ability
-name: ""
-icon: Escape Grab
+name: Escape Grab
 metadata:
   class: combat
   file_basename: Escape Grab

@@ -16,8 +16,7 @@ type: feature/trait/elementalist/10th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Master of Earth
+name: Master of Earth
 metadata:
   class: elementalist
   feature_type: trait

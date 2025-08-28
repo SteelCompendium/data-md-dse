@@ -27,8 +27,8 @@ type: feature/ability/null/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Heat Drain (11 Discipline)
+name: Heat Drain
+cost: 11 Discipline
 flavor: You drain all the heat from the target.
 keywords:
   - Melee

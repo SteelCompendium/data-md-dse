@@ -28,8 +28,8 @@ type: feature/ability/tactician/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: I'll Open and You'll Close (11 Focus)
+name: I'll Open and You'll Close
+cost: 11 Focus
 flavor: You create an opening for an ally.
 keywords:
   - Melee

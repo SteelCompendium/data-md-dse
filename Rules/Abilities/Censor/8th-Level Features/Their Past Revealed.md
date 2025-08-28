@@ -16,8 +16,7 @@ type: feature/trait/censor/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Their Past Revealed
+name: Their Past Revealed
 metadata:
   class: censor
   feature_type: trait

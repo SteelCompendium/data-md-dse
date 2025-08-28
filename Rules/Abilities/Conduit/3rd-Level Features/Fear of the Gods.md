@@ -27,8 +27,8 @@ type: feature/ability/conduit/3rd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Fear of the Gods (7 Piety)
+name: Fear of the Gods
+cost: 7 Piety
 flavor: Your divine magic makes a creature appear as what your enemies fear most.
 keywords:
   - Area

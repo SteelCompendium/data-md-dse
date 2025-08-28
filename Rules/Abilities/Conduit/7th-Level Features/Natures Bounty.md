@@ -16,8 +16,7 @@ type: feature/trait/conduit/7th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Nature's Bounty
+name: Nature's Bounty
 metadata:
   class: conduit
   feature_type: trait

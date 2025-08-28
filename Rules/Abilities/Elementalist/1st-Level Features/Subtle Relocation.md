@@ -24,8 +24,7 @@ type: feature/ability/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Subtle Relocation
+name: Subtle Relocation
 flavor: You call on the void to swallow and spit out an ally.
 keywords:
   - Magic

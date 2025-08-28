@@ -16,8 +16,7 @@ type: feature/trait/tactician/4th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Focus on Their Weaknesses
+name: Focus on Their Weaknesses
 metadata:
   class: tactician
   feature_type: trait

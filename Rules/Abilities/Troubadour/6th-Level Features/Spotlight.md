@@ -24,8 +24,7 @@ type: feature/ability/troubadour/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Spotlight
+name: Spotlight
 flavor: The audience is watching, so you'd better give them a show.
 keywords:
   - Area

@@ -28,8 +28,8 @@ type: feature/ability/troubadour/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Action Hero (9 Drama)
+name: Action Hero
+cost: 9 Drama
 flavor: You wield your weapon at blistering speed, leaving everyone around you
   fighting for their lives.
 keywords:

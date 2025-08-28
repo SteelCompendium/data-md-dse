@@ -28,8 +28,8 @@ type: feature/ability/tactician/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Inspiring Strike (3 Focus)
+name: Inspiring Strike
+cost: 3 Focus
 flavor: Your attack gives an ally hope.
 keywords:
   - Melee

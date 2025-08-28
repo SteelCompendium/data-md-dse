@@ -24,8 +24,7 @@ type: feature/ability/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Explosive Assistance
+name: Explosive Assistance
 flavor: You add a little magic to an ally's aggression at just the right time.
 keywords:
   - Fire

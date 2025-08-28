@@ -26,8 +26,8 @@ type: feature/ability/censor/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Begone! (9 Wrath)
+name: Begone!
+cost: 9 Wrath
 flavor: You terrify your enemies into retreating, creating chaos in their ranks.
 keywords:
   - Area

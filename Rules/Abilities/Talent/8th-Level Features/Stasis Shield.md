@@ -26,8 +26,8 @@ type: feature/ability/talent/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Stasis Shield (3 Clarity)
+name: Stasis Shield
+cost: 3 Clarity
 flavor: You freeze time just long enough to bring the victim to safety!
 keywords:
   - Psionic

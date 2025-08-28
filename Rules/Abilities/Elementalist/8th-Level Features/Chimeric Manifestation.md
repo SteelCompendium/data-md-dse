@@ -16,8 +16,7 @@ type: feature/trait/elementalist/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Chimeric Manifestation
+name: Chimeric Manifestation
 metadata:
   class: elementalist
   feature_type: trait

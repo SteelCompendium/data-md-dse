@@ -16,8 +16,7 @@ type: feature/trait/null/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Inertial Fulcrum
+name: Inertial Fulcrum
 metadata:
   class: "null"
   feature_type: trait

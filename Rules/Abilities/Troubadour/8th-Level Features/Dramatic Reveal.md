@@ -25,8 +25,8 @@ type: feature/ability/troubadour/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Dramatic Reveal (11 Drama)
+name: Dramatic Reveal
+cost: 11 Drama
 flavor: A little stage trickery, and where once stood a foe, now stands a friend!
 keywords:
   - Magic

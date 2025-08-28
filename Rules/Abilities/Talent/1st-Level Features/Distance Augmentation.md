@@ -16,8 +16,7 @@ type: feature/trait/talent/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Distance Augmentation
+name: Distance Augmentation
 metadata:
   class: talent
   feature_type: trait

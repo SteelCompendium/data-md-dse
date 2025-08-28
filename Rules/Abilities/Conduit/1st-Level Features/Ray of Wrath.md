@@ -24,8 +24,7 @@ type: feature/ability/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Ray of Wrath
+name: Ray of Wrath
 flavor: You unleash a blast of holy light upon your foe.
 keywords:
   - Magic

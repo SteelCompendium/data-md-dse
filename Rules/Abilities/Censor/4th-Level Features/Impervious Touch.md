@@ -16,8 +16,7 @@ type: feature/trait/censor/4th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Impervious Touch
+name: Impervious Touch
 metadata:
   class: censor
   feature_type: trait

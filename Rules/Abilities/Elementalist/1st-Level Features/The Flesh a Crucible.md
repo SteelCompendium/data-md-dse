@@ -28,8 +28,8 @@ type: feature/ability/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: The Flesh, a Crucible (3 Essence)
+name: The Flesh, a Crucible
+cost: 3 Essence
 flavor: Fire engulfs your target and continues to churn.
 keywords:
   - Fire

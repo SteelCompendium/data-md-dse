@@ -16,8 +16,7 @@ type: feature/trait/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Deity and Domains
+name: Deity and Domains
 metadata:
   class: conduit
   feature_type: trait

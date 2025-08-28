@@ -16,8 +16,7 @@ type: feature/trait/troubadour/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Masterwork
+name: Masterwork
 metadata:
   class: troubadour
   feature_type: trait

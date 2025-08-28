@@ -26,8 +26,8 @@ type: feature/ability/fury/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Tide of Death (3 Ferocity)
+name: Tide of Death
+cost: 3 Ferocity
 flavor: Teach them the folly of lining up for you.
 keywords:
   - Melee

@@ -16,8 +16,7 @@ type: feature/trait/censor/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Saint's Vigilance
+name: Saint's Vigilance
 metadata:
   class: censor
   feature_type: trait

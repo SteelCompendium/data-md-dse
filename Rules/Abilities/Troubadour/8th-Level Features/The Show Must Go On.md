@@ -28,8 +28,8 @@ type: feature/ability/troubadour/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: The Show Must Go On (11 Drama)
+name: The Show Must Go On
+cost: 11 Drama
 flavor: You shine a bright light on the players on the stage and compel them to
   finish the performance.
 keywords:

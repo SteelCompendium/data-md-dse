@@ -16,8 +16,7 @@ type: feature/trait/elementalist/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Smoldering Step
+name: Smoldering Step
 metadata:
   class: elementalist
   feature_type: trait

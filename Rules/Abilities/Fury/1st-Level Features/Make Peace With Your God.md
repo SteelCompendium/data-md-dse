@@ -25,8 +25,8 @@ type: feature/ability/fury/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Make Peace With Your God! (5 Ferocity)
+name: Make Peace With Your God!
+cost: 5 Ferocity
 flavor: Anger is your energy.
 keywords:
   - "-"

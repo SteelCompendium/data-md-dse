@@ -16,8 +16,7 @@ type: feature/trait/talent/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Psi Boost
+name: Psi Boost
 metadata:
   class: talent
   feature_type: trait

@@ -27,8 +27,8 @@ type: feature/ability/talent/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Gravitic Burst (5 Clarity)
+name: Gravitic Burst
+cost: 5 Clarity
 flavor: Everyone get away from me!
 keywords:
   - Area

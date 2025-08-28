@@ -14,8 +14,7 @@ type: common-ability/maneuver
 ---
 
 ```ds-ability
-name: ""
-icon: Use Consumable
+name: Use Consumable
 metadata:
   class: combat
   file_basename: Use Consumable

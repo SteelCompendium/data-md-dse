@@ -16,8 +16,7 @@ type: feature/trait/conduit/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Burgeoning Saint
+name: Burgeoning Saint
 metadata:
   class: conduit
   feature_type: trait

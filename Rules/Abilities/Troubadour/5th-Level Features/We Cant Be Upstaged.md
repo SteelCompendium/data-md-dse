@@ -24,8 +24,7 @@ type: feature/ability/troubadour/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: We Can't Be Upstaged!
+name: We Can't Be Upstaged!
 flavor: Swordplay so graceful it looks like you all practiced this.
 keywords:
   - Area

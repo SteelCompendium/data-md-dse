@@ -25,8 +25,8 @@ type: feature/ability/shadow/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: So Gullible (5 Insight)
+name: So Gullible
+cost: 5 Insight
 flavor: When your enemy strikes, you reveal you were in a different place all along.
 keywords:
   - Magic

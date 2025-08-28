@@ -16,8 +16,7 @@ type: feature/trait/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: "Fire: Acolyte of Fire"
+name: "Fire: Acolyte of Fire"
 metadata:
   class: elementalist
   feature_type: trait

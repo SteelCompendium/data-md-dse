@@ -26,8 +26,8 @@ type: feature/ability/censor/9th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Fulfill Your Destiny (11 Wrath)
+name: Fulfill Your Destiny
+cost: 11 Wrath
 flavor: You have looked at various futures, and only this one works.
 keywords:
   - Magic

@@ -23,8 +23,7 @@ type: feature/ability/censor/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Faithful Friend
+name: Faithful Friend
 flavor: An animal spirit is drawn to you, sharing their senses with you and
   serving you faithfully.
 keywords:

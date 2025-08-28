@@ -16,8 +16,7 @@ type: feature/trait/censor/7th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Nature's Bounty
+name: Nature's Bounty
 metadata:
   class: censor
   feature_type: trait

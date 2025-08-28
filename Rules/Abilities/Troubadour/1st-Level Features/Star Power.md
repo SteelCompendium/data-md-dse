@@ -25,8 +25,8 @@ type: feature/ability/troubadour/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Star Power (1 Drama)
+name: Star Power
+cost: 1 Drama
 flavor: Your years of practicing fencing and dancing pay off on the battlefield.
 keywords:
   - "-"

@@ -26,8 +26,8 @@ type: feature/ability/troubadour/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Twist at the End (5 Drama)
+name: Twist at the End
+cost: 5 Drama
 flavor: You didn't see that coming, did you?!
 keywords:
   - Magic

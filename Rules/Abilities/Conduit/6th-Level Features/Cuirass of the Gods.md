@@ -27,8 +27,8 @@ type: feature/ability/conduit/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Cuirass of the Gods (9 Piety)
+name: Cuirass of the Gods
+cost: 9 Piety
 flavor: Your allies are covered in spiritual armor.
 keywords:
   - Area

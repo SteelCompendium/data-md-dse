@@ -25,8 +25,7 @@ type: feature/ability/shadow/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: I Work Better Alone
+name: I Work Better Alone
 flavor: "\"It's better, just you and me. Isn't it?\""
 keywords:
   - Melee

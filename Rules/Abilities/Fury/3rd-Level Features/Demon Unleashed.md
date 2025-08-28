@@ -25,8 +25,8 @@ type: feature/ability/fury/3rd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Demon Unleashed (7 Ferocity)
+name: Demon Unleashed
+cost: 7 Ferocity
 flavor: Foes tremble at the sight of you.
 keywords:
   - Magic

@@ -27,8 +27,8 @@ type: feature/ability/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Judgment's Hammer (3 Piety)
+name: Judgment's Hammer
+cost: 3 Piety
 flavor: Your divine fury is a hammer that crashes down upon the unrighteous.
 keywords:
   - Magic

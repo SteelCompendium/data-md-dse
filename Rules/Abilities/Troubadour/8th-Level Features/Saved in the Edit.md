@@ -25,8 +25,8 @@ type: feature/ability/troubadour/8th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Saved in the Edit (11 Drama)
+name: Saved in the Edit
+cost: 11 Drama
 flavor: You shout a word of power that allows you to rewrite reality to your whims.
 keywords:
   - Magic

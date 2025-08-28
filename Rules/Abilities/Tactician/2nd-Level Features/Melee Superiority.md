@@ -16,8 +16,7 @@ type: feature/trait/tactician/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Melee Superiority
+name: Melee Superiority
 metadata:
   class: tactician
   feature_type: trait

@@ -28,8 +28,8 @@ type: feature/ability/null/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Iron Grip (9 Discipline)
+name: Iron Grip
+cost: 9 Discipline
 flavor: You grab the target with supernatural force.
 keywords:
   - Melee

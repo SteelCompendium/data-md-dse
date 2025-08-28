@@ -16,8 +16,7 @@ type: feature/trait/censor/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Lead by Example
+name: Lead by Example
 metadata:
   class: censor
   feature_type: trait

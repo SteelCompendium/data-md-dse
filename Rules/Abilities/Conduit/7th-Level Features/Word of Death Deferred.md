@@ -16,8 +16,7 @@ type: feature/trait/conduit/7th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Word of Death Deferred
+name: Word of Death Deferred
 metadata:
   class: conduit
   feature_type: trait

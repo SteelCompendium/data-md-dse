@@ -25,8 +25,8 @@ type: feature/ability/null/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Kinetic Shield (5 Discipline)
+name: Kinetic Shield
+cost: 5 Discipline
 flavor: You manifest a force barrier that absorbs incoming kinetic energy.
 keywords:
   - Psionic

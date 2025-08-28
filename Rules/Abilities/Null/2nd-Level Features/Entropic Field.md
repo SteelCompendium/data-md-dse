@@ -27,8 +27,8 @@ type: feature/ability/null/2nd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Entropic Field (5 Discipline)
+name: Entropic Field
+cost: 5 Discipline
 flavor: You drastically increase the local entropy.
 keywords:
   - Area

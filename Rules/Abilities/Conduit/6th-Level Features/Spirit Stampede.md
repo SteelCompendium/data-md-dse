@@ -27,8 +27,8 @@ type: feature/ability/conduit/6th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Spirit Stampede (9 Piety)
+name: Spirit Stampede
+cost: 9 Piety
 flavor: Animal spirits run through the battlefield, trampling your foes.
 keywords:
   - Area

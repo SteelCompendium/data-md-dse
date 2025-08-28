@@ -16,8 +16,7 @@ type: feature/trait/elementalist/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Hide of Tenfold Shields
+name: Hide of Tenfold Shields
 metadata:
   class: elementalist
   feature_type: trait

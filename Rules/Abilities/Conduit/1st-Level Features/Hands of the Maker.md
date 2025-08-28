@@ -22,8 +22,7 @@ type: feature/ability/conduit/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Hands of the Maker
+name: Hands of the Maker
 flavor: You craft objects with the power of your mind.
 keywords:
   - Magic

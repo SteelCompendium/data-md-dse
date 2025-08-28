@@ -27,8 +27,8 @@ type: feature/ability/talent/3rd-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Reflector Field (7 Clarity)
+name: Reflector Field
+cost: 7 Clarity
 flavor: A protective field reverses the momentum of incoming attacks.
 keywords:
   - Area

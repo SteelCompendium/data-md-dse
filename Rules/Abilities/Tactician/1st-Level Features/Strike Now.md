@@ -22,8 +22,7 @@ type: feature/ability/tactician/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: '"Strike Now!"'
+name: '"Strike Now!"'
 flavor: Your foe left an opening. You point this out to an ally!
 keywords:
   - Ranged

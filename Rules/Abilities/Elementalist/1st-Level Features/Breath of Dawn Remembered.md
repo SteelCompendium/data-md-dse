@@ -24,8 +24,7 @@ type: feature/ability/elementalist/1st-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Breath of Dawn Remembered
+name: Breath of Dawn Remembered
 flavor: The power you channel grants the ability to get back in the fight.
 keywords:
   - Green

@@ -28,8 +28,8 @@ type: feature/ability/null/5th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Anticipating Strike (9 Discipline)
+name: Anticipating Strike
+cost: 9 Discipline
 flavor: You suddenly strike an enemy, then grab them in a psionically enhanced grip.
 keywords:
   - Melee

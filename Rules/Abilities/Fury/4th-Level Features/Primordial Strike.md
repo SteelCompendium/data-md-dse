@@ -16,8 +16,7 @@ type: feature/trait/fury/4th-level-feature
 ---
 
 ```ds-ability
-name: ""
-icon: Primordial Strike
+name: Primordial Strike
 metadata:
   class: fury
   feature_type: trait
