@@ -30,7 +30,7 @@ stamina: '13'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Draconite
 level: 7
 roles:
@@ -77,4 +77,4 @@ abilities:
       - effect: If this damage leaves the target winded, they are frightened of the
           draconite until the end of the target's next turn.
         name: Effect
-```
+~~~

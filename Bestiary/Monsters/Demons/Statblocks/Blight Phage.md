@@ -29,7 +29,7 @@ stamina: '40'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Blight Phage
 level: 7
 roles:
@@ -98,4 +98,4 @@ abilities:
           phage. Each area is covered with blight and treated as if affected by
           Seeping Blight.
         cost: 2 Malice
-```
+~~~

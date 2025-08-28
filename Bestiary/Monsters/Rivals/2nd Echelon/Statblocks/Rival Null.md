@@ -29,7 +29,7 @@ stamina: '140'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Rival Null
 level: 5
 roles:
@@ -90,4 +90,4 @@ abilities:
         t1: 9 damage; R < 1 dazed (EoT)
         t2: 14 damage; R < 2 dazed (save ends)
         t3: 17 damage; R < 3 dazed and restrained (save ends)
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '40'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Radenwight Bruxer
 level: 1
 roles:
@@ -99,4 +99,4 @@ abilities:
     effects:
       - effect: The bruxer makes a free strike against the target.
         name: Effect
-```
+~~~

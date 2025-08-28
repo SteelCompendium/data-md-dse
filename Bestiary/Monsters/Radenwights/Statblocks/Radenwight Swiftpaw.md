@@ -29,7 +29,7 @@ stamina: '4'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Radenwight Swiftpaw
 level: 1
 roles:
@@ -79,4 +79,4 @@ abilities:
     effects:
       - effect: The swiftpaw makes a free strike against the targe.
         name: Effect
-```
+~~~

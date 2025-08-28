@@ -29,7 +29,7 @@ stamina: '10'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Kobold Adeptus
 level: 1
 roles:
@@ -90,4 +90,4 @@ abilities:
         t3: 6 damage
       - effect: This ability ignores banes, double banes, and damage immunity.
         name: Effect
-```
+~~~

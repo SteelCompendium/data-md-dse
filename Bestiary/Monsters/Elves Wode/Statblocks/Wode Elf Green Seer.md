@@ -30,7 +30,7 @@ stamina: '20'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Wode Elf Green Seer
 level: 1
 roles:
@@ -104,4 +104,4 @@ abilities:
       - effect: The green seer makes a free strike against the target after the target's
           triggered action is resolved.
         name: Effect
-```
+~~~

@@ -31,7 +31,7 @@ stamina: '9'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Hobgoblin Recruit
 level: 4
 roles:
@@ -80,4 +80,4 @@ abilities:
         t1: 3 damage
         t2: 5 damage
         t3: 7 damage; grabbed or prone
-```
+~~~

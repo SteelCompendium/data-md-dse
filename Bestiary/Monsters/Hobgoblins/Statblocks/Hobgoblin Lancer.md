@@ -31,7 +31,7 @@ stamina: '8'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Hobgoblin Lancer
 level: 4
 roles:
@@ -81,4 +81,4 @@ abilities:
       - effect: The lancer deals an extra 2 damage if they have high ground against the
           target.
         name: Effect
-```
+~~~

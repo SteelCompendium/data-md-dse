@@ -30,7 +30,7 @@ stamina: '2602'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Iron Champion Doru
 level: 10
 roles:
@@ -127,4 +127,4 @@ abilities:
       - effect: The triggering strike takes a bane and Doru gains an edge on his next
           power roll.
         name: Effect
-```
+~~~

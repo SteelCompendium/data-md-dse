@@ -30,7 +30,7 @@ stamina: '3'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Elemental Mote
 level: 1
 roles:
@@ -74,4 +74,4 @@ abilities:
         t1: 1 damage
         t2: 2 damage; R < 1 damage weakness 3 (save ends)
         t3: 3 damage; R < 2 damage weakness 3 (save ends)
-```
+~~~

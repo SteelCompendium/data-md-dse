@@ -29,7 +29,7 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Orc Garotter
 level: 1
 roles:
@@ -101,4 +101,4 @@ abilities:
     effects:
       - effect: The garroter turns invisible until the end of their turn. This
           invisibility ends early if they take damage or use an ability.
-```
+~~~

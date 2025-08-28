@@ -29,7 +29,7 @@ stamina: '420'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Kingfissure Worm
 level: 7
 roles:
@@ -226,4 +226,4 @@ abilities:
           subject to the tier 3 outcome, then lands prone in an unoccupied space
           within 5 squares of the kingfissure worm.
         name: Effect
-```
+~~~

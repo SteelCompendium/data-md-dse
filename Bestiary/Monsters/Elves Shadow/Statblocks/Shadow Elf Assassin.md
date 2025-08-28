@@ -30,7 +30,7 @@ stamina: '70'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Shadow Elf Assassin
 level: 6
 roles:
@@ -95,4 +95,4 @@ abilities:
         t3: 12 damage; I < 3 bleeding (save ends)
       - effect: Each target is pushed up to 4 squares.
         name: Effect
-```
+~~~

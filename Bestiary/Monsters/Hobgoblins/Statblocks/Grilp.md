@@ -30,7 +30,7 @@ stamina: '8'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Grilp
 level: 4
 roles:
@@ -80,4 +80,4 @@ abilities:
         t3: 7 damage; the grilp shifts up to 2 squares
       - effect: The grilp moves up to their speed and can attempt to hide.
         name: Effect
-```
+~~~

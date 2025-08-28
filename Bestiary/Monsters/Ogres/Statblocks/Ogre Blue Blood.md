@@ -29,7 +29,7 @@ stamina: '13'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Ogre Blue Blood
 level: 7
 roles:
@@ -76,4 +76,4 @@ abilities:
         t3: 8 damage; prone
       - effect: A target who is already prone takes an extra 4 damage.
         name: Effect
-```
+~~~

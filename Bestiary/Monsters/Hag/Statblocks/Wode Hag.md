@@ -29,7 +29,7 @@ stamina: '300'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Wode Hag
 level: 3
 roles:
@@ -186,4 +186,4 @@ abilities:
           encounter. Any creature in area takes an extra 5 damage from the hag's
           damage-dealing abilities.
         name: Effect
-```
+~~~

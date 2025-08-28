@@ -30,7 +30,7 @@ stamina: '35'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Arachnite
 level: 6
 roles:
@@ -96,4 +96,4 @@ abilities:
     effects:
       - effect: The area is difficult terrain until the end of the encounter
         name: Effect
-```
+~~~

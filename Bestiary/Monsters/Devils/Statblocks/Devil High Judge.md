@@ -29,7 +29,7 @@ stamina: '181'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Devil High Judge
 level: 6
 roles:
@@ -167,4 +167,4 @@ abilities:
           creature charmed by All Rise, Compel the Jury, or Devilish Suggestion
           makes a free strike against a target of the high judge's choice.
         name: Effect
-```
+~~~

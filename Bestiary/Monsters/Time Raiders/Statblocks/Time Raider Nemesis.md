@@ -29,7 +29,7 @@ stamina: '50'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Time Raider Nemesis
 level: 3
 roles:
@@ -94,4 +94,4 @@ abilities:
       - effect: Any creature slowed this way takes 2 damage for each square they move or
           are force moved until that condition ends.
         name: Effect
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '20'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Human Trickshot
 level: 1
 roles:
@@ -77,4 +77,4 @@ abilities:
         name: Effect
       - effect: This ability targets one additional target.
         cost: 3 Malice
-```
+~~~

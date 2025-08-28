@@ -29,7 +29,7 @@ stamina: '80'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Human Blackguard
 level: 1
 roles:
@@ -144,4 +144,4 @@ abilities:
           ally within 5 squares of the area can then make a free strike against
           a target (one target per ally)
         name: Effect
-```
+~~~

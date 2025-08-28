@@ -29,7 +29,7 @@ stamina: '39'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Dwarf Launcher
 level: 1
 roles:
@@ -91,4 +91,4 @@ abilities:
       - effect: A target dazed this way treats their characteristic scores as 1 lower
           for the purpose of resisting potencies.
         name: Effect
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '20'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Kobold Legionary
 level: 1
 roles:
@@ -86,4 +86,4 @@ abilities:
         t1: 2 damage; push 1; M < 0 prone
         t2: 3 damage; push 1; M < 1 prone
         t3: 4 damage; push 1; M < 2 prone
-```
+~~~

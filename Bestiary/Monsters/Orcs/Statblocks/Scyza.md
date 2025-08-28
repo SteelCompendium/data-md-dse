@@ -29,7 +29,7 @@ stamina: '100'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Scyza
 level: 3
 roles:
@@ -136,4 +136,4 @@ abilities:
           object who used the ability is within 3 squares of the scyza, the
           scyza can make a free strike against them.
         name: Effect
-```
+~~~

@@ -30,7 +30,7 @@ stamina: '200'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Breaker
 level: 7
 roles:
@@ -90,4 +90,4 @@ abilities:
       - effect: Until the start of their next turn, the breaker has a double edge on
           abilities and is automatically affected by all potency effect
         name: Effect
-```
+~~~

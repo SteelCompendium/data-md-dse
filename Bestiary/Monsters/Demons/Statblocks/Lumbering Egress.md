@@ -29,7 +29,7 @@ stamina: '180'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Lumbering Egress
 level: 6
 roles:
@@ -152,4 +152,4 @@ abilities:
           erupts from the egress, dealing an extra 1 damage for each minion
           destroyed this way.
         name: Effect
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '120'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Wyvern Lurker
 level: 4
 roles:
@@ -121,4 +121,4 @@ abilities:
       - effect: The lurker flies adjacent to the target and can make a free strike
           against them.
         name: Effect
-```
+~~~

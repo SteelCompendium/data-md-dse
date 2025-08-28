@@ -29,7 +29,7 @@ stamina: '15'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Goblin Underboss
 level: 1
 roles:
@@ -84,4 +84,4 @@ abilities:
         name: Effect
       - effect: Strikes made against targets no longer gain an edge.
         cost: 2 Malice
-```
+~~~

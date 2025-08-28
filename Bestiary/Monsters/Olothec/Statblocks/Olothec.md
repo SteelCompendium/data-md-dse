@@ -29,7 +29,7 @@ stamina: '450'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Olothec
 level: 6
 roles:
@@ -215,4 +215,4 @@ abilities:
       - effect: A devolved creature has a −1 score for all their characteristics other
           than Reason.
         name: Effect
-```
+~~~

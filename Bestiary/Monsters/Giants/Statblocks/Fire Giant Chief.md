@@ -29,7 +29,7 @@ stamina: '240'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Fire Giant Chief
 level: 9
 roles:
@@ -157,4 +157,4 @@ abilities:
         t1: 18 fire damage
         t2: 14 fire damage
         t3: 9 fire damage
-```
+~~~

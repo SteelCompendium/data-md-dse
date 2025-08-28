@@ -30,7 +30,7 @@ stamina: '240'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Taxiarch
 level: 9
 roles:
@@ -154,4 +154,4 @@ abilities:
       - effect: See Thunderstruck. Additionally, until the end of the encounter, any
           enemy who moves within 3 squares of the taxiarch for the first time in
           a round or starts their turn there takes 3 lightning damage.
-```
+~~~

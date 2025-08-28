@@ -30,7 +30,7 @@ stamina: '100'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Tusker Demon
 level: 2
 roles:
@@ -94,4 +94,4 @@ abilities:
       - effect: The tusker demon uses the Charge main action and Gore against the
           target.
         name: Effect
-```
+~~~

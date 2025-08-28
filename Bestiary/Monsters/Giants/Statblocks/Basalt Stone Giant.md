@@ -29,7 +29,7 @@ stamina: '207'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Basalt Stone Giant
 level: 8
 roles:
@@ -128,4 +128,4 @@ abilities:
       - effect: The target is pushed up to 3 squares, or if they have A < 3, they are
           pushed up to 6 squares and knocked prone.
         name: Effect
-```
+~~~

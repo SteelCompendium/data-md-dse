@@ -28,7 +28,7 @@ stamina: '8'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Troll Limbjumble
 level: 5
 roles:
@@ -74,4 +74,4 @@ abilities:
       - effect: If a target made prone this way is already prone, they are grabbed
           instead.
         name: Effect
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '13'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Fire Giant Fireballer
 level: 9
 roles:
@@ -73,4 +73,4 @@ abilities:
         t3: 6 fire damage; push 2
       - effect: The fireballer can jump up to 4 squares before using this ability.
         name: Effect
-```
+~~~

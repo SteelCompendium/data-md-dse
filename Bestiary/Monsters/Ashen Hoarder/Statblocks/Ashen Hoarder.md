@@ -29,7 +29,7 @@ stamina: '350'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Ashen Hoarder
 level: 4
 roles:
@@ -212,4 +212,4 @@ abilities:
           double edge against one target. On a tier 3 outcome, the ashen hoarder
           can use Impale without spending Malice.
         name: Effect
-```
+~~~

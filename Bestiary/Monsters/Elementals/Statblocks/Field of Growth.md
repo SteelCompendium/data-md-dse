@@ -28,7 +28,7 @@ stamina: '120'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Field of Growth
 level: 3
 roles:
@@ -111,4 +111,4 @@ abilities:
       - effect: The target takes 6 damage, and if they have A < 2, they are bleeding
           (save ends).
         name: Effect
-```
+~~~

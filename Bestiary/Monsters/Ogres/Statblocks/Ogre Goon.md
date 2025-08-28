@@ -29,7 +29,7 @@ stamina: '100'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Ogre Goon
 level: 2
 roles:
@@ -118,4 +118,4 @@ abilities:
     effects:
       - effect: The goon slides the target up to 5 squares
         name: Effect
-```
+~~~

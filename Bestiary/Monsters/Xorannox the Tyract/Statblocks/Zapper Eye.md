@@ -30,7 +30,7 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Zapper Eye
 level: 6
 roles:
@@ -94,4 +94,4 @@ abilities:
         t3: 13 lightning damage
       - effect: Each target loses all their surges.
         name: Effect
-```
+~~~

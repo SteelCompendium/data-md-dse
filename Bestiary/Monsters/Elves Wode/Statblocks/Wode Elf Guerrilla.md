@@ -30,7 +30,7 @@ stamina: '50'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Wode Elf Guerrilla
 level: 3
 roles:
@@ -97,4 +97,4 @@ abilities:
       - effect: The targets take their turn immediately. Each target gains an edge on
           abilities until the end of their turn.
         name: Effect
-```
+~~~

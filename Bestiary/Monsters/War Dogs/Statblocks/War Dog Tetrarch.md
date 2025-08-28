@@ -30,7 +30,7 @@ stamina: '180'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Tetrarch
 level: 6
 roles:
@@ -150,4 +150,4 @@ abilities:
       - effect: Until the end of the encounter, the tetrarch has damage immunity 2, and
           their Houndblade ability targets three creatures or objects.
         name: Effect
-```
+~~~

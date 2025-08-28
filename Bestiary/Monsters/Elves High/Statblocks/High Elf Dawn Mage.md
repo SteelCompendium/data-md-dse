@@ -30,7 +30,7 @@ stamina: '3'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: High Elf Dawn Mage
 level: 1
 roles:
@@ -75,4 +75,4 @@ abilities:
         t3: 3 holy damage
       - effect: Until the start of the dawn mage's next turn, the target can't hide.
         name: Effect
-```
+~~~

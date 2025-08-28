@@ -31,7 +31,7 @@ stamina: '180'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Hobgoblin Bloodlord
 level: 6
 roles:
@@ -157,4 +157,4 @@ abilities:
           flames. Whenever any adjacent enemy grabs the bloodlord or uses a
           melee ability against them, that enemy takes 5 corruption damage.
         name: Effect
-```
+~~~

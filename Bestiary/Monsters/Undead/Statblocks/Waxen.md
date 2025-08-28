@@ -29,7 +29,7 @@ stamina: '40'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Waxen
 level: 7
 roles:
@@ -92,4 +92,4 @@ abilities:
         t1: 10 damage
         t2: 8 damage
         t3: 5 damage
-```
+~~~

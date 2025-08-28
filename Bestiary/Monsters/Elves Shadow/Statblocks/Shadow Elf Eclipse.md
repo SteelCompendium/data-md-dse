@@ -30,7 +30,7 @@ stamina: '180'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Shadow Elf Eclipse
 level: 6
 roles:
@@ -151,4 +151,4 @@ abilities:
           of the encounter. Any enemy who starts their turn in the area takes 5
           corruption damage.
         name: Effect
-```
+~~~

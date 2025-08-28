@@ -29,7 +29,7 @@ stamina: '120'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Wode Elf Warleader
 level: 3
 roles:
@@ -145,4 +145,4 @@ abilities:
       - effect: Each target is invisible until the start of the next round. The
           warleader then uses Wodeblade.
         name: Effect
-```
+~~~

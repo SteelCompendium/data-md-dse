@@ -30,7 +30,7 @@ stamina: '240'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Soulraker Hivequeen
 level: 9
 roles:
@@ -156,4 +156,4 @@ abilities:
         t1: 7 poison damage; M < 3 bleeding (save ends)
         t2: 11 poison damage; M < 4 bleeding (save ends)
         t3: 14 poison damage; M < 5 bleeding (save ends)
-```
+~~~

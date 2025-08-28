@@ -29,7 +29,7 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Radenwight Ratcrobat
 level: 1
 roles:
@@ -95,4 +95,4 @@ abilities:
     effects:
       - effect: The ratcrobat makes a free strike against the target.
         name: Effect
-```
+~~~

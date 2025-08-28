@@ -29,7 +29,7 @@ stamina: '0120'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Time Raider Tyrannis
 level: 3
 roles:
@@ -149,4 +149,4 @@ abilities:
           enters a square with a sensor mine in it, the mine explodes, dealing 3
           damage to the enemy.
         name: Effect
-```
+~~~

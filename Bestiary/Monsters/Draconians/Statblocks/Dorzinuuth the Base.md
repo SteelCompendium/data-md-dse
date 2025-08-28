@@ -30,7 +30,7 @@ stamina: '180'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Dorzinuuth the Base
 level: 6
 roles:
@@ -155,4 +155,4 @@ abilities:
           takes damage from a melee ability, the attacker takes 6 lightning
           damage.
         name: Effect
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '55'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Bonecage
 level: 10
 roles:
@@ -97,4 +97,4 @@ abilities:
       - effect: The area is difficult terrain for enemies. The effect ends at the end of
           the encounter or when the bonecage uses this ability again.
         name: Effect
-```
+~~~

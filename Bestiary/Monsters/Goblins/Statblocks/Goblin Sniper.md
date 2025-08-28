@@ -29,7 +29,7 @@ stamina: '3'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Goblin Sniper
 level: 1
 roles:
@@ -73,4 +73,4 @@ abilities:
       - effect: If the sniper doesn't use a move action this turn, this ability gains an
           edge.
         name: Effect
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '15'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Mummy Rotwrap
 level: 7
 roles:
@@ -74,4 +74,4 @@ abilities:
       - effect: Each ally gains an edge on strikes made against the target until the end
           of the round
         name: Effect
-```
+~~~

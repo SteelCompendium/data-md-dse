@@ -31,7 +31,7 @@ stamina: '7'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Hobgoblin Brandbearer
 level: 4
 roles:
@@ -80,4 +80,4 @@ abilities:
         t1: 2 fire damage
         t2: 4 fire damage; M < 2 fire weakness 5 (save ends)
         t3: 6 fire damage; M < 3 fire weakness 5 (save ends)
-```
+~~~

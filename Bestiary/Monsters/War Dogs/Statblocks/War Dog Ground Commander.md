@@ -30,7 +30,7 @@ stamina: '120'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Ground Commander
 level: 3
 roles:
@@ -150,4 +150,4 @@ abilities:
           Until the end of the encounter, each target enemy takes a bane on the
           Escape Grab maneuver.
         name: Effect
-```
+~~~

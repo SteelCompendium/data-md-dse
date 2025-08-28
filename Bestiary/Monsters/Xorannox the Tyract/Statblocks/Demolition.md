@@ -30,7 +30,7 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Demolition
 level: 6
 roles:
@@ -72,4 +72,4 @@ abilities:
         t1: 6 fire damage
         t2: 10 fire damage; M < 3 prone
         t3: 13 fire damage; M < 4 prone
-```
+~~~

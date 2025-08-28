@@ -29,7 +29,7 @@ stamina: '15'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Kobold Venator
 level: 1
 roles:
@@ -81,4 +81,4 @@ abilities:
       - effect: The venator lights their net on fire, and a target restrained this way
           takes 2 fire damage at the start of each of their turns.
         cost: 3 Malice
-```
+~~~

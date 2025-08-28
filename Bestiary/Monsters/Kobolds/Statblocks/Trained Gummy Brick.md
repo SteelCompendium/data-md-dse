@@ -30,7 +30,7 @@ stamina: '40'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Trained Gummy Brick
 level: 1
 roles:
@@ -94,4 +94,4 @@ abilities:
       - effect: The brick uses Engulf against the triggering creature and has a double
           edge.
         name: Effect
-```
+~~~

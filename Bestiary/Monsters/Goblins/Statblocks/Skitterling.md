@@ -29,7 +29,7 @@ stamina: '3'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Skitterling
 level: 1
 roles:
@@ -69,4 +69,4 @@ abilities:
         t3: 3 poison damage
       - effect: The target takes a bane on their next strike.
         name: Effect
-```
+~~~

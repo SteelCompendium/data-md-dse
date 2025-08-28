@@ -30,7 +30,7 @@ stamina: '35'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Thanatite
 level: 6
 roles:
@@ -91,4 +91,4 @@ abilities:
           the wall is created vertically slides up to 2 squares and is knocked
           prone. Each square of the wall has 3 Stamina.
         name: Effect
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '20'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Zombie
 level: 1
 roles:
@@ -93,4 +93,4 @@ abilities:
         t1: 2 corruption damage
         t2: 3 corruption damage; M < 1 weakened (save ends)
         t3: 4 corruption damage; M < 2 dazed (save ends)
-```
+~~~

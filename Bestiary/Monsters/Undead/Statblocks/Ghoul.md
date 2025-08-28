@@ -28,7 +28,7 @@ stamina: '15'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Ghoul
 level: 1
 roles:
@@ -88,4 +88,4 @@ abilities:
           enemy is knocked prone and the ghoul can make a free strike against
           them.
         name: Effect
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '55'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Izyak
 level: 10
 roles:
@@ -101,4 +101,4 @@ abilities:
         name: Effect
       - effect: The area increases to a 6 cube.
         cost: 2 Malice
-```
+~~~

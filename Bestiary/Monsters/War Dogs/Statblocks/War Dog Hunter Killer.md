@@ -30,7 +30,7 @@ stamina: '14'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Hunter-Killer
 level: 10
 roles:
@@ -75,4 +75,4 @@ abilities:
       - effect: Each enemy adjacent to the target before the forced movement takes 5
           fire damage
         name: Effect
-```
+~~~

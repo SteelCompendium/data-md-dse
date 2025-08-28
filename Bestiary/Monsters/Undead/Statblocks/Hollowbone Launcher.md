@@ -29,7 +29,7 @@ stamina: '7'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Hollowbone Launcher
 level: 4
 roles:
@@ -75,4 +75,4 @@ abilities:
         t3: 7 damage; M < 3 bleeding (save ends)
       - effect: Each creature adjacent to the target takes 2 damage.
         name: Effect
-```
+~~~

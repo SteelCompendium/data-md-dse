@@ -29,7 +29,7 @@ stamina: '120'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Human Bandit Chief
 level: 3
 roles:
@@ -148,4 +148,4 @@ abilities:
           Longsword against up to four targets. Additionally, one ally adjacent
           to each target can make a free strike against that target.
         name: Effect
-```
+~~~

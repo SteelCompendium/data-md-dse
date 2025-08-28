@@ -30,7 +30,7 @@ stamina: '25'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Amalgamite
 level: 2
 roles:
@@ -88,4 +88,4 @@ abilities:
     effects:
       - effect: If the target has a loyalty collar, they are reduced to 0 Stamina.
         name: Effect
-```
+~~~

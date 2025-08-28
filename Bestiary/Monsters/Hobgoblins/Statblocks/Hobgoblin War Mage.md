@@ -31,7 +31,7 @@ stamina: '120'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Hobgoblin War Mage
 level: 5
 roles:
@@ -126,4 +126,4 @@ abilities:
           halved. The war mage regains Stamina equal to the remaining damage
           dealt or Stamina regained.
         name: Effect
-```
+~~~

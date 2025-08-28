@@ -30,7 +30,7 @@ stamina: '40'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Doomthief
 level: 5
 roles:
@@ -90,4 +90,4 @@ abilities:
           Doom Magnet trait increases by 3, both until the start of their next
           turn.
         name: Effect
-```
+~~~

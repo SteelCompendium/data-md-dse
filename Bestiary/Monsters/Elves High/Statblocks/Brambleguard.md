@@ -29,7 +29,7 @@ stamina: '59'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Brambleguard
 level: 2
 roles:
@@ -82,4 +82,4 @@ abilities:
         t1: 4 damage
         t2: 7 damage; push 3
         t3: 10 damage; push 3; A < 2 bleeding (save ends)
-```
+~~~

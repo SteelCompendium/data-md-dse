@@ -30,7 +30,7 @@ stamina: '40'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: High Elf Wyrd
 level: 3
 roles:
@@ -103,4 +103,4 @@ abilities:
           in the area moves with the terrain to its new higher elevation, or
           falls if the ground is lowered beneath them.
         name: Effect
-```
+~~~

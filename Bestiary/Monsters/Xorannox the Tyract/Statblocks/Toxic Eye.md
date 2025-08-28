@@ -30,7 +30,7 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Toxic Eye
 level: 6
 roles:
@@ -72,4 +72,4 @@ abilities:
         t1: 6 poison damage
         t2: 10 poison damage; M < 3 weakened (save ends)
         t3: 13 poison damage; M < 4 weakened (save ends)
-```
+~~~

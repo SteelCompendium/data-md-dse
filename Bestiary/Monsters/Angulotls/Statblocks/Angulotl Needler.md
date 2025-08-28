@@ -29,7 +29,7 @@ stamina: '10'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Angulotl Needler
 level: 1
 roles:
@@ -75,4 +75,4 @@ abilities:
       - effect: A target who has M < 2 is weakened (save ends). A target weakened this
           way takes 2 poison damage at the start of each of their turns.
         cost: 2 Malice
-```
+~~~

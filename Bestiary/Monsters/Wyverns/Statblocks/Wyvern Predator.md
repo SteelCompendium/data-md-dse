@@ -29,7 +29,7 @@ stamina: '140'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Wyvern Predator
 level: 4
 roles:
@@ -125,4 +125,4 @@ abilities:
       - effect: The predator uses Sedating Stinger against the target, then shifts up to
           3 squares
         name: Effect
-```
+~~~

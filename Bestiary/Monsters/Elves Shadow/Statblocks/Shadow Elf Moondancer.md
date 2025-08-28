@@ -30,7 +30,7 @@ stamina: '70'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Shadow Elf Moondancer
 level: 5
 roles:
@@ -89,4 +89,4 @@ abilities:
       - effect: The moondancer can teleport up to 10 squares to a space with concealment
           created by darkness.
         name: Effect
-```
+~~~

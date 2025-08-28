@@ -28,7 +28,7 @@ stamina: '25'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Wraith
 level: 4
 roles:
@@ -103,4 +103,4 @@ abilities:
       - effect: The target regains only half the Stamina, and the wraith regains the
           remaining Stamina.
         name: Effect
-```
+~~~

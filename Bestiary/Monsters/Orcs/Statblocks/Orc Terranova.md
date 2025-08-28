@@ -29,7 +29,7 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Orc Terranova
 level: 2
 roles:
@@ -94,4 +94,4 @@ abilities:
         t3: 10 damage; M < 2 restrained (save ends)
       - effect: The area is difficult terrain
         name: Effect
-```
+~~~

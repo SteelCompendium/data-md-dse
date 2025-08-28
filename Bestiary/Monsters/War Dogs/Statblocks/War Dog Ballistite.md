@@ -29,7 +29,7 @@ stamina: '72'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Ballistite
 level: 8
 roles:
@@ -92,4 +92,4 @@ abilities:
           terrain, and any ranged ability targeting an enemy in the area deals
           an extra 8 damage.
         name: Effect
-```
+~~~

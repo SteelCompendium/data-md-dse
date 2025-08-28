@@ -29,7 +29,7 @@ stamina: '59'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Orc Rampart
 level: 2
 roles:
@@ -96,4 +96,4 @@ abilities:
     effects:
       - effect: The rampart becomes the target of the triggering ability instead.
         name: Effect
-```
+~~~

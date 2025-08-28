@@ -29,7 +29,7 @@ stamina: '60'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Orc Juggernaut
 level: 3
 roles:
@@ -88,4 +88,4 @@ abilities:
     effects:
       - effect: The juggernaut moves up to their speed and can make a free strike.
         name: Effect
-```
+~~~

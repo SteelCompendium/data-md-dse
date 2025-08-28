@@ -29,7 +29,7 @@ stamina: '10'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Devil Clerk
 level: 5
 roles:
@@ -76,4 +76,4 @@ abilities:
       - effect: Any target adjacent to two or more clerks is taunted until the end of
           their next turn.
         name: Effect
-```
+~~~

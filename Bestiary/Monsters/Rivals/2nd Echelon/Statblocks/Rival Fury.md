@@ -29,7 +29,7 @@ stamina: '160'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Rival Fury
 level: 5
 roles:
@@ -96,4 +96,4 @@ abilities:
           grabbed this way, the fury and their allies gain an edge on strikes
           against them.
         name: Effect
-```
+~~~

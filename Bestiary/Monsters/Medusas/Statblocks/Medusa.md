@@ -30,7 +30,7 @@ stamina: '0420'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Medusa
 level: 5
 roles:
@@ -190,4 +190,4 @@ abilities:
           medusa's choice. A stone statue without its own statistics has speed 5
           and uses the medusa's free strike.
         name: Effect
-```
+~~~

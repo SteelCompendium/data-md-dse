@@ -31,7 +31,7 @@ stamina: '70'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Hobgoblin Hell Trooper
 level: 4
 roles:
@@ -91,4 +91,4 @@ abilities:
           the target takes 1d6 fire damage whenever they use an ability or
           strike that doesn't target the trooper.
         name: Effect
-```
+~~~

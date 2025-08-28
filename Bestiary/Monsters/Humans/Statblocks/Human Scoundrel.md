@@ -29,7 +29,7 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Human Scoundrel
 level: 1
 roles:
@@ -86,4 +86,4 @@ abilities:
     effects:
       - effect: The scoundrel uses Rapier and Dagger against up to three targets. They
           shift up to 2 squares before or after each strike
-```
+~~~

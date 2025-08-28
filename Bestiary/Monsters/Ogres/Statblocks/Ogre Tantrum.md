@@ -29,7 +29,7 @@ stamina: '10'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Ogre Tantrum
 level: 7
 roles:
@@ -76,4 +76,4 @@ abilities:
         t3: 8 damage; push 4
       - effect: A creature or object used as a projectile is vertically pushed 8 (or 13
           with a captain), ignoring stability.
-```
+~~~

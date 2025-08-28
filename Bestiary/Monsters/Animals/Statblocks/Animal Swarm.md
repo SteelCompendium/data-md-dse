@@ -29,7 +29,7 @@ stamina: '40'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Animal Swarm
 level: 1
 roles:
@@ -89,4 +89,4 @@ abilities:
       - effect: The area is difficult terrain for enemies until the start of the animal
           swarm's next turn.
         name: Effect
-```
+~~~

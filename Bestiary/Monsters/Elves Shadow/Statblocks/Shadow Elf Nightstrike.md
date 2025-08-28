@@ -30,7 +30,7 @@ stamina: '8'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Shadow Elf Nightstrike
 level: 4
 roles:
@@ -78,4 +78,4 @@ abilities:
           space adjacent to the target, opposite from the nightstrike's original
           space.
         name: Effect
-```
+~~~

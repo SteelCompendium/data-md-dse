@@ -29,7 +29,7 @@ stamina: '240'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Rival Conduit
 level: 10
 roles:
@@ -93,4 +93,4 @@ abilities:
           deals an extra 10 holy damage. Additionally, they can vertical slide
           each creature targeted by the strike up to 2 squares.
         name: Effect
-```
+~~~

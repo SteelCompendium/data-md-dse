@@ -29,7 +29,7 @@ stamina: '6'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Dwarf Hunter
 level: 1
 roles:
@@ -70,4 +70,4 @@ abilities:
           forced movement doesn't end the restrained condition unless the
           Director determines otherwise.
         name: Effect
-```
+~~~

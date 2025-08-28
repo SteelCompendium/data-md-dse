@@ -29,7 +29,7 @@ stamina: '80'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Shieldscale Drangolin
 level: 1
 roles:
@@ -106,4 +106,4 @@ abilities:
         t1: 6 damage; push 1; A < 0 prone
         t2: 8 damage; push 3; A < 0 prone
         t3: 11 damage; push 5; A < 0 prone
-```
+~~~

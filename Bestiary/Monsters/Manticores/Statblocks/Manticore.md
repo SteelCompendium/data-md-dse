@@ -29,7 +29,7 @@ stamina: '0350'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Manticore
 level: 4
 roles:
@@ -168,4 +168,4 @@ abilities:
           manticore's Tail Spike ability has their speed halved and takes an
           extra 3 poison damage at the start of each of their turns.
         name: Effect
-```
+~~~

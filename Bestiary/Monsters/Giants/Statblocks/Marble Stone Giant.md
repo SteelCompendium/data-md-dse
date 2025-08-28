@@ -29,7 +29,7 @@ stamina: '207'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Marble Stone Giant
 level: 8
 roles:
@@ -125,4 +125,4 @@ abilities:
           weakness increases by 3 each time the marble stone giant uses this
           ability in the same encounter.
         name: Effect
-```
+~~~

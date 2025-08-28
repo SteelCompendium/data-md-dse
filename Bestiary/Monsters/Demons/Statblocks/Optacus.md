@@ -29,7 +29,7 @@ stamina: '14'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Optacus
 level: 10
 roles:
@@ -73,4 +73,4 @@ abilities:
       - effect: This ability ignores concealment. A winded target takes an extra 5
           damage.
         name: Effect
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '13'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Hill Giant Mosstooth
 level: 7
 roles:
@@ -79,4 +79,4 @@ abilities:
           and the target. They then end the grab and leave the creature or
           object prone in an unoccupied space adjacent to the target.
         name: Effect
-```
+~~~

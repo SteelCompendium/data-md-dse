@@ -30,7 +30,7 @@ stamina: '70'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Shadow Elf Knightfell
 level: 4
 roles:
@@ -86,4 +86,4 @@ abilities:
       - effect: The target takes half the damage and the knightfell takes the other
           half.
         name: Effect
-```
+~~~

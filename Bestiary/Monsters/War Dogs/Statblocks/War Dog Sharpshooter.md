@@ -30,7 +30,7 @@ stamina: '3'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Sharpshooter
 level: 1
 roles:
@@ -74,4 +74,4 @@ abilities:
         t3: 5 damage
       - effect: This ability ignores cover and concealment.
         name: Effect
-```
+~~~

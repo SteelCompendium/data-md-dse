@@ -29,7 +29,7 @@ stamina: '9'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Devil Scrivener
 level: 5
 roles:
@@ -77,4 +77,4 @@ abilities:
         t3: 6 corruption damage; slowed (EoT)
       - effect: The scrivener can shift 1 square.
         name: Effect
-```
+~~~

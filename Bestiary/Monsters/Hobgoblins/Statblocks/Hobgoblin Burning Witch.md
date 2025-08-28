@@ -31,7 +31,7 @@ stamina: '50'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Hobgoblin Burning Witch
 level: 4
 roles:
@@ -94,4 +94,4 @@ abilities:
       - effect: Each target can teleport up to 5 squares. Each creature adjacent to a
           target at their destination takes 3 fire damage.
         name: Effect
-```
+~~~

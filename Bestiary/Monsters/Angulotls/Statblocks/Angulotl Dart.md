@@ -29,7 +29,7 @@ stamina: '3'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Angulotl Dart
 level: 1
 roles:
@@ -75,4 +75,4 @@ abilities:
       - effect: The dart gains an edge on this ability against any target who has less
           than full Stamina.
         name: Effect
-```
+~~~

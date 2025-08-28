@@ -29,7 +29,7 @@ stamina: '15'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Troll Crack Trooper
 level: 9
 roles:
@@ -79,4 +79,4 @@ abilities:
       - effect: The crack trooper's squad's Stamina pool regains Stamina equal to half
           the damage dealt.
         name: Effect
-```
+~~~

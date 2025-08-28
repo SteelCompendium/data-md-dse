@@ -30,7 +30,7 @@ stamina: '10'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Soulraker Stinger
 level: 7
 roles:
@@ -79,4 +79,4 @@ abilities:
       - effect: All soulraker demons have concealment from the target until the start of
           the stinger's next turn.
         name: Effect
-```
+~~~

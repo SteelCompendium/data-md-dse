@@ -29,7 +29,7 @@ stamina: '550'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Omen Dragon
 level: 8
 roles:
@@ -232,4 +232,4 @@ abilities:
           malevolence, and any target who has a Deathcount has that Deathcount
           reduced to 1.
         name: Effect
-```
+~~~

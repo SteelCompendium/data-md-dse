@@ -30,7 +30,7 @@ stamina: '40'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: High Elf Orbweaver
 level: 3
 roles:
@@ -90,4 +90,4 @@ abilities:
           immediately shift into an unoccupied space adjacent to the target (no
           action required).
         name: Effect
-```
+~~~

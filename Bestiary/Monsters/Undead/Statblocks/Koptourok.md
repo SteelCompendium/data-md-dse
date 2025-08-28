@@ -28,7 +28,7 @@ stamina: '40'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Koptourok
 level: 7
 roles:
@@ -93,4 +93,4 @@ abilities:
           If one or more targets are pulled adjacent to the kop- tourok, the
           koptourok can fly until the end of the encounter
         name: Effect
-```
+~~~

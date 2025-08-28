@@ -29,7 +29,7 @@ stamina: '20'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Remasch
 level: 2
 roles:
@@ -91,4 +91,4 @@ abilities:
     effects:
       - effect: The remasch can teleport up to 2 squares and uses Abyssal Strike.
         name: Effect
-```
+~~~

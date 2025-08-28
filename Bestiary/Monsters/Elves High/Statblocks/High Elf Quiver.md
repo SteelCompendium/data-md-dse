@@ -30,7 +30,7 @@ stamina: '3'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: High Elf Quiver
 level: 1
 roles:
@@ -75,4 +75,4 @@ abilities:
         t3: 5 damage
       - effect: Each ally adjacent to the target shifts up to 2 squares
         name: Effect
-```
+~~~

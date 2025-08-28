@@ -29,7 +29,7 @@ stamina: '4'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Gnoll Mage Mauler
 level: 2
 roles:
@@ -72,4 +72,4 @@ abilities:
         t3: 5 lightning damage; the target can't use magic abilities (EoT)
       - effect: The target takes a bane on their next power roll.
         name: Effect
-```
+~~~

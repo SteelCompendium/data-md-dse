@@ -29,7 +29,7 @@ stamina: '80'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Basilisk
 level: 1
 roles:
@@ -124,4 +124,4 @@ abilities:
       - effect: Each target takes 5 damage. Any target who has A < 2 is also bleeding
           (save ends).
         name: Effect
-```
+~~~

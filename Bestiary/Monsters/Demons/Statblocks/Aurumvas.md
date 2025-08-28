@@ -29,7 +29,7 @@ stamina: '260'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Aurumvas
 level: 10
 roles:
@@ -158,4 +158,4 @@ abilities:
         t1: 1 10 fire damage; push 1
         t2: 2 15 fire damage; push 2
         t3: 3 19 fire damage; push 3
-```
+~~~

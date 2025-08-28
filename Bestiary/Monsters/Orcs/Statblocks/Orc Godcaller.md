@@ -29,7 +29,7 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Orc Godcaller
 level: 1
 roles:
@@ -97,4 +97,4 @@ abilities:
       - effect: Each target regains 15 Stamina and ignores difficult terrain until the
           end of the encounter.
         name: Effect
-```
+~~~

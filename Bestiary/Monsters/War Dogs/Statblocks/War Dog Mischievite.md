@@ -30,7 +30,7 @@ stamina: '35'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Mischievite
 level: 5
 roles:
@@ -93,4 +93,4 @@ abilities:
           targeted by an ability. If they do, the swapped target becomes the new
           target of the triggering ability.
         cost: 2 Malice
-```
+~~~

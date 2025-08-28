@@ -29,7 +29,7 @@ stamina: '14'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Sand Stone Giant
 level: 8
 roles:
@@ -79,4 +79,4 @@ abilities:
         t1: 3 damage; slide 2
         t2: 6 damage; slide 3; A < 3 restrained (save ends)
         t3: 8 damage; slide 4; A < 4 restrained (save ends)
-```
+~~~

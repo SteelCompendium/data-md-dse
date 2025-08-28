@@ -30,7 +30,7 @@ stamina: '100'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Minotaur
 level: 3
 roles:
@@ -118,4 +118,4 @@ abilities:
       - effect: The minotaur uses theCharge main action and either Flail and Blade or
           Goring Horns against the target.
         name: Effect
-```
+~~~

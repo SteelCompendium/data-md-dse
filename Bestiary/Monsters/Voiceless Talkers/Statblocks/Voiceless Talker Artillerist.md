@@ -29,7 +29,7 @@ stamina: '140'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Voiceless Talker Artillerist
 level: 6
 roles:
@@ -123,4 +123,4 @@ abilities:
       - effect: The artillerist can teleport up to 5 squares and ignores any effects
           associated with the damage
         name: Effect
-```
+~~~

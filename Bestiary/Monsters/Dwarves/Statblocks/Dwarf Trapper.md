@@ -29,7 +29,7 @@ stamina: '36'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Dwarf Trapper
 level: 1
 roles:
@@ -90,4 +90,4 @@ abilities:
       - effect: The snare remains until the end of the encounter. Any enemy who moves
           into the area for the first time in a round or starts their turn there
           must make the test.
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '35'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Fiktin
 level: 5
 roles:
@@ -89,4 +89,4 @@ abilities:
           is automatically hidden. They can revert to their true form as a free
           maneuver.
         name: Effect
-```
+~~~

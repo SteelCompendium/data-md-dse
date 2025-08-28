@@ -29,7 +29,7 @@ stamina: '10'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Angulotl Wave
 level: 1
 roles:
@@ -95,4 +95,4 @@ abilities:
         t1: 3 poison damage; the target is wet and weakened (save ends)
         t2: 2 poison damage; the target is wet (save ends)
         t3: 1 poison damage; the target is wet (EoT)
-```
+~~~

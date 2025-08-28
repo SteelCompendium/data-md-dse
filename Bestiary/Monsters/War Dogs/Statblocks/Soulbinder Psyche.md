@@ -30,7 +30,7 @@ stamina: '220'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Soulbinder Psyche
 level: 10
 roles:
@@ -152,4 +152,4 @@ abilities:
     effects:
       - effect: The target takes 10 psychic damage.
         name: Effect
-```
+~~~

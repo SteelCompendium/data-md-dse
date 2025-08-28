@@ -28,7 +28,7 @@ stamina: '10'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Soulwight
 level: 1
 roles:
@@ -89,4 +89,4 @@ abilities:
           again until after they strike a creature with their Soulstealer
           Longsword.
         name: Effect
-```
+~~~

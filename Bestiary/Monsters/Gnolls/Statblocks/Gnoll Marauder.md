@@ -29,7 +29,7 @@ stamina: '20'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Gnoll Marauder
 level: 2
 roles:
@@ -85,4 +85,4 @@ abilities:
           own Cackletongue maneuver on this turn, they can use it immediately at
           no cost.
         name: Effect
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '15'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Gnoll Cackler
 level: 2
 roles:
@@ -93,4 +93,4 @@ abilities:
         t1: Frightened (save ends)
         t2: Frightened (EoT)
         t3: No effect
-```
+~~~

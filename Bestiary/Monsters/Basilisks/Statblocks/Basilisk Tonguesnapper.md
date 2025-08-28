@@ -29,7 +29,7 @@ stamina: '40'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Basilisk Tonguesnapper
 level: 1
 roles:
@@ -132,4 +132,4 @@ abilities:
       - effect: Each target takes 4 acid damage. Any target who has M < 2 is also slowed
           (save ends).
         name: Effect
-```
+~~~

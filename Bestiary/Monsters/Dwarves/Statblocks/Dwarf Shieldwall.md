@@ -29,7 +29,7 @@ stamina: '72'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Dwarf Shieldwall
 level: 3
 roles:
@@ -90,4 +90,4 @@ abilities:
       - effect: The shieldwall becomes the target of the triggering strike and halves
           the damage.
         name: Effect
-```
+~~~

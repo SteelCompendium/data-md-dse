@@ -29,7 +29,7 @@ stamina: '140'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Mindkiller
 level: 6
 roles:
@@ -125,4 +125,4 @@ abilities:
         name: Effect
       - effect: A grabbed creature takes the damage instead of the mindkiller.
         cost: 3 Malice
-```
+~~~

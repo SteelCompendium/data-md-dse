@@ -31,7 +31,7 @@ stamina: '200'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Servok Miner
 level: 9
 roles:
@@ -138,4 +138,4 @@ abilities:
           nondamaging effects of any strike made against them, including the
           triggering strike.
         name: Effect
-```
+~~~

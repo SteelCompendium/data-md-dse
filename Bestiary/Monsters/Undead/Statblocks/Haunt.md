@@ -28,7 +28,7 @@ stamina: '40'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Haunt
 level: 7
 roles:
@@ -94,4 +94,4 @@ abilities:
       - effect: A target knocked prone this way can't use the Stand Up maneuver on
           themself while any haunt is within 20 squares of them.
         name: Effect
-```
+~~~

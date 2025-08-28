@@ -29,7 +29,7 @@ stamina: '120'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Rival Tactician
 level: 5
 roles:
@@ -102,4 +102,4 @@ abilities:
       - effect: At any point during the movement, the tactician and one ally within
           distance can each make a free strike against the target.
         name: Effect
-```
+~~~

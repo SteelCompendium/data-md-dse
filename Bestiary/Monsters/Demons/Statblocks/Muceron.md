@@ -29,7 +29,7 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Muceron
 level: 3
 roles:
@@ -90,4 +90,4 @@ abilities:
     effects:
       - effect: The muceron pulls each target up to 5 squares.
         name: Effect
-```
+~~~

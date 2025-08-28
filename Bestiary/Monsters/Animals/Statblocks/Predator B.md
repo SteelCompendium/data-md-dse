@@ -28,7 +28,7 @@ stamina: '100'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Predator B
 level: 3
 roles:
@@ -97,4 +97,4 @@ abilities:
     effects:
       - effect: The target is pushed up to 5 squares.
         name: Effect
-```
+~~~

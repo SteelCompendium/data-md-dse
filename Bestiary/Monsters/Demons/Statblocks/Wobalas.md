@@ -29,7 +29,7 @@ stamina: '7'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Wobalas
 level: 4
 roles:
@@ -72,4 +72,4 @@ abilities:
       - effect: The target takes a bane on their next strike. If the target is winded,
           they have a double bane on their next strike instead.
         name: Effect
-```
+~~~

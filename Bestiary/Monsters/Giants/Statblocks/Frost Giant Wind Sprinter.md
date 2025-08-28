@@ -29,7 +29,7 @@ stamina: '200'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Frost Giant Wind Sprinter
 level: 8
 roles:
@@ -116,4 +116,4 @@ abilities:
       - effect: The wind sprinter moves up to their speed and uses Cold Axe against one
           target.
         name: Effect
-```
+~~~

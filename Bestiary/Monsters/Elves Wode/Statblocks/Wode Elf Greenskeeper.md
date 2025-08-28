@@ -30,7 +30,7 @@ stamina: '40'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Wode Elf Greenskeeper
 level: 1
 roles:
@@ -91,4 +91,4 @@ abilities:
           their allies. The area is difficult terrain for enemies and any enemy
           who starts their turn in the area takes 3 damage.
         name: Effect
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '3'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Kobold Sagittarion
 level: 1
 roles:
@@ -73,4 +73,4 @@ abilities:
       - effect: While adjacent to any ally, the sagittarion gains an edge on this
           ability.
         name: Effect
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '02533'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Logostician Vesper
 level: 10
 roles:
@@ -143,4 +143,4 @@ abilities:
       - effect: The target is dropped through a portal, which teleports them up to 7
           squares above a space within 15 squares.
         name: Effect
-```
+~~~

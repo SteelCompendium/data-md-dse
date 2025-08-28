@@ -29,7 +29,7 @@ stamina: '4'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Kobold Veles
 level: 1
 roles:
@@ -74,4 +74,4 @@ abilities:
       - effect: Until the start of the veles's next turn, the target can't make
           opportunity attacks against any kobold.
         name: Effect
-```
+~~~

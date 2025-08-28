@@ -30,7 +30,7 @@ stamina: '4'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Wode Elf Runner
 level: 1
 roles:
@@ -77,4 +77,4 @@ abilities:
       - effect: If this ability is used as part of the Charge main action, the runner
           shifts up to 2 squares first
         name: Effect
-```
+~~~

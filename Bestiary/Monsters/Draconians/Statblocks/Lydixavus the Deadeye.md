@@ -30,7 +30,7 @@ stamina: '140'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Lydixavus the Deadeye
 level: 6
 roles:
@@ -116,4 +116,4 @@ abilities:
       - effect: Lydixavus uses their signature ability again, targeting a creature
           within 5 squares of the original target.
         name: Effect
-```
+~~~

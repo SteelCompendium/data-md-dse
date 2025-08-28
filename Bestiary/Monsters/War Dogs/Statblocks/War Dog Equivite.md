@@ -29,7 +29,7 @@ stamina: '53'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Equivite
 level: 4
 roles:
@@ -93,4 +93,4 @@ abilities:
         t1: 2 damage; push 1
         t2: 4 damage; push 2
         t3: 5 damage; push 3; M < 3 prone
-```
+~~~

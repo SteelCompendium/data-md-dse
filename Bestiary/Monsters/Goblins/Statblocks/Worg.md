@@ -29,7 +29,7 @@ stamina: '15'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Worg
 level: 1
 roles:
@@ -84,4 +84,4 @@ abilities:
     effects:
       - effect: The worg moves up to their speed.
         name: Effect
-```
+~~~

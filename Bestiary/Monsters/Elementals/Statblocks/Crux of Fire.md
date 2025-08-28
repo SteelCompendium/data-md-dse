@@ -28,7 +28,7 @@ stamina: '80'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Crux of Fire
 level: 3
 roles:
@@ -102,4 +102,4 @@ abilities:
           to their speed. If the crux doesn't end this movement on solid ground,
           they fall.
         name: Effect
-```
+~~~

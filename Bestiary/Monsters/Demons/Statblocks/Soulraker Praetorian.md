@@ -30,7 +30,7 @@ stamina: '45'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Soulraker Praetorian
 level: 7
 roles:
@@ -94,4 +94,4 @@ abilities:
           target is bleeding until they remove the stinger fragment as a free
           maneuver, taking 6 damage in the process.
         name: Effect
-```
+~~~

@@ -31,7 +31,7 @@ stamina: '60'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Hobgoblin Death Captain
 level: 4
 roles:
@@ -95,4 +95,4 @@ abilities:
     effects:
       - effect: The target moves up to their speed and can make a free strike.
         name: Effect
-```
+~~~

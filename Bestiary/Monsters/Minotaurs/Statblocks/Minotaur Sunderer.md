@@ -30,7 +30,7 @@ stamina: '120'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Minotaur Sunderer
 level: 3
 roles:
@@ -123,4 +123,4 @@ abilities:
       - effect: The sunderer uses the Charge main action and Spiked Maul against the
           target.
         name: Effect
-```
+~~~

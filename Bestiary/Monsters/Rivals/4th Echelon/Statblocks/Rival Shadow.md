@@ -29,7 +29,7 @@ stamina: '240'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Rival Shadow
 level: 10
 roles:
@@ -88,4 +88,4 @@ abilities:
           their next strike, any potency for that strike increases by 2, and if
           the target has M < 4, they are weakened (save ends).
         name: Effect
-```
+~~~

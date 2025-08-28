@@ -28,7 +28,7 @@ stamina: '10'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Specter
 level: 1
 roles:
@@ -89,4 +89,4 @@ abilities:
       - effect: The specter turns invisible, moves up to their speed, and is visible
           again.
         name: Effect
-```
+~~~

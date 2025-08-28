@@ -30,7 +30,7 @@ stamina: '60'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Shadow Elf Luminator
 level: 4
 roles:
@@ -91,4 +91,4 @@ abilities:
         t3: The target regains 12 Stamina and the Director gains 3 Malice.
       - effect: Each target gains an edge on their next strike.
         name: Effect
-```
+~~~

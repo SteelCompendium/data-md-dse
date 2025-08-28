@@ -29,7 +29,7 @@ stamina: '36'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Dwarf Reel Winch
 level: 1
 roles:
@@ -89,4 +89,4 @@ abilities:
           be force moved by this ability. This forced movement doesn't end the
           restrained condition unless the Director determines otherwise.
         name: Effect
-```
+~~~

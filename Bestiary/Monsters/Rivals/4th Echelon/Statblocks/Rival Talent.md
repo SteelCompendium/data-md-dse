@@ -29,7 +29,7 @@ stamina: '220'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Rival Talent
 level: 10
 roles:
@@ -107,4 +107,4 @@ abilities:
           creature takes psychic damage equal to half the damage dealt and is
           pushed up to 5 squares.
         name: Effect
-```
+~~~

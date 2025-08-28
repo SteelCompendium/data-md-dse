@@ -30,7 +30,7 @@ stamina: '45'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Blackcap
 level: 7
 roles:
@@ -95,4 +95,4 @@ abilities:
     effects:
       - effect: Each target makes a free strike.
         name: Effect
-```
+~~~

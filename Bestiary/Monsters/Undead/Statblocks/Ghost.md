@@ -28,7 +28,7 @@ stamina: '80'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Ghost
 level: 1
 roles:
@@ -155,4 +155,4 @@ abilities:
       - effect: A target who has P < 2 is reduced to 1 Stamina if they are winded after
           taking this damage.
         name: Effect
-```
+~~~

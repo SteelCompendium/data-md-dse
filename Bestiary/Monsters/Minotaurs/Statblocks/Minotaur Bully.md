@@ -30,7 +30,7 @@ stamina: '14'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Minotaur Bully
 level: 8
 roles:
@@ -74,4 +74,4 @@ abilities:
         t1: 4 damage
         t2: 7 damage
         t3: 9 damage; I < 4 taunted (EoT) or frightened of all minotaurs (save ends)
-```
+~~~

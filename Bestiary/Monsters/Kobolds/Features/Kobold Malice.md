@@ -5,25 +5,35 @@ item_id: kobold-malice-malice-features
 item_index: 08
 item_name: Kobold Malice (Malice Features)
 scc:
-  - mcdm.monsters.v1:monster.feature:kobold-malice-malice-features
+- mcdm.monsters.v1:monster.feature:kobold-malice-malice-features
 scdc:
-  - 1.1.1:2.2:08
+- 1.1.1:2.2:08
 source: mcdm.monsters.v1
 type: monster/feature
 ---
 
-###### Kobold Malice (Malice Features)
-
-At the start of any kobolds's turn, you can spend Malice to activate one of the following features.
-
-> ⭐️ **Maniple Tactics (3 Malice)**
->
-> Up to 3 kobolds make a free strike, swaps positions with an adjacent kobold, and then that kobold makes a free strike.
-
-> 🌀 **Set the Initiative (5 Malice)**
->
-> Two kobolds take their turns in a row.
-
-> ⭐️ **Shield Wall (7 Malice)**
->
-> Until the end of the round, all kobolds with Shield? Shield! Impose an additional bane on incoming strikes and abilities.
+~~~ds-featureblock
+name: Kobold Malice
+type: Malice Features
+flavor: At the start of any kobolds's turn, you can spend Malice to activate one
+  of the following features.
+stats: []
+features:
+  - name: Maniple Tactics
+    icon: ⭐️
+    cost: 3 Malice
+    effects:
+      - effect: Up to 3 kobolds make a free strike, swaps positions with an adjacent
+          kobold, and then that kobold makes a free strike.
+  - name: Set the Initiative
+    icon: 🌀
+    cost: 5 Malice
+    effects:
+      - effect: Two kobolds take their turns in a row.
+  - name: Shield Wall
+    icon: ⭐️
+    cost: 7 Malice
+    effects:
+      - effect: Until the end of the round, all kobolds with Shield? Shield! Impose an
+          additional bane on incoming strikes and abilities.
+~~~

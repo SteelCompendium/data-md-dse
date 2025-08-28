@@ -29,7 +29,7 @@ stamina: '15'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Goblin Assassin
 level: 1
 roles:
@@ -90,4 +90,4 @@ abilities:
         t1: 2 corruption damage; A < 0 restrained (save ends)
         t2: 4 corruption damage; A < 1 restrained (save ends)
         t3: 5 corruption damage; A < 2 restrained (save ends)
-```
+~~~

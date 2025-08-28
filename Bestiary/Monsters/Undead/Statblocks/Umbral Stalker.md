@@ -28,7 +28,7 @@ stamina: '15'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Umbral Stalker
 level: 1
 roles:
@@ -102,4 +102,4 @@ abilities:
     effects:
       - effect: The umbral stalker teleports to an unoccupied space in an area of
           concealment within 10 squares.
-```
+~~~

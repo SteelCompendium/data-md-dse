@@ -29,7 +29,7 @@ stamina: '100'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Rival Fury
 level: 2
 roles:
@@ -95,4 +95,4 @@ abilities:
       - effect: The target must be the fury's size or smaller. While the target is
           grabbed this way, the fury gains an edge on strikes against them.
         name: Effect
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '8'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Orliq
 level: 4
 roles:
@@ -77,4 +77,4 @@ abilities:
         t1: 2 corruption damage; slide 2
         t2: 4 corruption damage; vertical slide 2
         t3: 6 corruption damage; vertical slide 2
-```
+~~~

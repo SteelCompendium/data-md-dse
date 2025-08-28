@@ -29,7 +29,7 @@ stamina: '100'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Striped Condor Griffon
 level: 2
 roles:
@@ -120,4 +120,4 @@ abilities:
           griffon dove, and if they have A < 2, they are grabbed or knocked
           prone.
         name: Effect
-```
+~~~

@@ -28,7 +28,7 @@ stamina: '80'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Predator A
 level: 1
 roles:
@@ -92,4 +92,4 @@ abilities:
       - effect: The predator makes a free strike against the target. If the predator was
           hidden from the target, the strike deals an extra 3 damage.
         name: Effect
-```
+~~~

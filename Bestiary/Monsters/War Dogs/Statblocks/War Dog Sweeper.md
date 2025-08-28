@@ -30,7 +30,7 @@ stamina: '8'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Sweeper
 level: 4
 roles:
@@ -75,4 +75,4 @@ abilities:
         t3: 6 damage; push 3
       - effect: Any target within 2 squares of the sweeper takes an extra 3 damage.
         name: Effect
-```
+~~~

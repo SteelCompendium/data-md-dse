@@ -30,7 +30,7 @@ stamina: '5'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Tetherite
 level: 1
 roles:
@@ -105,4 +105,4 @@ abilities:
         t1: 5 fire damage; slowed or weakened (save ends
         t2: 5 fire damage; slowed or weakened (EoT
         t3: 5 fire damage
-```
+~~~

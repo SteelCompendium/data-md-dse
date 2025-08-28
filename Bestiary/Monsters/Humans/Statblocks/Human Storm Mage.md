@@ -29,7 +29,7 @@ stamina: '40'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Human Storm Mage
 level: 3
 roles:
@@ -102,4 +102,4 @@ abilities:
       - effect: The gust of wind disperses gas or vapor and extinguishes any flames,
           including supernatural effects.
         name: Effect
-```
+~~~

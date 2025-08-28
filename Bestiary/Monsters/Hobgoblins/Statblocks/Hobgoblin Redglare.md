@@ -31,7 +31,7 @@ stamina: '70'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Hobgoblin Redglare
 level: 6
 roles:
@@ -96,4 +96,4 @@ abilities:
           time they use an ability or other effect that allows another creature
           to spend a Recovery.
         name: Effect
-```
+~~~

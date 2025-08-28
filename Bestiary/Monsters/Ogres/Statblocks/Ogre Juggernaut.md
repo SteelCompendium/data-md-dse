@@ -29,7 +29,7 @@ stamina: '80'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Ogre Juggernaut
 level: 2
 roles:
@@ -119,4 +119,4 @@ abilities:
     effects:
       - effect: The juggernaut moves up to their speed and can make a free strike.
         name: Effect
-```
+~~~

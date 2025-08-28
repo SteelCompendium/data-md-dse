@@ -29,7 +29,7 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Ceramic Horse
 level: 1
 roles:
@@ -98,4 +98,4 @@ abilities:
           stability. The target can use a ranged ability at any point during
           this forced movement, and takes no damage if they then fall.
         name: Effect
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '180'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Voiceless Talker Evolutionist
 level: 6
 roles:
@@ -150,4 +150,4 @@ abilities:
           terrain for enemies, and any enemy who enters the area for the first
           time in a round or starts their turn there takes 8 lightning damage.
         name: Effect
-```
+~~~

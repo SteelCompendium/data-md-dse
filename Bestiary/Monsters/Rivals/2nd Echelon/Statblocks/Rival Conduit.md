@@ -29,7 +29,7 @@ stamina: '140'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Rival Conduit
 level: 5
 roles:
@@ -89,4 +89,4 @@ abilities:
     effects:
       - effect: Each target has a double edge on their next strike.
         name: Effect
-```
+~~~

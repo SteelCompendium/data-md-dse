@@ -30,7 +30,7 @@ stamina: '80'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Shadow Elf Mournblade
 level: 6
 roles:
@@ -87,4 +87,4 @@ abilities:
       - effect: If the mournblade has concealment, they can teleport up to 10 squares to
           a space with concealment created by darkness.
         name: Effect
-```
+~~~

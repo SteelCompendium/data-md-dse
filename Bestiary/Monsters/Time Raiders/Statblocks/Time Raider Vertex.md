@@ -29,7 +29,7 @@ stamina: '62'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Time Raider Vertex
 level: 3
 roles:
@@ -105,4 +105,4 @@ abilities:
     effects:
       - effect: Each target shifts up to half their speed.
         name: Effect
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '45'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Styrich
 level: 8
 roles:
@@ -90,4 +90,4 @@ abilities:
         t1: A < 2 slowed (save ends)
         t2: Slowed (EoT) or A < 3 3 damage and restrained (EoT)
         t3: Restrained (EoT) or A < 4 3 damage and restrained (save ends)
-```
+~~~

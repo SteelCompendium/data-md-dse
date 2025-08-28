@@ -28,7 +28,7 @@ stamina: '60'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Animal
 level: 1
 roles:
@@ -79,4 +79,4 @@ abilities:
     effects:
       - effect: The animal moves up to their speed.
         name: Effect
-```
+~~~

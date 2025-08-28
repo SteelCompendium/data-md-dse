@@ -29,7 +29,7 @@ stamina: '220'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Rival Elementalist
 level: 10
 roles:
@@ -103,4 +103,4 @@ abilities:
       - effect: The elementalist can teleport up to 5 squares. Each creature adjacent to
           the space they leave or appear in takes 5 corruption damage.
         name: Effect
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '80'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Angulotl Daybringer
 level: 1
 roles:
@@ -150,4 +150,4 @@ abilities:
           encounter who is wet has that effect end and takes 6 acid damage. Each
           angulotl in the encounter has a double edge on their next strike.
         name: Effect
-```
+~~~

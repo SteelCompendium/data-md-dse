@@ -29,7 +29,7 @@ stamina: '3'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Human Archer
 level: 1
 roles:
@@ -72,4 +72,4 @@ abilities:
         t1: 2 damage
         t2: 4 damage
         t3: 5 damage
-```
+~~~

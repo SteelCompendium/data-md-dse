@@ -29,7 +29,7 @@ stamina: '20'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Orc Eye of Grole
 level: 1
 roles:
@@ -99,4 +99,4 @@ abilities:
           targeted by the ability has damage weakness 3 to the same damage type
           (save ends).
         name: Effect
-```
+~~~

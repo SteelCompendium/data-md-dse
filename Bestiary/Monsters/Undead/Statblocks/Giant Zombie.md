@@ -29,7 +29,7 @@ stamina: '140'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Giant Zombie
 level: 4
 roles:
@@ -91,4 +91,4 @@ abilities:
       - effect: The creatures or objects are smashed together using Rotten Smash, which
           has a double edge.
         name: Effect
-```
+~~~

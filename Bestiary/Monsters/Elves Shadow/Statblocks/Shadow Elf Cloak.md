@@ -30,7 +30,7 @@ stamina: '8'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Shadow Elf Cloak
 level: 4
 roles:
@@ -76,4 +76,4 @@ abilities:
         t3: 6 damage
       - effect: The cloak shifts up to 2 squares
         name: Effect
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '80'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Rival Null
 level: 2
 roles:
@@ -90,4 +90,4 @@ abilities:
         t1: 7 damage; R < 0 slowed (EoT)
         t2: 10 damage; R < 1 slowed (EoT)
         t3: 13 damage; R < 2 dazed and slowed (EoT)
-```
+~~~

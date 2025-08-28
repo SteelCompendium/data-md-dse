@@ -29,7 +29,7 @@ stamina: '50'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Human Knave
 level: 2
 roles:
@@ -82,4 +82,4 @@ abilities:
         t3: 12 damage; M < 2 the target has a double bane on their next power roll
       - effect: The target is taunted (EoT).
         name: Effect
-```
+~~~

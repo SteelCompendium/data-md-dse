@@ -29,7 +29,7 @@ stamina: '20'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Orc Chainlock
 level: 1
 roles:
@@ -93,4 +93,4 @@ abilities:
         t1: 5 damage; A < 0 slowed (save ends)
         t2: 7 damage; A < 1 slowed (save ends)
         t3: 9 damage; prone; A < 2 slowed (save ends)
-```
+~~~

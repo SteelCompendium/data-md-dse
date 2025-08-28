@@ -29,7 +29,7 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Lizardfolk Skyterror
 level: 1
 roles:
@@ -94,4 +94,4 @@ abilities:
       - effect: Any creature who ends their turn adjacent to a target weakened this way
           is weakened until the end of their next turn.
         name: Effect
-```
+~~~

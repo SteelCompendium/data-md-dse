@@ -29,7 +29,7 @@ stamina: '60'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Servitor War Walker
 level: 1
 roles:
@@ -95,4 +95,4 @@ abilities:
         t1: 3 lightning damage; A < 0 slowed (save ends)
         t2: 6 lightning damage; A < 1 slowed (save ends)
         t3: 7 lightning damage; A < 2 slowed (save ends)
-```
+~~~

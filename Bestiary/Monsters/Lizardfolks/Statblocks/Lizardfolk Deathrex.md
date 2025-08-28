@@ -29,7 +29,7 @@ stamina: '80'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Lizardfolk Deathrex
 level: 1
 roles:
@@ -142,4 +142,4 @@ abilities:
           deathrex's turn and has the deathrex's characteristics, but has 10
           Stamina and no villain actions.
         name: Effect
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Bale Eye
 level: 5
 roles:
@@ -100,4 +100,4 @@ abilities:
           characteristic higher than 0, and has a double edge on power rolls
           using any characteristic lower than 0.
         name: Effect
-```
+~~~

@@ -30,7 +30,7 @@ stamina: '15'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Blood Jumper
 level: 10
 roles:
@@ -77,4 +77,4 @@ abilities:
         t1: 4 damage
         t2: 7 damage
         t3: 9 damage; A < 4 bleeding (save ends)
-```
+~~~

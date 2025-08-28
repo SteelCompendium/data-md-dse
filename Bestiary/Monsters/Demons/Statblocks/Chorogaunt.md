@@ -29,7 +29,7 @@ stamina: '120'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Chorogaunt
 level: 3
 roles:
@@ -142,4 +142,4 @@ abilities:
       - effect: The chorogaunt shifts up to their speed, uses Agonizing Harmony, shifts
           up to their speed, and then uses Agonizing Harmony again.
         name: Effect
-```
+~~~

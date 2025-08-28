@@ -29,7 +29,7 @@ stamina: '5'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Rotting Zombie
 level: 1
 roles:
@@ -74,4 +74,4 @@ abilities:
         t1: 2 damage
         t2: 4 damage
         t3: 5 damage; M < 2 prone if size 1, or slowed (save ends) otherwise
-```
+~~~

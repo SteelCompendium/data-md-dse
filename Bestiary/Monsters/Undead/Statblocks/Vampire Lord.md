@@ -28,7 +28,7 @@ stamina: '2200'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Vampire Lord
 level: 7
 roles:
@@ -132,4 +132,4 @@ abilities:
           Crimson Embrace against a target in the area. The vampire reforms in
           an unoccupied space in the area at the end of the round.
         name: Effect
-```
+~~~

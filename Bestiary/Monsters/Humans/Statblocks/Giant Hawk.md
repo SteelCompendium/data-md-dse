@@ -29,7 +29,7 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Giant Hawk
 level: 1
 roles:
@@ -84,4 +84,4 @@ abilities:
     effects:
       - effect: The hawk moves up to their speed.
         name: Effect
-```
+~~~

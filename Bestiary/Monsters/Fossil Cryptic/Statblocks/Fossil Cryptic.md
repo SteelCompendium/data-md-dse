@@ -28,7 +28,7 @@ stamina: '250'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Fossil Cryptic
 level: 2
 roles:
@@ -202,4 +202,4 @@ abilities:
         t2: 3 damage; vertical slide 4
         t3: 4 damage; vertical slide 6; if this movement brings the target into contact
           with the ceiling, they are restrained (save ends).
-```
+~~~

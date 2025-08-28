@@ -28,7 +28,7 @@ stamina: '4'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Angulotl Pollywog
 level: 1
 roles:
@@ -71,4 +71,4 @@ abilities:
       - roll: Power Roll + 2
         t1: 1 poison damage
         t3: 3 poison damage; the pollywog shifts up to 3 squares
-```
+~~~

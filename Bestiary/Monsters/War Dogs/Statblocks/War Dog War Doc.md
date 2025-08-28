@@ -30,7 +30,7 @@ stamina: '35'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog War Doc
 level: 5
 roles:
@@ -100,4 +100,4 @@ abilities:
       - effect: Each ally adjacent to the dead ally deals an extra 6 damage on their
           next strike.
         name: Effect
-```
+~~~

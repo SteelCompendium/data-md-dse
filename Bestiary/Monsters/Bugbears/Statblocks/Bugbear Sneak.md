@@ -31,7 +31,7 @@ stamina: '80'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Bugbear Sneak
 level: 2
 roles:
@@ -144,4 +144,4 @@ abilities:
       - effect: The sneak chooses one enemy within distance of the strike to become the
           target of the strike.
         name: Effect
-```
+~~~

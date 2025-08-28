@@ -29,7 +29,7 @@ stamina: '240'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Fire Giant Red Fist
 level: 9
 roles:
@@ -132,4 +132,4 @@ abilities:
       - effect: The red fist becomes the target of the triggering ability, then can make
           a free strike against the enemy after the ability resolves.
         name: Effect
-```
+~~~

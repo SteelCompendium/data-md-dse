@@ -29,7 +29,7 @@ stamina: '50'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Time Raider Hijack
 level: 3
 roles:
@@ -90,4 +90,4 @@ abilities:
           the hijack moves adjacent to the target. Otherwise, the target is
           pulled up to 4 squares toward the hijack.
         name: Effect
-```
+~~~

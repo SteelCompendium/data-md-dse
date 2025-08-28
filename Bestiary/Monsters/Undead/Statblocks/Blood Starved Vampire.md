@@ -29,7 +29,7 @@ stamina: '12'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Blood-Starved Vampire
 level: 7
 roles:
@@ -78,4 +78,4 @@ abilities:
       - effect: If a target made bleeding this way is already bleeding, they are instead
           knocked prone and can't stand until the end of their next turn.
         name: Effect
-```
+~~~

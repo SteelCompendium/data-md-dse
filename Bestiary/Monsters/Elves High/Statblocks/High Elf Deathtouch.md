@@ -30,7 +30,7 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: High Elf Deathtouch
 level: 2
 roles:
@@ -91,4 +91,4 @@ abilities:
           a critical hit. At the end of their next turn, the target immediately
           dies.
         name: Effect
-```
+~~~

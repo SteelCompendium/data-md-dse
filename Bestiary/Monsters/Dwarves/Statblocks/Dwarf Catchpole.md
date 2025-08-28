@@ -29,7 +29,7 @@ stamina: '7'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Dwarf Catchpole
 level: 1
 roles:
@@ -69,4 +69,4 @@ abilities:
         t3: 5 damage; grabbed or prone
       - effect: If the target is restrained, they take an extra 2 damage.
         name: Effect
-```
+~~~

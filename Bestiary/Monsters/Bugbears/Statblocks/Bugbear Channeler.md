@@ -31,7 +31,7 @@ stamina: '60'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Bugbear Channeler
 level: 2
 roles:
@@ -144,4 +144,4 @@ abilities:
       - effect: The target is wrapped in shadow and halves the damage. The target can't
           be targeted by strikes until the start of their next turn.
         name: Effect
-```
+~~~

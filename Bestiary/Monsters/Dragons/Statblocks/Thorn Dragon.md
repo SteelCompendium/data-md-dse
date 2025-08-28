@@ -29,7 +29,7 @@ stamina: '250'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Thorn Dragon
 level: 2
 roles:
@@ -221,4 +221,4 @@ abilities:
           the dragon who starts their turn on the encounter map takes 1d3 poison
           damage.
         name: Special
-```
+~~~

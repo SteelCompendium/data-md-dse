@@ -31,7 +31,7 @@ stamina: '2608'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Servok War Engine
 level: 10
 roles:
@@ -149,4 +149,4 @@ abilities:
         t3: 16 damage; push 8
       - effect: This damage can't be reduced in any way.
         name: Effect
-```
+~~~

@@ -30,7 +30,7 @@ stamina: '2603'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Castellan Hoplon
 level: 10
 roles:
@@ -130,4 +130,4 @@ abilities:
           against the enemy, and if that enemy has R < 4 they are taunted until
           the end of their next turn.
         name: Effect
-```
+~~~

@@ -30,7 +30,7 @@ stamina: '12'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Soulraker Scout
 level: 7
 roles:
@@ -75,4 +75,4 @@ abilities:
         t1: 3 poison damage
         t2: 6 poison damage; the scout can shift 1 square
         t3: 7 poison damage; the scout shifts up to 3 squares
-```
+~~~

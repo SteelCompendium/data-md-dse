@@ -29,7 +29,7 @@ stamina: '40'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Vampire
 level: 7
 roles:
@@ -107,4 +107,4 @@ abilities:
     effects:
       - effect: The target becomes the new target of the strike.
         name: Effect
-```
+~~~

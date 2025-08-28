@@ -30,7 +30,7 @@ stamina: '140'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Aeolyxria the Uncanny
 level: 6
 roles:
@@ -124,4 +124,4 @@ abilities:
         t1: 7 poison damage; A < 2 bleeding (save ends)
         t2: 12 poison damage; A < 3 bleeding (save ends)
         t3: 15 poison damage; bleeding (save ends)
-```
+~~~

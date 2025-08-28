@@ -29,7 +29,7 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Radenwight Piper
 level: 1
 roles:
@@ -100,4 +100,4 @@ abilities:
     effects:
       - effect: The piper makes a free strike against the target.
         name: Effect
-```
+~~~

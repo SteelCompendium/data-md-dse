@@ -30,7 +30,7 @@ stamina: '60'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Shadow Elf Duskcaller
 level: 5
 roles:
@@ -91,4 +91,4 @@ abilities:
         name: Effect
       - effect: The size of the cube increases by 3.
         cost: 2 Malice
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Fangling
 level: 4
 roles:
@@ -95,4 +95,4 @@ abilities:
         t1: 2 damage; pull 1; A < 1 bleeding (save ends)
         t2: 3 damage; pull 1; A < 2 bleeding (save ends)
         t3: 4 damage; pull 1; A < 3 bleeding (save ends)
-```
+~~~

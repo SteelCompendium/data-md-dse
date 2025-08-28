@@ -29,7 +29,7 @@ stamina: '120'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Rival Talent
 level: 5
 roles:
@@ -98,4 +98,4 @@ abilities:
     effects:
       - effect: The talent halves the damage and shifts up to 2 squares
         name: Effect
-```
+~~~

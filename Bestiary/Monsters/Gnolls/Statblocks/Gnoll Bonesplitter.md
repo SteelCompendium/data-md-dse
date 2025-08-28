@@ -29,7 +29,7 @@ stamina: '25'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Gnoll Bonesplitter
 level: 2
 roles:
@@ -86,4 +86,4 @@ abilities:
           their own Cackletongue maneuver on this turn, they can use it
           immediately at no cost.
         name: Effect
-```
+~~~

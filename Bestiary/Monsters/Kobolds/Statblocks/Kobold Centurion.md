@@ -29,7 +29,7 @@ stamina: '80'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Kobold Centurion
 level: 1
 roles:
@@ -149,4 +149,4 @@ abilities:
           can make a free strike. Additionally, until the end of the encounter,
           the centurion has damage immunity 2.
         name: Effect
-```
+~~~

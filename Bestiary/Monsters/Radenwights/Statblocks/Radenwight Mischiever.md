@@ -29,7 +29,7 @@ stamina: '4'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Radenwight Mischiever
 level: 1
 roles:
@@ -83,4 +83,4 @@ abilities:
     effects:
       - effect: The mischiever makes a free strike against the target.
         name: Effect
-```
+~~~

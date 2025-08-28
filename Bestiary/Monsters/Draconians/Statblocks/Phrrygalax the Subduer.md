@@ -30,7 +30,7 @@ stamina: '180'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Phrrygalax the Subduer
 level: 6
 roles:
@@ -127,4 +127,4 @@ abilities:
       - effect: Phrrygalax shifts up to his speed and uses Baneful Blade against the
           triggering creature. That ability deals an extra 7 damage.
         name: Effect
-```
+~~~

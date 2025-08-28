@@ -29,7 +29,7 @@ stamina: '400'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Shambling Mound
 level: 5
 roles:
@@ -195,4 +195,4 @@ abilities:
           abilities increases to melee 10, the creature has a double edge on
           power rolls, and strikes made against them gain an edge.
         name: Effect
-```
+~~~

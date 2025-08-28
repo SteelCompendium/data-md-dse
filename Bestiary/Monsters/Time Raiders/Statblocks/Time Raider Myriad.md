@@ -29,7 +29,7 @@ stamina: '8'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Time Raider Myriad
 level: 3
 roles:
@@ -73,4 +73,4 @@ abilities:
         t1: 3 damage; slide 1
         t2: 5 damage; slide 2
         t3: 6 damage; slide 3, prone
-```
+~~~

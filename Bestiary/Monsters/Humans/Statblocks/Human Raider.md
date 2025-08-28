@@ -29,7 +29,7 @@ stamina: '4'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Human Raider
 level: 1
 roles:
@@ -76,4 +76,4 @@ abilities:
       - effect: If this ability is used as part of a charge, the raider can make a
           ranged free strike before using the ability.
         name: Effect
-```
+~~~

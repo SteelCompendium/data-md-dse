@@ -30,7 +30,7 @@ stamina: '3'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Wode Elf Yeoman
 level: 1
 roles:
@@ -72,4 +72,4 @@ abilities:
         t1: 2 damage; push 1
         t2: 4 damage; push 2
         t3: 5 damage; push 3
-```
+~~~

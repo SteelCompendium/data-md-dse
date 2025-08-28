@@ -30,7 +30,7 @@ stamina: '15'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Teletalite
 level: 1
 roles:
@@ -101,4 +101,4 @@ abilities:
       - effect: The teletalite can teleport up to 5 squares and gains an edge on strikes
           until the end of their turn.
         name: Effect
-```
+~~~

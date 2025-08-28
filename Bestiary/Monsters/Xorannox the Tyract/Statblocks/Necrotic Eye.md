@@ -30,7 +30,7 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Necrotic Eye
 level: 6
 roles:
@@ -75,4 +75,4 @@ abilities:
       - effect: If this damage or the Stamina loss from bleeding this way reduces a
           target creature's Stamina to 0, that creature dies.
         name: Effect
-```
+~~~

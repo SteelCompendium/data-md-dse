@@ -30,7 +30,7 @@ stamina: '45'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Firestarter
 level: 8
 roles:
@@ -92,4 +92,4 @@ abilities:
         t1: 2 fire damage
         t2: 4 fire damage; A < 3 the target is seared (save ends)
         t3: 6 fire damage; A < 4 the target is seared (save ends)
-```
+~~~

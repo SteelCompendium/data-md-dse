@@ -29,7 +29,7 @@ stamina: '5'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Ensnarer
 level: 1
 roles:
@@ -74,4 +74,4 @@ abilities:
       - effect: If the target is pulled adjacent to the ensnarer, the ensnarer can make
           a free strike against them.
         name: Effect
-```
+~~~

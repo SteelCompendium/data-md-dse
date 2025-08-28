@@ -29,7 +29,7 @@ stamina: '180'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Frost Giant Storm Hurler
 level: 8
 roles:
@@ -119,4 +119,4 @@ abilities:
           outcome, the storm hurler uses Ice Javelins against the creature who
           made it.
         name: Effect
-```
+~~~

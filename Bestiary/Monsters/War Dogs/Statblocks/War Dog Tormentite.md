@@ -30,7 +30,7 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Tormentite
 level: 5
 roles:
@@ -98,4 +98,4 @@ abilities:
       - effect: The tormentite regains 2 Stamina for each creature targeted by this
           ability.
         name: Effect
-```
+~~~

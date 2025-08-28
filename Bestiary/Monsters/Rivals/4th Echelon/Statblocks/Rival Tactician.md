@@ -29,7 +29,7 @@ stamina: '220'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Rival Tactician
 level: 10
 roles:
@@ -102,4 +102,4 @@ abilities:
       - effect: At any point during the movement, the tactician and one ally within
           distance can use a signature ability against the target.
         name: Effect
-```
+~~~

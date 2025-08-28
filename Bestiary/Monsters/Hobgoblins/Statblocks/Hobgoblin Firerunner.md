@@ -31,7 +31,7 @@ stamina: '70'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Hobgoblin Firerunner
 level: 5
 roles:
@@ -97,4 +97,4 @@ abilities:
           the wall. Any enemy who enters the wall for the first time in a round
           or starts their turn there takes 5 fire damage.
         name: Effect
-```
+~~~

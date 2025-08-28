@@ -30,7 +30,7 @@ stamina: '7'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Shadow Elf Sniper
 level: 4
 roles:
@@ -76,4 +76,4 @@ abilities:
         t3: 7 damage
       - effect: The next strike made against the target gains an edge.
         name: Effect
-```
+~~~

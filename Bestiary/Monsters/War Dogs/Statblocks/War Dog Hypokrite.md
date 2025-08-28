@@ -30,7 +30,7 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Hypokrite
 level: 4
 roles:
@@ -94,4 +94,4 @@ abilities:
           adjacent enemy, but teleports to an unoccupied space adjacent to an
           ally within distance and remains alive.
         name: Effect
-```
+~~~

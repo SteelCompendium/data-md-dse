@@ -29,7 +29,7 @@ stamina: '3'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Radenwight Redeye
 level: 1
 roles:
@@ -79,4 +79,4 @@ abilities:
     effects:
       - effect: The redeye makes a free strike against the target.
         name: Effect
-```
+~~~

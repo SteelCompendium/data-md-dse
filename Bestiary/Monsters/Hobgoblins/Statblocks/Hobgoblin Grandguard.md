@@ -31,7 +31,7 @@ stamina: '111'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Hobgoblin Grandguard
 level: 6
 roles:
@@ -100,4 +100,4 @@ abilities:
       - effect: Each target is pushed up to 10 squares in the same direction, and the
           grandguard shifts into the area left behind by the targets.
         name: Effect
-```
+~~~

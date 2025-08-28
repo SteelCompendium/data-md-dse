@@ -28,7 +28,7 @@ stamina: '35'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Flesh Mournling
 level: 4
 roles:
@@ -94,4 +94,4 @@ abilities:
       - effect: A target who is still frightened this way at the end of the encounter
           can't take a respite activity during their next respite.
         name: Effect
-```
+~~~

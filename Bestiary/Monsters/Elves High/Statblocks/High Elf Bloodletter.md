@@ -30,7 +30,7 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: High Elf Bloodletter
 level: 1
 roles:
@@ -91,4 +91,4 @@ abilities:
           their speed, and can attempt to hide if they end that shift with
           concealment.
         name: Effect
-```
+~~~

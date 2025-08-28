@@ -29,7 +29,7 @@ stamina: '17'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Giant Shambler Zombie
 level: 10
 roles:
@@ -72,4 +72,4 @@ abilities:
         t1: 5 damage; push 2
         t2: 8 damage; push 4
         t3: 10 damage; push 6
-```
+~~~

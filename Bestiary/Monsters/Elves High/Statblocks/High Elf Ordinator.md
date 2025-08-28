@@ -30,7 +30,7 @@ stamina: '120'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: High Elf Ordinator
 level: 3
 roles:
@@ -160,4 +160,4 @@ abilities:
       - effect: Each target's free strike now has the Magic keyword and can target two
           creatures or objects. Additionally, each target glows with magic.
         name: Effect
-```
+~~~

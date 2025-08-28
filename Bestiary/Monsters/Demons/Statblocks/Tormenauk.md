@@ -29,7 +29,7 @@ stamina: '45'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Tormenauk
 level: 6
 roles:
@@ -94,4 +94,4 @@ abilities:
         t3: 8 psychic damage; I < 3 dazed (save ends)
       - effect: The potency increases by 1 if the target is grabbed by the tormenauk.
         name: Effect
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Wodenelg
 level: 1
 roles:
@@ -92,4 +92,4 @@ abilities:
       - effect: The wodenelg and their rider become invisible until the start of the
           wodenelg's next turn.
         name: Effect
-```
+~~~

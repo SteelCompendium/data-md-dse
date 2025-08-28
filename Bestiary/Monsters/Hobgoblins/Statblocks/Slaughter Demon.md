@@ -30,7 +30,7 @@ stamina: '140'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Slaughter Demon
 level: 4
 roles:
@@ -117,4 +117,4 @@ abilities:
       - effect: The target can't be brought back to life. Until the end of the
           encounter, the slaughter demon gains an edge on power rolls.
         name: Effect
-```
+~~~

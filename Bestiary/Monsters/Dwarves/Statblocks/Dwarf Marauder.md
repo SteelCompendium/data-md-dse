@@ -29,7 +29,7 @@ stamina: '132'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Dwarf Marauder
 level: 3
 roles:
@@ -150,4 +150,4 @@ abilities:
           spaces within distance. Whenever the marauder lord uses Magnetomancy,
           they can additionally target one of these objects.
         name: Effect
-```
+~~~

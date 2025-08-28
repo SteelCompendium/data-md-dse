@@ -29,7 +29,7 @@ stamina: '700'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Ajax the Invincible
 level: 11
 roles:
@@ -265,4 +265,4 @@ abilities:
           up to his speed toward that target and use Blade of the Gol King
           against them.
         name: Effect
-```
+~~~

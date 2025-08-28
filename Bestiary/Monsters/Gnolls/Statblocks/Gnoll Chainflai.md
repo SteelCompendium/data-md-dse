@@ -29,7 +29,7 @@ stamina: '4'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Gnoll Chainflai
 level: 2
 roles:
@@ -70,4 +70,4 @@ abilities:
         t1: 3 damage
         t2: 4 damage; push 1
         t3: 6 damage; push 3
-```
+~~~

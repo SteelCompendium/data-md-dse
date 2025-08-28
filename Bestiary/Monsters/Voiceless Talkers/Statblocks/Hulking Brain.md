@@ -29,7 +29,7 @@ stamina: '180'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Hulking Brain
 level: 6
 roles:
@@ -120,4 +120,4 @@ abilities:
         name: Effect
       - effect: The enemy is knocked prone.
         cost: 2 Malice
-```
+~~~

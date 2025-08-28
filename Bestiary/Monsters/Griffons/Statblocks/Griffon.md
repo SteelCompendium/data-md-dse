@@ -29,7 +29,7 @@ stamina: '80'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Griffon
 level: 2
 roles:
@@ -126,4 +126,4 @@ abilities:
       - effect: The griffon halves the damage, ignores any nondamaging effects
           associated with it, and shifts up to 2 squares
         name: Effect
-```
+~~~

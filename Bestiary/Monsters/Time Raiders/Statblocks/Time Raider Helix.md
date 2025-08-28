@@ -29,7 +29,7 @@ stamina: '40'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Time Raider Helix
 level: 3
 roles:
@@ -91,4 +91,4 @@ abilities:
         name: Effect
       - effect: The helix creates a second kinetic lane.
         cost: 3 Malice
-```
+~~~

@@ -31,7 +31,7 @@ stamina: '2408'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Servok Builder
 level: 9
 roles:
@@ -142,4 +142,4 @@ abilities:
           the target and their space are encased in wet concrete. A creature no
           longer restrained leaves squares of wet concrete behind.
         name: Effect
-```
+~~~

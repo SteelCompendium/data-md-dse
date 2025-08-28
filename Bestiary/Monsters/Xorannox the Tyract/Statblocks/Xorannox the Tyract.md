@@ -29,7 +29,7 @@ stamina: '450'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Xorannox the Tyract
 level: 6
 roles:
@@ -179,4 +179,4 @@ abilities:
       - effect: Xorannox directs each of his eyestalks to use a signature ability
           against any target.
         name: Effect
-```
+~~~

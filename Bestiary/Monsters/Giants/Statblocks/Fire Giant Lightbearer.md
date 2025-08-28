@@ -29,7 +29,7 @@ stamina: '200'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Fire Giant Lightbearer
 level: 9
 roles:
@@ -124,4 +124,4 @@ abilities:
           turn. Each fire giant who has line of effect to the lightbearer has a
           double edge on abilities.
         name: Effect
-```
+~~~

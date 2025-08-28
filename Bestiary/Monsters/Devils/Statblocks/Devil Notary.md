@@ -29,7 +29,7 @@ stamina: '8'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Devil Notary
 level: 5
 roles:
@@ -76,4 +76,4 @@ abilities:
       - effect: One non-minion devil within 5 squares of the notary gains an edge on
           their next strike.
         name: Effect
-```
+~~~

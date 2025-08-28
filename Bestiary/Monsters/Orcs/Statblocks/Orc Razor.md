@@ -29,7 +29,7 @@ stamina: '5'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Orc Razor
 level: 1
 roles:
@@ -72,4 +72,4 @@ abilities:
         t3: 5 damage; push 3 or prone
       - effect: The razor gains an edge against any target affected by a condition.
         name: Effect
-```
+~~~

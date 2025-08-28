@@ -29,7 +29,7 @@ stamina: '4'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Orc Blitzer
 level: 1
 roles:
@@ -73,4 +73,4 @@ abilities:
       - effect: A target who starts their next turn adjacent to three or more blitzers
           takes 3 damage.
         name: Effect
-```
+~~~

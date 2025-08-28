@@ -31,7 +31,7 @@ stamina: '220'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Multivok Chief
 level: 9
 roles:
@@ -123,4 +123,4 @@ abilities:
           is used, the amount of temporary Stamina received decreases by 3 (to a
           minimum of 0).
         name: Effect
-```
+~~~

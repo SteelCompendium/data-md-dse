@@ -28,7 +28,7 @@ stamina: '15'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Wraith Skulker
 level: 10
 roles:
@@ -77,4 +77,4 @@ abilities:
         t3: 9 cold damage; P < 5 slowed (save ends); the wraith shifts up to 3 squares
       - effect: The wraith turns invisible until the start of their next turn.
         name: Effect
-```
+~~~

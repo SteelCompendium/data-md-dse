@@ -30,7 +30,7 @@ stamina: '13'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Soulraker Soldier
 level: 7
 roles:
@@ -74,4 +74,4 @@ abilities:
         t1: 4 damage; push 2
         t2: 7 damage; push 2
         t3: 8 damage; push 4
-```
+~~~

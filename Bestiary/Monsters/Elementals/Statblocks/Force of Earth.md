@@ -28,7 +28,7 @@ stamina: '132'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Force of Earth
 level: 3
 roles:
@@ -107,4 +107,4 @@ abilities:
           speed until the end of the encounter. This damage weakness increases
           by 3 each time the force uses this ability in the same encounter.
         name: Effect
-```
+~~~

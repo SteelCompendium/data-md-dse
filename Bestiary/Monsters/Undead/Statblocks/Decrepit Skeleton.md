@@ -29,7 +29,7 @@ stamina: '3'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Decrepit Skeleton
 level: 1
 roles:
@@ -77,4 +77,4 @@ abilities:
       - effect: The decrepit skeleton chooses one other target within distance, who
           takes 1 damage.
         name: Effect
-```
+~~~

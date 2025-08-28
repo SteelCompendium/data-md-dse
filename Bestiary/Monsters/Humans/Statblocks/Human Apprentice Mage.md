@@ -29,7 +29,7 @@ stamina: '4'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Human Apprentice Mage
 level: 2
 roles:
@@ -76,4 +76,4 @@ abilities:
       - effect: If the apprentice mage doesn't use a maneuver or a move action this
           turn, the target is also slowed (EoT).
         name: Effect
-```
+~~~

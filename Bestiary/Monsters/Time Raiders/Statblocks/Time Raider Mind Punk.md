@@ -29,7 +29,7 @@ stamina: '40'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Time Raider Mind Punk
 level: 3
 roles:
@@ -89,4 +89,4 @@ abilities:
         t1: 4 psychic damage; R < 0 prone
         t2: 6 psychic damage; push 1; R < 1 prone and can't stand (save ends)
         t3: 9 psychic damage; push 2; R < 2 prone and can't stand (save ends)
-```
+~~~

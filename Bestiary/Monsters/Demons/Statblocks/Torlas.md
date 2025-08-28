@@ -29,7 +29,7 @@ stamina: '10'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Torlas
 level: 1
 roles:
@@ -90,4 +90,4 @@ abilities:
     effects:
       - effect: The torlas pulls each target up to 3 squares.
         name: Effect
-```
+~~~

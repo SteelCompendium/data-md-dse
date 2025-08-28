@@ -29,7 +29,7 @@ stamina: '10'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Goblin Stinker
 level: 1
 roles:
@@ -88,4 +88,4 @@ abilities:
           non-goblins, and each non-goblin who moves in the area takes 2 poison
           damage for each square moved.
         name: Effect
-```
+~~~

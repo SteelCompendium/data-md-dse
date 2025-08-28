@@ -30,7 +30,7 @@ stamina: '50'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Soulraker Handmaiden
 level: 8
 roles:
@@ -103,4 +103,4 @@ abilities:
       - effect: If the handmaiden was totally within their host's body at the start of
           this turn, the ability deals an extra 8 damage.
         name: Effect
-```
+~~~

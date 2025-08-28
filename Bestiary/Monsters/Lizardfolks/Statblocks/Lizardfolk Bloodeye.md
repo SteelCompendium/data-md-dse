@@ -29,7 +29,7 @@ stamina: '20'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Lizardfolk Bloodeye
 level: 1
 roles:
@@ -89,4 +89,4 @@ abilities:
           (save ends)
         t3: 9 acid damage; M < 2 the target has line of effect only within 2 squares
           (save ends)
-```
+~~~

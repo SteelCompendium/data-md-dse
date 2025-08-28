@@ -29,7 +29,7 @@ stamina: '120'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Troll Butcher
 level: 5
 roles:
@@ -122,4 +122,4 @@ abilities:
           their next turn, the butcher gains an edge on power rolls and deals an
           extra 3 damage with strikes.
         name: Effect
-```
+~~~

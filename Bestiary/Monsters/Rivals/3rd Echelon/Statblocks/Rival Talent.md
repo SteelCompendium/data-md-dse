@@ -29,7 +29,7 @@ stamina: '180'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Rival Talent
 level: 8
 roles:
@@ -103,4 +103,4 @@ abilities:
       - effect: The talent halves the damage and shifts up to 2 squares. The triggering
           creature takes psychic damage equal to half the damage dealt.
         name: Effect
-```
+~~~

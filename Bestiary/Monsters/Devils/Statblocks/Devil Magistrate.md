@@ -29,7 +29,7 @@ stamina: '160'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Devil Magistrate
 level: 6
 roles:
@@ -125,4 +125,4 @@ abilities:
         t1: The magistrate chooses a new target for the strike.
         t2: The magistrate halves the triggering damage.
         t3: The target takes a bane on the strike.
-```
+~~~

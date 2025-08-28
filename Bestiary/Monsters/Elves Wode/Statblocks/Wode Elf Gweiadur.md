@@ -30,7 +30,7 @@ stamina: '40'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Wode Elf Gweiadur
 level: 3
 roles:
@@ -95,4 +95,4 @@ abilities:
       - effect: Allies gain an edge on abilities against a target marked by any wode
           elf.
         name: Effect
-```
+~~~

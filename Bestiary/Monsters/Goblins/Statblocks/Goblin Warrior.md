@@ -29,7 +29,7 @@ stamina: '15'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Goblin Warrior
 level: 1
 roles:
@@ -85,4 +85,4 @@ abilities:
         t1: 5 damage; M < 0 bleeding (save ends)
         t2: 6 damage; M < 1 bleeding (save ends)
         t3: 7 damage; M < 2 bleeding (save ends)
-```
+~~~

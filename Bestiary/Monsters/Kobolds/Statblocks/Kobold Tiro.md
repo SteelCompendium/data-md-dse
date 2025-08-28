@@ -29,7 +29,7 @@ stamina: '5'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Kobold Tiro
 level: 1
 roles:
@@ -72,4 +72,4 @@ abilities:
         t3: 3 damage; the tiro shifts up to 2 squares
       - effect: The target can't shift until the start of the tiro's next turn
         name: Effect
-```
+~~~

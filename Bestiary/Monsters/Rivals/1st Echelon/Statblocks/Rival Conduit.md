@@ -29,7 +29,7 @@ stamina: '80'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Rival Conduit
 level: 2
 roles:
@@ -89,4 +89,4 @@ abilities:
     effects:
       - effect: Each target gains an edge on their next strike.
         name: Effect
-```
+~~~

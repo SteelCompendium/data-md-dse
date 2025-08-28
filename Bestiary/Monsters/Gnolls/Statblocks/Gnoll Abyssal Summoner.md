@@ -29,7 +29,7 @@ stamina: '20'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Gnoll Abyssal Summoner
 level: 2
 roles:
@@ -99,4 +99,4 @@ abilities:
           current Stamina. If any target hasn't used their own Cackletongue
           maneuver on this turn, they can use it immediately at no cost.
         name: Effect
-```
+~~~

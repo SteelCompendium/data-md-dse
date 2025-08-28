@@ -29,7 +29,7 @@ stamina: '15'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Bendrak
 level: 2
 roles:
@@ -92,4 +92,4 @@ abilities:
       - effect: The target is invisible until the start of their next turn. They can
           then move up to 3 squares and attempt to hide.
         name: Effect
-```
+~~~

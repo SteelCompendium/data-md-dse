@@ -29,7 +29,7 @@ stamina: '160'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Troll Glutton
 level: 5
 roles:
@@ -120,4 +120,4 @@ abilities:
     effects:
       - effect: The glutton uses Voracious Mastication against an adjacent creature.
         name: Effect
-```
+~~~

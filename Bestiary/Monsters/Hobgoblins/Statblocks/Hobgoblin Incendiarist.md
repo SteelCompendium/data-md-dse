@@ -31,7 +31,7 @@ stamina: '60'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Hobgoblin Incendiarist
 level: 5
 roles:
@@ -102,4 +102,4 @@ abilities:
           turns. A burning object takes 1d6 fire damage at the end of each
           round.
         name: Effect
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '140'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Rival Shadow
 level: 5
 roles:
@@ -86,4 +86,4 @@ abilities:
       - effect: The shadow coats their weapon with poison. They gain an edge on their
           next strike, and any potency for that strike increases by 1.
         name: Effect
-```
+~~~

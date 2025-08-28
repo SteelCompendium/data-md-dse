@@ -30,7 +30,7 @@ stamina: '7'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Shadow Elf Dusk Mage
 level: 4
 roles:
@@ -74,4 +74,4 @@ abilities:
         t1: 2 damage
         t2: 4 damage; A < 2 slowed (save ends)
         t3: 6 damage; A < 3 slowed (save ends)
-```
+~~~

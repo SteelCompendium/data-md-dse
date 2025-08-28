@@ -29,7 +29,7 @@ stamina: '12'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Frost Giant Snowblaster
 level: 8
 roles:
@@ -72,4 +72,4 @@ abilities:
         t1: 4 cold damage
         t2: 7 cold damage
         t3: 9 cold damage; prone
-```
+~~~

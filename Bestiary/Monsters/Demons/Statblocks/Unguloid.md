@@ -29,7 +29,7 @@ stamina: '17'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Unguloid
 level: 10
 roles:
@@ -75,4 +75,4 @@ abilities:
       - effect: If this ability is used as part of a charge for which the unguloid moves
           2 squares or more, it deals an extra 10 damage.
         name: Effect
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '5'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Human Guard
 level: 1
 roles:
@@ -75,4 +75,4 @@ abilities:
       - effect: If the guard is flanked, they can make a free strike against a different
           target adjacent to them.
         name: Effect
-```
+~~~

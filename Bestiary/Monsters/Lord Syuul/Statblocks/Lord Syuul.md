@@ -29,7 +29,7 @@ stamina: '450'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Lord Syuul
 level: 6
 roles:
@@ -194,4 +194,4 @@ abilities:
         t3: 16 psychic damage
       - effect: Until the end of the encounter, each target has damage weakness 3.
         name: Effect
-```
+~~~

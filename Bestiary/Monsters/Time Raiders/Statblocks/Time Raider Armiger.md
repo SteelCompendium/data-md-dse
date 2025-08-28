@@ -29,7 +29,7 @@ stamina: '60'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Time Raider Armiger
 level: 3
 roles:
@@ -93,4 +93,4 @@ abilities:
         t1: 4 psychic damage; R < 0 5 poison damage
         t2: 6 psychic damage; R < 1 5 poison damage
         t3: 9 psychic damage; R < 2 5 poison damage
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '15'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Kobold Signifer
 level: 1
 roles:
@@ -93,4 +93,4 @@ abilities:
     effects:
       - effect: Each target regains 5 Stamina.
         name: Effect
-```
+~~~

@@ -30,7 +30,7 @@ stamina: '7'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Abyssal Hyena
 level: 2
 roles:
@@ -72,4 +72,4 @@ abilities:
         t1: 3 damage
         t2: 4 damage
         t3: 6 damage; grabbed
-```
+~~~

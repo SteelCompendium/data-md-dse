@@ -29,7 +29,7 @@ stamina: '155'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Mummy Lord
 level: 4
 roles:
@@ -159,4 +159,4 @@ abilities:
         t1: 5 corruption damage; I < 2 frightened (save ends)
         t2: 8 corruption damage; I < 3 frightened (save ends)
         t3: 10 corruption damage; I < 4 frightened and restrained (save ends)
-```
+~~~

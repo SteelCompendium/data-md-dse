@@ -29,7 +29,7 @@ stamina: '4'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Angulotl Cleaver
 level: 1
 roles:
@@ -75,4 +75,4 @@ abilities:
         t3: 5 damage
       - effect: The cleaver jumps up to 4 squares before or after making this strike.
         name: Effect
-```
+~~~

@@ -31,7 +31,7 @@ stamina: '80'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Bugbear Commander
 level: 2
 roles:
@@ -123,4 +123,4 @@ abilities:
     effects:
       - effect: The target is grabbed by the commander.
         name: Effect
-```
+~~~

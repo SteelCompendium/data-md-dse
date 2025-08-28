@@ -29,7 +29,7 @@ stamina: '10'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Kobold Artifex
 level: 1
 roles:
@@ -86,4 +86,4 @@ abilities:
           it. The artifex prefers working with angry beehives, flammable oil,
           snare traps, and spike traps (see Dynamic Terrain).
         cost: 3 Malice
-```
+~~~

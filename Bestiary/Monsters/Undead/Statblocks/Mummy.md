@@ -29,7 +29,7 @@ stamina: '50'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Mummy
 level: 4
 roles:
@@ -103,4 +103,4 @@ abilities:
     effects:
       - effect: The target takes 8 poison damage
         name: Effect
-```
+~~~

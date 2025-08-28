@@ -30,7 +30,7 @@ stamina: '12'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Saboteur
 level: 7
 roles:
@@ -74,4 +74,4 @@ abilities:
       - effect: The space the target occupies fills with dark smoke and blocks line of
           effect until the start of the saboteur's next turn
         name: Effect
-```
+~~~

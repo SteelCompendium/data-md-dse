@@ -29,7 +29,7 @@ stamina: '10'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Skeleton
 level: 1
 roles:
@@ -93,4 +93,4 @@ abilities:
         t3: 3 damage; M < 2 bleeding (save ends)
       - effect: Each target takes a bane on their next strike.
         name: Effect
-```
+~~~

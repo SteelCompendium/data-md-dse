@@ -29,7 +29,7 @@ stamina: '90'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Chimeron
 level: 9
 roles:
@@ -89,4 +89,4 @@ abilities:
     effects:
       - effect: The chimeron halves the damage.
         name: Effect
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '4'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Lizardfolk Grunt
 level: 1
 roles:
@@ -72,4 +72,4 @@ abilities:
         t1: 1 damage
         t2: 2 damage; slide 2
         t3: 3 damage; slide 2
-```
+~~~

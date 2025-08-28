@@ -30,7 +30,7 @@ stamina: '8'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog War Frog
 level: 4
 roles:
@@ -79,4 +79,4 @@ abilities:
       - effect: The war frog can jump 3 squares before or after making the strike. If
           they end this jump in cover or concealment, they can attempt to hide.
         name: Effect
-```
+~~~

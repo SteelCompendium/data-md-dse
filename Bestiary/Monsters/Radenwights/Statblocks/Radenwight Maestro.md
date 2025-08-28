@@ -29,7 +29,7 @@ stamina: '80'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Radenwight Maestro
 level: 1
 roles:
@@ -140,4 +140,4 @@ abilities:
           of the targets can use Ready Rodent as a free triggered action once in
           conjunction with these free strikes.
         name: Effect
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '5'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Radenwight Scrapper
 level: 1
 roles:
@@ -80,4 +80,4 @@ abilities:
     effects:
       - effect: The scrapper makes a free strike against the target.
         name: Effect
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '4'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Human Rogue
 level: 1
 roles:
@@ -76,4 +76,4 @@ abilities:
       - effect: If the rogue is disguised or hidden when they use this ability, it deals
           an extra 3 damage.
         name: Effect
-```
+~~~

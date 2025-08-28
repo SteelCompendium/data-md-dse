@@ -30,7 +30,7 @@ stamina: '60'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Brush Stalker
 level: 4
 roles:
@@ -90,4 +90,4 @@ abilities:
         t1: 4 corruption damage; M < 1 weakened (save ends)
         t2: 7 corruption damage; M < 2 weakened (save ends)
         t3: 10 corruption damage; M < 3 weakened (save ends)
-```
+~~~

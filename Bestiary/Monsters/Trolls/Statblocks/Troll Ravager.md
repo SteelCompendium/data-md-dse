@@ -29,7 +29,7 @@ stamina: '15'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Troll Ravager
 level: 9
 roles:
@@ -78,4 +78,4 @@ abilities:
       - effect: The ravager's squad's Stamina pool regains Stamina equal to half the
           damage dealt.
         name: Effect
-```
+~~~

@@ -30,7 +30,7 @@ stamina: '200'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Werewolf
 level: 1
 roles:
@@ -209,4 +209,4 @@ abilities:
       - effect: The werewolf shifts up to their speed before and after using this
           ability.
         name: Effect
-```
+~~~

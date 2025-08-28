@@ -31,7 +31,7 @@ stamina: '240'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Multivok Bodyguard
 level: 9
 roles:
@@ -126,4 +126,4 @@ abilities:
     effects:
       - effect: The bodyguard becomes the triggering ability's target instead.
         name: Effect
-```
+~~~

@@ -30,7 +30,7 @@ stamina: '13'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Minotaur Lackey
 level: 8
 roles:
@@ -76,4 +76,4 @@ abilities:
       - effect: A target who is force moved into an obstacle and has M < 3 is bleeding
           (save ends).
         name: Effect
-```
+~~~

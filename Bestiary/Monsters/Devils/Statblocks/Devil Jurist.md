@@ -29,7 +29,7 @@ stamina: '120'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Devil Jurist
 level: 5
 roles:
@@ -126,4 +126,4 @@ abilities:
         t1: The jurist chooses a new target for the strike.
         t2: The jurist halves the triggering damage.
         t3: The target takes a bane on the strike.
-```
+~~~

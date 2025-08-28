@@ -30,7 +30,7 @@ stamina: '50'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Aerocite
 level: 8
 roles:
@@ -95,4 +95,4 @@ abilities:
         t3: 6 acid damage; M < 4 slowed (save ends)
       - effect: The area is difficult terrain
         name: Effect
-```
+~~~

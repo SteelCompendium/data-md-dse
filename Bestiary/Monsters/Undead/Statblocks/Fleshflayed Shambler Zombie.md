@@ -29,7 +29,7 @@ stamina: '9'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Fleshflayed Shambler Zombie
 level: 4
 roles:
@@ -76,4 +76,4 @@ abilities:
       - effect: If this ability gains an edge or has a double edge, the target is
           bleeding (save ends).
         name: Effect
-```
+~~~

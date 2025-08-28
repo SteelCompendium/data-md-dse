@@ -29,7 +29,7 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Vampire Spawn
 level: 4
 roles:
@@ -90,4 +90,4 @@ abilities:
           next ability the vampire uses before the start of their next turn
           gains an edge.
         name: Effect
-```
+~~~

@@ -28,7 +28,7 @@ stamina: '650'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Lich
 level: 10
 roles:
@@ -220,4 +220,4 @@ abilities:
       - effect: At the end of each of the lich's turns, they regain 10 Stamina for each
           creature frightened this way.
         name: Effect
-```
+~~~

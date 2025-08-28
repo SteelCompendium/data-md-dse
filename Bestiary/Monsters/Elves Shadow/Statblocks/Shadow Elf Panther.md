@@ -30,7 +30,7 @@ stamina: '70'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Shadow Elf Panther
 level: 4
 roles:
@@ -92,4 +92,4 @@ abilities:
         t3: 10 corruption damage; I < 3 dazed (save ends)
       - effect: The panther has a double edge on strikes against targets dazed this way.
         name: Effect
-```
+~~~

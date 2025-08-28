@@ -30,7 +30,7 @@ stamina: '7'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Sparkslinger
 level: 4
 roles:
@@ -77,4 +77,4 @@ abilities:
       - effect: The lightning's spread is the distance it arcs from a target to nearby
           enemies. Each enemy within that distance takes 2 lightning damage.
         name: Effect
-```
+~~~

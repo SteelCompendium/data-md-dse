@@ -30,7 +30,7 @@ stamina: '14'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Socialite
 level: 10
 roles:
@@ -76,4 +76,4 @@ abilities:
         t3: The target makes a free strike (tier 3 result) against themself
       - effect: The target takes an extra 5 damage for each surge they have.
         name: Effect
-```
+~~~

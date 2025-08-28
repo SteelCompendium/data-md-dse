@@ -28,7 +28,7 @@ stamina: '4'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Shade
 level: 1
 roles:
@@ -76,4 +76,4 @@ abilities:
         t2: 4 corruption damage
         t3: 5 corruption damage; the target must move up to their speed and can't end
           that movement closer to any shade
-```
+~~~

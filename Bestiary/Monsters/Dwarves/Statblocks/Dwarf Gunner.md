@@ -29,7 +29,7 @@ stamina: '26'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Dwarf Gunner
 level: 1
 roles:
@@ -92,4 +92,4 @@ abilities:
           restrained, and slowed conditions on the target end. The target is
           then restrained (save ends).
         name: Effect
-```
+~~~

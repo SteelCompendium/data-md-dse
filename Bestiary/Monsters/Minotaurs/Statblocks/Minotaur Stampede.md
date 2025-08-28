@@ -31,7 +31,7 @@ stamina: '17'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Minotaur Stampede
 level: 10
 roles:
@@ -80,4 +80,4 @@ abilities:
       - effect: If this ability is used as part of the Charge main action, each creature
           the stampede moves through who has M < 4 is knocked prone.
         name: Effect
-```
+~~~

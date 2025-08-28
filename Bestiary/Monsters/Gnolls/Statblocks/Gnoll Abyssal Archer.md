@@ -29,7 +29,7 @@ stamina: '15'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Gnoll Abyssal Archer
 level: 2
 roles:
@@ -90,4 +90,4 @@ abilities:
           next strike. If any target hasn't used their own Cackletongue maneuver
           on this turn, they can use it immediately at no cost.
         name: Effect
-```
+~~~

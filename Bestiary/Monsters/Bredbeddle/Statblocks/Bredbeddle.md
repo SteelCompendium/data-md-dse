@@ -29,7 +29,7 @@ stamina: '300'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Bredbeddle
 level: 3
 roles:
@@ -221,4 +221,4 @@ abilities:
           beheaded (see Lop).
         t2: 7 damage; bleeding (save ends); or if the target has A < 2 they are beheaded
         t3: 8 damage; bleeding (save ends); or if the target has A < 3 they are beheaded
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '6'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Lizardfolk Shellguard
 level: 1
 roles:
@@ -74,4 +74,4 @@ abilities:
         t3: 3 damage
       - effect: The target takes a bane on their next strike.
         name: Effect
-```
+~~~

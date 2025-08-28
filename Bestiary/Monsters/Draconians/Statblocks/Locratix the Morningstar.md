@@ -30,7 +30,7 @@ stamina: '160'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Locratix the Morningstar
 level: 6
 roles:
@@ -124,4 +124,4 @@ abilities:
         t1: 7 acid damage; A < 1 the target's speed is 0 (EoT)
         t2: 12 acid damage; A < 2 the target's speed is 0 (EoT)
         t3: 15 acid damage; A < 3 the target's speed is 0 (EoT)
-```
+~~~

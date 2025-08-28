@@ -29,7 +29,7 @@ stamina: '25'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Gunge
 level: 4
 roles:
@@ -94,4 +94,4 @@ abilities:
           terrain for enemies. Additionally, any enemy is bleeding while in the
           slime.
         name: Effect
-```
+~~~

@@ -30,7 +30,7 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Wode Elf Sentry
 level: 1
 roles:
@@ -88,4 +88,4 @@ abilities:
     effects:
       - effect: Each target takes 3 damage.
         name: Effect
-```
+~~~

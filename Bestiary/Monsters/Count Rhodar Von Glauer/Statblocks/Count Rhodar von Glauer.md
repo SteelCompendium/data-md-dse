@@ -29,7 +29,7 @@ stamina: '650'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Count Rhodar von Glauer
 level: 10
 roles:
@@ -233,4 +233,4 @@ abilities:
       - effect: Rhodar teleports to an unoccupied space adjacent to one target after the
           ability resolve.
         name: Effect
-```
+~~~

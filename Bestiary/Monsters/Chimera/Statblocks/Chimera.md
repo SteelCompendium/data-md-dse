@@ -29,7 +29,7 @@ stamina: '300'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Chimera
 level: 3
 roles:
@@ -180,4 +180,4 @@ abilities:
           When the chimera ends this shift, they use Dragon's Eruption. The use
           of these abilities as part of this villain action costs no Malice.
         name: Effect
-```
+~~~

@@ -30,7 +30,7 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: High Elf Zephyr
 level: 1
 roles:
@@ -91,4 +91,4 @@ abilities:
       - effect: The zephyr flies up to their speed. If they don't end this movment on
           solid ground, they are prone.
         name: Effect
-```
+~~~

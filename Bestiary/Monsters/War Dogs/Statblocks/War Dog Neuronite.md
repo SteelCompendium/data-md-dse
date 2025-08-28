@@ -30,7 +30,7 @@ stamina: '20'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Neuronite
 level: 1
 roles:
@@ -99,4 +99,4 @@ abilities:
           target makes a strike against them (the neuronite's choice). Either
           effect lasts until the start of the neuronite's next turn
         name: Effect
-```
+~~~

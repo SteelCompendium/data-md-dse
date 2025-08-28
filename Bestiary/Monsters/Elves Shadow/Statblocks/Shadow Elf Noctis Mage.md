@@ -30,7 +30,7 @@ stamina: '70'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Shadow Elf Noctis Mage
 level: 6
 roles:
@@ -95,4 +95,4 @@ abilities:
           noctis mage's choice.
         t3: 13 damage; R < 3 the target uses a signature ability against one enemy of
           the noctis mage's choice.
-```
+~~~

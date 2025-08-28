@@ -28,7 +28,7 @@ stamina: '64'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Dirt Mournling
 level: 7
 roles:
@@ -99,4 +99,4 @@ abilities:
       - effect: A target frightened this way is frightened of all undead. This effect
           ends early if the mournling is destroyed
         name: Effect
-```
+~~~

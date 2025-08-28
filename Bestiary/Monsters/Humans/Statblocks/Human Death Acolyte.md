@@ -29,7 +29,7 @@ stamina: '3'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Human Death Acolyte
 level: 1
 roles:
@@ -75,4 +75,4 @@ abilities:
         t3: 3 corruption damage
       - effect: One creature within 5 squares regains 1 Stamina.
         name: Effect
-```
+~~~

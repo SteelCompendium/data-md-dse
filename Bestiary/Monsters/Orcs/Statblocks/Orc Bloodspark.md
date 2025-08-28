@@ -29,7 +29,7 @@ stamina: '3'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Orc Bloodspark
 level: 1
 roles:
@@ -72,4 +72,4 @@ abilities:
           target
         t3: 5 damage; push 4, or the bloodspark shifts up to 4 squares away from the
           target
-```
+~~~

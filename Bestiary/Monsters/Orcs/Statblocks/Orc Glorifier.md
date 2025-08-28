@@ -29,7 +29,7 @@ stamina: '3'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Orc Glorifier
 level: 1
 roles:
@@ -74,4 +74,4 @@ abilities:
       - effect: Allies gain an edge on melee strikes against the target until the
           glorifier and each other glorifier in their squad are killed.
         name: Effect
-```
+~~~

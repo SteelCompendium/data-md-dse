@@ -31,7 +31,7 @@ stamina: '109'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Bugbear Roughneck
 level: 2
 roles:
@@ -145,4 +145,4 @@ abilities:
       - effect: The roughneck uses Haymaker against a creature or object at any point
           during the forced movement, or after falling as a result of it.
         name: Effect
-```
+~~~

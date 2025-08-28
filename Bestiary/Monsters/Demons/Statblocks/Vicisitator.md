@@ -29,7 +29,7 @@ stamina: '60'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Vicisitator
 level: 10
 roles:
@@ -95,4 +95,4 @@ abilities:
       - effect: Any creature who is bleeding from this ability loses 2d6 Stamina instead
           of 1d6.
         name: Effect
-```
+~~~

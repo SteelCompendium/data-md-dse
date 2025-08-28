@@ -29,7 +29,7 @@ stamina: '17'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Skeleton Knight
 level: 10
 roles:
@@ -79,4 +79,4 @@ abilities:
         t1: 4 damage
         t2: 7 damage
         t3: 9 damage; the target can't shift (EoT
-```
+~~~

@@ -30,7 +30,7 @@ stamina: '45'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Geomancer
 level: 8
 roles:
@@ -97,4 +97,4 @@ abilities:
       - effect: The geomancer raises a wall of stone set with viewing gaps. Creatures
           have line of effect through the wall while adjacent to it.
         name: Effect
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '0100'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Lightbender
 level: 3
 roles:
@@ -121,4 +121,4 @@ abilities:
           into concealment or cover, the lightbender can immediately attempt to
           hide as a free maneuver.
         name: Effect
-```
+~~~

@@ -30,7 +30,7 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Mover Eye
 level: 6
 roles:
@@ -72,4 +72,4 @@ abilities:
         t1: 11 damage; slide 4
         t2: 17 damage; slide 5
         t3: 20 damage; slide 6
-```
+~~~

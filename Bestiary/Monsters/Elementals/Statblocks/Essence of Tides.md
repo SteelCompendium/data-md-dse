@@ -28,7 +28,7 @@ stamina: '80'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Essence of Tides
 level: 3
 roles:
@@ -108,4 +108,4 @@ abilities:
     effects:
       - effect: The essence makes a free strike against the target.
         name: Effect
-```
+~~~

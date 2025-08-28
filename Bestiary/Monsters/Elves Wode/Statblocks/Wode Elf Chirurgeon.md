@@ -30,7 +30,7 @@ stamina: '40'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Wode Elf Chirurgeon
 level: 2
 roles:
@@ -91,4 +91,4 @@ abilities:
       - effect: Each target can teleport up to 10 squares to a space that has cover or
           concealment.
         name: Effect
-```
+~~~

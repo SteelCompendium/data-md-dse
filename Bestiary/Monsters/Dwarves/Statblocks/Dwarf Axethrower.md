@@ -29,7 +29,7 @@ stamina: '7'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Dwarf Axethrower
 level: 1
 roles:
@@ -70,4 +70,4 @@ abilities:
       - effect: The target can't use triggered actions until the start of the next
           round.
         name: Effect
-```
+~~~

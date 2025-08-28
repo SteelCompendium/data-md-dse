@@ -29,7 +29,7 @@ stamina: '100'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Gnoll Carnage
 level: 2
 roles:
@@ -143,4 +143,4 @@ abilities:
       - effect: Until the end of the encounter, all gnolls have a double edge on power
           rolls that target a winded enemy.
         name: Effect
-```
+~~~

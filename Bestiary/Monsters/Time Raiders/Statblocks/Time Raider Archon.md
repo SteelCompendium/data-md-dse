@@ -29,7 +29,7 @@ stamina: '7'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Time Raider Archon
 level: 3
 roles:
@@ -73,4 +73,4 @@ abilities:
         t1: 2 damage
         t2: 4 damage
         t3: 5 damage; one ally can make a free strike against the target
-```
+~~~

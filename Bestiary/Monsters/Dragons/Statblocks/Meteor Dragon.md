@@ -29,7 +29,7 @@ stamina: '650'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Meteor Dragon
 level: 10
 roles:
@@ -229,4 +229,4 @@ abilities:
       - effect: An annihilated target must make the test again, decreasing the potency
           for themself by 2 each time they are annihilated. A creature reduced
           to 0 Stamina by this dies and their soul is destroyed.
-```
+~~~

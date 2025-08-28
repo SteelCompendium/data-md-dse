@@ -29,7 +29,7 @@ stamina: '4'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Frenzied
 level: 1
 roles:
@@ -72,4 +72,4 @@ abilities:
         t1: 1 damage
         t2: 2 damage
         t3: 3 damage
-```
+~~~

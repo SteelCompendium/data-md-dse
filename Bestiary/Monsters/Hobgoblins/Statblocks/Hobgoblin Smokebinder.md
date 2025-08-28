@@ -31,7 +31,7 @@ stamina: '70'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Hobgoblin Smokebinder
 level: 5
 roles:
@@ -100,4 +100,4 @@ abilities:
         t1: 11 damage; the target has a double bane on their next power roll
         t2: 9 damage; the target takes a bane on their next power roll
         t3: 5 damage
-```
+~~~

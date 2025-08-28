@@ -29,7 +29,7 @@ stamina: '140'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Devil Adjudicator
 level: 6
 roles:
@@ -120,4 +120,4 @@ abilities:
     effects:
       - effect: The target makes a Presence test
         name: Effect
-```
+~~~

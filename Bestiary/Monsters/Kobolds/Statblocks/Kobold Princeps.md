@@ -29,7 +29,7 @@ stamina: '4'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Kobold Princeps
 level: 1
 roles:
@@ -72,4 +72,4 @@ abilities:
         t3: 3 damage
       - effect: One ally within 3 squares of the princeps shifts up to 2 squares
         name: Effect
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '5'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Gnoll Wildling
 level: 2
 roles:
@@ -71,4 +71,4 @@ abilities:
         t2: 3 damage
         t3: 5 damage; the wildling can make a free strike against a creature adjacent to
           the target
-```
+~~~

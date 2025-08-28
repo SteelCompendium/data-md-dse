@@ -30,7 +30,7 @@ stamina: '10'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Shriketroop
 level: 7
 roles:
@@ -75,4 +75,4 @@ abilities:
       - effect: The target must move their speed in a straight line away from the
           shriketroop.
         name: Effect
-```
+~~~

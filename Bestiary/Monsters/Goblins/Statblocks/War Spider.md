@@ -29,7 +29,7 @@ stamina: '60'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Spider
 level: 1
 roles:
@@ -132,4 +132,4 @@ abilities:
       - effect: The damage is halved, and the spider shifts up to 2 squares after the
           triggering effect resolve
         name: Effect
-```
+~~~

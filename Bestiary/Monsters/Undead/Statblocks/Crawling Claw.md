@@ -29,7 +29,7 @@ stamina: '4'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Crawling Claw
 level: 1
 roles:
@@ -76,4 +76,4 @@ abilities:
       - effect: The crawling claw shifts up to a number of squares equal to the damage
           dealt.
         name: Effect
-```
+~~~

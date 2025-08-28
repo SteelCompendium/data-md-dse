@@ -29,7 +29,7 @@ stamina: '10'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Goblin Cursespitter
 level: 1
 roles:
@@ -83,4 +83,4 @@ abilities:
         t1: I < 0 prone
         t2: I < 1 prone and can't stand (EoT)
         t3: Prone; I < 2 can't stand (save ends)
-```
+~~~

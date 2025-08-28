@@ -29,7 +29,7 @@ stamina: '55'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Lithgekh
 level: 10
 roles:
@@ -91,4 +91,4 @@ abilities:
           lithgekh regains Stamina equal to the remaining damage dealt or
           Stamina gained.
         name: Effect
-```
+~~~

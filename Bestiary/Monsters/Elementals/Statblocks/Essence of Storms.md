@@ -28,7 +28,7 @@ stamina: '100'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Essence of Storms
 level: 3
 roles:
@@ -101,4 +101,4 @@ abilities:
     effects:
       - effect: The target takes 5 lightning damage.
         name: Effect
-```
+~~~

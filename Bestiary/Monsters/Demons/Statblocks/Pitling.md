@@ -29,7 +29,7 @@ stamina: '3'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Pitling
 level: 1
 roles:
@@ -76,4 +76,4 @@ abilities:
         t1: 2 poison damage
         t2: 4 poison damage
         t3: 5 poison damage
-```
+~~~

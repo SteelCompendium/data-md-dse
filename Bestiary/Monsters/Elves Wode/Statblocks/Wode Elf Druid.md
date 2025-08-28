@@ -30,7 +30,7 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Wode Elf Druid
 level: 2
 roles:
@@ -89,4 +89,4 @@ abilities:
       - effect: Each target can teleport up to 10 squares to a space that has cover or
           concealment.
         name: Effect
-```
+~~~

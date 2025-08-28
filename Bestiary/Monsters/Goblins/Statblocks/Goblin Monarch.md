@@ -29,7 +29,7 @@ stamina: '80'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Goblin Monarch
 level: 1
 roles:
@@ -134,4 +134,4 @@ abilities:
       - effect: Each enemy in the encounter takes 2 damage for each goblin adjacent to
           them.
         name: Effect
-```
+~~~

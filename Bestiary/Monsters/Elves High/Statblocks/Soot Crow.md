@@ -29,7 +29,7 @@ stamina: '4'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Soot Crow
 level: 1
 roles:
@@ -70,4 +70,4 @@ abilities:
       - effect: Until the end of their turn, the soot crow ignores opportunity attacks
           from the target.
         name: Effect
-```
+~~~

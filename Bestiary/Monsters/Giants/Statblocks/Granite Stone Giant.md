@@ -29,7 +29,7 @@ stamina: '247'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Granite Stone Giant
 level: 8
 roles:
@@ -121,4 +121,4 @@ abilities:
           target, who moves with the ground to its new elevation, then is
           vertical pushed 5 squares.
         name: Effect
-```
+~~~

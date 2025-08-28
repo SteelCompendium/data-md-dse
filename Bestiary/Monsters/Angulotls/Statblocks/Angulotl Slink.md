@@ -29,7 +29,7 @@ stamina: '15'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Angulotl Slink
 level: 1
 roles:
@@ -95,4 +95,4 @@ abilities:
       - effect: The slink jumps up to 3 squares. If they have cover or concealment when
           they land, they can attempt to hide.
         name: Effect
-```
+~~~

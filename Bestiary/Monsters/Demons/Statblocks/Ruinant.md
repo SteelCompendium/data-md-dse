@@ -29,7 +29,7 @@ stamina: '15'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Ruinant
 level: 1
 roles:
@@ -91,4 +91,4 @@ abilities:
         t1: 1 corruption damage
         t2: 2 corruption damage
         t3: 3 corruption damage
-```
+~~~

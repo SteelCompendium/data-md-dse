@@ -29,7 +29,7 @@ stamina: '4'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Mohler
 level: 1
 roles:
@@ -80,4 +80,4 @@ abilities:
           beneath the target before they use this ability, a target who has M <
           1 is also knocked prone.
         name: Effect
-```
+~~~

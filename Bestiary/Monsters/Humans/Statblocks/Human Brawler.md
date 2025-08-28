@@ -29,7 +29,7 @@ stamina: '40'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Human Brawler
 level: 1
 roles:
@@ -91,4 +91,4 @@ abilities:
     effects:
       - effect: The brawler pushes the target up to 5 squares.
         name: Effect
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '160'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Devil Legate
 level: 5
 roles:
@@ -128,4 +128,4 @@ abilities:
         t1: The legate chooses a new target for the strike.
         t2: The legate halves the triggering damage.
         t3: The target takes a bane on the strike.
-```
+~~~

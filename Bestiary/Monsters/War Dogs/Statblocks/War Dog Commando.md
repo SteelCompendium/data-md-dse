@@ -30,7 +30,7 @@ stamina: '4'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Commando
 level: 1
 roles:
@@ -76,4 +76,4 @@ abilities:
       - effect: After using this ability, the commando can attempt to hide even if
           observed.
         name: Effect
-```
+~~~

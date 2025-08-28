@@ -30,7 +30,7 @@ stamina: '4'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Wode Elf Scout
 level: 1
 roles:
@@ -76,4 +76,4 @@ abilities:
         t1: 2 damage
         t2: 4 damage
         t3: 5 damage
-```
+~~~

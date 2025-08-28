@@ -28,7 +28,7 @@ stamina: '80'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Big Animal B
 level: 2
 roles:
@@ -95,4 +95,4 @@ abilities:
           the target, they can use the Stand Up maneuver to let the target
           stand, then get on to ride them.
         name: Effect
-```
+~~~

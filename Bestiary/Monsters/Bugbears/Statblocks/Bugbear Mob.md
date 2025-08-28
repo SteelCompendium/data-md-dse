@@ -31,7 +31,7 @@ stamina: '10'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Bugbear Mob
 level: 5
 roles:
@@ -79,4 +79,4 @@ abilities:
       - effect: If the target is pulled into the mob, that forced movement deals damage
           only at the Director's determination.
         name: Effect
-```
+~~~

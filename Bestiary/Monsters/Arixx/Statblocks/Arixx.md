@@ -29,7 +29,7 @@ stamina: '200'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Arixx
 level: 1
 roles:
@@ -206,4 +206,4 @@ abilities:
         t1: 5 acid damage; M < 1 weakened (save ends)
         t2: 8 acid damage; M < 2 weakened (save ends)
         t3: 11 acid damage; M < 3 weakened (save ends)
-```
+~~~

@@ -31,7 +31,7 @@ stamina: '12'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Bugbear Knightmare
 level: 8
 roles:
@@ -82,4 +82,4 @@ abilities:
       - effect: A target grabbed this way or already grabbed by the knightmare can be
           vertical pushed up to 5 squares.
         name: Effect
-```
+~~~

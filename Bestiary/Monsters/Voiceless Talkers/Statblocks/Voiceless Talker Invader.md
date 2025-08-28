@@ -29,7 +29,7 @@ stamina: '140'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Voiceless Talker Invader
 level: 6
 roles:
@@ -116,4 +116,4 @@ abilities:
     effects:
       - effect: The potency increases by 2.
         name: Effect
-```
+~~~

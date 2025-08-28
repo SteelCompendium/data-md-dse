@@ -29,7 +29,7 @@ stamina: '9'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Mindkiller Whelp
 level: 6
 roles:
@@ -87,4 +87,4 @@ abilities:
           squad's Stamina pool before transforming. The Stamina pool then loses
           the whelp's Stamina.
         name: Effect
-```
+~~~

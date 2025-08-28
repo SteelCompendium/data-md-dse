@@ -29,7 +29,7 @@ stamina: '9'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Voiceless Talker Graywarper
 level: 6
 roles:
@@ -71,4 +71,4 @@ abilities:
         t1: 3 psychic damage
         t2: 5 psychic damage; slide 2
         t3: 7 psychic damage; slide 4
-```
+~~~

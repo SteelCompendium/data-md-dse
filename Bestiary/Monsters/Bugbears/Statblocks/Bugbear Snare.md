@@ -31,7 +31,7 @@ stamina: '9'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Bugbear Snare
 level: 5
 roles:
@@ -74,4 +74,4 @@ abilities:
           automatically grabbed. A target grabbed this way or already grabbed by
           the snare can be vertical pushed up to 4 squares.
         name: Effect
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '200'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Hill Giant Clobberer
 level: 7
 roles:
@@ -134,4 +134,4 @@ abilities:
           pushed up to 5 squares; or they take 5 damage, are knocked prone, and
           can't stand until the end of their next turn.
         cost: 2 Malice
-```
+~~~

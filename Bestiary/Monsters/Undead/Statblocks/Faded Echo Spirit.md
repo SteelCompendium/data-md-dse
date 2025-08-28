@@ -28,7 +28,7 @@ stamina: '10'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Faded Echo Spirit
 level: 7
 roles:
@@ -78,4 +78,4 @@ abilities:
       - effect: This weakened condition ends if an affected target ends their turn with
           no spirit within 5 squares of them.
         name: Effect
-```
+~~~

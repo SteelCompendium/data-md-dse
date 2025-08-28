@@ -30,7 +30,7 @@ stamina: '4'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Conscript
 level: 1
 roles:
@@ -76,4 +76,4 @@ abilities:
         t3: 3 damage
       - effect: If used with the Charge main action, this ability gains an edge.
         name: Effect
-```
+~~~

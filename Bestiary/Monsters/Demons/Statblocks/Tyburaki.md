@@ -29,7 +29,7 @@ stamina: '15'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Tyburaki
 level: 10
 roles:
@@ -79,4 +79,4 @@ abilities:
       - effect: The tyburaki can make a free strike against each enemy adjacent to the
           target.
         name: Effect
-```
+~~~

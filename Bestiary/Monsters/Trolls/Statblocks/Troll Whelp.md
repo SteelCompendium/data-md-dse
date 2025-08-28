@@ -29,7 +29,7 @@ stamina: '10'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Troll Whelp
 level: 5
 roles:
@@ -74,4 +74,4 @@ abilities:
         t1: 3 damage
         t2: 6 damage; slide 1
         t3: 7 damage; slide 2; M < 2 bleeding (save ends)
-```
+~~~

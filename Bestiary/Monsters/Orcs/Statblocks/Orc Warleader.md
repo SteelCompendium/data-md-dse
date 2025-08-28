@@ -29,7 +29,7 @@ stamina: '120'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Orc Warleader
 level: 3
 roles:
@@ -152,4 +152,4 @@ abilities:
       - effect: Three times in succession, the warleader shifts up to their speed and
           can use Mace Lariat.
         name: Effect
-```
+~~~

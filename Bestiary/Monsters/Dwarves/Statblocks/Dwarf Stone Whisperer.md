@@ -29,7 +29,7 @@ stamina: '52'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Dwarf Stone Whisperer
 level: 3
 roles:
@@ -94,4 +94,4 @@ abilities:
           dwarf can be force moved by this ability. This forced movement doesn't
           end the restrained condition unless the Director determines otherwise.
         name: Effect
-```
+~~~

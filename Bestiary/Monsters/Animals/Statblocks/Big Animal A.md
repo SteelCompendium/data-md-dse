@@ -28,7 +28,7 @@ stamina: '60'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Big Animal A
 level: 1
 roles:
@@ -91,4 +91,4 @@ abilities:
     effects:
       - effect: The animal shifts up to 2 squares before the ability resolves.
         name: Effect
-```
+~~~

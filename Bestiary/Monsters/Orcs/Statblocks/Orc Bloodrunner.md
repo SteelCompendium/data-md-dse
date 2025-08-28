@@ -29,7 +29,7 @@ stamina: '50'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Orc Bloodrunner
 level: 3
 roles:
@@ -83,4 +83,4 @@ abilities:
       - effect: An ally targeted by this ability can make a free strike after the forced
           movement is resolved.
         cost: 2 Malice
-```
+~~~

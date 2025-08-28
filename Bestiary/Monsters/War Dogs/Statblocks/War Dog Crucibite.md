@@ -30,7 +30,7 @@ stamina: '10'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Crucibite
 level: 1
 roles:
@@ -91,4 +91,4 @@ abilities:
     effects:
       - effect: If the target has a loyalty collar, they are reduced to 0 Stamina.
         name: Effect
-```
+~~~

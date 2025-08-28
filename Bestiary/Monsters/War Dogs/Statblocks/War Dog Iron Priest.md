@@ -30,7 +30,7 @@ stamina: '50'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Iron Priest
 level: 8
 roles:
@@ -94,4 +94,4 @@ abilities:
 
           - The target has a +3 bonus to speed.
         name: Effect
-```
+~~~

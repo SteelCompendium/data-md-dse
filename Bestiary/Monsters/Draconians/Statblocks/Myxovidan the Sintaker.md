@@ -30,7 +30,7 @@ stamina: '140'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Myxovidan the Sintaker
 level: 6
 roles:
@@ -114,4 +114,4 @@ abilities:
           characteristic score for the roll. If Myxovidan gets a higher tier
           outcome than the triggering creature, the Director gains 2 Malice.
         name: Effect
-```
+~~~

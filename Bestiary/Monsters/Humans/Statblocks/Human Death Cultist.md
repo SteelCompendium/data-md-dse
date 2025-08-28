@@ -29,7 +29,7 @@ stamina: '40'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Human Death Cultist
 level: 2
 roles:
@@ -90,4 +90,4 @@ abilities:
           cultist is killed. A target can be revived multiple times by this
           ability.
         name: Effect
-```
+~~~

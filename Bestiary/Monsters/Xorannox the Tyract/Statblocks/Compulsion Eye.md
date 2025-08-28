@@ -30,7 +30,7 @@ stamina: '30'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Compulsion Eye
 level: 6
 roles:
@@ -76,4 +76,4 @@ abilities:
           their speed and can make a free strike against an enemy of Xorannox's
           choice. The target is then no longer charmed.
         name: Effect
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '3'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Lizardfolk Tonguer
 level: 1
 roles:
@@ -75,4 +75,4 @@ abilities:
       - effect: If the forced movement or the shift leaves the target adjacent to the
           tonguer, the target is also grabbed.
         name: Effect
-```
+~~~

@@ -29,7 +29,7 @@ stamina: '46'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Lizardfolk Scaletooth
 level: 1
 roles:
@@ -89,4 +89,4 @@ abilities:
         t1: 5 damage; slide 1
         t2: 8 damage; slide 2; M < 1 grabbed if within 2 squares of the scaletooth
         t3: 10 damage; slide 3; M < 2 grabbed if within 2 squares of the scaletooth
-```
+~~~

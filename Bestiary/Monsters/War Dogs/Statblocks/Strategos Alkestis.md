@@ -30,7 +30,7 @@ stamina: '2602'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: Strategos Alkestis
 level: 10
 roles:
@@ -154,4 +154,4 @@ abilities:
           the end of the encounter, Alkestis and each target ally have damage
           immunity 3 and deal an extra 5 damage with strikes.
         name: Effect
-```
+~~~

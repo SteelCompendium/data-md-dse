@@ -29,7 +29,7 @@ stamina: '82'
 type: monster
 ---
 
-```ds-statblock
+~~~ds-statblock
 name: War Dog Prismite
 level: 8
 roles:
@@ -98,4 +98,4 @@ abilities:
       - effect: The target is pulled up to 5 squares toward the prismite and any damage
           from the triggering ability is halved.
         name: Effect
-```
+~~~
