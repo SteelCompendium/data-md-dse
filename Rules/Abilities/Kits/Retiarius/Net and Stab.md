@@ -13,6 +13,7 @@ keywords:
 - Melee
 - Strike
 - Weapon
+kit: Retiarius
 scc:
 - mcdm.heroes.v1:kit-ability.retiarius:net-and-stab
 scdc:
@@ -48,6 +49,7 @@ metadata:
     - Melee
     - Strike
     - Weapon
+  kit: Retiarius
   scc:
     - mcdm.heroes.v1:kit-ability.retiarius:net-and-stab
   scdc:

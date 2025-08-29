@@ -12,6 +12,7 @@ keywords:
 - Melee
 - Strike
 - Weapon
+kit: Guisarmier
 scc:
 - mcdm.heroes.v1:kit-ability.guisarmier:forward-thrust-backward-smash
 scdc:
@@ -45,6 +46,7 @@ metadata:
     - Melee
     - Strike
     - Weapon
+  kit: Guisarmier
   scc:
     - mcdm.heroes.v1:kit-ability.guisarmier:forward-thrust-backward-smash
   scdc:

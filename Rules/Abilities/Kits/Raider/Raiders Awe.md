@@ -14,6 +14,7 @@ keywords:
 - Ranged
 - Strike
 - Weapon
+kit: Raider
 scc:
 - mcdm.heroes.v1:kit-ability.raider:raiders-awe
 scdc:
@@ -51,6 +52,7 @@ metadata:
     - Ranged
     - Strike
     - Weapon
+  kit: Raider
   scc:
     - mcdm.heroes.v1:kit-ability.raider:raiders-awe
   scdc:

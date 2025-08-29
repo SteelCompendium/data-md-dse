@@ -13,6 +13,7 @@ keywords:
 - Psionic
 - Strike
 - Weapon
+kit: Battlemind
 scc:
 - mcdm.heroes.v1:kit-ability.battlemind:unmooring
 scdc:
@@ -48,6 +49,7 @@ metadata:
     - Psionic
     - Strike
     - Weapon
+  kit: Battlemind
   scc:
     - mcdm.heroes.v1:kit-ability.battlemind:unmooring
   scdc:

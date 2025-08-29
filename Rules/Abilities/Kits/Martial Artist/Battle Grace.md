@@ -12,6 +12,7 @@ keywords:
 - Melee
 - Strike
 - Weapon
+kit: Martial Artist
 scc:
 - mcdm.heroes.v1:kit-ability.martial-artist:battle-grace
 scdc:
@@ -45,6 +46,7 @@ metadata:
     - Melee
     - Strike
     - Weapon
+  kit: Martial Artist
   scc:
     - mcdm.heroes.v1:kit-ability.martial-artist:battle-grace
   scdc:

@@ -12,6 +12,7 @@ keywords:
 - Melee
 - Strike
 - Weapon
+kit: Mountain
 scc:
 - mcdm.heroes.v1:kit-ability.mountain:pain-for-pain
 scdc:
@@ -45,6 +46,7 @@ metadata:
     - Melee
     - Strike
     - Weapon
+  kit: Mountain
   scc:
     - mcdm.heroes.v1:kit-ability.mountain:pain-for-pain
   scdc:

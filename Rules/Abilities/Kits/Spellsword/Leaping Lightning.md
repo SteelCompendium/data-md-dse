@@ -13,6 +13,7 @@ keywords:
 - Melee
 - Strike
 - Weapon
+kit: Spellsword
 scc:
 - mcdm.heroes.v1:kit-ability.spellsword:leaping-lightning
 scdc:
@@ -48,6 +49,7 @@ metadata:
     - Melee
     - Strike
     - Weapon
+  kit: Spellsword
   scc:
     - mcdm.heroes.v1:kit-ability.spellsword:leaping-lightning
   scdc:
