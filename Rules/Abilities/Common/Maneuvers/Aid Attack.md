@@ -8,7 +8,7 @@ item_name: Aid Attack
 scc:
 - mcdm.heroes.v1:common-ability.maneuver:aid-attack
 scdc:
-- 1.1.1:14.3:06
+- 1.1.1:15.3:06
 source: mcdm.heroes.v1
 type: common-ability/maneuver
 ---
@@ -25,7 +25,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:common-ability.maneuver:aid-attack
   scdc:
-    - 1.1.1:14.3:06
+    - 1.1.1:15.3:06
   source: mcdm.heroes.v1
   type: common-ability/maneuver
 effects:
