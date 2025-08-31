@@ -37,7 +37,7 @@ effects:
 
 
       Complex or time-consuming tests might require a main action if made in
-      combat-or could take so long that they can't be made during combat at all.
+      combat—or could take so long that they can't be made during combat at all.
       Other tests that take no time at all, such as a Reason test to recall lore
       about mummies, are usually free maneuvers in combat. The Director has the
       final say regarding which tests can be made as maneuvers.

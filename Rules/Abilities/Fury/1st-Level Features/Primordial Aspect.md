@@ -35,8 +35,8 @@ metadata:
 effects:
   - effect: You are a product of customs older than warfare, older than
       civilization, older than most of the world. You have undergone a rite of
-      passage that revealed the building blocks of the timescape-the Primordial
-      Chaos-and that left an aspect of that chaos inside you. You choose a
+      passage that revealed the building blocks of the timescape—the Primordial
+      Chaos—and that left an aspect of that chaos inside you. You choose a
       primordial aspect from the following options, each of which grants you a
       skill. (*Quick Build:* Berserker.)
   - effect: Your primordial aspect is your subclass, and your choice of aspect

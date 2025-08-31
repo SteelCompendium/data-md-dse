@@ -33,7 +33,7 @@ metadata:
   source: mcdm.heroes.v1
   type: feature/trait/tactician/1st-level-feature
 effects:
-  - effect: Warfare is as old as civilization-and perhaps even older. As battle
+  - effect: Warfare is as old as civilization—and perhaps even older. As battle
       became ever more complex, military leaders invented tactical doctrine,
       outlining how combatants should be structured, used, and deployed.
       Doctrine can be learned at war colleges passing on ancient martial
