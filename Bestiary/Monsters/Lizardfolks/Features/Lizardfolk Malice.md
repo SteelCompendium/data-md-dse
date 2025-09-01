@@ -20,6 +20,7 @@ flavor: At the start of any lizardfolk's turn, you can spend Malice to activate
 stats: []
 features:
   - name: Net Trap
+    icon: 🔳
     cost: 3 Malice
     keywords:
       - Area

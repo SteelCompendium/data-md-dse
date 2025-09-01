@@ -26,7 +26,7 @@ features:
       - effect: Until the end of the round, whenever a high elf uses a magic ability,
           they can use it as if they were occupying the square of another high
           elf on the encounter map to whom they have line of effect.
-  - name: \*\*Gift From an Accursed Tome
+  - name: Gift From an Accursed Tome
     icon: 🔳
     cost: 5 Malice
     keywords:
