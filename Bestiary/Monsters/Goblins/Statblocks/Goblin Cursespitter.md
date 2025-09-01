@@ -67,7 +67,8 @@ abilities:
     effects:
       - roll: Power Roll + 2
         t1: 3 corruption damage; I < 0 weakened (save ends)
-        t2: 5 corruption damage; I < 2 weakened (save ends)
+        t2: 4 corruption damage; I < 1 weakened (save ends)
+        t3: 5 corruption damage; I < 2 weakened (save ends)
   - name: Dizzying Hex
     icon: 🏹
     cost: 1 Malice
