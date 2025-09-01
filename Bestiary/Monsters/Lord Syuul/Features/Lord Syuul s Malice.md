@@ -1,5 +1,5 @@
 ---
-file_basename: Lord Syuuls Malice
+file_basename: Lord Syuul s Malice
 file_dpath: Monsters/Lord Syuul/Features
 item_id: lord-syuuls-malice-malice-features
 item_index: '30'

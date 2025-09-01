@@ -1,13 +1,13 @@
 ---
-file_basename: Xorannoxs Malice
+file_basename: Xorannox s Malice
 file_dpath: Monsters/Xorannox the Tyract/Features
 item_id: xorannoxs-malice-malice-features
-item_index: '44'
+item_index: '41'
 item_name: Xorannox's Malice (Malice Features)
 scc:
 - mcdm.monsters.v1:monster.feature:xorannoxs-malice-malice-features
 scdc:
-- 1.1.1:2.2:44
+- 1.1.1:2.2:41
 source: mcdm.monsters.v1
 type: monster/feature
 ---

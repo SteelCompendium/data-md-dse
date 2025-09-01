@@ -1,13 +1,13 @@
 ---
-file_basename: Ajaxs Malice
+file_basename: Ajax s Malice
 file_dpath: Monsters/Ajax the Invincible/Features
 item_id: ajaxs-malice-malice-features
-item_index: '18'
+item_index: '17'
 item_name: Ajax's Malice (Malice Features)
 scc:
 - mcdm.monsters.v1:monster.feature:ajaxs-malice-malice-features
 scdc:
-- 1.1.1:2.2:18
+- 1.1.1:2.2:17
 source: mcdm.monsters.v1
 type: monster/feature
 ---

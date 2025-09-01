@@ -1,6 +1,7 @@
 ---
-file_basename: Demon Malice
+file_basename: Demon Malice Level 10 Malice Features
 file_dpath: Monsters/Demons/Features
+include_parens_in_filename: 'true'
 item_id: demon-malice-level-10-malice-features
 item_index: '35'
 item_name: Demon Malice (Level 10+ Malice Features)
