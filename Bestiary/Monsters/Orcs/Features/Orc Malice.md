@@ -17,7 +17,6 @@ name: Orc Malice
 type: Malice Features
 flavor: At the start of any orc's turn, you can spend Malice to activate one of
   the following features.
-stats: []
 features:
   - name: Overwhelming March
     icon: ⭐️

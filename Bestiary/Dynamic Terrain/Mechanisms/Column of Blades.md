@@ -20,7 +20,6 @@ ev: "3"
 flavor: A spinning wooden column is affixed with sharp blades to slash the unwary.
 stamina: "5"
 size: 1L
-stats: []
 features:
   - name: Deactivate
     icon: 🌀

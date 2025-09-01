@@ -21,7 +21,6 @@ flavor: A foreboding obelisk shaped of dark stone harrows the minds and spirits
   of those around it.
 stamina: "100"
 size: "2"
-stats: []
 features:
   - name: Deactivate
     icon: 🌀

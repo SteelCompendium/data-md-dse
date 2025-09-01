@@ -21,7 +21,6 @@ flavor: A sturdy wooden tower accessed by interior ladders or stairs provides
   cover and high ground for attackers.
 stamina: "50"
 size: "3"
-stats: []
 features:
   - name: Deactivate
     icon: 🌀

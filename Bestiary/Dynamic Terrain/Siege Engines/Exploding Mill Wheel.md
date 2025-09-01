@@ -21,7 +21,6 @@ flavor: A massive wooden wheel is loaded with explosives and rolled toward enemy
   forces or fortifications, ready to explode.
 stamina: "25"
 size: "2"
-stats: []
 features:
   - name: Deactivate
     icon: 🌀

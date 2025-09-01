@@ -21,7 +21,6 @@ flavor: This beehive is full of angry bees who swarm and attack with little
   provocation.
 stamina: "3"
 size: 1S
-stats: []
 features:
   - name: Deactivate
     icon: 🌀

@@ -21,7 +21,6 @@ flavor: A counterweighted pulley system can be used to quickly ascend to the top
   of a wall, scaffold, tower, or other structure.
 stamina: "1"
 size: 1S
-stats: []
 features:
   - name: Deactivate
     icon: 🌀

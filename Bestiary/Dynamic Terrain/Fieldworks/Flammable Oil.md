@@ -20,7 +20,6 @@ ev: 2 per 10 x 10 patch
 flavor: A patch of flammable oil or pitch on the ground is ready to be ignited.
 stamina: "-"
 size: One or more squares
-stats: []
 features:
   - name: Deactivate
     icon: 🌀

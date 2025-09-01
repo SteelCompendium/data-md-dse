@@ -20,7 +20,6 @@ ev: "10"
 flavor: A large cauldron of boiling oil stands ready to be poured onto enemies.
 stamina: "50"
 size: 1L
-stats: []
 features:
   - name: Deactivate
     icon: 🌀

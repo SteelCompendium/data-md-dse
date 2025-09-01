@@ -17,7 +17,6 @@ name: Lizardfolk Malice
 type: Malice Features
 flavor: At the start of any lizardfolk's turn, you can spend Malice to activate
   one of the following features.
-stats: []
 features:
   - name: Net Trap
     icon: 🔳

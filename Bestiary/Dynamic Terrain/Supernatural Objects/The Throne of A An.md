@@ -22,7 +22,6 @@ flavor: The throne of A'An, sun god of the Antical Protectorate in what is now
   the Age of Suns-and plunge the region into eternal winter.
 stamina: "140"
 size: "2"
-stats: []
 features:
   - name: Deactivate
     icon: 🌀

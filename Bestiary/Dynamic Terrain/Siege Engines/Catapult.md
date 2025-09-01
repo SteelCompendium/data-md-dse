@@ -21,7 +21,6 @@ flavor: This massive counterweighted engine hurls a heavy projectile for a
   devastating assault.
 stamina: "50"
 size: "2"
-stats: []
 features:
   - name: Deactivate
     icon: 🌀

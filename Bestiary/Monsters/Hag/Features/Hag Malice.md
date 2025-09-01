@@ -25,7 +25,6 @@ flavor: >-
 
   The hag utters terrible words that push each enemy within 2 squares of them up
   to 3 squares.
-stats: []
 features:
   - name: Hag Wyrd
     icon: 🔳

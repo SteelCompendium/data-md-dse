@@ -17,7 +17,6 @@ name: High Elf Malice
 type: Malice Features
 flavor: At the start of any high elf's turn, you can spend Malice to activate
   one of the following features.
-stats: []
 features:
   - name: Chaincast
     icon: 🌀

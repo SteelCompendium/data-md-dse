@@ -20,7 +20,6 @@ ev: "1"
 flavor: A rope snare is set to grab a target, leaving them hanging upside down.
 stamina: "1"
 size: 1S
-stats: []
 features:
   - name: Deactivate
     icon: 🌀

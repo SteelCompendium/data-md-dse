@@ -21,7 +21,6 @@ flavor: A massive metal device uses a bellows system and liquid fuel to shoot
   out gouts of flame.
 stamina: "60"
 size: "2"
-stats: []
 features:
   - name: Deactivate
     icon: 🌀

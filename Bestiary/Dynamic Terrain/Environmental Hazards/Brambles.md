@@ -20,7 +20,6 @@ ev: 1 per 10 x 10 thicket
 flavor: This thicket features close-growing vines tipped with sharp thorns.
 stamina: 3 per square
 size: One or more squares of difficult terrain
-stats: []
 features:
   - name: Deactivate
     icon: 🌀

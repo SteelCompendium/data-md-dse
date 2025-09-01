@@ -17,7 +17,6 @@ name: Troll Malice
 type: Malice Features
 flavor: At the start of any troll's turn, you can spend Malice to activate one
   of the following features.
-stats: []
 features:
   - name: Foul Spew
     icon: 🔳

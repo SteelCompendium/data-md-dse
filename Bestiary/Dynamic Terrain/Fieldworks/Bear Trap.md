@@ -20,7 +20,6 @@ ev: "2"
 flavor: A set of spring-loaded steel jaws stands ready to snap shut when stepped on.
 stamina: "6"
 size: 1S
-stats: []
 features:
   - name: Deactivate
     icon: 🌀

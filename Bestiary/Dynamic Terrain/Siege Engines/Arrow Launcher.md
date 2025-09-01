@@ -21,7 +21,6 @@ flavor: A small wooden cart uses alchemical rockets to launch up to a hundred
   arrows at a time across a wide area.
 stamina: "30"
 size: 1L
-stats: []
 features:
   - name: Deactivate
     icon: 🌀

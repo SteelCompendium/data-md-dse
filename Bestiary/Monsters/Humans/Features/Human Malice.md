@@ -17,7 +17,6 @@ name: Human Malice
 type: Malice Features
 flavor: At the start of any human's turn, you can spend Malice to activate one
   of the following features.
-stats: []
 features:
   - name: Alchemical Device
     icon: 🔳

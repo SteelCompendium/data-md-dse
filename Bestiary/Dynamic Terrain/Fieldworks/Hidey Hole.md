@@ -20,7 +20,6 @@ ev: "1"
 flavor: A cavity in a floor, wall, or ceiling might hold hidden threats.
 stamina: "-"
 size: One or more squares
-stats: []
 features:
   - name: Deactivate
     icon: 🌀

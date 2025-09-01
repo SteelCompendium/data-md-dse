@@ -17,7 +17,6 @@ name: Draconian Malice
 type: Malice Features
 flavor: At the start of any draconian's turn, you can spend Malice to activate
   one of the following features.
-stats: []
 features:
   - name: Guarding Gale
     icon: 👤

@@ -17,7 +17,6 @@ name: Gnoll Malice
 type: Malice Features
 flavor: At the start of any gnoll's turn, you can spend Malice to activate one
   of the following features.
-stats: []
 features:
   - name: Iron Jaws
     icon: 🔳

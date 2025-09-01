@@ -17,7 +17,6 @@ name: Radenwight Malice
 type: Malice Features
 flavor: At the start of any radenwight's turn, you can spend Malice to activate
   one of the following features.
-stats: []
 features:
   - name: Trouser Cut
     icon: 🗡

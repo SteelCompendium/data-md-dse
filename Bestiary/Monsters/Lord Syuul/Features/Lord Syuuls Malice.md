@@ -17,7 +17,6 @@ name: Lord Syuul's Malice
 type: Malice Features
 flavor: At the start of Lord Syuul's turn, you can spend Malice to activate one
   of the following features.
-stats: []
 features:
   - name: Guise
     icon: 👤

@@ -20,7 +20,6 @@ ev: "8"
 flavor: A massive crossbow fires thick metal bolts with devastating effect.
 stamina: "40"
 size: "2"
-stats: []
 features:
   - name: Deactivate
     icon: 🌀

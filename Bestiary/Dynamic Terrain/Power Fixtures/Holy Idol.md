@@ -20,7 +20,6 @@ ev: "7"
 flavor: An empowering monument to a higher power enables a villain's machinations.
 stamina: "35"
 size: "2"
-stats: []
 features:
   - name: Deactivate
     icon: 🌀

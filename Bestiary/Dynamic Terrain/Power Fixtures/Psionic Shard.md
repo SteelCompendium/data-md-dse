@@ -20,7 +20,6 @@ ev: "7"
 flavor: A massive humming crystal makes the air around it feel thick.
 stamina: "40"
 size: "2"
-stats: []
 features:
   - name: Deactivate
     icon: 🌀

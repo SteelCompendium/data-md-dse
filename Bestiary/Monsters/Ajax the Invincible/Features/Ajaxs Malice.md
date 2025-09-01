@@ -17,7 +17,6 @@ name: Ajax's Malice
 type: Malice Features
 flavor: At the start of Ajax's turn, you can spend Malice to activate one of the
   following features.
-stats: []
 features:
   - name: Reason
     icon: 👤

@@ -17,7 +17,6 @@ name: Lich Malice
 type: Malice Features
 flavor: At the start of a lich's turn, you can spend Malice to activate one of
   the following features.
-stats: []
 features:
   - name: Soul Sip
     icon: 👤

@@ -19,7 +19,6 @@ type: + Malice Features
 level: 1
 flavor: At the start of any undead's turn, you can spend Malice to activate one
   of the following features.
-stats: []
 features:
   - name: Ravenous Horde
     icon: 🌀
