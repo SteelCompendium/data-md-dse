@@ -108,8 +108,8 @@ abilities:
     distance: Melee 1
     target: Two creatures or objects
     effects:
-      - cost: ≤11
-        effect: Slide 1; A < 2 3 damage
+      - roll: Power Roll + 4
+        t1: Slide 1; A < 2 3 damage
         t2: Slide 2; A < 3 5 damage
         t3: Slide 4; A < 4 7 damage
   - name: Reflexive Instinct
@@ -135,7 +135,7 @@ abilities:
     distance: 5 burst
     target: Each creature in the area
     effects:
-      - cost: ≤11
+      - name: ≤11
         effect: Frightened (EoT); if the target has I < 2 they are instead frightened
           (save ends)
         t2: Frightened (EoT); if the target has I < 3 they are instead frightened (save

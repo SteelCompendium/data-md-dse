@@ -180,8 +180,8 @@ abilities:
     distance: 10 burst
     target: Special
     effects:
-      - cost: ≤11
-        effect: 8 acid damage; P < 3 weakened (save ends)
+      - roll: Power Roll + 4
+        t1: 8 acid damage; P < 3 weakened (save ends)
         t2: 13 acid damage; P < 4 weakened (save ends)
         t3: 17 acid damage; P < 5 weakened (save ends)
       - effect: As a free triggered action, each stone statue and creature restrained or

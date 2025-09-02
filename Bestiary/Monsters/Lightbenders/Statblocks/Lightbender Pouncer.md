@@ -99,8 +99,8 @@ abilities:
     distance: 3 cube within 10
     target: Each enemy in the area
     effects:
-      - cost: ≤11
-        effect: I < 0 dazed (save ends)
+      - roll: Power Roll + 2
+        t1: I < 0 dazed (save ends)
         t2: I < 1 dazed (save ends)
         t3: I < 2 dazed (save ends)
       - effect: While dazed this way, a target has speed 0. If a target takes damage, or

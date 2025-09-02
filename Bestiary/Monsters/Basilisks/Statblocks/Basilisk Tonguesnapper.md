@@ -113,8 +113,8 @@ abilities:
     distance: Melee 1 or ranged 10
     target: One creature
     effects:
-      - cost: ≤11
-        effect: 8 corruption damage; R < 0 dazed (save ends)
+      - roll: Power Roll + 2
+        t1: 8 corruption damage; R < 0 dazed (save ends)
         t2: 10 corruption damage; R < 1 dazed (save ends)
         t3: 14 corruption damage; R < 2 dazed and slowed (save ends)
       - effect: A creature dazed this way can't benefit from edges or double edges and

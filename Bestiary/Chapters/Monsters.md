@@ -1261,6 +1261,8 @@ The Example Animals table breaks out a number of animals using this notation. Se
 > | ---------------- | --------------------------------------: |
 > | **📏 1 burst**   | **🎯 Each enemy or object in the area** |
 >
+> **Power Roll + 2:**
+>
 > - **≤11:** 3 damage
 > - **12-16:** 6 damage
 > - **17+:** 8 damage; A < 2 bleeding (save ends)
@@ -1767,6 +1769,8 @@ At the start of any basilisk's turn, you can spend Malice to activate one of the
 > | -------------------------------- | ------------------: |
 > | **📏 Melee 1 or ranged 10**      | **🎯 One creature** |
 >
+> **Power Roll + 2:**
+>
 > - **≤11:** 8 corruption damage; R < 0 dazed (save ends)
 > - **12-16:** 10 corruption damage; R < 1 dazed (save ends)
 > - **17+:** 14 corruption damage; R < 2 dazed and slowed (save ends)
@@ -1942,6 +1946,8 @@ At the start of a bredbeddle's turn, you can spend Malice to activate one of the
 > | **Melee, Strike, Weapon** |                 **-** |
 > | ------------------------- | --------------------: |
 > | **📏 Melee 2**            | **🎯 Four creatures** |
+>
+> **Power Roll + 3:**
 >
 > - **≤11:** 6 damage; bleeding (save ends); or if the target has A < 1 they are beheaded (see Lop).
 > - **12-16:** 7 damage; bleeding (save ends); or if the target has A < 2 they are beheaded
@@ -12108,6 +12114,8 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 > | -------------- | ---------------: |
 > | **📏 Melee 1** | **🎯 One enemy** |
 >
+> **Power Roll + 2:**
+>
 > - **≤11:** Push 1; M < 1 prone
 > - **12-16:** Push 2; M < 2 prone
 > - **17+:** Push 4; M < 3 prone
@@ -12954,6 +12962,8 @@ At the start of any lightbender's turn, you can spend Malice to activate one of 
 > | ------------------------- | ----------------------------: |
 > | **📏 Melee 2**            | **🎯 One creature or object** |
 >
+> **Power Roll + 2:**
+>
 > - **≤11:** 8 damage
 > - **12-16:** 12 damage; M < 1 bleeding (save ends)
 > - **17+:** 15 damage; M < 2 bleeding (save ends)
@@ -12965,6 +12975,8 @@ At the start of any lightbender's turn, you can spend Malice to activate one of 
 > | **Area, Magic** |                  **Maneuver** |
 > | --------------- | ----------------------------: |
 > | **📏 3 burst**  | **🎯 Each enemy in the area** |
+>
+> **Power Roll + 2:**
 >
 > - **≤11:** I < 0 dazed (save ends)
 > - **12-16:** I < 1 dazed (save ends)
@@ -13027,6 +13039,8 @@ At the start of any lightbender's turn, you can spend Malice to activate one of 
 > | **Area, Magic, Ranged** |                  **Maneuver** |
 > | ----------------------- | ----------------------------: |
 > | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
+>
+> **Power Roll + 2:**
 >
 > - **≤11:** I < 0 dazed (save ends)
 > - **12-16:** I < 1 dazed (save ends)
@@ -13485,6 +13499,8 @@ At the start of any manticore's turn, you can spend Malice to activate one of th
 > | ------------------------- | ------------------------------: |
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
+> **Power Roll + 4:**
+>
 > - **≤11:** Slide 1; A < 2 3 damage
 > - **12-16:** Slide 2; A < 3 5 damage
 > - **17+:** Slide 4; A < 4 7 damage
@@ -13719,6 +13735,8 @@ At the start of a medusa's turn, you can spend Malice to activate one of the fol
 > | **Area, Magic** |          **-** |
 > | --------------- | -------------: |
 > | **📏 10 burst** | **🎯 Special** |
+>
+> **Power Roll + 4:**
 >
 > - **≤11:** 8 acid damage; P < 3 weakened (save ends)
 > - **12-16:** 13 acid damage; P < 4 weakened (save ends)
@@ -14121,6 +14139,8 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 > | **Area**       |                  **Maneuver** |
 > | -------------- | ----------------------------: |
 > | **📏 3 burst** | **🎯 Each enemy in the area** |
+>
+> **Power Roll + 2:**
 >
 > - **≤11:** I < 0 frightened (save ends)
 > - **12-16:** I < 1 frightened (save ends)
@@ -22618,6 +22638,8 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 > | -------------- | ----------------------------: |
 > | **📏 3 burst** | **🎯 Each enemy in the area** |
 >
+> **Power Roll + 5:**
+>
 > - **≤11:** R < 3 taunted (EoT)
 > - **12-16:** R < 4 taunted (EoT)
 > - **17+:** R < 5 taunted (EoT)
@@ -22755,6 +22777,8 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 > | **Area, Magic, Ranged** |                                **Maneuver** |
 > | ----------------------- | ------------------------------------------: |
 > | **📏 5 cube within 15** | **🎯 Each creature and object in the area** |
+>
+> **Power Roll + 5:**
 >
 > - **≤11:** A < 4 pull 3 toward the center of the area
 > - **12-16:** A < 5 pull 3 toward the center of the area

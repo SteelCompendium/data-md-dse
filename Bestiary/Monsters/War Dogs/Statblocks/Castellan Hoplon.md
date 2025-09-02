@@ -109,8 +109,8 @@ abilities:
     distance: 3 burst
     target: Each enemy in the area
     effects:
-      - cost: ≤11
-        effect: R < 3 taunted (EoT)
+      - roll: Power Roll + 5
+        t1: R < 3 taunted (EoT)
         t2: R < 4 taunted (EoT)
         t3: R < 5 taunted (EoT)
       - effect: Until the start of Hoplon's next turn, any enemy ability that includes

@@ -97,8 +97,8 @@ features:
     distance: 5 cube within 20
     target: Each creature and object in the area
     effects:
-      - cost: ≤11
-        effect: 5 damage; R < 0 dazed (save ends)
+      - roll: Power Roll + 2
+        t1: 5 damage; R < 0 dazed (save ends)
         t2: 8 damage; R < 1 dazed (save ends)
         t3: 11 damage; R < 2 frightened (save ends)
       - effect: This ability can't be used again until the arrow

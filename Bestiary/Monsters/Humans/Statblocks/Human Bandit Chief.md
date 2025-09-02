@@ -91,8 +91,8 @@ abilities:
     distance: Melee 1
     target: One enemy
     effects:
-      - cost: ≤11
-        effect: Push 1; M < 1 prone
+      - roll: Power Roll + 2
+        t1: Push 1; M < 1 prone
         t2: Push 2; M < 2 prone
         t3: Push 4; M < 3 prone
       - effect: The ability takes the Area keyword, loses the Melee keyword, and is a 1

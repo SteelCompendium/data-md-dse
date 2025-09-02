@@ -101,8 +101,8 @@ abilities:
     distance: 3 burst
     target: Each enemy in the area
     effects:
-      - cost: ≤11
-        effect: I < 0 frightened (save ends)
+      - roll: Power Roll + 2
+        t1: I < 0 frightened (save ends)
         t2: I < 1 frightened (save ends)
         t3: I < 2 frightened (save ends)
       - effect: While a target is frightened this way, any ogre gains an edge on strikes
