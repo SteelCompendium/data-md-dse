@@ -83,7 +83,7 @@ features:
         name: Penetrating Bolt
         cost: +2 EV
       - name: Chain Bolt
-        cost: +2EV
+        cost: +2 EV
         effect: >-
           The field ballista's bolts are set with heavy chains that wrap around
           targets. The **Chain Bolt** ability replaces **Release Bolt**, and the
