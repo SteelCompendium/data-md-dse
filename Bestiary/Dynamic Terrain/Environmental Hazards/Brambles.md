@@ -34,6 +34,8 @@ features:
   - name: Upgrade
     icon: ⭐️
     effects:
-      - effect: "**Poisonous Thorns (+1 EV)** The brambles are poisonous. Any creature
-          who takes damage from brambles is also bleeding (save ends)."
+      - effect: The brambles are poisonous. Any creature who takes damage from brambles
+          is also bleeding (save ends).
+        name: Poisonous Thorns
+        cost: +1 EV
 ~~~

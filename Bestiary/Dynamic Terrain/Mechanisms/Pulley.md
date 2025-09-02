@@ -45,7 +45,9 @@ features:
   - name: Upgrade
     icon: ⭐️
     effects:
-      - effect: "**Looped Chain (+1 EV)** Instead of a rope and pulley, the system uses
-          a counterweighted looped chain. A looped chain automatically resets
-          and can be triggered repeatedly."
+      - effect: Instead of a rope and pulley, the system uses a counterweighted looped
+          chain. A looped chain automatically resets and can be triggered
+          repeatedly.
+        name: Looped Chain
+        cost: +1 EV
 ~~~

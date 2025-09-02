@@ -43,7 +43,9 @@ features:
   - name: Upgrade
     icon: ⭐️
     effects:
-      - effect: "**Concealed Oil (+1 EV)** The oil is hidden until it ignites."
+      - effect: The oil is hidden until it ignites.
+        name: Concealed Oil
+        cost: +1 EV
   - name: Allied Awareness
     icon: ⭐️
     effects:

@@ -56,9 +56,13 @@ features:
   - name: Upgrades
     icon: ⭐️
     effects:
-      - effect: "**Poisonous Spores (+2 EV)** Any creature dazed by this hazard takes
-          1d6 poison damage at the start of each of their turns."
-      - effect: "**Carnivorous Plants (+2 EV)** The plants are carnivorous and attempt
-          to slowly digest any creature who falls among them. Any creature who
-          starts their turn prone in the area takes 4 acid damage."
+      - effect: Any creature dazed by this hazard takes 1d6 poison damage at the start
+          of each of their turns.
+        name: Poisonous Spores
+        cost: +2 EV
+      - effect: The plants are carnivorous and attempt to slowly digest any creature who
+          falls among them. Any creature who starts their turn prone in the area
+          takes 4 acid damage.
+        name: Carnivorous Plants
+        cost: +2 EV
 ~~~

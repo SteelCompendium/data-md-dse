@@ -62,15 +62,16 @@ features:
     icon: ⭐️
     effects:
       - effect: >-
-          **Thin Ice (+1 EV)** The ice covering the pond is thin and the water
-          is deeper. Whenever a creature or object enters or falls prone in a
-          square of the frozen pond, that square is destroyed and replaced with
-          icy water. The **Icy Water** ability replaces **Slippery Surface**.
-
+          The ice covering the pond is thin and the water is deeper. Whenever a
+          creature or object enters or falls prone in a square of the frozen
+          pond, that square is destroyed and replaced with icy water. The **Icy
+          Water** ability replaces **Slippery Surface**.
 
           Any creature who starts their turn in the icy water takes 1 cold
           damage. If the water is deep enough, a creature can swim beneath the
           surface of the frozen pond, but takes this cold damage while doing so.
+        name: Thin Ice
+        cost: +1 EV
   - name: "Power Roll + 2:"
     keywords:
       - Melee

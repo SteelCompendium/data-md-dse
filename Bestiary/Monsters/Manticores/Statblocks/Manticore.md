@@ -135,9 +135,8 @@ abilities:
     distance: 5 burst
     target: Each creature in the area
     effects:
-      - name: ≤11
-        effect: Frightened (EoT); if the target has I < 2 they are instead frightened
-          (save ends)
+      - effect: "- **≤11:** Frightened (EoT); if the target has I < 2 they are instead
+          frightened (save ends)"
         t2: Frightened (EoT); if the target has I < 3 they are instead frightened (save
           ends)
         t3: Frightened (EoT); if the target has I < 4 they are instead dazed (save ends)

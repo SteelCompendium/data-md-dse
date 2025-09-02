@@ -43,5 +43,7 @@ features:
   - name: Upgrade
     icon: ⭐️
     effects:
-      - effect: "**Concealed (+1 EV)** The switch is hidden."
+      - effect: The switch is hidden.
+        name: Concealed
+        cost: +1 EV
 ~~~

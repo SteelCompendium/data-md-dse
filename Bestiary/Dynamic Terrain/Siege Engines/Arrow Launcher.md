@@ -82,11 +82,14 @@ features:
   - name: Upgrades
     icon: ⭐️
     effects:
-      - effect: "**Flaming Arrows (+1 EV) Arrow Storm** deals fire damage, and can
-          ignite flammable objects in its area."
-      - effect: "**Screamers (+3 EV)** The arrows make a high-pitched screaming noise as
-          they are fired and descend onto their targets. The **Screamers**
-          ability replaces **Arrow Storm**."
+      - effect: deals fire damage, and can ignite flammable objects in its area.
+        name: Flaming Arrows
+        cost: +1 EV
+      - effect: The arrows make a high-pitched screaming noise as they are fired and
+          descend onto their targets. The **Screamers** ability replaces **Arrow
+          Storm**.
+        name: Screamers
+        cost: +3 EV
   - name: Screamers
     icon: 🔳
     keywords:

@@ -43,9 +43,12 @@ features:
   - name: Upgrades
     icon: ⭐️
     effects:
-      - effect: "**Concealed Hive (+1 EV)** The hive is hidden until the swarm is
-          unleashed."
-      - effect: "**Killer Bees (+2 EV)** The bees are a particularly aggressive and
-          dangerous species. The hive triggers even if a creature shifts into or
-          while adjacent to it, and the swarm deals 1d6 + 3 poison damage."
+      - effect: The hive is hidden until the swarm is unleashed.
+        name: Concealed Hive
+        cost: +1 EV
+      - effect: The bees are a particularly aggressive and dangerous species. The hive
+          triggers even if a creature shifts into or while adjacent to it, and
+          the swarm deals 1d6 + 3 poison damage.
+        name: Killer Bees
+        cost: +2 EV
 ~~~

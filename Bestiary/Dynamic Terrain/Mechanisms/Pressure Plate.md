@@ -48,9 +48,11 @@ features:
   - name: Upgrade
     icon: ⭐️
     effects:
-      - effect: "**Tripwire (−1 EV)** The pressure plate is a tripwire, which can
-          trigger once and must be manually reset. A concealed tripwire can be
-          discovered with an **easy Intuition test**."
+      - effect: The pressure plate is a tripwire, which can trigger once and must be
+          manually reset. A concealed tripwire can be discovered with an **easy
+          Intuition test**.
+        name: Tripwire
+        cost: −1 EV
   - name: Hidden
     icon: ⭐️
     effects:

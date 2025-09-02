@@ -58,9 +58,10 @@ features:
   - name: Upgrade
     icon: ⭐️
     effects:
-      - effect: "**Chain (+1 EV)** The bear trap is attached to the ground by a steel
-          chain. A target who would be made slowed by the trap is restrained
-          instead."
+      - effect: The bear trap is attached to the ground by a steel chain. A target who
+          would be made slowed by the trap is restrained instead.
+        name: Chain
+        cost: +1 EV
   - name: Hidden
     icon: ⭐️
     effects:

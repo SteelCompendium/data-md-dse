@@ -49,15 +49,21 @@ features:
   - name: Upgrades
     icon: ⭐️
     effects:
-      - effect: "**Stone Column (+1 EV)** The column is made of stone and has 8
-          Stamina."
-      - effect: "**Metal Column (+1 EV)** The column is made of metal and has 11
-          Stamina."
-      - effect: "**Concealed (+1 EV)** The blades are concealed inside the column, which
-          remains motionless until triggered."
-      - effect: "**Spiked Flails (+4 EV)** Instead of blades, the column is affixed with
-          heavy spiked balls attached by long chains. The **Whirling Flails**
-          ability replaces **Spinning Blades**."
+      - effect: The column is made of stone and has 8 Stamina.
+        name: Stone Column
+        cost: +1 EV
+      - effect: The column is made of metal and has 11 Stamina.
+        name: Metal Column
+        cost: +1 EV
+      - effect: The blades are concealed inside the column, which remains motionless
+          until triggered.
+        name: Concealed
+        cost: +1 EV
+      - effect: Instead of blades, the column is affixed with heavy spiked balls
+          attached by long chains. The **Whirling Flails** ability replaces
+          **Spinning Blades**.
+        name: Spiked Flails
+        cost: +4 EV
   - name: Whirling Flails
     icon: ❗️
     keywords:
