@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.7.1:13
 source: mcdm.heroes.v1
+subclass: Fate
 type: feature/trait/censor/1st-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.7.1:13
   source: mcdm.heroes.v1
+  subclass: Fate
   type: feature/trait/censor/1st-level-feature
 effects:
   - effect: Your deity rewards you with hazy visions of things to come. Each time

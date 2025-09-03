@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.5.5:01
 source: mcdm.heroes.v1
+subclass: Berserker
 type: feature/trait/fury/5th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.5.5:01
   source: mcdm.heroes.v1
+  subclass: Berserker
   type: feature/trait/fury/5th-level-feature
 effects:
   - effect: "Your jump distance and height double (see Movement Types in Chapter 10:

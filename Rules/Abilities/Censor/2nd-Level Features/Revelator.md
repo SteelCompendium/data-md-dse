@@ -22,6 +22,7 @@ scc:
 scdc:
 - 1.1.1:13.2.7.5:01
 source: mcdm.heroes.v1
+subclass: Exorcist
 target: Each enemy in the area
 type: feature/ability/censor/2nd-level-feature
 ---
@@ -61,6 +62,7 @@ metadata:
   scdc:
     - 1.1.1:13.2.7.5:01
   source: mcdm.heroes.v1
+  subclass: Exorcist
   target: Each enemy in the area
   type: feature/ability/censor/2nd-level-feature
 effects:

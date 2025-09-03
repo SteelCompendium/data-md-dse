@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.9.10:08
 source: mcdm.heroes.v1
+subclass: Void
 type: feature/trait/elementalist/4th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.9.10:08
   source: mcdm.heroes.v1
+  subclass: Void
   type: feature/trait/elementalist/4th-level-feature
 effects:
   - effect: The area provides concealment for you and your allies.

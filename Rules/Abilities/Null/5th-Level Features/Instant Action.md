@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.6.5:03
 source: mcdm.heroes.v1
+subclass: Chronokinetic
 type: feature/trait/null/5th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.6.5:03
   source: mcdm.heroes.v1
+  subclass: Chronokinetic
   type: feature/trait/null/5th-level-feature
 effects:
   - effect: If you're not surprised at the start of your first turn in combat, you

@@ -22,6 +22,7 @@ scc:
 scdc:
 - 1.1.1:13.2.3.7:03
 source: mcdm.heroes.v1
+subclass: Duelist
 target: One creature
 type: feature/ability/troubadour/9th-level-feature
 ---
@@ -61,6 +62,7 @@ metadata:
   scdc:
     - 1.1.1:13.2.3.7:03
   source: mcdm.heroes.v1
+  subclass: Duelist
   target: One creature
   type: feature/ability/troubadour/9th-level-feature
 effects:

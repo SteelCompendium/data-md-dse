@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.6.6:04
 source: mcdm.heroes.v1
+subclass: Metakinetic
 type: feature/trait/null/2nd-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.6.6:04
   source: mcdm.heroes.v1
+  subclass: Metakinetic
   type: feature/trait/null/2nd-level-feature
 effects:
   - effect: >-

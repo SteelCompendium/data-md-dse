@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.8.10:15
 source: mcdm.heroes.v1
+subclass: Storm
 type: feature/trait/conduit/4th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.8.10:15
   source: mcdm.heroes.v1
+  subclass: Storm
   type: feature/trait/conduit/4th-level-feature
 effects:
   - effect: While you have 5 or more Victories, you can fly. If you can already fly,

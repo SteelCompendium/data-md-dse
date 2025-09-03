@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.8.10:01
 source: mcdm.heroes.v1
+subclass: Fate
 type: feature/trait/conduit/4th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.8.10:01
   source: mcdm.heroes.v1
+  subclass: Fate
   type: feature/trait/conduit/4th-level-feature
 effects:
   - effect: Each time you finish a respite, you can share the vague dreams of the

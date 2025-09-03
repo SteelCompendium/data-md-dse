@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.1.5:03
 source: mcdm.heroes.v1
+subclass: Chronopathy
 type: feature/trait/talent/5th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.1.5:03
   source: mcdm.heroes.v1
+  subclass: Chronopathy
   type: feature/trait/talent/5th-level-feature
 effects:
   - effect: While you are not dying, time behaves irregularly around you in a 3

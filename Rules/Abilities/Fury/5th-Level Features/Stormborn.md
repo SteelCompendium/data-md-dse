@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.5.5:02
 source: mcdm.heroes.v1
+subclass: Stormwight
 type: feature/trait/fury/5th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.5.5:02
   source: mcdm.heroes.v1
+  subclass: Stormwight
   type: feature/trait/fury/5th-level-feature
 effects:
   - effect: You and each ally within 5 squares of you ignore negative effects from

@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.4.9:01
 source: mcdm.heroes.v1
+subclass: Mastermind
 type: feature/trait/tactician/7th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.4.9:01
   source: mcdm.heroes.v1
+  subclass: Mastermind
   type: feature/trait/tactician/7th-level-feature
 effects:
   - effect: You have grown your skills in strategy, wielding intricate battlefield

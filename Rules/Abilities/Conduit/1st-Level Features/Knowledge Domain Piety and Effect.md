@@ -33,11 +33,9 @@ metadata:
   source: mcdm.heroes.v1
   type: feature/trait/conduit/1st-level-feature
 effects:
-  - effect: "You gain 2 piety the first time in an encounter that the Director
-      spends Malice (see *[Draw Steel:
+  - effect: "- **Piety:** You gain 2 piety the first time in an encounter that the
+      Director spends Malice (see *[Draw Steel:
       Monsters](https://mcdm.gg/DS-Monsters)*)."
-    name: Piety
-  - effect: Choose up to five allies within 10 squares of you, or choose yourself
-      instead of one ally. Each target gains 1 surge.
-    name: Prayer Effect
+  - effect: "- **Prayer Effect:** Choose up to five allies within 10 squares of you,
+      or choose yourself instead of one ally. Each target gains 1 surge."
 ```

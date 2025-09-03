@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.5.1:02
 source: mcdm.heroes.v1
+subclass: Reaver
 type: feature/trait/fury/1st-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.5.1:02
   source: mcdm.heroes.v1
+  subclass: Reaver
   type: feature/trait/fury/1st-level-feature
 effects:
   - effect: >-

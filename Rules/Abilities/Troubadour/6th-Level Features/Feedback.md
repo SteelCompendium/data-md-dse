@@ -22,6 +22,7 @@ scc:
 scdc:
 - 1.1.1:13.2.3.3:02
 source: mcdm.heroes.v1
+subclass: Virtuoso
 target: Each enemy in the area
 type: feature/ability/troubadour/6th-level-feature
 ---
@@ -61,6 +62,7 @@ metadata:
   scdc:
     - 1.1.1:13.2.3.3:02
   source: mcdm.heroes.v1
+  subclass: Virtuoso
   target: Each enemy in the area
   type: feature/ability/troubadour/6th-level-feature
 effects:

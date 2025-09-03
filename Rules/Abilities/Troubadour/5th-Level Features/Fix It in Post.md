@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.3.5:02
 source: mcdm.heroes.v1
+subclass: Auteur
 type: feature/trait/troubadour/5th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.3.5:02
   source: mcdm.heroes.v1
+  subclass: Auteur
   type: feature/trait/troubadour/5th-level-feature
 effects:
   - effect: "Once on each of your turns, you can use a free maneuver to change one

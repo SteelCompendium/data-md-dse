@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.1.6:04
 source: mcdm.heroes.v1
+subclass: Telekinesis
 type: feature/trait/talent/2nd-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.1.6:04
   source: mcdm.heroes.v1
+  subclass: Telekinesis
   type: feature/trait/talent/2nd-level-feature
 effects:
   - effect: Whenever you land after a fall, or if any falling creature lands within

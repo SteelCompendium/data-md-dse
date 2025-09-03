@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.9.1:16
 source: mcdm.heroes.v1
+subclass: Earth
 type: feature/trait/elementalist/1st-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.9.1:16
   source: mcdm.heroes.v1
+  subclass: Earth
   type: feature/trait/elementalist/1st-level-feature
 effects:
   - effect: You harness the flow of earth magic to become harder to move. Whenever

@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.6.6:03
 source: mcdm.heroes.v1
+subclass: Cryokinetic
 type: feature/trait/null/2nd-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.6.6:03
   source: mcdm.heroes.v1
+  subclass: Cryokinetic
   type: feature/trait/null/2nd-level-feature
 effects:
   - effect: You have cold immunity equal to twice your Intuition score.

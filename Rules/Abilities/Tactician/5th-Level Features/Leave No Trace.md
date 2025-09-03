@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.4.5:04
 source: mcdm.heroes.v1
+subclass: Insurgent
 type: feature/trait/tactician/5th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.4.5:04
   source: mcdm.heroes.v1
+  subclass: Insurgent
   type: feature/trait/tactician/5th-level-feature
 effects:
   - effect: You and any ally within 10 squares of you can move at full speed while

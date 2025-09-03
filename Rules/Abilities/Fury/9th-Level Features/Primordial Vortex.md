@@ -23,6 +23,7 @@ scc:
 scdc:
 - 1.1.1:13.2.5.6:06
 source: mcdm.heroes.v1
+subclass: Berserker
 target: Each enemy in the area
 type: feature/ability/fury/9th-level-feature
 ---
@@ -64,6 +65,7 @@ metadata:
   scdc:
     - 1.1.1:13.2.5.6:06
   source: mcdm.heroes.v1
+  subclass: Berserker
   target: Each enemy in the area
   type: feature/ability/fury/9th-level-feature
 effects:

@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.9.1:12
 source: mcdm.heroes.v1
+subclass: Green
 type: feature/trait/elementalist/1st-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.9.1:12
   source: mcdm.heroes.v1
+  subclass: Green
   type: feature/trait/elementalist/1st-level-feature
 effects:
   - effect: You harness the residual magic from your green spells to bolster

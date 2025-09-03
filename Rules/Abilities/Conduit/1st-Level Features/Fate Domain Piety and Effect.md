@@ -33,13 +33,11 @@ metadata:
   source: mcdm.heroes.v1
   type: feature/trait/conduit/1st-level-feature
 effects:
-  - effect: You gain 2 piety the first time in an encounter that an ally within 10
-      squares obtains a tier 3 outcome on a power roll, or an enemy within 10
-      squares obtains a tier 1 outcome on a power roll.
-    name: Piety
-  - effect: You call on the forces of fate to create a reliable future. Choose a
-      creature within 10 squares. That creature automatically obtains a tier 1
-      or tier 3 outcome (your choice) on their next power roll made before the
-      end of the encounter.
-    name: Prayer Effect
+  - effect: "- **Piety:** You gain 2 piety the first time in an encounter that an
+      ally within 10 squares obtains a tier 3 outcome on a power roll, or an
+      enemy within 10 squares obtains a tier 1 outcome on a power roll."
+  - effect: "- **Prayer Effect:** You call on the forces of fate to create a
+      reliable future. Choose a creature within 10 squares. That creature
+      automatically obtains a tier 1 or tier 3 outcome (your choice) on their
+      next power roll made before the end of the encounter."
 ```

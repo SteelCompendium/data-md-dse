@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.1.5:02
 source: mcdm.heroes.v1
+subclass: Chronopathy
 type: feature/trait/talent/5th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.1.5:02
   source: mcdm.heroes.v1
+  subclass: Chronopathy
   type: feature/trait/talent/5th-level-feature
 effects:
   - effect: Once per combat round while you are not dying, you can spend 2 clarity

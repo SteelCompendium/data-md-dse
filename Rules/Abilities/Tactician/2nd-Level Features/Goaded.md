@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.4.6:01
 source: mcdm.heroes.v1
+subclass: Mastermind
 type: feature/trait/tactician/2nd-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.4.6:01
   source: mcdm.heroes.v1
+  subclass: Mastermind
   type: feature/trait/tactician/2nd-level-feature
 effects:
   - effect: You have learned to leverage your marked foes' psychology and goad them

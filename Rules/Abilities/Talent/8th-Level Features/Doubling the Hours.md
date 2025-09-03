@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.1.2:01
 source: mcdm.heroes.v1
+subclass: Chronopathy
 type: feature/trait/talent/8th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.1.2:01
   source: mcdm.heroes.v1
+  subclass: Chronopathy
   type: feature/trait/talent/8th-level-feature
 effects:
   - effect: While you have 5 or more Victories, you can undertake an additional

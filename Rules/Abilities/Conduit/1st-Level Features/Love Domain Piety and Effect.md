@@ -33,11 +33,9 @@ metadata:
   source: mcdm.heroes.v1
   type: feature/trait/conduit/1st-level-feature
 effects:
-  - effect: You gain 2 piety the first time in an encounter that you or any ally
-      within 10 squares uses the Aid Attack maneuver or an ability that targets
-      an ally.
-    name: Piety
-  - effect: Each ally within 10 squares of you gains temporary Stamina equal to two
-      times your Intuition score.
-    name: Prayer Effect
+  - effect: "- **Piety:** You gain 2 piety the first time in an encounter that you
+      or any ally within 10 squares uses the Aid Attack maneuver or an ability
+      that targets an ally."
+  - effect: "- **Prayer Effect:** Each ally within 10 squares of you gains temporary
+      Stamina equal to two times your Intuition score."
 ```

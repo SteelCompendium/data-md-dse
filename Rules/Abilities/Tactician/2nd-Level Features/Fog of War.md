@@ -21,6 +21,7 @@ scc:
 scdc:
 - 1.1.1:13.2.4.5:05
 source: mcdm.heroes.v1
+subclass: Insurgent
 target: Two creatures
 type: feature/ability/tactician/2nd-level-feature
 ---
@@ -58,6 +59,7 @@ metadata:
   scdc:
     - 1.1.1:13.2.4.5:05
   source: mcdm.heroes.v1
+  subclass: Insurgent
   target: Two creatures
   type: feature/ability/tactician/2nd-level-feature
 effects:

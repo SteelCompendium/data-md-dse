@@ -19,6 +19,7 @@ scc:
 scdc:
 - 1.1.1:13.2.9.2:03
 source: mcdm.heroes.v1
+subclass: Earth
 target: Special
 type: feature/ability/elementalist/8th-level-feature
 ---
@@ -54,6 +55,7 @@ metadata:
   scdc:
     - 1.1.1:13.2.9.2:03
   source: mcdm.heroes.v1
+  subclass: Earth
   target: Special
   type: feature/ability/elementalist/8th-level-feature
 effects:

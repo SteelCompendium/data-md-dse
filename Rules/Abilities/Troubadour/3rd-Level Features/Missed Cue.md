@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.3.7:02
 source: mcdm.heroes.v1
+subclass: Auteur
 type: feature/trait/troubadour/3rd-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.3.7:02
   source: mcdm.heroes.v1
+  subclass: Auteur
   type: feature/trait/troubadour/3rd-level-feature
 effects:
   - effect: If you aren't surprised at the start of an encounter, you can choose one

@@ -21,6 +21,7 @@ scc:
 scdc:
 - 1.1.1:13.2.4.3:01
 source: mcdm.heroes.v1
+subclass: Mastermind
 target: Three creatures
 type: feature/ability/tactician/6th-level-feature
 ---
@@ -58,6 +59,7 @@ metadata:
   scdc:
     - 1.1.1:13.2.4.3:01
   source: mcdm.heroes.v1
+  subclass: Mastermind
   target: Three creatures
   type: feature/ability/tactician/6th-level-feature
 effects:

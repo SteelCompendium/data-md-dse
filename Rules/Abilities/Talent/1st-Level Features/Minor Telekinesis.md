@@ -19,6 +19,7 @@ scc:
 scdc:
 - 1.1.1:13.2.1.1:02
 source: mcdm.heroes.v1
+subclass: Telekinesis
 target: Self or one size 1 creature or object
 type: feature/ability/talent/1st-level-feature
 ---
@@ -54,6 +55,7 @@ metadata:
   scdc:
     - 1.1.1:13.2.1.1:02
   source: mcdm.heroes.v1
+  subclass: Telekinesis
   target: Self or one size 1 creature or object
   type: feature/ability/talent/1st-level-feature
 effects:

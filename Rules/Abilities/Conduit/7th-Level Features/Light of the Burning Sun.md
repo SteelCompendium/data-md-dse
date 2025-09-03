@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.8.9:11
 source: mcdm.heroes.v1
+subclass: Sun
 type: feature/trait/conduit/7th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.8.9:11
   source: mcdm.heroes.v1
+  subclass: Sun
   type: feature/trait/conduit/7th-level-feature
 effects:
   - effect: Sun infuses your body. Whenever you use an ability to deal rolled damage

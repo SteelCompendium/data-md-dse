@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.4.9:06
 source: mcdm.heroes.v1
+subclass: Vanguard
 type: feature/trait/tactician/7th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.4.9:06
   source: mcdm.heroes.v1
+  subclass: Vanguard
   type: feature/trait/tactician/7th-level-feature
 effects:
   - effect: You have expanded your leadership skills, strengthening your followers'

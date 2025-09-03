@@ -19,6 +19,7 @@ scc:
 scdc:
 - 1.1.1:13.2.3.4:04
 source: mcdm.heroes.v1
+subclass: Auteur
 target: Self and each ally in the area
 type: feature/ability/troubadour/5th-level-feature
 ---
@@ -54,6 +55,7 @@ metadata:
   scdc:
     - 1.1.1:13.2.3.4:04
   source: mcdm.heroes.v1
+  subclass: Auteur
   target: Self and each ally in the area
   type: feature/ability/troubadour/5th-level-feature
 effects:

@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.1.5:04
 source: mcdm.heroes.v1
+subclass: Telekinesis
 type: feature/trait/talent/5th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.1.5:04
   source: mcdm.heroes.v1
+  subclass: Telekinesis
   type: feature/trait/talent/5th-level-feature
 effects:
   - effect: Whenever you force move a creature, you can spend up to 2 surges. For

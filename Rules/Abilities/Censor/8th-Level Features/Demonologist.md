@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.7.2:02
 source: mcdm.heroes.v1
+subclass: Exorcist
 type: feature/trait/censor/8th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.7.2:02
   source: mcdm.heroes.v1
+  subclass: Exorcist
   type: feature/trait/censor/8th-level-feature
 effects:
   - effect: The most esoteric secrets of your order teach you that to defeat your

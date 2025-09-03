@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.5.2:03
 source: mcdm.heroes.v1
+subclass: Berserker
 type: feature/trait/fury/8th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.5.2:03
   source: mcdm.heroes.v1
+  subclass: Berserker
   type: feature/trait/fury/8th-level-feature
 effects:
   - effect: Your strength is unmatched. Whenever you make a Might test, you can roll

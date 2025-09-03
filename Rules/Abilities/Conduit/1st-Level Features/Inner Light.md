@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.8.1:06
 source: mcdm.heroes.v1
+subclass: Sun
 type: feature/trait/conduit/1st-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.8.1:06
   source: mcdm.heroes.v1
+  subclass: Sun
   type: feature/trait/conduit/1st-level-feature
 effects:
   - effect: Each time you finish a respite, you can choose yourself or one ally who

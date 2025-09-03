@@ -23,6 +23,7 @@ scc:
 scdc:
 - 1.1.1:13.2.1.3:03
 source: mcdm.heroes.v1
+subclass: Telekinesis
 target: Each creature and object in the area
 type: feature/ability/talent/6th-level-feature
 ---
@@ -64,6 +65,7 @@ metadata:
   scdc:
     - 1.1.1:13.2.1.3:03
   source: mcdm.heroes.v1
+  subclass: Telekinesis
   target: Each creature and object in the area
   type: feature/ability/talent/6th-level-feature
 effects:

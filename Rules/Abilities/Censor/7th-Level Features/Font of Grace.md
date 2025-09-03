@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.7.9:13
 source: mcdm.heroes.v1
+subclass: Life
 type: feature/trait/censor/7th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.7.9:13
   source: mcdm.heroes.v1
+  subclass: Life
   type: feature/trait/censor/7th-level-feature
 effects:
   - effect: Each time you use your My Life for Yours ability, you gain 1 wrath that

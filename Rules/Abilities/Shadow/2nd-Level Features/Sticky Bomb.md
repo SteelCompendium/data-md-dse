@@ -20,6 +20,7 @@ scc:
 scdc:
 - 1.1.1:13.2.2.5:01
 source: mcdm.heroes.v1
+subclass: Caustic Alchemy
 target: One creature
 type: feature/ability/shadow/2nd-level-feature
 ---
@@ -55,6 +56,7 @@ metadata:
   scdc:
     - 1.1.1:13.2.2.5:01
   source: mcdm.heroes.v1
+  subclass: Caustic Alchemy
   target: One creature
   type: feature/ability/shadow/2nd-level-feature
 effects:

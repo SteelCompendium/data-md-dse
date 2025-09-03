@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.5.6:02
 source: mcdm.heroes.v1
+subclass: Berserker
 type: feature/trait/fury/2nd-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.5.6:02
   source: mcdm.heroes.v1
+  subclass: Berserker
   type: feature/trait/fury/2nd-level-feature
 effects:
   - effect: Whenever you use the Charge main action, you can use a strike signature

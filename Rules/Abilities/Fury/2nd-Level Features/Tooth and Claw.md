@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.5.6:04
 source: mcdm.heroes.v1
+subclass: Stormwight
 type: feature/trait/fury/2nd-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.5.6:04
   source: mcdm.heroes.v1
+  subclass: Stormwight
   type: feature/trait/fury/2nd-level-feature
 effects:
   - effect: At the end of each of your turns, each enemy adjacent to you takes

@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.7.6:03
 source: mcdm.heroes.v1
+subclass: Paragon
 type: feature/trait/censor/2nd-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.7.6:03
   source: mcdm.heroes.v1
+  subclass: Paragon
   type: feature/trait/censor/2nd-level-feature
 effects:
   - effect: Your devotion to your deity allows you to take command of the

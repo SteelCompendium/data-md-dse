@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.8.10:12
 source: mcdm.heroes.v1
+subclass: Love
 type: feature/trait/conduit/4th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.8.10:12
   source: mcdm.heroes.v1
+  subclass: Love
   type: feature/trait/conduit/4th-level-feature
 effects:
   - effect: As a main action, you forge a bond of love and friendship with a willing

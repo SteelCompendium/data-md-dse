@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.7.10:14
 source: mcdm.heroes.v1
+subclass: Knowledge
 type: feature/trait/censor/4th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.7.10:14
   source: mcdm.heroes.v1
+  subclass: Knowledge
   type: feature/trait/censor/4th-level-feature
 effects:
   - effect: At the start of a respite, you can inspire yourself or another creature

@@ -20,6 +20,7 @@ scc:
 scdc:
 - 1.1.1:13.2.3.1:23
 source: mcdm.heroes.v1
+subclass: Virtuoso
 target: One ally
 type: feature/ability/troubadour/1st-level-feature
 ---
@@ -57,6 +58,7 @@ metadata:
   scdc:
     - 1.1.1:13.2.3.1:23
   source: mcdm.heroes.v1
+  subclass: Virtuoso
   target: One ally
   type: feature/ability/troubadour/1st-level-feature
 effects:

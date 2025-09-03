@@ -22,6 +22,7 @@ scc:
 scdc:
 - 1.1.1:13.2.7.7:01
 source: mcdm.heroes.v1
+subclass: Exorcist
 target: One creature
 type: feature/ability/censor/9th-level-feature
 ---
@@ -61,6 +62,7 @@ metadata:
   scdc:
     - 1.1.1:13.2.7.7:01
   source: mcdm.heroes.v1
+  subclass: Exorcist
   target: One creature
   type: feature/ability/censor/9th-level-feature
 effects:

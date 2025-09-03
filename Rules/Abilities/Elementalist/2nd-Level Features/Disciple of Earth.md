@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.9.6:03
 source: mcdm.heroes.v1
+subclass: Earth
 type: feature/trait/elementalist/2nd-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.9.6:03
   source: mcdm.heroes.v1
+  subclass: Earth
   type: feature/trait/elementalist/2nd-level-feature
 effects:
   - effect: Your body is strengthened by your mind's connection to the element of

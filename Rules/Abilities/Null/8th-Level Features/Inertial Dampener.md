@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.6.2:03
 source: mcdm.heroes.v1
+subclass: Metakinetic
 type: feature/trait/null/8th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.6.2:03
   source: mcdm.heroes.v1
+  subclass: Metakinetic
   type: feature/trait/null/8th-level-feature
 effects:
   - effect: You and each creature or object of your choice in the area of your Null

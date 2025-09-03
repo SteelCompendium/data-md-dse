@@ -17,6 +17,7 @@ scc:
 scdc:
 - 1.1.1:13.2.3.1:12
 source: mcdm.heroes.v1
+subclass: Duelist
 target: Self or one ally
 type: feature/ability/troubadour/1st-level-feature
 ---
@@ -49,6 +50,7 @@ metadata:
   scdc:
     - 1.1.1:13.2.3.1:12
   source: mcdm.heroes.v1
+  subclass: Duelist
   target: Self or one ally
   type: feature/ability/troubadour/1st-level-feature
 effects:

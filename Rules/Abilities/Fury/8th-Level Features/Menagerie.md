@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.5.2:01
 source: mcdm.heroes.v1
+subclass: Stormwight
 type: feature/trait/fury/8th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.5.2:01
   source: mcdm.heroes.v1
+  subclass: Stormwight
   type: feature/trait/fury/8th-level-feature
 effects:
   - effect: You can use all stormwight kits. During a respite, you can choose to

@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.1.5:01
 source: mcdm.heroes.v1
+subclass: Telepathy
 type: feature/trait/talent/5th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.1.5:01
   source: mcdm.heroes.v1
+  subclass: Telepathy
   type: feature/trait/talent/5th-level-feature
 effects:
   - effect: The distance of your ranged psionic abilities increases by 5.

@@ -33,12 +33,11 @@ metadata:
   source: mcdm.heroes.v1
   type: feature/trait/conduit/1st-level-feature
 effects:
-  - effect: You gain 2 piety the first time in an encounter that a creature within
-      10 squares who isn't a minion is reduced to 0 Stamina, or the first time
-      in an encounter that a solo creature within 10 squares becomes winded.
-    name: Piety
-  - effect: You inflict a deadly curse on up to two enemies within 10 squares of
-      you. Each target takes corruption damage equal to twice your Intuition
-      score.
-    name: Prayer Effect
+  - effect: "- **Piety:** You gain 2 piety the first time in an encounter that a
+      creature within 10 squares who isn't a minion is reduced to 0 Stamina, or
+      the first time in an encounter that a solo creature within 10 squares
+      becomes winded."
+  - effect: "- **Prayer Effect:** You inflict a deadly curse on up to two enemies
+      within 10 squares of you. Each target takes corruption damage equal to
+      twice your Intuition score."
 ```

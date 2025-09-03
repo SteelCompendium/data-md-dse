@@ -20,6 +20,7 @@ scc:
 scdc:
 - 1.1.1:13.2.6.3:05
 source: mcdm.heroes.v1
+subclass: Chronokinetic
 target: Self
 type: feature/ability/null/6th-level-feature
 ---
@@ -55,6 +56,7 @@ metadata:
   scdc:
     - 1.1.1:13.2.6.3:05
   source: mcdm.heroes.v1
+  subclass: Chronokinetic
   target: Self
   type: feature/ability/null/6th-level-feature
 effects:

@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.7.10:12
 source: mcdm.heroes.v1
+subclass: Sun
 type: feature/trait/censor/4th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.7.10:12
   source: mcdm.heroes.v1
+  subclass: Sun
   type: feature/trait/censor/4th-level-feature
 effects:
   - effect: As a maneuver, you make your body shine brightly, illuminating your

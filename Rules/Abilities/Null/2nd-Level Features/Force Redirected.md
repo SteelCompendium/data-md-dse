@@ -23,6 +23,7 @@ scc:
 scdc:
 - 1.1.1:13.2.6.5:06
 source: mcdm.heroes.v1
+subclass: Chronokinetic
 target: One creature
 type: feature/ability/null/2nd-level-feature
 ---
@@ -64,6 +65,7 @@ metadata:
   scdc:
     - 1.1.1:13.2.6.5:06
   source: mcdm.heroes.v1
+  subclass: Chronokinetic
   target: One creature
   type: feature/ability/null/2nd-level-feature
 effects:

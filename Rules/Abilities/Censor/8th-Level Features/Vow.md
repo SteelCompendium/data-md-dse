@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.7.2:04
 source: mcdm.heroes.v1
+subclass: Paragon
 type: feature/trait/censor/8th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.7.2:04
   source: mcdm.heroes.v1
+  subclass: Paragon
   type: feature/trait/censor/8th-level-feature
 effects:
   - effect: Your words take on the power of your deity, with all the authority that

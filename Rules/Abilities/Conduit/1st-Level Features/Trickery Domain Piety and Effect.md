@@ -33,10 +33,8 @@ metadata:
   source: mcdm.heroes.v1
   type: feature/trait/conduit/1st-level-feature
 effects:
-  - effect: You gain 2 piety the first time in an encounter that you or a creature
-      within 10 squares takes the Aid Attack or Hide maneuver.
-    name: Piety
-  - effect: You slide one creature within 10 squares of you up to a number of
-      squares equal to 5 + your conduit level.
-    name: Prayer Effect
+  - effect: "- **Piety:** You gain 2 piety the first time in an encounter that you
+      or a creature within 10 squares takes the Aid Attack or Hide maneuver."
+  - effect: "- **Prayer Effect:** You slide one creature within 10 squares of you up
+      to a number of squares equal to 5 + your conduit level."
 ```

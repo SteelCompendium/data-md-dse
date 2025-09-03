@@ -23,6 +23,7 @@ scc:
 scdc:
 - 1.1.1:13.2.2.5:05
 source: mcdm.heroes.v1
+subclass: Harlequin Mask
 target: Each creature in the area
 type: feature/ability/shadow/2nd-level-feature
 ---
@@ -64,6 +65,7 @@ metadata:
   scdc:
     - 1.1.1:13.2.2.5:05
   source: mcdm.heroes.v1
+  subclass: Harlequin Mask
   target: Each creature in the area
   type: feature/ability/shadow/2nd-level-feature
 effects:

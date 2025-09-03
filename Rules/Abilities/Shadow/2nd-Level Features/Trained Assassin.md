@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.2.6:04
 source: mcdm.heroes.v1
+subclass: Caustic Alchemy
 type: feature/trait/shadow/2nd-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.2.6:04
   source: mcdm.heroes.v1
+  subclass: Caustic Alchemy
   type: feature/trait/shadow/2nd-level-feature
 effects:
   - effect: You know just where to cut your enemies. Whenever you make a strike that

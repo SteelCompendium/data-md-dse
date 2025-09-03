@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.6.2:04
 source: mcdm.heroes.v1
+subclass: Chronokinetic
 type: feature/trait/null/8th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.6.2:04
   source: mcdm.heroes.v1
+  subclass: Chronokinetic
   type: feature/trait/null/8th-level-feature
 effects:
   - effect: When you take the Disengage move action, one ally in the area of your

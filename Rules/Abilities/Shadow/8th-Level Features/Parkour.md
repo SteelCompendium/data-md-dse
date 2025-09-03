@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.2.2:03
 source: mcdm.heroes.v1
+subclass: Harlequin Mask
 type: feature/trait/shadow/8th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.2.2:03
   source: mcdm.heroes.v1
+  subclass: Harlequin Mask
   type: feature/trait/shadow/8th-level-feature
 effects:
   - effect: Your movement no longer provokes opportunity attacks. Additionally, you

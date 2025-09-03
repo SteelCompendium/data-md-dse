@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.4.6:03
 source: mcdm.heroes.v1
+subclass: Insurgent
 type: feature/trait/tactician/2nd-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.4.6:03
   source: mcdm.heroes.v1
+  subclass: Insurgent
   type: feature/trait/tactician/2nd-level-feature
 effects:
   - effect: You have trained your squad to work together, stay silent, and wait for

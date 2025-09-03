@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.8.10:06
 source: mcdm.heroes.v1
+subclass: War
 type: feature/trait/conduit/4th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.8.10:06
   source: mcdm.heroes.v1
+  subclass: War
   type: feature/trait/conduit/4th-level-feature
 effects:
   - effect: The weapon improved by your Sanctified Weapon feature grants a +3 bonus

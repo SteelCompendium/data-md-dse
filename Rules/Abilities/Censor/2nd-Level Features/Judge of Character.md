@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.7.6:06
 source: mcdm.heroes.v1
+subclass: Oracle
 type: feature/trait/censor/2nd-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.7.6:06
   source: mcdm.heroes.v1
+  subclass: Oracle
   type: feature/trait/censor/2nd-level-feature
 effects:
   - effect: Your focus on your fragmentary visions grants divine insight into the

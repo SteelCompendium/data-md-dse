@@ -33,10 +33,8 @@ metadata:
   source: mcdm.heroes.v1
   type: feature/trait/conduit/1st-level-feature
 effects:
-  - effect: You gain 2 piety the first time in an encounter that an enemy within 10
-      squares takes fire or holy damage.
-    name: Piety
-  - effect: One enemy within 10 squares takes fire damage equal to three times your
-      Intuition score.
-    name: Prayer Effect
+  - effect: "- **Piety:** You gain 2 piety the first time in an encounter that an
+      enemy within 10 squares takes fire or holy damage."
+  - effect: "- **Prayer Effect:** One enemy within 10 squares takes fire damage
+      equal to three times your Intuition score."
 ```

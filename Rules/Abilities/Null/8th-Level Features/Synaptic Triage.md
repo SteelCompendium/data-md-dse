@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.6.2:01
 source: mcdm.heroes.v1
+subclass: Cryokinetic
 type: feature/trait/null/8th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.6.2:01
   source: mcdm.heroes.v1
+  subclass: Cryokinetic
   type: feature/trait/null/8th-level-feature
 effects:
   - effect: As a free maneuver, you can spend 1d6 Stamina to remove one effect on

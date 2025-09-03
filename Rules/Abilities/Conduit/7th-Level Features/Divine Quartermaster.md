@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.8.9:06
 source: mcdm.heroes.v1
+subclass: Creation
 type: feature/trait/conduit/7th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.8.9:06
   source: mcdm.heroes.v1
+  subclass: Creation
   type: feature/trait/conduit/7th-level-feature
 effects:
   - effect: Each time you finish a respite, you can choose a treasure with a project

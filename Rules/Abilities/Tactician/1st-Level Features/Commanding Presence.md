@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.4.1:08
 source: mcdm.heroes.v1
+subclass: Vanguard
 type: feature/trait/tactician/1st-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.4.1:08
   source: mcdm.heroes.v1
+  subclass: Vanguard
   type: feature/trait/tactician/1st-level-feature
 effects:
   - effect: You command any room you walk into. While you are present during a

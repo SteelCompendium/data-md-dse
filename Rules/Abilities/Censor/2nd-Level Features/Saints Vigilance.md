@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.7.6:07
 source: mcdm.heroes.v1
+subclass: Exorcist
 type: feature/trait/censor/2nd-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.7.6:07
   source: mcdm.heroes.v1
+  subclass: Exorcist
   type: feature/trait/censor/2nd-level-feature
 effects:
   - effect: You have honed your ability to detect sin and can use it to find those

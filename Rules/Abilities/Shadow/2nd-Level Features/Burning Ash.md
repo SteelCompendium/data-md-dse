@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.2.6:03
 source: mcdm.heroes.v1
+subclass: Black Ash
 type: feature/trait/shadow/2nd-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.2.6:03
   source: mcdm.heroes.v1
+  subclass: Black Ash
   type: feature/trait/shadow/2nd-level-feature
 effects:
   - effect: The ash you leave behind burns your foes. The first time on a turn that

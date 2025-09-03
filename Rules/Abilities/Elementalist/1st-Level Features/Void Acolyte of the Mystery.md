@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.9.1:10
 source: mcdm.heroes.v1
+subclass: Void
 type: feature/trait/elementalist/1st-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.9.1:10
   source: mcdm.heroes.v1
+  subclass: Void
   type: feature/trait/elementalist/1st-level-feature
 effects:
   - effect: You use your immersion in the mystery of void magic to expand the reach

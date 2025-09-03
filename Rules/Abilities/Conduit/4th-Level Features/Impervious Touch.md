@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.8.10:10
 source: mcdm.heroes.v1
+subclass: Protection
 type: feature/trait/conduit/4th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.8.10:10
   source: mcdm.heroes.v1
+  subclass: Protection
   type: feature/trait/conduit/4th-level-feature
 effects:
   - effect: >-

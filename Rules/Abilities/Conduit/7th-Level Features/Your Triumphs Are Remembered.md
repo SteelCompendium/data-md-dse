@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.8.9:03
 source: mcdm.heroes.v1
+subclass: War
 type: feature/trait/conduit/7th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.8.9:03
   source: mcdm.heroes.v1
+  subclass: War
   type: feature/trait/conduit/7th-level-feature
 effects:
   - effect: The gods allow you and your companions to bask in the glory of past

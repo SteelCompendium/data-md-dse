@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.8.1:27
 source: mcdm.heroes.v1
+subclass: War
 type: feature/trait/conduit/1st-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.8.1:27
   source: mcdm.heroes.v1
+  subclass: War
   type: feature/trait/conduit/1st-level-feature
 effects:
   - effect: As a respite activity, you can bless a weapon. Any creature who wields

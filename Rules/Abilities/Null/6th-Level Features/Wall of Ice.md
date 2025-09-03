@@ -22,6 +22,7 @@ scc:
 scdc:
 - 1.1.1:13.2.6.3:03
 source: mcdm.heroes.v1
+subclass: Cryokinetic
 target: Special
 type: feature/ability/null/6th-level-feature
 ---
@@ -61,6 +62,7 @@ metadata:
   scdc:
     - 1.1.1:13.2.6.3:03
   source: mcdm.heroes.v1
+  subclass: Cryokinetic
   target: Special
   type: feature/ability/null/6th-level-feature
 effects:

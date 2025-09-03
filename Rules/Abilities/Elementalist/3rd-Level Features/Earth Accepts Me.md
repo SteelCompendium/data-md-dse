@@ -18,6 +18,7 @@ scc:
 scdc:
 - 1.1.1:13.2.9.6:05
 source: mcdm.heroes.v1
+subclass: Earth
 target: Self
 type: feature/ability/elementalist/3rd-level-feature
 ---
@@ -51,6 +52,7 @@ metadata:
   scdc:
     - 1.1.1:13.2.9.6:05
   source: mcdm.heroes.v1
+  subclass: Earth
   target: Self
   type: feature/ability/elementalist/3rd-level-feature
 effects:

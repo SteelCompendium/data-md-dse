@@ -19,6 +19,7 @@ scc:
 scdc:
 - 1.1.1:13.2.9.6:01
 source: mcdm.heroes.v1
+subclass: Green
 target: One mundane wooden object
 type: feature/ability/elementalist/3rd-level-feature
 ---
@@ -54,6 +55,7 @@ metadata:
   scdc:
     - 1.1.1:13.2.9.6:01
   source: mcdm.heroes.v1
+  subclass: Green
   target: One mundane wooden object
   type: feature/ability/elementalist/3rd-level-feature
 effects:

@@ -12,6 +12,7 @@ scc:
 scdc:
 - 1.1.1:13.1.4.5:02
 source: mcdm.heroes.v1
+subclass: Mastermind
 type: feature/trait/tactician/5th-level-feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
   scdc:
     - 1.1.1:13.1.4.5:02
   source: mcdm.heroes.v1
+  subclass: Mastermind
   type: feature/trait/tactician/5th-level-feature
 effects:
   - effect: You have learned to be more preemptive on the battlefield, thinking more
