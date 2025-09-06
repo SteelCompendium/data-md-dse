@@ -7,7 +7,7 @@ ancestry:
 ev: '48'
 file_basename: Castellan Hoplon
 file_dpath: Monsters/War Dogs/Statblocks
-free_strike: 0
+free_strike: 10
 intuition: 3
 item_id: castellan-hoplon
 item_index: '387'
@@ -25,8 +25,8 @@ scdc:
 size: 1M
 source: mcdm.monsters.v1
 speed: 5
-stability: 1
-stamina: '2603'
+stability: 3
+stamina: '260'
 type: monster
 ---
 
@@ -40,13 +40,13 @@ ancestry:
   - Soulless
   - War Dog
 ev: "48"
-stamina: "2603"
+stamina: "260"
 immunities:
   - Damage 3
 speed: 5
 size: 1M
-stability: 1
-free_strike: 0
+stability: 3
+free_strike: 10
 might: 5
 agility: 2
 reason: 4

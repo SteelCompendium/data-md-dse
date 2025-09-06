@@ -3,7 +3,7 @@ agility: 1
 ancestry:
 - Humanoid
 - Orc
-ev: 3 for four minion
+ev: 3 for four minions
 file_basename: Orc Bloodspark
 file_dpath: Monsters/Orcs/Statblocks
 free_strike: 2
@@ -37,7 +37,7 @@ roles:
 ancestry:
   - Humanoid
   - Orc
-ev: 3 for four minion
+ev: 3 for four minions
 stamina: "3"
 speed: 6
 size: 1M

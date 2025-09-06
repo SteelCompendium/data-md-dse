@@ -7,7 +7,7 @@ ancestry:
 ev: '48'
 file_basename: Iron Champion Doru
 file_dpath: Monsters/War Dogs/Statblocks
-free_strike: 0
+free_strike: 10
 intuition: 4
 item_id: iron-champion-doru
 item_index: '379'
@@ -25,8 +25,8 @@ scdc:
 size: 1L
 source: mcdm.monsters.v1
 speed: 5
-stability: 1
-stamina: '2602'
+stability: 2
+stamina: '260'
 type: monster
 ---
 
@@ -40,11 +40,11 @@ ancestry:
   - Soulless
   - War Dog
 ev: "48"
-stamina: "2602"
+stamina: "260"
 speed: 5
 size: 1L
-stability: 1
-free_strike: 0
+stability: 2
+free_strike: 10
 might: 5
 agility: 4
 reason: 1

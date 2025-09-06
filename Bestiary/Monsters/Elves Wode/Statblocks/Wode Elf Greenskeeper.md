@@ -3,7 +3,7 @@ agility: 2
 ancestry:
 - Fey
 - Humanoid
-- Wide Elf
+- Wode Elf
 ev: '6'
 file_basename: Wode Elf Greenskeeper
 file_dpath: Monsters/Elves Wode/Statblocks
@@ -38,7 +38,7 @@ roles:
 ancestry:
   - Fey
   - Humanoid
-  - Wide Elf
+  - Wode Elf
 ev: "6"
 stamina: "40"
 speed: 7

@@ -8,7 +8,7 @@ ancestry:
 ev: '48'
 file_basename: Servok War Engine
 file_dpath: Monsters/Valok/Statblocks
-free_strike: 0
+free_strike: 10
 intuition: -1
 item_id: servok-war-engine
 item_index: '329'
@@ -26,8 +26,8 @@ scdc:
 size: '3'
 source: mcdm.monsters.v1
 speed: 5
-stability: 1
-stamina: '2608'
+stability: 8
+stamina: '260'
 type: monster
 ---
 
@@ -42,11 +42,11 @@ ancestry:
   - Soulless
   - Valok
 ev: "48"
-stamina: "2608"
+stamina: "260"
 speed: 5
 size: "3"
-stability: 1
-free_strike: 0
+stability: 8
+free_strike: 10
 might: 5
 agility: -2
 reason: -4

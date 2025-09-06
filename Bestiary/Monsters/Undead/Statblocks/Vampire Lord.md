@@ -22,9 +22,9 @@ scdc:
 - 1.1.1:2:72
 size: 1M
 source: mcdm.monsters.v1
-speed: 1
+speed: 12
 stability: 3
-stamina: '2200'
+stamina: '200'
 type: monster
 ---
 
@@ -36,11 +36,11 @@ roles:
 ancestry:
   - Undead
 ev: "36"
-stamina: "2200"
+stamina: "200"
 immunities:
   - Corruption 9
   - poison 9
-speed: 1
+speed: 12
 movement: Climb, hover, teleport
 size: 1M
 stability: 3

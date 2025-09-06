@@ -24,9 +24,9 @@ scdc:
 - 1.1.1:2:246
 size: 1M
 source: mcdm.monsters.v1
-speed: 1
+speed: 10
 stability: 5
-stamina: '0420'
+stamina: '420'
 type: monster
 ---
 
@@ -40,8 +40,8 @@ ancestry:
   - Humanoid
   - Medusa
 ev: "84"
-stamina: "0420"
-speed: 1
+stamina: "420"
+speed: 10
 size: 1M
 stability: 5
 free_strike: 8

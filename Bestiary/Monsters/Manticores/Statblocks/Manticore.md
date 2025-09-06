@@ -23,9 +23,9 @@ scdc:
 - 1.1.1:2:348
 size: '2'
 source: mcdm.monsters.v1
-speed: 1
+speed: 10
 stability: 2
-stamina: '0350'
+stamina: '350'
 type: monster
 ---
 
@@ -38,8 +38,8 @@ ancestry:
   - Beast
   - Manticore
 ev: "72"
-stamina: "0350"
-speed: 1
+stamina: "350"
+speed: 10
 movement: Fly
 size: "2"
 stability: 2

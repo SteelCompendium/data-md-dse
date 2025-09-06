@@ -2,7 +2,7 @@
 agility: 1
 ancestry:
 - Kobold
-- Humanoid
+- Beast
 ev: '12'
 file_basename: Shieldscale Drangolin
 file_dpath: Monsters/Kobolds/Statblocks
@@ -21,7 +21,7 @@ scc:
 - mcdm.monsters.v1:monster:shieldscale-drangolin
 scdc:
 - 1.1.1:2:97
-size: 2 or 3 Size
+size: 2 or 3
 source: mcdm.monsters.v1
 speed: 7
 stability: 0
@@ -36,12 +36,12 @@ roles:
   - Elite Brute
 ancestry:
   - Kobold
-  - Humanoid
+  - Beast
 ev: "12"
 stamina: "80"
 speed: 7
 movement: Burrow
-size: 2 or 3 Size
+size: 2 or 3
 stability: 0
 free_strike: 5
 might: 2

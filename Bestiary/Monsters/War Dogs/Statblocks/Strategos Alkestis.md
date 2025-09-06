@@ -7,7 +7,7 @@ ancestry:
 ev: '48'
 file_basename: Strategos Alkestis
 file_dpath: Monsters/War Dogs/Statblocks
-free_strike: 0
+free_strike: 10
 intuition: 5
 item_id: strategos-alkestis
 item_index: '359'
@@ -25,8 +25,8 @@ scdc:
 size: 1M
 source: mcdm.monsters.v1
 speed: 5
-stability: 1
-stamina: '2602'
+stability: 2
+stamina: '260'
 type: monster
 ---
 
@@ -40,11 +40,11 @@ ancestry:
   - Soulless
   - War Dog
 ev: "48"
-stamina: "2602"
+stamina: "260"
 speed: 5
 size: 1M
-stability: 1
-free_strike: 0
+stability: 2
+free_strike: 10
 might: 4
 agility: 4
 reason: 5

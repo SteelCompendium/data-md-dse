@@ -23,9 +23,9 @@ scdc:
 - 1.1.1:2:206
 size: '2'
 source: mcdm.monsters.v1
-speed: 1
+speed: 10
 stability: 1
-stamina: '0100'
+stamina: '100'
 type: monster
 ---
 
@@ -38,8 +38,8 @@ ancestry:
   - Beast
   - Lightbender
 ev: "20"
-stamina: "0100"
-speed: 1
+stamina: "100"
+speed: 10
 size: "2"
 stability: 1
 free_strike: 6

@@ -23,9 +23,9 @@ scdc:
 - 1.1.1:2:139
 size: '2'
 source: mcdm.monsters.v1
-speed: 1
+speed: 10
 stability: 2
-stamina: '0120'
+stamina: '120'
 type: monster
 ---
 
@@ -38,10 +38,10 @@ ancestry:
   - Humanoid
   - Time Raider
 ev: "20"
-stamina: "0120"
+stamina: "120"
 immunities:
   - Psychic 5
-speed: 1
+speed: 10
 movement: Hover, teleport
 size: "2"
 stability: 2

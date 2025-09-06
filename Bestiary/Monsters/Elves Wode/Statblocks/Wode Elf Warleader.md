@@ -2,7 +2,8 @@
 agility: 3
 ancestry:
 - Fey
-- Humanoid. Wode Elf
+- Humanoid
+- Wode Elf
 ev: '20'
 file_basename: Wode Elf Warleader
 file_dpath: Monsters/Elves Wode/Statblocks
@@ -36,7 +37,8 @@ roles:
   - Leader
 ancestry:
   - Fey
-  - Humanoid. Wode Elf
+  - Humanoid
+  - Wode Elf
 ev: "20"
 stamina: "120"
 speed: 7
