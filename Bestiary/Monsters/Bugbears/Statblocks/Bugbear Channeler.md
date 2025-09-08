@@ -59,7 +59,8 @@ abilities:
     cost: Signature Ability
     keywords:
       - Magic
-      - Ranged. Strike
+      - Ranged
+      - Strike
     type: Main Action
     distance: Ranged 8
     target: Two creatures or objects

@@ -155,7 +155,7 @@ abilities:
         effect: Aurumvas summons treasures from his vaults into the area, then causes
           them to explode.
       - roll: Power Roll + 5
-        t1: 1 10 fire damage; push 1
-        t2: 2 15 fire damage; push 2
-        t3: 3 19 fire damage; push 3
+        t1: 10 fire damage; push 1
+        t2: 15 fire damage; push 2
+        t3: 19 fire damage; push 3
 ~~~

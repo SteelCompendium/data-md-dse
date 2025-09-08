@@ -110,6 +110,7 @@ abilities:
     effects:
       - effect: If the target is burning (see Fire and Brimstone), they take 6 fire
           damage.
+        name: Effect
   - name: Devilish Charm
     icon: ❗️
     cost: 2 Malice

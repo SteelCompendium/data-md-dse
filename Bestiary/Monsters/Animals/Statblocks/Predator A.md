@@ -66,7 +66,7 @@ abilities:
       - roll: Power Roll + 2
         t1: 7 damage
         t2: 10 damage; M < 1 prone
-        t3: 13 damage; M < 1 prone
+        t3: 13 damage; M < 2 prone
   - name: Ready to Strike
     icon: 👤
     keywords:

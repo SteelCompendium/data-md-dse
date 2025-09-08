@@ -60,7 +60,7 @@ traits:
           can't be reduced in any way.
   - name: Toxiferous
     effects:
-      - effect: Whenever an adjacent enemy grabs the daybringer or uses a me lee ability
+      - effect: Whenever an adjacent enemy grabs the daybringer or uses a melee ability
           against them, that enemy takes 3 poison damage.
 abilities:
   - name: Acid Grasp

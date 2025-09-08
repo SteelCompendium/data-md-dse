@@ -66,7 +66,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 
 > 🏹 **Shadow Drag (Signature Ability)**
 >
-> | **Magic, Ranged. Strike** |                 **Main Action** |
+> | **Magic, Ranged, Strike** |                 **Main Action** |
 > | ------------------------- | ------------------------------: |
 > | **📏 Ranged 8**           | **🎯 Two creatures or objects** |
 >
@@ -418,7 +418,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 |      **-**<br/> Immunity       | **-**<br/> Movement |         -          | **+3 bonus to speed**<br/> With Captain | **-**<br/> Weaknesses  |
 |       **+2**<br/> Might        | **+3**<br/> Agility | **+0**<br/> Reason |          **+0**<br/> Intuition          |  **+1**<br/> Presence  |
 
-> 🗡 **Cut 'Em Low! Signature Ability**
+> 🗡 **Cut 'Em Low! (Signature Ability)**
 >
 > | **Charge, Melee, Strike, Weapon** |                          **Main action** |
 > | --------------------------------- | ---------------------------------------: |

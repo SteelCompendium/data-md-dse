@@ -118,6 +118,9 @@ abilities:
     target: The triggering creature
     trigger: A creature targets the adjudicator with a strike.
     effects:
-      - effect: The target makes a Presence test
-        name: Effect
+      - name: Effect
+        effect: The target makes a Presence test
+        t1: The adjudicator chooses a new target for the strike.
+        t2: The adjudicator halves the triggering damage.
+        t3: The target takes a bane on the strike.
 ~~~

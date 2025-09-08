@@ -72,7 +72,7 @@ abilities:
       - roll: Power Roll + 2
         t1: 7 damage
         t2: 11 damage; push 1; M < 1 prone
-        t3: 14 damage; push 2; M < 1 prone
+        t3: 14 damage; push 2; M < 2 prone
   - name: Wild Swing
     icon: ❇️
     keywords:

@@ -96,7 +96,7 @@ abilities:
         t3: 5 damage; A < 3 bleeding (save ends); M < 2 dazed (save ends)
       - effect: The bredbeddle shifts up to 2 squares, and can target additional enemies
           who come within distance of this ability during the shift.
-        name: Malice
+        cost: 3 Malice
   - name: Lop
     icon: 🗡
     cost: 3 Malice

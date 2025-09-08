@@ -6,7 +6,7 @@ ancestry:
 ev: '48'
 file_basename: Logostician Vesper
 file_dpath: Monsters/War Dogs/Statblocks
-free_strike: 0
+free_strike: 10
 intuition: 4
 item_id: logostician-vesper
 item_index: '394'
@@ -23,9 +23,9 @@ scdc:
 - 1.1.1:2:394
 size: '2'
 source: mcdm.monsters.v1
-speed: 1
-stability: 1
-stamina: '02533'
+speed: 10
+stability: 3
+stamina: '253'
 type: monster
 ---
 
@@ -38,11 +38,11 @@ ancestry:
   - Soulless
   - War Dog
 ev: "48"
-stamina: "02533"
-speed: 1
+stamina: "253"
+speed: 10
 size: "2"
-stability: 1
-free_strike: 0
+stability: 3
+free_strike: 10
 might: 2
 agility: 1
 reason: 5

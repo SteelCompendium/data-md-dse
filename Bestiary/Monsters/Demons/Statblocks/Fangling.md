@@ -90,7 +90,6 @@ abilities:
     distance: 8 x 3 line within 1
     target: Each enemy in the area
     effects:
-      - effect: e 8 x 3 line within 1 x Each enemy in the area
       - roll: Power Roll + 2
         t1: 2 damage; pull 1; A < 1 bleeding (save ends)
         t2: 3 damage; pull 1; A < 2 bleeding (save ends)

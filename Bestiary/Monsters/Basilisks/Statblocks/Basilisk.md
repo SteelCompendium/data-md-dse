@@ -80,7 +80,7 @@ abilities:
       - Area
       - Magic
     type: Maneuver
-    distance: 5 × 2 line within 1
+    distance: 5 x 2 line within 1
     target: Special
     effects:
       - name: Special

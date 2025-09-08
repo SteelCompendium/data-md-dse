@@ -117,7 +117,7 @@ abilities:
       - Weapon
     type: Maneuver
     distance: Ranged 5
-    target: One creature or object 1
+    target: One creature or object
     effects:
       - roll: Power Roll + 5
         t1: No effect.

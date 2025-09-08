@@ -55,8 +55,9 @@ intuition: 0
 presence: 1
 traits: []
 abilities:
-  - name: Cut 'Em Low! Signature Ability
+  - name: Cut 'Em Low!
     icon: 🗡
+    cost: Signature Ability
     keywords:
       - Charge
       - Melee
