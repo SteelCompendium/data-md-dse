@@ -68,7 +68,7 @@ abilities:
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 4
-        t1: 14 fire damage; push
+        t1: 14 fire damage; push 2
         t2: 19 fire damage; push 4; A < 3 burning (save ends)
         t3: 23 fire damage; push 6; A < 4 burning (save ends)
       - effect: A burning creature takes 1d6 fire damage at the start of each of their

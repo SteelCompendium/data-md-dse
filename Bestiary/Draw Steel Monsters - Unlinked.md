@@ -8402,7 +8402,7 @@ At the start of any high elf's turn, you can spend Malice to activate one of the
 
 > ⭐️ **Thicket and Thorns**
 >
-> The brambleguard blocks line of effect for enemies. Each enemy who starts their turn adjacent to a brambleguard takes 4 damage
+> The brambleguard blocks line of effect for enemies. Each enemy who starts their turn adjacent to a brambleguard takes 4 damage.
 
 **<span class="steel-compendium-statblock">High Elf Bloodletter</span>**
 
@@ -8460,7 +8460,7 @@ At the start of any high elf's turn, you can spend Malice to activate one of the
 >
 > **5 Malice:** The ability takes the Area keyword and loses the Strike keyword, its distance becomes a 3 cube within 10, and it targets each enemy in the area.
 
-> 🗡 \*\*Kiss of Death \*\*
+> 🗡 **Kiss of Death**
 >
 > | **Magic, Melee** |            **Maneuver** |
 > | ---------------- | ----------------------: |
@@ -9410,7 +9410,7 @@ one of the following features.
 
 **<span class="steel-compendium-malice">Wode Elf Malice (Malice Features)</span>**
 
-At the start of any wode elf's turn, you can spend Malice to activate
+At the start of any wode elf's turn, you can spend Malice to activate one of the following features.
 
 > ⭐️ **Forest Network (3 Malice)**
 >
@@ -10344,7 +10344,7 @@ At the start of any giant's turn, you can spend Malice to activate one of the fo
 > | ----------- | -----------: |
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The basalt stone giant moves up to their speed. Each square that they leave during this move is difficult terrain for enemies Giants ignore this difficult terrain.
+> **Effect:** The basalt stone giant moves up to their speed. Each square that they leave during this move is difficult terrain for enemies. Giants ignore this difficult terrain.
 
 > ❗️ **Resonate Rune**
 >
@@ -10444,7 +10444,7 @@ At the start of any giant's turn, you can spend Malice to activate one of the fo
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 14 fire damage; push
+> - **≤11:** 14 fire damage; push 2
 > - **12-16:** 19 fire damage; push 4; A < 3 burning (save ends)
 > - **17+:** 23 fire damage; push 6; A < 4 burning (save ends)
 >
@@ -10487,7 +10487,7 @@ At the start of any giant's turn, you can spend Malice to activate one of the fo
 > - **12-16:** Weakened (EoT)
 > - **17+:** No effect
 
-> ❗️ \*\*Guardian Block \*\*
+> ❗️ **Guardian Block**
 >
 > | **Melee**      | **Triggered action** |
 > | -------------- | -------------------: |
@@ -10751,7 +10751,7 @@ At the start of any giant's turn, you can spend Malice to activate one of the fo
 
 > ⭐️ **Distracted**
 >
-> Whenever the clobberer targets a creature or object with an ability, any enemy within distance of the ability can use a free triggered action to distract the clobberer. The clobberer targets that enemy instead
+> Whenever the clobberer targets a creature or object with an ability, any enemy within distance of the ability can use a free triggered action to distract the clobberer. The clobberer targets that enemy instead.
 
 **<span class="steel-compendium-statblock">Marble Stone Giant</span>**
 
@@ -10891,9 +10891,9 @@ At the start of any giant's turn, you can spend Malice to activate one of the fo
 
 > ☠️ **All to Cinders (Villain Action 3)**
 >
-> | **Area**        |                                           **-** |
-> | --------------- | ----------------------------------------------: |
-> | **📏 10 burst** | **🎯 Self and each fire giant ally in the are** |
+> | **Area**        |                                            **-** |
+> | --------------- | -----------------------------------------------: |
+> | **📏 10 burst** | **🎯 Self and each fire giant ally in the area** |
 >
 > **Effect:** Each target unleashes a wave of fire, and each enemy within 2 squares of any target makes an Agility test. An enemy affected by two targets takes a bane on the test, while an enemy affected by three or more targets has a double bane.
 >
@@ -10989,7 +10989,7 @@ At the start of any gnoll's turn, you can spend Malice to activate one of the fo
 >
 > When the abyssal hyena is reduced to 0 Stamina, they can make a melee free strike before dying.
 
-**<span class="steel-compendium-statblock">Gnoll Chainflai</span>**
+**<span class="steel-compendium-statblock">Gnoll Chainflail</span>**
 
 |  Abyssal, Gnoll   |         -         |     Level 2      |                Minion Artillery                | EV 4 for four minions |
 | :---------------: | :---------------: | :--------------: | :--------------------------------------------: | :-------------------: |
@@ -11831,7 +11831,7 @@ Most goblins speak Caelian and Szetch.
 >
 > **Trigger:** The spider or any ally riding the spider takes damage.
 >
-> **Effect:** The damage is halved, and the spider shifts up to 2 squares after the triggering effect resolve
+> **Effect:** The damage is halved, and the spider shifts up to 2 squares after the triggering effect resolves.
 
 > ⭐️ **Ride Launcher**
 >
@@ -11839,7 +11839,7 @@ Most goblins speak Caelian and Szetch.
 
 > ⭐️ **Wide Back**
 >
-> While riding the spider, two size 1 allies can occupy the same space
+> While riding the spider, two size 1 allies can occupy the same space.
 
 **<span class="steel-compendium-statblock">Worg</span>**
 

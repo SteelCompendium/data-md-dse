@@ -147,7 +147,7 @@ abilities:
       - Area
     type: "-"
     distance: 10 burst
-    target: Self and each fire giant ally in the are
+    target: Self and each fire giant ally in the area
     effects:
       - name: Effect
         effect: Each target unleashes a wave of fire, and each enemy within 2 squares of

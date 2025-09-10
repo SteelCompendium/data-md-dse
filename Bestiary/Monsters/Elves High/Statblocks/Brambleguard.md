@@ -52,7 +52,7 @@ traits:
   - name: Thicket and Thorns
     effects:
       - effect: The brambleguard blocks line of effect for enemies. Each enemy who
-          starts their turn adjacent to a brambleguard takes 4 damage
+          starts their turn adjacent to a brambleguard takes 4 damage.
 abilities:
   - name: Wall of Roses
     icon: 🔳

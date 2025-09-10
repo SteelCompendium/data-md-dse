@@ -58,7 +58,7 @@ traits:
           same turn gains an edge.
   - name: Wide Back
     effects:
-      - effect: While riding the spider, two size 1 allies can occupy the same space
+      - effect: While riding the spider, two size 1 allies can occupy the same space.
 abilities:
   - name: Bite
     icon: 🗡
@@ -130,6 +130,6 @@ abilities:
     trigger: The spider or any ally riding the spider takes damage.
     effects:
       - effect: The damage is halved, and the spider shifts up to 2 squares after the
-          triggering effect resolve
+          triggering effect resolves.
         name: Effect
 ~~~

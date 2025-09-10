@@ -62,7 +62,7 @@ traits:
     effects:
       - effect: Whenever the clobberer targets a creature or object with an ability, any
           enemy within distance of the ability can use a free triggered action
-          to distract the clobberer. The clobberer targets that enemy instead
+          to distract the clobberer. The clobberer targets that enemy instead.
 abilities:
   - name: Clobberin' Club
     icon: 🗡

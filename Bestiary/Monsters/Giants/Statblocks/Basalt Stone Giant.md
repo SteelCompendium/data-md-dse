@@ -112,7 +112,7 @@ abilities:
     target: Self
     effects:
       - effect: The basalt stone giant moves up to their speed. Each square that they
-          leave during this move is difficult terrain for enemies Giants ignore
+          leave during this move is difficult terrain for enemies. Giants ignore
           this difficult terrain.
         name: Effect
   - name: Resonate Rune

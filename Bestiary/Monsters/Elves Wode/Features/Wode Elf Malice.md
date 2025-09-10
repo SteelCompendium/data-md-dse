@@ -16,6 +16,7 @@ type: monster/feature
 name: Wode Elf Malice
 type: Malice Features
 flavor: At the start of any wode elf's turn, you can spend Malice to activate
+  one of the following features.
 features:
   - name: Forest Network
     icon: ⭐️
