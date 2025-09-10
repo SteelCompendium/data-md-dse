@@ -82,7 +82,7 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 | Humanoid, Lizardfolk |           -            |      Level 1       |             Minion Harrier              | EV 3 for four minions  |
 | :------------------: | :--------------------: | :----------------: | :-------------------------------------: | :--------------------: |
 |   **1M**<br/> Size   |    **6**<br/> Speed    | **4**<br/> Stamina |          **0**<br/> Stability           | **1**<br/> Free Strike |
-| **-**<br/> Immunity  | **Swim**<br/> Movement |         -          | **+2 bonus to speed**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity  | **Swim**<br/> Movement |         -          | **+2 bonus to speed**<br/> With Captain |  **-**<br/> Weakness   |
 |  **+1**<br/> Might   |  **+2**<br/> Agility   | **0**<br/> Reason  |          **0**<br/> Intuition           |  **0**<br/> Presence   |
 
 > 🗡 **Snap and Toss (Signature Ability)**
@@ -106,7 +106,7 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 | Humanoid, Lizardfolk |           -            |      Level 1       |              Minion Defender              | EV 3 for four minions  |
 | :------------------: | :--------------------: | :----------------: | :---------------------------------------: | :--------------------: |
 |   **1L**<br/> Size   |    **5**<br/> Speed    | **6**<br/> Stamina |           **1**<br/> Stability            | **1**<br/> Free Strike |
-| **-**<br/> Immunity  | **Swim**<br/> Movement |         -          | **+2 bonus to Stamina**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity  | **Swim**<br/> Movement |         -          | **+2 bonus to Stamina**<br/> With Captain |  **-**<br/> Weakness   |
 |  **+2**<br/> Might   |  **+1**<br/> Agility   | **0**<br/> Reason  |           **0**<br/> Intuition            |  **0**<br/> Presence   |
 
 > 🗡 **Shield Smash (Signature Ability)**
@@ -132,7 +132,7 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 | Humanoid, Lizardfolk |           -            |      Level 1       |             Minion Artillery              | EV 3 for four minions  |
 | :------------------: | :--------------------: | :----------------: | :---------------------------------------: | :--------------------: |
 |   **1S**<br/> Size   |    **5**<br/> Speed    | **3**<br/> Stamina |           **0**<br/> Stability            | **2**<br/> Free Strike |
-| **-**<br/> Immunity  | **Swim**<br/> Movement |         -          | **+1 bonus to strikes**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity  | **Swim**<br/> Movement |         -          | **+1 bonus to strikes**<br/> With Captain |  **-**<br/> Weakness   |
 |   **0**<br/> Might   |  **+2**<br/> Agility   | **0**<br/> Reason  |           **+1**<br/> Intuition           |  **0**<br/> Presence   |
 
 > 🗡 **Tonguelash (Signature Ability)**
@@ -158,7 +158,7 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 | Humanoid, Lizardfolk |           -            |       Level 1       |      Platoon Hexer      |          EV 6          |
 | :------------------: | :--------------------: | :-----------------: | :---------------------: | :--------------------: |
 |   **1M**<br/> Size   |    **5**<br/> Speed    | **20**<br/> Stamina |  **0**<br/> Stability   | **3**<br/> Free Strike |
-| **-**<br/> Immunity  | **Swim**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity  | **Swim**<br/> Movement |          -          | **-**<br/> With Captain |  **-**<br/> Weakness   |
 |  **+1**<br/> Might   |   **1**<br/> Agility   | **+0**<br/> Reason  |  **+2**<br/> Intuition  |  **+0**<br/> Presence  |
 
 > 🏹 **Bola Knock (Signature Ability)**
@@ -194,7 +194,7 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 | Humanoid, Lizardfolk |           -            |       Level 1       |      Platoon Brute      |          EV 6          |
 | :------------------: | :--------------------: | :-----------------: | :---------------------: | :--------------------: |
 |   **1M**<br/> Size   |    **5**<br/> Speed    | **46**<br/> Stamina |  **0**<br/> Stability   | **4**<br/> Free Strike |
-| **-**<br/> Immunity  | **Swim**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity  | **Swim**<br/> Movement |          -          | **-**<br/> With Captain |  **-**<br/> Weakness   |
 |  **+2**<br/> Might   |  **+1**<br/> Agility   |  **0**<br/> Reason  |  **0**<br/> Intuition   |  **0**<br/> Presence   |
 
 > 🗡 **Razor Bite (Signature Ability)**
@@ -232,7 +232,7 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 | Humanoid, Lizardfolk |           -            |       Level 1       |     Platoon Harrier     |          EV 6          |
 | :------------------: | :--------------------: | :-----------------: | :---------------------: | :--------------------: |
 |   **1S**<br/> Size   |    **7**<br/> Speed    | **30**<br/> Stamina |  **0**<br/> Stability   | **3**<br/> Free Strike |
-| **-**<br/> Immunity  | **Swim**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity  | **Swim**<br/> Movement |          -          | **-**<br/> With Captain |  **-**<br/> Weakness   |
 |  **+1**<br/> Might   |  **+2**<br/> Agility   |  **0**<br/> Reason  |  **0**<br/> Intuition   |  **+1**<br/> Presence  |
 
 > 🗡 **Glaive Rush (Signature Ability)**
@@ -276,7 +276,7 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 | Humanoid, Lizardfolk |               -               |       Level 1       |         Leader          |         EV 12          |
 | :------------------: | :---------------------------: | :-----------------: | :---------------------: | :--------------------: |
 |   **2**<br/> Size    |       **5**<br/> Speed        | **80**<br/> Stamina |  **2**<br/> Stability   | **4**<br/> Free Strike |
-| **-**<br/> Immunity  | **Climb, swim**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity  | **Climb, swim**<br/> Movement |          -          | **-**<br/> With Captain |  **-**<br/> Weakness   |
 |  **+3**<br/> Might   |      **+2**<br/> Agility      |  **0**<br/> Reason  |  **+1**<br/> Intuition  |  **+2**<br/> Presence  |
 
 > 🗡 **Ripper Spear (Signature Ability)**

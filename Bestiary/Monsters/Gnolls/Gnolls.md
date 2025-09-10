@@ -77,7 +77,7 @@ At the start of any gnoll's turn, you can spend Malice to activate one of the fo
 | Abyssal, Animal, Gnoll |          -          |      Level 2       |              Minion Brute               | EV 4 for four minions  |
 | :--------------------: | :-----------------: | :----------------: | :-------------------------------------: | :--------------------: |
 |    **1M**<br/> Size    |  **8**<br/> Speed   | **7**<br/> Stamina |          **1**<br/> Stability           | **3**<br/> Free Strike |
-|  **-**<br/> Immunity   | **-**<br/> Movement |         -          | **+2 bonus to speed**<br/> With Captain | **-**<br/> Weaknesses  |
+|  **-**<br/> Immunity   | **-**<br/> Movement |         -          | **+2 bonus to speed**<br/> With Captain |  **-**<br/> Weakness   |
 |   **+2**<br/> Might    | **+1**<br/> Agility | **-3**<br/> Reason |          **0**<br/> Intuition           |  **-2**<br/> Presence  |
 
 > 🗡 **Snapjaw (Signature Ability)**
@@ -101,7 +101,7 @@ At the start of any gnoll's turn, you can spend Malice to activate one of the fo
 |   Abyssal, Gnoll    |          -          |      Level 2       |                 Minion Artillery                 | EV 4 for four minions  |
 | :-----------------: | :-----------------: | :----------------: | :----------------------------------------------: | :--------------------: |
 |  **1M**<br/> Size   |  **5**<br/> Speed   | **4**<br/> Stamina |               **1**<br/> Stability               | **3**<br/> Free Strike |
-| **-**<br/> Immunity | **-**<br/> Movement |         -          | **+1 damage bonus to strikes**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity | **-**<br/> Movement |         -          | **+1 damage bonus to strikes**<br/> With Captain |  **-**<br/> Weakness   |
 |  **+2**<br/> Might  | **0**<br/> Agility  | **+1**<br/> Reason |               **0**<br/> Intuition               |  **-2**<br/> Presence  |
 
 > 🏹 **Chain Shotput (Signature Ability)**
@@ -125,7 +125,7 @@ At the start of any gnoll's turn, you can spend Malice to activate one of the fo
 |   Abyssal, Gnoll    |          -          |      Level 2       |                   Minion Hexer                   | EV 4 for four minions  |
 | :-----------------: | :-----------------: | :----------------: | :----------------------------------------------: | :--------------------: |
 |  **1M**<br/> Size   |  **5**<br/> Speed   | **4**<br/> Stamina |               **1**<br/> Stability               | **2**<br/> Free Strike |
-| **-**<br/> Immunity | **-**<br/> Movement |         -          | **+2 bonus to melee distance**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity | **-**<br/> Movement |         -          | **+2 bonus to melee distance**<br/> With Captain |  **-**<br/> Weakness   |
 |  **+2**<br/> Might  | **+1**<br/> Agility | **-1**<br/> Reason |               **0**<br/> Intuition               |  **0**<br/> Presence   |
 
 > 🗡 **Wizard Ripper (Signature Ability)**
@@ -151,7 +151,7 @@ At the start of any gnoll's turn, you can spend Malice to activate one of the fo
 |   Abyssal, Gnoll    |          -          |      Level 2       |                Minion Harrier                 | EV 4 for four minions  |
 | :-----------------: | :-----------------: | :----------------: | :-------------------------------------------: | :--------------------: |
 |  **1M**<br/> Size   |  **7**<br/> Speed   | **5**<br/> Stamina |             **1**<br/> Stability              | **2**<br/> Free Strike |
-| **-**<br/> Immunity | **-**<br/> Movement |         -          | **Gain an edge on strikes**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity | **-**<br/> Movement |         -          | **Gain an edge on strikes**<br/> With Captain |  **-**<br/> Weakness   |
 |  **+1**<br/> Might  | **+2**<br/> Agility | **+0**<br/> Reason |             **+0**<br/> Intuition             |  **-2**<br/> Presence  |
 
 > 🗡 **Flail (Signature Ability)**
@@ -175,7 +175,7 @@ At the start of any gnoll's turn, you can spend Malice to activate one of the fo
 |   Abyssal, Gnoll    |          -          |       Level 2       |     Horde Artillery     |          EV 4          |
 | :-----------------: | :-----------------: | :-----------------: | :---------------------: | :--------------------: |
 |  **1M**<br/> Size   |  **5**<br/> Speed   | **15**<br/> Stamina |  **1**<br/> Stability   | **3**<br/> Free Strike |
-| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain |  **-**<br/> Weakness   |
 |  **0**<br/> Might   | **+2**<br/> Agility | **+1**<br/> Reason  |  **0**<br/> Intuition   |  **-1**<br/> Presence  |
 
 > 🏹 **Dark Longbow (Signature Ability)**
@@ -213,7 +213,7 @@ At the start of any gnoll's turn, you can spend Malice to activate one of the fo
 |   Abyssal, Gnoll    |          -          |       Level 2       |      Horde Support      |          EV 4          |
 | :-----------------: | :-----------------: | :-----------------: | :---------------------: | :--------------------: |
 |  **1M**<br/> Size   |  **5**<br/> Speed   | **20**<br/> Stamina |  **1**<br/> Stability   | **2**<br/> Free Strike |
-| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain |  **-**<br/> Weakness   |
 |  **+1**<br/> Might  | **0**<br/> Agility  |  **0**<br/> Reason  |  **+2**<br/> Intuition  |  **+2**<br/> Presence  |
 
 > 🏹 **Flame Wad (Signature Ability)**
@@ -255,7 +255,7 @@ At the start of any gnoll's turn, you can spend Malice to activate one of the fo
 |   Abyssal, Gnoll    |          -          |       Level 2       |       Horde Brute       |          EV 4          |
 | :-----------------: | :-----------------: | :-----------------: | :---------------------: | :--------------------: |
 |  **1L**<br/> Size   |  **5**<br/> Speed   | **25**<br/> Stamina |  **1**<br/> Stability   | **3**<br/> Free Strike |
-| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain |  **-**<br/> Weakness   |
 |  **+2**<br/> Might  | **+1**<br/> Agility |  **0**<br/> Reason  |  **0**<br/> Intuition   |  **+1**<br/> Presence  |
 
 > 🗡 **Three-Tail Flail (Signature Ability)**
@@ -289,7 +289,7 @@ At the start of any gnoll's turn, you can spend Malice to activate one of the fo
 |   Abyssal, Gnoll    |          -          |       Level 2       |       Horde Hexer       |          EV 4          |
 | :-----------------: | :-----------------: | :-----------------: | :---------------------: | :--------------------: |
 |  **1S**<br/> Size   |  **5**<br/> Speed   | **15**<br/> Stamina |  **1**<br/> Stability   | **2**<br/> Free Strike |
-| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain |  **-**<br/> Weakness   |
 |  **0**<br/> Might   | **0**<br/> Agility  | **+2**<br/> Reason  |  **+2**<br/> Intuition  |  **+2**<br/> Presence  |
 
 > 🏹 **Moment of Brutality (Signature Ability)**
@@ -327,7 +327,7 @@ At the start of any gnoll's turn, you can spend Malice to activate one of the fo
 |   Abyssal, Gnoll    |          -          |       Level 2       |      Horde Harrier      |          EV 4          |
 | :-----------------: | :-----------------: | :-----------------: | :---------------------: | :--------------------: |
 |  **1M**<br/> Size   |  **7**<br/> Speed   | **20**<br/> Stamina |  **1**<br/> Stability   | **2**<br/> Free Strike |
-| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain |  **-**<br/> Weakness   |
 |  **+1**<br/> Might  | **+1**<br/> Agility |  **0**<br/> Reason  |  **0**<br/> Intuition   |  **+1**<br/> Presence  |
 
 > 🗡 **Fury Flail (Signature Ability)**
@@ -361,7 +361,7 @@ At the start of any gnoll's turn, you can spend Malice to activate one of the fo
 | Abyssal, Demon, Gnoll |          -          |       Level 2        |       Elite Brute       |         EV 16          |
 | :-------------------: | :-----------------: | :------------------: | :---------------------: | :--------------------: |
 |    **3**<br/> Size    |  **7**<br/> Speed   | **100**<br/> Stamina |  **3**<br/> Stability   | **5**<br/> Free Strike |
-|  **-**<br/> Immunity  | **-**<br/> Movement |          -           | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+|  **-**<br/> Immunity  | **-**<br/> Movement |          -           | **-**<br/> With Captain |  **-**<br/> Weakness   |
 |   **+2**<br/> Might   | **-1**<br/> Agility |  **-3**<br/> Reason  |  **0**<br/> Intuition   |  **-1**<br/> Presence  |
 
 > 🗡 **Gore (Signature Ability)**
@@ -401,7 +401,7 @@ At the start of any gnoll's turn, you can spend Malice to activate one of the fo
 |   Abyssal, Gnoll    |          -          |       Level 2        |         Leader          |         EV 16          |
 | :-----------------: | :-----------------: | :------------------: | :---------------------: | :--------------------: |
 |  **1M**<br/> Size   |  **5**<br/> Speed   | **100**<br/> Stamina |  **1**<br/> Stability   | **5**<br/> Free Strike |
-| **-**<br/> Immunity | **-**<br/> Movement |          -           | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity | **-**<br/> Movement |          -           | **-**<br/> With Captain |  **-**<br/> Weakness   |
 |  **+3**<br/> Might  | **+3**<br/> Agility |  **0**<br/> Reason   |  **0**<br/> Intuition   |  **+3**<br/> Presence  |
 
 > 🗡 **Shrapnel Whip (Signature Ability)**

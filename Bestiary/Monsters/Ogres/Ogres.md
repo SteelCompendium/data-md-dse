@@ -65,7 +65,7 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 |     Giant, Ogre     |          -          |       Level 2        |       Elite Brute       |         EV 16          |
 | :-----------------: | :-----------------: | :------------------: | :---------------------: | :--------------------: |
 |   **2**<br/> Size   |  **5**<br/> Speed   | **100**<br/> Stamina |  **4**<br/> Stability   | **5**<br/> Free Strike |
-| **-**<br/> Immunity | **-**<br/> Movement |          -           | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity | **-**<br/> Movement |          -           | **-**<br/> With Captain |  **-**<br/> Weakness   |
 |  **+2**<br/> Might  | **0**<br/> Agility  |  **-1**<br/> Reason  |  **0**<br/> Intuition   |  **-1**<br/> Presence  |
 
 > 🗡 **Club Swing (Signature Ability)**
@@ -129,7 +129,7 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 |     Giant, Ogre     |          -          |       Level 2       |      Elite Harrier      |         EV 16          |
 | :-----------------: | :-----------------: | :-----------------: | :---------------------: | :--------------------: |
 |   **2**<br/> Size   |  **6**<br/> Speed   | **80**<br/> Stamina |  **2**<br/> Stability   | **5**<br/> Free Strike |
-| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain |  **-**<br/> Weakness   |
 |  **+2**<br/> Might  | **+1**<br/> Agility | **-1**<br/> Reason  |  **0**<br/> Intuition   |  **-1**<br/> Presence  |
 
 > 🗡 **Pitchfork Catapult (Signature Ability)**
@@ -207,7 +207,7 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 |     Giant, Ogre     |          -          |      Level 10       |            Minion Controller            | EV 12 for four minions |
 | :-----------------: | :-----------------: | :-----------------: | :-------------------------------------: | :--------------------: |
 |   **3**<br/> Size   |  **6**<br/> Speed   | **14**<br/> Stamina |          **5**<br/> Stability           | **4**<br/> Free Strike |
-| **-**<br/> Immunity | **-**<br/> Movement |          -          | **+4 bonus to speed**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity | **-**<br/> Movement |          -          | **+4 bonus to speed**<br/> With Captain |  **-**<br/> Weakness   |
 |  **+5**<br/> Might  | **-1**<br/> Agility | **-1**<br/> Reason  |          **+3**<br/> Intuition          |  **-1**<br/> Presence  |
 
 > ❇️ **Wild Slam (Signature Ability)**
@@ -233,7 +233,7 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 |     Giant, Ogre     |          -          |       Level 7       |                 Minion Brute                  | EV 9 for four minions  |
 | :-----------------: | :-----------------: | :-----------------: | :-------------------------------------------: | :--------------------: |
 |   **2**<br/> Size   |  **5**<br/> Speed   | **13**<br/> Stamina |             **4**<br/> Stability              | **4**<br/> Free Strike |
-| **-**<br/> Immunity | **-**<br/> Movement |          -          | **Gain an edge on strikes**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity | **-**<br/> Movement |          -          | **Gain an edge on strikes**<br/> With Captain |  **-**<br/> Weakness   |
 |  **+4**<br/> Might  | **+1**<br/> Agility | **-1**<br/> Reason  |             **0**<br/> Intuition              |  **+2**<br/> Presence  |
 
 > 🗡 **Crush Underfoot (Signature Ability)**
@@ -263,7 +263,7 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 |     Giant, Ogre     |          -          |       Level 7       |                 Minion Artillery                  | EV 9 for four minions  |
 | :-----------------: | :-----------------: | :-----------------: | :-----------------------------------------------: | :--------------------: |
 |   **2**<br/> Size   |  **5**<br/> Speed   | **10**<br/> Stamina |               **2**<br/> Stability                | **4**<br/> Free Strike |
-| **-**<br/> Immunity | **-**<br/> Movement |          -          | **+5 bonus to ranged distance**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity | **-**<br/> Movement |          -          | **+5 bonus to ranged distance**<br/> With Captain |  **-**<br/> Weakness   |
 |  **+4**<br/> Might  | **+2**<br/> Agility | **-1**<br/> Reason  |               **0**<br/> Intuition                |  **-1**<br/> Presence  |
 
 > 🏹 **Throw Fit (Signature Ability)**

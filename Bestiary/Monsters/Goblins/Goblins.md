@@ -71,7 +71,7 @@ Most goblins speak Caelian and Szetch.
 |  Goblin, Humanoid   |            -            |      Level 1       |                Minion Harrier                 | EV 3 for four minions  |
 | :-----------------: | :---------------------: | :----------------: | :-------------------------------------------: | :--------------------: |
 |  **1S**<br/> Size   |    **6**<br/> Speed     | **4**<br/> Stamina |             **0**<br/> Stability              | **1**<br/> Free Strike |
-| **-**<br/> Immunity | **Climb**<br/> Movement |         -          | **Gain an edge on strikes**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity | **Climb**<br/> Movement |         -          | **Gain an edge on strikes**<br/> With Captain |  **-**<br/> Weakness   |
 |  **-2**<br/> Might  |   **+2**<br/> Agility   | **0**<br/> Reason  |             **0**<br/> Intuition              |  **-1**<br/> Presence  |
 
 > 🗡 **Club Charge (Signature Ability)**
@@ -95,7 +95,7 @@ Most goblins speak Caelian and Szetch.
 |  Goblin, Humanoid   |            -            |      Level 1       |                 Minion Artillery                  | EV 3 for four minions  |
 | :-----------------: | :---------------------: | :----------------: | :-----------------------------------------------: | :--------------------: |
 |  **1S**<br/> Size   |    **5**<br/> Speed     | **3**<br/> Stamina |               **0**<br/> Stability                | **2**<br/> Free Strike |
-| **-**<br/> Immunity | **Climb**<br/> Movement |         -          | **+5 bonus to ranged distance**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity | **Climb**<br/> Movement |         -          | **+5 bonus to ranged distance**<br/> With Captain |  **-**<br/> Weakness   |
 |  **-2**<br/> Might  |   **+2**<br/> Agility   | **0**<br/> Reason  |               **0**<br/> Intuition                |  **-1**<br/> Presence  |
 
 > 🏹 **Bow (Signature Ability)**
@@ -121,7 +121,7 @@ Most goblins speak Caelian and Szetch.
 |  Goblin, Humanoid   |            -            |      Level 1       |                   Minion Brute                   | EV 3 for four minions  |
 | :-----------------: | :---------------------: | :----------------: | :----------------------------------------------: | :--------------------: |
 |  **1S**<br/> Size   |    **5**<br/> Speed     | **5**<br/> Stamina |               **0**<br/> Stability               | **2**<br/> Free Strike |
-| **-**<br/> Immunity | **Climb**<br/> Movement |         -          | **+1 damage bonus to strikes**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity | **Climb**<br/> Movement |         -          | **+1 damage bonus to strikes**<br/> With Captain |  **-**<br/> Weakness   |
 |  **+2**<br/> Might  |   **0**<br/> Agility    | **0**<br/> Reason  |               **0**<br/> Intuition               |  **-1**<br/> Presence  |
 
 > 🗡 **Axe (Signature Ability)**
@@ -145,7 +145,7 @@ Most goblins speak Caelian and Szetch.
 |   Animal, Goblin    |           -           |      Level 1       |              Minion Hexer               | EV 3 for four minions  |
 | :-----------------: | :-------------------: | :----------------: | :-------------------------------------: | :--------------------: |
 |  **1T**<br/> Size   |   **5**<br/> Speed    | **3**<br/> Stamina |          **0**<br/> Stability           | **1**<br/> Free Strike |
-| **-**<br/> Immunity | **Fly**<br/> Movement |         -          | **+3 bonus to speed**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity | **Fly**<br/> Movement |         -          | **+3 bonus to speed**<br/> With Captain |  **-**<br/> Weakness   |
 |  **-5**<br/> Might  |  **+2**<br/> Agility  | **-4**<br/> Reason |          **0**<br/> Intuition           |  **-2**<br/> Presence  |
 
 > 🗡 **Claws (Signature Ability)**
@@ -167,7 +167,7 @@ Most goblins speak Caelian and Szetch.
 |  Goblin, Humanoid   |            -            |       Level 1       |     Horde Ambusher      |          EV 3          |
 | :-----------------: | :---------------------: | :-----------------: | :---------------------: | :--------------------: |
 |  **1S**<br/> Size   |    **6**<br/> Speed     | **15**<br/> Stamina |  **0**<br/> Stability   | **2**<br/> Free Strike |
-| **-**<br/> Immunity | **Climb**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity | **Climb**<br/> Movement |          -          | **-**<br/> With Captain |  **-**<br/> Weakness   |
 |  **-2**<br/> Might  |   **+2**<br/> Agility   |  **0**<br/> Reason  |  **0**<br/> Intuition   |  **-2**<br/> Presence  |
 
 > 🗡 **Sword Stab (Signature Ability)**
@@ -209,7 +209,7 @@ Most goblins speak Caelian and Szetch.
 |  Goblin, Humanoid   |            -            |       Level 1       |       Horde Hexer       |          EV 3          |
 | :-----------------: | :---------------------: | :-----------------: | :---------------------: | :--------------------: |
 |  **1S**<br/> Size   |    **5**<br/> Speed     | **10**<br/> Stamina |  **0**<br/> Stability   | **1**<br/> Free Strike |
-| **-**<br/> Immunity | **Climb**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity | **Climb**<br/> Movement |          -          | **-**<br/> With Captain |  **-**<br/> Weakness   |
 |  **-2**<br/> Might  |   **+1**<br/> Agility   |  **0**<br/> Reason  |  **+2**<br/> Intuition  |  **0**<br/> Presence   |
 
 > 🏹 **Eye of Surlach (Signature Ability)**
@@ -245,7 +245,7 @@ Most goblins speak Caelian and Szetch.
 |  Goblin, Humanoid   |            -            |       Level 1       |    Horde Controller     |          EV 3          |
 | :-----------------: | :---------------------: | :-----------------: | :---------------------: | :--------------------: |
 |  **1S**<br/> Size   |    **5**<br/> Speed     | **10**<br/> Stamina |  **0**<br/> Stability   | **1**<br/> Free Strike |
-| **-**<br/> Immunity | **Climb**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity | **Climb**<br/> Movement |          -          | **-**<br/> With Captain |  **-**<br/> Weakness   |
 |  **-2**<br/> Might  |   **+1**<br/> Agility   |  **0**<br/> Reason  |  **0**<br/> Intuition   |  **+2**<br/> Presence  |
 
 > 🔳 **Toxic Winds (Signature Ability)**
@@ -279,7 +279,7 @@ Most goblins speak Caelian and Szetch.
 |  Goblin, Humanoid   |            -            |       Level 1       |      Horde Support      |          EV 3          |
 | :-----------------: | :---------------------: | :-----------------: | :---------------------: | :--------------------: |
 |  **1S**<br/> Size   |    **5**<br/> Speed     | **15**<br/> Stamina |  **0**<br/> Stability   | **1**<br/> Free Strike |
-| **-**<br/> Immunity | **Climb**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity | **Climb**<br/> Movement |          -          | **-**<br/> With Captain |  **-**<br/> Weakness   |
 |  **-1**<br/> Might  |   **+2**<br/> Agility   |  **0**<br/> Reason  |  **0**<br/> Intuition   |  **+1**<br/> Presence  |
 
 > 🗡 **Swordplay (Signature Ability)**
@@ -315,7 +315,7 @@ Most goblins speak Caelian and Szetch.
 |  Goblin, Humanoid   |            -            |       Level 1       |      Horde Harrier      |          EV 3          |
 | :-----------------: | :---------------------: | :-----------------: | :---------------------: | :--------------------: |
 |  **1S**<br/> Size   |    **6**<br/> Speed     | **15**<br/> Stamina |  **0**<br/> Stability   | **1**<br/> Free Strike |
-| **-**<br/> Immunity | **Climb**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity | **Climb**<br/> Movement |          -          | **-**<br/> With Captain |  **-**<br/> Weakness   |
 |  **-2**<br/> Might  |   **+2**<br/> Agility   |  **0**<br/> Reason  |  **0**<br/> Intuition   |  **-1**<br/> Presence  |
 
 > 🗡 **Spear Charge (Signature Ability)**
@@ -351,7 +351,7 @@ Most goblins speak Caelian and Szetch.
 |  Goblin, Humanoid   |            -            |       Level 1       |         Leader          |         EV 12          |
 | :-----------------: | :---------------------: | :-----------------: | :---------------------: | :--------------------: |
 |  **1S**<br/> Size   |    **6**<br/> Speed     | **80**<br/> Stamina |  **1**<br/> Stability   | **4**<br/> Free Strike |
-| **-**<br/> Immunity | **Climb**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity | **Climb**<br/> Movement |          -          | **-**<br/> With Captain |  **-**<br/> Weakness   |
 |  **0**<br/> Might   |   **+3**<br/> Agility   | **+1**<br/> Reason  |  **0**<br/> Intuition   |  **+3**<br/> Presence  |
 
 > ⚔️ **Handaxe (Signature Ability)**
@@ -423,7 +423,7 @@ Most goblins speak Caelian and Szetch.
 |   Animal, Goblin    |            -            |       Level 1       |       Elite Mount       |         EV 12          |
 | :-----------------: | :---------------------: | :-----------------: | :---------------------: | :--------------------: |
 |   **3**<br/> Size   |    **7**<br/> Speed     | **60**<br/> Stamina |  **2**<br/> Stability   | **4**<br/> Free Strike |
-| **-**<br/> Immunity | **Climb**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity | **Climb**<br/> Movement |          -          | **-**<br/> With Captain |  **-**<br/> Weakness   |
 |  **+2**<br/> Might  |   **+1**<br/> Agility   | **-4**<br/> Reason  |  **0**<br/> Intuition   |  **-3**<br/> Presence  |
 
 > 🗡 **Bite (Signature Ability)**
@@ -497,7 +497,7 @@ Most goblins speak Caelian and Szetch.
 |   Animal, Goblin    |          -          |       Level 1       |       Horde Mount       |          EV 3          |
 | :-----------------: | :-----------------: | :-----------------: | :---------------------: | :--------------------: |
 |  **1L**<br/> Size   |  **5**<br/> Speed   | **15**<br/> Stamina |  **1**<br/> Stability   | **1**<br/> Free Strike |
-| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **-**<br/> Weaknesses  |
+| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain |  **-**<br/> Weakness   |
 |  **+1**<br/> Might  | **+2**<br/> Agility | **-1**<br/> Reason  |  **0**<br/> Intuition   |  **-1**<br/> Presence  |
 
 > 🗡 **Bite (Signature Ability)**

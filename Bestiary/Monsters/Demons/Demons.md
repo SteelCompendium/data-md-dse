@@ -122,11 +122,11 @@ At the start of any demon's turn, you can spend Malice to activate one of the fo
 
 ###### Ensnarer
 
-|   Abyssal, Demon    |          -          |      Level 1       |                   Minion Brute                   |   EV 3 for four minions    |
-| :-----------------: | :-----------------: | :----------------: | :----------------------------------------------: | :------------------------: |
-|  **1M**<br/> Size   |  **5**<br/> Speed   | **5**<br/> Stamina |               **0**<br/> Stability               |   **2**<br/> Free Strike   |
-| **-**<br/> Immunity | **-**<br/> Movement |         -          | **+2 bonus to melee distance**<br/> With Captain | **Holy 3**<br/> Weaknesses |
-|  **+2**<br/> Might  | **+0**<br/> Agility | **-1**<br/> Reason |              **-1**<br/> Intuition               |    **-1**<br/> Presence    |
+|   Abyssal, Demon    |          -          |      Level 1       |                   Minion Brute                   |  EV 3 for four minions   |
+| :-----------------: | :-----------------: | :----------------: | :----------------------------------------------: | :----------------------: |
+|  **1M**<br/> Size   |  **5**<br/> Speed   | **5**<br/> Stamina |               **0**<br/> Stability               |  **2**<br/> Free Strike  |
+| **-**<br/> Immunity | **-**<br/> Movement |         -          | **+2 bonus to melee distance**<br/> With Captain | **Holy 3**<br/> Weakness |
+|  **+2**<br/> Might  | **+0**<br/> Agility | **-1**<br/> Reason |              **-1**<br/> Intuition               |   **-1**<br/> Presence   |
 
 > 🗡 **Barbed Tongues (Signature Ability)**
 >
@@ -148,11 +148,11 @@ At the start of any demon's turn, you can spend Malice to activate one of the fo
 
 ###### Frenzied
 
-|   Abyssal, Demon    |          -          |      Level 1       |             Minion Harrier              |   EV 3 for four minions    |
-| :-----------------: | :-----------------: | :----------------: | :-------------------------------------: | :------------------------: |
-|  **1M**<br/> Size   |  **6**<br/> Speed   | **4**<br/> Stamina |          **0**<br/> Stability           |   **1**<br/> Free Strike   |
-| **-**<br/> Immunity | **-**<br/> Movement |         -          | **+2 bonus to speed**<br/> With Captain | **Holy 3**<br/> Weaknesses |
-|  **+0**<br/> Might  | **+2**<br/> Agility | **-1**<br/> Reason |          **-1**<br/> Intuition          |    **-1**<br/> Presence    |
+|   Abyssal, Demon    |          -          |      Level 1       |             Minion Harrier              |  EV 3 for four minions   |
+| :-----------------: | :-----------------: | :----------------: | :-------------------------------------: | :----------------------: |
+|  **1M**<br/> Size   |  **6**<br/> Speed   | **4**<br/> Stamina |          **0**<br/> Stability           |  **1**<br/> Free Strike  |
+| **-**<br/> Immunity | **-**<br/> Movement |         -          | **+2 bonus to speed**<br/> With Captain | **Holy 3**<br/> Weakness |
+|  **+0**<br/> Might  | **+2**<br/> Agility | **-1**<br/> Reason |          **-1**<br/> Intuition          |   **-1**<br/> Presence   |
 
 > 🗡 **Rip and Tear (Signature Ability)**
 >
@@ -172,11 +172,11 @@ At the start of any demon's turn, you can spend Malice to activate one of the fo
 
 ###### Pitling
 
-|   Abyssal, Demon    |           -           |      Level 1       |            Minion Artillery             |   EV 3 for four minions    |
-| :-----------------: | :-------------------: | :----------------: | :-------------------------------------: | :------------------------: |
-|  **1T**<br/> Size   |   **5**<br/> Speed    | **3**<br/> Stamina |          **0**<br/> Stability           |   **2**<br/> Free Strike   |
-| **-**<br/> Immunity | **Fly**<br/> Movement |         -          | **+2 bonus to speed**<br/> With Captain | **Holy 3**<br/> Weaknesses |
-|  **-2**<br/> Might  |  **+2**<br/> Agility  | **-2**<br/> Reason |          **-2**<br/> Intuition          |    **-2**<br/> Presence    |
+|   Abyssal, Demon    |           -           |      Level 1       |            Minion Artillery             |  EV 3 for four minions   |
+| :-----------------: | :-------------------: | :----------------: | :-------------------------------------: | :----------------------: |
+|  **1T**<br/> Size   |   **5**<br/> Speed    | **3**<br/> Stamina |          **0**<br/> Stability           |  **2**<br/> Free Strike  |
+| **-**<br/> Immunity | **Fly**<br/> Movement |         -          | **+2 bonus to speed**<br/> With Captain | **Holy 3**<br/> Weakness |
+|  **-2**<br/> Might  |  **+2**<br/> Agility  | **-2**<br/> Reason |          **-2**<br/> Intuition          |   **-2**<br/> Presence   |
 
 > 🏹 **Spit (Signature Ability)**
 >
@@ -200,11 +200,11 @@ At the start of any demon's turn, you can spend Malice to activate one of the fo
 
 ###### Bendrak
 
-|   Abyssal, Demon    |          -          |       Level 2       |       Horde Hexer       |            EV 4            |
-| :-----------------: | :-----------------: | :-----------------: | :---------------------: | :------------------------: |
-|  **1L**<br/> Size   |  **5**<br/> Speed   | **15**<br/> Stamina |  **0**<br/> Stability   |   **2**<br/> Free Strike   |
-| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 3**<br/> Weaknesses |
-|  **+0**<br/> Might  | **+1**<br/> Agility | **+0**<br/> Reason  |  **+0**<br/> Intuition  |    **+2**<br/> Presence    |
+|   Abyssal, Demon    |          -          |       Level 2       |       Horde Hexer       |           EV 4           |
+| :-----------------: | :-----------------: | :-----------------: | :---------------------: | :----------------------: |
+|  **1L**<br/> Size   |  **5**<br/> Speed   | **15**<br/> Stamina |  **0**<br/> Stability   |  **2**<br/> Free Strike  |
+| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 3**<br/> Weakness |
+|  **+0**<br/> Might  | **+1**<br/> Agility | **+0**<br/> Reason  |  **+0**<br/> Intuition  |   **+2**<br/> Presence   |
 
 > 🏹 **Warp Perceptions (Signature Ability)**
 >
@@ -238,11 +238,11 @@ At the start of any demon's turn, you can spend Malice to activate one of the fo
 
 ###### Muceron
 
-|   Abyssal, Demon    |          -          |       Level 3       |       Horde Brute       |            EV 5            |
-| :-----------------: | :-----------------: | :-----------------: | :---------------------: | :------------------------: |
-|  **1M**<br/> Size   |  **5**<br/> Speed   | **30**<br/> Stamina |  **0**<br/> Stability   |   **3**<br/> Free Strike   |
-| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 3**<br/> Weaknesses |
-|  **+2**<br/> Might  | **+2**<br/> Agility | **+0**<br/> Reason  |  **+0**<br/> Intuition  |    **+1**<br/> Presence    |
+|   Abyssal, Demon    |          -          |       Level 3       |       Horde Brute       |           EV 5           |
+| :-----------------: | :-----------------: | :-----------------: | :---------------------: | :----------------------: |
+|  **1M**<br/> Size   |  **5**<br/> Speed   | **30**<br/> Stamina |  **0**<br/> Stability   |  **3**<br/> Free Strike  |
+| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 3**<br/> Weakness |
+|  **+2**<br/> Might  | **+2**<br/> Agility | **+0**<br/> Reason  |  **+0**<br/> Intuition  |   **+1**<br/> Presence   |
 
 > 🗡 **Barbed Tongues (Signature Ability)**
 >
@@ -276,11 +276,11 @@ At the start of any demon's turn, you can spend Malice to activate one of the fo
 
 ###### Remasch
 
-|   Abyssal, Demon    |             -              |       Level 2       |     Horde Ambusher      |            EV 4            |
-| :-----------------: | :------------------------: | :-----------------: | :---------------------: | :------------------------: |
-|  **1S**<br/> Size   |      **5**<br/> Speed      | **20**<br/> Stamina |  **0**<br/> Stability   |   **3**<br/> Free Strike   |
-| **-**<br/> Immunity | **Teleport**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 3**<br/> Weaknesses |
-|  **+0**<br/> Might  |    **+2**<br/> Agility     | **+0**<br/> Reason  |  **+0**<br/> Intuition  |    **+2**<br/> Presence    |
+|   Abyssal, Demon    |             -              |       Level 2       |     Horde Ambusher      |           EV 4           |
+| :-----------------: | :------------------------: | :-----------------: | :---------------------: | :----------------------: |
+|  **1S**<br/> Size   |      **5**<br/> Speed      | **20**<br/> Stamina |  **0**<br/> Stability   |  **3**<br/> Free Strike  |
+| **-**<br/> Immunity | **Teleport**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 3**<br/> Weakness |
+|  **+0**<br/> Might  |    **+2**<br/> Agility     | **+0**<br/> Reason  |  **+0**<br/> Intuition  |   **+2**<br/> Presence   |
 
 > 🗡 **Abyssal Strike (Signature Ability)**
 >
@@ -314,11 +314,11 @@ At the start of any demon's turn, you can spend Malice to activate one of the fo
 
 ###### Ruinant
 
-|   Abyssal, Demon    |          -          |       Level 1       |      Horde Harrier      |            EV 3            |
-| :-----------------: | :-----------------: | :-----------------: | :---------------------: | :------------------------: |
-|  **1M**<br/> Size   |  **6**<br/> Speed   | **15**<br/> Stamina |  **0**<br/> Stability   |   **1**<br/> Free Strike   |
-| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 3**<br/> Weaknesses |
-|  **+0**<br/> Might  | **+2**<br/> Agility | **+0**<br/> Reason  |  **+0**<br/> Intuition  |    **+1**<br/> Presence    |
+|   Abyssal, Demon    |          -          |       Level 1       |      Horde Harrier      |           EV 3           |
+| :-----------------: | :-----------------: | :-----------------: | :---------------------: | :----------------------: |
+|  **1M**<br/> Size   |  **6**<br/> Speed   | **15**<br/> Stamina |  **0**<br/> Stability   |  **1**<br/> Free Strike  |
+| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 3**<br/> Weakness |
+|  **+0**<br/> Might  | **+2**<br/> Agility | **+0**<br/> Reason  |  **+0**<br/> Intuition  |   **+1**<br/> Presence   |
 
 > 🗡 **Bloodletting Claws (Signature Ability)**
 >
@@ -356,11 +356,11 @@ At the start of any demon's turn, you can spend Malice to activate one of the fo
 
 ###### Torlas
 
-|   Abyssal, Demon    |          -          |       Level 1       |    Horde Controller     |            EV 3            |
-| :-----------------: | :-----------------: | :-----------------: | :---------------------: | :------------------------: |
-|  **1S**<br/> Size   |  **5**<br/> Speed   | **10**<br/> Stamina |  **0**<br/> Stability   |   **1**<br/> Free Strike   |
-| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 3**<br/> Weaknesses |
-|  **+0**<br/> Might  | **+1**<br/> Agility | **+0**<br/> Reason  |  **+0**<br/> Intuition  |    **+2**<br/> Presence    |
+|   Abyssal, Demon    |          -          |       Level 1       |    Horde Controller     |           EV 3           |
+| :-----------------: | :-----------------: | :-----------------: | :---------------------: | :----------------------: |
+|  **1S**<br/> Size   |  **5**<br/> Speed   | **10**<br/> Stamina |  **0**<br/> Stability   |  **1**<br/> Free Strike  |
+| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 3**<br/> Weakness |
+|  **+0**<br/> Might  | **+1**<br/> Agility | **+0**<br/> Reason  |  **+0**<br/> Intuition  |   **+2**<br/> Presence   |
 
 > 🔳 **Floor to Flesh (Signature Ability)**
 >
@@ -394,11 +394,11 @@ At the start of any demon's turn, you can spend Malice to activate one of the fo
 
 ###### Chorogaunt
 
-|   Abyssal, Demon    |          -          |       Level 3        |         Leader          |           EV 20            |
-| :-----------------: | :-----------------: | :------------------: | :---------------------: | :------------------------: |
-|  **1L**<br/> Size   |  **5**<br/> Speed   | **120**<br/> Stamina |  **2**<br/> Stability   |   **5**<br/> Free Strike   |
-| **-**<br/> Immunity | **-**<br/> Movement |          -           | **-**<br/> With Captain | **Holy 5**<br/> Weaknesses |
-|  **+2**<br/> Might  | **+2**<br/> Agility |  **+2**<br/> Reason  |  **+2**<br/> Intuition  |    **+3**<br/> Presence    |
+|   Abyssal, Demon    |          -          |       Level 3        |         Leader          |          EV 20           |
+| :-----------------: | :-----------------: | :------------------: | :---------------------: | :----------------------: |
+|  **1L**<br/> Size   |  **5**<br/> Speed   | **120**<br/> Stamina |  **2**<br/> Stability   |  **5**<br/> Free Strike  |
+| **-**<br/> Immunity | **-**<br/> Movement |          -           | **-**<br/> With Captain | **Holy 5**<br/> Weakness |
+|  **+2**<br/> Might  | **+2**<br/> Agility |  **+2**<br/> Reason  |  **+2**<br/> Intuition  |   **+3**<br/> Presence   |
 
 > ❇️ **Agonizing Harmony (Signature Ability)**
 >
@@ -504,11 +504,11 @@ At the start of any level 4 or higher demon's turn, you can spend Malice to acti
 
 ###### Grulqin
 
-|   Abyssal, Demon    |          -          |      Level 4       |                   Minion Brute                   |   EV 6 for four minions    |
-| :-----------------: | :-----------------: | :----------------: | :----------------------------------------------: | :------------------------: |
-|  **1L**<br/> Size   |  **8**<br/> Speed   | **9**<br/> Stamina |               **1**<br/> Stability               |   **3**<br/> Free Strike   |
-| **-**<br/> Immunity | **-**<br/> Movement |         -          | **+2 damage bonus to strikes**<br/> With Captain | **Holy 5**<br/> Weaknesses |
-|  **+3**<br/> Might  | **+2**<br/> Agility | **-1**<br/> Reason |              **-1**<br/> Intuition               |    **-1**<br/> Presence    |
+|   Abyssal, Demon    |          -          |      Level 4       |                   Minion Brute                   |  EV 6 for four minions   |
+| :-----------------: | :-----------------: | :----------------: | :----------------------------------------------: | :----------------------: |
+|  **1L**<br/> Size   |  **8**<br/> Speed   | **9**<br/> Stamina |               **1**<br/> Stability               |  **3**<br/> Free Strike  |
+| **-**<br/> Immunity | **-**<br/> Movement |         -          | **+2 damage bonus to strikes**<br/> With Captain | **Holy 5**<br/> Weakness |
+|  **+3**<br/> Might  | **+2**<br/> Agility | **-1**<br/> Reason |              **-1**<br/> Intuition               |   **-1**<br/> Presence   |
 
 > 🗡 **Spinning Bone Blade (Signature Ability)**
 >
@@ -530,11 +530,11 @@ At the start of any level 4 or higher demon's turn, you can spend Malice to acti
 
 ###### Orliq
 
-|   Abyssal, Demon    |           -           |      Level 4       |             Minion Harrier              |   EV 6 for four minions    |
-| :-----------------: | :-------------------: | :----------------: | :-------------------------------------: | :------------------------: |
-|  **1T**<br/> Size   |   **6**<br/> Speed    | **8**<br/> Stamina |          **0**<br/> Stability           |   **2**<br/> Free Strike   |
-| **-**<br/> Immunity | **Fly**<br/> Movement |         -          | **+2 bonus to speed**<br/> With Captain | **Holy 5**<br/> Weaknesses |
-|  **-1**<br/> Might  |  **+3**<br/> Agility  | **+1**<br/> Reason |          **+0**<br/> Intuition          |    **-1**<br/> Presence    |
+|   Abyssal, Demon    |           -           |      Level 4       |             Minion Harrier              |  EV 6 for four minions   |
+| :-----------------: | :-------------------: | :----------------: | :-------------------------------------: | :----------------------: |
+|  **1T**<br/> Size   |   **6**<br/> Speed    | **8**<br/> Stamina |          **0**<br/> Stability           |  **2**<br/> Free Strike  |
+| **-**<br/> Immunity | **Fly**<br/> Movement |         -          | **+2 bonus to speed**<br/> With Captain | **Holy 5**<br/> Weakness |
+|  **-1**<br/> Might  |  **+3**<br/> Agility  | **+1**<br/> Reason |          **+0**<br/> Intuition          |   **-1**<br/> Presence   |
 
 > 🗡 **Soul Prism (Signature Ability)**
 >
@@ -558,11 +558,11 @@ At the start of any level 4 or higher demon's turn, you can spend Malice to acti
 
 ###### Wobalas
 
-|   Abyssal, Demon    |          -          |      Level 4       |                 Minion Artillery                 |   EV 6 for four minions    |
-| :-----------------: | :-----------------: | :----------------: | :----------------------------------------------: | :------------------------: |
-|  **1M**<br/> Size   |  **6**<br/> Speed   | **7**<br/> Stamina |               **0**<br/> Stability               |   **3**<br/> Free Strike   |
-| **-**<br/> Immunity | **-**<br/> Movement |         -          | **+2 damage bonus to strikes**<br/> With Captain | **Holy 5**<br/> Weaknesses |
-|  **+1**<br/> Might  | **+3**<br/> Agility | **+1**<br/> Reason |              **+2**<br/> Intuition               |    **+1**<br/> Presence    |
+|   Abyssal, Demon    |          -          |      Level 4       |                 Minion Artillery                 |  EV 6 for four minions   |
+| :-----------------: | :-----------------: | :----------------: | :----------------------------------------------: | :----------------------: |
+|  **1M**<br/> Size   |  **6**<br/> Speed   | **7**<br/> Stamina |               **0**<br/> Stability               |  **3**<br/> Free Strike  |
+| **-**<br/> Immunity | **-**<br/> Movement |         -          | **+2 damage bonus to strikes**<br/> With Captain | **Holy 5**<br/> Weakness |
+|  **+1**<br/> Might  | **+3**<br/> Agility | **+1**<br/> Reason |              **+2**<br/> Intuition               |   **+1**<br/> Presence   |
 
 > 🏹 **Despair Bolt (Signature Ability)**
 >
@@ -580,11 +580,11 @@ At the start of any level 4 or higher demon's turn, you can spend Malice to acti
 
 ###### Bale Eye
 
-|   Abyssal, Demon    |           -           |       Level 5       |       Horde Hexer       |            EV 7            |
-| :-----------------: | :-------------------: | :-----------------: | :---------------------: | :------------------------: |
-|   **4**<br/> Size   |   **6**<br/> Speed    | **30**<br/> Stamina |  **2**<br/> Stability   |   **3**<br/> Free Strike   |
-| **-**<br/> Immunity | **Fly**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 5**<br/> Weaknesses |
-|  **+0**<br/> Might  |  **+0**<br/> Agility  | **+3**<br/> Reason  |  **+3**<br/> Intuition  |    **+3**<br/> Presence    |
+|   Abyssal, Demon    |           -           |       Level 5       |       Horde Hexer       |           EV 7           |
+| :-----------------: | :-------------------: | :-----------------: | :---------------------: | :----------------------: |
+|   **4**<br/> Size   |   **6**<br/> Speed    | **30**<br/> Stamina |  **2**<br/> Stability   |  **3**<br/> Free Strike  |
+| **-**<br/> Immunity | **Fly**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 5**<br/> Weakness |
+|  **+0**<br/> Might  |  **+0**<br/> Agility  | **+3**<br/> Reason  |  **+3**<br/> Intuition  |   **+3**<br/> Presence   |
 
 > 🏹 **Wilting Visions (Signature Ability)**
 >
@@ -628,11 +628,11 @@ At the start of any level 4 or higher demon's turn, you can spend Malice to acti
 
 ###### Fangling
 
-|   Abyssal, Demon    |          -          |       Level 4       |      Horde Harrier      |            EV 6            |
-| :-----------------: | :-----------------: | :-----------------: | :---------------------: | :------------------------: |
-|  **1L**<br/> Size   |  **8**<br/> Speed   | **30**<br/> Stamina |  **0**<br/> Stability   |   **2**<br/> Free Strike   |
-| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 5**<br/> Weaknesses |
-|  **+3**<br/> Might  | **+2**<br/> Agility | **+0**<br/> Reason  |  **+0**<br/> Intuition  |    **+0**<br/> Presence    |
+|   Abyssal, Demon    |          -          |       Level 4       |      Horde Harrier      |           EV 6           |
+| :-----------------: | :-----------------: | :-----------------: | :---------------------: | :----------------------: |
+|  **1L**<br/> Size   |  **8**<br/> Speed   | **30**<br/> Stamina |  **0**<br/> Stability   |  **2**<br/> Free Strike  |
+| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 5**<br/> Weakness |
+|  **+3**<br/> Might  | **+2**<br/> Agility | **+0**<br/> Reason  |  **+0**<br/> Intuition  |   **+0**<br/> Presence   |
 
 > 🗡 **Tooth! Tusk! Claw! (Signature Ability)**
 >
@@ -674,11 +674,11 @@ At the start of any level 4 or higher demon's turn, you can spend Malice to acti
 
 ###### Fiktin
 
-|   Abyssal, Demon    |          -          |       Level 5       |     Horde Ambusher      |            EV 7            |
-| :-----------------: | :-----------------: | :-----------------: | :---------------------: | :------------------------: |
-|  **1M**<br/> Size   |  **6**<br/> Speed   | **35**<br/> Stamina |  **0**<br/> Stability   |   **3**<br/> Free Strike   |
-| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 5**<br/> Weaknesses |
-|  **+2**<br/> Might  | **+2**<br/> Agility | **+2**<br/> Reason  |  **+1**<br/> Intuition  |    **+3**<br/> Presence    |
+|   Abyssal, Demon    |          -          |       Level 5       |     Horde Ambusher      |           EV 7           |
+| :-----------------: | :-----------------: | :-----------------: | :---------------------: | :----------------------: |
+|  **1M**<br/> Size   |  **6**<br/> Speed   | **35**<br/> Stamina |  **0**<br/> Stability   |  **3**<br/> Free Strike  |
+| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 5**<br/> Weakness |
+|  **+2**<br/> Might  | **+2**<br/> Agility | **+2**<br/> Reason  |  **+1**<br/> Intuition  |   **+3**<br/> Presence   |
 
 > ❇️ **Violent Transformation (Signature Ability)**
 >
@@ -712,11 +712,11 @@ At the start of any level 4 or higher demon's turn, you can spend Malice to acti
 
 ###### Gunge
 
-|   Abyssal, Demon    |          -          |       Level 4       |    Horde Controller     |            EV 6            |
-| :-----------------: | :-----------------: | :-----------------: | :---------------------: | :------------------------: |
-|   **3**<br/> Size   |  **6**<br/> Speed   | **25**<br/> Stamina |  **0**<br/> Stability   |   **2**<br/> Free Strike   |
-| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 5**<br/> Weaknesses |
-|  **+3**<br/> Might  | **+2**<br/> Agility | **+1**<br/> Reason  |  **+2**<br/> Intuition  |    **-1**<br/> Presence    |
+|   Abyssal, Demon    |          -          |       Level 4       |    Horde Controller     |           EV 6           |
+| :-----------------: | :-----------------: | :-----------------: | :---------------------: | :----------------------: |
+|   **3**<br/> Size   |  **6**<br/> Speed   | **25**<br/> Stamina |  **0**<br/> Stability   |  **2**<br/> Free Strike  |
+| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 5**<br/> Weakness |
+|  **+3**<br/> Might  | **+2**<br/> Agility | **+1**<br/> Reason  |  **+2**<br/> Intuition  |   **-1**<br/> Presence   |
 
 > 🔳 **Bilious Expulsion (Signature Ability)**
 >
@@ -752,11 +752,11 @@ At the start of any level 4 or higher demon's turn, you can spend Malice to acti
 
 ###### Tormenauk
 
-|   Abyssal, Demon    |          -          |       Level 6       |       Horde Brute       |            EV 8            |
-| :-----------------: | :-----------------: | :-----------------: | :---------------------: | :------------------------: |
-|   **2**<br/> Size   |  **6**<br/> Speed   | **45**<br/> Stamina |  **2**<br/> Stability   |   **4**<br/> Free Strike   |
-| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 5**<br/> Weaknesses |
-|  **+3**<br/> Might  | **+0**<br/> Agility | **+2**<br/> Reason  |  **+1**<br/> Intuition  |    **+2**<br/> Presence    |
+|   Abyssal, Demon    |          -          |       Level 6       |       Horde Brute       |           EV 8           |
+| :-----------------: | :-----------------: | :-----------------: | :---------------------: | :----------------------: |
+|   **2**<br/> Size   |  **6**<br/> Speed   | **45**<br/> Stamina |  **2**<br/> Stability   |  **4**<br/> Free Strike  |
+| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 5**<br/> Weakness |
+|  **+3**<br/> Might  | **+0**<br/> Agility | **+2**<br/> Reason  |  **+1**<br/> Intuition  |   **+2**<br/> Presence   |
 
 > 🗡 **Many Maws (Signature Ability)**
 >
@@ -796,11 +796,11 @@ At the start of any level 4 or higher demon's turn, you can spend Malice to acti
 
 ###### Lumbering Egress
 
-|   Abyssal, Demon    |          -          |       Level 6        |         Leader          |           EV 32            |
-| :-----------------: | :-----------------: | :------------------: | :---------------------: | :------------------------: |
-|   **3**<br/> Size   |  **6**<br/> Speed   | **180**<br/> Stamina |  **3**<br/> Stability   |   **7**<br/> Free Strike   |
-| **-**<br/> Immunity | **-**<br/> Movement |          -           | **-**<br/> With Captain | **Holy 5**<br/> Weaknesses |
-|  **+4**<br/> Might  | **-1**<br/> Agility |  **+1**<br/> Reason  |  **+2**<br/> Intuition  |    **+2**<br/> Presence    |
+|   Abyssal, Demon    |          -          |       Level 6        |         Leader          |          EV 32           |
+| :-----------------: | :-----------------: | :------------------: | :---------------------: | :----------------------: |
+|   **3**<br/> Size   |  **6**<br/> Speed   | **180**<br/> Stamina |  **3**<br/> Stability   |  **7**<br/> Free Strike  |
+| **-**<br/> Immunity | **-**<br/> Movement |          -           | **-**<br/> With Captain | **Holy 5**<br/> Weakness |
+|  **+4**<br/> Might  | **-1**<br/> Agility |  **+1**<br/> Reason  |  **+2**<br/> Intuition  |   **+2**<br/> Presence   |
 
 > 🏹 **Ensnarer Cannon (Signature Ability)**
 >
@@ -910,11 +910,11 @@ At the start of any level 7 or higher demon's turn, you can spend Malice to acti
 
 ###### Soulraker Scout
 
-| Abyssal, Demon, Soulraker |           -           |       Level 7       |                Minion Harrier                 |   EV 9 for four minions    |
-| :-----------------------: | :-------------------: | :-----------------: | :-------------------------------------------: | :------------------------: |
-|     **1M**<br/> Size      |   **7**<br/> Speed    | **12**<br/> Stamina |             **0**<br/> Stability              |   **3**<br/> Free Strike   |
-|    **-**<br/> Immunity    | **Fly**<br/> Movement |          -          | **Gain an edge on strikes**<br/> With Captain | **Holy 5**<br/> Weaknesses |
-|     **+2**<br/> Might     |  **+4**<br/> Agility  | **+1**<br/> Reason  |             **+0**<br/> Intuition             |    **-1**<br/> Presence    |
+| Abyssal, Demon, Soulraker |           -           |       Level 7       |                Minion Harrier                 |  EV 9 for four minions   |
+| :-----------------------: | :-------------------: | :-----------------: | :-------------------------------------------: | :----------------------: |
+|     **1M**<br/> Size      |   **7**<br/> Speed    | **12**<br/> Stamina |             **0**<br/> Stability              |  **3**<br/> Free Strike  |
+|    **-**<br/> Immunity    | **Fly**<br/> Movement |          -          | **Gain an edge on strikes**<br/> With Captain | **Holy 5**<br/> Weakness |
+|     **+2**<br/> Might     |  **+4**<br/> Agility  | **+1**<br/> Reason  |             **+0**<br/> Intuition             |   **-1**<br/> Presence   |
 
 > 🗡 **Soul Stinger (Signature Ability)**
 >
@@ -934,11 +934,11 @@ At the start of any level 7 or higher demon's turn, you can spend Malice to acti
 
 ###### Soulraker Soldier
 
-| Abyssal, Demon, Soulraker |          -          |       Level 7       |                 Minion Brute                  |   EV 9 for four minions    |
-| :-----------------------: | :-----------------: | :-----------------: | :-------------------------------------------: | :------------------------: |
-|      **2**<br/> Size      |  **6**<br/> Speed   | **13**<br/> Stamina |             **2**<br/> Stability              |   **4**<br/> Free Strike   |
-|    **-**<br/> Immunity    | **-**<br/> Movement |          -          | **Gain an edge on strikes**<br/> With Captain | **Holy 5**<br/> Weaknesses |
-|     **+4**<br/> Might     | **+2**<br/> Agility | **-1**<br/> Reason  |             **-1**<br/> Intuition             |    **-1**<br/> Presence    |
+| Abyssal, Demon, Soulraker |          -          |       Level 7       |                 Minion Brute                  |  EV 9 for four minions   |
+| :-----------------------: | :-----------------: | :-----------------: | :-------------------------------------------: | :----------------------: |
+|      **2**<br/> Size      |  **6**<br/> Speed   | **13**<br/> Stamina |             **2**<br/> Stability              |  **4**<br/> Free Strike  |
+|    **-**<br/> Immunity    | **-**<br/> Movement |          -          | **Gain an edge on strikes**<br/> With Captain | **Holy 5**<br/> Weakness |
+|     **+4**<br/> Might     | **+2**<br/> Agility | **-1**<br/> Reason  |             **-1**<br/> Intuition             |   **-1**<br/> Presence   |
 
 > 🗡 **Chitin Bash (Signature Ability)**
 >
@@ -958,11 +958,11 @@ At the start of any level 7 or higher demon's turn, you can spend Malice to acti
 
 ###### Soulraker Stinger
 
-| Abyssal, Demon, Soulraker |            -            |       Level 7       |               Minion Artillery                |   EV 9 for four minions    |
-| :-----------------------: | :---------------------: | :-----------------: | :-------------------------------------------: | :------------------------: |
-|     **1M**<br/> Size      |    **6**<br/> Speed     | **10**<br/> Stamina |             **0**<br/> Stability              |   **4**<br/> Free Strike   |
-|    **-**<br/> Immunity    | **Climb**<br/> Movement |          -          | **Gain an edge on strikes**<br/> With Captain | **Holy 5**<br/> Weaknesses |
-|     **+0**<br/> Might     |   **-1**<br/> Agility   | **+4**<br/> Reason  |             **+4**<br/> Intuition             |    **+0**<br/> Presence    |
+| Abyssal, Demon, Soulraker |            -            |       Level 7       |               Minion Artillery                |  EV 9 for four minions   |
+| :-----------------------: | :---------------------: | :-----------------: | :-------------------------------------------: | :----------------------: |
+|     **1M**<br/> Size      |    **6**<br/> Speed     | **10**<br/> Stamina |             **0**<br/> Stability              |  **4**<br/> Free Strike  |
+|    **-**<br/> Immunity    | **Climb**<br/> Movement |          -          | **Gain an edge on strikes**<br/> With Captain | **Holy 5**<br/> Weakness |
+|     **+0**<br/> Might     |   **-1**<br/> Agility   | **+4**<br/> Reason  |             **+4**<br/> Intuition             |   **+0**<br/> Presence   |
 
 > 🏹 **Barb Launch (Signature Ability)**
 >
@@ -984,11 +984,11 @@ At the start of any level 7 or higher demon's turn, you can spend Malice to acti
 
 ###### Blight Phage
 
-|   Abyssal, Demon    |          -          |       Level 7       |    Horde Controller     |            EV 9            |
-| :-----------------: | :-----------------: | :-----------------: | :---------------------: | :------------------------: |
-|   **3**<br/> Size   |  **6**<br/> Speed   | **40**<br/> Stamina |  **0**<br/> Stability   |   **3**<br/> Free Strike   |
-| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 5**<br/> Weaknesses |
-|  **+0**<br/> Might  | **+0**<br/> Agility | **+4**<br/> Reason  |  **+2**<br/> Intuition  |    **+4**<br/> Presence    |
+|   Abyssal, Demon    |          -          |       Level 7       |    Horde Controller     |           EV 9           |
+| :-----------------: | :-----------------: | :-----------------: | :---------------------: | :----------------------: |
+|   **3**<br/> Size   |  **6**<br/> Speed   | **40**<br/> Stamina |  **0**<br/> Stability   |  **3**<br/> Free Strike  |
+| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 5**<br/> Weakness |
+|  **+0**<br/> Might  | **+0**<br/> Agility | **+4**<br/> Reason  |  **+2**<br/> Intuition  |   **+4**<br/> Presence   |
 
 > 🏹 **Blight Pus (Signature Ability)**
 >
@@ -1026,11 +1026,11 @@ At the start of any level 7 or higher demon's turn, you can spend Malice to acti
 
 ###### Chimeron
 
-|   Abyssal, Demon    |          -          |       Level 9       |       Horde Brute       |            EV 9            |
-| :-----------------: | :-----------------: | :-----------------: | :---------------------: | :------------------------: |
-|   **3**<br/> Size   |  **6**<br/> Speed   | **90**<br/> Stamina |  **2**<br/> Stability   |   **5**<br/> Free Strike   |
-| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 5**<br/> Weaknesses |
-|  **+4**<br/> Might  | **+0**<br/> Agility | **+2**<br/> Reason  |  **+1**<br/> Intuition  |    **+2**<br/> Presence    |
+|   Abyssal, Demon    |          -          |       Level 9       |       Horde Brute       |           EV 9           |
+| :-----------------: | :-----------------: | :-----------------: | :---------------------: | :----------------------: |
+|   **3**<br/> Size   |  **6**<br/> Speed   | **90**<br/> Stamina |  **2**<br/> Stability   |  **5**<br/> Free Strike  |
+| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 5**<br/> Weakness |
+|  **+4**<br/> Might  | **+0**<br/> Agility | **+2**<br/> Reason  |  **+1**<br/> Intuition  |   **+2**<br/> Presence   |
 
 > 🗡 **Flux Gnash (Signature Ability)**
 >
@@ -1066,11 +1066,11 @@ At the start of any level 7 or higher demon's turn, you can spend Malice to acti
 
 ###### Styrich
 
-|   Abyssal, Demon    |          -          |       Level 8       |       Horde Hexer       |           EV 10            |
-| :-----------------: | :-----------------: | :-----------------: | :---------------------: | :------------------------: |
-|  **1L**<br/> Size   |  **6**<br/> Speed   | **45**<br/> Stamina |  **1**<br/> Stability   |   **3**<br/> Free Strike   |
-| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 5**<br/> Weaknesses |
-|  **+2**<br/> Might  | **+4**<br/> Agility | **+0**<br/> Reason  |  **+2**<br/> Intuition  |    **+0**<br/> Presence    |
+|   Abyssal, Demon    |          -          |       Level 8       |       Horde Hexer       |          EV 10           |
+| :-----------------: | :-----------------: | :-----------------: | :---------------------: | :----------------------: |
+|  **1L**<br/> Size   |  **6**<br/> Speed   | **45**<br/> Stamina |  **1**<br/> Stability   |  **3**<br/> Free Strike  |
+| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 5**<br/> Weakness |
+|  **+2**<br/> Might  | **+4**<br/> Agility | **+0**<br/> Reason  |  **+2**<br/> Intuition  |   **+0**<br/> Presence   |
 
 > 🗡 **Hair Whip (Signature Ability)**
 >
@@ -1108,11 +1108,11 @@ At the start of any level 7 or higher demon's turn, you can spend Malice to acti
 
 ###### Soulraker Praetorian
 
-| Abyssal, Demon, Soulraker |          -          |       Level 7       |      Horde Harrier      |            EV 9            |
-| :-----------------------: | :-----------------: | :-----------------: | :---------------------: | :------------------------: |
-|     **1L**<br/> Size      |  **8**<br/> Speed   | **45**<br/> Stamina |  **0**<br/> Stability   |   **3**<br/> Free Strike   |
-|    **-**<br/> Immunity    | **-**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 5**<br/> Weaknesses |
-|     **+2**<br/> Might     | **+4**<br/> Agility | **+0**<br/> Reason  |  **+2**<br/> Intuition  |    **+0**<br/> Presence    |
+| Abyssal, Demon, Soulraker |          -          |       Level 7       |      Horde Harrier      |           EV 9           |
+| :-----------------------: | :-----------------: | :-----------------: | :---------------------: | :----------------------: |
+|     **1L**<br/> Size      |  **8**<br/> Speed   | **45**<br/> Stamina |  **0**<br/> Stability   |  **3**<br/> Free Strike  |
+|    **-**<br/> Immunity    | **-**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 5**<br/> Weakness |
+|     **+2**<br/> Might     | **+4**<br/> Agility | **+0**<br/> Reason  |  **+2**<br/> Intuition  |   **+0**<br/> Presence   |
 
 > 🗡 **Barbed Stinger (Signature Ability)**
 >
@@ -1148,11 +1148,11 @@ At the start of any level 7 or higher demon's turn, you can spend Malice to acti
 
 ###### Soulraker Handmaiden
 
-| Abyssal, Demon, Soulraker |          -          |       Level 8       |     Horde Ambusher      |           EV 10            |
-| :-----------------------: | :-----------------: | :-----------------: | :---------------------: | :------------------------: |
-|     **1M**<br/> Size      |  **0**<br/> Speed   | **50**<br/> Stamina |  **0**<br/> Stability   |   **4**<br/> Free Strike   |
-|    **-**<br/> Immunity    | **-**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 5**<br/> Weaknesses |
-|     **+3**<br/> Might     | **+0**<br/> Agility | **+2**<br/> Reason  |  **+2**<br/> Intuition  |    **+4**<br/> Presence    |
+| Abyssal, Demon, Soulraker |          -          |       Level 8       |     Horde Ambusher      |          EV 10           |
+| :-----------------------: | :-----------------: | :-----------------: | :---------------------: | :----------------------: |
+|     **1M**<br/> Size      |  **0**<br/> Speed   | **50**<br/> Stamina |  **0**<br/> Stability   |  **4**<br/> Free Strike  |
+|    **-**<br/> Immunity    | **-**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 5**<br/> Weakness |
+|     **+3**<br/> Might     | **+0**<br/> Agility | **+2**<br/> Reason  |  **+2**<br/> Intuition  |   **+4**<br/> Presence   |
 
 > ⭐️ **Implanted Parasite**
 >
@@ -1182,11 +1182,11 @@ At the start of any level 7 or higher demon's turn, you can spend Malice to acti
 
 ###### Soulraker Hivequeen
 
-| Abyssal, Demon, Soulraker |           -           |       Level 9        |         Leader          |           EV 44            |
-| :-----------------------: | :-------------------: | :------------------: | :---------------------: | :------------------------: |
-|      **5**<br/> Size      |   **6**<br/> Speed    | **240**<br/> Stamina |  **2**<br/> Stability   |   **9**<br/> Free Strike   |
-|    **-**<br/> Immunity    | **Fly**<br/> Movement |          -           | **-**<br/> With Captain | **Holy 5**<br/> Weaknesses |
-|     **+5**<br/> Might     |  **-1**<br/> Agility  |  **+3**<br/> Reason  |  **+3**<br/> Intuition  |    **+2**<br/> Presence    |
+| Abyssal, Demon, Soulraker |           -           |       Level 9        |         Leader          |          EV 44           |
+| :-----------------------: | :-------------------: | :------------------: | :---------------------: | :----------------------: |
+|      **5**<br/> Size      |   **6**<br/> Speed    | **240**<br/> Stamina |  **2**<br/> Stability   |  **9**<br/> Free Strike  |
+|    **-**<br/> Immunity    | **Fly**<br/> Movement |          -           | **-**<br/> With Captain | **Holy 5**<br/> Weakness |
+|     **+5**<br/> Might     |  **-1**<br/> Agility  |  **+3**<br/> Reason  |  **+3**<br/> Intuition  |   **+2**<br/> Presence   |
 
 > ⚔️ **Stinging Ovipositor (Signature Ability)**
 >
@@ -1300,11 +1300,11 @@ At the start of any level 10 or higher demon's turn, you can spend Malice to act
 
 ###### Optacus
 
-|   Abyssal, Demon    |            -            |      Level 10       |            Minion Artillery             |   EV 12 for four minions   |
-| :-----------------: | :---------------------: | :-----------------: | :-------------------------------------: | :------------------------: |
-|  **1S**<br/> Size   |    **6**<br/> Speed     | **14**<br/> Stamina |          **0**<br/> Stability           |   **5**<br/> Free Strike   |
-| **-**<br/> Immunity | **Climb**<br/> Movement |          -          | **+4 bonus to speed**<br/> With Captain | **Holy 5**<br/> Weaknesses |
-|  **+1**<br/> Might  |   **+3**<br/> Agility   | **+1**<br/> Reason  |          **+5**<br/> Intuition          |    **+1**<br/> Presence    |
+|   Abyssal, Demon    |            -            |      Level 10       |            Minion Artillery             |  EV 12 for four minions  |
+| :-----------------: | :---------------------: | :-----------------: | :-------------------------------------: | :----------------------: |
+|  **1S**<br/> Size   |    **6**<br/> Speed     | **14**<br/> Stamina |          **0**<br/> Stability           |  **5**<br/> Free Strike  |
+| **-**<br/> Immunity | **Climb**<br/> Movement |          -          | **+4 bonus to speed**<br/> With Captain | **Holy 5**<br/> Weakness |
+|  **+1**<br/> Might  |   **+3**<br/> Agility   | **+1**<br/> Reason  |          **+5**<br/> Intuition          |   **+1**<br/> Presence   |
 
 > 🏹 **Optical Flare (Signature Ability)**
 >
@@ -1322,11 +1322,11 @@ At the start of any level 10 or higher demon's turn, you can spend Malice to act
 
 ###### Tyburaki
 
-|   Abyssal, Demon    |           -            |      Level 10       |                  Minion Harrier                  |   EV 12 for four minions   |
-| :-----------------: | :--------------------: | :-----------------: | :----------------------------------------------: | :------------------------: |
-|   **2**<br/> Size   |    **8**<br/> Speed    | **15**<br/> Stamina |               **0**<br/> Stability               |   **4**<br/> Free Strike   |
-| **-**<br/> Immunity | **Swim**<br/> Movement |          -          | **+4 damage bonus to strikes**<br/> With Captain | **Holy 5**<br/> Weaknesses |
-|  **+2**<br/> Might  |  **+5**<br/> Agility   | **+0**<br/> Reason  |              **+3**<br/> Intuition               |    **-1**<br/> Presence    |
+|   Abyssal, Demon    |           -            |      Level 10       |                  Minion Harrier                  |  EV 12 for four minions  |
+| :-----------------: | :--------------------: | :-----------------: | :----------------------------------------------: | :----------------------: |
+|   **2**<br/> Size   |    **8**<br/> Speed    | **15**<br/> Stamina |               **0**<br/> Stability               |  **4**<br/> Free Strike  |
+| **-**<br/> Immunity | **Swim**<br/> Movement |          -          | **+4 damage bonus to strikes**<br/> With Captain | **Holy 5**<br/> Weakness |
+|  **+2**<br/> Might  |  **+5**<br/> Agility   | **+0**<br/> Reason  |              **+3**<br/> Intuition               |   **-1**<br/> Presence   |
 
 > 🗡 **Tail Bite (Signature Ability)**
 >
@@ -1352,11 +1352,11 @@ At the start of any level 10 or higher demon's turn, you can spend Malice to act
 
 ###### Unguloid
 
-|   Abyssal, Demon    |          -          |      Level 10       |                    Minion Brute                     |   EV 12 for four minions   |
-| :-----------------: | :-----------------: | :-----------------: | :-------------------------------------------------: | :------------------------: |
-|   **2**<br/> Size   |  **8**<br/> Speed   | **17**<br/> Stamina |                **3**<br/> Stability                 |   **5**<br/> Free Strike   |
-| **-**<br/> Immunity | **-**<br/> Movement |          -          | **Have a double edge on strikes**<br/> With Captain | **Holy 5**<br/> Weaknesses |
-|  **+5**<br/> Might  | **+5**<br/> Agility | **-1**<br/> Reason  |                **-1**<br/> Intuition                |    **-1**<br/> Presence    |
+|   Abyssal, Demon    |          -          |      Level 10       |                    Minion Brute                     |  EV 12 for four minions  |
+| :-----------------: | :-----------------: | :-----------------: | :-------------------------------------------------: | :----------------------: |
+|   **2**<br/> Size   |  **8**<br/> Speed   | **17**<br/> Stamina |                **3**<br/> Stability                 |  **5**<br/> Free Strike  |
+| **-**<br/> Immunity | **-**<br/> Movement |          -          | **Have a double edge on strikes**<br/> With Captain | **Holy 5**<br/> Weakness |
+|  **+5**<br/> Might  | **+5**<br/> Agility | **-1**<br/> Reason  |                **-1**<br/> Intuition                |   **-1**<br/> Presence   |
 
 > 🗡 **Gore Horn (Signature Ability)**
 >
@@ -1378,11 +1378,11 @@ At the start of any level 10 or higher demon's turn, you can spend Malice to act
 
 ###### Izyak
 
-|   Abyssal, Demon    |             -              |      Level 10       |    Horde Controller     |           EV 12            |
-| :-----------------: | :------------------------: | :-----------------: | :---------------------: | :------------------------: |
-|   **2**<br/> Size   |      **6**<br/> Speed      | **55**<br/> Stamina |  **0**<br/> Stability   |   **4**<br/> Free Strike   |
-| **-**<br/> Immunity | **Teleport**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 5**<br/> Weaknesses |
-|  **+0**<br/> Might  |    **+0**<br/> Agility     | **+5**<br/> Reason  |  **+2**<br/> Intuition  |    **+4**<br/> Presence    |
+|   Abyssal, Demon    |             -              |      Level 10       |    Horde Controller     |          EV 12           |
+| :-----------------: | :------------------------: | :-----------------: | :---------------------: | :----------------------: |
+|   **2**<br/> Size   |      **6**<br/> Speed      | **55**<br/> Stamina |  **0**<br/> Stability   |  **4**<br/> Free Strike  |
+| **-**<br/> Immunity | **Teleport**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 5**<br/> Weakness |
+|  **+0**<br/> Might  |    **+0**<br/> Agility     | **+5**<br/> Reason  |  **+2**<br/> Intuition  |   **+4**<br/> Presence   |
 
 > 🏹 **Nostalgic Wanderlust (Signature Ability)**
 >
@@ -1426,11 +1426,11 @@ At the start of any level 10 or higher demon's turn, you can spend Malice to act
 
 ###### Vicisitator
 
-|   Abyssal, Demon    |          -          |      Level 10       |      Horde Harrier      |           EV 12            |
-| :-----------------: | :-----------------: | :-----------------: | :---------------------: | :------------------------: |
-|  **1M**<br/> Size   |  **9**<br/> Speed   | **60**<br/> Stamina |  **0**<br/> Stability   |   **4**<br/> Free Strike   |
-| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 5**<br/> Weaknesses |
-|  **+4**<br/> Might  | **+5**<br/> Agility | **-1**<br/> Reason  |  **-2**<br/> Intuition  |    **-3**<br/> Presence    |
+|   Abyssal, Demon    |          -          |      Level 10       |      Horde Harrier      |          EV 12           |
+| :-----------------: | :-----------------: | :-----------------: | :---------------------: | :----------------------: |
+|  **1M**<br/> Size   |  **9**<br/> Speed   | **60**<br/> Stamina |  **0**<br/> Stability   |  **4**<br/> Free Strike  |
+| **-**<br/> Immunity | **-**<br/> Movement |          -          | **-**<br/> With Captain | **Holy 5**<br/> Weakness |
+|  **+4**<br/> Might  | **+5**<br/> Agility | **-1**<br/> Reason  |  **-2**<br/> Intuition  |   **-3**<br/> Presence   |
 
 > ⚔️ **Warp Touch (Signature Ability)**
 >
@@ -1470,11 +1470,11 @@ At the start of any level 10 or higher demon's turn, you can spend Malice to act
 
 ###### Aurumvas
 
-|   Abyssal, Demon    |           -           |       Level 10       |         Leader          |           EV 48            |
-| :-----------------: | :-------------------: | :------------------: | :---------------------: | :------------------------: |
-|   **3**<br/> Size   |   **8**<br/> Speed    | **260**<br/> Stamina |  **2**<br/> Stability   |  **10**<br/> Free Strike   |
-| **-**<br/> Immunity | **Fly**<br/> Movement |          -           | **-**<br/> With Captain | **Holy 5**<br/> Weaknesses |
-|  **+5**<br/> Might  |  **+2**<br/> Agility  |  **+5**<br/> Reason  |  **+3**<br/> Intuition  |    **+5**<br/> Presence    |
+|   Abyssal, Demon    |           -           |       Level 10       |         Leader          |          EV 48           |
+| :-----------------: | :-------------------: | :------------------: | :---------------------: | :----------------------: |
+|   **3**<br/> Size   |   **8**<br/> Speed    | **260**<br/> Stamina |  **2**<br/> Stability   | **10**<br/> Free Strike  |
+| **-**<br/> Immunity | **Fly**<br/> Movement |          -           | **-**<br/> With Captain | **Holy 5**<br/> Weakness |
+|  **+5**<br/> Might  |  **+2**<br/> Agility  |  **+5**<br/> Reason  |  **+3**<br/> Intuition  |   **+5**<br/> Presence   |
 
 > ⭐️ **Absorb Soul**
 >

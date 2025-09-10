@@ -305,7 +305,7 @@ Inevitably, one or more noncombatants might get caught up in a dangerous situati
 |   Human or Animal   |         -         |     Level -      |           -           |         EV -         |
 | :-----------------: | :---------------: | :--------------: | :-------------------: | :------------------: |
 |  **1S-2**<br>Size   |  **5**<br>Speed   | **8**<br>Stamina |  **0**<br>Stability   | **1**<br>Free Strike |
-| **-**<br>Immunities | **-**<br>Movement |                  | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunities | **-**<br>Movement |                  | **-**<br>With Captain |  **-**<br>Weakness   |
 |   **0**<br>Might    | **0**<br>Agility  | **0**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
 > **Size**
@@ -1574,7 +1574,7 @@ At the start of Ajax's turn, you can spend Malice to activate one of the followi
 |   Human, Humanoid   |             -              |      Level 11      |         Solo          |        EV 156         |
 | :-----------------: | :------------------------: | :----------------: | :-------------------: | :-------------------: |
 |   **1L**<br>Size    |       **7**<br>Speed       | **700**<br>Stamina |  **2**<br>Stability   | **11**<br>Free Strike |
-| **-**<br>Immunities | **Fly, hover**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weaknesses  |
+| **-**<br>Immunities | **Fly, hover**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |   **+5**<br>Might   |     **+4**<br>Agility      |  **+5**<br>Reason  |  **+5**<br>Intuition  |  **+4**<br>Presence   |
 
 > ☠️ **Ajax**
@@ -1784,7 +1784,7 @@ At the start of any angulotl's turn, you can spend Malice to activate one of the
 |    Angulotl, Humanoid    |              -              |     Level 1      |                Minion Ambusher                 |  EV 3 for 4 minions  |
 | :----------------------: | :-------------------------: | :--------------: | :--------------------------------------------: | :------------------: |
 |      **1S**<br>Size      |       **6**<br>Speed        | **4**<br>Stamina |               **0**<br>Stability               | **2**<br>Free Strike |
-| **Poison 2**<br>Immunity | **Climb, swim**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain | **-**<br>Weaknesses  |
+| **Poison 2**<br>Immunity | **Climb, swim**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |  **-**<br>Weakness   |
 |      **0**<br>Might      |      **+2**<br>Agility      | **+0**<br>Reason |              **+1**<br>Intuition               |  **+0**<br>Presence  |
 
 > 🗡 **Hop and Chop (Signature Ability)**
@@ -1810,7 +1810,7 @@ At the start of any angulotl's turn, you can spend Malice to activate one of the
 |    Angulotl, Humanoid    |              -              |     Level 1      |                Minion Artillery                 |  EV 3 for 4 minions  |
 | :----------------------: | :-------------------------: | :--------------: | :---------------------------------------------: | :------------------: |
 |      **1S**<br>Size      |       **5**<br>Speed        | **3**<br>Stamina |               **0**<br>Stability                | **2**<br>Free Strike |
-| **Poison 2**<br>Immunity | **Climb, swim**<br>Movement |        -         | **+4 bonus to ranged distance**<br>With Captain | **-**<br>Weaknesses  |
+| **Poison 2**<br>Immunity | **Climb, swim**<br>Movement |        -         | **+4 bonus to ranged distance**<br>With Captain |  **-**<br>Weakness   |
 |      **0**<br>Might      |      **+2**<br>Agility      | **+1**<br>Reason |               **+0**<br>Intuition               |  **+0**<br>Presence  |
 
 > 🏹 **Poison Dart (Signature Ability)**
@@ -1836,7 +1836,7 @@ At the start of any angulotl's turn, you can spend Malice to activate one of the
 |         Angulotl         |              -              |     Level 1      |            Minion Harrier             |  EV 3 for 4 minions  |
 | :----------------------: | :-------------------------: | :--------------: | :-----------------------------------: | :------------------: |
 |      **1S**<br>Size      |       **6**<br>Speed        | **4**<br>Stamina |          **0**<br>Stability           | **1**<br>Free Strike |
-| **Poison 2**<br>Immunity | **Climb, swim**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain | **-**<br>Weaknesses  |
+| **Poison 2**<br>Immunity | **Climb, swim**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |  **-**<br>Weakness   |
 |     **+0**<br>Might      |      **+2**<br>Agility      | **-2**<br>Reason |          **-2**<br>Intuition          |  **+0**<br>Presence  |
 
 > 🗡 **Nip (Signature Ability)**
@@ -1860,7 +1860,7 @@ At the start of any angulotl's turn, you can spend Malice to activate one of the
 |           Angulotl, Animal            |              -              |     Level 1      |                Minion Brute                 |  EV 3 for 4 minions  |
 | :-----------------------------------: | :-------------------------: | :--------------: | :-----------------------------------------: | :------------------: |
 |            **1S**<br>Size             |       **5**<br>Speed        | **5**<br>Stamina |             **0**<br>Stability              | **2**<br>Free Strike |
-| **Lightning 3, Poison 2**<br>Immunity | **Climb, swim**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain | **-**<br>Weaknesses  |
+| **Lightning 3, Poison 2**<br>Immunity | **Climb, swim**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weakness   |
 |            **+0**<br>Might            |      **+2**<br>Agility      | **-3**<br>Reason |             **-2**<br>Intuition             |  **+1**<br>Presence  |
 
 > 🗡 **Hookclaw (Signature Ability)**
@@ -1886,7 +1886,7 @@ At the start of any angulotl's turn, you can spend Malice to activate one of the
 |    Angulotl, Humanoid    |              -              |      Level 1      |    Horde Artillery    |         EV 3         |
 | :----------------------: | :-------------------------: | :---------------: | :-------------------: | :------------------: |
 |      **1S**<br>Size      |       **5**<br>Speed        | **10**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
-| **Poison 2**<br>Immunity | **Climb, swim**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Poison 2**<br>Immunity | **Climb, swim**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |     **+0**<br>Might      |      **+2**<br>Agility      | **+1**<br>Reason  |  **0**<br>Intuition   |  **-1**<br>Presence  |
 
 > 🏹 **Blowgun (Signature Ability)**
@@ -1912,7 +1912,7 @@ At the start of any angulotl's turn, you can spend Malice to activate one of the
 |    Angulotl, Humanoid    |              -              |      Level 1      |    Horde Ambusher     |         EV 3         |
 | :----------------------: | :-------------------------: | :---------------: | :-------------------: | :------------------: |
 |      **1S**<br>Size      |       **5**<br>Speed        | **15**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
-| **Poison 2**<br>Immunity | **Climb, swim**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Poison 2**<br>Immunity | **Climb, swim**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |     **+1**<br>Might      |      **+2**<br>Agility      | **+0**<br>Reason  |  **+0**<br>Intuition  |  **+0**<br>Presence  |
 
 > 🗡 **Tonguelash (Signature Ability)**
@@ -1950,7 +1950,7 @@ At the start of any angulotl's turn, you can spend Malice to activate one of the
 |    Angulotl, Humanoid    |              -              |      Level 1      |   Horde Controller    |         EV 3         |
 | :----------------------: | :-------------------------: | :---------------: | :-------------------: | :------------------: |
 |      **1S**<br>Size      |       **5**<br>Speed        | **10**<br>Stamina |  **0**<br>Stability   | **1**<br>Free Strike |
-| **Poison 2**<br>Immunity | **Climb, swim**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Poison 2**<br>Immunity | **Climb, swim**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |     **+0**<br>Might      |      **+0**<br>Agility      | **+0**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🏹 **Refulgent Beams (Signature Ability)**
@@ -2003,7 +2003,7 @@ At the start of any angulotl's turn, you can spend Malice to activate one of the
 |    Angulotl, Humanoid    |              -              |      Level 1      |        Leader         |        EV 12         |
 | :----------------------: | :-------------------------: | :---------------: | :-------------------: | :------------------: |
 |      **1M**<br>Size      |       **5**<br>Speed        | **80**<br>Stamina |  **1**<br>Stability   | **4**<br>Free Strike |
-| **Poison 3**<br>Immunity | **Climb, swim**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Poison 3**<br>Immunity | **Climb, swim**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |     **+3**<br>Might      |      **+2**<br>Agility      | **+0**<br>Reason  |  **+2**<br>Intuition  |  **+0**<br>Presence  |
 
 > 🗡 **Acid Grasp (Signature Ability)**
@@ -2355,7 +2355,7 @@ The Example Animals table breaks out a number of animals using this notation. Se
 |      Animal       |         -         |      Level 1      |     Elite Harrier     |        EV 12         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **6**<br>Speed   | **60**<br>Stamina |  **0**<br>Stability   | **4**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+0**<br>Might  | **+2**<br>Agility | **-2**<br>Reason  |  **+1**<br>Intuition  |  **-2**<br>Presence  |
 
 > 🗡 **Natural Weapon (Signature Ability)**
@@ -2389,7 +2389,7 @@ The Example Animals table breaks out a number of animals using this notation. Se
 |   Animal, Swarm   |         -         |      Level 1      |      Elite Hexer      |        EV 12         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |   **2**<br>Size   |  **5**<br>Speed   | **40**<br>Stamina |  **1**<br>Stability   | **4**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **-2**<br>Might  | **+1**<br>Agility | **-3**<br>Reason  |  **+2**<br>Intuition  |  **-3**<br>Presence  |
 
 > 🗡 **Flurry (Signature Ability)**
@@ -2427,7 +2427,7 @@ The Example Animals table breaks out a number of animals using this notation. Se
 |      Animal       |         -         |      Level 1      |      Elite Mount      |        EV 12         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |   **2**<br>Size   |  **6**<br>Speed   | **60**<br>Stamina |  **1**<br>Stability   | **4**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+1**<br>Might  | **+2**<br>Agility | **-2**<br>Reason  |  **+1**<br>Intuition  |  **-2**<br>Presence  |
 
 > 🗡 **Natural Weapon (Signature Ability)**
@@ -2471,7 +2471,7 @@ The Example Animals table breaks out a number of animals using this notation. Se
 |      Animal       |         -         |      Level 2      |      Elite Mount      |        EV 16         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |   **3**<br>Size   |  **6**<br>Speed   | **80**<br>Stamina |  **3**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+1**<br>Agility | **-1**<br>Reason  |  **+1**<br>Intuition  |  **+0**<br>Presence  |
 
 > 🗡 **Natural Weapon (Signature Ability)**
@@ -2534,7 +2534,7 @@ The Example Animals table breaks out a number of animals using this notation. Se
 |      Animal       |         -         |      Level 1      |      Elite Brute      |        EV 12         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |   **2**<br>Size   |  **5**<br>Speed   | **80**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+1**<br>Might  | **+2**<br>Agility | **-2**<br>Reason  |  **+1**<br>Intuition  |  **+1**<br>Presence  |
 
 > 🗡 **Natural Weapon (Signature Ability)**
@@ -2576,7 +2576,7 @@ The Example Animals table breaks out a number of animals using this notation. Se
 |      Animal       |         -         |      Level 3       |      Elite Brute      |        EV 16         |
 | :---------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |   **3**<br>Size   |  **5**<br>Speed   | **100**<br>Stamina |  **2**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+1**<br>Agility |  **-1**<br>Reason  |  **+1**<br>Intuition  |  **+0**<br>Presence  |
 
 > 🗡 **Natural Weapon (Signature Ability)**
@@ -2664,7 +2664,7 @@ At the start of an arixx's turn, you can spend Malice to activate one of the fol
 |   Arixx, Beast    |           -            |      Level 1       |         Solo          |        EV 36         |
 | :---------------: | :--------------------: | :----------------: | :-------------------: | :------------------: |
 |   **2**<br>Size   |     **5**<br>Speed     | **200**<br>Stamina |  **2**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **Burrow**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **Burrow**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+3**<br>Might  |   **+1**<br>Agility    |  **-3**<br>Reason  |  **+1**<br>Intuition  |  **-4**<br>Presence  |
 
 > ☠️ **Solo Monster**
@@ -2833,11 +2833,11 @@ At the start of an ashen hoarder's turn, you can spend Malice to activate one of
 
 **<span class="steel-compendium-statblock">Ashen Hoarder</span>**
 
-| Construct, Undead |           -            |      Level 4       |         Solo          |          EV 72           |
-| :---------------: | :--------------------: | :----------------: | :-------------------: | :----------------------: |
-|   **3**<br>Size   |     **8**<br>Speed     | **350**<br>Stamina |  **3**<br>Stability   |   **6**<br>Free Strike   |
-| **-**<br>Immunity | **Burrow**<br>Movement |         -          | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+4**<br>Might  |   **-1**<br>Agility    |  **-2**<br>Reason  |  **+0**<br>Intuition  |    **-5**<br>Presence    |
+| Construct, Undead |           -            |      Level 4       |         Solo          |         EV 72          |
+| :---------------: | :--------------------: | :----------------: | :-------------------: | :--------------------: |
+|   **3**<br>Size   |     **8**<br>Speed     | **350**<br>Stamina |  **3**<br>Stability   |  **6**<br>Free Strike  |
+| **-**<br>Immunity | **Burrow**<br>Movement |         -          | **-**<br>With Captain | **Holy 5**<br>Weakness |
+|  **+4**<br>Might  |   **-1**<br>Agility    |  **-2**<br>Reason  |  **+0**<br>Intuition  |   **-5**<br>Presence   |
 
 > ☠️ **Solo Monster**
 >
@@ -3002,7 +3002,7 @@ At the start of any basilisk's turn, you can spend Malice to activate one of the
 |     Basilisk, Beast      |         -         |      Level 1      |      Elite Brute      |        EV 12         |
 | :----------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |      **2**<br>Size       |  **8**<br>Speed   | **80**<br>Stamina |  **2**<br>Stability   | **5**<br>Free Strike |
-| **Poison 4**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Poison 4**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |     **+2**<br>Might      | **+0**<br>Agility | **-3**<br>Reason  |  **-1**<br>Intuition  |  **-1**<br>Presence  |
 
 > 🗡 **Noxious Bite (Signature Ability)**
@@ -3066,7 +3066,7 @@ At the start of any basilisk's turn, you can spend Malice to activate one of the
 |         Basilisk, Beast          |         -         |      Level 1      |      Elite Hexer      |        EV 12         |
 | :------------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |          **2**<br>Size           |  **8**<br>Speed   | **40**<br>Stamina |  **2**<br>Stability   | **4**<br>Free Strike |
-| **Acid 2, Poison 2**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Acid 2, Poison 2**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |         **+1**<br>Might          | **+2**<br>Agility | **-3**<br>Reason  |  **-1**<br>Intuition  |  **-1**<br>Presence  |
 
 > 🗡 **Prehensile Tongue (Signature Ability)**
@@ -3174,7 +3174,7 @@ At the start of a bredbeddle's turn, you can spend Malice to activate one of the
 | Bredbeddle, Giant |         -         |      Level 3       |         Solo          |        EV 60         |
 | :---------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |   **2**<br>Size   |  **5**<br>Speed   | **300**<br>Stamina |  **4**<br>Stability   | **6**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+3**<br>Might  | **+0**<br>Agility |  **-3**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
 
 > ☠️ **Solo Monster**
@@ -3340,7 +3340,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 | Bugbear, Fey, Goblin, Humanoid |         -         |      Level 2      |   Elite Controller    |        EV 16         |
 | :----------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |         **1L**<br>Size         |  **5**<br>Speed   | **60**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-|       **-**<br>Immunity        | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|       **-**<br>Immunity        | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |        **+1**<br>Might         | **+1**<br>Agility | **+2**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🏹 **Shadow Drag (Signature Ability)**
@@ -3420,7 +3420,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 | Bugbear, Fey, Goblin, Humanoid |         -         |      Level 2      |     Elite Support     |        EV 16         |
 | :----------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |         **1L**<br>Size         |  **5**<br>Speed   | **80**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-|       **-**<br>Immunity        | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|       **-**<br>Immunity        | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |        **+2**<br>Might         | **+1**<br>Agility | **+2**<br>Reason  |  **+0**<br>Intuition  |  **+0**<br>Presence  |
 
 > 🗡 **Inspiring Swordplay (Signature Ability)**
@@ -3482,7 +3482,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 | Bugbear, Fey, Goblin, Humanoid |         -         |      Level 2       |      Elite Brute      |        EV 16         |
 | :----------------------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |         **1L**<br>Size         |  **6**<br>Speed   | **109**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-|       **-**<br>Immunity        | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|       **-**<br>Immunity        | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |        **+2**<br>Might         | **+2**<br>Agility |  **+0**<br>Reason  |  **+0**<br>Intuition  |  **+0**<br>Presence  |
 
 > 🗡 **Haymaker (Signature Ability)**
@@ -3558,7 +3558,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 | Bugbear, Fey, Goblin, Humanoid |         -         |      Level 2      |    Elite Ambusher     |        EV 16         |
 | :----------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |         **1L**<br>Size         |  **7**<br>Speed   | **80**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-|       **-**<br>Immunity        | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|       **-**<br>Immunity        | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |        **+2**<br>Might         | **+2**<br>Agility | **+0**<br>Reason  |  **+0**<br>Intuition  |  **+0**<br>Presence  |
 
 > 🗡 **Sucker Punch (Signature Ability)**
@@ -3638,7 +3638,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 | Bugbear, Fey, Goblin, Humanoid |         -         |      Level 8      |                Minion Hexer                 | EV 10 for four minions |
 | :----------------------------: | :---------------: | :---------------: | :-----------------------------------------: | :--------------------: |
 |         **1L**<br>Size         |  **5**<br>Speed   | **12**<br>Stamina |             **2**<br>Stability              |  **3**<br>Free Strike  |
-|       **-**<br>Immunity        | **-**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weaknesses   |
+|       **-**<br>Immunity        | **-**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness    |
 |        **+4**<br>Might         | **+3**<br>Agility | **+1**<br>Reason  |             **+1**<br>Intuition             |   **+4**<br>Presence   |
 
 > 🗡 **Corrosive Blade (Signature Ability)**
@@ -3668,7 +3668,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 | Bugbear, Fey, Goblin, Humanoid |         -         |      Level 5      |                  Minion Brute                  | EV 7 for four minions |
 | :----------------------------: | :---------------: | :---------------: | :--------------------------------------------: | :-------------------: |
 |         **3**<br>Size          |  **6**<br>Speed   | **10**<br>Stamina |               **2**<br>Stability               | **3**<br>Free Strike  |
-|       **-**<br>Immunity        | **-**<br>Movement |         -         | **+2 damage bonus to strikes**<br>With Captain |  **-**<br>Weaknesses  |
+|       **-**<br>Immunity        | **-**<br>Movement |         -         | **+2 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |        **+3**<br>Might         | **-1**<br>Agility | **+0**<br>Reason  |              **+1**<br>Intuition               |  **+0**<br>Presence   |
 
 > 🗡 **Mug and Tear (Signature Ability)**
@@ -3694,7 +3694,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 | Bugbear, Fey, Goblin, Humanoid |         -         |     Level 5      |            Minion Ambusher            | EV 7 for four minions |
 | :----------------------------: | :---------------: | :--------------: | :-----------------------------------: | :-------------------: |
 |         **1L**<br>Size         |  **6**<br>Speed   | **9**<br>Stamina |          **2**<br>Stability           | **3**<br>Free Strike  |
-|       **-**<br>Immunity        | **-**<br>Movement |        -         | **+3 bonus to speed**<br>With Captain |  **-**<br>Weaknesses  |
+|       **-**<br>Immunity        | **-**<br>Movement |        -         | **+3 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |        **+2**<br>Might         | **+3**<br>Agility | **+0**<br>Reason |          **+0**<br>Intuition          |  **+1**<br>Presence   |
 
 > 🗡 **Cut 'Em Low! (Signature Ability)**
@@ -3754,7 +3754,7 @@ At the start of a chimera's turn, you can spend Malice to activate one of the fo
 |     Beast, Chimera     |          -          |      Level 3       |         Solo          |        EV 60         |
 | :--------------------: | :-----------------: | :----------------: | :-------------------: | :------------------: |
 |     **2**<br>Size      |   **10**<br>Speed   | **300**<br>Stamina |  **1**<br>Stability   | **6**<br>Free Strike |
-| **Fire 6**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Fire 6**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |    **+3**<br>Might     |  **+2**<br>Agility  |  **-2**<br>Reason  |  **+1**<br>Intuition  |  **+0**<br>Presence  |
 
 > ☠️ **Solo Monster**
@@ -3967,11 +3967,11 @@ At the start of any demon's turn, you can spend Malice to activate one of the fo
 
 **<span class="steel-compendium-statblock">Ensnarer</span>**
 
-|  Abyssal, Demon   |         -         |     Level 1      |                  Minion Brute                  |  EV 3 for four minions   |
-| :---------------: | :---------------: | :--------------: | :--------------------------------------------: | :----------------------: |
-|  **1M**<br>Size   |  **5**<br>Speed   | **5**<br>Stamina |               **0**<br>Stability               |   **2**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to melee distance**<br>With Captain | **Holy 3**<br>Weaknesses |
-|  **+2**<br>Might  | **+0**<br>Agility | **-1**<br>Reason |              **-1**<br>Intuition               |    **-1**<br>Presence    |
+|  Abyssal, Demon   |         -         |     Level 1      |                  Minion Brute                  | EV 3 for four minions  |
+| :---------------: | :---------------: | :--------------: | :--------------------------------------------: | :--------------------: |
+|  **1M**<br>Size   |  **5**<br>Speed   | **5**<br>Stamina |               **0**<br>Stability               |  **2**<br>Free Strike  |
+| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to melee distance**<br>With Captain | **Holy 3**<br>Weakness |
+|  **+2**<br>Might  | **+0**<br>Agility | **-1**<br>Reason |              **-1**<br>Intuition               |   **-1**<br>Presence   |
 
 > 🗡 **Barbed Tongues (Signature Ability)**
 >
@@ -3993,11 +3993,11 @@ At the start of any demon's turn, you can spend Malice to activate one of the fo
 
 **<span class="steel-compendium-statblock">Frenzied</span>**
 
-|  Abyssal, Demon   |         -         |     Level 1      |            Minion Harrier             |  EV 3 for four minions   |
-| :---------------: | :---------------: | :--------------: | :-----------------------------------: | :----------------------: |
-|  **1M**<br>Size   |  **6**<br>Speed   | **4**<br>Stamina |          **0**<br>Stability           |   **1**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain | **Holy 3**<br>Weaknesses |
-|  **+0**<br>Might  | **+2**<br>Agility | **-1**<br>Reason |          **-1**<br>Intuition          |    **-1**<br>Presence    |
+|  Abyssal, Demon   |         -         |     Level 1      |            Minion Harrier             | EV 3 for four minions  |
+| :---------------: | :---------------: | :--------------: | :-----------------------------------: | :--------------------: |
+|  **1M**<br>Size   |  **6**<br>Speed   | **4**<br>Stamina |          **0**<br>Stability           |  **1**<br>Free Strike  |
+| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain | **Holy 3**<br>Weakness |
+|  **+0**<br>Might  | **+2**<br>Agility | **-1**<br>Reason |          **-1**<br>Intuition          |   **-1**<br>Presence   |
 
 > 🗡 **Rip and Tear (Signature Ability)**
 >
@@ -4017,11 +4017,11 @@ At the start of any demon's turn, you can spend Malice to activate one of the fo
 
 **<span class="steel-compendium-statblock">Pitling</span>**
 
-|  Abyssal, Demon   |          -          |     Level 1      |           Minion Artillery            |  EV 3 for four minions   |
-| :---------------: | :-----------------: | :--------------: | :-----------------------------------: | :----------------------: |
-|  **1T**<br>Size   |   **5**<br>Speed    | **3**<br>Stamina |          **0**<br>Stability           |   **2**<br>Free Strike   |
-| **-**<br>Immunity | **Fly**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain | **Holy 3**<br>Weaknesses |
-|  **-2**<br>Might  |  **+2**<br>Agility  | **-2**<br>Reason |          **-2**<br>Intuition          |    **-2**<br>Presence    |
+|  Abyssal, Demon   |          -          |     Level 1      |           Minion Artillery            | EV 3 for four minions  |
+| :---------------: | :-----------------: | :--------------: | :-----------------------------------: | :--------------------: |
+|  **1T**<br>Size   |   **5**<br>Speed    | **3**<br>Stamina |          **0**<br>Stability           |  **2**<br>Free Strike  |
+| **-**<br>Immunity | **Fly**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain | **Holy 3**<br>Weakness |
+|  **-2**<br>Might  |  **+2**<br>Agility  | **-2**<br>Reason |          **-2**<br>Intuition          |   **-2**<br>Presence   |
 
 > 🏹 **Spit (Signature Ability)**
 >
@@ -4045,11 +4045,11 @@ At the start of any demon's turn, you can spend Malice to activate one of the fo
 
 **<span class="steel-compendium-statblock">Bendrak</span>**
 
-|  Abyssal, Demon   |         -         |      Level 2      |      Horde Hexer      |           EV 4           |
-| :---------------: | :---------------: | :---------------: | :-------------------: | :----------------------: |
-|  **1L**<br>Size   |  **5**<br>Speed   | **15**<br>Stamina |  **0**<br>Stability   |   **2**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 3**<br>Weaknesses |
-|  **+0**<br>Might  | **+1**<br>Agility | **+0**<br>Reason  |  **+0**<br>Intuition  |    **+2**<br>Presence    |
+|  Abyssal, Demon   |         -         |      Level 2      |      Horde Hexer      |          EV 4          |
+| :---------------: | :---------------: | :---------------: | :-------------------: | :--------------------: |
+|  **1L**<br>Size   |  **5**<br>Speed   | **15**<br>Stamina |  **0**<br>Stability   |  **2**<br>Free Strike  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 3**<br>Weakness |
+|  **+0**<br>Might  | **+1**<br>Agility | **+0**<br>Reason  |  **+0**<br>Intuition  |   **+2**<br>Presence   |
 
 > 🏹 **Warp Perceptions (Signature Ability)**
 >
@@ -4083,11 +4083,11 @@ At the start of any demon's turn, you can spend Malice to activate one of the fo
 
 **<span class="steel-compendium-statblock">Muceron</span>**
 
-|  Abyssal, Demon   |         -         |      Level 3      |      Horde Brute      |           EV 5           |
-| :---------------: | :---------------: | :---------------: | :-------------------: | :----------------------: |
-|  **1M**<br>Size   |  **5**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   |   **3**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 3**<br>Weaknesses |
-|  **+2**<br>Might  | **+2**<br>Agility | **+0**<br>Reason  |  **+0**<br>Intuition  |    **+1**<br>Presence    |
+|  Abyssal, Demon   |         -         |      Level 3      |      Horde Brute      |          EV 5          |
+| :---------------: | :---------------: | :---------------: | :-------------------: | :--------------------: |
+|  **1M**<br>Size   |  **5**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   |  **3**<br>Free Strike  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 3**<br>Weakness |
+|  **+2**<br>Might  | **+2**<br>Agility | **+0**<br>Reason  |  **+0**<br>Intuition  |   **+1**<br>Presence   |
 
 > 🗡 **Barbed Tongues (Signature Ability)**
 >
@@ -4121,11 +4121,11 @@ At the start of any demon's turn, you can spend Malice to activate one of the fo
 
 **<span class="steel-compendium-statblock">Remasch</span>**
 
-|  Abyssal, Demon   |            -             |      Level 2      |    Horde Ambusher     |           EV 4           |
-| :---------------: | :----------------------: | :---------------: | :-------------------: | :----------------------: |
-|  **1S**<br>Size   |      **5**<br>Speed      | **20**<br>Stamina |  **0**<br>Stability   |   **3**<br>Free Strike   |
-| **-**<br>Immunity | **Teleport**<br>Movement |         -         | **-**<br>With Captain | **Holy 3**<br>Weaknesses |
-|  **+0**<br>Might  |    **+2**<br>Agility     | **+0**<br>Reason  |  **+0**<br>Intuition  |    **+2**<br>Presence    |
+|  Abyssal, Demon   |            -             |      Level 2      |    Horde Ambusher     |          EV 4          |
+| :---------------: | :----------------------: | :---------------: | :-------------------: | :--------------------: |
+|  **1S**<br>Size   |      **5**<br>Speed      | **20**<br>Stamina |  **0**<br>Stability   |  **3**<br>Free Strike  |
+| **-**<br>Immunity | **Teleport**<br>Movement |         -         | **-**<br>With Captain | **Holy 3**<br>Weakness |
+|  **+0**<br>Might  |    **+2**<br>Agility     | **+0**<br>Reason  |  **+0**<br>Intuition  |   **+2**<br>Presence   |
 
 > 🗡 **Abyssal Strike (Signature Ability)**
 >
@@ -4159,11 +4159,11 @@ At the start of any demon's turn, you can spend Malice to activate one of the fo
 
 **<span class="steel-compendium-statblock">Ruinant</span>**
 
-|  Abyssal, Demon   |         -         |      Level 1      |     Horde Harrier     |           EV 3           |
-| :---------------: | :---------------: | :---------------: | :-------------------: | :----------------------: |
-|  **1M**<br>Size   |  **6**<br>Speed   | **15**<br>Stamina |  **0**<br>Stability   |   **1**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 3**<br>Weaknesses |
-|  **+0**<br>Might  | **+2**<br>Agility | **+0**<br>Reason  |  **+0**<br>Intuition  |    **+1**<br>Presence    |
+|  Abyssal, Demon   |         -         |      Level 1      |     Horde Harrier     |          EV 3          |
+| :---------------: | :---------------: | :---------------: | :-------------------: | :--------------------: |
+|  **1M**<br>Size   |  **6**<br>Speed   | **15**<br>Stamina |  **0**<br>Stability   |  **1**<br>Free Strike  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 3**<br>Weakness |
+|  **+0**<br>Might  | **+2**<br>Agility | **+0**<br>Reason  |  **+0**<br>Intuition  |   **+1**<br>Presence   |
 
 > 🗡 **Bloodletting Claws (Signature Ability)**
 >
@@ -4201,11 +4201,11 @@ At the start of any demon's turn, you can spend Malice to activate one of the fo
 
 **<span class="steel-compendium-statblock">Torlas</span>**
 
-|  Abyssal, Demon   |         -         |      Level 1      |   Horde Controller    |           EV 3           |
-| :---------------: | :---------------: | :---------------: | :-------------------: | :----------------------: |
-|  **1S**<br>Size   |  **5**<br>Speed   | **10**<br>Stamina |  **0**<br>Stability   |   **1**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 3**<br>Weaknesses |
-|  **+0**<br>Might  | **+1**<br>Agility | **+0**<br>Reason  |  **+0**<br>Intuition  |    **+2**<br>Presence    |
+|  Abyssal, Demon   |         -         |      Level 1      |   Horde Controller    |          EV 3          |
+| :---------------: | :---------------: | :---------------: | :-------------------: | :--------------------: |
+|  **1S**<br>Size   |  **5**<br>Speed   | **10**<br>Stamina |  **0**<br>Stability   |  **1**<br>Free Strike  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 3**<br>Weakness |
+|  **+0**<br>Might  | **+1**<br>Agility | **+0**<br>Reason  |  **+0**<br>Intuition  |   **+2**<br>Presence   |
 
 > 🔳 **Floor to Flesh (Signature Ability)**
 >
@@ -4239,11 +4239,11 @@ At the start of any demon's turn, you can spend Malice to activate one of the fo
 
 **<span class="steel-compendium-statblock">Chorogaunt</span>**
 
-|  Abyssal, Demon   |         -         |      Level 3       |        Leader         |          EV 20           |
-| :---------------: | :---------------: | :----------------: | :-------------------: | :----------------------: |
-|  **1L**<br>Size   |  **5**<br>Speed   | **120**<br>Stamina |  **2**<br>Stability   |   **5**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+2**<br>Might  | **+2**<br>Agility |  **+2**<br>Reason  |  **+2**<br>Intuition  |    **+3**<br>Presence    |
+|  Abyssal, Demon   |         -         |      Level 3       |        Leader         |         EV 20          |
+| :---------------: | :---------------: | :----------------: | :-------------------: | :--------------------: |
+|  **1L**<br>Size   |  **5**<br>Speed   | **120**<br>Stamina |  **2**<br>Stability   |  **5**<br>Free Strike  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **Holy 5**<br>Weakness |
+|  **+2**<br>Might  | **+2**<br>Agility |  **+2**<br>Reason  |  **+2**<br>Intuition  |   **+3**<br>Presence   |
 
 > ❇️ **Agonizing Harmony (Signature Ability)**
 >
@@ -4349,11 +4349,11 @@ At the start of any level 4 or higher demon's turn, you can spend Malice to acti
 
 **<span class="steel-compendium-statblock">Grulqin</span>**
 
-|  Abyssal, Demon   |         -         |     Level 4      |                  Minion Brute                  |  EV 6 for four minions   |
-| :---------------: | :---------------: | :--------------: | :--------------------------------------------: | :----------------------: |
-|  **1L**<br>Size   |  **8**<br>Speed   | **9**<br>Stamina |               **1**<br>Stability               |   **3**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 damage bonus to strikes**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+3**<br>Might  | **+2**<br>Agility | **-1**<br>Reason |              **-1**<br>Intuition               |    **-1**<br>Presence    |
+|  Abyssal, Demon   |         -         |     Level 4      |                  Minion Brute                  | EV 6 for four minions  |
+| :---------------: | :---------------: | :--------------: | :--------------------------------------------: | :--------------------: |
+|  **1L**<br>Size   |  **8**<br>Speed   | **9**<br>Stamina |               **1**<br>Stability               |  **3**<br>Free Strike  |
+| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 damage bonus to strikes**<br>With Captain | **Holy 5**<br>Weakness |
+|  **+3**<br>Might  | **+2**<br>Agility | **-1**<br>Reason |              **-1**<br>Intuition               |   **-1**<br>Presence   |
 
 > 🗡 **Spinning Bone Blade (Signature Ability)**
 >
@@ -4375,11 +4375,11 @@ At the start of any level 4 or higher demon's turn, you can spend Malice to acti
 
 **<span class="steel-compendium-statblock">Orliq</span>**
 
-|  Abyssal, Demon   |          -          |     Level 4      |            Minion Harrier             |  EV 6 for four minions   |
-| :---------------: | :-----------------: | :--------------: | :-----------------------------------: | :----------------------: |
-|  **1T**<br>Size   |   **6**<br>Speed    | **8**<br>Stamina |          **0**<br>Stability           |   **2**<br>Free Strike   |
-| **-**<br>Immunity | **Fly**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **-1**<br>Might  |  **+3**<br>Agility  | **+1**<br>Reason |          **+0**<br>Intuition          |    **-1**<br>Presence    |
+|  Abyssal, Demon   |          -          |     Level 4      |            Minion Harrier             | EV 6 for four minions  |
+| :---------------: | :-----------------: | :--------------: | :-----------------------------------: | :--------------------: |
+|  **1T**<br>Size   |   **6**<br>Speed    | **8**<br>Stamina |          **0**<br>Stability           |  **2**<br>Free Strike  |
+| **-**<br>Immunity | **Fly**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain | **Holy 5**<br>Weakness |
+|  **-1**<br>Might  |  **+3**<br>Agility  | **+1**<br>Reason |          **+0**<br>Intuition          |   **-1**<br>Presence   |
 
 > 🗡 **Soul Prism (Signature Ability)**
 >
@@ -4403,11 +4403,11 @@ At the start of any level 4 or higher demon's turn, you can spend Malice to acti
 
 **<span class="steel-compendium-statblock">Wobalas</span>**
 
-|  Abyssal, Demon   |         -         |     Level 4      |                Minion Artillery                |  EV 6 for four minions   |
-| :---------------: | :---------------: | :--------------: | :--------------------------------------------: | :----------------------: |
-|  **1M**<br>Size   |  **6**<br>Speed   | **7**<br>Stamina |               **0**<br>Stability               |   **3**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 damage bonus to strikes**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+1**<br>Might  | **+3**<br>Agility | **+1**<br>Reason |              **+2**<br>Intuition               |    **+1**<br>Presence    |
+|  Abyssal, Demon   |         -         |     Level 4      |                Minion Artillery                | EV 6 for four minions  |
+| :---------------: | :---------------: | :--------------: | :--------------------------------------------: | :--------------------: |
+|  **1M**<br>Size   |  **6**<br>Speed   | **7**<br>Stamina |               **0**<br>Stability               |  **3**<br>Free Strike  |
+| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 damage bonus to strikes**<br>With Captain | **Holy 5**<br>Weakness |
+|  **+1**<br>Might  | **+3**<br>Agility | **+1**<br>Reason |              **+2**<br>Intuition               |   **+1**<br>Presence   |
 
 > 🏹 **Despair Bolt (Signature Ability)**
 >
@@ -4425,11 +4425,11 @@ At the start of any level 4 or higher demon's turn, you can spend Malice to acti
 
 **<span class="steel-compendium-statblock">Bale Eye</span>**
 
-|  Abyssal, Demon   |          -          |      Level 5      |      Horde Hexer      |           EV 7           |
-| :---------------: | :-----------------: | :---------------: | :-------------------: | :----------------------: |
-|   **4**<br>Size   |   **6**<br>Speed    | **30**<br>Stamina |  **2**<br>Stability   |   **3**<br>Free Strike   |
-| **-**<br>Immunity | **Fly**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+0**<br>Might  |  **+0**<br>Agility  | **+3**<br>Reason  |  **+3**<br>Intuition  |    **+3**<br>Presence    |
+|  Abyssal, Demon   |          -          |      Level 5      |      Horde Hexer      |          EV 7          |
+| :---------------: | :-----------------: | :---------------: | :-------------------: | :--------------------: |
+|   **4**<br>Size   |   **6**<br>Speed    | **30**<br>Stamina |  **2**<br>Stability   |  **3**<br>Free Strike  |
+| **-**<br>Immunity | **Fly**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weakness |
+|  **+0**<br>Might  |  **+0**<br>Agility  | **+3**<br>Reason  |  **+3**<br>Intuition  |   **+3**<br>Presence   |
 
 > 🏹 **Wilting Visions (Signature Ability)**
 >
@@ -4473,11 +4473,11 @@ At the start of any level 4 or higher demon's turn, you can spend Malice to acti
 
 **<span class="steel-compendium-statblock">Fangling</span>**
 
-|  Abyssal, Demon   |         -         |      Level 4      |     Horde Harrier     |           EV 6           |
-| :---------------: | :---------------: | :---------------: | :-------------------: | :----------------------: |
-|  **1L**<br>Size   |  **8**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   |   **2**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+3**<br>Might  | **+2**<br>Agility | **+0**<br>Reason  |  **+0**<br>Intuition  |    **+0**<br>Presence    |
+|  Abyssal, Demon   |         -         |      Level 4      |     Horde Harrier     |          EV 6          |
+| :---------------: | :---------------: | :---------------: | :-------------------: | :--------------------: |
+|  **1L**<br>Size   |  **8**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   |  **2**<br>Free Strike  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weakness |
+|  **+3**<br>Might  | **+2**<br>Agility | **+0**<br>Reason  |  **+0**<br>Intuition  |   **+0**<br>Presence   |
 
 > 🗡 **Tooth! Tusk! Claw! (Signature Ability)**
 >
@@ -4519,11 +4519,11 @@ At the start of any level 4 or higher demon's turn, you can spend Malice to acti
 
 **<span class="steel-compendium-statblock">Fiktin</span>**
 
-|  Abyssal, Demon   |         -         |      Level 5      |    Horde Ambusher     |           EV 7           |
-| :---------------: | :---------------: | :---------------: | :-------------------: | :----------------------: |
-|  **1M**<br>Size   |  **6**<br>Speed   | **35**<br>Stamina |  **0**<br>Stability   |   **3**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+2**<br>Might  | **+2**<br>Agility | **+2**<br>Reason  |  **+1**<br>Intuition  |    **+3**<br>Presence    |
+|  Abyssal, Demon   |         -         |      Level 5      |    Horde Ambusher     |          EV 7          |
+| :---------------: | :---------------: | :---------------: | :-------------------: | :--------------------: |
+|  **1M**<br>Size   |  **6**<br>Speed   | **35**<br>Stamina |  **0**<br>Stability   |  **3**<br>Free Strike  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weakness |
+|  **+2**<br>Might  | **+2**<br>Agility | **+2**<br>Reason  |  **+1**<br>Intuition  |   **+3**<br>Presence   |
 
 > ❇️ **Violent Transformation (Signature Ability)**
 >
@@ -4557,11 +4557,11 @@ At the start of any level 4 or higher demon's turn, you can spend Malice to acti
 
 **<span class="steel-compendium-statblock">Gunge</span>**
 
-|  Abyssal, Demon   |         -         |      Level 4      |   Horde Controller    |           EV 6           |
-| :---------------: | :---------------: | :---------------: | :-------------------: | :----------------------: |
-|   **3**<br>Size   |  **6**<br>Speed   | **25**<br>Stamina |  **0**<br>Stability   |   **2**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+3**<br>Might  | **+2**<br>Agility | **+1**<br>Reason  |  **+2**<br>Intuition  |    **-1**<br>Presence    |
+|  Abyssal, Demon   |         -         |      Level 4      |   Horde Controller    |          EV 6          |
+| :---------------: | :---------------: | :---------------: | :-------------------: | :--------------------: |
+|   **3**<br>Size   |  **6**<br>Speed   | **25**<br>Stamina |  **0**<br>Stability   |  **2**<br>Free Strike  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weakness |
+|  **+3**<br>Might  | **+2**<br>Agility | **+1**<br>Reason  |  **+2**<br>Intuition  |   **-1**<br>Presence   |
 
 > 🔳 **Bilious Expulsion (Signature Ability)**
 >
@@ -4597,11 +4597,11 @@ At the start of any level 4 or higher demon's turn, you can spend Malice to acti
 
 **<span class="steel-compendium-statblock">Tormenauk</span>**
 
-|  Abyssal, Demon   |         -         |      Level 6      |      Horde Brute      |           EV 8           |
-| :---------------: | :---------------: | :---------------: | :-------------------: | :----------------------: |
-|   **2**<br>Size   |  **6**<br>Speed   | **45**<br>Stamina |  **2**<br>Stability   |   **4**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+3**<br>Might  | **+0**<br>Agility | **+2**<br>Reason  |  **+1**<br>Intuition  |    **+2**<br>Presence    |
+|  Abyssal, Demon   |         -         |      Level 6      |      Horde Brute      |          EV 8          |
+| :---------------: | :---------------: | :---------------: | :-------------------: | :--------------------: |
+|   **2**<br>Size   |  **6**<br>Speed   | **45**<br>Stamina |  **2**<br>Stability   |  **4**<br>Free Strike  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weakness |
+|  **+3**<br>Might  | **+0**<br>Agility | **+2**<br>Reason  |  **+1**<br>Intuition  |   **+2**<br>Presence   |
 
 > 🗡 **Many Maws (Signature Ability)**
 >
@@ -4641,11 +4641,11 @@ At the start of any level 4 or higher demon's turn, you can spend Malice to acti
 
 **<span class="steel-compendium-statblock">Lumbering Egress</span>**
 
-|  Abyssal, Demon   |         -         |      Level 6       |        Leader         |          EV 32           |
-| :---------------: | :---------------: | :----------------: | :-------------------: | :----------------------: |
-|   **3**<br>Size   |  **6**<br>Speed   | **180**<br>Stamina |  **3**<br>Stability   |   **7**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+4**<br>Might  | **-1**<br>Agility |  **+1**<br>Reason  |  **+2**<br>Intuition  |    **+2**<br>Presence    |
+|  Abyssal, Demon   |         -         |      Level 6       |        Leader         |         EV 32          |
+| :---------------: | :---------------: | :----------------: | :-------------------: | :--------------------: |
+|   **3**<br>Size   |  **6**<br>Speed   | **180**<br>Stamina |  **3**<br>Stability   |  **7**<br>Free Strike  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **Holy 5**<br>Weakness |
+|  **+4**<br>Might  | **-1**<br>Agility |  **+1**<br>Reason  |  **+2**<br>Intuition  |   **+2**<br>Presence   |
 
 > 🏹 **Ensnarer Cannon (Signature Ability)**
 >
@@ -4755,11 +4755,11 @@ At the start of any level 7 or higher demon's turn, you can spend Malice to acti
 
 **<span class="steel-compendium-statblock">Soulraker Scout</span>**
 
-| Abyssal, Demon, Soulraker |          -          |      Level 7      |               Minion Harrier                |  EV 9 for four minions   |
-| :-----------------------: | :-----------------: | :---------------: | :-----------------------------------------: | :----------------------: |
-|      **1M**<br>Size       |   **7**<br>Speed    | **12**<br>Stamina |             **0**<br>Stability              |   **3**<br>Free Strike   |
-|     **-**<br>Immunity     | **Fly**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain | **Holy 5**<br>Weaknesses |
-|      **+2**<br>Might      |  **+4**<br>Agility  | **+1**<br>Reason  |             **+0**<br>Intuition             |    **-1**<br>Presence    |
+| Abyssal, Demon, Soulraker |          -          |      Level 7      |               Minion Harrier                | EV 9 for four minions  |
+| :-----------------------: | :-----------------: | :---------------: | :-----------------------------------------: | :--------------------: |
+|      **1M**<br>Size       |   **7**<br>Speed    | **12**<br>Stamina |             **0**<br>Stability              |  **3**<br>Free Strike  |
+|     **-**<br>Immunity     | **Fly**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain | **Holy 5**<br>Weakness |
+|      **+2**<br>Might      |  **+4**<br>Agility  | **+1**<br>Reason  |             **+0**<br>Intuition             |   **-1**<br>Presence   |
 
 > 🗡 **Soul Stinger (Signature Ability)**
 >
@@ -4779,11 +4779,11 @@ At the start of any level 7 or higher demon's turn, you can spend Malice to acti
 
 **<span class="steel-compendium-statblock">Soulraker Soldier</span>**
 
-| Abyssal, Demon, Soulraker |         -         |      Level 7      |                Minion Brute                 |  EV 9 for four minions   |
-| :-----------------------: | :---------------: | :---------------: | :-----------------------------------------: | :----------------------: |
-|       **2**<br>Size       |  **6**<br>Speed   | **13**<br>Stamina |             **2**<br>Stability              |   **4**<br>Free Strike   |
-|     **-**<br>Immunity     | **-**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain | **Holy 5**<br>Weaknesses |
-|      **+4**<br>Might      | **+2**<br>Agility | **-1**<br>Reason  |             **-1**<br>Intuition             |    **-1**<br>Presence    |
+| Abyssal, Demon, Soulraker |         -         |      Level 7      |                Minion Brute                 | EV 9 for four minions  |
+| :-----------------------: | :---------------: | :---------------: | :-----------------------------------------: | :--------------------: |
+|       **2**<br>Size       |  **6**<br>Speed   | **13**<br>Stamina |             **2**<br>Stability              |  **4**<br>Free Strike  |
+|     **-**<br>Immunity     | **-**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain | **Holy 5**<br>Weakness |
+|      **+4**<br>Might      | **+2**<br>Agility | **-1**<br>Reason  |             **-1**<br>Intuition             |   **-1**<br>Presence   |
 
 > 🗡 **Chitin Bash (Signature Ability)**
 >
@@ -4803,11 +4803,11 @@ At the start of any level 7 or higher demon's turn, you can spend Malice to acti
 
 **<span class="steel-compendium-statblock">Soulraker Stinger</span>**
 
-| Abyssal, Demon, Soulraker |           -           |      Level 7      |              Minion Artillery               |  EV 9 for four minions   |
-| :-----------------------: | :-------------------: | :---------------: | :-----------------------------------------: | :----------------------: |
-|      **1M**<br>Size       |    **6**<br>Speed     | **10**<br>Stamina |             **0**<br>Stability              |   **4**<br>Free Strike   |
-|     **-**<br>Immunity     | **Climb**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain | **Holy 5**<br>Weaknesses |
-|      **+0**<br>Might      |   **-1**<br>Agility   | **+4**<br>Reason  |             **+4**<br>Intuition             |    **+0**<br>Presence    |
+| Abyssal, Demon, Soulraker |           -           |      Level 7      |              Minion Artillery               | EV 9 for four minions  |
+| :-----------------------: | :-------------------: | :---------------: | :-----------------------------------------: | :--------------------: |
+|      **1M**<br>Size       |    **6**<br>Speed     | **10**<br>Stamina |             **0**<br>Stability              |  **4**<br>Free Strike  |
+|     **-**<br>Immunity     | **Climb**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain | **Holy 5**<br>Weakness |
+|      **+0**<br>Might      |   **-1**<br>Agility   | **+4**<br>Reason  |             **+4**<br>Intuition             |   **+0**<br>Presence   |
 
 > 🏹 **Barb Launch (Signature Ability)**
 >
@@ -4829,11 +4829,11 @@ At the start of any level 7 or higher demon's turn, you can spend Malice to acti
 
 **<span class="steel-compendium-statblock">Blight Phage</span>**
 
-|  Abyssal, Demon   |         -         |      Level 7      |   Horde Controller    |           EV 9           |
-| :---------------: | :---------------: | :---------------: | :-------------------: | :----------------------: |
-|   **3**<br>Size   |  **6**<br>Speed   | **40**<br>Stamina |  **0**<br>Stability   |   **3**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+0**<br>Might  | **+0**<br>Agility | **+4**<br>Reason  |  **+2**<br>Intuition  |    **+4**<br>Presence    |
+|  Abyssal, Demon   |         -         |      Level 7      |   Horde Controller    |          EV 9          |
+| :---------------: | :---------------: | :---------------: | :-------------------: | :--------------------: |
+|   **3**<br>Size   |  **6**<br>Speed   | **40**<br>Stamina |  **0**<br>Stability   |  **3**<br>Free Strike  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weakness |
+|  **+0**<br>Might  | **+0**<br>Agility | **+4**<br>Reason  |  **+2**<br>Intuition  |   **+4**<br>Presence   |
 
 > 🏹 **Blight Pus (Signature Ability)**
 >
@@ -4871,11 +4871,11 @@ At the start of any level 7 or higher demon's turn, you can spend Malice to acti
 
 **<span class="steel-compendium-statblock">Chimeron</span>**
 
-|  Abyssal, Demon   |         -         |      Level 9      |      Horde Brute      |           EV 9           |
-| :---------------: | :---------------: | :---------------: | :-------------------: | :----------------------: |
-|   **3**<br>Size   |  **6**<br>Speed   | **90**<br>Stamina |  **2**<br>Stability   |   **5**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+4**<br>Might  | **+0**<br>Agility | **+2**<br>Reason  |  **+1**<br>Intuition  |    **+2**<br>Presence    |
+|  Abyssal, Demon   |         -         |      Level 9      |      Horde Brute      |          EV 9          |
+| :---------------: | :---------------: | :---------------: | :-------------------: | :--------------------: |
+|   **3**<br>Size   |  **6**<br>Speed   | **90**<br>Stamina |  **2**<br>Stability   |  **5**<br>Free Strike  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weakness |
+|  **+4**<br>Might  | **+0**<br>Agility | **+2**<br>Reason  |  **+1**<br>Intuition  |   **+2**<br>Presence   |
 
 > 🗡 **Flux Gnash (Signature Ability)**
 >
@@ -4911,11 +4911,11 @@ At the start of any level 7 or higher demon's turn, you can spend Malice to acti
 
 **<span class="steel-compendium-statblock">Styrich</span>**
 
-|  Abyssal, Demon   |         -         |      Level 8      |      Horde Hexer      |          EV 10           |
-| :---------------: | :---------------: | :---------------: | :-------------------: | :----------------------: |
-|  **1L**<br>Size   |  **6**<br>Speed   | **45**<br>Stamina |  **1**<br>Stability   |   **3**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+2**<br>Might  | **+4**<br>Agility | **+0**<br>Reason  |  **+2**<br>Intuition  |    **+0**<br>Presence    |
+|  Abyssal, Demon   |         -         |      Level 8      |      Horde Hexer      |         EV 10          |
+| :---------------: | :---------------: | :---------------: | :-------------------: | :--------------------: |
+|  **1L**<br>Size   |  **6**<br>Speed   | **45**<br>Stamina |  **1**<br>Stability   |  **3**<br>Free Strike  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weakness |
+|  **+2**<br>Might  | **+4**<br>Agility | **+0**<br>Reason  |  **+2**<br>Intuition  |   **+0**<br>Presence   |
 
 > 🗡 **Hair Whip (Signature Ability)**
 >
@@ -4953,11 +4953,11 @@ At the start of any level 7 or higher demon's turn, you can spend Malice to acti
 
 **<span class="steel-compendium-statblock">Soulraker Praetorian</span>**
 
-| Abyssal, Demon, Soulraker |         -         |      Level 7      |     Horde Harrier     |           EV 9           |
-| :-----------------------: | :---------------: | :---------------: | :-------------------: | :----------------------: |
-|      **1L**<br>Size       |  **8**<br>Speed   | **45**<br>Stamina |  **0**<br>Stability   |   **3**<br>Free Strike   |
-|     **-**<br>Immunity     | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|      **+2**<br>Might      | **+4**<br>Agility | **+0**<br>Reason  |  **+2**<br>Intuition  |    **+0**<br>Presence    |
+| Abyssal, Demon, Soulraker |         -         |      Level 7      |     Horde Harrier     |          EV 9          |
+| :-----------------------: | :---------------: | :---------------: | :-------------------: | :--------------------: |
+|      **1L**<br>Size       |  **8**<br>Speed   | **45**<br>Stamina |  **0**<br>Stability   |  **3**<br>Free Strike  |
+|     **-**<br>Immunity     | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weakness |
+|      **+2**<br>Might      | **+4**<br>Agility | **+0**<br>Reason  |  **+2**<br>Intuition  |   **+0**<br>Presence   |
 
 > 🗡 **Barbed Stinger (Signature Ability)**
 >
@@ -4993,11 +4993,11 @@ At the start of any level 7 or higher demon's turn, you can spend Malice to acti
 
 **<span class="steel-compendium-statblock">Soulraker Handmaiden</span>**
 
-| Abyssal, Demon, Soulraker |         -         |      Level 8      |    Horde Ambusher     |          EV 10           |
-| :-----------------------: | :---------------: | :---------------: | :-------------------: | :----------------------: |
-|      **1M**<br>Size       |  **0**<br>Speed   | **50**<br>Stamina |  **0**<br>Stability   |   **4**<br>Free Strike   |
-|     **-**<br>Immunity     | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|      **+3**<br>Might      | **+0**<br>Agility | **+2**<br>Reason  |  **+2**<br>Intuition  |    **+4**<br>Presence    |
+| Abyssal, Demon, Soulraker |         -         |      Level 8      |    Horde Ambusher     |         EV 10          |
+| :-----------------------: | :---------------: | :---------------: | :-------------------: | :--------------------: |
+|      **1M**<br>Size       |  **0**<br>Speed   | **50**<br>Stamina |  **0**<br>Stability   |  **4**<br>Free Strike  |
+|     **-**<br>Immunity     | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weakness |
+|      **+3**<br>Might      | **+0**<br>Agility | **+2**<br>Reason  |  **+2**<br>Intuition  |   **+4**<br>Presence   |
 
 > ⭐️ **Implanted Parasite**
 >
@@ -5027,11 +5027,11 @@ At the start of any level 7 or higher demon's turn, you can spend Malice to acti
 
 **<span class="steel-compendium-statblock">Soulraker Hivequeen</span>**
 
-| Abyssal, Demon, Soulraker |          -          |      Level 9       |        Leader         |          EV 44           |
-| :-----------------------: | :-----------------: | :----------------: | :-------------------: | :----------------------: |
-|       **5**<br>Size       |   **6**<br>Speed    | **240**<br>Stamina |  **2**<br>Stability   |   **9**<br>Free Strike   |
-|     **-**<br>Immunity     | **Fly**<br>Movement |         -          | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|      **+5**<br>Might      |  **-1**<br>Agility  |  **+3**<br>Reason  |  **+3**<br>Intuition  |    **+2**<br>Presence    |
+| Abyssal, Demon, Soulraker |          -          |      Level 9       |        Leader         |         EV 44          |
+| :-----------------------: | :-----------------: | :----------------: | :-------------------: | :--------------------: |
+|       **5**<br>Size       |   **6**<br>Speed    | **240**<br>Stamina |  **2**<br>Stability   |  **9**<br>Free Strike  |
+|     **-**<br>Immunity     | **Fly**<br>Movement |         -          | **-**<br>With Captain | **Holy 5**<br>Weakness |
+|      **+5**<br>Might      |  **-1**<br>Agility  |  **+3**<br>Reason  |  **+3**<br>Intuition  |   **+2**<br>Presence   |
 
 > ⚔️ **Stinging Ovipositor (Signature Ability)**
 >
@@ -5145,11 +5145,11 @@ At the start of any level 10 or higher demon's turn, you can spend Malice to act
 
 **<span class="steel-compendium-statblock">Optacus</span>**
 
-|  Abyssal, Demon   |           -           |     Level 10      |           Minion Artillery            |  EV 12 for four minions  |
-| :---------------: | :-------------------: | :---------------: | :-----------------------------------: | :----------------------: |
-|  **1S**<br>Size   |    **6**<br>Speed     | **14**<br>Stamina |          **0**<br>Stability           |   **5**<br>Free Strike   |
-| **-**<br>Immunity | **Climb**<br>Movement |         -         | **+4 bonus to speed**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+1**<br>Might  |   **+3**<br>Agility   | **+1**<br>Reason  |          **+5**<br>Intuition          |    **+1**<br>Presence    |
+|  Abyssal, Demon   |           -           |     Level 10      |           Minion Artillery            | EV 12 for four minions |
+| :---------------: | :-------------------: | :---------------: | :-----------------------------------: | :--------------------: |
+|  **1S**<br>Size   |    **6**<br>Speed     | **14**<br>Stamina |          **0**<br>Stability           |  **5**<br>Free Strike  |
+| **-**<br>Immunity | **Climb**<br>Movement |         -         | **+4 bonus to speed**<br>With Captain | **Holy 5**<br>Weakness |
+|  **+1**<br>Might  |   **+3**<br>Agility   | **+1**<br>Reason  |          **+5**<br>Intuition          |   **+1**<br>Presence   |
 
 > 🏹 **Optical Flare (Signature Ability)**
 >
@@ -5167,11 +5167,11 @@ At the start of any level 10 or higher demon's turn, you can spend Malice to act
 
 **<span class="steel-compendium-statblock">Tyburaki</span>**
 
-|  Abyssal, Demon   |          -           |     Level 10      |                 Minion Harrier                 |  EV 12 for four minions  |
-| :---------------: | :------------------: | :---------------: | :--------------------------------------------: | :----------------------: |
-|   **2**<br>Size   |    **8**<br>Speed    | **15**<br>Stamina |               **0**<br>Stability               |   **4**<br>Free Strike   |
-| **-**<br>Immunity | **Swim**<br>Movement |         -         | **+4 damage bonus to strikes**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+2**<br>Might  |  **+5**<br>Agility   | **+0**<br>Reason  |              **+3**<br>Intuition               |    **-1**<br>Presence    |
+|  Abyssal, Demon   |          -           |     Level 10      |                 Minion Harrier                 | EV 12 for four minions |
+| :---------------: | :------------------: | :---------------: | :--------------------------------------------: | :--------------------: |
+|   **2**<br>Size   |    **8**<br>Speed    | **15**<br>Stamina |               **0**<br>Stability               |  **4**<br>Free Strike  |
+| **-**<br>Immunity | **Swim**<br>Movement |         -         | **+4 damage bonus to strikes**<br>With Captain | **Holy 5**<br>Weakness |
+|  **+2**<br>Might  |  **+5**<br>Agility   | **+0**<br>Reason  |              **+3**<br>Intuition               |   **-1**<br>Presence   |
 
 > 🗡 **Tail Bite (Signature Ability)**
 >
@@ -5197,11 +5197,11 @@ At the start of any level 10 or higher demon's turn, you can spend Malice to act
 
 **<span class="steel-compendium-statblock">Unguloid</span>**
 
-|  Abyssal, Demon   |         -         |     Level 10      |                   Minion Brute                    |  EV 12 for four minions  |
-| :---------------: | :---------------: | :---------------: | :-----------------------------------------------: | :----------------------: |
-|   **2**<br>Size   |  **8**<br>Speed   | **17**<br>Stamina |                **3**<br>Stability                 |   **5**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **Have a double edge on strikes**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+5**<br>Might  | **+5**<br>Agility | **-1**<br>Reason  |                **-1**<br>Intuition                |    **-1**<br>Presence    |
+|  Abyssal, Demon   |         -         |     Level 10      |                   Minion Brute                    | EV 12 for four minions |
+| :---------------: | :---------------: | :---------------: | :-----------------------------------------------: | :--------------------: |
+|   **2**<br>Size   |  **8**<br>Speed   | **17**<br>Stamina |                **3**<br>Stability                 |  **5**<br>Free Strike  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **Have a double edge on strikes**<br>With Captain | **Holy 5**<br>Weakness |
+|  **+5**<br>Might  | **+5**<br>Agility | **-1**<br>Reason  |                **-1**<br>Intuition                |   **-1**<br>Presence   |
 
 > 🗡 **Gore Horn (Signature Ability)**
 >
@@ -5223,11 +5223,11 @@ At the start of any level 10 or higher demon's turn, you can spend Malice to act
 
 **<span class="steel-compendium-statblock">Izyak</span>**
 
-|  Abyssal, Demon   |            -             |     Level 10      |   Horde Controller    |          EV 12           |
-| :---------------: | :----------------------: | :---------------: | :-------------------: | :----------------------: |
-|   **2**<br>Size   |      **6**<br>Speed      | **55**<br>Stamina |  **0**<br>Stability   |   **4**<br>Free Strike   |
-| **-**<br>Immunity | **Teleport**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+0**<br>Might  |    **+0**<br>Agility     | **+5**<br>Reason  |  **+2**<br>Intuition  |    **+4**<br>Presence    |
+|  Abyssal, Demon   |            -             |     Level 10      |   Horde Controller    |         EV 12          |
+| :---------------: | :----------------------: | :---------------: | :-------------------: | :--------------------: |
+|   **2**<br>Size   |      **6**<br>Speed      | **55**<br>Stamina |  **0**<br>Stability   |  **4**<br>Free Strike  |
+| **-**<br>Immunity | **Teleport**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weakness |
+|  **+0**<br>Might  |    **+0**<br>Agility     | **+5**<br>Reason  |  **+2**<br>Intuition  |   **+4**<br>Presence   |
 
 > 🏹 **Nostalgic Wanderlust (Signature Ability)**
 >
@@ -5271,11 +5271,11 @@ At the start of any level 10 or higher demon's turn, you can spend Malice to act
 
 **<span class="steel-compendium-statblock">Vicisitator</span>**
 
-|  Abyssal, Demon   |         -         |     Level 10      |     Horde Harrier     |          EV 12           |
-| :---------------: | :---------------: | :---------------: | :-------------------: | :----------------------: |
-|  **1M**<br>Size   |  **9**<br>Speed   | **60**<br>Stamina |  **0**<br>Stability   |   **4**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+4**<br>Might  | **+5**<br>Agility | **-1**<br>Reason  |  **-2**<br>Intuition  |    **-3**<br>Presence    |
+|  Abyssal, Demon   |         -         |     Level 10      |     Horde Harrier     |         EV 12          |
+| :---------------: | :---------------: | :---------------: | :-------------------: | :--------------------: |
+|  **1M**<br>Size   |  **9**<br>Speed   | **60**<br>Stamina |  **0**<br>Stability   |  **4**<br>Free Strike  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weakness |
+|  **+4**<br>Might  | **+5**<br>Agility | **-1**<br>Reason  |  **-2**<br>Intuition  |   **-3**<br>Presence   |
 
 > ⚔️ **Warp Touch (Signature Ability)**
 >
@@ -5315,11 +5315,11 @@ At the start of any level 10 or higher demon's turn, you can spend Malice to act
 
 **<span class="steel-compendium-statblock">Aurumvas</span>**
 
-|  Abyssal, Demon   |          -          |      Level 10      |        Leader         |          EV 48           |
-| :---------------: | :-----------------: | :----------------: | :-------------------: | :----------------------: |
-|   **3**<br>Size   |   **8**<br>Speed    | **260**<br>Stamina |  **2**<br>Stability   |  **10**<br>Free Strike   |
-| **-**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+5**<br>Might  |  **+2**<br>Agility  |  **+5**<br>Reason  |  **+3**<br>Intuition  |    **+5**<br>Presence    |
+|  Abyssal, Demon   |          -          |      Level 10      |        Leader         |         EV 48          |
+| :---------------: | :-----------------: | :----------------: | :-------------------: | :--------------------: |
+|   **3**<br>Size   |   **8**<br>Speed    | **260**<br>Stamina |  **2**<br>Stability   | **10**<br>Free Strike  |
+| **-**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain | **Holy 5**<br>Weakness |
+|  **+5**<br>Might  |  **+2**<br>Agility  |  **+5**<br>Reason  |  **+3**<br>Intuition  |   **+5**<br>Presence   |
 
 > ⭐️ **Absorb Soul**
 >
@@ -5473,7 +5473,7 @@ At the start of any devil's turn, you can spend Malice to activate one of the fo
 |    Devil, Infernal     |         -         |      Level 5      |                  Minion Brute                  | EV 7 for four minions |
 | :--------------------: | :---------------: | :---------------: | :--------------------------------------------: | :-------------------: |
 |     **1M**<br>Size     |  **6**<br>Speed   | **10**<br>Stamina |               **0**<br>Stability               | **3**<br>Free Strike  |
-| **Fire 5**<br>Immunity | **-**<br>Movement |         -         | **+2 damage bonus to strikes**<br>With Captain |  **-**<br>Weaknesses  |
+| **Fire 5**<br>Immunity | **-**<br>Movement |         -         | **+2 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |    **+3**<br>Might     | **+0**<br>Agility | **+1**<br>Reason  |              **+1**<br>Intuition               |  **+2**<br>Presence   |
 
 > 🗡 **Quill Pushing (Signature Ability)**
@@ -5499,7 +5499,7 @@ At the start of any devil's turn, you can spend Malice to activate one of the fo
 |    Devil, Infernal     |         -         |     Level 5      |                  Minion Hexer                   | EV 7 for four minions |
 | :--------------------: | :---------------: | :--------------: | :---------------------------------------------: | :-------------------: |
 |     **1M**<br>Size     |  **6**<br>Speed   | **8**<br>Stamina |               **0**<br>Stability                | **3**<br>Free Strike  |
-| **Fire 5**<br>Immunity | **-**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |  **-**<br>Weaknesses  |
+| **Fire 5**<br>Immunity | **-**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |   **-**<br>Weakness   |
 |    **+0**<br>Might     | **+1**<br>Agility | **+3**<br>Reason |               **+1**<br>Intuition               |  **+2**<br>Presence   |
 
 > 🏹 **Importunity (Signature Ability)**
@@ -5525,7 +5525,7 @@ At the start of any devil's turn, you can spend Malice to activate one of the fo
 |    Devil, Infernal     |          -          |     Level 5      |            Minion Harrier             | EV 7 for four minions |
 | :--------------------: | :-----------------: | :--------------: | :-----------------------------------: | :-------------------: |
 |     **1M**<br>Size     |   **6**<br>Speed    | **9**<br>Stamina |          **0**<br>Stability           | **3**<br>Free Strike  |
-| **Fire 5**<br>Immunity | **Fly**<br>Movement |        -         | **+3 bonus to speed**<br>With Captain |  **-**<br>Weaknesses  |
+| **Fire 5**<br>Immunity | **Fly**<br>Movement |        -         | **+3 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |    **+0**<br>Might     |  **+3**<br>Agility  | **+1**<br>Reason |          **+1**<br>Intuition          |  **+2**<br>Presence   |
 
 > 🗡 **Litigation (Signature Ability)**
@@ -5551,7 +5551,7 @@ At the start of any devil's turn, you can spend Malice to activate one of the fo
 |    Devil, Infernal     |          -          |      Level 6       |   Elite Controller    |        EV 32         |
 | :--------------------: | :-----------------: | :----------------: | :-------------------: | :------------------: |
 |     **1M**<br>Size     |   **6**<br>Speed    | **140**<br>Stamina |  **1**<br>Stability   | **7**<br>Free Strike |
-| **Fire 5**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Fire 5**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |    **+0**<br>Might     |  **+1**<br>Agility  |  **+2**<br>Reason  |  **+1**<br>Intuition  |  **+3**<br>Presence  |
 
 > 🏹 **Infernal Injunction (Signature Ability)**
@@ -5615,7 +5615,7 @@ At the start of any devil's turn, you can spend Malice to activate one of the fo
 |    Devil, Infernal     |          -          |      Level 5       |    Elite Artillery    |        EV 28         |
 | :--------------------: | :-----------------: | :----------------: | :-------------------: | :------------------: |
 |     **1M**<br>Size     |   **6**<br>Speed    | **120**<br>Stamina |  **0**<br>Stability   | **7**<br>Free Strike |
-| **Fire 5**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Fire 5**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |    **+0**<br>Might     |  **+2**<br>Agility  |  **+1**<br>Reason  |  **+1**<br>Intuition  |  **+3**<br>Presence  |
 
 > ⭐️ **Hellfire**
@@ -5683,7 +5683,7 @@ At the start of any devil's turn, you can spend Malice to activate one of the fo
 |    Devil, Infernal     |         -         |      Level 5       |    Elite Defender     |        EV 28         |
 | :--------------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |     **1M**<br>Size     |  **6**<br>Speed   | **160**<br>Stamina |  **2**<br>Stability   | **6**<br>Free Strike |
-| **Fire 5**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Fire 5**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |    **+3**<br>Might     | **+1**<br>Agility |  **+0**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🗡 **Infernal Pike (Signature Ability)**
@@ -5749,7 +5749,7 @@ At the start of any devil's turn, you can spend Malice to activate one of the fo
 |    Devil, Infernal     |         -         |      Level 6       |     Elite Harrier     |        EV 32         |
 | :--------------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |     **1M**<br>Size     |  **7**<br>Speed   | **160**<br>Stamina |  **0**<br>Stability   | **7**<br>Free Strike |
-| **Fire 5**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Fire 5**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |    **+1**<br>Might     | **+3**<br>Agility |  **+0**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🗡 **Edge of the Law (Signature Ability)**
@@ -5815,7 +5815,7 @@ At the start of any devil's turn, you can spend Malice to activate one of the fo
 |    Devil, Infernal     |          -          |      Level 6       |        Leader         |        EV 32         |
 | :--------------------: | :-----------------: | :----------------: | :-------------------: | :------------------: |
 |     **1M**<br>Size     |   **7**<br>Speed    | **181**<br>Stamina |  **2**<br>Stability   | **6**<br>Free Strike |
-| **Fire 5**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Fire 5**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |    **+1**<br>Might     |  **+3**<br>Agility  |  **+0**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🏹 **Infernal Decree (Signature Ability)**
@@ -5975,7 +5975,7 @@ At the start of any draconian's turn, you can spend Malice to activate one of th
 | Draconian, Dragon, Humanoid |          -          |      Level 6       |   Elite Controller    |        EV 32         |
 | :-------------------------: | :-----------------: | :----------------: | :-------------------: | :------------------: |
 |       **1M**<br>Size        |   **5**<br>Speed    | **140**<br>Stamina |  **2**<br>Stability   | **7**<br>Free Strike |
-|  **Poison 6**<br>Immunity   | **Fly**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **Poison 6**<br>Immunity   | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **-1**<br>Might       |  **+2**<br>Agility  |  **+2**<br>Reason  |  **+3**<br>Intuition  |  **+1**<br>Presence  |
 
 > 🏹 **Spittlesplash (Signature Ability)**
@@ -6039,7 +6039,7 @@ At the start of any draconian's turn, you can spend Malice to activate one of th
 | Draconian, Dragon, Humanoid |          -          |      Level 6       |     Elite Harrier     |        EV 32         |
 | :-------------------------: | :-----------------: | :----------------: | :-------------------: | :------------------: |
 |       **1M**<br>Size        |   **8**<br>Speed    | **160**<br>Stamina |  **2**<br>Stability   | **7**<br>Free Strike |
-|   **Acid 6**<br>Immunity    | **Fly**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|   **Acid 6**<br>Immunity    | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+1**<br>Might       |  **+3**<br>Agility  |  **+1**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🗡 **Skewer (Signature Ability)**
@@ -6105,7 +6105,7 @@ At the start of any draconian's turn, you can spend Malice to activate one of th
 | Draconian, Dragon, Humanoid |          -          |      Level 6       |    Elite Artillery    |        EV 32         |
 | :-------------------------: | :-----------------: | :----------------: | :-------------------: | :------------------: |
 |       **1M**<br>Size        |   **5**<br>Speed    | **140**<br>Stamina |  **2**<br>Stability   | **7**<br>Free Strike |
-|   **Cold 6**<br>Immunity    | **Fly**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|   **Cold 6**<br>Immunity    | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **-1**<br>Might       |  **+3**<br>Agility  |  **+3**<br>Reason  |  **+3**<br>Intuition  |  **+1**<br>Presence  |
 
 > 🏹 **Breathsnipe (Signature Ability)**
@@ -6159,7 +6159,7 @@ At the start of any draconian's turn, you can spend Malice to activate one of th
 | Draconian, Dragon, Humanoid  |          -          |      Level 6       |      Elite Hexer      |        EV 32         |
 | :--------------------------: | :-----------------: | :----------------: | :-------------------: | :------------------: |
 |        **1M**<br>Size        |   **5**<br>Speed    | **140**<br>Stamina |  **2**<br>Stability   | **7**<br>Free Strike |
-| **Corruption 6**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Corruption 6**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **-1**<br>Might        |  **+3**<br>Agility  |  **+2**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
 
 > 🗡 **Breaking Palm (Signature Ability)**
@@ -6215,7 +6215,7 @@ At the start of any draconian's turn, you can spend Malice to activate one of th
 | Draconian, Dragon, Humanoid |          -          |      Level 6       |      Elite Brute      |        EV 32         |
 | :-------------------------: | :-----------------: | :----------------: | :-------------------: | :------------------: |
 |       **1L**<br>Size        |   **5**<br>Speed    | **180**<br>Stamina |  **3**<br>Stability   | **7**<br>Free Strike |
-|   **Fire 6**<br>Immunity    | **Fly**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|   **Fire 6**<br>Immunity    | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+3**<br>Might       |  **+2**<br>Agility  |  **+0**<br>Reason  |  **+0**<br>Intuition  |  **+3**<br>Presence  |
 
 > 🗡 **Baneful Blade (Signature Ability)**
@@ -6279,7 +6279,7 @@ At the start of any draconian's turn, you can spend Malice to activate one of th
 | Draconian, Dragon, Humanoid |             -              |      Level 6       |        Leader         |        EV 32         |
 | :-------------------------: | :------------------------: | :----------------: | :-------------------: | :------------------: |
 |        **2**<br>Size        |       **5**<br>Speed       | **180**<br>Stamina |  **3**<br>Stability   | **7**<br>Free Strike |
-| **Lightning 6**<br>Immunity | **Fly, hover**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Lightning 6**<br>Immunity | **Fly, hover**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+4**<br>Might       |     **+1**<br>Agility      |  **+1**<br>Reason  |  **+2**<br>Intuition  |  **+3**<br>Presence  |
 
 > 🗡 **Punishing Flail (Signature Ability)**
@@ -6557,7 +6557,7 @@ Thorn dragons are highly territorial, and are vigilant against potential threats
 |    Dragon, Elemental     |          -          |      Level 2       |         Solo          |        EV 48         |
 | :----------------------: | :-----------------: | :----------------: | :-------------------: | :------------------: |
 |      **3**<br>Size       |   **8**<br>Speed    | **250**<br>Stamina |  **6**<br>Stability   | **5**<br>Free Strike |
-| **Poison 5**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Poison 5**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |     **+2**<br>Might      |  **+3**<br>Agility  |  **-1**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
 > ☠️ **Solo Monster**
@@ -6717,7 +6717,7 @@ Eerie myths surround the gloom dragons, for they wield languages they do not the
 |     Dragon, Elemental     |             -              |      Level 4       |         Solo          |        EV 72         |
 | :-----------------------: | :------------------------: | :----------------: | :-------------------: | :------------------: |
 |       **4**<br>Size       |       **8**<br>Speed       | **350**<br>Stamina |  **2**<br>Stability   | **6**<br>Free Strike |
-| **Psychic 5**<br>Immunity | **Fly, hover**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Psychic 5**<br>Immunity | **Fly, hover**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **+2**<br>Might      |     **+4**<br>Agility      |  **+1**<br>Reason  |  **+3**<br>Intuition  |  **+4**<br>Presence  |
 
 > ☠️ **Solo Monster**
@@ -6871,7 +6871,7 @@ The oldest of crucible dragons are known to speak some Vastariax, though younger
 |   Dragon, Elemental    |         -         |      Level 6       |         Solo          |        EV 96         |
 | :--------------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |     **4**<br>Size      |  **8**<br>Speed   | **450**<br>Stamina |  **6**<br>Stability   | **7**<br>Free Strike |
-| **Fire 6**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Fire 6**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |    **+4**<br>Might     | **-1**<br>Agility |  **+3**<br>Reason  |  **+3**<br>Intuition  |  **+2**<br>Presence  |
 
 > ☠️ **Solo Monster**
@@ -7043,7 +7043,7 @@ An omen dragon speaks with the voices of all the souls they have collected. In a
 |      Dragon, Elemental       |          -          |      Level 8       |         Solo          |        EV 120        |
 | :--------------------------: | :-----------------: | :----------------: | :-------------------: | :------------------: |
 |        **5**<br>Size         |   **10**<br>Speed   | **550**<br>Stamina |  **6**<br>Stability   | **9**<br>Free Strike |
-| **Corruption 6**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Corruption 6**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+3**<br>Might        |  **+4**<br>Agility  |  **+2**<br>Reason  |  **+3**<br>Intuition  |  **+5**<br>Presence  |
 
 > ☠️ **Solo Monster**
@@ -7215,7 +7215,7 @@ Meteor dragons are not known for their conversational habits. When they do deign
 | Dragon, Elemental |          -          |      Level 10      |         Solo          |        EV 144         |
 | :---------------: | :-----------------: | :----------------: | :-------------------: | :-------------------: |
 |   **3**<br>Size   |   **15**<br>Speed   | **650**<br>Stamina |  **6**<br>Stability   | **10**<br>Free Strike |
-| **-**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weaknesses  |
+| **-**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |  **+5**<br>Might  |  **+5**<br>Agility  |  **+3**<br>Reason  |  **+3**<br>Intuition  |  **+5**<br>Presence   |
 
 > ☠️ **Solo Monster**
@@ -7425,7 +7425,7 @@ At the start of any dwarf's turn, you can spend Malice to activate one of the fo
 |  Dwarf, Humanoid  |         -         |     Level 1      |             Minion Defender             |  EV 3 for 4 minions  |
 | :---------------: | :---------------: | :--------------: | :-------------------------------------: | :------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **7**<br>Stamina |           **2**<br>Stability            | **1**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to Stamina**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to Stamina**<br>With Captain |  **-**<br>Weakness   |
 |  **+1**<br>Might  | **+0**<br>Agility | **+0**<br>Reason |           **+2**<br>Intuition           |  **+0**<br>Presence  |
 
 > ⚔️ **Whistling Axes (Signature Ability)**
@@ -7447,7 +7447,7 @@ At the start of any dwarf's turn, you can spend Malice to activate one of the fo
 |  Dwarf, Humanoid  |         -         |     Level 1      |              Minion Brute               |  EV 3 for 4 minions  |
 | :---------------: | :---------------: | :--------------: | :-------------------------------------: | :------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **7**<br>Stamina |           **2**<br>Stability            | **2**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to Stamina**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to Stamina**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+0**<br>Agility | **+0**<br>Reason |           **+0**<br>Intuition           |  **+0**<br>Presence  |
 
 > 🗡 **Maul (Signature Ability)**
@@ -7469,7 +7469,7 @@ At the start of any dwarf's turn, you can spend Malice to activate one of the fo
 |  Dwarf, Humanoid  |         -         |     Level 1      |             Minion Harrier              |  EV 3 for 4 minions  |
 | :---------------: | :---------------: | :--------------: | :-------------------------------------: | :------------------: |
 |  **1M**<br>Size   |  **7**<br>Speed   | **6**<br>Stamina |           **1**<br>Stability            | **1**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to Stamina**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to Stamina**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+1**<br>Agility | **+0**<br>Reason |           **+0**<br>Intuition           |  **+0**<br>Presence  |
 
 > ⚔️ **Handaxes (Signature Ability)**
@@ -7491,7 +7491,7 @@ At the start of any dwarf's turn, you can spend Malice to activate one of the fo
 |  Dwarf, Humanoid  |         -         |     Level 1      |             Minion Support              |  EV 3 for 4 minions  |
 | :---------------: | :---------------: | :--------------: | :-------------------------------------: | :------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **6**<br>Stamina |           **1**<br>Stability            | **1**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to Stamina**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to Stamina**<br>With Captain |  **-**<br>Weakness   |
 |  **+1**<br>Might  | **+2**<br>Agility | **+0**<br>Reason |           **+0**<br>Intuition           |  **+0**<br>Presence  |
 
 > 🏹 **Snaring Javelin (Signature Ability)**
@@ -7513,7 +7513,7 @@ At the start of any dwarf's turn, you can spend Malice to activate one of the fo
 |  Dwarf, Humanoid  |         -         |      Level 1      |   Platoon Artillery   |         EV 6         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **26**<br>Stamina |  **1**<br>Stability   | **4**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+0**<br>Might  | **+2**<br>Agility | **+0**<br>Reason  |  **+1**<br>Intuition  |  **+0**<br>Presence  |
 
 > 🏹 **Portable Ballista (Signature Ability)**
@@ -7549,7 +7549,7 @@ At the start of any dwarf's turn, you can spend Malice to activate one of the fo
 |  Dwarf, Humanoid  |         -         |      Level 1      |     Platoon Hexer     |         EV 8         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **39**<br>Stamina |  **3**<br>Stability   | **4**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+1**<br>Might  | **+0**<br>Agility | **+0**<br>Reason  |  **+2**<br>Intuition  |  **+0**<br>Presence  |
 
 > 🔳 **Concussive Grenade (Signature Ability)**
@@ -7589,7 +7589,7 @@ At the start of any dwarf's turn, you can spend Malice to activate one of the fo
 |  Dwarf, Humanoid  |         -         |      Level 1      |    Platoon Support    |         EV 6         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **36**<br>Stamina |  **2**<br>Stability   | **3**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+0**<br>Might  | **+2**<br>Agility | **+0**<br>Reason  |  **+1**<br>Intuition  |  **+0**<br>Presence  |
 
 > 🏹 **Snaring Crossbow (Signature Ability)**
@@ -7623,7 +7623,7 @@ At the start of any dwarf's turn, you can spend Malice to activate one of the fo
 |  Dwarf, Humanoid  |         -         |      Level 3      |   Platoon Defender    |        EV 10         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **72**<br>Stamina |  **4**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+0**<br>Agility | **+0**<br>Reason  |  **+0**<br>Intuition  |  **+1**<br>Presence  |
 
 > 🗡 **Wide Axe (Signature Ability)**
@@ -7661,7 +7661,7 @@ At the start of any dwarf's turn, you can spend Malice to activate one of the fo
 |  Dwarf, Humanoid  |           -            |      Level 3      |  Platoon Controller   |        EV 10         |
 | :---------------: | :--------------------: | :---------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |     **5**<br>Speed     | **52**<br>Stamina |  **2**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **Burrow**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **Burrow**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+1**<br>Might  |   **+0**<br>Agility    | **+2**<br>Reason  |  **+2**<br>Intuition  |  **+0**<br>Presence  |
 
 > 🔳 **Tile Slide (Signature Ability)**
@@ -7701,7 +7701,7 @@ At the start of any dwarf's turn, you can spend Malice to activate one of the fo
 |  Dwarf, Humanoid  |         -         |      Level 1      |    Platoon Harrier    |         EV 6         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **7**<br>Speed   | **36**<br>Stamina |  **2**<br>Stability   | **3**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+0**<br>Might  | **+2**<br>Agility | **+0**<br>Reason  |  **+1**<br>Intuition  |  **+0**<br>Presence  |
 
 > ⚔️ **Concussive Bolts (Signature Ability)**
@@ -7737,7 +7737,7 @@ At the start of any dwarf's turn, you can spend Malice to activate one of the fo
 |  Dwarf, Humanoid  |         -         |      Level 2      |     Platoon Brute     |         EV 8         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **59**<br>Stamina |  **3**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+0**<br>Agility | **+0**<br>Reason  |  **+1**<br>Intuition  |  **+0**<br>Presence  |
 
 > 🗡 **Concussive Maul (Signature Ability)**
@@ -7777,7 +7777,7 @@ At the start of any dwarf's turn, you can spend Malice to activate one of the fo
 |  Dwarf, Humanoid  |         -         |      Level 3       |        Leader         |        EV 20         |
 | :---------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **132**<br>Stamina |  **4**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+3**<br>Might  | **+0**<br>Agility |  **+2**<br>Reason  |  **+1**<br>Intuition  |  **+0**<br>Presence  |
 
 > ⚔️ **Levitating Axes (Signature Ability)**
@@ -7849,7 +7849,7 @@ At the start of any dwarf's turn, you can spend Malice to activate one of the fo
 |  Dwarf, Humanoid  |           -           |      Level 1      |      Elite Mount      |        EV 12         |
 | :---------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |   **3**<br>Size   |    **8**<br>Speed     | **60**<br>Stamina |  **2**<br>Stability   | **4**<br>Free Strike |
-| **-**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  |   **+0**<br>Agility   | **-2**<br>Reason  |  **+0**<br>Intuition  |  **-2**<br>Presence  |
 
 > 🗡 **Grasping Claws (Signature Ability)**
@@ -7959,7 +7959,7 @@ At the start of any elemental's turn, you can spend Malice to activate one of th
 |       Elemental        |         -         |      Level 3      |    Elite Artillery    |        EV 20         |
 | :--------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |     **1T**<br>Size     |  **6**<br>Speed   | **80**<br>Stamina |  **0**<br>Stability   | **6**<br>Free Strike |
-| **Fire 5**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Fire 5**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |    **-1**<br>Might     | **+2**<br>Agility | **+0**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🏹 **Spitfire (Signature Ability)**
@@ -8005,7 +8005,7 @@ At the start of any elemental's turn, you can spend Malice to activate one of th
 |          Elemental          |          -          |      Level 3       |     Elite Harrier     |        EV 20         |
 | :-------------------------: | :-----------------: | :----------------: | :-------------------: | :------------------: |
 |       **1S**<br>Size        |   **8**<br>Speed    | **100**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-| **Lightning 5**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Lightning 5**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+1**<br>Might       |  **+2**<br>Agility  |  **-1**<br>Reason  |  **+0**<br>Intuition  |  **+2**<br>Presence  |
 
 > ❇️ **Bluster (Signature Ability)**
@@ -8051,7 +8051,7 @@ At the start of any elemental's turn, you can spend Malice to activate one of th
 |       Elemental        |          -           |      Level 3      |   Elite Controller    |        EV 20         |
 | :--------------------: | :------------------: | :---------------: | :-------------------: | :------------------: |
 |     **1M**<br>Size     |    **7**<br>Speed    | **80**<br>Stamina |  **1**<br>Stability   | **5**<br>Free Strike |
-| **Cold 5**<br>Immunity | **Swim**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Cold 5**<br>Immunity | **Swim**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |    **+2**<br>Might     |  **+0**<br>Agility   | **+1**<br>Reason  |  **-1**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🗡 **Water Wing (Signature Ability)**
@@ -8101,7 +8101,7 @@ At the start of any elemental's turn, you can spend Malice to activate one of th
 |        Elemental         |           -           |      Level 3       |   Elite Controller    |        EV 28         |
 | :----------------------: | :-------------------: | :----------------: | :-------------------: | :------------------: |
 |      **3**<br>Size       |    **8**<br>Speed     | **120**<br>Stamina |  **2**<br>Stability   | **6**<br>Free Strike |
-| **Poison 5**<br>Immunity | **Climb**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Poison 5**<br>Immunity | **Climb**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |     **+2**<br>Might      |   **+0**<br>Agility   |  **+0**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🏹 **Hampering Roots (Signature Ability)**
@@ -8151,7 +8151,7 @@ At the start of any elemental's turn, you can spend Malice to activate one of th
 |     Elemental     |           -            |      Level 3       |      Elite Brute      |        EV 20         |
 | :---------------: | :--------------------: | :----------------: | :-------------------: | :------------------: |
 |   **2**<br>Size   |     **5**<br>Speed     | **132**<br>Stamina |  **2**<br>Stability   | **6**<br>Free Strike |
-| **-**<br>Immunity | **Burrow**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **Burrow**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  |   **-1**<br>Agility    |  **+0**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🗡 **Slam Into Dirt (Signature Ability)**
@@ -8279,7 +8279,7 @@ At the start of any high elf's turn, you can spend Malice to activate one of the
 | Elemental, High Elf, Soulless |          -          |     Level 1      |             Minion Hexer              | EV 3 for four minions |
 | :---------------------------: | :-----------------: | :--------------: | :-----------------------------------: | :-------------------: |
 |        **1T**<br>Size         |   **5**<br>Speed    | **3**<br>Stamina |          **0**<br>Stability           | **1**<br>Free Strike  |
-|       **-**<br>Immunity       | **Fly**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |  **-**<br>Weaknesses  |
+|       **-**<br>Immunity       | **Fly**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |        **0**<br>Might         |  **0**<br>Agility   | **0**<br>Reason  |          **0**<br>Intuition           |  **+2**<br>Presence   |
 
 > 🗡 **Dweomer Plume (Signature Ability)**
@@ -8303,7 +8303,7 @@ At the start of any high elf's turn, you can spend Malice to activate one of the
 | Fey, High Elf, Humanoid |         -         |     Level 1      |                Minion Controller                | EV 3 for four minions |
 | :---------------------: | :---------------: | :--------------: | :---------------------------------------------: | :-------------------: |
 |     **1M**<br>Size      |  **5**<br>Speed   | **3**<br>Stamina |               **0**<br>Stability                | **1**<br>Free Strike  |
-|    **-**<br>Immunity    | **-**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |  **-**<br>Weaknesses  |
+|    **-**<br>Immunity    | **-**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |   **-**<br>Weakness   |
 |     **0**<br>Might      | **0**<br>Agility  | **+2**<br>Reason |               **-1**<br>Intuition               |  **+1**<br>Presence   |
 
 > 🏹 **Bright Bolt (Signature Ability)**
@@ -8329,7 +8329,7 @@ At the start of any high elf's turn, you can spend Malice to activate one of the
 | Fey, High Elf, Humanoid |         -         |     Level 1      |                Minion Artillery                 | EV 3 for four minions |
 | :---------------------: | :---------------: | :--------------: | :---------------------------------------------: | :-------------------: |
 |     **1M**<br>Size      |  **5**<br>Speed   | **3**<br>Stamina |               **0**<br>Stability                | **2**<br>Free Strike  |
-|    **-**<br>Immunity    | **-**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |  **-**<br>Weaknesses  |
+|    **-**<br>Immunity    | **-**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |   **-**<br>Weakness   |
 |     **0**<br>Might      | **+2**<br>Agility | **+1**<br>Reason |               **0**<br>Intuition                |   **0**<br>Presence   |
 
 > 🏹 **Heavy Arrow (Signature Ability)**
@@ -8355,7 +8355,7 @@ At the start of any high elf's turn, you can spend Malice to activate one of the
 | Elemental, High Elf |          -          |     Level 1      |               Minion Harrier                | EV 3 for four minions |
 | :-----------------: | :-----------------: | :--------------: | :-----------------------------------------: | :-------------------: |
 |   **1T**<br>Size    |   **7**<br>Speed    | **4**<br>Stamina |             **0**<br>Stability              | **1**<br>Free Strike  |
-|  **-**<br>Immunity  | **Fly**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weaknesses  |
+|  **-**<br>Immunity  | **Fly**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness   |
 |   **0**<br>Might    |  **+2**<br>Agility  | **0**<br>Reason  |             **0**<br>Intuition              |  **+1**<br>Presence   |
 
 > 🗡 **Heckle (Signature Ability)**
@@ -8377,7 +8377,7 @@ At the start of any high elf's turn, you can spend Malice to activate one of the
 | Elemental, High Elf |         -         |      Level 2      |   Platoon Defender    |         EV 8         |
 | :-----------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |    **2**<br>Size    |  **4**<br>Speed   | **59**<br>Stamina |  **3**<br>Stability   | **4**<br>Free Strike |
-|  **-**<br>Immunity  | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **-**<br>Immunity  | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |   **+2**<br>Might   | **0**<br>Agility  |  **0**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
 
 > 🔳 **Wall of Roses (Signature Ability)**
@@ -8409,7 +8409,7 @@ At the start of any high elf's turn, you can spend Malice to activate one of the
 | Fey, High Elf, Humanoid |         -         |      Level 1      |   Platoon Ambusher    |         EV 6         |
 | :---------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |     **1M**<br>Size      |  **7**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   | **4**<br>Free Strike |
-|    **-**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|    **-**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |     **0**<br>Might      | **+2**<br>Agility |  **0**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
 
 > 🗡 **Razor's Edge (Signature Ability)**
@@ -8443,7 +8443,7 @@ At the start of any high elf's turn, you can spend Malice to activate one of the
 | Fey, High Elf, Humanoid |         -         |      Level 2      |   Platoon Artillery   |         EV 8         |
 | :---------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |     **1M**<br>Size      |  **5**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-|    **-**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|    **-**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |     **+2**<br>Might     | **0**<br>Agility  | **+1**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
 > 🏹 **Heartpiercer (Signature Ability)**
@@ -8477,7 +8477,7 @@ At the start of any high elf's turn, you can spend Malice to activate one of the
 | Fey, High Elf, Humanoid |         -         |      Level 3      |     Platoon Hexer     |        EV 10         |
 | :---------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |     **1M**<br>Size      |  **5**<br>Speed   | **40**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-|    **-**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|    **-**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |     **0**<br>Might      | **0**<br>Agility  | **+2**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🔳 **Awash (Signature Ability)**
@@ -8515,7 +8515,7 @@ At the start of any high elf's turn, you can spend Malice to activate one of the
 |  Fey, High Elf, Humanoid  |         -         |      Level 1      |    Platoon Support    |         EV 6         |
 | :-----------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |      **1M**<br>Size       |  **5**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-| **Psychic 5**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Psychic 5**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **0**<br>Might       | **0**<br>Agility  |  **0**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
 
 > 🏹 **Instill Regret (Signature Ability)**
@@ -8564,7 +8564,7 @@ At the start of any high elf's turn, you can spend Malice to activate one of the
 |  Fey, High Elf, Humanoid  |         -         |      Level 3      |  Platoon Controller   |        EV 10         |
 | :-----------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |      **1M**<br>Size       |  **5**<br>Speed   | **40**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-| **Psychic 5**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Psychic 5**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **0**<br>Might       | **+1**<br>Agility | **+2**<br>Reason  |  **-1**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🔳 **Twystrd (Signature Ability)**
@@ -8606,7 +8606,7 @@ At the start of any high elf's turn, you can spend Malice to activate one of the
 | Fey, High Elf, Humanoid |         -         |      Level 1      |    Platoon Harrier    |         EV 6         |
 | :---------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |     **1M**<br>Size      |  **7**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-|    **-**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|    **-**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |     **0**<br>Might      | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
 > 🗡 **Sweeping Blade (Signature Ability)**
@@ -8644,7 +8644,7 @@ At the start of any high elf's turn, you can spend Malice to activate one of the
 | Fey, High Elf, Humanoid |          -          |      Level 3       |        Leader         |        EV 20         |
 | :---------------------: | :-----------------: | :----------------: | :-------------------: | :------------------: |
 |     **1M**<br>Size      |   **5**<br>Speed    | **120**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-|    **-**<br>Immunity    | **Fly**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|    **-**<br>Immunity    | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |     **0**<br>Might      |  **+2**<br>Agility  |  **+3**<br>Reason  |  **+2**<br>Intuition  |  **+3**<br>Presence  |
 
 > 🏹 **Lightning Rod (Signature Ability)**
@@ -8728,7 +8728,7 @@ At the start of any high elf's turn, you can spend Malice to activate one of the
 | Elemental, High Elf |         -         |      Level 1      |     Platoon Mount     |         EV 6         |
 | :-----------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |    **2**<br>Size    |  **10**<br>Speed  | **30**<br>Stamina |  **2**<br>Stability   | **3**<br>Free Strike |
-|  **-**<br>Immunity  | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **-**<br>Immunity  | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |   **+2**<br>Might   | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
 > 🗡 **Elemental Charge (Signature Ability)**
@@ -8830,7 +8830,7 @@ At the start of any shadow elf's turn, you can spend Malice to activate one of t
 | Fey, Humanoid, Shadow Elf |           -           |     Level 4      |            Minion Harrier             | EV 6 for four minions |
 | :-----------------------: | :-------------------: | :--------------: | :-----------------------------------: | :-------------------: |
 |      **1M**<br>Size       |    **8**<br>Speed     | **8**<br>Stamina |          **0**<br>Stability           | **2**<br>Free Strike  |
-|     **-**<br>Immunity     | **Climb**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |  **-**<br>Weaknesses  |
+|     **-**<br>Immunity     | **Climb**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |      **+3**<br>Might      |   **+1**<br>Agility   | **0**<br>Reason  |          **0**<br>Intuition           |   **0**<br>Presence   |
 
 > 🗡 **Stick and Poke (Signature Ability)**
@@ -8856,7 +8856,7 @@ At the start of any shadow elf's turn, you can spend Malice to activate one of t
 | Fey, Humanoid, Shadow Elf |           -           |     Level 4      |                Minion Hexer                 | EV 6 for four minions |
 | :-----------------------: | :-------------------: | :--------------: | :-----------------------------------------: | :-------------------: |
 |      **1M**<br>Size       |    **5**<br>Speed     | **7**<br>Stamina |             **0**<br>Stability              | **2**<br>Free Strike  |
-|     **-**<br>Immunity     | **Climb**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weaknesses  |
+|     **-**<br>Immunity     | **Climb**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness   |
 |      **0**<br>Might       |   **+3**<br>Agility   | **+2**<br>Reason |             **0**<br>Intuition              |   **0**<br>Presence   |
 
 > 🏹 **Gloom Bolt (Signature Ability)**
@@ -8880,7 +8880,7 @@ At the start of any shadow elf's turn, you can spend Malice to activate one of t
 | Fey, Humanoid, Shadow Elf |           -           |     Level 4      |                Minion Artillery                | EV 6 for four minions |
 | :-----------------------: | :-------------------: | :--------------: | :--------------------------------------------: | :-------------------: |
 |      **1M**<br>Size       |    **5**<br>Speed     | **7**<br>Stamina |               **0**<br>Stability               | **3**<br>Free Strike  |
-|     **-**<br>Immunity     | **Climb**<br>Movement |        -         | **+2 damage bonus to strikes**<br>With Captain |  **-**<br>Weaknesses  |
+|     **-**<br>Immunity     | **Climb**<br>Movement |        -         | **+2 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |      **+1**<br>Might      |   **+3**<br>Agility   | **0**<br>Reason  |               **0**<br>Intuition               |   **0**<br>Presence   |
 
 > 🏹 **Lumina Arrow (Signature Ability)**
@@ -8906,7 +8906,7 @@ At the start of any shadow elf's turn, you can spend Malice to activate one of t
 | Fey, Humanoid, Shadow Elf |           -           |     Level 4      |               Minion Ambusher               | EV 6 for four minions |
 | :-----------------------: | :-------------------: | :--------------: | :-----------------------------------------: | :-------------------: |
 |      **1M**<br>Size       |    **5**<br>Speed     | **8**<br>Stamina |             **0**<br>Stability              | **3**<br>Free Strike  |
-|     **-**<br>Immunity     | **Climb**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weaknesses  |
+|     **-**<br>Immunity     | **Climb**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness   |
 |      **+1**<br>Might      |   **+3**<br>Agility   | **0**<br>Reason  |             **+1**<br>Intuition             |   **0**<br>Presence   |
 
 > 🗡 **Vault (Signature Ability)**
@@ -8932,7 +8932,7 @@ At the start of any shadow elf's turn, you can spend Malice to activate one of t
 | Fey, Humanoid, Shadow Elf |           -           |      Level 6      |   Platoon Artillery   |        EV 16         |
 | :-----------------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |      **1M**<br>Size       |    **5**<br>Speed     | **70**<br>Stamina |  **0**<br>Stability   | **7**<br>Free Strike |
-|     **-**<br>Immunity     | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|     **-**<br>Immunity     | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **0**<br>Might       |   **+3**<br>Agility   | **+2**<br>Reason  |  **+1**<br>Intuition  |  **+1**<br>Presence  |
 
 > 🏹 **Lumina Assault (Signature Ability)**
@@ -8974,7 +8974,7 @@ At the start of any shadow elf's turn, you can spend Malice to activate one of t
 | Fey, Humanoid, Shadow Elf |           -           |      Level 5      |  Platoon Controller   |        EV 14         |
 | :-----------------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |      **1M**<br>Size       |    **5**<br>Speed     | **60**<br>Stamina |  **0**<br>Stability   | **6**<br>Free Strike |
-|     **-**<br>Immunity     | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|     **-**<br>Immunity     | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **0**<br>Might       |   **+3**<br>Agility   | **+3**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
 
 > 🗡 **Night Knife (Signature Ability)**
@@ -9010,7 +9010,7 @@ At the start of any shadow elf's turn, you can spend Malice to activate one of t
 | Fey, Humanoid, Shadow Elf |           -           |      Level 4      |   Platoon Defender    |        EV 12         |
 | :-----------------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |      **1M**<br>Size       |    **5**<br>Speed     | **70**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-|     **-**<br>Immunity     | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|     **-**<br>Immunity     | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **0**<br>Might       |   **+2**<br>Agility   |  **0**<br>Reason  |  **+3**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🏹 **Suffusing Strike (Signature Ability)**
@@ -9044,7 +9044,7 @@ At the start of any shadow elf's turn, you can spend Malice to activate one of t
 | Fey, Humanoid, Shadow Elf |           -           |      Level 4      |    Platoon Support    |        EV 12         |
 | :-----------------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |      **1M**<br>Size       |    **5**<br>Speed     | **60**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-|     **-**<br>Immunity     | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|     **-**<br>Immunity     | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **0**<br>Might       |   **+1**<br>Agility   | **+1**<br>Reason  |  **+3**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🏹 **Lumina Mark (Signature Ability)**
@@ -9084,7 +9084,7 @@ At the start of any shadow elf's turn, you can spend Malice to activate one of t
 | Fey, Humanoid, Shadow Elf |           -           |      Level 5      |    Platoon Harrier    |        EV 14         |
 | :-----------------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |      **1M**<br>Size       |    **7**<br>Speed     | **70**<br>Stamina |  **0**<br>Stability   | **6**<br>Free Strike |
-|     **-**<br>Immunity     | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|     **-**<br>Immunity     | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **+1**<br>Might      |   **+3**<br>Agility   | **+1**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
 
 > 🗡 **Crescent Sweep (Signature Ability)**
@@ -9120,7 +9120,7 @@ At the start of any shadow elf's turn, you can spend Malice to activate one of t
 | Fey, Humanoid, Shadow Elf |           -           |      Level 6      |   Platoon Ambusher    |        EV 16         |
 | :-----------------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |      **1M**<br>Size       |    **5**<br>Speed     | **80**<br>Stamina |  **0**<br>Stability   | **7**<br>Free Strike |
-|     **-**<br>Immunity     | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|     **-**<br>Immunity     | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **+2**<br>Might      |   **+3**<br>Agility   | **+1**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
 
 > 🗡 **Knife in the Dark (Signature Ability)**
@@ -9154,7 +9154,7 @@ At the start of any shadow elf's turn, you can spend Malice to activate one of t
 | Fey, Humanoid, Shadow Elf |           -           |      Level 6      |     Platoon Hexer     |        EV 16         |
 | :-----------------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |      **1M**<br>Size       |    **5**<br>Speed     | **70**<br>Stamina |  **0**<br>Stability   | **6**<br>Free Strike |
-|     **-**<br>Immunity     | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|     **-**<br>Immunity     | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **0**<br>Might       |   **+2**<br>Agility   | **+3**<br>Reason  |  **+1**<br>Intuition  |  **+1**<br>Presence  |
 
 > 🏹 **Blotting Bolt (Signature Ability)**
@@ -9194,7 +9194,7 @@ At the start of any shadow elf's turn, you can spend Malice to activate one of t
 | Fey, Humanoid, Shadow Elf |           -           |      Level 4      |     Platoon Brute     |        EV 12         |
 | :-----------------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |      **1M**<br>Size       |    **5**<br>Speed     | **70**<br>Stamina |  **0**<br>Stability   | **6**<br>Free Strike |
-|     **-**<br>Immunity     | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|     **-**<br>Immunity     | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **+3**<br>Might      |   **+2**<br>Agility   | **-1**<br>Reason  |  **+1**<br>Intuition  |  **+1**<br>Presence  |
 
 > 🗡 **Dusk Cleave (Signature Ability)**
@@ -9249,7 +9249,7 @@ However, not every shadow elf force is affiliate d wit h th queen. Some are exil
 | Fey, Humanoid, Shadow Elf |           -           |      Level 6       |        Leader         |        EV 32         |
 | :-----------------------: | :-------------------: | :----------------: | :-------------------: | :------------------: |
 |      **1M**<br>Size       |    **6**<br>Speed     | **180**<br>Stamina |  **1**<br>Stability   | **7**<br>Free Strike |
-|     **-**<br>Immunity     | **Climb**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|     **-**<br>Immunity     | **Climb**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **+4**<br>Might      |   **+3**<br>Agility   |  **+2**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🗡 **Manifold Blade (Signature Ability)**
@@ -9331,7 +9331,7 @@ However, not every shadow elf force is affiliate d wit h th queen. Some are exil
 | Animal, Fey, Shadow Elf |         -         |      Level 4      |     Platoon Mount     |        EV 12         |
 | :---------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |      **2**<br>Size      |  **8**<br>Speed   | **60**<br>Stamina |  **3**<br>Stability   | **5**<br>Free Strike |
-|    **-**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|    **-**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |     **+3**<br>Might     | **+2**<br>Agility | **-1**<br>Reason  |  **+1**<br>Intuition  |  **+1**<br>Presence  |
 
 > 🗡 **Gore (Signature Ability)**
@@ -9433,7 +9433,7 @@ At the start of any wode elf's turn, you can spend Malice to activate one of the
 | Fey, Humanoid, Wode Elf |           -           |     Level 1      |            Minion Support             | EV 3 for four minions |
 | :---------------------: | :-------------------: | :--------------: | :-----------------------------------: | :-------------------: |
 |     **1M**<br>Size      |    **7**<br>Speed     | **4**<br>Stamina |          **0**<br>Stability           | **1**<br>Free Strike  |
-|    **-**<br>Immunity    | **Climb**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |  **-**<br>Weaknesses  |
+|    **-**<br>Immunity    | **Climb**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |     **0**<br>Might      |   **+2**<br>Agility   | **0**<br>Reason  |          **0**<br>Intuition           |  **+1**<br>Presence   |
 
 > 🏹 **Longbow (Signature Ability)**
@@ -9461,7 +9461,7 @@ At the start of any wode elf's turn, you can spend Malice to activate one of the
 | Fey, Humanoid, Wode Elf |         -         |     Level 1      |               Minion Harrier                | EV 3 for four minions |
 | :---------------------: | :---------------: | :--------------: | :-----------------------------------------: | :-------------------: |
 |     **1M**<br>Size      |  **7**<br>Speed   | **4**<br>Stamina |             **0**<br>Stability              | **1**<br>Free Strike  |
-|    **-**<br>Immunity    | **-**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weaknesses  |
+|    **-**<br>Immunity    | **-**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness   |
 |     **0**<br>Might      | **+2**<br>Agility | **0**<br>Reason  |             **0**<br>Intuition              |  **+1**<br>Presence   |
 
 > ⚔️ **Spear (Signature Ability)**
@@ -9487,7 +9487,7 @@ At the start of any wode elf's turn, you can spend Malice to activate one of the
 | Fey, Humanoid, Wode Elf |         -         |     Level 1      |               Minion Ambusher               | EV 3 for four minions |
 | :---------------------: | :---------------: | :--------------: | :-----------------------------------------: | :-------------------: |
 |     **1M**<br>Size      |  **10**<br>Speed  | **4**<br>Stamina |             **0**<br>Stability              | **2**<br>Free Strike  |
-|    **-**<br>Immunity    | **-**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weaknesses  |
+|    **-**<br>Immunity    | **-**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness   |
 |     **0**<br>Might      | **+2**<br>Agility | **0**<br>Reason  |             **0**<br>Intuition              |  **+1**<br>Presence   |
 
 > ⚔️ **Daggers (Signature Ability)**
@@ -9515,7 +9515,7 @@ At the start of any wode elf's turn, you can spend Malice to activate one of the
 | Fey, Humanoid, Wode Elf |         -         |     Level 1      |                Minion Artillery                | EV 3 for four minions |
 | :---------------------: | :---------------: | :--------------: | :--------------------------------------------: | :-------------------: |
 |     **1M**<br>Size      |  **7**<br>Speed   | **3**<br>Stamina |               **0**<br>Stability               | **2**<br>Free Strike  |
-|    **-**<br>Immunity    | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |  **-**<br>Weaknesses  |
+|    **-**<br>Immunity    | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |     **0**<br>Might      | **+2**<br>Agility | **0**<br>Reason  |               **0**<br>Intuition               |  **+1**<br>Presence   |
 
 > 🏹 **Heavy Longbow (Signature Ability)**
@@ -9539,7 +9539,7 @@ At the start of any wode elf's turn, you can spend Malice to activate one of the
 | Fey, Humanoid, Wode Elf |           -           |      Level 2      |    Platoon Harrier    |         EV 8         |
 | :---------------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |     **1M**<br>Size      |    **7**<br>Speed     | **40**<br>Stamina |  **0**<br>Stability   | **4**<br>Free Strike |
-|    **-**<br>Immunity    | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|    **-**<br>Immunity    | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |     **+1**<br>Might     |   **+2**<br>Agility   |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
 > ⚔️ **Wild Ax (Signature Ability)**
@@ -9575,7 +9575,7 @@ At the start of any wode elf's turn, you can spend Malice to activate one of the
 | Fey, Humanoid, Wode Elf |           -           |      Level 2      |  Platoon Controller   |         EV 8         |
 | :---------------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |     **1M**<br>Size      |    **7**<br>Speed     | **30**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-|    **-**<br>Immunity    | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|    **-**<br>Immunity    | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |     **0**<br>Might      |   **+1**<br>Agility   |  **0**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
 
 > 🔳 **Entangling Vines (Signature Ability)**
@@ -9623,7 +9623,7 @@ Wode elves are highly mobile and adept at hindering their enemies. A common tact
 | Fey, Humanoid, Wode Elf |         -         |      Level 1      |     Platoon Hexer     |         EV 6         |
 | :---------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |     **1M**<br>Size      |  **7**<br>Speed   | **20**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-|    **-**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|    **-**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |     **0**<br>Might      | **+1**<br>Agility |  **0**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
 
 > 🏹 **The Forest's Embrace (Signature Ability)**
@@ -9673,7 +9673,7 @@ Wode elves are highly mobile and adept at hindering their enemies. A common tact
 | Fey, Humanoid, Wode Elf |         -         |      Level 1      |   Platoon Defender    |         EV 6         |
 | :---------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |     **1M**<br>Size      |  **7**<br>Speed   | **40**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-|    **-**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|    **-**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |     **0**<br>Might      | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
 > 🗡 **Growing Longsword (Signature Ability)**
@@ -9709,7 +9709,7 @@ Wode elves are highly mobile and adept at hindering their enemies. A common tact
 | Fey, Humanoid, Wode Elf |            -             |      Level 3      |   Platoon Ambusher    |        EV 10         |
 | :---------------------: | :----------------------: | :---------------: | :-------------------: | :------------------: |
 |     **1M**<br>Size      |      **7**<br>Speed      | **50**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-|    **-**<br>Immunity    | **Teleport**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|    **-**<br>Immunity    | **Teleport**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |     **0**<br>Might      |    **+2**<br>Agility     |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
 > ⚔️ **Splinter Dagger (Signature Ability)**
@@ -9753,7 +9753,7 @@ Wode elves are highly mobile and adept at hindering their enemies. A common tact
 | Fey, Humanoid, Wode Elf |           -           |      Level 3      |   Platoon Artillery   |        EV 10         |
 | :---------------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |     **1M**<br>Size      |    **7**<br>Speed     | **40**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-|    **-**<br>Immunity    | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|    **-**<br>Immunity    | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |     **0**<br>Might      |   **+2**<br>Agility   |  **0**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
 
 > 🏹 **Snare Bow (Signature Ability)**
@@ -9795,7 +9795,7 @@ Wode elves are highly mobile and adept at hindering their enemies. A common tact
 | Fey, Humanoid, Wode Elf |         -         |      Level 1      |    Platoon Support    |         EV 6         |
 | :---------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |     **1M**<br>Size      |  **7**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-|    **-**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|    **-**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |     **0**<br>Might      | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
 > 🏹 **Tracer Longbow (Signature Ability)**
@@ -9831,7 +9831,7 @@ Wode elves are highly mobile and adept at hindering their enemies. A common tact
 | Fey, Humanoid, Wode Elf |            -             |      Level 3       |        Leader         |        EV 20         |
 | :---------------------: | :----------------------: | :----------------: | :-------------------: | :------------------: |
 |     **1M**<br>Size      |      **7**<br>Speed      | **120**<br>Stamina |  **2**<br>Stability   | **5**<br>Free Strike |
-|    **-**<br>Immunity    | **Teleport**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|    **-**<br>Immunity    | **Teleport**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |     **+2**<br>Might     |    **+3**<br>Agility     |  **+2**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🗡 **Wodeblade (Signature Ability)**
@@ -9909,7 +9909,7 @@ Wode elves are highly mobile and adept at hindering their enemies. A common tact
 |  Plant, Wode Elf  |         -         |      Level 1      |     Platoon Mount     |         EV 6         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |   **2**<br>Size   |  **10**<br>Speed  | **30**<br>Stamina |  **1**<br>Stability   | **3**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+1**<br>Agility | **-1**<br>Reason  |  **0**<br>Intuition   |  **-1**<br>Presence  |
 
 > 🗡 **Gore (Signature Ability)**
@@ -9995,7 +9995,7 @@ At the start of a fossil cryptic's turn, you can spend Malice to activate one of
 |     Elemental     |           -            |      Level 2       |         Solo          |        EV 48         |
 | :---------------: | :--------------------: | :----------------: | :-------------------: | :------------------: |
 |  **1L**<br>Size   |     **8**<br>Speed     | **250**<br>Stamina |  **3**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **Burrow**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **Burrow**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+3**<br>Might  |   **+2**<br>Agility    |  **+1**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
 
 > ☠️ **Solo Monster**
@@ -10199,7 +10199,7 @@ At the start of any giant's turn, you can spend Malice to activate one of the fo
 |   Fire Giant, Giant    |         -         |      Level 9      |            Minion Harrier             | EV 11 for four minions |
 | :--------------------: | :---------------: | :---------------: | :-----------------------------------: | :--------------------: |
 |     **4**<br>Size      |  **7**<br>Speed   | **13**<br>Stamina |          **5**<br>Stability           |  **3**<br>Free Strike  |
-| **Fire 9**<br>Immunity | **-**<br>Movement |         -         | **+3 bonus to speed**<br>With Captain |  **-**<br>Weaknesses   |
+| **Fire 9**<br>Immunity | **-**<br>Movement |         -         | **+3 bonus to speed**<br>With Captain |   **-**<br>Weakness    |
 |    **+4**<br>Might     | **+2**<br>Agility |  **0**<br>Reason  |          **+2**<br>Intuition          |   **+1**<br>Presence   |
 
 > ❇️ **Blazing Leap (Signature Ability)**
@@ -10225,7 +10225,7 @@ At the start of any giant's turn, you can spend Malice to activate one of the fo
 |   Frost Giant, Giant   |         -         |      Level 8      |                Minion Artillery                | EV 10 for four minions |
 | :--------------------: | :---------------: | :---------------: | :--------------------------------------------: | :--------------------: |
 |     **4**<br>Size      |  **7**<br>Speed   | **12**<br>Stamina |               **5**<br>Stability               |  **4**<br>Free Strike  |
-| **Cold 8**<br>Immunity | **-**<br>Movement |         -         | **+3 damage bonus to strikes**<br>With Captain |  **-**<br>Weaknesses   |
+| **Cold 8**<br>Immunity | **-**<br>Movement |         -         | **+3 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness    |
 |    **+3**<br>Might     | **-1**<br>Agility | **-1**<br>Reason  |              **+4**<br>Intuition               |   **+2**<br>Presence   |
 
 > 🏹 **Slushfall (Signature Ability)**
@@ -10249,7 +10249,7 @@ At the start of any giant's turn, you can spend Malice to activate one of the fo
 |    Giant, Hill Giant     |           -           |      Level 7      |                  Minion Brute                  | EV 9 for four minions |
 | :----------------------: | :-------------------: | :---------------: | :--------------------------------------------: | :-------------------: |
 |      **4**<br>Size       |    **6**<br>Speed     | **13**<br>Stamina |               **5**<br>Stability               | **4**<br>Free Strike  |
-| **Damage 3**<br>Immunity | **Climb**<br>Movement |         -         | **+3 damage bonus to strikes**<br>With Captain |  **-**<br>Weaknesses  |
+| **Damage 3**<br>Immunity | **Climb**<br>Movement |         -         | **+3 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |     **+4**<br>Might      |   **-1**<br>Agility   | **-1**<br>Reason  |              **-1**<br>Intuition               |  **-1**<br>Presence   |
 
 > 🗡 **Swing (Signature Ability)**
@@ -10275,7 +10275,7 @@ At the start of any giant's turn, you can spend Malice to activate one of the fo
 | Giant, Stone Giant |           -            |      Level 8      |            Minion Controller            | EV 10 for four minions |
 | :----------------: | :--------------------: | :---------------: | :-------------------------------------: | :--------------------: |
 |   **4**<br>Size    |     **7**<br>Speed     | **14**<br>Stamina |           **10**<br>Stability           |  **3**<br>Free Strike  |
-| **-**<br>Immunity  | **Burrow**<br>Movement |         -         | **+6 bonus to Stamina**<br>With Captain |  **-**<br>Weaknesses   |
+| **-**<br>Immunity  | **Burrow**<br>Movement |         -         | **+6 bonus to Stamina**<br>With Captain |   **-**<br>Weakness    |
 |  **+4**<br>Might   |   **+2**<br>Agility    |  **0**<br>Reason  |           **+3**<br>Intuition           |   **0**<br>Presence    |
 
 > 🗡 **Buried in Sand (Signature Ability)**
@@ -10307,7 +10307,7 @@ At the start of any giant's turn, you can spend Malice to activate one of the fo
 | Giant, Stone Giant |           -            |      Level 8       |   Elite Controller    |        EV 40         |
 | :----------------: | :--------------------: | :----------------: | :-------------------: | :------------------: |
 |   **4**<br>Size    |     **7**<br>Speed     | **207**<br>Stamina |  **10**<br>Stability  | **8**<br>Free Strike |
-| **-**<br>Immunity  | **Burrow**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity  | **Burrow**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+4**<br>Might   |   **+2**<br>Agility    |  **+1**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
 
 > 🗡 **Rune-Signed Blade (Signature Ability)**
@@ -10373,7 +10373,7 @@ At the start of any giant's turn, you can spend Malice to activate one of the fo
 |   Fire Giant, Giant    |         -         |      Level 9       |     Elite Support     |        EV 44         |
 | :--------------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |     **4**<br>Size      |  **8**<br>Speed   | **200**<br>Stamina |  **5**<br>Stability   | **9**<br>Free Strike |
-| **Fire 9**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Fire 9**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |    **+4**<br>Might     | **+2**<br>Agility |  **0**<br>Reason   |  **+4**<br>Intuition  |  **+1**<br>Presence  |
 
 > 🗡 **Flamelash (Signature Ability)**
@@ -10433,7 +10433,7 @@ At the start of any giant's turn, you can spend Malice to activate one of the fo
 |   Fire Giant, Giant    |         -         |      Level 9       |      Elite Brute      |         EV 44         |
 | :--------------------: | :---------------: | :----------------: | :-------------------: | :-------------------: |
 |     **4**<br>Size      |  **8**<br>Speed   | **240**<br>Stamina |  **5**<br>Stability   | **10**<br>Free Strike |
-| **Fire 9**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weaknesses  |
+| **Fire 9**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |    **+4**<br>Might     | **+2**<br>Agility |  **0**<br>Reason   |  **+2**<br>Intuition  |  **+1**<br>Presence   |
 
 > 🗡 **Flaming Punch (Signature Ability)**
@@ -10506,7 +10506,7 @@ At the start of any giant's turn, you can spend Malice to activate one of the fo
 |   Frost Giant, Giant   |         -         |      Level 8       |    Elite Artillery    |        EV 40         |
 | :--------------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |     **4**<br>Size      |  **7**<br>Speed   | **180**<br>Stamina |  **5**<br>Stability   | **9**<br>Free Strike |
-| **Cold 8**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Cold 8**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |    **+4**<br>Might     | **-1**<br>Agility |  **0**<br>Reason   |  **0**<br>Intuition   |  **0**<br>Presence   |
 
 > 🏹 **Ice Javelins (Signature Ability)**
@@ -10562,7 +10562,7 @@ At the start of any giant's turn, you can spend Malice to activate one of the fo
 |   Frost Giant, Giant   |         -         |      Level 8       |     Elite Harrier     |        EV 40         |
 | :--------------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |     **4**<br>Size      |  **10**<br>Speed  | **200**<br>Stamina |  **5**<br>Stability   | **8**<br>Free Strike |
-| **Cold 8**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Cold 8**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |    **+4**<br>Might     | **+4**<br>Agility |  **-1**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
 > 🗡 **Cold Axe (Signature Ability)**
@@ -10618,7 +10618,7 @@ At the start of any giant's turn, you can spend Malice to activate one of the fo
 | Giant, Stone Giant |           -            |      Level 8       |    Elite Defender     |        EV 40         |
 | :----------------: | :--------------------: | :----------------: | :-------------------: | :------------------: |
 |   **4**<br>Size    |     **7**<br>Speed     | **247**<br>Stamina |  **10**<br>Stability  | **8**<br>Free Strike |
-| **-**<br>Immunity  | **Burrow**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity  | **Burrow**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+4**<br>Might   |   **+1**<br>Agility    |  **+1**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
 
 > 🗡 **Jagged Stone Club (Signature Ability)**
@@ -10684,7 +10684,7 @@ At the start of any giant's turn, you can spend Malice to activate one of the fo
 |    Giant, Hill Giant     |           -           |      Level 7       |      Elite Brute      |        EV 36         |
 | :----------------------: | :-------------------: | :----------------: | :-------------------: | :------------------: |
 |      **4**<br>Size       |    **6**<br>Speed     | **200**<br>Stamina |  **5**<br>Stability   | **8**<br>Free Strike |
-| **Damage 3**<br>Immunity | **Climb**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Damage 3**<br>Immunity | **Climb**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |     **+4**<br>Might      |   **-1**<br>Agility   |  **-1**<br>Reason  |  **-1**<br>Intuition  |  **-1**<br>Presence  |
 
 > 🗡 **Clobberin' Club (Signature Ability)**
@@ -10758,7 +10758,7 @@ At the start of any giant's turn, you can spend Malice to activate one of the fo
 | Giant, Stone Giant |           -            |      Level 8       |      Elite Hexer      |        EV 40         |
 | :----------------: | :--------------------: | :----------------: | :-------------------: | :------------------: |
 |   **4**<br>Size    |     **6**<br>Speed     | **207**<br>Stamina |  **10**<br>Stability  | **8**<br>Free Strike |
-| **-**<br>Immunity  | **Burrow**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity  | **Burrow**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+4**<br>Might   |   **+3**<br>Agility    |  **0**<br>Reason   |  **+3**<br>Intuition  |  **0**<br>Presence   |
 
 > 🔳 **Marble From a Great Sling (Signature Ability)**
@@ -10824,7 +10824,7 @@ At the start of any giant's turn, you can spend Malice to activate one of the fo
 |    Fire Giant, Giant    |         -         |      Level 9       |        Leader         |        EV 44         |
 | :---------------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |      **5**<br>Size      |  **10**<br>Speed  | **240**<br>Stamina |  **10**<br>Stability  | **9**<br>Free Strike |
-| **Fire 10**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Fire 10**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |     **+5**<br>Might     | **+3**<br>Agility |  **0**<br>Reason   |  **+2**<br>Intuition  |  **+3**<br>Presence  |
 
 > 🔳 **Roiling Fist (Signature Ability)**
@@ -10970,7 +10970,7 @@ At the start of any gnoll's turn, you can spend Malice to activate one of the fo
 | Abyssal, Animal, Gnoll |         -         |     Level 2      |             Minion Brute              | EV 4 for four minions |
 | :--------------------: | :---------------: | :--------------: | :-----------------------------------: | :-------------------: |
 |     **1M**<br>Size     |  **8**<br>Speed   | **7**<br>Stamina |          **1**<br>Stability           | **3**<br>Free Strike  |
-|   **-**<br>Immunity    | **-**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |  **-**<br>Weaknesses  |
+|   **-**<br>Immunity    | **-**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |    **+2**<br>Might     | **+1**<br>Agility | **-3**<br>Reason |          **0**<br>Intuition           |  **-2**<br>Presence   |
 
 > 🗡 **Snapjaw (Signature Ability)**
@@ -10994,7 +10994,7 @@ At the start of any gnoll's turn, you can spend Malice to activate one of the fo
 |  Abyssal, Gnoll   |         -         |     Level 2      |                Minion Artillery                | EV 4 for four minions |
 | :---------------: | :---------------: | :--------------: | :--------------------------------------------: | :-------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **4**<br>Stamina |               **1**<br>Stability               | **3**<br>Free Strike  |
-| **-**<br>Immunity | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |  **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |  **+2**<br>Might  | **0**<br>Agility  | **+1**<br>Reason |               **0**<br>Intuition               |  **-2**<br>Presence   |
 
 > 🏹 **Chain Shotput (Signature Ability)**
@@ -11018,7 +11018,7 @@ At the start of any gnoll's turn, you can spend Malice to activate one of the fo
 |  Abyssal, Gnoll   |         -         |     Level 2      |                  Minion Hexer                  | EV 4 for four minions |
 | :---------------: | :---------------: | :--------------: | :--------------------------------------------: | :-------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **4**<br>Stamina |               **1**<br>Stability               | **2**<br>Free Strike  |
-| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to melee distance**<br>With Captain |  **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to melee distance**<br>With Captain |   **-**<br>Weakness   |
 |  **+2**<br>Might  | **+1**<br>Agility | **-1**<br>Reason |               **0**<br>Intuition               |   **0**<br>Presence   |
 
 > 🗡 **Wizard Ripper (Signature Ability)**
@@ -11044,7 +11044,7 @@ At the start of any gnoll's turn, you can spend Malice to activate one of the fo
 |  Abyssal, Gnoll   |         -         |     Level 2      |               Minion Harrier                | EV 4 for four minions |
 | :---------------: | :---------------: | :--------------: | :-----------------------------------------: | :-------------------: |
 |  **1M**<br>Size   |  **7**<br>Speed   | **5**<br>Stamina |             **1**<br>Stability              | **2**<br>Free Strike  |
-| **-**<br>Immunity | **-**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness   |
 |  **+1**<br>Might  | **+2**<br>Agility | **+0**<br>Reason |             **+0**<br>Intuition             |  **-2**<br>Presence   |
 
 > 🗡 **Flail (Signature Ability)**
@@ -11068,7 +11068,7 @@ At the start of any gnoll's turn, you can spend Malice to activate one of the fo
 |  Abyssal, Gnoll   |         -         |      Level 2      |    Horde Artillery    |         EV 4         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **15**<br>Stamina |  **1**<br>Stability   | **3**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **+2**<br>Agility | **+1**<br>Reason  |  **0**<br>Intuition   |  **-1**<br>Presence  |
 
 > 🏹 **Dark Longbow (Signature Ability)**
@@ -11106,7 +11106,7 @@ At the start of any gnoll's turn, you can spend Malice to activate one of the fo
 |  Abyssal, Gnoll   |         -         |      Level 2      |     Horde Support     |         EV 4         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **20**<br>Stamina |  **1**<br>Stability   | **2**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+1**<br>Might  | **0**<br>Agility  |  **0**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🏹 **Flame Wad (Signature Ability)**
@@ -11148,7 +11148,7 @@ At the start of any gnoll's turn, you can spend Malice to activate one of the fo
 |  Abyssal, Gnoll   |         -         |      Level 2      |      Horde Brute      |         EV 4         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1L**<br>Size   |  **5**<br>Speed   | **25**<br>Stamina |  **1**<br>Stability   | **3**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+1**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
 > 🗡 **Three-Tail Flail (Signature Ability)**
@@ -11182,7 +11182,7 @@ At the start of any gnoll's turn, you can spend Malice to activate one of the fo
 |  Abyssal, Gnoll   |         -         |      Level 2      |      Horde Hexer      |         EV 4         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1S**<br>Size   |  **5**<br>Speed   | **15**<br>Stamina |  **1**<br>Stability   | **2**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **0**<br>Agility  | **+2**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🏹 **Moment of Brutality (Signature Ability)**
@@ -11220,7 +11220,7 @@ At the start of any gnoll's turn, you can spend Malice to activate one of the fo
 |  Abyssal, Gnoll   |         -         |      Level 2      |     Horde Harrier     |         EV 4         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **7**<br>Speed   | **20**<br>Stamina |  **1**<br>Stability   | **2**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+1**<br>Might  | **+1**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
 > 🗡 **Fury Flail (Signature Ability)**
@@ -11254,7 +11254,7 @@ At the start of any gnoll's turn, you can spend Malice to activate one of the fo
 | Abyssal, Demon, Gnoll |         -         |      Level 2       |      Elite Brute      |        EV 16         |
 | :-------------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |     **3**<br>Size     |  **7**<br>Speed   | **100**<br>Stamina |  **3**<br>Stability   | **5**<br>Free Strike |
-|   **-**<br>Immunity   | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|   **-**<br>Immunity   | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |    **+2**<br>Might    | **-1**<br>Agility |  **-3**<br>Reason  |  **0**<br>Intuition   |  **-1**<br>Presence  |
 
 > 🗡 **Gore (Signature Ability)**
@@ -11294,7 +11294,7 @@ At the start of any gnoll's turn, you can spend Malice to activate one of the fo
 |  Abyssal, Gnoll   |         -         |      Level 2       |        Leader         |        EV 16         |
 | :---------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **100**<br>Stamina |  **1**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+3**<br>Might  | **+3**<br>Agility |  **0**<br>Reason   |  **0**<br>Intuition   |  **+3**<br>Presence  |
 
 > 🗡 **Shrapnel Whip (Signature Ability)**
@@ -11420,7 +11420,7 @@ Most goblins speak Caelian and Szetch.
 | Goblin, Humanoid  |           -           |     Level 1      |               Minion Harrier                | EV 3 for four minions |
 | :---------------: | :-------------------: | :--------------: | :-----------------------------------------: | :-------------------: |
 |  **1S**<br>Size   |    **6**<br>Speed     | **4**<br>Stamina |             **0**<br>Stability              | **1**<br>Free Strike  |
-| **-**<br>Immunity | **Climb**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weaknesses  |
+| **-**<br>Immunity | **Climb**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness   |
 |  **-2**<br>Might  |   **+2**<br>Agility   | **0**<br>Reason  |             **0**<br>Intuition              |  **-1**<br>Presence   |
 
 > 🗡 **Club Charge (Signature Ability)**
@@ -11444,7 +11444,7 @@ Most goblins speak Caelian and Szetch.
 | Goblin, Humanoid  |           -           |     Level 1      |                Minion Artillery                 | EV 3 for four minions |
 | :---------------: | :-------------------: | :--------------: | :---------------------------------------------: | :-------------------: |
 |  **1S**<br>Size   |    **5**<br>Speed     | **3**<br>Stamina |               **0**<br>Stability                | **2**<br>Free Strike  |
-| **-**<br>Immunity | **Climb**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |  **-**<br>Weaknesses  |
+| **-**<br>Immunity | **Climb**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |   **-**<br>Weakness   |
 |  **-2**<br>Might  |   **+2**<br>Agility   | **0**<br>Reason  |               **0**<br>Intuition                |  **-1**<br>Presence   |
 
 > 🏹 **Bow (Signature Ability)**
@@ -11470,7 +11470,7 @@ Most goblins speak Caelian and Szetch.
 | Goblin, Humanoid  |           -           |     Level 1      |                  Minion Brute                  | EV 3 for four minions |
 | :---------------: | :-------------------: | :--------------: | :--------------------------------------------: | :-------------------: |
 |  **1S**<br>Size   |    **5**<br>Speed     | **5**<br>Stamina |               **0**<br>Stability               | **2**<br>Free Strike  |
-| **-**<br>Immunity | **Climb**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |  **-**<br>Weaknesses  |
+| **-**<br>Immunity | **Climb**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |  **+2**<br>Might  |   **0**<br>Agility    | **0**<br>Reason  |               **0**<br>Intuition               |  **-1**<br>Presence   |
 
 > 🗡 **Axe (Signature Ability)**
@@ -11494,7 +11494,7 @@ Most goblins speak Caelian and Szetch.
 |  Animal, Goblin   |          -          |     Level 1      |             Minion Hexer              | EV 3 for four minions |
 | :---------------: | :-----------------: | :--------------: | :-----------------------------------: | :-------------------: |
 |  **1T**<br>Size   |   **5**<br>Speed    | **3**<br>Stamina |          **0**<br>Stability           | **1**<br>Free Strike  |
-| **-**<br>Immunity | **Fly**<br>Movement |        -         | **+3 bonus to speed**<br>With Captain |  **-**<br>Weaknesses  |
+| **-**<br>Immunity | **Fly**<br>Movement |        -         | **+3 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |  **-5**<br>Might  |  **+2**<br>Agility  | **-4**<br>Reason |          **0**<br>Intuition           |  **-2**<br>Presence   |
 
 > 🗡 **Claws (Signature Ability)**
@@ -11516,7 +11516,7 @@ Most goblins speak Caelian and Szetch.
 | Goblin, Humanoid  |           -           |      Level 1      |    Horde Ambusher     |         EV 3         |
 | :---------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |  **1S**<br>Size   |    **6**<br>Speed     | **15**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
-| **-**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **-2**<br>Might  |   **+2**<br>Agility   |  **0**<br>Reason  |  **0**<br>Intuition   |  **-2**<br>Presence  |
 
 > 🗡 **Sword Stab (Signature Ability)**
@@ -11558,7 +11558,7 @@ Most goblins speak Caelian and Szetch.
 | Goblin, Humanoid  |           -           |      Level 1      |      Horde Hexer      |         EV 3         |
 | :---------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |  **1S**<br>Size   |    **5**<br>Speed     | **10**<br>Stamina |  **0**<br>Stability   | **1**<br>Free Strike |
-| **-**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **-2**<br>Might  |   **+1**<br>Agility   |  **0**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
 
 > 🏹 **Eye of Surlach (Signature Ability)**
@@ -11594,7 +11594,7 @@ Most goblins speak Caelian and Szetch.
 | Goblin, Humanoid  |           -           |      Level 1      |   Horde Controller    |         EV 3         |
 | :---------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |  **1S**<br>Size   |    **5**<br>Speed     | **10**<br>Stamina |  **0**<br>Stability   | **1**<br>Free Strike |
-| **-**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **-2**<br>Might  |   **+1**<br>Agility   |  **0**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
 
 > 🔳 **Toxic Winds (Signature Ability)**
@@ -11628,7 +11628,7 @@ Most goblins speak Caelian and Szetch.
 | Goblin, Humanoid  |           -           |      Level 1      |     Horde Support     |         EV 3         |
 | :---------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |  **1S**<br>Size   |    **5**<br>Speed     | **15**<br>Stamina |  **0**<br>Stability   | **1**<br>Free Strike |
-| **-**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **-1**<br>Might  |   **+2**<br>Agility   |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
 > 🗡 **Swordplay (Signature Ability)**
@@ -11664,7 +11664,7 @@ Most goblins speak Caelian and Szetch.
 | Goblin, Humanoid  |           -           |      Level 1      |     Horde Harrier     |         EV 3         |
 | :---------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |  **1S**<br>Size   |    **6**<br>Speed     | **15**<br>Stamina |  **0**<br>Stability   | **1**<br>Free Strike |
-| **-**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **-2**<br>Might  |   **+2**<br>Agility   |  **0**<br>Reason  |  **0**<br>Intuition   |  **-1**<br>Presence  |
 
 > 🗡 **Spear Charge (Signature Ability)**
@@ -11700,7 +11700,7 @@ Most goblins speak Caelian and Szetch.
 | Goblin, Humanoid  |           -           |      Level 1      |        Leader         |        EV 12         |
 | :---------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |  **1S**<br>Size   |    **6**<br>Speed     | **80**<br>Stamina |  **1**<br>Stability   | **4**<br>Free Strike |
-| **-**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   |   **+3**<br>Agility   | **+1**<br>Reason  |  **0**<br>Intuition   |  **+3**<br>Presence  |
 
 > ⚔️ **Handaxe (Signature Ability)**
@@ -11772,7 +11772,7 @@ Most goblins speak Caelian and Szetch.
 |  Animal, Goblin   |           -           |      Level 1      |      Elite Mount      |        EV 12         |
 | :---------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |   **3**<br>Size   |    **7**<br>Speed     | **60**<br>Stamina |  **2**<br>Stability   | **4**<br>Free Strike |
-| **-**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  |   **+1**<br>Agility   | **-4**<br>Reason  |  **0**<br>Intuition   |  **-3**<br>Presence  |
 
 > 🗡 **Bite (Signature Ability)**
@@ -11846,7 +11846,7 @@ Most goblins speak Caelian and Szetch.
 |  Animal, Goblin   |         -         |      Level 1      |      Horde Mount      |         EV 3         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1L**<br>Size   |  **5**<br>Speed   | **15**<br>Stamina |  **1**<br>Stability   | **1**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+1**<br>Might  | **+2**<br>Agility | **-1**<br>Reason  |  **0**<br>Intuition   |  **-1**<br>Presence  |
 
 > 🗡 **Bite (Signature Ability)**
@@ -11924,7 +11924,7 @@ At the start of any griffon's turn, you can spend Malice to activate one of the 
 |  Beast, Griffon   |          -          |      Level 2      |      Elite Mount      |        EV 16         |
 | :---------------: | :-----------------: | :---------------: | :-------------------: | :------------------: |
 |   **2**<br>Size   |   **9**<br>Speed    | **80**<br>Stamina |  **2**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **Fly**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **Fly**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  |  **+2**<br>Agility  | **-1**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🗡 **Claw Swipes (Signature Ability)**
@@ -11994,7 +11994,7 @@ At the start of any griffon's turn, you can spend Malice to activate one of the 
 |  Beast, Griffon   |          -          |      Level 2       |      Elite Brute      |        EV 16         |
 | :---------------: | :-----------------: | :----------------: | :-------------------: | :------------------: |
 |   **3**<br>Size   |   **7**<br>Speed    | **100**<br>Stamina |  **3**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  |  **+2**<br>Agility  |  **-1**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
 
 > 🗡 **Violent Thrashing (Signature Ability)**
@@ -12124,7 +12124,7 @@ The hag utters terrible words that push each enemy within 2 squares of them up t
 |     Fey, Hag      |             -              |      Level 3       |         Solo          |        EV 60         |
 | :---------------: | :------------------------: | :----------------: | :-------------------: | :------------------: |
 |  **1L**<br>Size   |       **5**<br>Speed       | **300**<br>Stamina |  **1**<br>Stability   | **6**<br>Free Strike |
-| **-**<br>Immunity | **Fly, hover**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **Fly, hover**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  |     **+1**<br>Agility      |  **+1**<br>Reason  |  **+3**<br>Intuition  |  **+3**<br>Presence  |
 
 > ☠️ **Solo Monster**
@@ -12315,7 +12315,7 @@ At the start of any hobgoblin's turn, you can spend Malice to activate one of th
 | Goblin, Hobgoblin, Humanoid, Infernal |         -         |     Level 4      |                Minion Hexer                 | EV 6 for four minions |
 | :-----------------------------------: | :---------------: | :--------------: | :-----------------------------------------: | :-------------------: |
 |            **1M**<br>Size             |  **5**<br>Speed   | **7**<br>Stamina |             **0**<br>Stability              | **2**<br>Free Strike  |
-|        **Fire 2**<br>Immunity         | **-**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weaknesses  |
+|        **Fire 2**<br>Immunity         | **-**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness   |
 |            **0**<br>Might             | **+1**<br>Agility | **+2**<br>Reason |             **0**<br>Intuition              |  **+3**<br>Presence   |
 
 > 🗡 **Searing Grasp (Signature Ability)**
@@ -12343,7 +12343,7 @@ At the start of any hobgoblin's turn, you can spend Malice to activate one of th
 | Goblin, Hobgoblin, Humanoid, Infernal |         -         |     Level 4      |                 Minion Harrier                 | EV 6 for four minions |
 | :-----------------------------------: | :---------------: | :--------------: | :--------------------------------------------: | :-------------------: |
 |            **1M**<br>Size             |  **7**<br>Speed   | **8**<br>Stamina |               **0**<br>Stability               | **2**<br>Free Strike  |
-|        **Fire 2**<br>Immunity         | **-**<br>Movement |        -         | **+2 damage bonus to strikes**<br>With Captain |  **-**<br>Weaknesses  |
+|        **Fire 2**<br>Immunity         | **-**<br>Movement |        -         | **+2 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |            **+1**<br>Might            | **+3**<br>Agility | **0**<br>Reason  |              **+2**<br>Intuition               |   **0**<br>Presence   |
 
 > ⚔️ **Grim Thrust (Signature Ability)**
@@ -12369,7 +12369,7 @@ At the start of any hobgoblin's turn, you can spend Malice to activate one of th
 | Goblin, Hobgoblin, Humanoid, Infernal |         -         |     Level 4      |              Minion Brute               | EV 6 for four minions |
 | :-----------------------------------: | :---------------: | :--------------: | :-------------------------------------: | :-------------------: |
 |            **1M**<br>Size             |  **5**<br>Speed   | **9**<br>Stamina |           **0**<br>Stability            | **3**<br>Free Strike  |
-|        **Fire 2**<br>Immunity         | **-**<br>Movement |        -         | **+4 bonus to Stamina**<br>With Captain |  **-**<br>Weaknesses  |
+|        **Fire 2**<br>Immunity         | **-**<br>Movement |        -         | **+4 bonus to Stamina**<br>With Captain |   **-**<br>Weakness   |
 |            **+3**<br>Might            | **+2**<br>Agility | **0**<br>Reason  |           **0**<br>Intuition            |  **+1**<br>Presence   |
 
 > 🗡 **Sword Lunge (Signature Ability)**
@@ -12397,7 +12397,7 @@ At the start of any hobgoblin's turn, you can spend Malice to activate one of th
 | Devil, Hobgoblin, Infernal |          -          |     Level 4      |            Minion Ambusher            | EV 6 for four minions |
 | :------------------------: | :-----------------: | :--------------: | :-----------------------------------: | :-------------------: |
 |       **1T**<br>Size       |   **7**<br>Speed    | **8**<br>Stamina |          **0**<br>Stability           | **3**<br>Free Strike  |
-|   **Fire 2**<br>Immunity   | **Fly**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |  **-**<br>Weaknesses  |
+|   **Fire 2**<br>Immunity   | **Fly**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |      **-1**<br>Might       |  **+3**<br>Agility  | **0**<br>Reason  |          **+1**<br>Intuition          |   **0**<br>Presence   |
 
 > 🗡 **Flyby Bite (Signature Ability)**
@@ -12427,7 +12427,7 @@ At the start of any hobgoblin's turn, you can spend Malice to activate one of th
 | Goblin, Hobgoblin, Humanoid, Infernal |            -             |      Level 4      |  Platoon Controller   |        EV 12         |
 | :-----------------------------------: | :----------------------: | :---------------: | :-------------------: | :------------------: |
 |            **1M**<br>Size             |      **5**<br>Speed      | **50**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-|        **Fire 4**<br>Immunity         | **Teleport**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|        **Fire 4**<br>Immunity         | **Teleport**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **0**<br>Might             |    **+1**<br>Agility     | **+2**<br>Reason  |  **+2**<br>Intuition  |  **+3**<br>Presence  |
 
 > 🏹 **Soul Burn (Signature Ability)**
@@ -12461,7 +12461,7 @@ At the start of any hobgoblin's turn, you can spend Malice to activate one of th
 | Goblin, Hobgoblin, Humanoid, Infernal |         -         |      Level 4      |    Platoon Support    |        EV 12         |
 | :-----------------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |            **1M**<br>Size             |  **5**<br>Speed   | **60**<br>Stamina |  **2**<br>Stability   | **5**<br>Free Strike |
-|        **Fire 4**<br>Immunity         | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|        **Fire 4**<br>Immunity         | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+3**<br>Might            | **0**<br>Agility  | **+1**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
 
 > 🗡 **Blightblade (Signature Ability)**
@@ -12501,7 +12501,7 @@ At the start of any hobgoblin's turn, you can spend Malice to activate one of th
 | Goblin, Hobgoblin, Humanoid, Infernal |         -         |      Level 5      |    Platoon Harrier    |        EV 14         |
 | :-----------------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |            **1M**<br>Size             |  **8**<br>Speed   | **70**<br>Stamina |  **0**<br>Stability   | **6**<br>Free Strike |
-|        **Fire 5**<br>Immunity         | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|        **Fire 5**<br>Immunity         | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+2**<br>Might            | **+3**<br>Agility | **+1**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
 
 > 🗡 **Flaming Kick (Signature Ability)**
@@ -12541,7 +12541,7 @@ At the start of any hobgoblin's turn, you can spend Malice to activate one of th
 | Goblin, Hobgoblin, Humanoid, Infernal |         -         |      Level 6       |   Platoon Defender    |        EV 16         |
 | :-----------------------------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |             **2**<br>Size             |  **4**<br>Speed   | **111**<br>Stamina |  **4**<br>Stability   | **6**<br>Free Strike |
-|        **Fire 6**<br>Immunity         | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|        **Fire 6**<br>Immunity         | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+3**<br>Might            | **+2**<br>Agility |  **+3**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
 
 > 🗡 **Tower Shield Smash (Signature Ability)**
@@ -12585,7 +12585,7 @@ At the start of any hobgoblin's turn, you can spend Malice to activate one of th
 | Goblin, Hobgoblin, Humanoid, Infernal |         -         |      Level 4      |     Platoon Brute     |        EV 12         |
 | :-----------------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |            **1M**<br>Size             |  **5**<br>Speed   | **70**<br>Stamina |  **2**<br>Stability   | **6**<br>Free Strike |
-|        **Fire 4**<br>Immunity         | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|        **Fire 4**<br>Immunity         | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+3**<br>Might            | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
 > 🗡 **Fire Flail (Signature Ability)**
@@ -12619,7 +12619,7 @@ At the start of any hobgoblin's turn, you can spend Malice to activate one of th
 | Goblin, Hobgoblin, Humanoid, Infernal |         -         |      Level 5      |   Platoon Artillery   |        EV 14         |
 | :-----------------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |            **1M**<br>Size             |  **5**<br>Speed   | **60**<br>Stamina |  **0**<br>Stability   | **6**<br>Free Strike |
-|        **Fire 5**<br>Immunity         | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|        **Fire 5**<br>Immunity         | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+1**<br>Might            | **+3**<br>Agility |  **0**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
 
 > 🏹 **Fire Crossbow (Signature Ability)**
@@ -12663,7 +12663,7 @@ At the start of any hobgoblin's turn, you can spend Malice to activate one of th
 | Goblin, Hobgoblin, Humanoid, Infernal |            -             |      Level 6      |     Platoon Hexer     |        EV 16         |
 | :-----------------------------------: | :----------------------: | :---------------: | :-------------------: | :------------------: |
 |            **1L**<br>Size             |      **5**<br>Speed      | **70**<br>Stamina |  **4**<br>Stability   | **6**<br>Free Strike |
-|        **Fire 6**<br>Immunity         | **Teleport**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|        **Fire 6**<br>Immunity         | **Teleport**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **0**<br>Might             |    **+2**<br>Agility     | **+2**<br>Reason  |  **+3**<br>Intuition  |  **+3**<br>Presence  |
 
 > 🏹 **Eye Flash (Signature Ability)**
@@ -12701,7 +12701,7 @@ At the start of any hobgoblin's turn, you can spend Malice to activate one of th
 | Goblin, Hobgoblin, Humanoid, Infernal |             -              |      Level 5      |   Platoon Ambusher    |        EV 14         |
 | :-----------------------------------: | :------------------------: | :---------------: | :-------------------: | :------------------: |
 |            **1M**<br>Size             |       **7**<br>Speed       | **70**<br>Stamina |  **0**<br>Stability   | **6**<br>Free Strike |
-|        **Fire 5**<br>Immunity         | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|        **Fire 5**<br>Immunity         | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+1**<br>Might            |     **+3**<br>Agility      | **+2**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
 
 > 🏹 **Choking Bolt (Signature Ability)**
@@ -12743,7 +12743,7 @@ At the start of any hobgoblin's turn, you can spend Malice to activate one of th
 | Goblin, Hobgoblin, Humanoid, Infernal |                -                |      Level 5       |   Elite Controller    |        EV 28         |
 | :-----------------------------------: | :-----------------------------: | :----------------: | :-------------------: | :------------------: |
 |            **1M**<br>Size             |         **5**<br>Speed          | **120**<br>Stamina |  **0**<br>Stability   | **6**<br>Free Strike |
-|        **Fire 5**<br>Immunity         | **Hover, teleport**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|        **Fire 5**<br>Immunity         | **Hover, teleport**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **0**<br>Might             |        **+2**<br>Agility        |  **+3**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🔳 **Hellfire (Signature Ability)**
@@ -12799,7 +12799,7 @@ At the start of any hobgoblin's turn, you can spend Malice to activate one of th
 | Goblin, Hobgoblin, Humanoid, Infernal |            -             |      Level 6       |        Leader         |        EV 32         |
 | :-----------------------------------: | :----------------------: | :----------------: | :-------------------: | :------------------: |
 |            **1M**<br>Size             |      **6**<br>Speed      | **180**<br>Stamina |  **2**<br>Stability   | **7**<br>Free Strike |
-|        **Fire 6**<br>Immunity         | **Teleport**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|        **Fire 6**<br>Immunity         | **Teleport**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+4**<br>Might            |    **+2**<br>Agility     |  **+2**<br>Reason  |  **+3**<br>Intuition  |  **+3**<br>Presence  |
 
 > 🗡 **Soul Sword (Signature Ability)**
@@ -12877,7 +12877,7 @@ At the start of any hobgoblin's turn, you can spend Malice to activate one of th
 | Abyssal, Demon, Hobgoblin |           -            |      Level 4       |      Elite Brute      |        EV 24         |
 | :-----------------------: | :--------------------: | :----------------: | :-------------------: | :------------------: |
 |       **3**<br>Size       |     **7**<br>Speed     | **140**<br>Stamina |  **3**<br>Stability   | **6**<br>Free Strike |
-|  **Fire 5**<br>Immunity   | **Burrow**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **Fire 5**<br>Immunity   | **Burrow**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **+3**<br>Might      |    **0**<br>Agility    |  **-1**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
 
 > 🗡 **Steely Skewer (Signature Ability)**
@@ -12993,7 +12993,7 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 |             Human, Humanoid             |         -         |     Level 2      |                Minion Controller                | EV 4 for four minions |
 | :-------------------------------------: | :---------------: | :--------------: | :---------------------------------------------: | :-------------------: |
 |             **1M**<br>Size              |  **5**<br>Speed   | **4**<br>Stamina |               **0**<br>Stability                | **2**<br>Free Strike  |
-| **Corruption 2, psychic 2**<br>Immunity | **-**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |  **-**<br>Weaknesses  |
+| **Corruption 2, psychic 2**<br>Immunity | **-**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |   **-**<br>Weakness   |
 |             **0**<br>Might              | **+1**<br>Agility | **0**<br>Reason  |               **0**<br>Intuition                |  **+2**<br>Presence   |
 
 > 🏹 **Lightning Strike (Signature Ability)**
@@ -13019,7 +13019,7 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 |             Human, Humanoid             |         -         |     Level 1      |                Minion Artillery                 | EV 3 for four minions |
 | :-------------------------------------: | :---------------: | :--------------: | :---------------------------------------------: | :-------------------: |
 |             **1M**<br>Size              |  **5**<br>Speed   | **3**<br>Stamina |               **0**<br>Stability                | **2**<br>Free Strike  |
-| **Corruption 1, psychic 1**<br>Immunity | **-**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |  **-**<br>Weaknesses  |
+| **Corruption 1, psychic 1**<br>Immunity | **-**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |   **-**<br>Weakness   |
 |             **0**<br>Might              | **+2**<br>Agility | **0**<br>Reason  |               **0**<br>Intuition                |   **0**<br>Presence   |
 
 > 🏹 **Crossbow (Signature Ability)**
@@ -13043,7 +13043,7 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 |             Human, Humanoid             |         -         |     Level 1      |                  Minion Hexer                   | EV 3 for four minions |
 | :-------------------------------------: | :---------------: | :--------------: | :---------------------------------------------: | :-------------------: |
 |             **1M**<br>Size              |  **5**<br>Speed   | **3**<br>Stamina |               **0**<br>Stability                | **1**<br>Free Strike  |
-| **Corruption 1, psychic 1**<br>Immunity | **-**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |  **-**<br>Weaknesses  |
+| **Corruption 1, psychic 1**<br>Immunity | **-**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |   **-**<br>Weakness   |
 |             **0**<br>Might              | **+1**<br>Agility | **0**<br>Reason  |               **0**<br>Intuition                |  **+2**<br>Presence   |
 
 > 🏹 **Necrotic Bolt (Signature Ability)**
@@ -13069,7 +13069,7 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 |             Human, Humanoid             |         -         |     Level 1      |             Minion Brute              | EV 3 for four minions |
 | :-------------------------------------: | :---------------: | :--------------: | :-----------------------------------: | :-------------------: |
 |             **1M**<br>Size              |  **5**<br>Speed   | **5**<br>Stamina |          **0**<br>Stability           | **2**<br>Free Strike  |
-| **Corruption 1, psychic 1**<br>Immunity | **-**<br>Movement |        -         | **+5 bonus to speed**<br>With Captain |  **-**<br>Weaknesses  |
+| **Corruption 1, psychic 1**<br>Immunity | **-**<br>Movement |        -         | **+5 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |             **+2**<br>Might             | **0**<br>Agility  | **0**<br>Reason  |          **0**<br>Intuition           |   **0**<br>Presence   |
 
 > 🗡 **Halberd (Signature Ability)**
@@ -13095,7 +13095,7 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 |             Human, Humanoid             |         -         |     Level 1      |               Minion Harrier                | EV 3 for four minions |
 | :-------------------------------------: | :---------------: | :--------------: | :-----------------------------------------: | :-------------------: |
 |             **1M**<br>Size              |  **7**<br>Speed   | **4**<br>Stamina |             **0**<br>Stability              | **1**<br>Free Strike  |
-| **Corruption 1, psychic 1**<br>Immunity | **-**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weaknesses  |
+| **Corruption 1, psychic 1**<br>Immunity | **-**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness   |
 |             **0**<br>Might              | **+2**<br>Agility | **0**<br>Reason  |             **0**<br>Intuition              |   **0**<br>Presence   |
 
 > 🗡 **Handaxes (Signature Ability)**
@@ -13121,7 +13121,7 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 |             Human, Humanoid             |         -         |     Level 1      |               Minion Ambusher               | EV 3 for four minions |
 | :-------------------------------------: | :---------------: | :--------------: | :-----------------------------------------: | :-------------------: |
 |             **1M**<br>Size              |  **7**<br>Speed   | **4**<br>Stamina |             **0**<br>Stability              | **2**<br>Free Strike  |
-| **Corruption 1, psychic 1**<br>Immunity | **-**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weaknesses  |
+| **Corruption 1, psychic 1**<br>Immunity | **-**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness   |
 |             **0**<br>Might              | **+2**<br>Agility | **0**<br>Reason  |             **0**<br>Intuition              |  **+1**<br>Presence   |
 
 > ⚔️ **Concealed Dagger (Signature Ability)**
@@ -13147,7 +13147,7 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 |             Human, Humanoid             |         -         |      Level 1      |     Platoon Brute     |         EV 6         |
 | :-------------------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |             **1M**<br>Size              |  **5**<br>Speed   | **40**<br>Stamina |  **0**<br>Stability   | **4**<br>Free Strike |
-| **Corruption 1, psychic 1**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Corruption 1, psychic 1**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |             **+2**<br>Might             | **+1**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
 > 🗡 **Haymaker (Signature Ability)**
@@ -13185,7 +13185,7 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 |             Human, Humanoid             |         -         |      Level 2      |    Platoon Support    |         EV 8         |
 | :-------------------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |             **1M**<br>Size              |  **5**<br>Speed   | **40**<br>Stamina |  **0**<br>Stability   | **4**<br>Free Strike |
-| **Corruption 2, psychic 2**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Corruption 2, psychic 2**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |             **0**<br>Might              | **+1**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
 
 > ⚔️ **Death Scythe (Signature Ability)**
@@ -13219,7 +13219,7 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 |             Human, Humanoid             |         -         |      Level 2      |   Platoon Defender    |         EV 8         |
 | :-------------------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |             **1M**<br>Size              |  **5**<br>Speed   | **50**<br>Stamina |  **0**<br>Stability   | **4**<br>Free Strike |
-| **Corruption 2, psychic 2**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Corruption 2, psychic 2**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |             **+2**<br>Might             | **0**<br>Agility  | **+1**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
 > ⚔️ **Morningstar and Javelin (Signature Ability)**
@@ -13253,7 +13253,7 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 |             Human, Humanoid             |         -         |      Level 1      |   Platoon Ambusher    |         EV 6         |
 | :-------------------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |             **1M**<br>Size              |  **5**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   | **4**<br>Free Strike |
-| **Corruption 1, psychic 1**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Corruption 1, psychic 1**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |             **0**<br>Might              | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
 > 🗡 **Rapier and Dagger (Signature Ability)**
@@ -13287,7 +13287,7 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 |             Human, Humanoid             |         -         |      Level 3      |  Platoon Controller   |        EV 10         |
 | :-------------------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |             **1M**<br>Size              |  **5**<br>Speed   | **40**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-| **Corruption 3, psychic 3**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Corruption 3, psychic 3**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |             **0**<br>Might              | **0**<br>Agility  | **+2**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
 > 🏹 **Lightning Bolt (Signature Ability)**
@@ -13333,7 +13333,7 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 |             Human, Humanoid             |         -         |      Level 1      |   Platoon Artillery   |         EV 6         |
 | :-------------------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |             **1M**<br>Size              |  **5**<br>Speed   | **20**<br>Stamina |  **0**<br>Stability   | **4**<br>Free Strike |
-| **Corruption 1, psychic 1**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Corruption 1, psychic 1**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |             **0**<br>Might              | **+2**<br>Agility |  **0**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
 
 > ⚔️ **Trick Crossbow (Signature Ability)**
@@ -13361,7 +13361,7 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 |             Human, Humanoid             |         -         |      Level 1      |        Leader         |        EV 12         |
 | :-------------------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |             **1M**<br>Size              |  **5**<br>Speed   | **80**<br>Stamina |  **2**<br>Stability   | **4**<br>Free Strike |
-| **Corruption 2, psychic 2**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Corruption 2, psychic 2**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |             **+3**<br>Might             | **+2**<br>Agility | **+2**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
 
 > ❇️ **Zweihander Swing (Signature Ability)**
@@ -13435,7 +13435,7 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 |             Human, Humanoid             |         -         |      Level 3       |        Leader         |        EV 20         |
 | :-------------------------------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |             **1M**<br>Size              |  **5**<br>Speed   | **120**<br>Stamina |  **2**<br>Stability   | **5**<br>Free Strike |
-| **Corruption 4, psychic 4**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Corruption 4, psychic 4**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |             **+2**<br>Might             | **+3**<br>Agility |  **+2**<br>Reason  |  **+3**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🗡 **Whip and Magic Longsword (Signature Ability)**
@@ -13515,7 +13515,7 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 |   Animal, Human   |          -          |      Level 1      |     Platoon Mount     |         EV 6         |
 | :---------------: | :-----------------: | :---------------: | :-------------------: | :------------------: |
 |   **2**<br>Size   |   **5**<br>Speed    | **30**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-| **-**<br>Immunity | **Fly**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **Fly**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  |  **+2**<br>Agility  | **-3**<br>Reason  |  **+1**<br>Intuition  |  **-2**<br>Presence  |
 
 > 🗡 **Talons (Signature Ability)**
@@ -13613,7 +13613,7 @@ At the start of a kingfissure worm's turn or when an action's trigger occurs, yo
 |    Beast, Worm    |           -            |      Level 7       |         Solo          |        EV 108        |
 | :---------------: | :--------------------: | :----------------: | :-------------------: | :------------------: |
 |   **5**<br>Size   |    **10**<br>Speed     | **420**<br>Stamina |  **5**<br>Stability   | **8**<br>Free Strike |
-| **-**<br>Immunity | **Burrow**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **Burrow**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+5**<br>Might  |   **+1**<br>Agility    |  **-5**<br>Reason  |  **+2**<br>Intuition  |  **-3**<br>Presence  |
 
 > ☠️ **Solo Monster**
@@ -13791,7 +13791,7 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 | Humanoid, Kobold  |         -         |     Level 1      |             Minion Support              | EV 3 for four minions |
 | :---------------: | :---------------: | :--------------: | :-------------------------------------: | :-------------------: |
 |  **1S**<br>Size   |  **5**<br>Speed   | **4**<br>Stamina |           **0**<br>Stability            | **1**<br>Free Strike  |
-| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to Stamina**<br>With Captain |  **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to Stamina**<br>With Captain |   **-**<br>Weakness   |
 |  **0**<br>Might   | **+2**<br>Agility | **0**<br>Reason  |           **0**<br>Intuition            |   **0**<br>Presence   |
 
 > 🗡 **Hasta (Signature Ability)**
@@ -13817,7 +13817,7 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 | Humanoid, Kobold  |         -         |     Level 1      |                Minion Artillery                 | EV 3 for four minions |
 | :---------------: | :---------------: | :--------------: | :---------------------------------------------: | :-------------------: |
 |  **1S**<br>Size   |  **5**<br>Speed   | **3**<br>Stamina |               **0**<br>Stability                | **2**<br>Free Strike  |
-| **-**<br>Immunity | **-**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |  **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |   **-**<br>Weakness   |
 |  **0**<br>Might   | **+2**<br>Agility | **0**<br>Reason  |               **0**<br>Intuition                |   **0**<br>Presence   |
 
 > 🏹 **Composite Bow (Signature Ability)**
@@ -13843,7 +13843,7 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 | Humanoid, Kobold  |         -         |     Level 1      |            Minion Defender            | EV 3 for four minions |
 | :---------------: | :---------------: | :--------------: | :-----------------------------------: | :-------------------: |
 |  **1S**<br>Size   |  **5**<br>Speed   | **5**<br>Stamina |          **0**<br>Stability           | **1**<br>Free Strike  |
-| **-**<br>Immunity | **-**<br>Movement |        -         | **+1 bonus to speed**<br>With Captain |  **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |        -         | **+1 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |  **0**<br>Might   | **+2**<br>Agility | **0**<br>Reason  |          **0**<br>Intuition           |   **0**<br>Presence   |
 
 > 🗡 **Pugio (Signature Ability)**
@@ -13869,7 +13869,7 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 | Humanoid, Kobold  |         -         |     Level 1      |            Minion Harrier             | EV 3 for four minions |
 | :---------------: | :---------------: | :--------------: | :-----------------------------------: | :-------------------: |
 |  **1S**<br>Size   |  **6**<br>Speed   | **4**<br>Stamina |          **0**<br>Stability           | **1**<br>Free Strike  |
-| **-**<br>Immunity | **-**<br>Movement |        -         | **+1 bonus to speed**<br>With Captain |  **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |        -         | **+1 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |  **0**<br>Might   | **+2**<br>Agility | **0**<br>Reason  |          **0**<br>Intuition           |   **0**<br>Presence   |
 
 > ⚔️ **Pilium (Signature Ability)**
@@ -13895,7 +13895,7 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 | Humanoid, Kobold  |         -         |      Level 1      |    Horde Artillery    |         EV 3         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1S**<br>Size   |  **5**<br>Speed   | **10**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **+1**<br>Agility | **+2**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
 > 🏹 **Shocking Bolt (Signature Ability)**
@@ -13935,7 +13935,7 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 | Humanoid, Kobold  |         -         |      Level 1      |   Horde Controller    |         EV 3         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1S**<br>Size   |  **5**<br>Speed   | **10**<br>Stamina |  **0**<br>Stability   | **1**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **+2**<br>Agility | **+1**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
 > 🏹 **Chain Hook (Signature Ability)**
@@ -13971,7 +13971,7 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 | Humanoid, Kobold  |         -         |      Level 1      |    Horde Defender     |         EV 3         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1S**<br>Size   |  **5**<br>Speed   | **20**<br>Stamina |  **0**<br>Stability   | **1**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+1**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
 > 🗡 **Gladius (Signature Ability)**
@@ -14009,7 +14009,7 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 | Humanoid, Kobold  |         -         |      Level 1      |     Horde Support     |         EV 3         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1S**<br>Size   |  **5**<br>Speed   | **15**<br>Stamina |  **0**<br>Stability   | **1**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **+1**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
 
 > 🗡 **Signum (Signature Ability)**
@@ -14049,7 +14049,7 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 | Humanoid, Kobold  |         -         |      Level 1      |    Horde Ambusher     |         EV 3         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1S**<br>Size   |  **5**<br>Speed   | **15**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
 > 🗡 **Dolabra and Net (Signature Ability)**
@@ -14083,7 +14083,7 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 | Kobold, Ooze, Soulless |         -         |      Level 1      |      Elite Hexer      |        EV 12         |
 | :--------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |     **2**<br>Size      |  **5**<br>Speed   | **40**<br>Stamina |  **2**<br>Stability   | **4**<br>Free Strike |
-| **Acid 3**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Acid 3**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |    **+2**<br>Might     | **-1**<br>Agility | **-3**<br>Reason  |  **0**<br>Intuition   |  **-2**<br>Presence  |
 
 > 🗡 **Engulf (Signature Ability)**
@@ -14121,7 +14121,7 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 | Kobold, Humanoid  |         -         |      Level 1      |        Leader         |        EV 12         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1S**<br>Size   |  **5**<br>Speed   | **80**<br>Stamina |  **2**<br>Stability   | **2**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+3**<br>Agility | **+2**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
 
 > ⚔️ **Pilum (Signature Ability)**
@@ -14197,7 +14197,7 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 |   Kobold, Beast    |           -            |      Level 1      |      Elite Brute      |        EV 12         |
 | :----------------: | :--------------------: | :---------------: | :-------------------: | :------------------: |
 | **2 or 3**<br>Size |     **7**<br>Speed     | **80**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity  | **Burrow**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity  | **Burrow**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might   |   **+1**<br>Agility    | **-3**<br>Reason  |  **0**<br>Intuition   |  **-2**<br>Presence  |
 
 > 🗡 **Fiery Claws (Signature Ability)**
@@ -14285,7 +14285,7 @@ At the start of any lightbender's turn, you can spend Malice to activate one of 
 | Beast, Lightbender |         -         |      Level 3       |    Elite Ambusher     |        EV 20         |
 | :----------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |   **2**<br>Size    |  **10**<br>Speed  | **100**<br>Stamina |  **1**<br>Stability   | **6**<br>Free Strike |
-| **-**<br>Immunity  | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity  | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might   | **+1**<br>Agility |  **-3**<br>Reason  |  **+1**<br>Intuition  |  **-1**<br>Presence  |
 
 > 🗡 **Flash Swipe (Signature Ability)**
@@ -14349,7 +14349,7 @@ At the start of any lightbender's turn, you can spend Malice to activate one of 
 | Beast, Lightbender |         -         |      Level 3       |     Elite Harrier     |        EV 20         |
 | :----------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |   **2**<br>Size    |  **10**<br>Speed  | **100**<br>Stamina |  **1**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity  | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity  | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might   | **+1**<br>Agility |  **-3**<br>Reason  |  **+1**<br>Intuition  |  **-1**<br>Presence  |
 
 > 🗡 **Pounce (Signature Ability)**
@@ -14478,7 +14478,7 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 | Humanoid, Lizardfolk |          -           |     Level 1      |            Minion Harrier             | EV 3 for four minions |
 | :------------------: | :------------------: | :--------------: | :-----------------------------------: | :-------------------: |
 |    **1M**<br>Size    |    **6**<br>Speed    | **4**<br>Stamina |          **0**<br>Stability           | **1**<br>Free Strike  |
-|  **-**<br>Immunity   | **Swim**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |  **-**<br>Weaknesses  |
+|  **-**<br>Immunity   | **Swim**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |   **+1**<br>Might    |  **+2**<br>Agility   | **0**<br>Reason  |          **0**<br>Intuition           |   **0**<br>Presence   |
 
 > 🗡 **Snap and Toss (Signature Ability)**
@@ -14502,7 +14502,7 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 | Humanoid, Lizardfolk |          -           |     Level 1      |             Minion Defender             | EV 3 for four minions |
 | :------------------: | :------------------: | :--------------: | :-------------------------------------: | :-------------------: |
 |    **1L**<br>Size    |    **5**<br>Speed    | **6**<br>Stamina |           **1**<br>Stability            | **1**<br>Free Strike  |
-|  **-**<br>Immunity   | **Swim**<br>Movement |        -         | **+2 bonus to Stamina**<br>With Captain |  **-**<br>Weaknesses  |
+|  **-**<br>Immunity   | **Swim**<br>Movement |        -         | **+2 bonus to Stamina**<br>With Captain |   **-**<br>Weakness   |
 |   **+2**<br>Might    |  **+1**<br>Agility   | **0**<br>Reason  |           **0**<br>Intuition            |   **0**<br>Presence   |
 
 > 🗡 **Shield Smash (Signature Ability)**
@@ -14528,7 +14528,7 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 | Humanoid, Lizardfolk |          -           |     Level 1      |            Minion Artillery             | EV 3 for four minions |
 | :------------------: | :------------------: | :--------------: | :-------------------------------------: | :-------------------: |
 |    **1S**<br>Size    |    **5**<br>Speed    | **3**<br>Stamina |           **0**<br>Stability            | **2**<br>Free Strike  |
-|  **-**<br>Immunity   | **Swim**<br>Movement |        -         | **+1 bonus to strikes**<br>With Captain |  **-**<br>Weaknesses  |
+|  **-**<br>Immunity   | **Swim**<br>Movement |        -         | **+1 bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |    **0**<br>Might    |  **+2**<br>Agility   | **0**<br>Reason  |           **+1**<br>Intuition           |   **0**<br>Presence   |
 
 > 🗡 **Tonguelash (Signature Ability)**
@@ -14554,7 +14554,7 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 | Humanoid, Lizardfolk |          -           |      Level 1      |     Platoon Hexer     |         EV 6         |
 | :------------------: | :------------------: | :---------------: | :-------------------: | :------------------: |
 |    **1M**<br>Size    |    **5**<br>Speed    | **20**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-|  **-**<br>Immunity   | **Swim**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **-**<br>Immunity   | **Swim**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |   **+1**<br>Might    |   **1**<br>Agility   | **+0**<br>Reason  |  **+2**<br>Intuition  |  **+0**<br>Presence  |
 
 > 🏹 **Bola Knock (Signature Ability)**
@@ -14590,7 +14590,7 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 | Humanoid, Lizardfolk |          -           |      Level 1      |     Platoon Brute     |         EV 6         |
 | :------------------: | :------------------: | :---------------: | :-------------------: | :------------------: |
 |    **1M**<br>Size    |    **5**<br>Speed    | **46**<br>Stamina |  **0**<br>Stability   | **4**<br>Free Strike |
-|  **-**<br>Immunity   | **Swim**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **-**<br>Immunity   | **Swim**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |   **+2**<br>Might    |  **+1**<br>Agility   |  **0**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
 > 🗡 **Razor Bite (Signature Ability)**
@@ -14628,7 +14628,7 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 | Humanoid, Lizardfolk |          -           |      Level 1      |    Platoon Harrier    |         EV 6         |
 | :------------------: | :------------------: | :---------------: | :-------------------: | :------------------: |
 |    **1S**<br>Size    |    **7**<br>Speed    | **30**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-|  **-**<br>Immunity   | **Swim**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **-**<br>Immunity   | **Swim**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |   **+1**<br>Might    |  **+2**<br>Agility   |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
 > 🗡 **Glaive Rush (Signature Ability)**
@@ -14672,7 +14672,7 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 | Humanoid, Lizardfolk |              -              |      Level 1      |        Leader         |        EV 12         |
 | :------------------: | :-------------------------: | :---------------: | :-------------------: | :------------------: |
 |    **2**<br>Size     |       **5**<br>Speed        | **80**<br>Stamina |  **2**<br>Stability   | **4**<br>Free Strike |
-|  **-**<br>Immunity   | **Climb, swim**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **-**<br>Immunity   | **Climb, swim**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |   **+3**<br>Might    |      **+2**<br>Agility      |  **0**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🗡 **Ripper Spear (Signature Ability)**
@@ -14798,7 +14798,7 @@ At the start of any manticore's turn, you can spend Malice to activate one of th
 | Beast, Manticore  |          -          |      Level 4       |         Solo          |        EV 72         |
 | :---------------: | :-----------------: | :----------------: | :-------------------: | :------------------: |
 |   **2**<br>Size   |   **10**<br>Speed   | **350**<br>Stamina |  **2**<br>Stability   | **6**<br>Free Strike |
-| **-**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+4**<br>Might  |  **+3**<br>Agility  |  **0**<br>Reason   |  **0**<br>Intuition   |  **-1**<br>Presence  |
 
 > ☠️ **Solo Monster**
@@ -14992,7 +14992,7 @@ At the start of a medusa's turn, you can spend Malice to activate one of the fol
 | Accursed, Humanoid, Medusa |         -         |      Level 5       |         Solo          |        EV 84         |
 | :------------------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |       **1M**<br>Size       |  **10**<br>Speed  | **420**<br>Stamina |  **5**<br>Stability   | **8**<br>Free Strike |
-|     **-**<br>Immunity      | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|     **-**<br>Immunity      | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **+2**<br>Might       | **+4**<br>Agility |  **0**<br>Reason   |  **0**<br>Intuition   |  **0**<br>Presence   |
 
 > ☠️ **Solo Monster**
@@ -15148,7 +15148,7 @@ At the start of any minotaur's turn, you can spend Malice to activate one of the
 | Accursed, Humanoid, Minotaur |         -         |      Level 3       |     Elite Harrier     |        EV 20         |
 | :--------------------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |        **2**<br>Size         |  **8**<br>Speed   | **100**<br>Stamina |  **2**<br>Stability   | **5**<br>Free Strike |
-|      **-**<br>Immunity       | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|      **-**<br>Immunity       | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+2**<br>Might        | **+2**<br>Agility |  **0**<br>Reason   |  **+1**<br>Intuition  |  **-1**<br>Presence  |
 
 > 🗡 **Flail and Blade (Signature Ability)**
@@ -15206,7 +15206,7 @@ At the start of any minotaur's turn, you can spend Malice to activate one of the
 | Accursed, Humanoid, Minotaur |         -         |      Level 3       |      Elite Brute      |        EV 20         |
 | :--------------------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |        **2**<br>Size         |  **6**<br>Speed   | **120**<br>Stamina |  **2**<br>Stability   | **6**<br>Free Strike |
-|      **-**<br>Immunity       | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|      **-**<br>Immunity       | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+2**<br>Might        | **+1**<br>Agility |  **0**<br>Reason   |  **+2**<br>Intuition  |  **-1**<br>Presence  |
 
 > 🗡 **Spiked Maul (Signature Ability)**
@@ -15272,7 +15272,7 @@ At the start of any minotaur's turn, you can spend Malice to activate one of the
 | Accursed, Humanoid, Minotaur |         -         |      Level 8      |                  Minion Brute                  | EV 10 for four minions |
 | :--------------------------: | :---------------: | :---------------: | :--------------------------------------------: | :--------------------: |
 |        **2**<br>Size         |  **6**<br>Speed   | **14**<br>Stamina |               **2**<br>Stability               |  **4**<br>Free Strike  |
-|      **-**<br>Immunity       | **-**<br>Movement |         -         | **+3 damage bonus to strikes**<br>With Captain |  **-**<br>Weaknesses   |
+|      **-**<br>Immunity       | **-**<br>Movement |         -         | **+3 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness    |
 |       **+4**<br>Might        | **+2**<br>Agility |  **0**<br>Reason  |              **+3**<br>Intuition               |   **-1**<br>Presence   |
 
 > ⚔️ **Javelin and Bellow (Signature Ability)**
@@ -15296,7 +15296,7 @@ At the start of any minotaur's turn, you can spend Malice to activate one of the
 | Accursed, Humanoid, Minotaur |         -         |      Level 8      |            Minion Harrier             | EV 10 for four minions |
 | :--------------------------: | :---------------: | :---------------: | :-----------------------------------: | :--------------------: |
 |        **2**<br>Size         |  **8**<br>Speed   | **13**<br>Stamina |          **2**<br>Stability           |  **3**<br>Free Strike  |
-|      **-**<br>Immunity       | **-**<br>Movement |         -         | **+2 bonus to speed**<br>With Captain |  **-**<br>Weaknesses   |
+|      **-**<br>Immunity       | **-**<br>Movement |         -         | **+2 bonus to speed**<br>With Captain |   **-**<br>Weakness    |
 |       **+3**<br>Might        | **+4**<br>Agility |  **0**<br>Reason  |          **+1**<br>Intuition          |   **-1**<br>Presence   |
 
 > 🗡 **Horn Vault (Signature Ability)**
@@ -15322,7 +15322,7 @@ At the start of any minotaur's turn, you can spend Malice to activate one of the
 | Accursed, Humanoid, Minotaur, Swarm |         -         |     Level 10      |               Minion Defender               | EV 12 for four minions |
 | :---------------------------------: | :---------------: | :---------------: | :-----------------------------------------: | :--------------------: |
 |            **4**<br>Size            |  **8**<br>Speed   | **17**<br>Stamina |             **2**<br>Stability              |  **4**<br>Free Strike  |
-|          **-**<br>Immunity          | **-**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weaknesses   |
+|          **-**<br>Immunity          | **-**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness    |
 |           **+5**<br>Might           | **+5**<br>Agility |  **0**<br>Reason  |             **+2**<br>Intuition             |   **-1**<br>Presence   |
 
 > 🗡 **Bull Rush (Signature Ability)**
@@ -15396,7 +15396,7 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 |    Giant, Ogre    |         -         |      Level 2       |      Elite Brute      |        EV 16         |
 | :---------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |   **2**<br>Size   |  **5**<br>Speed   | **100**<br>Stamina |  **4**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **0**<br>Agility  |  **-1**<br>Reason  |  **0**<br>Intuition   |  **-1**<br>Presence  |
 
 > 🗡 **Club Swing (Signature Ability)**
@@ -15460,7 +15460,7 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 |    Giant, Ogre    |         -         |      Level 2      |     Elite Harrier     |        EV 16         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |   **2**<br>Size   |  **6**<br>Speed   | **80**<br>Stamina |  **2**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+1**<br>Agility | **-1**<br>Reason  |  **0**<br>Intuition   |  **-1**<br>Presence  |
 
 > 🗡 **Pitchfork Catapult (Signature Ability)**
@@ -15538,7 +15538,7 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 |    Giant, Ogre    |         -         |     Level 10      |           Minion Controller           | EV 12 for four minions |
 | :---------------: | :---------------: | :---------------: | :-----------------------------------: | :--------------------: |
 |   **3**<br>Size   |  **6**<br>Speed   | **14**<br>Stamina |          **5**<br>Stability           |  **4**<br>Free Strike  |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **+4 bonus to speed**<br>With Captain |  **-**<br>Weaknesses   |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **+4 bonus to speed**<br>With Captain |   **-**<br>Weakness    |
 |  **+5**<br>Might  | **-1**<br>Agility | **-1**<br>Reason  |          **+3**<br>Intuition          |   **-1**<br>Presence   |
 
 > ❇️ **Wild Slam (Signature Ability)**
@@ -15564,7 +15564,7 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 |    Giant, Ogre    |         -         |      Level 7      |                Minion Brute                 | EV 9 for four minions |
 | :---------------: | :---------------: | :---------------: | :-----------------------------------------: | :-------------------: |
 |   **2**<br>Size   |  **5**<br>Speed   | **13**<br>Stamina |             **4**<br>Stability              | **4**<br>Free Strike  |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness   |
 |  **+4**<br>Might  | **+1**<br>Agility | **-1**<br>Reason  |             **0**<br>Intuition              |  **+2**<br>Presence   |
 
 > 🗡 **Crush Underfoot (Signature Ability)**
@@ -15594,7 +15594,7 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 |    Giant, Ogre    |         -         |      Level 7      |                Minion Artillery                 | EV 9 for four minions |
 | :---------------: | :---------------: | :---------------: | :---------------------------------------------: | :-------------------: |
 |   **2**<br>Size   |  **5**<br>Speed   | **10**<br>Stamina |               **2**<br>Stability                | **4**<br>Free Strike  |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **+5 bonus to ranged distance**<br>With Captain |  **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **+5 bonus to ranged distance**<br>With Captain |   **-**<br>Weakness   |
 |  **+4**<br>Might  | **+2**<br>Agility | **-1**<br>Reason  |               **0**<br>Intuition                |  **-1**<br>Presence   |
 
 > 🏹 **Throw Fit (Signature Ability)**
@@ -15686,7 +15686,7 @@ At the start of an olothec's turn, you can spend Malice to activate one of the f
 |      Horror, Olothec      |             -             |      Level 6       |         Solo          |        EV 84         |
 | :-----------------------: | :-----------------------: | :----------------: | :-------------------: | :------------------: |
 |       **2**<br>Size       |      **7**<br>Speed       | **450**<br>Stamina |  **0**<br>Stability   | **7**<br>Free Strike |
-| **Psychic 6**<br>Immunity | **Fly, swim**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Psychic 6**<br>Immunity | **Fly, swim**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **+4**<br>Might      |     **-1**<br>Agility     |  **+4**<br>Reason  |  **+2**<br>Intuition  |  **+3**<br>Presence  |
 
 > ☠️ **Solo Monster**
@@ -15870,7 +15870,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 |    Animal, Orc    |           -            |     Level 1      |            Minion Ambusher            | EV 3 for four minions |
 | :---------------: | :--------------------: | :--------------: | :-----------------------------------: | :-------------------: |
 |  **1S**<br>Size   |     **7**<br>Speed     | **4**<br>Stamina |          **1**<br>Stability           | **2**<br>Free Strike  |
-| **-**<br>Immunity | **Burrow**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |  **-**<br>Weaknesses  |
+| **-**<br>Immunity | **Burrow**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |  **+0**<br>Might  |   **+2**<br>Agility    | **-4**<br>Reason |          **+1**<br>Intuition          |  **-3**<br>Presence   |
 
 > 🗡 **Earth Bump (Signature Ability)**
@@ -15900,7 +15900,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 |   Humanoid, Orc   |         -         |     Level 1      |            Minion Harrier             | EV 3 for four minions |
 | :---------------: | :---------------: | :--------------: | :-----------------------------------: | :-------------------: |
 |  **1M**<br>Size   |  **7**<br>Speed   | **4**<br>Stamina |          **0**<br>Stability           | **1**<br>Free Strike  |
-| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |  **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |  **+1**<br>Might  | **+2**<br>Agility | **0**<br>Reason  |          **0**<br>Intuition           |   **0**<br>Presence   |
 
 > 🗡 **Lugged Spear (Signature Ability)**
@@ -15926,7 +15926,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 |   Humanoid, Orc   |         -         |     Level 1      |                     Minion Artillery                     | EV 3 for four minions |
 | :---------------: | :---------------: | :--------------: | :------------------------------------------------------: | :-------------------: |
 |  **1M**<br>Size   |  **6**<br>Speed   | **3**<br>Stamina |                    **0**<br>Stability                    | **2**<br>Free Strike  |
-| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to forced movement distance**<br>With Captain |  **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to forced movement distance**<br>With Captain |   **-**<br>Weakness   |
 |  **0**<br>Might   | **+1**<br>Agility | **0**<br>Reason  |                    **0**<br>Intuition                    |  **+2**<br>Presence   |
 
 > 🏹 **Explosive Mote (Signature Ability)**
@@ -15950,7 +15950,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 |   Humanoid, Orc   |         -         |     Level 1      |                Minion Controller                | EV 3 for four minions |
 | :---------------: | :---------------: | :--------------: | :---------------------------------------------: | :-------------------: |
 |  **1M**<br>Size   |  **6**<br>Speed   | **3**<br>Stamina |               **0**<br>Stability                | **1**<br>Free Strike  |
-| **-**<br>Immunity | **-**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |  **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |   **-**<br>Weakness   |
 |  **0**<br>Might   | **+1**<br>Agility | **0**<br>Reason  |               **0**<br>Intuition                |  **+2**<br>Presence   |
 
 > ⚔️ **Call to Victory (Signature Ability)**
@@ -15976,7 +15976,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 |   Humanoid, Orc   |         -         |     Level 1      |                  Minion Brute                  | EV 3 for four minions |
 | :---------------: | :---------------: | :--------------: | :--------------------------------------------: | :-------------------: |
 |  **1L**<br>Size   |  **6**<br>Speed   | **5**<br>Stamina |               **0**<br>Stability               | **2**<br>Free Strike  |
-| **-**<br>Immunity | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |  **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |  **+2**<br>Might  | **+1**<br>Agility | **0**<br>Reason  |               **0**<br>Intuition               |   **0**<br>Presence   |
 
 > 🏹 **Boot and Blade (Signature Ability)**
@@ -16002,7 +16002,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 |   Humanoid, Orc   |         -         |      Level 3      |    Platoon Harrier    |        EV 10         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **8**<br>Speed   | **50**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |  **+1**<br>Intuition  |  **+1**<br>Presence  |
 
 > 🗡 **Shield Bash (Signature Ability)**
@@ -16034,7 +16034,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 |   Humanoid, Orc   |         -         |      Level 1      |     Platoon Hexer     |         EV 6         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1L**<br>Size   |  **5**<br>Speed   | **20**<br>Stamina |  **2**<br>Stability   | **3**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+2**<br>Agility | **+1**<br>Reason  |  **+0**<br>Intuition  |  **+0**<br>Presence  |
 
 > 🗡 **Hook and Chain (Signature Ability)**
@@ -16076,7 +16076,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 |              Humanoid, Orc               |         -         |      Level 1      |   Platoon Artillery   |         EV 6         |
 | :--------------------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |              **1M**<br>Size              |  **6**<br>Speed   | **20**<br>Stamina |  **0**<br>Stability   | **4**<br>Free Strike |
-| **Cold, fire, or lightning**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Cold, fire, or lightning**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |             **+1**<br>Might              | **+1**<br>Agility | **+0**<br>Reason  |  **+0**<br>Intuition  |  **-2**<br>Presence  |
 
 > ⭐️ **Elemental Affinity**
@@ -16120,7 +16120,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 |   Humanoid, Orc   |         -         |      Level 1      |   Platoon Ambusher    |         EV 6         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1L**<br>Size   |  **5**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   | **4**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+1**<br>Might  | **+2**<br>Agility | **+0**<br>Reason  |  **+1**<br>Intuition  |  **-1**<br>Presence  |
 
 > 🗡 **Dagger Feint (Signature Ability)**
@@ -16168,7 +16168,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 |   Humanoid, Orc   |         -         |      Level 1      |    Platoon Support    |         EV 6         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **6**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+1**<br>Might  | **+0**<br>Agility | **+0**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
 > ⚔️ **Power Chord (Signature Ability)**
@@ -16210,7 +16210,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 |   Humanoid, Orc   |         -         |      Level 3      |     Platoon Brute     |        EV 10         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1L**<br>Size   |  **6**<br>Speed   | **60**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+2**<br>Agility | **-1**<br>Reason  |  **-1**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🗡 **Haymaker Greataxe (Signature Ability)**
@@ -16250,7 +16250,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 |   Humanoid, Orc   |         -         |      Level 2      |   Platoon Defender    |         EV 8         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1L**<br>Size   |  **6**<br>Speed   | **59**<br>Stamina |  **2**<br>Stability   | **4**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+2**<br>Agility | **+2**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🗡 **My Spear, My Foe (Signature Ability)**
@@ -16294,7 +16294,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 |   Humanoid, Orc   |           -            |      Level 2      |  Platoon Controller   |         EV 8         |
 | :---------------: | :--------------------: | :---------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |     **6**<br>Speed     | **30**<br>Stamina |  **2**<br>Stability   | **4**<br>Free Strike |
-| **-**<br>Immunity | **Burrow**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **Burrow**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+1**<br>Might  |   **+1**<br>Agility    | **+0**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🏹 **Earth Pillar (Signature Ability)**
@@ -16338,7 +16338,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 |   Humanoid, Orc   |         -         |      Level 3       |        Leader         |        EV 20         |
 | :---------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **6**<br>Speed   | **120**<br>Stamina |  **2**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+3**<br>Might  | **+2**<br>Agility |  **+1**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🏹 **Go. (Signature Ability)**
@@ -16424,7 +16424,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 |    Animal, Orc    |         -         |      Level 3       |      Elite Mount      |        EV 20         |
 | :---------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |   **4**<br>Size   |  **6**<br>Speed   | **100**<br>Stamina |  **3**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **-1**<br>Agility |  **-4**<br>Reason  |  **+0**<br>Intuition  |  **-1**<br>Presence  |
 
 > 🗡 **Clawed Kick (Signature Ability)**
@@ -16560,7 +16560,7 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 | Humanoid, Radenwight |           -           |     Level 1      |                Minion Ambusher                 |  EV 3 for 4 minions  |
 | :------------------: | :-------------------: | :--------------: | :--------------------------------------------: | :------------------: |
 |    **1S**<br>Size    |    **7**<br>Speed     | **4**<br>Stamina |               **0**<br>Stability               | **2**<br>Free Strike |
-|  **-**<br>Immunity   | **Climb**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain | **-**<br>Weaknesses  |
+|  **-**<br>Immunity   | **Climb**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |  **-**<br>Weakness   |
 |   **-1**<br>Might    |   **+2**<br>Agility   | **0**<br>Reason  |              **+1**<br>Intuition               |  **0**<br>Presence   |
 
 > ⚔️ **Dagger Dance (Signature Ability)**
@@ -16592,7 +16592,7 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 | Humanoid, Radenwight |           -           |     Level 1      |              Minion Artillery               |  EV 3 for 4 minions  |
 | :------------------: | :-------------------: | :--------------: | :-----------------------------------------: | :------------------: |
 |    **1S**<br>Size    |    **5**<br>Speed     | **3**<br>Stamina |             **0**<br>Stability              | **2**<br>Free Strike |
-|  **-**<br>Immunity   | **Climb**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain | **-**<br>Weaknesses  |
+|  **-**<br>Immunity   | **Climb**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weakness   |
 |   **+1**<br>Might    |   **+2**<br>Agility   | **-1**<br>Reason |             **0**<br>Intuition              |  **0**<br>Presence   |
 
 > 🏹 **Eyes-On-Me-Shot (Signature Ability)**
@@ -16622,7 +16622,7 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 | Humanoid, Radenwight |           -           |     Level 1      |                Minion Defender                 |  EV 3 for 4 minions  |
 | :------------------: | :-------------------: | :--------------: | :--------------------------------------------: | :------------------: |
 |    **1S**<br>Size    |    **5**<br>Speed     | **5**<br>Stamina |               **1**<br>Stability               | **1**<br>Free Strike |
-|  **-**<br>Immunity   | **Climb**<br>Movement |        -         | **+2 bonus to melee distance**<br>With Captain | **-**<br>Weaknesses  |
+|  **-**<br>Immunity   | **Climb**<br>Movement |        -         | **+2 bonus to melee distance**<br>With Captain |  **-**<br>Weakness   |
 |   **-1**<br>Might    |   **+1**<br>Agility   | **0**<br>Reason  |               **0**<br>Intuition               |  **+2**<br>Presence  |
 
 > 🗡 **Buckler Bash (Signature Ability)**
@@ -16652,7 +16652,7 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 | Humanoid, Radenwight |           -           |     Level 1      |               Minion Harrier                |  EV 3 for 4 minions  |
 | :------------------: | :-------------------: | :--------------: | :-----------------------------------------: | :------------------: |
 |    **1S**<br>Size    |    **7**<br>Speed     | **4**<br>Stamina |             **0**<br>Stability              | **1**<br>Free Strike |
-|  **-**<br>Immunity   | **Climb**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain | **-**<br>Weaknesses  |
+|  **-**<br>Immunity   | **Climb**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weakness   |
 |    **0**<br>Might    |   **+2**<br>Agility   | **+1**<br>Reason |             **0**<br>Intuition              |  **-1**<br>Presence  |
 
 > 🗡 **Rapier Flunge (Signature Ability)**
@@ -16682,7 +16682,7 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 | Humanoid, Radenwight |           -           |      Level 1      |     Platoon Brute     |         EV 6         |
 | :------------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |    **1L**<br>Size    |    **5**<br>Speed     | **40**<br>Stamina |  **2**<br>Stability   | **4**<br>Free Strike |
-|  **-**<br>Immunity   | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **-**<br>Immunity   | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |   **+2**<br>Might    |   **+1**<br>Agility   | **-1**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
 > 🗡 **Lockjaw (Signature Ability)**
@@ -16730,7 +16730,7 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 | Humanoid, Radenwight |           -           |      Level 1      |    Platoon Support    |         EV 6         |
 | :------------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |    **1S**<br>Size    |    **5**<br>Speed     | **30**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-|  **-**<br>Immunity   | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **-**<br>Immunity   | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |    **0**<br>Might    |   **0**<br>Agility    |  **0**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
 
 > ⚔️ **Piercing Trill (Signature Ability)**
@@ -16776,7 +16776,7 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 | Humanoid, Radenwight |           -           |      Level 1      |    Platoon Harrier    |         EV 6         |
 | :------------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |    **1S**<br>Size    |    **7**<br>Speed     | **30**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-|  **-**<br>Immunity   | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **-**<br>Immunity   | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |   **-1**<br>Might    |   **+2**<br>Agility   |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
 > 🗡 **En Garde (Signature Ability)**
@@ -16820,7 +16820,7 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 | Humanoid, Radenwight |           -           |      Level 1      |        Leader         |        EV 12         |
 | :------------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |    **1S**<br>Size    |    **5**<br>Speed     | **80**<br>Stamina |  **1**<br>Stability   | **4**<br>Free Strike |
-|  **-**<br>Immunity   | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **-**<br>Immunity   | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |   **-2**<br>Might    |   **+2**<br>Agility   |  **0**<br>Reason  |  **0**<br>Intuition   |  **+3**<br>Presence  |
 
 > ❇️ **Cacophony (Signature Ability)**
@@ -16997,7 +16997,7 @@ It's possible that these rivals gained a head start on their adventures and will
 |  Humanoid, Rival  |         -         |      Level 2      |     Elite Support     |        EV 16         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **80**<br>Stamina |  **1**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+1**<br>Might  | **+0**<br>Agility | **+0**<br>Reason  |  **+2**<br>Intuition  |  **+0**<br>Presence  |
 
 > ⚔️ **Thunder of Heavens (Signature Ability)**
@@ -17035,7 +17035,7 @@ It's possible that these rivals gained a head start on their adventures and will
 |  Humanoid, Rival  |         -         |      Level 2      |   Elite Controller    |        EV 16         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **60**<br>Stamina |  **1**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+0**<br>Might  | **+0**<br>Agility | **+2**<br>Reason  |  **+1**<br>Intuition  |  **+0**<br>Presence  |
 
 > 🏹 **The Writhing Green (Signature Ability)**
@@ -17083,7 +17083,7 @@ It's possible that these rivals gained a head start on their adventures and will
 |  Humanoid, Rival  |         -         |      Level 2       |      Elite Brute      |        EV 16         |
 | :---------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **100**<br>Stamina |  **3**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+1**<br>Agility |  **0**<br>Reason   |  **0**<br>Intuition   |  **0**<br>Presence   |
 
 > 🗡 **Brutal Impact (Signature Ability)**
@@ -17127,7 +17127,7 @@ It's possible that these rivals gained a head start on their adventures and will
 |  Humanoid, Rival  |         -         |      Level 2      |     Elite Harrier     |        EV 16         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **7**<br>Speed   | **80**<br>Stamina |  **3**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **+2**<br>Agility | **+1**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
 
 > 🗡 **Nimble Step (Signature Ability)**
@@ -17167,7 +17167,7 @@ It's possible that these rivals gained a head start on their adventures and will
 |  Humanoid, Rival  |         -         |      Level 2      |    Elite Ambusher     |        EV 16         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **7**<br>Speed   | **80**<br>Stamina |  **1**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
 > 🗡 **Swift Serration (Signature Ability)**
@@ -17223,7 +17223,7 @@ It's possible that these rivals gained a head start on their adventures and will
 |  Humanoid, Rival  |         -         |      Level 2      |    Elite Artillery    |        EV 16         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **60**<br>Stamina |  **2**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **0**<br>Agility  | **+1**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
 > 🏹 **Dual Targeting Shot (Signature Ability)**
@@ -17273,7 +17273,7 @@ It's possible that these rivals gained a head start on their adventures and will
 |  Humanoid, Rival  |         -         |      Level 2      |      Elite Hexer      |        EV 16         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **60**<br>Stamina |  **2**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **0**<br>Agility  | **+2**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
 > 🏹 **Reverberating Blast (Signature Ability)**
@@ -17323,7 +17323,7 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 |  Humanoid, Rival  |         -         |      Level 5       |     Elite Support     |        EV 28         |
 | :---------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **140**<br>Stamina |  **1**<br>Stability   | **6**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **0**<br>Agility  |  **0**<br>Reason   |  **+3**<br>Intuition  |  **+1**<br>Presence  |
 
 > ⚔️ **Raging Tempest (Signature Ability)**
@@ -17361,7 +17361,7 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 |  Humanoid, Rival  |         -         |      Level 5       |   Elite Controller    |        EV 28         |
 | :---------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **120**<br>Stamina |  **1**<br>Stability   | **6**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **+2**<br>Agility |  **+3**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
 
 > 🏹 **The Thriving Wilds (Signature Ability)**
@@ -17409,7 +17409,7 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 |  Humanoid, Rival  |         -         |      Level 5       |      Elite Brute      |        EV 28         |
 | :---------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **160**<br>Stamina |  **3**<br>Stability   | **7**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+3**<br>Might  | **+2**<br>Agility |  **0**<br>Reason   |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
 > 🗡 **Thunderous Slam (Signature Ability)**
@@ -17453,7 +17453,7 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 |  Humanoid, Rival  |         -         |      Level 5       |     Elite Harrier     |        EV 28         |
 | :---------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **7**<br>Speed   | **140**<br>Stamina |  **3**<br>Stability   | **6**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **+3**<br>Agility |  **+2**<br>Reason  |  **+3**<br>Intuition  |  **0**<br>Presence   |
 
 > 🗡 **Agile Stride (Signature Ability)**
@@ -17493,7 +17493,7 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 |  Humanoid, Rival  |         -         |      Level 5       |    Elite Ambusher     |        EV 28         |
 | :---------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **7**<br>Speed   | **140**<br>Stamina |  **1**<br>Stability   | **7**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **+3**<br>Agility |  **+1**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
 
 > 🗡 **Ambuscade (Signature Ability)**
@@ -17531,7 +17531,7 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 |  Humanoid, Rival  |         -         |      Level 5       |    Elite Artillery    |        EV 28         |
 | :---------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **120**<br>Stamina |  **2**<br>Stability   | **7**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+3**<br>Might  | **0**<br>Agility  |  **+2**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
 > 🏹 **Mark Targets (Signature Ability)**
@@ -17581,7 +17581,7 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 |  Humanoid, Rival  |         -         |      Level 5       |      Elite Hexer      |        EV 28         |
 | :---------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **120**<br>Stamina |  **2**<br>Stability   | **6**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **0**<br>Agility  |  **+3**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
 > 🏹 **Overwhelming Rend (Signature Ability)**
@@ -17655,7 +17655,7 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 |  Humanoid, Rival  |         -         |      Level 8       |     Elite Support     |        EV 40         |
 | :---------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **200**<br>Stamina |  **1**<br>Stability   | **8**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+3**<br>Might  | **0**<br>Agility  |  **+1**<br>Reason  |  **+4**<br>Intuition  |  **+2**<br>Presence  |
 
 > ⚔️ **Celestial Furor (Signature Ability)**
@@ -17693,7 +17693,7 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 |  Humanoid, Rival  |         -         |      Level 8       |   Elite Controller    |        EV 40         |
 | :---------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **180**<br>Stamina |  **1**<br>Stability   | **8**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **+2**<br>Agility |  **+4**<br>Reason  |  **+3**<br>Intuition  |  **0**<br>Presence   |
 
 > 🏹 **Verdant Rains (Signature Ability)**
@@ -17743,7 +17743,7 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 |  Humanoid, Rival  |         -         |      Level 8       |      Elite Brute      |        EV 40         |
 | :---------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **220**<br>Stamina |  **3**<br>Stability   | **9**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+4**<br>Might  | **+3**<br>Agility |  **0**<br>Reason   |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🗡 **Bonebreaker (Signature Ability)**
@@ -17787,7 +17787,7 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 |  Humanoid, Rival  |         -         |      Level 8       |     Elite Harrier     |        EV 40         |
 | :---------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **7**<br>Speed   | **200**<br>Stamina |  **3**<br>Stability   | **8**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+4**<br>Agility |  **+3**<br>Reason  |  **+4**<br>Intuition  |  **0**<br>Presence   |
 
 > 🗡 **Inertial Flow (Signature Ability)**
@@ -17827,7 +17827,7 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 |  Humanoid, Rival  |         -         |      Level 8       |    Elite Ambusher     |        EV 40         |
 | :---------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **7**<br>Speed   | **200**<br>Stamina |  **1**<br>Stability   | **9**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **+4**<br>Agility |  **+2**<br>Reason  |  **0**<br>Intuition   |  **+3**<br>Presence  |
 
 > 🗡 **Assail and Serrate (Signature Ability)**
@@ -17865,7 +17865,7 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 |  Humanoid, Rival  |         -         |      Level 8       |    Elite Artillery    |        EV 40         |
 | :---------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **180**<br>Stamina |  **2**<br>Stability   | **9**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+4**<br>Might  | **+1**<br>Agility |  **+3**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
 
 > 🏹 **Command From the Back (Signature Ability)**
@@ -17915,7 +17915,7 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 |  Humanoid, Rival  |         -         |      Level 8       |      Elite Hexer      |        EV 40         |
 | :---------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **180**<br>Stamina |  **2**<br>Stability   | **8**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **0**<br>Agility  |  **+4**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
 > 🏹 **Control Synapses (Signature Ability)**
@@ -17967,7 +17967,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 |  Humanoid, Rival  |         -         |      Level 10      |     Elite Support     |         EV 48         |
 | :---------------: | :---------------: | :----------------: | :-------------------: | :-------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **240**<br>Stamina |  **1**<br>Stability   | **10**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |  **+4**<br>Might  | **+1**<br>Agility |  **+1**<br>Reason  |  **+5**<br>Intuition  |  **+3**<br>Presence   |
 
 > ⚔️ **Sunder the Very Skies (Signature Ability)**
@@ -18007,7 +18007,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 |  Humanoid, Rival  |         -         |      Level 10      |   Elite Controller    |         EV 48         |
 | :---------------: | :---------------: | :----------------: | :-------------------: | :-------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **220**<br>Stamina |  **1**<br>Stability   | **10**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |  **+1**<br>Might  | **+3**<br>Agility |  **+5**<br>Reason  |  **+4**<br>Intuition  |  **+1**<br>Presence   |
 
 > 🏹 **Viridescent Storm (Signature Ability)**
@@ -18051,7 +18051,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 |  Humanoid, Rival  |         -         |      Level 10      |      Elite Brute      |         EV 48         |
 | :---------------: | :---------------: | :----------------: | :-------------------: | :-------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **260**<br>Stamina |  **3**<br>Stability   | **10**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |  **+5**<br>Might  | **+4**<br>Agility |  **0**<br>Reason   |  **+2**<br>Intuition  |  **+3**<br>Presence   |
 
 > 🗡 **Seismic Crush (Signature Ability)**
@@ -18095,7 +18095,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 |  Humanoid, Rival  |         -         |      Level 10      |     Elite Harrier     |         EV 48         |
 | :---------------: | :---------------: | :----------------: | :-------------------: | :-------------------: |
 |  **1M**<br>Size   |  **7**<br>Speed   | **240**<br>Stamina |  **3**<br>Stability   | **10**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |  **+3**<br>Might  | **+5**<br>Agility |  **+4**<br>Reason  |  **+5**<br>Intuition  |   **0**<br>Presence   |
 
 > 🗡 **Kinetic Danse (Signature Ability)**
@@ -18135,7 +18135,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 |  Humanoid, Rival  |         -         |      Level 10      |    Elite Ambusher     |         EV 48         |
 | :---------------: | :---------------: | :----------------: | :-------------------: | :-------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **240**<br>Stamina |  **1**<br>Stability   | **10**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |  **0**<br>Might   | **+5**<br>Agility |  **+3**<br>Reason  |  **+2**<br>Intuition  |  **+4**<br>Presence   |
 
 > 🗡 **A Hush of Ash (Signature Ability)**
@@ -18173,7 +18173,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 |  Humanoid, Rival  |         -         |      Level 10      |    Elite Artillery    |         EV 48         |
 | :---------------: | :---------------: | :----------------: | :-------------------: | :-------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **220**<br>Stamina |  **2**<br>Stability   | **10**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |  **+5**<br>Might  | **+2**<br>Agility |  **+4**<br>Reason  |  **0**<br>Intuition   |  **+3**<br>Presence   |
 
 > 🏹 **Forward Assault (Signature Ability)**
@@ -18223,7 +18223,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 |  Humanoid, Rival  |         -         |      Level 10      |      Elite Hexer      |         EV 48         |
 | :---------------: | :---------------: | :----------------: | :-------------------: | :-------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **220**<br>Stamina |  **2**<br>Stability   | **10**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |  **0**<br>Might   | **0**<br>Agility  |  **+5**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence   |
 
 > 🏹 **Override (Signature Ability)**
@@ -18336,7 +18336,7 @@ At the start of a shambling mound's turn, you can spend Malice to activate one o
 | Plant, Shambling Mound |         -         |      Level 5       |         Solo          |        EV 84         |
 | :--------------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |     **3**<br>Size      |  **3**<br>Speed   | **400**<br>Stamina |  **5**<br>Stability   | **7**<br>Free Strike |
-|   **-**<br>Immunity    | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|   **-**<br>Immunity    | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |    **+4**<br>Might     | **-1**<br>Agility |  **0**<br>Reason   |  **+1**<br>Intuition  |  **0**<br>Presence   |
 
 > ☠️ **Solo Monster**
@@ -18508,7 +18508,7 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 |   Humanoid, Time Raider   |         -         |     Level 3      |                 Minion Harrier                 | EV 5 for four minions |
 | :-----------------------: | :---------------: | :--------------: | :--------------------------------------------: | :-------------------: |
 |      **1M**<br>Size       |  **7**<br>Speed   | **7**<br>Stamina |               **0**<br>Stability               | **2**<br>Free Strike  |
-| **Psychic 3**<br>Immunity | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |  **-**<br>Weaknesses  |
+| **Psychic 3**<br>Immunity | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |      **+2**<br>Might      | **+2**<br>Agility | **+2**<br>Reason |              **+1**<br>Intuition               |  **-1**<br>Presence   |
 
 > 🗡 **Brutal Flail (Signature Ability)**
@@ -18532,7 +18532,7 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 |   Humanoid, Time Raider   |         -         |     Level 3      |                  Minion Brute                  | EV 5 for four minions |
 | :-----------------------: | :---------------: | :--------------: | :--------------------------------------------: | :-------------------: |
 |      **1M**<br>Size       |  **5**<br>Speed   | **8**<br>Stamina |               **0**<br>Stability               | **3**<br>Free Strike  |
-| **Psychic 3**<br>Immunity | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |  **-**<br>Weaknesses  |
+| **Psychic 3**<br>Immunity | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |      **+2**<br>Might      | **+1**<br>Agility | **+2**<br>Reason |              **+1**<br>Intuition               |  **+1**<br>Presence   |
 
 > 🗡 **Fifth Fist (Signature Ability)**
@@ -18556,7 +18556,7 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 |   Humanoid, Time Raider   |         -         |      Level 3      |   Platoon Defender    |        EV 10         |
 | :-----------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |      **1M**<br>Size       |  **5**<br>Speed   | **60**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-| **Psychic 3**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Psychic 3**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **0**<br>Might       | **+2**<br>Agility | **+2**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
 
 > 🗡 **Serrated Saber (Signature Ability)**
@@ -18600,7 +18600,7 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 |   Humanoid, Time Raider   |         -         |      Level 3      |   Platoon Artillery   |        EV 10         |
 | :-----------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |      **1L**<br>Size       |  **5**<br>Speed   | **40**<br>Stamina |  **3**<br>Stability   | **5**<br>Free Strike |
-| **Psychic 3**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Psychic 3**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **0**<br>Might       | **+2**<br>Agility | **+2**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
 
 > 🔳 **Sunderbuss (Signature Ability)**
@@ -18636,7 +18636,7 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 |   Humanoid, Time Raider   |          -          |      Level 3      |  Platoon Controller   |        EV 10         |
 | :-----------------------: | :-----------------: | :---------------: | :-------------------: | :------------------: |
 |      **1M**<br>Size       |   **5**<br>Speed    | **40**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-| **Psychic 3**<br>Immunity | **Fly**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Psychic 3**<br>Immunity | **Fly**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **0**<br>Might       |  **+2**<br>Agility  | **+2**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🏹 **Blaster Volley (Signature Ability)**
@@ -18670,7 +18670,7 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 |   Humanoid, Time Raider   |         -         |      Level 3      |   Platoon Ambusher    |        EV 10         |
 | :-----------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |      **1M**<br>Size       |  **6**<br>Speed   | **50**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-| **Psychic 3**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Psychic 3**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **0**<br>Might       | **+2**<br>Agility | **+2**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
 
 > 🗡 **Golden Sickles (Signature Ability)**
@@ -18704,7 +18704,7 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 |   Humanoid, Time Raider   |         -         |      Level 3      |     Platoon Hexer     |        EV 10         |
 | :-----------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |       **2**<br>Size       |  **5**<br>Speed   | **40**<br>Stamina |  **2**<br>Stability   | **5**<br>Free Strike |
-| **Psychic 3**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Psychic 3**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **+2**<br>Might      | **0**<br>Agility  | **+2**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
 
 > 🗡 **Repelling Psihander (Signature Ability)**
@@ -18742,7 +18742,7 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 |   Humanoid, Time Raider   |          -          |      Level 3      |    Platoon Harrier    |        EV 10         |
 | :-----------------------: | :-----------------: | :---------------: | :-------------------: | :------------------: |
 |      **1M**<br>Size       |   **7**<br>Speed    | **50**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-| **Psychic 3**<br>Immunity | **Fly**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Psychic 3**<br>Immunity | **Fly**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **+1**<br>Might      |  **+2**<br>Agility  | **+2**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
 
 > 🗡 **Golden Scythe (Signature Ability)**
@@ -18782,7 +18782,7 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 |   Humanoid, Time Raider   |             -              |      Level 3      |    Platoon Support    |        EV 10         |
 | :-----------------------: | :------------------------: | :---------------: | :-------------------: | :------------------: |
 |       **2**<br>Size       |       **5**<br>Speed       | **62**<br>Stamina |  **2**<br>Stability   | **5**<br>Free Strike |
-| **Psychic 3**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Psychic 3**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **+1**<br>Might      |     **+1**<br>Agility      | **+2**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
 
 > 🗡 **Psionic Slam (Signature Ability)**
@@ -18824,7 +18824,7 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 |   Humanoid, Time Raider   |                -                |      Level 3       |        Leader         |        EV 20         |
 | :-----------------------: | :-----------------------------: | :----------------: | :-------------------: | :------------------: |
 |       **2**<br>Size       |         **10**<br>Speed         | **120**<br>Stamina |  **2**<br>Stability   | **5**<br>Free Strike |
-| **Psychic 5**<br>Immunity | **Hover, teleport**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Psychic 5**<br>Immunity | **Hover, teleport**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **0**<br>Might       |        **+3**<br>Agility        |  **+3**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
 
 > ⚔️ **Gatling Blaster (Signature Ability)**
@@ -18945,11 +18945,11 @@ At the start of any troll's turn, you can spend Malice to activate one of the fo
 
 **<span class="steel-compendium-statblock">Troll Limbjumble</span>**
 
-|       Troll       |         -         |     Level 5      |                Minion Hexer                 |        EV 7 for four minions        |
-| :---------------: | :---------------: | :--------------: | :-----------------------------------------: | :---------------------------------: |
-|  **1S**<br>Size   |  **5**<br>Speed   | **8**<br>Stamina |             **0**<br>Stability              |        **3**<br>Free Strike         |
-| **-**<br>Immunity | **-**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain | \*\*Acid 8, fire \*\*<br>Weaknesses |
-|  **+3**<br>Might  | **+1**<br>Agility | **-2**<br>Reason |             **-1**<br>Intuition             |         **-1**<br>Presence          |
+|       Troll       |         -         |     Level 5      |                Minion Hexer                 |       EV 7 for four minions       |
+| :---------------: | :---------------: | :--------------: | :-----------------------------------------: | :-------------------------------: |
+|  **1S**<br>Size   |  **5**<br>Speed   | **8**<br>Stamina |             **0**<br>Stability              |       **3**<br>Free Strike        |
+| **-**<br>Immunity | **-**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain | \*\*Acid 8, fire \*\*<br>Weakness |
+|  **+3**<br>Might  | **+1**<br>Agility | **-2**<br>Reason |             **-1**<br>Intuition             |        **-1**<br>Presence         |
 
 > 🗡 **Arm and a Leg (Signature Ability)**
 >
@@ -18971,11 +18971,11 @@ At the start of any troll's turn, you can spend Malice to activate one of the fo
 
 **<span class="steel-compendium-statblock">Troll Whelp</span>**
 
-|   Giant, Troll    |         -         |      Level 5      |                  Minion Brute                  |        EV 7 for four minions        |
-| :---------------: | :---------------: | :---------------: | :--------------------------------------------: | :---------------------------------: |
-|  **1L**<br>Size   |  **6**<br>Speed   | **10**<br>Stamina |               **3**<br>Stability               |        **3**<br>Free Strike         |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **+2 damage bonus to strikes**<br>With Captain | \*\*Acid 5, fire \*\*<br>Weaknesses |
-|  **+3**<br>Might  | **+1**<br>Agility | **-1**<br>Reason  |               **0**<br>Intuition               |          **0**<br>Presence          |
+|   Giant, Troll    |         -         |      Level 5      |                  Minion Brute                  |       EV 7 for four minions       |
+| :---------------: | :---------------: | :---------------: | :--------------------------------------------: | :-------------------------------: |
+|  **1L**<br>Size   |  **6**<br>Speed   | **10**<br>Stamina |               **3**<br>Stability               |       **3**<br>Free Strike        |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **+2 damage bonus to strikes**<br>With Captain | \*\*Acid 5, fire \*\*<br>Weakness |
+|  **+3**<br>Might  | **+1**<br>Agility | **-1**<br>Reason  |               **0**<br>Intuition               |         **0**<br>Presence         |
 
 > 🗡 **Jaws and Claws (Signature Ability)**
 >
@@ -18995,11 +18995,11 @@ At the start of any troll's turn, you can spend Malice to activate one of the fo
 
 **<span class="steel-compendium-statblock">Troll Butcher</span>**
 
-|   Giant, Troll    |         -         |      Level 5       |      Elite Hexer      |                EV 28                |
-| :---------------: | :---------------: | :----------------: | :-------------------: | :---------------------------------: |
-|   **2**<br>Size   |  **8**<br>Speed   | **120**<br>Stamina |  **2**<br>Stability   |        **6**<br>Free Strike         |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | \*\*Acid 5, fire \*\*<br>Weaknesses |
-|  **+3**<br>Might  | **+1**<br>Agility |  **+1**<br>Reason  |  **0**<br>Intuition   |          **0**<br>Presence          |
+|   Giant, Troll    |         -         |      Level 5       |      Elite Hexer      |               EV 28               |
+| :---------------: | :---------------: | :----------------: | :-------------------: | :-------------------------------: |
+|   **2**<br>Size   |  **8**<br>Speed   | **120**<br>Stamina |  **2**<br>Stability   |       **6**<br>Free Strike        |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | \*\*Acid 5, fire \*\*<br>Weakness |
+|  **+3**<br>Might  | **+1**<br>Agility |  **+1**<br>Reason  |  **0**<br>Intuition   |         **0**<br>Presence         |
 
 > 🗡 **Savoring Bite (Signature Ability)**
 >
@@ -19057,11 +19057,11 @@ At the start of any troll's turn, you can spend Malice to activate one of the fo
 
 **<span class="steel-compendium-statblock">Troll Glutton</span>**
 
-|   Giant, Troll    |         -         |      Level 5       |      Elite Brute      |                EV 28                |
-| :---------------: | :---------------: | :----------------: | :-------------------: | :---------------------------------: |
-|   **2**<br>Size   |  **6**<br>Speed   | **160**<br>Stamina |  **4**<br>Stability   |        **7**<br>Free Strike         |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | \*\*Acid 5, fire \*\*<br>Weaknesses |
-|  **+3**<br>Might  | **+1**<br>Agility |  **-1**<br>Reason  |  **0**<br>Intuition   |         **+1**<br>Presence          |
+|   Giant, Troll    |         -         |      Level 5       |      Elite Brute      |               EV 28               |
+| :---------------: | :---------------: | :----------------: | :-------------------: | :-------------------------------: |
+|   **2**<br>Size   |  **6**<br>Speed   | **160**<br>Stamina |  **4**<br>Stability   |       **7**<br>Free Strike        |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | \*\*Acid 5, fire \*\*<br>Weakness |
+|  **+3**<br>Might  | **+1**<br>Agility |  **-1**<br>Reason  |  **0**<br>Intuition   |        **+1**<br>Presence         |
 
 > 🗡 **Voracious Mastication (Signature Ability)**
 >
@@ -19113,11 +19113,11 @@ At the start of any troll's turn, you can spend Malice to activate one of the fo
 
 **<span class="steel-compendium-statblock">Troll Crack Trooper</span>**
 
-|   Giant, Troll    |         -         |      Level 9      |              Minion Brute               |       EV 11 for four minions        |
-| :---------------: | :---------------: | :---------------: | :-------------------------------------: | :---------------------------------: |
-|   **2**<br>Size   |  **6**<br>Speed   | **15**<br>Stamina |           **4**<br>Stability            |        **5**<br>Free Strike         |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **+3 bonus to Stamina**<br>With Captain | \*\*Acid 5, fire \*\*<br>Weaknesses |
-|  **+4**<br>Might  | **+1**<br>Agility | **-1**<br>Reason  |           **0**<br>Intuition            |         **+2**<br>Presence          |
+|   Giant, Troll    |         -         |      Level 9      |              Minion Brute               |      EV 11 for four minions       |
+| :---------------: | :---------------: | :---------------: | :-------------------------------------: | :-------------------------------: |
+|   **2**<br>Size   |  **6**<br>Speed   | **15**<br>Stamina |           **4**<br>Stability            |       **5**<br>Free Strike        |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **+3 bonus to Stamina**<br>With Captain | \*\*Acid 5, fire \*\*<br>Weakness |
+|  **+4**<br>Might  | **+1**<br>Agility | **-1**<br>Reason  |           **0**<br>Intuition            |        **+2**<br>Presence         |
 
 > 🗡 **Charging Chomp (Signature Ability)**
 >
@@ -19139,11 +19139,11 @@ At the start of any troll's turn, you can spend Malice to activate one of the fo
 
 **<span class="steel-compendium-statblock">Troll Ravager</span>**
 
-|   Giant, Troll    |         -         |      Level 9      |            Minion Harrier             |       EV 11 for four minions        |
-| :---------------: | :---------------: | :---------------: | :-----------------------------------: | :---------------------------------: |
-|   **2**<br>Size   |  **8**<br>Speed   | **15**<br>Stamina |          **2**<br>Stability           |        **4**<br>Free Strike         |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **+2 bonus to speed**<br>With Captain | \*\*Acid 5, fire \*\*<br>Weaknesses |
-|  **+4**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |          **+1**<br>Intuition          |         **+1**<br>Presence          |
+|   Giant, Troll    |         -         |      Level 9      |            Minion Harrier             |      EV 11 for four minions       |
+| :---------------: | :---------------: | :---------------: | :-----------------------------------: | :-------------------------------: |
+|   **2**<br>Size   |  **8**<br>Speed   | **15**<br>Stamina |          **2**<br>Stability           |       **4**<br>Free Strike        |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **+2 bonus to speed**<br>With Captain | \*\*Acid 5, fire \*\*<br>Weakness |
+|  **+4**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |          **+1**<br>Intuition          |        **+1**<br>Presence         |
 
 > 🗡 **Dine and Dash (Signature Ability)**
 >
@@ -19277,7 +19277,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 |            Undead, Soulless            |           -           |     Level 1      |            Minion Harrier             | EV 3 for four minions |
 | :------------------------------------: | :-------------------: | :--------------: | :-----------------------------------: | :-------------------: |
 |             **1T**<br>Size             |    **6**<br>Speed     | **4**<br>Stamina |          **0**<br>Stability           | **1**<br>Free Strike  |
-| **Corruption 1, poison 1**<br>Immunity | **Climb**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |  **-**<br>Weaknesses  |
+| **Corruption 1, poison 1**<br>Immunity | **Climb**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |             **0**<br>Might             |   **+2**<br>Agility   | **-5**<br>Reason |          **-1**<br>Intuition          |  **-1**<br>Presence   |
 
 > 🗡 **Fingernails (Signature Ability)**
@@ -19303,7 +19303,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 |            Undead, Soulless            |         -         |     Level 1      |              Minion Artillery               | EV 3 for four minions |
 | :------------------------------------: | :---------------: | :--------------: | :-----------------------------------------: | :-------------------: |
 |             **1M**<br>Size             |  **5**<br>Speed   | **3**<br>Stamina |             **0**<br>Stability              | **2**<br>Free Strike  |
-| **Corruption 1, poison 1**<br>Immunity | **-**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weaknesses  |
+| **Corruption 1, poison 1**<br>Immunity | **-**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness   |
 |             **0**<br>Might             | **+2**<br>Agility | **-2**<br>Reason |             **0**<br>Intuition              |  **-2**<br>Presence   |
 
 > 🏹 **Bone Bow (Signature Ability)**
@@ -19329,7 +19329,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 |            Undead, Soulless            |         -         |     Level 1      |                  Minion Brute                  | EV 3 for four minions |
 | :------------------------------------: | :---------------: | :--------------: | :--------------------------------------------: | :-------------------: |
 |             **1M**<br>Size             |  **4**<br>Speed   | **5**<br>Stamina |               **0**<br>Stability               | **2**<br>Free Strike  |
-| **Corruption 1, poison 1**<br>Immunity | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |  **-**<br>Weaknesses  |
+| **Corruption 1, poison 1**<br>Immunity | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |            **+2**<br>Might             | **-2**<br>Agility | **-5**<br>Reason |              **-2**<br>Intuition               |  **-3**<br>Presence   |
 
 > 🗡 **Rotting Fist (Signature Ability)**
@@ -19353,7 +19353,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 |                 Undead                 |             -              |     Level 1      |            Minion Ambusher            | EV 3 for four minions |
 | :------------------------------------: | :------------------------: | :--------------: | :-----------------------------------: | :-------------------: |
 |             **1M**<br>Size             |       **5**<br>Speed       | **4**<br>Stamina |          **1**<br>Stability           | **2**<br>Free Strike  |
-| **Corruption 1, poison 1**<br>Immunity | **Fly, hover**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |  **-**<br>Weaknesses  |
+| **Corruption 1, poison 1**<br>Immunity | **Fly, hover**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |            **-5**<br>Might             |     **+1**<br>Agility      | **0**<br>Reason  |          **0**<br>Intuition           |  **+2**<br>Presence   |
 
 > 🗡 **Life Drain (Signature Ability)**
@@ -19377,7 +19377,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 |                 Undead                 |         -         |      Level 1      |     Horde Harrier     |         EV 3         |
 | :------------------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |             **1M**<br>Size             |  **7**<br>Speed   | **15**<br>Stamina |  **0**<br>Stability   | **1**<br>Free Strike |
-| **Corruption 1, poison 1**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Corruption 1, poison 1**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |             **0**<br>Might             | **+2**<br>Agility | **-2**<br>Reason  |  **0**<br>Intuition   |  **-1**<br>Presence  |
 
 > 🗡 **Razor Claws (Signature Ability)**
@@ -19413,7 +19413,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 |            Undead, Soulless            |         -         |      Level 1      |    Horde Artillery    |         EV 3         |
 | :------------------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |             **1M**<br>Size             |  **5**<br>Speed   | **10**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
-| **Corruption 1, poison 1**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Corruption 1, poison 1**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |             **0**<br>Might             | **+2**<br>Agility | **+1**<br>Reason  |  **0**<br>Intuition   |  **-1**<br>Presence  |
 
 > ⚔️ **Bone Shards (Signature Ability)**
@@ -19453,7 +19453,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 |                 Undead                 |             -              |      Level 1      |      Horde Hexer      |         EV 3         |
 | :------------------------------------: | :------------------------: | :---------------: | :-------------------: | :------------------: |
 |             **1M**<br>Size             |       **5**<br>Speed       | **10**<br>Stamina |  **1**<br>Stability   | **1**<br>Free Strike |
-| **Corruption 1, poison 1**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Corruption 1, poison 1**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **-5**<br>Might             |     **+1**<br>Agility      | **+0**<br>Reason  |  **+0**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🗡 **Decaying Touch (Signature Ability)**
@@ -19487,7 +19487,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 |                 Undead                 |         -         |      Level 1      |      Horde Hexer      |         EV 3         |
 | :------------------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |             **1M**<br>Size             |  **5**<br>Speed   | **10**<br>Stamina |  **0**<br>Stability   | **1**<br>Free Strike |
-| **Corruption 1, poison 1**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Corruption 1, poison 1**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+2**<br>Might             | **+1**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
 > 🗡 **Soulstealer Longsword (Signature Ability)**
@@ -19521,7 +19521,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 |                 Undead                 |           -           |      Level 1      |    Horde Ambusher     |         EV 3         |
 | :------------------------------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |             **1M**<br>Size             |    **7**<br>Speed     | **15**<br>Stamina |  **1**<br>Stability   | **2**<br>Free Strike |
-| **Corruption 1, poison 1**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Corruption 1, poison 1**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |             **0**<br>Might             |   **+2**<br>Agility   |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
 > 🗡 **Chilling Grasp (Signature Ability)**
@@ -19567,7 +19567,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 |            Undead, Soulless            |         -         |      Level 1      |      Horde Brute      |         EV 3         |
 | :------------------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |             **1M**<br>Size             |  **5**<br>Speed   | **20**<br>Stamina |  **1**<br>Stability   | **2**<br>Free Strike |
-| **Corruption 1, poison 1**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Corruption 1, poison 1**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+2**<br>Might             | **+1**<br>Agility | **-5**<br>Reason  |  **-2**<br>Intuition  |  **+1**<br>Presence  |
 
 > 🗡 **Clobber and Clutch (Signature Ability)**
@@ -19607,7 +19607,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 |                 Undead                 |             -              |      Level 1      |        Leader         |        EV 12         |
 | :------------------------------------: | :------------------------: | :---------------: | :-------------------: | :------------------: |
 |             **1M**<br>Size             |       **6**<br>Speed       | **80**<br>Stamina |  **1**<br>Stability   | **4**<br>Free Strike |
-| **Corruption 3, poison 3**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Corruption 3, poison 3**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **-2**<br>Might             |     **+2**<br>Agility      |  **0**<br>Reason  |  **0**<br>Intuition   |  **+3**<br>Presence  |
 
 > 🏹 **Heat Death (Signature Ability)**
@@ -19725,7 +19725,7 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 |            Undead, Soulless            |         -         |     Level 4      |                  Minion Brute                  | EV 6 for four minions |
 | :------------------------------------: | :---------------: | :--------------: | :--------------------------------------------: | :-------------------: |
 |             **1M**<br>Size             |  **5**<br>Speed   | **9**<br>Stamina |               **0**<br>Stability               | **3**<br>Free Strike  |
-| **Corruption 4, poison 4**<br>Immunity | **-**<br>Movement |        -         | **+2 damage bonus to strikes**<br>With Captain |  **-**<br>Weaknesses  |
+| **Corruption 4, poison 4**<br>Immunity | **-**<br>Movement |        -         | **+2 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |            **+3**<br>Might             | **-1**<br>Agility | **0**<br>Reason  |               **0**<br>Intuition               |   **0**<br>Presence   |
 
 > 🗡 **Bone Carvers (Signature Ability)**
@@ -19751,7 +19751,7 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 |                 Undead                 |           -           |     Level 4      |                 Minion Harrier                 | EV 6 for four minions |
 | :------------------------------------: | :-------------------: | :--------------: | :--------------------------------------------: | :-------------------: |
 |             **1M**<br>Size             |    **7**<br>Speed     | **8**<br>Stamina |               **0**<br>Stability               | **2**<br>Free Strike  |
-| **Corruption 4, poison 4**<br>Immunity | **Climb**<br>Movement |        -         | **+2 damage bonus to strikes**<br>With Captain |  **-**<br>Weaknesses  |
+| **Corruption 4, poison 4**<br>Immunity | **Climb**<br>Movement |        -         | **+2 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |            **+3**<br>Might             |   **+2**<br>Agility   | **0**<br>Reason  |               **0**<br>Intuition               |   **0**<br>Presence   |
 
 > 🗡 **Taste (Signature Ability)**
@@ -19781,7 +19781,7 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 |            Undead, Soulless            |         -         |     Level 4      |                Minion Artillery                 | EV 6 for four minions |
 | :------------------------------------: | :---------------: | :--------------: | :---------------------------------------------: | :-------------------: |
 |             **1M**<br>Size             |  **5**<br>Speed   | **7**<br>Stamina |               **0**<br>Stability                | **3**<br>Free Strike  |
-| **Corruption 4, poison 4**<br>Immunity | **-**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |  **-**<br>Weaknesses  |
+| **Corruption 4, poison 4**<br>Immunity | **-**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |   **-**<br>Weakness   |
 |            **-2**<br>Might             | **+3**<br>Agility | **0**<br>Reason  |               **0**<br>Intuition                |   **0**<br>Presence   |
 
 > 🏹 **Hollowbone Slug (Signature Ability)**
@@ -19807,7 +19807,7 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 |                 Undead                 |         -         |      Level 4      |    Horde Defender     |         EV 6         |
 | :------------------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |             **2**<br>Size              |  **6**<br>Speed   | **35**<br>Stamina |  **2**<br>Stability   | **2**<br>Free Strike |
-| **Corruption 4, poison 4**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Corruption 4, poison 4**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+3**<br>Might             | **+1**<br>Agility |  **0**<br>Reason  |  **+2**<br>Intuition  |  **-1**<br>Presence  |
 
 > 🗡 **Multiarm Strike (Signature Ability)**
@@ -19853,7 +19853,7 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 |            Undead, Soulless            |         -         |      Level 4       |      Elite Brute      |        EV 24         |
 | :------------------------------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |             **3**<br>Size              |  **6**<br>Speed   | **140**<br>Stamina |  **2**<br>Stability   | **6**<br>Free Strike |
-| **Corruption 4, poison 4**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Corruption 4, poison 4**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+3**<br>Might             | **-1**<br>Agility |  **-2**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🗡 **Rotten Smash (Signature Ability)**
@@ -19888,11 +19888,11 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 
 **<span class="steel-compendium-statblock"> Mummy</span>**
 
-|             Mummy, Undead              |         -         |      Level 4      |      Horde Brute      |           EV 6           |
-| :------------------------------------: | :---------------: | :---------------: | :-------------------: | :----------------------: |
-|             **1M**<br>Size             |  **5**<br>Speed   | **50**<br>Stamina |  **2**<br>Stability   |   **3**<br>Free Strike   |
-| **Corruption 4, poison 4**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Fire 5**<br>Weaknesses |
-|            **+3**<br>Might             | **-1**<br>Agility | **+1**<br>Reason  |  **+3**<br>Intuition  |    **0**<br>Presence     |
+|             Mummy, Undead              |         -         |      Level 4      |      Horde Brute      |          EV 6          |
+| :------------------------------------: | :---------------: | :---------------: | :-------------------: | :--------------------: |
+|             **1M**<br>Size             |  **5**<br>Speed   | **50**<br>Stamina |  **2**<br>Stability   |  **3**<br>Free Strike  |
+| **Corruption 4, poison 4**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Fire 5**<br>Weakness |
+|            **+3**<br>Might             | **-1**<br>Agility | **+1**<br>Reason  |  **+3**<br>Intuition  |   **0**<br>Presence    |
 
 > 🗡 **Accursed Bindings (Signature Ability)**
 >
@@ -19937,7 +19937,7 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 |            Undead, Vampire             |           -           |      Level 4      |     Horde Harrier     |         EV 6         |
 | :------------------------------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |             **1M**<br>Size             |    **5**<br>Speed     | **30**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
-| **Corruption 4, poison 4**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Corruption 4, poison 4**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+2**<br>Might             |   **+3**<br>Agility   | **-1**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🗡 **Exsanguinating Bite (Signature Ability)**
@@ -19973,7 +19973,7 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 |                 Undead                 |             -              |      Level 4      |      Horde Hexer      |         EV 6         |
 | :------------------------------------: | :------------------------: | :---------------: | :-------------------: | :------------------: |
 |             **1M**<br>Size             |       **8**<br>Speed       | **25**<br>Stamina |  **1**<br>Stability   | **2**<br>Free Strike |
-| **Corruption 4, poison 4**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Corruption 4, poison 4**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **-2**<br>Might             |     **+2**<br>Agility      | **+1**<br>Reason  |  **+1**<br>Intuition  |  **+3**<br>Presence  |
 
 > 🗡 **Chilling Gravetouch (Signature Ability)**
@@ -20014,11 +20014,11 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 
 **<span class="steel-compendium-statblock">Mummy Lord</span>**
 
-|             Mummy, Undead              |         -         |      Level 4       |        Leader         |          EV 24           |
-| :------------------------------------: | :---------------: | :----------------: | :-------------------: | :----------------------: |
-|             **1M**<br>Size             |  **6**<br>Speed   | **155**<br>Stamina |  **4**<br>Stability   |   **6**<br>Free Strike   |
-| **Corruption 6, poison 6**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **Fire 5**<br>Weaknesses |
-|            **+4**<br>Might             | **0**<br>Agility  |  **+2**<br>Reason  |  **+4**<br>Intuition  |    **+2**<br>Presence    |
+|             Mummy, Undead              |         -         |      Level 4       |        Leader         |         EV 24          |
+| :------------------------------------: | :---------------: | :----------------: | :-------------------: | :--------------------: |
+|             **1M**<br>Size             |  **6**<br>Speed   | **155**<br>Stamina |  **4**<br>Stability   |  **6**<br>Free Strike  |
+| **Corruption 6, poison 6**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **Fire 5**<br>Weakness |
+|            **+4**<br>Might             | **0**<br>Agility  |  **+2**<br>Reason  |  **+4**<br>Intuition  |   **+2**<br>Presence   |
 
 > 🗡 **Accursed Slam (Signature Ability)**
 >
@@ -20143,7 +20143,7 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 |            Undead, Vampire             |           -           |      Level 7      |            Minion Harrier             | EV 9 for four minions |
 | :------------------------------------: | :-------------------: | :---------------: | :-----------------------------------: | :-------------------: |
 |             **1M**<br>Size             |    **6**<br>Speed     | **12**<br>Stamina |          **0**<br>Stability           | **3**<br>Free Strike  |
-| **Corruption 7, poison 7**<br>Immunity | **Climb**<br>Movement |         -         | **+3 bonus to speed**<br>With Captain |  **-**<br>Weaknesses  |
+| **Corruption 7, poison 7**<br>Immunity | **Climb**<br>Movement |         -         | **+3 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |            **+4**<br>Might             |   **+1**<br>Agility   | **-3**<br>Reason  |          **+1**<br>Intuition          |  **-3**<br>Presence   |
 
 > 🗡 **Feeding Frenzy (Signature Ability)**
@@ -20169,7 +20169,7 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 |                 Undead                 |             -              |      Level 7      |                Minion Hexer                 | EV 9 for four minions |
 | :------------------------------------: | :------------------------: | :---------------: | :-----------------------------------------: | :-------------------: |
 |             **1M**<br>Size             |       **5**<br>Speed       | **10**<br>Stamina |             **1**<br>Stability              | **3**<br>Free Strike  |
-| **Corruption 7, poison 7**<br>Immunity | **Fly, hover**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weaknesses  |
+| **Corruption 7, poison 7**<br>Immunity | **Fly, hover**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness   |
 |            **-3**<br>Might             |     **+4**<br>Agility      | **-5**<br>Reason  |             **+1**<br>Intuition             |  **-3**<br>Presence   |
 
 > 🗡 **Hollow Grasp (Signature Ability)**
@@ -20192,11 +20192,11 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 
 **<span class="steel-compendium-statblock"> Mummy Rotwrap</span>**
 
-|             Mummy, Undead              |         -         |      Level 7      |                  Minion Brute                  |  EV 9 for four minions   |
-| :------------------------------------: | :---------------: | :---------------: | :--------------------------------------------: | :----------------------: |
-|             **1M**<br>Size             |  **5**<br>Speed   | **15**<br>Stamina |               **1**<br>Stability               |   **4**<br>Free Strike   |
-| **Corruption 7, poison 7**<br>Immunity | **-**<br>Movement |         -         | **+3 bonus to melee distance**<br>With Captain | **Fire 5**<br>Weaknesses |
-|            **+4**<br>Might             | **-2**<br>Agility | **-2**<br>Reason  |              **+1**<br>Intuition               |    **-2**<br>Presence    |
+|             Mummy, Undead              |         -         |      Level 7      |                  Minion Brute                  | EV 9 for four minions  |
+| :------------------------------------: | :---------------: | :---------------: | :--------------------------------------------: | :--------------------: |
+|             **1M**<br>Size             |  **5**<br>Speed   | **15**<br>Stamina |               **1**<br>Stability               |  **4**<br>Free Strike  |
+| **Corruption 7, poison 7**<br>Immunity | **-**<br>Movement |         -         | **+3 bonus to melee distance**<br>With Captain | **Fire 5**<br>Weakness |
+|            **+4**<br>Might             | **-2**<br>Agility | **-2**<br>Reason  |              **+1**<br>Intuition               |   **-2**<br>Presence   |
 
 > 🗡 **Fetid Wrappings (Signature Ability)**
 >
@@ -20217,7 +20217,7 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 |                 Undead                 |               -               |      Level 7      |   Horde Controller    |         EV 9         |
 | :------------------------------------: | :---------------------------: | :---------------: | :-------------------: | :------------------: |
 |             **3**<br>Size              |        **6**<br>Speed         | **64**<br>Stamina |  **3**<br>Stability   | **3**<br>Free Strike |
-| **Corruption 7, poison 7**<br>Immunity | **Burrow, climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Corruption 7, poison 7**<br>Immunity | **Burrow, climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+4**<br>Might             |       **+1**<br>Agility       | **-2**<br>Reason  |  **+1**<br>Intuition  |  **-3**<br>Presence  |
 
 > 🗡 **Mudslide (Signature Ability)**
@@ -20265,7 +20265,7 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 |                 Undead                 |             -              |      Level 7      |   Horde Controller    |         EV 9         |
 | :------------------------------------: | :------------------------: | :---------------: | :-------------------: | :------------------: |
 |             **2**<br>Size              |       **6**<br>Speed       | **40**<br>Stamina |  **1**<br>Stability   | **3**<br>Free Strike |
-| **Corruption 7, poison 7**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Corruption 7, poison 7**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **-2**<br>Might             |     **+4**<br>Agility      | **-1**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
 > 🗡 **Lash Out (Signature Ability)**
@@ -20305,7 +20305,7 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 |                 Undead                 |         -         |      Level 7      |      Horde Hexer      |         EV 9         |
 | :------------------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |             **1M**<br>Size             |  **5**<br>Speed   | **40**<br>Stamina |  **1**<br>Stability   | **3**<br>Free Strike |
-| **Corruption 7, poison 7**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Corruption 7, poison 7**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+4**<br>Might             | **+2**<br>Agility |  **0**<br>Reason  |  **+1**<br>Intuition  |  **-1**<br>Presence  |
 
 > 🗡 **Choking Grasp (Signature Ability)**
@@ -20345,7 +20345,7 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 |            Undead, Soulless            |         -         |      Level 7      |    Horde Artillery    |         EV 9         |
 | :------------------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |             **1M**<br>Size             |  **4**<br>Speed   | **40**<br>Stamina |  **2**<br>Stability   | **4**<br>Free Strike |
-| **Corruption 7, poison 7**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Corruption 7, poison 7**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+4**<br>Might             | **-2**<br>Agility | **-4**<br>Reason  |  **+1**<br>Intuition  |  **-2**<br>Presence  |
 
 > 🏹 **Wax Fling (Signature Ability)**
@@ -20388,7 +20388,7 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 |            Undead, Vampire             |           -           |      Level 7      |      Horde Hexer      |         EV 9         |
 | :------------------------------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |             **1M**<br>Size             |    **6**<br>Speed     | **40**<br>Stamina |  **3**<br>Stability   | **3**<br>Free Strike |
-| **Corruption 7, poison 7**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Corruption 7, poison 7**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+4**<br>Might             |   **+2**<br>Agility   | **+1**<br>Reason  |  **+1**<br>Intuition  |  **+1**<br>Presence  |
 
 > 🗡 **Exsanguinating Bite (Signature Ability)**
@@ -20438,7 +20438,7 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 |                 Undead                 |                   -                    |      Level 7       |        Leader         |        EV 36         |
 | :------------------------------------: | :------------------------------------: | :----------------: | :-------------------: | :------------------: |
 |             **1M**<br>Size             |            **12**<br>Speed             | **200**<br>Stamina |  **3**<br>Stability   | **7**<br>Free Strike |
-| **Corruption 9, poison 9**<br>Immunity | **Climb, hover, teleport**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Corruption 9, poison 9**<br>Immunity | **Climb, hover, teleport**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+2**<br>Might             |           **+5**<br>Agility            |  **+1**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🗡 **Crimson Embrace (Signature Ability)**
@@ -20572,7 +20572,7 @@ At the start of any level 10 undead's turn, you can spend Malice to activate one
 |             Undead, Soulless             |         -         |     Level 10      |                  Minion Brute                  | EV 12 for four minions |
 | :--------------------------------------: | :---------------: | :---------------: | :--------------------------------------------: | :--------------------: |
 |              **3**<br>Size               |  **4**<br>Speed   | **17**<br>Stamina |               **5**<br>Stability               |  **5**<br>Free Strike  |
-| **Corruption 10, poison 10**<br>Immunity | **-**<br>Movement |         -         | **+4 damage bonus to strikes**<br>With Captain |  **-**<br>Weaknesses   |
+| **Corruption 10, poison 10**<br>Immunity | **-**<br>Movement |         -         | **+4 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness    |
 |             **+5**<br>Might              | **-3**<br>Agility | **-3**<br>Reason  |              **+1**<br>Intuition               |   **-2**<br>Presence   |
 
 > 🗡 **Rotten Kick (Signature Ability)**
@@ -20596,7 +20596,7 @@ At the start of any level 10 undead's turn, you can spend Malice to activate one
 |             Undead, Soulless             |         -         |     Level 10      |               Minion Defender               | EV 12 for four minions |
 | :--------------------------------------: | :---------------: | :---------------: | :-----------------------------------------: | :--------------------: |
 |              **1L**<br>Size              |  **5**<br>Speed   | **17**<br>Stamina |             **2**<br>Stability              |  **4**<br>Free Strike  |
-| **Corruption 10, poison 10**<br>Immunity | **-**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weaknesses   |
+| **Corruption 10, poison 10**<br>Immunity | **-**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness    |
 |             **+3**<br>Might              | **+5**<br>Agility | **-2**<br>Reason  |             **+4**<br>Intuition             |   **-2**<br>Presence   |
 
 > 🗡 **Four Swords Swing (Signature Ability)**
@@ -20624,7 +20624,7 @@ At the start of any level 10 undead's turn, you can spend Malice to activate one
 |                  Undead                  |             -              |     Level 10      |            Minion Harrier             | EV 12 for four minions |
 | :--------------------------------------: | :------------------------: | :---------------: | :-----------------------------------: | :--------------------: |
 |              **1M**<br>Size              |       **7**<br>Speed       | **15**<br>Stamina |          **1**<br>Stability           |  **4**<br>Free Strike  |
-| **Corruption 10, poison 10**<br>Immunity | **Fly, hover**<br>Movement |         -         | **+3 bonus to speed**<br>With Captain |  **-**<br>Weaknesses   |
+| **Corruption 10, poison 10**<br>Immunity | **Fly, hover**<br>Movement |         -         | **+3 bonus to speed**<br>With Captain |   **-**<br>Weakness    |
 |             **-2**<br>Might              |     **+3**<br>Agility      | **+1**<br>Reason  |          **+1**<br>Intuition          |   **+5**<br>Presence   |
 
 > 🗡 **Draining Rake (Signature Ability)**
@@ -20650,7 +20650,7 @@ At the start of any level 10 undead's turn, you can spend Malice to activate one
 |             Undead, Soulless             |           -           |     Level 10      |   Horde Controller    |        EV 12         |
 | :--------------------------------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |              **3**<br>Size               |    **6**<br>Speed     | **55**<br>Stamina |  **5**<br>Stability   | **4**<br>Free Strike |
-| **Corruption 10, poison 10**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Corruption 10, poison 10**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |             **+5**<br>Might              |   **-2**<br>Agility   | **-2**<br>Reason  |  **+3**<br>Intuition  |  **-1**<br>Presence  |
 
 > 🗡 **Ribcage Chomp (Signature Ability)**
@@ -20688,7 +20688,7 @@ At the start of any level 10 undead's turn, you can spend Malice to activate one
 |             Undead, Soulless             |             -              |     Level 10      |      Horde Hexer      |        EV 12         |
 | :--------------------------------------: | :------------------------: | :---------------: | :-------------------: | :------------------: |
 |              **1M**<br>Size              |       **6**<br>Speed       | **55**<br>Stamina |  **1**<br>Stability   | **5**<br>Free Strike |
-| **Corruption 10, poison 10**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Corruption 10, poison 10**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |              **0**<br>Might              |     **+1**<br>Agility      | **+5**<br>Reason  |  **+3**<br>Intuition  |  **-1**<br>Presence  |
 
 > 🏹 **Heartstopper (Signature Ability)**
@@ -20786,7 +20786,7 @@ At the start of Rhodar's turn, you can spend Malice to activate one of the follo
 |             Undead, Vampire              |                  -                   |      Level 10      |         Solo          |        EV 144         |
 | :--------------------------------------: | :----------------------------------: | :----------------: | :-------------------: | :-------------------: |
 |              **1M**<br>Size              |           **12**<br>Speed            | **650**<br>Stamina |  **3**<br>Stability   | **10**<br>Free Strike |
-| **Corruption 10, poison 10**<br>Immunity | **Fly, hover, teleport**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weaknesses  |
+| **Corruption 10, poison 10**<br>Immunity | **Fly, hover, teleport**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |             **+3**<br>Might              |          **+5**<br>Agility           |  **+2**<br>Reason  |  **+2**<br>Intuition  |  **+3**<br>Presence   |
 
 > ☠️ **Solo Monster**
@@ -20979,11 +20979,11 @@ At the start of a lich's turn, you can spend Malice to activate one of the follo
 
 **<span class="steel-compendium-statblock">Lich</span>**
 
-|                  Undead                  |             -              |      Level 10      |         Solo          |          EV 144          |
-| :--------------------------------------: | :------------------------: | :----------------: | :-------------------: | :----------------------: |
-|              **1M**<br>Size              |      **10**<br>Speed       | **650**<br>Stamina |  **1**<br>Stability   |  **10**<br>Free Strike   |
-| **Corruption 10, poison 10**<br>Immunity | **Fly, hover**<br>Movement |         -          | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|             **+2**<br>Might              |     **+3**<br>Agility      |  **+5**<br>Reason  |  **+5**<br>Intuition  |    **+5**<br>Presence    |
+|                  Undead                  |             -              |      Level 10      |         Solo          |         EV 144         |
+| :--------------------------------------: | :------------------------: | :----------------: | :-------------------: | :--------------------: |
+|              **1M**<br>Size              |      **10**<br>Speed       | **650**<br>Stamina |  **1**<br>Stability   | **10**<br>Free Strike  |
+| **Corruption 10, poison 10**<br>Immunity | **Fly, hover**<br>Movement |         -          | **-**<br>With Captain | **Holy 5**<br>Weakness |
+|             **+2**<br>Might              |     **+3**<br>Agility      |  **+5**<br>Reason  |  **+5**<br>Intuition  |   **+5**<br>Presence   |
 
 > ☠️ **Solo Monster**
 >
@@ -21174,7 +21174,7 @@ Most valok communicate exclusively in Rallarian.
 | Construct, Multivok, Soulless, Valok |         -         |      Level 9       |    Elite Defender     |        EV 44         |
 | :----------------------------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |            **2**<br>Size             |  **5**<br>Speed   | **240**<br>Stamina |  **5**<br>Stability   | **9**<br>Free Strike |
-|          **-**<br>Immunity           | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|          **-**<br>Immunity           | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |           **+4**<br>Might            | **0**<br>Agility  |  **-2**<br>Reason  |  **+1**<br>Intuition  |  **-4**<br>Presence  |
 
 > 🏹 **Gatling Bolt Gun (Signature Ability)**
@@ -21240,7 +21240,7 @@ Most valok communicate exclusively in Rallarian.
 | Construct, Multivok, Soulless, Valok |         -         |      Level 9       |     Elite Support     |        EV 44         |
 | :----------------------------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |            **1L**<br>Size            |  **5**<br>Speed   | **220**<br>Stamina |  **3**<br>Stability   | **9**<br>Free Strike |
-|          **-**<br>Immunity           | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|          **-**<br>Immunity           | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |           **+4**<br>Might            | **+1**<br>Agility |  **-2**<br>Reason  |  **+1**<br>Intuition  |  **-3**<br>Presence  |
 
 > 🗡 **Pneumatic Punch (Signature Ability)**
@@ -21304,7 +21304,7 @@ Most valok communicate exclusively in Rallarian.
 | Construct, Servok, Soulless, Valok |         -         |      Level 9       |      Elite Brute      |         EV 44         |
 | :--------------------------------: | :---------------: | :----------------: | :-------------------: | :-------------------: |
 |           **3**<br>Size            |  **5**<br>Speed   | **240**<br>Stamina |  **8**<br>Stability   | **10**<br>Free Strike |
-|         **-**<br>Immunity          | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weaknesses  |
+|         **-**<br>Immunity          | **-**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |          **+4**<br>Might           | **-2**<br>Agility |  **-4**<br>Reason  |  **-1**<br>Intuition  |  **-5**<br>Presence   |
 
 > 🔳 **Wrecking Ball (Signature Ability)**
@@ -21384,7 +21384,7 @@ Most valok communicate exclusively in Rallarian.
 | Construct, Servok, Soulless, Valok |               -               |      Level 9       |   Elite Controller    |        EV 44         |
 | :--------------------------------: | :---------------------------: | :----------------: | :-------------------: | :------------------: |
 |           **2**<br>Size            |        **5**<br>Speed         | **200**<br>Stamina |  **6**<br>Stability   | **9**<br>Free Strike |
-|         **-**<br>Immunity          | **Burrow, climb**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|         **-**<br>Immunity          | **Burrow, climb**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |          **+4**<br>Might           |       **-2**<br>Agility       |  **-4**<br>Reason  |  **-1**<br>Intuition  |  **-5**<br>Presence  |
 
 > 🗡 **Drill Press (Signature Ability)**
@@ -21458,7 +21458,7 @@ Most valok communicate exclusively in Rallarian.
 | Construct, Servok, Soulless, Valok |         -         |      Level 10      |      Elite Brute      |         EV 48         |
 | :--------------------------------: | :---------------: | :----------------: | :-------------------: | :-------------------: |
 |           **3**<br>Size            |  **5**<br>Speed   | **260**<br>Stamina |  **8**<br>Stability   | **10**<br>Free Strike |
-|         **-**<br>Immunity          | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weaknesses  |
+|         **-**<br>Immunity          | **-**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |          **+5**<br>Might           | **-2**<br>Agility |  **-4**<br>Reason  |  **-1**<br>Intuition  |  **-5**<br>Presence   |
 
 > 🗡 **Blade Rake (Signature Ability)**
@@ -21610,7 +21610,7 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 | Horror, Voiceless Talker  |             -              |     Level 6      |                  Minion Hexer                  | EV 8 for four minions |
 | :-----------------------: | :------------------------: | :--------------: | :--------------------------------------------: | :-------------------: |
 |      **1S**<br>Size       |       **4**<br>Speed       | **9**<br>Stamina |               **0**<br>Stability               | **3**<br>Free Strike  |
-| **Psychic 6**<br>Immunity | **Fly, hover**<br>Movement |        -         | **+2 damage bonus to strikes**<br>With Captain |  **-**<br>Weaknesses  |
+| **Psychic 6**<br>Immunity | **Fly, hover**<br>Movement |        -         | **+2 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |      **-1**<br>Might      |     **+3**<br>Agility      | **+1**<br>Reason |              **+1**<br>Intuition               |   **0**<br>Presence   |
 
 > 🗡 **Eager Claws (Signature Ability)**
@@ -21644,7 +21644,7 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 | Horror, Voiceless Talker |         -         |     Level 6      |            Minion Controller            | EV 8 for four minions |
 | :----------------------: | :---------------: | :--------------: | :-------------------------------------: | :-------------------: |
 |      **1M**<br>Size      |  **5**<br>Speed   | **9**<br>Stamina |           **0**<br>Stability            | **3**<br>Free Strike  |
-|    **-**<br>Immunity     | **-**<br>Movement |        -         | **+2 bonus to Stamina**<br>With Captain |  **-**<br>Weaknesses  |
+|    **-**<br>Immunity     | **-**<br>Movement |        -         | **+2 bonus to Stamina**<br>With Captain |   **-**<br>Weakness   |
 |     **-1**<br>Might      | **0**<br>Agility  | **+3**<br>Reason |           **+1**<br>Intuition           |  **+1**<br>Presence   |
 
 > 🏹 **Phase Chant (Signature Ability)**
@@ -21668,7 +21668,7 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 | Horror, Voiceless Talker |         -         |      Level 6       |      Elite Brute      |        EV 32         |
 | :----------------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |      **1L**<br>Size      |  **5**<br>Speed   | **180**<br>Stamina |  **4**<br>Stability   | **7**<br>Free Strike |
-|    **-**<br>Immunity     | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|    **-**<br>Immunity     | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |     **+3**<br>Might      | **+1**<br>Agility |  **-2**<br>Reason  |  **-2**<br>Intuition  |  **0**<br>Presence   |
 
 > 🗡 **Four-Way Grasp (Signature Ability)**
@@ -21734,7 +21734,7 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 | Horror, Voiceless Talker  |             -              |      Level 6       |      Elite Hexer      |        EV 32         |
 | :-----------------------: | :------------------------: | :----------------: | :-------------------: | :------------------: |
 |      **1S**<br>Size       |       **6**<br>Speed       | **140**<br>Stamina |  **2**<br>Stability   | **7**<br>Free Strike |
-| **Psychic 6**<br>Immunity | **Fly, hover**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Psychic 6**<br>Immunity | **Fly, hover**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **-1**<br>Might      |     **+3**<br>Agility      |  **+3**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
 
 > ⭐️ **Brain Latch**
@@ -21798,7 +21798,7 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 | Horror, Voiceless Talker  |                -                |      Level 6       |    Elite Artillery    |        EV 32         |
 | :-----------------------: | :-----------------------------: | :----------------: | :-------------------: | :------------------: |
 |      **1M**<br>Size       |         **5**<br>Speed          | **140**<br>Stamina |  **2**<br>Stability   | **7**<br>Free Strike |
-| **Psychic 6**<br>Immunity | **Hover, teleport**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Psychic 6**<br>Immunity | **Hover, teleport**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **0**<br>Might       |        **+3**<br>Agility        |  **+3**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
 
 > 🏹 **Psionic Rifle Burst (Signature Ability)**
@@ -21860,7 +21860,7 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 | Horror, Voiceless Talker  |                -                |      Level 6       |   Elite Controller    |        EV 32         |
 | :-----------------------: | :-----------------------------: | :----------------: | :-------------------: | :------------------: |
 |      **1M**<br>Size       |         **5**<br>Speed          | **140**<br>Stamina |  **2**<br>Stability   | **7**<br>Free Strike |
-| **Psychic 6**<br>Immunity | **Hover, teleport**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Psychic 6**<br>Immunity | **Hover, teleport**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **-1**<br>Might      |        **+1**<br>Agility        |  **+3**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🗡 **Tentacle (Signature Ability)**
@@ -21922,7 +21922,7 @@ At the start of any voiceless talker's turn, you can spend Malice to activate on
 | Horror, Voiceless Talker  |                -                |      Level 6       |        Leader         |        EV 32         |
 | :-----------------------: | :-----------------------------: | :----------------: | :-------------------: | :------------------: |
 |      **1M**<br>Size       |         **5**<br>Speed          | **180**<br>Stamina |  **2**<br>Stability   | **7**<br>Free Strike |
-| **Psychic 8**<br>Immunity | **Hover, teleport**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Psychic 8**<br>Immunity | **Hover, teleport**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **0**<br>Might       |        **+3**<br>Agility        |  **+4**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
 > ⚔️ **Psionic Intrusion (Signature Ability)**
@@ -22074,7 +22074,7 @@ At the start of Lord Syuul's turn, you can spend Malice to activate one of the f
 |  Horror, Voiceless Talker  |                -                |      Level 6       |         Solo          |        EV 96         |
 | :------------------------: | :-----------------------------: | :----------------: | :-------------------: | :------------------: |
 |       **1M**<br>Size       |         **7**<br>Speed          | **450**<br>Stamina |  **3**<br>Stability   | **7**<br>Free Strike |
-| **Psychic 10**<br>Immunity | **Hover, teleport**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Psychic 10**<br>Immunity | **Hover, teleport**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **+1**<br>Might       |        **+3**<br>Agility        |  **+4**<br>Reason  |  **+4**<br>Intuition  |  **+3**<br>Presence  |
 
 > ☠️ **Solo Monster**
@@ -22311,7 +22311,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 | Humanoid, Soulless, War Dog |         -         |     Level 1      |                Minion Ambusher                 | EV 3 for four minions |
 | :-------------------------: | :---------------: | :--------------: | :--------------------------------------------: | :-------------------: |
 |       **1M**<br>Size        |  **5**<br>Speed   | **4**<br>Stamina |               **0**<br>Stability               | **2**<br>Free Strike  |
-|      **-**<br>Immunity      | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |  **-**<br>Weaknesses  |
+|      **-**<br>Immunity      | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |       **0**<br>Might        | **+2**<br>Agility | **0**<br>Reason  |               **0**<br>Intuition               |   **0**<br>Presence   |
 
 > ⚔️ **Daggers (Signature Ability)**
@@ -22337,7 +22337,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 | Humanoid, Soulless, War Dog |         -         |     Level 1      |                 Minion Harrier                 | EV 3 for four minions |
 | :-------------------------: | :---------------: | :--------------: | :--------------------------------------------: | :-------------------: |
 |       **1M**<br>Size        |  **7**<br>Speed   | **4**<br>Stamina |               **0**<br>Stability               | **1**<br>Free Strike  |
-|      **-**<br>Immunity      | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |  **-**<br>Weaknesses  |
+|      **-**<br>Immunity      | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |       **+2**<br>Might       | **0**<br>Agility  | **0**<br>Reason  |               **0**<br>Intuition               |   **0**<br>Presence   |
 
 > ⚔️ **Blade (Signature Ability)**
@@ -22363,7 +22363,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 | Humanoid, Soulless, War Dog |         -         |     Level 1      |                Minion Artillery                 | EV 3 for four minions |
 | :-------------------------: | :---------------: | :--------------: | :---------------------------------------------: | :-------------------: |
 |       **1M**<br>Size        |  **7**<br>Speed   | **3**<br>Stamina |               **0**<br>Stability                | **2**<br>Free Strike  |
-|      **-**<br>Immunity      | **-**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |  **-**<br>Weaknesses  |
+|      **-**<br>Immunity      | **-**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |   **-**<br>Weakness   |
 |       **0**<br>Might        | **+2**<br>Agility | **0**<br>Reason  |               **0**<br>Intuition                |   **0**<br>Presence   |
 
 > 🏹 **Bolt Launcher (Signature Ability)**
@@ -22389,7 +22389,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 | Humanoid, Soulless, War Dog |         -         |     Level 1      |                Minion Brute                 | EV 3 for four minions |
 | :-------------------------: | :---------------: | :--------------: | :-----------------------------------------: | :-------------------: |
 |       **1M**<br>Size        |  **5**<br>Speed   | **5**<br>Stamina |             **1**<br>Stability              | **2**<br>Free Strike  |
-|      **-**<br>Immunity      | **-**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weaknesses  |
+|      **-**<br>Immunity      | **-**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness   |
 |       **+2**<br>Might       | **0**<br>Agility  | **0**<br>Reason  |             **0**<br>Intuition              |   **0**<br>Presence   |
 
 > 🗡 **Banded Dagger (Signature Ability)**
@@ -22439,7 +22439,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 | Humanoid, Soulless, War Dog |         -         |      Level 2      |      Horde Brute      |         EV 4         |
 | :-------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |        **2**<br>Size        |  **5**<br>Speed   | **25**<br>Stamina |  **2**<br>Stability   | **3**<br>Free Strike |
-|      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+2**<br>Might       | **0**<br>Agility  |  **0**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
 > 🗡 **Several Arms (Signature Ability)**
@@ -22475,7 +22475,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 | Humanoid, Soulless, War Dog |         -         |      Level 1      |    Horde Artillery    |         EV 3         |
 | :-------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |       **1M**<br>Size        |  **5**<br>Speed   | **10**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
-|   **Fire 2**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|   **Fire 2**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **0**<br>Might        | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
 > 🔳 **Flamebelcher (Signature Ability)**
@@ -22511,7 +22511,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 | Humanoid, Soulless, War Dog |         -         |      Level 1      |     Horde Harrier     |         EV 3         |
 | :-------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |       **1M**<br>Size        |  **7**<br>Speed   | **15**<br>Stamina |  **0**<br>Stability   | **1**<br>Free Strike |
-|      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+1**<br>Might       | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
 > 🗡 **Chainsaw Whip (Signature Ability)**
@@ -22545,7 +22545,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 | Humanoid, Soulless, War Dog |          -          |      Level 1      |    Horde Defender     |         EV 3         |
 | :-------------------------: | :-----------------: | :---------------: | :-------------------: | :------------------: |
 |       **1M**<br>Size        |   **5**<br>Speed    | **20**<br>Stamina |  **0**<br>Stability   | **1**<br>Free Strike |
-|  **Psychic 2**<br>Immunity  | **Fly**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **Psychic 2**<br>Immunity  | **Fly**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **0**<br>Might        |  **+1**<br>Agility  |  **0**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
 
 > ❇️ **Synlirii Grafts (Signature Ability)**
@@ -22585,7 +22585,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 | Humanoid, Soulless, War Dog |         -         |      Level 3      |   Horde Controller    |         EV 5         |
 | :-------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |       **1M**<br>Size        |  **5**<br>Speed   | **20**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
-|  **Poison 3**<br>Immunity   | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **Poison 3**<br>Immunity   | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **0**<br>Might        | **+1**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
 
 > 🔳 **Plaguecaster (Signature Ability)**
@@ -22619,7 +22619,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 | Humanoid, Soulless, War Dog |         -         |      Level 2      |      Horde Hexer      |         EV 4         |
 | :-------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |       **1M**<br>Size        |  **5**<br>Speed   | **15**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
-|   **Acid 2**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|   **Acid 2**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **0**<br>Might        | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
 > 🏹 **Caustic Detonator (Signature Ability)**
@@ -22659,7 +22659,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 | Humanoid, Soulless, War Dog |         -         |      Level 2      |     Horde Support     |         EV 4         |
 | :-------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |       **1M**<br>Size        |  **5**<br>Speed   | **20**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
-|      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+2**<br>Might       | **0**<br>Agility  |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
 > 🗡 **Command Saber (Signature Ability)**
@@ -22697,7 +22697,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 | Humanoid, Soulless, War Dog |            -             |      Level 1      |    Horde Ambusher     |         EV 3         |
 | :-------------------------: | :----------------------: | :---------------: | :-------------------: | :------------------: |
 |       **1M**<br>Size        |      **5**<br>Speed      | **15**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
-|      **-**<br>Immunity      | **Teleport**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|      **-**<br>Immunity      | **Teleport**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **0**<br>Might        |    **+2**<br>Agility     |  **0**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
 > ⚔️ **Corrupted Ash Daggers (Signature Ability)**
@@ -22741,7 +22741,7 @@ At the start of any war dog's turn, you can spend Malice to activate one of the 
 | Humanoid, Soulless, War Dog |         -         |      Level 3       |        Leader         |        EV 20         |
 | :-------------------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |       **1M**<br>Size        |  **5**<br>Speed   | **120**<br>Stamina |  **2**<br>Stability   | **5**<br>Free Strike |
-|      **-**<br>Immunity      | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|      **-**<br>Immunity      | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+3**<br>Might       | **+2**<br>Agility |  **+3**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
 
 > ⚔️ **Conditioning Spear (Signature Ability)**
@@ -22851,7 +22851,7 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 | Humanoid, Soulless, War Dog |         -         |     Level 4      |                      Minion Artillery                      | EV 6 for four minions |
 | :-------------------------: | :---------------: | :--------------: | :--------------------------------------------------------: | :-------------------: |
 |       **1M**<br>Size        |  **5**<br>Speed   | **7**<br>Stamina |                     **0**<br>Stability                     | **3**<br>Free Strike  |
-| **Lightning 4**<br>Immunity | **-**<br>Movement |        -         | **Lightning spread increases by 1 square**<br>With Captain |  **-**<br>Weaknesses  |
+| **Lightning 4**<br>Immunity | **-**<br>Movement |        -         | **Lightning spread increases by 1 square**<br>With Captain |   **-**<br>Weakness   |
 |       **0**<br>Might        | **0**<br>Agility  | **+3**<br>Reason |                     **0**<br>Intuition                     |  **+2**<br>Presence   |
 
 > 🏹 **Galvanic Arc (Signature Ability)**
@@ -22877,7 +22877,7 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 | Humanoid, Soulless, War Dog |         -         |     Level 4      |               Minion Harrier                | EV 6 for four minions |
 | :-------------------------: | :---------------: | :--------------: | :-----------------------------------------: | :-------------------: |
 |       **1M**<br>Size        |  **6**<br>Speed   | **8**<br>Stamina |             **0**<br>Stability              | **2**<br>Free Strike  |
-|      **-**<br>Immunity      | **-**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weaknesses  |
+|      **-**<br>Immunity      | **-**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness   |
 |       **0**<br>Might        | **+3**<br>Agility | **0**<br>Reason  |             **+2**<br>Intuition             |   **0**<br>Presence   |
 
 > ⚔️ **Shrikegun Shot (Signature Ability)**
@@ -22903,7 +22903,7 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 | Humanoid, Soulless, War Dog |              -              |     Level 4      |            Minion Ambusher            | EV 6 for four minions |
 | :-------------------------: | :-------------------------: | :--------------: | :-----------------------------------: | :-------------------: |
 |       **1S**<br>Size        |       **5**<br>Speed        | **8**<br>Stamina |          **0**<br>Stability           | **3**<br>Free Strike  |
-|  **Poison 4**<br>Immunity   | **Climb, swim**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |  **-**<br>Weaknesses  |
+|  **Poison 4**<br>Immunity   | **Climb, swim**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |       **-1**<br>Might       |      **+3**<br>Agility      | **0**<br>Reason  |          **+2**<br>Intuition          |   **0**<br>Presence   |
 
 > ⚔️ **Poisoned Dagger (Signature Ability)**
@@ -22929,7 +22929,7 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 | Humanoid, Soulless, War Dog |           -           |      Level 6      |    Horde Artillery    |         EV 8         |
 | :-------------------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |       **1L**<br>Size        |    **5**<br>Speed     | **35**<br>Stamina |  **0**<br>Stability   | **4**<br>Free Strike |
-|  **Psychic 6**<br>Immunity  | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **Psychic 6**<br>Immunity  | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **0**<br>Might        |   **+3**<br>Agility   | **+2**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
 
 > 🏹 **Longarm Shrikegun (Signature Ability)**
@@ -22969,7 +22969,7 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 | Humanoid, Soulless, War Dog |         -         |      Level 5      |    Horde Defender     |         EV 7         |
 | :-------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |       **1L**<br>Size        |  **5**<br>Speed   | **40**<br>Stamina |  **2**<br>Stability   | **3**<br>Free Strike |
-|      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+3**<br>Might       | **-1**<br>Agility |  **0**<br>Reason  |  **+3**<br>Intuition  |  **+1**<br>Presence  |
 
 > 🔳 **Ripper Shrikegun (Signature Ability)**
@@ -23007,7 +23007,7 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 | Soulless, War Dog |         -         |      Level 4      |      Horde Brute      |         EV 6         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |   **2**<br>Size   |  **8**<br>Speed   | **53**<br>Stamina |  **2**<br>Stability   | **3**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+3**<br>Might  | **+3**<br>Agility | **-1**<br>Reason  |  **-2**<br>Intuition  |  **0**<br>Presence   |
 
 > 🗡 **Fuse-Iron Lance (Signature Ability)**
@@ -23049,7 +23049,7 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 | Humanoid, Soulless, War Dog |         -         |      Level 4      |    Horde Ambusher     |         EV 6         |
 | :-------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |       **1M**<br>Size        |  **8**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-|      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+1**<br>Might       | **+3**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
 
 > 🗡 **Needle-Knife (Signature Ability)**
@@ -23089,7 +23089,7 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 | Humanoid, Soulless, War Dog |         -         |      Level 5      |     Horde Harrier     |         EV 7         |
 | :-------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |       **1M**<br>Size        |  **6**<br>Speed   | **35**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-|      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+1**<br>Might       | **+3**<br>Agility |  **0**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
 
 > ⚔️ **Fuse-Iron Knives (Signature Ability)**
@@ -23129,7 +23129,7 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 | Humanoid, Soulless, War Dog |         -         |      Level 6      |   Horde Controller    |         EV 8         |
 | :-------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |       **1M**<br>Size        |  **5**<br>Speed   | **35**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-|      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+1**<br>Might       | **+1**<br>Agility | **+2**<br>Reason  |  **+3**<br>Intuition  |  **+1**<br>Presence  |
 
 > 🏹 **Snaking Entrails (Signature Ability)**
@@ -23165,7 +23165,7 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 | Humanoid, Soulless, War Dog |         -         |      Level 5      |      Horde Hexer      |         EV 7         |
 | :-------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |       **1M**<br>Size        |  **5**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-|      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **0**<br>Might        | **0**<br>Agility  | **+2**<br>Reason  |  **+3**<br>Intuition  |  **0**<br>Presence   |
 
 > 🏹 **Mark of Agony (Signature Ability)**
@@ -23209,7 +23209,7 @@ At the start of any level 4 or higher war dog's turn, you can spend Malice to ac
 | Humanoid, Soulless, War Dog |         -         |      Level 5      |     Horde Support     |         EV 7         |
 | :-------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |       **1L**<br>Size        |  **5**<br>Speed   | **35**<br>Stamina |  **1**<br>Stability   | **3**<br>Free Strike |
-|      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **0**<br>Might        | **+1**<br>Agility | **+3**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
 
 > 🏹 **Syringe Crossbow (Signature Ability)**
@@ -23257,7 +23257,7 @@ The war doc and the iron priest are among the most zealous war dogs in their ran
 | Humanoid, Soulless, War Dog |         -         |      Level 6       |        Leader         |        EV 32         |
 | :-------------------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |       **1M**<br>Size        |  **7**<br>Speed   | **180**<br>Stamina |  **2**<br>Stability   | **7**<br>Free Strike |
-|      **-**<br>Immunity      | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|      **-**<br>Immunity      | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+4**<br>Might       | **+3**<br>Agility |  **+2**<br>Reason  |  **+3**<br>Intuition  |  **+4**<br>Presence  |
 
 > ⚔️ **Houndblade (Signature Ability)**
@@ -23369,7 +23369,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 | Humanoid, Soulless, War Dog |         -         |      Level 7      |                  Minion Brute                  | EV 9 for four minions |
 | :-------------------------: | :---------------: | :---------------: | :--------------------------------------------: | :-------------------: |
 |        **2**<br>Size        |  **5**<br>Speed   | **13**<br>Stamina |               **2**<br>Stability               | **4**<br>Free Strike  |
-|      **-**<br>Immunity      | **-**<br>Movement |         -         | **+3 damage bonus to strikes**<br>With Captain |  **-**<br>Weaknesses  |
+|      **-**<br>Immunity      | **-**<br>Movement |         -         | **+3 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |       **+4**<br>Might       | **+1**<br>Agility | **-2**<br>Reason  |              **-1**<br>Intuition               |  **+2**<br>Presence   |
 
 > 🗡 **Greatsword and Roar (Signature Ability)**
@@ -23395,7 +23395,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 | Humanoid, Soulless, War Dog |         -         |      Level 7      |                 Minion Ambusher                 | EV 9 for four minions |
 | :-------------------------: | :---------------: | :---------------: | :---------------------------------------------: | :-------------------: |
 |       **1S**<br>Size        |  **6**<br>Speed   | **12**<br>Stamina |               **0**<br>Stability                | **4**<br>Free Strike  |
-|      **-**<br>Immunity      | **-**<br>Movement |         -         | **+5 bonus to ranged distance**<br>With Captain |  **-**<br>Weaknesses  |
+|      **-**<br>Immunity      | **-**<br>Movement |         -         | **+5 bonus to ranged distance**<br>With Captain |   **-**<br>Weakness   |
 |       **-1**<br>Might       | **+2**<br>Agility | **+4**<br>Reason  |               **+3**<br>Intuition               |  **+1**<br>Presence   |
 
 > 🏹 **Fuse-Iron Bomb (Signature Ability)**
@@ -23421,7 +23421,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 | Humanoid, Soulless, War Dog |         -         |      Level 7      |              Minion Artillery               | EV 9 for four minions |
 | :-------------------------: | :---------------: | :---------------: | :-----------------------------------------: | :-------------------: |
 |       **1M**<br>Size        |  **5**<br>Speed   | **10**<br>Stamina |             **0**<br>Stability              | **4**<br>Free Strike  |
-|      **-**<br>Immunity      | **-**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weaknesses  |
+|      **-**<br>Immunity      | **-**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness   |
 |       **+1**<br>Might       | **+4**<br>Agility | **+3**<br>Reason  |             **+1**<br>Intuition             |  **+1**<br>Presence   |
 
 > 🏹 **Canis Shrikegun (Signature Ability)**
@@ -23447,7 +23447,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 | Humanoid, Soulless, War Dog |          -          |      Level 8      |     Horde Harrier     |        EV 10         |
 | :-------------------------: | :-----------------: | :---------------: | :-------------------: | :------------------: |
 |       **1M**<br>Size        |   **8**<br>Speed    | **50**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-|      **-**<br>Immunity      | **Fly**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|      **-**<br>Immunity      | **Fly**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **0**<br>Might        |  **+4**<br>Agility  | **+1**<br>Reason  |  **+3**<br>Intuition  |  **+1**<br>Presence  |
 
 > 🗡 **Dive Bomb (Signature Ability)**
@@ -23491,7 +23491,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 | Soulless, War Dog |         -         |      Level 8      |    Horde Artillery    |        EV 10         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1L**<br>Size   |  **0**<br>Speed   | **72**<br>Stamina |  **5**<br>Stability   | **4**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+4**<br>Might  | **-2**<br>Agility | **+2**<br>Reason  |  **+3**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🏹 **Biokinetic Ballista (Signature Ability)**
@@ -23529,7 +23529,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 | Humanoid, Soulless, War Dog |            -             |      Level 7      |    Horde Ambusher     |         EV 9         |
 | :-------------------------: | :----------------------: | :---------------: | :-------------------: | :------------------: |
 |       **1M**<br>Size        |      **6**<br>Speed      | **45**<br>Stamina |  **0**<br>Stability   | **4**<br>Free Strike |
-|      **-**<br>Immunity      | **Teleport**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|      **-**<br>Immunity      | **Teleport**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+1**<br>Might       |    **+4**<br>Agility     | **+4**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
 
 > ⚔️ **Flesh-Eater Knife (Signature Ability)**
@@ -23567,7 +23567,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 | Humanoid, Soulless, War Dog |         -         |      Level 7       |      Elite Brute      |        EV 36         |
 | :-------------------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |        **2**<br>Size        |  **5**<br>Speed   | **200**<br>Stamina |  **4**<br>Stability   | **7**<br>Free Strike |
-|      **-**<br>Immunity      | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|      **-**<br>Immunity      | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+4**<br>Might       | **+2**<br>Agility |  **+1**<br>Reason  |  **+1**<br>Intuition  |  **+3**<br>Presence  |
 
 > 🗡 **Pile Bunker Gauntlet (Signature Ability)**
@@ -23603,7 +23603,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 | Humanoid, Soulless, War Dog |         -         |      Level 8      |      Horde Hexer      |        EV 10         |
 | :-------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |       **1M**<br>Size        |  **5**<br>Speed   | **45**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-|   **Fire 8**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|   **Fire 8**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **0**<br>Might        | **+2**<br>Agility | **+3**<br>Reason  |  **+4**<br>Intuition  |  **+1**<br>Presence  |
 
 > 🔳 **Twin Flamebelchers (Signature Ability)**
@@ -23641,7 +23641,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 | Humanoid, Soulless, War Dog |           -            |      Level 8      |   Horde Controller    |        EV 10         |
 | :-------------------------: | :--------------------: | :---------------: | :-------------------: | :------------------: |
 |       **1M**<br>Size        |     **5**<br>Speed     | **45**<br>Stamina |  **3**<br>Stability   | **3**<br>Free Strike |
-|      **-**<br>Immunity      | **Burrow**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|      **-**<br>Immunity      | **Burrow**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+2**<br>Might       |   **+1**<br>Agility    | **+4**<br>Reason  |  **+4**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🔳 **Earthwave (Signature Ability)**
@@ -23681,7 +23681,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 | Humanoid, Soulless, War Dog |         -         |      Level 8      |     Horde Support     |        EV 10         |
 | :-------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |       **1M**<br>Size        |  **5**<br>Speed   | **50**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-|      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+2**<br>Might       | **+1**<br>Agility | **+1**<br>Reason  |  **+4**<br>Intuition  |  **+4**<br>Presence  |
 
 > 🔳 **Houndcannon (Signature Ability)**
@@ -23719,7 +23719,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 | Soulless, War Dog |             -              |      Level 8      |    Horde Defender     |        EV 10         |
 | :---------------: | :------------------------: | :---------------: | :-------------------: | :------------------: |
 |   **2**<br>Size   |       **5**<br>Speed       | **82**<br>Stamina |  **2**<br>Stability   | **3**<br>Free Strike |
-| **-**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+4**<br>Might  |      **0**<br>Agility      | **+4**<br>Reason  |  **+2**<br>Intuition  |  **+3**<br>Presence  |
 
 > ❇️ **Grasping Tonguetacles (Signature Ability)**
@@ -23761,7 +23761,7 @@ At the start of any level 7 or higher war dog's turn, you can spend Malice to ac
 | Humanoid, Soulless, War Dog |            -             |      Level 9       |        Leader         |        EV 44         |
 | :-------------------------: | :----------------------: | :----------------: | :-------------------: | :------------------: |
 |       **1M**<br>Size        |      **7**<br>Speed      | **240**<br>Stamina |  **1**<br>Stability   | **9**<br>Free Strike |
-|      **-**<br>Immunity      | **Teleport**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|      **-**<br>Immunity      | **Teleport**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+1**<br>Might       |    **+3**<br>Agility     |  **+5**<br>Reason  |  **+4**<br>Intuition  |  **+3**<br>Presence  |
 
 > 🏹 **Stunning Surge (Signature Ability)**
@@ -23885,7 +23885,7 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 | Humanoid, Soulless, War Dog |          -          |     Level 10      |            Minion Harrier             | EV 12 for four minions |
 | :-------------------------: | :-----------------: | :---------------: | :-----------------------------------: | :--------------------: |
 |       **1M**<br>Size        |   **7**<br>Speed    | **15**<br>Stamina |          **2**<br>Stability           |  **4**<br>Free Strike  |
-|      **-**<br>Immunity      | **Fly**<br>Movement |         -         | **+3 bonus to speed**<br>With Captain |  **-**<br>Weaknesses   |
+|      **-**<br>Immunity      | **Fly**<br>Movement |         -         | **+3 bonus to speed**<br>With Captain |   **-**<br>Weakness    |
 |       **+5**<br>Might       |  **+4**<br>Agility  | **+2**<br>Reason  |          **+3**<br>Intuition          |   **+2**<br>Presence   |
 
 > 🗡 **Jumplance (Signature Ability)**
@@ -23913,7 +23913,7 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 | Humanoid, Soulless, War Dog |         -         |     Level 10      |                Minion Artillery                | EV 12 for four minions |
 | :-------------------------: | :---------------: | :---------------: | :--------------------------------------------: | :--------------------: |
 |       **1M**<br>Size        |  **5**<br>Speed   | **14**<br>Stamina |               **0**<br>Stability               |  **5**<br>Free Strike  |
-|      **-**<br>Immunity      | **-**<br>Movement |         -         | **+4 damage bonus to strikes**<br>With Captain |  **-**<br>Weaknesses   |
+|      **-**<br>Immunity      | **-**<br>Movement |         -         | **+4 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness    |
 |       **+1**<br>Might       | **+5**<br>Agility | **+3**<br>Reason  |              **+5**<br>Intuition               |   **+2**<br>Presence   |
 
 > 🏹 **Fuse-Iron Rocket (Signature Ability)**
@@ -23939,7 +23939,7 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 | Humanoid, Soulless, War Dog |         -         |     Level 10      |                Minion Hexer                 | EV 12 for four minions |
 | :-------------------------: | :---------------: | :---------------: | :-----------------------------------------: | :--------------------: |
 |       **1M**<br>Size        |  **5**<br>Speed   | **14**<br>Stamina |             **0**<br>Stability              |  **4**<br>Free Strike  |
-| **Psychic 10**<br>Immunity  | **-**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weaknesses   |
+| **Psychic 10**<br>Immunity  | **-**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness    |
 |       **+2**<br>Might       | **+2**<br>Agility | **+4**<br>Reason  |             **+3**<br>Intuition             |   **+5**<br>Presence   |
 
 > 🏹 **Call to Self-Sabotage (Signature Ability)**
@@ -23965,7 +23965,7 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 | Humanoid, Soulless, War Dog |         -         |      Level 10      |    Elite Defender     |         EV 48         |
 | :-------------------------: | :---------------: | :----------------: | :-------------------: | :-------------------: |
 |       **1M**<br>Size        |  **5**<br>Speed   | **260**<br>Stamina |  **3**<br>Stability   | **10**<br>Free Strike |
-|  **Damage 3**<br>Immunity   | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weaknesses  |
+|  **Damage 3**<br>Immunity   | **-**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |       **+5**<br>Might       | **+2**<br>Agility |  **+4**<br>Reason  |  **+3**<br>Intuition  |  **+4**<br>Presence   |
 
 > 🗡 **Inspiring Strike (Signature Ability)**
@@ -24027,7 +24027,7 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 | Humanoid, Soulless, War Dog |         -         |      Level 10      |      Elite Brute      |         EV 48         |
 | :-------------------------: | :---------------: | :----------------: | :-------------------: | :-------------------: |
 |       **1L**<br>Size        |  **5**<br>Speed   | **260**<br>Stamina |  **2**<br>Stability   | **10**<br>Free Strike |
-|      **-**<br>Immunity      | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weaknesses  |
+|      **-**<br>Immunity      | **-**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |       **+5**<br>Might       | **+4**<br>Agility |  **+1**<br>Reason  |  **+4**<br>Intuition  |  **+2**<br>Presence   |
 
 > 🗡 **Houndaxe (Signature Ability)**
@@ -24095,7 +24095,7 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 | Soulless, War Dog |         -         |      Level 10      |   Elite Controller    |         EV 48         |
 | :---------------: | :---------------: | :----------------: | :-------------------: | :-------------------: |
 |   **2**<br>Size   |  **10**<br>Speed  | **253**<br>Stamina |  **3**<br>Stability   | **10**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |  **+2**<br>Might  | **+1**<br>Agility |  **+5**<br>Reason  |  **+4**<br>Intuition  |  **+1**<br>Presence   |
 
 > 🔳 **Portal to the Firing Line (Signature Ability)**
@@ -24169,7 +24169,7 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 | Humanoid, Soulless, War Dog |             -              |      Level 10      |      Elite Hexer      |         EV 48         |
 | :-------------------------: | :------------------------: | :----------------: | :-------------------: | :-------------------: |
 |       **1M**<br>Size        |       **5**<br>Speed       | **220**<br>Stamina |  **1**<br>Stability   | **10**<br>Free Strike |
-|      **-**<br>Immunity      | **Fly, hover**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weaknesses  |
+|      **-**<br>Immunity      | **Fly, hover**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |       **+1**<br>Might       |     **+3**<br>Agility      |  **+3**<br>Reason  |  **+4**<br>Intuition  |  **+5**<br>Presence   |
 
 > 🏹 **Soulbind (Signature Ability)**
@@ -24249,7 +24249,7 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 | Humanoid, Soulless, War Dog |         -         |      Level 10      |        Leader         |         EV 48         |
 | :-------------------------: | :---------------: | :----------------: | :-------------------: | :-------------------: |
 |       **1M**<br>Size        |  **5**<br>Speed   | **260**<br>Stamina |  **2**<br>Stability   | **10**<br>Free Strike |
-|      **-**<br>Immunity      | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weaknesses  |
+|      **-**<br>Immunity      | **-**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |       **+4**<br>Might       | **+4**<br>Agility |  **+5**<br>Reason  |  **+5**<br>Intuition  |  **+5**<br>Presence   |
 
 > ⚔️ **Houndgun and Houndblade (Signature Ability)**
@@ -24373,7 +24373,7 @@ At the start of a werewolf's turn, you can spend Malice to activate one of the f
 | Accursed, Humanoid, Werebeast |           -            |      Level 1       |         Solo          |        EV 36         |
 | :---------------------------: | :--------------------: | :----------------: | :-------------------: | :------------------: |
 |        **1M**<br>Size         |     **7**<br>Speed     | **200**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-|       **-**<br>Immunity       | \*\*- \*\*<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|       **-**<br>Immunity       | \*\*- \*\*<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |        **+3**<br>Might        |   **+2**<br>Agility    |  **-1**<br>Reason  |  **+1**<br>Intuition  |  **+1**<br>Presence  |
 
 > ☠️ **Solo Monster**
@@ -24535,7 +24535,7 @@ At the start of any wyvern's turn, you can spend Malice to activate one of the f
 |     Beast, Wyvern      |          -          |      Level 4       |    Elite Ambusher     |        EV 24         |
 | :--------------------: | :-----------------: | :----------------: | :-------------------: | :------------------: |
 |     **2**<br>Size      |   **9**<br>Speed    | **120**<br>Stamina |  **2**<br>Stability   | **6**<br>Free Strike |
-| **Acid 5**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Acid 5**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |    **+2**<br>Might     |  **+3**<br>Agility  |  **-1**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
 
 > 🗡 **Agonizing Stinger (Signature Ability)**
@@ -24597,7 +24597,7 @@ At the start of any wyvern's turn, you can spend Malice to activate one of the f
 |     Beast, Wyvern      |          -          |      Level 4       |      Elite Brute      |        EV 24         |
 | :--------------------: | :-----------------: | :----------------: | :-------------------: | :------------------: |
 |     **3**<br>Size      |   **7**<br>Speed    | **140**<br>Stamina |  **3**<br>Stability   | **6**<br>Free Strike |
-| **Acid 5**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Acid 5**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |    **+3**<br>Might     |  **+2**<br>Agility  |  **-1**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
 
 > 🗡 **Sedating Stinger (Signature Ability)**
@@ -24701,7 +24701,7 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 | Horror, Overmind  |             -              |      Level 6       |         Solo          |        EV 96         |
 | :---------------: | :------------------------: | :----------------: | :-------------------: | :------------------: |
 |   **3**<br>Size   |       **5**<br>Speed       | **450**<br>Stamina |  **2**<br>Stability   | **7**<br>Free Strike |
-| **-**<br>Immunity | **Fly, hover**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **Fly, hover**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+4**<br>Might  |     **+2**<br>Agility      |  **+4**<br>Reason  |  **+3**<br>Intuition  |  **+3**<br>Presence  |
 
 > ☠️ **Solo Monster**
@@ -24807,7 +24807,7 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 | Eyestalk, Horror, Overmind |             -              |      Level 6      |      Controller       |         EV -         |
 | :------------------------: | :------------------------: | :---------------: | :-------------------: | :------------------: |
 |       **1M**<br>Size       |       **5**<br>Speed       | **30**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-|     **-**<br>Immunity      | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|     **-**<br>Immunity      | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **-1**<br>Might       |     **+1**<br>Agility      | **+4**<br>Reason  |  **+1**<br>Intuition  |  **-1**<br>Presence  |
 
 > 🏹 **Compulsion Beam (Signature Ability)**
@@ -24833,7 +24833,7 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 | Eyestalk, Horror, Overmind |             -              |      Level 6      |       Artillery       |         EV -         |
 | :------------------------: | :------------------------: | :---------------: | :-------------------: | :------------------: |
 |       **1M**<br>Size       |       **5**<br>Speed       | **30**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-|     **-**<br>Immunity      | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|     **-**<br>Immunity      | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **-1**<br>Might       |     **+1**<br>Agility      | **+4**<br>Reason  |  **+1**<br>Intuition  |  **-1**<br>Presence  |
 
 > 🔳 **Explosion (Signature Ability)**
@@ -24857,7 +24857,7 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 | Eyestalk, Horror, Overmind |             -              |      Level 6      |      Controller       |         EV -         |
 | :------------------------: | :------------------------: | :---------------: | :-------------------: | :------------------: |
 |       **1M**<br>Size       |       **5**<br>Speed       | **30**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-|     **-**<br>Immunity      | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|     **-**<br>Immunity      | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **-1**<br>Might       |     **+1**<br>Agility      | **+4**<br>Reason  |  **+1**<br>Intuition  |  **-1**<br>Presence  |
 
 > 🏹 **Telekinetic Beam (Signature Ability)**
@@ -24881,7 +24881,7 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 | Eyestalk, Horror, Overmind |             -              |      Level 6      |         Hexer         |         EV -         |
 | :------------------------: | :------------------------: | :---------------: | :-------------------: | :------------------: |
 |       **1M**<br>Size       |       **5**<br>Speed       | **30**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-|     **-**<br>Immunity      | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|     **-**<br>Immunity      | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **-1**<br>Might       |     **+1**<br>Agility      | **+4**<br>Reason  |  **+1**<br>Intuition  |  **-1**<br>Presence  |
 
 > 🏹 **Necro Beam (Signature Ability)**
@@ -24907,7 +24907,7 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 | Eyestalk, Horror, Overmind |             -              |      Level 6      |         Hexer         |         EV -         |
 | :------------------------: | :------------------------: | :---------------: | :-------------------: | :------------------: |
 |       **1M**<br>Size       |       **5**<br>Speed       | **30**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-|     **-**<br>Immunity      | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|     **-**<br>Immunity      | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **-1**<br>Might       |     **+1**<br>Agility      | **+4**<br>Reason  |  **+1**<br>Intuition  |  **-1**<br>Presence  |
 
 > 🔳 **Toxic Vapors (Signature Ability)**
@@ -24931,7 +24931,7 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 | Eyestalk, Horror, Overmind |             -              |      Level 6      |       Artillery       |         EV -         |
 | :------------------------: | :------------------------: | :---------------: | :-------------------: | :------------------: |
 |       **1M**<br>Size       |       **5**<br>Speed       | **30**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-|     **-**<br>Immunity      | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|     **-**<br>Immunity      | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **-1**<br>Might       |     **+1**<br>Agility      | **+4**<br>Reason  |  **+1**<br>Intuition  |  **-1**<br>Presence  |
 
 > 🔳 **Lightning Beam (Signature Ability)**
@@ -27078,7 +27078,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 |    Angulotl, Humanoid    |                -                 |      Level 1      |   Harrier Retainer    |         EV -         |
 | :----------------------: | :------------------------------: | :---------------: | :-------------------: | :------------------: |
 |      **1S**<br>Size      |          **6**<br>Speed          | **21**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
-| **Poison 2**<br>Immunity | \*\*Climb, swim \*\*<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Poison 2**<br>Immunity | \*\*Climb, swim \*\*<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |     **+1**<br>Might      |        **+2**<br>Agility         |  **0**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
 > 🗡 **Leapfrog (Signature Ability)**
@@ -27146,7 +27146,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 | Bugbear, Fey, Goblin, Humanoid |         -         |      Level 2      |   Ambusher Retainer   |         EV -         |
 | :----------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |         **1L**<br>Size         |  **5**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
-|       **-**<br>Immunity        | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|       **-**<br>Immunity        | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |        **+2**<br>Might         | **+2**<br>Agility |  **0**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
 
 > 🗡 **Bear Hug (Signature Ability)**
@@ -27236,7 +27236,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 |    Devil, Infernal     |          -          |      Level 5      |    Hexer Retainer     |         EV -         |
 | :--------------------: | :-----------------: | :---------------: | :-------------------: | :------------------: |
 |     **1M**<br>Size     |   **6**<br>Speed    | **57**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-| **Fire 5**<br>Immunity | **Fly**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Fire 5**<br>Immunity | **Fly**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |    **+3**<br>Might     |  **+2**<br>Agility  | **+3**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🏹 **Black Flame (Signature Ability)**
@@ -27296,7 +27296,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 | Draconian, Dragon, Humanoid  |          -          |      Level 6      |   Defender Retainer   |         EV -         |
 | :--------------------------: | :-----------------: | :---------------: | :-------------------: | :------------------: |
 |        **1M**<br>Size        |   **5**<br>Speed    | **66**<br>Stamina |  **4**<br>Stability   | **6**<br>Free Strike |
-| **Corruption 6**<br>Immunity | **Fly**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Corruption 6**<br>Immunity | **Fly**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+3**<br>Might        |  **+2**<br>Agility  | **+1**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
 > 🗡 **Baneful Blade (Signature Ability)**
@@ -27362,7 +27362,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 |  Dwarf, Humanoid  |         -         |      Level 1      |    Hexer Retainer     |         EV -         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **21**<br>Stamina |  **3**<br>Stability   | **3**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **0**<br>Agility  |  **0**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
 
 > 🏹 **Armor-Piercing Shell (Signature Ability)**
@@ -27434,7 +27434,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 | Fey, High Elf, Humanoid |         -         |      Level 1      |  Controller Retainer  |         EV -         |
 | :---------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |     **1M**<br>Size      |  **5**<br>Speed   | **21**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
-|    **-**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|    **-**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |     **-1**<br>Might     | **+1**<br>Agility | **+2**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
 > 🏹 **Summer's Bolt (Signature Ability)**
@@ -27500,7 +27500,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 | Fey, Humanoid, Shadow Elf |           -           |      Level 4      |   Ambusher Retainer   |         EV -         |
 | :-----------------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |      **1M**<br>Size       |    **5**<br>Speed     | **48**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-|     **-**<br>Immunity     | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|     **-**<br>Immunity     | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **+1**<br>Might      |   **+3**<br>Agility   |  **0**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
 
 > ⚔️ **Gloom Dagger (Signature Ability)**
@@ -27566,7 +27566,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 | Fey, Humanoid, Wode Elf |         -         |      Level 1      |  Artillery Retainer   |         EV -         |
 | :---------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |     **1M**<br>Size      |  **7**<br>Speed   | **21**<br>Stamina |  **1**<br>Stability   | **2**<br>Free Strike |
-|    **-**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|    **-**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |     **0**<br>Might      | **+2**<br>Agility |  **0**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
 
 > 🏹 **Longshot (Signature Ability)**
@@ -27632,7 +27632,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 |  Abyssal, Gnoll   |         -         |      Level 2      |   Harrier Retainer    |        EV 60         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **7**<br>Speed   | **30**<br>Stamina |  **1**<br>Stability   | **3**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+1**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
 > 🗡 **Gnash (Signature Ability)**
@@ -27694,7 +27694,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 | Goblin, Humanoid  |           -           |      Level 1      |   Harrier Retainer    |         EV -         |
 | :---------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |  **1S**<br>Size   |    **5**<br>Speed     | **21**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
-| **-**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **-1**<br>Might  |   **+1**<br>Agility   |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
 > 🗡 **Stabbity Stab (Signature Ability)**
@@ -27765,7 +27765,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 | :-----------------------------------: | :--------------------: | :---------------: | :-------------------: | :------------------: |
 |            **1M**<br>Size             |     **5**<br>Speed     | **48**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
 |            **1M**<br>Size             |     **5**<br>Speed     | **48**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-|        **Fire 4**<br>Immunity         | \*\*- \*\*<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|        **Fire 4**<br>Immunity         | \*\*- \*\*<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+1**<br>Might            |    **0**<br>Agility    | **+2**<br>Reason  |  **+1**<br>Intuition  |  **+3**<br>Presence  |
 
 > 🏹 **Fire Curse (Signature Ability)**
@@ -27831,7 +27831,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 |  Human, Humanoid  |         -         |      Level 1      |   Defender Retainer   |         EV -         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **21**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **0**<br>Agility  |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
 > 🗡 **Chop (Signature Ability)**
@@ -27899,7 +27899,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 | Humanoid, Kobold  |         -         |      Level 1       |   Defender Retainer   |         EV -         |
 | :---------------: | :---------------: | :----------------: | :-------------------: | :------------------: |
 |   **2**<br>Size   |  **5**<br>Speed   | **300**<br>Stamina |  **4**<br>Stability   | **6**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+1**<br>Agility |  **0**<br>Reason   |  **0**<br>Intuition   |  **0**<br>Presence   |
 
 > 🗡 **Gladius (Signature Ability)**
@@ -27961,7 +27961,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 | Accursed, Humanoid, Minotaur |         -         |      Level 3      |    Brute Retainer     |         EV -         |
 | :--------------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |        **2**<br>Size         |  **6**<br>Speed   | **39**<br>Stamina |  **2**<br>Stability   | **6**<br>Free Strike |
-|      **-**<br>Immunity       | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|      **-**<br>Immunity       | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+2**<br>Might        | **+1**<br>Agility |  **0**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
 
 > 🗡 **Gore (Signature Ability)**
@@ -28031,7 +28031,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 |   Humanoid, Orc   |         -         |      Level 1      |   Harrier Retainer    |         EV -         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **8**<br>Speed   | **21**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
 > ⚔️ **Notched Axe (Signature Ability)**
@@ -28091,7 +28091,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 | Humanoid, Radenwight |           -           |      Level 1      |   Support Retainer    |         EV -         |
 | :------------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |    **1S**<br>Size    |    **5**<br>Speed     | **21**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
-|  **-**<br>Immunity   | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **-**<br>Immunity   | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |    **0**<br>Might    |   **+2**<br>Agility   |  **0**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
 
 > ⚔️ **Dagger's Bite (Signature Ability)**
@@ -28157,7 +28157,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 |   Humanoid, Time Raider   |         -         |      Level 3      |   Support Retainer    |         EV -         |
 | :-----------------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |      **1M**<br>Size       |  **5**<br>Speed   | **39**<br>Stamina |  **0**<br>Stability   | **4**<br>Free Strike |
-| **Psychic 5**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Psychic 5**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **0**<br>Might       | **+2**<br>Agility | **+2**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
 
 > 🏹 **Laser Lancet (Signature Ability)**
@@ -28220,11 +28220,11 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 **<span class="steel-compendium-statblock">Troll Mercenary</span>**
 
-|   Giant, Troll    |           -            |      Level 5      |    Brute Retainer     |                EV -                 |
-| :---------------: | :--------------------: | :---------------: | :-------------------: | :---------------------------------: |
-|   **2**<br>Size   |     **6**<br>Speed     | **57**<br>Stamina |  **4**<br>Stability   |        **6**<br>Free Strike         |
-| **-**<br>Immunity | \*\*- \*\*<br>Movement |         -         | **-**<br>With Captain | \*\*Acid 5, fire \*\*<br>Weaknesses |
-|  **+3**<br>Might  |   **+1**<br>Agility    | **-1**<br>Reason  |  **0**<br>Intuition   |         **+1**<br>Presence          |
+|   Giant, Troll    |           -            |      Level 5      |    Brute Retainer     |               EV -                |
+| :---------------: | :--------------------: | :---------------: | :-------------------: | :-------------------------------: |
+|   **2**<br>Size   |     **6**<br>Speed     | **57**<br>Stamina |  **4**<br>Stability   |       **6**<br>Free Strike        |
+| **-**<br>Immunity | \*\*- \*\*<br>Movement |         -         | **-**<br>With Captain | \*\*Acid 5, fire \*\*<br>Weakness |
+|  **+3**<br>Might  |   **+1**<br>Agility    | **-1**<br>Reason  |  **0**<br>Intuition   |        **+1**<br>Presence         |
 
 > 🗡 **Big Bite (Signature Ability)**
 >
@@ -28281,7 +28281,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 | Undead, Soulless  |         -         |      Level 1      |    Brute Retainer     |         EV -         |
 | :---------------: | :---------------: | :---------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |  **5**<br>Speed   | **21**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **-1**<br>Agility | **-3**<br>Reason  |  **-1**<br>Intuition  |  **0**<br>Presence   |
 
 > 🗡 **Lurching Swipe (Signature Ability)**
@@ -28353,7 +28353,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 |            Undead, Soulless            |             -              |      Level 1      |    Hexer Retainer     |         EV -         |
 | :------------------------------------: | :------------------------: | :---------------: | :-------------------: | :------------------: |
 |             **1M**<br>Size             |       **5**<br>Speed       | **21**<br>Stamina |  **1**<br>Stability   | **2**<br>Free Strike |
-| **Corruption 3, poison 3**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **Corruption 3, poison 3**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **-4**<br>Might             |     **+1**<br>Agility      |  **0**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
 
 > 🏹 **Chill of Death (Signature Ability)**
@@ -28425,7 +28425,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 |  Undead, Vampire  |           -           |      Level 4      |   Harrier Retainer    |         EV -         |
 | :---------------: | :-------------------: | :---------------: | :-------------------: | :------------------: |
 |  **1M**<br>Size   |    **5**<br>Speed     | **48**<br>Stamina |  **0**<br>Stability   | **4**<br>Free Strike |
-| **-**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+| **-**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  |   **+3**<br>Agility   |  **0**<br>Reason  |  **0**<br>Intuition   |  **+3**<br>Presence  |
 
 > 🗡 **Flashing Fangs (Signature Ability)**
