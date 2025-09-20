@@ -83,7 +83,8 @@ features:
           fall without taking damage.
   - type: feature
     feature_type: ability
-    name: ❗️**Juke**
+    name: Juke
+    icon: ❗️
     keywords:
       - "-"
     usage: Triggered action
