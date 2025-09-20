@@ -80,5 +80,5 @@ features:
     name: Disorganized
     icon: ⭐️
     effects:
-      - effect: Allies can't flank with the crawling cla.
+      - effect: Allies can't flank with the crawling claw.
 ~~~

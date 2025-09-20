@@ -88,7 +88,7 @@ features:
         effect: The equivite moves up to their speed and ignores difficult terrain. Any
           mundane size 1 object whose space they move through is destroyed. The
           equivite makes one power roll against each enemy whose space they move
-          through for the first time
+          through for the first time.
       - roll: Power Roll + 3
         tier1: 2 damage; push 1
         tier2: 4 damage; push 2

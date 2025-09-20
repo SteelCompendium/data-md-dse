@@ -90,7 +90,7 @@ features:
         tier1: 2 corruption damage
         tier2: 4 corruption damage
         tier3: 5 corruption damage; one ally in the area can end one effect on them that
-          can be ended by a saving throw, and can give that effect to one targe
+          can be ended by a saving throw, and can give that effect to one target
       - name: Effect
         effect: The tormentite regains 2 Stamina for each creature targeted by this
           ability.

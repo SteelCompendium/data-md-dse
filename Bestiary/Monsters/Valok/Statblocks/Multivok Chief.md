@@ -102,7 +102,7 @@ features:
     target: One ally
     effects:
       - name: Effect
-        effect: The target shifts up to their speed and can use a main action
+        effect: The target shifts up to their speed and can use a main action.
   - type: feature
     feature_type: ability
     name: Quick Shield
@@ -131,7 +131,7 @@ features:
     name: Crafted to Perfection
     icon: ⭐️
     effects:
-      - effect: The chief's shape can't be changed by any external effect
+      - effect: The chief's shape can't be changed by any external effect.
   - type: feature
     feature_type: trait
     name: Valiar Might

@@ -121,7 +121,7 @@ features:
     icon: ⭐️
     effects:
       - effect: The bandit chief ignores concealment if it's granted by a supernatural
-          effect
+          effect.
   - type: feature
     feature_type: ability
     name: Shoot!

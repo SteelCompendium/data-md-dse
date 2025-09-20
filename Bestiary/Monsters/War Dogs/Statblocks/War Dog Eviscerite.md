@@ -63,7 +63,7 @@ features:
       - Weapon
     usage: Main action
     distance: Melee 3
-    target: One creature and object
+    target: One creature or object
     effects:
       - roll: Power Roll + 2
         tier1: 3 damage

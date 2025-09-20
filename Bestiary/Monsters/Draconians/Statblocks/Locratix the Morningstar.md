@@ -69,9 +69,9 @@ features:
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 3
-        tier1: 1 10 damage
-        tier2: 2 15 damage; M < 1 slowed (save ends)
-        tier3: 3 18 damage; M < 2 slowed (save ends)
+        tier1: 10 damage
+        tier2: 15 damage; M < 1 slowed (save ends)
+        tier3: 18 damage; M < 2 slowed (save ends)
       - name: Effect
         effect: Locratix deals 6 damage to each creature or object in a 2 x 1 line
           behind the target.

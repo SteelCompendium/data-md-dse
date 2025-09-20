@@ -110,8 +110,8 @@ features:
     name: Hrraaaaaagh!
     icon: ❗️
     keywords:
-      - ree triggered action
-    usage: "-"
+      - "-"
+    usage: Free triggered action
     distance: Self
     target: Self
     trigger: The juggernaut takes damage.

@@ -145,7 +145,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 
 > ⭐️ **Disorganized**
 >
-> Allies can't flank with the crawling cla.
+> Allies can't flank with the crawling claw.
 
 ###### Decrepit Skeleton
 
@@ -195,7 +195,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 
 > ⭐️ **Death Grasp**
 >
-> When the rotting zombie is reduced to 0 Stamina, their space is difficult terrain. The first time any enemy who has M < 2 enters this space, they are slowed (save ends) and the effect end.
+> When the rotting zombie is reduced to 0 Stamina, their space is difficult terrain. The first time any enemy who has M < 2 enters this space, they are slowed (save ends) and the effect ends.
 
 ###### Shade
 
@@ -479,7 +479,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 > | --------------- | -------------------------------------------: |
 > | **📏 Ranged 8** | **🎯 Self or one ally with a Phasing trait** |
 >
-> **Effect:** The target shifts up to their speed
+> **Effect:** The target shifts up to their speed.
 >
 > **2 Malice:** The ghost chooses one additional target.
 
@@ -517,7 +517,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 > - **12-16:** P < 2 the target is levitated (EoT)
 > - **17+:** P < 3 the target is levitated until the end of the encounter
 >
-> **Effect:** A levitated target floats 1 square off the ground when first affected, then rises 1 square at the end of each of their turns. If a levitated target can't already fly, they can fly but are slowed and weakened while flying this way
+> **Effect:** A levitated target floats 1 square off the ground when first affected, then rises 1 square at the end of each of their turns. If a levitated target can't already fly, they can fly but are slowed and weakened while flying this way.
 
 > ☠️ **Awful Wail (Villain Action 3)**
 >
@@ -859,7 +859,7 @@ At the start of any level 4 or higher undead's turn, you can spend Malice to act
 
 > ⭐️ **Agonizing Phasing**
 >
-> The wraith can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the wraith moves through a creature, that creature takes 5 corruption damage and takes a bane on their next strike. The wraith doesn't take damage from being force moved into objects
+> The wraith can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the wraith moves through a creature, that creature takes 5 corruption damage and takes a bane on their next strike. The wraith doesn't take damage from being force moved into objects.
 
 ###### Mummy Lord
 
@@ -1037,7 +1037,7 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 
 > ⭐️ **Corruptive Phasing**
 >
-> The spirit can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the spirit moves through a creature, that creature takes 4 corruption damage. The spirit doesn't take damage from being force moved into objects
+> The spirit can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the spirit moves through a creature, that creature takes 4 corruption damage. The spirit doesn't take damage from being force moved into objects.
 
 ###### Mummy Rotwrap
 
@@ -1095,7 +1095,7 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 > - **12-16:** 6 corruption damage; I < 3 frightened (save ends)
 > - **17+:** 7 corruption damage; I < 4 frightened (save ends)
 >
-> **Effect:** A target frightened this way is frightened of all undead. This effect ends early if the mournling is destroyed
+> **Effect:** A target frightened this way is frightened of all undead. This effect ends early if the mournling is destroyed.
 
 > ⭐️ **Arise**
 >
@@ -1103,7 +1103,7 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 
 > ⭐️ **Immutable Form**
 >
-> The mournling's shape can't be changed by any external effect
+> The mournling's shape can't be changed by any external effect.
 
 > ⭐️ **Rupture**
 >
@@ -1183,7 +1183,7 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 > - **12-16:** Pull 5; M < 3 5 corruption damage
 > - **17+:** Pull 7; M < 4 5 corruption damage
 >
-> **Effect:** This ability gains an edge against any target grabbed by the koptourok. If one or more targets are pulled adjacent to the kop- tourok, the koptourok can fly until the end of the encounter
+> **Effect:** This ability gains an edge against any target grabbed by the koptourok. If one or more targets are pulled adjacent to the koptourok, the koptourok can fly until the end of the encounter
 
 > ⭐️ **Exhale**
 >
@@ -1248,7 +1248,7 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 > **Power Roll + 4:**
 >
 > - **≤11:** 7 damage; M < 2 bleeding (save ends)
-> - **12-16:** 10 corruption damage; M < 3 5 corruption damage and bleed- ing (save ends)
+> - **12-16:** 10 corruption damage; M < 3 5 corruption damage and bleeding (save ends)
 > - **17+:** 11 corruption damage; M < 4 7 corruption damage and bleeding (save ends)
 >
 > **Effect:** The vampire regains Stamina equal to any corruption damage dealt.
@@ -1457,7 +1457,7 @@ At the start of any level 10 undead's turn, you can spend Malice to activate one
 >
 > - **≤11:** 4 damage
 > - **12-16:** 7 damage
-> - **17+:** 9 damage; the target can't shift (EoT
+> - **17+:** 9 damage; the target can't shift (EoT)
 
 > ⭐️ **Bitter Bones**
 >
@@ -1483,7 +1483,7 @@ At the start of any level 10 undead's turn, you can spend Malice to activate one
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 4 cold damage; the wraith can shift 1 squar
+> - **≤11:** 4 cold damage; the wraith can shift 1 square
 > - **12-16:** 7 cold damage; the wraith shifts up to 2 square
 > - **17+:** 9 cold damage; P < 5 slowed (save ends); the wraith shifts up to 3 squares
 >

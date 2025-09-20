@@ -84,7 +84,7 @@ features:
     effects:
       - name: Effect
         effect: A target must be grabbed by the hulking brain, and is no longer grabbed
-          after the power roll is resolved
+          after the power roll is resolved.
       - roll: Power Roll + 3
         tier1: 7 damage; M < 1 3 damage
         tier2: 10 damage; M < 2 3 damage

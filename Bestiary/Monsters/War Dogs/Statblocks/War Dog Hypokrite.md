@@ -96,7 +96,7 @@ features:
       - effect: The hypokrite is invisible while adjacent to any ally who isn't hidden,
           and they can attempt to hide even while observed. Whenever they use
           the Hide maneuver, the hypokrite can disguise themself as another
-          creature within line of effect
+          creature within line of effect.
   - type: feature
     feature_type: trait
     name: Loyalty Collar

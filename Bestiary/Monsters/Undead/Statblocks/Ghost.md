@@ -82,7 +82,7 @@ features:
     target: Self or one ally with a Phasing trait
     effects:
       - name: Effect
-        effect: The target shifts up to their speed
+        effect: The target shifts up to their speed.
       - cost: 2 Malice
         effect: The ghost chooses one additional target.
   - type: feature
@@ -143,7 +143,7 @@ features:
         effect: A levitated target floats 1 square off the ground when first affected,
           then rises 1 square at the end of each of their turns. If a levitated
           target can't already fly, they can fly but are slowed and weakened
-          while flying this way
+          while flying this way.
   - type: feature
     feature_type: ability
     name: Awful Wail

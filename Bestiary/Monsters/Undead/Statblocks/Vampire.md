@@ -69,8 +69,7 @@ features:
     effects:
       - roll: Power Roll + 4
         tier1: 7 damage; M < 2 bleeding (save ends)
-        tier2: 10 corruption damage; M < 3 5 corruption damage and bleed- ing (save
-          ends)
+        tier2: 10 corruption damage; M < 3 5 corruption damage and bleeding (save ends)
         tier3: 11 corruption damage; M < 4 7 corruption damage and bleeding (save ends)
       - name: Effect
         effect: The vampire regains Stamina equal to any corruption damage dealt.

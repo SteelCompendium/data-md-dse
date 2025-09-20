@@ -134,7 +134,7 @@ features:
     name: Crafted to Perfection
     icon: ⭐️
     effects:
-      - effect: The bodyguard's shape can't be changed by any external effect
+      - effect: The bodyguard's shape can't be changed by any external effect.
   - type: feature
     feature_type: trait
     name: Valiar Might

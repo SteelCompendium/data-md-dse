@@ -137,7 +137,7 @@ features:
     effects:
       - effect: Lord Syuul can teleport up to 5 squares along with each creature and
           object he has grabbed. He can release grabbed creatures and objects
-          before or after teleporting
+          before or after teleporting.
   - type: feature
     feature_type: ability
     name: Adaptability
@@ -174,9 +174,9 @@ features:
     effects:
       - name: Effect
         effect: Each target makes an **Intuition test**.
-        tier1: 16 psychic damage; the target has no line of effect to any creture except
-          Lord Syuul, and takes a bane on strikes targeting Lord Syuul (save
-          ends)
+        tier1: 16 psychic damage; the target has no line of effect to any creature
+          except Lord Syuul, and takes a bane on strikes targeting Lord Syuul
+          (save ends)
         tier2: 13 psychic damage; the target has no line of effect to any creature
           except Lord Syuul (save ends)
         tier3: 7 psychic damage

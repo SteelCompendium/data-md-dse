@@ -60,7 +60,7 @@ features:
     icon: ☠️
     effects:
       - name: End Effect
-        effect: At the end of each of his turns, Rhodar can take 20 dam- age to end one
+        effect: At the end of each of his turns, Rhodar can take 20 damage to end one
           effect on him that can be ended by a saving throw. This damage can't
           be reduced in any way.
       - name: Solo Turns
@@ -158,7 +158,7 @@ features:
         tier2: 6 damage, 7 corruption damage; push 5; M < 5 bleeding (save ends)
         tier3: 6 damage, 10 corruption damage; push 7; M < 6 bleeding (save ends)
       - name: Effect
-        effect: Rhodar shifts up to his speed before or after using this ability He
+        effect: Rhodar shifts up to his speed before or after using this ability. He
           regains Stamina equal to half the total corruption damage dealt.
   - type: feature
     feature_type: ability

@@ -100,7 +100,7 @@ features:
         effect: The neuronite chooses one ally within 10 squares. Each target is either
           taunted by the ally, or the ally has damage immunity 3 whenever any
           target makes a strike against them (the neuronite's choice). Either
-          effect lasts until the start of the neuronite's next turn
+          effect lasts until the start of the neuronite's next turn.
   - type: feature
     feature_type: trait
     name: Loyalty Collar

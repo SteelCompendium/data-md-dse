@@ -64,7 +64,7 @@ features:
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 2
-        tier1: 7 damage; the null shifts up to 2 square
+        tier1: 7 damage; the null shifts up to 2 squares
         tier2: 10 damage; the null shifts up to 3 squares
         tier3: 13 damage; the null shifts up to 4 squares
   - type: feature
@@ -90,7 +90,7 @@ features:
     name: Inertial Shield
     icon: ⭐️
     effects:
-      - effect: The first time each round that the null is targeted by a da- age-dealing
+      - effect: The first time each round that the null is targeted by a damage-dealing
           strike, they halve the damage.
   - type: feature
     feature_type: trait

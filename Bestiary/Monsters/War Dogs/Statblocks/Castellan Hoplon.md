@@ -139,7 +139,7 @@ features:
     name: Last Stand
     icon: ⭐️
     effects:
-      - effect: The first time in an encounter that Hoplon is reduced to 0 Stam- na, he
+      - effect: The first time in an encounter that Hoplon is reduced to 0 Stamina, he
           instead has 1 Stamina and gains damage immunity 10 until the end of
           his next turn. When Hoplon is reduced to 0 Stamina again, each ally
           within 5 squares of him gains damage immunity 3 and deals an extra 5

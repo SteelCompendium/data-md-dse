@@ -90,7 +90,7 @@ features:
         tier3: 7 corruption damage; I < 4 frightened (save ends)
       - name: Effect
         effect: A target frightened this way is frightened of all undead. This effect
-          ends early if the mournling is destroyed
+          ends early if the mournling is destroyed.
   - type: feature
     feature_type: trait
     name: Arise
@@ -104,7 +104,7 @@ features:
     name: Immutable Form
     icon: ⭐️
     effects:
-      - effect: The mournling's shape can't be changed by any external effect
+      - effect: The mournling's shape can't be changed by any external effect.
   - type: feature
     feature_type: trait
     name: Rupture

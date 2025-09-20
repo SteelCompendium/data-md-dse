@@ -75,14 +75,14 @@ features:
           rage. Then before taking their turn, they must shift up to their speed
           toward the nearest creature and make a melee free strike against them.
           A creature who takes damage from this free strike gains 1 rage.
-          Accumulated rage disappears after a character finishes a respite
+          Accumulated rage disappears after a character finishes a respite.
   - type: feature
     feature_type: trait
     name: Shapeshifter
     icon: ⭐️
     effects:
       - effect: The werewolf enters combat in their hybrid humanoid form. Their shape
-          can't be changed by any external effect
+          can't be changed by any external effect.
   - type: feature
     feature_type: trait
     name: Vukenstep
@@ -111,10 +111,10 @@ features:
         effect: "If the target has P < 0, they are afflicted with lycanthpy. Each time
           the target is unaffected by the potency effect, the potency increases
           by 1 the next time the werewolf uses the ability against the same
-          target. A creature afflicted with lycanthrop gains 2 rage at the end
+          target. A creature afflicted with lycanthropy gains 2 rage at the end
           of each of their turns whenever they're in combat. Their rage doesn't
           disappear after finishing a respite and they must complete the Find a
-          Cure downtime project in \"Draw Steel: Heroes\" to end this effect"
+          Cure downtime project in \"Draw Steel: Heroes\" to end this effect."
   - type: feature
     feature_type: ability
     name: Ripping Claws
@@ -148,7 +148,7 @@ features:
         tier2: 6 damage; push 3; the target gains 1 rage
         tier3: 7 damage; slide 3; the target gains 3 rage
       - name: Effect
-        effect: The werewolf shifts up to their speed before using this ability
+        effect: The werewolf shifts up to their speed before using this ability.
   - type: feature
     feature_type: ability
     name: Wall Leap

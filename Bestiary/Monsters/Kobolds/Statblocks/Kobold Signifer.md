@@ -69,9 +69,9 @@ features:
         tier3: 5 damage
       - name: Effect
         effect: One ally within 10 squares of the signifer can shift up to their speed
-          if they end that shift adjacent to an ally
+          if they end that shift adjacent to an ally.
       - cost: 2+ Malice
-        effect: One additional ally can shift for each 2 Malice spent
+        effect: One additional ally can shift for each 2 Malice spent.
   - type: feature
     feature_type: ability
     name: Glory to the Legion

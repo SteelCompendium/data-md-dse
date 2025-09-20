@@ -47,7 +47,7 @@ stamina: '21'
 
 > ⭐️ **Supernatural Insight**
 >
-> The warrior ignores concealment if it's granted by a supernatural effect
+> The warrior ignores concealment if it's granted by a supernatural effect.
 
 ###### Level 4 Retainer Advancement Ability
 
@@ -83,7 +83,7 @@ stamina: '21'
 >
 > | **Area, Charge, Weapon** |               **Main action** |
 > | ------------------------ | ----------------------------: |
-> | **📏 Burst 1**           | **🎯 Each enemy in the area** |
+> | **📏 1 burst**           | **🎯 Each enemy in the area** |
 >
 > **Power Roll + highest characteristic:**
 >

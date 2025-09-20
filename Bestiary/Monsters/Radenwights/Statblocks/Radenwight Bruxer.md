@@ -106,6 +106,6 @@ features:
     name: Lockdown
     icon: ⭐️
     effects:
-      - effect: Any enemy who shifts adjacent to the bruxer has that shif t en d
+      - effect: Any enemy who shifts adjacent to the bruxer has that shift end.
           Additionally, any enemy adjacent to the bruxer can't shift.
 ~~~

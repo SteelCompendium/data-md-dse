@@ -89,7 +89,7 @@ features:
         tier3: Pull 7; M < 4 5 corruption damage
       - name: Effect
         effect: This ability gains an edge against any target grabbed by the koptourok.
-          If one or more targets are pulled adjacent to the kop- tourok, the
+          If one or more targets are pulled adjacent to the koptourok, the
           koptourok can fly until the end of the encounter
   - type: feature
     feature_type: trait

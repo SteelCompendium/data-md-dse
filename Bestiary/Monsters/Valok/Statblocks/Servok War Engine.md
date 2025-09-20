@@ -119,8 +119,8 @@ features:
     effects:
       - name: Effect
         effect: Each target makes an Agility test.
-        tier1: 16 fire damage; the target is burning (save ends
-        tier2: 12 fire damage; the target is burning (EoT
+        tier1: 16 fire damage; the target is burning (save ends)
+        tier2: 12 fire damage; the target is burning (EoT)
         tier3: 8 fire damage
       - effect: A burning creature takes 1d6 fire damage at the start of each of their
           turns. A burning object takes 1d6 fire damage at the end of each
@@ -159,7 +159,7 @@ features:
     name: Crafted to Perfection
     icon: ⭐️
     effects:
-      - effect: The war engine's shape can't be changed by any external effect
+      - effect: The war engine's shape can't be changed by any external effect.
   - type: feature
     feature_type: trait
     name: Valiar Might

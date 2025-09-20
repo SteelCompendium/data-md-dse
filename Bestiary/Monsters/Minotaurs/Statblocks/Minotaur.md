@@ -120,7 +120,7 @@ features:
     trigger: A creature within distance deals damage to the minotaur.
     effects:
       - name: Effect
-        effect: The minotaur uses theCharge main action and either Flail and Blade or
+        effect: The minotaur uses the Charge main action and either Flail and Blade or
           Goring Horns against the target.
   - type: feature
     feature_type: trait

@@ -82,7 +82,7 @@ features:
       - Strike
     usage: Main action
     distance: Ranged 10
-    target: Two creature or objects
+    target: Two creatures or objects
     effects:
       - roll: Power Roll + 3
         tier1: The targets regains 10 Stamina.

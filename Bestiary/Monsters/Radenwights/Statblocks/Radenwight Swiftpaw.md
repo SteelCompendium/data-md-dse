@@ -82,5 +82,5 @@ features:
     trigger: An ally deals damage to the target.
     effects:
       - name: Effect
-        effect: The swiftpaw makes a free strike against the targe.
+        effect: The swiftpaw makes a free strike against the target.
 ~~~

@@ -82,7 +82,7 @@ features:
       - Area
       - Weapon
     usage: Main action
-    distance: Burst 3
+    distance: 3 burst
     target: Each creature and object in the area
     effects:
       - roll: Power Roll + 5
@@ -134,9 +134,9 @@ features:
     icon: ⭐️
     effects:
       - effect: Doru regains 10 Stamina at the start of each of his turns unless he took
-          acid or fire damage since the start of his previous turn. Whe- ever he
+          acid or fire damage since the start of his previous turn. Whenever he
           regains Stamina this way, the Director can spend 2 Malice to end one
-          effect on Doru that can be ended by a saving throw
+          effect on Doru that can be ended by a saving throw.
   - type: feature
     feature_type: trait
     name: Champion's Loyalty Collar

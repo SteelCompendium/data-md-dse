@@ -77,8 +77,9 @@ features:
         effect: Each target loses 1d3 Recoveries.
   - type: feature
     feature_type: ability
-    name: Get Them, You Dolts! 1 Malice per target
+    name: Get Them, You Dolts!
     icon: 🏹
+    cost: 1 Malice per target
     keywords:
       - Ranged
     usage: Maneuver

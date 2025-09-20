@@ -111,5 +111,5 @@ features:
           but can't end their turn inside a creature or object. The first time
           in a round that the wraith moves through a creature, that creature
           takes 5 corruption damage and takes a bane on their next strike. The
-          wraith doesn't take damage from being force moved into objects
+          wraith doesn't take damage from being force moved into objects.
 ~~~

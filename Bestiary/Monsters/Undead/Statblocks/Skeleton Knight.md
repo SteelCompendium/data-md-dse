@@ -70,7 +70,7 @@ features:
       - roll: Power Roll + 5
         tier1: 4 damage
         tier2: 7 damage
-        tier3: 9 damage; the target can't shift (EoT
+        tier3: 9 damage; the target can't shift (EoT)
   - type: feature
     feature_type: trait
     name: Bitter Bones

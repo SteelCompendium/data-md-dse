@@ -84,9 +84,9 @@ features:
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 5
-        tier1: 14 damage; push 5; A < 3, 9 fire damage
-        tier2: 19 damage; push 10; A < 4, 9 fire damage
-        tier3: 23 damage; push 15; A < 5, 9 fire damage
+        tier1: 14 damage; push 5; A < 3 9 fire damage
+        tier2: 19 damage; push 10; A < 4 9 fire damage
+        tier3: 23 damage; push 15; A < 5 9 fire damage
   - type: feature
     feature_type: ability
     name: Lava Pillar
@@ -100,9 +100,9 @@ features:
     target: Each enemy and object in the area
     effects:
       - roll: Power Roll + 5
-        tier1: 5 fire damage; M < 3, vertical push 3
-        tier2: 7 fire damage; M < 4, vertical push 4
-        tier3: 9 fire damage; M < 5, vertical push 5
+        tier1: 5 fire damage; M < 3 vertical push 3
+        tier2: 7 fire damage; M < 4 vertical push 4
+        tier3: 9 fire damage; M < 5 vertical push 5
   - type: feature
     feature_type: ability
     name: Fuel the Fire

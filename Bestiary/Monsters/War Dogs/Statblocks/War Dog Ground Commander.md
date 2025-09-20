@@ -105,7 +105,7 @@ features:
     effects:
       - name: Effect
         effect: Even if reduced to 0 Stamina, the target moves up to their speed and can
-          make a free strike after the triggering effect is resolved The target
+          make a free strike after the triggering effect is resolved. The target
           then immediately dies.
   - type: feature
     feature_type: trait

@@ -97,8 +97,8 @@ features:
     keywords:
       - "-"
     usage: Maneuver
-    distance: Melee 1
-    target: One creature
+    distance: "-"
+    target: "-"
     effects:
       - effect: The garroter turns invisible until the end of their turn. This
           invisibility ends early if they take damage or use an ability.

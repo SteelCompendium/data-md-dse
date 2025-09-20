@@ -118,9 +118,9 @@ features:
         tier3: Slowed (save ends); or if M < 4 restrained (save ends)
       - name: Effect
         effect: A target with cover reduces the potency by 1, while a slowed target
-          increases the potency by 1. A target restrained this way magi- cally
+          increases the potency by 1. A target restrained this way magically
           begins to turn to stone, and a target who ends two consecutive turns
-          restrained this way is petrified
+          restrained this way is petrified.
   - type: feature
     feature_type: ability
     name: Nimble Escape
@@ -162,7 +162,7 @@ features:
     name: Many Peering Eyes
     icon: ⭐️
     effects:
-      - effect: The medusa can't be flanked
+      - effect: The medusa can't be flanked.
   - type: feature
     feature_type: ability
     name: Mass Petrify

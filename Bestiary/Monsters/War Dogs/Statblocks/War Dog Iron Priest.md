@@ -87,7 +87,7 @@ features:
       - name: Effect
         effect: >-
           For every 2 Malice spent, each target gains one of the following
-          effects until the start of the iron priest's next turn
+          effects until the start of the iron priest's next turn.
 
           - The target has damage immunity 2.
 

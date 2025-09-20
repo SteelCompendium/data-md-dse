@@ -82,7 +82,7 @@ features:
       - Weapon
     usage: Main action
     distance: Melee 1
-    target: One creatures or object
+    target: One creature or object
     effects:
       - roll: Power Roll + 4
         tier1: 12 damage; slide 2; M < 2 bleeding (EoT)

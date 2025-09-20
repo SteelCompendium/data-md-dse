@@ -101,7 +101,7 @@ features:
     icon: ⭐️
     effects:
       - effect: The blackguard ignores concealment if it's granted by a supernatural
-          effect
+          effect.
   - type: feature
     feature_type: ability
     name: Parry!
@@ -161,5 +161,5 @@ features:
       - name: Effect
         effect: The blackguard uses their Zweihander Swing against each target. Each
           ally within 5 squares of the area can then make a free strike against
-          a target (one target per ally)
+          a target (one target per ally).
 ~~~

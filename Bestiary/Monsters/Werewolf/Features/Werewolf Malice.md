@@ -26,7 +26,7 @@ features:
     cost: 3 Malice
     effects:
       - effect: The werewolf gains 10 temporary Stamina and a +3 bonus to speed until
-          the end of their turn. The werewolf can't use this fea- ture if they
+          the end of their turn. The werewolf can't use this feature if they
           took any holy damage since ending their last turn.
   - type: feature
     feature_type: trait

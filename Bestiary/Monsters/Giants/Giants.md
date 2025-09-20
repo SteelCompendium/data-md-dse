@@ -732,9 +732,9 @@ At the start of any giant's turn, you can spend Malice to activate one of the fo
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 14 damage; push 5; A < 3, 9 fire damage
-> - **12-16:** 19 damage; push 10; A < 4, 9 fire damage
-> - **17+:** 23 damage; push 15; A < 5, 9 fire damage
+> - **≤11:** 14 damage; push 5; A < 3 9 fire damage
+> - **12-16:** 19 damage; push 10; A < 4 9 fire damage
+> - **17+:** 23 damage; push 15; A < 5 9 fire damage
 
 > 🔳 **Lava Pillar (3 Malice)**
 >
@@ -744,9 +744,9 @@ At the start of any giant's turn, you can spend Malice to activate one of the fo
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 5 fire damage; M < 3, vertical push 3
-> - **12-16:** 7 fire damage; M < 4, vertical push 4
-> - **17+:** 9 fire damage; M < 5, vertical push 5
+> - **≤11:** 5 fire damage; M < 3 vertical push 3
+> - **12-16:** 7 fire damage; M < 4 vertical push 4
+> - **17+:** 9 fire damage; M < 5 vertical push 5
 
 > ❗️ **Fuel the Fire (1 Malice)**
 >

@@ -67,7 +67,7 @@ features:
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 5
-        tier1: 4 cold damage; the wraith can shift 1 squar
+        tier1: 4 cold damage; the wraith can shift 1 square
         tier2: 7 cold damage; the wraith shifts up to 2 square
         tier3: 9 cold damage; P < 5 slowed (save ends); the wraith shifts up to 3
           squares

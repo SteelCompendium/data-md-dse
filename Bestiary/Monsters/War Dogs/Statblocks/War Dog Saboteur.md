@@ -67,8 +67,8 @@ features:
     effects:
       - roll: Power Roll + 4
         tier1: 4 fire damage
-        tier2: 7 fire damage; push
-        tier3: 8 fire damage; push
+        tier2: 7 fire damage; push 1
+        tier3: 8 fire damage; push 3
       - name: Effect
         effect: The space the target occupies fills with dark smoke and blocks line of
           effect until the start of the saboteur's next turn

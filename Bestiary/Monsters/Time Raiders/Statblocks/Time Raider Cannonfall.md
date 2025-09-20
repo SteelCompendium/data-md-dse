@@ -87,7 +87,7 @@ features:
     effects:
       - name: Effect
         effect: The damage is halved for the cannonfall and each target also affected by
-          the triggering ability
+          the triggering ability.
   - type: feature
     feature_type: trait
     name: Foresight Squared

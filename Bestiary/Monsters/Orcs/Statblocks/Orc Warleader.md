@@ -117,7 +117,7 @@ features:
     icon: ☠️
     ability_type: Villain Action 1
     keywords:
-      - \\ Area\\
+      - Area
     usage: "-"
     distance: 10 burst
     target: Each ally in the area

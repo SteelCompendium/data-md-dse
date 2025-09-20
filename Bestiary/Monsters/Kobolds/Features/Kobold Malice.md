@@ -40,6 +40,6 @@ features:
     icon: ⭐️
     cost: 7 Malice
     effects:
-      - effect: Until the end of the round, all kobolds with Shield? Shield! Impose an
+      - effect: Until the end of the round, all kobolds with Shield? Shield! impose an
           additional bane on incoming strikes and abilities.
 ~~~
