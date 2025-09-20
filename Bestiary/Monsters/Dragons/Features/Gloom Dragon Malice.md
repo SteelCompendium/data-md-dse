@@ -13,12 +13,15 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Malice Features
 name: Gloom Dragon Malice
-type: Malice Features
 flavor: At the start of a gloom dragon's turn, you can spend Malice to activate
   one of the following features.
 features:
-  - name: Dread and Terror
+  - type: feature
+    feature_type: trait
+    name: Dread and Terror
     icon: ⭐️
     cost: 3 Malice
     effects:
@@ -26,23 +29,29 @@ features:
           the horrors within it. Each creature in the area takes a bane on
           strikes made against the dragon until the start of the dragon's next
           turn.
-  - name: Doleful Visions
+  - type: feature
+    feature_type: trait
+    name: Doleful Visions
     icon: 🔳
     cost: 5 Malice
     effects:
       - effect: The dragon manifests four 2 cubes of nightmarish apparitions anywhere on
           the encounter map. Each creature in the area when it appears makes an
           **Intuition test**.
-        t1: 14 damage; dazed (save ends)
-        t2: 11 damage; dazed (EoT)
-        t3: 6 damage
-  - name: Solo Action
+        tier1: 14 damage; dazed (save ends)
+        tier2: 11 damage; dazed (EoT)
+        tier3: 6 damage
+  - type: feature
+    feature_type: trait
+    name: Solo Action
     icon: ☠️
     cost: 5 Malice
     effects:
       - effect: The dragon takes an additional main action on their turn. They can use
           this feature even if they are dazed.
-  - name: Phantasmagoria!
+  - type: feature
+    feature_type: trait
+    name: Phantasmagoria!
     icon: 🔳
     cost: 7 Malice
     effects:

@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Rival Conduit
 level: 2
 roles:
@@ -48,45 +49,54 @@ agility: 0
 reason: 0
 intuition: 2
 presence: 0
-traits:
-  - name: Stalwart Guardian
-    effects:
-      - effect: Strikes made against allies adjacent to the conduit take a bane.
-  - name: Rivalry
-    effects:
-      - effect: At the start of an encounter, the conduit chooses one creature within
-          their line of effect. Both the conduit and the creature can add a d3
-          roll to power rolls they make against each other.
-abilities:
-  - name: Thunder of Heavens
+features:
+  - type: feature
+    feature_type: ability
+    name: Thunder of Heavens
     icon: ⚔️
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Melee
       - Ranged
       - Strike
-    type: Main action
+    usage: Main action
     distance: Melee 1 or ranged 10
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 2
-        t1: 7 holy damage
-        t2: 10 holy damage
-        t3: 13 holy damage
-      - effect: The conduit or one ally within distance regains Stamina equal to half
+        tier1: 7 holy damage
+        tier2: 10 holy damage
+        tier3: 13 holy damage
+      - name: Effect
+        effect: The conduit or one ally within distance regains Stamina equal to half
           the damage dealt.
-        name: Effect
-  - name: Imbue with Might
+  - type: feature
+    feature_type: ability
+    name: Imbue with Might
     icon: 🏹
     cost: 2 Malice
     keywords:
       - Magic
       - Ranged
-    type: Maneuver
+    usage: Maneuver
     distance: Ranged 10
     target: Self and five allie
     effects:
-      - effect: Each target gains an edge on their next strike.
-        name: Effect
+      - name: Effect
+        effect: Each target gains an edge on their next strike.
+  - type: feature
+    feature_type: trait
+    name: Stalwart Guardian
+    icon: ⭐️
+    effects:
+      - effect: Strikes made against allies adjacent to the conduit take a bane.
+  - type: feature
+    feature_type: trait
+    name: Rivalry
+    icon: ⭐️
+    effects:
+      - effect: At the start of an encounter, the conduit chooses one creature within
+          their line of effect. Both the conduit and the creature can add a d3
+          roll to power rolls they make against each other.
 ~~~

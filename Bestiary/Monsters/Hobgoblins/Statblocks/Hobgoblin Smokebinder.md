@@ -32,6 +32,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Hobgoblin Smokebinder
 level: 5
 roles:
@@ -55,49 +56,58 @@ agility: 3
 reason: 2
 intuition: 1
 presence: 0
-traits:
-  - name: Essence of Smoke
-    effects:
-      - effect: The smokebinder can move through spaces as if they were size 1T and can
-          occupy another creature or object's space. At the end of their turn,
-          the smokebinder can attempt to hide if they haven't taken any damage
-          since their last turn.
-  - name: Infernal Ichor
-    effects:
-      - effect: When the smokebinder is reduced to 0 Stamina, they spray burning blood.
-          Each creature adjacent to the smokebinder takes 3 fire damage.
-abilities:
-  - name: Choking Bolt
+features:
+  - type: feature
+    feature_type: ability
+    name: Choking Bolt
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Ranged
       - Strike
-    type: Main action
+    usage: Main action
     distance: Ranged 5
     target: One creature or object
     effects:
       - roll: Power Roll + 3
-        t1: 9 fire damage
-        t2: 14 fire damage
-        t3: 17 fire damage; R < 3 slowed (save ends)
-      - effect: If this ability gains an edge or has a double edge, the target can't
+        tier1: 9 fire damage
+        tier2: 14 fire damage
+        tier3: 17 fire damage; R < 3 slowed (save ends)
+      - name: Effect
+        effect: If this ability gains an edge or has a double edge, the target can't
           communicate with anyone until the end of their next turn.
-        name: Effect
-  - name: Smoke Bomb
+  - type: feature
+    feature_type: ability
+    name: Smoke Bomb
     icon: ❇️
     cost: 3 Malice
     keywords:
       - Area
       - Magic
-    type: Maneuver
+    usage: Maneuver
     distance: 3 burst
     target: Each enemy in the area
     effects:
       - name: Effect
         effect: Each target makes a Might test.
-        t1: 11 damage; the target has a double bane on their next power roll
-        t2: 9 damage; the target takes a bane on their next power roll
-        t3: 5 damage
+        tier1: 11 damage; the target has a double bane on their next power roll
+        tier2: 9 damage; the target takes a bane on their next power roll
+        tier3: 5 damage
+  - type: feature
+    feature_type: trait
+    name: Essence of Smoke
+    icon: ⭐️
+    effects:
+      - effect: The smokebinder can move through spaces as if they were size 1T and can
+          occupy another creature or object's space. At the end of their turn,
+          the smokebinder can attempt to hide if they haven't taken any damage
+          since their last turn.
+  - type: feature
+    feature_type: trait
+    name: Infernal Ichor
+    icon: ⭐️
+    effects:
+      - effect: When the smokebinder is reduced to 0 Stamina, they spray burning blood.
+          Each creature adjacent to the smokebinder takes 3 fire damage.
 ~~~

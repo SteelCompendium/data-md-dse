@@ -7,7 +7,7 @@ cost_resource: Drama
 distance: Self
 feature_type: ability
 file_basename: Fake Your Death
-file_dpath: Troubadour/1st-Level Features
+file_dpath: Abilities/Troubadour/1st-Level Features
 flavor: O happy dagger, this is thy sheath!
 item_id: fake-your-death-5-drama
 item_index: '05'
@@ -18,19 +18,21 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:fake-your-death-5-drama
 scdc:
-- 1.1.1:13.2.3.1:05
+- 1.1.1:11.2.3.1:05
 source: mcdm.heroes.v1
 target: Self
 type: feature/ability/troubadour/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Fake Your Death
 cost: 5 Drama
 flavor: O happy dagger, this is thy sheath!
 keywords:
   - Magic
-type: Maneuver
+usage: Maneuver
 distance: Self
 target: Self
 metadata:
@@ -42,7 +44,7 @@ metadata:
   distance: Self
   feature_type: ability
   file_basename: Fake Your Death
-  file_dpath: Troubadour/1st-Level Features
+  file_dpath: Abilities/Troubadour/1st-Level Features
   flavor: O happy dagger, this is thy sheath!
   item_id: fake-your-death-5-drama
   item_index: "05"
@@ -53,15 +55,15 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:fake-your-death-5-drama
   scdc:
-    - 1.1.1:13.2.3.1:05
+    - 1.1.1:11.2.3.1:05
   source: mcdm.heroes.v1
   target: Self
   type: feature/ability/troubadour/1st-level-feature
 effects:
-  - effect: You turn invisible and create a magical illusion of your corpse falling
+  - name: Effect
+    effect: You turn invisible and create a magical illusion of your corpse falling
       in your space. While you are invisible, you gain a +3 bonus to speed and
       you ignore difficult terrain. The illusion and your invisibility last
       until the end of your next turn, or until the illusion is interacted with,
       you take damage, or you use a main action or a maneuver.
-    name: Effect
 ```

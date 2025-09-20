@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Rival Elementalist
 level: 2
 roles:
@@ -48,30 +49,28 @@ agility: 0
 reason: 2
 intuition: 1
 presence: 0
-traits:
-  - name: Rivalry
-    effects:
-      - effect: At the start of an encounter, the elementalist chooses one creature
-          within their line of effect. Both the elementalist and the creature
-          can add a d3 roll to power rolls they make against each other.
-abilities:
-  - name: The Writhing Green
+features:
+  - type: feature
+    feature_type: ability
+    name: The Writhing Green
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Green
       - Magic
       - Ranged
       - Strike
-    type: Main action
+    usage: Main action
     distance: Ranged 10
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 2
-        t1: 7 damage; slide 1
-        t2: 10 damage; slide 2
-        t3: 13 damage; slide 3
-  - name: The Earth Devours
+        tier1: 7 damage; slide 1
+        tier2: 10 damage; slide 2
+        tier3: 13 damage; slide 3
+  - type: feature
+    feature_type: ability
+    name: The Earth Devours
     icon: 🔳
     cost: 3 Malice
     keywords:
@@ -79,28 +78,38 @@ abilities:
       - Green
       - Magic
       - Ranged
-    type: Main action
+    usage: Main action
     distance: 3 cube within 10
     target: Each enemy in the area
     effects:
       - roll: Power Roll + 2
-        t1: 3 damage
-        t2: 5 damage; restrained (EoT)
-        t3: 8 damage; restrained (save ends)
-      - effect: The area is difficult terrain for enemies until the end of the
+        tier1: 3 damage
+        tier2: 5 damage; restrained (EoT)
+        tier3: 8 damage; restrained (save ends)
+      - name: Effect
+        effect: The area is difficult terrain for enemies until the end of the
           encounter. Any enemy in the area has acid weakness 2.
-        name: Effect
-  - name: Jaws of the Void
+  - type: feature
+    feature_type: ability
+    name: Jaws of the Void
     icon: ❗️
     keywords:
       - Magic
       - Void
-    type: Triggered action
+    usage: Triggered action
     distance: Self
     target: Self
     trigger: The elementalist takes damage.
     effects:
-      - effect: The elementalist can teleport up to 2 squares. Each creature adjacent to
+      - name: Effect
+        effect: The elementalist can teleport up to 2 squares. Each creature adjacent to
           the space they leave takes 2 corruption damage.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Rivalry
+    icon: ⭐️
+    effects:
+      - effect: At the start of an encounter, the elementalist chooses one creature
+          within their line of effect. Both the elementalist and the creature
+          can add a d3 roll to power rolls they make against each other.
 ~~~

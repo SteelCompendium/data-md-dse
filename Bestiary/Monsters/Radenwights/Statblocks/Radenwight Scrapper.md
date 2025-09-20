@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Radenwight Scrapper
 level: 1
 roles:
@@ -50,34 +51,37 @@ agility: 1
 reason: 0
 intuition: 0
 presence: 2
-traits: []
-abilities:
-  - name: Buckler Bash
+features:
+  - type: feature
+    feature_type: ability
+    name: Buckler Bash
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Charge
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 1 damage
-        t2: 2 damage; taunted (EoT)
-        t3: 3 damage; taunted (EoT)
-  - name: Ready Rodent
+        tier1: 1 damage
+        tier2: 2 damage; taunted (EoT)
+        tier3: 3 damage; taunted (EoT)
+  - type: feature
+    feature_type: ability
+    name: Ready Rodent
     icon: ❗️
     keywords:
       - Melee
       - Weapon
-    type: Triggered action
+    usage: Triggered action
     distance: Melee 1
     target: One creature
     trigger: An ally deals damage to the target.
     effects:
-      - effect: The scrapper makes a free strike against the target.
-        name: Effect
+      - name: Effect
+        effect: The scrapper makes a free strike against the target.
 ~~~

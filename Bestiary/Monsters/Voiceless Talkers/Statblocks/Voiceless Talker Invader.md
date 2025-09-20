@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Voiceless Talker Invader
 level: 6
 roles:
@@ -51,69 +52,79 @@ agility: 1
 reason: 3
 intuition: 2
 presence: 2
-traits:
-  - name: Psionic Amplifier
-    effects:
-      - effect: Whenever a non-minion voiceless talker within 5 squares of the invader
-          uses a psionic ability, they can do so as if they were in the
-          invader's space, and the ability has a double edge.
-abilities:
-  - name: Tentacle
+features:
+  - type: feature
+    feature_type: ability
+    name: Tentacle
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 2
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 3
-        t1: 10 damage
-        t2: 15 damage; M < 2 grabbed
-        t3: 18 damage; M < 3 grabbed
-  - name: Psionic Boom
+        tier1: 10 damage
+        tier2: 15 damage; M < 2 grabbed
+        tier3: 18 damage; M < 3 grabbed
+  - type: feature
+    feature_type: ability
+    name: Psionic Boom
     icon: ❇️
     cost: 3 Malice
     keywords:
       - Area
       - Psionic
-    type: Main action
+    usage: Main action
     distance: 3 burst
     target: Each enemy in the area
     effects:
       - roll: Power Roll + 3
-        t1: 6 psychic damage; R < 1 push 2
-        t2: 10 psychic damage; R < 2 push 3
-        t3: 12 psychic damage; R < 3 push 4 and prone
-      - effect: The size of the burst increases to 5.
-        cost: 2 Malice
-  - name: Tentacle Toss
+        tier1: 6 psychic damage; R < 1 push 2
+        tier2: 10 psychic damage; R < 2 push 3
+        tier3: 12 psychic damage; R < 3 push 4 and prone
+      - cost: 2 Malice
+        effect: The size of the burst increases to 5.
+  - type: feature
+    feature_type: ability
+    name: Tentacle Toss
     icon: 🗡
     keywords:
       - Melee
       - Psionic
-    type: Maneuver
+    usage: Maneuver
     distance: Melee 1
     target: One creature
     effects:
       - name: Effect
         effect: The target must be grabbed by the invader.
       - roll: Power Roll + 3
-        t1: 6 damage; vertical slide 2
-        t2: 10 damage; vertical slide 2
-        t3: 12 damage; vertical slide 3
-  - name: Brain Drain
+        tier1: 6 damage; vertical slide 2
+        tier2: 10 damage; vertical slide 2
+        tier3: 12 damage; vertical slide 3
+  - type: feature
+    feature_type: ability
+    name: Brain Drain
     icon: ❗️
     keywords:
       - Melee
       - Psionic
-    type: Triggered action
+    usage: Triggered action
     distance: Special
     target: The triggering creature
     trigger: A creature grabbed by the invader resists an ability's potency.
     effects:
-      - effect: The potency increases by 2.
-        name: Effect
+      - name: Effect
+        effect: The potency increases by 2.
+  - type: feature
+    feature_type: trait
+    name: Psionic Amplifier
+    icon: ⭐️
+    effects:
+      - effect: Whenever a non-minion voiceless talker within 5 squares of the invader
+          uses a psionic ability, they can do so as if they were in the
+          invader's space, and the ability has a double edge.
 ~~~

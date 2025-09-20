@@ -7,7 +7,7 @@ cost_resource: Piety
 distance: Ranged 10
 feature_type: ability
 file_basename: Blessing of Insight
-file_dpath: Conduit/2nd-Level Features
+file_dpath: Abilities/Conduit/2nd-Level Features
 flavor: The gods grant insight revealing where best to strike your enemies.
 item_id: blessing-of-insight-5-piety
 item_index: '12'
@@ -19,21 +19,23 @@ level: 2
 scc:
 - mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:blessing-of-insight-5-piety
 scdc:
-- 1.1.1:13.2.8.5:12
+- 1.1.1:11.2.8.5:12
 source: mcdm.heroes.v1
 subclass: War
 target: Self and each ally
 type: feature/ability/conduit/2nd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Blessing of Insight
 cost: 5 Piety
 flavor: The gods grant insight revealing where best to strike your enemies.
 keywords:
   - Magic
   - Ranged
-type: Maneuver
+usage: Maneuver
 distance: Ranged 10
 target: Self and each ally
 metadata:
@@ -45,7 +47,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Blessing of Insight
-  file_dpath: Conduit/2nd-Level Features
+  file_dpath: Abilities/Conduit/2nd-Level Features
   flavor: The gods grant insight revealing where best to strike your enemies.
   item_id: blessing-of-insight-5-piety
   item_index: "12"
@@ -57,13 +59,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:blessing-of-insight-5-piety
   scdc:
-    - 1.1.1:13.2.8.5:12
+    - 1.1.1:11.2.8.5:12
   source: mcdm.heroes.v1
   subclass: War
   target: Self and each ally
   type: feature/ability/conduit/2nd-level-feature
 effects:
-  - effect: Until the end of the encounter or until you are dying, each target gains
+  - name: Effect
+    effect: Until the end of the encounter or until you are dying, each target gains
       1 surge at the end of each of your turns.
-    name: Effect
 ```

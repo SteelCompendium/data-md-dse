@@ -4,7 +4,7 @@ class: elementalist
 distance: Melee 1
 feature_type: ability
 file_basename: Motivate Earth
-file_dpath: Elementalist/1st-Level Features
+file_dpath: Abilities/Elementalist/1st-Level Features
 flavor: The earth rises, falls, or opens up at your command.
 item_id: motivate-earth
 item_index: '21'
@@ -17,21 +17,23 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:motivate-earth
 scdc:
-- 1.1.1:13.2.9.1:21
+- 1.1.1:11.2.9.1:21
 source: mcdm.heroes.v1
 subclass: Earth
 target: Special
 type: feature/ability/elementalist/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Motivate Earth
 flavor: The earth rises, falls, or opens up at your command.
 keywords:
   - Earth
   - Magic
   - Melee
-type: Main action
+usage: Main action
 distance: Melee 1
 target: Special
 metadata:
@@ -40,7 +42,7 @@ metadata:
   distance: Melee 1
   feature_type: ability
   file_basename: Motivate Earth
-  file_dpath: Elementalist/1st-Level Features
+  file_dpath: Abilities/Elementalist/1st-Level Features
   flavor: The earth rises, falls, or opens up at your command.
   item_id: motivate-earth
   item_index: "21"
@@ -53,13 +55,14 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:motivate-earth
   scdc:
-    - 1.1.1:13.2.9.1:21
+    - 1.1.1:11.2.9.1:21
   source: mcdm.heroes.v1
   subclass: Earth
   target: Special
   type: feature/ability/elementalist/1st-level-feature
 effects:
-  - effect: >-
+  - name: Effect
+    effect: >-
       You touch a square containing mundane dirt, stone, or metal and create a 5
       wall of the same material, which rises up out of the ground and must
       include the square you touched.
@@ -70,5 +73,4 @@ effects:
       or other opening that is 1 square or smaller in a mundane dirt, stone, or
       metal surface. The opening is sealed by the same material that makes up
       the surface.
-    name: Effect
 ```

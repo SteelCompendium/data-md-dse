@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: War Dog Hunter-Killer
 level: 10
 roles:
@@ -51,28 +52,32 @@ agility: 5
 reason: 3
 intuition: 5
 presence: 2
-traits:
-  - name: Loyalty Collar
-    effects:
-      - effect: When the hunter-killer is reduced to 0 Stamina, their loyalty collar
-          explodes, dealing 3d6 damage to each adjacent enemy and object.
-abilities:
-  - name: Fuse-Iron Rocket
+features:
+  - type: feature
+    feature_type: ability
+    name: Fuse-Iron Rocket
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 10
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 5
-        t1: 5 damage; push 2
-        t2: 8 damage; push 3
-        t3: 10 damage; push 4
-      - effect: Each enemy adjacent to the target before the forced movement takes 5
+        tier1: 5 damage; push 2
+        tier2: 8 damage; push 3
+        tier3: 10 damage; push 4
+      - name: Effect
+        effect: Each enemy adjacent to the target before the forced movement takes 5
           fire damage
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Loyalty Collar
+    icon: ⭐️
+    effects:
+      - effect: When the hunter-killer is reduced to 0 Stamina, their loyalty collar
+          explodes, dealing 3d6 damage to each adjacent enemy and object.
 ~~~

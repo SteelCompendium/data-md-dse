@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Goblin Underboss
 level: 1
 roles:
@@ -49,39 +50,45 @@ agility: 2
 reason: 0
 intuition: 0
 presence: 1
-traits:
-  - name: Crafty
-    effects:
-      - effect: The underboss doesn't provoke opportunity attacks by moving.
-abilities:
-  - name: Swordplay
+features:
+  - type: feature
+    feature_type: ability
+    name: Swordplay
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 3 damage
-        t2: 4 damage
-        t3: 5 damage
-      - effect: One ally adjacent to the target can make a free strike against them.
-        name: Effect
-  - name: Get Reckless!
+        tier1: 3 damage
+        tier2: 4 damage
+        tier3: 5 damage
+      - name: Effect
+        effect: One ally adjacent to the target can make a free strike against them.
+  - type: feature
+    feature_type: ability
+    name: Get Reckless!
     icon: ❇️
     keywords:
       - Area
-    type: Maneuver
+    usage: Maneuver
     distance: 5 burst
     target: Each ally in the area
     effects:
-      - effect: Until the start of the underboss's next turn, each target gains an edge
+      - name: Effect
+        effect: Until the start of the underboss's next turn, each target gains an edge
           on strikes, and any strike made against a target gains an edge.
-        name: Effect
-      - effect: Strikes made against targets no longer gain an edge.
-        cost: 2 Malice
+      - cost: 2 Malice
+        effect: Strikes made against targets no longer gain an edge.
+  - type: feature
+    feature_type: trait
+    name: Crafty
+    icon: ⭐️
+    effects:
+      - effect: The underboss doesn't provoke opportunity attacks by moving.
 ~~~

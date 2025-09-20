@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Voiceless Talker Graywarper
 level: 6
 roles:
@@ -49,26 +50,30 @@ agility: 0
 reason: 3
 intuition: 1
 presence: 1
-traits:
-  - name: Psionic Conductor
-    effects:
-      - effect: Whenever a non-minion voiceless talker within 5 squares of the
-          graywarper uses a psionic ability, they can do so as if they were in
-          the graywarper's space.
-abilities:
-  - name: Phase Chant
+features:
+  - type: feature
+    feature_type: ability
+    name: Phase Chant
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Psionic
       - Ranged
       - Strike
-    type: Main action
+    usage: Main action
     distance: Ranged 8
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 3
-        t1: 3 psychic damage
-        t2: 5 psychic damage; slide 2
-        t3: 7 psychic damage; slide 4
+        tier1: 3 psychic damage
+        tier2: 5 psychic damage; slide 2
+        tier3: 7 psychic damage; slide 4
+  - type: feature
+    feature_type: trait
+    name: Psionic Conductor
+    icon: ⭐️
+    effects:
+      - effect: Whenever a non-minion voiceless talker within 5 squares of the
+          graywarper uses a psionic ability, they can do so as if they were in
+          the graywarper's space.
 ~~~

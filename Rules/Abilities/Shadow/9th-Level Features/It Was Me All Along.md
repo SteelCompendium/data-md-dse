@@ -7,7 +7,7 @@ cost_resource: Insight
 distance: Melee 1
 feature_type: ability
 file_basename: It Was Me All Along
-file_dpath: Shadow/9th-Level Features
+file_dpath: Abilities/Shadow/9th-Level Features
 flavor: After everything you've been through together, you twist the blade and make
   the pain extra personal.
 item_id: it-was-me-all-along-11-insight
@@ -21,14 +21,16 @@ level: 9
 scc:
 - mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:it-was-me-all-along-11-insight
 scdc:
-- 1.1.1:13.2.2.7:03
+- 1.1.1:11.2.2.7:03
 source: mcdm.heroes.v1
 subclass: Harlequin Mask
 target: One creature or object
 type: feature/ability/shadow/9th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: It Was Me All Along
 cost: 11 Insight
 flavor: After everything you've been through together, you twist the blade and
@@ -37,7 +39,7 @@ keywords:
   - Melee
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1
 target: One creature or object
 metadata:
@@ -49,7 +51,7 @@ metadata:
   distance: Melee 1
   feature_type: ability
   file_basename: It Was Me All Along
-  file_dpath: Shadow/9th-Level Features
+  file_dpath: Abilities/Shadow/9th-Level Features
   flavor: After everything you've been through together, you twist the blade and
     make the pain extra personal.
   item_id: it-was-me-all-along-11-insight
@@ -63,18 +65,18 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:it-was-me-all-along-11-insight
   scdc:
-    - 1.1.1:13.2.2.7:03
+    - 1.1.1:11.2.2.7:03
   source: mcdm.heroes.v1
   subclass: Harlequin Mask
   target: One creature or object
   type: feature/ability/shadow/9th-level-feature
 effects:
   - roll: Power Roll + Agility
-    t1: 15 + A damage
-    t2: 21 + A damage
-    t3: 28 + A damage
-  - effect: If you are disguised as a creature the target knew using your I'm No
+    tier1: 15 + A damage
+    tier2: 21 + A damage
+    tier3: 28 + A damage
+  - name: Effect
+    effect: If you are disguised as a creature the target knew using your I'm No
       Threat ability, this ability deals extra damage equal to three times your
       Agility score.
-    name: Effect
 ```

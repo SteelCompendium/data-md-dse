@@ -1,10 +1,11 @@
 ---
+ability_type: Signature
 action_type: Main action
 class: 'null'
 distance: 1 burst
 feature_type: ability
 file_basename: Dance of Blows
-file_dpath: Null/1st-Level Features
+file_dpath: Abilities/Null/1st-Level Features
 flavor: You strike everywhere at once, tricking an enemy into moving out of position.
 item_id: dance-of-blows
 item_index: '10'
@@ -17,29 +18,32 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.null.1st-level-feature:dance-of-blows
 scdc:
-- 1.1.1:13.2.6.1:10
+- 1.1.1:11.2.6.1:10
 source: mcdm.heroes.v1
 target: Each enemy in the area
 type: feature/ability/null/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Dance of Blows
 flavor: You strike everywhere at once, tricking an enemy into moving out of position.
 keywords:
   - Area
   - Psionic
   - Weapon
-type: Main action
+usage: Main action
 distance: 1 burst
 target: Each enemy in the area
 metadata:
+  ability_type: Signature
   action_type: Main action
   class: "null"
   distance: 1 burst
   feature_type: ability
   file_basename: Dance of Blows
-  file_dpath: Null/1st-Level Features
+  file_dpath: Abilities/Null/1st-Level Features
   flavor: You strike everywhere at once, tricking an enemy into moving out of position.
   item_id: dance-of-blows
   item_index: "10"
@@ -52,16 +56,16 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.null.1st-level-feature:dance-of-blows
   scdc:
-    - 1.1.1:13.2.6.1:10
+    - 1.1.1:11.2.6.1:10
   source: mcdm.heroes.v1
   target: Each enemy in the area
   type: feature/ability/null/1st-level-feature
 effects:
   - roll: Power Roll + Agility
-    t1: 3 damage
-    t2: 4 damage
-    t3: 5 damage
-  - effect: You can slide one adjacent enemy up to a number of squares equal to your
+    tier1: 3 damage
+    tier2: 4 damage
+    tier3: 5 damage
+  - name: Effect
+    effect: You can slide one adjacent enemy up to a number of squares equal to your
       Intuition score.
-    name: Effect
 ```

@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Shadow Elf Cloak
 level: 4
 roles:
@@ -52,28 +53,32 @@ agility: 1
 reason: 0
 intuition: 0
 presence: 0
-traits:
-  - name: Of the Umbra
-    effects:
-      - effect: The cloak ignores concealment created by darkness. While the cloak is in
-          direct sunlight, they have damage weakness 3. While the cloak has
-          concealment, they have damage immunity 3.
-abilities:
-  - name: Stick and Poke
+features:
+  - type: feature
+    feature_type: ability
+    name: Stick and Poke
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 3
-        t1: 2 damage
-        t2: 4 damage
-        t3: 6 damage
-      - effect: The cloak shifts up to 2 squares
-        name: Effect
+        tier1: 2 damage
+        tier2: 4 damage
+        tier3: 6 damage
+      - name: Effect
+        effect: The cloak shifts up to 2 squares
+  - type: feature
+    feature_type: trait
+    name: Of the Umbra
+    icon: ⭐️
+    effects:
+      - effect: The cloak ignores concealment created by darkness. While the cloak is in
+          direct sunlight, they have damage weakness 3. While the cloak has
+          concealment, they have damage immunity 3.
 ~~~

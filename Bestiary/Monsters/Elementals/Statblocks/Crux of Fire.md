@@ -29,6 +29,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Crux of Fire
 level: 3
 roles:
@@ -48,58 +49,66 @@ agility: 2
 reason: 0
 intuition: 1
 presence: 2
-traits:
-  - name: Fickle and Free
-    effects:
-      - effect: The crux can't be restrained, slowed, or knocked prone, and they ignore
-          difficult terrain.
-abilities:
-  - name: Spitfire
+features:
+  - type: feature
+    feature_type: ability
+    name: Spitfire
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Ranged
       - Strike
-    type: Main action
+    usage: Main action
     distance: Ranged 12
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 2
-        t1: 8 fire damage
-        t2: 12 fire damage; A < 1 the target is burning (save ends)
-        t3: 15 fire damage; A < 2 the target is burning (save ends)
-      - effect: A burning creature takes 1d6 fire damage at the start of each of their
+        tier1: 8 fire damage
+        tier2: 12 fire damage; A < 1 the target is burning (save ends)
+        tier3: 15 fire damage; A < 2 the target is burning (save ends)
+      - name: Effect
+        effect: A burning creature takes 1d6 fire damage at the start of each of their
           turns. A burning object takes 1d6 fire damage at the end of each
           round.
-        name: Effect
-  - name: Convocation of Flames
+  - type: feature
+    feature_type: ability
+    name: Convocation of Flames
     icon: 🏹
     keywords:
       - Magic
       - Ranged
-    type: Maneuver
+    usage: Maneuver
     distance: Ranged 5
     target: Self or one elemental
     effects:
-      - effect: Until the start of the crux's next turn, the target has fire immunity 5.
-        name: Effect
-      - effect: Until the end of the encounter, the ground within 3 squares of the
+      - name: Effect
+        effect: Until the start of the crux's next turn, the target has fire immunity 5.
+      - cost: 3 Malice
+        effect: Until the end of the encounter, the ground within 3 squares of the
           target is wreathed in fire. Any enemy who enters that area for the
           first time in a round or starts their turn there takes 3 fire damage.
-        cost: 3 Malice
-  - name: Flame Jet
+  - type: feature
+    feature_type: ability
+    name: Flame Jet
     icon: ❗️
     cost: 1 Malice
     keywords:
       - Magic
-    type: Triggered action
+    usage: Triggered action
     distance: Self
     target: Self
     trigger: The crux takes damage.
     effects:
-      - effect: The crux ignores any effects associated with the damage and can fly up
+      - name: Effect
+        effect: The crux ignores any effects associated with the damage and can fly up
           to their speed. If the crux doesn't end this movement on solid ground,
           they fall.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Fickle and Free
+    icon: ⭐️
+    effects:
+      - effect: The crux can't be restrained, slowed, or knocked prone, and they ignore
+          difficult terrain.
 ~~~

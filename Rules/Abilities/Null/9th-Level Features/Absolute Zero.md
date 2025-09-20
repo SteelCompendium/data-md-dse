@@ -7,7 +7,7 @@ cost_resource: Discipline
 distance: Self
 feature_type: ability
 file_basename: Absolute Zero
-file_dpath: Null/9th-Level Features
+file_dpath: Abilities/Null/9th-Level Features
 flavor: You become the coldest thing in the timescape.
 item_id: absolute-zero-11-discipline
 item_index: '01'
@@ -18,20 +18,22 @@ level: 9
 scc:
 - mcdm.heroes.v1:feature.ability.null.9th-level-feature:absolute-zero-11-discipline
 scdc:
-- 1.1.1:13.2.6.7:01
+- 1.1.1:11.2.6.7:01
 source: mcdm.heroes.v1
 subclass: Cryokinetic
 target: Self
 type: feature/ability/null/9th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Absolute Zero
 cost: 11 Discipline
 flavor: You become the coldest thing in the timescape.
 keywords:
   - Psionic
-type: Maneuver
+usage: Maneuver
 distance: Self
 target: Self
 metadata:
@@ -43,7 +45,7 @@ metadata:
   distance: Self
   feature_type: ability
   file_basename: Absolute Zero
-  file_dpath: Null/9th-Level Features
+  file_dpath: Abilities/Null/9th-Level Features
   flavor: You become the coldest thing in the timescape.
   item_id: absolute-zero-11-discipline
   item_index: "01"
@@ -54,20 +56,20 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.null.9th-level-feature:absolute-zero-11-discipline
   scdc:
-    - 1.1.1:13.2.6.7:01
+    - 1.1.1:11.2.6.7:01
   source: mcdm.heroes.v1
   subclass: Cryokinetic
   target: Self
   type: feature/ability/null/9th-level-feature
 effects:
   - roll: Power Roll + Intuition
-    t1: You gain 20 temporary Stamina.
-    t2: You gain 30 temporary Stamina.
-    t3: You gain 40 temporary Stamina.
-  - effect: Until the end of the encounter or until you are dead, you become an
+    tier1: You gain 20 temporary Stamina.
+    tier2: You gain 30 temporary Stamina.
+    tier3: You gain 40 temporary Stamina.
+  - name: Effect
+    effect: Until the end of the encounter or until you are dead, you become an
       avatar of uttermost cold. You gain immunity to all damage equal to the
       cold damage immunity granted by your Entropic Adaptability trait, you
       ignore the negative effects of dying, and you have a +2 bonus to
       potencies.
-    name: Effect
 ```

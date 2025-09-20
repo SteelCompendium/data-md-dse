@@ -7,7 +7,7 @@ cost_resource: Piety
 distance: Ranged 10
 feature_type: ability
 file_basename: Thorn Cage
-file_dpath: Conduit/9th-Level Features
+file_dpath: Abilities/Conduit/9th-Level Features
 flavor: Vines burst forth from the ground and bind your foe, slowly closing around
   them.
 item_id: thorn-cage-11-piety
@@ -21,14 +21,16 @@ level: 9
 scc:
 - mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:thorn-cage-11-piety
 scdc:
-- 1.1.1:13.2.8.7:11
+- 1.1.1:11.2.8.7:11
 source: mcdm.heroes.v1
 subclass: Nature
 target: One creature
 type: feature/ability/conduit/9th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Thorn Cage
 cost: 11 Piety
 flavor: Vines burst forth from the ground and bind your foe, slowly closing
@@ -37,7 +39,7 @@ keywords:
   - Magic
   - Ranged
   - Strike
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: One creature
 metadata:
@@ -49,7 +51,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Thorn Cage
-  file_dpath: Conduit/9th-Level Features
+  file_dpath: Abilities/Conduit/9th-Level Features
   flavor: Vines burst forth from the ground and bind your foe, slowly closing
     around them.
   item_id: thorn-cage-11-piety
@@ -63,17 +65,17 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:thorn-cage-11-piety
   scdc:
-    - 1.1.1:13.2.8.7:11
+    - 1.1.1:11.2.8.7:11
   source: mcdm.heroes.v1
   subclass: Nature
   target: One creature
   type: feature/ability/conduit/9th-level-feature
 effects:
   - roll: Power Roll + Intuition
-    t1: 10 + I damage; A < WEAK, restrained (save ends)
-    t2: 15 + I damage; A < AVERAGE, restrained (save ends)
-    t3: 21 + I damage; A < STRONG, restrained (save ends)
-  - effect: While restrained this way, the target takes 10 damage at the start of
+    tier1: 10 + I damage; A < WEAK, restrained (save ends)
+    tier2: 15 + I damage; A < AVERAGE, restrained (save ends)
+    tier3: 21 + I damage; A < STRONG, restrained (save ends)
+  - name: Effect
+    effect: While restrained this way, the target takes 10 damage at the start of
       each of your turns.
-    name: Effect
 ```

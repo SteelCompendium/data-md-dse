@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: High Elf Dawn Mage
 level: 1
 roles:
@@ -51,28 +52,32 @@ agility: 0
 reason: 2
 intuition: -1
 presence: 1
-traits:
-  - name: Otherworldly Grace
-    effects:
-      - effect: At the start of each of their turns, the dawn mage can choose one effect
-          on them that can be ended by a saving throw. That effect instead ends
-          at the end of their turn.
-abilities:
-  - name: Bright Bolt
+features:
+  - type: feature
+    feature_type: ability
+    name: Bright Bolt
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Ranged
       - Strike
-    type: Main action
+    usage: Main action
     distance: Ranged 5
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 1 holy damage
-        t2: 2 holy damage
-        t3: 3 holy damage
-      - effect: Until the start of the dawn mage's next turn, the target can't hide.
-        name: Effect
+        tier1: 1 holy damage
+        tier2: 2 holy damage
+        tier3: 3 holy damage
+      - name: Effect
+        effect: Until the start of the dawn mage's next turn, the target can't hide.
+  - type: feature
+    feature_type: trait
+    name: Otherworldly Grace
+    icon: ⭐️
+    effects:
+      - effect: At the start of each of their turns, the dawn mage can choose one effect
+          on them that can be ended by a saving throw. That effect instead ends
+          at the end of their turn.
 ~~~

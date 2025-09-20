@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Radenwight Redeye
 level: 1
 roles:
@@ -50,33 +51,36 @@ agility: 2
 reason: -1
 intuition: 0
 presence: 0
-traits: []
-abilities:
-  - name: Eyes-On-Me-Shot
+features:
+  - type: feature
+    feature_type: ability
+    name: Eyes-On-Me-Shot
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 10
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 2 damage
-        t2: 4 damage
-        t3: 5 damage
-  - name: Ready Rodent
+        tier1: 2 damage
+        tier2: 4 damage
+        tier3: 5 damage
+  - type: feature
+    feature_type: ability
+    name: Ready Rodent
     icon: ❗️
     keywords:
       - Melee
       - Weapon
-    type: Triggered action
+    usage: Triggered action
     distance: Melee 1
     target: One creature
     trigger: An ally deals damage to the target.
     effects:
-      - effect: The redeye makes a free strike against the target.
-        name: Effect
+      - name: Effect
+        effect: The redeye makes a free strike against the target.
 ~~~

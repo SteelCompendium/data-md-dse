@@ -7,7 +7,7 @@ cost_resource: Insight
 distance: Self; see below
 feature_type: ability
 file_basename: One Hundred Throats
-file_dpath: Shadow/1st-Level Features
+file_dpath: Abilities/Shadow/1st-Level Features
 flavor: As you move across the battlefield, every foe within reach feels your wrath.
 item_id: one-hundred-throats-5-insight
 item_index: '03'
@@ -19,20 +19,22 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:one-hundred-throats-5-insight
 scdc:
-- 1.1.1:13.2.2.1:03
+- 1.1.1:11.2.2.1:03
 source: mcdm.heroes.v1
 target: Self
 type: feature/ability/shadow/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: One Hundred Throats
 cost: 5 Insight
 flavor: As you move across the battlefield, every foe within reach feels your wrath.
 keywords:
   - Melee
   - Weapon
-type: Main action
+usage: Main action
 distance: Self; see below
 target: Self
 metadata:
@@ -44,7 +46,7 @@ metadata:
   distance: Self; see below
   feature_type: ability
   file_basename: One Hundred Throats
-  file_dpath: Shadow/1st-Level Features
+  file_dpath: Abilities/Shadow/1st-Level Features
   flavor: As you move across the battlefield, every foe within reach feels your wrath.
   item_id: one-hundred-throats-5-insight
   item_index: "03"
@@ -56,7 +58,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:one-hundred-throats-5-insight
   scdc:
-    - 1.1.1:13.2.2.1:03
+    - 1.1.1:11.2.2.1:03
   source: mcdm.heroes.v1
   target: Self
   type: feature/ability/shadow/1st-level-feature
@@ -65,7 +67,7 @@ effects:
     effect: You shift up to your speed and make one power roll that targets up to
       three enemies who came adjacent to you during the move.
   - roll: Power Roll + Agility
-    t1: 3 damage
-    t2: 6 damage
-    t3: 9 damage
+    tier1: 3 damage
+    tier2: 6 damage
+    tier3: 9 damage
 ```

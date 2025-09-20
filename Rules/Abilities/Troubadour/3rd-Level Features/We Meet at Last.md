@@ -7,7 +7,7 @@ cost_resource: Drama
 distance: Ranged 10
 feature_type: ability
 file_basename: We Meet at Last
-file_dpath: Troubadour/3rd-Level Features
+file_dpath: Abilities/Troubadour/3rd-Level Features
 flavor: You magically intertwine your fate with another creature—for better or worse.
 item_id: we-meet-at-last-7-drama
 item_index: '06'
@@ -19,20 +19,22 @@ level: 3
 scc:
 - mcdm.heroes.v1:feature.ability.troubadour.3rd-level-feature:we-meet-at-last-7-drama
 scdc:
-- 1.1.1:13.2.3.6:06
+- 1.1.1:11.2.3.6:06
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/troubadour/3rd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: We Meet at Last
 cost: 7 Drama
 flavor: You magically intertwine your fate with another creature—for better or worse.
 keywords:
   - Magic
   - Ranged
-type: Maneuver
+usage: Maneuver
 distance: Ranged 10
 target: One creature
 metadata:
@@ -44,7 +46,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: We Meet at Last
-  file_dpath: Troubadour/3rd-Level Features
+  file_dpath: Abilities/Troubadour/3rd-Level Features
   flavor: You magically intertwine your fate with another creature—for better or worse.
   item_id: we-meet-at-last-7-drama
   item_index: "06"
@@ -56,12 +58,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.troubadour.3rd-level-feature:we-meet-at-last-7-drama
   scdc:
-    - 1.1.1:13.2.3.6:06
+    - 1.1.1:11.2.3.6:06
   source: mcdm.heroes.v1
   target: One creature
   type: feature/ability/troubadour/3rd-level-feature
 effects:
-  - effect: >-
+  - name: Effect
+    effect: >-
       Until the end of the encounter, both you and the target can target each
       other with abilities even if you are beyond distance, with the distance of
       this ability replacing those abilities' distances. The target can't be
@@ -71,5 +74,4 @@ effects:
       communicate a motivating or dispiriting message to the target, either
       granting them 2 surges or forcing them to take a bane on the next ability
       roll they make before the start of your next turn.
-    name: Effect
 ```

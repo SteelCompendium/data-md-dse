@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Optacus
 level: 10
 roles:
@@ -52,25 +53,26 @@ agility: 3
 reason: 1
 intuition: 5
 presence: 1
-traits: []
-abilities:
-  - name: Optical Flare
+features:
+  - type: feature
+    feature_type: ability
+    name: Optical Flare
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 20
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 5
-        t1: 5 fire damage
-        t2: 8 fire damage
-        t3: 10 fire damage; this damage ignores immunity
-      - effect: This ability ignores concealment. A winded target takes an extra 5
+        tier1: 5 fire damage
+        tier2: 8 fire damage
+        tier3: 10 fire damage; this damage ignores immunity
+      - name: Effect
+        effect: This ability ignores concealment. A winded target takes an extra 5
           damage.
-        name: Effect
 ~~~

@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Orc Bloodrunner
 level: 3
 roles:
@@ -48,39 +49,46 @@ agility: 2
 reason: 0
 intuition: 1
 presence: 1
-traits:
-  - name: Unimpeded
-    effects:
-      - effect: The bloodrunner can end their movement in a prone creature's space. The
-          first time on a turn that a bloodrunner enters any creature's space,
-          that creature takes 3 damage.
-  - name: Relentless
-    effects:
-      - effect: If the bloodrunner is reduced to 0 Stamina, they can make a free strike
-          before dying. If the target of the free strike is reduced to 0
-          Stamina, the bloodrunner is reduced to 1 Stamina instead.
-abilities:
-  - name: Shield Bash
+features:
+  - type: feature
+    feature_type: ability
+    name: Shield Bash
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 7 damage; push special
-        t2: 10 damage; push special
-        t3: 13 damage; push special or prone
-      - effect: The forced movement distance is equal to the number of squares the
+        tier1: 7 damage; push special
+        tier2: 10 damage; push special
+        tier3: 13 damage; push special or prone
+      - name: Effect
+        effect: The forced movement distance is equal to the number of squares the
           bloodrunner moved on their turn before using this ability. An ally
           targeted by this ability ignores the damage and can move up to that
           same distance.
-        name: Effect
-      - effect: An ally targeted by this ability can make a free strike after the forced
+      - cost: 2 Malice
+        effect: An ally targeted by this ability can make a free strike after the forced
           movement is resolved.
-        cost: 2 Malice
+  - type: feature
+    feature_type: trait
+    name: Unimpeded
+    icon: ⭐️
+    effects:
+      - effect: The bloodrunner can end their movement in a prone creature's space. The
+          first time on a turn that a bloodrunner enters any creature's space,
+          that creature takes 3 damage.
+  - type: feature
+    feature_type: trait
+    name: Relentless
+    icon: ⭐️
+    effects:
+      - effect: If the bloodrunner is reduced to 0 Stamina, they can make a free strike
+          before dying. If the target of the free strike is reduced to 0
+          Stamina, the bloodrunner is reduced to 1 Stamina instead.
 ~~~

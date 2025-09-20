@@ -7,7 +7,7 @@ cost_resource: Drama
 distance: 2 burst
 feature_type: ability
 file_basename: Hypnotic Overtones
-file_dpath: Troubadour/1st-Level Features
+file_dpath: Abilities/Troubadour/1st-Level Features
 flavor: You produce an entrancing note that twists the senses in a spectacular fashion.
 item_id: hypnotic-overtones-3-drama
 item_index: '13'
@@ -19,20 +19,22 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:hypnotic-overtones-3-drama
 scdc:
-- 1.1.1:13.2.3.1:13
+- 1.1.1:11.2.3.1:13
 source: mcdm.heroes.v1
 target: Each enemy in the area
 type: feature/ability/troubadour/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Hypnotic Overtones
 cost: 3 Drama
 flavor: You produce an entrancing note that twists the senses in a spectacular fashion.
 keywords:
   - Area
   - Magic
-type: Main action
+usage: Main action
 distance: 2 burst
 target: Each enemy in the area
 metadata:
@@ -44,7 +46,7 @@ metadata:
   distance: 2 burst
   feature_type: ability
   file_basename: Hypnotic Overtones
-  file_dpath: Troubadour/1st-Level Features
+  file_dpath: Abilities/Troubadour/1st-Level Features
   flavor: You produce an entrancing note that twists the senses in a spectacular
     fashion.
   item_id: hypnotic-overtones-3-drama
@@ -57,15 +59,15 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:hypnotic-overtones-3-drama
   scdc:
-    - 1.1.1:13.2.3.1:13
+    - 1.1.1:11.2.3.1:13
   source: mcdm.heroes.v1
   target: Each enemy in the area
   type: feature/ability/troubadour/1st-level-feature
 effects:
   - roll: Power Roll + Presence
-    t1: Slide 1; I < WEAK, dazed (save ends)
-    t2: Slide 1; I < AVERAGE, dazed (save ends)
-    t3: Slide 2; I < STRONG, dazed (save ends)
-  - effect: The size of the burst increases by 1 for every 2 drama spent.
-    cost: Spend 2+ Drama
+    tier1: Slide 1; I < WEAK, dazed (save ends)
+    tier2: Slide 1; I < AVERAGE, dazed (save ends)
+    tier3: Slide 2; I < STRONG, dazed (save ends)
+  - cost: Spend 2+ Drama
+    effect: The size of the burst increases by 1 for every 2 drama spent.
 ```

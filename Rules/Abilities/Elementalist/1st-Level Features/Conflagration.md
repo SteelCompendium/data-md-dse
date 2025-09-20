@@ -7,7 +7,7 @@ cost_resource: Essence
 distance: 3 cube within 10
 feature_type: ability
 file_basename: Conflagration
-file_dpath: Elementalist/1st-Level Features
+file_dpath: Abilities/Elementalist/1st-Level Features
 flavor: A storm of fire descends upon your enemies.
 item_id: conflagration-5-essence
 item_index: '25'
@@ -21,13 +21,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:conflagration-5-essence
 scdc:
-- 1.1.1:13.2.9.1:25
+- 1.1.1:11.2.9.1:25
 source: mcdm.heroes.v1
 target: Each enemy in the area
 type: feature/ability/elementalist/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Conflagration
 cost: 5 Essence
 flavor: A storm of fire descends upon your enemies.
@@ -36,7 +38,7 @@ keywords:
   - Fire
   - Magic
   - Ranged
-type: Main action
+usage: Main action
 distance: 3 cube within 10
 target: Each enemy in the area
 metadata:
@@ -48,7 +50,7 @@ metadata:
   distance: 3 cube within 10
   feature_type: ability
   file_basename: Conflagration
-  file_dpath: Elementalist/1st-Level Features
+  file_dpath: Abilities/Elementalist/1st-Level Features
   flavor: A storm of fire descends upon your enemies.
   item_id: conflagration-5-essence
   item_index: "25"
@@ -62,16 +64,16 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:conflagration-5-essence
   scdc:
-    - 1.1.1:13.2.9.1:25
+    - 1.1.1:11.2.9.1:25
   source: mcdm.heroes.v1
   target: Each enemy in the area
   type: feature/ability/elementalist/1st-level-feature
 effects:
   - roll: Power Roll + Reason
-    t1: 4 fire damage
-    t2: 6 fire damage
-    t3: 10 fire damage
-  - effect: At the start of your turn, you can use a maneuver to use this ability
+    tier1: 4 fire damage
+    tier2: 6 fire damage
+    tier3: 10 fire damage
+  - name: Persistent 2
+    effect: At the start of your turn, you can use a maneuver to use this ability
       again without spending essence.
-    name: Persistent 2
 ```

@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Time Raider Hijack
 level: 3
 roles:
@@ -50,44 +51,50 @@ agility: 2
 reason: 2
 intuition: 2
 presence: 1
-traits:
-  - name: Foresight
-    effects:
-      - effect: The hijack doesn't take a bane on strikes against creatures with
-          concealment.
-abilities:
-  - name: Golden Sickles
+features:
+  - type: feature
+    feature_type: ability
+    name: Golden Sickles
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Psionic
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature
     effects:
       - roll: Power Roll + 2
-        t1: 7 damage
-        t2: 11 damage
-        t3: 14 damage; A < 2 bleeding (save ends)
-      - effect: The hijack is hidden from any creature who is bleeding from this ability
+        tier1: 7 damage
+        tier2: 11 damage
+        tier3: 14 damage; A < 2 bleeding (save ends)
+      - name: Effect
+        effect: The hijack is hidden from any creature who is bleeding from this ability
           until that condition ends.
-        name: Effect
-  - name: Psi-Sickle
+  - type: feature
+    feature_type: ability
+    name: Psi-Sickle
     icon: 🏹
     keywords:
       - Psionic
       - Ranged
       - Weapon
-    type: Maneuver
+    usage: Maneuver
     distance: Ranged 5
     target: One creature or object
     effects:
-      - effect: The hijack psychically latches their sickle onto the target and closes
+      - name: Effect
+        effect: The hijack psychically latches their sickle onto the target and closes
           the distance between them. If the target is larger than the hijack,
           the hijack moves adjacent to the target. Otherwise, the target is
           pulled up to 4 squares toward the hijack.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Foresight
+    icon: ⭐️
+    effects:
+      - effect: The hijack doesn't take a bane on strikes against creatures with
+          concealment.
 ~~~

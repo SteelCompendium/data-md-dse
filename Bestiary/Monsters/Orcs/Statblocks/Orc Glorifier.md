@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Orc Glorifier
 level: 1
 roles:
@@ -49,29 +50,33 @@ agility: 1
 reason: 0
 intuition: 0
 presence: 2
-traits:
-  - name: Bloodfire Burn
-    effects:
-      - effect: If the glorifier is reduced to 0 Stamina, they can make a free strike
-          before dying.
-abilities:
-  - name: Call to Victory
+features:
+  - type: feature
+    feature_type: ability
+    name: Call to Victory
     icon: ⚔️
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Melee
       - Ranged
       - Strike
-    type: Main action
+    usage: Main action
     distance: Melee 1 or ranged 5
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 1 sonic damage
-        t2: 2 sonic damage; P < 1 slowed (save ends)
-        t3: 3 sonic damage; P < 2 slowed (save ends)
-      - effect: Allies gain an edge on melee strikes against the target until the
+        tier1: 1 sonic damage
+        tier2: 2 sonic damage; P < 1 slowed (save ends)
+        tier3: 3 sonic damage; P < 2 slowed (save ends)
+      - name: Effect
+        effect: Allies gain an edge on melee strikes against the target until the
           glorifier and each other glorifier in their squad are killed.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Bloodfire Burn
+    icon: ⭐️
+    effects:
+      - effect: If the glorifier is reduced to 0 Stamina, they can make a free strike
+          before dying.
 ~~~

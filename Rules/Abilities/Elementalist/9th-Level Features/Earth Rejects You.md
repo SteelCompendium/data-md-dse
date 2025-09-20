@@ -7,7 +7,7 @@ cost_resource: Essence
 distance: 5 cube within 10
 feature_type: ability
 file_basename: Earth Rejects You
-file_dpath: Elementalist/9th-Level Features
+file_dpath: Abilities/Elementalist/9th-Level Features
 flavor: Everyone and everything gets blown away in an eruption of rocks and debris.
 item_id: earth-rejects-you-11-essence
 item_index: '01'
@@ -21,13 +21,15 @@ level: 9
 scc:
 - mcdm.heroes.v1:feature.ability.elementalist.9th-level-feature:earth-rejects-you-11-essence
 scdc:
-- 1.1.1:13.2.9.7:01
+- 1.1.1:11.2.9.7:01
 source: mcdm.heroes.v1
 target: Each enemy and object in the area
 type: feature/ability/elementalist/9th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Earth Rejects You
 cost: 11 Essence
 flavor: Everyone and everything gets blown away in an eruption of rocks and debris.
@@ -36,7 +38,7 @@ keywords:
   - Earth
   - Magic
   - Ranged
-type: Main action
+usage: Main action
 distance: 5 cube within 10
 target: Each enemy and object in the area
 metadata:
@@ -48,7 +50,7 @@ metadata:
   distance: 5 cube within 10
   feature_type: ability
   file_basename: Earth Rejects You
-  file_dpath: Elementalist/9th-Level Features
+  file_dpath: Abilities/Elementalist/9th-Level Features
   flavor: Everyone and everything gets blown away in an eruption of rocks and debris.
   item_id: earth-rejects-you-11-essence
   item_index: "01"
@@ -62,16 +64,16 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.elementalist.9th-level-feature:earth-rejects-you-11-essence
   scdc:
-    - 1.1.1:13.2.9.7:01
+    - 1.1.1:11.2.9.7:01
   source: mcdm.heroes.v1
   target: Each enemy and object in the area
   type: feature/ability/elementalist/9th-level-feature
 effects:
   - roll: Power Roll + Reason
-    t1: 6 damage
-    t2: 9 damage
-    t3: 13 damage
-  - effect: At the start of your turn, you can use a maneuver to use this ability
+    tier1: 6 damage
+    tier2: 9 damage
+    tier3: 13 damage
+  - name: Persistent 2
+    effect: At the start of your turn, you can use a maneuver to use this ability
       again without spending essence.
-    name: Persistent 2
 ```

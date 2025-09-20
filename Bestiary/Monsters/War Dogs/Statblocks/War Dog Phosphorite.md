@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: War Dog Phosphorite
 level: 2
 roles:
@@ -52,19 +53,16 @@ agility: 2
 reason: 0
 intuition: 0
 presence: 0
-traits:
-  - name: Loyalty Collar
-    effects:
-      - effect: When the phosphorite is reduced to 0 Stamina, their loyalty collar
-          explodes, dealing 1d6 damage to each adjacent enemy and object.
-abilities:
-  - name: Caustic Detonator
+features:
+  - type: feature
+    feature_type: ability
+    name: Caustic Detonator
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Ranged
-    type: Main action
+    usage: Main action
     distance: Ranged 10
     target: One creature or object
     effects:
@@ -73,25 +71,34 @@ abilities:
           die. On an odd result, the detonator explodes, triggering the
           following power roll.
       - roll: Power Roll + 2
-        t1: 4 acid damage; M < 0 bleeding (save ends)
-        t2: 6 acid damage; M < 1 bleeding (save ends)
-        t3: 10 acid damage; M < 2 bleeding (save ends)
+        tier1: 4 acid damage; M < 0 bleeding (save ends)
+        tier2: 6 acid damage; M < 1 bleeding (save ends)
+        tier3: 10 acid damage; M < 2 bleeding (save ends)
       - name: Special
         effect: A creature adjacent to the target can attempt an **Agility test** as a
           maneuver to remove the detonator.
-        t1: No effect
-        t2: The detonator is disarmed and destroyed.
-        t3: The creature can attach the detonator to another creature or object within 5
-          squares of them.
-  - name: Posthumous Promotion
+        tier1: No effect
+        tier2: The detonator is disarmed and destroyed.
+        tier3: The creature can attach the detonator to another creature or object
+          within 5 squares of them.
+  - type: feature
+    feature_type: ability
+    name: Posthumous Promotion
     icon: 🏹
     keywords:
       - Magic
       - Ranged
-    type: Maneuver
+    usage: Maneuver
     distance: Ranged 10
     target: One war dog
     effects:
-      - effect: If the target has a loyalty collar, they are reduced to 0 Stamina.
-        name: Effect
+      - name: Effect
+        effect: If the target has a loyalty collar, they are reduced to 0 Stamina.
+  - type: feature
+    feature_type: trait
+    name: Loyalty Collar
+    icon: ⭐️
+    effects:
+      - effect: When the phosphorite is reduced to 0 Stamina, their loyalty collar
+          explodes, dealing 1d6 damage to each adjacent enemy and object.
 ~~~

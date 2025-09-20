@@ -7,7 +7,7 @@ cost_resource: Discipline
 distance: Self
 feature_type: ability
 file_basename: Kinetic Shield
-file_dpath: Null/2nd-Level Features
+file_dpath: Abilities/Null/2nd-Level Features
 flavor: You manifest a force barrier that absorbs incoming kinetic energy.
 item_id: kinetic-shield-5-discipline
 item_index: '05'
@@ -18,20 +18,22 @@ level: 2
 scc:
 - mcdm.heroes.v1:feature.ability.null.2nd-level-feature:kinetic-shield-5-discipline
 scdc:
-- 1.1.1:13.2.6.5:05
+- 1.1.1:11.2.6.5:05
 source: mcdm.heroes.v1
 subclass: Metakinetic
 target: Self
 type: feature/ability/null/2nd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Kinetic Shield
 cost: 5 Discipline
 flavor: You manifest a force barrier that absorbs incoming kinetic energy.
 keywords:
   - Psionic
-type: Maneuver
+usage: Maneuver
 distance: Self
 target: Self
 metadata:
@@ -43,7 +45,7 @@ metadata:
   distance: Self
   feature_type: ability
   file_basename: Kinetic Shield
-  file_dpath: Null/2nd-Level Features
+  file_dpath: Abilities/Null/2nd-Level Features
   flavor: You manifest a force barrier that absorbs incoming kinetic energy.
   item_id: kinetic-shield-5-discipline
   item_index: "05"
@@ -54,17 +56,17 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.null.2nd-level-feature:kinetic-shield-5-discipline
   scdc:
-    - 1.1.1:13.2.6.5:05
+    - 1.1.1:11.2.6.5:05
   source: mcdm.heroes.v1
   subclass: Metakinetic
   target: Self
   type: feature/ability/null/2nd-level-feature
 effects:
   - roll: Power Roll + Intuition
-    t1: You gain 10 temporary Stamina.
-    t2: You gain 15 temporary Stamina.
-    t3: You gain 20 temporary Stamina.
-  - effect: While you have temporary Stamina from this ability, you can't be made
+    tier1: You gain 10 temporary Stamina.
+    tier2: You gain 15 temporary Stamina.
+    tier3: You gain 20 temporary Stamina.
+  - name: Effect
+    effect: While you have temporary Stamina from this ability, you can't be made
       bleeding even while dying.
-    name: Effect
 ```

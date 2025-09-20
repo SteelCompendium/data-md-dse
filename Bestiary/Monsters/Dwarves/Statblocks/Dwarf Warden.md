@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Dwarf Warden
 level: 2
 roles:
@@ -48,47 +49,53 @@ agility: 0
 reason: 0
 intuition: 1
 presence: 0
-traits:
-  - name: Escort the Prisoners
-    effects:
-      - effect: Whenever the warden moves, they can carry an adjacent restrained enemy
-          as if the enemy were grabbed by them.
-abilities:
-  - name: Concussive Maul
+features:
+  - type: feature
+    feature_type: ability
+    name: Concussive Maul
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 7 damage; push 1
-        t2: 10 damage; push 3
-        t3: 13 damage; push 5; M < 2 restrained (save ends)
-      - effect: A target restrained by a dwarf can be force moved by this ability. This
+        tier1: 7 damage; push 1
+        tier2: 10 damage; push 3
+        tier3: 13 damage; push 5; M < 2 restrained (save ends)
+      - name: Effect
+        effect: A target restrained by a dwarf can be force moved by this ability. This
           forced movement doesn't end the restrained condition unless the
           Director determines otherwise.
-        name: Effect
-  - name: Concussive Shockwave
+  - type: feature
+    feature_type: ability
+    name: Concussive Shockwave
     icon: 🔳
     cost: 5 Malice
     keywords:
       - Area
       - Weapon
-    type: Main action
+    usage: Main action
     distance: 3 cube within 1
     target: Each enemy in the area
     effects:
       - roll: Power Roll + 2
-        t1: 5 damage; push 2; A < 0 slowed (save ends)
-        t2: 8 damage; push 2; A < 1 slowed (save ends)
-        t3: 11 damage; push 2; A < 2 slowed (save ends)
-      - effect: A target restrained by a dwarf can be force moved by this ability. This
+        tier1: 5 damage; push 2; A < 0 slowed (save ends)
+        tier2: 8 damage; push 2; A < 1 slowed (save ends)
+        tier3: 11 damage; push 2; A < 2 slowed (save ends)
+      - name: Effect
+        effect: A target restrained by a dwarf can be force moved by this ability. This
           forced movement doesn't end the restrained condition unless the
           Director determines otherwise.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Escort the Prisoners
+    icon: ⭐️
+    effects:
+      - effect: Whenever the warden moves, they can carry an adjacent restrained enemy
+          as if the enemy were grabbed by them.
 ~~~

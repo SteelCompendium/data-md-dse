@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: High Elf Deathtouch
 level: 2
 roles:
@@ -50,45 +51,51 @@ agility: 0
 reason: 1
 intuition: 0
 presence: 1
-traits:
-  - name: Otherworldly Grace
-    effects:
-      - effect: At the start of each of their turns, the deathtouch can choose one
-          effect on them that can be ended by a saving throw. That effect
-          instead ends at the end of their turn.
-abilities:
-  - name: Heartpiercer
+features:
+  - type: feature
+    feature_type: ability
+    name: Heartpiercer
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 15
     target: One creature
     effects:
       - roll: Power Roll + 2
-        t1: 7 damage
-        t2: 10 damage
-        t3: 13 damage; R < 1 bleeding (save ends); I < 1 frightened (save ends); P < 1
-          restrained (save ends)
-      - effect: The ability takes the Area keyword and loses the Strike keyword, its
+        tier1: 7 damage
+        tier2: 10 damage
+        tier3: 13 damage; R < 1 bleeding (save ends); I < 1 frightened (save ends); P <
+          1 restrained (save ends)
+      - cost: 5 Malice
+        effect: The ability takes the Area keyword and loses the Strike keyword, its
           distance becomes a 3 cube within 10, and it targets each enemy in the
           area.
-        cost: 5 Malice
-  - name: Kiss of Death
+  - type: feature
+    feature_type: ability
+    name: Kiss of Death
     icon: 🗡
     keywords:
       - Magic
       - Melee
-    type: Maneuver
+    usage: Maneuver
     distance: Melee 1
     target: One willing ally
     effects:
-      - effect: The target has a +5 bonus to speed and automatically obtains a tier 3
+      - name: Effect
+        effect: The target has a +5 bonus to speed and automatically obtains a tier 3
           outcome on power rolls. They can still roll to determine if they score
           a critical hit. At the end of their next turn, the target immediately
           dies.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Otherworldly Grace
+    icon: ⭐️
+    effects:
+      - effect: At the start of each of their turns, the deathtouch can choose one
+          effect on them that can be ended by a saving throw. That effect
+          instead ends at the end of their turn.
 ~~~

@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Orc Godcaller
 level: 1
 roles:
@@ -48,53 +49,61 @@ agility: 0
 reason: 0
 intuition: 1
 presence: 2
-traits:
-  - name: Relentless
-    effects:
-      - effect: If the godcaller is reduced to 0 Stamina, they can make a free strike
-          before dying. If the target of the free strike is reduced to 0
-          Stamina, the godcaller is reduced to 1 Stamina instead.
-abilities:
-  - name: Power Chord
+features:
+  - type: feature
+    feature_type: ability
+    name: Power Chord
     icon: ⚔️
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Melee
       - Ranged
       - Strike
-    type: Main action
+    usage: Main action
     distance: Melee 1 or ranged 10
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 5 sonic damage
-        t2: 7 sonic damage
-        t3: 9 sonic damage; P < 2 weakened (save ends)
-  - name: Cadenza
+        tier1: 5 sonic damage
+        tier2: 7 sonic damage
+        tier3: 9 sonic damage; P < 2 weakened (save ends)
+  - type: feature
+    feature_type: ability
+    name: Cadenza
     icon: 🏹
     keywords:
       - Magic
       - Ranged
-    type: Main action
+    usage: Main action
     distance: Ranged 10
     target: One ally
     effects:
-      - effect: The target moves up to their speed and can use a main action.
-        name: Effect
-      - effect: The godcaller targets a second ally.
-        cost: 3 Malice
-  - name: Rallying Ostinato
+      - name: Effect
+        effect: The target moves up to their speed and can use a main action.
+      - cost: 3 Malice
+        effect: The godcaller targets a second ally.
+  - type: feature
+    feature_type: ability
+    name: Rallying Ostinato
     icon: 🏹
     cost: 2 Malice
     keywords:
       - Magic
       - Ranged
-    type: Maneuver
+    usage: Maneuver
     distance: Ranged 10
     target: Self and three allies
     effects:
-      - effect: Each target regains 15 Stamina and ignores difficult terrain until the
+      - name: Effect
+        effect: Each target regains 15 Stamina and ignores difficult terrain until the
           end of the encounter.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Relentless
+    icon: ⭐️
+    effects:
+      - effect: If the godcaller is reduced to 0 Stamina, they can make a free strike
+          before dying. If the target of the free strike is reduced to 0
+          Stamina, the godcaller is reduced to 1 Stamina instead.
 ~~~

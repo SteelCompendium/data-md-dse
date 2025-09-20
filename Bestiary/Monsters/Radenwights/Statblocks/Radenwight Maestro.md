@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Radenwight Maestro
 level: 1
 roles:
@@ -49,95 +50,109 @@ agility: 2
 reason: 0
 intuition: 0
 presence: 3
-traits:
-  - name: End Effect
-    effects:
-      - effect: At the end of each of their turns, the maestro can take 5 damage to end
-          one effect on them that can be ended by a saving throw. This damage
-          can't be reduced in any way.
-abilities:
-  - name: Cacophony
+features:
+  - type: feature
+    feature_type: ability
+    name: Cacophony
     icon: ❇️
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Area
       - Magic
-    type: Main action
+    usage: Main action
     distance: 5 burst
     target: Each enemy in the area
     effects:
       - roll: Power Roll + 3
-        t1: 3 sonic damage; slide 1, the maestro can shift 1 square
-        t2: 6 sonic damage; slide 3, the maestro shifts up to 3 squares
-        t3: 8 sonic damage; slide 5, the maestro shifts up to 5 squares
-      - effect: Each ally within distance can use Ready Rodent as a free triggered
+        tier1: 3 sonic damage; slide 1, the maestro can shift 1 square
+        tier2: 6 sonic damage; slide 3, the maestro shifts up to 3 squares
+        tier3: 8 sonic damage; slide 5, the maestro shifts up to 5 squares
+      - name: Effect
+        effect: Each ally within distance can use Ready Rodent as a free triggered
           action once before the end of the round.
-        name: Effect
-  - name: Tempo Changer
+  - type: feature
+    feature_type: ability
+    name: Tempo Changer
     icon: 🏹
     keywords:
       - Magic
       - Ranged
       - Strike
-    type: Maneuver
+    usage: Maneuver
     distance: Ranged 10
     target: Two enemies
     effects:
       - roll: Power Roll + 3
-        t1: P < 1 slowed (save ends)
-        t2: P < 2 slowed (save ends)
-        t3: P < 3 slowed (save ends)
-      - effect: Each ally within 3 squares of any target has a +2 bonus to speed until
+        tier1: P < 1 slowed (save ends)
+        tier2: P < 2 slowed (save ends)
+        tier3: P < 3 slowed (save ends)
+      - cost: 3 Malice
+        effect: Each ally within 3 squares of any target has a +2 bonus to speed until
           the end of their next turn.
-        cost: 3 Malice
-  - name: Ever-Ready Rodent
+  - type: feature
+    feature_type: ability
+    name: Ever-Ready Rodent
     icon: ❗️
     cost: 2 Malice
     keywords:
       - Magic
       - Ranged
-    type: Free triggered action
+    usage: Free triggered action
     distance: Ranged 5
     target: The triggering creature
     trigger: A creature within distance deals damage to an ally or takes damage from
       an ally.
     effects:
-      - effect: The maestro makes a free strike against the target.
-        name: Effect
-  - name: Overture
+      - name: Effect
+        effect: The maestro makes a free strike against the target.
+  - type: feature
+    feature_type: trait
+    name: End Effect
+    icon: ⭐️
+    effects:
+      - effect: At the end of each of their turns, the maestro can take 5 damage to end
+          one effect on them that can be ended by a saving throw. This damage
+          can't be reduced in any way.
+  - type: feature
+    feature_type: ability
+    name: Overture
     icon: ☠️
-    cost: Villain Action 1
+    ability_type: Villain Action 1
     keywords:
       - Area
-    type: "-"
+    usage: "-"
     distance: 10 burst
     target: Each ally in the area
     effects:
-      - effect: Each target can shift up to their speed or take the Defend action.
-        name: Effect
-  - name: Solo Act
+      - name: Effect
+        effect: Each target can shift up to their speed or take the Defend action.
+  - type: feature
+    feature_type: ability
+    name: Solo Act
     icon: ☠️
-    cost: Villain Action 2
+    ability_type: Villain Action 2
     keywords:
       - Ranged
-    type: "-"
+    usage: "-"
     distance: Ranged 15
     target: One creature
     effects:
-      - effect: Until the end of their next turn, the target halves any damage they
+      - name: Effect
+        effect: Until the end of their next turn, the target halves any damage they
           take, gains a +4 damage bonus to strikes, and has their speed doubled.
-        name: Effect
-  - name: Rondo of Rat
+  - type: feature
+    feature_type: ability
+    name: Rondo of Rat
     icon: ☠️
-    cost: Villain Action 3
+    ability_type: Villain Action 3
     keywords:
       - Area
-    type: "-"
+    usage: "-"
     distance: 10 burst
     target: Each dead ally in the area
     effects:
-      - effect: Each target stands, makes a free strike, then falls dead again. Any ally
+      - name: Effect
+        effect: Each target stands, makes a free strike, then falls dead again. Any ally
           of the targets can use Ready Rodent as a free triggered action once in
           conjunction with these free strikes.
-        name: Effect
 ~~~

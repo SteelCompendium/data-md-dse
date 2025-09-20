@@ -7,7 +7,7 @@ cost_resource: Ferocity
 distance: Self
 feature_type: ability
 file_basename: Demon Unleashed
-file_dpath: Fury/3rd-Level Features
+file_dpath: Abilities/Fury/3rd-Level Features
 flavor: Foes tremble at the sight of you.
 item_id: demon-unleashed-7-ferocity
 item_index: '01'
@@ -18,19 +18,21 @@ level: 3
 scc:
 - mcdm.heroes.v1:feature.ability.fury.3rd-level-feature:demon-unleashed-7-ferocity
 scdc:
-- 1.1.1:13.2.5.5:01
+- 1.1.1:11.2.5.5:01
 source: mcdm.heroes.v1
 target: Self
 type: feature/ability/fury/3rd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Demon Unleashed
 cost: 7 Ferocity
 flavor: Foes tremble at the sight of you.
 keywords:
   - Magic
-type: Maneuver
+usage: Maneuver
 distance: Self
 target: Self
 metadata:
@@ -42,7 +44,7 @@ metadata:
   distance: Self
   feature_type: ability
   file_basename: Demon Unleashed
-  file_dpath: Fury/3rd-Level Features
+  file_dpath: Abilities/Fury/3rd-Level Features
   flavor: Foes tremble at the sight of you.
   item_id: demon-unleashed-7-ferocity
   item_index: "01"
@@ -53,13 +55,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.fury.3rd-level-feature:demon-unleashed-7-ferocity
   scdc:
-    - 1.1.1:13.2.5.5:01
+    - 1.1.1:11.2.5.5:01
   source: mcdm.heroes.v1
   target: Self
   type: feature/ability/fury/3rd-level-feature
 effects:
-  - effect: Until the end of the encounter or until you are dying, each enemy who
+  - name: Effect
+    effect: Until the end of the encounter or until you are dying, each enemy who
       starts their turn adjacent to you and has P < STRONG is frightened until
       the end of their turn.
-    name: Effect
 ```

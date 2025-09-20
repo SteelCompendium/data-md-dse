@@ -7,7 +7,7 @@ cost_resource: Insight
 distance: Melee 1 or ranged 5
 feature_type: ability
 file_basename: Two Throats at Once
-file_dpath: Shadow/1st-Level Features
+file_dpath: Abilities/Shadow/1st-Level Features
 flavor: A bargain.
 item_id: two-throats-at-once-3-insight
 item_index: '18'
@@ -21,13 +21,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:two-throats-at-once-3-insight
 scdc:
-- 1.1.1:13.2.2.1:18
+- 1.1.1:11.2.2.1:18
 source: mcdm.heroes.v1
 target: Two creatures or objects
 type: feature/ability/shadow/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Two Throats at Once
 cost: 3 Insight
 flavor: A bargain.
@@ -36,7 +38,7 @@ keywords:
   - Ranged
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1 or ranged 5
 target: Two creatures or objects
 metadata:
@@ -48,7 +50,7 @@ metadata:
   distance: Melee 1 or ranged 5
   feature_type: ability
   file_basename: Two Throats at Once
-  file_dpath: Shadow/1st-Level Features
+  file_dpath: Abilities/Shadow/1st-Level Features
   flavor: A bargain.
   item_id: two-throats-at-once-3-insight
   item_index: "18"
@@ -62,13 +64,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:two-throats-at-once-3-insight
   scdc:
-    - 1.1.1:13.2.2.1:18
+    - 1.1.1:11.2.2.1:18
   source: mcdm.heroes.v1
   target: Two creatures or objects
   type: feature/ability/shadow/1st-level-feature
 effects:
   - roll: Power Roll + Agility
-    t1: 4 damage
-    t2: 6 damage
-    t3: 10 damage
+    tier1: 4 damage
+    tier2: 6 damage
+    tier3: 10 damage
 ```

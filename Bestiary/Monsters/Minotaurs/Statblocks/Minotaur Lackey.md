@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Minotaur Lackey
 level: 8
 roles:
@@ -51,29 +52,33 @@ agility: 4
 reason: 0
 intuition: 1
 presence: -1
-traits:
-  - name: Minotaur Sense
-    effects:
-      - effect: The lackey can't obtain less than a tier 2 outcome when making tests to
-          navigate, search, or seek.
-abilities:
-  - name: Horn Vault
+features:
+  - type: feature
+    feature_type: ability
+    name: Horn Vault
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Charge
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 2
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 4
-        t1: 3 damage
-        t2: 6 damage; slide 1
-        t3: 8 damage; slide 3
-      - effect: A target who is force moved into an obstacle and has M < 3 is bleeding
+        tier1: 3 damage
+        tier2: 6 damage; slide 1
+        tier3: 8 damage; slide 3
+      - name: Effect
+        effect: A target who is force moved into an obstacle and has M < 3 is bleeding
           (save ends).
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Minotaur Sense
+    icon: ⭐️
+    effects:
+      - effect: The lackey can't obtain less than a tier 2 outcome when making tests to
+          navigate, search, or seek.
 ~~~

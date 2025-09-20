@@ -13,8 +13,9 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Malice Features
 name: Hag Malice
-type: Malice Features
 flavor: >-
   At the start of a hag's turn, you can spend Malice to activate one of the
   following features.
@@ -26,31 +27,37 @@ flavor: >-
   The hag utters terrible words that push each enemy within 2 squares of them up
   to 3 squares.
 features:
-  - name: Hag Wyrd
+  - type: feature
+    feature_type: ability
+    name: Hag Wyrd
     icon: 🔳
     cost: 5 Malice
     keywords:
       - Area
       - Magic
-    type: Main action
+    usage: Main action
     distance: 10 x 1 line within 1
     target: Each enemy in the area
     effects:
       - roll: Power Roll + 3
-        t1: 5 fire damage; R < 1 frightened (save ends)
-        t2: 8 fire damage; R < 2 frightened (save ends)
-        t3: 11 fire damage; R < 3 frightened (save ends)
-      - effect: After making the power roll, the hag can choose to replace the damage
+        tier1: 5 fire damage; R < 1 frightened (save ends)
+        tier2: 8 fire damage; R < 2 frightened (save ends)
+        tier3: 11 fire damage; R < 3 frightened (save ends)
+      - name: Effect
+        effect: After making the power roll, the hag can choose to replace the damage
           type and condition with lightning damage and dazed, or cold damage and
           slowed.
-        name: Effect
-  - name: Solo Action
+  - type: feature
+    feature_type: trait
+    name: Solo Action
     icon: ☠️
     cost: 5 Malice
     effects:
       - effect: The hag takes an additional main action on their turn. They can use this
           feature even if they are dazed.
-  - name: House Call
+  - type: feature
+    feature_type: trait
+    name: House Call
     icon: 🌀
     cost: 10 Malice
     effects:
@@ -60,19 +67,21 @@ features:
           from its powerful set of animal legs. This feature can't be used if
           the hut is reduced to 0 Stamina. In addition to its move action, the
           house can take only the following main action.
-  - name: Kick
+  - type: feature
+    feature_type: ability
+    name: Kick
     icon: 🔳
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Area
       - Ranged
       - Weapon
-    type: Main action
+    usage: Main action
     distance: 2 cube within 2
     target: Each enemy in the area
     effects:
       - roll: Power Roll + 3
-        t1: 6 damage; push 3; M < 1 prone
-        t2: 10 damage; push 4; M < 2 prone
-        t3: 13 damage; push 5; M < 3 prone
+        tier1: 6 damage; push 3; M < 1 prone
+        tier2: 10 damage; push 4; M < 2 prone
+        tier3: 13 damage; push 5; M < 3 prone
 ~~~

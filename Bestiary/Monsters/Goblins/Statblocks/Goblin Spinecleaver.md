@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Goblin Spinecleaver
 level: 1
 roles:
@@ -50,24 +51,28 @@ agility: 0
 reason: 0
 intuition: 0
 presence: -1
-traits:
-  - name: Crafty
-    effects:
-      - effect: The spinecleaver doesn't provoke opportunity attacks by moving
-abilities:
-  - name: Axe
+features:
+  - type: feature
+    feature_type: ability
+    name: Axe
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 2 damage; push 1
-        t2: 4 damage; push 3
-        t3: 5 damage; push 4
+        tier1: 2 damage; push 1
+        tier2: 4 damage; push 3
+        tier3: 5 damage; push 4
+  - type: feature
+    feature_type: trait
+    name: Crafty
+    icon: ⭐️
+    effects:
+      - effect: The spinecleaver doesn't provoke opportunity attacks by moving
 ~~~

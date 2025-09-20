@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Human Scoundrel
 level: 1
 roles:
@@ -51,39 +52,45 @@ agility: 2
 reason: 0
 intuition: 0
 presence: 1
-traits:
-  - name: Supernatural Insight
-    effects:
-      - effect: The scoundrel ignores concealment if it's granted by a supernatural
-          effect.
-abilities:
-  - name: Rapier and Dagger
+features:
+  - type: feature
+    feature_type: ability
+    name: Rapier and Dagger
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 6 damage
-        t2: 9 damage
-        t3: 12 damage
-      - effect: If this ability gains an edge or has a double edge, it deals an extra 2
+        tier1: 6 damage
+        tier2: 9 damage
+        tier3: 12 damage
+      - cost: 2 Malice
+        effect: If this ability gains an edge or has a double edge, it deals an extra 2
           damage.
-        cost: 2 Malice
-  - name: Dagger Storm
+  - type: feature
+    feature_type: ability
+    name: Dagger Storm
     icon: 🌀
     cost: 5 Malice
     keywords:
       - "-"
-    type: Main action
+    usage: Main action
     distance: "-"
     target: "-"
     effects:
       - effect: The scoundrel uses Rapier and Dagger against up to three targets. They
           shift up to 2 squares before or after each strike
+  - type: feature
+    feature_type: trait
+    name: Supernatural Insight
+    icon: ⭐️
+    effects:
+      - effect: The scoundrel ignores concealment if it's granted by a supernatural
+          effect.
 ~~~

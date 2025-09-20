@@ -7,7 +7,7 @@ cost_resource: Wrath
 distance: Melee 1
 feature_type: ability
 file_basename: Behold a Shield of Faith
-file_dpath: Censor/1st-Level Features
+file_dpath: Abilities/Censor/1st-Level Features
 flavor: A mighty blow turns your foe's vitality into a holy light that envelops you
   and an ally, discouraging enemies who might attack you.
 item_id: behold-a-shield-of-faith-3-wrath
@@ -21,13 +21,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:behold-a-shield-of-faith-3-wrath
 scdc:
-- 1.1.1:13.2.7.1:08
+- 1.1.1:11.2.7.1:08
 source: mcdm.heroes.v1
 target: One creature or object
 type: feature/ability/censor/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Behold a Shield of Faith!
 cost: 3 Wrath
 flavor: A mighty blow turns your foe's vitality into a holy light that envelops
@@ -36,7 +38,7 @@ keywords:
   - Melee
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1
 target: One creature or object
 metadata:
@@ -48,7 +50,7 @@ metadata:
   distance: Melee 1
   feature_type: ability
   file_basename: Behold a Shield of Faith
-  file_dpath: Censor/1st-Level Features
+  file_dpath: Abilities/Censor/1st-Level Features
   flavor: A mighty blow turns your foe's vitality into a holy light that envelops
     you and an ally, discouraging enemies who might attack you.
   item_id: behold-a-shield-of-faith-3-wrath
@@ -62,16 +64,16 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:behold-a-shield-of-faith-3-wrath
   scdc:
-    - 1.1.1:13.2.7.1:08
+    - 1.1.1:11.2.7.1:08
   source: mcdm.heroes.v1
   target: One creature or object
   type: feature/ability/censor/1st-level-feature
 effects:
   - roll: Power Roll + Might
-    t1: 3 + M holy damage
-    t2: 6 + M holy damage
-    t3: 9 + M holy damage
-  - effect: Until the start of your next turn, enemies take a bane on ability rolls
+    tier1: 3 + M holy damage
+    tier2: 6 + M holy damage
+    tier3: 9 + M holy damage
+  - name: Effect
+    effect: Until the start of your next turn, enemies take a bane on ability rolls
       made against you or any ally adjacent to you.
-    name: Effect
 ```

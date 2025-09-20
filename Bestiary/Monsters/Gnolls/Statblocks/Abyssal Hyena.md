@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Abyssal Hyena
 level: 2
 roles:
@@ -51,25 +52,29 @@ agility: 1
 reason: -3
 intuition: 0
 presence: -2
-traits:
-  - name: Death Snap
-    effects:
-      - effect: When the abyssal hyena is reduced to 0 Stamina, they can make a melee
-          free strike before dying.
-abilities:
-  - name: Snapjaw
+features:
+  - type: feature
+    feature_type: ability
+    name: Snapjaw
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 3 damage
-        t2: 4 damage
-        t3: 6 damage; grabbed
+        tier1: 3 damage
+        tier2: 4 damage
+        tier3: 6 damage; grabbed
+  - type: feature
+    feature_type: trait
+    name: Death Snap
+    icon: ⭐️
+    effects:
+      - effect: When the abyssal hyena is reduced to 0 Stamina, they can make a melee
+          free strike before dying.
 ~~~

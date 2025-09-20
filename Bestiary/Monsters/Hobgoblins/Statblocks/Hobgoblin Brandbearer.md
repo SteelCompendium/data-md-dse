@@ -32,6 +32,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Hobgoblin Brandbearer
 level: 4
 roles:
@@ -55,29 +56,36 @@ agility: 1
 reason: 2
 intuition: 0
 presence: 3
-traits:
-  - name: Open Furnace
-    effects:
-      - effect: Whenever an enemy takes fire damage, they take 1 extra fire damage for
-          each brandbearer adjacent to them.
-  - name: Infernal Ichor
-    effects:
-      - effect: When the brandbearer is reduced to 0 Stamina, they spray burning blood.
-          Each creature adjacent to the brandbearer takes 2 fire damage.
-abilities:
-  - name: Searing Grasp
+features:
+  - type: feature
+    feature_type: ability
+    name: Searing Grasp
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Melee
       - Strike
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 3
-        t1: 2 fire damage
-        t2: 4 fire damage; M < 2 fire weakness 5 (save ends)
-        t3: 6 fire damage; M < 3 fire weakness 5 (save ends)
+        tier1: 2 fire damage
+        tier2: 4 fire damage; M < 2 fire weakness 5 (save ends)
+        tier3: 6 fire damage; M < 3 fire weakness 5 (save ends)
+  - type: feature
+    feature_type: trait
+    name: Open Furnace
+    icon: ⭐️
+    effects:
+      - effect: Whenever an enemy takes fire damage, they take 1 extra fire damage for
+          each brandbearer adjacent to them.
+  - type: feature
+    feature_type: trait
+    name: Infernal Ichor
+    icon: ⭐️
+    effects:
+      - effect: When the brandbearer is reduced to 0 Stamina, they spray burning blood.
+          Each creature adjacent to the brandbearer takes 2 fire damage.
 ~~~

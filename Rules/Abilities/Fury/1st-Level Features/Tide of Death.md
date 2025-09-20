@@ -7,7 +7,7 @@ cost_resource: Ferocity
 distance: Self; see below
 feature_type: ability
 file_basename: Tide of Death
-file_dpath: Fury/1st-Level Features
+file_dpath: Abilities/Fury/1st-Level Features
 flavor: Teach them the folly of lining up for you.
 item_id: tide-of-death-3-ferocity
 item_index: '10'
@@ -19,20 +19,22 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:tide-of-death-3-ferocity
 scdc:
-- 1.1.1:13.2.5.1:10
+- 1.1.1:11.2.5.1:10
 source: mcdm.heroes.v1
 target: Self
 type: feature/ability/fury/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Tide of Death
 cost: 3 Ferocity
 flavor: Teach them the folly of lining up for you.
 keywords:
   - Melee
   - Weapon
-type: Main action
+usage: Main action
 distance: Self; see below
 target: Self
 metadata:
@@ -44,7 +46,7 @@ metadata:
   distance: Self; see below
   feature_type: ability
   file_basename: Tide of Death
-  file_dpath: Fury/1st-Level Features
+  file_dpath: Abilities/Fury/1st-Level Features
   flavor: Teach them the folly of lining up for you.
   item_id: tide-of-death-3-ferocity
   item_index: "10"
@@ -56,7 +58,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:tide-of-death-3-ferocity
   scdc:
-    - 1.1.1:13.2.5.1:10
+    - 1.1.1:11.2.5.1:10
   source: mcdm.heroes.v1
   target: Self
   type: feature/ability/fury/1st-level-feature
@@ -67,10 +69,10 @@ effects:
       creature's space and move them to an adjacent unoccupied space. You make
       one power roll that targets each enemy whose space you move through.
   - roll: Power Roll + Might
-    t1: 2 damage
-    t2: 3 damage
-    t3: 5 damage
-  - effect: The last target you damage takes extra damage equal to your Might score
+    tier1: 2 damage
+    tier2: 3 damage
+    tier3: 5 damage
+  - name: Effect
+    effect: The last target you damage takes extra damage equal to your Might score
       for each opportunity attack you trigger during your move.
-    name: Effect
 ```

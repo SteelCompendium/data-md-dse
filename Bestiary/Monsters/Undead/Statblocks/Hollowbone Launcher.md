@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Hollowbone Launcher
 level: 4
 roles:
@@ -52,27 +53,31 @@ agility: 3
 reason: 0
 intuition: 0
 presence: 0
-traits:
-  - name: Brittle Revenge
-    effects:
-      - effect: The hollowbone launcher explodes when they are reduced to 0 Stamina,
-          dealing 2 damage to each adjacent creature
-abilities:
-  - name: Hollowbone Slug
+features:
+  - type: feature
+    feature_type: ability
+    name: Hollowbone Slug
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 10
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 3
-        t1: 3 damage
-        t2: 5 damage
-        t3: 7 damage; M < 3 bleeding (save ends)
-      - effect: Each creature adjacent to the target takes 2 damage.
-        name: Effect
+        tier1: 3 damage
+        tier2: 5 damage
+        tier3: 7 damage; M < 3 bleeding (save ends)
+      - name: Effect
+        effect: Each creature adjacent to the target takes 2 damage.
+  - type: feature
+    feature_type: trait
+    name: Brittle Revenge
+    icon: ⭐️
+    effects:
+      - effect: The hollowbone launcher explodes when they are reduced to 0 Stamina,
+          dealing 2 damage to each adjacent creature
 ~~~

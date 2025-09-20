@@ -1,4 +1,5 @@
 ---
+ability_type: Signature
 action_type: Main action
 class: ignored
 distance: Melee 2
@@ -12,7 +13,6 @@ keywords:
 - Melee
 - Strike
 - Weapon
-kit: Stick and Robe
 scc:
 - mcdm.heroes.v1:kit-ability.stick-and-robe:where-i-want-you
 scdc:
@@ -22,17 +22,20 @@ target: One creature
 type: kit-ability/stick-and-robe
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Where I Want You
 flavor: When your stick speaks, your enemy moves.
 keywords:
   - Melee
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 2
 target: One creature
 metadata:
+  ability_type: Signature
   action_type: Main action
   class: ignored
   distance: Melee 2
@@ -46,7 +49,6 @@ metadata:
     - Melee
     - Strike
     - Weapon
-  kit: Stick and Robe
   scc:
     - mcdm.heroes.v1:kit-ability.stick-and-robe:where-i-want-you
   scdc:
@@ -56,7 +58,7 @@ metadata:
   type: kit-ability/stick-and-robe
 effects:
   - roll: Power Roll + Might or Agility
-    t1: 4 + M or A damage
-    t2: 7 + M or A damage; slide 1
-    t3: 10 + M or A damage; slide 3
+    tier1: 4 + M or A damage
+    tier2: 7 + M or A damage; slide 1
+    tier3: 10 + M or A damage; slide 3
 ```

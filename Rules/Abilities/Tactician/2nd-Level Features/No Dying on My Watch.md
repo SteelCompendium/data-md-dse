@@ -7,7 +7,7 @@ cost_resource: Focus
 distance: Ranged 5
 feature_type: ability
 file_basename: No Dying on My Watch
-file_dpath: Tactician/2nd-Level Features
+file_dpath: Abilities/Tactician/2nd-Level Features
 flavor: You prioritize saving an ally over your own safety.
 item_id: no-dying-on-my-watch-5-focus
 item_index: '02'
@@ -20,14 +20,16 @@ level: 2
 scc:
 - mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:no-dying-on-my-watch-5-focus
 scdc:
-- 1.1.1:13.2.4.5:02
+- 1.1.1:11.2.4.5:02
 source: mcdm.heroes.v1
 subclass: Vanguard
 target: One enemy
 type: feature/ability/tactician/2nd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: No Dying on My Watch
 cost: 5 Focus
 flavor: You prioritize saving an ally over your own safety.
@@ -35,7 +37,7 @@ keywords:
   - Ranged
   - Strike
   - Weapon
-type: Triggered
+usage: Triggered
 distance: Ranged 5
 target: One enemy
 trigger: The target deals damage to an ally.
@@ -48,7 +50,7 @@ metadata:
   distance: Ranged 5
   feature_type: ability
   file_basename: No Dying on My Watch
-  file_dpath: Tactician/2nd-Level Features
+  file_dpath: Abilities/Tactician/2nd-Level Features
   flavor: You prioritize saving an ally over your own safety.
   item_id: no-dying-on-my-watch-5-focus
   item_index: "02"
@@ -61,7 +63,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:no-dying-on-my-watch-5-focus
   scdc:
-    - 1.1.1:13.2.4.5:02
+    - 1.1.1:11.2.4.5:02
   source: mcdm.heroes.v1
   subclass: Vanguard
   target: One enemy
@@ -74,7 +76,7 @@ effects:
       temporary Stamina for each enemy you came adjacent to during the move. You
       then make a power roll against the target.
   - roll: Power Roll + Might
-    t1: R < WEAK, the target is frightened of the triggering ally (save ends)
-    t2: R < AVERAGE, the target is frightened of the triggering ally (save ends)
-    t3: R < STRONG, the target is frightened of the triggering ally (save ends)
+    tier1: R < WEAK, the target is frightened of the triggering ally (save ends)
+    tier2: R < AVERAGE, the target is frightened of the triggering ally (save ends)
+    tier3: R < STRONG, the target is frightened of the triggering ally (save ends)
 ```

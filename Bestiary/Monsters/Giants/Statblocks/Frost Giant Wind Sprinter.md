@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Frost Giant Wind Sprinter
 level: 8
 roles:
@@ -50,70 +51,83 @@ agility: 4
 reason: -1
 intuition: 0
 presence: 0
-traits:
-  - name: Crush Underfoot
-    effects:
-      - effect: The wind sprinter can move through enemies' spaces at their usual speed.
-          The first time on a turn that a wind sprinter enters a creature's
-          space, that creature can choose to fall prone or to take 8 damage.
-  - name: Kingdom of Isolation
-    effects:
-      - effect: The wind sprinter is surrounded by a snowstorm. Any enemy who starts
-          their turn within 2 squares of the wind sprinter can't shift.
-abilities:
-  - name: Cold Axe
+features:
+  - type: feature
+    feature_type: ability
+    name: Cold Axe
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Charge
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 3
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 4
-        t1: 12 damage
-        t2: 17 damage; A < 3 bleeding (save ends)
-        t3: 21 damage; A < 4 bleeding (save ends)
-      - effect: A target who is already bleeding takes an extra 1d6 cold damage.
-        name: Effect
-  - name: Blizzard Surge
+        tier1: 12 damage
+        tier2: 17 damage; A < 3 bleeding (save ends)
+        tier3: 21 damage; A < 4 bleeding (save ends)
+      - name: Effect
+        effect: A target who is already bleeding takes an extra 1d6 cold damage.
+  - type: feature
+    feature_type: ability
+    name: Blizzard Surge
     icon: 👤
     cost: 5 Malice
     keywords:
       - "-"
-    type: Main action
+    usage: Main action
     distance: Self
     target: Self
     effects:
-      - effect: The wind sprinter shifts up to their speed and uses Cold Axe against
+      - name: Effect
+        effect: The wind sprinter shifts up to their speed and uses Cold Axe against
           each enemy who comes within 2 squares of them during the move. The
           wind sprinter makes one power roll against all targets.
-        name: Effect
-  - name: Ice Dance
+  - type: feature
+    feature_type: ability
+    name: Ice Dance
     icon: 🗡
     keywords:
       - Melee
-    type: Maneuver
+    usage: Maneuver
     distance: Melee 1
     target: One giant ally
     effects:
-      - effect: The wind sprinter and the target each shift up to 6 squares while
+      - name: Effect
+        effect: The wind sprinter and the target each shift up to 6 squares while
           staying adjacent to each other. The target can then jump up to 5
           squares and make a free strike.
-        name: Effect
-  - name: Begone, Smallfolk!
+  - type: feature
+    feature_type: ability
+    name: Begone, Smallfolk!
     icon: ❗️
     keywords:
       - "-"
-    type: Triggered action
+    usage: Triggered action
     distance: Self
     target: Self
     trigger: The wind sprinter takes damage.
     effects:
-      - effect: The wind sprinter moves up to their speed and uses Cold Axe against one
+      - name: Effect
+        effect: The wind sprinter moves up to their speed and uses Cold Axe against one
           target.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Crush Underfoot
+    icon: ⭐️
+    effects:
+      - effect: The wind sprinter can move through enemies' spaces at their usual speed.
+          The first time on a turn that a wind sprinter enters a creature's
+          space, that creature can choose to fall prone or to take 8 damage.
+  - type: feature
+    feature_type: trait
+    name: Kingdom of Isolation
+    icon: ⭐️
+    effects:
+      - effect: The wind sprinter is surrounded by a snowstorm. Any enemy who starts
+          their turn within 2 squares of the wind sprinter can't shift.
 ~~~

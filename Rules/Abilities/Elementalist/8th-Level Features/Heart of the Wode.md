@@ -7,7 +7,7 @@ cost_resource: Essence
 distance: Ranged 10
 feature_type: ability
 file_basename: Heart of the Wode
-file_dpath: Elementalist/8th-Level Features
+file_dpath: Abilities/Elementalist/8th-Level Features
 flavor: You call forth one of the Great Tree's many splinters to provide for your
   every need.
 item_id: heart-of-the-wode-11-essence
@@ -21,13 +21,15 @@ level: 8
 scc:
 - mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:heart-of-the-wode-11-essence
 scdc:
-- 1.1.1:13.2.9.2:02
+- 1.1.1:11.2.9.2:02
 source: mcdm.heroes.v1
 target: Special
 type: feature/ability/elementalist/8th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Heart of the Wode
 cost: 11 Essence
 flavor: You call forth one of the Great Tree's many splinters to provide for
@@ -36,7 +38,7 @@ keywords:
   - Green
   - Magic
   - Ranged
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: Special
 metadata:
@@ -48,7 +50,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Heart of the Wode
-  file_dpath: Elementalist/8th-Level Features
+  file_dpath: Abilities/Elementalist/8th-Level Features
   flavor: You call forth one of the Great Tree's many splinters to provide for
     your every need.
   item_id: heart-of-the-wode-11-essence
@@ -62,12 +64,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:heart-of-the-wode-11-essence
   scdc:
-    - 1.1.1:13.2.9.2:02
+    - 1.1.1:11.2.9.2:02
   source: mcdm.heroes.v1
   target: Special
   type: feature/ability/elementalist/8th-level-feature
 effects:
-  - effect: >-
+  - name: Effect
+    effect: >-
       A size 5 tree appears in an unoccupied space within distance. The tree has
       100 Stamina and can't be force moved. You and any ally can touch the tree
       to use the Catch Breath maneuver as a free maneuver. Additionally, when
@@ -79,5 +82,4 @@ effects:
       Each enemy who ends their turn within 3 squares of the tree is restrained
       until the end of their next turn. A creature restrained this way can use a
       main action to end the effect early.
-    name: Effect
 ```

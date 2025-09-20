@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Dwarf Axethrower
 level: 1
 roles:
@@ -49,25 +50,26 @@ agility: 0
 reason: 0
 intuition: 2
 presence: 0
-traits: []
-abilities:
-  - name: Whistling Axes
+features:
+  - type: feature
+    feature_type: ability
+    name: Whistling Axes
     icon: ⚔️
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1 or ranged 5
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 1 damage
-        t2: 2 damage
-        t3: 3 damage; one ally adjacent to the target can make a free strike
-      - effect: The target can't use triggered actions until the start of the next
+        tier1: 1 damage
+        tier2: 2 damage
+        tier3: 3 damage; one ally adjacent to the target can make a free strike
+      - name: Effect
+        effect: The target can't use triggered actions until the start of the next
           round.
-        name: Effect
 ~~~

@@ -4,7 +4,7 @@ class: troubadour
 distance: 5 aura
 feature_type: ability
 file_basename: Choreography
-file_dpath: Troubadour/1st-Level Features
+file_dpath: Abilities/Troubadour/1st-Level Features
 flavor: Taps, kicks, steps. It's all "choreography."
 item_id: choreography
 item_index: 08
@@ -17,20 +17,22 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:choreography
 scdc:
-- 1.1.1:13.2.3.1:08
+- 1.1.1:11.2.3.1:08
 source: mcdm.heroes.v1
 target: Self and each ally in the area
 type: feature/ability/troubadour/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Choreography
 flavor: Taps, kicks, steps. It's all "choreography."
 keywords:
   - Area
   - Magic
   - Performance
-type: No action
+usage: No action
 distance: 5 aura
 target: Self and each ally in the area
 metadata:
@@ -39,7 +41,7 @@ metadata:
   distance: 5 aura
   feature_type: ability
   file_basename: Choreography
-  file_dpath: Troubadour/1st-Level Features
+  file_dpath: Abilities/Troubadour/1st-Level Features
   flavor: Taps, kicks, steps. It's all "choreography."
   item_id: choreography
   item_index: 8
@@ -52,12 +54,12 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:choreography
   scdc:
-    - 1.1.1:13.2.3.1:08
+    - 1.1.1:11.2.3.1:08
   source: mcdm.heroes.v1
   target: Self and each ally in the area
   type: feature/ability/troubadour/1st-level-feature
 effects:
-  - effect: While this performance is active, each target who starts their turn in
+  - name: Effect
+    effect: While this performance is active, each target who starts their turn in
       the area gains a +2 bonus to speed until the end of their turn.
-    name: Effect
 ```

@@ -7,7 +7,7 @@ cost_resource: Clarity
 distance: Self; see below
 feature_type: ability
 file_basename: Force Orbs
-file_dpath: Talent/3rd-Level Features
+file_dpath: Abilities/Talent/3rd-Level Features
 flavor: Spheres of solid psionic energy float around you.
 item_id: force-orbs-7-clarity
 item_index: '01'
@@ -21,13 +21,15 @@ level: 3
 scc:
 - mcdm.heroes.v1:feature.ability.talent.3rd-level-feature:force-orbs-7-clarity
 scdc:
-- 1.1.1:13.2.1.6:01
+- 1.1.1:11.2.1.6:01
 source: mcdm.heroes.v1
 target: Self
 type: feature/ability/talent/3rd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Force Orbs
 cost: 7 Clarity
 flavor: Spheres of solid psionic energy float around you.
@@ -36,7 +38,7 @@ keywords:
   - Ranged
   - Strike
   - Telekinesis
-type: Main action
+usage: Main action
 distance: Self; see below
 target: Self
 metadata:
@@ -48,7 +50,7 @@ metadata:
   distance: Self; see below
   feature_type: ability
   file_basename: Force Orbs
-  file_dpath: Talent/3rd-Level Features
+  file_dpath: Abilities/Talent/3rd-Level Features
   flavor: Spheres of solid psionic energy float around you.
   item_id: force-orbs-7-clarity
   item_index: "01"
@@ -62,7 +64,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.talent.3rd-level-feature:force-orbs-7-clarity
   scdc:
-    - 1.1.1:13.2.1.6:01
+    - 1.1.1:11.2.1.6:01
   source: mcdm.heroes.v1
   target: Self
   type: feature/ability/talent/3rd-level-feature
@@ -76,9 +78,9 @@ effects:
       a creature or object within 5 squares as a ranged strike, losing the orb
       after the strike.
   - roll: Power Roll + Reason
-    t1: 2 damage
-    t2: 3 damage
-    t3: 5 damage
-  - effect: You create five orbs, and you are weakened while you have any orbs active.
-    name: Strained
+    tier1: 2 damage
+    tier2: 3 damage
+    tier3: 5 damage
+  - name: Strained
+    effect: You create five orbs, and you are weakened while you have any orbs active.
 ```

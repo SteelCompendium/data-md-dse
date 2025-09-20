@@ -7,7 +7,7 @@ cost_resource: Focus
 distance: Ranged 5
 feature_type: ability
 file_basename: Targets of Opportunity
-file_dpath: Tactician/2nd-Level Features
+file_dpath: Abilities/Tactician/2nd-Level Features
 flavor: You point out easy targets to your friends, allowing them to include more
   enemies in their attacks.
 item_id: targets-of-opportunity-5-focus
@@ -19,21 +19,23 @@ level: 2
 scc:
 - mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:targets-of-opportunity-5-focus
 scdc:
-- 1.1.1:13.2.4.5:06
+- 1.1.1:11.2.4.5:06
 source: mcdm.heroes.v1
 subclass: Mastermind
 target: Two creatures
 type: feature/ability/tactician/2nd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Targets of Opportunity
 cost: 5 Focus
 flavor: You point out easy targets to your friends, allowing them to include
   more enemies in their attacks.
 keywords:
   - Ranged
-type: Maneuver
+usage: Maneuver
 distance: Ranged 5
 target: Two creatures
 metadata:
@@ -45,7 +47,7 @@ metadata:
   distance: Ranged 5
   feature_type: ability
   file_basename: Targets of Opportunity
-  file_dpath: Tactician/2nd-Level Features
+  file_dpath: Abilities/Tactician/2nd-Level Features
   flavor: You point out easy targets to your friends, allowing them to include
     more enemies in their attacks.
   item_id: targets-of-opportunity-5-focus
@@ -57,16 +59,16 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:targets-of-opportunity-5-focus
   scdc:
-    - 1.1.1:13.2.4.5:06
+    - 1.1.1:11.2.4.5:06
   source: mcdm.heroes.v1
   subclass: Mastermind
   target: Two creatures
   type: feature/ability/tactician/2nd-level-feature
 effects:
-  - effect: Each target is marked by you, and you gain two surges.
-    name: Effect
-  - effect: Until the end of the encounter, whenever you or any ally makes a strike
+  - name: Effect
+    effect: Each target is marked by you, and you gain two surges.
+  - name: Mark Benefit
+    effect: Until the end of the encounter, whenever you or any ally makes a strike
       against a creature marked by you, you can spend 2 focus to add one
       additional target to the strike.
-    name: Mark Benefit
 ```

@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Frenzied
 level: 1
 roles:
@@ -51,25 +52,29 @@ agility: 2
 reason: -1
 intuition: -1
 presence: -1
-traits:
-  - name: Soulsight
-    effects:
-      - effect: Any creature within 2 squares of the frenzied can't be hidden from them.
-abilities:
-  - name: Rip and Tear
+features:
+  - type: feature
+    feature_type: ability
+    name: Rip and Tear
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Charge
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 1 damage
-        t2: 2 damage
-        t3: 3 damage
+        tier1: 1 damage
+        tier2: 2 damage
+        tier3: 3 damage
+  - type: feature
+    feature_type: trait
+    name: Soulsight
+    icon: ⭐️
+    effects:
+      - effect: Any creature within 2 squares of the frenzied can't be hidden from them.
 ~~~

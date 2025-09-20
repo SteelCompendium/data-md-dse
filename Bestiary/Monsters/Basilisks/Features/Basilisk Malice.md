@@ -13,12 +13,15 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Malice Features
 name: Basilisk Malice
-type: Malice Features
 flavor: At the start of any basilisk's turn, you can spend Malice to activate
   one of the following features.
 features:
-  - name: Stone Swim
+  - type: feature
+    feature_type: trait
+    name: Stone Swim
     icon: ⭐️
     cost: 3+ Malice
     effects:
@@ -28,23 +31,27 @@ features:
           other creatures underground when they do so. At the start of each of
           the basilisk's turns, the Director can spend 1 Malice to let the
           basilisk continue burrowing.
-  - name: Upchuck
+  - type: feature
+    feature_type: ability
+    name: Upchuck
     icon: 🔳
     cost: 5 Malice
     keywords:
       - Area
       - Weapon
-    type: Main action
+    usage: Main action
     distance: 3 cube within 10
     target: Each enemy in the area
     effects:
       - name: Effect
         effect: The basilisk spits up a chunk of partly digested stone.
       - roll: Power Roll + 2
-        t1: 4 damage
-        t2: 4 damage; A < 1 2 damage, prone
-        t3: 4 damage; A < 2 5 damage, prone and can't stand (save ends)
-  - name: Walleye
+        tier1: 4 damage
+        tier2: 4 damage; A < 1 2 damage, prone
+        tier3: 4 damage; A < 2 5 damage, prone and can't stand (save ends)
+  - type: feature
+    feature_type: trait
+    name: Walleye
     icon: 🔳
     cost: 7 Malice
     effects:

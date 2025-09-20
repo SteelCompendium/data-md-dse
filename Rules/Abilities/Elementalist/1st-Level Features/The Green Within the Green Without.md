@@ -1,10 +1,11 @@
 ---
+ability_type: Signature
 action_type: Main action
 class: elementalist
 distance: Ranged 10
 feature_type: ability
 file_basename: The Green Within the Green Without
-file_dpath: Elementalist/1st-Level Features
+file_dpath: Abilities/Elementalist/1st-Level Features
 flavor: Whipping vines erupt from a foe's body to grasp at another close by.
 item_id: the-green-within-the-green-without
 item_index: '13'
@@ -18,13 +19,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:the-green-within-the-green-without
 scdc:
-- 1.1.1:13.2.9.1:13
+- 1.1.1:11.2.9.1:13
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/elementalist/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: The Green Within, the Green Without
 flavor: Whipping vines erupt from a foe's body to grasp at another close by.
 keywords:
@@ -32,16 +35,17 @@ keywords:
   - Magic
   - Ranged
   - Strike
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: One creature
 metadata:
+  ability_type: Signature
   action_type: Main action
   class: elementalist
   distance: Ranged 10
   feature_type: ability
   file_basename: The Green Within the Green Without
-  file_dpath: Elementalist/1st-Level Features
+  file_dpath: Abilities/Elementalist/1st-Level Features
   flavor: Whipping vines erupt from a foe's body to grasp at another close by.
   item_id: the-green-within-the-green-without
   item_index: "13"
@@ -55,15 +59,15 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:the-green-within-the-green-without
   scdc:
-    - 1.1.1:13.2.9.1:13
+    - 1.1.1:11.2.9.1:13
   source: mcdm.heroes.v1
   target: One creature
   type: feature/ability/elementalist/1st-level-feature
 effects:
   - roll: Power Roll + Reason
-    t1: 2 + R damage
-    t2: 5 + R damage
-    t3: 7 + R damage
-  - effect: You slide one creature within 10 squares of the target up to 2 squares.
-    name: Effect
+    tier1: 2 + R damage
+    tier2: 5 + R damage
+    tier3: 7 + R damage
+  - name: Effect
+    effect: You slide one creature within 10 squares of the target up to 2 squares.
 ```

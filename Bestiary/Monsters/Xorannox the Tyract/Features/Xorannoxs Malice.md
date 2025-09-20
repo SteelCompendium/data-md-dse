@@ -13,18 +13,23 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Malice Features
 name: Xorannox's Malice
-type: Malice Features
 flavor: At the start of Xorannox's turn, you can spend Malice to activate one of
   the following features.
 features:
-  - name: Gas Belch
+  - type: feature
+    feature_type: trait
+    name: Gas Belch
     icon: ❇️
     cost: 3 Malice
     effects:
       - effect: Xorannox lets out a noxious belch. Each enemy within 2 squares of him
           who has M < 3 is weakened (save ends).
-  - name: Slime Trail
+  - type: feature
+    feature_type: trait
+    name: Slime Trail
     icon: ⭐️
     cost: 5 Malice
     effects:
@@ -32,13 +37,17 @@ features:
           leave their space, they secrete a viscous slime onto the ground in
           that area. Any enemy who enters an affected square has lightning
           weakness 5 and fire weakness 5 until the end of the encounter.
-  - name: Solo Action
+  - type: feature
+    feature_type: trait
+    name: Solo Action
     icon: ☠️
     cost: 5 Malice
     effects:
       - effect: Xorannox takes an additional main action on his turn. He can use this
           feature even if he is dazed.
-  - name: Mind Over Matter
+  - type: feature
+    feature_type: trait
+    name: Mind Over Matter
     icon: 🌀
     cost: 7 Malice
     effects:

@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Gnoll Chainflail
 level: 2
 roles:
@@ -49,25 +50,29 @@ agility: 0
 reason: 1
 intuition: 0
 presence: -2
-traits:
-  - name: Death Circle
-    effects:
-      - effect: Whenever a non-minion ally within 5 squares of the chainflail is reduced
-          to 0 Stamina, the chainflail can move up to their speed.
-abilities:
-  - name: Chain Shotput
+features:
+  - type: feature
+    feature_type: ability
+    name: Chain Shotput
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 8
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 3 damage
-        t2: 4 damage; push 1
-        t3: 6 damage; push 3
+        tier1: 3 damage
+        tier2: 4 damage; push 1
+        tier3: 6 damage; push 3
+  - type: feature
+    feature_type: trait
+    name: Death Circle
+    icon: ⭐️
+    effects:
+      - effect: Whenever a non-minion ally within 5 squares of the chainflail is reduced
+          to 0 Stamina, the chainflail can move up to their speed.
 ~~~

@@ -4,7 +4,7 @@ class: troubadour
 distance: 5 aura
 feature_type: ability
 file_basename: Radical Fantasia
-file_dpath: Troubadour/8th-Level Features
+file_dpath: Abilities/Troubadour/8th-Level Features
 flavor: "\U0001D160♪Viras, my Viras, will you hold their hands as they cryyy—aaaiigh?♪"
 item_id: radical-fantasia
 item_index: '02'
@@ -17,21 +17,23 @@ level: 8
 scc:
 - mcdm.heroes.v1:feature.ability.troubadour.8th-level-feature:radical-fantasia
 scdc:
-- 1.1.1:13.2.3.2:02
+- 1.1.1:11.2.3.2:02
 source: mcdm.heroes.v1
 subclass: Virtuoso
 target: Self and each ally in the area
 type: feature/ability/troubadour/8th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Radical Fantasia
 flavor: 𝅘𝅥𝅮♪Viras, my Viras, will you hold their hands as they cryyy—aaaiigh?♪
 keywords:
   - Area
   - Magic
   - Performance
-type: No action
+usage: No action
 distance: 5 aura
 target: Self and each ally in the area
 metadata:
@@ -40,7 +42,7 @@ metadata:
   distance: 5 aura
   feature_type: ability
   file_basename: Radical Fantasia
-  file_dpath: Troubadour/8th-Level Features
+  file_dpath: Abilities/Troubadour/8th-Level Features
   flavor: 𝅘𝅥𝅮♪Viras, my Viras, will you hold their hands as they cryyy—aaaiigh?♪
   item_id: radical-fantasia
   item_index: "02"
@@ -53,16 +55,16 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.troubadour.8th-level-feature:radical-fantasia
   scdc:
-    - 1.1.1:13.2.3.2:02
+    - 1.1.1:11.2.3.2:02
   source: mcdm.heroes.v1
   subclass: Virtuoso
   target: Self and each ally in the area
   type: feature/ability/troubadour/8th-level-feature
 effects:
-  - effect: While this performance is active, each target who starts their turn in
+  - name: Effect
+    effect: While this performance is active, each target who starts their turn in
       the area ignores difficult terrain, and any ability they use that imposes
       forced movement gains a +2 bonus to the forced movement distance until the
       end of their turn. Additionally, once per combat round, each target can
       use a triggered action as a free triggered action.
-    name: Effect
 ```

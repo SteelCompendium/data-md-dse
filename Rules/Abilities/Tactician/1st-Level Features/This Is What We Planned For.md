@@ -7,7 +7,7 @@ cost_resource: Focus
 distance: Ranged 10
 feature_type: ability
 file_basename: This Is What We Planned For
-file_dpath: Tactician/1st-Level Features
+file_dpath: Abilities/Tactician/1st-Level Features
 flavor: All those coordination drills you made them do finally pay off.
 item_id: this-is-what-we-planned-for-5-focus
 item_index: '04'
@@ -18,19 +18,21 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:this-is-what-we-planned-for-5-focus
 scdc:
-- 1.1.1:13.2.4.1:04
+- 1.1.1:11.2.4.1:04
 source: mcdm.heroes.v1
 target: Two allies
 type: feature/ability/tactician/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: This Is What We Planned For
 cost: 5 Focus
 flavor: All those coordination drills you made them do finally pay off.
 keywords:
   - Ranged
-type: Maneuver
+usage: Maneuver
 distance: Ranged 10
 target: Two allies
 metadata:
@@ -42,7 +44,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: This Is What We Planned For
-  file_dpath: Tactician/1st-Level Features
+  file_dpath: Abilities/Tactician/1st-Level Features
   flavor: All those coordination drills you made them do finally pay off.
   item_id: this-is-what-we-planned-for-5-focus
   item_index: "04"
@@ -53,12 +55,12 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:this-is-what-we-planned-for-5-focus
   scdc:
-    - 1.1.1:13.2.4.1:04
+    - 1.1.1:11.2.4.1:04
   source: mcdm.heroes.v1
   target: Two allies
   type: feature/ability/tactician/1st-level-feature
 effects:
-  - effect: Each target who hasn't acted yet this combat round can take their turn
+  - name: Effect
+    effect: Each target who hasn't acted yet this combat round can take their turn
       in any order immediately after yours.
-    name: Effect
 ```

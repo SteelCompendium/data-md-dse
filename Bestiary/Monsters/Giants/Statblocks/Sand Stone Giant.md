@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Sand Stone Giant
 level: 8
 roles:
@@ -50,33 +51,43 @@ agility: 2
 reason: 0
 intuition: 3
 presence: 0
-traits:
-  - name: Stonebreaker Flesh
-    effects:
-      - effect: Whenever an enemy obtains a tier 1 outcome on a melee ability used
-          against the sand stone giant, they take a bane on that ability until
-          the end of the encounter.
-  - name: Stone Steps
-    effects:
-      - effect: The sand stone giant ignores difficult terrain
-  - name: Stone Swim
-    effects:
-      - effect: The sand stone giant can burrow through stone, but can't drag other
-          creatures underground when they do so.
-abilities:
-  - name: Buried in Sand
+features:
+  - type: feature
+    feature_type: ability
+    name: Buried in Sand
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Melee
       - Strike
-    type: Main action
+    usage: Main action
     distance: Melee 3
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 4
-        t1: 3 damage; slide 2
-        t2: 6 damage; slide 3; A < 3 restrained (save ends)
-        t3: 8 damage; slide 4; A < 4 restrained (save ends)
+        tier1: 3 damage; slide 2
+        tier2: 6 damage; slide 3; A < 3 restrained (save ends)
+        tier3: 8 damage; slide 4; A < 4 restrained (save ends)
+  - type: feature
+    feature_type: trait
+    name: Stonebreaker Flesh
+    icon: ⭐️
+    effects:
+      - effect: Whenever an enemy obtains a tier 1 outcome on a melee ability used
+          against the sand stone giant, they take a bane on that ability until
+          the end of the encounter.
+  - type: feature
+    feature_type: trait
+    name: Stone Steps
+    icon: ⭐️
+    effects:
+      - effect: The sand stone giant ignores difficult terrain
+  - type: feature
+    feature_type: trait
+    name: Stone Swim
+    icon: ⭐️
+    effects:
+      - effect: The sand stone giant can burrow through stone, but can't drag other
+          creatures underground when they do so.
 ~~~

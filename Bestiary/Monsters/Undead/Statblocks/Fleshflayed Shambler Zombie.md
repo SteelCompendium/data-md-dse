@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Fleshflayed Shambler Zombie
 level: 4
 roles:
@@ -52,28 +53,32 @@ agility: -1
 reason: 0
 intuition: 0
 presence: 0
-traits:
-  - name: Fleshfused Spines
-    effects:
-      - effect: Any adjacent enemy who grabs the fleshflayed shambler or uses melee
-          ability against them takes 2 damage.
-abilities:
-  - name: Bone Carvers
+features:
+  - type: feature
+    feature_type: ability
+    name: Bone Carvers
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 3
-        t1: 3 damage
-        t2: 5 damage
-        t3: 7 damage
-      - effect: If this ability gains an edge or has a double edge, the target is
+        tier1: 3 damage
+        tier2: 5 damage
+        tier3: 7 damage
+      - name: Effect
+        effect: If this ability gains an edge or has a double edge, the target is
           bleeding (save ends).
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Fleshfused Spines
+    icon: ⭐️
+    effects:
+      - effect: Any adjacent enemy who grabs the fleshflayed shambler or uses melee
+          ability against them takes 2 damage.
 ~~~

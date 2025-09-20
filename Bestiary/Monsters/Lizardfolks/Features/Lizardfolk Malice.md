@@ -13,19 +13,22 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Malice Features
 name: Lizardfolk Malice
-type: Malice Features
 flavor: At the start of any lizardfolk's turn, you can spend Malice to activate
   one of the following features.
 features:
-  - name: Net Trap
+  - type: feature
+    feature_type: ability
+    name: Net Trap
     icon: 🔳
     cost: 3 Malice
     keywords:
       - Area
       - Ranged
       - Weapon
-    type: Maneuver
+    usage: Maneuver
     distance: 1 cube within 3
     target: Special
     effects:
@@ -34,13 +37,15 @@ features:
           first time an enemy steps into a square with a net trap, they make an
           **Agility test**. If the creature was unaware of the trap, they take a
           bane on the test.
-        t1: Restrained (save ends).
-        t2: Restrained (Eot).
-        t3: No effect.
-      - effect: Any creature not also restrained by a net trap who is adjacent to a
+        tier1: Restrained (save ends).
+        tier2: Restrained (Eot).
+        tier3: No effect.
+      - name: Effect
+        effect: Any creature not also restrained by a net trap who is adjacent to a
           creature restrained by the trap can free them as a maneuver.
-        name: Effect
-  - name: Water Pit
+  - type: feature
+    feature_type: trait
+    name: Water Pit
     icon: 🔳
     cost: 5 Malice
     effects:
@@ -51,10 +56,12 @@ features:
           ended by a saving throw. While adjacent to the pit, any creature who
           can burrow or who has the Nature skill can make a **Might test** or a
           **Reason test** to drain it.
-        t1: The creature falls into the pit and is knocked prone.
-        t2: The creature fails to empty the pit.
-        t3: The pit empties of water.
-  - name: Flood the Shores
+        tier1: The creature falls into the pit and is knocked prone.
+        tier2: The creature fails to empty the pit.
+        tier3: The pit empties of water.
+  - type: feature
+    feature_type: trait
+    name: Flood the Shores
     icon: 🌀
     cost: 7 Malice
     effects:

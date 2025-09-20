@@ -1,10 +1,11 @@
 ---
+ability_type: Signature
 action_type: Main action
 class: talent
 distance: Ranged 10
 feature_type: ability
 file_basename: Optic Blast
-file_dpath: Talent/1st-Level Features
+file_dpath: Abilities/Talent/1st-Level Features
 flavor: Your eyes emit rays of powerful enervating force.
 item_id: optic-blast
 item_index: '19'
@@ -18,13 +19,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:optic-blast
 scdc:
-- 1.1.1:13.2.1.1:19
+- 1.1.1:11.2.1.1:19
 source: mcdm.heroes.v1
 target: One creature or object
 type: feature/ability/talent/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Optic Blast
 flavor: Your eyes emit rays of powerful enervating force.
 keywords:
@@ -32,16 +35,17 @@ keywords:
   - Psionic
   - Ranged
   - Strike
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: One creature or object
 metadata:
+  ability_type: Signature
   action_type: Main action
   class: talent
   distance: Ranged 10
   feature_type: ability
   file_basename: Optic Blast
-  file_dpath: Talent/1st-Level Features
+  file_dpath: Abilities/Talent/1st-Level Features
   flavor: Your eyes emit rays of powerful enervating force.
   item_id: optic-blast
   item_index: "19"
@@ -55,21 +59,21 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:optic-blast
   scdc:
-    - 1.1.1:13.2.1.1:19
+    - 1.1.1:11.2.1.1:19
   source: mcdm.heroes.v1
   target: One creature or object
   type: feature/ability/talent/1st-level-feature
 effects:
   - roll: Power Roll + Reason
-    t1: 2 + R damage; M < WEAK, prone
-    t2: 4 + R damage; M < AVERAGE, prone
-    t3: 6 + R damage; M < STRONG, prone
-  - effect: When targeting an object with a solid reflective surface or a creature
+    tier1: 2 + R damage; M < WEAK, prone
+    tier2: 4 + R damage; M < AVERAGE, prone
+    tier3: 6 + R damage; M < STRONG, prone
+  - name: Effect
+    effect: When targeting an object with a solid reflective surface or a creature
       carrying or wearing such an object (such as a mirror, an unpainted metal
       shield, or shiny metal plate armor), you can target one additional
       creature or object within 3 squares of the first target.
-    name: Effect
-  - effect: You gain 1 surge that you can use immediately, and you take damage equal
+  - name: Strained
+    effect: You gain 1 surge that you can use immediately, and you take damage equal
       to your Reason score that can't be reduced in any way.
-    name: Strained
 ```

@@ -7,7 +7,7 @@ cost_resource: Drama
 distance: Ranged 10
 feature_type: ability
 file_basename: Power Ballad
-file_dpath: Troubadour/8th-Level Features
+file_dpath: Abilities/Troubadour/8th-Level Features
 flavor: A song for the brokenhearted wraps itself around the target and blossoms into
   a ward of thorns.
 item_id: power-ballad-11-drama
@@ -20,13 +20,15 @@ level: 8
 scc:
 - mcdm.heroes.v1:feature.ability.troubadour.8th-level-feature:power-ballad-11-drama
 scdc:
-- 1.1.1:13.2.3.2:05
+- 1.1.1:11.2.3.2:05
 source: mcdm.heroes.v1
 target: Self or one ally
 type: feature/ability/troubadour/8th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Power Ballad
 cost: 11 Drama
 flavor: A song for the brokenhearted wraps itself around the target and blossoms
@@ -34,7 +36,7 @@ flavor: A song for the brokenhearted wraps itself around the target and blossoms
 keywords:
   - Magic
   - Ranged
-type: Maneuver
+usage: Maneuver
 distance: Ranged 10
 target: Self or one ally
 metadata:
@@ -46,7 +48,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Power Ballad
-  file_dpath: Troubadour/8th-Level Features
+  file_dpath: Abilities/Troubadour/8th-Level Features
   flavor: A song for the brokenhearted wraps itself around the target and blossoms
     into a ward of thorns.
   item_id: power-ballad-11-drama
@@ -59,13 +61,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.troubadour.8th-level-feature:power-ballad-11-drama
   scdc:
-    - 1.1.1:13.2.3.2:05
+    - 1.1.1:11.2.3.2:05
   source: mcdm.heroes.v1
   target: Self or one ally
   type: feature/ability/troubadour/8th-level-feature
 effects:
-  - effect: Until the end of the encounter, whenever the target takes damage while
+  - name: Effect
+    effect: Until the end of the encounter, whenever the target takes damage while
       winded, they can use a free triggered action to deal half the damage they
       took to the source of the damage.
-    name: Effect
 ```

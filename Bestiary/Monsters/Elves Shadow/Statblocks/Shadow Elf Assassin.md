@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Shadow Elf Assassin
 level: 6
 roles:
@@ -51,48 +52,54 @@ agility: 3
 reason: 2
 intuition: 1
 presence: 1
-traits:
-  - name: Of the Umbra
-    effects:
-      - effect: The assassin ignores concealment created by darkness. While the assassin
-          is in direct sunlight, they have damage weakness 3. While the assassin
-          has concealment, they have damage immunity 3.
-abilities:
-  - name: Lumina Assault
+features:
+  - type: feature
+    feature_type: ability
+    name: Lumina Assault
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 15
     target: One creature or object
     effects:
       - roll: Power Roll + 3
-        t1: 10 damage
-        t2: 15 damage
-        t3: 18 damage
-      - effect: The next ability used against the target has a double edge.
-        name: Effect
-      - effect: Each non-minion ally within 3 squares of the target can make a free
+        tier1: 10 damage
+        tier2: 15 damage
+        tier3: 18 damage
+      - name: Effect
+        effect: The next ability used against the target has a double edge.
+      - cost: 5 Malice
+        effect: Each non-minion ally within 3 squares of the target can make a free
           strike against them.
-        cost: 5 Malice
-  - name: Splitbow
+  - type: feature
+    feature_type: ability
+    name: Splitbow
     icon: 🔳
     cost: 2 Malice
     keywords:
       - Area
       - Ranged
       - Weapon
-    type: Main action
+    usage: Main action
     distance: 4 x 1 line within 10
     target: Each enemy in the area
     effects:
       - roll: Power Roll + 3
-        t1: 5 damage; I < 1 bleeding (save ends)
-        t2: 10 damage; I < 2 bleeding (save ends)
-        t3: 12 damage; I < 3 bleeding (save ends)
-      - effect: Each target is pushed up to 4 squares.
-        name: Effect
+        tier1: 5 damage; I < 1 bleeding (save ends)
+        tier2: 10 damage; I < 2 bleeding (save ends)
+        tier3: 12 damage; I < 3 bleeding (save ends)
+      - name: Effect
+        effect: Each target is pushed up to 4 squares.
+  - type: feature
+    feature_type: trait
+    name: Of the Umbra
+    icon: ⭐️
+    effects:
+      - effect: The assassin ignores concealment created by darkness. While the assassin
+          is in direct sunlight, they have damage weakness 3. While the assassin
+          has concealment, they have damage immunity 3.
 ~~~

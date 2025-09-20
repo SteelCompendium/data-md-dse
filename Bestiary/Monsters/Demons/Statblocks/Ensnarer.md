@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Ensnarer
 level: 1
 roles:
@@ -51,27 +52,31 @@ agility: 0
 reason: -1
 intuition: -1
 presence: -1
-traits:
-  - name: Soulsight
-    effects:
-      - effect: Any creature within 2 squares of the ensnarer can't be hidden from them.
-abilities:
-  - name: Barbed Tongues
+features:
+  - type: feature
+    feature_type: ability
+    name: Barbed Tongues
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 3
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 2 damage; pull 1
-        t2: 4 damage; pull 2
-        t3: 5 damage; pull 3
-      - effect: If the target is pulled adjacent to the ensnarer, the ensnarer can make
+        tier1: 2 damage; pull 1
+        tier2: 4 damage; pull 2
+        tier3: 5 damage; pull 3
+      - name: Effect
+        effect: If the target is pulled adjacent to the ensnarer, the ensnarer can make
           a free strike against them.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Soulsight
+    icon: ⭐️
+    effects:
+      - effect: Any creature within 2 squares of the ensnarer can't be hidden from them.
 ~~~

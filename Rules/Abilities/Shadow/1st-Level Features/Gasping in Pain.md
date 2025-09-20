@@ -1,10 +1,11 @@
 ---
+ability_type: Signature
 action_type: Main action
 class: shadow
 distance: Melee 1
 feature_type: ability
 file_basename: Gasping in Pain
-file_dpath: Shadow/1st-Level Features
+file_dpath: Abilities/Shadow/1st-Level Features
 flavor: Your precise strikes let your allies take advantage of a target's agony.
 item_id: gasping-in-pain
 item_index: '01'
@@ -17,29 +18,32 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:gasping-in-pain
 scdc:
-- 1.1.1:13.2.2.1:01
+- 1.1.1:11.2.2.1:01
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/shadow/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Gasping in Pain
 flavor: Your precise strikes let your allies take advantage of a target's agony.
 keywords:
   - Melee
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1
 target: One creature
 metadata:
+  ability_type: Signature
   action_type: Main action
   class: shadow
   distance: Melee 1
   feature_type: ability
   file_basename: Gasping in Pain
-  file_dpath: Shadow/1st-Level Features
+  file_dpath: Abilities/Shadow/1st-Level Features
   flavor: Your precise strikes let your allies take advantage of a target's agony.
   item_id: gasping-in-pain
   item_index: "01"
@@ -52,15 +56,15 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:gasping-in-pain
   scdc:
-    - 1.1.1:13.2.2.1:01
+    - 1.1.1:11.2.2.1:01
   source: mcdm.heroes.v1
   target: One creature
   type: feature/ability/shadow/1st-level-feature
 effects:
   - roll: Power Roll + Agility
-    t1: 3 + A damage
-    t2: 5 + A damage
-    t3: 8 + A damage; I < STRONG, prone
-  - effect: One ally within 5 squares of the target gains 1 surge.
-    name: Effect
+    tier1: 3 + A damage
+    tier2: 5 + A damage
+    tier3: 8 + A damage; I < STRONG, prone
+  - name: Effect
+    effect: One ally within 5 squares of the target gains 1 surge.
 ```

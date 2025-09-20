@@ -7,7 +7,7 @@ cost_resource: Insight
 distance: Ranged 10
 feature_type: ability
 file_basename: Sticky Bomb
-file_dpath: Shadow/2nd-Level Features
+file_dpath: Abilities/Shadow/2nd-Level Features
 flavor: Explosives are best when they're attached to an enemy.
 item_id: sticky-bomb-5-insight
 item_index: '01'
@@ -18,20 +18,22 @@ level: 2
 scc:
 - mcdm.heroes.v1:feature.ability.shadow.2nd-level-feature:sticky-bomb-5-insight
 scdc:
-- 1.1.1:13.2.2.5:01
+- 1.1.1:11.2.2.5:01
 source: mcdm.heroes.v1
 subclass: Caustic Alchemy
 target: One creature
 type: feature/ability/shadow/2nd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Sticky Bomb
 cost: 5 Insight
 flavor: Explosives are best when they're attached to an enemy.
 keywords:
   - Ranged
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: One creature
 metadata:
@@ -43,7 +45,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Sticky Bomb
-  file_dpath: Shadow/2nd-Level Features
+  file_dpath: Abilities/Shadow/2nd-Level Features
   flavor: Explosives are best when they're attached to an enemy.
   item_id: sticky-bomb-5-insight
   item_index: "01"
@@ -54,7 +56,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.shadow.2nd-level-feature:sticky-bomb-5-insight
   scdc:
-    - 1.1.1:13.2.2.5:01
+    - 1.1.1:11.2.2.5:01
   source: mcdm.heroes.v1
   subclass: Caustic Alchemy
   target: One creature
@@ -68,7 +70,7 @@ effects:
       bomb detonates, you make a power roll targeting each enemy within 2
       squares of it.
   - roll: Power Roll + Agility
-    t1: 4 + A fire damage
-    t2: 7 + A fire damage
-    t3: 11 + A fire damage
+    tier1: 4 + A fire damage
+    tier2: 7 + A fire damage
+    tier3: 11 + A fire damage
 ```

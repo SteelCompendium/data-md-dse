@@ -4,7 +4,7 @@ class: censor
 distance: Ranged 10
 feature_type: ability
 file_basename: Judgment
-file_dpath: Censor/1st-Level Features
+file_dpath: Abilities/Censor/1st-Level Features
 flavor: You utter a prayer that outlines your foe in holy energy.
 item_id: judgment
 item_index: 09
@@ -16,19 +16,21 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:judgment
 scdc:
-- 1.1.1:13.2.7.1:09
+- 1.1.1:11.2.7.1:09
 source: mcdm.heroes.v1
 target: One enemy
 type: feature/ability/censor/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Judgment
 flavor: You utter a prayer that outlines your foe in holy energy.
 keywords:
   - Magic
   - Ranged
-type: Maneuver
+usage: Maneuver
 distance: Ranged 10
 target: One enemy
 metadata:
@@ -37,7 +39,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Judgment
-  file_dpath: Censor/1st-Level Features
+  file_dpath: Abilities/Censor/1st-Level Features
   flavor: You utter a prayer that outlines your foe in holy energy.
   item_id: judgment
   item_index: 9
@@ -49,12 +51,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:judgment
   scdc:
-    - 1.1.1:13.2.7.1:09
+    - 1.1.1:11.2.7.1:09
   source: mcdm.heroes.v1
   target: One enemy
   type: feature/ability/censor/1st-level-feature
 effects:
-  - effect: >-
+  - name: Effect
+    effect: >-
       The target is judged by you until the end of the encounter, you use this
       ability again, you willingly end this effect (no action required), or
       another censor judges the target.
@@ -85,5 +88,4 @@ effects:
 
       You can choose only one free triggered action option at a time, even if
       multiple options are triggered by the same effect.
-    name: Effect
 ```

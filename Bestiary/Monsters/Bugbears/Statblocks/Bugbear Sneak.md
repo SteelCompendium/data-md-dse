@@ -32,6 +32,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Bugbear Sneak
 level: 2
 roles:
@@ -52,96 +53,107 @@ agility: 2
 reason: 0
 intuition: 0
 presence: 0
-traits: []
-abilities:
-  - name: Sucker Punch
+features:
+  - type: feature
+    feature_type: ability
+    name: Sucker Punch
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 8 damage; A < 1 grabbed
-        t2: 13 damage; A < 2 grabbed
-        t3: 16 damage; grabbed
-      - effect: The target can't use triggered actions until the start of the next
+        tier1: 8 damage; A < 1 grabbed
+        tier2: 13 damage; A < 2 grabbed
+        tier3: 16 damage; grabbed
+      - name: Effect
+        effect: The target can't use triggered actions until the start of the next
           round. Additionally, if the sneak started their turn hidden from the
           target, this ability deals an extra 4 damage.
-        name: Effect
-  - name: Shadow Cloak
+  - type: feature
+    feature_type: ability
+    name: Shadow Cloak
     icon: ❇️
     cost: 3 Malice
     keywords:
       - Area
-    type: Main action
+    usage: Main action
     distance: 2 burst
     target: Each enemy in the area
     effects:
       - roll: Power Roll + 2
-        t1: 2 damage; I < 0 the sneak has concealment from the target (save ends)
-        t2: 3 damage; I < 1 the sneak has concealment from the target (save ends)
-        t3: 4 damage; I < 2 the sneak has concealment from the target (save ends)
-      - effect: The sneak shifts up to their speed and can attempt to hide.
-        name: Effect
-  - name: Carving Dagger
+        tier1: 2 damage; I < 0 the sneak has concealment from the target (save ends)
+        tier2: 3 damage; I < 1 the sneak has concealment from the target (save ends)
+        tier3: 4 damage; I < 2 the sneak has concealment from the target (save ends)
+      - name: Effect
+        effect: The sneak shifts up to their speed and can attempt to hide.
+  - type: feature
+    feature_type: ability
+    name: Carving Dagger
     icon: 🏹
     keywords:
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 8
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 2
-        t1: 7 damage; M < 0 bleeding (save ends)
-        t2: 11 damage; M < 1 bleeding (save ends)
-        t3: 14 damage; M < 2 bleeding (save ends)
-      - effect: While bleeding this way, the target can't hide from the sneak or their
+        tier1: 7 damage; M < 0 bleeding (save ends)
+        tier2: 11 damage; M < 1 bleeding (save ends)
+        tier3: 14 damage; M < 2 bleeding (save ends)
+      - name: Effect
+        effect: While bleeding this way, the target can't hide from the sneak or their
           allies.
-        name: Effect
-  - name: Throw
+  - type: feature
+    feature_type: ability
+    name: Throw
     icon: 🗡
     keywords:
       - Melee
       - Strike
-    type: Maneuver
+    usage: Maneuver
     distance: Melee 1
     target: One creature or object
     effects:
-      - effect: The target must be grabbed by the sneak.
-        name: Special
-      - effect: The target is vertical pushed up to 4 squares. An ally doesn't take
+      - name: Special
+        effect: The target must be grabbed by the sneak.
+      - name: Effect
+        effect: The target is vertical pushed up to 4 squares. An ally doesn't take
           damage from being force moved this way.
-        name: Effect
-  - name: Catcher
+  - type: feature
+    feature_type: ability
+    name: Catcher
     icon: ❗️
     keywords:
       - Melee
-    type: Free triggered action
+    usage: Free triggered action
     distance: Melee 1
     target: The triggering creature or object
     trigger: A size 1 creature or object is force moved within distance, or a size 1
       ally willingly moves within distance.
     effects:
-      - effect: The target is grabbed by the sneak.
-        name: Effect
-  - name: Clever Trick
+      - name: Effect
+        effect: The target is grabbed by the sneak.
+  - type: feature
+    feature_type: ability
+    name: Clever Trick
     icon: ❗️
     cost: 1 Malice
     keywords:
       - "-"
-    type: Triggered action
+    usage: Triggered action
     distance: Special
     target: One enemy
     trigger: The sneak is targeted by a strike.
     effects:
-      - effect: The sneak chooses one enemy within distance of the strike to become the
+      - name: Effect
+        effect: The sneak chooses one enemy within distance of the strike to become the
           target of the strike.
-        name: Effect
 ~~~

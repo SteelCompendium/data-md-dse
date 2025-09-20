@@ -13,8 +13,9 @@ type: dynamic-terrain/supernatural-object
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Relic Controller
 name: The Throne of A'An
-type: Relic Controller
 level: 4
 ev: "24"
 flavor: The throne of A'An, sun god of the Antical Protectorate in what is now
@@ -23,16 +24,20 @@ flavor: The throne of A'An, sun god of the Antical Protectorate in what is now
 stamina: "140"
 size: "2"
 features:
-  - name: Deactivate
+  - type: feature
+    feature_type: trait
+    name: Deactivate
     icon: 🌀
     effects:
       - effect: The throne of A'An can be deactivated only by the current hierophant of
           A'An (see **Sitting on the Throne**), who must succeed on a **Presence
           test** that takes a bane to do so.
-        t1: The hierophant triggers the **Nova** ability.
-        t2: The hierophant fails to deactivate the throne.
-        t3: The throne is deactivated until the end of the encounter.
-  - name: Light of the Northern Sun
+        tier1: The hierophant triggers the **Nova** ability.
+        tier2: The hierophant fails to deactivate the throne.
+        tier3: The throne is deactivated until the end of the encounter.
+  - type: feature
+    feature_type: trait
+    name: Light of the Northern Sun
     icon: ⭐️
     effects:
       - effect: >-
@@ -50,15 +55,17 @@ features:
 
           - Any creature who uses an ability that deals cold damage takes 11
           fire damage.
-  - name: Sitting on the Throne
+  - type: feature
+    feature_type: trait
+    name: Sitting on the Throne
     icon: ⭐️
     effects:
       - effect: Only a creature attuned to the throne can sit on it. A creature adjacent
           to the throne can use a main action to attune to it by succeeding on a
           **Presence test**.
-        t1: The creature takes 11 fire damage.
-        t2: The creature fails to attune to the throne.
-        t3: The creature attunes to the throne and can sit on it.
+        tier1: The creature takes 11 fire damage.
+        tier2: The creature fails to attune to the throne.
+        tier3: The creature attunes to the throne and can sit on it.
       - effect: >-
           A creature seated on the throne becomes the hierophant of A'An and
           gains the following benefits:
@@ -77,52 +84,58 @@ features:
 
           - The hierophant can use the **Primordial Flare** and **Solar
           Accretion** abilities.
-  - name: Primordial Flare
+  - type: feature
+    feature_type: ability
+    name: Primordial Flare
     icon: 🏹
     keywords:
       - Magic
       - Ranged
       - Strike
-    type: Maneuver
+    usage: Maneuver
     distance: Ranged 20
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 6 fire damage
-        t2: 11 fire damage
-        t3: 14 fire damage
-      - effect: The target has fire weakness 10 until the start of the hierophant's next
+        tier1: 6 fire damage
+        tier2: 11 fire damage
+        tier3: 14 fire damage
+      - name: Effect
+        effect: The target has fire weakness 10 until the start of the hierophant's next
           turn.
-        name: Effect
-  - name: Solar Accretion
+  - type: feature
+    feature_type: ability
+    name: Solar Accretion
     icon: ❗️
     keywords:
       - Magic
       - Ranged
-    type: Free triggered action
+    usage: Free triggered action
     distance: Ranged 10
     target: One creature
     trigger: A target within distance is made winded or is reduced to 0 Stamina by
       fire damage.
     effects:
-      - effect: If the hierophant is a hero, they gain 3 of their Heroic Resource. If
+      - name: Effect
+        effect: If the hierophant is a hero, they gain 3 of their Heroic Resource. If
           the hierophant is a Director-controlled creature, the Director gains 3
           Malice.
-        name: Effect
-  - name: Nova
+  - type: feature
+    feature_type: ability
+    name: Nova
     icon: ❗️
     keywords:
       - Area
       - Magic
-    type: Free triggered action
+    usage: Free triggered action
     distance: 10 burst
     target: Each creature and object in the area
     trigger: The throne is destroyed or the hierophant obtains a tier 1 outcome on
       the test to deactivate it.
     effects:
-      - effect: Each target takes 14 fire damage and the Hierophant gains the Incubator
+      - name: Effect
+        effect: Each target takes 14 fire damage and the Hierophant gains the Incubator
           of A'An complication (see the sidebar). If there is no hierophant, one
           creature within 10 squares of the throne chosen by the Director gains
           this complication.
-        name: Effect
 ~~~

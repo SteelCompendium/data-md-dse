@@ -7,7 +7,7 @@ cost_resource: Drama
 distance: 4 burst
 feature_type: ability
 file_basename: Extensive Rewrites
-file_dpath: Troubadour/3rd-Level Features
+file_dpath: Abilities/Troubadour/3rd-Level Features
 flavor: No, this isn't right. That foe was over there!
 item_id: extensive-rewrites-7-drama
 item_index: '05'
@@ -19,20 +19,22 @@ level: 3
 scc:
 - mcdm.heroes.v1:feature.ability.troubadour.3rd-level-feature:extensive-rewrites-7-drama
 scdc:
-- 1.1.1:13.2.3.6:05
+- 1.1.1:11.2.3.6:05
 source: mcdm.heroes.v1
 target: Each enemy in the area
 type: feature/ability/troubadour/3rd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Extensive Rewrites
 cost: 7 Drama
 flavor: No, this isn't right. That foe was over there!
 keywords:
   - Area
   - Magic
-type: Maneuver
+usage: Maneuver
 distance: 4 burst
 target: Each enemy in the area
 metadata:
@@ -44,7 +46,7 @@ metadata:
   distance: 4 burst
   feature_type: ability
   file_basename: Extensive Rewrites
-  file_dpath: Troubadour/3rd-Level Features
+  file_dpath: Abilities/Troubadour/3rd-Level Features
   flavor: No, this isn't right. That foe was over there!
   item_id: extensive-rewrites-7-drama
   item_index: "05"
@@ -56,17 +58,17 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.troubadour.3rd-level-feature:extensive-rewrites-7-drama
   scdc:
-    - 1.1.1:13.2.3.6:05
+    - 1.1.1:11.2.3.6:05
   source: mcdm.heroes.v1
   target: Each enemy in the area
   type: feature/ability/troubadour/3rd-level-feature
 effects:
   - roll: Power Roll + Presence
-    t1: Slide 3; P < WEAK, this slide ignores the target's stability
-    t2: Slide 5; P < AVERAGE, this slide ignores the target's stability
-    t3: Slide 7; P < STRONG, this slide ignores the target's stability
-  - effect: Instead of sliding a target, you can swap their location with another
+    tier1: Slide 3; P < WEAK, this slide ignores the target's stability
+    tier2: Slide 5; P < AVERAGE, this slide ignores the target's stability
+    tier3: Slide 7; P < STRONG, this slide ignores the target's stability
+  - name: Effect
+    effect: Instead of sliding a target, you can swap their location with another
       target as long as each can fit into the other's space. You can't slide
       targets into other creatures or objects using this ability.
-    name: Effect
 ```

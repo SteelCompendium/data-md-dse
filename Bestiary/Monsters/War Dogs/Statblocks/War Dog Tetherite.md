@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: War Dog Tetherite
 level: 1
 roles:
@@ -51,50 +52,59 @@ agility: 0
 reason: 0
 intuition: 0
 presence: 0
-traits:
-  - name: Tethered
+features:
+  - type: feature
+    feature_type: ability
+    name: Banded Dagger
+    icon: 🗡
+    ability_type: Signature Ability
+    keywords:
+      - Melee
+      - Strike
+      - Weapon
+    usage: Main action
+    distance: Melee 2
+    target: One creature or object per minion
+    effects:
+      - roll: Power Roll + 2
+        tier1: 2 damage
+        tier2: 4 damage
+        tier3: 5 damage
+  - type: feature
+    feature_type: trait
+    name: Tethered
+    icon: ⭐️
     effects:
       - effect: A captain attached to a tetherite squad has their stability increased by
           the number of tetherites within 2 squares of them.
-  - name: Loyalty Collar
+  - type: feature
+    feature_type: trait
+    name: Loyalty Collar
+    icon: ⭐️
     effects:
       - effect: When the tetherite is reduced to 0 Stamina, their loyalty collar
           explodes, dealing 1d3 damage to each adjacent enemy and object.War Dog
           Malice Level 1+ Malice Features At the start of any war dog's turn,
           you can spend Malice to activate one of the following features.
-  - name: Reconstitute
+  - type: feature
+    feature_type: trait
+    name: Reconstitute
+    icon: 👤
+    cost: 3 Malice
     effects:
       - effect: One war dog acting this turn tears apart a nearby corpse of a humanoid
           and incorporates its body parts into their own. The war dog regains
           Stamina equal to 5 times their level.
-  - name: Fodder Run
-    effects:
-      - effect: Each war dog minion in the encounter shifts up to their speed and can
-          make a free strike. A minion who does so is then reduced to 0
-abilities:
-  - name: Banded Dagger
-    icon: 🗡
-    cost: Signature Ability
-    keywords:
-      - Melee
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Melee 2
-    target: One creature or object per minion
-    effects:
-      - roll: Power Roll + 2
-        t1: 2 damage
-        t2: 4 damage
-        t3: 5 damage
-  - name: Fire for Effect
+  - type: feature
+    feature_type: ability
+    name: Fire for Effect
     icon: 🔳
     cost: 5 Malice
     keywords:
       - Area
       - Magic
       - Ranged
-    type: Maneuver
+    usage: Maneuver
     distance: 4 cube within 10
     target: Each creature in the area
     effects:
@@ -102,7 +112,15 @@ abilities:
         effect: Each target makes an Agility test. The same condition is imposed on each
           affected target.
       - roll: Power Roll + 3
-        t1: 5 fire damage; slowed or weakened (save ends
-        t2: 5 fire damage; slowed or weakened (EoT
-        t3: 5 fire damage
+        tier1: 5 fire damage; slowed or weakened (save ends
+        tier2: 5 fire damage; slowed or weakened (EoT
+        tier3: 5 fire damage
+  - type: feature
+    feature_type: trait
+    name: Fodder Run
+    icon: ⭐️
+    cost: 7 Malice
+    effects:
+      - effect: Each war dog minion in the encounter shifts up to their speed and can
+          make a free strike. A minion who does so is then reduced to 0
 ~~~

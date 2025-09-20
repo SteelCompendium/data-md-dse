@@ -1,4 +1,5 @@
 ---
+ability_type: Signature
 action_type: Main action
 class: ignored
 distance: Melee 1
@@ -13,7 +14,6 @@ keywords:
 - Psionic
 - Strike
 - Weapon
-kit: Battlemind
 scc:
 - mcdm.heroes.v1:kit-ability.battlemind:unmooring
 scdc:
@@ -23,7 +23,9 @@ target: One creature
 type: kit-ability/battlemind
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Unmooring
 flavor: Your weapon unleashes psionic energy that reduces your target's weight.
 keywords:
@@ -31,10 +33,11 @@ keywords:
   - Psionic
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1
 target: One creature
 metadata:
+  ability_type: Signature
   action_type: Main action
   class: ignored
   distance: Melee 1
@@ -49,7 +52,6 @@ metadata:
     - Psionic
     - Strike
     - Weapon
-  kit: Battlemind
   scc:
     - mcdm.heroes.v1:kit-ability.battlemind:unmooring
   scdc:
@@ -59,10 +61,10 @@ metadata:
   type: kit-ability/battlemind
 effects:
   - roll: Power Roll + Might, Reason, Intuition, or Presence
-    t1: 5 + M, R, I, or P damage
-    t2: 8 + M, R, I, or P damage
-    t3: 11 + M, R, I, or P damage
-  - effect: Until the end of the target's next turn, any forced movement that
+    tier1: 5 + M, R, I, or P damage
+    tier2: 8 + M, R, I, or P damage
+    tier3: 11 + M, R, I, or P damage
+  - name: Effect
+    effect: Until the end of the target's next turn, any forced movement that
       affects the target has its distance increased by 2.
-    name: Effect
 ```

@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Wode Elf Lookout
 level: 1
 roles:
@@ -52,29 +53,36 @@ agility: 2
 reason: 0
 intuition: 0
 presence: 1
-traits:
-  - name: There!
-    effects:
-      - effect: Any wode elf within 5 squares of the lookout can make ranged strikes as
-          if occupying the lookout's space.
-  - name: Masking Glamor
-    effects:
-      - effect: Abilities targeting the lookout that would take a bane from cover or
-          concealment have a double bane instead.
-abilities:
-  - name: Longbow
+features:
+  - type: feature
+    feature_type: ability
+    name: Longbow
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 8
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 1 damage
-        t2: 2 damage
-        t3: 3 damage
+        tier1: 1 damage
+        tier2: 2 damage
+        tier3: 3 damage
+  - type: feature
+    feature_type: trait
+    name: There!
+    icon: ⭐️
+    effects:
+      - effect: Any wode elf within 5 squares of the lookout can make ranged strikes as
+          if occupying the lookout's space.
+  - type: feature
+    feature_type: trait
+    name: Masking Glamor
+    icon: ⭐️
+    effects:
+      - effect: Abilities targeting the lookout that would take a bane from cover or
+          concealment have a double bane instead.
 ~~~

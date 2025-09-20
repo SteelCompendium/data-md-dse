@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Rival Elementalist
 level: 8
 roles:
@@ -48,32 +49,30 @@ agility: 2
 reason: 4
 intuition: 3
 presence: 0
-traits:
-  - name: Rivalry
-    effects:
-      - effect: At the start of an encounter, the elementalist chooses one creature
-          within their line of effect. Both the elementalist and the creature
-          can add a d3 roll to power rolls they make against each other.
-abilities:
-  - name: Verdant Rains
+features:
+  - type: feature
+    feature_type: ability
+    name: Verdant Rains
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Green
       - Magic
       - Ranged
       - Strike
-    type: Main action
+    usage: Main action
     distance: Ranged 10
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 4
-        t1: 12 damage; slide 2; M < 2 4 acid damage
-        t2: 17 damage; slide 3; M < 3 6 acid damage
-        t3: 21 damage; slide 4; M < 4 8 acid damage
-      - effect: One ally within distance ends one condition on themself.
-        name: Effect
-  - name: The Chasm Engulfs
+        tier1: 12 damage; slide 2; M < 2 4 acid damage
+        tier2: 17 damage; slide 3; M < 3 6 acid damage
+        tier3: 21 damage; slide 4; M < 4 8 acid damage
+      - name: Effect
+        effect: One ally within distance ends one condition on themself.
+  - type: feature
+    feature_type: ability
+    name: The Chasm Engulfs
     icon: 🔳
     cost: 4 Malice
     keywords:
@@ -81,28 +80,38 @@ abilities:
       - Green
       - Magic
       - Ranged
-    type: Main action
+    usage: Main action
     distance: 5 cube within 10
     target: Each enemy in the area
     effects:
       - roll: Power Roll + 4
-        t1: 6 damage
-        t2: 10 damage; restrained (EoT)
-        t3: 14 damage; restrained (save ends)
-      - effect: The area is difficult terrain for enemies until the end of the
+        tier1: 6 damage
+        tier2: 10 damage; restrained (EoT)
+        tier3: 14 damage; restrained (save ends)
+      - name: Effect
+        effect: The area is difficult terrain for enemies until the end of the
           encounter. Any enemy in the area has acid weakness 5.
-        name: Effect
-  - name: Maw of the Abyss
+  - type: feature
+    feature_type: ability
+    name: Maw of the Abyss
     icon: ❗️
     keywords:
       - Magic
       - Void
-    type: Triggered action
+    usage: Triggered action
     distance: Self
     target: Self
     trigger: The elementalist takes damage.
     effects:
-      - effect: The elementalist can teleport up to 4 squares. Each creature adjacent to
+      - name: Effect
+        effect: The elementalist can teleport up to 4 squares. Each creature adjacent to
           the space they leave or appear in takes 4 corruption damage.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Rivalry
+    icon: ⭐️
+    effects:
+      - effect: At the start of an encounter, the elementalist chooses one creature
+          within their line of effect. Both the elementalist and the creature
+          can add a d3 roll to power rolls they make against each other.
 ~~~

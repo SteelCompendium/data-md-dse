@@ -7,7 +7,7 @@ cost_resource: Discipline
 distance: Self
 feature_type: ability
 file_basename: Heat Sink
-file_dpath: Null/2nd-Level Features
+file_dpath: Abilities/Null/2nd-Level Features
 flavor: You absorb ambient heat, coating the ground in frost and precipitating snow
   from the air.
 item_id: heat-sink-5-discipline
@@ -19,21 +19,23 @@ level: 2
 scc:
 - mcdm.heroes.v1:feature.ability.null.2nd-level-feature:heat-sink-5-discipline
 scdc:
-- 1.1.1:13.2.6.5:04
+- 1.1.1:11.2.6.5:04
 source: mcdm.heroes.v1
 subclass: Cryokinetic
 target: Self
 type: feature/ability/null/2nd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Heat Sink
 cost: 5 Discipline
 flavor: You absorb ambient heat, coating the ground in frost and precipitating
   snow from the air.
 keywords:
   - Psionic
-type: Maneuver
+usage: Maneuver
 distance: Self
 target: Self
 metadata:
@@ -45,7 +47,7 @@ metadata:
   distance: Self
   feature_type: ability
   file_basename: Heat Sink
-  file_dpath: Null/2nd-Level Features
+  file_dpath: Abilities/Null/2nd-Level Features
   flavor: You absorb ambient heat, coating the ground in frost and precipitating
     snow from the air.
   item_id: heat-sink-5-discipline
@@ -57,15 +59,15 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.null.2nd-level-feature:heat-sink-5-discipline
   scdc:
-    - 1.1.1:13.2.6.5:04
+    - 1.1.1:11.2.6.5:04
   source: mcdm.heroes.v1
   subclass: Cryokinetic
   target: Self
   type: feature/ability/null/2nd-level-feature
 effects:
-  - effect: Until the start of your next turn, the size of your Null Field ability
+  - name: Effect
+    effect: Until the start of your next turn, the size of your Null Field ability
       increases by 1, and you and any ally benefit from concealment while in the
       area. At the end of this turn, each enemy in the area takes cold damage
       equal to your Intuition score.
-    name: Effect
 ```

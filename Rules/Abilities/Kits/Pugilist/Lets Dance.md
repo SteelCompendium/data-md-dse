@@ -1,4 +1,5 @@
 ---
+ability_type: Signature
 action_type: Main action
 class: ignored
 distance: Melee 1
@@ -13,7 +14,6 @@ keywords:
 - Melee
 - Strike
 - Weapon
-kit: Pugilist
 scc:
 - mcdm.heroes.v1:kit-ability.pugilist:lets-dance
 scdc:
@@ -23,17 +23,20 @@ target: One creature
 type: kit-ability/pugilist
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Let's Dance
 flavor: Keeping your enemies stumbling around the battlefield is second nature to you.
 keywords:
   - Melee
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1
 target: One creature
 metadata:
+  ability_type: Signature
   action_type: Main action
   class: ignored
   distance: Melee 1
@@ -48,7 +51,6 @@ metadata:
     - Melee
     - Strike
     - Weapon
-  kit: Pugilist
   scc:
     - mcdm.heroes.v1:kit-ability.pugilist:lets-dance
   scdc:
@@ -58,9 +60,9 @@ metadata:
   type: kit-ability/pugilist
 effects:
   - roll: Power Roll + Might or Agility
-    t1: 3 + M or A damage
-    t2: 6 + M or A damage; slide 1
-    t3: 8 + M or A damage; slide 2
-  - effect: You can shift into any square the target leaves after you slide them.
-    name: Effect
+    tier1: 3 + M or A damage
+    tier2: 6 + M or A damage; slide 1
+    tier3: 8 + M or A damage; slide 2
+  - name: Effect
+    effect: You can shift into any square the target leaves after you slide them.
 ```

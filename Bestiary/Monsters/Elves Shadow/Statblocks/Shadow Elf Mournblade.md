@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Shadow Elf Mournblade
 level: 6
 roles:
@@ -51,40 +52,46 @@ agility: 3
 reason: 1
 intuition: 2
 presence: 0
-traits:
-  - name: Of the Umbra
-    effects:
-      - effect: The mournblade ignores concealment created by darkness. While the
-          mournblade is in direct sunlight, they have damage weakness 3. While
-          the mournblade has concealment, they have damage immunity 3.
-abilities:
-  - name: Knife in the Dark
+features:
+  - type: feature
+    feature_type: ability
+    name: Knife in the Dark
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object
     effects:
       - roll: Power Roll + 3
-        t1: 10 damage
-        t2: 15 damage
-        t3: 18 damage
-      - effect: The mournblade is invisible to the target until the start of the
+        tier1: 10 damage
+        tier2: 15 damage
+        tier3: 18 damage
+      - name: Effect
+        effect: The mournblade is invisible to the target until the start of the
           mournblade's next turn.
-        name: Effect
-  - name: Shadow Step
+  - type: feature
+    feature_type: ability
+    name: Shadow Step
     icon: 👤
     keywords:
       - Magic
-    type: Maneuver
+    usage: Maneuver
     distance: Self
     target: Self
     effects:
-      - effect: If the mournblade has concealment, they can teleport up to 10 squares to
+      - name: Effect
+        effect: If the mournblade has concealment, they can teleport up to 10 squares to
           a space with concealment created by darkness.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Of the Umbra
+    icon: ⭐️
+    effects:
+      - effect: The mournblade ignores concealment created by darkness. While the
+          mournblade is in direct sunlight, they have damage weakness 3. While
+          the mournblade has concealment, they have damage immunity 3.
 ~~~

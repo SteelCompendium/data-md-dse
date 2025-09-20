@@ -7,7 +7,7 @@ cost_resource: Essence
 distance: Ranged 10
 feature_type: ability
 file_basename: Volcanos Embrace
-file_dpath: Elementalist/2nd-Level Features
+file_dpath: Abilities/Elementalist/2nd-Level Features
 flavor: Wrap them up in fire and melting stone.
 item_id: volcanos-embrace-5-essence
 item_index: '05'
@@ -22,13 +22,15 @@ level: 2
 scc:
 - mcdm.heroes.v1:feature.ability.elementalist.2nd-level-feature:volcanos-embrace-5-essence
 scdc:
-- 1.1.1:13.2.9.5:05
+- 1.1.1:11.2.9.5:05
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/elementalist/2nd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Volcano's Embrace
 cost: 5 Essence
 flavor: Wrap them up in fire and melting stone.
@@ -38,7 +40,7 @@ keywords:
   - Magic
   - Ranged
   - Strike
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: One creature
 metadata:
@@ -50,7 +52,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Volcanos Embrace
-  file_dpath: Elementalist/2nd-Level Features
+  file_dpath: Abilities/Elementalist/2nd-Level Features
   flavor: Wrap them up in fire and melting stone.
   item_id: volcanos-embrace-5-essence
   item_index: "05"
@@ -65,13 +67,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.elementalist.2nd-level-feature:volcanos-embrace-5-essence
   scdc:
-    - 1.1.1:13.2.9.5:05
+    - 1.1.1:11.2.9.5:05
   source: mcdm.heroes.v1
   target: One creature
   type: feature/ability/elementalist/2nd-level-feature
 effects:
   - roll: Power Roll + Reason
-    t1: 5 + R fire damage; A < WEAK, restrained (save ends)
-    t2: 9 + R fire damage; A < AVERAGE, restrained (save ends)
-    t3: 12 + R fire damage; A < STRONG, restrained (save ends)
+    tier1: 5 + R fire damage; A < WEAK, restrained (save ends)
+    tier2: 9 + R fire damage; A < AVERAGE, restrained (save ends)
+    tier3: 12 + R fire damage; A < STRONG, restrained (save ends)
 ```

@@ -13,19 +13,24 @@ type: dynamic-terrain/power-fixture
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Relic Support
 name: Holy Idol
-type: Relic Support
 level: 5
 ev: "7"
 flavor: An empowering monument to a higher power enables a villain's machinations.
 stamina: "35"
 size: "2"
 features:
-  - name: Deactivate
+  - type: feature
+    feature_type: trait
+    name: Deactivate
     icon: 🌀
     effects:
       - effect: The holy idol must be completely destroyed.
-  - name: Empowered Will
+  - type: feature
+    feature_type: trait
+    name: Empowered Will
     icon: ⭐️
     effects:
       - effect: At the start of each round while the holy idol is intact, the Director

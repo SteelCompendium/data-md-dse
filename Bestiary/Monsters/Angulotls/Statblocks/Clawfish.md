@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Clawfish
 level: 1
 roles:
@@ -53,28 +54,32 @@ agility: 2
 reason: -3
 intuition: -2
 presence: 1
-traits:
-  - name: Shocking
-    effects:
-      - effect: At the start of each of their turns, the clawfish deals 2 lightning
-          damage to each wet enemy within 2 squares.
-abilities:
-  - name: Hookclaw
+features:
+  - type: feature
+    feature_type: ability
+    name: Hookclaw
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 2 damage
-        t2: 4 damage
-        t3: 5 damage; grabbed
-      - effect: Any target grabbed this way takes 2 lightning damage at the start of
+        tier1: 2 damage
+        tier2: 4 damage
+        tier3: 5 damage; grabbed
+      - name: Effect
+        effect: Any target grabbed this way takes 2 lightning damage at the start of
           each of their turns.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Shocking
+    icon: ⭐️
+    effects:
+      - effect: At the start of each of their turns, the clawfish deals 2 lightning
+          damage to each wet enemy within 2 squares.
 ~~~

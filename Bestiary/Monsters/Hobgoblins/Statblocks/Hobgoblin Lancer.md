@@ -32,6 +32,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Hobgoblin Lancer
 level: 4
 roles:
@@ -55,30 +56,34 @@ agility: 3
 reason: 0
 intuition: 2
 presence: 0
-traits:
-  - name: Infernal Ichor
-    effects:
-      - effect: When the lancer is reduced to 0 Stamina, they spray burning blood. Each
-          creature adjacent to the lancer takes 2 fire damage.
-abilities:
-  - name: Grim Thrust
+features:
+  - type: feature
+    feature_type: ability
+    name: Grim Thrust
     icon: ⚔️
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Melee
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 2 or ranged 5
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 3
-        t1: 2 corruption damage
-        t2: 4 corruption damage; push 1
-        t3: 6 corruption damage; push 2
-      - effect: The lancer deals an extra 2 damage if they have high ground against the
+        tier1: 2 corruption damage
+        tier2: 4 corruption damage; push 1
+        tier3: 6 corruption damage; push 2
+      - name: Effect
+        effect: The lancer deals an extra 2 damage if they have high ground against the
           target.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Infernal Ichor
+    icon: ⭐️
+    effects:
+      - effect: When the lancer is reduced to 0 Stamina, they spray burning blood. Each
+          creature adjacent to the lancer takes 2 fire damage.
 ~~~

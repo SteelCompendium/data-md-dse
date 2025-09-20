@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Troll Whelp
 level: 5
 roles:
@@ -52,26 +53,30 @@ agility: 1
 reason: -1
 intuition: 0
 presence: 0
-traits:
-  - name: Lingering Hunger
-    effects:
-      - effect: Whenever two or more whelps are simultaneously reduced to 0 Stamina by
-          damage that isn't acid or fire damage, half of those whelps become
-          troll limbjumbles with 4 Stamina.
-abilities:
-  - name: Jaws and Claws
+features:
+  - type: feature
+    feature_type: ability
+    name: Jaws and Claws
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 3
-        t1: 3 damage
-        t2: 6 damage; slide 1
-        t3: 7 damage; slide 2; M < 2 bleeding (save ends)
+        tier1: 3 damage
+        tier2: 6 damage; slide 1
+        tier3: 7 damage; slide 2; M < 2 bleeding (save ends)
+  - type: feature
+    feature_type: trait
+    name: Lingering Hunger
+    icon: ⭐️
+    effects:
+      - effect: Whenever two or more whelps are simultaneously reduced to 0 Stamina by
+          damage that isn't acid or fire damage, half of those whelps become
+          troll limbjumbles with 4 Stamina.
 ~~~

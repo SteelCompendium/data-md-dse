@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Time Raider Vertex
 level: 3
 roles:
@@ -51,58 +52,66 @@ agility: 1
 reason: 2
 intuition: 1
 presence: 0
-traits:
-  - name: Foresight
-    effects:
-      - effect: The vertex doesn't take a bane on strikes against creatures with
-          concealment.
-abilities:
-  - name: Psionic Slam
+features:
+  - type: feature
+    feature_type: ability
+    name: Psionic Slam
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Psionic
       - Strike
-    type: Main action
+    usage: Main action
     distance: Melee 2
     target: One creature
     effects:
       - roll: Power Roll + 2
-        t1: 5 damage, 2 psychic damage
-        t2: 7 damage, 3 psychic damage
-        t3: 9 damage, 4 psychic damage
-      - effect: Any power roll made against the target gains an edge until the start of
+        tier1: 5 damage, 2 psychic damage
+        tier2: 7 damage, 3 psychic damage
+        tier3: 9 damage, 4 psychic damage
+      - name: Effect
+        effect: Any power roll made against the target gains an edge until the start of
           the vertex's next turn.
-        name: Effect
-  - name: Split Space
+  - type: feature
+    feature_type: ability
+    name: Split Space
     icon: 🔳
     cost: 5 Malice
     keywords:
       - Area
       - Psionic
       - Ranged
-    type: Main action
+    usage: Main action
     distance: 2 cube within 10
     target: Special
     effects:
-      - effect: A portal fills the area, connecting to a location the vertex has
+      - name: Effect
+        effect: A portal fills the area, connecting to a location the vertex has
           experienced on any plane of existence, in person or otherwise. Any
           creature who enters the portal for the first time in a round or starts
           their turn there is instantly teleported to any unoccupied space in
           the portal at the chosen location. The portal lasts until the vertex
           uses this ability again, dismisses the portal (no action required), or
           is transported by the portal.
-        name: Effect
-  - name: Invigorated March
+  - type: feature
+    feature_type: ability
+    name: Invigorated March
     icon: ❇️
     keywords:
       - Area
       - Psionic
-    type: Maneuver
+    usage: Maneuver
     distance: 4 burst
     target: Each ally in the area
     effects:
-      - effect: Each target shifts up to half their speed.
-        name: Effect
+      - name: Effect
+        effect: Each target shifts up to half their speed.
+  - type: feature
+    feature_type: trait
+    name: Foresight
+    icon: ⭐️
+    effects:
+      - effect: The vertex doesn't take a bane on strikes against creatures with
+          concealment.
 ~~~

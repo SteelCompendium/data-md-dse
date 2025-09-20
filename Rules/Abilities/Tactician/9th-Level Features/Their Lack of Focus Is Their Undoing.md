@@ -7,7 +7,7 @@ cost_resource: Focus
 distance: Ranged 10
 feature_type: ability
 file_basename: Their Lack of Focus Is Their Undoing
-file_dpath: Tactician/9th-Level Features
+file_dpath: Abilities/Tactician/9th-Level Features
 flavor: You trick your enemies into attacking each other and leave them confused by
   the aftermath.
 item_id: their-lack-of-focus-is-their-undoing-11-focus
@@ -21,14 +21,16 @@ level: 9
 scc:
 - mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:their-lack-of-focus-is-their-undoing-11-focus
 scdc:
-- 1.1.1:13.2.4.7:04
+- 1.1.1:11.2.4.7:04
 source: mcdm.heroes.v1
 subclass: Insurgent
 target: Three enemies
 type: feature/ability/tactician/9th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Their Lack of Focus Is Their Undoing
 cost: 11 Focus
 flavor: You trick your enemies into attacking each other and leave them confused
@@ -37,7 +39,7 @@ keywords:
   - Magic
   - Ranged
   - Weapon
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: Three enemies
 metadata:
@@ -49,7 +51,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Their Lack of Focus Is Their Undoing
-  file_dpath: Tactician/9th-Level Features
+  file_dpath: Abilities/Tactician/9th-Level Features
   flavor: You trick your enemies into attacking each other and leave them confused
     by the aftermath.
   item_id: their-lack-of-focus-is-their-undoing-11-focus
@@ -63,7 +65,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:their-lack-of-focus-is-their-undoing-11-focus
   scdc:
-    - 1.1.1:13.2.4.7:04
+    - 1.1.1:11.2.4.7:04
   source: mcdm.heroes.v1
   subclass: Insurgent
   target: Three enemies
@@ -75,7 +77,7 @@ effects:
       the power roll. After resolving the targets' abilities, you make a power
       roll against each original target.
   - roll: Power Roll + Might
-    t1: R < WEAK, dazed (save ends)
-    t2: R < AVERAGE, dazed (save ends)
-    t3: R < STRONG, dazed (save ends)
+    tier1: R < WEAK, dazed (save ends)
+    tier2: R < AVERAGE, dazed (save ends)
+    tier3: R < STRONG, dazed (save ends)
 ```

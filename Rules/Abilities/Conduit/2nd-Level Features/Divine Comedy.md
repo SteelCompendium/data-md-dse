@@ -7,7 +7,7 @@ cost_resource: Piety
 distance: 5 burst
 feature_type: ability
 file_basename: Divine Comedy
-file_dpath: Conduit/2nd-Level Features
+file_dpath: Abilities/Conduit/2nd-Level Features
 flavor: You and your allies swap places to confound your foes.
 item_id: divine-comedy-5-piety
 item_index: '06'
@@ -19,21 +19,23 @@ level: 2
 scc:
 - mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:divine-comedy-5-piety
 scdc:
-- 1.1.1:13.2.8.5:06
+- 1.1.1:11.2.8.5:06
 source: mcdm.heroes.v1
 subclass: Trickery
 target: Self and each ally in the area
 type: feature/ability/conduit/2nd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Divine Comedy
 cost: 5 Piety
 flavor: You and your allies swap places to confound your foes.
 keywords:
   - Area
   - Magic
-type: Maneuver
+usage: Maneuver
 distance: 5 burst
 target: Self and each ally in the area
 metadata:
@@ -45,7 +47,7 @@ metadata:
   distance: 5 burst
   feature_type: ability
   file_basename: Divine Comedy
-  file_dpath: Conduit/2nd-Level Features
+  file_dpath: Abilities/Conduit/2nd-Level Features
   flavor: You and your allies swap places to confound your foes.
   item_id: divine-comedy-5-piety
   item_index: "06"
@@ -57,14 +59,14 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:divine-comedy-5-piety
   scdc:
-    - 1.1.1:13.2.8.5:06
+    - 1.1.1:11.2.8.5:06
   source: mcdm.heroes.v1
   subclass: Trickery
   target: Self and each ally in the area
   type: feature/ability/conduit/2nd-level-feature
 effects:
-  - effect: Each target can choose another creature in the area, then swap places
+  - name: Effect
+    effect: Each target can choose another creature in the area, then swap places
       with that creature. The creature they choose must be able to fit into the
       space they leave and vice versa.
-    name: Effect
 ```

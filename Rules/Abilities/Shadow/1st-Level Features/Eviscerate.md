@@ -7,7 +7,7 @@ cost_resource: Insight
 distance: Melee 1 or ranged 5
 feature_type: ability
 file_basename: Eviscerate
-file_dpath: Shadow/1st-Level Features
+file_dpath: Abilities/Shadow/1st-Level Features
 flavor: You leave your foe bleeding out after a devastating attack.
 item_id: eviscerate-3-insight
 item_index: '02'
@@ -21,13 +21,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:eviscerate-3-insight
 scdc:
-- 1.1.1:13.2.2.1:02
+- 1.1.1:11.2.2.1:02
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/shadow/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Eviscerate
 cost: 3 Insight
 flavor: You leave your foe bleeding out after a devastating attack.
@@ -36,7 +38,7 @@ keywords:
   - Ranged
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1 or ranged 5
 target: One creature
 metadata:
@@ -48,7 +50,7 @@ metadata:
   distance: Melee 1 or ranged 5
   feature_type: ability
   file_basename: Eviscerate
-  file_dpath: Shadow/1st-Level Features
+  file_dpath: Abilities/Shadow/1st-Level Features
   flavor: You leave your foe bleeding out after a devastating attack.
   item_id: eviscerate-3-insight
   item_index: "02"
@@ -62,13 +64,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:eviscerate-3-insight
   scdc:
-    - 1.1.1:13.2.2.1:02
+    - 1.1.1:11.2.2.1:02
   source: mcdm.heroes.v1
   target: One creature
   type: feature/ability/shadow/1st-level-feature
 effects:
   - roll: Power Roll + Agility
-    t1: 4 + A damage; R < WEAK, bleeding (save ends)
-    t2: 6 + A damage; R < AVERAGE, bleeding (save ends)
-    t3: 10 + A damage; R < STRONG, bleeding (save ends)
+    tier1: 4 + A damage; R < WEAK, bleeding (save ends)
+    tier2: 6 + A damage; R < AVERAGE, bleeding (save ends)
+    tier3: 10 + A damage; R < STRONG, bleeding (save ends)
 ```

@@ -7,7 +7,7 @@ cost_resource: Focus
 distance: Ranged 10
 feature_type: ability
 file_basename: Fog of War
-file_dpath: Tactician/2nd-Level Features
+file_dpath: Abilities/Tactician/2nd-Level Features
 flavor: Your unorthodox strategy causes enemies to lash out in fear, heedless of who
   they might be attacking.
 item_id: fog-of-war-5-focus
@@ -19,21 +19,23 @@ level: 2
 scc:
 - mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:fog-of-war-5-focus
 scdc:
-- 1.1.1:13.2.4.5:05
+- 1.1.1:11.2.4.5:05
 source: mcdm.heroes.v1
 subclass: Insurgent
 target: Two creatures
 type: feature/ability/tactician/2nd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Fog of War
 cost: 5 Focus
 flavor: Your unorthodox strategy causes enemies to lash out in fear, heedless of
   who they might be attacking.
 keywords:
   - Ranged
-type: Maneuver
+usage: Maneuver
 distance: Ranged 10
 target: Two creatures
 metadata:
@@ -45,7 +47,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Fog of War
-  file_dpath: Tactician/2nd-Level Features
+  file_dpath: Abilities/Tactician/2nd-Level Features
   flavor: Your unorthodox strategy causes enemies to lash out in fear, heedless of
     who they might be attacking.
   item_id: fog-of-war-5-focus
@@ -57,18 +59,18 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:fog-of-war-5-focus
   scdc:
-    - 1.1.1:13.2.4.5:05
+    - 1.1.1:11.2.4.5:05
   source: mcdm.heroes.v1
   subclass: Insurgent
   target: Two creatures
   type: feature/ability/tactician/2nd-level-feature
 effects:
-  - effect: Each target is marked by you, and must immediately make a free strike
+  - name: Effect
+    effect: Each target is marked by you, and must immediately make a free strike
       against a creature of your choice within 5 squares of them.
-    name: Effect
-  - effect: Until the end of the encounter, whenever you or any ally makes a strike
+  - name: Mark Benefit
+    effect: Until the end of the encounter, whenever you or any ally makes a strike
       against a creature marked by you, you can spend 2 focus to force that
       target to make a free strike against a creature of your choice within 5
       squares of them.
-    name: Mark Benefit
 ```

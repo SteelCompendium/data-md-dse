@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Vicisitator
 level: 10
 roles:
@@ -50,49 +51,58 @@ agility: 5
 reason: -1
 intuition: -2
 presence: -3
-traits:
-  - name: Lethe
-    effects:
-      - effect: While the vicisitator is winded, they gain an edge on strikes, and any
-          strike made against them gains an edge.
-  - name: Soulsight
-    effects:
-      - effect: Any creature within 2 squares of the vicisitator can't be hidden from
-          them.
-abilities:
-  - name: Warp Touch
+features:
+  - type: feature
+    feature_type: ability
+    name: Warp Touch
     icon: ⚔️
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Melee
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1 or ranged 10
     target: One creature or object
     effects:
       - roll: Power Roll + 5
-        t1: 9 damage
-        t2: 12 damage
-        t3: 14 damage; I < 5 the target is slowed and weakened (save ends)
-      - effect: The effects of being slowed and weakened this way can't be ignored.
-        name: Special
-  - name: Soul Flay
+        tier1: 9 damage
+        tier2: 12 damage
+        tier3: 14 damage; I < 5 the target is slowed and weakened (save ends)
+      - name: Special
+        effect: The effects of being slowed and weakened this way can't be ignored.
+  - type: feature
+    feature_type: ability
+    name: Soul Flay
     icon: 🔳
     cost: 5 Malice
     keywords:
       - Area
-    type: Maneuver
+    usage: Maneuver
     distance: 6 x 3 line within 1
     target: Each enemy in the area
     effects:
       - roll: Power Roll + 5
-        t1: 4 psychic damage; P < 3 bleeding (save ends)
-        t2: 7 psychic damage; P < 4 bleeding (save ends)
-        t3: 9 psychic damage; P < 5 bleeding (save ends)
-      - effect: Any creature who is bleeding from this ability loses 2d6 Stamina instead
+        tier1: 4 psychic damage; P < 3 bleeding (save ends)
+        tier2: 7 psychic damage; P < 4 bleeding (save ends)
+        tier3: 9 psychic damage; P < 5 bleeding (save ends)
+      - name: Effect
+        effect: Any creature who is bleeding from this ability loses 2d6 Stamina instead
           of 1d6.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Lethe
+    icon: ⭐️
+    effects:
+      - effect: While the vicisitator is winded, they gain an edge on strikes, and any
+          strike made against them gains an edge.
+  - type: feature
+    feature_type: trait
+    name: Soulsight
+    icon: ⭐️
+    effects:
+      - effect: Any creature within 2 squares of the vicisitator can't be hidden from
+          them.
 ~~~

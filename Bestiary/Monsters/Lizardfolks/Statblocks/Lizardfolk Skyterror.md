@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Lizardfolk Skyterror
 level: 1
 roles:
@@ -49,49 +50,58 @@ agility: 2
 reason: 0
 intuition: 0
 presence: 1
-traits:
-  - name: Glider
-    effects:
-      - effect: Whenever the skyterror moves 2 or more squares along the ground or falls
-          2 or more squares, they can fly until the end of their next turn.
-  - name: Reptilian Escape
-    effects:
-      - effect: While the skyterror has a tail, whenever they are grabbed, prone,
-          slowed, or weakened, they can lose their tail to immediately end that
-          condition, then shift up to 2 squares.
-abilities:
-  - name: Glaive Rush
+features:
+  - type: feature
+    feature_type: ability
+    name: Glaive Rush
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 5 damage
-        t2: 7 damage
-        t3: 9 damage; prone
-      - effect: If the skyterror is flying, they shift up to 4 squares.
-        name: Effect
-  - name: Poison Blow Dart
+        tier1: 5 damage
+        tier2: 7 damage
+        tier3: 9 damage; prone
+      - name: Effect
+        effect: If the skyterror is flying, they shift up to 4 squares.
+  - type: feature
+    feature_type: ability
+    name: Poison Blow Dart
     icon: 🏹
     keywords:
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 5
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 3 damage; M < 0 weakened (save ends)
-        t2: 5 damage; M < 1 weakened (save ends)
-        t3: 7 damage; M < 2 weakened (save ends)
-      - effect: Any creature who ends their turn adjacent to a target weakened this way
+        tier1: 3 damage; M < 0 weakened (save ends)
+        tier2: 5 damage; M < 1 weakened (save ends)
+        tier3: 7 damage; M < 2 weakened (save ends)
+      - name: Effect
+        effect: Any creature who ends their turn adjacent to a target weakened this way
           is weakened until the end of their next turn.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Glider
+    icon: ⭐️
+    effects:
+      - effect: Whenever the skyterror moves 2 or more squares along the ground or falls
+          2 or more squares, they can fly until the end of their next turn.
+  - type: feature
+    feature_type: trait
+    name: Reptilian Escape
+    icon: ⭐️
+    effects:
+      - effect: While the skyterror has a tail, whenever they are grabbed, prone,
+          slowed, or weakened, they can lose their tail to immediately end that
+          condition, then shift up to 2 squares.
 ~~~

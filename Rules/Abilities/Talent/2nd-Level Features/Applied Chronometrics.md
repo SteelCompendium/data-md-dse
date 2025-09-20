@@ -7,7 +7,7 @@ cost_resource: Clarity
 distance: Ranged 10
 feature_type: ability
 file_basename: Applied Chronometrics
-file_dpath: Talent/2nd-Level Features
+file_dpath: Abilities/Talent/2nd-Level Features
 flavor: Time slows down around you. Your heartbeat is the only gauge of the extra
   moments you've gained.
 item_id: applied-chronometrics-5-clarity
@@ -21,14 +21,16 @@ level: 2
 scc:
 - mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:applied-chronometrics-5-clarity
 scdc:
-- 1.1.1:13.2.1.5:03
+- 1.1.1:11.2.1.5:03
 source: mcdm.heroes.v1
 subclass: Chronopathy
 target: Special
 type: feature/ability/talent/2nd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Applied Chronometrics
 cost: 5 Clarity
 flavor: Time slows down around you. Your heartbeat is the only gauge of the
@@ -37,7 +39,7 @@ keywords:
   - Chronopathy
   - Psionic
   - Ranged
-type: Maneuver
+usage: Maneuver
 distance: Ranged 10
 target: Special
 metadata:
@@ -49,7 +51,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Applied Chronometrics
-  file_dpath: Talent/2nd-Level Features
+  file_dpath: Abilities/Talent/2nd-Level Features
   flavor: Time slows down around you. Your heartbeat is the only gauge of the
     extra moments you've gained.
   item_id: applied-chronometrics-5-clarity
@@ -63,20 +65,20 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:applied-chronometrics-5-clarity
   scdc:
-    - 1.1.1:13.2.1.5:03
+    - 1.1.1:11.2.1.5:03
   source: mcdm.heroes.v1
   subclass: Chronopathy
   target: Special
   type: feature/ability/talent/2nd-level-feature
 effects:
   - roll: Power Roll + Presence
-    t1: You target two creatures, one of which can be you.
-    t2: You target three creatures, one of which can be you.
-    t3: You target four creatures, one of which can be you.
-  - effect: Until the start of your next turn, each target gains a +5 bonus to
+    tier1: You target two creatures, one of which can be you.
+    tier2: You target three creatures, one of which can be you.
+    tier3: You target four creatures, one of which can be you.
+  - name: Effect
+    effect: Until the start of your next turn, each target gains a +5 bonus to
       speed, they can't be made dazed, and they can use an additional maneuver
       on their turn. If a target is already dazed, that condition ends for them.
-    name: Effect
-  - effect: Your speed is halved until the end of the encounter.
-    name: Strained
+  - name: Strained
+    effect: Your speed is halved until the end of the encounter.
 ```

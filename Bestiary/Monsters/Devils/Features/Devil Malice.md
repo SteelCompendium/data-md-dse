@@ -13,19 +13,24 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Malice Features
 name: Devil Malice
-type: Malice Features
 flavor: At the start of any devil's turn, you can spend Malice to activate one
   of the following features.
 features:
-  - name: Bureaucratic Tape
+  - type: feature
+    feature_type: trait
+    name: Bureaucratic Tape
     icon: 👤
     cost: 3 Malice
     effects:
       - effect: One devil acting this turn uses a signature ability against an adjacent
           creature. On a tier 3 outcome, the target of the ability has a double
           bane on strikes (save ends).
-  - name: Underhanded Tactics
+  - type: feature
+    feature_type: trait
+    name: Underhanded Tactics
     icon: ⭐️
     cost: 5+ Malice
     effects:
@@ -33,7 +38,9 @@ features:
           creatures who aren't hidden and make a free strike. For each 2
           additional Malice spent on this feature, one additional devil can
           teleport.
-  - name: Read the Small Print
+  - type: feature
+    feature_type: trait
+    name: Read the Small Print
     icon: 🌀
     cost: 7 Malice
     effects:

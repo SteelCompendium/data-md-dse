@@ -7,7 +7,7 @@ cost_resource: Drama
 distance: Self
 feature_type: ability
 file_basename: Saved in the Edit
-file_dpath: Troubadour/8th-Level Features
+file_dpath: Abilities/Troubadour/8th-Level Features
 flavor: You shout a word of power that allows you to rewrite reality to your whims.
 item_id: saved-in-the-edit-11-drama
 item_index: '01'
@@ -18,19 +18,21 @@ level: 8
 scc:
 - mcdm.heroes.v1:feature.ability.troubadour.8th-level-feature:saved-in-the-edit-11-drama
 scdc:
-- 1.1.1:13.2.3.2:01
+- 1.1.1:11.2.3.2:01
 source: mcdm.heroes.v1
 target: Self
 type: feature/ability/troubadour/8th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Saved in the Edit
 cost: 11 Drama
 flavor: You shout a word of power that allows you to rewrite reality to your whims.
 keywords:
   - Magic
-type: Maneuver
+usage: Maneuver
 distance: Self
 target: Self
 metadata:
@@ -42,7 +44,7 @@ metadata:
   distance: Self
   feature_type: ability
   file_basename: Saved in the Edit
-  file_dpath: Troubadour/8th-Level Features
+  file_dpath: Abilities/Troubadour/8th-Level Features
   flavor: You shout a word of power that allows you to rewrite reality to your whims.
   item_id: saved-in-the-edit-11-drama
   item_index: "01"
@@ -53,12 +55,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.troubadour.8th-level-feature:saved-in-the-edit-11-drama
   scdc:
-    - 1.1.1:13.2.3.2:01
+    - 1.1.1:11.2.3.2:01
   source: mcdm.heroes.v1
   target: Self
   type: feature/ability/troubadour/8th-level-feature
 effects:
-  - effect: >-
+  - name: Effect
+    effect: >-
       Until the end of the encounter, whenever you deal rolled damage to a
       creature or object, or enable a creature to spend a Recovery, you can use
       a free triggered action to give that creature or object one of the
@@ -76,5 +79,4 @@ effects:
 
       - The target has a bonus to speed and a penalty to stability equal to your
       Presence score.
-    name: Effect
 ```

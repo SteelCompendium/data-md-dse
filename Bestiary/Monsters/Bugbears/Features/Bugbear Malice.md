@@ -13,17 +13,22 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Malice Features
 name: Bugbear Malice
-type: Malice Features
 flavor: At the start of any bugbear's turn, you can spend Malice to activate one
   of the following features.
 features:
-  - name: Goblin Malice Features
+  - type: feature
+    feature_type: trait
+    name: Goblin Malice Features
     icon: ⭐️
     cost: 3-7 Malice
     effects:
       - effect: The bugbear activates a Malice Feature available to goblins.
-  - name: Grab Iron Ball
+  - type: feature
+    feature_type: trait
+    name: Grab Iron Ball
     icon: 👤
     cost: 3+ Malice
     effects:
@@ -32,7 +37,9 @@ features:
           squares of them. The creature takes damage equal to 8 - the number of
           squares the iron ball was thrown, and if they have M < 1, they are
           slowed (save ends).
-  - name: Grab Javelin
+  - type: feature
+    feature_type: trait
+    name: Grab Javelin
     icon: 👤
     cost: 5+ Malice
     effects:
@@ -43,7 +50,9 @@ features:
           bleeding (save ends). While a creature is bleeding this way, any ally
           of the bugbear within 2 squares of them can use a free maneuver to
           pull the bleeding creature up to 2 squares.
-  - name: Show Them the Great Fear
+  - type: feature
+    feature_type: trait
+    name: Show Them the Great Fear
     icon: 🌀
     cost: 10 Malice
     effects:

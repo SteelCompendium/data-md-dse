@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Devil Notary
 level: 5
 roles:
@@ -51,29 +52,33 @@ agility: 1
 reason: 3
 intuition: 1
 presence: 2
-traits:
-  - name: True Name
-    effects:
-      - effect: If a creature within 10 squares speaks the notary's true name, the
-          notary loses their fire immunity and any nondamaging effects of their
-          signature ability until the end of the encounter.
-abilities:
-  - name: Importunity
+features:
+  - type: feature
+    feature_type: ability
+    name: Importunity
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Ranged
       - Strike
-    type: Main action
+    usage: Main action
     distance: Ranged 5
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 3
-        t1: 3 fire damage
-        t2: 5 fire damage; R < 2 the target takes a bane on their next strike
-        t3: 6 fire damage; R < 3 the target takes a bane on their next strike
-      - effect: One non-minion devil within 5 squares of the notary gains an edge on
+        tier1: 3 fire damage
+        tier2: 5 fire damage; R < 2 the target takes a bane on their next strike
+        tier3: 6 fire damage; R < 3 the target takes a bane on their next strike
+      - name: Effect
+        effect: One non-minion devil within 5 squares of the notary gains an edge on
           their next strike.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: True Name
+    icon: ⭐️
+    effects:
+      - effect: If a creature within 10 squares speaks the notary's true name, the
+          notary loses their fire immunity and any nondamaging effects of their
+          signature ability until the end of the encounter.
 ~~~

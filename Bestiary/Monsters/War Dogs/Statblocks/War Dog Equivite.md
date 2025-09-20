@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: War Dog Equivite
 level: 4
 roles:
@@ -48,39 +49,38 @@ agility: 3
 reason: -1
 intuition: -2
 presence: 0
-traits:
-  - name: Loyalty Collar
-    effects:
-      - effect: When the equivite is reduced to 0 Stamina, their loyalty collar
-          explodes, dealing 2d6 damage to each adjacent enemy and object.
-abilities:
-  - name: Fuse-Iron Lance
+features:
+  - type: feature
+    feature_type: ability
+    name: Fuse-Iron Lance
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Charge
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 2
     target: One creature or object
     effects:
       - roll: Power Roll + 3
-        t1: 6 damage
-        t2: 8 damage
-        t3: 10 damage; I < 3 frightened (save ends)
-      - effect: This ability gains an edge while charging.
-        name: Effect
-      - effect: The ability deals an extra 3 fire damage to the target and each enemy
+        tier1: 6 damage
+        tier2: 8 damage
+        tier3: 10 damage; I < 3 frightened (save ends)
+      - name: Effect
+        effect: This ability gains an edge while charging.
+      - cost: 2 Malice
+        effect: The ability deals an extra 3 fire damage to the target and each enemy
           adjacent to the target.
-        cost: 2 Malice
-  - name: Blazing Charge
+  - type: feature
+    feature_type: ability
+    name: Blazing Charge
     icon: 🗡
     keywords:
       - Melee
       - Weapon
-    type: Maneuver
+    usage: Maneuver
     distance: Special; see below
     target: Special
     effects:
@@ -90,7 +90,14 @@ abilities:
           equivite makes one power roll against each enemy whose space they move
           through for the first time
       - roll: Power Roll + 3
-        t1: 2 damage; push 1
-        t2: 4 damage; push 2
-        t3: 5 damage; push 3; M < 3 prone
+        tier1: 2 damage; push 1
+        tier2: 4 damage; push 2
+        tier3: 5 damage; push 3; M < 3 prone
+  - type: feature
+    feature_type: trait
+    name: Loyalty Collar
+    icon: ⭐️
+    effects:
+      - effect: When the equivite is reduced to 0 Stamina, their loyalty collar
+          explodes, dealing 2d6 damage to each adjacent enemy and object.
 ~~~

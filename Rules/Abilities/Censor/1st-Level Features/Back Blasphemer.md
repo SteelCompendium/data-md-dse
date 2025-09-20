@@ -1,10 +1,11 @@
 ---
+ability_type: Signature
 action_type: Main action
 class: censor
 distance: 2 cube within 1
 feature_type: ability
 file_basename: Back Blasphemer
-file_dpath: Censor/1st-Level Features
+file_dpath: Abilities/Censor/1st-Level Features
 flavor: You channel power through your weapon to repel foes.
 item_id: back-blasphemer
 item_index: '07'
@@ -18,13 +19,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:back-blasphemer
 scdc:
-- 1.1.1:13.2.7.1:07
+- 1.1.1:11.2.7.1:07
 source: mcdm.heroes.v1
 target: Each enemy in the area
 type: feature/ability/censor/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Back Blasphemer!
 flavor: You channel power through your weapon to repel foes.
 keywords:
@@ -32,16 +35,17 @@ keywords:
   - Magic
   - Melee
   - Weapon
-type: Main action
+usage: Main action
 distance: 2 cube within 1
 target: Each enemy in the area
 metadata:
+  ability_type: Signature
   action_type: Main action
   class: censor
   distance: 2 cube within 1
   feature_type: ability
   file_basename: Back Blasphemer
-  file_dpath: Censor/1st-Level Features
+  file_dpath: Abilities/Censor/1st-Level Features
   flavor: You channel power through your weapon to repel foes.
   item_id: back-blasphemer
   item_index: "07"
@@ -55,13 +59,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:back-blasphemer
   scdc:
-    - 1.1.1:13.2.7.1:07
+    - 1.1.1:11.2.7.1:07
   source: mcdm.heroes.v1
   target: Each enemy in the area
   type: feature/ability/censor/1st-level-feature
 effects:
   - roll: Power Roll + Presence
-    t1: 2 holy damage; push 1
-    t2: 4 holy damage; push 2
-    t3: 6 holy damage; push 3
+    tier1: 2 holy damage; push 1
+    tier2: 4 holy damage; push 2
+    tier3: 6 holy damage; push 3
 ```

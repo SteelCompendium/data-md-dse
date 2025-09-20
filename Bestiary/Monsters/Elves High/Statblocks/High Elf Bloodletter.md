@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: High Elf Bloodletter
 level: 1
 roles:
@@ -50,45 +51,51 @@ agility: 2
 reason: 0
 intuition: 1
 presence: 0
-traits:
-  - name: Otherworldly Grace
-    effects:
-      - effect: At the start of each of their turns, the bloodletter can choose one
-          effect on them that can be ended by a saving throw. That effect
-          instead ends at the end of their turn.
-abilities:
-  - name: Razor's Edge
+features:
+  - type: feature
+    feature_type: ability
+    name: Razor's Edge
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 6 damage
-        t2: 9 damage
-        t3: 12 damage; R < 2 bleeding (save ends)
-      - effect: The bloodletter and each of their allies has a double edge on abilities
+        tier1: 6 damage
+        tier2: 9 damage
+        tier3: 12 damage; R < 2 bleeding (save ends)
+      - name: Effect
+        effect: The bloodletter and each of their allies has a double edge on abilities
           targeting a creature bleeding this way.
-        name: Effect
-  - name: Blood Haze
+  - type: feature
+    feature_type: ability
+    name: Blood Haze
     icon: ❇️
     cost: 2 Malice
     keywords:
       - Area
       - Magic
-    type: Maneuver
+    usage: Maneuver
     distance: 1 burst
     target: Special
     effects:
-      - effect: Until the end of the next round, a cloud of blood vapor fills the area.
+      - name: Effect
+        effect: Until the end of the next round, a cloud of blood vapor fills the area.
           The cloud blocks line of effect for enemies, and any enemy has damage
           weakness 3 while in the area. The bloodletter can then shift up to
           their speed, and can attempt to hide if they end that shift with
           concealment.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Otherworldly Grace
+    icon: ⭐️
+    effects:
+      - effect: At the start of each of their turns, the bloodletter can choose one
+          effect on them that can be ended by a saving throw. That effect
+          instead ends at the end of their turn.
 ~~~

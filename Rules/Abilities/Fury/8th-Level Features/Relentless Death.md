@@ -7,7 +7,7 @@ cost_resource: Ferocity
 distance: Self; see below
 feature_type: ability
 file_basename: Relentless Death
-file_dpath: Fury/8th-Level Features
+file_dpath: Abilities/Fury/8th-Level Features
 flavor: You won't escape your fate.
 item_id: relentless-death-11-ferocity
 item_index: '01'
@@ -21,13 +21,15 @@ level: 8
 scc:
 - mcdm.heroes.v1:feature.ability.fury.8th-level-feature:relentless-death-11-ferocity
 scdc:
-- 1.1.1:13.2.5.2:01
+- 1.1.1:11.2.5.2:01
 source: mcdm.heroes.v1
 target: Self
 type: feature/ability/fury/8th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Relentless Death
 cost: 11 Ferocity
 flavor: You won't escape your fate.
@@ -36,7 +38,7 @@ keywords:
   - Melee
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Self; see below
 target: Self
 metadata:
@@ -48,7 +50,7 @@ metadata:
   distance: Self; see below
   feature_type: ability
   file_basename: Relentless Death
-  file_dpath: Fury/8th-Level Features
+  file_dpath: Abilities/Fury/8th-Level Features
   flavor: You won't escape your fate.
   item_id: relentless-death-11-ferocity
   item_index: "01"
@@ -62,7 +64,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.fury.8th-level-feature:relentless-death-11-ferocity
   scdc:
-    - 1.1.1:13.2.5.2:01
+    - 1.1.1:11.2.5.2:01
   source: mcdm.heroes.v1
   target: Self
   type: feature/ability/fury/8th-level-feature
@@ -74,7 +76,7 @@ effects:
       gain 1 ferocity for each target who dies as a result of this ability
       (maximum 11 ferocity).
   - roll: Power Roll + Might
-    t1: Any target whose Stamina is equal to or less than 8 dies.
-    t2: Any target whose Stamina is equal to or less than 11 dies.
-    t3: Any target whose Stamina is equal to or less than 17 dies.
+    tier1: Any target whose Stamina is equal to or less than 8 dies.
+    tier2: Any target whose Stamina is equal to or less than 11 dies.
+    tier3: Any target whose Stamina is equal to or less than 17 dies.
 ```

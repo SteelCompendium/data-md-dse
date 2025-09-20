@@ -13,38 +13,45 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Malice Features
 name: Voiceless Talker Malice
-type: Malice Features
 flavor: At the start of any voiceless talker's turn, you can spend Malice to
   activate one of the following features.
 features:
-  - name: Guise
+  - type: feature
+    feature_type: trait
+    name: Guise
     icon: 👤
     cost: 3 Malice
     effects:
       - effect: One non-minion voiceless talker projects a psionic screen over their
           body, preventing other creatures from treating them as an enemy until
           the end of the voiceless talker's next turn.
-  - name: Memory Thief
+  - type: feature
+    feature_type: ability
+    name: Memory Thief
     icon: 🏹
     cost: 5 Malice
     keywords:
       - Psionic
       - Ranged
-    type: Maneuver
+    usage: Maneuver
     distance: Ranged 5
     target: One creature
     effects:
       - roll: Power Roll + 3
-        t1: 6 psychic damage; R < 1 the target can't treat their allies as allies (save
-          ends)
-        t2: 10 psychic damage; R < 2 the target perceives their allies as enemies (save
-          ends)
-        t3: 13 psychic damage; R < 3 the target perceives their allies as enemies (save
-          ends)
-      - effect: This ability can't be used by a minion.
-        name: Special
-  - name: Evolutionary Circuit
+        tier1: 6 psychic damage; R < 1 the target can't treat their allies as allies
+          (save ends)
+        tier2: 10 psychic damage; R < 2 the target perceives their allies as enemies
+          (save ends)
+        tier3: 13 psychic damage; R < 3 the target perceives their allies as enemies
+          (save ends)
+      - name: Special
+        effect: This ability can't be used by a minion.
+  - type: feature
+    feature_type: trait
+    name: Evolutionary Circuit
     icon: 🌀
     cost: 10 Malice
     effects:

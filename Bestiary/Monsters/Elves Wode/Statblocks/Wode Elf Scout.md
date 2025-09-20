@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Wode Elf Scout
 level: 1
 roles:
@@ -51,29 +52,36 @@ agility: 2
 reason: 0
 intuition: 0
 presence: 1
-traits:
-  - name: Into the Green
-    effects:
-      - effect: The scout can attempt to hide at the end of each of their turns.
-  - name: Masking Glamor
-    effects:
-      - effect: Abilities targeting the scout that would take a bane from cover or
-          concealment have a double bane instead.
-abilities:
-  - name: Daggers
+features:
+  - type: feature
+    feature_type: ability
+    name: Daggers
     icon: ⚔️
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1 or ranged 5
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 2 damage
-        t2: 4 damage
-        t3: 5 damage
+        tier1: 2 damage
+        tier2: 4 damage
+        tier3: 5 damage
+  - type: feature
+    feature_type: trait
+    name: Into the Green
+    icon: ⭐️
+    effects:
+      - effect: The scout can attempt to hide at the end of each of their turns.
+  - type: feature
+    feature_type: trait
+    name: Masking Glamor
+    icon: ⭐️
+    effects:
+      - effect: Abilities targeting the scout that would take a bane from cover or
+          concealment have a double bane instead.
 ~~~

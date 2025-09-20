@@ -7,7 +7,7 @@ cost_resource: Piety
 distance: 3 cube within 10
 feature_type: ability
 file_basename: Nature Judges Thee
-file_dpath: Conduit/2nd-Level Features
+file_dpath: Abilities/Conduit/2nd-Level Features
 flavor: Mystical thorned vines appear at your bidding and bind your foes.
 item_id: nature-judges-thee-5-piety
 item_index: '11'
@@ -20,14 +20,16 @@ level: 2
 scc:
 - mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:nature-judges-thee-5-piety
 scdc:
-- 1.1.1:13.2.8.5:11
+- 1.1.1:11.2.8.5:11
 source: mcdm.heroes.v1
 subclass: Nature
 target: Each enemy in the area
 type: feature/ability/conduit/2nd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Nature Judges Thee
 cost: 5 Piety
 flavor: Mystical thorned vines appear at your bidding and bind your foes.
@@ -35,7 +37,7 @@ keywords:
   - Area
   - Magic
   - Ranged
-type: Main action
+usage: Main action
 distance: 3 cube within 10
 target: Each enemy in the area
 metadata:
@@ -47,7 +49,7 @@ metadata:
   distance: 3 cube within 10
   feature_type: ability
   file_basename: Nature Judges Thee
-  file_dpath: Conduit/2nd-Level Features
+  file_dpath: Abilities/Conduit/2nd-Level Features
   flavor: Mystical thorned vines appear at your bidding and bind your foes.
   item_id: nature-judges-thee-5-piety
   item_index: "11"
@@ -60,14 +62,14 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:nature-judges-thee-5-piety
   scdc:
-    - 1.1.1:13.2.8.5:11
+    - 1.1.1:11.2.8.5:11
   source: mcdm.heroes.v1
   subclass: Nature
   target: Each enemy in the area
   type: feature/ability/conduit/2nd-level-feature
 effects:
   - roll: Power Roll + Intuition
-    t1: 2 damage; A < WEAK, restrained (save ends)
-    t2: 3 damage; A < AVERAGE, restrained (save ends)
-    t3: 7 damage; A < STRONG, restrained (save ends)
+    tier1: 2 damage; A < WEAK, restrained (save ends)
+    tier2: 3 damage; A < AVERAGE, restrained (save ends)
+    tier3: 7 damage; A < STRONG, restrained (save ends)
 ```

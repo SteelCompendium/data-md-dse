@@ -13,29 +13,38 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Malice Features
 name: Hobgoblin Malice
-type: Malice Features
 flavor: At the start of any hobgoblin's turn, you can spend Malice to activate
   one of the following features.
 features:
-  - name: Goblin Malice Features
+  - type: feature
+    feature_type: trait
+    name: Goblin Malice Features
     icon: ⭐️
     cost: 3-7 Malice
     effects:
       - effect: The hobgoblin activates a Malice Feature available to goblins.
-  - name: Operation Goblin Mode
+  - type: feature
+    feature_type: trait
+    name: Operation Goblin Mode
     icon: ⭐️
     cost: 3 Malice
     effects:
       - effect: Each goblin in the encounter gains a +3 bonus to speed until the end of
           the round.
-  - name: Operation Tactical Swarm
+  - type: feature
+    feature_type: trait
+    name: Operation Tactical Swarm
     icon: ⭐️
     cost: 5 Malice
     effects:
       - effect: Each hobgoblin in the encounter shifts up to their speed and can take
           the Defend main action.
-  - name: Operation Earth Sear
+  - type: feature
+    feature_type: trait
+    name: Operation Earth Sear
     icon: 🌀
     cost: 7 Malice
     effects:

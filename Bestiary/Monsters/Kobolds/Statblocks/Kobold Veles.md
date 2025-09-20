@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Kobold Veles
 level: 1
 roles:
@@ -49,29 +50,33 @@ agility: 2
 reason: 0
 intuition: 0
 presence: 0
-traits:
-  - name: Shield? Shield!
-    effects:
-      - effect: While adjacent to an ally who also has this trait, the veles has
-          stability 1, has cover, and grants cover to allies.
-abilities:
-  - name: Pilium
+features:
+  - type: feature
+    feature_type: ability
+    name: Pilium
     icon: ⚔️
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1 or Ranged 5
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 1 damage
-        t2: 2 damage
-        t3: 3 damage
-      - effect: Until the start of the veles's next turn, the target can't make
+        tier1: 1 damage
+        tier2: 2 damage
+        tier3: 3 damage
+      - name: Effect
+        effect: Until the start of the veles's next turn, the target can't make
           opportunity attacks against any kobold.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Shield? Shield!
+    icon: ⭐️
+    effects:
+      - effect: While adjacent to an ally who also has this trait, the veles has
+          stability 1, has cover, and grants cover to allies.
 ~~~

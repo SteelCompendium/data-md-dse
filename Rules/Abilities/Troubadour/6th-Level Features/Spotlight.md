@@ -4,7 +4,7 @@ class: troubadour
 distance: 5 aura
 feature_type: ability
 file_basename: Spotlight
-file_dpath: Troubadour/6th-Level Features
+file_dpath: Abilities/Troubadour/6th-Level Features
 flavor: The audience is watching, so you'd better give them a show.
 item_id: spotlight
 item_index: '01'
@@ -17,20 +17,22 @@ level: 6
 scc:
 - mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:spotlight
 scdc:
-- 1.1.1:13.2.3.3:01
+- 1.1.1:11.2.3.3:01
 source: mcdm.heroes.v1
 target: Self and each ally in the area
 type: feature/ability/troubadour/6th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Spotlight
 flavor: The audience is watching, so you'd better give them a show.
 keywords:
   - Area
   - Magic
   - Performance
-type: No action
+usage: No action
 distance: 5 aura
 target: Self and each ally in the area
 metadata:
@@ -39,7 +41,7 @@ metadata:
   distance: 5 aura
   feature_type: ability
   file_basename: Spotlight
-  file_dpath: Troubadour/6th-Level Features
+  file_dpath: Abilities/Troubadour/6th-Level Features
   flavor: The audience is watching, so you'd better give them a show.
   item_id: spotlight
   item_index: "01"
@@ -52,13 +54,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:spotlight
   scdc:
-    - 1.1.1:13.2.3.3:01
+    - 1.1.1:11.2.3.3:01
   source: mcdm.heroes.v1
   target: Self and each ally in the area
   type: feature/ability/troubadour/6th-level-feature
 effects:
-  - effect: While this performance is active, each target who starts their turn in
+  - name: Effect
+    effect: While this performance is active, each target who starts their turn in
       the area gains 1 of their Heroic Resource. This Heroic Resource disappears
       at the end of the target's turn if they don't spend it.
-    name: Effect
 ```

@@ -13,8 +13,9 @@ type: dynamic-terrain/fieldwork
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Fortification Defender
 name: Pavise Shield
-type: Fortification Defender
 level: 1
 ev: "1"
 flavor: A reinforced metal shield embedded in the ground acts as cover for the
@@ -30,14 +31,16 @@ stats:
   - name: 17+
     value: The creature making the test grabs the shield and takes control of it.
 features:
-  - name: Activate
+  - type: feature
+    feature_type: trait
+    name: Activate
     icon: ❕
     effects:
-      - effect: While a creature has the pavise shield grabbed, they have cover and take
+      - name: Effect
+        effect: While a creature has the pavise shield grabbed, they have cover and take
           half damage from abilities whose line of effect extends through the
           shield. The pavise shield takes the other half of the damage.
-        name: Effect
-      - effect: While a creature has a pavise shield grabbed, their speed is halved and
+      - name: Movement
+        effect: While a creature has a pavise shield grabbed, their speed is halved and
           they move the shield like a grabbed creature.
-        name: Movement
 ~~~

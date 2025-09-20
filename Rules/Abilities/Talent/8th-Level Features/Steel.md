@@ -7,7 +7,7 @@ cost_resource: Clarity
 distance: Ranged 10
 feature_type: ability
 file_basename: Steel
-file_dpath: Talent/8th-Level Features
+file_dpath: Abilities/Talent/8th-Level Features
 flavor: The target's skin becomes covered in tough metal.
 item_id: steel-11-clarity
 item_index: '04'
@@ -20,13 +20,15 @@ level: 8
 scc:
 - mcdm.heroes.v1:feature.ability.talent.8th-level-feature:steel-11-clarity
 scdc:
-- 1.1.1:13.2.1.2:04
+- 1.1.1:11.2.1.2:04
 source: mcdm.heroes.v1
 target: Self or one ally
 type: feature/ability/talent/8th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Steel
 cost: 11 Clarity
 flavor: The target's skin becomes covered in tough metal.
@@ -34,7 +36,7 @@ keywords:
   - Metamorphosis
   - Psionic
   - Ranged
-type: Maneuver
+usage: Maneuver
 distance: Ranged 10
 target: Self or one ally
 metadata:
@@ -46,7 +48,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Steel
-  file_dpath: Talent/8th-Level Features
+  file_dpath: Abilities/Talent/8th-Level Features
   flavor: The target's skin becomes covered in tough metal.
   item_id: steel-11-clarity
   item_index: "04"
@@ -59,16 +61,16 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.talent.8th-level-feature:steel-11-clarity
   scdc:
-    - 1.1.1:13.2.1.2:04
+    - 1.1.1:11.2.1.2:04
   source: mcdm.heroes.v1
   target: Self or one ally
   type: feature/ability/talent/8th-level-feature
 effects:
-  - effect: The target has damage immunity 5 and can't be made slowed or weakened
+  - name: Effect
+    effect: The target has damage immunity 5 and can't be made slowed or weakened
       until the start of your next turn. Whenever the target force moves a
       creature or object while under this effect, the forced movement distance
       gains a +5 bonus.
-    name: Effect
-  - effect: You can't use maneuvers (save ends).
-    name: Strained
+  - name: Strained
+    effect: You can't use maneuvers (save ends).
 ```

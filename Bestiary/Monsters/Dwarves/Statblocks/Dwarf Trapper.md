@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Dwarf Trapper
 level: 1
 roles:
@@ -48,45 +49,48 @@ agility: 2
 reason: 0
 intuition: 1
 presence: 0
-traits: []
-abilities:
-  - name: Concussive Bolts
+features:
+  - type: feature
+    feature_type: ability
+    name: Concussive Bolts
     icon: ⚔️
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Charge
       - Melee
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1 or ranged 10
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 5 damage; push 2
-        t2: 7 damage; push 4
-        t3: 9 damage; push 6
-      - effect: A target restrained by a dwarf can be force moved by this ability. This
+        tier1: 5 damage; push 2
+        tier2: 7 damage; push 4
+        tier3: 9 damage; push 6
+      - name: Effect
+        effect: A target restrained by a dwarf can be force moved by this ability. This
           forced movement doesn't end the restrained condition unless the
           Director determines otherwise.
-        name: Effect
-  - name: Steam-Powered Snare
+  - type: feature
+    feature_type: ability
+    name: Steam-Powered Snare
     icon: 🔳
     cost: 3 Malice
     keywords:
       - Area
       - Ranged
       - Weapon
-    type: Maneuver
+    usage: Maneuver
     distance: 3 cube within 5
     target: Each enemy in the area
     effects:
       - name: Effect
         effect: Each target makes a **Might test**.
-        t1: 7 damage; restrained (EoT)
-        t2: 5 damage; slowed (EoT)
-        t3: No effect.
+        tier1: 7 damage; restrained (EoT)
+        tier2: 5 damage; slowed (EoT)
+        tier3: No effect.
       - effect: The snare remains until the end of the encounter. Any enemy who moves
           into the area for the first time in a round or starts their turn there
           must make the test.

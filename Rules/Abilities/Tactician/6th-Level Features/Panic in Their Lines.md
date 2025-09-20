@@ -7,7 +7,7 @@ cost_resource: Focus
 distance: Melee 1 or ranged 5
 feature_type: ability
 file_basename: Panic in Their Lines
-file_dpath: Tactician/6th-Level Features
+file_dpath: Abilities/Tactician/6th-Level Features
 flavor: You confuse your foes, causing them to turn on each other.
 item_id: panic-in-their-lines-9-focus
 item_index: '03'
@@ -21,14 +21,16 @@ level: 6
 scc:
 - mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:panic-in-their-lines-9-focus
 scdc:
-- 1.1.1:13.2.4.3:03
+- 1.1.1:11.2.4.3:03
 source: mcdm.heroes.v1
 subclass: Insurgent
 target: Two creatures
 type: feature/ability/tactician/6th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Panic in Their Lines
 cost: 9 Focus
 flavor: You confuse your foes, causing them to turn on each other.
@@ -37,7 +39,7 @@ keywords:
   - Ranged
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1 or ranged 5
 target: Two creatures
 metadata:
@@ -49,7 +51,7 @@ metadata:
   distance: Melee 1 or ranged 5
   feature_type: ability
   file_basename: Panic in Their Lines
-  file_dpath: Tactician/6th-Level Features
+  file_dpath: Abilities/Tactician/6th-Level Features
   flavor: You confuse your foes, causing them to turn on each other.
   item_id: panic-in-their-lines-9-focus
   item_index: "03"
@@ -63,17 +65,17 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:panic-in-their-lines-9-focus
   scdc:
-    - 1.1.1:13.2.4.3:03
+    - 1.1.1:11.2.4.3:03
   source: mcdm.heroes.v1
   subclass: Insurgent
   target: Two creatures
   type: feature/ability/tactician/6th-level-feature
 effects:
   - roll: Power Roll + Might
-    t1: 6 + M damage; slide 1
-    t2: 9 + M damage; slide 3
-    t3: 13 + M damage; slide 5
-  - effect: If a target is force moved into another creature, they must make a free
+    tier1: 6 + M damage; slide 1
+    tier2: 9 + M damage; slide 3
+    tier3: 13 + M damage; slide 5
+  - name: Effect
+    effect: If a target is force moved into another creature, they must make a free
       strike against that creature.
-    name: Effect
 ```

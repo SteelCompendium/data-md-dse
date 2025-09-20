@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Dwarf Gunner
 level: 1
 roles:
@@ -48,48 +49,54 @@ agility: 2
 reason: 0
 intuition: 1
 presence: 0
-traits:
-  - name: Split Shot
-    effects:
-      - effect: Whenever the gunner deals rolled damage to a target, one creature or
-          object adjacent to the target takes 3 damage.
-abilities:
-  - name: Portable Ballista
+features:
+  - type: feature
+    feature_type: ability
+    name: Portable Ballista
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 10
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 6 damage; push 1
-        t2: 9 damage; push 3
-        t3: 12 damage; push 5
-      - effect: If the target is adjacent to an object or a wall after the power roll is
+        tier1: 6 damage; push 1
+        tier2: 9 damage; push 3
+        tier3: 12 damage; push 5
+      - name: Effect
+        effect: If the target is adjacent to an object or a wall after the power roll is
           resolved, they are restrained until the end of their next turn. A
           target restrained by a dwarf can be force moved by this ability. This
           forced movement doesn't end the restrained condition unless the
           Director determines otherwise.
-        name: Effect
-      - effect: If the target is pushed into another creature, the target and the
+      - cost: 5 Malice
+        effect: If the target is pushed into another creature, the target and the
           creature are each restrained until the end of their next turn.
-        cost: 5 Malice
-  - name: Ensnaring Chains
+  - type: feature
+    feature_type: ability
+    name: Ensnaring Chains
     icon: 🏹
     cost: 5 Malice
     keywords:
       - Ranged
       - Weapon
-    type: Maneuver
+    usage: Maneuver
     distance: Ranged 10
     target: One prone, restrained, or slowed creature
     effects:
-      - effect: The gunner makes a free strike against the target, and the prone,
+      - name: Effect
+        effect: The gunner makes a free strike against the target, and the prone,
           restrained, and slowed conditions on the target end. The target is
           then restrained (save ends).
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Split Shot
+    icon: ⭐️
+    effects:
+      - effect: Whenever the gunner deals rolled damage to a target, one creature or
+          object adjacent to the target takes 3 damage.
 ~~~

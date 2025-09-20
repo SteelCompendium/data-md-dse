@@ -14,37 +14,42 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: + Malice Features
 name: War Dog Malice
-type: + Malice Features
 level: 10
 flavor: At the start of any level 10 or higher war dog's turn, you can spend
   Malice to activate one of the following features.
 features:
-  - name: Prior Malice Features
+  - type: feature
+    feature_type: trait
+    name: Prior Malice Features
     icon: ⭐️
     cost: 3-7 Malice
     effects:
       - effect: The war dog activates a Malice feature available to war dogs of level 9
           or lower.
-  - name: Cry Havoc
+  - type: feature
+    feature_type: ability
+    name: Cry Havoc
     icon: ❇️
     cost: 7 Malice
     keywords:
       - Area
       - Magic
-    type: Maneuver
+    usage: Maneuver
     distance: 3 burst
     target: Each enemy in the area
     effects:
       - roll: Power Roll + 5
-        t1: 7 psychic damage
-        t2: 11 psychic damage; P < 4 frightened (save ends)
-        t3: 14 psychic damage; P < 5 frightened (save ends)
-      - effect: Each war dog within distance deals an extra 15 damage with strikes until
+        tier1: 7 psychic damage
+        tier2: 11 psychic damage; P < 4 frightened (save ends)
+        tier3: 14 psychic damage; P < 5 frightened (save ends)
+      - name: Effect
+        effect: Each war dog within distance deals an extra 15 damage with strikes until
           the end of their next turn. Additionally, they end any effect on them
           that can be ended by a saving throw or that ends at the end of their
           turn, then shift up to their speed and can make a free strike.
-        name: Effect
-      - effect: This ability can't be used by a minion.
-        name: Special
+      - name: Special
+        effect: This ability can't be used by a minion.
 ~~~

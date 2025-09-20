@@ -4,7 +4,7 @@ class: troubadour
 distance: 5 aura
 feature_type: ability
 file_basename: Never Ending Hero
-file_dpath: Troubadour/3rd-Level Features
+file_dpath: Abilities/Troubadour/3rd-Level Features
 flavor: And toniiight we can truly say ♪ They will alllways find a way!♪
 item_id: never-ending-hero
 item_index: '04'
@@ -17,21 +17,23 @@ level: 3
 scc:
 - mcdm.heroes.v1:feature.ability.troubadour.3rd-level-feature:never-ending-hero
 scdc:
-- 1.1.1:13.2.3.6:04
+- 1.1.1:11.2.3.6:04
 source: mcdm.heroes.v1
 subclass: Virtuoso
 target: Self and each ally in the area
 type: feature/ability/troubadour/3rd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: '"Never-Ending Hero"'
 flavor: And toniiight we can truly say ♪ They will alllways find a way!♪
 keywords:
   - Area
   - Magic
   - Performance
-type: No action
+usage: No action
 distance: 5 aura
 target: Self and each ally in the area
 metadata:
@@ -40,7 +42,7 @@ metadata:
   distance: 5 aura
   feature_type: ability
   file_basename: Never Ending Hero
-  file_dpath: Troubadour/3rd-Level Features
+  file_dpath: Abilities/Troubadour/3rd-Level Features
   flavor: And toniiight we can truly say ♪ They will alllways find a way!♪
   item_id: never-ending-hero
   item_index: "04"
@@ -53,14 +55,14 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.troubadour.3rd-level-feature:never-ending-hero
   scdc:
-    - 1.1.1:13.2.3.6:04
+    - 1.1.1:11.2.3.6:04
   source: mcdm.heroes.v1
   subclass: Virtuoso
   target: Self and each ally in the area
   type: feature/ability/troubadour/3rd-level-feature
 effects:
-  - effect: While this performance is active, each target who starts their turn
+  - name: Effect
+    effect: While this performance is active, each target who starts their turn
       dying while in the area gains an edge on power rolls and ignores the
       effects of bleeding until the end of their turn.
-    name: Effect
 ```

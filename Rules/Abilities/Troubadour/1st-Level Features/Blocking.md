@@ -4,7 +4,7 @@ class: troubadour
 distance: 2 aura
 feature_type: ability
 file_basename: Blocking
-file_dpath: Troubadour/1st-Level Features
+file_dpath: Abilities/Troubadour/1st-Level Features
 flavor: No, no, no, you lose the audience that way. Try it like this...
 item_id: blocking
 item_index: '03'
@@ -17,21 +17,23 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:blocking
 scdc:
-- 1.1.1:13.2.3.1:03
+- 1.1.1:11.2.3.1:03
 source: mcdm.heroes.v1
 subclass: Auteur
 target: Each creature in the area
 type: feature/ability/troubadour/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Blocking
 flavor: No, no, no, you lose the audience that way. Try it like this...
 keywords:
   - Area
   - Magic
   - Performance
-type: No action
+usage: No action
 distance: 2 aura
 target: Each creature in the area
 metadata:
@@ -40,7 +42,7 @@ metadata:
   distance: 2 aura
   feature_type: ability
   file_basename: Blocking
-  file_dpath: Troubadour/1st-Level Features
+  file_dpath: Abilities/Troubadour/1st-Level Features
   flavor: No, no, no, you lose the audience that way. Try it like this...
   item_id: blocking
   item_index: "03"
@@ -53,17 +55,17 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:blocking
   scdc:
-    - 1.1.1:13.2.3.1:03
+    - 1.1.1:11.2.3.1:03
   source: mcdm.heroes.v1
   subclass: Auteur
   target: Each creature in the area
   type: feature/ability/troubadour/1st-level-feature
 effects:
-  - effect: At the end of each of your turns while this performance is active, you
+  - name: Effect
+    effect: At the end of each of your turns while this performance is active, you
       can choose up to a number of targets equal to your Presence score and
       teleport those targets to unoccupied spaces in the area. A target can't be
       teleported in a way that would harm them (such as over a cliff), leave
       them dying, or result in them suffering a condition or other negative
       effect.
-    name: Effect
 ```

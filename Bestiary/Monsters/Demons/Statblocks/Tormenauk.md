@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Tormenauk
 level: 6
 roles:
@@ -50,48 +51,58 @@ agility: 0
 reason: 2
 intuition: 1
 presence: 2
-traits:
-  - name: Lethe
-    effects:
-      - effect: While the tormenauk is winded, they gain an edge on strikes, and any
-          strike made against them gains an edge.
-  - name: Soulsight
-    effects:
-      - effect: Any creature within 2 squares of the tormenauk can't be hidden from
-          them.
-abilities:
-  - name: Many Maws
+features:
+  - type: feature
+    feature_type: ability
+    name: Many Maws
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object
     effects:
       - roll: Power Roll + 3
-        t1: 7 damage
-        t2: 9 damage
-        t3: 11 damage; grabbed, and the target takes a bane on the Escape Grab maneuver
-      - effect: Any target grabbed this way takes 4 psychic damage at the start of each
+        tier1: 7 damage
+        tier2: 9 damage
+        tier3: 11 damage; grabbed, and the target takes a bane on the Escape Grab
+          maneuver
+      - name: Effect
+        effect: Any target grabbed this way takes 4 psychic damage at the start of each
           of the tormenauk's turns.
-        name: Effect
-  - name: Agony Wail
+  - type: feature
+    feature_type: ability
+    name: Agony Wail
     icon: ❇️
     cost: 5 Malice
     keywords:
       - Area
       - Magic
-    type: Maneuver
+    usage: Maneuver
     distance: 3 burst
     target: Each enemy in the area
     effects:
       - roll: Power Roll + 3
-        t1: 4 psychic damage; I < 1 dazed (save ends)
-        t2: 6 psychic damage; I < 2 dazed (save ends)
-        t3: 8 psychic damage; I < 3 dazed (save ends)
-      - effect: The potency increases by 1 if the target is grabbed by the tormenauk.
-        name: Effect
+        tier1: 4 psychic damage; I < 1 dazed (save ends)
+        tier2: 6 psychic damage; I < 2 dazed (save ends)
+        tier3: 8 psychic damage; I < 3 dazed (save ends)
+      - name: Effect
+        effect: The potency increases by 1 if the target is grabbed by the tormenauk.
+  - type: feature
+    feature_type: trait
+    name: Lethe
+    icon: ⭐️
+    effects:
+      - effect: While the tormenauk is winded, they gain an edge on strikes, and any
+          strike made against them gains an edge.
+  - type: feature
+    feature_type: trait
+    name: Soulsight
+    icon: ⭐️
+    effects:
+      - effect: Any creature within 2 squares of the tormenauk can't be hidden from
+          them.
 ~~~

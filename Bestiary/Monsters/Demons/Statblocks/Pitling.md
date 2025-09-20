@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Pitling
 level: 1
 roles:
@@ -52,28 +53,35 @@ agility: 2
 reason: -2
 intuition: -2
 presence: -2
-traits:
-  - name: Horrid Stench
-    effects:
-      - effect: Any enemy who has three or more pitlings within 2 squares of them can't
-          regain Stamina.
-  - name: Soulsight
-    effects:
-      - effect: Any creature within 2 squares of the pitling can't be hidden from them.
-abilities:
-  - name: Spit
+features:
+  - type: feature
+    feature_type: ability
+    name: Spit
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 10
     target: One creature per minion
     effects:
       - roll: Power Roll + 2
-        t1: 2 poison damage
-        t2: 4 poison damage
-        t3: 5 poison damage
+        tier1: 2 poison damage
+        tier2: 4 poison damage
+        tier3: 5 poison damage
+  - type: feature
+    feature_type: trait
+    name: Horrid Stench
+    icon: ⭐️
+    effects:
+      - effect: Any enemy who has three or more pitlings within 2 squares of them can't
+          regain Stamina.
+  - type: feature
+    feature_type: trait
+    name: Soulsight
+    icon: ⭐️
+    effects:
+      - effect: Any creature within 2 squares of the pitling can't be hidden from them.
 ~~~

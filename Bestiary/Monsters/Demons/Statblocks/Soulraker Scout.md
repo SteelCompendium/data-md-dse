@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Soulraker Scout
 level: 7
 roles:
@@ -54,25 +55,29 @@ agility: 4
 reason: 1
 intuition: 0
 presence: -1
-traits:
-  - name: Abyssal Buzzing
-    effects:
-      - effect: Any enemy who starts their turn with two or more soulraker minions
-          adjacent to them takes 3 sonic damage.
-abilities:
-  - name: Soul Stinger
+features:
+  - type: feature
+    feature_type: ability
+    name: Soul Stinger
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature per minion
     effects:
       - roll: Power Roll + 4
-        t1: 3 poison damage
-        t2: 6 poison damage; the scout can shift 1 square
-        t3: 7 poison damage; the scout shifts up to 3 squares
+        tier1: 3 poison damage
+        tier2: 6 poison damage; the scout can shift 1 square
+        tier3: 7 poison damage; the scout shifts up to 3 squares
+  - type: feature
+    feature_type: trait
+    name: Abyssal Buzzing
+    icon: ⭐️
+    effects:
+      - effect: Any enemy who starts their turn with two or more soulraker minions
+          adjacent to them takes 3 sonic damage.
 ~~~

@@ -1,10 +1,11 @@
 ---
+ability_type: Signature
 action_type: Main action
 class: talent
 distance: Ranged 10
 feature_type: ability
 file_basename: Hoarfrost
-file_dpath: Talent/1st-Level Features
+file_dpath: Abilities/Talent/1st-Level Features
 flavor: You blast a foe with a pulse of cold energy.
 item_id: hoarfrost
 item_index: '06'
@@ -18,13 +19,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:hoarfrost
 scdc:
-- 1.1.1:13.2.1.1:06
+- 1.1.1:11.2.1.1:06
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/talent/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Hoarfrost
 flavor: You blast a foe with a pulse of cold energy.
 keywords:
@@ -32,16 +35,17 @@ keywords:
   - Psionic
   - Ranged
   - Strike
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: One creature
 metadata:
+  ability_type: Signature
   action_type: Main action
   class: talent
   distance: Ranged 10
   feature_type: ability
   file_basename: Hoarfrost
-  file_dpath: Talent/1st-Level Features
+  file_dpath: Abilities/Talent/1st-Level Features
   flavor: You blast a foe with a pulse of cold energy.
   item_id: hoarfrost
   item_index: "06"
@@ -55,16 +59,16 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:hoarfrost
   scdc:
-    - 1.1.1:13.2.1.1:06
+    - 1.1.1:11.2.1.1:06
   source: mcdm.heroes.v1
   target: One creature
   type: feature/ability/talent/1st-level-feature
 effects:
   - roll: Power Roll + Reason
-    t1: 2 + R cold damage; M < WEAK, slowed (EoT)
-    t2: 4 + R cold damage; M < AVERAGE, slowed (EoT)
-    t3: 6 + R cold damage; M < STRONG, slowed (EoT)
-  - effect: You are slowed until the end of your next turn. Additionally, a target
+    tier1: 2 + R cold damage; M < WEAK, slowed (EoT)
+    tier2: 4 + R cold damage; M < AVERAGE, slowed (EoT)
+    tier3: 6 + R cold damage; M < STRONG, slowed (EoT)
+  - name: Strained
+    effect: You are slowed until the end of your next turn. Additionally, a target
       slowed by this ability is restrained instead.
-    name: Strained
 ```

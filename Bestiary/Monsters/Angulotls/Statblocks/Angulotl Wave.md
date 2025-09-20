@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Angulotl Wave
 level: 1
 roles:
@@ -51,38 +52,37 @@ agility: 0
 reason: 0
 intuition: 2
 presence: 2
-traits:
-  - name: Toxiferous
-    effects:
-      - effect: Whenever an adjacent enemy grabs the wave or uses a melee ability
-          against them, that enemy takes 2 poison damage.
-abilities:
-  - name: Refulgent Beams
+features:
+  - type: feature
+    feature_type: ability
+    name: Refulgent Beams
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Ranged
       - Strike
-    type: Main action
+    usage: Main action
     distance: Ranged 8
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 2
-        t1: 3 holy damage
-        t2: 4 holy damage; R < 1 the target is illuminated (save ends)
-        t3: 5 holy damage; R < 2 the target is illuminated (save ends)
-      - effect: An illuminated creature or object can't hide or become invisible, and
+        tier1: 3 holy damage
+        tier2: 4 holy damage; R < 1 the target is illuminated (save ends)
+        tier3: 5 holy damage; R < 2 the target is illuminated (save ends)
+      - name: Effect
+        effect: An illuminated creature or object can't hide or become invisible, and
           any strike made against an illuminated target gains an edge.
-        name: Effect
-  - name: Noxious Bubble
+  - type: feature
+    feature_type: ability
+    name: Noxious Bubble
     icon: 🔳
     cost: 2 Malice
     keywords:
       - Area
       - Magic
       - Ranged
-    type: Main action
+    usage: Main action
     distance: 2 cube of unoccupied space within 10
     target: Special
     effects:
@@ -92,7 +92,14 @@ abilities:
           Each angulotl adjacent to the bubble is wet until the end of the
           encounter, and each enemy adjacent to the bubble makes a **Might
           test**.
-        t1: 3 poison damage; the target is wet and weakened (save ends)
-        t2: 2 poison damage; the target is wet (save ends)
-        t3: 1 poison damage; the target is wet (EoT)
+        tier1: 3 poison damage; the target is wet and weakened (save ends)
+        tier2: 2 poison damage; the target is wet (save ends)
+        tier3: 1 poison damage; the target is wet (EoT)
+  - type: feature
+    feature_type: trait
+    name: Toxiferous
+    icon: ⭐️
+    effects:
+      - effect: Whenever an adjacent enemy grabs the wave or uses a melee ability
+          against them, that enemy takes 2 poison damage.
 ~~~

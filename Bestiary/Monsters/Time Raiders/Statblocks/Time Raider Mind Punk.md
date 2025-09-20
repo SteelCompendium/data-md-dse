@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Time Raider Mind Punk
 level: 3
 roles:
@@ -50,43 +51,49 @@ agility: 0
 reason: 2
 intuition: 2
 presence: 1
-traits:
-  - name: Foresight
-    effects:
-      - effect: The mind punk doesn't take a bane on strikes against creatures with
-          concealment.
-abilities:
-  - name: Repelling Psihander
+features:
+  - type: feature
+    feature_type: ability
+    name: Repelling Psihander
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Psionic
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: Two creatures adjacent to each other
     effects:
       - roll: Power Roll + 2
-        t1: 6 damage
-        t2: 8 damage; M < 1 dazed (save ends)
-        t3: 11 damage; M < 2 dazed (save ends)
-      - effect: A target who ends their next turn adjacent to the other target falls
+        tier1: 6 damage
+        tier2: 8 damage; M < 1 dazed (save ends)
+        tier3: 11 damage; M < 2 dazed (save ends)
+      - name: Effect
+        effect: A target who ends their next turn adjacent to the other target falls
           prone.
-        name: Effect
-  - name: Mindpunk
+  - type: feature
+    feature_type: ability
+    name: Mindpunk
     icon: ❇️
     cost: 2 Malice
     keywords:
       - Area
       - Psionic
-    type: Main action
+    usage: Main action
     distance: 3 burst
     target: Each enemy in the area
     effects:
       - roll: Power Roll + 2
-        t1: 4 psychic damage; R < 0 prone
-        t2: 6 psychic damage; push 1; R < 1 prone and can't stand (save ends)
-        t3: 9 psychic damage; push 2; R < 2 prone and can't stand (save ends)
+        tier1: 4 psychic damage; R < 0 prone
+        tier2: 6 psychic damage; push 1; R < 1 prone and can't stand (save ends)
+        tier3: 9 psychic damage; push 2; R < 2 prone and can't stand (save ends)
+  - type: feature
+    feature_type: trait
+    name: Foresight
+    icon: ⭐️
+    effects:
+      - effect: The mind punk doesn't take a bane on strikes against creatures with
+          concealment.
 ~~~

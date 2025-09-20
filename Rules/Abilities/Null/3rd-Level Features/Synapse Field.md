@@ -7,7 +7,7 @@ cost_resource: Discipline
 distance: Self
 feature_type: ability
 file_basename: Synapse Field
-file_dpath: Null/3rd-Level Features
+file_dpath: Abilities/Null/3rd-Level Features
 flavor: Attacks made by allies in your null field disrupt your enemies' thoughts,
   causing psychic pain.
 item_id: synapse-field-7-discipline
@@ -19,20 +19,22 @@ level: 3
 scc:
 - mcdm.heroes.v1:feature.ability.null.3rd-level-feature:synapse-field-7-discipline
 scdc:
-- 1.1.1:13.2.6.6:02
+- 1.1.1:11.2.6.6:02
 source: mcdm.heroes.v1
 target: Self
 type: feature/ability/null/3rd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Synapse Field
 cost: 7 Discipline
 flavor: Attacks made by allies in your null field disrupt your enemies'
   thoughts, causing psychic pain.
 keywords:
   - Psionic
-type: Maneuver
+usage: Maneuver
 distance: Self
 target: Self
 metadata:
@@ -44,7 +46,7 @@ metadata:
   distance: Self
   feature_type: ability
   file_basename: Synapse Field
-  file_dpath: Null/3rd-Level Features
+  file_dpath: Abilities/Null/3rd-Level Features
   flavor: Attacks made by allies in your null field disrupt your enemies'
     thoughts, causing psychic pain.
   item_id: synapse-field-7-discipline
@@ -56,14 +58,14 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.null.3rd-level-feature:synapse-field-7-discipline
   scdc:
-    - 1.1.1:13.2.6.6:02
+    - 1.1.1:11.2.6.6:02
   source: mcdm.heroes.v1
   target: Self
   type: feature/ability/null/3rd-level-feature
 effects:
-  - effect: Until the end of the encounter, the size of your Null Field ability
+  - name: Effect
+    effect: Until the end of the encounter, the size of your Null Field ability
       increases by 1. While the area of that ability is enlarged this way,
       whenever an enemy in the area takes rolled damage, they take extra psychic
       damage equal to twice your Intuition score.
-    name: Effect
 ```

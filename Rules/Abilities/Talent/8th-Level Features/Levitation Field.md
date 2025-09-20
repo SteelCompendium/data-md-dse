@@ -4,7 +4,7 @@ class: talent
 distance: 3 burst
 feature_type: ability
 file_basename: Levitation Field
-file_dpath: Talent/8th-Level Features
+file_dpath: Abilities/Talent/8th-Level Features
 flavor: You manipulate the air around your allies so they can move as freely through
   the sky as you can.
 item_id: levitation-field
@@ -17,21 +17,23 @@ level: 8
 scc:
 - mcdm.heroes.v1:feature.ability.talent.8th-level-feature:levitation-field
 scdc:
-- 1.1.1:13.2.1.2:02
+- 1.1.1:11.2.1.2:02
 source: mcdm.heroes.v1
 subclass: Telekinesis
 target: Each ally in the area
 type: feature/ability/talent/8th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Levitation Field
 flavor: You manipulate the air around your allies so they can move as freely
   through the sky as you can.
 keywords:
   - Area
   - Psionic
-type: Maneuver
+usage: Maneuver
 distance: 3 burst
 target: Each ally in the area
 metadata:
@@ -40,7 +42,7 @@ metadata:
   distance: 3 burst
   feature_type: ability
   file_basename: Levitation Field
-  file_dpath: Talent/8th-Level Features
+  file_dpath: Abilities/Talent/8th-Level Features
   flavor: You manipulate the air around your allies so they can move as freely
     through the sky as you can.
   item_id: levitation-field
@@ -53,16 +55,16 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.talent.8th-level-feature:levitation-field
   scdc:
-    - 1.1.1:13.2.1.2:02
+    - 1.1.1:11.2.1.2:02
   source: mcdm.heroes.v1
   subclass: Telekinesis
   target: Each ally in the area
   type: feature/ability/talent/8th-level-feature
 effects:
-  - effect: Each target can fly until the start of your next turn, and can
+  - name: Effect
+    effect: Each target can fly until the start of your next turn, and can
       immediately shift up to their speed. You can also shift up to your speed.
       While flying, a target's stability is reduced to 0 and can't be increased.
-    name: Effect
-  - effect: The effects last for 1 hour instead.
-    cost: Spend 5 Clarity
+  - cost: Spend 5 Clarity
+    effect: The effects last for 1 hour instead.
 ```

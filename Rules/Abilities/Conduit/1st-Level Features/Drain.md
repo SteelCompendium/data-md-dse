@@ -1,10 +1,11 @@
 ---
+ability_type: Signature
 action_type: Main action
 class: conduit
 distance: Melee 1
 feature_type: ability
 file_basename: Drain
-file_dpath: Conduit/1st-Level Features
+file_dpath: Abilities/Conduit/1st-Level Features
 flavor: You drain the energy from your target to revitalize yourself or an ally.
 item_id: drain
 item_index: '20'
@@ -17,29 +18,32 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:drain
 scdc:
-- 1.1.1:13.2.8.1:20
+- 1.1.1:11.2.8.1:20
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/conduit/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Drain
 flavor: You drain the energy from your target to revitalize yourself or an ally.
 keywords:
   - Magic
   - Melee
   - Strike
-type: Main action
+usage: Main action
 distance: Melee 1
 target: One creature
 metadata:
+  ability_type: Signature
   action_type: Main action
   class: conduit
   distance: Melee 1
   feature_type: ability
   file_basename: Drain
-  file_dpath: Conduit/1st-Level Features
+  file_dpath: Abilities/Conduit/1st-Level Features
   flavor: You drain the energy from your target to revitalize yourself or an ally.
   item_id: drain
   item_index: "20"
@@ -52,15 +56,15 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:drain
   scdc:
-    - 1.1.1:13.2.8.1:20
+    - 1.1.1:11.2.8.1:20
   source: mcdm.heroes.v1
   target: One creature
   type: feature/ability/conduit/1st-level-feature
 effects:
   - roll: Power Roll + Intuition
-    t1: 2 + I corruption damage
-    t2: 5 + I corruption damage
-    t3: 7 + I corruption damage
-  - effect: You or one ally within distance can spend a Recovery.
-    name: Effect
+    tier1: 2 + I corruption damage
+    tier2: 5 + I corruption damage
+    tier3: 7 + I corruption damage
+  - name: Effect
+    effect: You or one ally within distance can spend a Recovery.
 ```

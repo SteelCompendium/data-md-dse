@@ -7,7 +7,7 @@ cost_resource: Piety
 distance: 5 aura
 feature_type: ability
 file_basename: Blessing of Steel
-file_dpath: Conduit/8th-Level Features
+file_dpath: Abilities/Conduit/8th-Level Features
 flavor: A protective aura defends your allies from harm.
 item_id: blessing-of-steel-11-piety
 item_index: '03'
@@ -19,20 +19,22 @@ level: 8
 scc:
 - mcdm.heroes.v1:feature.ability.conduit.8th-level-feature:blessing-of-steel-11-piety
 scdc:
-- 1.1.1:13.2.8.2:03
+- 1.1.1:11.2.8.2:03
 source: mcdm.heroes.v1
 target: Self and each ally in the area
 type: feature/ability/conduit/8th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Blessing of Steel
 cost: 11 Piety
 flavor: A protective aura defends your allies from harm.
 keywords:
   - Area
   - Magic
-type: Maneuver
+usage: Maneuver
 distance: 5 aura
 target: Self and each ally in the area
 metadata:
@@ -44,7 +46,7 @@ metadata:
   distance: 5 aura
   feature_type: ability
   file_basename: Blessing of Steel
-  file_dpath: Conduit/8th-Level Features
+  file_dpath: Abilities/Conduit/8th-Level Features
   flavor: A protective aura defends your allies from harm.
   item_id: blessing-of-steel-11-piety
   item_index: "03"
@@ -56,12 +58,12 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.conduit.8th-level-feature:blessing-of-steel-11-piety
   scdc:
-    - 1.1.1:13.2.8.2:03
+    - 1.1.1:11.2.8.2:03
   source: mcdm.heroes.v1
   target: Self and each ally in the area
   type: feature/ability/conduit/8th-level-feature
 effects:
-  - effect: Until the end of the encounter, any ability roll made against a target
+  - name: Effect
+    effect: Until the end of the encounter, any ability roll made against a target
       takes a bane and each target has damage immunity 5.
-    name: Effect
 ```

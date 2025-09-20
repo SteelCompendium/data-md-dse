@@ -29,6 +29,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Wraith Skulker
 level: 10
 roles:
@@ -51,30 +52,35 @@ agility: 3
 reason: 1
 intuition: 1
 presence: 5
-traits:
-  - name: Corruptive Phasing
+features:
+  - type: feature
+    feature_type: ability
+    name: Draining Rake
+    icon: 🗡
+    ability_type: Signature Ability
+    keywords:
+      - Melee
+      - Strike
+      - Weapon
+    usage: Main action
+    distance: Melee 1
+    target: One creature or object per minion
+    effects:
+      - roll: Power Roll + 5
+        tier1: 4 cold damage; the wraith can shift 1 squar
+        tier2: 7 cold damage; the wraith shifts up to 2 square
+        tier3: 9 cold damage; P < 5 slowed (save ends); the wraith shifts up to 3
+          squares
+      - name: Effect
+        effect: The wraith turns invisible until the start of their next turn.
+  - type: feature
+    feature_type: trait
+    name: Corruptive Phasing
+    icon: ⭐️
     effects:
       - effect: The wraith can move through creatures and objects at their usual speed,
           but can't end their turn inside a creature or object. The first time
           in a round that the wraith moves through a creature, that creature
           takes 5 corruption damage. The wraith doesn't take damage from being
           force moved into objects.
-abilities:
-  - name: Draining Rake
-    icon: 🗡
-    cost: Signature Ability
-    keywords:
-      - Melee
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Melee 1
-    target: One creature or object per minion
-    effects:
-      - roll: Power Roll + 5
-        t1: 4 cold damage; the wraith can shift 1 squar
-        t2: 7 cold damage; the wraith shifts up to 2 square
-        t3: 9 cold damage; P < 5 slowed (save ends); the wraith shifts up to 3 squares
-      - effect: The wraith turns invisible until the start of their next turn.
-        name: Effect
 ~~~

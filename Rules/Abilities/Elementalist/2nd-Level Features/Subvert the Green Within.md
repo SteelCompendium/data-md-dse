@@ -7,7 +7,7 @@ cost_resource: Essence
 distance: Ranged 10
 feature_type: ability
 file_basename: Subvert the Green Within
-file_dpath: Elementalist/2nd-Level Features
+file_dpath: Abilities/Elementalist/2nd-Level Features
 flavor: Fungal spores sprout inside your enemy's brain, allowing you to control their
   actions.
 item_id: subvert-the-green-within-5-essence
@@ -23,13 +23,15 @@ level: 2
 scc:
 - mcdm.heroes.v1:feature.ability.elementalist.2nd-level-feature:subvert-the-green-within-5-essence
 scdc:
-- 1.1.1:13.2.9.5:02
+- 1.1.1:11.2.9.5:02
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/elementalist/2nd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Subvert the Green Within
 cost: 5 Essence
 flavor: Fungal spores sprout inside your enemy's brain, allowing you to control
@@ -40,7 +42,7 @@ keywords:
   - Ranged
   - Strike
   - Void
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: One creature
 metadata:
@@ -52,7 +54,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Subvert the Green Within
-  file_dpath: Elementalist/2nd-Level Features
+  file_dpath: Abilities/Elementalist/2nd-Level Features
   flavor: Fungal spores sprout inside your enemy's brain, allowing you to control
     their actions.
   item_id: subvert-the-green-within-5-essence
@@ -68,7 +70,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.elementalist.2nd-level-feature:subvert-the-green-within-5-essence
   scdc:
-    - 1.1.1:13.2.9.5:02
+    - 1.1.1:11.2.9.5:02
   source: mcdm.heroes.v1
   target: One creature
   type: feature/ability/elementalist/2nd-level-feature
@@ -78,7 +80,7 @@ effects:
       choice. This signature ability can target the creature even if it usually
       wouldn't. You then make a power roll against the target of this ability.
   - roll: Power Roll + Reason
-    t1: 5 + R poison damage
-    t2: 9 + R poison damage
-    t3: 12 + R poison damage
+    tier1: 5 + R poison damage
+    tier2: 9 + R poison damage
+    tier3: 12 + R poison damage
 ```

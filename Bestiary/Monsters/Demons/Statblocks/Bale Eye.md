@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Bale Eye
 level: 5
 roles:
@@ -51,53 +52,62 @@ agility: 0
 reason: 3
 intuition: 3
 presence: 3
-traits:
-  - name: Lethe
-    effects:
-      - effect: While the bale eye is winded, they gain an edge on strikes, and any
-          strike made against them gains an edge.
-  - name: Soulsight
-    effects:
-      - effect: Any creature within 5 squares of the bale eye can't be hidden from them.
-abilities:
-  - name: Wilting Visions
+features:
+  - type: feature
+    feature_type: ability
+    name: Wilting Visions
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Ranged
       - Strike
-    type: Main action
+    usage: Main action
     distance: Ranged 15
     target: One creature
     effects:
       - roll: Power Roll + 3
-        t1: 6 psychic damage
-        t2: 8 psychic damage
-        t3: 9 psychic damage
-      - effect: The target has corruption weakness 5 (EoT).
-        name: Effect
-      - effect: If the target has I < 2, they have corruption weakness 5 (save ends).
-        cost: 2 Malice
-  - name: Demonwarp Tears
+        tier1: 6 psychic damage
+        tier2: 8 psychic damage
+        tier3: 9 psychic damage
+      - name: Effect
+        effect: The target has corruption weakness 5 (EoT).
+      - cost: 2 Malice
+        effect: If the target has I < 2, they have corruption weakness 5 (save ends).
+  - type: feature
+    feature_type: ability
+    name: Demonwarp Tears
     icon: 🔳
     cost: 5 Malice
     keywords:
       - Area
       - Magic
       - Ranged
-    type: Main action
+    usage: Main action
     distance: 4 cube within 5
     target: Each enemy in the area
     effects:
       - name: Special
         effect: The bale eye must create the cube beneath themself.
       - roll: Power Roll + 3
-        t1: 3 psychic damage; A < 1 the target is warped (save ends)
-        t2: 5 psychic damage; A < 2 the target is warped (save ends)
-        t3: 6 psychic damage; A < 3 the target is warped (save ends)
-      - effect: While warped, a creature has a double bane on power rolls using any
+        tier1: 3 psychic damage; A < 1 the target is warped (save ends)
+        tier2: 5 psychic damage; A < 2 the target is warped (save ends)
+        tier3: 6 psychic damage; A < 3 the target is warped (save ends)
+      - name: Effect
+        effect: While warped, a creature has a double bane on power rolls using any
           characteristic higher than 0, and has a double edge on power rolls
           using any characteristic lower than 0.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Lethe
+    icon: ⭐️
+    effects:
+      - effect: While the bale eye is winded, they gain an edge on strikes, and any
+          strike made against them gains an edge.
+  - type: feature
+    feature_type: trait
+    name: Soulsight
+    icon: ⭐️
+    effects:
+      - effect: Any creature within 5 squares of the bale eye can't be hidden from them.
 ~~~

@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Bendrak
 level: 2
 roles:
@@ -50,46 +51,55 @@ agility: 1
 reason: 0
 intuition: 0
 presence: 2
-traits:
-  - name: Lethe
-    effects:
-      - effect: While the bendrak is winded, they gain an edge on strikes, and any
-          strike made against them gains an edge.
-  - name: Soulsight
-    effects:
-      - effect: Any creature within 2 squares of the bendrak can't be hidden from them.
-abilities:
-  - name: Warp Perceptions
+features:
+  - type: feature
+    feature_type: ability
+    name: Warp Perceptions
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Ranged
       - Strike
-    type: Main action
+    usage: Main action
     distance: Ranged 10
     target: One creature
     effects:
       - roll: Power Roll + 2
-        t1: 4 psychic damage
-        t2: 5 psychic damage; P < 1 weakened (save ends)
-        t3: 7 psychic damage; P < 2 weakened (save ends)
-      - effect: If the target makes a strike while weakened this way, the bendrak can
+        tier1: 4 psychic damage
+        tier2: 5 psychic damage; P < 1 weakened (save ends)
+        tier3: 7 psychic damage; P < 2 weakened (save ends)
+      - name: Effect
+        effect: If the target makes a strike while weakened this way, the bendrak can
           choose a second target within distance for the strike. The first
           target takes half of any damage from the strike and the second target
           takes any remaining damage.
-        name: Effect
-  - name: Vanish
+  - type: feature
+    feature_type: ability
+    name: Vanish
     icon: 🏹
     cost: 1 Malice
     keywords:
       - Magic
       - Ranged
-    type: Maneuver
+    usage: Maneuver
     distance: Ranged 10
     target: Self or one ally
     effects:
-      - effect: The target is invisible until the start of their next turn. They can
+      - name: Effect
+        effect: The target is invisible until the start of their next turn. They can
           then move up to 3 squares and attempt to hide.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Lethe
+    icon: ⭐️
+    effects:
+      - effect: While the bendrak is winded, they gain an edge on strikes, and any
+          strike made against them gains an edge.
+  - type: feature
+    feature_type: trait
+    name: Soulsight
+    icon: ⭐️
+    effects:
+      - effect: Any creature within 2 squares of the bendrak can't be hidden from them.
 ~~~

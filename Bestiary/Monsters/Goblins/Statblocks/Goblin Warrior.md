@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Goblin Warrior
 level: 1
 roles:
@@ -49,40 +50,46 @@ agility: 2
 reason: 0
 intuition: 0
 presence: -1
-traits:
-  - name: Crafty
-    effects:
-      - effect: The warrior doesn't provoke opportunity attacks by moving
-abilities:
-  - name: Spear Charge
+features:
+  - type: feature
+    feature_type: ability
+    name: Spear Charge
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Charge
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 3 damage
-        t2: 4 damage
-        t3: 5 damage
-  - name: Bury the Point
+        tier1: 3 damage
+        tier2: 4 damage
+        tier3: 5 damage
+  - type: feature
+    feature_type: ability
+    name: Bury the Point
     icon: 🗡
     cost: 2 Malice
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature
     effects:
       - roll: Power Roll + 2
-        t1: 5 damage; M < 0 bleeding (save ends)
-        t2: 6 damage; M < 1 bleeding (save ends)
-        t3: 7 damage; M < 2 bleeding (save ends)
+        tier1: 5 damage; M < 0 bleeding (save ends)
+        tier2: 6 damage; M < 1 bleeding (save ends)
+        tier3: 7 damage; M < 2 bleeding (save ends)
+  - type: feature
+    feature_type: trait
+    name: Crafty
+    icon: ⭐️
+    effects:
+      - effect: The warrior doesn't provoke opportunity attacks by moving
 ~~~

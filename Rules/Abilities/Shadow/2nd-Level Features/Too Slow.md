@@ -7,7 +7,7 @@ cost_resource: Insight
 distance: Self; see below
 feature_type: ability
 file_basename: Too Slow
-file_dpath: Shadow/2nd-Level Features
+file_dpath: Abilities/Shadow/2nd-Level Features
 flavor: Your foe made a big mistake.
 item_id: too-slow-5-insight
 item_index: '03'
@@ -18,20 +18,22 @@ level: 2
 scc:
 - mcdm.heroes.v1:feature.ability.shadow.2nd-level-feature:too-slow-5-insight
 scdc:
-- 1.1.1:13.2.2.5:03
+- 1.1.1:11.2.2.5:03
 source: mcdm.heroes.v1
 subclass: Black Ash
 target: Self
 type: feature/ability/shadow/2nd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Too Slow
 cost: 5 Insight
 flavor: Your foe made a big mistake.
 keywords:
   - "-"
-type: Free triggered
+usage: Free triggered
 distance: Self; see below
 target: Self
 trigger: You use your In All This Confusion ability.
@@ -44,7 +46,7 @@ metadata:
   distance: Self; see below
   feature_type: ability
   file_basename: Too Slow
-  file_dpath: Shadow/2nd-Level Features
+  file_dpath: Abilities/Shadow/2nd-Level Features
   flavor: Your foe made a big mistake.
   item_id: too-slow-5-insight
   item_index: "03"
@@ -55,15 +57,15 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.shadow.2nd-level-feature:too-slow-5-insight
   scdc:
-    - 1.1.1:13.2.2.5:03
+    - 1.1.1:11.2.2.5:03
   source: mcdm.heroes.v1
   subclass: Black Ash
   target: Self
   type: feature/ability/shadow/2nd-level-feature
 effects:
-  - effect: You ignore any effects associated with the damage that triggered your In
+  - name: Effect
+    effect: You ignore any effects associated with the damage that triggered your In
       All This Confusion ability. Before you teleport, you can make a free
       strike against a creature who damaged you to trigger In All This
       Confusion. After you teleport, you can spend a Recovery.
-    name: Effect
 ```

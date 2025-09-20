@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Trained Gummy Brick
 level: 1
 roles:
@@ -52,46 +53,52 @@ agility: -1
 reason: -3
 intuition: 0
 presence: -2
-traits:
-  - name: Translucent Brick
-    effects:
-      - effect: The brick completely occupies their space, blocking line of effect for
-          enemies. The brick is hidden until they act.
-abilities:
-  - name: Engulf
+features:
+  - type: feature
+    feature_type: ability
+    name: Engulf
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 7 acid damage; A < 0 dazed (save ends)
-        t2: 10 acid damage; A < 1 dazed (save ends)
-        t3: 14 acid damage; A < 2 restrained (save ends)
-      - effect: A size 2 or smaller creature restrained this way is pulled into the
+        tier1: 7 acid damage; A < 0 dazed (save ends)
+        tier2: 10 acid damage; A < 1 dazed (save ends)
+        tier3: 14 acid damage; A < 2 restrained (save ends)
+      - name: Effect
+        effect: A size 2 or smaller creature restrained this way is pulled into the
           brick's space, moves with the brick, and takes 4 acid damage at the
           start of each of their turns. An engulfed creature who is no longer
           restrained moves to the nearest unoccupied space adjacent to the
           brick. The brick can have as many creatures or objects engulfed as
           will fit within their space
-        name: Effect
-      - effect: This ability targets one additional target.
-        cost: 2 Malice
-  - name: You Didn't Pay Attention!
+      - cost: 2 Malice
+        effect: This ability targets one additional target.
+  - type: feature
+    feature_type: ability
+    name: You Didn't Pay Attention!
     icon: ❗️
     keywords:
       - "-"
-    type: Free triggered action
+    usage: Free triggered action
     distance: Self
     target: One creature or object
     trigger: A creature moves or is force moved adjacent to the brick.
     effects:
-      - effect: The brick uses Engulf against the triggering creature and has a double
+      - name: Effect
+        effect: The brick uses Engulf against the triggering creature and has a double
           edge.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Translucent Brick
+    icon: ⭐️
+    effects:
+      - effect: The brick completely occupies their space, blocking line of effect for
+          enemies. The brick is hidden until they act.
 ~~~

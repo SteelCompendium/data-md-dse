@@ -32,6 +32,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Hobgoblin Recruit
 level: 4
 roles:
@@ -55,29 +56,36 @@ agility: 2
 reason: 0
 intuition: 0
 presence: 1
-traits:
-  - name: Tactical Positioning
-    effects:
-      - effect: Any non-minion ally deals 1 extra damage for each recruit adjacent to
-          them.
-  - name: Infernal Ichor
-    effects:
-      - effect: When the recruit is reduced to 0 Stamina, they spray burning blood. Each
-          creature adjacent to the recruit takes 2 fire damage.
-abilities:
-  - name: Sword Lunge
+features:
+  - type: feature
+    feature_type: ability
+    name: Sword Lunge
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 3
-        t1: 3 damage
-        t2: 5 damage
-        t3: 7 damage; grabbed or prone
+        tier1: 3 damage
+        tier2: 5 damage
+        tier3: 7 damage; grabbed or prone
+  - type: feature
+    feature_type: trait
+    name: Tactical Positioning
+    icon: ⭐️
+    effects:
+      - effect: Any non-minion ally deals 1 extra damage for each recruit adjacent to
+          them.
+  - type: feature
+    feature_type: trait
+    name: Infernal Ichor
+    icon: ⭐️
+    effects:
+      - effect: When the recruit is reduced to 0 Stamina, they spray burning blood. Each
+          creature adjacent to the recruit takes 2 fire damage.
 ~~~

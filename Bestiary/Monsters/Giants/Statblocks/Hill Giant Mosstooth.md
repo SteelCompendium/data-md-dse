@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Hill Giant Mosstooth
 level: 7
 roles:
@@ -52,31 +53,35 @@ agility: -1
 reason: -1
 intuition: -1
 presence: -1
-traits:
-  - name: Distracted
-    effects:
-      - effect: Whenever the mosstooth targets a creature or object with an ability, any
-          enemy within distance of the ability can use a free triggered action
-          to distract the mosstooth. The mosstooth targets that enemy instead.
-abilities:
-  - name: Swing
+features:
+  - type: feature
+    feature_type: ability
+    name: Swing
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 3
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 4
-        t1: 4 damage
-        t2: 7 damage
-        t3: 8 damage; grabbed
-      - effect: The mosstooth can use a creature or object they have grabbed as a weapon
+        tier1: 4 damage
+        tier2: 7 damage
+        tier3: 8 damage; grabbed
+      - name: Effect
+        effect: The mosstooth can use a creature or object they have grabbed as a weapon
           for this ability, dealing an extra 5 damage to that creature or object
           and the target. They then end the grab and leave the creature or
           object prone in an unoccupied space adjacent to the target.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Distracted
+    icon: ⭐️
+    effects:
+      - effect: Whenever the mosstooth targets a creature or object with an ability, any
+          enemy within distance of the ability can use a free triggered action
+          to distract the mosstooth. The mosstooth targets that enemy instead.
 ~~~

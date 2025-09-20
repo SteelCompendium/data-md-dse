@@ -7,7 +7,7 @@ cost_resource: Focus
 distance: Ranged 10
 feature_type: ability
 file_basename: Go Now and Speed Well
-file_dpath: Tactician/8th-Level Features
+file_dpath: Abilities/Tactician/8th-Level Features
 flavor: You direct an attack to strike true.
 item_id: go-now-and-speed-well-11-focus
 item_index: '01'
@@ -18,19 +18,21 @@ level: 8
 scc:
 - mcdm.heroes.v1:feature.ability.tactician.8th-level-feature:go-now-and-speed-well-11-focus
 scdc:
-- 1.1.1:13.2.4.2:01
+- 1.1.1:11.2.4.2:01
 source: mcdm.heroes.v1
 target: Self or one ally
 type: feature/ability/tactician/8th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Go Now and Speed Well
 cost: 11 Focus
 flavor: You direct an attack to strike true.
 keywords:
   - Ranged
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: Self or one ally
 metadata:
@@ -42,7 +44,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Go Now and Speed Well
-  file_dpath: Tactician/8th-Level Features
+  file_dpath: Abilities/Tactician/8th-Level Features
   flavor: You direct an attack to strike true.
   item_id: go-now-and-speed-well-11-focus
   item_index: "01"
@@ -53,14 +55,14 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.tactician.8th-level-feature:go-now-and-speed-well-11-focus
   scdc:
-    - 1.1.1:13.2.4.2:01
+    - 1.1.1:11.2.4.2:01
   source: mcdm.heroes.v1
   target: Self or one ally
   type: feature/ability/tactician/8th-level-feature
 effects:
-  - effect: The target gains 2 surges and can use a signature or heroic ability as a
+  - name: Effect
+    effect: The target gains 2 surges and can use a signature or heroic ability as a
       free triggered action. The ability has a double edge on the power roll,
       ignores damage immunity, and increases the potency of any potency effects
       by 1.
-    name: Effect
 ```

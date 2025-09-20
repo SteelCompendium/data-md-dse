@@ -7,7 +7,7 @@ cost_resource: Ferocity
 distance: Melee 1
 feature_type: ability
 file_basename: Shower of Blood
-file_dpath: Fury/9th-Level Features
+file_dpath: Abilities/Fury/9th-Level Features
 flavor: You shock your foes with the brutality of your strike, resetting the balance
   of combat.
 item_id: shower-of-blood-11-ferocity
@@ -21,14 +21,16 @@ level: 9
 scc:
 - mcdm.heroes.v1:feature.ability.fury.9th-level-feature:shower-of-blood-11-ferocity
 scdc:
-- 1.1.1:13.2.5.6:03
+- 1.1.1:11.2.5.6:03
 source: mcdm.heroes.v1
 subclass: Reaver
 target: One creature
 type: feature/ability/fury/9th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Shower of Blood
 cost: 11 Ferocity
 flavor: You shock your foes with the brutality of your strike, resetting the
@@ -37,7 +39,7 @@ keywords:
   - Melee
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1
 target: One creature
 metadata:
@@ -49,7 +51,7 @@ metadata:
   distance: Melee 1
   feature_type: ability
   file_basename: Shower of Blood
-  file_dpath: Fury/9th-Level Features
+  file_dpath: Abilities/Fury/9th-Level Features
   flavor: You shock your foes with the brutality of your strike, resetting the
     balance of combat.
   item_id: shower-of-blood-11-ferocity
@@ -63,20 +65,20 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.fury.9th-level-feature:shower-of-blood-11-ferocity
   scdc:
-    - 1.1.1:13.2.5.6:03
+    - 1.1.1:11.2.5.6:03
   source: mcdm.heroes.v1
   subclass: Reaver
   target: One creature
   type: feature/ability/fury/9th-level-feature
 effects:
   - roll: Power Roll + Might
-    t1: 12 + M damage
-    t2: 18 + M damage
-    t3: 24 + M damage
-  - effect: Each enemy within 5 squares of you is distracted until the end of the
+    tier1: 12 + M damage
+    tier2: 18 + M damage
+    tier3: 24 + M damage
+  - name: Effect
+    effect: Each enemy within 5 squares of you is distracted until the end of the
       round. While a creature is distracted this way, they can't take triggered
       actions or free triggered actions, ability rolls made against them gain an
       edge, and their characteristic scores are considered 1 lower for the
       purpose of resisting potencies.
-    name: Effect
 ```

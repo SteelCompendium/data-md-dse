@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Mummy Rotwrap
 level: 7
 roles:
@@ -54,24 +55,25 @@ agility: -2
 reason: -2
 intuition: 1
 presence: -2
-traits: []
-abilities:
-  - name: Fetid Wrappings
+features:
+  - type: feature
+    feature_type: ability
+    name: Fetid Wrappings
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 2
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 4
-        t1: 4 damage
-        t2: 7 damage; pull 1
-        t3: 8 damage; pull 3
-      - effect: Each ally gains an edge on strikes made against the target until the end
+        tier1: 4 damage
+        tier2: 7 damage; pull 1
+        tier3: 8 damage; pull 3
+      - name: Effect
+        effect: Each ally gains an edge on strikes made against the target until the end
           of the round
-        name: Effect
 ~~~

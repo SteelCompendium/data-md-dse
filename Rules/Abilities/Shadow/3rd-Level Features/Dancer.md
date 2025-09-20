@@ -7,7 +7,7 @@ cost_resource: Insight
 distance: Self
 feature_type: ability
 file_basename: Dancer
-file_dpath: Shadow/3rd-Level Features
+file_dpath: Abilities/Shadow/3rd-Level Features
 flavor: You enter a flow state that makes you nearly impossible to pin down.
 item_id: dancer-7-insight
 item_index: '05'
@@ -18,19 +18,21 @@ level: 3
 scc:
 - mcdm.heroes.v1:feature.ability.shadow.3rd-level-feature:dancer-7-insight
 scdc:
-- 1.1.1:13.2.2.6:05
+- 1.1.1:11.2.2.6:05
 source: mcdm.heroes.v1
 target: Self
 type: feature/ability/shadow/3rd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Dancer
 cost: 7 Insight
 flavor: You enter a flow state that makes you nearly impossible to pin down.
 keywords:
   - "-"
-type: Maneuver
+usage: Maneuver
 distance: Self
 target: Self
 metadata:
@@ -42,7 +44,7 @@ metadata:
   distance: Self
   feature_type: ability
   file_basename: Dancer
-  file_dpath: Shadow/3rd-Level Features
+  file_dpath: Abilities/Shadow/3rd-Level Features
   flavor: You enter a flow state that makes you nearly impossible to pin down.
   item_id: dancer-7-insight
   item_index: "05"
@@ -53,13 +55,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.shadow.3rd-level-feature:dancer-7-insight
   scdc:
-    - 1.1.1:13.2.2.6:05
+    - 1.1.1:11.2.2.6:05
   source: mcdm.heroes.v1
   target: Self
   type: feature/ability/shadow/3rd-level-feature
 effects:
-  - effect: Until the end of the encounter, whenever an enemy moves or is force
+  - name: Effect
+    effect: Until the end of the encounter, whenever an enemy moves or is force
       moved adjacent to you or damages you, you can take the Disengage move
       action as a free triggered action.
-    name: Effect
 ```

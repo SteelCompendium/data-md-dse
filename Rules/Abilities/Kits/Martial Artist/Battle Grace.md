@@ -1,4 +1,5 @@
 ---
+ability_type: Signature
 action_type: Main action
 class: ignored
 distance: Melee 1
@@ -12,7 +13,6 @@ keywords:
 - Melee
 - Strike
 - Weapon
-kit: Martial Artist
 scc:
 - mcdm.heroes.v1:kit-ability.martial-artist:battle-grace
 scdc:
@@ -22,17 +22,20 @@ target: One creature
 type: kit-ability/martial-artist
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Battle Grace
 flavor: You feint to move your enemies into perfect position.
 keywords:
   - Melee
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1
 target: One creature
 metadata:
+  ability_type: Signature
   action_type: Main action
   class: ignored
   distance: Melee 1
@@ -46,7 +49,6 @@ metadata:
     - Melee
     - Strike
     - Weapon
-  kit: Martial Artist
   scc:
     - mcdm.heroes.v1:kit-ability.martial-artist:battle-grace
   scdc:
@@ -56,12 +58,12 @@ metadata:
   type: kit-ability/martial-artist
 effects:
   - roll: Power Roll + Might or Agility
-    t1: 5 + M or A damage
-    t2: 8 + M or A damage; you can swap places with the target
-    t3: 11 + M or A damage; you can swap places with the target
-  - effect: If you obtain a tier 2 or tier 3 outcome and can't swap places with the
+    tier1: 5 + M or A damage
+    tier2: 8 + M or A damage; you can swap places with the target
+    tier3: 11 + M or A damage; you can swap places with the target
+  - name: Effect
+    effect: If you obtain a tier 2 or tier 3 outcome and can't swap places with the
       target because one or both of you is too big to fit into the swapped
       space, you both remain in your original spaces and the target takes 1
       extra damage.
-    name: Effect
 ```

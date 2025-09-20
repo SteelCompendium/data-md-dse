@@ -7,7 +7,7 @@ cost_resource: Piety
 distance: Ranged 10
 feature_type: ability
 file_basename: The Gods Command You Obey
-file_dpath: Conduit/2nd-Level Features
+file_dpath: Abilities/Conduit/2nd-Level Features
 flavor: You speak with the voice of your saint, commanding your enemies.
 item_id: the-gods-command-you-obey-5-piety
 item_index: '07'
@@ -20,14 +20,16 @@ level: 2
 scc:
 - mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:the-gods-command-you-obey-5-piety
 scdc:
-- 1.1.1:13.2.8.5:07
+- 1.1.1:11.2.8.5:07
 source: mcdm.heroes.v1
 subclass: Knowledge
 target: One creature
 type: feature/ability/conduit/2nd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: The Gods Command You Obey
 cost: 5 Piety
 flavor: You speak with the voice of your saint, commanding your enemies.
@@ -35,7 +37,7 @@ keywords:
   - Magic
   - Ranged
   - Strike
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: One creature
 metadata:
@@ -47,7 +49,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: The Gods Command You Obey
-  file_dpath: Conduit/2nd-Level Features
+  file_dpath: Abilities/Conduit/2nd-Level Features
   flavor: You speak with the voice of your saint, commanding your enemies.
   item_id: the-gods-command-you-obey-5-piety
   item_index: "07"
@@ -60,18 +62,18 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:the-gods-command-you-obey-5-piety
   scdc:
-    - 1.1.1:13.2.8.5:07
+    - 1.1.1:11.2.8.5:07
   source: mcdm.heroes.v1
   subclass: Knowledge
   target: One creature
   type: feature/ability/conduit/2nd-level-feature
 effects:
   - roll: Power Roll + Intuition
-    t1: 4 + I holy damage; P < WEAK, before taking damage, the target makes a free
-      strike against a target you choose
-    t2: 7 + I holy damage; P < AVERAGE, before taking damage, the target uses an
+    tier1: 4 + I holy damage; P < WEAK, before taking damage, the target makes a
+      free strike against a target you choose
+    tier2: 7 + I holy damage; P < AVERAGE, before taking damage, the target uses an
       ability of your choice and you choose any targets for that ability
-    t3: 11 + I holy damage; P < STRONG, before taking damage, the target shifts up
-      to their speed to a location you choose, uses an ability of your choice,
-      and you choose any targets for that ability
+    tier3: 11 + I holy damage; P < STRONG, before taking damage, the target shifts
+      up to their speed to a location you choose, uses an ability of your
+      choice, and you choose any targets for that ability
 ```

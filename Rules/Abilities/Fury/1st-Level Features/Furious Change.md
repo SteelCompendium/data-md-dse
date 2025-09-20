@@ -4,7 +4,7 @@ class: fury
 distance: Self
 feature_type: ability
 file_basename: Furious Change
-file_dpath: Fury/1st-Level Features
+file_dpath: Abilities/Fury/1st-Level Features
 flavor: In your anger, you revert to a more bestial form.
 item_id: furious-change
 item_index: '14'
@@ -15,19 +15,21 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:furious-change
 scdc:
-- 1.1.1:13.2.5.1:14
+- 1.1.1:11.2.5.1:14
 source: mcdm.heroes.v1
 subclass: Stormwight
 target: Self
 type: feature/ability/fury/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Furious Change
 flavor: In your anger, you revert to a more bestial form.
 keywords:
   - "-"
-type: Triggered
+usage: Triggered
 distance: Self
 target: Self
 trigger: You lose Stamina and are not dying.
@@ -37,7 +39,7 @@ metadata:
   distance: Self
   feature_type: ability
   file_basename: Furious Change
-  file_dpath: Fury/1st-Level Features
+  file_dpath: Abilities/Fury/1st-Level Features
   flavor: In your anger, you revert to a more bestial form.
   item_id: furious-change
   item_index: "14"
@@ -48,15 +50,15 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:furious-change
   scdc:
-    - 1.1.1:13.2.5.1:14
+    - 1.1.1:11.2.5.1:14
   source: mcdm.heroes.v1
   subclass: Stormwight
   target: Self
   type: feature/ability/fury/1st-level-feature
 effects:
-  - effect: You gain temporary Stamina equal to your Might score and can enter your
+  - name: Effect
+    effect: You gain temporary Stamina equal to your Might score and can enter your
       animal form or hybrid form.
-    name: Effect
-  - effect: If you are not dying, you can spend a Recovery.
-    cost: Spend 1 Ferocity
+  - cost: Spend 1 Ferocity
+    effect: If you are not dying, you can spend a Recovery.
 ```

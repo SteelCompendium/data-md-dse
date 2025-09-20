@@ -4,7 +4,7 @@ class: tactician
 distance: Ranged 10
 feature_type: ability
 file_basename: Overwatch
-file_dpath: Tactician/1st-Level Features
+file_dpath: Abilities/Tactician/1st-Level Features
 flavor: Under your direction, an ally waits for just the right moment to strike.
 item_id: overwatch
 item_index: '13'
@@ -15,19 +15,21 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:overwatch
 scdc:
-- 1.1.1:13.2.4.1:13
+- 1.1.1:11.2.4.1:13
 source: mcdm.heroes.v1
 subclass: Mastermind
 target: One creature
 type: feature/ability/tactician/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Overwatch
 flavor: Under your direction, an ally waits for just the right moment to strike.
 keywords:
   - Ranged
-type: Triggered
+usage: Triggered
 distance: Ranged 10
 target: One creature
 trigger: The target moves.
@@ -37,7 +39,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Overwatch
-  file_dpath: Tactician/1st-Level Features
+  file_dpath: Abilities/Tactician/1st-Level Features
   flavor: Under your direction, an ally waits for just the right moment to strike.
   item_id: overwatch
   item_index: "13"
@@ -48,15 +50,15 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:overwatch
   scdc:
-    - 1.1.1:13.2.4.1:13
+    - 1.1.1:11.2.4.1:13
   source: mcdm.heroes.v1
   subclass: Mastermind
   target: One creature
   type: feature/ability/tactician/1st-level-feature
 effects:
-  - effect: At any time during the target's movement, one ally can make a free
+  - name: Effect
+    effect: At any time during the target's movement, one ally can make a free
       strike against them.
-    name: Effect
-  - effect: If the target has R < AVERAGE, they are slowed (EoT).
-    cost: Spend 1 Focus
+  - cost: Spend 1 Focus
+    effect: If the target has R < AVERAGE, they are slowed (EoT).
 ```

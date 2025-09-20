@@ -4,7 +4,7 @@ class: troubadour
 distance: 5 aura
 feature_type: ability
 file_basename: Revitalizing Limerick
-file_dpath: Troubadour/1st-Level Features
+file_dpath: Abilities/Troubadour/1st-Level Features
 flavor: There once was a man from Capital...
 item_id: revitalizing-limerick
 item_index: '06'
@@ -17,20 +17,22 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:revitalizing-limerick
 scdc:
-- 1.1.1:13.2.3.1:06
+- 1.1.1:11.2.3.1:06
 source: mcdm.heroes.v1
 target: Self and each ally in the area
 type: feature/ability/troubadour/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Revitalizing Limerick
 flavor: There once was a man from Capital...
 keywords:
   - Area
   - Magic
   - Performance
-type: No action
+usage: No action
 distance: 5 aura
 target: Self and each ally in the area
 metadata:
@@ -39,7 +41,7 @@ metadata:
   distance: 5 aura
   feature_type: ability
   file_basename: Revitalizing Limerick
-  file_dpath: Troubadour/1st-Level Features
+  file_dpath: Abilities/Troubadour/1st-Level Features
   flavor: There once was a man from Capital...
   item_id: revitalizing-limerick
   item_index: "06"
@@ -52,13 +54,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:revitalizing-limerick
   scdc:
-    - 1.1.1:13.2.3.1:06
+    - 1.1.1:11.2.3.1:06
   source: mcdm.heroes.v1
   target: Self and each ally in the area
   type: feature/ability/troubadour/1st-level-feature
 effects:
-  - effect: At the end of each of your turns while this performance is active, you
+  - name: Effect
+    effect: At the end of each of your turns while this performance is active, you
       can choose up to a number of targets equal to your Presence score. Each
       chosen target can spend a Recovery.
-    name: Effect
 ```

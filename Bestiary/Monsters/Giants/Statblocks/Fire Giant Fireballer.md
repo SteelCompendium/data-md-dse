@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Fire Giant Fireballer
 level: 9
 roles:
@@ -51,26 +52,30 @@ agility: 2
 reason: 0
 intuition: 2
 presence: 1
-traits:
-  - name: Searing Skin
-    effects:
-      - effect: Whenever an adjacent enemy grabs the fireballer or uses a melee ability
-          against them, that enemy takes 5 fire damage.
-abilities:
-  - name: Blazing Leap
+features:
+  - type: feature
+    feature_type: ability
+    name: Blazing Leap
     icon: ❇️
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Area
       - Weapon
-    type: Main action
+    usage: Main action
     distance: 1 burst
     target: Each enemy and object in the area
     effects:
       - roll: Power Roll + 4
-        t1: 2 fire damage
-        t2: 5 fire damage; push 1
-        t3: 6 fire damage; push 2
-      - effect: The fireballer can jump up to 4 squares before using this ability.
-        name: Effect
+        tier1: 2 fire damage
+        tier2: 5 fire damage; push 1
+        tier3: 6 fire damage; push 2
+      - name: Effect
+        effect: The fireballer can jump up to 4 squares before using this ability.
+  - type: feature
+    feature_type: trait
+    name: Searing Skin
+    icon: ⭐️
+    effects:
+      - effect: Whenever an adjacent enemy grabs the fireballer or uses a melee ability
+          against them, that enemy takes 5 fire damage.
 ~~~

@@ -13,18 +13,23 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Malice Features
 name: Wode Elf Malice
-type: Malice Features
 flavor: At the start of any wode elf's turn, you can spend Malice to activate
   one of the following features.
 features:
-  - name: Forest Network
+  - type: feature
+    feature_type: trait
+    name: Forest Network
     icon: ⭐️
     cost: 3 Malice
     effects:
       - effect: Each wode elf who ends this turn hidden can shift up to their speed
           while remaining hidden.
-  - name: Punishing Regrowth
+  - type: feature
+    feature_type: trait
+    name: Punishing Regrowth
     icon: ⭐️
     cost: 5 Malice
     effects:
@@ -34,13 +39,15 @@ features:
           slide happens after that forced movement. A creature force moved by a
           wode elf's strike who ends this forced movement in difficult terrain
           is restrained until the end of their next turn.
-  - name: Vines Everywhere
+  - type: feature
+    feature_type: trait
+    name: Vines Everywhere
     icon: 🌀
     cost: 7 Malice
     effects:
       - effect: Vines rapidly grow across the entire encounter map. Each enemy in the
           encounter makes an **Agility test**.
-        t1: 8 damage; restrained (save ends)
-        t2: Restrained (EoT)
-        t3: No effect.
+        tier1: 8 damage; restrained (save ends)
+        tier2: Restrained (EoT)
+        tier3: No effect.
 ~~~

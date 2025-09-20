@@ -13,29 +13,36 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Malice Features
 name: Angulotl Malice
-type: Malice Features
 flavor: At the start of any angulotl's turn, you can spend Malice to activate
   one of the following features.
 features:
-  - name: Leapfrog
+  - type: feature
+    feature_type: trait
+    name: Leapfrog
     icon: ⭐️
     cost: 3 Malice
     effects:
       - effect: Until the end of the round, when an angulotl moves through an inactive
           angulotl's space, the inactive angulotl can use a free triggered
           action to jump 3 squares.
-  - name: Resonating Croak
+  - type: feature
+    feature_type: trait
+    name: Resonating Croak
     icon: ❇️
     cost: 5 Malice
     effects:
       - effect: Each angulotl in the encounter puffs out their throat and starts loudly
           droning. Any non-angulotl adjacent to an angulotl makes an **Intuition
           test.**
-        t1: 5 sonic damage; slowed (EoT)
-        t2: 4 sonic damage
-        t3: No effect.
-  - name: Rainfall
+        tier1: 5 sonic damage; slowed (EoT)
+        tier2: 4 sonic damage
+        tier3: No effect.
+  - type: feature
+    feature_type: trait
+    name: Rainfall
     icon: 🌀
     cost: 7 Malice
     effects:

@@ -7,7 +7,7 @@ cost_resource: Drama
 distance: 5 burst
 feature_type: ability
 file_basename: Youre All My Understudies
-file_dpath: Troubadour/6th-Level Features
+file_dpath: Abilities/Troubadour/6th-Level Features
 flavor: It's important for everyone to know each other's lines, just in case...
 item_id: youre-all-my-understudies-9-drama
 item_index: '03'
@@ -19,21 +19,23 @@ level: 6
 scc:
 - mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:youre-all-my-understudies-9-drama
 scdc:
-- 1.1.1:13.2.3.3:03
+- 1.1.1:11.2.3.3:03
 source: mcdm.heroes.v1
 subclass: Auteur
 target: Each ally in the area
 type: feature/ability/troubadour/6th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: You're All My Understudies
 cost: 9 Drama
 flavor: It's important for everyone to know each other's lines, just in case...
 keywords:
   - Area
   - Magic
-type: Maneuver
+usage: Maneuver
 distance: 5 burst
 target: Each ally in the area
 metadata:
@@ -45,7 +47,7 @@ metadata:
   distance: 5 burst
   feature_type: ability
   file_basename: Youre All My Understudies
-  file_dpath: Troubadour/6th-Level Features
+  file_dpath: Abilities/Troubadour/6th-Level Features
   flavor: It's important for everyone to know each other's lines, just in case...
   item_id: youre-all-my-understudies-9-drama
   item_index: "03"
@@ -57,14 +59,14 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:youre-all-my-understudies-9-drama
   scdc:
-    - 1.1.1:13.2.3.3:03
+    - 1.1.1:11.2.3.3:03
   source: mcdm.heroes.v1
   subclass: Auteur
   target: Each ally in the area
   type: feature/ability/troubadour/6th-level-feature
 effects:
-  - effect: Until the end of the encounter, each target gains the speed bonus,
+  - name: Effect
+    effect: Until the end of the encounter, each target gains the speed bonus,
       weapon distance bonus, disengage bonus, and stability bonus of your
       currently equipped kit in addition to their own kit's bonuses.
-    name: Effect
 ```

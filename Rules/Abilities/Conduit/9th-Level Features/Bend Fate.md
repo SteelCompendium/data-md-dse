@@ -7,7 +7,7 @@ cost_resource: Piety
 distance: Ranged 10
 feature_type: ability
 file_basename: Bend Fate
-file_dpath: Conduit/9th-Level Features
+file_dpath: Abilities/Conduit/9th-Level Features
 flavor: The gods know you must prevail, and they bless your fate.
 item_id: bend-fate-11-piety
 item_index: '03'
@@ -19,21 +19,23 @@ level: 9
 scc:
 - mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:bend-fate-11-piety
 scdc:
-- 1.1.1:13.2.8.7:03
+- 1.1.1:11.2.8.7:03
 source: mcdm.heroes.v1
 subclass: Fate
 target: Self or one ally
 type: feature/ability/conduit/9th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Bend Fate
 cost: 11 Piety
 flavor: The gods know you must prevail, and they bless your fate.
 keywords:
   - Magic
   - Ranged
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: Self or one ally
 metadata:
@@ -45,7 +47,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Bend Fate
-  file_dpath: Conduit/9th-Level Features
+  file_dpath: Abilities/Conduit/9th-Level Features
   flavor: The gods know you must prevail, and they bless your fate.
   item_id: bend-fate-11-piety
   item_index: "03"
@@ -57,13 +59,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:bend-fate-11-piety
   scdc:
-    - 1.1.1:13.2.8.7:03
+    - 1.1.1:11.2.8.7:03
   source: mcdm.heroes.v1
   subclass: Fate
   target: Self or one ally
   type: feature/ability/conduit/9th-level-feature
 effects:
-  - effect: Until the end of the encounter or until you are dying, each of the
+  - name: Effect
+    effect: Until the end of the encounter or until you are dying, each of the
       target's power rolls has its outcome improved by one tier.
-    name: Effect
 ```

@@ -4,7 +4,7 @@ class: talent
 distance: Ranged 10
 feature_type: ability
 file_basename: Accelerate
-file_dpath: Talent/1st-Level Features
+file_dpath: Abilities/Talent/1st-Level Features
 flavor: To your ally, it seems as though the world has slowed down.
 item_id: accelerate
 item_index: '12'
@@ -16,20 +16,22 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:accelerate
 scdc:
-- 1.1.1:13.2.1.1:12
+- 1.1.1:11.2.1.1:12
 source: mcdm.heroes.v1
 subclass: Chronopathy
 target: Self or one creature
 type: feature/ability/talent/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Accelerate
 flavor: To your ally, it seems as though the world has slowed down.
 keywords:
   - Psionic
   - Ranged
-type: Maneuver
+usage: Maneuver
 distance: Ranged 10
 target: Self or one creature
 metadata:
@@ -38,7 +40,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Accelerate
-  file_dpath: Talent/1st-Level Features
+  file_dpath: Abilities/Talent/1st-Level Features
   flavor: To your ally, it seems as though the world has slowed down.
   item_id: accelerate
   item_index: "12"
@@ -50,14 +52,14 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:accelerate
   scdc:
-    - 1.1.1:13.2.1.1:12
+    - 1.1.1:11.2.1.1:12
   source: mcdm.heroes.v1
   subclass: Chronopathy
   target: Self or one creature
   type: feature/ability/talent/1st-level-feature
 effects:
-  - effect: The target shifts up to a number of squares equal to your Reason score.
-    name: Effect
-  - effect: The target can use a maneuver.
-    cost: Spend 2 Clarity
+  - name: Effect
+    effect: The target shifts up to a number of squares equal to your Reason score.
+  - cost: Spend 2 Clarity
+    effect: The target can use a maneuver.
 ```

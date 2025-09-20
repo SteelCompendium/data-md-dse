@@ -14,29 +14,34 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: + Malice Features
 name: Demon Malice
-type: + Malice Features
 level: 10
 flavor: At the start of any level 10 or higher demon's turn, you can spend
   Malice to activate one of the following features.
 features:
-  - name: Prior Malice Features
+  - type: feature
+    feature_type: trait
+    name: Prior Malice Features
     icon: ⭐️
     cost: 3-7 Malice
     effects:
       - effect: The demon activates a Malice feature available to demons of level 9 or
           lower.
-  - name: Soul Flense
+  - type: feature
+    feature_type: trait
+    name: Soul Flense
     icon: ❇️
     cost: 7 Malice
     effects:
       - effect: One demon acting this turn unleashes their pent-up agony and pain on
           every non-demon in a 5 burst. Each target makes a **Presence test**.
-        t1: 10 corruption damage; the target is soul flensed
-        t2: The target is soul flensed
-        t3: No effect.
-      - effect: The demon removes all conditions and effects on themself that can be
+        tier1: 10 corruption damage; the target is soul flensed
+        tier2: The target is soul flensed
+        tier3: No effect.
+      - name: Effect
+        effect: The demon removes all conditions and effects on themself that can be
           ended by a saving throw, and transfers all those effects to each
           creature soul flensed this way.
-        name: Effect
 ~~~

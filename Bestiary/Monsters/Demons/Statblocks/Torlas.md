@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Torlas
 level: 1
 roles:
@@ -50,44 +51,53 @@ agility: 1
 reason: 0
 intuition: 0
 presence: 2
-traits:
-  - name: Lethe
-    effects:
-      - effect: While the torlas is winded, they gain an edge on strikes, and any strike
-          made against them gains an edge.
-  - name: Soulsight
-    effects:
-      - effect: Any creature within 2 squares of the torlas can't be hidden from them.
-abilities:
-  - name: Floor to Flesh
+features:
+  - type: feature
+    feature_type: ability
+    name: Floor to Flesh
     icon: 🔳
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Area
       - Magic
       - Ranged
-    type: Main action
+    usage: Main action
     distance: 3 cube within 10
     target: Each enemy in the area
     effects:
       - roll: Power Roll + 2
-        t1: Slide 3
-        t2: Slide 4
-        t3: Slide 5
-      - effect: The ground in the area turns into a morass of spongy flesh before the
+        tier1: Slide 3
+        tier2: Slide 4
+        tier3: Slide 5
+      - name: Effect
+        effect: The ground in the area turns into a morass of spongy flesh before the
           targets are force moved. Until the start of the torlas's next turn,
           the area is difficult terrain, and each creature who moves in the area
           takes 1 damage for each square moved.
-        name: Effect
-  - name: Grasping Tendons
+  - type: feature
+    feature_type: ability
+    name: Grasping Tendons
     icon: 🏹
     keywords:
       - Magic
       - Ranged
-    type: Maneuver
+    usage: Maneuver
     distance: Ranged 10
     target: Three creatures
     effects:
-      - effect: The torlas pulls each target up to 3 squares.
-        name: Effect
+      - name: Effect
+        effect: The torlas pulls each target up to 3 squares.
+  - type: feature
+    feature_type: trait
+    name: Lethe
+    icon: ⭐️
+    effects:
+      - effect: While the torlas is winded, they gain an edge on strikes, and any strike
+          made against them gains an edge.
+  - type: feature
+    feature_type: trait
+    name: Soulsight
+    icon: ⭐️
+    effects:
+      - effect: Any creature within 2 squares of the torlas can't be hidden from them.
 ~~~

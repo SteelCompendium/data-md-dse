@@ -7,7 +7,7 @@ cost_resource: Clarity
 distance: 3 burst
 feature_type: ability
 file_basename: Gravitic Nova
-file_dpath: Talent/9th-Level Features
+file_dpath: Abilities/Talent/9th-Level Features
 flavor: Unbridled psionic energy erupts from your body and flashes outward, hurling
   your foes back.
 item_id: gravitic-nova-11-clarity
@@ -21,14 +21,16 @@ level: 9
 scc:
 - mcdm.heroes.v1:feature.ability.talent.9th-level-feature:gravitic-nova-11-clarity
 scdc:
-- 1.1.1:13.2.1.7:05
+- 1.1.1:11.2.1.7:05
 source: mcdm.heroes.v1
 subclass: Telekinesis
 target: Each enemy and object in the area
 type: feature/ability/talent/9th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Gravitic Nova
 cost: 11 Clarity
 flavor: Unbridled psionic energy erupts from your body and flashes outward,
@@ -37,7 +39,7 @@ keywords:
   - Area
   - Psionic
   - Telekinesis
-type: Main action
+usage: Main action
 distance: 3 burst
 target: Each enemy and object in the area
 metadata:
@@ -49,7 +51,7 @@ metadata:
   distance: 3 burst
   feature_type: ability
   file_basename: Gravitic Nova
-  file_dpath: Talent/9th-Level Features
+  file_dpath: Abilities/Talent/9th-Level Features
   flavor: Unbridled psionic energy erupts from your body and flashes outward,
     hurling your foes back.
   item_id: gravitic-nova-11-clarity
@@ -63,20 +65,20 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.talent.9th-level-feature:gravitic-nova-11-clarity
   scdc:
-    - 1.1.1:13.2.1.7:05
+    - 1.1.1:11.2.1.7:05
   source: mcdm.heroes.v1
   subclass: Telekinesis
   target: Each enemy and object in the area
   type: feature/ability/talent/9th-level-feature
 effects:
   - roll: Power Roll + Reason
-    t1: 6 damage; push 7
-    t2: 9 damage; push 10
-    t3: 13 damage; push 15
-  - effect: On a critical hit, the size of the area increases by 3, and this ability
+    tier1: 6 damage; push 7
+    tier2: 9 damage; push 10
+    tier3: 13 damage; push 15
+  - name: Effect
+    effect: On a critical hit, the size of the area increases by 3, and this ability
       deals an extra 10 damage.
-    name: Effect
-  - effect: You are weakened (save ends). If you scored a critical hit with this
+  - name: Strained
+    effect: You are weakened (save ends). If you scored a critical hit with this
       ability, you die.
-    name: Strained
 ```

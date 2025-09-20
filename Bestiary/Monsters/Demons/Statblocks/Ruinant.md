@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Ruinant
 level: 1
 roles:
@@ -50,45 +51,54 @@ agility: 2
 reason: 0
 intuition: 0
 presence: 1
-traits:
-  - name: Lethe
-    effects:
-      - effect: While the ruinant is winded, they gain an edge on strikes, and any
-          strike made against them gains an edge.
-  - name: Soulsight
-    effects:
-      - effect: Any creature within 2 squares of the ruinant can't be hidden from them.
-abilities:
-  - name: Bloodletting Claws
+features:
+  - type: feature
+    feature_type: ability
+    name: Bloodletting Claws
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 2
-        t1: 3 damage
-        t2: 4 damage
-        t3: 5 damage; M < 2 bleeding (save ends)
-  - name: Salt Wounds
+        tier1: 3 damage
+        tier2: 4 damage
+        tier3: 5 damage; M < 2 bleeding (save ends)
+  - type: feature
+    feature_type: ability
+    name: Salt Wounds
     icon: 🏹
     cost: 3 Malice
     keywords:
       - Magic
       - Ranged
       - Strike
-    type: Maneuver
+    usage: Maneuver
     distance: Ranged 10
     target: Three creatures
     effects:
       - name: Special
         effect: Each target must be at less than full Stamina.
       - roll: Power Roll + 2
-        t1: 1 corruption damage
-        t2: 2 corruption damage
-        t3: 3 corruption damage
+        tier1: 1 corruption damage
+        tier2: 2 corruption damage
+        tier3: 3 corruption damage
+  - type: feature
+    feature_type: trait
+    name: Lethe
+    icon: ⭐️
+    effects:
+      - effect: While the ruinant is winded, they gain an edge on strikes, and any
+          strike made against them gains an edge.
+  - type: feature
+    feature_type: trait
+    name: Soulsight
+    icon: ⭐️
+    effects:
+      - effect: Any creature within 2 squares of the ruinant can't be hidden from them.
 ~~~

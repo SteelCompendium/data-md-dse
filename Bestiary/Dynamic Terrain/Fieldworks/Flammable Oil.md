@@ -13,40 +13,49 @@ type: dynamic-terrain/fieldwork
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Trap Ambusher
 name: Flammable Oil
-type: Trap Ambusher
 level: 1
 ev: 2 per 10 x 10 patch
 flavor: A patch of flammable oil or pitch on the ground is ready to be ignited.
 stamina: "-"
 size: One or more squares
 features:
-  - name: Deactivate
+  - type: feature
+    feature_type: trait
+    name: Deactivate
     icon: 🌀
     effects:
       - effect: As a maneuver, a creature adjacent to a patch of flammable oil can make
           an **Agility test**.
-        t1: The creature ignites the oil and is affected as if in its area.
-        t2: The oil temporarily ignites before safely burning out, and the creature
+        tier1: The creature ignites the oil and is affected as if in its area.
+        tier2: The oil temporarily ignites before safely burning out, and the creature
           takes 3 fire damage and is burning (save ends).
-        t3: The oil is rendered safe and can't be ignited.
-  - name: Activate
+        tier3: The oil is rendered safe and can't be ignited.
+  - type: feature
+    feature_type: trait
+    name: Activate
     icon: ❕
     effects:
       - effect: A creature or object in a square of oil takes fire damage, or a creature
           or object enters a square of burning oil or starts their turn there.
-      - effect: The triggering creature or object takes 3 fire damage and is burning
+      - name: Effect
+        effect: The triggering creature or object takes 3 fire damage and is burning
           (save ends). A burning creature takes 1d6 fire damage at the start of
           each of their turns. A burning object takes 1d6 fire damage at the end
           of each round.
-        name: Effect
-  - name: Upgrade
+  - type: feature
+    feature_type: trait
+    name: Upgrade
     icon: ⭐️
     effects:
-      - effect: The oil is hidden until it ignites.
-        name: Concealed Oil
+      - name: Concealed Oil
         cost: +1 EV
-  - name: Allied Awareness
+        effect: The oil is hidden until it ignites.
+  - type: feature
+    feature_type: trait
+    name: Allied Awareness
     icon: ⭐️
     effects:
       - effect: Allies who have weapons are equipped with torches. Any ally can use a

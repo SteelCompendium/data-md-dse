@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Human Raider
 level: 1
 roles:
@@ -52,28 +53,32 @@ agility: 2
 reason: 0
 intuition: 0
 presence: 0
-traits:
-  - name: Supernatural Insight
-    effects:
-      - effect: The raider ignores concealment if it's granted by a supernatural effect.
-abilities:
-  - name: Handaxes
+features:
+  - type: feature
+    feature_type: ability
+    name: Handaxes
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Charge
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 1 damage
-        t2: 2 damage
-        t3: 3 damage
-      - effect: If this ability is used as part of a charge, the raider can make a
+        tier1: 1 damage
+        tier2: 2 damage
+        tier3: 3 damage
+      - name: Effect
+        effect: If this ability is used as part of a charge, the raider can make a
           ranged free strike before using the ability.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Supernatural Insight
+    icon: ⭐️
+    effects:
+      - effect: The raider ignores concealment if it's granted by a supernatural effect.
 ~~~

@@ -7,7 +7,7 @@ cost_resource: Insight
 distance: Ranged 10
 feature_type: ability
 file_basename: One Vial Makes You Better
-file_dpath: Shadow/6th-Level Features
+file_dpath: Abilities/Shadow/6th-Level Features
 flavor: A well-timed throw of a potion will keep your allies in the fight.
 item_id: one-vial-makes-you-better-9-insight
 item_index: '06'
@@ -18,20 +18,22 @@ level: 6
 scc:
 - mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:one-vial-makes-you-better-9-insight
 scdc:
-- 1.1.1:13.2.2.3:06
+- 1.1.1:11.2.2.3:06
 source: mcdm.heroes.v1
 subclass: Caustic Alchemy
 target: Three creatures
 type: feature/ability/shadow/6th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: One Vial Makes You Better
 cost: 9 Insight
 flavor: A well-timed throw of a potion will keep your allies in the fight.
 keywords:
   - Ranged
-type: Maneuver
+usage: Maneuver
 distance: Ranged 10
 target: Three creatures
 metadata:
@@ -43,7 +45,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: One Vial Makes You Better
-  file_dpath: Shadow/6th-Level Features
+  file_dpath: Abilities/Shadow/6th-Level Features
   flavor: A well-timed throw of a potion will keep your allies in the fight.
   item_id: one-vial-makes-you-better-9-insight
   item_index: "06"
@@ -54,13 +56,14 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:one-vial-makes-you-better-9-insight
   scdc:
-    - 1.1.1:13.2.2.3:06
+    - 1.1.1:11.2.2.3:06
   source: mcdm.heroes.v1
   subclass: Caustic Alchemy
   target: Three creatures
   type: feature/ability/shadow/6th-level-feature
 effects:
-  - effect: >-
+  - name: Effect
+    effect: >-
       You ready, hand, or lob a potion to each target, who can immediately quaff
       the potion (no action required). If they don't drink the potion right
       away, they must use the Use Consumable maneuver to consume it later. The
@@ -69,5 +72,4 @@ effects:
       A creature who drinks the potion can spend up to 2 Recoveries, and has
       acid immunity, fire immunity, or poison immunity (their choice) equal to
       your level until the end of the encounter.
-    name: Effect
 ```

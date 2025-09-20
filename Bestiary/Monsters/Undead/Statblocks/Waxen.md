@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Waxen
 level: 7
 roles:
@@ -51,45 +52,53 @@ agility: -2
 reason: -4
 intuition: 1
 presence: -2
-traits:
-  - name: Burn Bright
-    effects:
-      - effect: If the waxen takes fire damage, they ignite. While ignited, the waxen
-          takes 4 fire damage at the start of each of their turns and their
-          strikes deal an extra 4 fire damage.
-abilities:
-  - name: Wax Fling
+features:
+  - type: feature
+    feature_type: ability
+    name: Wax Fling
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 15
     target: One creature or object
     effects:
       - roll: Power Roll + 4
-        t1: 8 damage
-        t2: 11 damage
-        t3: 12 damage; A < 4 slowed (save ends)
-      - effect: If a target made slowed this way is already slowed, they are instead
+        tier1: 8 damage
+        tier2: 11 damage
+        tier3: 12 damage; A < 4 slowed (save ends)
+      - name: Effect
+        effect: If a target made slowed this way is already slowed, they are instead
           restrained (save ends).
-        name: Effect
-  - name: Erupt
+  - type: feature
+    feature_type: ability
+    name: Erupt
     icon: ❇️
     cost: 3 Malice
     keywords:
       - Area
       - Magic
-    type: Main action
+    usage: Main action
     distance: 2 burst
     target: Each enemy in the area
     effects:
       - name: Effect
         effect: If the waxen is ignited (see Burn Bright), they shift up to their speed
           before using this ability. Each target makes an **Agility test**.
-        t1: 10 damage
-        t2: 8 damage
-        t3: 5 damage
+        tier1: 10 damage
+        tier2: 8 damage
+        tier3: 5 damage
+      - effect: "- The waxen is then destroyed and the area is difficult terrain for
+          enemies."
+  - type: feature
+    feature_type: trait
+    name: Burn Bright
+    icon: ⭐️
+    effects:
+      - effect: If the waxen takes fire damage, they ignite. While ignited, the waxen
+          takes 4 fire damage at the start of each of their turns and their
+          strikes deal an extra 4 fire damage.
 ~~~

@@ -7,7 +7,7 @@ cost_resource: Drama
 distance: 3 cube within 10
 feature_type: ability
 file_basename: Tough Crowd
-file_dpath: Troubadour/2nd-Level Features
+file_dpath: Abilities/Troubadour/2nd-Level Features
 flavor: Your fans don't seem to like the opening act...
 item_id: tough-crowd-5-drama
 item_index: '04'
@@ -20,14 +20,16 @@ level: 2
 scc:
 - mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:tough-crowd-5-drama
 scdc:
-- 1.1.1:13.2.3.5:04
+- 1.1.1:11.2.3.5:04
 source: mcdm.heroes.v1
 subclass: Virtuoso
 target: Special
 type: feature/ability/troubadour/2nd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Tough Crowd
 cost: 5 Drama
 flavor: Your fans don't seem to like the opening act...
@@ -35,7 +37,7 @@ keywords:
   - Area
   - Magic
   - Ranged
-type: Main action
+usage: Main action
 distance: 3 cube within 10
 target: Special
 metadata:
@@ -47,7 +49,7 @@ metadata:
   distance: 3 cube within 10
   feature_type: ability
   file_basename: Tough Crowd
-  file_dpath: Troubadour/2nd-Level Features
+  file_dpath: Abilities/Troubadour/2nd-Level Features
   flavor: Your fans don't seem to like the opening act...
   item_id: tough-crowd-5-drama
   item_index: "04"
@@ -60,7 +62,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:tough-crowd-5-drama
   scdc:
-    - 1.1.1:13.2.3.5:04
+    - 1.1.1:11.2.3.5:04
   source: mcdm.heroes.v1
   subclass: Virtuoso
   target: Special
@@ -72,7 +74,7 @@ effects:
       movement. At the end of each of your turns, you can make one power roll
       that targets each enemy in the area.
   - roll: Power Roll + Presence
-    t1: 5 corruption damage; M < WEAK, pull 1 toward the center of the area
-    t2: 9 corruption damage; M < AVERAGE, pull 2 toward the center of the area
-    t3: 12 corruption damage; M < STRONG, pull 3 toward the center of the area
+    tier1: 5 corruption damage; M < WEAK, pull 1 toward the center of the area
+    tier2: 9 corruption damage; M < AVERAGE, pull 2 toward the center of the area
+    tier3: 12 corruption damage; M < STRONG, pull 3 toward the center of the area
 ```

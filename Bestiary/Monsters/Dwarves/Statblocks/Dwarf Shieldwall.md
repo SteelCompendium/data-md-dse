@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Dwarf Shieldwall
 level: 3
 roles:
@@ -48,46 +49,52 @@ agility: 0
 reason: 0
 intuition: 0
 presence: 1
-traits:
-  - name: Call to the Wall
-    effects:
-      - effect: Whenever a creature deals damage to or takes damage from the shieldwall,
-          the shieldwall can make that creature taunted until the end of the
-          creature's next turn.
-abilities:
-  - name: Wide Axe
+features:
+  - type: feature
+    feature_type: ability
+    name: Wide Axe
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 7 damage; slide 1
-        t2: 10 damage; slide 1
-        t3: 13 damage; slide 1
-      - effect: The shieldwall can shift 1 square to remain adjacent to the target. A
+        tier1: 7 damage; slide 1
+        tier2: 10 damage; slide 1
+        tier3: 13 damage; slide 1
+      - name: Effect
+        effect: The shieldwall can shift 1 square to remain adjacent to the target. A
           target restrained by a dwarf can be force moved by this ability. This
           forced movement doesn't end the restrained condition unless the
           Director determines otherwise.
-        name: Effect
-      - effect: This ability targets one additional target.
-        cost: 3 Malice
-  - name: Intercepting Shield
+      - cost: 3 Malice
+        effect: This ability targets one additional target.
+  - type: feature
+    feature_type: ability
+    name: Intercepting Shield
     icon: ❗️
     cost: 1 Malice
     keywords:
       - "-"
-    type: Triggered action
+    usage: Triggered action
     distance: Self
     target: Self
     trigger: A creature makes a strike against an ally adjacent to the shieldwall.
     effects:
-      - effect: The shieldwall becomes the target of the triggering strike and halves
+      - name: Effect
+        effect: The shieldwall becomes the target of the triggering strike and halves
           the damage.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Call to the Wall
+    icon: ⭐️
+    effects:
+      - effect: Whenever a creature deals damage to or takes damage from the shieldwall,
+          the shieldwall can make that creature taunted until the end of the
+          creature's next turn.
 ~~~

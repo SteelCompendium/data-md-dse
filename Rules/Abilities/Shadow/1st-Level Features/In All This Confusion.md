@@ -4,7 +4,7 @@ class: shadow
 distance: Self
 feature_type: ability
 file_basename: In All This Confusion
-file_dpath: Shadow/1st-Level Features
+file_dpath: Abilities/Shadow/1st-Level Features
 flavor: You vanish in a plume of black smoke to avoid danger.
 item_id: in-all-this-confusion
 item_index: '04'
@@ -15,19 +15,21 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:in-all-this-confusion
 scdc:
-- 1.1.1:13.2.2.1:04
+- 1.1.1:11.2.2.1:04
 source: mcdm.heroes.v1
 subclass: Black Ash
 target: Self
 type: feature/ability/shadow/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: In All This Confusion
 flavor: You vanish in a plume of black smoke to avoid danger.
 keywords:
   - Magic
-type: Triggered
+usage: Triggered
 distance: Self
 target: Self
 trigger: You take damage.
@@ -37,7 +39,7 @@ metadata:
   distance: Self
   feature_type: ability
   file_basename: In All This Confusion
-  file_dpath: Shadow/1st-Level Features
+  file_dpath: Abilities/Shadow/1st-Level Features
   flavor: You vanish in a plume of black smoke to avoid danger.
   item_id: in-all-this-confusion
   item_index: "04"
@@ -48,15 +50,15 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:in-all-this-confusion
   scdc:
-    - 1.1.1:13.2.2.1:04
+    - 1.1.1:11.2.2.1:04
   source: mcdm.heroes.v1
   subclass: Black Ash
   target: Self
   type: feature/ability/shadow/1st-level-feature
 effects:
-  - effect: You take half the damage, then can teleport up to 4 squares after the
+  - name: Effect
+    effect: You take half the damage, then can teleport up to 4 squares after the
       triggering effect resolves.
-    name: Effect
-  - effect: You teleport 1 additional square for each insight spent.
-    cost: Spend 1+ Insight
+  - cost: Spend 1+ Insight
+    effect: You teleport 1 additional square for each insight spent.
 ```

@@ -7,7 +7,7 @@ cost_resource: Ferocity
 distance: Melee 1
 feature_type: ability
 file_basename: Death Strike
-file_dpath: Fury/6th-Level Features
+file_dpath: Abilities/Fury/6th-Level Features
 flavor: Once you taste your foe's blood, you become more efficient and turn every
   killing blow into an opportunity.
 item_id: death-strike-9-ferocity
@@ -21,14 +21,16 @@ level: 6
 scc:
 - mcdm.heroes.v1:feature.ability.fury.6th-level-feature:death-strike-9-ferocity
 scdc:
-- 1.1.1:13.2.5.3:01
+- 1.1.1:11.2.5.3:01
 source: mcdm.heroes.v1
 subclass: Reaver
 target: Self
 type: feature/ability/fury/6th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Death Strike
 cost: 9 Ferocity
 flavor: Once you taste your foe's blood, you become more efficient and turn
@@ -37,7 +39,7 @@ keywords:
   - Melee
   - Strike
   - Weapon
-type: Free triggered
+usage: Free triggered
 distance: Melee 1
 target: Self
 trigger: You reduce a creature to 0 Stamina with a strike.
@@ -50,7 +52,7 @@ metadata:
   distance: Melee 1
   feature_type: ability
   file_basename: Death Strike
-  file_dpath: Fury/6th-Level Features
+  file_dpath: Abilities/Fury/6th-Level Features
   flavor: Once you taste your foe's blood, you become more efficient and turn
     every killing blow into an opportunity.
   item_id: death-strike-9-ferocity
@@ -64,13 +66,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.fury.6th-level-feature:death-strike-9-ferocity
   scdc:
-    - 1.1.1:13.2.5.3:01
+    - 1.1.1:11.2.5.3:01
   source: mcdm.heroes.v1
   subclass: Reaver
   target: Self
   type: feature/ability/fury/6th-level-feature
 effects:
-  - effect: You target a creature adjacent to you with the same strike, using the
+  - name: Effect
+    effect: You target a creature adjacent to you with the same strike, using the
       same power roll as the triggering strike.
-    name: Effect
 ```

@@ -4,10 +4,10 @@ class: elementalist
 distance: Ranged 10
 feature_type: ability
 file_basename: Summon Source of Earth
-file_dpath: Elementalist/8th-Level Features
+file_dpath: Abilities/Elementalist/8th-Level Features
 flavor: The ground rumbles as an elemental bursts forth, ready to serve.
 item_id: summon-source-of-earth
-item_index: '03'
+item_index: '04'
 item_name: Summon Source of Earth
 keywords:
 - Earth
@@ -17,21 +17,23 @@ level: 8
 scc:
 - mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:summon-source-of-earth
 scdc:
-- 1.1.1:13.2.9.2:03
+- 1.1.1:11.2.9.2:04
 source: mcdm.heroes.v1
 subclass: Earth
 target: Special
 type: feature/ability/elementalist/8th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Summon Source of Earth
 flavor: The ground rumbles as an elemental bursts forth, ready to serve.
 keywords:
   - Earth
   - Magic
   - Ranged
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: Special
 metadata:
@@ -40,10 +42,10 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Summon Source of Earth
-  file_dpath: Elementalist/8th-Level Features
+  file_dpath: Abilities/Elementalist/8th-Level Features
   flavor: The ground rumbles as an elemental bursts forth, ready to serve.
   item_id: summon-source-of-earth
-  item_index: "03"
+  item_index: "04"
   item_name: Summon Source of Earth
   keywords:
     - Earth
@@ -53,13 +55,14 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:summon-source-of-earth
   scdc:
-    - 1.1.1:13.2.9.2:03
+    - 1.1.1:11.2.9.2:04
   source: mcdm.heroes.v1
   subclass: Earth
   target: Special
   type: feature/ability/elementalist/8th-level-feature
 effects:
-  - effect: >-
+  - name: Effect
+    effect: >-
       A **source of earth** emerges from an unoccupied space within distance.
       The source takes their turn immediately after you, moving up to their
       speed and either taking a main action or a maneuver. The source is
@@ -70,8 +73,7 @@ effects:
       you use this ability again. They can't regain Stamina during the
       encounter. When the source's Stamina is reduced to 0, you can't use this
       ability again until you earn 1 or more Victories.
-    name: Effect
-  - effect: The source takes another turn. They are dismissed at the start of your
+  - name: Persistent 2
+    effect: The source takes another turn. They are dismissed at the start of your
       next turn.
-    name: Persistent 2
 ```

@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Hill Giant Clobberer
 level: 7
 roles:
@@ -51,87 +52,100 @@ agility: -1
 reason: -1
 intuition: -1
 presence: -1
-traits:
-  - name: Destructive Path
-    effects:
-      - effect: The clobberer automatically destroys any mundane size 1 objects in their
-          path when they move or are forced moved. They can break through any
-          mundane wall made of wood, stone, or a similarly sturdy material this
-          way as long as the wall is 2 squares thick or less.
-  - name: Distracted
-    effects:
-      - effect: Whenever the clobberer targets a creature or object with an ability, any
-          enemy within distance of the ability can use a free triggered action
-          to distract the clobberer. The clobberer targets that enemy instead.
-abilities:
-  - name: Clobberin' Club
+features:
+  - type: feature
+    feature_type: ability
+    name: Clobberin' Club
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Charge
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 3
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 4
-        t1: 12 damage
-        t2: 17 damage; prone
-        t3: 21 damage; prone
-      - effect: A target who is already prone takes an extra 12 damage.
-        name: Effect
-  - name: Stomp
+        tier1: 12 damage
+        tier2: 17 damage; prone
+        tier3: 21 damage; prone
+      - name: Effect
+        effect: A target who is already prone takes an extra 12 damage.
+  - type: feature
+    feature_type: ability
+    name: Stomp
     icon: 🗡
     cost: 3 Malice
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object
     effects:
       - roll: Power Roll + 4
-        t1: 14 damage; prone
-        t2: 20 damage; prone; M < 3 can't stand (save ends)
-        t3: 25 damage; prone; M < 4 can't stand (save ends)
-      - effect: In suitably soft ground, the target is entrenched in a 2-square deep
+        tier1: 14 damage; prone
+        tier2: 20 damage; prone; M < 3 can't stand (save ends)
+        tier3: 25 damage; prone; M < 4 can't stand (save ends)
+      - name: Effect
+        effect: In suitably soft ground, the target is entrenched in a 2-square deep
           hole.
-        name: Effect
-  - name: Hill Quake
+  - type: feature
+    feature_type: ability
+    name: Hill Quake
     icon: ❇️
     keywords:
       - Area
-    type: Maneuver
+    usage: Maneuver
     distance: 3 burst
     target: Each enemy in the area
     effects:
       - name: Effect
         effect: Each target must make either a **Might test** or an **Agility test**.
-        t1: 6 damage; vertical push 3
-        t2: 2 damage; vertical push 2
-        t3: Push 2
-      - effect: The clobberer can choose to fall prone in order to double the forced
+        tier1: 6 damage; vertical push 3
+        tier2: 2 damage; vertical push 2
+        tier3: Push 2
+      - name: Effect
+        effect: The clobberer can choose to fall prone in order to double the forced
           movement distance.
-        name: Effect
-  - name: You Ain't Getting Away
+  - type: feature
+    feature_type: ability
+    name: You Ain't Getting Away
     icon: ❗️
     keywords:
       - Melee
-    type: Triggered action
+    usage: Triggered action
     distance: Melee 3
     target: The triggering creature
     trigger: A creature within distance moves or shifts away from the clobberer.
     effects:
       - name: Effect
         effect: The target makes an Agility test.
-        t1: Grabbed, and the target takes a bane on the Escape Grab maneuver
-        t2: Grabbed
-        t3: No effect
-      - effect: A target who would be grabbed by this ability is instead either vertical
+        tier1: Grabbed, and the target takes a bane on the Escape Grab maneuver
+        tier2: Grabbed
+        tier3: No effect
+      - cost: 2 Malice
+        effect: A target who would be grabbed by this ability is instead either vertical
           pushed up to 5 squares; or they take 5 damage, are knocked prone, and
           can't stand until the end of their next turn.
-        cost: 2 Malice
+  - type: feature
+    feature_type: trait
+    name: Destructive Path
+    icon: ⭐️
+    effects:
+      - effect: The clobberer automatically destroys any mundane size 1 objects in their
+          path when they move or are forced moved. They can break through any
+          mundane wall made of wood, stone, or a similarly sturdy material this
+          way as long as the wall is 2 squares thick or less.
+  - type: feature
+    feature_type: trait
+    name: Distracted
+    icon: ⭐️
+    effects:
+      - effect: Whenever the clobberer targets a creature or object with an ability, any
+          enemy within distance of the ability can use a free triggered action
+          to distract the clobberer. The clobberer targets that enemy instead.
 ~~~

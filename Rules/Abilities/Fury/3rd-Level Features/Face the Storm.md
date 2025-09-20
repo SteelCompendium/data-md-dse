@@ -7,7 +7,7 @@ cost_resource: Ferocity
 distance: Self
 feature_type: ability
 file_basename: Face the Storm
-file_dpath: Fury/3rd-Level Features
+file_dpath: Abilities/Fury/3rd-Level Features
 flavor: Shocked in the face of your naked brutality, your enemy's instincts take over.
 item_id: face-the-storm-7-ferocity
 item_index: '03'
@@ -18,19 +18,21 @@ level: 3
 scc:
 - mcdm.heroes.v1:feature.ability.fury.3rd-level-feature:face-the-storm-7-ferocity
 scdc:
-- 1.1.1:13.2.5.5:03
+- 1.1.1:11.2.5.5:03
 source: mcdm.heroes.v1
 target: Self
 type: feature/ability/fury/3rd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Face the Storm!
 cost: 7 Ferocity
 flavor: Shocked in the face of your naked brutality, your enemy's instincts take over.
 keywords:
   - Magic
-type: Maneuver
+usage: Maneuver
 distance: Self
 target: Self
 metadata:
@@ -42,7 +44,7 @@ metadata:
   distance: Self
   feature_type: ability
   file_basename: Face the Storm
-  file_dpath: Fury/3rd-Level Features
+  file_dpath: Abilities/Fury/3rd-Level Features
   flavor: Shocked in the face of your naked brutality, your enemy's instincts take
     over.
   item_id: face-the-storm-7-ferocity
@@ -54,15 +56,15 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.fury.3rd-level-feature:face-the-storm-7-ferocity
   scdc:
-    - 1.1.1:13.2.5.5:03
+    - 1.1.1:11.2.5.5:03
   source: mcdm.heroes.v1
   target: Self
   type: feature/ability/fury/3rd-level-feature
 effects:
-  - effect: Until the end of the encounter or until you are dying, each creature you
+  - name: Effect
+    effect: Until the end of the encounter or until you are dying, each creature you
       make a melee strike against who has P < AVERAGE is taunted until the end
       of their next turn. Additionally, when you use an ability that deals
       rolled damage against any enemy taunted by you, the ability deals extra
       damage equal to twice your Might score and increases its potency by 1.
-    name: Effect
 ```

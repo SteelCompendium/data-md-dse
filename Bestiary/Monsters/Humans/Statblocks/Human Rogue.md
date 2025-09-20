@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Human Rogue
 level: 1
 roles:
@@ -52,28 +53,32 @@ agility: 2
 reason: 0
 intuition: 0
 presence: 1
-traits:
-  - name: Supernatural Insight
-    effects:
-      - effect: The rogue ignores concealment if it's granted by a supernatural effect.
-abilities:
-  - name: Concealed Dagger
+features:
+  - type: feature
+    feature_type: ability
+    name: Concealed Dagger
     icon: ⚔️
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1 or Ranged 5
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 1 damage
-        t2: 2 damage
-        t3: 3 damage
-      - effect: If the rogue is disguised or hidden when they use this ability, it deals
+        tier1: 1 damage
+        tier2: 2 damage
+        tier3: 3 damage
+      - name: Effect
+        effect: If the rogue is disguised or hidden when they use this ability, it deals
           an extra 3 damage.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Supernatural Insight
+    icon: ⭐️
+    effects:
+      - effect: The rogue ignores concealment if it's granted by a supernatural effect.
 ~~~

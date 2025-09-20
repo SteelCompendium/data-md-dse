@@ -7,7 +7,7 @@ cost_resource: Piety
 distance: 5 cube within 10
 feature_type: ability
 file_basename: Solar Flare
-file_dpath: Conduit/9th-Level Features
+file_dpath: Abilities/Conduit/9th-Level Features
 flavor: You call down a sphere of fire that burns your foes to ash.
 item_id: solar-flare-11-piety
 item_index: '10'
@@ -20,14 +20,16 @@ level: 9
 scc:
 - mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:solar-flare-11-piety
 scdc:
-- 1.1.1:13.2.8.7:10
+- 1.1.1:11.2.8.7:10
 source: mcdm.heroes.v1
 subclass: Sun
 target: Each enemy in the area
 type: feature/ability/conduit/9th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Solar Flare
 cost: 11 Piety
 flavor: You call down a sphere of fire that burns your foes to ash.
@@ -35,7 +37,7 @@ keywords:
   - Area
   - Magic
   - Ranged
-type: Main action
+usage: Main action
 distance: 5 cube within 10
 target: Each enemy in the area
 metadata:
@@ -47,7 +49,7 @@ metadata:
   distance: 5 cube within 10
   feature_type: ability
   file_basename: Solar Flare
-  file_dpath: Conduit/9th-Level Features
+  file_dpath: Abilities/Conduit/9th-Level Features
   flavor: You call down a sphere of fire that burns your foes to ash.
   item_id: solar-flare-11-piety
   item_index: "10"
@@ -60,14 +62,14 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:solar-flare-11-piety
   scdc:
-    - 1.1.1:13.2.8.7:10
+    - 1.1.1:11.2.8.7:10
   source: mcdm.heroes.v1
   subclass: Sun
   target: Each enemy in the area
   type: feature/ability/conduit/9th-level-feature
 effects:
   - roll: Power Roll + Intuition
-    t1: 9 fire damage
-    t2: 14 fire damage
-    t3: 19 fire damage
+    tier1: 9 fire damage
+    tier2: 14 fire damage
+    tier3: 19 fire damage
 ```

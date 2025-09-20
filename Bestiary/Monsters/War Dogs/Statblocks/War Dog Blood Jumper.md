@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: War Dog Blood Jumper
 level: 10
 roles:
@@ -52,29 +53,36 @@ agility: 4
 reason: 2
 intuition: 3
 presence: 2
-traits:
-  - name: Drop Troop
-    effects:
-      - effect: If the jumper doesn't end their turn on the ground, they fall prone.
-  - name: Loyalty Collar
-    effects:
-      - effect: When the jumper is reduced to 0 Stamina, their loyalty collar explodes,
-          dealing 3d6 damage to each adjacent enemy and object.
-abilities:
-  - name: Jumplance
+features:
+  - type: feature
+    feature_type: ability
+    name: Jumplance
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Charge
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 5
-        t1: 4 damage
-        t2: 7 damage
-        t3: 9 damage; A < 4 bleeding (save ends)
+        tier1: 4 damage
+        tier2: 7 damage
+        tier3: 9 damage; A < 4 bleeding (save ends)
+  - type: feature
+    feature_type: trait
+    name: Drop Troop
+    icon: ⭐️
+    effects:
+      - effect: If the jumper doesn't end their turn on the ground, they fall prone.
+  - type: feature
+    feature_type: trait
+    name: Loyalty Collar
+    icon: ⭐️
+    effects:
+      - effect: When the jumper is reduced to 0 Stamina, their loyalty collar explodes,
+          dealing 3d6 damage to each adjacent enemy and object.
 ~~~

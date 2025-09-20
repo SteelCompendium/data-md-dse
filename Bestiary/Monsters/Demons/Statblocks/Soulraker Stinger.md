@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Soulraker Stinger
 level: 7
 roles:
@@ -54,29 +55,33 @@ agility: -1
 reason: 4
 intuition: 4
 presence: 0
-traits:
-  - name: Abyssal Buzzing
-    effects:
-      - effect: Any enemy who starts their turn with two or more soulraker minions
-          adjacent to them takes 3 sonic damage.
-abilities:
-  - name: Barb Launch
+features:
+  - type: feature
+    feature_type: ability
+    name: Barb Launch
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 20
     target: One creature per minion
     effects:
       - roll: Power Roll + 4
-        t1: 4 poison damage
-        t2: 7 poison damage
-        t3: 8 poison damage
-      - effect: All soulraker demons have concealment from the target until the start of
+        tier1: 4 poison damage
+        tier2: 7 poison damage
+        tier3: 8 poison damage
+      - name: Effect
+        effect: All soulraker demons have concealment from the target until the start of
           the stinger's next turn.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Abyssal Buzzing
+    icon: ⭐️
+    effects:
+      - effect: Any enemy who starts their turn with two or more soulraker minions
+          adjacent to them takes 3 sonic damage.
 ~~~

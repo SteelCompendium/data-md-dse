@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Human Brawler
 level: 1
 roles:
@@ -51,44 +52,53 @@ agility: 1
 reason: 0
 intuition: 0
 presence: 0
-traits:
-  - name: Shoot the Hostage
-    effects:
-      - effect: The brawler halves the damage from any strike if they have a creature or
-          object grabbed of size 1S or larger. The grabbed creature or object
-          takes the remaining damage.
-  - name: Supernatural Insight
-    effects:
-      - effect: The brawler ignores concealment if it's granted by a supernatural
-          effect.
-abilities:
-  - name: Haymaker
+features:
+  - type: feature
+    feature_type: ability
+    name: Haymaker
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 6 damage
-        t2: 9 damage
-        t3: 12 damage; M < 2 grabbed and the target takes a bane on the Escape Grab
+        tier1: 6 damage
+        tier2: 9 damage
+        tier3: 12 damage; M < 2 grabbed and the target takes a bane on the Escape Grab
           maneuver
-      - effect: A target who is already grabbed takes an extra 2 damage.
-        name: Effect
-  - name: Throw
+      - name: Effect
+        effect: A target who is already grabbed takes an extra 2 damage.
+  - type: feature
+    feature_type: ability
+    name: Throw
     icon: 🗡
     cost: 1 Malice
     keywords:
       - Melee
-    type: Maneuver
+    usage: Maneuver
     distance: Melee 1
     target: One creature grabbed by the brawler
     effects:
-      - effect: The brawler pushes the target up to 5 squares.
-        name: Effect
+      - name: Effect
+        effect: The brawler pushes the target up to 5 squares.
+  - type: feature
+    feature_type: trait
+    name: Shoot the Hostage
+    icon: ⭐️
+    effects:
+      - effect: The brawler halves the damage from any strike if they have a creature or
+          object grabbed of size 1S or larger. The grabbed creature or object
+          takes the remaining damage.
+  - type: feature
+    feature_type: trait
+    name: Supernatural Insight
+    icon: ⭐️
+    effects:
+      - effect: The brawler ignores concealment if it's granted by a supernatural
+          effect.
 ~~~

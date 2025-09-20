@@ -4,7 +4,7 @@ class: fury
 distance: Self
 feature_type: ability
 file_basename: Unearthly Reflexes
-file_dpath: Fury/1st-Level Features
+file_dpath: Abilities/Fury/1st-Level Features
 flavor: You are as elusive as a hummingbird.
 item_id: unearthly-reflexes
 item_index: '05'
@@ -15,19 +15,21 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:unearthly-reflexes
 scdc:
-- 1.1.1:13.2.5.1:05
+- 1.1.1:11.2.5.1:05
 source: mcdm.heroes.v1
 subclass: Reaver
 target: Self
 type: feature/ability/fury/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Unearthly Reflexes
 flavor: You are as elusive as a hummingbird.
 keywords:
   - "-"
-type: Triggered
+usage: Triggered
 distance: Self
 target: Self
 trigger: You take damage.
@@ -37,7 +39,7 @@ metadata:
   distance: Self
   feature_type: ability
   file_basename: Unearthly Reflexes
-  file_dpath: Fury/1st-Level Features
+  file_dpath: Abilities/Fury/1st-Level Features
   flavor: You are as elusive as a hummingbird.
   item_id: unearthly-reflexes
   item_index: "05"
@@ -48,16 +50,16 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:unearthly-reflexes
   scdc:
-    - 1.1.1:13.2.5.1:05
+    - 1.1.1:11.2.5.1:05
   source: mcdm.heroes.v1
   subclass: Reaver
   target: Self
   type: feature/ability/fury/1st-level-feature
 effects:
-  - effect: You take half the damage from the triggering effect and can shift up to
+  - name: Effect
+    effect: You take half the damage from the triggering effect and can shift up to
       a number of squares equal to your Agility score.
-    name: Effect
-  - effect: If the damage has any potency effects associated with it, the potency is
+  - cost: Spend 1 Ferocity
+    effect: If the damage has any potency effects associated with it, the potency is
       reduced by 1 for you.
-    cost: Spend 1 Ferocity
 ```

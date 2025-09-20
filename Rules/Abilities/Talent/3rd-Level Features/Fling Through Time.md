@@ -7,7 +7,7 @@ cost_resource: Clarity
 distance: Ranged 10
 feature_type: ability
 file_basename: Fling Through Time
-file_dpath: Talent/3rd-Level Features
+file_dpath: Abilities/Talent/3rd-Level Features
 flavor: You hurl the target through the annals of time, forcing them to witness every
   moment of their existence all at once.
 item_id: fling-through-time-7-clarity
@@ -22,13 +22,15 @@ level: 3
 scc:
 - mcdm.heroes.v1:feature.ability.talent.3rd-level-feature:fling-through-time-7-clarity
 scdc:
-- 1.1.1:13.2.1.6:03
+- 1.1.1:11.2.1.6:03
 source: mcdm.heroes.v1
 target: One creature or object
 type: feature/ability/talent/3rd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Fling Through Time
 cost: 7 Clarity
 flavor: You hurl the target through the annals of time, forcing them to witness
@@ -38,7 +40,7 @@ keywords:
   - Psionic
   - Ranged
   - Strike
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: One creature or object
 metadata:
@@ -50,7 +52,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Fling Through Time
-  file_dpath: Talent/3rd-Level Features
+  file_dpath: Abilities/Talent/3rd-Level Features
   flavor: You hurl the target through the annals of time, forcing them to witness
     every moment of their existence all at once.
   item_id: fling-through-time-7-clarity
@@ -65,23 +67,23 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.talent.3rd-level-feature:fling-through-time-7-clarity
   scdc:
-    - 1.1.1:13.2.1.6:03
+    - 1.1.1:11.2.1.6:03
   source: mcdm.heroes.v1
   target: One creature or object
   type: feature/ability/talent/3rd-level-feature
 effects:
   - roll: Power Roll + Presence
-    t1: 3 + P corruption damage; P < WEAK, weakened (save ends)
-    t2: 5 + P corruption damage; the target is flung through time, and if P <
+    tier1: 3 + P corruption damage; P < WEAK, weakened (save ends)
+    tier2: 5 + P corruption damage; the target is flung through time, and if P <
       AVERAGE, they are weakened (save ends)
-    t3: 8 + P corruption damage; the target is flung through time, and if P <
+    tier3: 8 + P corruption damage; the target is flung through time, and if P <
       STRONG, they are weakened (save ends)
-  - effect: A target who is flung through time is removed from the encounter map
+  - name: Effect
+    effect: A target who is flung through time is removed from the encounter map
       until the end of their next turn, reappearing in their original space or
       the nearest unoccupied space.
-    name: Effect
-  - effect: You take 2d6 damage and permanently grow visibly older (the equivalent
+  - name: Strained
+    effect: You take 2d6 damage and permanently grow visibly older (the equivalent
       of 10 years for a human). If you obtain a tier 3 outcome on the power
       roll, you gain 2 clarity.
-    name: Strained
 ```

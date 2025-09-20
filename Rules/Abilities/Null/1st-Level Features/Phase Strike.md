@@ -7,7 +7,7 @@ cost_resource: Discipline
 distance: Melee 1
 feature_type: ability
 file_basename: Phase Strike
-file_dpath: Null/1st-Level Features
+file_dpath: Abilities/Null/1st-Level Features
 flavor: For a moment, your foe slips out of phase with this manifold.
 item_id: phase-strike-5-discipline
 item_index: '02'
@@ -21,13 +21,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.null.1st-level-feature:phase-strike-5-discipline
 scdc:
-- 1.1.1:13.2.6.1:02
+- 1.1.1:11.2.6.1:02
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/null/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Phase Strike
 cost: 5 Discipline
 flavor: For a moment, your foe slips out of phase with this manifold.
@@ -36,7 +38,7 @@ keywords:
   - Psionic
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1
 target: One creature
 metadata:
@@ -48,7 +50,7 @@ metadata:
   distance: Melee 1
   feature_type: ability
   file_basename: Phase Strike
-  file_dpath: Null/1st-Level Features
+  file_dpath: Abilities/Null/1st-Level Features
   flavor: For a moment, your foe slips out of phase with this manifold.
   item_id: phase-strike-5-discipline
   item_index: "02"
@@ -62,16 +64,16 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.null.1st-level-feature:phase-strike-5-discipline
   scdc:
-    - 1.1.1:13.2.6.1:02
+    - 1.1.1:11.2.6.1:02
   source: mcdm.heroes.v1
   target: One creature
   type: feature/ability/null/1st-level-feature
 effects:
   - roll: Power Roll + Agility
-    t1: 3 + A psychic damage; I < WEAK, the target goes out of phase (save ends)
-    t2: 4 + A psychic damage; I < AVERAGE, the target goes out of phase (save ends)
-    t3: 6 + A psychic damage; I < STRONG, the target goes out of phase (save ends)
-  - effect: A target who goes out of phase is slowed, has their stability reduced by
+    tier1: 3 + A psychic damage; I < WEAK, the target goes out of phase (save ends)
+    tier2: 4 + A psychic damage; I < AVERAGE, the target goes out of phase (save ends)
+    tier3: 6 + A psychic damage; I < STRONG, the target goes out of phase (save ends)
+  - name: Effect
+    effect: A target who goes out of phase is slowed, has their stability reduced by
       2, and can't obtain a tier 3 outcome on ability rolls.
-    name: Effect
 ```

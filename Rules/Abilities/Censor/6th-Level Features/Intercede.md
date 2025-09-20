@@ -7,7 +7,7 @@ cost_resource: Wrath
 distance: Ranged 10
 feature_type: ability
 file_basename: Intercede
-file_dpath: Censor/6th-Level Features
+file_dpath: Abilities/Censor/6th-Level Features
 flavor: You take your ally's place.
 item_id: intercede-9-wrath
 item_index: '02'
@@ -19,21 +19,23 @@ level: 6
 scc:
 - mcdm.heroes.v1:feature.ability.censor.6th-level-feature:intercede-9-wrath
 scdc:
-- 1.1.1:13.2.7.3:02
+- 1.1.1:11.2.7.3:02
 source: mcdm.heroes.v1
 subclass: Paragon
 target: One ally
 type: feature/ability/censor/6th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Intercede
 cost: 9 Wrath
 flavor: You take your ally's place.
 keywords:
   - Magic
   - Ranged
-type: Free triggered
+usage: Free triggered
 distance: Ranged 10
 target: One ally
 trigger: A creature makes a strike against the target.
@@ -46,7 +48,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Intercede
-  file_dpath: Censor/6th-Level Features
+  file_dpath: Abilities/Censor/6th-Level Features
   flavor: You take your ally's place.
   item_id: intercede-9-wrath
   item_index: "02"
@@ -58,14 +60,14 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.censor.6th-level-feature:intercede-9-wrath
   scdc:
-    - 1.1.1:13.2.7.3:02
+    - 1.1.1:11.2.7.3:02
   source: mcdm.heroes.v1
   subclass: Paragon
   target: One ally
   type: feature/ability/censor/6th-level-feature
 effects:
-  - effect: The target is unaffected by the strike and you become the target
+  - name: Effect
+    effect: The target is unaffected by the strike and you become the target
       instead, even if you aren't a valid target for it. You take half the
       damage from the strike, and the target gains 3 surges.
-    name: Effect
 ```

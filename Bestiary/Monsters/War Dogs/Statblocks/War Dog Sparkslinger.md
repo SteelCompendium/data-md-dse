@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: War Dog Sparkslinger
 level: 4
 roles:
@@ -53,28 +54,32 @@ agility: 0
 reason: 3
 intuition: 0
 presence: 2
-traits:
-  - name: Loyalty Collar
-    effects:
-      - effect: When the sparkslinger is reduced to 0 Stamina, their loyalty collar
-          explodes, dealing 1d6 damage to each adjacent enemy and object.
-abilities:
-  - name: Galvanic Arc
+features:
+  - type: feature
+    feature_type: ability
+    name: Galvanic Arc
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Ranged
       - Strike
-    type: Main action
+    usage: Main action
     distance: Ranged 7
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 3
-        t1: 3 lightning damage
-        t2: 5 lightning damage; the lightning spreads 1 square
-        t3: 7 lightning damage; the lightning spreads 2 squares
-      - effect: The lightning's spread is the distance it arcs from a target to nearby
+        tier1: 3 lightning damage
+        tier2: 5 lightning damage; the lightning spreads 1 square
+        tier3: 7 lightning damage; the lightning spreads 2 squares
+      - name: Effect
+        effect: The lightning's spread is the distance it arcs from a target to nearby
           enemies. Each enemy within that distance takes 2 lightning damage.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Loyalty Collar
+    icon: ⭐️
+    effects:
+      - effect: When the sparkslinger is reduced to 0 Stamina, their loyalty collar
+          explodes, dealing 1d6 damage to each adjacent enemy and object.
 ~~~

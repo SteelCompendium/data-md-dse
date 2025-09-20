@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Shadow Elf Luminator
 level: 4
 roles:
@@ -51,44 +52,50 @@ agility: 1
 reason: 1
 intuition: 3
 presence: 2
-traits:
-  - name: Of the Umbra
-    effects:
-      - effect: The luminator ignores concealment created by darkness. While the
-          luminator is in direct sunlight, they have damage weakness 3. While
-          the luminator has concealment, they have damage immunity 3.
-abilities:
-  - name: Lumina Mark
+features:
+  - type: feature
+    feature_type: ability
+    name: Lumina Mark
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Ranged
       - Strike
-    type: Main action
+    usage: Main action
     distance: Ranged 3
     target: One creature or object
     effects:
       - roll: Power Roll + 3
-        t1: 8 lightning damage
-        t2: 12 lightning damage
-        t3: 15 lightning damage
-      - effect: The next strike made against the target deals an extra 5 damage.
-        name: Effect
-  - name: Mourning Till Dusk
+        tier1: 8 lightning damage
+        tier2: 12 lightning damage
+        tier3: 15 lightning damage
+      - name: Effect
+        effect: The next strike made against the target deals an extra 5 damage.
+  - type: feature
+    feature_type: ability
+    name: Mourning Till Dusk
     icon: ❇️
     cost: 3 Malice
     keywords:
       - Area
       - Magic
-    type: Main action
+    usage: Main action
     distance: 2 burst
     target: Each ally in the area
     effects:
       - roll: Power Roll + 3
-        t1: The target regains 6 Stamina.
-        t2: The target regains 9 Stamina.
-        t3: The target regains 12 Stamina and the Director gains 3 Malice.
-      - effect: Each target gains an edge on their next strike.
-        name: Effect
+        tier1: The target regains 6 Stamina.
+        tier2: The target regains 9 Stamina.
+        tier3: The target regains 12 Stamina and the Director gains 3 Malice.
+      - name: Effect
+        effect: Each target gains an edge on their next strike.
+  - type: feature
+    feature_type: trait
+    name: Of the Umbra
+    icon: ⭐️
+    effects:
+      - effect: The luminator ignores concealment created by darkness. While the
+          luminator is in direct sunlight, they have damage weakness 3. While
+          the luminator has concealment, they have damage immunity 3.
 ~~~

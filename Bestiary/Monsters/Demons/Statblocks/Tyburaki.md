@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Tyburaki
 level: 10
 roles:
@@ -52,31 +53,38 @@ agility: 5
 reason: 0
 intuition: 3
 presence: -1
-traits:
-  - name: Breacher
-    effects:
-      - effect: While swimming, the tyburaki can jump 5 squares as part of their
-          movement.
-  - name: Soulsight
-    effects:
-      - effect: Any creature within 2 squares of the tyburaki can't be hidden from them.
-abilities:
-  - name: Tail Bite
+features:
+  - type: feature
+    feature_type: ability
+    name: Tail Bite
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 3
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 5
-        t1: 4 damage
-        t2: 7 damage
-        t3: 9 damage
-      - effect: The tyburaki can make a free strike against each enemy adjacent to the
+        tier1: 4 damage
+        tier2: 7 damage
+        tier3: 9 damage
+      - name: Effect
+        effect: The tyburaki can make a free strike against each enemy adjacent to the
           target.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Breacher
+    icon: ⭐️
+    effects:
+      - effect: While swimming, the tyburaki can jump 5 squares as part of their
+          movement.
+  - type: feature
+    feature_type: trait
+    name: Soulsight
+    icon: ⭐️
+    effects:
+      - effect: Any creature within 2 squares of the tyburaki can't be hidden from them.
 ~~~

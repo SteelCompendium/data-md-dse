@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Wode Elf Runner
 level: 1
 roles:
@@ -51,30 +52,34 @@ agility: 2
 reason: 0
 intuition: 0
 presence: 1
-traits:
-  - name: Masking Glamor
-    effects:
-      - effect: Abilities targeting the runner that would take a bane from cover or
-          concealment have a double bane instead.
-abilities:
-  - name: Spear
+features:
+  - type: feature
+    feature_type: ability
+    name: Spear
     icon: ⚔️
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Charge
       - Melee
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1 or ranged 5
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 1 damage
-        t2: 2 damage
-        t3: 3 damage
-      - effect: If this ability is used as part of the Charge main action, the runner
+        tier1: 1 damage
+        tier2: 2 damage
+        tier3: 3 damage
+      - name: Effect
+        effect: If this ability is used as part of the Charge main action, the runner
           shifts up to 2 squares first
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Masking Glamor
+    icon: ⭐️
+    effects:
+      - effect: Abilities targeting the runner that would take a bane from cover or
+          concealment have a double bane instead.
 ~~~

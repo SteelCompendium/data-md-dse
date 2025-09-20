@@ -29,6 +29,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Ghoul
 level: 1
 roles:
@@ -49,43 +50,52 @@ agility: 2
 reason: -2
 intuition: 0
 presence: -1
-traits:
-  - name: Arise
-    effects:
-      - effect: The first time the ghoul is reduced to 0 Stamina by damage that isn't
-          fire damage or holy damage and their body isn't destroyed, they
-          instead have 1 Stamina and fall prone.
-  - name: Hunger
-    effects:
-      - effect: When the ghoul uses the Charge main action, they gain a +2 bonus to
-          speed until the end of their turn.
-abilities:
-  - name: Razor Claws
+features:
+  - type: feature
+    feature_type: ability
+    name: Razor Claws
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Charge
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 3 damage
-        t2: 4 damage
-        t3: 5 damage; M < 2 bleeding (save ends)
-  - name: Leap
+        tier1: 3 damage
+        tier2: 4 damage
+        tier3: 5 damage; M < 2 bleeding (save ends)
+  - type: feature
+    feature_type: ability
+    name: Leap
     icon: 👤
     keywords:
       - "-"
-    type: Maneuver
+    usage: Maneuver
     distance: Self
     target: Self
     effects:
-      - effect: The ghoul jumps up to 3 squares. If they land on a size 1 enemy, that
+      - name: Effect
+        effect: The ghoul jumps up to 3 squares. If they land on a size 1 enemy, that
           enemy is knocked prone and the ghoul can make a free strike against
           them.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Arise
+    icon: ⭐️
+    effects:
+      - effect: The first time the ghoul is reduced to 0 Stamina by damage that isn't
+          fire damage or holy damage and their body isn't destroyed, they
+          instead have 1 Stamina and fall prone.
+  - type: feature
+    feature_type: trait
+    name: Hunger
+    icon: ⭐️
+    effects:
+      - effect: When the ghoul uses the Charge main action, they gain a +2 bonus to
+          speed until the end of their turn.
 ~~~

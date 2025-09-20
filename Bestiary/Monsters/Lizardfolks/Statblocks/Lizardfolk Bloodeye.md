@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Lizardfolk Bloodeye
 level: 1
 roles:
@@ -49,44 +50,50 @@ agility: 1
 reason: 0
 intuition: 2
 presence: 0
-traits:
-  - name: Reptilian Escape
-    effects:
-      - effect: While the bloodeye has a tail, whenever they are grabbed, prone, slowed,
-          or weakened, they can lose their tail to immediately end that
-          condition, then shift up to 2 squares.
-abilities:
-  - name: Bola Knock
+features:
+  - type: feature
+    feature_type: ability
+    name: Bola Knock
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 5
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 5 damage; A < 0 restrained (save ends)
-        t2: 7 damage; A < 1 restrained (save ends)
-        t3: 9 damage; A < 2 restrained (save ends)
-  - name: Bloodshot
+        tier1: 5 damage; A < 0 restrained (save ends)
+        tier2: 7 damage; A < 1 restrained (save ends)
+        tier3: 9 damage; A < 2 restrained (save ends)
+  - type: feature
+    feature_type: ability
+    name: Bloodshot
     icon: 🏹
     cost: 2 Malice
     keywords:
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 10
     target: One creature
     effects:
       - roll: Power Roll + 2
-        t1: 5 acid damage; M < 0 the target has line of effect only within 4 squares
+        tier1: 5 acid damage; M < 0 the target has line of effect only within 4 squares
           (save ends)
-        t2: 7 acid damage; M < 1 the target has line of effect only within 3 squares
+        tier2: 7 acid damage; M < 1 the target has line of effect only within 3 squares
           (save ends)
-        t3: 9 acid damage; M < 2 the target has line of effect only within 2 squares
+        tier3: 9 acid damage; M < 2 the target has line of effect only within 2 squares
           (save ends)
+  - type: feature
+    feature_type: trait
+    name: Reptilian Escape
+    icon: ⭐️
+    effects:
+      - effect: While the bloodeye has a tail, whenever they are grabbed, prone, slowed,
+          or weakened, they can lose their tail to immediately end that
+          condition, then shift up to 2 squares.
 ~~~

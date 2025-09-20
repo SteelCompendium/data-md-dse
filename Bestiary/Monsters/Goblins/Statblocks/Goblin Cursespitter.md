@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Goblin Cursespitter
 level: 1
 roles:
@@ -49,39 +50,45 @@ agility: 1
 reason: 0
 intuition: 2
 presence: 0
-traits:
-  - name: Crafty
-    effects:
-      - effect: The cursespitter doesn't provoke opportunity attacks by moving.
-abilities:
-  - name: Eye of Surlach
+features:
+  - type: feature
+    feature_type: ability
+    name: Eye of Surlach
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Ranged
       - Strike
-    type: Main action
+    usage: Main action
     distance: Ranged 15
     target: One creature
     effects:
       - roll: Power Roll + 2
-        t1: 3 corruption damage; I < 0 weakened (save ends)
-        t2: 4 corruption damage; I < 1 weakened (save ends)
-        t3: 5 corruption damage; I < 2 weakened (save ends)
-  - name: Dizzying Hex
+        tier1: 3 corruption damage; I < 0 weakened (save ends)
+        tier2: 4 corruption damage; I < 1 weakened (save ends)
+        tier3: 5 corruption damage; I < 2 weakened (save ends)
+  - type: feature
+    feature_type: ability
+    name: Dizzying Hex
     icon: 🏹
     cost: 1 Malice
     keywords:
       - Magic
       - Ranged
       - Strike
-    type: Maneuver
+    usage: Maneuver
     distance: Ranged 10
     target: One creature
     effects:
       - roll: Power Roll + 2
-        t1: I < 0 prone
-        t2: I < 1 prone and can't stand (EoT)
-        t3: Prone; I < 2 can't stand (save ends)
+        tier1: I < 0 prone
+        tier2: I < 1 prone and can't stand (EoT)
+        tier3: Prone; I < 2 can't stand (save ends)
+  - type: feature
+    feature_type: trait
+    name: Crafty
+    icon: ⭐️
+    effects:
+      - effect: The cursespitter doesn't provoke opportunity attacks by moving.
 ~~~

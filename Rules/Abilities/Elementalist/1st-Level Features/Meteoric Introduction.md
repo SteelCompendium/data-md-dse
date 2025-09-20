@@ -1,10 +1,11 @@
 ---
+ability_type: Signature
 action_type: Main action
 class: elementalist
 distance: Melee 1
 feature_type: ability
 file_basename: Meteoric Introduction
-file_dpath: Elementalist/1st-Level Features
+file_dpath: Abilities/Elementalist/1st-Level Features
 flavor: You give your enemy a gentle tap-like an asteroid impact.
 item_id: meteoric-introduction
 item_index: '05'
@@ -18,13 +19,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:meteoric-introduction
 scdc:
-- 1.1.1:13.2.9.1:05
+- 1.1.1:11.2.9.1:05
 source: mcdm.heroes.v1
 target: One creature or object
 type: feature/ability/elementalist/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Meteoric Introduction
 flavor: You give your enemy a gentle tap-like an asteroid impact.
 keywords:
@@ -32,16 +35,17 @@ keywords:
   - Magic
   - Melee
   - Strike
-type: Main action
+usage: Main action
 distance: Melee 1
 target: One creature or object
 metadata:
+  ability_type: Signature
   action_type: Main action
   class: elementalist
   distance: Melee 1
   feature_type: ability
   file_basename: Meteoric Introduction
-  file_dpath: Elementalist/1st-Level Features
+  file_dpath: Abilities/Elementalist/1st-Level Features
   flavor: You give your enemy a gentle tap-like an asteroid impact.
   item_id: meteoric-introduction
   item_index: "05"
@@ -55,13 +59,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:meteoric-introduction
   scdc:
-    - 1.1.1:13.2.9.1:05
+    - 1.1.1:11.2.9.1:05
   source: mcdm.heroes.v1
   target: One creature or object
   type: feature/ability/elementalist/1st-level-feature
 effects:
   - roll: Power Roll + Reason
-    t1: 3 + R damage; push 2
-    t2: 5 + R damage; push 3
-    t3: 8 + R damage; push 4
+    tier1: 3 + R damage; push 2
+    tier2: 5 + R damage; push 3
+    tier3: 8 + R damage; push 4
 ```

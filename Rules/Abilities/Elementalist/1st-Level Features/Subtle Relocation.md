@@ -4,7 +4,7 @@ class: elementalist
 distance: Ranged 10
 feature_type: ability
 file_basename: Subtle Relocation
-file_dpath: Elementalist/1st-Level Features
+file_dpath: Abilities/Elementalist/1st-Level Features
 flavor: You call on the void to swallow and spit out an ally.
 item_id: subtle-relocation
 item_index: '02'
@@ -17,21 +17,23 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:subtle-relocation
 scdc:
-- 1.1.1:13.2.9.1:02
+- 1.1.1:11.2.9.1:02
 source: mcdm.heroes.v1
 subclass: Void
 target: Self or one ally
 type: feature/ability/elementalist/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Subtle Relocation
 flavor: You call on the void to swallow and spit out an ally.
 keywords:
   - Magic
   - Ranged
   - Void
-type: Triggered
+usage: Triggered
 distance: Ranged 10
 target: Self or one ally
 trigger: The target starts their turn, moves, or is force moved.
@@ -41,7 +43,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Subtle Relocation
-  file_dpath: Elementalist/1st-Level Features
+  file_dpath: Abilities/Elementalist/1st-Level Features
   flavor: You call on the void to swallow and spit out an ally.
   item_id: subtle-relocation
   item_index: "02"
@@ -54,17 +56,17 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:subtle-relocation
   scdc:
-    - 1.1.1:13.2.9.1:02
+    - 1.1.1:11.2.9.1:02
   source: mcdm.heroes.v1
   subclass: Void
   target: Self or one ally
   type: feature/ability/elementalist/1st-level-feature
 effects:
-  - effect: You teleport the target up to a number of squares equal to your Reason
+  - name: Effect
+    effect: You teleport the target up to a number of squares equal to your Reason
       score. If the target moves to trigger this ability, you can teleport them
       at any point during the move.
-    name: Effect
-  - effect: You teleport the target up to a number of squares equal to twice your
+  - cost: Spend 1 Essence
+    effect: You teleport the target up to a number of squares equal to twice your
       Reason score instead.
-    cost: Spend 1 Essence
 ```

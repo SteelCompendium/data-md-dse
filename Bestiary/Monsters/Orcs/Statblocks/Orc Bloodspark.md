@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Orc Bloodspark
 level: 1
 roles:
@@ -49,27 +50,32 @@ agility: 1
 reason: 0
 intuition: 0
 presence: 2
-traits:
-  - name: Bloodfire Bur
-    effects:
-      - effect: If the bloodspark is reduced to 0 Stamina, they can make a free strike
-          before dying.
-abilities:
-  - name: Explosive Mote
+features:
+  - type: feature
+    feature_type: ability
+    name: Explosive Mote
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Ranged
       - Strike
-    type: Main action
+    usage: Main action
     distance: Ranged 10
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 2 damage; push 1, or the bloodspark can shift 1 square away from the target
-        t2: 4 damage; push 2, or the bloodspark shifts up to 2 squares away from the
+        tier1: 2 damage; push 1, or the bloodspark can shift 1 square away from the
           target
-        t3: 5 damage; push 4, or the bloodspark shifts up to 4 squares away from the
+        tier2: 4 damage; push 2, or the bloodspark shifts up to 2 squares away from the
           target
+        tier3: 5 damage; push 4, or the bloodspark shifts up to 4 squares away from the
+          target
+  - type: feature
+    feature_type: trait
+    name: Bloodfire Bur
+    icon: ⭐️
+    effects:
+      - effect: If the bloodspark is reduced to 0 Stamina, they can make a free strike
+          before dying.
 ~~~

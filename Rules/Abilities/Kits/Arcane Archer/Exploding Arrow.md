@@ -1,4 +1,5 @@
 ---
+ability_type: Signature
 action_type: Main action
 class: ignored
 distance: Ranged 15
@@ -13,7 +14,6 @@ keywords:
 - Ranged
 - Strike
 - Weapon
-kit: Arcane Archer
 scc:
 - mcdm.heroes.v1:kit-ability.arcane-archer:exploding-arrow
 scdc:
@@ -23,7 +23,9 @@ target: One creature or object
 type: kit-ability/arcane-archer
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Exploding Arrow
 flavor: Your ammunition explodes with magical energy.
 keywords:
@@ -31,10 +33,11 @@ keywords:
   - Ranged
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Ranged 15
 target: One creature or object
 metadata:
+  ability_type: Signature
   action_type: Main action
   class: ignored
   distance: Ranged 15
@@ -49,7 +52,6 @@ metadata:
     - Ranged
     - Strike
     - Weapon
-  kit: Arcane Archer
   scc:
     - mcdm.heroes.v1:kit-ability.arcane-archer:exploding-arrow
   scdc:
@@ -59,11 +61,11 @@ metadata:
   type: kit-ability/arcane-archer
 effects:
   - roll: Power Roll + Agility, Reason, Intuition, or Presence
-    t1: 5 + A, R, I, or P fire damage
-    t2: 7 + A, R, I, or P fire damage
-    t3: 10 + A, R, I, or P fire damage
-  - effect: One creature or object of your choice within 2 squares of the target
+    tier1: 5 + A, R, I, or P fire damage
+    tier2: 7 + A, R, I, or P fire damage
+    tier3: 10 + A, R, I, or P fire damage
+  - name: Effect
+    effect: One creature or object of your choice within 2 squares of the target
       takes fire damage equal to the characteristic score used for this
       ability's power roll.
-    name: Effect
 ```

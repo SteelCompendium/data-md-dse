@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Chimeron
 level: 9
 roles:
@@ -50,43 +51,53 @@ agility: 0
 reason: 2
 intuition: 1
 presence: 2
-traits:
-  - name: Lethe
-    effects:
-      - effect: While the chimeron is winded, they gain an edge on strikes, and any
-          strike made against them gains an edge.
-  - name: Soulsight
-    effects:
-      - effect: Any creature within 2 squares of the chimeron can't be hidden from them.
-abilities:
-  - name: Flux Gnash
+features:
+  - type: feature
+    feature_type: ability
+    name: Flux Gnash
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 2
     target: One creature or object
     effects:
       - roll: Power Roll + 4
-        t1: 9 cold, fire, or sonic damage
-        t2: 11 cold, fire, or sonic damage
-        t3: 13 cold, fire, or sonic damage; M < 4 bleeding, dazed, or slowed (save ends)
-      - effect: After making the power roll, the chimeron decides what damage type the
+        tier1: 9 cold, fire, or sonic damage
+        tier2: 11 cold, fire, or sonic damage
+        tier3: 13 cold, fire, or sonic damage; M < 4 bleeding, dazed, or slowed (save
+          ends)
+      - name: Special
+        effect: After making the power roll, the chimeron decides what damage type the
           ability deals and which condition it imposes.
-        name: Special
-  - name: Pain Absorption
+  - type: feature
+    feature_type: ability
+    name: Pain Absorption
     icon: ❗️
     cost: 1 Malice
     keywords:
       - "-"
-    type: Triggered action
+    usage: Triggered action
     distance: Self
     target: Self
     trigger: The chimeron is targeted by a damage-dealing strike.
     effects:
-      - effect: The chimeron halves the damage.
-        name: Effect
+      - name: Effect
+        effect: The chimeron halves the damage.
+  - type: feature
+    feature_type: trait
+    name: Lethe
+    icon: ⭐️
+    effects:
+      - effect: While the chimeron is winded, they gain an edge on strikes, and any
+          strike made against them gains an edge.
+  - type: feature
+    feature_type: trait
+    name: Soulsight
+    icon: ⭐️
+    effects:
+      - effect: Any creature within 2 squares of the chimeron can't be hidden from them.
 ~~~

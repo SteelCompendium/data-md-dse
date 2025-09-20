@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Mindkiller
 level: 6
 roles:
@@ -51,78 +52,94 @@ agility: 3
 reason: 3
 intuition: 2
 presence: 0
-traits:
-  - name: Brain Latch
+features:
+  - type: feature
+    feature_type: trait
+    name: Brain Latch
+    icon: ⭐️
     effects:
       - effect: The mindkiller can grab creatures who are size 4 or smaller, using their
           Reason score in place of Might. A creature grabbed by the mindkiller
           takes a bane on ability rolls made to escape the grab.
-  - name: Psionic Conductor
-    effects:
-      - effect: Whenever a non-minion voiceless talker within 5 squares of the
-          mindkiller uses a psionic ability, they can do so as if they were in
-          the mindkiller's space.
-  - name: Nimble
-    effects:
-      - effect: The mindkiller can move through enemies' spaces at their usual speed.
-abilities:
-  - name: Killer Claws
+  - type: feature
+    feature_type: ability
+    name: Killer Claws
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object
     effects:
       - roll: Power Roll + 3
-        t1: 11 damage
-        t2: 17 damage; A < 2 grabbed
-        t3: 21 damage; A < 3 grabbed
-  - name: Concealing Strike
+        tier1: 11 damage
+        tier2: 17 damage; A < 2 grabbed
+        tier3: 21 damage; A < 3 grabbed
+  - type: feature
+    feature_type: ability
+    name: Concealing Strike
     icon: 🏹
     cost: 2 Malice
     keywords:
       - Psionic
       - Ranged
       - Strike
-    type: Main action
+    usage: Main action
     distance: Ranged 5
     target: Two creatures
     effects:
       - roll: Power Roll + 3
-        t1: 10 damage; R < 1 the mindkiller is invisible to the target (save ends)
-        t2: 15 damage; R < 2 the mindkiller is invisible to the target (save ends)
-        t3: 18 damage; R < 3 the mindkiller is invisible to the target (save ends)
-  - name: Mindwipe
+        tier1: 10 damage; R < 1 the mindkiller is invisible to the target (save ends)
+        tier2: 15 damage; R < 2 the mindkiller is invisible to the target (save ends)
+        tier3: 18 damage; R < 3 the mindkiller is invisible to the target (save ends)
+  - type: feature
+    feature_type: ability
+    name: Mindwipe
     icon: 🗡
     keywords:
       - Melee
       - Psionic
       - Strike
-    type: Maneuver
+    usage: Maneuver
     distance: Melee 1
     target: One creature
     effects:
-      - effect: The target must be grabbed by the mindkiller. If the target has R < 2,
+      - name: Effect
+        effect: The target must be grabbed by the mindkiller. If the target has R < 2,
           they take a −1 penalty to their Reason, Intuition, or Presence score
           and the mindkiller has a +1 bonus to the same score, all until the end
           of the encounter.
-        name: Effect
-  - name: Meat Shield
+  - type: feature
+    feature_type: ability
+    name: Meat Shield
     icon: ❗️
     keywords:
       - "-"
-    type: Triggered action
+    usage: Triggered action
     distance: Self
     target: Self
     trigger: The mindkiller takes damage.
     effects:
-      - effect: The mindkiller halves the damage. If the mindkiller has a creature
+      - name: Effect
+        effect: The mindkiller halves the damage. If the mindkiller has a creature
           grabbed, that creature takes the other half of the damage.
-        name: Effect
-      - effect: A grabbed creature takes the damage instead of the mindkiller.
-        cost: 3 Malice
+      - cost: 3 Malice
+        effect: A grabbed creature takes the damage instead of the mindkiller.
+  - type: feature
+    feature_type: trait
+    name: Psionic Conductor
+    icon: ⭐️
+    effects:
+      - effect: Whenever a non-minion voiceless talker within 5 squares of the
+          mindkiller uses a psionic ability, they can do so as if they were in
+          the mindkiller's space.
+  - type: feature
+    feature_type: trait
+    name: Nimble
+    icon: ⭐️
+    effects:
+      - effect: The mindkiller can move through enemies' spaces at their usual speed.
 ~~~

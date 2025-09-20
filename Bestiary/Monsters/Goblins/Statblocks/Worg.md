@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Worg
 level: 1
 roles:
@@ -48,40 +49,49 @@ agility: 2
 reason: -1
 intuition: 0
 presence: -1
-traits:
-  - name: Mounted Charger
-    effects:
-      - effect: If a worg used as a mount charges, their rider gains an edge on melee
-          strikes until the end of the rider's turn.
-  - name: Shared Craft
-    effects:
-      - effect: If the worg's rider has the Crafty trait, the worg also has that trait.
-abilities:
-  - name: Bite
+features:
+  - type: feature
+    feature_type: ability
+    name: Bite
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Charge
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 3 damage
-        t2: 4 damage
-        t3: 5 damage
-  - name: Sprint
+        tier1: 3 damage
+        tier2: 4 damage
+        tier3: 5 damage
+  - type: feature
+    feature_type: ability
+    name: Sprint
     icon: 👤
     cost: 1 Malice
     keywords:
       - "-"
-    type: Maneuver
+    usage: Maneuver
     distance: Self
     target: Self
     effects:
-      - effect: The worg moves up to their speed.
-        name: Effect
+      - name: Effect
+        effect: The worg moves up to their speed.
+  - type: feature
+    feature_type: trait
+    name: Mounted Charger
+    icon: ⭐️
+    effects:
+      - effect: If a worg used as a mount charges, their rider gains an edge on melee
+          strikes until the end of the rider's turn.
+  - type: feature
+    feature_type: trait
+    name: Shared Craft
+    icon: ⭐️
+    effects:
+      - effect: If the worg's rider has the Crafty trait, the worg also has that trait.
 ~~~

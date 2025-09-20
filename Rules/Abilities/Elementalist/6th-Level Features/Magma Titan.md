@@ -7,7 +7,7 @@ cost_resource: Essence
 distance: Ranged 10
 feature_type: ability
 file_basename: Magma Titan
-file_dpath: Elementalist/6th-Level Features
+file_dpath: Abilities/Elementalist/6th-Level Features
 flavor: Their body swells with lava, mud, and might, towering over their enemies.
 item_id: magma-titan-9-essence
 item_index: '02'
@@ -22,13 +22,15 @@ level: 6
 scc:
 - mcdm.heroes.v1:feature.ability.elementalist.6th-level-feature:magma-titan-9-essence
 scdc:
-- 1.1.1:13.2.9.3:02
+- 1.1.1:11.2.9.3:02
 source: mcdm.heroes.v1
 target: Self or one ally
 type: feature/ability/elementalist/6th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Magma Titan
 cost: 9 Essence
 flavor: Their body swells with lava, mud, and might, towering over their enemies.
@@ -38,7 +40,7 @@ keywords:
   - Green
   - Magic
   - Ranged
-type: Maneuver
+usage: Maneuver
 distance: Ranged 10
 target: Self or one ally
 metadata:
@@ -50,7 +52,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Magma Titan
-  file_dpath: Elementalist/6th-Level Features
+  file_dpath: Abilities/Elementalist/6th-Level Features
   flavor: Their body swells with lava, mud, and might, towering over their enemies.
   item_id: magma-titan-9-essence
   item_index: "02"
@@ -65,12 +67,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.elementalist.6th-level-feature:magma-titan-9-essence
   scdc:
-    - 1.1.1:13.2.9.3:02
+    - 1.1.1:11.2.9.3:02
   source: mcdm.heroes.v1
   target: Self or one ally
   type: feature/ability/elementalist/6th-level-feature
 effects:
-  - effect: >-
+  - name: Effect
+    effect: >-
       Until the start of your next turn, the target has the following benefits:
 
       - Their size and stability increase by 2, with any size 1 target becoming
@@ -88,8 +91,7 @@ effects:
 
       - They can use their highest characteristic instead of Might for Might
       power rolls.
-    name: Effect
-  - effect: The effect lasts until the start of your next turn. Additionally, at the
+  - name: Persistent 2
+    effect: The effect lasts until the start of your next turn. Additionally, at the
       start of your turn, the target can spend 2 Recoveries.
-    name: Persistent 2
 ```

@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Wode Elf Gweiadur
 level: 3
 roles:
@@ -51,48 +52,54 @@ agility: 2
 reason: 0
 intuition: 1
 presence: 0
-traits:
-  - name: Masking Glamor
-    effects:
-      - effect: Abilities targeting the gweiadur that would take a bane from cover or
-          concealment have a double bane instead.
-abilities:
-  - name: Snare Bow
+features:
+  - type: feature
+    feature_type: ability
+    name: Snare Bow
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 15
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 7 damage
-        t2: 11 damage
-        t3: 14 damage; A < 2 restrained (save ends)
-      - effect: The gweiadur shifts up to 3 squares
-        name: Effect
-      - effect: If this ability restrains the target, one enemy adjacent to the target
+        tier1: 7 damage
+        tier2: 11 damage
+        tier3: 14 damage; A < 2 restrained (save ends)
+      - name: Effect
+        effect: The gweiadur shifts up to 3 squares
+      - cost: 3 Malice
+        effect: If this ability restrains the target, one enemy adjacent to the target
           is also restrained (save ends).
-        cost: 3 Malice
-  - name: You Activated My Trap!
+  - type: feature
+    feature_type: ability
+    name: You Activated My Trap!
     icon: 🔳
     cost: 3 Malice
     keywords:
       - Area
       - Magic
       - Ranged
-    type: Maneuver
+    usage: Maneuver
     distance: 3 cube within 10
     target: Each enemy in the area
     effects:
       - roll: Power Roll + 2
-        t1: 4 damage; R < 0 the target is marked (save ends)
-        t2: 6 damage; R < 1 slowed and the target is marked (save ends)
-        t3: 9 damage; R < 2 slowed and the target is marked (save ends)
-      - effect: Allies gain an edge on abilities against a target marked by any wode
+        tier1: 4 damage; R < 0 the target is marked (save ends)
+        tier2: 6 damage; R < 1 slowed and the target is marked (save ends)
+        tier3: 9 damage; R < 2 slowed and the target is marked (save ends)
+      - name: Effect
+        effect: Allies gain an edge on abilities against a target marked by any wode
           elf.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Masking Glamor
+    icon: ⭐️
+    effects:
+      - effect: Abilities targeting the gweiadur that would take a bane from cover or
+          concealment have a double bane instead.
 ~~~

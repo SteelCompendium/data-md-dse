@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Rival Tactician
 level: 8
 roles:
@@ -48,58 +49,66 @@ agility: 1
 reason: 3
 intuition: 0
 presence: 2
-traits:
-  - name: Rivalry
-    effects:
-      - effect: At the start of an encounter, the tactician chooses one creature within
-          their line of effect. Both the tactician and the creature can add a d3
-          roll to power rolls they make against each other.
-abilities:
-  - name: Command From the Back
+features:
+  - type: feature
+    feature_type: ability
+    name: Command From the Back
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 10
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 4
-        t1: 13 damage
-        t2: 18 damage; A < 3 prone
-        t3: 22 damage; A < 4 prone
-      - effect: Two allies within distance move up to their speed and can use a
+        tier1: 13 damage
+        tier2: 18 damage; A < 3 prone
+        tier3: 22 damage; A < 4 prone
+      - cost: 4 Malice
+        effect: Two allies within distance move up to their speed and can use a
           signature ability.
-        cost: 4 Malice
-  - name: Safeguard
+  - type: feature
+    feature_type: ability
+    name: Safeguard
     icon: 🏹
     cost: 3 Malice
     keywords:
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 10
     target: One creature or object
     effects:
       - roll: Power Roll + 4
-        t1: 15 damage; M < 2 weakened (save ends)
-        t2: 21 damage; M < 3 weakened (save ends)
-        t3: 26 damage; M < 4 weakened (save ends)
-      - effect: Two allies adjacent to the target each regain 7 Stamina.
-        name: Effect
-  - name: Quickshot
+        tier1: 15 damage; M < 2 weakened (save ends)
+        tier2: 21 damage; M < 3 weakened (save ends)
+        tier3: 26 damage; M < 4 weakened (save ends)
+      - name: Effect
+        effect: Two allies adjacent to the target each regain 7 Stamina.
+  - type: feature
+    feature_type: ability
+    name: Quickshot
     icon: ❗️
     keywords:
       - Ranged
-    type: Triggered action
+    usage: Triggered action
     distance: Ranged 10
     target: The triggering enemy
     trigger: An enemy within distance willingly moves.
     effects:
-      - effect: At any point during the movement, the tactician uses a signature ability
+      - name: Effect
+        effect: At any point during the movement, the tactician uses a signature ability
           against the target.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Rivalry
+    icon: ⭐️
+    effects:
+      - effect: At the start of an encounter, the tactician chooses one creature within
+          their line of effect. Both the tactician and the creature can add a d3
+          roll to power rolls they make against each other.
 ~~~

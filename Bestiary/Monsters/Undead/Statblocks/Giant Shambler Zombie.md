@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Giant Shambler Zombie
 level: 10
 roles:
@@ -52,24 +53,28 @@ agility: -3
 reason: -3
 intuition: 1
 presence: -2
-traits:
-  - name: Meat Shield
-    effects:
-      - effect: Each ally adjacent to the shambler has damage immunity 3.
-abilities:
-  - name: Rotten Kick
+features:
+  - type: feature
+    feature_type: ability
+    name: Rotten Kick
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 2
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 5
-        t1: 5 damage; push 2
-        t2: 8 damage; push 4
-        t3: 10 damage; push 6
+        tier1: 5 damage; push 2
+        tier2: 8 damage; push 4
+        tier3: 10 damage; push 6
+  - type: feature
+    feature_type: trait
+    name: Meat Shield
+    icon: ⭐️
+    effects:
+      - effect: Each ally adjacent to the shambler has damage immunity 3.
 ~~~

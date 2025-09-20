@@ -13,25 +13,32 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Malice Features
 name: Werewolf Malice
-type: Malice Features
 flavor: At the start of a werewolf's turn, you can spend Malice to activate one
   of the following features.
 features:
-  - name: Blood In Their Eyes
+  - type: feature
+    feature_type: trait
+    name: Blood In Their Eyes
     icon: ⭐️
     cost: 3 Malice
     effects:
       - effect: The werewolf gains 10 temporary Stamina and a +3 bonus to speed until
           the end of their turn. The werewolf can't use this fea- ture if they
           took any holy damage since ending their last turn.
-  - name: Solo Action
+  - type: feature
+    feature_type: trait
+    name: Solo Action
     icon: ☠️
     cost: 5 Malice
     effects:
       - effect: The werewolf takes an additional main action on their turn. They can use
           this feature even if they are dazed.
-  - name: Moonfall
+  - type: feature
+    feature_type: trait
+    name: Moonfall
     icon: 🌀
     cost: 10 Malice
     effects:

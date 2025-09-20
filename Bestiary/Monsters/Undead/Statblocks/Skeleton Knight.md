@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Skeleton Knight
 level: 10
 roles:
@@ -52,31 +53,38 @@ agility: 5
 reason: -2
 intuition: 4
 presence: -2
-traits:
-  - name: Bitter Bones
+features:
+  - type: feature
+    feature_type: ability
+    name: Four Swords Swing
+    icon: 🗡
+    ability_type: Signature Ability
+    keywords:
+      - Melee
+      - Strike
+      - Weapon
+    usage: Main action
+    distance: Melee 1
+    target: One creature or object per minion
+    effects:
+      - roll: Power Roll + 5
+        tier1: 4 damage
+        tier2: 7 damage
+        tier3: 9 damage; the target can't shift (EoT
+  - type: feature
+    feature_type: trait
+    name: Bitter Bones
+    icon: ⭐️
     effects:
       - effect: If the knight is reduced to 0 Stamina, their bones collapse to fill
           their space with an impassable barrier. Any enemy who comes adjacent
           to the barrier for the first time in a round or starts their turn
           there takes 5 damage.
-  - name: More Swings
+  - type: feature
+    feature_type: trait
+    name: More Swings
+    icon: ⭐️
     effects:
       - effect: Whenever the knight makes a free strike, they can make two free strikes
           instead.
-abilities:
-  - name: Four Swords Swing
-    icon: 🗡
-    cost: Signature Ability
-    keywords:
-      - Melee
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Melee 1
-    target: One creature or object per minion
-    effects:
-      - roll: Power Roll + 5
-        t1: 4 damage
-        t2: 7 damage
-        t3: 9 damage; the target can't shift (EoT
 ~~~

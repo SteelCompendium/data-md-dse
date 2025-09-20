@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Shadow Elf Sniper
 level: 4
 roles:
@@ -52,28 +53,32 @@ agility: 3
 reason: 0
 intuition: 0
 presence: 0
-traits:
-  - name: Of the Umbra
-    effects:
-      - effect: The sniper ignores concealment created by darkness. While the sniper is
-          in direct sunlight, they have damage weakness 3. While the sniper has
-          concealment, they have damage immunity 3.
-abilities:
-  - name: Lumina Arrow
+features:
+  - type: feature
+    feature_type: ability
+    name: Lumina Arrow
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 7
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 3
-        t1: 3 damage
-        t2: 5 damage
-        t3: 7 damage
-      - effect: The next strike made against the target gains an edge.
-        name: Effect
+        tier1: 3 damage
+        tier2: 5 damage
+        tier3: 7 damage
+      - name: Effect
+        effect: The next strike made against the target gains an edge.
+  - type: feature
+    feature_type: trait
+    name: Of the Umbra
+    icon: ⭐️
+    effects:
+      - effect: The sniper ignores concealment created by darkness. While the sniper is
+          in direct sunlight, they have damage weakness 3. While the sniper has
+          concealment, they have damage immunity 3.
 ~~~

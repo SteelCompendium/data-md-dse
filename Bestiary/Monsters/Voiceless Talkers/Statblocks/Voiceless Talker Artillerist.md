@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Voiceless Talker Artillerist
 level: 6
 roles:
@@ -51,76 +52,89 @@ agility: 3
 reason: 3
 intuition: 2
 presence: 1
-traits:
-  - name: Psionic Conductor
-    effects:
-      - effect: Whenever a non-minion voiceless talker within 5 squares of the
-          artillerist uses a psionic ability, they can do so as if they were in
-          the artillerist's space.
-  - name: Locked On
-    effects:
-      - effect: The artillerist ignores invisibility, cover, and concealment. A creature
-          can't hide from the artillerist while the artillerist has line of
-          effect to the.
-abilities:
-  - name: Psionic Rifle Burst
+features:
+  - type: feature
+    feature_type: ability
+    name: Psionic Rifle Burst
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Psionic
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 10
     target: One creature or object
     effects:
       - roll: Power Roll + 3
-        t1: 11 damage
-        t2: 19 damage; the strike spreads 1 square
-        t3: 22 damage; the strike spreads 2 squares
-      - effect: The strike's spread is the distance it expands from a target to nearby
+        tier1: 11 damage
+        tier2: 19 damage; the strike spreads 1 square
+        tier3: 22 damage; the strike spreads 2 squares
+      - name: Effect
+        effect: The strike's spread is the distance it expands from a target to nearby
           enemies. Each enemy within that distance takes 3 damage.
-        name: Effect
-      - effect: Each enemy within the strike spread takes an extra 3 damage.
-        cost: 2 Malice
-  - name: Mind Jolt
+      - cost: 2 Malice
+        effect: Each enemy within the strike spread takes an extra 3 damage.
+  - type: feature
+    feature_type: ability
+    name: Mind Jolt
     icon: 🔳
     keywords:
       - Area
       - Psionic
-    type: Main action
+    usage: Main action
     distance: 10 x 1 line within 10
     target: Each enemy in the area
     effects:
       - roll: Power Roll + 3
-        t1: 6 lightning damage
-        t2: 10 lightning damage; I < 2 slowed (save ends)
-        t3: 13 lightning damage; I < 3 slowed (save ends)
-  - name: In Our Sights
+        tier1: 6 lightning damage
+        tier2: 10 lightning damage; I < 2 slowed (save ends)
+        tier3: 13 lightning damage; I < 3 slowed (save ends)
+  - type: feature
+    feature_type: ability
+    name: In Our Sights
     icon: 🏹
     keywords:
       - Ranged
-    type: Maneuver
+    usage: Maneuver
     distance: Ranged 10
     target: One creature
     effects:
-      - effect: Until the start of the artillerist's next turn, the next psionic ability
+      - name: Effect
+        effect: Until the start of the artillerist's next turn, the next psionic ability
           used against the target automatically treats its initial power roll as
           a 17. The creature using the ability can still roll to determine if
           they score a critical hit.
-        name: Effect
-  - name: Tactical Reposition
+  - type: feature
+    feature_type: ability
+    name: Tactical Reposition
     icon: ❗️
     cost: 1 Malice
     keywords:
       - "-"
-    type: Triggered action
+    usage: Triggered action
     distance: Self
     target: Self
     trigger: The artillerist takes damage.
     effects:
-      - effect: The artillerist can teleport up to 5 squares and ignores any effects
+      - name: Effect
+        effect: The artillerist can teleport up to 5 squares and ignores any effects
           associated with the damage
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Psionic Conductor
+    icon: ⭐️
+    effects:
+      - effect: Whenever a non-minion voiceless talker within 5 squares of the
+          artillerist uses a psionic ability, they can do so as if they were in
+          the artillerist's space.
+  - type: feature
+    feature_type: trait
+    name: Locked On
+    icon: ⭐️
+    effects:
+      - effect: The artillerist ignores invisibility, cover, and concealment. A creature
+          can't hide from the artillerist while the artillerist has line of
+          effect to the.
 ~~~

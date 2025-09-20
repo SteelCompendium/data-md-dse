@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Izyak
 level: 10
 roles:
@@ -51,54 +52,63 @@ agility: 0
 reason: 5
 intuition: 2
 presence: 4
-traits:
-  - name: Lethe
-    effects:
-      - effect: While the izyak is winded, they gain an edge on strikes, and any strike
-          made against them gains an edge.
-  - name: Soulsight
-    effects:
-      - effect: Any creature within 2 squares of the izyak can't be hidden from them.
-abilities:
-  - name: Nostalgic Wanderlust
+features:
+  - type: feature
+    feature_type: ability
+    name: Nostalgic Wanderlust
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Psionic
       - Ranged
       - Strike
-    type: Main action
+    usage: Main action
     distance: Ranged 10
     target: One creature
     effects:
       - roll: Power Roll + 5
-        t1: 9 psychic damage; R < 3 restrained (save ends)
-        t2: 12 psychic damage; R < 4 restrained (save ends)
-        t3: 14 psychic damage; R < 5 restrained (save ends)
-      - effect: The izyak can slide any target restrained this way up to 3 squares.
-        name: Effect
-      - effect: The izyak can vertical slide any target restrained this way up to 6
+        tier1: 9 psychic damage; R < 3 restrained (save ends)
+        tier2: 12 psychic damage; R < 4 restrained (save ends)
+        tier3: 14 psychic damage; R < 5 restrained (save ends)
+      - name: Effect
+        effect: The izyak can slide any target restrained this way up to 3 squares.
+      - cost: 3 Malice
+        effect: The izyak can vertical slide any target restrained this way up to 6
           squares instead. A target left in midair doesn't fall until the
           restrained condition ends.
-        cost: 3 Malice
-  - name: Ruinous Temptation
+  - type: feature
+    feature_type: ability
+    name: Ruinous Temptation
     icon: 🔳
     cost: 3 Malice
     keywords:
       - Area
       - Psionic
       - Ranged
-    type: Main action
+    usage: Main action
     distance: 4 cube within 10
     target: Each enemy in the area
     effects:
       - roll: Power Roll + 5
-        t1: 4 psychic damage; I < 3 dazed (save ends)
-        t2: 7 psychic damage; I < 4 dazed (save ends)
-        t3: 9 psychic damage; I < 5 dazed (save ends)
-      - effect: Any target dazed this way must use a move action to move their speed
+        tier1: 4 psychic damage; I < 3 dazed (save ends)
+        tier2: 7 psychic damage; I < 4 dazed (save ends)
+        tier3: 9 psychic damage; I < 5 dazed (save ends)
+      - name: Effect
+        effect: Any target dazed this way must use a move action to move their speed
           toward the izyak on their next turn.
-        name: Effect
-      - effect: The area increases to a 6 cube.
-        cost: 2 Malice
+      - cost: 2 Malice
+        effect: The area increases to a 6 cube.
+  - type: feature
+    feature_type: trait
+    name: Lethe
+    icon: ⭐️
+    effects:
+      - effect: While the izyak is winded, they gain an edge on strikes, and any strike
+          made against them gains an edge.
+  - type: feature
+    feature_type: trait
+    name: Soulsight
+    icon: ⭐️
+    effects:
+      - effect: Any creature within 2 squares of the izyak can't be hidden from them.
 ~~~

@@ -7,7 +7,7 @@ cost_resource: Ferocity
 distance: Melee 1
 feature_type: ability
 file_basename: Out of the Way
-file_dpath: Fury/1st-Level Features
+file_dpath: Abilities/Fury/1st-Level Features
 flavor: Your enemies will clear your path—whether they want to or not.
 item_id: out-of-the-way-3-ferocity
 item_index: '04'
@@ -20,13 +20,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:out-of-the-way-3-ferocity
 scdc:
-- 1.1.1:13.2.5.1:04
+- 1.1.1:11.2.5.1:04
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/fury/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Out of the Way!
 cost: 3 Ferocity
 flavor: Your enemies will clear your path—whether they want to or not.
@@ -34,7 +36,7 @@ keywords:
   - Melee
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1
 target: One creature
 metadata:
@@ -46,7 +48,7 @@ metadata:
   distance: Melee 1
   feature_type: ability
   file_basename: Out of the Way
-  file_dpath: Fury/1st-Level Features
+  file_dpath: Abilities/Fury/1st-Level Features
   flavor: Your enemies will clear your path—whether they want to or not.
   item_id: out-of-the-way-3-ferocity
   item_index: "04"
@@ -59,17 +61,17 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:out-of-the-way-3-ferocity
   scdc:
-    - 1.1.1:13.2.5.1:04
+    - 1.1.1:11.2.5.1:04
   source: mcdm.heroes.v1
   target: One creature
   type: feature/ability/fury/1st-level-feature
 effects:
   - roll: Power Roll + Might
-    t1: 3 + M damage; slide 2
-    t2: 5 + M damage; slide 3
-    t3: 8 + M damage; slide 5
-  - effect: When you slide the target, you can move into any square they leave. If
+    tier1: 3 + M damage; slide 2
+    tier2: 5 + M damage; slide 3
+    tier3: 8 + M damage; slide 5
+  - name: Effect
+    effect: When you slide the target, you can move into any square they leave. If
       you take damage from an opportunity attack by moving this way, the target
       takes the same damage.
-    name: Effect
 ```

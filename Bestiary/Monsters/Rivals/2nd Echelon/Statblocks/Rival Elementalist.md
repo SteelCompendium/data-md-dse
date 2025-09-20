@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Rival Elementalist
 level: 5
 roles:
@@ -48,30 +49,28 @@ agility: 2
 reason: 3
 intuition: 2
 presence: 0
-traits:
-  - name: Rivalry
-    effects:
-      - effect: At the start of an encounter, the elementalist chooses one creature
-          within their line of effect. Both the elementalist and the creature
-          can add a d3 roll to power rolls they make against each other.
-abilities:
-  - name: The Thriving Wilds
+features:
+  - type: feature
+    feature_type: ability
+    name: The Thriving Wilds
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Green
       - Magic
       - Ranged
       - Strike
-    type: Main action
+    usage: Main action
     distance: Ranged 10
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 3
-        t1: 9 damage; slide 1; M < 1 3 acid damage
-        t2: 14 damage; slide 2; M < 2 5 acid damage
-        t3: 17 damage; slide 3; M < 3 7 acid damage
-  - name: The Depths Hunger
+        tier1: 9 damage; slide 1; M < 1 3 acid damage
+        tier2: 14 damage; slide 2; M < 2 5 acid damage
+        tier3: 17 damage; slide 3; M < 3 7 acid damage
+  - type: feature
+    feature_type: ability
+    name: The Depths Hunger
     icon: 🔳
     cost: 4 Malice
     keywords:
@@ -79,28 +78,38 @@ abilities:
       - Green
       - Magic
       - Ranged
-    type: Main action
+    usage: Main action
     distance: 4 cube within 10
     target: Each enemy in the area
     effects:
       - roll: Power Roll + 3
-        t1: 5 damage
-        t2: 9 damage; restrained (EoT)
-        t3: 11 damage; restrained (save ends)
-      - effect: The area is difficult terrain for enemies until the end of the
+        tier1: 5 damage
+        tier2: 9 damage; restrained (EoT)
+        tier3: 11 damage; restrained (save ends)
+      - name: Effect
+        effect: The area is difficult terrain for enemies until the end of the
           encounter. Any enemy in the area has acid weakness 3.
-        name: Effect
-  - name: Fissures of Darkness
+  - type: feature
+    feature_type: ability
+    name: Fissures of Darkness
     icon: ❗️
     keywords:
       - Magic
       - Void
-    type: Triggered action
+    usage: Triggered action
     distance: Self
     target: Self
     trigger: The elementalist takes damage.
     effects:
-      - effect: The elementalist can teleport up to 3 squares. Each creature adjacent to
+      - name: Effect
+        effect: The elementalist can teleport up to 3 squares. Each creature adjacent to
           the space they leave takes 3 corruption damage.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Rivalry
+    icon: ⭐️
+    effects:
+      - effect: At the start of an encounter, the elementalist chooses one creature
+          within their line of effect. Both the elementalist and the creature
+          can add a d3 roll to power rolls they make against each other.
 ~~~

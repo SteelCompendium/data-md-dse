@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Gnoll Cackler
 level: 2
 roles:
@@ -48,41 +49,39 @@ agility: 0
 reason: 2
 intuition: 2
 presence: 2
-traits:
-  - name: Death Frenzy
-    effects:
-      - effect: Whenever a non-minion ally within 5 squares of the cackler is reduced to
-          0 Stamina, the cackler moves up to their speed and can make a melee
-          free strike.
-abilities:
-  - name: Moment of Brutality
+features:
+  - type: feature
+    feature_type: ability
+    name: Moment of Brutality
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Ranged
       - Strike
-    type: Main action
+    usage: Main action
     distance: Ranged 8
     target: One creature
     effects:
       - roll: Power Roll + 2
-        t1: 4 psychic damage; I < 0 the target makes a free strike against a creature of
-          the cackler's choice
-        t2: 5 psychic damage; I < 1 the target makes a free strike against a creature of
-          the cackler's choice
-        t3: 7 psychic damage; I < 2 the target uses a signature ability against a
+        tier1: 4 psychic damage; I < 0 the target makes a free strike against a creature
+          of the cackler's choice
+        tier2: 5 psychic damage; I < 1 the target makes a free strike against a creature
+          of the cackler's choice
+        tier3: 7 psychic damage; I < 2 the target uses a signature ability against a
           creature of the cackler's choice
-      - effect: An ally targeted by this ability ignores the damage and can make a free
+      - name: Effect
+        effect: An ally targeted by this ability ignores the damage and can make a free
           strike.
-        name: Effect
-  - name: Cackler's Cackletongue
+  - type: feature
+    feature_type: ability
+    name: Cackler's Cackletongue
     icon: ❇️
     cost: 4 Malice
     keywords:
       - Area
       - Magic
-    type: Maneuver
+    usage: Maneuver
     distance: 2 burst
     target: Each creature in the area
     effects:
@@ -90,7 +89,15 @@ abilities:
         effect: Each enemy target makes an **Intuition test**. If any target hasn't used
           their own Cackletongue maneuver on this turn, they can use it
           immediately at no cost.
-        t1: Frightened (save ends)
-        t2: Frightened (EoT)
-        t3: No effect
+        tier1: Frightened (save ends)
+        tier2: Frightened (EoT)
+        tier3: No effect
+  - type: feature
+    feature_type: trait
+    name: Death Frenzy
+    icon: ⭐️
+    effects:
+      - effect: Whenever a non-minion ally within 5 squares of the cackler is reduced to
+          0 Stamina, the cackler moves up to their speed and can make a melee
+          free strike.
 ~~~

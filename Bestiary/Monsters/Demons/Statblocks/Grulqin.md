@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Grulqin
 level: 4
 roles:
@@ -51,28 +52,32 @@ agility: 2
 reason: -1
 intuition: -1
 presence: -1
-traits:
-  - name: Soulsight
-    effects:
-      - effect: Any creature within 2 squares of the grulqin can't be hidden from them.
-abilities:
-  - name: Spinning Bone Blade
+features:
+  - type: feature
+    feature_type: ability
+    name: Spinning Bone Blade
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Charge
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 3
-        t1: 3 damage
-        t2: 5 damage
-        t3: 7 damage
-      - effect: The grulqin gains an edge on this ability if they previously moved 3 or
+        tier1: 3 damage
+        tier2: 5 damage
+        tier3: 7 damage
+      - name: Effect
+        effect: The grulqin gains an edge on this ability if they previously moved 3 or
           more squares in a straight line on their turn.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Soulsight
+    icon: ⭐️
+    effects:
+      - effect: Any creature within 2 squares of the grulqin can't be hidden from them.
 ~~~

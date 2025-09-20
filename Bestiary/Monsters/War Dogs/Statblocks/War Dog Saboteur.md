@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: War Dog Saboteur
 level: 7
 roles:
@@ -51,27 +52,31 @@ agility: 2
 reason: 4
 intuition: 3
 presence: 1
-traits:
-  - name: Loyalty Collar
-    effects:
-      - effect: When the saboteur is reduced to 0 Stamina, their loyalty collar
-          explodes, dealing 2d6 damage to each adjacent enemy and object.
-abilities:
-  - name: Fuse-Iron Bomb
+features:
+  - type: feature
+    feature_type: ability
+    name: Fuse-Iron Bomb
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Ranged
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 5
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 4
-        t1: 4 fire damage
-        t2: 7 fire damage; push
-        t3: 8 fire damage; push
-      - effect: The space the target occupies fills with dark smoke and blocks line of
+        tier1: 4 fire damage
+        tier2: 7 fire damage; push
+        tier3: 8 fire damage; push
+      - name: Effect
+        effect: The space the target occupies fills with dark smoke and blocks line of
           effect until the start of the saboteur's next turn
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Loyalty Collar
+    icon: ⭐️
+    effects:
+      - effect: When the saboteur is reduced to 0 Stamina, their loyalty collar
+          explodes, dealing 2d6 damage to each adjacent enemy and object.
 ~~~

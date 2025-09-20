@@ -14,25 +14,30 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: + Malice Features
 name: War Dog Malice
-type: + Malice Features
 level: 4
 flavor: At the start of any level 4 or higher war dog's turn, you can spend
   Malice to activate one of the following features.
 features:
-  - name: Prior Malice Features
+  - type: feature
+    feature_type: trait
+    name: Prior Malice Features
     icon: ⭐️
     cost: 3-7 Malice
     effects:
       - effect: The war dog activates a Malice feature available to war dogs of level 3
           or lower.
-  - name: Loyalty Unto Death
+  - type: feature
+    feature_type: ability
+    name: Loyalty Unto Death
     icon: 🏹
     cost: 5 Malice
     keywords:
       - Magic
       - Ranged
-    type: Maneuver
+    usage: Maneuver
     distance: Ranged 10
     target: Two war dogs
     effects:
@@ -40,8 +45,8 @@ features:
         effect: Each target who has a loyalty collar shifts up to their speed, then is
           reduced to 0 Stamina. After each target's Loyalty Collar trait is
           resolved, each enemy adjacent to either target makes a Presence test.
-        t1: Push 4; the enemy is frightened of the nearest non-minion war dog (save
+        tier1: Push 4; the enemy is frightened of the nearest non-minion war dog (save
           ends)
-        t2: Push 2; the enemy is frightened of the nearest non-minion war dog (EoT)
-        t3: Push 2
+        tier2: Push 2; the enemy is frightened of the nearest non-minion war dog (EoT)
+        tier3: Push 2
 ~~~

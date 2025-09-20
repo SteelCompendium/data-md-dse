@@ -14,24 +14,31 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: + Malice Features
 name: Demon Malice
-type: + Malice Features
 level: 1
 flavor: At the start of any demon's turn, you can spend Malice to activate one
   of the following features.
 features:
-  - name: Soulburn
+  - type: feature
+    feature_type: trait
+    name: Soulburn
     icon: ⭐️
     cost: 3 Malice
     effects:
       - effect: Each demon acting this turn has a double edge on abilities.
-  - name: Abyssal Evolution
+  - type: feature
+    feature_type: trait
+    name: Abyssal Evolution
     icon: 🌀
     cost: 7 Malice
     effects:
       - effect: A demon minion of your choice transforms into a non-minion horde demon
           of the same level.
-  - name: Abyssal Rift
+  - type: feature
+    feature_type: trait
+    name: Abyssal Rift
     icon: 🔳
     cost: 7 Malice
     effects:
@@ -47,7 +54,7 @@ features:
           encounter map. Additionally, a creature who has the Magic or Psionics
           skill can make a Reason test or Intuition test as a maneuver while
           adjacent to a rift to destabilize and close it.
-        t1: The rift remains open and regains 5 Stamina.
-        t2: The rift remains open.
-        t3: The rift closes.
+        tier1: The rift remains open and regains 5 Stamina.
+        tier2: The rift remains open.
+        tier3: The rift closes.
 ~~~

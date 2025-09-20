@@ -13,25 +13,32 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Malice Features
 name: Shadow Elf Malice
-type: Malice Features
 flavor: At the start of any shadow elf's turn, you can spend Malice to activate
   one of the following features.
 features:
-  - name: Watch Me Disappear
+  - type: feature
+    feature_type: trait
+    name: Watch Me Disappear
     icon: ⭐️
     cost: 3 Malice
     effects:
       - effect: Each shadow elf acting this turn can attempt to hide as a free maneuver
           if they have concealment.
-  - name: Extra Dimension
+  - type: feature
+    feature_type: trait
+    name: Extra Dimension
     icon: ⭐️
     cost: 5 Malice
     effects:
       - effect: When any shadow elf acting this turn makes a strike against a target who
           has I < 2 in addition to the strike's regular effects, the target is
           bleeding (save ends) or slowed (save ends).
-  - name: Home Is Where the Hurt Is
+  - type: feature
+    feature_type: trait
+    name: Home Is Where the Hurt Is
     icon: 🌀
     cost: 10 Malice
     effects:

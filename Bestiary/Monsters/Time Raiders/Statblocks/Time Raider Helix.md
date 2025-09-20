@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Time Raider Helix
 level: 3
 roles:
@@ -51,44 +52,50 @@ agility: 2
 reason: 2
 intuition: 2
 presence: 2
-traits:
-  - name: Foresight
-    effects:
-      - effect: The helix doesn't take a bane on strikes against creatures with
-          concealment.
-abilities:
-  - name: Blaster Volley
+features:
+  - type: feature
+    feature_type: ability
+    name: Blaster Volley
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Psionic
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 10
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 2
-        t1: 6 corruption damage; push 2
-        t2: 8 corruption damage; push 4
-        t3: 11 corruption damage; push 6, prone
-  - name: Kinetic Lane
+        tier1: 6 corruption damage; push 2
+        tier2: 8 corruption damage; push 4
+        tier3: 11 corruption damage; push 6, prone
+  - type: feature
+    feature_type: ability
+    name: Kinetic Lane
     icon: 🔳
     keywords:
       - Area
       - Psionic
       - Ranged
-    type: Maneuver
+    usage: Maneuver
     distance: 4 x 2 line within 10
     target: Special
     effects:
-      - effect: The area is a psionically charged treadmill that pushes creatures and
+      - name: Effect
+        effect: The area is a psionically charged treadmill that pushes creatures and
           objects at high speed in one direction of the helix's choice. Any
           creature who enters the area or starts their turn there slides 3
           squares toward the end of the area in the chosen direction. Each enemy
           in the area when it first appears takes 3 damage before they slide
-        name: Effect
-      - effect: The helix creates a second kinetic lane.
-        cost: 3 Malice
+      - cost: 3 Malice
+        effect: The helix creates a second kinetic lane.
+  - type: feature
+    feature_type: trait
+    name: Foresight
+    icon: ⭐️
+    effects:
+      - effect: The helix doesn't take a bane on strikes against creatures with
+          concealment.
 ~~~

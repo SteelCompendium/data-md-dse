@@ -13,24 +13,31 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Malice Features
 name: Lich Malice
-type: Malice Features
 flavor: At the start of a lich's turn, you can spend Malice to activate one of
   the following features.
 features:
-  - name: Soul Sip
+  - type: feature
+    feature_type: trait
+    name: Soul Sip
     icon: 👤
     cost: 3 Malice
     effects:
       - effect: The lich makes a free strike against one enemy within 20 squares. They
           then gain an edge on their next power roll.
-  - name: Solo Action
+  - type: feature
+    feature_type: trait
+    name: Solo Action
     icon: ☠️
     cost: 5 Malice
     effects:
       - effect: The lich takes an additional main action on their turn. They can use
           this feature even if they are dazed.
-  - name: Spirit Shell
+  - type: feature
+    feature_type: trait
+    name: Spirit Shell
     icon: 👤
     cost: 5 Malice
     effects:
@@ -38,10 +45,12 @@ features:
           until the start of the next round. Any creature who deals damage to
           the lich with a melee strike while the spirit shell is active makes a
           **Presence test**.
-        t1: 16 psychic damage, dazed (save ends)
-        t2: Dazed (save ends)
-        t3: No effect.
-  - name: Cloud of Deceit
+        tier1: 16 psychic damage, dazed (save ends)
+        tier2: Dazed (save ends)
+        tier3: No effect.
+  - type: feature
+    feature_type: trait
+    name: Cloud of Deceit
     icon: 🌀
     cost: 7 Malice
     effects:

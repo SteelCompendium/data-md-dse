@@ -13,23 +13,30 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Malice Features
 name: Kobold Malice
-type: Malice Features
 flavor: At the start of any kobolds's turn, you can spend Malice to activate one
   of the following features.
 features:
-  - name: Maniple Tactics
+  - type: feature
+    feature_type: trait
+    name: Maniple Tactics
     icon: ⭐️
     cost: 3 Malice
     effects:
       - effect: Up to 3 kobolds make a free strike, swaps positions with an adjacent
           kobold, and then that kobold makes a free strike.
-  - name: Set the Initiative
+  - type: feature
+    feature_type: trait
+    name: Set the Initiative
     icon: 🌀
     cost: 5 Malice
     effects:
       - effect: Two kobolds take their turns in a row.
-  - name: Shield Wall
+  - type: feature
+    feature_type: trait
+    name: Shield Wall
     icon: ⭐️
     cost: 7 Malice
     effects:

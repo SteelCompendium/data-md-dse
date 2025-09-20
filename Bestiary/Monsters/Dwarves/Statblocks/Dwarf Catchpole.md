@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Dwarf Catchpole
 level: 1
 roles:
@@ -49,24 +50,25 @@ agility: 0
 reason: 0
 intuition: 0
 presence: 0
-traits: []
-abilities:
-  - name: Maul
+features:
+  - type: feature
+    feature_type: ability
+    name: Maul
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Charge
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 2 damage
-        t2: 4 damage
-        t3: 5 damage; grabbed or prone
-      - effect: If the target is restrained, they take an extra 2 damage.
-        name: Effect
+        tier1: 2 damage
+        tier2: 4 damage
+        tier3: 5 damage; grabbed or prone
+      - name: Effect
+        effect: If the target is restrained, they take an extra 2 damage.
 ~~~

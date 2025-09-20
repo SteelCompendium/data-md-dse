@@ -13,75 +13,88 @@ type: dynamic-terrain/siege-engine
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Siege Engine Artillery
 name: Field Ballista
-type: Siege Engine Artillery
 level: 2
 ev: "8"
 flavor: A massive crossbow fires thick metal bolts with devastating effect.
 stamina: "40"
 size: "2"
 features:
-  - name: Deactivate
+  - type: feature
+    feature_type: trait
+    name: Deactivate
     icon: 🌀
     effects:
       - effect: As a maneuver, a creature adjacent to a field ballista can make an
           **Agility test**.
-        t1: The creature accidentally activates the **Release Bolt** ability.
-        t2: The field ballista is deactivated but the creature is slowed (EoT).
-        t3: The field ballista is deactivated and can't be used.
-  - name: Release Bolt
+        tier1: The creature accidentally activates the **Release Bolt** ability.
+        tier2: The field ballista is deactivated but the creature is slowed (EoT).
+        tier3: The field ballista is deactivated and can't be used.
+  - type: feature
+    feature_type: ability
+    name: Release Bolt
     icon: 🏹
     keywords:
       - Ranged
       - Strike
       - Weapon
-    type: Main action (Adjacent creature)
+    usage: Main action (Adjacent creature)
     distance: Ranged 20
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 5 damage
-        t2: 8 damage; M < 1 push 1
-        t3: 11 damage; M < 2 push 2
-      - effect: This ability can't be used again until the field ballista is reloaded.
-        name: Effect
-  - name: Reload
+        tier1: 5 damage
+        tier2: 8 damage; M < 1 push 1
+        tier3: 11 damage; M < 2 push 2
+      - name: Effect
+        effect: This ability can't be used again until the field ballista is reloaded.
+  - type: feature
+    feature_type: ability
+    name: Reload
     icon: ⭐️
     keywords:
       - "-"
-    type: Main action (Adjacent creature)
+    usage: Main action (Adjacent creature)
     distance: "-"
     target: "-"
     effects:
-      - effect: The field ballista is reloaded, allowing **Release Bolt** to be used
+      - name: Effect
+        effect: The field ballista is reloaded, allowing **Release Bolt** to be used
           again. This action can be used only once per round.
-        name: Effect
-  - name: Spot
+  - type: feature
+    feature_type: ability
+    name: Spot
     icon: ⭐️
     keywords:
       - "-"
-    type: Main action (Adjacent creature)
+    usage: Main action (Adjacent creature)
     distance: "-"
     target: "-"
     effects: []
-  - name: Move
+  - type: feature
+    feature_type: ability
+    name: Move
     icon: ⭐️
     keywords:
       - "-"
-    type: Main action (Adjacent creature)
+    usage: Main action (Adjacent creature)
     distance: "-"
     target: "-"
     effects:
-      - effect: The field ballista and the creature using this action move together up
+      - name: Effect
+        effect: The field ballista and the creature using this action move together up
           to 3 squares.
-        name: Effect
-  - name: Upgrades
+  - type: feature
+    feature_type: trait
+    name: Upgrades
     icon: ⭐️
     effects:
-      - effect: The field ballista targets the nearest two additional creatures or
-          objects in a straight line beyond the initial target.
-        name: Penetrating Bolt
+      - name: Penetrating Bolt
         cost: +2 EV
+        effect: The field ballista targets the nearest two additional creatures or
+          objects in a straight line beyond the initial target.
       - name: Chain Bolt
         cost: +2 EV
         effect: >-
@@ -100,9 +113,9 @@ features:
           | **📏 Ranged 20**               |       **🎯 One creature or object**
           |
       - roll: Power Roll + 2
-        t1: 4 damage
-        t2: 7 damage; M < 1 slowed (save ends)
-        t3: 10 damage; M < 2 slowed (save ends)
+        tier1: 4 damage
+        tier2: 7 damage; M < 1 slowed (save ends)
+        tier3: 10 damage; M < 2 slowed (save ends)
       - name: Effect
         effect: |-
           This ability can't be used again until the field ballista is reloaded.
@@ -113,9 +126,9 @@ features:
       - name: Special
         effect: The target must be slowed by the field ballista.
       - roll: Power Roll + 2
-        t1: Pull 1
-        t2: Pull
-        t3: 3 Pull 5
-      - effect: This forced movement triggers opportunity attacks.
-        name: Effect
+        tier1: Pull 1
+        tier2: Pull
+        tier3: 3 Pull 5
+      - name: Effect
+        effect: This forced movement triggers opportunity attacks.
 ~~~

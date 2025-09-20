@@ -1,10 +1,11 @@
 ---
+ability_type: Signature
 action_type: Main action
 class: talent
 distance: Ranged 10
 feature_type: ability
 file_basename: Entropic Bolt
-file_dpath: Talent/1st-Level Features
+file_dpath: Abilities/Talent/1st-Level Features
 flavor: You advance an enemy's age for a moment.
 item_id: entropic-bolt
 item_index: '16'
@@ -18,13 +19,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:entropic-bolt
 scdc:
-- 1.1.1:13.2.1.1:16
+- 1.1.1:11.2.1.1:16
 source: mcdm.heroes.v1
 target: One creature or object
 type: feature/ability/talent/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Entropic Bolt
 flavor: You advance an enemy's age for a moment.
 keywords:
@@ -32,16 +35,17 @@ keywords:
   - Psionic
   - Ranged
   - Strike
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: One creature or object
 metadata:
+  ability_type: Signature
   action_type: Main action
   class: talent
   distance: Ranged 10
   feature_type: ability
   file_basename: Entropic Bolt
-  file_dpath: Talent/1st-Level Features
+  file_dpath: Abilities/Talent/1st-Level Features
   flavor: You advance an enemy's age for a moment.
   item_id: entropic-bolt
   item_index: "16"
@@ -55,19 +59,19 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:entropic-bolt
   scdc:
-    - 1.1.1:13.2.1.1:16
+    - 1.1.1:11.2.1.1:16
   source: mcdm.heroes.v1
   target: One creature or object
   type: feature/ability/talent/1st-level-feature
 effects:
   - roll: Power Roll + Presence
-    t1: 2 + P corruption damage; P < WEAK, slowed (save ends)
-    t2: 3 + P corruption damage; P < AVERAGE, slowed (save ends)
-    t3: 5 + P corruption damage; P < STRONG, slowed (save ends)
-  - effect: The target takes an extra 1 corruption damage for each additional time
+    tier1: 2 + P corruption damage; P < WEAK, slowed (save ends)
+    tier2: 3 + P corruption damage; P < AVERAGE, slowed (save ends)
+    tier3: 5 + P corruption damage; P < STRONG, slowed (save ends)
+  - name: Effect
+    effect: The target takes an extra 1 corruption damage for each additional time
       they are targeted by this ability during the encounter.
-    name: Effect
-  - effect: You gain 1 clarity when you obtain a tier 2 or tier 3 outcome on the
+  - name: Strained
+    effect: You gain 1 clarity when you obtain a tier 2 or tier 3 outcome on the
       power roll.
-    name: Strained
 ```

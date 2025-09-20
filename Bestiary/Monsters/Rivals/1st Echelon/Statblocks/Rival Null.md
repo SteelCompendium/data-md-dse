@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Rival Null
 level: 2
 roles:
@@ -48,33 +49,27 @@ agility: 2
 reason: 1
 intuition: 2
 presence: 0
-traits:
-  - name: Inertial Shield
-    effects:
-      - effect: The first time each round that the null is targeted by a da- age-dealing
-          strike, they halve the damage.
-  - name: Rivalry
-    effects:
-      - effect: At the start of an encounter, the null chooses one creature within their
-          line of effect. Both the null and the creature can add a d3 roll to
-          power rolls they make against each other.
-abilities:
-  - name: Nimble Step
+features:
+  - type: feature
+    feature_type: ability
+    name: Nimble Step
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 2
-        t1: 7 damage; the null shifts up to 2 square
-        t2: 10 damage; the null shifts up to 3 squares
-        t3: 13 damage; the null shifts up to 4 squares
-  - name: Numb
+        tier1: 7 damage; the null shifts up to 2 square
+        tier2: 10 damage; the null shifts up to 3 squares
+        tier3: 13 damage; the null shifts up to 4 squares
+  - type: feature
+    feature_type: ability
+    name: Numb
     icon: 🗡
     cost: 2 Malice
     keywords:
@@ -82,12 +77,27 @@ abilities:
       - Psionic
       - Strike
       - Weapon
-    type: Maneuver
+    usage: Maneuver
     distance: Melee 1
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 7 damage; R < 0 slowed (EoT)
-        t2: 10 damage; R < 1 slowed (EoT)
-        t3: 13 damage; R < 2 dazed and slowed (EoT)
+        tier1: 7 damage; R < 0 slowed (EoT)
+        tier2: 10 damage; R < 1 slowed (EoT)
+        tier3: 13 damage; R < 2 dazed and slowed (EoT)
+  - type: feature
+    feature_type: trait
+    name: Inertial Shield
+    icon: ⭐️
+    effects:
+      - effect: The first time each round that the null is targeted by a da- age-dealing
+          strike, they halve the damage.
+  - type: feature
+    feature_type: trait
+    name: Rivalry
+    icon: ⭐️
+    effects:
+      - effect: At the start of an encounter, the null chooses one creature within their
+          line of effect. Both the null and the creature can add a d3 roll to
+          power rolls they make against each other.
 ~~~

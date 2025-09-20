@@ -7,7 +7,7 @@ cost_resource: Drama
 distance: 3 burst
 feature_type: ability
 file_basename: Action Hero
-file_dpath: Troubadour/5th-Level Features
+file_dpath: Abilities/Troubadour/5th-Level Features
 flavor: You wield your weapon at blistering speed, leaving everyone around you fighting
   for their lives.
 item_id: action-hero-9-drama
@@ -21,13 +21,15 @@ level: 5
 scc:
 - mcdm.heroes.v1:feature.ability.troubadour.5th-level-feature:action-hero-9-drama
 scdc:
-- 1.1.1:13.2.3.4:01
+- 1.1.1:11.2.3.4:01
 source: mcdm.heroes.v1
 target: Each enemy in the area
 type: feature/ability/troubadour/5th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Action Hero
 cost: 9 Drama
 flavor: You wield your weapon at blistering speed, leaving everyone around you
@@ -36,7 +38,7 @@ keywords:
   - Area
   - Melee
   - Weapon
-type: Main action
+usage: Main action
 distance: 3 burst
 target: Each enemy in the area
 metadata:
@@ -48,7 +50,7 @@ metadata:
   distance: 3 burst
   feature_type: ability
   file_basename: Action Hero
-  file_dpath: Troubadour/5th-Level Features
+  file_dpath: Abilities/Troubadour/5th-Level Features
   flavor: You wield your weapon at blistering speed, leaving everyone around you
     fighting for their lives.
   item_id: action-hero-9-drama
@@ -62,16 +64,16 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.troubadour.5th-level-feature:action-hero-9-drama
   scdc:
-    - 1.1.1:13.2.3.4:01
+    - 1.1.1:11.2.3.4:01
   source: mcdm.heroes.v1
   target: Each enemy in the area
   type: feature/ability/troubadour/5th-level-feature
 effects:
   - roll: Power Roll + Agility
-    t1: 10 damage
-    t2: 14 damage
-    t3: 20 damage
-  - effect: Unless you score a critical hit, this ability can't reduce a non-minion
+    tier1: 10 damage
+    tier2: 14 damage
+    tier3: 20 damage
+  - name: Effect
+    effect: Unless you score a critical hit, this ability can't reduce a non-minion
       target below 1 Stamina.
-    name: Effect
 ```

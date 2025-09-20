@@ -7,7 +7,7 @@ cost_resource: Ferocity
 distance: Melee 1
 feature_type: ability
 file_basename: Rebounding Storm
-file_dpath: Fury/5th-Level Features
+file_dpath: Abilities/Fury/5th-Level Features
 flavor: You knock around enemies like playthings.
 item_id: rebounding-storm-9-ferocity
 item_index: '02'
@@ -20,13 +20,15 @@ level: 5
 scc:
 - mcdm.heroes.v1:feature.ability.fury.5th-level-feature:rebounding-storm-9-ferocity
 scdc:
-- 1.1.1:13.2.5.4:02
+- 1.1.1:11.2.5.4:02
 source: mcdm.heroes.v1
 target: Two creatures or objects
 type: feature/ability/fury/5th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Rebounding Storm
 cost: 9 Ferocity
 flavor: You knock around enemies like playthings.
@@ -34,7 +36,7 @@ keywords:
   - Melee
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1
 target: Two creatures or objects
 metadata:
@@ -46,7 +48,7 @@ metadata:
   distance: Melee 1
   feature_type: ability
   file_basename: Rebounding Storm
-  file_dpath: Fury/5th-Level Features
+  file_dpath: Abilities/Fury/5th-Level Features
   flavor: You knock around enemies like playthings.
   item_id: rebounding-storm-9-ferocity
   item_index: "02"
@@ -59,19 +61,19 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.fury.5th-level-feature:rebounding-storm-9-ferocity
   scdc:
-    - 1.1.1:13.2.5.4:02
+    - 1.1.1:11.2.5.4:02
   source: mcdm.heroes.v1
   target: Two creatures or objects
   type: feature/ability/fury/5th-level-feature
 effects:
   - roll: Power Roll + Might
-    t1: 9 damage; push 3
-    t2: 14 damage; push 5
-    t3: 19 damage; push 7
-  - effect: When a target would end this forced movement by colliding with a
+    tier1: 9 damage; push 3
+    tier2: 14 damage; push 5
+    tier3: 19 damage; push 7
+  - name: Effect
+    effect: When a target would end this forced movement by colliding with a
       creature or object, they take damage as usual, then are pushed the
       remaining distance away from the creature or object in the direction they
       came from. As long as forced movement remains, this effect continues if
       the target collides with another creature or object.
-    name: Effect
 ```

@@ -1,4 +1,5 @@
 ---
+ability_type: Signature
 action_type: Main action
 class: ignored
 distance: Melee 1 or ranged 10
@@ -13,7 +14,6 @@ keywords:
 - Ranged
 - Strike
 - Weapon
-kit: Cloak and Dagger
 scc:
 - mcdm.heroes.v1:kit-ability.cloak-and-dagger:fade
 scdc:
@@ -23,7 +23,9 @@ target: One creature
 type: kit-ability/cloak-and-dagger
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Fade
 flavor: A stab, and a few quick, careful steps back.
 keywords:
@@ -31,10 +33,11 @@ keywords:
   - Ranged
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1 or ranged 10
 target: One creature
 metadata:
+  ability_type: Signature
   action_type: Main action
   class: ignored
   distance: Melee 1 or ranged 10
@@ -49,7 +52,6 @@ metadata:
     - Ranged
     - Strike
     - Weapon
-  kit: Cloak and Dagger
   scc:
     - mcdm.heroes.v1:kit-ability.cloak-and-dagger:fade
   scdc:
@@ -59,7 +61,7 @@ metadata:
   type: kit-ability/cloak-and-dagger
 effects:
   - roll: Power Roll + Might or Agility
-    t1: 3 + M or A damage; you can shift 1 square
-    t2: 6 + M or A damage; you can shift up to 2 squares
-    t3: 8 + M or A damage; you can shift up to 3 squares
+    tier1: 3 + M or A damage; you can shift 1 square
+    tier2: 6 + M or A damage; you can shift up to 2 squares
+    tier3: 8 + M or A damage; you can shift up to 3 squares
 ```

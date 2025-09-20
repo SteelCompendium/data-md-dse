@@ -7,7 +7,7 @@ cost_resource: Discipline
 distance: Self; see below
 feature_type: ability
 file_basename: Phase Step
-file_dpath: Null/6th-Level Features
+file_dpath: Abilities/Null/6th-Level Features
 flavor: You weaken your connection to this manifold, allowing you to move through
   and damage enemies.
 item_id: phase-step-9-discipline
@@ -21,14 +21,16 @@ level: 6
 scc:
 - mcdm.heroes.v1:feature.ability.null.6th-level-feature:phase-step-9-discipline
 scdc:
-- 1.1.1:13.2.6.3:06
+- 1.1.1:11.2.6.3:06
 source: mcdm.heroes.v1
 subclass: Chronokinetic
 target: Self
 type: feature/ability/null/6th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Phase Step
 cost: 9 Discipline
 flavor: You weaken your connection to this manifold, allowing you to move
@@ -37,7 +39,7 @@ keywords:
   - Melee
   - Psionic
   - Weapon
-type: Main action
+usage: Main action
 distance: Self; see below
 target: Self
 metadata:
@@ -49,7 +51,7 @@ metadata:
   distance: Self; see below
   feature_type: ability
   file_basename: Phase Step
-  file_dpath: Null/6th-Level Features
+  file_dpath: Abilities/Null/6th-Level Features
   flavor: You weaken your connection to this manifold, allowing you to move
     through and damage enemies.
   item_id: phase-step-9-discipline
@@ -63,7 +65,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.null.6th-level-feature:phase-step-9-discipline
   scdc:
-    - 1.1.1:13.2.6.3:06
+    - 1.1.1:11.2.6.3:06
   source: mcdm.heroes.v1
   subclass: Chronokinetic
   target: Self
@@ -74,7 +76,7 @@ effects:
       objects are not difficult terrain for this shift. You make one power roll
       that targets each enemy you moved through during this shift.
   - roll: Power Roll + Agility
-    t1: 6 damage; M < WEAK, dazed
-    t2: 8 damage; M < AVERAGE, dazed
-    t3: 12 damage; M < STRONG, dazed
+    tier1: 6 damage; M < WEAK, dazed
+    tier2: 8 damage; M < AVERAGE, dazed
+    tier3: 12 damage; M < STRONG, dazed
 ```

@@ -14,19 +14,24 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: + Malice Features
 name: Demon Malice
-type: + Malice Features
 level: 4
 flavor: At the start of any level 4 or higher demon's turn, you can spend Malice
   to activate one of the following features.
 features:
-  - name: Prior Malice Features
+  - type: feature
+    feature_type: trait
+    name: Prior Malice Features
     icon: ⭐️
     cost: 3-7 Malice
     effects:
       - effect: The demon activates a Malice feature available to demons of level or
           lower.
-  - name: Abyssal Jaunt
+  - type: feature
+    feature_type: trait
+    name: Abyssal Jaunt
     icon: 👤
     cost: 3 Malice
     effects:

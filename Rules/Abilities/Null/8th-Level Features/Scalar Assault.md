@@ -7,7 +7,7 @@ cost_resource: Discipline
 distance: 3 cube within 1
 feature_type: ability
 file_basename: Scalar Assault
-file_dpath: Null/8th-Level Features
+file_dpath: Abilities/Null/8th-Level Features
 flavor: You warp reality to grow a limb for just a moment and make a single devastating
   attack.
 item_id: scalar-assault-11-discipline
@@ -20,13 +20,15 @@ level: 8
 scc:
 - mcdm.heroes.v1:feature.ability.null.8th-level-feature:scalar-assault-11-discipline
 scdc:
-- 1.1.1:13.2.6.2:02
+- 1.1.1:11.2.6.2:02
 source: mcdm.heroes.v1
 target: Each enemy in the area
 type: feature/ability/null/8th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Scalar Assault
 cost: 11 Discipline
 flavor: You warp reality to grow a limb for just a moment and make a single
@@ -34,7 +36,7 @@ flavor: You warp reality to grow a limb for just a moment and make a single
 keywords:
   - Area
   - Psionic
-type: Main action
+usage: Main action
 distance: 3 cube within 1
 target: Each enemy in the area
 metadata:
@@ -46,7 +48,7 @@ metadata:
   distance: 3 cube within 1
   feature_type: ability
   file_basename: Scalar Assault
-  file_dpath: Null/8th-Level Features
+  file_dpath: Abilities/Null/8th-Level Features
   flavor: You warp reality to grow a limb for just a moment and make a single
     devastating attack.
   item_id: scalar-assault-11-discipline
@@ -59,13 +61,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.null.8th-level-feature:scalar-assault-11-discipline
   scdc:
-    - 1.1.1:13.2.6.2:02
+    - 1.1.1:11.2.6.2:02
   source: mcdm.heroes.v1
   target: Each enemy in the area
   type: feature/ability/null/8th-level-feature
 effects:
   - roll: Power Roll + Agility
-    t1: 12 psychic damage; push 3
-    t2: 17 psychic damage; push 5
-    t3: 23 psychic damage; push 7
+    tier1: 12 psychic damage; push 3
+    tier2: 17 psychic damage; push 5
+    tier3: 23 psychic damage; push 7
 ```

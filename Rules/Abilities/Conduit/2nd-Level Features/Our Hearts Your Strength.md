@@ -7,7 +7,7 @@ cost_resource: Piety
 distance: Ranged 10
 feature_type: ability
 file_basename: Our Hearts Your Strength
-file_dpath: Conduit/2nd-Level Features
+file_dpath: Abilities/Conduit/2nd-Level Features
 flavor: An ally gains strength from their friends.
 item_id: our-hearts-your-strength-5-piety
 item_index: '04'
@@ -19,21 +19,23 @@ level: 2
 scc:
 - mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:our-hearts-your-strength-5-piety
 scdc:
-- 1.1.1:13.2.8.5:04
+- 1.1.1:11.2.8.5:04
 source: mcdm.heroes.v1
 subclass: Love
 target: Self and one ally
 type: feature/ability/conduit/2nd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Our Hearts Your Strength
 cost: 5 Piety
 flavor: An ally gains strength from their friends.
 keywords:
   - Magic
   - Ranged
-type: Maneuver
+usage: Maneuver
 distance: Ranged 10
 target: Self and one ally
 metadata:
@@ -45,7 +47,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Our Hearts Your Strength
-  file_dpath: Conduit/2nd-Level Features
+  file_dpath: Abilities/Conduit/2nd-Level Features
   flavor: An ally gains strength from their friends.
   item_id: our-hearts-your-strength-5-piety
   item_index: "04"
@@ -57,15 +59,15 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:our-hearts-your-strength-5-piety
   scdc:
-    - 1.1.1:13.2.8.5:04
+    - 1.1.1:11.2.8.5:04
   source: mcdm.heroes.v1
   subclass: Love
   target: Self and one ally
   type: feature/ability/conduit/2nd-level-feature
 effects:
-  - effect: Until the end of the encounter or until the target is dying, at the
+  - name: Effect
+    effect: Until the end of the encounter or until the target is dying, at the
       start of each of the target's turns, they gain a bonus to speed and a
       bonus to rolled damage equal to the number of allies within 10 squares of
       them. This bonus lasts until the start of their next turn.
-    name: Effect
 ```

@@ -7,7 +7,7 @@ cost_resource: Ferocity
 distance: Self
 feature_type: ability
 file_basename: Avalanche Impact
-file_dpath: Fury/6th-Level Features
+file_dpath: Abilities/Fury/6th-Level Features
 flavor: You leap and crash down, causing a shockwave that devastates foes.
 item_id: avalanche-impact-9-ferocity
 item_index: '04'
@@ -18,20 +18,22 @@ level: 6
 scc:
 - mcdm.heroes.v1:feature.ability.fury.6th-level-feature:avalanche-impact-9-ferocity
 scdc:
-- 1.1.1:13.2.5.3:04
+- 1.1.1:11.2.5.3:04
 source: mcdm.heroes.v1
 subclass: Berserker
 target: Self
 type: feature/ability/fury/6th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Avalanche Impact
 cost: 9 Ferocity
 flavor: You leap and crash down, causing a shockwave that devastates foes.
 keywords:
   - Magic
-type: Maneuver
+usage: Maneuver
 distance: Self
 target: Self
 metadata:
@@ -43,7 +45,7 @@ metadata:
   distance: Self
   feature_type: ability
   file_basename: Avalanche Impact
-  file_dpath: Fury/6th-Level Features
+  file_dpath: Abilities/Fury/6th-Level Features
   flavor: You leap and crash down, causing a shockwave that devastates foes.
   item_id: avalanche-impact-9-ferocity
   item_index: "04"
@@ -54,7 +56,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.fury.6th-level-feature:avalanche-impact-9-ferocity
   scdc:
-    - 1.1.1:13.2.5.3:04
+    - 1.1.1:11.2.5.3:04
   source: mcdm.heroes.v1
   subclass: Berserker
   target: Self
@@ -64,7 +66,7 @@ effects:
     effect: You jump up to your maximum jump distance and make one power roll that
       targets each creature adjacent to the space where you land.
   - roll: Power Roll + Might
-    t1: 4 damage; push 1
-    t2: 7 damage; push 2
-    t3: 11 damage; push 3
+    tier1: 4 damage; push 1
+    tier2: 7 damage; push 2
+    tier3: 11 damage; push 3
 ```

@@ -7,7 +7,7 @@ cost_resource: Clarity
 distance: Melee 2
 feature_type: ability
 file_basename: Precognition
-file_dpath: Talent/1st-Level Features
+file_dpath: Abilities/Talent/1st-Level Features
 flavor: You give a target a glimpse into the future so that they're ready for what
   comes next.
 item_id: precognition-3-clarity
@@ -21,13 +21,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:precognition-3-clarity
 scdc:
-- 1.1.1:13.2.1.1:11
+- 1.1.1:11.2.1.1:11
 source: mcdm.heroes.v1
 target: Self or one ally
 type: feature/ability/talent/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Precognition
 cost: 3 Clarity
 flavor: You give a target a glimpse into the future so that they're ready for
@@ -36,7 +38,7 @@ keywords:
   - Chronopathy
   - Melee
   - Psionic
-type: Main action
+usage: Main action
 distance: Melee 2
 target: Self or one ally
 metadata:
@@ -48,7 +50,7 @@ metadata:
   distance: Melee 2
   feature_type: ability
   file_basename: Precognition
-  file_dpath: Talent/1st-Level Features
+  file_dpath: Abilities/Talent/1st-Level Features
   flavor: You give a target a glimpse into the future so that they're ready for
     what comes next.
   item_id: precognition-3-clarity
@@ -62,14 +64,14 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:precognition-3-clarity
   scdc:
-    - 1.1.1:13.2.1.1:11
+    - 1.1.1:11.2.1.1:11
   source: mcdm.heroes.v1
   target: Self or one ally
   type: feature/ability/talent/1st-level-feature
 effects:
-  - effect: Ability rolls made against the target take a bane until the start of
+  - name: Effect
+    effect: Ability rolls made against the target take a bane until the start of
       your next turn. Whenever the target takes damage while under this effect,
       they can use a triggered action to make a free strike against the source
       of the damage.
-    name: Effect
 ```

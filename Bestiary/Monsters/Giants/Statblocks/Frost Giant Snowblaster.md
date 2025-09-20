@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Frost Giant Snowblaster
 level: 8
 roles:
@@ -51,25 +52,29 @@ agility: -1
 reason: -1
 intuition: 4
 presence: 2
-traits:
-  - name: Kingdom of Isolation
-    effects:
-      - effect: The snowblaster is surrounded by a snowstorm. Any enemy who starts their
-          turn within 2 squares of the snowblaster can't shift.
-abilities:
-  - name: Slushfall
+features:
+  - type: feature
+    feature_type: ability
+    name: Slushfall
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Ranged
       - Strike
-    type: Main action
+    usage: Main action
     distance: Ranged 12
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 4
-        t1: 4 cold damage
-        t2: 7 cold damage
-        t3: 9 cold damage; prone
+        tier1: 4 cold damage
+        tier2: 7 cold damage
+        tier3: 9 cold damage; prone
+  - type: feature
+    feature_type: trait
+    name: Kingdom of Isolation
+    icon: ⭐️
+    effects:
+      - effect: The snowblaster is surrounded by a snowstorm. Any enemy who starts their
+          turn within 2 squares of the snowblaster can't shift.
 ~~~

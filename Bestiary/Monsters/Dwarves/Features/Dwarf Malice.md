@@ -13,12 +13,15 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Malice Features
 name: Dwarf Malice
-type: Malice Features
 flavor: At the start of any dwarf's turn, you can spend Malice to activate one
   of the following features.
 features:
-  - name: Breaching Charge
+  - type: feature
+    feature_type: trait
+    name: Breaching Charge
     icon: 👤
     cost: 3 Malice
     effects:
@@ -26,32 +29,36 @@ features:
           Malice spent. Each enemy adjacent to the destroyed object or square
           takes the object's Stamina in damage (3 for wood, 6 for stone, or 9
           for metal).
-  - name: Rappelling Barrage
+  - type: feature
+    feature_type: trait
+    name: Rappelling Barrage
     icon: ⭐️
     cost: 5 Malice
     effects:
       - effect: Each dwarf acting this turn can automatically climb at full speed while
           moving. At any point during this movement, they can make a free
           strike.
-  - name: Snaring Line
+  - type: feature
+    feature_type: ability
+    name: Snaring Line
     icon: 🔳
     cost: 7 Malice
     keywords:
       - Area
       - Magic
       - Ranged
-    type: Main action
+    usage: Main action
     distance: 10 x 1 line within 10
     target: Each enemy in the area
     effects:
       - name: Effect
         effect: Each target makes an **Agility test**.
-        t1: 8 damage; restrained (EoT)
-        t2: 6 damage; slowed (EoT)
-        t3: No effect.
+        tier1: 8 damage; restrained (EoT)
+        tier2: 6 damage; slowed (EoT)
+        tier3: No effect.
       - effect: The snaring line remains until the end of the encounter. Any enemy who
           moves into the area for the first time in a round or starts their turn
           there must make the test.
-      - effect: This ability can't be used by a minion.
-        name: Special
+      - name: Special
+        effect: This ability can't be used by a minion.
 ~~~

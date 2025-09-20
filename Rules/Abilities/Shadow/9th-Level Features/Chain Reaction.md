@@ -7,7 +7,7 @@ cost_resource: Insight
 distance: Ranged 10
 feature_type: ability
 file_basename: Chain Reaction
-file_dpath: Shadow/9th-Level Features
+file_dpath: Abilities/Shadow/9th-Level Features
 flavor: One explosion, an offense. Three explosions, an assault. Nine explosions,
   a celebration.
 item_id: chain-reaction-11-insight
@@ -19,21 +19,23 @@ level: 9
 scc:
 - mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:chain-reaction-11-insight
 scdc:
-- 1.1.1:13.2.2.7:02
+- 1.1.1:11.2.2.7:02
 source: mcdm.heroes.v1
 subclass: Caustic Alchemy
 target: One creature or object
 type: feature/ability/shadow/9th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Chain Reaction
 cost: 11 Insight
 flavor: One explosion, an offense. Three explosions, an assault. Nine
   explosions, a celebration.
 keywords:
   - Ranged
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: One creature or object
 metadata:
@@ -45,7 +47,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Chain Reaction
-  file_dpath: Shadow/9th-Level Features
+  file_dpath: Abilities/Shadow/9th-Level Features
   flavor: One explosion, an offense. Three explosions, an assault. Nine
     explosions, a celebration.
   item_id: chain-reaction-11-insight
@@ -57,7 +59,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:chain-reaction-11-insight
   scdc:
-    - 1.1.1:13.2.2.7:02
+    - 1.1.1:11.2.2.7:02
   source: mcdm.heroes.v1
   subclass: Caustic Alchemy
   target: One creature or object
@@ -69,7 +71,7 @@ effects:
       continues until there are no more available targets. The ability deals
       acid, fire, or poison damage (your choice).
   - roll: Power Roll + Agility
-    t1: 7 damage
-    t2: 10 damage
-    t3: 15 damage
+    tier1: 7 damage
+    tier2: 10 damage
+    tier3: 15 damage
 ```

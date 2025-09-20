@@ -7,7 +7,7 @@ cost_resource: Insight
 distance: Melee 1
 feature_type: ability
 file_basename: Puppet Strings
-file_dpath: Shadow/6th-Level Features
+file_dpath: Abilities/Shadow/6th-Level Features
 flavor: You prick little needles on the tips of your fingers into the nerves of your
   enemies and cause them to lose control.
 item_id: puppet-strings-9-insight
@@ -22,14 +22,16 @@ level: 6
 scc:
 - mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:puppet-strings-9-insight
 scdc:
-- 1.1.1:13.2.2.3:03
+- 1.1.1:11.2.2.3:03
 source: mcdm.heroes.v1
 subclass: Harlequin Mask
 target: Two enemies
 type: feature/ability/shadow/6th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Puppet Strings
 cost: 9 Insight
 flavor: You prick little needles on the tips of your fingers into the nerves of
@@ -39,7 +41,7 @@ keywords:
   - Melee
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1
 target: Two enemies
 metadata:
@@ -51,7 +53,7 @@ metadata:
   distance: Melee 1
   feature_type: ability
   file_basename: Puppet Strings
-  file_dpath: Shadow/6th-Level Features
+  file_dpath: Abilities/Shadow/6th-Level Features
   flavor: You prick little needles on the tips of your fingers into the nerves of
     your enemies and cause them to lose control.
   item_id: puppet-strings-9-insight
@@ -66,21 +68,22 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:puppet-strings-9-insight
   scdc:
-    - 1.1.1:13.2.2.3:03
+    - 1.1.1:11.2.2.3:03
   source: mcdm.heroes.v1
   subclass: Harlequin Mask
   target: Two enemies
   type: feature/ability/shadow/6th-level-feature
 effects:
   - roll: Power Roll + Agility
-    t1: 2 damage; if the target has R < WEAK, before the damage is resolved, they
+    tier1: 2 damage; if the target has R < WEAK, before the damage is resolved, they
       make a free strike.
-    t2: 5 damage; if the target has R < AVERAGE, before the damage is resolved, they
-      use a main action ability of your choice.
-    t3: 7 damage; if the target has R < STRONG, before the damage is resolved, they
-      can shift up to their speed and use a main action ability of your choice.
-  - effect: You choose the new targets for the original target's free strike or
+    tier2: 5 damage; if the target has R < AVERAGE, before the damage is resolved,
+      they use a main action ability of your choice.
+    tier3: 7 damage; if the target has R < STRONG, before the damage is resolved,
+      they can shift up to their speed and use a main action ability of your
+      choice.
+  - name: Effect
+    effect: You choose the new targets for the original target's free strike or
       ability. Additionally, if you are hidden or disguised, using this ability
       doesn't cause you to be revealed.
-    name: Effect
 ```

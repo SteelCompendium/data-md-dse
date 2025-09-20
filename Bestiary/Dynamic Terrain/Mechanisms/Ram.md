@@ -13,8 +13,9 @@ type: dynamic-terrain/mechanism
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Trap Ambusher
 name: Ram
-type: Trap Ambusher
 level: 2
 ev: "3"
 flavor: A heavy wooden ram drops down or swings into the fray, crushing all in
@@ -27,26 +28,32 @@ stats:
   - name: Direction
     value: One side of the ram is defined as the front.
 features:
-  - name: Deactivate
+  - type: feature
+    feature_type: trait
+    name: Deactivate
     icon: 🌀
     effects:
       - effect: As a maneuver, a creature adjacent to a ram can make an **Agility
           test**.
-        t1: The creature triggers the ram and is affected as if in its space.
-        t2: The ram is deactivated but the creature is slowed (EoT).
-        t3: The ram is deactivated and doesn't trigger.
-  - name: Activate
+        tier1: The creature triggers the ram and is affected as if in its space.
+        tier2: The ram is deactivated but the creature is slowed (EoT).
+        tier3: The ram is deactivated and doesn't trigger.
+  - type: feature
+    feature_type: trait
+    name: Activate
     icon: ❕
     effects:
       - effect: A pressure plate, switch, or other linked trigger is activated.
-      - effect: The **Ram** ability.
-        name: Effect
-  - name: Ram
+      - name: Effect
+        effect: The **Ram** ability.
+  - type: feature
+    feature_type: ability
+    name: Ram
     icon: ❗️
     keywords:
       - Area
       - Weapon
-    type: Free triggered action
+    usage: Free triggered action
     distance: Special
     target: Each creature and object in the area
     trigger: A pressure plate, switch, or other linked trigger is activated.
@@ -55,34 +62,38 @@ features:
         effect: The area of this ability is the path the ram moves through from its
           starting position.
       - roll: Power Roll + 2
-        t1: 3 damage; slide 1, ignoring stability
-        t2: 6 damage; push 3
-        t3: 9 damage; push 5
-      - effect: A target slid by the ram ends up on one side of it or the other (choose
+        tier1: 3 damage; slide 1, ignoring stability
+        tier2: 6 damage; push 3
+        tier3: 9 damage; push 5
+      - name: Effect
+        effect: A target slid by the ram ends up on one side of it or the other (choose
           randomly). The ram must be manually reset.
-        name: Effect
-  - name: Upgrades
+  - type: feature
+    feature_type: trait
+    name: Upgrades
     icon: ⭐️
     effects:
-      - effect: The ram is made of stone, has 6 Stamina per square, and deals an extra
+      - name: Stone
+        cost: +1 EV
+        effect: The ram is made of stone, has 6 Stamina per square, and deals an extra
           1d3 damage.
-        name: Stone
-        cost: +1 EV
-      - effect: The ram is made of metal, has 9 Stamina per square, and deals an extra
-          1d6 damage.
-        name: Metal
+      - name: Metal
         cost: +2 EV
-      - effect: The ram automatically resets at the start of each round.
-        name: Repeating
+        effect: The ram is made of metal, has 9 Stamina per square, and deals an extra
+          1d6 damage.
+      - name: Repeating
         cost: +1 EV
-      - effect: The ram automatically resets at the start of each turn.
-        name: Rapid Repeating
+        effect: The ram automatically resets at the start of each round.
+      - name: Rapid Repeating
         cost: +3 EV
-      - effect: Multiple rams can be used to represent a larger mechanism, such as a
-          stack of tumbling logs.
-        name: Multiple Rams
+        effect: The ram automatically resets at the start of each turn.
+      - name: Multiple Rams
         cost: +3 EV per additional ram
-  - name: Hidden
+        effect: Multiple rams can be used to represent a larger mechanism, such as a
+          stack of tumbling logs.
+  - type: feature
+    feature_type: trait
+    name: Hidden
     icon: ⭐️
     effects:
       - effect: The ram is hidden until triggered or detected.

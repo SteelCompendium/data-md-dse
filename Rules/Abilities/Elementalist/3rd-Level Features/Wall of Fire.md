@@ -7,7 +7,7 @@ cost_resource: Essence
 distance: 10 wall within 10
 feature_type: ability
 file_basename: Wall of Fire
-file_dpath: Elementalist/3rd-Level Features
+file_dpath: Abilities/Elementalist/3rd-Level Features
 flavor: A blazing, beautifully organized inferno erupts at your command.
 item_id: wall-of-fire-7-essence
 item_index: '02'
@@ -21,13 +21,15 @@ level: 3
 scc:
 - mcdm.heroes.v1:feature.ability.elementalist.3rd-level-feature:wall-of-fire-7-essence
 scdc:
-- 1.1.1:13.2.9.6:02
+- 1.1.1:11.2.9.6:02
 source: mcdm.heroes.v1
 target: Special
 type: feature/ability/elementalist/3rd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Wall of Fire
 cost: 7 Essence
 flavor: A blazing, beautifully organized inferno erupts at your command.
@@ -36,7 +38,7 @@ keywords:
   - Fire
   - Magic
   - Ranged
-type: Maneuver
+usage: Maneuver
 distance: 10 wall within 10
 target: Special
 metadata:
@@ -48,7 +50,7 @@ metadata:
   distance: 10 wall within 10
   feature_type: ability
   file_basename: Wall of Fire
-  file_dpath: Elementalist/3rd-Level Features
+  file_dpath: Abilities/Elementalist/3rd-Level Features
   flavor: A blazing, beautifully organized inferno erupts at your command.
   item_id: wall-of-fire-7-essence
   item_index: "02"
@@ -62,18 +64,18 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.elementalist.3rd-level-feature:wall-of-fire-7-essence
   scdc:
-    - 1.1.1:13.2.9.6:02
+    - 1.1.1:11.2.9.6:02
   source: mcdm.heroes.v1
   target: Special
   type: feature/ability/elementalist/3rd-level-feature
 effects:
-  - effect: The wall lasts until the start of your next turn, and can be placed in
+  - name: Effect
+    effect: The wall lasts until the start of your next turn, and can be placed in
       occupied squares. Creatures can enter and pass through the wall. Each
       enemy who enters the area for the first time in a combat round or starts
       their turn there takes fire damage equal to your Reason score for each
       square of the area they start their turn in or enter.
-    name: Effect
-  - effect: The wall lasts until the start of your next turn, and you can add a
+  - name: Persistent 1
+    effect: The wall lasts until the start of your next turn, and you can add a
       number of squares to the wall equal to your Reason score.
-    name: Persistent 1
 ```

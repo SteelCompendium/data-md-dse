@@ -7,7 +7,7 @@ cost_resource: Wrath
 distance: 2 aura
 feature_type: ability
 file_basename: Edict of Purifying Pacifism
-file_dpath: Censor/3rd-Level Features
+file_dpath: Abilities/Censor/3rd-Level Features
 flavor: You shed a righteous energy that punishes enemies who would harm you or your
   allies.
 item_id: edict-of-purifying-pacifism-7-wrath
@@ -20,13 +20,15 @@ level: 3
 scc:
 - mcdm.heroes.v1:feature.ability.censor.3rd-level-feature:edict-of-purifying-pacifism-7-wrath
 scdc:
-- 1.1.1:13.2.7.6:01
+- 1.1.1:11.2.7.6:01
 source: mcdm.heroes.v1
 target: Each enemy in the area
 type: feature/ability/censor/3rd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Edict of Purifying Pacifism
 cost: 7 Wrath
 flavor: You shed a righteous energy that punishes enemies who would harm you or
@@ -34,7 +36,7 @@ flavor: You shed a righteous energy that punishes enemies who would harm you or
 keywords:
   - Area
   - Magic
-type: Maneuver
+usage: Maneuver
 distance: 2 aura
 target: Each enemy in the area
 metadata:
@@ -46,7 +48,7 @@ metadata:
   distance: 2 aura
   feature_type: ability
   file_basename: Edict of Purifying Pacifism
-  file_dpath: Censor/3rd-Level Features
+  file_dpath: Abilities/Censor/3rd-Level Features
   flavor: You shed a righteous energy that punishes enemies who would harm you or
     your allies.
   item_id: edict-of-purifying-pacifism-7-wrath
@@ -59,13 +61,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.censor.3rd-level-feature:edict-of-purifying-pacifism-7-wrath
   scdc:
-    - 1.1.1:13.2.7.6:01
+    - 1.1.1:11.2.7.6:01
   source: mcdm.heroes.v1
   target: Each enemy in the area
   type: feature/ability/censor/3rd-level-feature
 effects:
-  - effect: Until the end of the encounter or until you are dying, whenever a target
+  - name: Effect
+    effect: Until the end of the encounter or until you are dying, whenever a target
       makes a strike, they take holy damage equal to twice your Presence score.
       A target judged by you takes an extra 2d6 holy damage.
-    name: Effect
 ```

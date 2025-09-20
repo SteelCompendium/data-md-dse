@@ -7,7 +7,7 @@ cost_resource: Ferocity
 distance: 3 burst
 feature_type: ability
 file_basename: Death Rattle
-file_dpath: Fury/9th-Level Features
+file_dpath: Abilities/Fury/9th-Level Features
 flavor: You unleash an otherworldly cry that rips through your enemies, killing the
   weakest of them.
 item_id: death-rattle-11-ferocity
@@ -20,14 +20,16 @@ level: 9
 scc:
 - mcdm.heroes.v1:feature.ability.fury.9th-level-feature:death-rattle-11-ferocity
 scdc:
-- 1.1.1:13.2.5.6:05
+- 1.1.1:11.2.5.6:05
 source: mcdm.heroes.v1
 subclass: Stormwight
 target: Each enemy in the area
 type: feature/ability/fury/9th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Death Rattle
 cost: 11 Ferocity
 flavor: You unleash an otherworldly cry that rips through your enemies, killing
@@ -35,7 +37,7 @@ flavor: You unleash an otherworldly cry that rips through your enemies, killing
 keywords:
   - Area
   - Magic
-type: Main action
+usage: Main action
 distance: 3 burst
 target: Each enemy in the area
 metadata:
@@ -47,7 +49,7 @@ metadata:
   distance: 3 burst
   feature_type: ability
   file_basename: Death Rattle
-  file_dpath: Fury/9th-Level Features
+  file_dpath: Abilities/Fury/9th-Level Features
   flavor: You unleash an otherworldly cry that rips through your enemies, killing
     the weakest of them.
   item_id: death-rattle-11-ferocity
@@ -60,17 +62,17 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.fury.9th-level-feature:death-rattle-11-ferocity
   scdc:
-    - 1.1.1:13.2.5.6:05
+    - 1.1.1:11.2.5.6:05
   source: mcdm.heroes.v1
   subclass: Stormwight
   target: Each enemy in the area
   type: feature/ability/fury/9th-level-feature
 effects:
   - roll: Power Roll + Might
-    t1: 4 psychic damage; any target who is a minion is reduced to 0 Stamina
-    t2: 6 psychic damage; any target who is a minion is reduced to 0 Stamina, as
+    tier1: 4 psychic damage; any target who is a minion is reduced to 0 Stamina
+    tier2: 6 psychic damage; any target who is a minion is reduced to 0 Stamina, as
       does one winded target who is not a leader or solo creature
-    t3: 10 psychic damage; each target who is not a leader or solo creature is
+    tier3: 10 psychic damage; each target who is not a leader or solo creature is
       winded; any target who is a minion is reduced to 0 Stamina, as does one
       winded target who is not a leader or solo creature
 ```

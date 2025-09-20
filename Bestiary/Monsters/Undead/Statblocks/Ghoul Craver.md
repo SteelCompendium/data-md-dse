@@ -29,6 +29,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Ghoul Craver
 level: 4
 roles:
@@ -51,31 +52,38 @@ agility: 2
 reason: 0
 intuition: 0
 presence: 0
-traits:
-  - name: Ever So Hungry
-    effects:
-      - effect: Any enemy adjacent to three or more ghoul cravers can't shift
-  - name: Hunger
-    effects:
-      - effect: When the ghoul craver uses the Charge main action, they gain a +2 bonus
-          to speed until the end of their turn.
-abilities:
-  - name: Taste
+features:
+  - type: feature
+    feature_type: ability
+    name: Taste
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Charge
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 3
-        t1: 2 damage
-        t2: 4 damage
-        t3: 6 damage
-      - effect: This ability has a double edge against a bleeding target.
-        name: Effect
+        tier1: 2 damage
+        tier2: 4 damage
+        tier3: 6 damage
+      - name: Effect
+        effect: This ability has a double edge against a bleeding target.
+  - type: feature
+    feature_type: trait
+    name: Ever So Hungry
+    icon: ⭐️
+    effects:
+      - effect: Any enemy adjacent to three or more ghoul cravers can't shift
+  - type: feature
+    feature_type: trait
+    name: Hunger
+    icon: ⭐️
+    effects:
+      - effect: When the ghoul craver uses the Charge main action, they gain a +2 bonus
+          to speed until the end of their turn.
 ~~~

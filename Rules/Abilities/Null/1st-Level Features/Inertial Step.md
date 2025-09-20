@@ -1,10 +1,11 @@
 ---
+ability_type: Signature
 action_type: Main action
 class: 'null'
 distance: Melee 1
 feature_type: ability
 file_basename: Inertial Step
-file_dpath: Null/1st-Level Features
+file_dpath: Abilities/Null/1st-Level Features
 flavor: You flit about the battlefield and take an opportunistic strike.
 item_id: inertial-step
 item_index: '16'
@@ -18,13 +19,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.null.1st-level-feature:inertial-step
 scdc:
-- 1.1.1:13.2.6.1:16
+- 1.1.1:11.2.6.1:16
 source: mcdm.heroes.v1
 target: One creature or object
 type: feature/ability/null/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Inertial Step
 flavor: You flit about the battlefield and take an opportunistic strike.
 keywords:
@@ -32,16 +35,17 @@ keywords:
   - Psionic
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1
 target: One creature or object
 metadata:
+  ability_type: Signature
   action_type: Main action
   class: "null"
   distance: Melee 1
   feature_type: ability
   file_basename: Inertial Step
-  file_dpath: Null/1st-Level Features
+  file_dpath: Abilities/Null/1st-Level Features
   flavor: You flit about the battlefield and take an opportunistic strike.
   item_id: inertial-step
   item_index: "16"
@@ -55,15 +59,15 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.null.1st-level-feature:inertial-step
   scdc:
-    - 1.1.1:13.2.6.1:16
+    - 1.1.1:11.2.6.1:16
   source: mcdm.heroes.v1
   target: One creature or object
   type: feature/ability/null/1st-level-feature
 effects:
   - roll: Power Roll + Agility
-    t1: 5 + A damage
-    t2: 7 + A damage
-    t3: 10 + A damage
-  - effect: You can shift up to half your speed before or after you make this strike.
-    name: Effect
+    tier1: 5 + A damage
+    tier2: 7 + A damage
+    tier3: 10 + A damage
+  - name: Effect
+    effect: You can shift up to half your speed before or after you make this strike.
 ```

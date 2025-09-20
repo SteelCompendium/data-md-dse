@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Shadow Elf Dusk Mage
 level: 4
 roles:
@@ -52,26 +53,30 @@ agility: 3
 reason: 2
 intuition: 0
 presence: 0
-traits:
-  - name: Of the Umbra
-    effects:
-      - effect: The dusk mage ignores concealment created by darkness. While the dusk
-          mage is in direct sunlight, they have damage weakness 3. While the
-          dusk mage has concealment, they have damage immunity 3.
-abilities:
-  - name: Gloom Bolt
+features:
+  - type: feature
+    feature_type: ability
+    name: Gloom Bolt
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Ranged
       - Strike
-    type: Main action
+    usage: Main action
     distance: Ranged 5
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 3
-        t1: 2 damage
-        t2: 4 damage; A < 2 slowed (save ends)
-        t3: 6 damage; A < 3 slowed (save ends)
+        tier1: 2 damage
+        tier2: 4 damage; A < 2 slowed (save ends)
+        tier3: 6 damage; A < 3 slowed (save ends)
+  - type: feature
+    feature_type: trait
+    name: Of the Umbra
+    icon: ⭐️
+    effects:
+      - effect: The dusk mage ignores concealment created by darkness. While the dusk
+          mage is in direct sunlight, they have damage weakness 3. While the
+          dusk mage has concealment, they have damage immunity 3.
 ~~~

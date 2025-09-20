@@ -7,7 +7,7 @@ cost_resource: Ferocity
 distance: Melee 1
 feature_type: ability
 file_basename: Primordial Bane
-file_dpath: Fury/9th-Level Features
+file_dpath: Abilities/Fury/9th-Level Features
 flavor: You attune the target to be weaker to a specific element.
 item_id: primordial-bane-11-ferocity
 item_index: '04'
@@ -21,14 +21,16 @@ level: 9
 scc:
 - mcdm.heroes.v1:feature.ability.fury.9th-level-feature:primordial-bane-11-ferocity
 scdc:
-- 1.1.1:13.2.5.6:04
+- 1.1.1:11.2.5.6:04
 source: mcdm.heroes.v1
 subclass: Reaver
 target: One creature
 type: feature/ability/fury/9th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Primordial Bane
 cost: 11 Ferocity
 flavor: You attune the target to be weaker to a specific element.
@@ -37,7 +39,7 @@ keywords:
   - Melee
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1
 target: One creature
 metadata:
@@ -49,7 +51,7 @@ metadata:
   distance: Melee 1
   feature_type: ability
   file_basename: Primordial Bane
-  file_dpath: Fury/9th-Level Features
+  file_dpath: Abilities/Fury/9th-Level Features
   flavor: You attune the target to be weaker to a specific element.
   item_id: primordial-bane-11-ferocity
   item_index: "04"
@@ -63,18 +65,18 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.fury.9th-level-feature:primordial-bane-11-ferocity
   scdc:
-    - 1.1.1:13.2.5.6:04
+    - 1.1.1:11.2.5.6:04
   source: mcdm.heroes.v1
   subclass: Reaver
   target: One creature
   type: feature/ability/fury/9th-level-feature
 effects:
   - roll: Power Roll + Might
-    t1: 11 + M damage
-    t2: 16 + M damage
-    t3: 21 + M damage
-  - effect: Choose acid, cold, corruption, fire, lightning, poison, or sonic damage.
+    tier1: 11 + M damage
+    tier2: 16 + M damage
+    tier3: 21 + M damage
+  - name: Effect
+    effect: Choose acid, cold, corruption, fire, lightning, poison, or sonic damage.
       The target loses any damage immunity to the chosen type and gains weakness
       10 to the chosen type (save ends).
-    name: Effect
 ```

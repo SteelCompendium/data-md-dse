@@ -7,7 +7,7 @@ cost_resource: Clarity
 distance: Ranged 10
 feature_type: ability
 file_basename: Stasis Shield
-file_dpath: Talent/8th-Level Features
+file_dpath: Abilities/Talent/8th-Level Features
 flavor: You freeze time just long enough to bring the victim to safety!
 item_id: stasis-shield-3-clarity
 item_index: '01'
@@ -19,21 +19,23 @@ level: 8
 scc:
 - mcdm.heroes.v1:feature.ability.talent.8th-level-feature:stasis-shield-3-clarity
 scdc:
-- 1.1.1:13.2.1.2:01
+- 1.1.1:11.2.1.2:01
 source: mcdm.heroes.v1
 subclass: Chronopathy
 target: Self, or one creature or object
 type: feature/ability/talent/8th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Stasis Shield
 cost: 3 Clarity
 flavor: You freeze time just long enough to bring the victim to safety!
 keywords:
   - Psionic
   - Ranged
-type: Triggered
+usage: Triggered
 distance: Ranged 10
 target: Self, or one creature or object
 trigger: The target takes damage.
@@ -46,7 +48,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Stasis Shield
-  file_dpath: Talent/8th-Level Features
+  file_dpath: Abilities/Talent/8th-Level Features
   flavor: You freeze time just long enough to bring the victim to safety!
   item_id: stasis-shield-3-clarity
   item_index: "01"
@@ -58,17 +60,17 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.talent.8th-level-feature:stasis-shield-3-clarity
   scdc:
-    - 1.1.1:13.2.1.2:01
+    - 1.1.1:11.2.1.2:01
   source: mcdm.heroes.v1
   subclass: Chronopathy
   target: Self, or one creature or object
   type: feature/ability/talent/8th-level-feature
 effects:
-  - effect: The target is teleported to an unoccupied space adjacent to you, taking
+  - name: Effect
+    effect: The target is teleported to an unoccupied space adjacent to you, taking
       no damage and suffering no additional effects if this movement would get
       them out of harm's way.
-    name: Effect
-  - effect: You can't target yourself, and you take the damage and any additional
+  - name: Strained
+    effect: You can't target yourself, and you take the damage and any additional
       effects instead of the target.
-    name: Strained
 ```

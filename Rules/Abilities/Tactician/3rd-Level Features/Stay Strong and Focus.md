@@ -7,7 +7,7 @@ cost_resource: Focus
 distance: Self
 feature_type: ability
 file_basename: Stay Strong and Focus
-file_dpath: Tactician/3rd-Level Features
+file_dpath: Abilities/Tactician/3rd-Level Features
 flavor: '"We can do this! Keep faith and hold fast!"'
 item_id: stay-strong-and-focus-7-focus
 item_index: '01'
@@ -18,19 +18,21 @@ level: 3
 scc:
 - mcdm.heroes.v1:feature.ability.tactician.3rd-level-feature:stay-strong-and-focus-7-focus
 scdc:
-- 1.1.1:13.2.4.6:01
+- 1.1.1:11.2.4.6:01
 source: mcdm.heroes.v1
 target: Self
 type: feature/ability/tactician/3rd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Stay Strong and Focus!
 cost: 7 Focus
 flavor: '"We can do this! Keep faith and hold fast!"'
 keywords:
   - "-"
-type: Maneuver
+usage: Maneuver
 distance: Self
 target: Self
 metadata:
@@ -42,7 +44,7 @@ metadata:
   distance: Self
   feature_type: ability
   file_basename: Stay Strong and Focus
-  file_dpath: Tactician/3rd-Level Features
+  file_dpath: Abilities/Tactician/3rd-Level Features
   flavor: '"We can do this! Keep faith and hold fast!"'
   item_id: stay-strong-and-focus-7-focus
   item_index: "01"
@@ -53,13 +55,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.tactician.3rd-level-feature:stay-strong-and-focus-7-focus
   scdc:
-    - 1.1.1:13.2.4.6:01
+    - 1.1.1:11.2.4.6:01
   source: mcdm.heroes.v1
   target: Self
   type: feature/ability/tactician/3rd-level-feature
 effects:
-  - effect: Until the end of the encounter or until you are dying, whenever you or
+  - name: Effect
+    effect: Until the end of the encounter or until you are dying, whenever you or
       any ally deals damage to a target marked by you, the creature who dealt
       the damage can spend a Recovery.
-    name: Effect
 ```

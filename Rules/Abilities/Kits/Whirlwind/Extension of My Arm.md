@@ -1,4 +1,5 @@
 ---
+ability_type: Signature
 action_type: Main action
 class: ignored
 distance: Melee 3
@@ -12,7 +13,6 @@ keywords:
 - Melee
 - Strike
 - Weapon
-kit: Whirlwind
 scc:
 - mcdm.heroes.v1:kit-ability.whirlwind:extension-of-my-arm
 scdc:
@@ -22,17 +22,20 @@ target: One creature
 type: kit-ability/whirlwind
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Extension of My Arm
 flavor: When you draw your whip back after an attack, your enemy is drawn ever closer.
 keywords:
   - Melee
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 3
 target: One creature
 metadata:
+  ability_type: Signature
   action_type: Main action
   class: ignored
   distance: Melee 3
@@ -47,7 +50,6 @@ metadata:
     - Melee
     - Strike
     - Weapon
-  kit: Whirlwind
   scc:
     - mcdm.heroes.v1:kit-ability.whirlwind:extension-of-my-arm
   scdc:
@@ -57,7 +59,7 @@ metadata:
   type: kit-ability/whirlwind
 effects:
   - roll: Power Roll + Might or Agility
-    t1: 4 + M or A damage; vertical pull 1
-    t2: 7 + M or A damage; vertical pull 2
-    t3: 10 + M or A damage; vertical pull 3
+    tier1: 4 + M or A damage; vertical pull 1
+    tier2: 7 + M or A damage; vertical pull 2
+    tier3: 10 + M or A damage; vertical pull 3
 ```

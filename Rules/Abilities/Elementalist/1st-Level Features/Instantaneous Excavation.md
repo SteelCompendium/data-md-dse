@@ -7,7 +7,7 @@ cost_resource: Essence
 distance: Ranged 10
 feature_type: ability
 file_basename: Instantaneous Excavation
-file_dpath: Elementalist/1st-Level Features
+file_dpath: Abilities/Elementalist/1st-Level Features
 flavor: The surface of the world around you opens up to swallow foes.
 item_id: instantaneous-excavation-5-essence
 item_index: '20'
@@ -20,13 +20,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:instantaneous-excavation-5-essence
 scdc:
-- 1.1.1:13.2.9.1:20
+- 1.1.1:11.2.9.1:20
 source: mcdm.heroes.v1
 target: Special
 type: feature/ability/elementalist/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Instantaneous Excavation
 cost: 5 Essence
 flavor: The surface of the world around you opens up to swallow foes.
@@ -34,7 +36,7 @@ keywords:
   - Earth
   - Magic
   - Ranged
-type: Maneuver
+usage: Maneuver
 distance: Ranged 10
 target: Special
 metadata:
@@ -46,7 +48,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Instantaneous Excavation
-  file_dpath: Elementalist/1st-Level Features
+  file_dpath: Abilities/Elementalist/1st-Level Features
   flavor: The surface of the world around you opens up to swallow foes.
   item_id: instantaneous-excavation-5-essence
   item_index: "20"
@@ -59,7 +61,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:instantaneous-excavation-5-essence
   scdc:
-    - 1.1.1:13.2.9.1:20
+    - 1.1.1:11.2.9.1:20
   source: mcdm.heroes.v1
   target: Special
   type: feature/ability/elementalist/1st-level-feature
@@ -72,12 +74,12 @@ effects:
       ground above a hole and small enough to fall in. (You can't score a
       critical hit with this ability because it uses a maneuver.)
   - roll: Power Roll + Reason
-    t1: The target can shift 1 square from the edge of the hole to the nearest
+    tier1: The target can shift 1 square from the edge of the hole to the nearest
       unoccupied space of their choice.
-    t2: The target falls into the hole.
-    t3: The target falls into the hole and can't reduce the height of the fall.
-  - effect: At the start of your turn, you open another hole, making a power roll
+    tier2: The target falls into the hole.
+    tier3: The target falls into the hole and can't reduce the height of the fall.
+  - name: Persistent 1
+    effect: At the start of your turn, you open another hole, making a power roll
       against each creature who could fall into the hole when it opens without
       spending essence.
-    name: Persistent 1
 ```

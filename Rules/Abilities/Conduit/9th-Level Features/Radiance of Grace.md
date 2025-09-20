@@ -7,7 +7,7 @@ cost_resource: Piety
 distance: Ranged 10
 feature_type: ability
 file_basename: Radiance of Grace
-file_dpath: Conduit/9th-Level Features
+file_dpath: Abilities/Conduit/9th-Level Features
 flavor: Intense light is emitted from your body, healing your allies.
 item_id: radiance-of-grace-11-piety
 item_index: '02'
@@ -19,21 +19,23 @@ level: 9
 scc:
 - mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:radiance-of-grace-11-piety
 scdc:
-- 1.1.1:13.2.8.7:02
+- 1.1.1:11.2.8.7:02
 source: mcdm.heroes.v1
 subclass: Life
 target: Four allies
 type: feature/ability/conduit/9th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Radiance of Grace
 cost: 11 Piety
 flavor: Intense light is emitted from your body, healing your allies.
 keywords:
   - Magic
   - Ranged
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: Four allies
 metadata:
@@ -45,7 +47,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Radiance of Grace
-  file_dpath: Conduit/9th-Level Features
+  file_dpath: Abilities/Conduit/9th-Level Features
   flavor: Intense light is emitted from your body, healing your allies.
   item_id: radiance-of-grace-11-piety
   item_index: "02"
@@ -57,15 +59,15 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:radiance-of-grace-11-piety
   scdc:
-    - 1.1.1:13.2.8.7:02
+    - 1.1.1:11.2.8.7:02
   source: mcdm.heroes.v1
   subclass: Life
   target: Four allies
   type: feature/ability/conduit/9th-level-feature
 effects:
-  - effect: You can target yourself instead of one ally with this ability. Each
+  - name: Effect
+    effect: You can target yourself instead of one ally with this ability. Each
       target can spend any number of Recoveries, can end any effects on them
       that are ended by a saving throw or that end at the end of their turn, and
       can stand up if they are prone.
-    name: Effect
 ```

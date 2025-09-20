@@ -29,6 +29,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Animal
 level: 1
 roles:
@@ -46,37 +47,43 @@ agility: 2
 reason: -2
 intuition: 1
 presence: -2
-traits:
-  - name: Nature's Spirit
-    effects:
-      - effect: While outdoors or in a natural environment, the animal can negate a bane
-          on their abilities or turn a double bane into a bane.
-abilities:
-  - name: Natural Weapon
+features:
+  - type: feature
+    feature_type: ability
+    name: Natural Weapon
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 2
-        t1: 6 damage
-        t2: 9 damage
-        t3: 12 damage
-      - effect: The animal shifts up to 2 squares between strikes.
-        name: Effect
-  - name: Rush
+        tier1: 6 damage
+        tier2: 9 damage
+        tier3: 12 damage
+      - name: Effect
+        effect: The animal shifts up to 2 squares between strikes.
+  - type: feature
+    feature_type: ability
+    name: Rush
     icon: 👤
     keywords:
       - "-"
-    type: Maneuver
+    usage: Maneuver
     distance: Self
     target: Self
     effects:
-      - effect: The animal moves up to their speed.
-        name: Effect
+      - name: Effect
+        effect: The animal moves up to their speed.
+  - type: feature
+    feature_type: trait
+    name: Nature's Spirit
+    icon: ⭐️
+    effects:
+      - effect: While outdoors or in a natural environment, the animal can negate a bane
+          on their abilities or turn a double bane into a bane.
 ~~~

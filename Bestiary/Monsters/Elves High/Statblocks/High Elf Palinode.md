@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: High Elf Palinode
 level: 1
 roles:
@@ -52,42 +53,48 @@ agility: 0
 reason: 0
 intuition: 2
 presence: 1
-traits:
-  - name: Otherworldly Grace
-    effects:
-      - effect: At the start of each of their turns, the palinode can choose one effect
-          on them that can be ended by a saving throw. That effect instead ends
-          at the end of their turn.
-abilities:
-  - name: Instill Regret
+features:
+  - type: feature
+    feature_type: ability
+    name: Instill Regret
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Ranged
       - Strike
-    type: Main action
+    usage: Main action
     distance: Ranged 8
     target: One creature
     effects:
       - roll: Power Roll + 2
-        t1: 5 psychic damage
-        t2: 7 psychic damage; I < 1 weakened (save ends)
-        t3: 9 psychic damage; I < 2 weakened (save ends)
-      - effect: The potency increases by 1. If the target is weakened this way at the
+        tier1: 5 psychic damage
+        tier2: 7 psychic damage; I < 1 weakened (save ends)
+        tier3: 9 psychic damage; I < 2 weakened (save ends)
+      - cost: 2 Malice
+        effect: The potency increases by 1. If the target is weakened this way at the
           end of the encounter, they can't take a respite activity during their
           next respite.
-        cost: 2 Malice
-  - name: Recall
+  - type: feature
+    feature_type: ability
+    name: Recall
     icon: 🏹
     keywords:
       - Magic
       - Ranged
-    type: Maneuver
+    usage: Maneuver
     distance: Ranged 5
     target: Two allies
     effects:
-      - effect: Each target can teleport to an unoccupied space adjacent to the
+      - name: Effect
+        effect: Each target can teleport to an unoccupied space adjacent to the
           palinode. The palinode and each target then gain 5 temporary Stamina.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Otherworldly Grace
+    icon: ⭐️
+    effects:
+      - effect: At the start of each of their turns, the palinode can choose one effect
+          on them that can be ended by a saving throw. That effect instead ends
+          at the end of their turn.
 ~~~

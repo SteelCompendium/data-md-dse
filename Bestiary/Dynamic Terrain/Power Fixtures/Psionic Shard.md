@@ -13,35 +13,42 @@ type: dynamic-terrain/power-fixture
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Fortification Defender
 name: Psionic Shard
-type: Fortification Defender
 level: 5
 ev: "7"
 flavor: A massive humming crystal makes the air around it feel thick.
 stamina: "40"
 size: "2"
 features:
-  - name: Deactivate
+  - type: feature
+    feature_type: trait
+    name: Deactivate
     icon: 🌀
     effects:
       - effect: The psionic shard must be completely destroyed.
-  - name: Psionic Barrier
+  - type: feature
+    feature_type: trait
+    name: Psionic Barrier
     icon: ⭐️
     effects:
       - effect: A psionic shard is attuned to one side in an encounter. While a psionic
           shard is intact, any damage dealt to each ally of the shard in the
           encounter is halved.
-  - name: Psionic Pulse
+  - type: feature
+    feature_type: ability
+    name: Psionic Pulse
     icon: ❗️
     keywords:
       - "-"
-    type: Free triggered action
+    usage: Free triggered action
     distance: "-"
     target: "-"
     trigger: The shard is destroyed.
     effects:
-      - effect: The shard releases a shockwave channeled through each creature affected
+      - name: Effect
+        effect: The shard releases a shockwave channeled through each creature affected
           by Psionic Barrier. Each ally in the encounter is dazed until the end
           of their next turn.
-        name: Effect
 ~~~

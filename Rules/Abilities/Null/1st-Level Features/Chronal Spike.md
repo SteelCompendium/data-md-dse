@@ -7,7 +7,7 @@ cost_resource: Discipline
 distance: Melee 1
 feature_type: ability
 file_basename: Chronal Spike
-file_dpath: Null/1st-Level Features
+file_dpath: Abilities/Null/1st-Level Features
 flavor: You foresee the best moment to strike, then exploit it.
 item_id: chronal-spike-3-discipline
 item_index: '12'
@@ -21,13 +21,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.null.1st-level-feature:chronal-spike-3-discipline
 scdc:
-- 1.1.1:13.2.6.1:12
+- 1.1.1:11.2.6.1:12
 source: mcdm.heroes.v1
 target: One creature or object
 type: feature/ability/null/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Chronal Spike
 cost: 3 Discipline
 flavor: You foresee the best moment to strike, then exploit it.
@@ -36,7 +38,7 @@ keywords:
   - Psionic
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1
 target: One creature or object
 metadata:
@@ -48,7 +50,7 @@ metadata:
   distance: Melee 1
   feature_type: ability
   file_basename: Chronal Spike
-  file_dpath: Null/1st-Level Features
+  file_dpath: Abilities/Null/1st-Level Features
   flavor: You foresee the best moment to strike, then exploit it.
   item_id: chronal-spike-3-discipline
   item_index: "12"
@@ -62,18 +64,18 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.null.1st-level-feature:chronal-spike-3-discipline
   scdc:
-    - 1.1.1:13.2.6.1:12
+    - 1.1.1:11.2.6.1:12
   source: mcdm.heroes.v1
   target: One creature or object
   type: feature/ability/null/1st-level-feature
 effects:
   - roll: Power Roll + Agility
-    t1: 7 + A damage
-    t2: 10 + A damage
-    t3: 13 + A damage
-  - effect: You can shift up to half your speed before or after you make this
+    tier1: 7 + A damage
+    tier2: 10 + A damage
+    tier3: 13 + A damage
+  - name: Effect
+    effect: You can shift up to half your speed before or after you make this
       strike. Additionally, whenever an effect lets you make a free strike or
       use a signature ability, you can use this ability instead, paying its
       discipline cost as usual.
-    name: Effect
 ```

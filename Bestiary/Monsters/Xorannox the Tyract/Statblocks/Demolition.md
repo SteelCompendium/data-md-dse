@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Demolition
 level: 6
 roles:
@@ -51,25 +52,29 @@ agility: 1
 reason: 4
 intuition: 1
 presence: -1
-traits:
-  - name: Psionic Barrier
-    effects:
-      - effect: The demolition eye has damage immunity 15. When they use a main action,
-          they lose this immunity until the end of the round.
-abilities:
-  - name: Explosion
+features:
+  - type: feature
+    feature_type: ability
+    name: Explosion
     icon: 🔳
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Psionic
       - Ranged
       - Strike
-    type: Main action
+    usage: Main action
     distance: 4 cube within 10
     target: Each enemy in the area
     effects:
       - roll: Power Roll + 4
-        t1: 6 fire damage
-        t2: 10 fire damage; M < 3 prone
-        t3: 13 fire damage; M < 4 prone
+        tier1: 6 fire damage
+        tier2: 10 fire damage; M < 3 prone
+        tier3: 13 fire damage; M < 4 prone
+  - type: feature
+    feature_type: trait
+    name: Psionic Barrier
+    icon: ⭐️
+    effects:
+      - effect: The demolition eye has damage immunity 15. When they use a main action,
+          they lose this immunity until the end of the round.
 ~~~

@@ -13,8 +13,9 @@ type: dynamic-terrain/supernatural-object
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Relic Controller
 name: The Chronal Hypercube
-type: Relic Controller
 level: 3
 ev: "20"
 flavor: This unnatural object twists space around it in a reflection of its own
@@ -22,17 +23,21 @@ flavor: This unnatural object twists space around it in a reflection of its own
 stamina: "80"
 size: 1M
 features:
-  - name: Deactivate
+  - type: feature
+    feature_type: trait
+    name: Deactivate
     icon: 🌀
     effects:
       - effect: A creature who has the Psionics skill can deactivate and take control of
           the chronal hypercube by making a **Reason test** while within 10
           squares of the hypercube.
-        t1: The creature takes 1d6 psychic damage.
-        t2: The creature fails to deactivate the hypercube.
-        t3: The hypercube teleports adjacent to the creature at the start of the next
+        tier1: The creature takes 1d6 psychic damage.
+        tier2: The creature fails to deactivate the hypercube.
+        tier3: The hypercube teleports adjacent to the creature at the start of the next
           round and becomes an ally to the creature and their allies.
-  - name: Dimensional Flicker
+  - type: feature
+    feature_type: trait
+    name: Dimensional Flicker
     icon: ⭐️
     effects:
       - effect: At the start of each round while the hypercube is present, roll a d10.
@@ -40,7 +45,9 @@ features:
           choice within 10 squares and is hidden. While the hypercube is hidden,
           Psionics is the only skill that can be applied to a test made to find
           it.
-  - name: Chronal Superhighway
+  - type: feature
+    feature_type: trait
+    name: Chronal Superhighway
     icon: ⭐️
     effects:
       - effect: Any ally within 10 squares of the hypercube can teleport when they move.

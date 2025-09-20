@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Soulraker Handmaiden
 level: 8
 roles:
@@ -52,8 +53,11 @@ agility: 0
 reason: 2
 intuition: 2
 presence: 4
-traits:
-  - name: Implanted Parasite
+features:
+  - type: feature
+    feature_type: trait
+    name: Implanted Parasite
+    icon: ⭐️
     effects:
       - effect: >-
           A host creature implanted by a soulraker hivequeen's Stinging
@@ -80,27 +84,31 @@ traits:
           The Find a Cure downtime project in Draw Steel: Heroes can be used to
           find a cure that removes a handmaiden from a host. The cure kills the
           handmaiden when consumed.
-  - name: Lethe
-    effects:
-      - effect: While the handmaiden is winded, they gain an edge on strikes, and any
-          strike made against them gains an edge.
-abilities:
-  - name: Emergent Horrors
+  - type: feature
+    feature_type: ability
+    name: Emergent Horrors
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 2
     target: One creature or object
     effects:
       - roll: Power Roll + 4
-        t1: 8 corruption damage
-        t2: 11 corruption damage
-        t3: 13 corruption damage; M < 4 frightened (save ends)
-      - effect: If the handmaiden was totally within their host's body at the start of
+        tier1: 8 corruption damage
+        tier2: 11 corruption damage
+        tier3: 13 corruption damage; M < 4 frightened (save ends)
+      - name: Effect
+        effect: If the handmaiden was totally within their host's body at the start of
           this turn, the ability deals an extra 8 damage.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Lethe
+    icon: ⭐️
+    effects:
+      - effect: While the handmaiden is winded, they gain an edge on strikes, and any
+          strike made against them gains an edge.
 ~~~

@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Lithgekh
 level: 10
 roles:
@@ -52,43 +53,49 @@ agility: 1
 reason: 5
 intuition: 3
 presence: -1
-traits:
-  - name: Devour Magic
-    effects:
-      - effect: Each ally within 10 squares of the lithgekh gains an edge on magic
-          abilities.
-abilities:
-  - name: Heartstopper
+features:
+  - type: feature
+    feature_type: ability
+    name: Heartstopper
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Ranged
       - Strike
-    type: Main action
+    usage: Main action
     distance: Ranged 15
     target: One creature or object
     effects:
       - roll: Power Roll + 5
-        t1: 9 corruption damage; I < 3 frightened (save ends)
-        t2: 12 corruption damage; I < 4 frightened (save ends)
-        t3: 14 corruption damage; I < 5 frightened (save ends)
-      - effect: A creature frightened this way takes a bane on any ability that targets
+        tier1: 9 corruption damage; I < 3 frightened (save ends)
+        tier2: 12 corruption damage; I < 4 frightened (save ends)
+        tier3: 14 corruption damage; I < 5 frightened (save ends)
+      - name: Effect
+        effect: A creature frightened this way takes a bane on any ability that targets
           undead.
-        name: Effect
-  - name: Mystic Battery
+  - type: feature
+    feature_type: ability
+    name: Mystic Battery
     icon: ❗️
     cost: 1 Malice
     keywords:
       - Magic
       - Ranged
-    type: Free triggered action
+    usage: Free triggered action
     distance: Ranged 20
     target: The triggering creature
     trigger: A creature within distance uses a magic ability.
     effects:
-      - effect: Any damage dealt by or Stamina regained from the ability is halved. The
+      - name: Effect
+        effect: Any damage dealt by or Stamina regained from the ability is halved. The
           lithgekh regains Stamina equal to the remaining damage dealt or
           Stamina gained.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Devour Magic
+    icon: ⭐️
+    effects:
+      - effect: Each ally within 10 squares of the lithgekh gains an edge on magic
+          abilities.
 ~~~

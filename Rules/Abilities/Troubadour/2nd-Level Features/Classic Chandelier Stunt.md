@@ -7,7 +7,7 @@ cost_resource: Drama
 distance: Melee 1
 feature_type: ability
 file_basename: Classic Chandelier Stunt
-file_dpath: Troubadour/2nd-Level Features
+file_dpath: Abilities/Troubadour/2nd-Level Features
 flavor: Audiences love this bit.
 item_id: classic-chandelier-stunt-5-drama
 item_index: '06'
@@ -20,14 +20,16 @@ level: 2
 scc:
 - mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:classic-chandelier-stunt-5-drama
 scdc:
-- 1.1.1:13.2.3.5:06
+- 1.1.1:11.2.3.5:06
 source: mcdm.heroes.v1
 subclass: Duelist
 target: Self and one willing ally
 type: feature/ability/troubadour/2nd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Classic Chandelier Stunt
 cost: 5 Drama
 flavor: Audiences love this bit.
@@ -35,7 +37,7 @@ keywords:
   - Melee
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1
 target: Self and one willing ally
 metadata:
@@ -47,7 +49,7 @@ metadata:
   distance: Melee 1
   feature_type: ability
   file_basename: Classic Chandelier Stunt
-  file_dpath: Troubadour/2nd-Level Features
+  file_dpath: Abilities/Troubadour/2nd-Level Features
   flavor: Audiences love this bit.
   item_id: classic-chandelier-stunt-5-drama
   item_index: "06"
@@ -60,15 +62,15 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:classic-chandelier-stunt-5-drama
   scdc:
-    - 1.1.1:13.2.3.5:06
+    - 1.1.1:11.2.3.5:06
   source: mcdm.heroes.v1
   subclass: Duelist
   target: Self and one willing ally
   type: feature/ability/troubadour/2nd-level-feature
 effects:
-  - effect: Each target can shift up to 5 squares, including vertically, but must
+  - name: Effect
+    effect: Each target can shift up to 5 squares, including vertically, but must
       end this movement adjacent to the other target and on solid ground. Each
       target can then make a melee free strike that deals extra damage equal to
       twice their highest characteristic score.
-    name: Effect
 ```

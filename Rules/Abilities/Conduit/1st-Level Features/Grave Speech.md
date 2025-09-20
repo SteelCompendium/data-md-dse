@@ -15,19 +15,21 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:grave-speech
 scdc:
-- 1.1.1:13.2.8.1:19
+- 1.1.1:11.2.8.1:19
 source: mcdm.heroes.v1
 subclass: Death
 target: One dead creature
 type: feature/ability/conduit/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Grave Speech
 flavor: You commune with the lingering soul of the recently dead.
 keywords:
   - Magic
-type: Maneuver
+usage: Maneuver
 distance: Melee 1
 target: One dead creature
 metadata:
@@ -47,18 +49,18 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:grave-speech
   scdc:
-    - 1.1.1:13.2.8.1:19
+    - 1.1.1:11.2.8.1:19
   source: mcdm.heroes.v1
   subclass: Death
   target: One dead creature
   type: feature/ability/conduit/1st-level-feature
 effects:
-  - effect: You can speak to the target if they are a creature who has died within
+  - name: Effect
+    effect: You can speak to the target if they are a creature who has died within
       the last 24 hours and who can speak a language you know, even if they are
       just a head. The target regards you as they would have in life, and you
       might need to make tests to influence them and convince them to speak with
       you. The trauma of dying can make a creature's memory of that event hazy,
       but the target otherwise knows all they knew in life. After 1 minute, the
       effect ends. You can't use this ability on the same creature twice.
-    name: Effect
 ```

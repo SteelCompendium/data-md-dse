@@ -1,10 +1,11 @@
 ---
+ability_type: Signature
 action_type: Main action
 class: elementalist
 distance: Ranged 10
 feature_type: ability
 file_basename: Afflict a Bountiful Decay
-file_dpath: Elementalist/1st-Level Features
+file_dpath: Abilities/Elementalist/1st-Level Features
 flavor: Your curse causes your foe's flesh to rot off as spores that aid your allies.
 item_id: afflict-a-bountiful-decay
 item_index: 09
@@ -19,13 +20,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:afflict-a-bountiful-decay
 scdc:
-- 1.1.1:13.2.9.1:09
+- 1.1.1:11.2.9.1:09
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/elementalist/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Afflict a Bountiful Decay
 flavor: Your curse causes your foe's flesh to rot off as spores that aid your allies.
 keywords:
@@ -34,16 +37,17 @@ keywords:
   - Ranged
   - Rot
   - Strike
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: One creature
 metadata:
+  ability_type: Signature
   action_type: Main action
   class: elementalist
   distance: Ranged 10
   feature_type: ability
   file_basename: Afflict a Bountiful Decay
-  file_dpath: Elementalist/1st-Level Features
+  file_dpath: Abilities/Elementalist/1st-Level Features
   flavor: Your curse causes your foe's flesh to rot off as spores that aid your allies.
   item_id: afflict-a-bountiful-decay
   item_index: 9
@@ -58,17 +62,17 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:afflict-a-bountiful-decay
   scdc:
-    - 1.1.1:13.2.9.1:09
+    - 1.1.1:11.2.9.1:09
   source: mcdm.heroes.v1
   target: One creature
   type: feature/ability/elementalist/1st-level-feature
 effects:
   - roll: Power Roll + Reason
-    t1: 2 + R corruption damage
-    t2: 4 + R corruption damage
-    t3: 6 + R corruption damage
-  - effect: Choose yourself or one ally within distance. That character can end one
+    tier1: 2 + R corruption damage
+    tier2: 4 + R corruption damage
+    tier3: 6 + R corruption damage
+  - name: Effect
+    effect: Choose yourself or one ally within distance. That character can end one
       effect on them that is ended by a saving throw or that ends at the end of
       their turn.
-    name: Effect
 ```

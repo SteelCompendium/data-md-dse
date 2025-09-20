@@ -7,7 +7,7 @@ cost_resource: Clarity
 distance: Ranged 10
 feature_type: ability
 file_basename: Exothermic Shield
-file_dpath: Talent/5th-Level Features
+file_dpath: Abilities/Talent/5th-Level Features
 flavor: You encase the target in psionic flame and allow them to flicker without fear
   of burning out.
 item_id: exothermic-shield-9-clarity
@@ -21,13 +21,15 @@ level: 5
 scc:
 - mcdm.heroes.v1:feature.ability.talent.5th-level-feature:exothermic-shield-9-clarity
 scdc:
-- 1.1.1:13.2.1.4:02
+- 1.1.1:11.2.1.4:02
 source: mcdm.heroes.v1
 target: Self or one ally
 type: feature/ability/talent/5th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Exothermic Shield
 cost: 9 Clarity
 flavor: You encase the target in psionic flame and allow them to flicker without
@@ -36,7 +38,7 @@ keywords:
   - Pyrokinesis
   - Psionic
   - Ranged
-type: Maneuver
+usage: Maneuver
 distance: Ranged 10
 target: Self or one ally
 metadata:
@@ -48,7 +50,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Exothermic Shield
-  file_dpath: Talent/5th-Level Features
+  file_dpath: Abilities/Talent/5th-Level Features
   flavor: You encase the target in psionic flame and allow them to flicker without
     fear of burning out.
   item_id: exothermic-shield-9-clarity
@@ -62,17 +64,17 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.talent.5th-level-feature:exothermic-shield-9-clarity
   scdc:
-    - 1.1.1:13.2.1.4:02
+    - 1.1.1:11.2.1.4:02
   source: mcdm.heroes.v1
   target: Self or one ally
   type: feature/ability/talent/5th-level-feature
 effects:
-  - effect: Until the start of your next turn, the target has cold immunity 10 and
+  - name: Effect
+    effect: Until the start of your next turn, the target has cold immunity 10 and
       fire immunity 10, and their strikes deal extra fire damage equal to twice
       your Reason score. Additionally, whenever an enemy uses a melee ability
       against the target while they are under this effect, the enemy takes 5
       fire damage.
-    name: Effect
-  - effect: The target gains 2 surges. You are weakened and slowed (save ends).
-    name: Strained
+  - name: Strained
+    effect: The target gains 2 surges. You are weakened and slowed (save ends).
 ```

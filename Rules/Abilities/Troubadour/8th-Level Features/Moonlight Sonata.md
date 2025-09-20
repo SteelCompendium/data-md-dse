@@ -4,7 +4,7 @@ class: troubadour
 distance: 5 aura
 feature_type: ability
 file_basename: Moonlight Sonata
-file_dpath: Troubadour/8th-Level Features
+file_dpath: Abilities/Troubadour/8th-Level Features
 flavor: Music pours out of your heart, filling the area with the utmost delicacy and
   without damper.
 item_id: moonlight-sonata
@@ -18,14 +18,16 @@ level: 8
 scc:
 - mcdm.heroes.v1:feature.ability.troubadour.8th-level-feature:moonlight-sonata
 scdc:
-- 1.1.1:13.2.3.2:03
+- 1.1.1:11.2.3.2:03
 source: mcdm.heroes.v1
 subclass: Virtuoso
 target: Each ally in the area
 type: feature/ability/troubadour/8th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Moonlight Sonata
 flavor: Music pours out of your heart, filling the area with the utmost delicacy
   and without damper.
@@ -33,7 +35,7 @@ keywords:
   - Area
   - Magic
   - Performance
-type: No action
+usage: No action
 distance: 5 aura
 target: Each ally in the area
 metadata:
@@ -42,7 +44,7 @@ metadata:
   distance: 5 aura
   feature_type: ability
   file_basename: Moonlight Sonata
-  file_dpath: Troubadour/8th-Level Features
+  file_dpath: Abilities/Troubadour/8th-Level Features
   flavor: Music pours out of your heart, filling the area with the utmost delicacy
     and without damper.
   item_id: moonlight-sonata
@@ -56,16 +58,16 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.troubadour.8th-level-feature:moonlight-sonata
   scdc:
-    - 1.1.1:13.2.3.2:03
+    - 1.1.1:11.2.3.2:03
   source: mcdm.heroes.v1
   subclass: Virtuoso
   target: Each ally in the area
   type: feature/ability/troubadour/8th-level-feature
 effects:
-  - effect: While this performance is active, each target who is dead can choose to
+  - name: Effect
+    effect: While this performance is active, each target who is dead can choose to
       continue taking turns after death. On each of their turns, a target can
       move and use either a main action or a maneuver, but can't spend
       Recoveries or use triggered actions. At the end of the encounter, each
       target who chose to take turns this way turns to dust and blows away.
-    name: Effect
 ```

@@ -7,7 +7,7 @@ cost_resource: Wrath
 distance: Ranged 10
 feature_type: ability
 file_basename: Burden of Evil
-file_dpath: Censor/6th-Level Features
+file_dpath: Abilities/Censor/6th-Level Features
 flavor: You reveal a vision of your enemies' fate that causes them to scramble as
   it staggers them.
 item_id: burden-of-evil-9-wrath
@@ -21,14 +21,16 @@ level: 6
 scc:
 - mcdm.heroes.v1:feature.ability.censor.6th-level-feature:burden-of-evil-9-wrath
 scdc:
-- 1.1.1:13.2.7.3:06
+- 1.1.1:11.2.7.3:06
 source: mcdm.heroes.v1
 subclass: Oracle
 target: Three enemies
 type: feature/ability/censor/6th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Burden of Evil
 cost: 9 Wrath
 flavor: You reveal a vision of your enemies' fate that causes them to scramble
@@ -37,7 +39,7 @@ keywords:
   - Magic
   - Ranged
   - Strike
-type: Maneuver
+usage: Maneuver
 distance: Ranged 10
 target: Three enemies
 metadata:
@@ -49,7 +51,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Burden of Evil
-  file_dpath: Censor/6th-Level Features
+  file_dpath: Abilities/Censor/6th-Level Features
   flavor: You reveal a vision of your enemies' fate that causes them to scramble
     as it staggers them.
   item_id: burden-of-evil-9-wrath
@@ -63,14 +65,14 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.censor.6th-level-feature:burden-of-evil-9-wrath
   scdc:
-    - 1.1.1:13.2.7.3:06
+    - 1.1.1:11.2.7.3:06
   source: mcdm.heroes.v1
   subclass: Oracle
   target: Three enemies
   type: feature/ability/censor/6th-level-feature
 effects:
   - roll: Power Roll + Presence
-    t1: Slide 3; I < WEAK, dazed (save ends)
-    t2: Slide 5; I < AVERAGE, dazed (save ends)
-    t3: Slide 7; I < STRONG, dazed (save ends)
+    tier1: Slide 3; I < WEAK, dazed (save ends)
+    tier2: Slide 5; I < AVERAGE, dazed (save ends)
+    tier3: Slide 7; I < STRONG, dazed (save ends)
 ```

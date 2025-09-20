@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Wode Elf Greenskeeper
 level: 1
 roles:
@@ -50,45 +51,51 @@ agility: 2
 reason: 0
 intuition: 0
 presence: 1
-traits:
-  - name: Masking Glamor
-    effects:
-      - effect: Abilities targeting the greenskeeper that would take a bane from cover
-          or concealment have a double bane instead.
-abilities:
-  - name: Growing Longsword
+features:
+  - type: feature
+    feature_type: ability
+    name: Growing Longsword
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 5 damage
-        t2: 7 damage
-        t3: 9 damage
-      - effect: The target is taunted until the end of their next turn, and the
+        tier1: 5 damage
+        tier2: 7 damage
+        tier3: 9 damage
+      - name: Effect
+        effect: The target is taunted until the end of their next turn, and the
           greenskeeper shifts up to 3 squares
-        name: Effect
-      - effect: The distance increases to Melee 5.
-        cost: 2 Malice
-  - name: Overgrowth
+      - cost: 2 Malice
+        effect: The distance increases to Melee 5.
+  - type: feature
+    feature_type: ability
+    name: Overgrowth
     icon: 🔳
     cost: 3 Malice
     keywords:
       - Area
       - Ranged
-    type: Maneuver
+    usage: Maneuver
     distance: 3 cube within 10
     target: Special
     effects:
-      - effect: The area is overgrown with heavy brush and brambles until the end of the
+      - name: Effect
+        effect: The area is overgrown with heavy brush and brambles until the end of the
           encounter, providing cover and concealment for the greenskeeper and
           their allies. The area is difficult terrain for enemies and any enemy
           who starts their turn in the area takes 3 damage.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Masking Glamor
+    icon: ⭐️
+    effects:
+      - effect: Abilities targeting the greenskeeper that would take a bane from cover
+          or concealment have a double bane instead.
 ~~~

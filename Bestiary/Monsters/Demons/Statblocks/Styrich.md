@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Styrich
 level: 8
 roles:
@@ -50,44 +51,53 @@ agility: 4
 reason: 0
 intuition: 2
 presence: 0
-traits:
-  - name: Lethe
-    effects:
-      - effect: While the styrich is winded, they gain an edge on strikes, and any
-          strike made against them gains an edge.
-  - name: Soulsight
-    effects:
-      - effect: Any creature within 2 squares of the styrich can't be hidden from them.
-abilities:
-  - name: Hair Whip
+features:
+  - type: feature
+    feature_type: ability
+    name: Hair Whip
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 4
     target: One creature or object
     effects:
       - roll: Power Roll + 4
-        t1: 7 damage; pull 1
-        t2: 10 damage; pull 2, grabbed
-        t3: 12 damage; pull 3, grabbed
-      - effect: Any target restrained by the styrich's Tangled Nest ability can be
+        tier1: 7 damage; pull 1
+        tier2: 10 damage; pull 2, grabbed
+        tier3: 12 damage; pull 3, grabbed
+      - name: Effect
+        effect: Any target restrained by the styrich's Tangled Nest ability can be
           pulled the distance determined by the power roll.
-        name: Effect
-  - name: Tangled Nest
+  - type: feature
+    feature_type: ability
+    name: Tangled Nest
     icon: ❇️
     cost: 5 Malice
     keywords:
       - Area
-    type: Maneuver
+    usage: Maneuver
     distance: 4 burst
     target: Each enemy in the area
     effects:
       - roll: Power Roll + 4
-        t1: A < 2 slowed (save ends)
-        t2: Slowed (EoT) or A < 3 3 damage and restrained (EoT)
-        t3: Restrained (EoT) or A < 4 3 damage and restrained (save ends)
+        tier1: A < 2 slowed (save ends)
+        tier2: Slowed (EoT) or A < 3 3 damage and restrained (EoT)
+        tier3: Restrained (EoT) or A < 4 3 damage and restrained (save ends)
+  - type: feature
+    feature_type: trait
+    name: Lethe
+    icon: ⭐️
+    effects:
+      - effect: While the styrich is winded, they gain an edge on strikes, and any
+          strike made against them gains an edge.
+  - type: feature
+    feature_type: trait
+    name: Soulsight
+    icon: ⭐️
+    effects:
+      - effect: Any creature within 2 squares of the styrich can't be hidden from them.
 ~~~

@@ -13,12 +13,15 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Malice Features
 name: Manticore Malice
-type: Malice Features
 flavor: At the start of any manticore's turn, you can spend Malice to activate
   one of the following features.
 features:
-  - name: Uncanny Mimicry
+  - type: feature
+    feature_type: trait
+    name: Uncanny Mimicry
     icon: 🌀
     cost: 3 Malice
     effects:
@@ -27,22 +30,28 @@ features:
           on power rolls against the manticore (save ends). Each time this
           feature is used against the same target during the encounter, its
           potency decreases by 2.
-  - name: Solo Action
+  - type: feature
+    feature_type: trait
+    name: Solo Action
     icon: ☠️
     cost: 5 Malice
     effects:
       - effect: The manticore takes an additional main action on their turn. They can
           use this feature even if they are dazed.
-  - name: Desperate Howl
+  - type: feature
+    feature_type: trait
+    name: Desperate Howl
     icon: 🌀
     cost: 5 Malice
     effects:
       - effect: The manticore lets out an unnerving cry. Each enemy within the
           manticore's line of effect makes an **Intuition test**.
-        t1: Frightened (save ends)
-        t2: Frightened (EoT)
-        t3: No effect.
-  - name: Barrage of Barbs
+        tier1: Frightened (save ends)
+        tier2: Frightened (EoT)
+        tier3: No effect.
+  - type: feature
+    feature_type: trait
+    name: Barrage of Barbs
     icon: ❇️
     cost: 7 Malice
     effects:

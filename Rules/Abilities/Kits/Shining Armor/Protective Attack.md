@@ -1,4 +1,5 @@
 ---
+ability_type: Signature
 action_type: Main action
 class: ignored
 distance: Melee 1
@@ -12,7 +13,6 @@ keywords:
 - Melee
 - Strike
 - Weapon
-kit: Shining Armor
 scc:
 - mcdm.heroes.v1:kit-ability.shining-armor:protective-attack
 scdc:
@@ -22,17 +22,20 @@ target: One creature
 type: kit-ability/shining-armor
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Protective Attack
 flavor: The strength of your assault makes it impossible for your foe to ignore you.
 keywords:
   - Melee
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1
 target: One creature
 metadata:
+  ability_type: Signature
   action_type: Main action
   class: ignored
   distance: Melee 1
@@ -46,7 +49,6 @@ metadata:
     - Melee
     - Strike
     - Weapon
-  kit: Shining Armor
   scc:
     - mcdm.heroes.v1:kit-ability.shining-armor:protective-attack
   scdc:
@@ -56,9 +58,9 @@ metadata:
   type: kit-ability/shining-armor
 effects:
   - roll: Power Roll + Might or Agility
-    t1: 5 + M or A damage
-    t2: 8 + M or A damage
-    t3: 11 + M or A damage
-  - effect: The target is taunted until the end of their next turn.
-    name: Effect
+    tier1: 5 + M or A damage
+    tier2: 8 + M or A damage
+    tier3: 11 + M or A damage
+  - name: Effect
+    effect: The target is taunted until the end of their next turn.
 ```

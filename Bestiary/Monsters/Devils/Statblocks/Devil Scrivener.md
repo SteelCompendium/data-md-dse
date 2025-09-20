@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Devil Scrivener
 level: 5
 roles:
@@ -52,29 +53,33 @@ agility: 3
 reason: 1
 intuition: 1
 presence: 2
-traits:
-  - name: True Name
-    effects:
-      - effect: If a creature within 10 squares speaks the scrivener's true name, the
-          scrivener loses their fire immunity and any nondamaging effects of
-          their signature ability until the end of the encounter.
-abilities:
-  - name: Litigation
+features:
+  - type: feature
+    feature_type: ability
+    name: Litigation
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Charge
       - Magic
       - Melee
       - Strike
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 3
-        t1: 3 corruption damage
-        t2: 5 corruption damage; slowed (EoT)
-        t3: 6 corruption damage; slowed (EoT)
-      - effect: The scrivener can shift 1 square.
-        name: Effect
+        tier1: 3 corruption damage
+        tier2: 5 corruption damage; slowed (EoT)
+        tier3: 6 corruption damage; slowed (EoT)
+      - name: Effect
+        effect: The scrivener can shift 1 square.
+  - type: feature
+    feature_type: trait
+    name: True Name
+    icon: ⭐️
+    effects:
+      - effect: If a creature within 10 squares speaks the scrivener's true name, the
+          scrivener loses their fire immunity and any nondamaging effects of
+          their signature ability until the end of the encounter.
 ~~~

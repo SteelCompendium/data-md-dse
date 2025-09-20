@@ -13,39 +13,46 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Malice Features
 name: Radenwight Malice
-type: Malice Features
 flavor: At the start of any radenwight's turn, you can spend Malice to activate
   one of the following features.
 features:
-  - name: Trouser Cut
+  - type: feature
+    feature_type: ability
+    name: Trouser Cut
     icon: 🗡
     cost: 3 Malice
     keywords:
       - Magic
       - Melee
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature
     effects:
       - roll: Power Roll + 2
-        t1: 7 damage; push 3
-        t2: 10 damage; push 3, taunted (EoT)
-        t3: 13 damage; push 5, taunted (EoT)
-      - effect: If the target is wearing clothing covering the lower half of their body,
+        tier1: 7 damage; push 3
+        tier2: 10 damage; push 3, taunted (EoT)
+        tier3: 13 damage; push 5, taunted (EoT)
+      - name: Effect
+        effect: If the target is wearing clothing covering the lower half of their body,
           they must use a maneuver once to pull that clothing up before they can
           move.
-        name: Effect
-      - effect: This ability can't be used by a minion.
-        name: Special
-  - name: Rat Race
+      - name: Special
+        effect: This ability can't be used by a minion.
+  - type: feature
+    feature_type: trait
+    name: Rat Race
     icon: ⭐️
     cost: 5 Malice
     effects:
       - effect: Each radenwight in the encounter shifts up to their speed. If a
           radenwight ends this shift adjacent to one or more radenwights, they
           can make a melee free strike against each enemy adjacent to them.
-  - name: Rally the Rodents
+  - type: feature
+    feature_type: trait
+    name: Rally the Rodents
     icon: 🔳
     cost: 7 Malice
     effects:
@@ -61,8 +68,8 @@ features:
           If the last radenwight in the encounter dies and the wall is still
           standing, the rats let out a hideous screech as they disperse. Each
           enemy on the encounter map makes an Intuition test.
-        t1: 7 sonic damage; the target can't take a respite activity during their next
-          respite
-        t2: 5 sonic damage
-        t3: No effect.
+        tier1: 7 sonic damage; the target can't take a respite activity during their
+          next respite
+        tier2: 5 sonic damage
+        tier3: No effect.
 ~~~

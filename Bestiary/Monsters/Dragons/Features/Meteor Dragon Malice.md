@@ -13,35 +13,44 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Malice Features
 name: Meteor Dragon Malice
-type: Malice Features
 flavor: At the start of a meteor dragon's turn, you can spend Malice to activate
   one of the following features.
 features:
-  - name: Liftoff
+  - type: feature
+    feature_type: trait
+    name: Liftoff
     icon: ⭐️
     cost: 3 Malice
     effects:
       - effect: The next time the dragon uses their Crescent Claws ability, they can
           also slide the target up to 5 squares. If the target is dragonsealed,
           the dragon can vertical slide them instead.
-  - name: Solo Action
+  - type: feature
+    feature_type: trait
+    name: Solo Action
     icon: ☠️
     cost: 5 Malice
     effects:
       - effect: The dragon takes an additional main action on their turn. They can use
           this feature even if they are dazed.
-  - name: Starfall
+  - type: feature
+    feature_type: trait
+    name: Starfall
     icon: 🔳
     cost: 5 Malice
     effects:
       - effect: The dragon drops stars into five 2 cubes anywhere on the encounter map.
           The area is difficult terrain, and each creature and object in the
           area when it appears makes an **Agility test**.
-        t1: 20 holy damage; slowed (save ends), prone
-        t2: 16 holy damage; slowed (save ends)
-        t3: 10 holy damage
-  - name: Event Horizon
+        tier1: 20 holy damage; slowed (save ends), prone
+        tier2: 16 holy damage; slowed (save ends)
+        tier3: 10 holy damage
+  - type: feature
+    feature_type: trait
+    name: Event Horizon
     icon: ☠️
     cost: 10 Malice
     effects:

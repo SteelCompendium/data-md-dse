@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Gnoll Wildling
 level: 2
 roles:
@@ -49,26 +50,30 @@ agility: 2
 reason: 0
 intuition: 0
 presence: -2
-traits:
-  - name: Death Circle
-    effects:
-      - effect: Whenever a non-minion ally within 7 squares of the wildling is reduced
-          to 0 Stamina, the wildling can move up to their speed.
-abilities:
-  - name: Flail
+features:
+  - type: feature
+    feature_type: ability
+    name: Flail
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 2 damage
-        t2: 3 damage
-        t3: 5 damage; the wildling can make a free strike against a creature adjacent to
-          the target
+        tier1: 2 damage
+        tier2: 3 damage
+        tier3: 5 damage; the wildling can make a free strike against a creature adjacent
+          to the target
+  - type: feature
+    feature_type: trait
+    name: Death Circle
+    icon: ⭐️
+    effects:
+      - effect: Whenever a non-minion ally within 7 squares of the wildling is reduced
+          to 0 Stamina, the wildling can move up to their speed.
 ~~~

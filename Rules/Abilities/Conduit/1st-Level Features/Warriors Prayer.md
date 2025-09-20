@@ -1,10 +1,11 @@
 ---
+ability_type: Signature
 action_type: Main action
 class: conduit
 distance: Ranged 10
 feature_type: ability
 file_basename: Warriors Prayer
-file_dpath: Conduit/1st-Level Features
+file_dpath: Abilities/Conduit/1st-Level Features
 flavor: Your quickly uttered prayer lends aggressive divine energy to a friend engaged
   in melee.
 item_id: warriors-prayer
@@ -18,13 +19,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:warriors-prayer
 scdc:
-- 1.1.1:13.2.8.1:13
+- 1.1.1:11.2.8.1:13
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/conduit/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Warrior's Prayer
 flavor: Your quickly uttered prayer lends aggressive divine energy to a friend
   engaged in melee.
@@ -32,16 +35,17 @@ keywords:
   - Magic
   - Ranged
   - Strike
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: One creature
 metadata:
+  ability_type: Signature
   action_type: Main action
   class: conduit
   distance: Ranged 10
   feature_type: ability
   file_basename: Warriors Prayer
-  file_dpath: Conduit/1st-Level Features
+  file_dpath: Abilities/Conduit/1st-Level Features
   flavor: Your quickly uttered prayer lends aggressive divine energy to a friend
     engaged in melee.
   item_id: warriors-prayer
@@ -55,16 +59,16 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:warriors-prayer
   scdc:
-    - 1.1.1:13.2.8.1:13
+    - 1.1.1:11.2.8.1:13
   source: mcdm.heroes.v1
   target: One creature
   type: feature/ability/conduit/1st-level-feature
 effects:
   - roll: Power Roll + Intuition
-    t1: 3 + I holy damage
-    t2: 6 + I holy damage
-    t3: 9 + I holy damage
-  - effect: You or one ally within distance gains temporary Stamina equal to your
+    tier1: 3 + I holy damage
+    tier2: 6 + I holy damage
+    tier3: 9 + I holy damage
+  - name: Effect
+    effect: You or one ally within distance gains temporary Stamina equal to your
       Intuition score.
-    name: Effect
 ```

@@ -7,7 +7,7 @@ cost_resource: Drama
 distance: Ranged 5
 feature_type: ability
 file_basename: Harmonize
-file_dpath: Troubadour/1st-Level Features
+file_dpath: Abilities/Troubadour/1st-Level Features
 flavor: Give the chorus a little punch.
 item_id: harmonize-3-drama
 item_index: '23'
@@ -18,20 +18,22 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:harmonize-3-drama
 scdc:
-- 1.1.1:13.2.3.1:23
+- 1.1.1:11.2.3.1:23
 source: mcdm.heroes.v1
 subclass: Virtuoso
 target: One ally
 type: feature/ability/troubadour/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Harmonize
 cost: 3 Drama
 flavor: Give the chorus a little punch.
 keywords:
   - Ranged
-type: Triggered
+usage: Triggered
 distance: Ranged 5
 target: One ally
 trigger: The target uses an ability that targets only one enemy and costs 3 or
@@ -45,7 +47,7 @@ metadata:
   distance: Ranged 5
   feature_type: ability
   file_basename: Harmonize
-  file_dpath: Troubadour/1st-Level Features
+  file_dpath: Abilities/Troubadour/1st-Level Features
   flavor: Give the chorus a little punch.
   item_id: harmonize-3-drama
   item_index: "23"
@@ -56,16 +58,16 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:harmonize-3-drama
   scdc:
-    - 1.1.1:13.2.3.1:23
+    - 1.1.1:11.2.3.1:23
   source: mcdm.heroes.v1
   subclass: Virtuoso
   target: One ally
   type: feature/ability/troubadour/1st-level-feature
 effects:
-  - effect: The target can choose one additional target for the triggering ability.
+  - name: Effect
+    effect: The target can choose one additional target for the triggering ability.
       Any damage dealt to the additional target is sonic damage.
-    name: Effect
-  - effect: You can trigger this ability when a target uses an ability that has a
+  - cost: Spend 1+ Drama
+    effect: You can trigger this ability when a target uses an ability that has a
       Heroic Resource cost of 3 + each additional drama spent.
-    cost: Spend 1+ Drama
 ```

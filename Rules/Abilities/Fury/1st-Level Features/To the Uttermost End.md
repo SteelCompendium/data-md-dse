@@ -7,7 +7,7 @@ cost_resource: Ferocity
 distance: Melee 1
 feature_type: ability
 file_basename: To the Uttermost End
-file_dpath: Fury/1st-Level Features
+file_dpath: Abilities/Fury/1st-Level Features
 flavor: You gut your life force to ensure a foe's demise.
 item_id: to-the-uttermost-end-5-ferocity
 item_index: '06'
@@ -20,13 +20,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:to-the-uttermost-end-5-ferocity
 scdc:
-- 1.1.1:13.2.5.1:06
+- 1.1.1:11.2.5.1:06
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/fury/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: To the Uttermost End
 cost: 5 Ferocity
 flavor: You gut your life force to ensure a foe's demise.
@@ -34,7 +36,7 @@ keywords:
   - Melee
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1
 target: One creature
 metadata:
@@ -46,7 +48,7 @@ metadata:
   distance: Melee 1
   feature_type: ability
   file_basename: To the Uttermost End
-  file_dpath: Fury/1st-Level Features
+  file_dpath: Abilities/Fury/1st-Level Features
   flavor: You gut your life force to ensure a foe's demise.
   item_id: to-the-uttermost-end-5-ferocity
   item_index: "06"
@@ -59,18 +61,18 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:to-the-uttermost-end-5-ferocity
   scdc:
-    - 1.1.1:13.2.5.1:06
+    - 1.1.1:11.2.5.1:06
   source: mcdm.heroes.v1
   target: One creature
   type: feature/ability/fury/1st-level-feature
 effects:
   - roll: Power Roll + Might
-    t1: 7 + M damage
-    t2: 11 + M damage
-    t3: 16 + M damage
-  - effect: While you are winded, this ability deals an extra 1d6 damage for each
+    tier1: 7 + M damage
+    tier2: 11 + M damage
+    tier3: 16 + M damage
+  - cost: Spend 1+ Ferocity
+    effect: While you are winded, this ability deals an extra 1d6 damage for each
       ferocity spent. While you are dying, it deals an extra 1d10 damage for
       each ferocity spent. In either case, you lose 1d6 Stamina after making
       this strike.
-    cost: Spend 1+ Ferocity
 ```

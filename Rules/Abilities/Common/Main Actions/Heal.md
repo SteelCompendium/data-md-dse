@@ -13,7 +13,9 @@ source: mcdm.heroes.v1
 type: common-ability/main-action
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: trait
 name: Heal
 metadata:
   class: combat

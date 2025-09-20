@@ -4,7 +4,7 @@ class: troubadour
 distance: 2 burst
 feature_type: ability
 file_basename: Power Chord
-file_dpath: Troubadour/1st-Level Features
+file_dpath: Abilities/Troubadour/1st-Level Features
 flavor: Your instrument rings true and your music blows everyone away.
 item_id: power-chord
 item_index: 09
@@ -16,20 +16,22 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:power-chord
 scdc:
-- 1.1.1:13.2.3.1:09
+- 1.1.1:11.2.3.1:09
 source: mcdm.heroes.v1
 subclass: Virtuoso
 target: Each enemy in the area
 type: feature/ability/troubadour/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Power Chord
 flavor: Your instrument rings true and your music blows everyone away.
 keywords:
   - Area
   - Magic
-type: Maneuver
+usage: Maneuver
 distance: 2 burst
 target: Each enemy in the area
 metadata:
@@ -38,7 +40,7 @@ metadata:
   distance: 2 burst
   feature_type: ability
   file_basename: Power Chord
-  file_dpath: Troubadour/1st-Level Features
+  file_dpath: Abilities/Troubadour/1st-Level Features
   flavor: Your instrument rings true and your music blows everyone away.
   item_id: power-chord
   item_index: 9
@@ -50,14 +52,14 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:power-chord
   scdc:
-    - 1.1.1:13.2.3.1:09
+    - 1.1.1:11.2.3.1:09
   source: mcdm.heroes.v1
   subclass: Virtuoso
   target: Each enemy in the area
   type: feature/ability/troubadour/1st-level-feature
 effects:
   - roll: Power Roll + Presence
-    t1: Push 1
-    t2: Push 2
-    t3: Push 3
+    tier1: Push 1
+    tier2: Push 2
+    tier3: Push 3
 ```

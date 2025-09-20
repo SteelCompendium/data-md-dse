@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Minotaur Sunderer
 level: 3
 roles:
@@ -50,47 +51,48 @@ agility: 1
 reason: 0
 intuition: 2
 presence: -1
-traits:
-  - name: Minotaur Sense
-    effects:
-      - effect: The sunderer can't obtain less than a tier 2 outcome when making tests
-          to navigate, search, or seek.
-abilities:
-  - name: Spiked Maul
+features:
+  - type: feature
+    feature_type: ability
+    name: Spiked Maul
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Charge
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 2
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 2
-        t1: 8 damage; pull 1
-        t2: 12 damage; pull 2
-        t3: 15 damage; pull 3
-      - effect: A target pulled adjacent to the sunderer is automatically grabbed.
-        name: Effect
-  - name: Fearsome Bay
+        tier1: 8 damage; pull 1
+        tier2: 12 damage; pull 2
+        tier3: 15 damage; pull 3
+      - name: Effect
+        effect: A target pulled adjacent to the sunderer is automatically grabbed.
+  - type: feature
+    feature_type: ability
+    name: Fearsome Bay
     icon: ❇️
     cost: 5 Malice
     keywords:
       - Area
-    type: Main action
+    usage: Main action
     distance: 3 burst
     target: Each enemy in the area
     effects:
       - roll: Power Roll + 2
-        t1: I < 0 frightened (save ends)
-        t2: I < 1 frightened (save ends)
-        t3: I < 2 frightened (save ends)
-      - effect: Until the end of their next turn, the minotaur has damage immunity 2 and
+        tier1: I < 0 frightened (save ends)
+        tier2: I < 1 frightened (save ends)
+        tier3: I < 2 frightened (save ends)
+      - name: Effect
+        effect: Until the end of their next turn, the minotaur has damage immunity 2 and
           deals an extra 5 damage with strikes.
-        name: Effect
-  - name: Disemboweling Horns
+  - type: feature
+    feature_type: ability
+    name: Disemboweling Horns
     icon: 🗡
     cost: 3 Malice
     keywords:
@@ -98,29 +100,38 @@ abilities:
       - Melee
       - Strike
       - Weapon
-    type: Maneuver
+    usage: Maneuver
     distance: Melee 2
     target: One creature
     effects:
       - name: Special
         effect: The target must be grabbed by the sunderer.
       - roll: Power Roll + 2
-        t1: 5 damage; M < 0 bleeding (save ends)
-        t2: 8 damage; M < 1 bleeding (save ends)
-        t3: 9 damage; M < 2 bleeding (save ends)
-      - effect: While bleeding this way, the target takes 1d6 damage at the start of
+        tier1: 5 damage; M < 0 bleeding (save ends)
+        tier2: 8 damage; M < 1 bleeding (save ends)
+        tier3: 9 damage; M < 2 bleeding (save ends)
+      - name: Effect
+        effect: While bleeding this way, the target takes 1d6 damage at the start of
           each of their turns.
-        name: Effect
-  - name: Retaliatory Strike
+  - type: feature
+    feature_type: ability
+    name: Retaliatory Strike
     icon: ❗️
     keywords:
       - Ranged
-    type: Triggered action
+    usage: Triggered action
     distance: Ranged 6
     target: The triggering creature
     trigger: A creature within distance deals damage to the sunderer.
     effects:
-      - effect: The sunderer uses the Charge main action and Spiked Maul against the
+      - name: Effect
+        effect: The sunderer uses the Charge main action and Spiked Maul against the
           target.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Minotaur Sense
+    icon: ⭐️
+    effects:
+      - effect: The sunderer can't obtain less than a tier 2 outcome when making tests
+          to navigate, search, or seek.
 ~~~

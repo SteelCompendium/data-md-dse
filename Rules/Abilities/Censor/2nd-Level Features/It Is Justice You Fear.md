@@ -7,7 +7,7 @@ cost_resource: Wrath
 distance: Ranged 10
 feature_type: ability
 file_basename: It Is Justice You Fear
-file_dpath: Censor/2nd-Level Features
+file_dpath: Abilities/Censor/2nd-Level Features
 flavor: I am but a vessel. Your own deeds weigh upon you.
 item_id: it-is-justice-you-fear-5-wrath
 item_index: '05'
@@ -20,14 +20,16 @@ level: 2
 scc:
 - mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:it-is-justice-you-fear-5-wrath
 scdc:
-- 1.1.1:13.2.7.5:05
+- 1.1.1:11.2.7.5:05
 source: mcdm.heroes.v1
 subclass: Exorcist
 target: One creature
 type: feature/ability/censor/2nd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: It Is Justice You Fear
 cost: 5 Wrath
 flavor: I am but a vessel. Your own deeds weigh upon you.
@@ -35,7 +37,7 @@ keywords:
   - Magic
   - Ranged
   - Strike
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: One creature
 metadata:
@@ -47,7 +49,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: It Is Justice You Fear
-  file_dpath: Censor/2nd-Level Features
+  file_dpath: Abilities/Censor/2nd-Level Features
   flavor: I am but a vessel. Your own deeds weigh upon you.
   item_id: it-is-justice-you-fear-5-wrath
   item_index: "05"
@@ -60,18 +62,18 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:it-is-justice-you-fear-5-wrath
   scdc:
-    - 1.1.1:13.2.7.5:05
+    - 1.1.1:11.2.7.5:05
   source: mcdm.heroes.v1
   subclass: Exorcist
   target: One creature
   type: feature/ability/censor/2nd-level-feature
 effects:
   - roll: Power Roll + Might
-    t1: 8 + M holy damage; P < WEAK, frightened (save ends)
-    t2: 12 + M holy damage; P < AVERAGE, frightened (save ends)
-    t3: 15 + M holy damage; P < STRONG, frightened (save ends)
-  - effect: If the target is already frightened of you or another creature and this
+    tier1: 8 + M holy damage; P < WEAK, frightened (save ends)
+    tier2: 12 + M holy damage; P < AVERAGE, frightened (save ends)
+    tier3: 15 + M holy damage; P < STRONG, frightened (save ends)
+  - name: Effect
+    effect: If the target is already frightened of you or another creature and this
       ability would frighten them again, they instead take psychic damage equal
       to twice your Presence score.
-    name: Effect
 ```

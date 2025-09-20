@@ -7,7 +7,7 @@ cost_resource: Insight
 distance: Self; see below
 feature_type: ability
 file_basename: Cacophony of Cinders
-file_dpath: Shadow/9th-Level Features
+file_dpath: Abilities/Shadow/9th-Level Features
 flavor: You tumble through the battle, stabbing foes and teleporting allies.
 item_id: cacophony-of-cinders-11-insight
 item_index: '04'
@@ -20,14 +20,16 @@ level: 9
 scc:
 - mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:cacophony-of-cinders-11-insight
 scdc:
-- 1.1.1:13.2.2.7:04
+- 1.1.1:11.2.2.7:04
 source: mcdm.heroes.v1
 subclass: Black Ash
 target: Self
 type: feature/ability/shadow/9th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Cacophony of Cinders
 cost: 11 Insight
 flavor: You tumble through the battle, stabbing foes and teleporting allies.
@@ -35,7 +37,7 @@ keywords:
   - Magic
   - Melee
   - Weapon
-type: Main action
+usage: Main action
 distance: Self; see below
 target: Self
 metadata:
@@ -47,7 +49,7 @@ metadata:
   distance: Self; see below
   feature_type: ability
   file_basename: Cacophony of Cinders
-  file_dpath: Shadow/9th-Level Features
+  file_dpath: Abilities/Shadow/9th-Level Features
   flavor: You tumble through the battle, stabbing foes and teleporting allies.
   item_id: cacophony-of-cinders-11-insight
   item_index: "04"
@@ -60,7 +62,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:cacophony-of-cinders-11-insight
   scdc:
-    - 1.1.1:13.2.2.7:04
+    - 1.1.1:11.2.2.7:04
   source: mcdm.heroes.v1
   subclass: Black Ash
   target: Self
@@ -70,7 +72,7 @@ effects:
     effect: You shift up to twice your speed, making one power roll that targets
       each creature you come adjacent to during the shift.
   - roll: Power Roll + Agility
-    t1: An enemy takes 6 damage; an ally can teleport up to 3 squares.
-    t2: An enemy takes 10 damage; an ally can teleport up to 5 squares.
-    t3: An enemy takes 14 damage; an ally can teleport up to 7 squares.
+    tier1: An enemy takes 6 damage; an ally can teleport up to 3 squares.
+    tier2: An enemy takes 10 damage; an ally can teleport up to 5 squares.
+    tier3: An enemy takes 14 damage; an ally can teleport up to 7 squares.
 ```

@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Angulotl Dart
 level: 1
 roles:
@@ -52,28 +53,32 @@ agility: 2
 reason: 1
 intuition: 0
 presence: 0
-traits:
-  - name: Toxiferous
-    effects:
-      - effect: Whenever an adjacent enemy grabs the dart or uses a melee ability
-          against them, that enemy takes 1 poison damage.
-abilities:
-  - name: Poison Dart
+features:
+  - type: feature
+    feature_type: ability
+    name: Poison Dart
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 8
     target: One creature per minion
     effects:
       - roll: Power Roll + 2
-        t1: 2 poison damage
-        t2: 4 poison damage
-        t3: 5 poison damage
-      - effect: The dart gains an edge on this ability against any target who has less
+        tier1: 2 poison damage
+        tier2: 4 poison damage
+        tier3: 5 poison damage
+      - name: Effect
+        effect: The dart gains an edge on this ability against any target who has less
           than full Stamina.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Toxiferous
+    icon: ⭐️
+    effects:
+      - effect: Whenever an adjacent enemy grabs the dart or uses a melee ability
+          against them, that enemy takes 1 poison damage.
 ~~~

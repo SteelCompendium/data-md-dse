@@ -7,10 +7,10 @@ cost_resource: Essence
 distance: 5 burst
 feature_type: ability
 file_basename: World Torn Asunder
-file_dpath: Elementalist/8th-Level Features
+file_dpath: Abilities/Elementalist/8th-Level Features
 flavor: You stomp your foot and quake the whole world over.
 item_id: world-torn-asunder-11-essence
-item_index: '04'
+item_index: '06'
 item_name: World Torn Asunder (11 Essence)
 keywords:
 - Area
@@ -20,13 +20,15 @@ level: 8
 scc:
 - mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:world-torn-asunder-11-essence
 scdc:
-- 1.1.1:13.2.9.2:04
+- 1.1.1:11.2.9.2:06
 source: mcdm.heroes.v1
 target: Each enemy in the area
 type: feature/ability/elementalist/8th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: World Torn Asunder
 cost: 11 Essence
 flavor: You stomp your foot and quake the whole world over.
@@ -34,7 +36,7 @@ keywords:
   - Area
   - Earth
   - Magic
-type: Main action
+usage: Main action
 distance: 5 burst
 target: Each enemy in the area
 metadata:
@@ -46,10 +48,10 @@ metadata:
   distance: 5 burst
   feature_type: ability
   file_basename: World Torn Asunder
-  file_dpath: Elementalist/8th-Level Features
+  file_dpath: Abilities/Elementalist/8th-Level Features
   flavor: You stomp your foot and quake the whole world over.
   item_id: world-torn-asunder-11-essence
-  item_index: "04"
+  item_index: "06"
   item_name: World Torn Asunder (11 Essence)
   keywords:
     - Area
@@ -59,18 +61,18 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:world-torn-asunder-11-essence
   scdc:
-    - 1.1.1:13.2.9.2:04
+    - 1.1.1:11.2.9.2:06
   source: mcdm.heroes.v1
   target: Each enemy in the area
   type: feature/ability/elementalist/8th-level-feature
 effects:
   - roll: Power Roll + Reason
-    t1: M < WEAK, prone
-    t2: M < AVERAGE, prone
-    t3: M < STRONG, prone
-  - effect: You create a fissure in the ground adjacent to you that is a 10 x 2 line
+    tier1: M < WEAK, prone
+    tier2: M < AVERAGE, prone
+    tier3: M < STRONG, prone
+  - name: Effect
+    effect: You create a fissure in the ground adjacent to you that is a 10 x 2 line
       and 6 squares deep. Each creature in the area who is prone and size 2 or
       smaller falls in. Other creatures can enter the fissure or can shift to
       the nearest unoccupied space of their choice outside it.
-    name: Effect
 ```

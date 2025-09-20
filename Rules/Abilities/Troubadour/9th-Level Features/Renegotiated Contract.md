@@ -7,7 +7,7 @@ cost_resource: Drama
 distance: Melee 1
 feature_type: ability
 file_basename: Renegotiated Contract
-file_dpath: Troubadour/9th-Level Features
+file_dpath: Abilities/Troubadour/9th-Level Features
 flavor: No, no. You don't die until the sequel.
 item_id: renegotiated-contract-11-drama
 item_index: '03'
@@ -20,14 +20,16 @@ level: 9
 scc:
 - mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:renegotiated-contract-11-drama
 scdc:
-- 1.1.1:13.2.3.7:03
+- 1.1.1:11.2.3.7:03
 source: mcdm.heroes.v1
 subclass: Duelist
 target: One creature
 type: feature/ability/troubadour/9th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Renegotiated Contract
 cost: 11 Drama
 flavor: No, no. You don't die until the sequel.
@@ -35,7 +37,7 @@ keywords:
   - Melee
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1
 target: One creature
 metadata:
@@ -47,7 +49,7 @@ metadata:
   distance: Melee 1
   feature_type: ability
   file_basename: Renegotiated Contract
-  file_dpath: Troubadour/9th-Level Features
+  file_dpath: Abilities/Troubadour/9th-Level Features
   flavor: No, no. You don't die until the sequel.
   item_id: renegotiated-contract-11-drama
   item_index: "03"
@@ -60,7 +62,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:renegotiated-contract-11-drama
   scdc:
-    - 1.1.1:13.2.3.7:03
+    - 1.1.1:11.2.3.7:03
   source: mcdm.heroes.v1
   subclass: Duelist
   target: One creature
@@ -74,11 +76,11 @@ effects:
       maximum is gained by the other creature. Neither of you can gain more
       Stamina than your maximum this way. You then make a power roll.
   - roll: Power Roll + Presence
-    t1: You and the target can each end one effect on yourselves that is ended by a
-      saving throw or that ends at the end of your turns.
-    t2: You and the target can end any effects on yourselves that are ended by a
+    tier1: You and the target can each end one effect on yourselves that is ended by
+      a saving throw or that ends at the end of your turns.
+    tier2: You and the target can end any effects on yourselves that are ended by a
       saving throw or that end at the end of your turns.
-    t3: You can choose any of the current effects on you and the target that are
+    tier3: You can choose any of the current effects on you and the target that are
       ended by a saving throw or that end at the end of your turns, apply the
       chosen effects to the target, and end the rest.
 ```

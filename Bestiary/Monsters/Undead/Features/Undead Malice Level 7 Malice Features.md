@@ -14,19 +14,24 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: + Malice Features
 name: Undead Malice
-type: + Malice Features
 level: 7
 flavor: At the start of any level 7 or higher undead's turn, you can spend
   Malice to activate one of the following features.
 features:
-  - name: Prior Malice Features
+  - type: feature
+    feature_type: trait
+    name: Prior Malice Features
     icon: ⭐️
     cost: 2-7+ Malice
     effects:
       - effect: The undead activates a Malice feature available to undead of level 6 or
           lower.
-  - name: Necrotic Rupture
+  - type: feature
+    feature_type: trait
+    name: Necrotic Rupture
     icon: 🌀
     cost: 5 Malice
     effects:

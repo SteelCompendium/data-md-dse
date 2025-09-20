@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: War Dog War Frog
 level: 4
 roles:
@@ -54,29 +55,33 @@ agility: 3
 reason: 0
 intuition: 2
 presence: 0
-traits:
-  - name: Loyalty Collar
-    effects:
-      - effect: When the war frog is reduced to 0 Stamina, their loyalty collar
-          explodes, dealing 1d6 damage to each adjacent enemy and object.
-abilities:
-  - name: Poisoned Dagger
+features:
+  - type: feature
+    feature_type: ability
+    name: Poisoned Dagger
     icon: ⚔️
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1 or ranged 4
     target: One creature per minion
     effects:
       - roll: Power Roll + 3
-        t1: 3 poison damage
-        t2: 5 poison damage
-        t3: 7 poison damage
-      - effect: The war frog can jump 3 squares before or after making the strike. If
+        tier1: 3 poison damage
+        tier2: 5 poison damage
+        tier3: 7 poison damage
+      - name: Effect
+        effect: The war frog can jump 3 squares before or after making the strike. If
           they end this jump in cover or concealment, they can attempt to hide.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Loyalty Collar
+    icon: ⭐️
+    effects:
+      - effect: When the war frog is reduced to 0 Stamina, their loyalty collar
+          explodes, dealing 1d6 damage to each adjacent enemy and object.
 ~~~

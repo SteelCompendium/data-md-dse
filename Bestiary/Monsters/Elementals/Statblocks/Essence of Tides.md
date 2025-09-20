@@ -29,6 +29,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Essence of Tides
 level: 3
 roles:
@@ -49,63 +50,74 @@ agility: 0
 reason: 1
 intuition: -1
 presence: 2
-traits:
-  - name: Fickle and Free
-    effects:
-      - effect: The essence can't be restrained, slowed, or knocked prone, and they
-          ignore difficult terrain.
-  - name: Water Glide
-    effects:
-      - effect: Whenever the essence starts their turn in a space containing water, they
-          can fly until the end of their turn. While flying, the essence doesn't
-          provoke opportunity attacks.
-abilities:
-  - name: Water Wing
+features:
+  - type: feature
+    feature_type: ability
+    name: Water Wing
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Melee
       - Strike
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 2
-        t1: 7 damage; slide 1
-        t2: 11 damage; slide 2
-        t3: 14 damage; slide 3
-      - effect: If a target has P < 2, their stability is reduced to 0 and they move 2
+        tier1: 7 damage; slide 1
+        tier2: 11 damage; slide 2
+        tier3: 14 damage; slide 3
+      - name: Effect
+        effect: If a target has P < 2, their stability is reduced to 0 and they move 2
           additional squares whenever they are force moved (save ends).
-        name: Effect
-  - name: Convocation of Waves
+  - type: feature
+    feature_type: ability
+    name: Convocation of Waves
     icon: 🏹
     keywords:
       - Magic
       - Ranged
-    type: Maneuver
+    usage: Maneuver
     distance: Ranged 5
     target: Self or one elemental
     effects:
-      - effect: Until the start of the essence's next turn, the target has cold immunity
+      - name: Effect
+        effect: Until the start of the essence's next turn, the target has cold immunity
           5.
-        name: Effect
-      - effect: Until the end of the encounter, the ground within 1 square of the target
+      - cost: 3 Malice
+        effect: Until the end of the encounter, the ground within 1 square of the target
           is a pool of water that is difficult terrain. This water extends out
           behind the target as they move, creating a stream that lasts until the
           end of the encounter. Any enemy who ends their turn in the stream and
           has M < 2 is slowed (save ends).
-        cost: 3 Malice
-  - name: Sea-Salted Wounds
+  - type: feature
+    feature_type: ability
+    name: Sea-Salted Wounds
     icon: ❗️
     cost: 1 Malice
     keywords:
       - Melee
-    type: Triggered action
+    usage: Triggered action
     distance: Melee 1
     target: One enemy
     trigger: An ally deals rolled damage to the target.
     effects:
-      - effect: The essence makes a free strike against the target.
-        name: Effect
+      - name: Effect
+        effect: The essence makes a free strike against the target.
+  - type: feature
+    feature_type: trait
+    name: Fickle and Free
+    icon: ⭐️
+    effects:
+      - effect: The essence can't be restrained, slowed, or knocked prone, and they
+          ignore difficult terrain.
+  - type: feature
+    feature_type: trait
+    name: Water Glide
+    icon: ⭐️
+    effects:
+      - effect: Whenever the essence starts their turn in a space containing water, they
+          can fly until the end of their turn. While flying, the essence doesn't
+          provoke opportunity attacks.
 ~~~

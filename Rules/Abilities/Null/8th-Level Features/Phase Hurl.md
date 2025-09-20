@@ -7,7 +7,7 @@ cost_resource: Discipline
 distance: Melee 1
 feature_type: ability
 file_basename: Phase Hurl
-file_dpath: Null/8th-Level Features
+file_dpath: Abilities/Null/8th-Level Features
 flavor: You throw your foe out of phase with this manifold, causing them to harm other
   enemies as they return.
 item_id: phase-hurl-11-discipline
@@ -22,13 +22,15 @@ level: 8
 scc:
 - mcdm.heroes.v1:feature.ability.null.8th-level-feature:phase-hurl-11-discipline
 scdc:
-- 1.1.1:13.2.6.2:03
+- 1.1.1:11.2.6.2:03
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/null/8th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Phase Hurl
 cost: 11 Discipline
 flavor: You throw your foe out of phase with this manifold, causing them to harm
@@ -38,7 +40,7 @@ keywords:
   - Psionic
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1
 target: One creature
 metadata:
@@ -50,7 +52,7 @@ metadata:
   distance: Melee 1
   feature_type: ability
   file_basename: Phase Hurl
-  file_dpath: Null/8th-Level Features
+  file_dpath: Abilities/Null/8th-Level Features
   flavor: You throw your foe out of phase with this manifold, causing them to harm
     other enemies as they return.
   item_id: phase-hurl-11-discipline
@@ -65,18 +67,18 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.null.8th-level-feature:phase-hurl-11-discipline
   scdc:
-    - 1.1.1:13.2.6.2:03
+    - 1.1.1:11.2.6.2:03
   source: mcdm.heroes.v1
   target: One creature
   type: feature/ability/null/8th-level-feature
 effects:
   - roll: Power Roll + Agility
-    t1: 9 + A damage; push 5; I < WEAK, dazed (save ends)
-    t2: 13 + A damage; push 7; I < AVERAGE, dazed (save ends)
-    t3: 18 + A damage; push 10; I < STRONG, dazed (save ends)
-  - effect: The target and each creature or object they collide with from this
+    tier1: 9 + A damage; push 5; I < WEAK, dazed (save ends)
+    tier2: 13 + A damage; push 7; I < AVERAGE, dazed (save ends)
+    tier3: 18 + A damage; push 10; I < STRONG, dazed (save ends)
+  - name: Effect
+    effect: The target and each creature or object they collide with from this
       forced movement takes psychic damage equal to the total number of squares
       the target was force moved. While the target is dazed this way, they see
       glimpses of creatures from other parts of the timescape.
-    name: Effect
 ```

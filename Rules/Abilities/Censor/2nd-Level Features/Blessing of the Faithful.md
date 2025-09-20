@@ -7,7 +7,7 @@ cost_resource: Wrath
 distance: 3 aura
 feature_type: ability
 file_basename: Blessing of the Faithful
-file_dpath: Censor/2nd-Level Features
+file_dpath: Abilities/Censor/2nd-Level Features
 flavor: The gods reward your faith.
 item_id: blessing-of-the-faithful-5-wrath
 item_index: '04'
@@ -19,21 +19,23 @@ level: 2
 scc:
 - mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:blessing-of-the-faithful-5-wrath
 scdc:
-- 1.1.1:13.2.7.5:04
+- 1.1.1:11.2.7.5:04
 source: mcdm.heroes.v1
 subclass: Paragon
 target: Self and each ally in the area
 type: feature/ability/censor/2nd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Blessing of the Faithful
 cost: 5 Wrath
 flavor: The gods reward your faith.
 keywords:
   - Area
   - Magic
-type: Maneuver
+usage: Maneuver
 distance: 3 aura
 target: Self and each ally in the area
 metadata:
@@ -45,7 +47,7 @@ metadata:
   distance: 3 aura
   feature_type: ability
   file_basename: Blessing of the Faithful
-  file_dpath: Censor/2nd-Level Features
+  file_dpath: Abilities/Censor/2nd-Level Features
   flavor: The gods reward your faith.
   item_id: blessing-of-the-faithful-5-wrath
   item_index: "04"
@@ -57,13 +59,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:blessing-of-the-faithful-5-wrath
   scdc:
-    - 1.1.1:13.2.7.5:04
+    - 1.1.1:11.2.7.5:04
   source: mcdm.heroes.v1
   subclass: Paragon
   target: Self and each ally in the area
   type: feature/ability/censor/2nd-level-feature
 effects:
-  - effect: Until the end of the encounter or until you are dying, each target gains
+  - name: Effect
+    effect: Until the end of the encounter or until you are dying, each target gains
       1 surge at the end of each of your turns.
-    name: Effect
 ```

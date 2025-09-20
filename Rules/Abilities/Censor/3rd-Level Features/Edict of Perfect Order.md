@@ -7,7 +7,7 @@ cost_resource: Wrath
 distance: 2 aura
 feature_type: ability
 file_basename: Edict of Perfect Order
-file_dpath: Censor/3rd-Level Features
+file_dpath: Abilities/Censor/3rd-Level Features
 flavor: Within the area of your divine presence, your enemies will regret using their
   fell abilities.
 item_id: edict-of-perfect-order-7-wrath
@@ -20,13 +20,15 @@ level: 3
 scc:
 - mcdm.heroes.v1:feature.ability.censor.3rd-level-feature:edict-of-perfect-order-7-wrath
 scdc:
-- 1.1.1:13.2.7.6:02
+- 1.1.1:11.2.7.6:02
 source: mcdm.heroes.v1
 target: Each enemy in the area
 type: feature/ability/censor/3rd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Edict of Perfect Order
 cost: 7 Wrath
 flavor: Within the area of your divine presence, your enemies will regret using
@@ -34,7 +36,7 @@ flavor: Within the area of your divine presence, your enemies will regret using
 keywords:
   - Area
   - Magic
-type: Maneuver
+usage: Maneuver
 distance: 2 aura
 target: Each enemy in the area
 metadata:
@@ -46,7 +48,7 @@ metadata:
   distance: 2 aura
   feature_type: ability
   file_basename: Edict of Perfect Order
-  file_dpath: Censor/3rd-Level Features
+  file_dpath: Abilities/Censor/3rd-Level Features
   flavor: Within the area of your divine presence, your enemies will regret using
     their fell abilities.
   item_id: edict-of-perfect-order-7-wrath
@@ -59,15 +61,15 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.censor.3rd-level-feature:edict-of-perfect-order-7-wrath
   scdc:
-    - 1.1.1:13.2.7.6:02
+    - 1.1.1:11.2.7.6:02
   source: mcdm.heroes.v1
   target: Each enemy in the area
   type: feature/ability/censor/3rd-level-feature
 effects:
-  - effect: "Until the end of the encounter or until you are dying, whenever a
+  - name: Effect
+    effect: "Until the end of the encounter or until you are dying, whenever a
       target uses an ability that costs Malice (see *[Draw Steel:
       Monsters](https://mcdm.gg/DS-Monsters)*), they take holy damage equal to
       three times your Presence score. A target judged by you takes an extra 2d6
       holy damage."
-    name: Effect
 ```

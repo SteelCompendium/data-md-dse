@@ -7,7 +7,7 @@ cost_resource: Discipline
 distance: Melee 1
 feature_type: ability
 file_basename: Iron Grip
-file_dpath: Null/5th-Level Features
+file_dpath: Abilities/Null/5th-Level Features
 flavor: You grab the target with supernatural force.
 item_id: iron-grip-9-discipline
 item_index: '03'
@@ -21,13 +21,15 @@ level: 5
 scc:
 - mcdm.heroes.v1:feature.ability.null.5th-level-feature:iron-grip-9-discipline
 scdc:
-- 1.1.1:13.2.6.4:03
+- 1.1.1:11.2.6.4:03
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/null/5th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Iron Grip
 cost: 9 Discipline
 flavor: You grab the target with supernatural force.
@@ -36,7 +38,7 @@ keywords:
   - Psionic
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1
 target: One creature
 metadata:
@@ -48,7 +50,7 @@ metadata:
   distance: Melee 1
   feature_type: ability
   file_basename: Iron Grip
-  file_dpath: Null/5th-Level Features
+  file_dpath: Abilities/Null/5th-Level Features
   flavor: You grab the target with supernatural force.
   item_id: iron-grip-9-discipline
   item_index: "03"
@@ -62,17 +64,17 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.null.5th-level-feature:iron-grip-9-discipline
   scdc:
-    - 1.1.1:13.2.6.4:03
+    - 1.1.1:11.2.6.4:03
   source: mcdm.heroes.v1
   target: One creature
   type: feature/ability/null/5th-level-feature
 effects:
   - roll: Power Roll + Agility
-    t1: 10 + A damage; A < WEAK, grabbed
-    t2: 14 + A damage; A < AVERAGE, grabbed
-    t3: 18 + A damage; A < STRONG, grabbed
-  - effect: While grabbed this way, the target takes a bane on the Escape Grab
+    tier1: 10 + A damage; A < WEAK, grabbed
+    tier2: 14 + A damage; A < AVERAGE, grabbed
+    tier3: 18 + A damage; A < STRONG, grabbed
+  - name: Effect
+    effect: While grabbed this way, the target takes a bane on the Escape Grab
       maneuver. Each time they use that maneuver, they take damage equal to
       twice your Agility score.
-    name: Effect
 ```

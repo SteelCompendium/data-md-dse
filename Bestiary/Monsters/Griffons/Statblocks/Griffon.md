@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Griffon
 level: 2
 roles:
@@ -49,41 +50,36 @@ agility: 2
 reason: -1
 intuition: 1
 presence: 2
-traits:
-  - name: Beast of Prey
-    effects:
-      - effect: While grabbed by the griffon, a creature has a double bane on the Escape
-          Grab maneuver.
-  - name: Steady
-    effects:
-      - effect: Any power roll that could knock the griffon or their rider prone takes a
-          bane.
-abilities:
-  - name: Claw Swipes
+features:
+  - type: feature
+    feature_type: ability
+    name: Claw Swipes
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Charge
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 2
-        t1: 7 damage; the griffon can shift 1 square
-        t2: 10 damage; the griffon shifts up to 2 squares
-        t3: 13 damage; the griffon shifts up to 3 squares
-      - effect: If this ability is used as part of the Charge main action, the griffon
+        tier1: 7 damage; the griffon can shift 1 square
+        tier2: 10 damage; the griffon shifts up to 2 squares
+        tier3: 13 damage; the griffon shifts up to 3 squares
+      - name: Effect
+        effect: If this ability is used as part of the Charge main action, the griffon
           can grab one of the targets
-        name: Effect
-  - name: Crack the Earth
+  - type: feature
+    feature_type: ability
+    name: Crack the Earth
     icon: 🔳
     keywords:
       - Area
       - Ranged
-    type: Maneuver
+    usage: Maneuver
     distance: 3 cube within 8
     target: Each enemy in the area
     effects:
@@ -95,35 +91,53 @@ abilities:
           object hits the ground to turn the area into an impact crater, and
           takes falling damage that can't be reduced in any way.
       - roll: Power Roll + 2
-        t1: 4 damage
-        t2: 6 damage; A < 1 push 3
-        t3: 9 damage; A < 2 push 4; prone
-  - name: Wing Buffet
+        tier1: 4 damage
+        tier2: 6 damage; A < 1 push 3
+        tier3: 9 damage; A < 2 push 4; prone
+  - type: feature
+    feature_type: ability
+    name: Wing Buffet
     icon: 🔳
     cost: 3 Malice
     keywords:
       - Area
-    type: Maneuver
+    usage: Maneuver
     distance: 4 x 2 line within 1
     target: Each creature or object in the area
     effects:
       - name: Special
         effect: A target object must be size 2 or smaller.
       - roll: Power Roll + 2
-        t1: Push 3; A < 0 the forced movement is vertical
-        t2: Push 4; A < 1 the forced movement is vertical
-        t3: Push 5; A < 2 the forced movement is vertical
-  - name: Zephyr Feint
+        tier1: Push 3; A < 0 the forced movement is vertical
+        tier2: Push 4; A < 1 the forced movement is vertical
+        tier3: Push 5; A < 2 the forced movement is vertical
+  - type: feature
+    feature_type: ability
+    name: Zephyr Feint
     icon: ❗️
     cost: 1 Malice
     keywords:
       - "-"
-    type: Triggered action
+    usage: Triggered action
     distance: Self
     target: Self
     trigger: The griffon takes damage
     effects:
-      - effect: The griffon halves the damage, ignores any nondamaging effects
+      - name: Effect
+        effect: The griffon halves the damage, ignores any nondamaging effects
           associated with it, and shifts up to 2 squares
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Beast of Prey
+    icon: ⭐️
+    effects:
+      - effect: While grabbed by the griffon, a creature has a double bane on the Escape
+          Grab maneuver.
+  - type: feature
+    feature_type: trait
+    name: Steady
+    icon: ⭐️
+    effects:
+      - effect: Any power roll that could knock the griffon or their rider prone takes a
+          bane.
 ~~~

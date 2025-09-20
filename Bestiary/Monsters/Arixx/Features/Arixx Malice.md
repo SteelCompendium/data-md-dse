@@ -13,34 +13,43 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Malice Features
 name: Arixx Malice
-type: Malice Features
 flavor: At the start of an arixx's turn, you can spend Malice to activate one of
   the following features.
 features:
-  - name: Burning Maw
+  - type: feature
+    feature_type: trait
+    name: Burning Maw
     icon: 👤
     cost: 3 Malice
     effects:
       - effect: The arixx dribbles acid over their mandibles, causing the next strike
           they make to gain an edge and deal an extra 3 acid damage.
-  - name: Geyser
+  - type: feature
+    feature_type: trait
+    name: Geyser
     icon: 🔳
     cost: 5 Malice
     effects:
       - effect: The arixx's underground tunnels swell with pressure, causing a sudden
           influx of hot gas to burst from a 3-square-by-3-square area anywhere
           on the surface. Each enemy in the area makes an **Agility test**.
-        t1: 4 damage; vertical push 5
-        t2: 4 damage; vertical push 3
-        t3: The target shifts to the nearest unoccupied space outside the area.
-  - name: Solo Action
+        tier1: 4 damage; vertical push 5
+        tier2: 4 damage; vertical push 3
+        tier3: The target shifts to the nearest unoccupied space outside the area.
+  - type: feature
+    feature_type: trait
+    name: Solo Action
     icon: ☠️
     cost: 5 Malice
     effects:
       - effect: The arixx takes an additional main action on their turn. They can use
           this feature even if they are dazed.
-  - name: Earth Sink
+  - type: feature
+    feature_type: trait
+    name: Earth Sink
     icon: 🌀
     cost: 7 Malice
     effects:

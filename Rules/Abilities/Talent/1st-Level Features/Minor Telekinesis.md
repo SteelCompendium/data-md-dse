@@ -4,7 +4,7 @@ class: talent
 distance: Ranged 10
 feature_type: ability
 file_basename: Minor Telekinesis
-file_dpath: Talent/1st-Level Features
+file_dpath: Abilities/Talent/1st-Level Features
 flavor: Wisps of psychic energy ripple visibly from your brain as you force the target
   to move using only your mind.
 item_id: minor-telekinesis
@@ -17,21 +17,23 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:minor-telekinesis
 scdc:
-- 1.1.1:13.2.1.1:02
+- 1.1.1:11.2.1.1:02
 source: mcdm.heroes.v1
 subclass: Telekinesis
 target: Self or one size 1 creature or object
 type: feature/ability/talent/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Minor Telekinesis
 flavor: Wisps of psychic energy ripple visibly from your brain as you force the
   target to move using only your mind.
 keywords:
   - Psionic
   - Ranged
-type: Maneuver
+usage: Maneuver
 distance: Ranged 10
 target: Self or one size 1 creature or object
 metadata:
@@ -40,7 +42,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Minor Telekinesis
-  file_dpath: Talent/1st-Level Features
+  file_dpath: Abilities/Talent/1st-Level Features
   flavor: Wisps of psychic energy ripple visibly from your brain as you force the
     target to move using only your mind.
   item_id: minor-telekinesis
@@ -53,17 +55,17 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:minor-telekinesis
   scdc:
-    - 1.1.1:13.2.1.1:02
+    - 1.1.1:11.2.1.1:02
   source: mcdm.heroes.v1
   subclass: Telekinesis
   target: Self or one size 1 creature or object
   type: feature/ability/talent/1st-level-feature
 effects:
-  - effect: You slide the target up to a number of squares equal to your Reason score.
-    name: Effect
-  - effect: The size of the creature or object you can target increases by 1 for
+  - name: Effect
+    effect: You slide the target up to a number of squares equal to your Reason score.
+  - cost: Spend 2+ Clarity
+    effect: The size of the creature or object you can target increases by 1 for
       every 2 clarity spent.
-    cost: Spend 2+ Clarity
-  - effect: You can vertical slide the target.
-    cost: Spend 3 Clarity
+  - cost: Spend 3 Clarity
+    effect: You can vertical slide the target.
 ```

@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Fiktin
 level: 5
 roles:
@@ -50,43 +51,52 @@ agility: 2
 reason: 2
 intuition: 1
 presence: 3
-traits:
-  - name: Lethe
-    effects:
-      - effect: While the fiktin is winded, they gain an edge on strikes, and any strike
-          made against them gains an edge.
-  - name: Soulsight
-    effects:
-      - effect: Any creature within 2 squares of the fiktin can't be hidden from them.
-abilities:
-  - name: Violent Transformation
+features:
+  - type: feature
+    feature_type: ability
+    name: Violent Transformation
     icon: ❇️
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Area
       - Magic
-    type: Main action
+    usage: Main action
     distance: 2 burst
     target: Each enemy in the area
     effects:
       - roll: Power Roll + 3
-        t1: 3 corruption damage
-        t2: 6 corruption damage
-        t3: 7 corruption damage; I < 3 dazed (save ends)
-      - effect: The fiktin violently changes shape, dealing an extra 6 damage to any
+        tier1: 3 corruption damage
+        tier2: 6 corruption damage
+        tier3: 7 corruption damage; I < 3 dazed (save ends)
+      - name: Effect
+        effect: The fiktin violently changes shape, dealing an extra 6 damage to any
           target they were hidden from with their Aggressive Mimicry ability.
-        name: Effect
-  - name: Aggressive Mimicry
+  - type: feature
+    feature_type: ability
+    name: Aggressive Mimicry
     icon: 👤
     cost: 1 Malice
     keywords:
       - Magic
-    type: Maneuver
+    usage: Maneuver
     distance: Self
     target: Self
     effects:
-      - effect: The fiktin transforms into a mundane object of their size or smaller and
+      - name: Effect
+        effect: The fiktin transforms into a mundane object of their size or smaller and
           is automatically hidden. They can revert to their true form as a free
           maneuver.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Lethe
+    icon: ⭐️
+    effects:
+      - effect: While the fiktin is winded, they gain an edge on strikes, and any strike
+          made against them gains an edge.
+  - type: feature
+    feature_type: trait
+    name: Soulsight
+    icon: ⭐️
+    effects:
+      - effect: Any creature within 2 squares of the fiktin can't be hidden from them.
 ~~~

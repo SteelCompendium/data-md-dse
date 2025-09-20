@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Troll Glutton
 level: 5
 roles:
@@ -51,44 +52,39 @@ agility: 1
 reason: -1
 intuition: 0
 presence: 1
-traits:
-  - name: Insatiable Appetite
-    effects:
-      - effect: Once per turn, the glutton can use the Charge main actionas a free
-          maneuver if they target a winded creature.
-  - name: Relentless Hunger
-    effects:
-      - effect: The glutton dies only if they are reduced to 0 Stamina by acid or fire
-          damage, if they end their turn with 0 Stamina, or if they take acid or
-          fire damage while at 0 Stamina
-abilities:
-  - name: Voracious Mastication
+features:
+  - type: feature
+    feature_type: ability
+    name: Voracious Mastication
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 3
-        t1: 10 damage
-        t2: 15 damage; M < 2 slowed (save ends)
-        t3: 18 damage; M < 3 slowed (save ends)
-      - effect: The glutton regains Stamina equal to the damage dealt.
-        cost: 1 Malice
-  - name: Crash Through
+        tier1: 10 damage
+        tier2: 15 damage; M < 2 slowed (save ends)
+        tier3: 18 damage; M < 3 slowed (save ends)
+      - cost: 1 Malice
+        effect: The glutton regains Stamina equal to the damage dealt.
+  - type: feature
+    feature_type: ability
+    name: Crash Through
     icon: 👤
     cost: 3 Malice
     keywords:
       - "-"
-    type: Main action
+    usage: Main action
     distance: Self
     target: Self
     effects:
-      - effect: The glutton shifts up to their speed in a straight line, ignoring
+      - name: Effect
+        effect: The glutton shifts up to their speed in a straight line, ignoring
           difficult terrain. The first time during this movement that the
           glutton moves through the space of a creature or object their size or
           smaller, that creature or object takes 10 damage, or a creature can
@@ -96,28 +92,46 @@ abilities:
           object larger than them and doesn't knock the creature prone or
           destroy the object, the glutton's movement ends and they are dazed
           until the end of their next turn.
-        name: Effect
-  - name: Food Frenzy
+  - type: feature
+    feature_type: ability
+    name: Food Frenzy
     icon: 👤
     keywords:
       - "-"
-    type: Maneuver
+    usage: Maneuver
     distance: Self
     target: Self
     effects:
-      - effect: Until the start of their next turn, the glutton has a double edge on
+      - name: Effect
+        effect: Until the start of their next turn, the glutton has a double edge on
           strikes, and strikes made against them gain an edge
-        name: Effect
-  - name: Spiteful Retort
+  - type: feature
+    feature_type: ability
+    name: Spiteful Retort
     icon: ❗️
     cost: 1 Malice
     keywords:
       - Melee
-    type: Free triggered action
+    usage: Free triggered action
     distance: Melee 1
     target: The triggering creature
     trigger: The glutton is reduced to 0 Stamina but doesn't die.
     effects:
-      - effect: The glutton uses Voracious Mastication against an adjacent creature.
-        name: Effect
+      - name: Effect
+        effect: The glutton uses Voracious Mastication against an adjacent creature.
+  - type: feature
+    feature_type: trait
+    name: Insatiable Appetite
+    icon: ⭐️
+    effects:
+      - effect: Once per turn, the glutton can use the Charge main actionas a free
+          maneuver if they target a winded creature.
+  - type: feature
+    feature_type: trait
+    name: Relentless Hunger
+    icon: ⭐️
+    effects:
+      - effect: The glutton dies only if they are reduced to 0 Stamina by acid or fire
+          damage, if they end their turn with 0 Stamina, or if they take acid or
+          fire damage while at 0 Stamina
 ~~~

@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Human Death Acolyte
 level: 1
 roles:
@@ -52,27 +53,31 @@ agility: 1
 reason: 0
 intuition: 0
 presence: 2
-traits:
-  - name: Supernatural Insight
-    effects:
-      - effect: The death acolyte ignores concealment if it's granted by a supernatural
-          effect.
-abilities:
-  - name: Necrotic Bolt
+features:
+  - type: feature
+    feature_type: ability
+    name: Necrotic Bolt
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 10
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 1 corruption damage
-        t2: 2 corruption damage
-        t3: 3 corruption damage
-      - effect: One creature within 5 squares regains 1 Stamina.
-        name: Effect
+        tier1: 1 corruption damage
+        tier2: 2 corruption damage
+        tier3: 3 corruption damage
+      - name: Effect
+        effect: One creature within 5 squares regains 1 Stamina.
+  - type: feature
+    feature_type: trait
+    name: Supernatural Insight
+    icon: ⭐️
+    effects:
+      - effect: The death acolyte ignores concealment if it's granted by a supernatural
+          effect.
 ~~~

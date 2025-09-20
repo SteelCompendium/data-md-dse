@@ -7,7 +7,7 @@ cost_resource: Insight
 distance: Melee 1
 feature_type: ability
 file_basename: Into the Shadows
-file_dpath: Shadow/5th-Level Features
+file_dpath: Abilities/Shadow/5th-Level Features
 flavor: You sweep your foe off their feet and plunge them into absolute darkness.
 item_id: into-the-shadows-9-insight
 item_index: '02'
@@ -21,13 +21,15 @@ level: 5
 scc:
 - mcdm.heroes.v1:feature.ability.shadow.5th-level-feature:into-the-shadows-9-insight
 scdc:
-- 1.1.1:13.2.2.4:02
+- 1.1.1:11.2.2.4:02
 source: mcdm.heroes.v1
 target: One creature or object
 type: feature/ability/shadow/5th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Into the Shadows
 cost: 9 Insight
 flavor: You sweep your foe off their feet and plunge them into absolute darkness.
@@ -36,7 +38,7 @@ keywords:
   - Melee
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1
 target: One creature or object
 metadata:
@@ -48,7 +50,7 @@ metadata:
   distance: Melee 1
   feature_type: ability
   file_basename: Into the Shadows
-  file_dpath: Shadow/5th-Level Features
+  file_dpath: Abilities/Shadow/5th-Level Features
   flavor: You sweep your foe off their feet and plunge them into absolute darkness.
   item_id: into-the-shadows-9-insight
   item_index: "02"
@@ -62,7 +64,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.shadow.5th-level-feature:into-the-shadows-9-insight
   scdc:
-    - 1.1.1:13.2.2.4:02
+    - 1.1.1:11.2.2.4:02
   source: mcdm.heroes.v1
   target: One creature or object
   type: feature/ability/shadow/5th-level-feature
@@ -72,7 +74,7 @@ effects:
       your next turn. You reappear in the spaces you left or the nearest
       unoccupied spaces. Make a power roll upon your return.
   - roll: Power Roll + Agility
-    t1: 8 + A corruption damage
-    t2: 13 + A corruption damage
-    t3: 17 + A corruption damage
+    tier1: 8 + A corruption damage
+    tier2: 13 + A corruption damage
+    tier3: 17 + A corruption damage
 ```

@@ -32,6 +32,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Hobgoblin Grandguard
 level: 6
 roles:
@@ -54,50 +55,59 @@ agility: 2
 reason: 3
 intuition: 0
 presence: 2
-traits:
-  - name: Wide Guard
-    effects:
-      - effect: Any strike made against an ally within 2 squares of the grandguard takes
-          a bane.
-  - name: Infernal Ichor
-    effects:
-      - effect: When the grandguard is reduced to 0 Stamina, they spray burning blood.
-          Each creature adjacent to the grandguard takes 3 fire damage
-abilities:
-  - name: Tower Shield Smash
+features:
+  - type: feature
+    feature_type: ability
+    name: Tower Shield Smash
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 2
     target: One creature or object
     effects:
       - roll: Power Roll + 3
-        t1: 9 damage
-        t2: 14 damage
-        t3: 17 damage; prone
-      - effect: Each ally adjacent to a prone target can make a free strike against that
+        tier1: 9 damage
+        tier2: 14 damage
+        tier3: 17 damage; prone
+      - cost: 3 Malice
+        effect: Each ally adjacent to a prone target can make a free strike against that
           target.
-        cost: 3 Malice
-  - name: Thunder Rush
+  - type: feature
+    feature_type: ability
+    name: Thunder Rush
     icon: 🔳
     cost: 3 Malice
     keywords:
       - Area
       - Charge
       - Weapon
-    type: Main action
+    usage: Main action
     distance: 1 x 2 line within 1
     target: Each enemy or object in the area
     effects:
       - roll: Power Roll + 3
-        t1: 6 damage
-        t2: 11 damage
-        t3: 14 damage
-      - effect: Each target is pushed up to 10 squares in the same direction, and the
+        tier1: 6 damage
+        tier2: 11 damage
+        tier3: 14 damage
+      - name: Effect
+        effect: Each target is pushed up to 10 squares in the same direction, and the
           grandguard shifts into the area left behind by the targets.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Wide Guard
+    icon: ⭐️
+    effects:
+      - effect: Any strike made against an ally within 2 squares of the grandguard takes
+          a bane.
+  - type: feature
+    feature_type: trait
+    name: Infernal Ichor
+    icon: ⭐️
+    effects:
+      - effect: When the grandguard is reduced to 0 Stamina, they spray burning blood.
+          Each creature adjacent to the grandguard takes 3 fire damage
 ~~~

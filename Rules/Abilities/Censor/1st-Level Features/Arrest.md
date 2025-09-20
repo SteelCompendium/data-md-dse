@@ -7,7 +7,7 @@ cost_resource: Wrath
 distance: Melee 1
 feature_type: ability
 file_basename: Arrest
-file_dpath: Censor/1st-Level Features
+file_dpath: Abilities/Censor/1st-Level Features
 flavor: '"I got you, you son of a bitch."'
 item_id: arrest-5-wrath
 item_index: '06'
@@ -21,13 +21,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:arrest-5-wrath
 scdc:
-- 1.1.1:13.2.7.1:06
+- 1.1.1:11.2.7.1:06
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/censor/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Arrest
 cost: 5 Wrath
 flavor: '"I got you, you son of a bitch."'
@@ -36,7 +38,7 @@ keywords:
   - Melee
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1
 target: One creature
 metadata:
@@ -48,7 +50,7 @@ metadata:
   distance: Melee 1
   feature_type: ability
   file_basename: Arrest
-  file_dpath: Censor/1st-Level Features
+  file_dpath: Abilities/Censor/1st-Level Features
   flavor: '"I got you, you son of a bitch."'
   item_id: arrest-5-wrath
   item_index: "06"
@@ -62,18 +64,18 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:arrest-5-wrath
   scdc:
-    - 1.1.1:13.2.7.1:06
+    - 1.1.1:11.2.7.1:06
   source: mcdm.heroes.v1
   target: One creature
   type: feature/ability/censor/1st-level-feature
 effects:
   - roll: Power Roll + Might
-    t1: 6 + M holy damage; grabbed
-    t2: 9 + M holy damage; grabbed
-    t3: 13 + M holy damage; grabbed
-  - effect: If the target makes a strike against a creature while grabbed this way,
+    tier1: 6 + M holy damage; grabbed
+    tier2: 9 + M holy damage; grabbed
+    tier3: 13 + M holy damage; grabbed
+  - name: Effect
+    effect: If the target makes a strike against a creature while grabbed this way,
       you can spend 3 wrath to deal holy damage to them equal to your Presence
       score, then change the target of the strike to another target within the
       strike's distance.
-    name: Effect
 ```

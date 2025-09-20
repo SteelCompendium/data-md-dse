@@ -7,7 +7,7 @@ cost_resource: Piety
 distance: Ranged 10
 feature_type: ability
 file_basename: Divine Dragon
-file_dpath: Conduit/9th-Level Features
+file_dpath: Abilities/Conduit/9th-Level Features
 flavor: From nothing but divine will, you create a powerful ally.
 item_id: divine-dragon-11-piety
 item_index: '12'
@@ -19,21 +19,23 @@ level: 9
 scc:
 - mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:divine-dragon-11-piety
 scdc:
-- 1.1.1:13.2.8.7:12
+- 1.1.1:11.2.8.7:12
 source: mcdm.heroes.v1
 subclass: Creation
 target: Special
 type: feature/ability/conduit/9th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Divine Dragon
 cost: 11 Piety
 flavor: From nothing but divine will, you create a powerful ally.
 keywords:
   - Magic
   - Ranged
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: Special
 metadata:
@@ -45,7 +47,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Divine Dragon
-  file_dpath: Conduit/9th-Level Features
+  file_dpath: Abilities/Conduit/9th-Level Features
   flavor: From nothing but divine will, you create a powerful ally.
   item_id: divine-dragon-11-piety
   item_index: "12"
@@ -57,7 +59,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:divine-dragon-11-piety
   scdc:
-    - 1.1.1:13.2.8.7:12
+    - 1.1.1:11.2.8.7:12
   source: mcdm.heroes.v1
   subclass: Creation
   target: Special
@@ -74,16 +76,16 @@ effects:
       On subsequent turns, you can use a main action to command the dragon to
       breathe magic fire in a 3 cube within 1 square of them. Make the following
       power roll targeting each enemy in the area.
-  - roll: Power Roll + Intuition
-    t1: 5 fire damage
-    t2: 9 fire damage
-    t3: 12 fire damage
   - effect: Additionally, you can use a maneuver to move the dragon up to their
       speed, or to make a melee weapon strike with their claw against an
       adjacent creature or object. The dragon can also make this strike as a
       free strike.
+    roll: Power Roll + Intuition
+    tier1: 5 fire damage
+    tier2: 9 fire damage
+    tier3: 12 fire damage
   - roll: Power Roll + Intuition
-    t1: 3 + I damage
-    t2: 5 + I damage
-    t3: 8 + I damage
+    tier1: 3 + I damage
+    tier2: 5 + I damage
+    tier3: 8 + I damage
 ```

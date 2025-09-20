@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Giant Hawk
 level: 1
 roles:
@@ -49,39 +50,45 @@ agility: 2
 reason: -3
 intuition: 1
 presence: -2
-traits:
-  - name: Mounted Platform
-    effects:
-      - effect: Once per turn when the hawk moves, any creature riding the hawk can make
-          a free strike during or after the movement.
-abilities:
-  - name: Talons
+features:
+  - type: feature
+    feature_type: ability
+    name: Talons
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 5 damage
-        t2: 7 damage
-        t3: 9 damage; grabbed
-      - effect: If this ability gains an edge or has a double edge, it deals an extra 2
+        tier1: 5 damage
+        tier2: 7 damage
+        tier3: 9 damage; grabbed
+      - cost: 2 Malice
+        effect: If this ability gains an edge or has a double edge, it deals an extra 2
           damage.
-        cost: 2 Malice
-  - name: Dive
+  - type: feature
+    feature_type: ability
+    name: Dive
     icon: 👤
     cost: 1 Malice
     keywords:
       - "-"
-    type: Maneuver
+    usage: Maneuver
     distance: Self
     target: Self
     effects:
-      - effect: The hawk moves up to their speed.
-        name: Effect
+      - name: Effect
+        effect: The hawk moves up to their speed.
+  - type: feature
+    feature_type: trait
+    name: Mounted Platform
+    icon: ⭐️
+    effects:
+      - effect: Once per turn when the hawk moves, any creature riding the hawk can make
+          a free strike during or after the movement.
 ~~~

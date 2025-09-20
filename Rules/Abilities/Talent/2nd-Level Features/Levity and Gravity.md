@@ -7,7 +7,7 @@ cost_resource: Clarity
 distance: Ranged 10
 feature_type: ability
 file_basename: Levity and Gravity
-file_dpath: Talent/2nd-Level Features
+file_dpath: Abilities/Talent/2nd-Level Features
 flavor: You raise the target slightly into the air, then smother them against the
   ground.
 item_id: levity-and-gravity-5-clarity
@@ -22,14 +22,16 @@ level: 2
 scc:
 - mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:levity-and-gravity-5-clarity
 scdc:
-- 1.1.1:13.2.1.5:01
+- 1.1.1:11.2.1.5:01
 source: mcdm.heroes.v1
 subclass: Telekinesis
 target: One creature or object
 type: feature/ability/talent/2nd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Levity and Gravity
 cost: 5 Clarity
 flavor: You raise the target slightly into the air, then smother them against
@@ -39,7 +41,7 @@ keywords:
   - Ranged
   - Strike
   - Telekinesis
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: One creature or object
 metadata:
@@ -51,7 +53,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Levity and Gravity
-  file_dpath: Talent/2nd-Level Features
+  file_dpath: Abilities/Talent/2nd-Level Features
   flavor: You raise the target slightly into the air, then smother them against
     the ground.
   item_id: levity-and-gravity-5-clarity
@@ -66,16 +68,16 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:levity-and-gravity-5-clarity
   scdc:
-    - 1.1.1:13.2.1.5:01
+    - 1.1.1:11.2.1.5:01
   source: mcdm.heroes.v1
   subclass: Telekinesis
   target: One creature or object
   type: feature/ability/talent/2nd-level-feature
 effects:
   - roll: Power Roll + Reason
-    t1: 6 + R damage; M < WEAK, prone
-    t2: 10 + R damage; M < AVERAGE, prone
-    t3: 14 + R damage; M < STRONG, prone and can't stand (save ends)
-  - effect: You take half the damage the target takes.
-    name: Strained
+    tier1: 6 + R damage; M < WEAK, prone
+    tier2: 10 + R damage; M < AVERAGE, prone
+    tier3: 14 + R damage; M < STRONG, prone and can't stand (save ends)
+  - name: Strained
+    effect: You take half the damage the target takes.
 ```

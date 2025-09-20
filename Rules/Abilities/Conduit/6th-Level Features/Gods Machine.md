@@ -7,7 +7,7 @@ cost_resource: Piety
 distance: Ranged 10
 feature_type: ability
 file_basename: Gods Machine
-file_dpath: Conduit/6th-Level Features
+file_dpath: Abilities/Conduit/6th-Level Features
 flavor: You conjure a whirring tank made of blades and metal.
 item_id: gods-machine-9-piety
 item_index: '12'
@@ -19,21 +19,23 @@ level: 6
 scc:
 - mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:gods-machine-9-piety
 scdc:
-- 1.1.1:13.2.8.3:12
+- 1.1.1:11.2.8.3:12
 source: mcdm.heroes.v1
 subclass: Creation
 target: Special
 type: feature/ability/conduit/6th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Gods' Machine
 cost: 9 Piety
 flavor: You conjure a whirring tank made of blades and metal.
 keywords:
   - Magic
   - Ranged
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: Special
 metadata:
@@ -45,7 +47,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Gods Machine
-  file_dpath: Conduit/6th-Level Features
+  file_dpath: Abilities/Conduit/6th-Level Features
   flavor: You conjure a whirring tank made of blades and metal.
   item_id: gods-machine-9-piety
   item_index: "12"
@@ -57,7 +59,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:gods-machine-9-piety
   scdc:
-    - 1.1.1:13.2.8.3:12
+    - 1.1.1:11.2.8.3:12
   source: mcdm.heroes.v1
   subclass: Creation
   target: Special
@@ -69,11 +71,11 @@ effects:
       psychic damage. It disappears at the end of the encounter, if its Stamina
       drops to 0, or if you are dying. When the machine first appears, make the
       following power roll once, targeting each enemy adjacent to it.
-  - roll: Power Roll + Intuition
-    t1: 3 damage
-    t2: 5 damage
-    t3: 8 damage
   - effect: Once on each subsequent turn, you can use a free maneuver to move the
       machine a number of squares up to your Intuition score then repeat the
       power roll.
+    roll: Power Roll + Intuition
+    tier1: 3 damage
+    tier2: 5 damage
+    tier3: 8 damage
 ```

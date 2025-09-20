@@ -13,19 +13,22 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Malice Features
 name: Gnoll Malice
-type: Malice Features
 flavor: At the start of any gnoll's turn, you can spend Malice to activate one
   of the following features.
 features:
-  - name: Iron Jaws
+  - type: feature
+    feature_type: ability
+    name: Iron Jaws
     icon: 🔳
     cost: 3 Malice
     keywords:
       - Area
       - Ranged
       - Weapon
-    type: Maneuver
+    usage: Maneuver
     distance: 1 cube within 3
     target: Special
     effects:
@@ -33,13 +36,15 @@ features:
         effect: A gnoll acting this turn drops an iron-jawed snare into the area. The
           first time any enemy moves into the area, they make an **Agility
           test**. If they were unaware of the snare, the test takes a bane.
-        t1: 6 damage; bleeding (save ends)
-        t2: 4 damage; bleeding (EoT)
-        t3: No effect.
-      - effect: While an enemy is bleeding this way, each gnoll in the encounter gains
+        tier1: 6 damage; bleeding (save ends)
+        tier2: 4 damage; bleeding (EoT)
+        tier3: No effect.
+      - name: Effect
+        effect: While an enemy is bleeding this way, each gnoll in the encounter gains
           an edge on strikes made against them.
-        name: Effect
-  - name: Bloodpool
+  - type: feature
+    feature_type: trait
+    name: Bloodpool
     icon: 👤
     cost: 5 Malice
     effects:
@@ -49,7 +54,9 @@ features:
           their turn. Once per round, an abyssal hyena who starts their turn in
           the area turns into a **gnoll marauder**, keeping their current
           Stamina.
-  - name: Echoes of Laughter
+  - type: feature
+    feature_type: trait
+    name: Echoes of Laughter
     icon: 🌀
     cost: 7 Malice
     effects:

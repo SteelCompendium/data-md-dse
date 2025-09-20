@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Shadow Elf Duskcaller
 level: 5
 roles:
@@ -51,44 +52,50 @@ agility: 3
 reason: 3
 intuition: 2
 presence: 1
-traits:
-  - name: Of the Umbra
-    effects:
-      - effect: The duskcaller ignores concealment created by darkness. While the
-          duskcaller is in direct sunlight, they have damage weakness 3. While
-          the duskcaller has concealment, they have damage immunity 3.
-abilities:
-  - name: Night Knife
+features:
+  - type: feature
+    feature_type: ability
+    name: Night Knife
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object
     effects:
       - roll: Power Roll + 3
-        t1: 9 damage
-        t2: 13 damage
-        t3: 16 damage
-      - effect: If the duskcaller has concealment, they can target one additional
+        tier1: 9 damage
+        tier2: 13 damage
+        tier3: 16 damage
+      - name: Effect
+        effect: If the duskcaller has concealment, they can target one additional
           creature or object.
-        name: Effect
-  - name: The Lay of Cor'thoroth
+  - type: feature
+    feature_type: ability
+    name: The Lay of Cor'thoroth
     icon: 🔳
     keywords:
       - Area
       - Magic
       - Ranged
-    type: Maneuver
+    usage: Maneuver
     distance: 2 cube within 3
     target: Special
     effects:
-      - effect: Until the start of the duskcaller's next turn, the area is filled with
+      - name: Effect
+        effect: Until the start of the duskcaller's next turn, the area is filled with
           darkness.
-        name: Effect
-      - effect: The size of the cube increases by 3.
-        cost: 2 Malice
+      - cost: 2 Malice
+        effect: The size of the cube increases by 3.
+  - type: feature
+    feature_type: trait
+    name: Of the Umbra
+    icon: ⭐️
+    effects:
+      - effect: The duskcaller ignores concealment created by darkness. While the
+          duskcaller is in direct sunlight, they have damage weakness 3. While
+          the duskcaller has concealment, they have damage immunity 3.
 ~~~

@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Giant Zombie
 level: 4
 roles:
@@ -51,44 +52,53 @@ agility: -1
 reason: -2
 intuition: 1
 presence: 2
-traits:
-  - name: Endless Knight
-    effects:
-      - effect: The first time the giant zombie is reduced to 0 Stamina by damage that
-          isn't fire damage or holy damage and their body isn't destroyed, they
-          instead have 50 Stamina and fall prone.
-  - name: Negative Nerves
-    effects:
-      - effect: When the giant zombie is targeted by an ability that deals rolled
-          damage, they halve the damage from a tier 1 outcome
-abilities:
-  - name: Rotten Smash
+features:
+  - type: feature
+    feature_type: ability
+    name: Rotten Smash
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 3
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 3
-        t1: 9 damage
-        t2: 14 damage; A < 2 grabbed
-        t3: 17 damage; A < 3 grabbed
-  - name: Knocking Heads
+        tier1: 9 damage
+        tier2: 14 damage; A < 2 grabbed
+        tier3: 17 damage; A < 3 grabbed
+  - type: feature
+    feature_type: ability
+    name: Knocking Heads
     icon: ❗️
     cost: 1 Malice
     keywords:
       - "-"
-    type: Triggered action
+    usage: Triggered action
     distance: Self
     target: Self; see below
     trigger: The giant zombie grabs two creatures or objects, or starts their turn
       with two creatures or objects grabbed.
     effects:
-      - effect: The creatures or objects are smashed together using Rotten Smash, which
+      - name: Effect
+        effect: The creatures or objects are smashed together using Rotten Smash, which
           has a double edge.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Endless Knight
+    icon: ⭐️
+    effects:
+      - effect: The first time the giant zombie is reduced to 0 Stamina by damage that
+          isn't fire damage or holy damage and their body isn't destroyed, they
+          instead have 50 Stamina and fall prone.
+  - type: feature
+    feature_type: trait
+    name: Negative Nerves
+    icon: ⭐️
+    effects:
+      - effect: When the giant zombie is targeted by an ability that deals rolled
+          damage, they halve the damage from a tier 1 outcome
 ~~~

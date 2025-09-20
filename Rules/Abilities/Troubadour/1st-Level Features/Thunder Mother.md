@@ -4,7 +4,7 @@ class: troubadour
 distance: Ranged 10
 feature_type: ability
 file_basename: Thunder Mother
-file_dpath: Troubadour/1st-Level Features
+file_dpath: Abilities/Troubadour/1st-Level Features
 flavor: All for thunder motherrr! ♪ Run and hide for coverrr!♪
 item_id: thunder-mother
 item_index: '15'
@@ -18,14 +18,16 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:thunder-mother
 scdc:
-- 1.1.1:13.2.3.1:15
+- 1.1.1:11.2.3.1:15
 source: mcdm.heroes.v1
 subclass: Virtuoso
 target: One creature
 type: feature/ability/troubadour/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: '"Thunder Mother"'
 flavor: All for thunder motherrr! ♪ Run and hide for coverrr!♪
 keywords:
@@ -33,7 +35,7 @@ keywords:
   - Performance
   - Ranged
   - Strike
-type: No action
+usage: No action
 distance: Ranged 10
 target: One creature
 metadata:
@@ -42,7 +44,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Thunder Mother
-  file_dpath: Troubadour/1st-Level Features
+  file_dpath: Abilities/Troubadour/1st-Level Features
   flavor: All for thunder motherrr! ♪ Run and hide for coverrr!♪
   item_id: thunder-mother
   item_index: "15"
@@ -56,7 +58,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:thunder-mother
   scdc:
-    - 1.1.1:13.2.3.1:15
+    - 1.1.1:11.2.3.1:15
   source: mcdm.heroes.v1
   subclass: Virtuoso
   target: One creature
@@ -67,7 +69,7 @@ effects:
       can make a power roll against the target that ignores cover. You can't
       target the same creature twice with this effect.
   - roll: Power Roll + Presence
-    t1: Lightning damage equal to your level
-    t2: Lightning damage equal to 5 + your level
-    t3: Lightning damage equal to 10 + your level
+    tier1: Lightning damage equal to your level
+    tier2: Lightning damage equal to 5 + your level
+    tier3: Lightning damage equal to 10 + your level
 ```

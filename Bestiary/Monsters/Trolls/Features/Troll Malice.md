@@ -13,28 +13,35 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Malice Features
 name: Troll Malice
-type: Malice Features
 flavor: At the start of any troll's turn, you can spend Malice to activate one
   of the following features.
 features:
-  - name: Foul Spew
+  - type: feature
+    feature_type: trait
+    name: Foul Spew
     icon: 🔳
     cost: 3 Malice
     effects:
       - effect: One troll acting this turn spews out a half-digested meal in a 5 x 1
           line within 1 square of them. Each troll in the area regains 3
           Stamina. Each enemy in the area makes a **Might test**.
-        t1: 12 acid damage; dazed (EoT)
-        t2: 10 acid damage; weakened (EoT)
-        t3: 6 acid damage
-  - name: Emergency Meal
+        tier1: 12 acid damage; dazed (EoT)
+        tier2: 10 acid damage; weakened (EoT)
+        tier3: 6 acid damage
+  - type: feature
+    feature_type: trait
+    name: Emergency Meal
     icon: 🗡
     cost: 5 Malice
     effects:
       - effect: Each troll in the encounter can make a free strike against a creature
           adjacent to them, and regains Stamina equal to the damage dealt.
-  - name: Bloody Banquet
+  - type: feature
+    feature_type: trait
+    name: Bloody Banquet
     icon: ❇️
     cost: 7 Malice
     effects:

@@ -7,7 +7,7 @@ cost_resource: Ferocity
 distance: Self
 feature_type: ability
 file_basename: Make Peace With Your God
-file_dpath: Fury/1st-Level Features
+file_dpath: Abilities/Fury/1st-Level Features
 flavor: Anger is your energy.
 item_id: make-peace-with-your-god-5-ferocity
 item_index: '15'
@@ -18,19 +18,21 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:make-peace-with-your-god-5-ferocity
 scdc:
-- 1.1.1:13.2.5.1:15
+- 1.1.1:11.2.5.1:15
 source: mcdm.heroes.v1
 target: Self
 type: feature/ability/fury/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Make Peace With Your God!
 cost: 5 Ferocity
 flavor: Anger is your energy.
 keywords:
   - "-"
-type: Free maneuver
+usage: Free maneuver
 distance: Self
 target: Self
 metadata:
@@ -42,7 +44,7 @@ metadata:
   distance: Self
   feature_type: ability
   file_basename: Make Peace With Your God
-  file_dpath: Fury/1st-Level Features
+  file_dpath: Abilities/Fury/1st-Level Features
   flavor: Anger is your energy.
   item_id: make-peace-with-your-god-5-ferocity
   item_index: "15"
@@ -53,12 +55,12 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:make-peace-with-your-god-5-ferocity
   scdc:
-    - 1.1.1:13.2.5.1:15
+    - 1.1.1:11.2.5.1:15
   source: mcdm.heroes.v1
   target: Self
   type: feature/ability/fury/1st-level-feature
 effects:
-  - effect: You gain 1 surge, and the next ability roll you make this turn
+  - name: Effect
+    effect: You gain 1 surge, and the next ability roll you make this turn
       automatically obtains a tier 3 outcome.
-    name: Effect
 ```

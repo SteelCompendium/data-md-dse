@@ -7,7 +7,7 @@ cost_resource: Essence
 distance: Self
 feature_type: ability
 file_basename: Prism
-file_dpath: Elementalist/9th-Level Features
+file_dpath: Abilities/Elementalist/9th-Level Features
 flavor: You split your essence, allowing you to cast multiple effects at once.
 item_id: prism-11-essence
 item_index: '02'
@@ -19,20 +19,22 @@ level: 9
 scc:
 - mcdm.heroes.v1:feature.ability.elementalist.9th-level-feature:prism-11-essence
 scdc:
-- 1.1.1:13.2.9.7:02
+- 1.1.1:11.2.9.7:02
 source: mcdm.heroes.v1
 target: Self
 type: feature/ability/elementalist/9th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Prism
 cost: 11 Essence
 flavor: You split your essence, allowing you to cast multiple effects at once.
 keywords:
   - Magic
   - Void
-type: Main action
+usage: Main action
 distance: Self
 target: Self
 metadata:
@@ -44,7 +46,7 @@ metadata:
   distance: Self
   feature_type: ability
   file_basename: Prism
-  file_dpath: Elementalist/9th-Level Features
+  file_dpath: Abilities/Elementalist/9th-Level Features
   flavor: You split your essence, allowing you to cast multiple effects at once.
   item_id: prism-11-essence
   item_index: "02"
@@ -56,13 +58,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.elementalist.9th-level-feature:prism-11-essence
   scdc:
-    - 1.1.1:13.2.9.7:02
+    - 1.1.1:11.2.9.7:02
   source: mcdm.heroes.v1
   target: Self
   type: feature/ability/elementalist/9th-level-feature
 effects:
-  - effect: You use up to three heroic abilities whose essence costs total 11 or
+  - name: Effect
+    effect: You use up to three heroic abilities whose essence costs total 11 or
       less, spending no additional essence beyond the cost of this ability. You
       can shift up to 2 squares between your use of each ability.
-    name: Effect
 ```

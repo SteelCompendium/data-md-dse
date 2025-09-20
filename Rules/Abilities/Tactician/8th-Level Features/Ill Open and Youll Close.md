@@ -7,7 +7,7 @@ cost_resource: Focus
 distance: Melee 1 or ranged 5
 feature_type: ability
 file_basename: Ill Open and Youll Close
-file_dpath: Tactician/8th-Level Features
+file_dpath: Abilities/Tactician/8th-Level Features
 flavor: You create an opening for an ally.
 item_id: ill-open-and-youll-close-11-focus
 item_index: '03'
@@ -21,13 +21,15 @@ level: 8
 scc:
 - mcdm.heroes.v1:feature.ability.tactician.8th-level-feature:ill-open-and-youll-close-11-focus
 scdc:
-- 1.1.1:13.2.4.2:03
+- 1.1.1:11.2.4.2:03
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/tactician/8th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: I'll Open and You'll Close
 cost: 11 Focus
 flavor: You create an opening for an ally.
@@ -36,7 +38,7 @@ keywords:
   - Ranged
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1 or ranged 5
 target: One creature
 metadata:
@@ -48,7 +50,7 @@ metadata:
   distance: Melee 1 or ranged 5
   feature_type: ability
   file_basename: Ill Open and Youll Close
-  file_dpath: Tactician/8th-Level Features
+  file_dpath: Abilities/Tactician/8th-Level Features
   flavor: You create an opening for an ally.
   item_id: ill-open-and-youll-close-11-focus
   item_index: "03"
@@ -62,19 +64,19 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.tactician.8th-level-feature:ill-open-and-youll-close-11-focus
   scdc:
-    - 1.1.1:13.2.4.2:03
+    - 1.1.1:11.2.4.2:03
   source: mcdm.heroes.v1
   target: One creature
   type: feature/ability/tactician/8th-level-feature
 effects:
   - roll: Power Roll + Might
-    t1: 6 + M damage
-    t2: 10 + M damage
-    t3: 14 + M damage
-  - effect: One ally within 10 squares of you can use a heroic ability against the
+    tier1: 6 + M damage
+    tier2: 10 + M damage
+    tier3: 14 + M damage
+  - name: Effect
+    effect: One ally within 10 squares of you can use a heroic ability against the
       target as a free triggered action without spending any of their Heroic
       Resource, as long as they have enough Heroic Resource to pay for the
       ability. If the target is reduced to 0 Stamina before the chosen ally has
       used their ability, the ally can pick a different target.
-    name: Effect
 ```

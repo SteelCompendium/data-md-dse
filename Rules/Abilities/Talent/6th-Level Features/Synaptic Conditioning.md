@@ -7,7 +7,7 @@ cost_resource: Clarity
 distance: Melee 2
 feature_type: ability
 file_basename: Synaptic Conditioning
-file_dpath: Talent/6th-Level Features
+file_dpath: Abilities/Talent/6th-Level Features
 flavor: It's a subtle mindset shift. It's not that they're your enemy—you just don't
   like them!
 item_id: synaptic-conditioning-9-clarity
@@ -22,14 +22,16 @@ level: 6
 scc:
 - mcdm.heroes.v1:feature.ability.talent.6th-level-feature:synaptic-conditioning-9-clarity
 scdc:
-- 1.1.1:13.2.1.3:06
+- 1.1.1:11.2.1.3:06
 source: mcdm.heroes.v1
 subclass: Telepathy
 target: One creature
 type: feature/ability/talent/6th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Synaptic Conditioning
 cost: 9 Clarity
 flavor: It's a subtle mindset shift. It's not that they're your enemy—you just
@@ -39,7 +41,7 @@ keywords:
   - Melee
   - Strike
   - Telepathy
-type: Main action
+usage: Main action
 distance: Melee 2
 target: One creature
 metadata:
@@ -51,7 +53,7 @@ metadata:
   distance: Melee 2
   feature_type: ability
   file_basename: Synaptic Conditioning
-  file_dpath: Talent/6th-Level Features
+  file_dpath: Abilities/Talent/6th-Level Features
   flavor: It's a subtle mindset shift. It's not that they're your enemy—you just
     don't like them!
   item_id: synaptic-conditioning-9-clarity
@@ -66,20 +68,20 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.talent.6th-level-feature:synaptic-conditioning-9-clarity
   scdc:
-    - 1.1.1:13.2.1.3:06
+    - 1.1.1:11.2.1.3:06
   source: mcdm.heroes.v1
   subclass: Telepathy
   target: One creature
   type: feature/ability/talent/6th-level-feature
 effects:
   - roll: Power Roll + Reason
-    t1: 10 psychic damage; the target takes a bane on ability rolls made to harm you
-      or your allies (save ends)
-    t2: 14 psychic damage; the target has a double bane on ability rolls made to
+    tier1: 10 psychic damage; the target takes a bane on ability rolls made to harm
+      you or your allies (save ends)
+    tier2: 14 psychic damage; the target has a double bane on ability rolls made to
       harm you or your allies (save ends)
-    t3: 20 psychic damage; the target considers you and your allies to be their
+    tier3: 20 psychic damage; the target considers you and your allies to be their
       allies when using abilities and features (save ends)
-  - effect: While the target is under this effect, you no longer consider your
+  - name: Strained
+    effect: While the target is under this effect, you no longer consider your
       enemies to be your enemies when using your abilities and features.
-    name: Strained
 ```

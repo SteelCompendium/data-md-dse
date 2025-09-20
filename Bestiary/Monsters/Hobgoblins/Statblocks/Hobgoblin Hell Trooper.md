@@ -32,6 +32,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Hobgoblin Hell Trooper
 level: 4
 roles:
@@ -54,41 +55,47 @@ agility: 2
 reason: 0
 intuition: 0
 presence: 1
-traits:
-  - name: Infernal Ichor
-    effects:
-      - effect: When the trooper is reduced to 0 Stamina, they spray burning blood. Each
-          creature adjacent to the trooper takes 3 fire damage.
-abilities:
-  - name: Fire Flail
+features:
+  - type: feature
+    feature_type: ability
+    name: Fire Flail
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 2
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 3
-        t1: 7 fire damage
-        t2: 10 fire damage
-        t3: 13 fire damage
-      - effect: Until the end of their turn, the trooper doesn't provoke opportunity
+        tier1: 7 fire damage
+        tier2: 10 fire damage
+        tier3: 13 fire damage
+      - name: Effect
+        effect: Until the end of their turn, the trooper doesn't provoke opportunity
           attacks from any target.
-        name: Effect
-  - name: Fight Me, Coward!
+  - type: feature
+    feature_type: ability
+    name: Fight Me, Coward!
     icon: 🏹
     keywords:
       - Magic
       - Ranged
-    type: Maneuver
+    usage: Maneuver
     distance: Ranged 5
     target: One creature
     effects:
-      - effect: If the target has P < 2, they are taunted (EoT). While taunted this way,
+      - name: Effect
+        effect: If the target has P < 2, they are taunted (EoT). While taunted this way,
           the target takes 1d6 fire damage whenever they use an ability or
           strike that doesn't target the trooper.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Infernal Ichor
+    icon: ⭐️
+    effects:
+      - effect: When the trooper is reduced to 0 Stamina, they spray burning blood. Each
+          creature adjacent to the trooper takes 3 fire damage.
 ~~~

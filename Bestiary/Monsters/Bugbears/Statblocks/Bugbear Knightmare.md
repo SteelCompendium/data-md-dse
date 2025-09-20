@@ -32,6 +32,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Bugbear Knightmare
 level: 8
 roles:
@@ -53,33 +54,40 @@ agility: 3
 reason: 1
 intuition: 1
 presence: 4
-traits:
-  - name: Bu'gathic Inspiration
-    effects:
-      - effect: Any ally has a +1 bonus to power rolls, saving throws, or damage rolled
-          as a d6 or a d3 for each knightmare adjacent to them.
-  - name: Magic Terror
-    effects:
-      - effect: Each enemy has a −1 penalty to power rolls, saving throws, or damage
-          rolled as a d6 or a d3 for each knightmare adjacent to them.
-abilities:
-  - name: Corrosive Blade
+features:
+  - type: feature
+    feature_type: ability
+    name: Corrosive Blade
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 4
-        t1: 3 corruption damage
-        t2: 6 corruption damage; P < 3 bleeding (save ends)
-        t3: 8 corruption damage; grabbed; P < 4 bleeding (save ends)
-      - effect: A target grabbed this way or already grabbed by the knightmare can be
+        tier1: 3 corruption damage
+        tier2: 6 corruption damage; P < 3 bleeding (save ends)
+        tier3: 8 corruption damage; grabbed; P < 4 bleeding (save ends)
+      - name: Effect
+        effect: A target grabbed this way or already grabbed by the knightmare can be
           vertical pushed up to 5 squares.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Bu'gathic Inspiration
+    icon: ⭐️
+    effects:
+      - effect: Any ally has a +1 bonus to power rolls, saving throws, or damage rolled
+          as a d6 or a d3 for each knightmare adjacent to them.
+  - type: feature
+    feature_type: trait
+    name: Magic Terror
+    icon: ⭐️
+    effects:
+      - effect: Each enemy has a −1 penalty to power rolls, saving throws, or damage
+          rolled as a d6 or a d3 for each knightmare adjacent to them.
 ~~~

@@ -7,7 +7,7 @@ cost_resource: Wrath
 distance: Ranged 10
 feature_type: ability
 file_basename: Repent
-file_dpath: Censor/1st-Level Features
+file_dpath: Abilities/Censor/1st-Level Features
 flavor: You conjure memories of their sins to harry your foes.
 item_id: repent-3-wrath
 item_index: '05'
@@ -20,13 +20,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:repent-3-wrath
 scdc:
-- 1.1.1:13.2.7.1:05
+- 1.1.1:11.2.7.1:05
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/censor/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Repent!
 cost: 3 Wrath
 flavor: You conjure memories of their sins to harry your foes.
@@ -34,7 +36,7 @@ keywords:
   - Magic
   - Ranged
   - Strike
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: One creature
 metadata:
@@ -46,7 +48,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Repent
-  file_dpath: Censor/1st-Level Features
+  file_dpath: Abilities/Censor/1st-Level Features
   flavor: You conjure memories of their sins to harry your foes.
   item_id: repent-3-wrath
   item_index: "05"
@@ -59,13 +61,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:repent-3-wrath
   scdc:
-    - 1.1.1:13.2.7.1:05
+    - 1.1.1:11.2.7.1:05
   source: mcdm.heroes.v1
   target: One creature
   type: feature/ability/censor/1st-level-feature
 effects:
   - roll: Power Roll + Presence
-    t1: 5 + P holy damage; I < WEAK, dazed (save ends)
-    t2: 8 + P holy damage; I < AVERAGE, dazed (save ends)
-    t3: 11 + P holy damage; I < STRONG, dazed (save ends)
+    tier1: 5 + P holy damage; I < WEAK, dazed (save ends)
+    tier2: 8 + P holy damage; I < AVERAGE, dazed (save ends)
+    tier3: 11 + P holy damage; I < STRONG, dazed (save ends)
 ```

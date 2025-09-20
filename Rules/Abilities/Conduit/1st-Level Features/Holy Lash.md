@@ -1,10 +1,11 @@
 ---
+ability_type: Signature
 action_type: Main action
 class: conduit
 distance: Ranged 10
 feature_type: ability
 file_basename: Holy Lash
-file_dpath: Conduit/1st-Level Features
+file_dpath: Abilities/Conduit/1st-Level Features
 flavor: A tendril of divine energy shoots forth to draw in your foe.
 item_id: holy-lash
 item_index: '18'
@@ -17,29 +18,32 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:holy-lash
 scdc:
-- 1.1.1:13.2.8.1:18
+- 1.1.1:11.2.8.1:18
 source: mcdm.heroes.v1
 target: One creature or object
 type: feature/ability/conduit/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Holy Lash
 flavor: A tendril of divine energy shoots forth to draw in your foe.
 keywords:
   - Magic
   - Ranged
   - Strike
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: One creature or object
 metadata:
+  ability_type: Signature
   action_type: Main action
   class: conduit
   distance: Ranged 10
   feature_type: ability
   file_basename: Holy Lash
-  file_dpath: Conduit/1st-Level Features
+  file_dpath: Abilities/Conduit/1st-Level Features
   flavor: A tendril of divine energy shoots forth to draw in your foe.
   item_id: holy-lash
   item_index: "18"
@@ -52,13 +56,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:holy-lash
   scdc:
-    - 1.1.1:13.2.8.1:18
+    - 1.1.1:11.2.8.1:18
   source: mcdm.heroes.v1
   target: One creature or object
   type: feature/ability/conduit/1st-level-feature
 effects:
   - roll: Power Roll + Intuition
-    t1: 3 + I holy damage; vertical pull 2
-    t2: 5 + I holy damage; vertical pull 3
-    t3: 8 + I holy damage; vertical pull 4
+    tier1: 3 + I holy damage; vertical pull 2
+    tier2: 5 + I holy damage; vertical pull 3
+    tier3: 8 + I holy damage; vertical pull 4
 ```

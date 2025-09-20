@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Human Blackguard
 level: 1
 roles:
@@ -51,97 +52,114 @@ agility: 2
 reason: 2
 intuition: 0
 presence: 2
-traits:
-  - name: End Effect
-    effects:
-      - effect: At the end of each of their turns, the blackguard can take 5 damage to
-          end one effect on them that can be ended by a saving throw. This
-          damage can't be reduced in any way.
-  - name: Supernatural Insight
-    effects:
-      - effect: The blackguard ignores concealment if it's granted by a supernatural
-          effect
-abilities:
-  - name: Zweihander Swing
+features:
+  - type: feature
+    feature_type: ability
+    name: Zweihander Swing
     icon: ❇️
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Area
       - Weapon
-    type: Main action
+    usage: Main action
     distance: 1 burst
     target: Each enemy in the area
     effects:
       - roll: Power Roll + 2
-        t1: 3 damage; M < 1 slowed (save ends)
-        t2: 6 damage; M < 2 slowed (save ends)
-        t3: 8 damage; M < 3 slowed (save ends)
-      - effect: One ally within 10 squares can make a free strike.
-        name: Effect
-      - effect: One ally within 10 squares can use their signature ability instead.
-        cost: 1 Malice
-  - name: You!
+        tier1: 3 damage; M < 1 slowed (save ends)
+        tier2: 6 damage; M < 2 slowed (save ends)
+        tier3: 8 damage; M < 3 slowed (save ends)
+      - name: Effect
+        effect: One ally within 10 squares can make a free strike.
+      - cost: 1 Malice
+        effect: One ally within 10 squares can use their signature ability instead.
+  - type: feature
+    feature_type: ability
+    name: You!
     icon: 🏹
     keywords:
       - Ranged
-    type: Maneuver
+    usage: Maneuver
     distance: Ranged 10
     target: One enemy
     effects:
-      - effect: The target is marked until the start of the blackguard's next turn. The
+      - name: Effect
+        effect: The target is marked until the start of the blackguard's next turn. The
           blackguard and each of their allies gain an edge on abilities used
           against targets marked by the blackguard.
-        name: Effect
-  - name: Parry!
+  - type: feature
+    feature_type: trait
+    name: End Effect
+    icon: ⭐️
+    effects:
+      - effect: At the end of each of their turns, the blackguard can take 5 damage to
+          end one effect on them that can be ended by a saving throw. This
+          damage can't be reduced in any way.
+  - type: feature
+    feature_type: trait
+    name: Supernatural Insight
+    icon: ⭐️
+    effects:
+      - effect: The blackguard ignores concealment if it's granted by a supernatural
+          effect
+  - type: feature
+    feature_type: ability
+    name: Parry!
     icon: ❗️
     keywords:
       - Melee
-    type: Triggered action
+    usage: Triggered action
     distance: Melee 1
     target: Self or one ally
     trigger: A creature makes a strike against the blackguard or an ally adjacent to
       them.
     effects:
-      - effect: The damage is halved.
-        name: Effect
-  - name: Advance!
+      - name: Effect
+        effect: The damage is halved.
+  - type: feature
+    feature_type: ability
+    name: Advance!
     icon: ☠️
-    cost: Villain Action 1
+    ability_type: Villain Action 1
     keywords:
       - "-"
-    type: "-"
+    usage: "-"
     distance: Self
     target: Self
     effects:
-      - effect: The blackguard shifts up to their speed. During or after this movement,
+      - name: Effect
+        effect: The blackguard shifts up to their speed. During or after this movement,
           they can use their Zweihander Swing twice.
-        name: Effect
-  - name: Back!
+  - type: feature
+    feature_type: ability
+    name: Back!
     icon: ☠️
-    cost: Villain Action 2
+    ability_type: Villain Action 2
     keywords:
       - Area
       - Magic
-    type: "-"
+    usage: "-"
     distance: 5 burst
     target: Each enemy in the area
     effects:
-      - effect: The blackguard slides each target up to 5 squares.
-        name: Effect
-  - name: I Can Throw My Blade and So Should You!
+      - name: Effect
+        effect: The blackguard slides each target up to 5 squares.
+  - type: feature
+    feature_type: ability
+    name: I Can Throw My Blade and So Should You!
     icon: ☠️
-    cost: Villain Action 3
+    ability_type: Villain Action 3
     keywords:
       - Area
       - Magic
       - Ranged
       - Weapon
-    type: "-"
+    usage: "-"
     distance: 3 cube within 5
     target: Each enemy in the area
     effects:
-      - effect: The blackguard uses their Zweihander Swing against each target. Each
+      - name: Effect
+        effect: The blackguard uses their Zweihander Swing against each target. Each
           ally within 5 squares of the area can then make a free strike against
           a target (one target per ally)
-        name: Effect
 ~~~

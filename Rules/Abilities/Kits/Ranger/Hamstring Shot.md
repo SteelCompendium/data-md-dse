@@ -1,4 +1,5 @@
 ---
+ability_type: Signature
 action_type: Main action
 class: ignored
 distance: Ranged 10
@@ -12,7 +13,6 @@ keywords:
 - Ranged
 - Strike
 - Weapon
-kit: Ranger
 scc:
 - mcdm.heroes.v1:kit-ability.ranger:hamstring-shot
 scdc:
@@ -22,17 +22,20 @@ target: One creature
 type: kit-ability/ranger
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Hamstring Shot
 flavor: A well-placed shot leaves your enemy struggling to move.
 keywords:
   - Ranged
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: One creature
 metadata:
+  ability_type: Signature
   action_type: Main action
   class: ignored
   distance: Ranged 10
@@ -46,7 +49,6 @@ metadata:
     - Ranged
     - Strike
     - Weapon
-  kit: Ranger
   scc:
     - mcdm.heroes.v1:kit-ability.ranger:hamstring-shot
   scdc:
@@ -56,7 +58,7 @@ metadata:
   type: kit-ability/ranger
 effects:
   - roll: Power Roll + Might or Agility
-    t1: 3 + M or A damage; A < WEAK, slowed (save ends)
-    t2: 5 + M or A damage; A < AVERAGE, slowed (save ends)
-    t3: 7 + M or A damage; A < STRONG, slowed (save ends)
+    tier1: 3 + M or A damage; A < WEAK, slowed (save ends)
+    tier2: 5 + M or A damage; A < AVERAGE, slowed (save ends)
+    tier3: 7 + M or A damage; A < STRONG, slowed (save ends)
 ```

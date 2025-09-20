@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Angulotl Slink
 level: 1
 roles:
@@ -51,48 +52,57 @@ agility: 2
 reason: 0
 intuition: 0
 presence: 0
-traits:
-  - name: Adhesive
+features:
+  - type: feature
+    feature_type: ability
+    name: Tonguelash
+    icon: 🗡
+    ability_type: Signature Ability
+    keywords:
+      - Melee
+      - Strike
+      - Weapon
+    usage: Main action
+    distance: Melee 6
+    target: One creature or object
+    effects:
+      - roll: Power Roll + 2
+        tier1: 4 damage; pull 2
+        tier2: 6 damage; pull 4
+        tier3: 7 damage; pull 6
+      - name: Effect
+        effect: The target is wet (save ends). Any ally targeted by this ability ignores
+          the damage, is wet until the end of the encounter, and is pulled up to
+          6 squares, ignoring stability.
+  - type: feature
+    feature_type: ability
+    name: Hop To It
+    icon: 👤
+    cost: 2 Malice
+    keywords:
+      - "-"
+    usage: Free maneuver
+    distance: Self
+    target: Self
+    effects:
+      - name: Effect
+        effect: The slink jumps up to 3 squares. If they have cover or concealment when
+          they land, they can attempt to hide.
+  - type: feature
+    feature_type: trait
+    name: Adhesive
+    icon: ⭐️
     effects:
       - effect: The slink excretes a sticky residue into their square at the end of each
           of their turns. Any non-angulotl who enters or leaves the square is
           stuck, and must use a maneuver to break free or be restrained until
           the end of their turn. Objects are likewise affected, and a creature
           must use a maneuver to remove an object from the square.
-  - name: Toxiferous
+  - type: feature
+    feature_type: trait
+    name: Toxiferous
+    icon: ⭐️
     effects:
       - effect: Whenever an adjacent enemy grabs the slink or uses a melee ability
           against them, that enemy takes 2 poison damage.
-abilities:
-  - name: Tonguelash
-    icon: 🗡
-    cost: Signature Ability
-    keywords:
-      - Melee
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Melee 6
-    target: One creature or object
-    effects:
-      - roll: Power Roll + 2
-        t1: 4 damage; pull 2
-        t2: 6 damage; pull 4
-        t3: 7 damage; pull 6
-      - effect: The target is wet (save ends). Any ally targeted by this ability ignores
-          the damage, is wet until the end of the encounter, and is pulled up to
-          6 squares, ignoring stability.
-        name: Effect
-  - name: Hop To It
-    icon: 👤
-    cost: 2 Malice
-    keywords:
-      - "-"
-    type: Free maneuver
-    distance: Self
-    target: Self
-    effects:
-      - effect: The slink jumps up to 3 squares. If they have cover or concealment when
-          they land, they can attempt to hide.
-        name: Effect
 ~~~

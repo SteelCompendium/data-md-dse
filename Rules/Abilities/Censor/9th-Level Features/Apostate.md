@@ -7,7 +7,7 @@ cost_resource: Wrath
 distance: Melee 1
 feature_type: ability
 file_basename: Apostate
-file_dpath: Censor/9th-Level Features
+file_dpath: Abilities/Censor/9th-Level Features
 flavor: You channel holy energy to seal an enemy's fate.
 item_id: apostate-11-wrath
 item_index: '06'
@@ -20,14 +20,16 @@ level: 9
 scc:
 - mcdm.heroes.v1:feature.ability.censor.9th-level-feature:apostate-11-wrath
 scdc:
-- 1.1.1:13.2.7.7:06
+- 1.1.1:11.2.7.7:06
 source: mcdm.heroes.v1
 subclass: Paragon
 target: One creature
 type: feature/ability/censor/9th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Apostate
 cost: 11 Wrath
 flavor: You channel holy energy to seal an enemy's fate.
@@ -35,7 +37,7 @@ keywords:
   - Melee
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1
 target: One creature
 metadata:
@@ -47,7 +49,7 @@ metadata:
   distance: Melee 1
   feature_type: ability
   file_basename: Apostate
-  file_dpath: Censor/9th-Level Features
+  file_dpath: Abilities/Censor/9th-Level Features
   flavor: You channel holy energy to seal an enemy's fate.
   item_id: apostate-11-wrath
   item_index: "06"
@@ -60,17 +62,17 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.censor.9th-level-feature:apostate-11-wrath
   scdc:
-    - 1.1.1:13.2.7.7:06
+    - 1.1.1:11.2.7.7:06
   source: mcdm.heroes.v1
   subclass: Paragon
   target: One creature
   type: feature/ability/censor/9th-level-feature
 effects:
   - roll: Power Roll + Might
-    t1: 13 + M holy damage
-    t2: 19 + M holy damage
-    t3: 26 + M holy damage
-  - effect: Until the end of the encounter or until you are dying, the target has
+    tier1: 13 + M holy damage
+    tier2: 19 + M holy damage
+    tier3: 26 + M holy damage
+  - name: Effect
+    effect: Until the end of the encounter or until you are dying, the target has
       damage weakness 10.
-    name: Effect
 ```

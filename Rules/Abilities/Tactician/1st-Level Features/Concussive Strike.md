@@ -7,7 +7,7 @@ cost_resource: Focus
 distance: Melee 1 or ranged 5
 feature_type: ability
 file_basename: Concussive Strike
-file_dpath: Tactician/1st-Level Features
+file_dpath: Abilities/Tactician/1st-Level Features
 flavor: Your precise strike leaves your foe struggling to respond.
 item_id: concussive-strike-3-focus
 item_index: '10'
@@ -21,13 +21,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:concussive-strike-3-focus
 scdc:
-- 1.1.1:13.2.4.1:10
+- 1.1.1:11.2.4.1:10
 source: mcdm.heroes.v1
 target: One creature or object
 type: feature/ability/tactician/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Concussive Strike
 cost: 3 Focus
 flavor: Your precise strike leaves your foe struggling to respond.
@@ -36,7 +38,7 @@ keywords:
   - Ranged
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1 or ranged 5
 target: One creature or object
 metadata:
@@ -48,7 +50,7 @@ metadata:
   distance: Melee 1 or ranged 5
   feature_type: ability
   file_basename: Concussive Strike
-  file_dpath: Tactician/1st-Level Features
+  file_dpath: Abilities/Tactician/1st-Level Features
   flavor: Your precise strike leaves your foe struggling to respond.
   item_id: concussive-strike-3-focus
   item_index: "10"
@@ -62,13 +64,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:concussive-strike-3-focus
   scdc:
-    - 1.1.1:13.2.4.1:10
+    - 1.1.1:11.2.4.1:10
   source: mcdm.heroes.v1
   target: One creature or object
   type: feature/ability/tactician/1st-level-feature
 effects:
   - roll: Power Roll + Might
-    t1: 3 + M damage; M < WEAK, dazed (save ends)
-    t2: 5 + M damage; M < AVERAGE, dazed (save ends)
-    t3: 8 + M damage; M < STRONG, dazed (save ends)
+    tier1: 3 + M damage; M < WEAK, dazed (save ends)
+    tier2: 5 + M damage; M < AVERAGE, dazed (save ends)
+    tier3: 8 + M damage; M < STRONG, dazed (save ends)
 ```

@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Goblin Sniper
 level: 1
 roles:
@@ -50,27 +51,31 @@ agility: 2
 reason: 0
 intuition: 0
 presence: -1
-traits:
-  - name: Crafty
-    effects:
-      - effect: The sniper doesn't provoke opportunity attacks by moving.
-abilities:
-  - name: Bow
+features:
+  - type: feature
+    feature_type: ability
+    name: Bow
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 10
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 2 damage
-        t2: 4 damage
-        t3: 5 damage
-      - effect: If the sniper doesn't use a move action this turn, this ability gains an
+        tier1: 2 damage
+        tier2: 4 damage
+        tier3: 5 damage
+      - name: Effect
+        effect: If the sniper doesn't use a move action this turn, this ability gains an
           edge.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Crafty
+    icon: ⭐️
+    effects:
+      - effect: The sniper doesn't provoke opportunity attacks by moving.
 ~~~

@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Kobold Sagittarion
 level: 1
 roles:
@@ -49,28 +50,32 @@ agility: 2
 reason: 0
 intuition: 0
 presence: 0
-traits:
-  - name: Shield? Shield!
-    effects:
-      - effect: While adjacent to an ally who also has this trait, the sagittarion has
-          stability 1, has cover, and grants cover to allies.
-abilities:
-  - name: Composite Bow
+features:
+  - type: feature
+    feature_type: ability
+    name: Composite Bow
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 10
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 2 damage
-        t2: 4 damage
-        t3: 5 damage
-      - effect: While adjacent to any ally, the sagittarion gains an edge on this
+        tier1: 2 damage
+        tier2: 4 damage
+        tier3: 5 damage
+      - name: Effect
+        effect: While adjacent to any ally, the sagittarion gains an edge on this
           ability.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Shield? Shield!
+    icon: ⭐️
+    effects:
+      - effect: While adjacent to an ally who also has this trait, the sagittarion has
+          stability 1, has cover, and grants cover to allies.
 ~~~

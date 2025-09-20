@@ -4,7 +4,7 @@ class: shadow
 distance: 2 cube within 10
 feature_type: ability
 file_basename: Time Bomb
-file_dpath: Shadow/8th-Level Features
+file_dpath: Abilities/Shadow/8th-Level Features
 flavor: The longer it cooks, the bigger the boom.
 item_id: time-bomb
 item_index: '01'
@@ -16,20 +16,22 @@ level: 8
 scc:
 - mcdm.heroes.v1:feature.ability.shadow.8th-level-feature:time-bomb
 scdc:
-- 1.1.1:13.2.2.2:01
+- 1.1.1:11.2.2.2:01
 source: mcdm.heroes.v1
 subclass: Caustic Alchemy
 target: Each enemy in the area
 type: feature/ability/shadow/8th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Time Bomb
 flavor: The longer it cooks, the bigger the boom.
 keywords:
   - Area
   - Ranged
-type: Free maneuver
+usage: Free maneuver
 distance: 2 cube within 10
 target: Each enemy in the area
 metadata:
@@ -38,7 +40,7 @@ metadata:
   distance: 2 cube within 10
   feature_type: ability
   file_basename: Time Bomb
-  file_dpath: Shadow/8th-Level Features
+  file_dpath: Abilities/Shadow/8th-Level Features
   flavor: The longer it cooks, the bigger the boom.
   item_id: time-bomb
   item_index: "01"
@@ -50,13 +52,14 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.shadow.8th-level-feature:time-bomb
   scdc:
-    - 1.1.1:13.2.2.2:01
+    - 1.1.1:11.2.2.2:01
   source: mcdm.heroes.v1
   subclass: Caustic Alchemy
   target: Each enemy in the area
   type: feature/ability/shadow/8th-level-feature
 effects:
-  - effect: >-
+  - name: Effect
+    effect: >-
       Each target takes acid, fire, or poison damage (your choice) equal to your
       Agility score.
 
@@ -64,8 +67,7 @@ effects:
       the current encounter, the area increases by 1 and you gain 1 surge that
       must be used with this ability. After using the ability or at the end of
       the encounter, its area and surges are reset.
-    name: Effect
-  - effect: For every 2 insight spent, you increase the cube's size by 1 and gain 1
+  - cost: Spend 2+ Insight
+    effect: For every 2 insight spent, you increase the cube's size by 1 and gain 1
       surge that can be used only with this ability.
-    cost: Spend 2+ Insight
 ```

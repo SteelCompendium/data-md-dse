@@ -7,7 +7,7 @@ cost_resource: Discipline
 distance: Melee 1
 feature_type: ability
 file_basename: Arcane Purge
-file_dpath: Null/8th-Level Features
+file_dpath: Abilities/Null/8th-Level Features
 flavor: You focus your null field into a pressure point strike that prevents your
   foe from channeling sorcery.
 item_id: arcane-purge-11-discipline
@@ -22,13 +22,15 @@ level: 8
 scc:
 - mcdm.heroes.v1:feature.ability.null.8th-level-feature:arcane-purge-11-discipline
 scdc:
-- 1.1.1:13.2.6.2:04
+- 1.1.1:11.2.6.2:04
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/null/8th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Arcane Purge
 cost: 11 Discipline
 flavor: You focus your null field into a pressure point strike that prevents
@@ -38,7 +40,7 @@ keywords:
   - Psionic
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1
 target: One creature
 metadata:
@@ -50,7 +52,7 @@ metadata:
   distance: Melee 1
   feature_type: ability
   file_basename: Arcane Purge
-  file_dpath: Null/8th-Level Features
+  file_dpath: Abilities/Null/8th-Level Features
   flavor: You focus your null field into a pressure point strike that prevents
     your foe from channeling sorcery.
   item_id: arcane-purge-11-discipline
@@ -65,17 +67,17 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.null.8th-level-feature:arcane-purge-11-discipline
   scdc:
-    - 1.1.1:13.2.6.2:04
+    - 1.1.1:11.2.6.2:04
   source: mcdm.heroes.v1
   target: One creature
   type: feature/ability/null/8th-level-feature
 effects:
   - roll: Power Roll + Agility
-    t1: 13 + A damage; M < WEAK, the target is suppressed (save ends)
-    t2: 19 + A damage; M < AVERAGE, the target is suppressed (save ends)
-    t3: 24 + A damage; M < STRONG, the target is suppressed (save ends)
-  - effect: While suppressed, a target takes psychic damage equal to twice your
+    tier1: 13 + A damage; M < WEAK, the target is suppressed (save ends)
+    tier2: 19 + A damage; M < AVERAGE, the target is suppressed (save ends)
+    tier3: 24 + A damage; M < STRONG, the target is suppressed (save ends)
+  - name: Effect
+    effect: While suppressed, a target takes psychic damage equal to twice your
       Intuition score at the start of their turns, whenever they use a
       supernatural ability, or whenever they use an ability that costs Malice.
-    name: Effect
 ```

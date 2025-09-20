@@ -7,7 +7,7 @@ cost_resource: Wrath
 distance: Ranged 10
 feature_type: ability
 file_basename: Pain of Your Own Making
-file_dpath: Censor/6th-Level Features
+file_dpath: Abilities/Censor/6th-Level Features
 flavor: You reverse the effects from an evildoer.
 item_id: pain-of-your-own-making-9-wrath
 item_index: '05'
@@ -19,21 +19,23 @@ level: 6
 scc:
 - mcdm.heroes.v1:feature.ability.censor.6th-level-feature:pain-of-your-own-making-9-wrath
 scdc:
-- 1.1.1:13.2.7.3:05
+- 1.1.1:11.2.7.3:05
 source: mcdm.heroes.v1
 subclass: Exorcist
 target: Self or one ally
 type: feature/ability/censor/6th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Pain of Your Own Making
 cost: 9 Wrath
 flavor: You reverse the effects from an evildoer.
 keywords:
   - Magic
   - Ranged
-type: Free triggered
+usage: Free triggered
 distance: Ranged 10
 target: Self or one ally
 trigger: The target gains a condition or effect that is ended by a saving throw
@@ -47,7 +49,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Pain of Your Own Making
-  file_dpath: Censor/6th-Level Features
+  file_dpath: Abilities/Censor/6th-Level Features
   flavor: You reverse the effects from an evildoer.
   item_id: pain-of-your-own-making-9-wrath
   item_index: "05"
@@ -59,14 +61,14 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.censor.6th-level-feature:pain-of-your-own-making-9-wrath
   scdc:
-    - 1.1.1:13.2.7.3:05
+    - 1.1.1:11.2.7.3:05
   source: mcdm.heroes.v1
   subclass: Exorcist
   target: Self or one ally
   type: feature/ability/censor/6th-level-feature
 effects:
-  - effect: The effect ends on the target and is applied to the creature who imposed
+  - name: Effect
+    effect: The effect ends on the target and is applied to the creature who imposed
       the effect on them. That creature also takes damage equal to three times
       your Presence score.
-    name: Effect
 ```

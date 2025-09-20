@@ -7,7 +7,7 @@ cost_resource: Focus
 distance: Ranged 10
 feature_type: ability
 file_basename: Battle Plan
-file_dpath: Tactician/6th-Level Features
+file_dpath: Abilities/Tactician/6th-Level Features
 flavor: With new understanding of your foes, you create the perfect plan to win the
   battle.
 item_id: battle-plan-9-focus
@@ -19,21 +19,23 @@ level: 6
 scc:
 - mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:battle-plan-9-focus
 scdc:
-- 1.1.1:13.2.4.3:01
+- 1.1.1:11.2.4.3:01
 source: mcdm.heroes.v1
 subclass: Mastermind
 target: Three creatures
 type: feature/ability/tactician/6th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Battle Plan
 cost: 9 Focus
 flavor: With new understanding of your foes, you create the perfect plan to win
   the battle.
 keywords:
   - Ranged
-type: Maneuver
+usage: Maneuver
 distance: Ranged 10
 target: Three creatures
 metadata:
@@ -45,7 +47,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Battle Plan
-  file_dpath: Tactician/6th-Level Features
+  file_dpath: Abilities/Tactician/6th-Level Features
   flavor: With new understanding of your foes, you create the perfect plan to win
     the battle.
   item_id: battle-plan-9-focus
@@ -57,20 +59,20 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:battle-plan-9-focus
   scdc:
-    - 1.1.1:13.2.4.3:01
+    - 1.1.1:11.2.4.3:01
   source: mcdm.heroes.v1
   subclass: Mastermind
   target: Three creatures
   type: feature/ability/tactician/6th-level-feature
 effects:
-  - effect: Each target is marked by you. Immediately and until the end of the
+  - name: Effect
+    effect: Each target is marked by you. Immediately and until the end of the
       encounter, the Director tells you if any creatures marked by you have
       damage immunity or weakness and the value of that immunity or weakness.
       Additionally, you and each ally within 3 squares of you gains 2 surges.
-    name: Effect
-  - effect: Until the end of the encounter, whenever you or any ally makes a strike
+  - name: Mark Benefit
+    effect: Until the end of the encounter, whenever you or any ally makes a strike
       against a creature marked by you, you can spend 2 focus to make the strike
       ignore damage immunity and deal extra damage equal to three times your
       Reason score.
-    name: Mark Benefit
 ```

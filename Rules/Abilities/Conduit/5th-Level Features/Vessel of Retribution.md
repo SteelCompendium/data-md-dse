@@ -7,7 +7,7 @@ cost_resource: Piety
 distance: Ranged 10
 feature_type: ability
 file_basename: Vessel of Retribution
-file_dpath: Conduit/5th-Level Features
+file_dpath: Abilities/Conduit/5th-Level Features
 flavor: You infuse yourself or an ally with the retributive energy of the gods, waiting
   to be unleashed.
 item_id: vessel-of-retribution-9-piety
@@ -20,13 +20,15 @@ level: 5
 scc:
 - mcdm.heroes.v1:feature.ability.conduit.5th-level-feature:vessel-of-retribution-9-piety
 scdc:
-- 1.1.1:13.2.8.4:02
+- 1.1.1:11.2.8.4:02
 source: mcdm.heroes.v1
 target: Self or one ally
 type: feature/ability/conduit/5th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Vessel of Retribution
 cost: 9 Piety
 flavor: You infuse yourself or an ally with the retributive energy of the gods,
@@ -34,7 +36,7 @@ flavor: You infuse yourself or an ally with the retributive energy of the gods,
 keywords:
   - Magic
   - Ranged
-type: Maneuver
+usage: Maneuver
 distance: Ranged 10
 target: Self or one ally
 metadata:
@@ -46,7 +48,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Vessel of Retribution
-  file_dpath: Conduit/5th-Level Features
+  file_dpath: Abilities/Conduit/5th-Level Features
   flavor: You infuse yourself or an ally with the retributive energy of the gods,
     waiting to be unleashed.
   item_id: vessel-of-retribution-9-piety
@@ -59,12 +61,12 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.conduit.5th-level-feature:vessel-of-retribution-9-piety
   scdc:
-    - 1.1.1:13.2.8.4:02
+    - 1.1.1:11.2.8.4:02
   source: mcdm.heroes.v1
   target: Self or one ally
   type: feature/ability/conduit/5th-level-feature
 effects:
-  - effect: The first time the target is dying or winded before the end of the
+  - name: Effect
+    effect: The first time the target is dying or winded before the end of the
       encounter, each enemy within 5 squares of them takes 15 holy damage.
-    name: Effect
 ```

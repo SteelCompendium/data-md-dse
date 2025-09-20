@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Rival Talent
 level: 10
 roles:
@@ -48,63 +49,71 @@ agility: 0
 reason: 5
 intuition: 0
 presence: 1
-traits:
-  - name: Rivalry
-    effects:
-      - effect: At the start of an encounter, the talent chooses one creature within
-          their line of effect. Both the talent and the creature can add a d3
-          roll to power rolls they make against each other.
-abilities:
-  - name: Override
+features:
+  - type: feature
+    feature_type: ability
+    name: Override
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Psionic
       - Ranged
       - Strike
       - Telekinesis
-    type: Main action
+    usage: Main action
     distance: Ranged 10
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 5
-        t1: 15 psychic damage
-        t2: 20 psychic damage
-        t3: 24 psychic damage
-      - effect: Each target moves up to their speed and can make a free strike against
+        tier1: 15 psychic damage
+        tier2: 20 psychic damage
+        tier3: 24 psychic damage
+      - cost: 4 Malice
+        effect: Each target moves up to their speed and can make a free strike against
           one enemy of the talent's choice. The target's movement can provoke
           opportunity attacks, but they can't otherwise be moved in a way that
           would harm them.
-        cost: 4 Malice
-  - name: Steal Time
+  - type: feature
+    feature_type: ability
+    name: Steal Time
     icon: 🏹
     cost: 3 Malice
     keywords:
       - Chronopathy
       - Psionic
       - Ranged
-    type: Maneuver
+    usage: Maneuver
     distance: Ranged 10
     target: One creature or object
     effects:
-      - roll: Power Roll + 5
-        t1: R < 3 slowed (save ends)
-        t2: R < 4 restrained (save ends)
-        t3: R < 5 restrained (save ends)
       - effect: \*\*Effect:\*\*One ally within distance can use an additional main
           action on their next turn.
-  - name: Psionic Retribution
+        roll: Power Roll + 5
+        tier1: R < 3 slowed (save ends)
+        tier2: R < 4 restrained (save ends)
+        tier3: R < 5 restrained (save ends)
+  - type: feature
+    feature_type: ability
+    name: Psionic Retribution
     icon: ❗️
     cost: 2 Malice
     keywords:
       - Psionic
-    type: Triggered action
+    usage: Triggered action
     distance: Self; see below
     target: Self
     trigger: A creature deals damage to the talent.
     effects:
-      - effect: The talent halves the damage and shifts up to 2 squares. The triggering
+      - name: Effect
+        effect: The talent halves the damage and shifts up to 2 squares. The triggering
           creature takes psychic damage equal to half the damage dealt and is
           pushed up to 5 squares.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Rivalry
+    icon: ⭐️
+    effects:
+      - effect: At the start of an encounter, the talent chooses one creature within
+          their line of effect. Both the talent and the creature can add a d3
+          roll to power rolls they make against each other.
 ~~~

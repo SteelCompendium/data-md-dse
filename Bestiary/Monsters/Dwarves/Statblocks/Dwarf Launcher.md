@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Dwarf Launcher
 level: 1
 roles:
@@ -48,47 +49,53 @@ agility: 0
 reason: 0
 intuition: 2
 presence: 0
-traits:
-  - name: Indirect Fire
-    effects:
-      - effect: The launcher ignores concealment and cover, and doesn't need line of
-          effect to use their abilities as long as a size 1 opening exists
-          between the dwarf and the target.
-abilities:
-  - name: Concussive Grenade
+features:
+  - type: feature
+    feature_type: ability
+    name: Concussive Grenade
     icon: 🔳
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Area
       - Ranged
       - Weapon
-    type: Main action
+    usage: Main action
     distance: 3 cube within 5
     target: Each enemy in the area
     effects:
       - roll: Power Roll + 2
-        t1: 3 damage; push 1
-        t2: 6 damage; push 3; M < 1 slowed (save ends)
-        t3: 8 damage; push 3; M < 2 slowed (save ends)
-      - effect: A target restrained by a dwarf can be force moved by this ability. This
+        tier1: 3 damage; push 1
+        tier2: 6 damage; push 3; M < 1 slowed (save ends)
+        tier3: 8 damage; push 3; M < 2 slowed (save ends)
+      - name: Effect
+        effect: A target restrained by a dwarf can be force moved by this ability. This
           forced movement doesn't end the restrained condition unless the
           Director determines otherwise.
-        name: Effect
-  - name: Sleep Grenade
+  - type: feature
+    feature_type: ability
+    name: Sleep Grenade
     icon: 🔳
     cost: 3 Malice
     keywords:
       - Ranged
       - Weapon
-    type: Main action
+    usage: Main action
     distance: 3 cube within 5
     target: Each enemy in the area
     effects:
       - roll: Power Roll + 2
-        t1: 3 poison damage; I < 0 dazed (save ends)
-        t2: 6 poison damage; I < 1 dazed (save ends)
-        t3: 8 poison damage; I < 2 dazed (save ends)
-      - effect: A target dazed this way treats their characteristic scores as 1 lower
+        tier1: 3 poison damage; I < 0 dazed (save ends)
+        tier2: 6 poison damage; I < 1 dazed (save ends)
+        tier3: 8 poison damage; I < 2 dazed (save ends)
+      - name: Effect
+        effect: A target dazed this way treats their characteristic scores as 1 lower
           for the purpose of resisting potencies.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Indirect Fire
+    icon: ⭐️
+    effects:
+      - effect: The launcher ignores concealment and cover, and doesn't need line of
+          effect to use their abilities as long as a size 1 opening exists
+          between the dwarf and the target.
 ~~~

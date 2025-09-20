@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Frost Giant Storm Hurler
 level: 8
 roles:
@@ -50,38 +51,37 @@ agility: -1
 reason: 0
 intuition: 0
 presence: 0
-traits:
-  - name: Kingdom of Isolation
-    effects:
-      - effect: The storm hurler is surrounded by a snowstorm. Any enemy who starts
-          their turn within 2 squares of the storm hurler can't shift.
-abilities:
-  - name: Ice Javelins
+features:
+  - type: feature
+    feature_type: ability
+    name: Ice Javelins
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Ranged
       - Strike
-    type: Main action
+    usage: Main action
     distance: Ranged 15
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 4
-        t1: 13 cold damage
-        t2: 18 cold damage; M < 3 bleeding (save ends)
-        t3: 22 cold damage; M < 4 bleeding (save ends)
-      - effect: Whenever a creature bleeding this way takes damage from that condition,
+        tier1: 13 cold damage
+        tier2: 18 cold damage; M < 3 bleeding (save ends)
+        tier3: 22 cold damage; M < 4 bleeding (save ends)
+      - name: Effect
+        effect: Whenever a creature bleeding this way takes damage from that condition,
           their speed decreases by 1 (to a minimum of 0) until that condition
           ends.
-        name: Effect
-  - name: Flower of Frost
+  - type: feature
+    feature_type: ability
+    name: Flower of Frost
     icon: 🏹
     cost: 3 Malice
     keywords:
       - Magic
       - Ranged
-    type: Main action
+    usage: Main action
     distance: Ranged 15
     target: Special
     effects:
@@ -91,32 +91,43 @@ abilities:
           5. At the start of the storm hurler's next turn, all javelins not
           destroyed explode in a shower of icicles. Each enemy and object within
           3 squares of an exploding javelin makes an **Agility test**.
-        t1: 14 cold damage; push 4; bleeding (save ends)
-        t2: 11 cold damage; push 2; slowed (save ends)
-        t3: 7 cold damage
-  - name: Ice Dance
+        tier1: 14 cold damage; push 4; bleeding (save ends)
+        tier2: 11 cold damage; push 2; slowed (save ends)
+        tier3: 7 cold damage
+  - type: feature
+    feature_type: ability
+    name: Ice Dance
     icon: 🗡
     keywords:
       - Melee
-    type: Maneuver
+    usage: Maneuver
     distance: Melee 1
     target: One giant ally
     effects:
-      - effect: The storm hurler and the target each shift up to 6 squares while staying
+      - name: Effect
+        effect: The storm hurler and the target each shift up to 6 squares while staying
           adjacent to each other. The target can then jump up to 5 squares and
           make a free strike.
-        name: Effect
-  - name: Frozen Retribution
+  - type: feature
+    feature_type: ability
+    name: Frozen Retribution
     icon: ❗️
     keywords:
       - "-"
-    type: Triggered action
+    usage: Triggered action
     distance: Self
     target: Self
     trigger: The storm hurler is targeted by a ranged strike.
     effects:
-      - effect: The triggering strike has a double bane. If the strike obtains a tier 1
+      - name: Effect
+        effect: The triggering strike has a double bane. If the strike obtains a tier 1
           outcome, the storm hurler uses Ice Javelins against the creature who
           made it.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Kingdom of Isolation
+    icon: ⭐️
+    effects:
+      - effect: The storm hurler is surrounded by a snowstorm. Any enemy who starts
+          their turn within 2 squares of the storm hurler can't shift.
 ~~~

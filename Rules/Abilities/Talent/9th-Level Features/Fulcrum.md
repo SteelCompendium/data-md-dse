@@ -7,7 +7,7 @@ cost_resource: Clarity
 distance: Special
 feature_type: ability
 file_basename: Fulcrum
-file_dpath: Talent/9th-Level Features
+file_dpath: Abilities/Talent/9th-Level Features
 flavor: You precisely manipulate the creatures around you.
 item_id: fulcrum-11-clarity
 item_index: '04'
@@ -20,14 +20,16 @@ level: 9
 scc:
 - mcdm.heroes.v1:feature.ability.talent.9th-level-feature:fulcrum-11-clarity
 scdc:
-- 1.1.1:13.2.1.7:04
+- 1.1.1:11.2.1.7:04
 source: mcdm.heroes.v1
 subclass: Telekinesis
 target: Each enemy and object in the area
 type: feature/ability/talent/9th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Fulcrum
 cost: 11 Clarity
 flavor: You precisely manipulate the creatures around you.
@@ -35,7 +37,7 @@ keywords:
   - Area
   - Psionic
   - Telekinesis
-type: Main action
+usage: Main action
 distance: Special
 target: Each enemy and object in the area
 metadata:
@@ -47,7 +49,7 @@ metadata:
   distance: Special
   feature_type: ability
   file_basename: Fulcrum
-  file_dpath: Talent/9th-Level Features
+  file_dpath: Abilities/Talent/9th-Level Features
   flavor: You precisely manipulate the creatures around you.
   item_id: fulcrum-11-clarity
   item_index: "04"
@@ -60,7 +62,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.talent.9th-level-feature:fulcrum-11-clarity
   scdc:
-    - 1.1.1:13.2.1.7:04
+    - 1.1.1:11.2.1.7:04
   source: mcdm.heroes.v1
   subclass: Telekinesis
   target: Each enemy and object in the area
@@ -71,11 +73,11 @@ effects:
       vertical pushed 6 squares. You can target only objects of size 1L or
       smaller.
   - roll: Power Roll + Reason
-    t1: 2 burst
-    t2: 3 burst
-    t3: 4 burst
-  - effect: You can choose to reduce the size of the burst by 2 (to a minimum of 1
+    tier1: 2 burst
+    tier2: 3 burst
+    tier3: 4 burst
+  - name: Strained
+    effect: You can choose to reduce the size of the burst by 2 (to a minimum of 1
       burst) to give the forced movement distance a +2 bonus. You take half the
       total damage all targets take from forced movement.
-    name: Strained
 ```

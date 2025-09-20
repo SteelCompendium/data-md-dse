@@ -7,7 +7,7 @@ cost_resource: Piety
 distance: Ranged 10
 feature_type: ability
 file_basename: Reap
-file_dpath: Conduit/2nd-Level Features
+file_dpath: Abilities/Conduit/2nd-Level Features
 flavor: The gods reward those who smite their foes.
 item_id: reap-5-piety
 item_index: '10'
@@ -19,21 +19,23 @@ level: 2
 scc:
 - mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:reap-5-piety
 scdc:
-- 1.1.1:13.2.8.5:10
+- 1.1.1:11.2.8.5:10
 source: mcdm.heroes.v1
 subclass: Death
 target: Each ally
 type: feature/ability/conduit/2nd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Reap
 cost: 5 Piety
 flavor: The gods reward those who smite their foes.
 keywords:
   - Magic
   - Ranged
-type: Maneuver
+usage: Maneuver
 distance: Ranged 10
 target: Each ally
 metadata:
@@ -45,7 +47,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Reap
-  file_dpath: Conduit/2nd-Level Features
+  file_dpath: Abilities/Conduit/2nd-Level Features
   flavor: The gods reward those who smite their foes.
   item_id: reap-5-piety
   item_index: "10"
@@ -57,13 +59,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:reap-5-piety
   scdc:
-    - 1.1.1:13.2.8.5:10
+    - 1.1.1:11.2.8.5:10
   source: mcdm.heroes.v1
   subclass: Death
   target: Each ally
   type: feature/ability/conduit/2nd-level-feature
 effects:
-  - effect: Until the start of your next turn, each time a target kills an enemy,
+  - name: Effect
+    effect: Until the start of your next turn, each time a target kills an enemy,
       they regain Stamina equal to 5 + your Intuition score.
-    name: Effect
 ```

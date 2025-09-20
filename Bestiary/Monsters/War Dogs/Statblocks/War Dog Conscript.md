@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: War Dog Conscript
 level: 1
 roles:
@@ -51,29 +52,33 @@ agility: 0
 reason: 0
 intuition: 0
 presence: 0
-traits:
-  - name: Loyalty Collar
-    effects:
-      - effect: When the conscript is reduced to 0 Stamina, their loyalty collar
-          explodes, dealing 1d3 damage to each adjacent enemy and object.
-abilities:
-  - name: Blade
+features:
+  - type: feature
+    feature_type: ability
+    name: Blade
     icon: ⚔️
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Charge
       - Melee
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1 or ranged 5
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 1 damage
-        t2: 2 damage
-        t3: 3 damage
-      - effect: If used with the Charge main action, this ability gains an edge.
-        name: Effect
+        tier1: 1 damage
+        tier2: 2 damage
+        tier3: 3 damage
+      - name: Effect
+        effect: If used with the Charge main action, this ability gains an edge.
+  - type: feature
+    feature_type: trait
+    name: Loyalty Collar
+    icon: ⭐️
+    effects:
+      - effect: When the conscript is reduced to 0 Stamina, their loyalty collar
+          explodes, dealing 1d3 damage to each adjacent enemy and object.
 ~~~

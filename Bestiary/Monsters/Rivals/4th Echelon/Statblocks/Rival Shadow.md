@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Rival Shadow
 level: 10
 roles:
@@ -48,44 +49,53 @@ agility: 5
 reason: 3
 intuition: 2
 presence: 4
-traits:
-  - name: Exploit Weakness
-    effects:
-      - effect: The shadow deals an extra 10 damage to any target affected by a
-          condition.
-  - name: Rivalry
-    effects:
-      - effect: At the start of an encounter, the shadow chooses one creature within
-          their line of effect. Both the shadow and the creature can add a d3
-          roll to power rolls they make against each other.
-abilities:
-  - name: A Hush of Ash
+features:
+  - type: feature
+    feature_type: ability
+    name: A Hush of Ash
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 5
-        t1: 15 damage; A < 3 bleeding (save ends)
-        t2: 21 damage; A < 4 bleeding (save ends)
-        t3: 25 damage; A < 5 bleeding (save ends)
-      - effect: The shadow can teleport up to 10 squares, then can attempt to hide.
-        cost: 1 Malice
-  - name: Envenomed Steel
+        tier1: 15 damage; A < 3 bleeding (save ends)
+        tier2: 21 damage; A < 4 bleeding (save ends)
+        tier3: 25 damage; A < 5 bleeding (save ends)
+      - cost: 1 Malice
+        effect: The shadow can teleport up to 10 squares, then can attempt to hide.
+  - type: feature
+    feature_type: ability
+    name: Envenomed Steel
     icon: 👤
     keywords:
       - "-"
-    type: Maneuver
+    usage: Maneuver
     distance: Self
     target: Self
     effects:
-      - effect: The shadow coats their weapon with poison. They have a double edge on
+      - name: Effect
+        effect: The shadow coats their weapon with poison. They have a double edge on
           their next strike, any potency for that strike increases by 2, and if
           the target has M < 4, they are weakened (save ends).
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Exploit Weakness
+    icon: ⭐️
+    effects:
+      - effect: The shadow deals an extra 10 damage to any target affected by a
+          condition.
+  - type: feature
+    feature_type: trait
+    name: Rivalry
+    icon: ⭐️
+    effects:
+      - effect: At the start of an encounter, the shadow chooses one creature within
+          their line of effect. Both the shadow and the creature can add a d3
+          roll to power rolls they make against each other.
 ~~~

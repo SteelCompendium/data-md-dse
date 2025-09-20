@@ -7,7 +7,7 @@ cost_resource: Ferocity
 distance: 3 burst
 feature_type: ability
 file_basename: Primordial Vortex
-file_dpath: Fury/9th-Level Features
+file_dpath: Abilities/Fury/9th-Level Features
 flavor: You channel the power of the Primordial Chaos to pull foes to you.
 item_id: primordial-vortex-11-ferocity
 item_index: '06'
@@ -21,14 +21,16 @@ level: 9
 scc:
 - mcdm.heroes.v1:feature.ability.fury.9th-level-feature:primordial-vortex-11-ferocity
 scdc:
-- 1.1.1:13.2.5.6:06
+- 1.1.1:11.2.5.6:06
 source: mcdm.heroes.v1
 subclass: Berserker
 target: Each enemy in the area
 type: feature/ability/fury/9th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Primordial Vortex
 cost: 11 Ferocity
 flavor: You channel the power of the Primordial Chaos to pull foes to you.
@@ -37,7 +39,7 @@ keywords:
   - Magic
   - Melee
   - Weapon
-type: Main action
+usage: Main action
 distance: 3 burst
 target: Each enemy in the area
 metadata:
@@ -49,7 +51,7 @@ metadata:
   distance: 3 burst
   feature_type: ability
   file_basename: Primordial Vortex
-  file_dpath: Fury/9th-Level Features
+  file_dpath: Abilities/Fury/9th-Level Features
   flavor: You channel the power of the Primordial Chaos to pull foes to you.
   item_id: primordial-vortex-11-ferocity
   item_index: "06"
@@ -63,18 +65,18 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.fury.9th-level-feature:primordial-vortex-11-ferocity
   scdc:
-    - 1.1.1:13.2.5.6:06
+    - 1.1.1:11.2.5.6:06
   source: mcdm.heroes.v1
   subclass: Berserker
   target: Each enemy in the area
   type: feature/ability/fury/9th-level-feature
 effects:
   - roll: Power Roll + Might
-    t1: 3 damage; vertical pull 3
-    t2: 5 damage; vertical pull 5
-    t3: 8 damage; vertical pull 7
-  - effect: If this forced movement causes a target to slam into you, you take no
+    tier1: 3 damage; vertical pull 3
+    tier2: 5 damage; vertical pull 5
+    tier3: 8 damage; vertical pull 7
+  - name: Effect
+    effect: If this forced movement causes a target to slam into you, you take no
       damage from the collision and the target takes the damage you would have
       taken.
-    name: Effect
 ```

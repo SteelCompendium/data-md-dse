@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Orc Razor
 level: 1
 roles:
@@ -49,27 +50,31 @@ agility: 1
 reason: 0
 intuition: 0
 presence: 0
-traits:
-  - name: Bloodfire Burn
-    effects:
-      - effect: If the razor is reduced to 0 Stamina, they can make a free strike before
-          dying.
-abilities:
-  - name: Boot and Blade
+features:
+  - type: feature
+    feature_type: ability
+    name: Boot and Blade
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 2 damage;
-        t2: 4 damage; push 3
-        t3: 5 damage; push 3 or prone
-      - effect: The razor gains an edge against any target affected by a condition.
-        name: Effect
+        tier1: 2 damage;
+        tier2: 4 damage; push 3
+        tier3: 5 damage; push 3 or prone
+      - name: Effect
+        effect: The razor gains an edge against any target affected by a condition.
+  - type: feature
+    feature_type: trait
+    name: Bloodfire Burn
+    icon: ⭐️
+    effects:
+      - effect: If the razor is reduced to 0 Stamina, they can make a free strike before
+          dying.
 ~~~

@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Rival Elementalist
 level: 10
 roles:
@@ -48,32 +49,30 @@ agility: 3
 reason: 5
 intuition: 4
 presence: 1
-traits:
-  - name: Rivalry
-    effects:
-      - effect: At the start of an encounter, the elementalist chooses one creature
-          within their line of effect. Both the elementalist and the creature
-          can add a d3 roll to power rolls they make against each other.
-abilities:
-  - name: Viridescent Storm
+features:
+  - type: feature
+    feature_type: ability
+    name: Viridescent Storm
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Green
       - Magic
       - Ranged
       - Strike
-    type: Main action
+    usage: Main action
     distance: Ranged 10
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 5
-        t1: 15 damage; slide 3; M < 3 5 acid damage
-        t2: 20 damage; slide 4; M < 4 7 acid damage
-        t3: 24 damage; slide 5; M < 5 9 acid damage
-      - effect: One ally within distance ends all conditions on themself.
-        name: Effect
-  - name: The World Consumes
+        tier1: 15 damage; slide 3; M < 3 5 acid damage
+        tier2: 20 damage; slide 4; M < 4 7 acid damage
+        tier3: 24 damage; slide 5; M < 5 9 acid damage
+      - name: Effect
+        effect: One ally within distance ends all conditions on themself.
+  - type: feature
+    feature_type: ability
+    name: The World Consumes
     icon: 🔳
     cost: 5 Malice
     keywords:
@@ -81,26 +80,36 @@ abilities:
       - Green
       - Magic
       - Ranged
-    type: Main action
+    usage: Main action
     distance: 3 cube within 10
     target: Each enemy in the area
     effects:
-      - effect: The area becomes overgrown with caustic vines until the end of the
+      - name: Effect
+        effect: The area becomes overgrown with caustic vines until the end of the
           encounter. While in the area, any enemy has acid weakness 5 and is
           slowed. Any enemy who ends their turn in the area and has M < 4 is
           restrained (save ends).
-        name: Effect
-  - name: Breach of Nihility
+  - type: feature
+    feature_type: ability
+    name: Breach of Nihility
     icon: ❗️
     keywords:
       - Magic
       - Void
-    type: Triggered action
+    usage: Triggered action
     distance: Self
     target: Self
     trigger: The elementalist takes damage.
     effects:
-      - effect: The elementalist can teleport up to 5 squares. Each creature adjacent to
+      - name: Effect
+        effect: The elementalist can teleport up to 5 squares. Each creature adjacent to
           the space they leave or appear in takes 5 corruption damage.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Rivalry
+    icon: ⭐️
+    effects:
+      - effect: At the start of an encounter, the elementalist chooses one creature
+          within their line of effect. Both the elementalist and the creature
+          can add a d3 roll to power rolls they make against each other.
 ~~~

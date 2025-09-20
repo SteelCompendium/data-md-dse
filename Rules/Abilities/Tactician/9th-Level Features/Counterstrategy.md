@@ -7,7 +7,7 @@ cost_resource: Focus
 distance: Self
 feature_type: ability
 file_basename: Counterstrategy
-file_dpath: Tactician/9th-Level Features
+file_dpath: Abilities/Tactician/9th-Level Features
 flavor: I've identified a way to negate their strengths.
 item_id: counterstrategy-11-focus
 item_index: '01'
@@ -18,20 +18,22 @@ level: 9
 scc:
 - mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:counterstrategy-11-focus
 scdc:
-- 1.1.1:13.2.4.7:01
+- 1.1.1:11.2.4.7:01
 source: mcdm.heroes.v1
 subclass: Mastermind
 target: Self
 type: feature/ability/tactician/9th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Counterstrategy
 cost: 11 Focus
 flavor: I've identified a way to negate their strengths.
 keywords:
   - "-"
-type: Main action
+usage: Main action
 distance: Self
 target: Self
 metadata:
@@ -43,7 +45,7 @@ metadata:
   distance: Self
   feature_type: ability
   file_basename: Counterstrategy
-  file_dpath: Tactician/9th-Level Features
+  file_dpath: Abilities/Tactician/9th-Level Features
   flavor: I've identified a way to negate their strengths.
   item_id: counterstrategy-11-focus
   item_index: "01"
@@ -54,15 +56,15 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:counterstrategy-11-focus
   scdc:
-    - 1.1.1:13.2.4.7:01
+    - 1.1.1:11.2.4.7:01
   source: mcdm.heroes.v1
   subclass: Mastermind
   target: Self
   type: feature/ability/tactician/9th-level-feature
 effects:
-  - effect: "You gain 6 surges. Until the end of the encounter or until you are
+  - name: Effect
+    effect: "You gain 6 surges. Until the end of the encounter or until you are
       dying, whenever the Director spends Malice (see *[Draw Steel:
       Monsters](https://mcdm.gg/DS-Monsters)*), choose yourself or one ally
       within 10 squares. The chosen character gains 2 of their Heroic Resource."
-    name: Effect
 ```

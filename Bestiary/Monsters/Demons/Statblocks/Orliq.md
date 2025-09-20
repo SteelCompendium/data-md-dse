@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Orliq
 level: 4
 roles:
@@ -52,29 +53,36 @@ agility: 3
 reason: 1
 intuition: 0
 presence: -1
-traits:
-  - name: Imposing Energy
-    effects:
-      - effect: Any enemy who starts their turn with two or more orliq adjacent to them
-          is slowed (EoT).
-  - name: Soulsight
-    effects:
-      - effect: Any creature within 2 squares of the orliq can't be hidden from them.
-abilities:
-  - name: Soul Prism
+features:
+  - type: feature
+    feature_type: ability
+    name: Soul Prism
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 3
-        t1: 2 corruption damage; slide 2
-        t2: 4 corruption damage; vertical slide 2
-        t3: 6 corruption damage; vertical slide 2
+        tier1: 2 corruption damage; slide 2
+        tier2: 4 corruption damage; vertical slide 2
+        tier3: 6 corruption damage; vertical slide 2
+  - type: feature
+    feature_type: trait
+    name: Imposing Energy
+    icon: ⭐️
+    effects:
+      - effect: Any enemy who starts their turn with two or more orliq adjacent to them
+          is slowed (EoT).
+  - type: feature
+    feature_type: trait
+    name: Soulsight
+    icon: ⭐️
+    effects:
+      - effect: Any creature within 2 squares of the orliq can't be hidden from them.
 ~~~

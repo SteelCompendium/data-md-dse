@@ -7,7 +7,7 @@ cost_resource: Wrath
 distance: Ranged 10
 feature_type: ability
 file_basename: Terror Manifest
-file_dpath: Censor/9th-Level Features
+file_dpath: Abilities/Censor/9th-Level Features
 flavor: '"I know what you fear."'
 item_id: terror-manifest-11-wrath
 item_index: '01'
@@ -20,14 +20,16 @@ level: 9
 scc:
 - mcdm.heroes.v1:feature.ability.censor.9th-level-feature:terror-manifest-11-wrath
 scdc:
-- 1.1.1:13.2.7.7:01
+- 1.1.1:11.2.7.7:01
 source: mcdm.heroes.v1
 subclass: Exorcist
 target: One creature
 type: feature/ability/censor/9th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Terror Manifest
 cost: 11 Wrath
 flavor: '"I know what you fear."'
@@ -35,7 +37,7 @@ keywords:
   - Magic
   - Ranged
   - Strike
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: One creature
 metadata:
@@ -47,7 +49,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Terror Manifest
-  file_dpath: Censor/9th-Level Features
+  file_dpath: Abilities/Censor/9th-Level Features
   flavor: '"I know what you fear."'
   item_id: terror-manifest-11-wrath
   item_index: "01"
@@ -60,19 +62,19 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.censor.9th-level-feature:terror-manifest-11-wrath
   scdc:
-    - 1.1.1:13.2.7.7:01
+    - 1.1.1:11.2.7.7:01
   source: mcdm.heroes.v1
   subclass: Exorcist
   target: One creature
   type: feature/ability/censor/9th-level-feature
 effects:
   - roll: Power Roll + Presence
-    t1: 7 + P psychic damage; P < WEAK, frightened (save ends)
-    t2: 10 + P psychic damage; P < AVERAGE, frightened (save ends)
-    t3: 13 + P psychic damage; P < STRONG, frightened (save ends)
-  - effect: While frightened this way, if a target who is a leader or solo creature
+    tier1: 7 + P psychic damage; P < WEAK, frightened (save ends)
+    tier2: 10 + P psychic damage; P < AVERAGE, frightened (save ends)
+    tier3: 13 + P psychic damage; P < STRONG, frightened (save ends)
+  - name: Effect
+    effect: While frightened this way, if a target who is a leader or solo creature
       is winded, they take an extra 25 psychic damage. If a target frightened
       this way is not a leader or solo creature and is winded, they are reduced
       to 0 Stamina.
-    name: Effect
 ```

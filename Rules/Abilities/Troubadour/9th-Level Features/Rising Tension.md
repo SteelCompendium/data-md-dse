@@ -7,7 +7,7 @@ cost_resource: Drama
 distance: Ranged 10
 feature_type: ability
 file_basename: Rising Tension
-file_dpath: Troubadour/9th-Level Features
+file_dpath: Abilities/Troubadour/9th-Level Features
 flavor: You narrate the tension of the scene and put all hope into your protagonist
   to turn things around.
 item_id: rising-tension-11-drama
@@ -20,14 +20,16 @@ level: 9
 scc:
 - mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:rising-tension-11-drama
 scdc:
-- 1.1.1:13.2.3.7:06
+- 1.1.1:11.2.3.7:06
 source: mcdm.heroes.v1
 subclass: Auteur
 target: One ally
 type: feature/ability/troubadour/9th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Rising Tension
 cost: 11 Drama
 flavor: You narrate the tension of the scene and put all hope into your
@@ -35,7 +37,7 @@ flavor: You narrate the tension of the scene and put all hope into your
 keywords:
   - Magic
   - Ranged
-type: Maneuver
+usage: Maneuver
 distance: Ranged 10
 target: One ally
 metadata:
@@ -47,7 +49,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Rising Tension
-  file_dpath: Troubadour/9th-Level Features
+  file_dpath: Abilities/Troubadour/9th-Level Features
   flavor: You narrate the tension of the scene and put all hope into your
     protagonist to turn things around.
   item_id: rising-tension-11-drama
@@ -60,15 +62,15 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:rising-tension-11-drama
   scdc:
-    - 1.1.1:13.2.3.7:06
+    - 1.1.1:11.2.3.7:06
   source: mcdm.heroes.v1
   subclass: Auteur
   target: One ally
   type: feature/ability/troubadour/9th-level-feature
 effects:
-  - effect: The target gains 3 of their Heroic Resource, has a double edge on a
+  - name: Effect
+    effect: The target gains 3 of their Heroic Resource, has a double edge on a
       power roll of their choice made during their next turn, is no longer
       slowed or weakened if they were before, and can immediately take their
       turn after yours if they have not taken their turn already this round.
-    name: Effect
 ```

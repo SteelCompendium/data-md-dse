@@ -13,25 +13,32 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Malice Features
 name: Chimera Malice
-type: Malice Features
 flavor: At the start of a chimera's turn, you can spend Malice to activate one
   of the following features.
 features:
-  - name: Defensive Snapping
+  - type: feature
+    feature_type: trait
+    name: Defensive Snapping
     icon: ⭐️
     cost: 3 Malice
     effects:
       - effect: The chimera takes up a defensive stance. Until the start of their next
           turn, the chimera can make a free strike against each enemy who comes
           within 2 squares of them.
-  - name: Solo Action
+  - type: feature
+    feature_type: trait
+    name: Solo Action
     icon: ☠️
     cost: 5 Malice
     effects:
       - effect: The chimera takes an additional main action on their turn. They can use
           this feature even if they are dazed.
-  - name: Unstable Terrain
+  - type: feature
+    feature_type: trait
+    name: Unstable Terrain
     icon: 🔳
     cost: 5 Malice
     effects:
@@ -39,7 +46,9 @@ features:
           debris that creates three size 2 stone objects anywhere on the
           encounter map. Each creature adjacent to one or more objects when they
           appear who has A < 2 takes 5 damage.
-  - name: Ashen Clouds
+  - type: feature
+    feature_type: trait
+    name: Ashen Clouds
     icon: 🌀
     cost: 7 Malice
     effects:

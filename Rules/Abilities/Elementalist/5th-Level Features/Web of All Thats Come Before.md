@@ -7,11 +7,11 @@ cost_resource: Essence
 distance: 4 cube within 10
 feature_type: ability
 file_basename: Web of All Thats Come Before
-file_dpath: Elementalist/5th-Level Features
+file_dpath: Abilities/Elementalist/5th-Level Features
 flavor: Threads you've been weaving through your adventures create a vibrant, pearlescent
   web.
 item_id: web-of-all-thats-come-before-9-essence
-item_index: '04'
+item_index: '13'
 item_name: Web of All That's Come Before (9 Essence)
 keywords:
 - Area
@@ -22,13 +22,15 @@ level: 5
 scc:
 - mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:web-of-all-thats-come-before-9-essence
 scdc:
-- 1.1.1:13.2.9.4:04
+- 1.1.1:11.2.9.4:13
 source: mcdm.heroes.v1
 target: Each enemy in the area
 type: feature/ability/elementalist/5th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Web of All That's Come Before
 cost: 9 Essence
 flavor: Threads you've been weaving through your adventures create a vibrant,
@@ -38,7 +40,7 @@ keywords:
   - Green
   - Magic
   - Ranged
-type: Main action
+usage: Main action
 distance: 4 cube within 10
 target: Each enemy in the area
 metadata:
@@ -50,11 +52,11 @@ metadata:
   distance: 4 cube within 10
   feature_type: ability
   file_basename: Web of All Thats Come Before
-  file_dpath: Elementalist/5th-Level Features
+  file_dpath: Abilities/Elementalist/5th-Level Features
   flavor: Threads you've been weaving through your adventures create a vibrant,
     pearlescent web.
   item_id: web-of-all-thats-come-before-9-essence
-  item_index: "04"
+  item_index: "13"
   item_name: Web of All That's Come Before (9 Essence)
   keywords:
     - Area
@@ -65,18 +67,18 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:web-of-all-thats-come-before-9-essence
   scdc:
-    - 1.1.1:13.2.9.4:04
+    - 1.1.1:11.2.9.4:13
   source: mcdm.heroes.v1
   target: Each enemy in the area
   type: feature/ability/elementalist/5th-level-feature
 effects:
   - roll: Power Roll + Reason
-    t1: 2 corruption damage; A < WEAK, restrained (save ends)
-    t2: 3 corruption damage; A < AVERAGE, restrained (save ends)
-    t3: 5 corruption damage; A < STRONG, restrained (save ends)
-  - effect: The area is difficult terrain until the start of your next turn. Each
+    tier1: 2 corruption damage; A < WEAK, restrained (save ends)
+    tier2: 3 corruption damage; A < AVERAGE, restrained (save ends)
+    tier3: 5 corruption damage; A < STRONG, restrained (save ends)
+  - name: Effect
+    effect: The area is difficult terrain until the start of your next turn. Each
       enemy who ends their turn in the area is restrained (save ends).
-    name: Effect
-  - effect: The area remains until the start of your next turn.
-    name: Persistent 1
+  - name: Persistent 1
+    effect: The area remains until the start of your next turn.
 ```

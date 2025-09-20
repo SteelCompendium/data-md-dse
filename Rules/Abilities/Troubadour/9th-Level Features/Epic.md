@@ -7,7 +7,7 @@ cost_resource: Drama
 distance: Melee 1 or ranged 10
 feature_type: ability
 file_basename: Epic
-file_dpath: Troubadour/9th-Level Features
+file_dpath: Abilities/Troubadour/9th-Level Features
 flavor: Your story tells a tale of the villain's waning power and how the heroes rose
   to the occasion to stop them.
 item_id: epic-11-drama
@@ -21,14 +21,16 @@ level: 9
 scc:
 - mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:epic-11-drama
 scdc:
-- 1.1.1:13.2.3.7:05
+- 1.1.1:11.2.3.7:05
 source: mcdm.heroes.v1
 subclass: Auteur
 target: One creature
 type: feature/ability/troubadour/9th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Epic
 cost: 11 Drama
 flavor: Your story tells a tale of the villain's waning power and how the heroes
@@ -37,7 +39,7 @@ keywords:
   - Magic
   - Melee
   - Ranged
-type: Maneuver
+usage: Maneuver
 distance: Melee 1 or ranged 10
 target: One creature
 metadata:
@@ -49,7 +51,7 @@ metadata:
   distance: Melee 1 or ranged 10
   feature_type: ability
   file_basename: Epic
-  file_dpath: Troubadour/9th-Level Features
+  file_dpath: Abilities/Troubadour/9th-Level Features
   flavor: Your story tells a tale of the villain's waning power and how the heroes
     rose to the occasion to stop them.
   item_id: epic-11-drama
@@ -63,18 +65,18 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:epic-11-drama
   scdc:
-    - 1.1.1:13.2.3.7:05
+    - 1.1.1:11.2.3.7:05
   source: mcdm.heroes.v1
   subclass: Auteur
   target: One creature
   type: feature/ability/troubadour/9th-level-feature
 effects:
   - roll: Power Roll + Presence
-    t1: The target takes a bane on ability rolls (save ends).
-    t2: The target has a double bane on ability rolls (save ends).
-    t3: The target has a double bane on power rolls (save ends).
-  - effect: Choose one ally within distance. While the target is affected by this
+    tier1: The target takes a bane on ability rolls (save ends).
+    tier2: The target has a double bane on ability rolls (save ends).
+    tier3: The target has a double bane on power rolls (save ends).
+  - name: Effect
+    effect: Choose one ally within distance. While the target is affected by this
       ability, each time they use an ability, that ally can make a free strike
       against them after the ability is resolved.
-    name: Effect
 ```

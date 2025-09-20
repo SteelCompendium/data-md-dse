@@ -1,4 +1,5 @@
 ---
+ability_type: Signature
 action_type: Main action
 class: censor
 distance: Ranged 10
@@ -17,23 +18,26 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:every-step-death
 scdc:
-- 1.1.1:13.2.7.1:15
+- 1.1.1:11.2.7.1:15
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/censor/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Every Step... Death!
 flavor: You show your foe a glimpse of their fate after death.
 keywords:
   - Magic
   - Ranged
   - Strike
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: One creature
 metadata:
+  ability_type: Signature
   action_type: Main action
   class: censor
   distance: Ranged 10
@@ -52,16 +56,16 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:every-step-death
   scdc:
-    - 1.1.1:13.2.7.1:15
+    - 1.1.1:11.2.7.1:15
   source: mcdm.heroes.v1
   target: One creature
   type: feature/ability/censor/1st-level-feature
 effects:
   - roll: Power Roll + Presence
-    t1: 5 + P psychic damage
-    t2: 7 + P psychic damage
-    t3: 10 + P psychic damage
-  - effect: Each time the target willingly moves before the end of your next turn,
+    tier1: 5 + P psychic damage
+    tier2: 7 + P psychic damage
+    tier3: 10 + P psychic damage
+  - name: Effect
+    effect: Each time the target willingly moves before the end of your next turn,
       they take 1 psychic damage for each square they move.
-    name: Effect
 ```

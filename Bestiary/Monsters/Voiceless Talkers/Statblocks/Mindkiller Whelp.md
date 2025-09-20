@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Mindkiller Whelp
 level: 6
 roles:
@@ -52,39 +53,45 @@ agility: 3
 reason: 1
 intuition: 1
 presence: 0
-traits:
-  - name: Psionic Conductor
-    effects:
-      - effect: Whenever a non-minion voiceless talker within 5 squares of the whelp
-          uses a psionic ability, they can do so as if they were in the whelp's
-          space.
-abilities:
-  - name: Eager Claws
+features:
+  - type: feature
+    feature_type: ability
+    name: Eager Claws
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 3
-        t1: 3 damage
-        t2: 5 damage; the target takes a bane on their next strike
-        t3: 7 damage; the target takes a bane on their next strike
-  - name: Feast
+        tier1: 3 damage
+        tier2: 5 damage; the target takes a bane on their next strike
+        tier3: 7 damage; the target takes a bane on their next strike
+  - type: feature
+    feature_type: ability
+    name: Feast
     icon: ❗️
     keywords:
       - Psionic
-    type: Triggered action
+    usage: Triggered action
     distance: Self
     target: Self
     trigger: The whelp reduces a non-minion creature to 0 Stamina.
     effects:
-      - effect: The whelp transforms into a mindkiller whose Stamina equals their
+      - name: Effect
+        effect: The whelp transforms into a mindkiller whose Stamina equals their
           squad's Stamina pool before transforming. The Stamina pool then loses
           the whelp's Stamina.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Psionic Conductor
+    icon: ⭐️
+    effects:
+      - effect: Whenever a non-minion voiceless talker within 5 squares of the whelp
+          uses a psionic ability, they can do so as if they were in the whelp's
+          space.
 ~~~

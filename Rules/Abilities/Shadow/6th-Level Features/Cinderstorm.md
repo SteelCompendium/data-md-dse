@@ -7,7 +7,7 @@ cost_resource: Insight
 distance: 4 burst
 feature_type: ability
 file_basename: Cinderstorm
-file_dpath: Shadow/6th-Level Features
+file_dpath: Abilities/Shadow/6th-Level Features
 flavor: You teleport your friends in a burst of ash and fire.
 item_id: cinderstorm-9-insight
 item_index: '02'
@@ -18,20 +18,22 @@ level: 6
 scc:
 - mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:cinderstorm-9-insight
 scdc:
-- 1.1.1:13.2.2.3:02
+- 1.1.1:11.2.2.3:02
 source: mcdm.heroes.v1
 subclass: Black Ash
 target: Self and each ally in the area
 type: feature/ability/shadow/6th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Cinderstorm
 cost: 9 Insight
 flavor: You teleport your friends in a burst of ash and fire.
 keywords:
   - Magic
-type: Maneuver
+usage: Maneuver
 distance: 4 burst
 target: Self and each ally in the area
 metadata:
@@ -43,7 +45,7 @@ metadata:
   distance: 4 burst
   feature_type: ability
   file_basename: Cinderstorm
-  file_dpath: Shadow/6th-Level Features
+  file_dpath: Abilities/Shadow/6th-Level Features
   flavor: You teleport your friends in a burst of ash and fire.
   item_id: cinderstorm-9-insight
   item_index: "02"
@@ -54,16 +56,16 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:cinderstorm-9-insight
   scdc:
-    - 1.1.1:13.2.2.3:02
+    - 1.1.1:11.2.2.3:02
   source: mcdm.heroes.v1
   subclass: Black Ash
   target: Self and each ally in the area
   type: feature/ability/shadow/6th-level-feature
 effects:
-  - effect: Each target can teleport up to 5 squares. For each target in addition to
+  - name: Effect
+    effect: Each target can teleport up to 5 squares. For each target in addition to
       you who teleports away from or into a space adjacent to an enemy, that
       enemy takes fire damage equal to your Agility score. Additionally, a
       target who ends this movement in concealment or cover can use the Hide
       maneuver even if they are observed.
-    name: Effect
 ```

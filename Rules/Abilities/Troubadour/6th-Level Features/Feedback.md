@@ -7,7 +7,7 @@ cost_resource: Drama
 distance: Three 3 cubes within 1
 feature_type: ability
 file_basename: Feedback
-file_dpath: Troubadour/6th-Level Features
+file_dpath: Abilities/Troubadour/6th-Level Features
 flavor: Your music pounds the crowd to the beat until their hearts can't stand it
   anymore.
 item_id: feedback-9-drama
@@ -20,14 +20,16 @@ level: 6
 scc:
 - mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:feedback-9-drama
 scdc:
-- 1.1.1:13.2.3.3:02
+- 1.1.1:11.2.3.3:02
 source: mcdm.heroes.v1
 subclass: Virtuoso
 target: Each enemy in the area
 type: feature/ability/troubadour/6th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Feedback
 cost: 9 Drama
 flavor: Your music pounds the crowd to the beat until their hearts can't stand
@@ -35,7 +37,7 @@ flavor: Your music pounds the crowd to the beat until their hearts can't stand
 keywords:
   - Area
   - Magic
-type: Main action
+usage: Main action
 distance: Three 3 cubes within 1
 target: Each enemy in the area
 metadata:
@@ -47,7 +49,7 @@ metadata:
   distance: Three 3 cubes within 1
   feature_type: ability
   file_basename: Feedback
-  file_dpath: Troubadour/6th-Level Features
+  file_dpath: Abilities/Troubadour/6th-Level Features
   flavor: Your music pounds the crowd to the beat until their hearts can't stand
     it anymore.
   item_id: feedback-9-drama
@@ -60,7 +62,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:feedback-9-drama
   scdc:
-    - 1.1.1:13.2.3.3:02
+    - 1.1.1:11.2.3.3:02
   source: mcdm.heroes.v1
   subclass: Virtuoso
   target: Each enemy in the area
@@ -69,7 +71,7 @@ effects:
   - name: Effect
     effect: A prone target ignores this ability.
   - roll: Power Roll + Presence
-    t1: 7 sonic damage; P < WEAK, prone
-    t2: 10 sonic damage; P < AVERAGE, prone
-    t3: 13 sonic damage; P < STRONG, prone
+    tier1: 7 sonic damage; P < WEAK, prone
+    tier2: 10 sonic damage; P < AVERAGE, prone
+    tier3: 13 sonic damage; P < STRONG, prone
 ```

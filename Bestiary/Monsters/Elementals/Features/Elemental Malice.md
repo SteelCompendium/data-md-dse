@@ -13,18 +13,23 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Malice Features
 name: Elemental Malice
-type: Malice Features
 flavor: At the start of any elemental's turn, you can spend Malice to activate
   one of the following features.
 features:
-  - name: Elemental Swap
+  - type: feature
+    feature_type: trait
+    name: Elemental Swap
     icon: ⭐️
     cost: 3 Malice
     effects:
       - effect: Two elementals on the encounter map teleport to swap places, and each
           has damage immunity 2 until the end of the round.
-  - name: Split
+  - type: feature
+    feature_type: trait
+    name: Split
     icon: 👤
     cost: 5 Malice
     effects:
@@ -32,19 +37,21 @@ features:
           elementals. Each elemental has the same statistics as the original,
           except that each has half the original's current Stamina and is one
           size smaller. Both elementals can then shift up to their speed.
-  - name: Convocation of Chaos
+  - type: feature
+    feature_type: ability
+    name: Convocation of Chaos
     icon: 🏹
     cost: 7 Malice
     keywords:
       - Magic
       - Ranged
-    type: Maneuver
+    usage: Maneuver
     distance: Ranged 8
     target: Self or one elemental
     effects:
-      - effect: Until the end of the encounter, the target has a +5 bonus to speed and a
+      - name: Effect
+        effect: Until the end of the encounter, the target has a +5 bonus to speed and a
           +5 damage bonus to strikes. Additionally, whenever an elemental within
           the target's line of effect uses an ability with "Convocation" in the
           name, the target also gains the effects of that ability.
-        name: Effect
 ~~~

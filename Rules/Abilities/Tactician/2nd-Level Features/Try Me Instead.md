@@ -7,7 +7,7 @@ cost_resource: Focus
 distance: Self; see below
 feature_type: ability
 file_basename: Try Me Instead
-file_dpath: Tactician/2nd-Level Features
+file_dpath: Abilities/Tactician/2nd-Level Features
 flavor: '"Try picking on someone my size."'
 item_id: try-me-instead-5-focus
 item_index: '01'
@@ -20,14 +20,16 @@ level: 2
 scc:
 - mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:try-me-instead-5-focus
 scdc:
-- 1.1.1:13.2.4.5:01
+- 1.1.1:11.2.4.5:01
 source: mcdm.heroes.v1
 subclass: Insurgent
 target: Self
 type: feature/ability/tactician/2nd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Try Me Instead
 cost: 5 Focus
 flavor: '"Try picking on someone my size."'
@@ -35,7 +37,7 @@ keywords:
   - Melee
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Self; see below
 target: Self
 metadata:
@@ -47,7 +49,7 @@ metadata:
   distance: Self; see below
   feature_type: ability
   file_basename: Try Me Instead
-  file_dpath: Tactician/2nd-Level Features
+  file_dpath: Abilities/Tactician/2nd-Level Features
   flavor: '"Try picking on someone my size."'
   item_id: try-me-instead-5-focus
   item_index: "01"
@@ -60,7 +62,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:try-me-instead-5-focus
   scdc:
-    - 1.1.1:13.2.4.5:01
+    - 1.1.1:11.2.4.5:01
   source: mcdm.heroes.v1
   subclass: Insurgent
   target: Self
@@ -72,7 +74,7 @@ effects:
       each other's spaces. The ally can spend a Recovery, and you can make the
       following weapon strike with a distance of melee 1 against a creature.
   - roll: Power Roll + Reason
-    t1: 2 + R damage; R < WEAK, frightened (save ends)
-    t2: 3 + R damage; R < AVERAGE, frightened (save ends)
-    t3: 4 + R damage; R < STRONG, frightened (save ends)
+    tier1: 2 + R damage; R < WEAK, frightened (save ends)
+    tier2: 3 + R damage; R < AVERAGE, frightened (save ends)
+    tier3: 4 + R damage; R < STRONG, frightened (save ends)
 ```

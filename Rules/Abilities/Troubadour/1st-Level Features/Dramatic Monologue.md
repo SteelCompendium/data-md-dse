@@ -4,7 +4,7 @@ class: troubadour
 distance: Ranged 10
 feature_type: ability
 file_basename: Dramatic Monologue
-file_dpath: Troubadour/1st-Level Features
+file_dpath: Abilities/Troubadour/1st-Level Features
 flavor: It doesn't need to make sense. Just say it with emotion.
 item_id: dramatic-monologue
 item_index: '18'
@@ -16,20 +16,22 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:dramatic-monologue
 scdc:
-- 1.1.1:13.2.3.1:18
+- 1.1.1:11.2.3.1:18
 source: mcdm.heroes.v1
 subclass: Auteur
 target: Special
 type: feature/ability/troubadour/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Dramatic Monologue
 flavor: It doesn't need to make sense. Just say it with emotion.
 keywords:
   - Magic
   - Ranged
-type: Maneuver
+usage: Maneuver
 distance: Ranged 10
 target: Special
 metadata:
@@ -38,7 +40,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Dramatic Monologue
-  file_dpath: Troubadour/1st-Level Features
+  file_dpath: Abilities/Troubadour/1st-Level Features
   flavor: It doesn't need to make sense. Just say it with emotion.
   item_id: dramatic-monologue
   item_index: "18"
@@ -50,13 +52,14 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:dramatic-monologue
   scdc:
-    - 1.1.1:13.2.3.1:18
+    - 1.1.1:11.2.3.1:18
   source: mcdm.heroes.v1
   subclass: Auteur
   target: Special
   type: feature/ability/troubadour/1st-level-feature
 effects:
-  - effect: >-
+  - name: Effect
+    effect: >-
       Choose one of the following effects:
 
       - You orate a rousing tale of victory. One ally within distance gains an
@@ -68,7 +71,6 @@ effects:
       - You insult a foe where they're most vulnerable. One enemy within
       distance takes a bane on the next power roll they make before the end of
       their next turn.
-    name: Effect
-  - effect: You can choose two targets for the chosen effect.
-    cost: Spend 1 Drama
+  - cost: Spend 1 Drama
+    effect: You can choose two targets for the chosen effect.
 ```

@@ -7,7 +7,7 @@ cost_resource: Piety
 distance: 3 cube within 10
 feature_type: ability
 file_basename: Call the Thunder Down
-file_dpath: Conduit/1st-Level Features
+file_dpath: Abilities/Conduit/1st-Level Features
 flavor: You ask your saint for thunder and your prayer is answered.
 item_id: call-the-thunder-down-3-piety
 item_index: 08
@@ -20,13 +20,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:call-the-thunder-down-3-piety
 scdc:
-- 1.1.1:13.2.8.1:08
+- 1.1.1:11.2.8.1:08
 source: mcdm.heroes.v1
 target: Each enemy in the area
 type: feature/ability/conduit/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Call the Thunder Down
 cost: 3 Piety
 flavor: You ask your saint for thunder and your prayer is answered.
@@ -34,7 +36,7 @@ keywords:
   - Area
   - Magic
   - Ranged
-type: Main action
+usage: Main action
 distance: 3 cube within 10
 target: Each enemy in the area
 metadata:
@@ -46,7 +48,7 @@ metadata:
   distance: 3 cube within 10
   feature_type: ability
   file_basename: Call the Thunder Down
-  file_dpath: Conduit/1st-Level Features
+  file_dpath: Abilities/Conduit/1st-Level Features
   flavor: You ask your saint for thunder and your prayer is answered.
   item_id: call-the-thunder-down-3-piety
   item_index: 8
@@ -59,16 +61,16 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:call-the-thunder-down-3-piety
   scdc:
-    - 1.1.1:13.2.8.1:08
+    - 1.1.1:11.2.8.1:08
   source: mcdm.heroes.v1
   target: Each enemy in the area
   type: feature/ability/conduit/1st-level-feature
 effects:
   - roll: Power Roll + Intuition
-    t1: 2 sonic damage; push 1
-    t2: 3 sonic damage; push 2
-    t3: 5 sonic damage; push 3
-  - effect: You can push each willing ally in the area the same distance, ignoring
+    tier1: 2 sonic damage; push 1
+    tier2: 3 sonic damage; push 2
+    tier3: 5 sonic damage; push 3
+  - name: Effect
+    effect: You can push each willing ally in the area the same distance, ignoring
       stability.
-    name: Effect
 ```

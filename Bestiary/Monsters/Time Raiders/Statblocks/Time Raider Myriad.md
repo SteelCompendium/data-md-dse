@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Time Raider Myriad
 level: 3
 roles:
@@ -51,26 +52,30 @@ agility: 1
 reason: 2
 intuition: 1
 presence: 1
-traits:
-  - name: Foresight
-    effects:
-      - effect: The myriad doesn't take a bane on strikes against creatures with
-          concealment.
-abilities:
-  - name: Fifth Fist
+features:
+  - type: feature
+    feature_type: ability
+    name: Fifth Fist
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Psionic
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 2
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 3 damage; slide 1
-        t2: 5 damage; slide 2
-        t3: 6 damage; slide 3, prone
+        tier1: 3 damage; slide 1
+        tier2: 5 damage; slide 2
+        tier3: 6 damage; slide 3, prone
+  - type: feature
+    feature_type: trait
+    name: Foresight
+    icon: ⭐️
+    effects:
+      - effect: The myriad doesn't take a bane on strikes against creatures with
+          concealment.
 ~~~

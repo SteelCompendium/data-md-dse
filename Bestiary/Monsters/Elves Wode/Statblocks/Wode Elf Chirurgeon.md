@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Wode Elf Chirurgeon
 level: 2
 roles:
@@ -51,44 +52,50 @@ agility: 2
 reason: 0
 intuition: 0
 presence: 1
-traits:
-  - name: Masking Glamor
-    effects:
-      - effect: Abilities targeting the chirurgeon that would take a bane from cover or
-          concealment have a double bane instead.
-abilities:
-  - name: Wild Ax
+features:
+  - type: feature
+    feature_type: ability
+    name: Wild Ax
     icon: ⚔️
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Charge
       - Melee
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1 or ranged 5
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 6 damage; push 1
-        t2: 9 damage; push 3
-        t3: 12 damage; push 5
-      - effect: The chirurgeon can make a ranged free strike before using this ability.
-        name: Effect
-      - effect: The chirurgeon uses this ability again.
-        cost: 5 Malice
-  - name: The Wode Protects Us
+        tier1: 6 damage; push 1
+        tier2: 9 damage; push 3
+        tier3: 12 damage; push 5
+      - name: Effect
+        effect: The chirurgeon can make a ranged free strike before using this ability.
+      - cost: 5 Malice
+        effect: The chirurgeon uses this ability again.
+  - type: feature
+    feature_type: ability
+    name: The Wode Protects Us
     icon: 🏹
     cost: 3 Malice
     keywords:
       - Magic
       - Ranged
-    type: Maneuver
+    usage: Maneuver
     distance: Ranged 5
     target: Self and three allies
     effects:
-      - effect: Each target can teleport up to 10 squares to a space that has cover or
+      - name: Effect
+        effect: Each target can teleport up to 10 squares to a space that has cover or
           concealment.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Masking Glamor
+    icon: ⭐️
+    effects:
+      - effect: Abilities targeting the chirurgeon that would take a bane from cover or
+          concealment have a double bane instead.
 ~~~

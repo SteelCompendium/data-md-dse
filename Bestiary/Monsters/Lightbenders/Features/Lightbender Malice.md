@@ -13,19 +13,24 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Malice Features
 name: Lightbender Malice
-type: Malice Features
 flavor: At the start of any lightbender's turn, you can spend Malice to activate
   one of the following features.
 features:
-  - name: Silent Prowl
+  - type: feature
+    feature_type: trait
+    name: Silent Prowl
     icon: ⭐️
     cost: 3 Malice
     effects:
       - effect: Each lightbender acting this turn can teleport up to their speed as a
           move action and attempt to hide as a free maneuver, all until the
           start of their next turn.
-  - name: Duplicate
+  - type: feature
+    feature_type: trait
+    name: Duplicate
     icon: ⭐️
     cost: 5 Malice
     effects:
@@ -36,14 +41,16 @@ features:
           the lightbender's turn but can take only move actions. Once per round
           before or after using an ability, a lightbender can trade places with
           any lightbender duplicate.
-  - name: Everything the Light Touches
+  - type: feature
+    feature_type: trait
+    name: Everything the Light Touches
     icon: ❇️
     cost: 7 Malice
     effects:
       - effect: Each lightbender in the encounter shines radiantly, distorting the
           senses of any enemy within 5 squares of them. Each affected enemy
           makes a **Reason test**.
-        t1: The target doesn't have line of effect to any lightbender (save ends).
-        t2: The target doesn't have line of effect to any lightbender (EoT).
-        t3: No effect.
+        tier1: The target doesn't have line of effect to any lightbender (save ends).
+        tier2: The target doesn't have line of effect to any lightbender (EoT).
+        tier3: No effect.
 ~~~

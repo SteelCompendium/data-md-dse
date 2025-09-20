@@ -7,7 +7,7 @@ cost_resource: Piety
 distance: Ranged 10
 feature_type: ability
 file_basename: Lauded by God
-file_dpath: Conduit/6th-Level Features
+file_dpath: Abilities/Conduit/6th-Level Features
 flavor: You beseech the gods to give your allies what they need to win the day, and
   the gods answer.
 item_id: lauded-by-god-9-piety
@@ -20,14 +20,16 @@ level: 6
 scc:
 - mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:lauded-by-god-9-piety
 scdc:
-- 1.1.1:13.2.8.3:11
+- 1.1.1:11.2.8.3:11
 source: mcdm.heroes.v1
 subclass: Love
 target: Two allies
 type: feature/ability/conduit/6th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Lauded by God
 cost: 9 Piety
 flavor: You beseech the gods to give your allies what they need to win the day,
@@ -35,7 +37,7 @@ flavor: You beseech the gods to give your allies what they need to win the day,
 keywords:
   - Magic
   - Ranged
-type: Maneuver
+usage: Maneuver
 distance: Ranged 10
 target: Two allies
 metadata:
@@ -47,7 +49,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Lauded by God
-  file_dpath: Conduit/6th-Level Features
+  file_dpath: Abilities/Conduit/6th-Level Features
   flavor: You beseech the gods to give your allies what they need to win the day,
     and the gods answer.
   item_id: lauded-by-god-9-piety
@@ -60,12 +62,12 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:lauded-by-god-9-piety
   scdc:
-    - 1.1.1:13.2.8.3:11
+    - 1.1.1:11.2.8.3:11
   source: mcdm.heroes.v1
   subclass: Love
   target: Two allies
   type: feature/ability/conduit/6th-level-feature
 effects:
-  - effect: Each target gains 3 of their Heroic Resource.
-    name: Effect
+  - name: Effect
+    effect: Each target gains 3 of their Heroic Resource.
 ```

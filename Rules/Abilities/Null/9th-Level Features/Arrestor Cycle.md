@@ -7,7 +7,7 @@ cost_resource: Discipline
 distance: Ranged 10
 feature_type: ability
 file_basename: Arrestor Cycle
-file_dpath: Null/9th-Level Features
+file_dpath: Abilities/Null/9th-Level Features
 flavor: You trap your foe in a looping cycle of time, where they relive the last few
   seconds over and over again.
 item_id: arrestor-cycle-11-discipline
@@ -20,14 +20,16 @@ level: 9
 scc:
 - mcdm.heroes.v1:feature.ability.null.9th-level-feature:arrestor-cycle-11-discipline
 scdc:
-- 1.1.1:13.2.6.7:03
+- 1.1.1:11.2.6.7:03
 source: mcdm.heroes.v1
 subclass: Chronokinetic
 target: One creature
 type: feature/ability/null/9th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Arrestor Cycle
 cost: 11 Discipline
 flavor: You trap your foe in a looping cycle of time, where they relive the last
@@ -35,7 +37,7 @@ flavor: You trap your foe in a looping cycle of time, where they relive the last
 keywords:
   - Psionic
   - Ranged
-type: Free triggered
+usage: Free triggered
 distance: Ranged 10
 target: One creature
 trigger: The triggering creature starts their turn.
@@ -48,7 +50,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Arrestor Cycle
-  file_dpath: Null/9th-Level Features
+  file_dpath: Abilities/Null/9th-Level Features
   flavor: You trap your foe in a looping cycle of time, where they relive the last
     few seconds over and over again.
   item_id: arrestor-cycle-11-discipline
@@ -61,19 +63,19 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.null.9th-level-feature:arrestor-cycle-11-discipline
   scdc:
-    - 1.1.1:13.2.6.7:03
+    - 1.1.1:11.2.6.7:03
   source: mcdm.heroes.v1
   subclass: Chronokinetic
   target: One creature
   type: feature/ability/null/9th-level-feature
 effects:
   - roll: Power Roll + Intuition
-    t1: I < WEAK, the target loses their turn
-    t2: I < AVERAGE, the target loses their turn
-    t3: I < STRONG, the target loses their turn
-  - effect: If the target loses their turn, the round continues as if they had
+    tier1: I < WEAK, the target loses their turn
+    tier2: I < AVERAGE, the target loses their turn
+    tier3: I < STRONG, the target loses their turn
+  - name: Effect
+    effect: If the target loses their turn, the round continues as if they had
       acted. A target who doesn't lose their turn takes psychic damage equal to
       twice your Intuition score for each main action they take until the end of
       their next turn.
-    name: Effect
 ```

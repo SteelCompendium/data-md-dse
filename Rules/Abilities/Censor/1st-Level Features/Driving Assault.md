@@ -7,7 +7,7 @@ cost_resource: Wrath
 distance: Melee 1
 feature_type: ability
 file_basename: Driving Assault
-file_dpath: Censor/1st-Level Features
+file_dpath: Abilities/Censor/1st-Level Features
 flavor: As you force your enemy back with your weapon, you use your faith to stay
   close.
 item_id: driving-assault-3-wrath
@@ -21,13 +21,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:driving-assault-3-wrath
 scdc:
-- 1.1.1:13.2.7.1:17
+- 1.1.1:11.2.7.1:17
 source: mcdm.heroes.v1
 target: One creature or object
 type: feature/ability/censor/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Driving Assault
 cost: 3 Wrath
 flavor: As you force your enemy back with your weapon, you use your faith to
@@ -36,7 +38,7 @@ keywords:
   - Melee
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1
 target: One creature or object
 metadata:
@@ -48,7 +50,7 @@ metadata:
   distance: Melee 1
   feature_type: ability
   file_basename: Driving Assault
-  file_dpath: Censor/1st-Level Features
+  file_dpath: Abilities/Censor/1st-Level Features
   flavor: As you force your enemy back with your weapon, you use your faith to
     stay close.
   item_id: driving-assault-3-wrath
@@ -62,16 +64,16 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:driving-assault-3-wrath
   scdc:
-    - 1.1.1:13.2.7.1:17
+    - 1.1.1:11.2.7.1:17
   source: mcdm.heroes.v1
   target: One creature or object
   type: feature/ability/censor/1st-level-feature
 effects:
   - roll: Power Roll + Might
-    t1: 3 + M damage; push 1
-    t2: 6 + M damage; push 3
-    t3: 9 + M damage; push 5
-  - effect: You can shift up to your speed in a straight line toward the target
+    tier1: 3 + M damage; push 1
+    tier2: 6 + M damage; push 3
+    tier3: 9 + M damage; push 5
+  - name: Effect
+    effect: You can shift up to your speed in a straight line toward the target
       after pushing them.
-    name: Effect
 ```

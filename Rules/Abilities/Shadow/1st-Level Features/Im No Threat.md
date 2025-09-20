@@ -4,7 +4,7 @@ class: shadow
 distance: Self
 feature_type: ability
 file_basename: Im No Threat
-file_dpath: Shadow/1st-Level Features
+file_dpath: Abilities/Shadow/1st-Level Features
 flavor: Taking on an illusory countenance gives you an advantage on subterfuge.
 item_id: im-no-threat
 item_index: '17'
@@ -15,19 +15,21 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:im-no-threat
 scdc:
-- 1.1.1:13.2.2.1:17
+- 1.1.1:11.2.2.1:17
 source: mcdm.heroes.v1
 subclass: Harlequin Mask
 target: Self
 type: feature/ability/shadow/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: I'm No Threat
 flavor: Taking on an illusory countenance gives you an advantage on subterfuge.
 keywords:
   - Magic
-type: Maneuver
+usage: Maneuver
 distance: Self
 target: Self
 metadata:
@@ -36,7 +38,7 @@ metadata:
   distance: Self
   feature_type: ability
   file_basename: Im No Threat
-  file_dpath: Shadow/1st-Level Features
+  file_dpath: Abilities/Shadow/1st-Level Features
   flavor: Taking on an illusory countenance gives you an advantage on subterfuge.
   item_id: im-no-threat
   item_index: "17"
@@ -47,13 +49,14 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:im-no-threat
   scdc:
-    - 1.1.1:13.2.2.1:17
+    - 1.1.1:11.2.2.1:17
   source: mcdm.heroes.v1
   subclass: Harlequin Mask
   target: Self
   type: feature/ability/shadow/1st-level-feature
 effects:
-  - effect: >-
+  - name: Effect
+    effect: >-
       You envelop yourself in an illusion that makes you appear nonthreatening
       and harmless to your enemies. You might take on the appearance of a
       harmless animal of your size, such as a sheep or capybara, or you might
@@ -65,12 +68,11 @@ effects:
       interact with a creature, when you use this ability again, or when you end
       the illusion (no action required). If you end this illusion by harming
       another creature, you gain 1 surge.
-    name: Effect
-  - effect: Choose a creature whose size is no more than 1 greater than yours and
+  - cost: Spend 1 Insight
+    effect: Choose a creature whose size is no more than 1 greater than yours and
       who is within 10 squares. This ability's illusion makes you appear as that
       creature. This illusion covers your entire body, including clothing and
       armor, and alters your voice to sound like that of the creature. You gain
       an edge on tests made to convince the creature's allies that you are the
       creature.
-    cost: Spend 1 Insight
 ```

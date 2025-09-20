@@ -4,7 +4,7 @@ class: censor
 distance: Ranged 10
 feature_type: ability
 file_basename: Guided to Your Side
-file_dpath: Censor/7th-Level Features
+file_dpath: Abilities/Censor/7th-Level Features
 flavor: You concentrate on a friend and teleport to them.
 item_id: guided-to-your-side
 item_index: '01'
@@ -16,20 +16,22 @@ level: 7
 scc:
 - mcdm.heroes.v1:feature.ability.censor.7th-level-feature:guided-to-your-side
 scdc:
-- 1.1.1:13.2.7.8:01
+- 1.1.1:11.2.7.8:01
 source: mcdm.heroes.v1
 subclass: Love
 target: Self and each ally
 type: feature/ability/censor/7th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Guided to Your Side
 flavor: You concentrate on a friend and teleport to them.
 keywords:
   - Magic
   - Ranged
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: Self and each ally
 metadata:
@@ -38,7 +40,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Guided to Your Side
-  file_dpath: Censor/7th-Level Features
+  file_dpath: Abilities/Censor/7th-Level Features
   flavor: You concentrate on a friend and teleport to them.
   item_id: guided-to-your-side
   item_index: "01"
@@ -50,15 +52,15 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.censor.7th-level-feature:guided-to-your-side
   scdc:
-    - 1.1.1:13.2.7.8:01
+    - 1.1.1:11.2.7.8:01
   source: mcdm.heroes.v1
   subclass: Love
   target: Self and each ally
   type: feature/ability/censor/7th-level-feature
 effects:
-  - effect: Each target is teleported to unoccupied spaces within 5 squares of a
+  - name: Effect
+    effect: Each target is teleported to unoccupied spaces within 5 squares of a
       willing creature who you are bonded to with your Invocation of the Heart
       feature. You don't need line of effect to the bonded creature but you must
       be on the same world.
-    name: Effect
 ```

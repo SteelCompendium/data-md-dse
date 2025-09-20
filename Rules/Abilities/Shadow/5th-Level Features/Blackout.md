@@ -7,7 +7,7 @@ cost_resource: Insight
 distance: 3 burst
 feature_type: ability
 file_basename: Blackout
-file_dpath: Shadow/5th-Level Features
+file_dpath: Abilities/Shadow/5th-Level Features
 flavor: You cause a plume of shadow to erupt from your eyes and create a cloud of
   darkness.
 item_id: blackout-9-insight
@@ -20,13 +20,15 @@ level: 5
 scc:
 - mcdm.heroes.v1:feature.ability.shadow.5th-level-feature:blackout-9-insight
 scdc:
-- 1.1.1:13.2.2.4:04
+- 1.1.1:11.2.2.4:04
 source: mcdm.heroes.v1
 target: Special
 type: feature/ability/shadow/5th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Blackout
 cost: 9 Insight
 flavor: You cause a plume of shadow to erupt from your eyes and create a cloud
@@ -34,7 +36,7 @@ flavor: You cause a plume of shadow to erupt from your eyes and create a cloud
 keywords:
   - Area
   - Magic
-type: Maneuver
+usage: Maneuver
 distance: 3 burst
 target: Special
 metadata:
@@ -46,7 +48,7 @@ metadata:
   distance: 3 burst
   feature_type: ability
   file_basename: Blackout
-  file_dpath: Shadow/5th-Level Features
+  file_dpath: Abilities/Shadow/5th-Level Features
   flavor: You cause a plume of shadow to erupt from your eyes and create a cloud
     of darkness.
   item_id: blackout-9-insight
@@ -59,15 +61,15 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.shadow.5th-level-feature:blackout-9-insight
   scdc:
-    - 1.1.1:13.2.2.4:04
+    - 1.1.1:11.2.2.4:04
   source: mcdm.heroes.v1
   target: Special
   type: feature/ability/shadow/5th-level-feature
 effects:
-  - effect: A black cloud fills the area until the end of your next turn, granting
+  - name: Effect
+    effect: A black cloud fills the area until the end of your next turn, granting
       you and your allies concealment against enemies. While you are in the
       area, whenever an enemy ends their turn in the area, you can use a free
       triggered action to shift to a new location within the area and make a
       free strike against them.
-    name: Effect
 ```

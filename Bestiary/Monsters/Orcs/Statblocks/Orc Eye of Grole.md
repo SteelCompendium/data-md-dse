@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Orc Eye of Grole
 level: 1
 roles:
@@ -52,51 +53,61 @@ agility: 1
 reason: 0
 intuition: 0
 presence: -2
-traits:
-  - name: Elemental Affinity
+features:
+  - type: feature
+    feature_type: trait
+    name: Elemental Affinity
+    icon: ⭐️
     effects:
       - effect: The eye has an affinity for one of the following damage types cold,
           fire, or lightning. The chosen type determines the eye's damage
           immunity and the damage dealt by their abilities.
-  - name: Relentless
-    effects:
-      - effect: If the eye is reduced to 0 Stamina, they can make a free strike before
-          dying. If the target of the free strike is reduced to 0 Stamina, the
-          eye is reduced to 1 Stamina instead.
-abilities:
-  - name: Elemental Discharge
+  - type: feature
+    feature_type: ability
+    name: Elemental Discharge
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Ranged
       - Strike
-    type: Main action
+    usage: Main action
     distance: Ranged 10
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 6 damage; push 2, or the eye shifts up to 2 squares away from the target
-        t2: 9 damage; slide 4, or the eye shifts up to 4 squares away from the target
-        t3: 12 damage; slide 6, or the eye shifts up to 6 squares away from the target
-      - effect: This ability deals cold, fire, or lightning damage.
-        name: Effect
-  - name: Power Burst
+        tier1: 6 damage; push 2, or the eye shifts up to 2 squares away from the target
+        tier2: 9 damage; slide 4, or the eye shifts up to 4 squares away from the target
+        tier3: 12 damage; slide 6, or the eye shifts up to 6 squares away from the
+          target
+      - name: Effect
+        effect: This ability deals cold, fire, or lightning damage.
+  - type: feature
+    feature_type: ability
+    name: Power Burst
     icon: 🔳
     cost: 3 Malice
     keywords:
       - Area
       - Magic
-    type: Main action
+    usage: Main action
     distance: 5 x 2 line within 1
     target: Each enemy in the area
     effects:
       - roll: Power Roll + 2
-        t1: 3 damage; push 2
-        t2: 5 damage; push 3
-        t3: 8 damage; push 4, prone
-      - effect: This ability deals cold, fire, or lightning damage, and any enemy
+        tier1: 3 damage; push 2
+        tier2: 5 damage; push 3
+        tier3: 8 damage; push 4, prone
+      - name: Effect
+        effect: This ability deals cold, fire, or lightning damage, and any enemy
           targeted by the ability has damage weakness 3 to the same damage type
           (save ends).
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Relentless
+    icon: ⭐️
+    effects:
+      - effect: If the eye is reduced to 0 Stamina, they can make a free strike before
+          dying. If the target of the free strike is reduced to 0 Stamina, the
+          eye is reduced to 1 Stamina instead.
 ~~~

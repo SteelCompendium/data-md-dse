@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Human Trickshot
 level: 1
 roles:
@@ -51,30 +52,34 @@ agility: 2
 reason: 0
 intuition: 1
 presence: 0
-traits:
-  - name: Supernatural Insight
-    effects:
-      - effect: The trickshot ignores concealment if it's granted by a supernatural
-          effect.
-abilities:
-  - name: Trick Crossbow
+features:
+  - type: feature
+    feature_type: ability
+    name: Trick Crossbow
     icon: ⚔️
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1 or ranged 15
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 6 damage
-        t2: 9 damage
-        t3: 12 damage
-      - effect: This ability ignores cover and concealment.
-        name: Effect
-      - effect: This ability targets one additional target.
-        cost: 3 Malice
+        tier1: 6 damage
+        tier2: 9 damage
+        tier3: 12 damage
+      - name: Effect
+        effect: This ability ignores cover and concealment.
+      - cost: 3 Malice
+        effect: This ability targets one additional target.
+  - type: feature
+    feature_type: trait
+    name: Supernatural Insight
+    icon: ⭐️
+    effects:
+      - effect: The trickshot ignores concealment if it's granted by a supernatural
+          effect.
 ~~~

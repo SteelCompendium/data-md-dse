@@ -14,19 +14,24 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: + Malice Features
 name: Demon Malice
-type: + Malice Features
 level: 7
 flavor: At the start of any level 7 or higher demon's turn, you can spend Malice
   to activate one of the following features.
 features:
-  - name: Prior Malice Features
+  - type: feature
+    feature_type: trait
+    name: Prior Malice Features
     icon: ⭐️
     cost: 3-7 Malice
     effects:
       - effect: The demon activates a Malice feature available to demons of level 6 or
           lower.
-  - name: Seeping Blight
+  - type: feature
+    feature_type: trait
+    name: Seeping Blight
     icon: ❇️
     cost: 5 Malice
     effects:

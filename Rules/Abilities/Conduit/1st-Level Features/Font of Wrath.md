@@ -7,7 +7,7 @@ cost_resource: Piety
 distance: Ranged 10
 feature_type: ability
 file_basename: Font of Wrath
-file_dpath: Conduit/1st-Level Features
+file_dpath: Abilities/Conduit/1st-Level Features
 flavor: A brilliant column of holy light appears on the battlefield, striking out
   at nearby enemies.
 item_id: font-of-wrath-3-piety
@@ -20,13 +20,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:font-of-wrath-3-piety
 scdc:
-- 1.1.1:13.2.8.1:04
+- 1.1.1:11.2.8.1:04
 source: mcdm.heroes.v1
 target: Special
 type: feature/ability/conduit/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Font of Wrath
 cost: 3 Piety
 flavor: A brilliant column of holy light appears on the battlefield, striking
@@ -34,7 +36,7 @@ flavor: A brilliant column of holy light appears on the battlefield, striking
 keywords:
   - Magic
   - Ranged
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: Special
 metadata:
@@ -46,7 +48,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Font of Wrath
-  file_dpath: Conduit/1st-Level Features
+  file_dpath: Abilities/Conduit/1st-Level Features
   flavor: A brilliant column of holy light appears on the battlefield, striking
     out at nearby enemies.
   item_id: font-of-wrath-3-piety
@@ -59,16 +61,16 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:font-of-wrath-3-piety
   scdc:
-    - 1.1.1:13.2.8.1:04
+    - 1.1.1:11.2.8.1:04
   source: mcdm.heroes.v1
   target: Special
   type: feature/ability/conduit/1st-level-feature
 effects:
-  - effect: You summon a spirit of size 2 who can't be harmed, and who appears in an
+  - name: Effect
+    effect: You summon a spirit of size 2 who can't be harmed, and who appears in an
       unoccupied space within distance. The spirit lasts until the end of your
       next turn. You and your allies can move through the spirit's space, but
       enemies can't. Any enemy who moves within 2 squares of the spirit for the
       first time in a combat round or starts their turn there takes holy damage
       equal to your Intuition score.
-    name: Effect
 ```

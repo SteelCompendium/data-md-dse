@@ -4,7 +4,7 @@ class: shadow
 distance: Self
 feature_type: ability
 file_basename: Coat the Blade
-file_dpath: Shadow/1st-Level Features
+file_dpath: Abilities/Shadow/1st-Level Features
 flavor: A little poison goes a long way.
 item_id: coat-the-blade
 item_index: '11'
@@ -15,19 +15,21 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:coat-the-blade
 scdc:
-- 1.1.1:13.2.2.1:11
+- 1.1.1:11.2.2.1:11
 source: mcdm.heroes.v1
 subclass: Caustic Alchemy
 target: Self
 type: feature/ability/shadow/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Coat the Blade
 flavor: A little poison goes a long way.
 keywords:
   - "-"
-type: Maneuver
+usage: Maneuver
 distance: Self
 target: Self
 metadata:
@@ -36,7 +38,7 @@ metadata:
   distance: Self
   feature_type: ability
   file_basename: Coat the Blade
-  file_dpath: Shadow/1st-Level Features
+  file_dpath: Abilities/Shadow/1st-Level Features
   flavor: A little poison goes a long way.
   item_id: coat-the-blade
   item_index: "11"
@@ -47,15 +49,15 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:coat-the-blade
   scdc:
-    - 1.1.1:13.2.2.1:11
+    - 1.1.1:11.2.2.1:11
   source: mcdm.heroes.v1
   subclass: Caustic Alchemy
   target: Self
   type: feature/ability/shadow/1st-level-feature
 effects:
-  - effect: You gain 2 surges. Additionally, whenever you use a surge before the end
+  - name: Effect
+    effect: You gain 2 surges. Additionally, whenever you use a surge before the end
       of the encounter, you can choose to have it deal poison damage.
-    name: Effect
-  - effect: For each insight you spend, you gain 1 additional surge.
-    cost: Spend 1+ Insight
+  - cost: Spend 1+ Insight
+    effect: For each insight you spend, you gain 1 additional surge.
 ```

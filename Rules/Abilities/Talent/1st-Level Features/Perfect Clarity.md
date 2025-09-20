@@ -7,7 +7,7 @@ cost_resource: Clarity
 distance: Ranged 10
 feature_type: ability
 file_basename: Perfect Clarity
-file_dpath: Talent/1st-Level Features
+file_dpath: Abilities/Talent/1st-Level Features
 flavor: You clear the mind of nothing but the goal.
 item_id: perfect-clarity-5-clarity
 item_index: '07'
@@ -20,13 +20,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:perfect-clarity-5-clarity
 scdc:
-- 1.1.1:13.2.1.1:07
+- 1.1.1:11.2.1.1:07
 source: mcdm.heroes.v1
 target: Self or one ally
 type: feature/ability/talent/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Perfect Clarity
 cost: 5 Clarity
 flavor: You clear the mind of nothing but the goal.
@@ -34,7 +36,7 @@ keywords:
   - Psionic
   - Ranged
   - Telepathy
-type: Maneuver
+usage: Maneuver
 distance: Ranged 10
 target: Self or one ally
 metadata:
@@ -46,7 +48,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Perfect Clarity
-  file_dpath: Talent/1st-Level Features
+  file_dpath: Abilities/Talent/1st-Level Features
   flavor: You clear the mind of nothing but the goal.
   item_id: perfect-clarity-5-clarity
   item_index: "07"
@@ -59,15 +61,15 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:perfect-clarity-5-clarity
   scdc:
-    - 1.1.1:13.2.1.1:07
+    - 1.1.1:11.2.1.1:07
   source: mcdm.heroes.v1
   target: Self or one ally
   type: feature/ability/talent/1st-level-feature
 effects:
-  - effect: Until the start of your next turn, the target gains a +3 bonus to speed,
+  - name: Effect
+    effect: Until the start of your next turn, the target gains a +3 bonus to speed,
       and they have a double edge on the next power roll they make. If the
       target obtains a tier 3 outcome on that roll, you gain 1 clarity.
-    name: Effect
-  - effect: You take 1d6 damage, and you can't use triggered actions (save ends).
-    name: Strained
+  - name: Strained
+    effect: You take 1d6 damage, and you can't use triggered actions (save ends).
 ```

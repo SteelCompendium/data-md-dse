@@ -14,13 +14,16 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: + Malice Features
 name: Undead Malice
-type: + Malice Features
 level: 1
 flavor: At the start of any undead's turn, you can spend Malice to activate one
   of the following features.
 features:
-  - name: Ravenous Horde
+  - type: feature
+    feature_type: trait
+    name: Ravenous Horde
     icon: 🌀
     cost: 2 Malice
     effects:
@@ -28,27 +31,33 @@ features:
           undead is beset by two **rotting zombies** who burst up from the
           ground to appear in adjacent unoccupied spaces. Each zombie is winded.
           This feature can't be used two rounds in a row.
-  - name: Paranormal Fling
+  - type: feature
+    feature_type: trait
+    name: Paranormal Fling
     icon: 🌀
     cost: 3 Malice
     effects:
       - effect: Up to three unattended objects on the encounter map rise to float 1
           square off the ground. Each object is then pulled 5 squares toward the
           nearest enemy within 3 squares of the object.
-  - name: The Grasping, the Hungry
+  - type: feature
+    feature_type: trait
+    name: The Grasping, the Hungry
     icon: 🔳
     cost: 5 Malice
     effects:
       - effect: Ravenous and rotting undead arms burst forth from 9 connected squares of
           a vertical or horizontal surface. Any creature who ends their turn
           adjacent to an affected square makes an Agility test.
-        t1: 5 damage; restrained (save ends)
-        t2: 5 damage; restrained (EoT)
-        t3: 5 damage
-      - effect: While restrained this way, a creature takes 1d6 damage at the start of
+        tier1: 5 damage; restrained (save ends)
+        tier2: 5 damage; restrained (EoT)
+        tier3: 5 damage
+      - name: Effect
+        effect: While restrained this way, a creature takes 1d6 damage at the start of
           each of their turns.
-        name: Effect
-  - name: Dread March
+  - type: feature
+    feature_type: trait
+    name: Dread March
     icon: ⭐️
     cost: 7+ Malice
     effects:

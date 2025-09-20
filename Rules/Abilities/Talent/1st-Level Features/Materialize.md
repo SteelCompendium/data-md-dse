@@ -4,7 +4,7 @@ class: talent
 distance: Ranged 10
 feature_type: ability
 file_basename: Materialize
-file_dpath: Talent/1st-Level Features
+file_dpath: Abilities/Talent/1st-Level Features
 flavor: You picture an object in your mind and give it form—directly above your opponent's
   head.
 item_id: materialize
@@ -19,13 +19,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:materialize
 scdc:
-- 1.1.1:13.2.1.1:03
+- 1.1.1:11.2.1.1:03
 source: mcdm.heroes.v1
 target: One creature or object
 type: feature/ability/talent/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Materialize
 flavor: You picture an object in your mind and give it form—directly above your
   opponent's head.
@@ -34,7 +36,7 @@ keywords:
   - Ranged
   - Resopathy
   - Strike
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: One creature or object
 metadata:
@@ -43,7 +45,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Materialize
-  file_dpath: Talent/1st-Level Features
+  file_dpath: Abilities/Talent/1st-Level Features
   flavor: You picture an object in your mind and give it form—directly above your
     opponent's head.
   item_id: materialize
@@ -58,21 +60,21 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:materialize
   scdc:
-    - 1.1.1:13.2.1.1:03
+    - 1.1.1:11.2.1.1:03
   source: mcdm.heroes.v1
   target: One creature or object
   type: feature/ability/talent/1st-level-feature
 effects:
   - roll: Power Roll + Reason
-    t1: 3 + R damage
-    t2: 5 + R damage
-    t3: 8 + R damage
-  - effect: A worthless size 1M object drops onto the target to deal the damage,
+    tier1: 3 + R damage
+    tier2: 5 + R damage
+    tier3: 8 + R damage
+  - name: Effect
+    effect: A worthless size 1M object drops onto the target to deal the damage,
       then rolls into an adjacent unoccupied space of your choice. The object is
       made of wood, stone, or metal (your choice).
-    name: Effect
-  - effect: The object explodes after the damage is dealt, and each creature
+  - name: Strained
+    effect: The object explodes after the damage is dealt, and each creature
       adjacent to the target takes damage equal to your Reason score. You also
       take damage equal to your Reason score that can't be reduced in any way.
-    name: Strained
 ```

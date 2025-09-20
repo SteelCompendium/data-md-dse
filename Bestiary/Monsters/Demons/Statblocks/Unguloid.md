@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Unguloid
 level: 10
 roles:
@@ -51,28 +52,32 @@ agility: 5
 reason: -1
 intuition: -1
 presence: -1
-traits:
-  - name: Soulsight
-    effects:
-      - effect: Any creature within 2 squares of the unguloid can't be hidden from them.
-abilities:
-  - name: Gore Horn
+features:
+  - type: feature
+    feature_type: ability
+    name: Gore Horn
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Charge
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 5
-        t1: 5 damage; push 2
-        t2: 8 damage; push 4
-        t3: 10 damage; push 6
-      - effect: If this ability is used as part of a charge for which the unguloid moves
+        tier1: 5 damage; push 2
+        tier2: 8 damage; push 4
+        tier3: 10 damage; push 6
+      - name: Effect
+        effect: If this ability is used as part of a charge for which the unguloid moves
           2 squares or more, it deals an extra 10 damage.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Soulsight
+    icon: ⭐️
+    effects:
+      - effect: Any creature within 2 squares of the unguloid can't be hidden from them.
 ~~~

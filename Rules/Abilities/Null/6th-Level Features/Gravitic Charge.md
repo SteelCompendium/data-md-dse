@@ -7,7 +7,7 @@ cost_resource: Discipline
 distance: Self
 feature_type: ability
 file_basename: Gravitic Charge
-file_dpath: Null/6th-Level Features
+file_dpath: Abilities/Null/6th-Level Features
 flavor: You channel your discipline into momentum that defies gravity.
 item_id: gravitic-charge-9-discipline
 item_index: '02'
@@ -18,20 +18,22 @@ level: 6
 scc:
 - mcdm.heroes.v1:feature.ability.null.6th-level-feature:gravitic-charge-9-discipline
 scdc:
-- 1.1.1:13.2.6.3:02
+- 1.1.1:11.2.6.3:02
 source: mcdm.heroes.v1
 subclass: Metakinetic
 target: Self
 type: feature/ability/null/6th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Gravitic Charge
 cost: 9 Discipline
 flavor: You channel your discipline into momentum that defies gravity.
 keywords:
   - Psionic
-type: Maneuver
+usage: Maneuver
 distance: Self
 target: Self
 metadata:
@@ -43,7 +45,7 @@ metadata:
   distance: Self
   feature_type: ability
   file_basename: Gravitic Charge
-  file_dpath: Null/6th-Level Features
+  file_dpath: Abilities/Null/6th-Level Features
   flavor: You channel your discipline into momentum that defies gravity.
   item_id: gravitic-charge-9-discipline
   item_index: "02"
@@ -54,18 +56,18 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.null.6th-level-feature:gravitic-charge-9-discipline
   scdc:
-    - 1.1.1:13.2.6.3:02
+    - 1.1.1:11.2.6.3:02
   source: mcdm.heroes.v1
   subclass: Metakinetic
   target: Self
   type: feature/ability/null/6th-level-feature
 effects:
   - roll: Power Roll + Intuition
-    t1: Vertical slide 5
-    t2: Vertical slide 7
-    t3: Vertical slide 9
-  - effect: This movement ignores stability. If you slide into another creature, you
+    tier1: Vertical slide 5
+    tier2: Vertical slide 7
+    tier3: Vertical slide 9
+  - name: Effect
+    effect: This movement ignores stability. If you slide into another creature, you
       resolve damage to both of you as if your force movement had ended, but you
       keep moving through that creature's space.
-    name: Effect
 ```

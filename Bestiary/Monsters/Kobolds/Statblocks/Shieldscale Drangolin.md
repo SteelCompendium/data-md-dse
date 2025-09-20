@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Shieldscale Drangolin
 level: 1
 roles:
@@ -49,52 +50,50 @@ agility: 1
 reason: -3
 intuition: 0
 presence: -2
-traits:
-  - name: Ashen Cloud
-    effects:
-      - effect: Any ally adjacent to the drangolin has concealment.
-  - name: Burrow Bond
-    effects:
-      - effect: When the drangolin burrows, each adjacent size 1S or smaller ally can
-          move with them
-abilities:
-  - name: Fiery Claws
+features:
+  - type: feature
+    feature_type: ability
+    name: Fiery Claws
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 2
-        t1: 7 fire damage
-        t2: 10 fire damage
-        t3: 13 fire damage
-      - effect: If the drangolin is size 3, the distance becomes Melee 2.
-        name: Special
-  - name: Drangolin Plume
+        tier1: 7 fire damage
+        tier2: 10 fire damage
+        tier3: 13 fire damage
+      - name: Special
+        effect: If the drangolin is size 3, the distance becomes Melee 2.
+  - type: feature
+    feature_type: ability
+    name: Drangolin Plume
     icon: 👤
     cost: 5 Malice
     keywords:
       - "-"
-    type: Main action
+    usage: Main action
     distance: Self; see below
     target: Self
     effects:
-      - effect: The drangolin shifts up to their speed and uses Fiery Claws against each
+      - name: Effect
+        effect: The drangolin shifts up to their speed and uses Fiery Claws against each
           creature who comes adjacent to them during the shift. The drangolin
           makes one power roll against all targets.
-        name: Effect
-  - name: Erupt
+  - type: feature
+    feature_type: ability
+    name: Erupt
     icon: ❇️
     cost: 3 Malice
     keywords:
       - Area
       - Weapon
-    type: Main action
+    usage: Main action
     distance: 2 burst
     target: Each creature in the area
     effects:
@@ -103,7 +102,20 @@ abilities:
           this ability. Each target in the area where the drangolin breaches
           takes an extra 2 fire damage.
       - roll: Power Roll + 2
-        t1: 6 damage; push 1; A < 0 prone
-        t2: 8 damage; push 3; A < 0 prone
-        t3: 11 damage; push 5; A < 0 prone
+        tier1: 6 damage; push 1; A < 0 prone
+        tier2: 8 damage; push 3; A < 0 prone
+        tier3: 11 damage; push 5; A < 0 prone
+  - type: feature
+    feature_type: trait
+    name: Ashen Cloud
+    icon: ⭐️
+    effects:
+      - effect: Any ally adjacent to the drangolin has concealment.
+  - type: feature
+    feature_type: trait
+    name: Burrow Bond
+    icon: ⭐️
+    effects:
+      - effect: When the drangolin burrows, each adjacent size 1S or smaller ally can
+          move with them
 ~~~

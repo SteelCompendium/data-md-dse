@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Crawling Claw
 level: 1
 roles:
@@ -53,27 +54,31 @@ agility: 2
 reason: -5
 intuition: -1
 presence: -1
-traits:
-  - name: Disorganized
-    effects:
-      - effect: Allies can't flank with the crawling cla.
-abilities:
-  - name: Fingernails
+features:
+  - type: feature
+    feature_type: ability
+    name: Fingernails
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 1 damage
-        t2: 2 damage
-        t3: 3 damage
-      - effect: The crawling claw shifts up to a number of squares equal to the damage
+        tier1: 1 damage
+        tier2: 2 damage
+        tier3: 3 damage
+      - name: Effect
+        effect: The crawling claw shifts up to a number of squares equal to the damage
           dealt.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Disorganized
+    icon: ⭐️
+    effects:
+      - effect: Allies can't flank with the crawling cla.
 ~~~

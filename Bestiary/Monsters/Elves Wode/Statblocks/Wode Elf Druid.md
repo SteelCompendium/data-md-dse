@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Wode Elf Druid
 level: 2
 roles:
@@ -51,42 +52,48 @@ agility: 1
 reason: 0
 intuition: 0
 presence: 2
-traits:
-  - name: Masking Glamor
-    effects:
-      - effect: Abilities targeting the druid that would take a bane from cover or
-          concealment have a double bane instead.
-abilities:
-  - name: Entangling Vines
+features:
+  - type: feature
+    feature_type: ability
+    name: Entangling Vines
     icon: 🔳
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Area
       - Magic
       - Ranged
-    type: Main action
+    usage: Main action
     distance: 3 cube within 10
     target: Each enemy in the area
     effects:
       - roll: Power Roll + 2
-        t1: 5 damage; pull 1
-        t2: 8 damage; pull 3; M < 1 slowed (save ends)
-        t3: 10 damage; pull 5; M < 2 slowed (save ends)
-      - effect: While slowed this way, a target can't search for hidden creatures.
-        name: Effect
-      - effect: The size of the cube and the potency both increase by 1.
-        cost: 3 Malice
-  - name: The Wode Protects Us
+        tier1: 5 damage; pull 1
+        tier2: 8 damage; pull 3; M < 1 slowed (save ends)
+        tier3: 10 damage; pull 5; M < 2 slowed (save ends)
+      - name: Effect
+        effect: While slowed this way, a target can't search for hidden creatures.
+      - cost: 3 Malice
+        effect: The size of the cube and the potency both increase by 1.
+  - type: feature
+    feature_type: ability
+    name: The Wode Protects Us
     icon: 🏹
     cost: 3 Malice
     keywords:
       - Magic
       - Ranged
-    type: Maneuver
+    usage: Maneuver
     distance: Ranged 5
     target: Self and three allies
     effects:
-      - effect: Each target can teleport up to 10 squares to a space that has cover or
+      - name: Effect
+        effect: Each target can teleport up to 10 squares to a space that has cover or
           concealment.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Masking Glamor
+    icon: ⭐️
+    effects:
+      - effect: Abilities targeting the druid that would take a bane from cover or
+          concealment have a double bane instead.
 ~~~

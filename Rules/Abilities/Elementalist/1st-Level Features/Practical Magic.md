@@ -4,7 +4,7 @@ class: elementalist
 distance: Self; see below
 feature_type: ability
 file_basename: Practical Magic
-file_dpath: Elementalist/1st-Level Features
+file_dpath: Abilities/Elementalist/1st-Level Features
 flavor: Your mastery of elemental power lets you customize your conjurations.
 item_id: practical-magic
 item_index: '10'
@@ -15,18 +15,20 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:practical-magic
 scdc:
-- 1.1.1:13.2.9.1:10
+- 1.1.1:11.2.9.1:10
 source: mcdm.heroes.v1
 target: Self
 type: feature/ability/elementalist/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Practical Magic
 flavor: Your mastery of elemental power lets you customize your conjurations.
 keywords:
   - Magic
-type: Maneuver
+usage: Maneuver
 distance: Self; see below
 target: Self
 metadata:
@@ -35,7 +37,7 @@ metadata:
   distance: Self; see below
   feature_type: ability
   file_basename: Practical Magic
-  file_dpath: Elementalist/1st-Level Features
+  file_dpath: Abilities/Elementalist/1st-Level Features
   flavor: Your mastery of elemental power lets you customize your conjurations.
   item_id: practical-magic
   item_index: "10"
@@ -46,12 +48,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:practical-magic
   scdc:
-    - 1.1.1:13.2.9.1:10
+    - 1.1.1:11.2.9.1:10
   source: mcdm.heroes.v1
   target: Self
   type: feature/ability/elementalist/1st-level-feature
 effects:
-  - effect: >-
+  - name: Effect
+    effect: >-
       Choose one of the following effects:
 
       - You use the Knockback maneuver (see Chapter 10: Combat), but its
@@ -66,5 +69,4 @@ effects:
       - You teleport up to a number of squares equal to your Reason score. If
       you choose this option, you can spend essence to teleport 1 additional
       square for each essence spent.
-    name: Effect
 ```

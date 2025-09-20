@@ -7,7 +7,7 @@ cost_resource: Piety
 distance: Ranged 10
 feature_type: ability
 file_basename: Arise
-file_dpath: Conduit/8th-Level Features
+file_dpath: Abilities/Conduit/8th-Level Features
 flavor: Your deity rewards you or an ally on the verge of defeat with a miracle burst
   of strength and resolve.
 item_id: arise-11-piety
@@ -20,13 +20,15 @@ level: 8
 scc:
 - mcdm.heroes.v1:feature.ability.conduit.8th-level-feature:arise-11-piety
 scdc:
-- 1.1.1:13.2.8.2:02
+- 1.1.1:11.2.8.2:02
 source: mcdm.heroes.v1
 target: Self or one ally
 type: feature/ability/conduit/8th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Arise!
 cost: 11 Piety
 flavor: Your deity rewards you or an ally on the verge of defeat with a miracle
@@ -34,7 +36,7 @@ flavor: Your deity rewards you or an ally on the verge of defeat with a miracle
 keywords:
   - Magic
   - Ranged
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: Self or one ally
 metadata:
@@ -46,7 +48,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Arise
-  file_dpath: Conduit/8th-Level Features
+  file_dpath: Abilities/Conduit/8th-Level Features
   flavor: Your deity rewards you or an ally on the verge of defeat with a miracle
     burst of strength and resolve.
   item_id: arise-11-piety
@@ -59,15 +61,15 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.conduit.8th-level-feature:arise-11-piety
   scdc:
-    - 1.1.1:13.2.8.2:02
+    - 1.1.1:11.2.8.2:02
   source: mcdm.heroes.v1
   target: Self or one ally
   type: feature/ability/conduit/8th-level-feature
 effects:
-  - effect: The target can spend any number of Recoveries, can end any effects on
+  - name: Effect
+    effect: The target can spend any number of Recoveries, can end any effects on
       them that are ended by a saving throw or that end at the end of their
       turn, and can stand up if they are prone. Additionally, at the start of
       each of their turns until the end of the encounter or until they are
       dying, the target gains 3 surges.
-    name: Effect
 ```

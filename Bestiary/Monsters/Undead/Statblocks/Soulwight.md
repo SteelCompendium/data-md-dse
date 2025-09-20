@@ -29,6 +29,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Soulwight
 level: 1
 roles:
@@ -49,44 +50,50 @@ agility: 1
 reason: 0
 intuition: 0
 presence: 1
-traits:
-  - name: Arise
-    effects:
-      - effect: The first time the soulwight is reduced to 0 Stamina by damage that
-          isn't fire damage or holy damage and their body isn't destroyed, they
-          instead have 1 Stamina and fall prone.
-abilities:
-  - name: Soulstealer Longsword
+features:
+  - type: feature
+    feature_type: ability
+    name: Soulstealer Longsword
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 3 corruption damage
-        t2: 4 corruption damage; M < 1 slowed (save ends)
-        t3: 5 corruption damage; M < 2 slowed and weakened (save ends)
-      - effect: The target appears to rapidly age each time they take damage from this
+        tier1: 3 corruption damage
+        tier2: 4 corruption damage; M < 1 slowed (save ends)
+        tier3: 5 corruption damage; M < 2 slowed and weakened (save ends)
+      - name: Effect
+        effect: The target appears to rapidly age each time they take damage from this
           ability. The target regains their former appearance when the soulwight
           is destroyed.
-        name: Effect
-  - name: Stolen Vitality
+  - type: feature
+    feature_type: ability
+    name: Stolen Vitality
     icon: 🏹
     cost: 3 Malice
     keywords:
       - Magic
       - Ranged
-    type: Maneuver
+    usage: Maneuver
     distance: Ranged 5
     target: One ally
     effects:
-      - effect: The target regains 10 Stamina. The soulwight can't use this maneuver
+      - name: Effect
+        effect: The target regains 10 Stamina. The soulwight can't use this maneuver
           again until after they strike a creature with their Soulstealer
           Longsword.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Arise
+    icon: ⭐️
+    effects:
+      - effect: The first time the soulwight is reduced to 0 Stamina by damage that
+          isn't fire damage or holy damage and their body isn't destroyed, they
+          instead have 1 Stamina and fall prone.
 ~~~

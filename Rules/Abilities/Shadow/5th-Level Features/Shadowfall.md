@@ -7,7 +7,7 @@ cost_resource: Insight
 distance: 10 x 1 line within 1
 feature_type: ability
 file_basename: Shadowfall
-file_dpath: Shadow/5th-Level Features
+file_dpath: Abilities/Shadow/5th-Level Features
 flavor: You vanish. They fall. You reappear.
 item_id: shadowfall-9-insight
 item_index: '01'
@@ -20,13 +20,15 @@ level: 5
 scc:
 - mcdm.heroes.v1:feature.ability.shadow.5th-level-feature:shadowfall-9-insight
 scdc:
-- 1.1.1:13.2.2.4:01
+- 1.1.1:11.2.2.4:01
 source: mcdm.heroes.v1
 target: Each enemy in the area
 type: feature/ability/shadow/5th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Shadowfall
 cost: 9 Insight
 flavor: You vanish. They fall. You reappear.
@@ -34,7 +36,7 @@ keywords:
   - Area
   - Melee
   - Weapon
-type: Main action
+usage: Main action
 distance: 10 x 1 line within 1
 target: Each enemy in the area
 metadata:
@@ -46,7 +48,7 @@ metadata:
   distance: 10 x 1 line within 1
   feature_type: ability
   file_basename: Shadowfall
-  file_dpath: Shadow/5th-Level Features
+  file_dpath: Abilities/Shadow/5th-Level Features
   flavor: You vanish. They fall. You reappear.
   item_id: shadowfall-9-insight
   item_index: "01"
@@ -59,17 +61,17 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.shadow.5th-level-feature:shadowfall-9-insight
   scdc:
-    - 1.1.1:13.2.2.4:01
+    - 1.1.1:11.2.2.4:01
   source: mcdm.heroes.v1
   target: Each enemy in the area
   type: feature/ability/shadow/5th-level-feature
 effects:
   - roll: Power Roll + Agility
-    t1: 10 damage
-    t2: 14 damage
-    t3: 20 damage
-  - effect: You disappear before making the power roll. After the power roll is
+    tier1: 10 damage
+    tier2: 14 damage
+    tier3: 20 damage
+  - name: Effect
+    effect: You disappear before making the power roll. After the power roll is
       resolved, you appear in the first unoccupied space at the far end of the
       line.
-    name: Effect
 ```

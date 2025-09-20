@@ -13,7 +13,9 @@ source: mcdm.heroes.v1
 type: common-ability/maneuver
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: trait
 name: Make or Assist a Test
 metadata:
   class: combat

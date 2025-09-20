@@ -7,7 +7,7 @@ cost_resource: Wrath
 distance: Melee 1
 feature_type: ability
 file_basename: Sentenced
-file_dpath: Censor/2nd-Level Features
+file_dpath: Abilities/Censor/2nd-Level Features
 flavor: The shock of your condemnation freezes your enemy in their boots.
 item_id: sentenced-5-wrath
 item_index: '02'
@@ -21,14 +21,16 @@ level: 2
 scc:
 - mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:sentenced-5-wrath
 scdc:
-- 1.1.1:13.2.7.5:02
+- 1.1.1:11.2.7.5:02
 source: mcdm.heroes.v1
 subclass: Paragon
 target: One creature
 type: feature/ability/censor/2nd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Sentenced
 cost: 5 Wrath
 flavor: The shock of your condemnation freezes your enemy in their boots.
@@ -37,7 +39,7 @@ keywords:
   - Melee
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1
 target: One creature
 metadata:
@@ -49,7 +51,7 @@ metadata:
   distance: Melee 1
   feature_type: ability
   file_basename: Sentenced
-  file_dpath: Censor/2nd-Level Features
+  file_dpath: Abilities/Censor/2nd-Level Features
   flavor: The shock of your condemnation freezes your enemy in their boots.
   item_id: sentenced-5-wrath
   item_index: "02"
@@ -63,17 +65,17 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:sentenced-5-wrath
   scdc:
-    - 1.1.1:13.2.7.5:02
+    - 1.1.1:11.2.7.5:02
   source: mcdm.heroes.v1
   subclass: Paragon
   target: One creature
   type: feature/ability/censor/2nd-level-feature
 effects:
   - roll: Power Roll + Presence
-    t1: 5 + P damage; P < WEAK, restrained (save ends)
-    t2: 9 + P damage; P < AVERAGE, restrained (save ends)
-    t3: 12 + P damage; P < STRONG, restrained (save ends)
-  - effect: While the target is restrained this way, your abilities that impose
+    tier1: 5 + P damage; P < WEAK, restrained (save ends)
+    tier2: 9 + P damage; P < AVERAGE, restrained (save ends)
+    tier3: 12 + P damage; P < STRONG, restrained (save ends)
+  - name: Effect
+    effect: While the target is restrained this way, your abilities that impose
       forced movement can still move them.
-    name: Effect
 ```

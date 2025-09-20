@@ -13,8 +13,9 @@ type: dynamic-terrain/fieldwork
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Fortification Defender
 name: Archer's Stakes
-type: Fortification Defender
 level: 1
 ev: "2"
 flavor: A series of sharp stakes have been placed point-out to protect defenders
@@ -27,48 +28,58 @@ stats:
   - name: Direction
     value: One side of the stakes is defined as the front.
 features:
-  - name: Deactivate
+  - type: feature
+    feature_type: trait
+    name: Deactivate
     icon: 🌀
     effects:
       - effect: Each square of stakes must be individually destroyed.
-  - name: Activate
+  - type: feature
+    feature_type: trait
+    name: Activate
     icon: ❕
     effects:
       - effect: A creature enters an area of stakes from the front.
-      - effect: The triggering creature takes 2 damage per square of stakes they enter.
+      - name: Effect
+        effect: The triggering creature takes 2 damage per square of stakes they enter.
           If they are force moved into an area of stakes, they take an
           additional 3 damage.
-        name: Effect
-  - name: Upgrades
+  - type: feature
+    feature_type: trait
+    name: Upgrades
     icon: ⭐️
     effects:
-      - effect: The tips of the stakes have poison applied to them. Any creature who
+      - name: Poison
+        cost: +2 EV
+        effect: The tips of the stakes have poison applied to them. Any creature who
           takes damage from the stakes also takes 1d6 poison damage at the start
           of each of their turns (save ends).
-        name: Poison
-        cost: +2 EV
-      - effect: A sticky slime or webbing has been applied to the stakes and the ground
+      - name: Sticky
+        cost: +3 EV
+        effect: A sticky slime or webbing has been applied to the stakes and the ground
           between them. Any creature who enters an area of stakes triggers the
           **Sticky Stakes** ability in addition to suffering the stakes' other
           effects.
-        name: Sticky
-        cost: +3 EV
-  - name: Sticky Stakes
+  - type: feature
+    feature_type: ability
+    name: Sticky Stakes
     icon: ❗️
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Free triggered action
+    usage: Free triggered action
     distance: Melee 0
     target: The triggering creature or object
     trigger: A creature or object enters an area of sticky stakes.
     effects:
       - roll: Power Roll + 2
-        t1: No effect.
-        t2: A < 1 slowed (save ends)
-        t3: A < 2 restrained (save ends)
-  - name: Allied Awareness
+        tier1: No effect.
+        tier2: A < 1 slowed (save ends)
+        tier3: A < 2 restrained (save ends)
+  - type: feature
+    feature_type: trait
+    name: Allied Awareness
     icon: ⭐️
     effects:
       - effect: Allies of this object ignore the difficult terrain created by the

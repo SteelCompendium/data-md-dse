@@ -7,7 +7,7 @@ cost_resource: Piety
 distance: 3 cube within 10
 feature_type: ability
 file_basename: Saints Tempest
-file_dpath: Conduit/2nd-Level Features
+file_dpath: Abilities/Conduit/2nd-Level Features
 flavor: A raging storm appears, striking your foes with lightning and throwing them
   around with wind.
 item_id: saints-tempest-5-piety
@@ -21,14 +21,16 @@ level: 2
 scc:
 - mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:saints-tempest-5-piety
 scdc:
-- 1.1.1:13.2.8.5:01
+- 1.1.1:11.2.8.5:01
 source: mcdm.heroes.v1
 subclass: Storm
 target: Each enemy in the area
 type: feature/ability/conduit/2nd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Saint's Tempest
 cost: 5 Piety
 flavor: A raging storm appears, striking your foes with lightning and throwing
@@ -37,7 +39,7 @@ keywords:
   - Area
   - Magic
   - Ranged
-type: Main action
+usage: Main action
 distance: 3 cube within 10
 target: Each enemy in the area
 metadata:
@@ -49,7 +51,7 @@ metadata:
   distance: 3 cube within 10
   feature_type: ability
   file_basename: Saints Tempest
-  file_dpath: Conduit/2nd-Level Features
+  file_dpath: Abilities/Conduit/2nd-Level Features
   flavor: A raging storm appears, striking your foes with lightning and throwing
     them around with wind.
   item_id: saints-tempest-5-piety
@@ -63,14 +65,14 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:saints-tempest-5-piety
   scdc:
-    - 1.1.1:13.2.8.5:01
+    - 1.1.1:11.2.8.5:01
   source: mcdm.heroes.v1
   subclass: Storm
   target: Each enemy in the area
   type: feature/ability/conduit/2nd-level-feature
 effects:
   - roll: Power Roll + Intuition
-    t1: 2 lightning damage; vertical slide 1
-    t2: 5 lightning damage; vertical slide 2
-    t3: 7 lightning damage; vertical slide 3
+    tier1: 2 lightning damage; vertical slide 1
+    tier2: 5 lightning damage; vertical slide 2
+    tier3: 7 lightning damage; vertical slide 3
 ```

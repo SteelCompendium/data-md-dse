@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Kobold Legionary
 level: 1
 roles:
@@ -48,42 +49,48 @@ agility: 1
 reason: 0
 intuition: 0
 presence: 0
-traits:
-  - name: Shield? Shield!
-    effects:
-      - effect: While adjacent to an ally who also has this trait, the legionary has
-          stability 1, has cover, and grants cover to allies.
-abilities:
-  - name: Gladius
+features:
+  - type: feature
+    feature_type: ability
+    name: Gladius
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 5
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 3 damage; taunted (EoT)
-        t2: 4 damage; taunted (EoT)
-        t3: 5 damage; taunted (EoT)
-      - effect: If the legionary is acting as a captain, they and each member of their
+        tier1: 3 damage; taunted (EoT)
+        tier2: 4 damage; taunted (EoT)
+        tier3: 5 damage; taunted (EoT)
+      - cost: 3 Malice
+        effect: If the legionary is acting as a captain, they and each member of their
           squad shift up to 2 squares before this ability is used.
-        cost: 3 Malice
-  - name: Shield Bash
+  - type: feature
+    feature_type: ability
+    name: Shield Bash
     icon: 🗡
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Maneuver
+    usage: Maneuver
     distance: Melee 1
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 2 damage; push 1; M < 0 prone
-        t2: 3 damage; push 1; M < 1 prone
-        t3: 4 damage; push 1; M < 2 prone
+        tier1: 2 damage; push 1; M < 0 prone
+        tier2: 3 damage; push 1; M < 1 prone
+        tier3: 4 damage; push 1; M < 2 prone
+  - type: feature
+    feature_type: trait
+    name: Shield? Shield!
+    icon: ⭐️
+    effects:
+      - effect: While adjacent to an ally who also has this trait, the legionary has
+          stability 1, has cover, and grants cover to allies.
 ~~~

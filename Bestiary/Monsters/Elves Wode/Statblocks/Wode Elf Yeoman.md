@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Wode Elf Yeoman
 level: 1
 roles:
@@ -51,25 +52,29 @@ agility: 2
 reason: 0
 intuition: 0
 presence: 1
-traits:
-  - name: Masking Glamor
-    effects:
-      - effect: Abilities targeting the yeoman that would take a bane from cover or
-          concealment have a double bane instead.
-abilities:
-  - name: Heavy Longbow
+features:
+  - type: feature
+    feature_type: ability
+    name: Heavy Longbow
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 12
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 2 damage; push 1
-        t2: 4 damage; push 2
-        t3: 5 damage; push 3
+        tier1: 2 damage; push 1
+        tier2: 4 damage; push 2
+        tier3: 5 damage; push 3
+  - type: feature
+    feature_type: trait
+    name: Masking Glamor
+    icon: ⭐️
+    effects:
+      - effect: Abilities targeting the yeoman that would take a bane from cover or
+          concealment have a double bane instead.
 ~~~

@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Mover Eye
 level: 6
 roles:
@@ -51,25 +52,29 @@ agility: 1
 reason: 4
 intuition: 1
 presence: -1
-traits:
-  - name: Psionic Barrier
-    effects:
-      - effect: The mover eye has damage immunity 15. When they use a main action, they
-          lose this immunity until the end of the round.
-abilities:
-  - name: Telekinetic Beam
+features:
+  - type: feature
+    feature_type: ability
+    name: Telekinetic Beam
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Psionic
       - Ranged
       - Strike
-    type: Main action
+    usage: Main action
     distance: Ranged 6
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 4
-        t1: 11 damage; slide 4
-        t2: 17 damage; slide 5
-        t3: 20 damage; slide 6
+        tier1: 11 damage; slide 4
+        tier2: 17 damage; slide 5
+        tier3: 20 damage; slide 6
+  - type: feature
+    feature_type: trait
+    name: Psionic Barrier
+    icon: ⭐️
+    effects:
+      - effect: The mover eye has damage immunity 15. When they use a main action, they
+          lose this immunity until the end of the round.
 ~~~

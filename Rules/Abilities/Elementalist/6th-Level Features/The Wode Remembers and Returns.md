@@ -7,7 +7,7 @@ cost_resource: Essence
 distance: 4 burst
 feature_type: ability
 file_basename: The Wode Remembers and Returns
-file_dpath: Elementalist/6th-Level Features
+file_dpath: Abilities/Elementalist/6th-Level Features
 flavor: You create a terrarium that spans from canopy above to underbrush below.
 item_id: the-wode-remembers-and-returns-9-essence
 item_index: '03'
@@ -22,13 +22,15 @@ level: 6
 scc:
 - mcdm.heroes.v1:feature.ability.elementalist.6th-level-feature:the-wode-remembers-and-returns-9-essence
 scdc:
-- 1.1.1:13.2.9.3:03
+- 1.1.1:11.2.9.3:03
 source: mcdm.heroes.v1
 target: Special
 type: feature/ability/elementalist/6th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: The Wode Remembers and Returns
 cost: 9 Essence
 flavor: You create a terrarium that spans from canopy above to underbrush below.
@@ -38,7 +40,7 @@ keywords:
   - Green
   - Magic
   - Void
-type: Main action
+usage: Main action
 distance: 4 burst
 target: Special
 metadata:
@@ -50,7 +52,7 @@ metadata:
   distance: 4 burst
   feature_type: ability
   file_basename: The Wode Remembers and Returns
-  file_dpath: Elementalist/6th-Level Features
+  file_dpath: Abilities/Elementalist/6th-Level Features
   flavor: You create a terrarium that spans from canopy above to underbrush below.
   item_id: the-wode-remembers-and-returns-9-essence
   item_index: "03"
@@ -65,17 +67,17 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.elementalist.6th-level-feature:the-wode-remembers-and-returns-9-essence
   scdc:
-    - 1.1.1:13.2.9.3:03
+    - 1.1.1:11.2.9.3:03
   source: mcdm.heroes.v1
   target: Special
   type: feature/ability/elementalist/6th-level-feature
 effects:
-  - effect: The area becomes dark and verdant, with trees and plant life appearing
+  - name: Effect
+    effect: The area becomes dark and verdant, with trees and plant life appearing
       in unoccupied spaces within it until the start of your next turn. The area
       is difficult terrain for enemies, and any ally who ends their turn in the
       area has cover.
-    name: Effect
-  - effect: The area remains until the start of your next turn. Additionally, at the
+  - name: Persistent 2
+    effect: The area remains until the start of your next turn. Additionally, at the
       start of your turn, each ally in the area can spend a Recovery.
-    name: Persistent 2
 ```

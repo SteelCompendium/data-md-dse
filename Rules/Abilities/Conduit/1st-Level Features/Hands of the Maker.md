@@ -15,19 +15,21 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:hands-of-the-maker
 scdc:
-- 1.1.1:13.2.8.1:15
+- 1.1.1:11.2.8.1:15
 source: mcdm.heroes.v1
 subclass: Creation
 target: Self
 type: feature/ability/conduit/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Hands of the Maker
 flavor: You craft objects with the power of your mind.
 keywords:
   - Magic
-type: Maneuver
+usage: Maneuver
 distance: Self
 target: Self
 metadata:
@@ -47,15 +49,15 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:hands-of-the-maker
   scdc:
-    - 1.1.1:13.2.8.1:15
+    - 1.1.1:11.2.8.1:15
   source: mcdm.heroes.v1
   subclass: Creation
   target: Self
   type: feature/ability/conduit/1st-level-feature
 effects:
-  - effect: You create a mundane object of size 1S or smaller. You can maintain a
+  - name: Effect
+    effect: You create a mundane object of size 1S or smaller. You can maintain a
       number of objects created this way equal to your Intuition score. You can
       destroy an object created this way with a thought, no matter how far you
       are from it (no action required).
-    name: Effect
 ```

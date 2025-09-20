@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Soot Crow
 level: 1
 roles:
@@ -50,24 +51,25 @@ agility: 2
 reason: 0
 intuition: 0
 presence: 1
-traits: []
-abilities:
-  - name: Heckle
+features:
+  - type: feature
+    feature_type: ability
+    name: Heckle
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 1 damage
-        t2: 2 damage
-        t3: 3 damage; taunted (EoT)
-      - effect: Until the end of their turn, the soot crow ignores opportunity attacks
+        tier1: 1 damage
+        tier2: 2 damage
+        tier3: 3 damage; taunted (EoT)
+      - name: Effect
+        effect: Until the end of their turn, the soot crow ignores opportunity attacks
           from the target.
-        name: Effect
 ~~~

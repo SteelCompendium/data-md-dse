@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Dwarf Reel Winch
 level: 1
 roles:
@@ -48,45 +49,51 @@ agility: 2
 reason: 0
 intuition: 1
 presence: 0
-traits:
-  - name: We Have a Quota!
-    effects:
-      - effect: If a target made slowed by the reel winch is already grabbed or slowed,
-          the grabbed and slowed conditions end and the target is restrained
-          (save ends).
-abilities:
-  - name: Snaring Crossbow
+features:
+  - type: feature
+    feature_type: ability
+    name: Snaring Crossbow
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 10
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 5 damage; M < 0 slowed (save ends)
-        t2: 7 damage; M < 1 slowed (save ends)
-        t3: 9 damage; M < 2 slowed (save ends)
-      - effect: The target is pulled up to 5 squares. A target restrained by a dwarf can
+        tier1: 5 damage; M < 0 slowed (save ends)
+        tier2: 7 damage; M < 1 slowed (save ends)
+        tier3: 9 damage; M < 2 slowed (save ends)
+      - name: Effect
+        effect: The target is pulled up to 5 squares. A target restrained by a dwarf can
           be force moved by this ability. This forced movement doesn't end the
           restrained condition unless the Director determines otherwise.
-        name: Effect
-  - name: Reel Them In
+  - type: feature
+    feature_type: ability
+    name: Reel Them In
     icon: 🏹
     cost: 3 Malice
     keywords:
       - Ranged
       - Weapon
-    type: Maneuver
+    usage: Maneuver
     distance: Ranged 10
     target: Three creatures
     effects:
-      - effect: The target is pulled up to 8 squares. A restrained or slowed target can
+      - name: Effect
+        effect: The target is pulled up to 8 squares. A restrained or slowed target can
           be pulled an additional 2 squares. A target restrained by a dwarf can
           be force moved by this ability. This forced movement doesn't end the
           restrained condition unless the Director determines otherwise.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: We Have a Quota!
+    icon: ⭐️
+    effects:
+      - effect: If a target made slowed by the reel winch is already grabbed or slowed,
+          the grabbed and slowed conditions end and the target is restrained
+          (save ends).
 ~~~

@@ -7,7 +7,7 @@ cost_resource: Piety
 distance: 15 wall within 10
 feature_type: ability
 file_basename: Righteous Phalanx
-file_dpath: Conduit/9th-Level Features
+file_dpath: Abilities/Conduit/9th-Level Features
 flavor: A wall of spinning swords and knives appears where you wish.
 item_id: righteous-phalanx-11-piety
 item_index: 09
@@ -20,14 +20,16 @@ level: 9
 scc:
 - mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:righteous-phalanx-11-piety
 scdc:
-- 1.1.1:13.2.8.7:09
+- 1.1.1:11.2.8.7:09
 source: mcdm.heroes.v1
 subclass: War
 target: Special
 type: feature/ability/conduit/9th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Righteous Phalanx
 cost: 11 Piety
 flavor: A wall of spinning swords and knives appears where you wish.
@@ -35,7 +37,7 @@ keywords:
   - Area
   - Magic
   - Ranged
-type: Main action
+usage: Main action
 distance: 15 wall within 10
 target: Special
 metadata:
@@ -47,7 +49,7 @@ metadata:
   distance: 15 wall within 10
   feature_type: ability
   file_basename: Righteous Phalanx
-  file_dpath: Conduit/9th-Level Features
+  file_dpath: Abilities/Conduit/9th-Level Features
   flavor: A wall of spinning swords and knives appears where you wish.
   item_id: righteous-phalanx-11-piety
   item_index: 9
@@ -60,15 +62,15 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:righteous-phalanx-11-piety
   scdc:
-    - 1.1.1:13.2.8.7:09
+    - 1.1.1:11.2.8.7:09
   source: mcdm.heroes.v1
   subclass: War
   target: Special
   type: feature/ability/conduit/9th-level-feature
 effects:
-  - effect: The wall lasts until the end of the encounter or until you are dying,
+  - name: Effect
+    effect: The wall lasts until the end of the encounter or until you are dying,
       and can be placed in occupied squares. Creatures can enter and pass
       through the wall. Each enemy who enters the area for the first time in a
       combat round or starts their turn there takes 15 damage.
-    name: Effect
 ```

@@ -4,7 +4,7 @@ class: troubadour
 distance: 5 aura
 feature_type: ability
 file_basename: Take Two
-file_dpath: Troubadour/5th-Level Features
+file_dpath: Abilities/Troubadour/5th-Level Features
 flavor: One more, and this time make it interesting.
 item_id: take-two
 item_index: '04'
@@ -17,21 +17,23 @@ level: 5
 scc:
 - mcdm.heroes.v1:feature.ability.troubadour.5th-level-feature:take-two
 scdc:
-- 1.1.1:13.2.3.4:04
+- 1.1.1:11.2.3.4:04
 source: mcdm.heroes.v1
 subclass: Auteur
 target: Self and each ally in the area
 type: feature/ability/troubadour/5th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Take Two!
 flavor: One more, and this time make it interesting.
 keywords:
   - Area
   - Magic
   - Performance
-type: No action
+usage: No action
 distance: 5 aura
 target: Self and each ally in the area
 metadata:
@@ -40,7 +42,7 @@ metadata:
   distance: 5 aura
   feature_type: ability
   file_basename: Take Two
-  file_dpath: Troubadour/5th-Level Features
+  file_dpath: Abilities/Troubadour/5th-Level Features
   flavor: One more, and this time make it interesting.
   item_id: take-two
   item_index: "04"
@@ -53,14 +55,14 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.troubadour.5th-level-feature:take-two
   scdc:
-    - 1.1.1:13.2.3.4:04
+    - 1.1.1:11.2.3.4:04
   source: mcdm.heroes.v1
   subclass: Auteur
   target: Self and each ally in the area
   type: feature/ability/troubadour/5th-level-feature
 effects:
-  - effect: While this performance is active, each target who starts their turn in
+  - name: Effect
+    effect: While this performance is active, each target who starts their turn in
       the area can reroll the first power roll that turn that obtains a tier 2
       outcome. They must use the new roll.
-    name: Effect
 ```

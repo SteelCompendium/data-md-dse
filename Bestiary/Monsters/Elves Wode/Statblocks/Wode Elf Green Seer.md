@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Wode Elf Green Seer
 level: 1
 roles:
@@ -50,58 +51,66 @@ agility: 1
 reason: 0
 intuition: 2
 presence: 1
-traits:
-  - name: Masking Glamor
-    effects:
-      - effect: Abilities targeting the green seer that would take a bane from cover or
-          concealment have a double bane instead.
-abilities:
-  - name: The Forest's Embrace
+features:
+  - type: feature
+    feature_type: ability
+    name: The Forest's Embrace
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Ranged
       - Strike
-    type: Main action
+    usage: Main action
     distance: Ranged 10
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 5 damage
-        t2: 7 damage; I < 1 restrained (save ends)
-        t3: 9 damage; I < 2 restrained (save ends)
-      - effect: While restrained this way, a target can't search for hidden creatures.
-        name: Effect
-  - name: The Natural Cycle
+        tier1: 5 damage
+        tier2: 7 damage; I < 1 restrained (save ends)
+        tier3: 9 damage; I < 2 restrained (save ends)
+      - name: Effect
+        effect: While restrained this way, a target can't search for hidden creatures.
+  - type: feature
+    feature_type: ability
+    name: The Natural Cycle
     icon: 🏹
     cost: 3 Malice
     keywords:
       - Magic
       - Ranged
       - Strike
-    type: Maneuver
+    usage: Maneuver
     distance: Ranged 10
     target: Two creatures
     effects:
       - roll: Power Roll + 2
-        t1: 2 damage
-        t2: 4 damage; P < 1 weakened (save ends)
-        t3: 6 damage; P < 1 bleeding (save ends); the target has a double bane on
+        tier1: 2 damage
+        tier2: 4 damage; P < 1 weakened (save ends)
+        tier3: 6 damage; P < 1 bleeding (save ends); the target has a double bane on
           strikes (save ends)
-      - effect: While bleeding or weakened this way, a target is covered in lichen.
-        name: Effect
-  - name: Foreseen Punishment
+      - name: Effect
+        effect: While bleeding or weakened this way, a target is covered in lichen.
+  - type: feature
+    feature_type: ability
+    name: Foreseen Punishment
     icon: ❗️
     keywords:
       - Ranged
-    type: Free triggered action
+    usage: Free triggered action
     distance: Ranged 5
     target: The triggering creature
     trigger: A creature uses a triggered action targeting the green seer or an ally
       within distance.
     effects:
-      - effect: The green seer makes a free strike against the target after the target's
+      - name: Effect
+        effect: The green seer makes a free strike against the target after the target's
           triggered action is resolved.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Masking Glamor
+    icon: ⭐️
+    effects:
+      - effect: Abilities targeting the green seer that would take a bane from cover or
+          concealment have a double bane instead.
 ~~~

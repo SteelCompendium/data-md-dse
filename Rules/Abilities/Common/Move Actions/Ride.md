@@ -13,7 +13,9 @@ source: mcdm.heroes.v1
 type: common-ability/move-action
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: trait
 name: Ride
 metadata:
   class: combat

@@ -1,4 +1,5 @@
 ---
+ability_type: Signature
 action_type: Main action
 class: ignored
 distance: Melee 2
@@ -13,7 +14,6 @@ keywords:
 - Melee
 - Strike
 - Weapon
-kit: Retiarius
 scc:
 - mcdm.heroes.v1:kit-ability.retiarius:net-and-stab
 scdc:
@@ -23,7 +23,9 @@ target: One creature
 type: kit-ability/retiarius
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Net and Stab
 flavor: The well-thrown net that follows your main attack leaves your foes right
   where you want them.
@@ -31,10 +33,11 @@ keywords:
   - Melee
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 2
 target: One creature
 metadata:
+  ability_type: Signature
   action_type: Main action
   class: ignored
   distance: Melee 2
@@ -49,7 +52,6 @@ metadata:
     - Melee
     - Strike
     - Weapon
-  kit: Retiarius
   scc:
     - mcdm.heroes.v1:kit-ability.retiarius:net-and-stab
   scdc:
@@ -59,7 +61,7 @@ metadata:
   type: kit-ability/retiarius
 effects:
   - roll: Power Roll + Might or Agility
-    t1: 4 + M or A damage; A < WEAK, slowed (EoT)
-    t2: 6 + M or A damage; A < AVERAGE, slowed (EoT)
-    t3: 8 + M or A damage; A < STRONG, restrained (EoT)
+    tier1: 4 + M or A damage; A < WEAK, slowed (EoT)
+    tier2: 6 + M or A damage; A < AVERAGE, slowed (EoT)
+    tier3: 8 + M or A damage; A < STRONG, restrained (EoT)
 ```

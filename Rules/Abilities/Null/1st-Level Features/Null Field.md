@@ -4,7 +4,7 @@ class: 'null'
 distance: 1 aura
 feature_type: ability
 file_basename: Null Field
-file_dpath: Null/1st-Level Features
+file_dpath: Abilities/Null/1st-Level Features
 flavor: You project an aura that dampens the power of your foes.
 item_id: null-field
 item_index: '11'
@@ -16,19 +16,21 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.null.1st-level-feature:null-field
 scdc:
-- 1.1.1:13.2.6.1:11
+- 1.1.1:11.2.6.1:11
 source: mcdm.heroes.v1
 target: Each enemy in the area
 type: feature/ability/null/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Null Field
 flavor: You project an aura that dampens the power of your foes.
 keywords:
   - Area
   - Psionic
-type: Maneuver
+usage: Maneuver
 distance: 1 aura
 target: Each enemy in the area
 metadata:
@@ -37,7 +39,7 @@ metadata:
   distance: 1 aura
   feature_type: ability
   file_basename: Null Field
-  file_dpath: Null/1st-Level Features
+  file_dpath: Abilities/Null/1st-Level Features
   flavor: You project an aura that dampens the power of your foes.
   item_id: null-field
   item_index: "11"
@@ -49,12 +51,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.null.1st-level-feature:null-field
   scdc:
-    - 1.1.1:13.2.6.1:11
+    - 1.1.1:11.2.6.1:11
   source: mcdm.heroes.v1
   target: Each enemy in the area
   type: feature/ability/null/1st-level-feature
 effects:
-  - effect: >-
+  - name: Effect
+    effect: >-
       Each target reduces their potencies by 1.
 
       Once as a free maneuver on each of your turns, you can spend 1 discipline
@@ -72,5 +75,4 @@ effects:
 
       This ability remains active even after an encounter ends. It ends only if
       you are dying or if you willingly end it (no action required).
-    name: Effect
 ```

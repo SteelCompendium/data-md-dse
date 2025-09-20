@@ -13,18 +13,23 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Malice Features
 name: Thorn Dragon Malice
-type: Malice Features
 flavor: At the start of a thorn dragon's turn, you can spend Malice to activate
   one of the following features.
 features:
-  - name: Cage of Thorns
+  - type: feature
+    feature_type: trait
+    name: Cage of Thorns
     icon: ⭐️
     cost: 3 Malice
     effects:
       - effect: A cage of thorns grows around one dragonsealed enemy on the encounter
           map, making that enemy restrained until the end of their next turn.
-  - name: Bramble Barricade
+  - type: feature
+    feature_type: trait
+    name: Bramble Barricade
     icon: 🔳
     cost: 5 Malice
     effects:
@@ -35,19 +40,23 @@ features:
           who is force moved into or within the area takes 1 damage for each
           square of the area entered and is bleeding until the end of their next
           turn.
-  - name: Solo Action
+  - type: feature
+    feature_type: trait
+    name: Solo Action
     icon: ☠️
     cost: 5 Malice
     effects:
       - effect: The dragon takes an additional main action on their turn. They can use
           this feature even if they are dazed.
-  - name: Afflictive Overgrowth
+  - type: feature
+    feature_type: trait
+    name: Afflictive Overgrowth
     icon: 🌀
     cost: 7 Malice
     effects:
       - effect: The dragon summons poisonous, biting thorns around their foes. Each
           enemy on the encounter map makes an **Agility test**.
-        t1: 12 poison damage; restrained (save ends)
-        t2: 9 poison damage; bleeding (save ends)
-        t3: 5 poison damage; bleeding (EoT)
+        tier1: 12 poison damage; restrained (save ends)
+        tier2: 9 poison damage; bleeding (save ends)
+        tier3: 5 poison damage; bleeding (EoT)
 ~~~

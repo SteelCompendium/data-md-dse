@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Ogre Blue Blood
 level: 7
 roles:
@@ -49,31 +50,38 @@ agility: 1
 reason: -1
 intuition: 0
 presence: 2
-traits:
-  - name: In My Stead
-    effects:
-      - effect: Whenever the blue blood would make a free strike, an ally within 5
-          squares can make a free strike instead.
-  - name: Royal Anger
-    effects:
-      - effect: The blue blood has damage immunity 2 while their squad has three or
-          fewer minions in it.
-abilities:
-  - name: Crush Underfoot
+features:
+  - type: feature
+    feature_type: ability
+    name: Crush Underfoot
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 2
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 4
-        t1: 4 damage
-        t2: 7 damage; M < 3 prone
-        t3: 8 damage; prone
-      - effect: A target who is already prone takes an extra 4 damage.
-        name: Effect
+        tier1: 4 damage
+        tier2: 7 damage; M < 3 prone
+        tier3: 8 damage; prone
+      - name: Effect
+        effect: A target who is already prone takes an extra 4 damage.
+  - type: feature
+    feature_type: trait
+    name: In My Stead
+    icon: ⭐️
+    effects:
+      - effect: Whenever the blue blood would make a free strike, an ally within 5
+          squares can make a free strike instead.
+  - type: feature
+    feature_type: trait
+    name: Royal Anger
+    icon: ⭐️
+    effects:
+      - effect: The blue blood has damage immunity 2 while their squad has three or
+          fewer minions in it.
 ~~~

@@ -7,7 +7,7 @@ cost_resource: Wrath
 distance: Ranged 10
 feature_type: ability
 file_basename: Hand of the Gods
-file_dpath: Censor/8th-Level Features
+file_dpath: Abilities/Censor/8th-Level Features
 flavor: You use your foe as a tool against your enemies.
 item_id: hand-of-the-gods-11-wrath
 item_index: '02'
@@ -20,13 +20,15 @@ level: 8
 scc:
 - mcdm.heroes.v1:feature.ability.censor.8th-level-feature:hand-of-the-gods-11-wrath
 scdc:
-- 1.1.1:13.2.7.2:02
+- 1.1.1:11.2.7.2:02
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/censor/8th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Hand of the Gods
 cost: 11 Wrath
 flavor: You use your foe as a tool against your enemies.
@@ -34,7 +36,7 @@ keywords:
   - Ranged
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: One creature
 metadata:
@@ -46,7 +48,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Hand of the Gods
-  file_dpath: Censor/8th-Level Features
+  file_dpath: Abilities/Censor/8th-Level Features
   flavor: You use your foe as a tool against your enemies.
   item_id: hand-of-the-gods-11-wrath
   item_index: "02"
@@ -59,17 +61,17 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.censor.8th-level-feature:hand-of-the-gods-11-wrath
   scdc:
-    - 1.1.1:13.2.7.2:02
+    - 1.1.1:11.2.7.2:02
   source: mcdm.heroes.v1
   target: One creature
   type: feature/ability/censor/8th-level-feature
 effects:
   - roll: Power Roll + Might
-    t1: 10 + M damage
-    t2: 15 + M damage
-    t3: 21 + M damage
-  - effect: Until the end of the encounter, while the target is judged by you, you
+    tier1: 10 + M damage
+    tier2: 15 + M damage
+    tier3: 21 + M damage
+  - name: Effect
+    effect: Until the end of the encounter, while the target is judged by you, you
       can choose to make them the source of any of your abilities. Additionally,
       the target counts as an ally for the purpose of flanking.
-    name: Effect
 ```

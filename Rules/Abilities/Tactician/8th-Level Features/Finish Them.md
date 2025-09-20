@@ -7,7 +7,7 @@ cost_resource: Focus
 distance: Ranged 10
 feature_type: ability
 file_basename: Finish Them
-file_dpath: Tactician/8th-Level Features
+file_dpath: Abilities/Tactician/8th-Level Features
 flavor: You point out an opening to your ally so they can land a killing blow.
 item_id: finish-them-11-focus
 item_index: '04'
@@ -18,19 +18,21 @@ level: 8
 scc:
 - mcdm.heroes.v1:feature.ability.tactician.8th-level-feature:finish-them-11-focus
 scdc:
-- 1.1.1:13.2.4.2:04
+- 1.1.1:11.2.4.2:04
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/tactician/8th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Finish Them!
 cost: 11 Focus
 flavor: You point out an opening to your ally so they can land a killing blow.
 keywords:
   - Ranged
-type: Free triggered
+usage: Free triggered
 distance: Ranged 10
 target: One creature
 trigger: The target is not a leader or solo creature, and becomes winded.
@@ -43,7 +45,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Finish Them
-  file_dpath: Tactician/8th-Level Features
+  file_dpath: Abilities/Tactician/8th-Level Features
   flavor: You point out an opening to your ally so they can land a killing blow.
   item_id: finish-them-11-focus
   item_index: "04"
@@ -54,12 +56,12 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.tactician.8th-level-feature:finish-them-11-focus
   scdc:
-    - 1.1.1:13.2.4.2:04
+    - 1.1.1:11.2.4.2:04
   source: mcdm.heroes.v1
   target: One creature
   type: feature/ability/tactician/8th-level-feature
 effects:
-  - effect: The target is killed. Additionally, the creature who caused the target
+  - name: Effect
+    effect: The target is killed. Additionally, the creature who caused the target
       to be winded can spend a Recovery.
-    name: Effect
 ```

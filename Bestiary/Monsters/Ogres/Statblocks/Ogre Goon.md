@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Ogre Goon
 level: 2
 roles:
@@ -48,53 +49,55 @@ agility: 0
 reason: -1
 intuition: 0
 presence: -1
-traits:
-  - name: Defiant Anger
-    effects:
-      - effect: While winded, the goon has damage immunity 2.
-abilities:
-  - name: Club Swing
+features:
+  - type: feature
+    feature_type: ability
+    name: Club Swing
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 2
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 2
-        t1: 7 damage; push 2
-        t2: 11 damage; push 4
-        t3: 14 damage; push 6, prone
-      - effect: Any target who takes damage from this forced movement takes an extra 4
+        tier1: 7 damage; push 2
+        tier2: 11 damage; push 4
+        tier3: 14 damage; push 6, prone
+      - name: Effect
+        effect: Any target who takes damage from this forced movement takes an extra 4
           damage.
-        name: Effect
-  - name: Grabby Hand
+  - type: feature
+    feature_type: ability
+    name: Grabby Hand
     icon: 🗡
     cost: 1 Malice
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Maneuver
+    usage: Maneuver
     distance: Melee 1
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 7 damage
-        t2: 11 damage; grabbed
-        t3: 14 damage; grabbed
-      - effect: A target grabbed this way takes a bane on the Escape Grab maneuver.
-        name: Effect
-  - name: People Bowling
+        tier1: 7 damage
+        tier2: 11 damage; grabbed
+        tier3: 14 damage; grabbed
+      - name: Effect
+        effect: A target grabbed this way takes a bane on the Escape Grab maneuver.
+  - type: feature
+    feature_type: ability
+    name: People Bowling
     icon: 🔳
     cost: 3 Malice
     keywords:
       - Area
       - Weapon
-    type: Maneuver
+    usage: Maneuver
     distance: 6 x 1 line within 1
     target: Each creature and object in the area
     effects:
@@ -104,18 +107,26 @@ abilities:
           targeted by the ability, and lands in the last square of the line or
           the nearest unoccupied square of the goon's choice.
       - roll: Power Roll + 2
-        t1: 5 damage
-        t2: 9 damage
-        t3: 12 damage; prone
-  - name: Swat the Fly
+        tier1: 5 damage
+        tier2: 9 damage
+        tier3: 12 damage; prone
+  - type: feature
+    feature_type: ability
+    name: Swat the Fly
     icon: ❗️
     keywords:
       - Melee
-    type: Triggered action
+    usage: Triggered action
     distance: Melee 1
     target: The triggering creature or object
     trigger: A creature or object within distance moves or shifts away from the goon.
     effects:
-      - effect: The goon slides the target up to 5 squares
-        name: Effect
+      - name: Effect
+        effect: The goon slides the target up to 5 squares
+  - type: feature
+    feature_type: trait
+    name: Defiant Anger
+    icon: ⭐️
+    effects:
+      - effect: While winded, the goon has damage immunity 2.
 ~~~

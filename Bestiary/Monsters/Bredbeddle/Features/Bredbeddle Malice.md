@@ -13,19 +13,24 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Malice Features
 name: Bredbeddle Malice
-type: Malice Features
 flavor: At the start of a bredbeddle's turn, you can spend Malice to activate
   one of the following features.
 features:
-  - name: Engreen
+  - type: feature
+    feature_type: trait
+    name: Engreen
     icon: ⭐️
     cost: 3 Malice
     effects:
       - effect: The bredbeddle's axe lengthens and turns a ghastly green, granting a +1
           bonus to the distance of the bredbeddle's melee strikes and the
           dimensions of their burst area abilities until the end of their turn.
-  - name: Shadow Stockade
+  - type: feature
+    feature_type: trait
+    name: Shadow Stockade
     icon: 🔳
     cost: 5 Malice
     effects:
@@ -35,13 +40,17 @@ features:
           When a restrained creature is no longer restrained, the stockade fades
           away. At the start of each of the bredbeddle's turns, they can slide
           an active stockade and any creature in it up to 5 squares.
-  - name: Solo Action
+  - type: feature
+    feature_type: trait
+    name: Solo Action
     icon: ☠️
     cost: 5 Malice
     effects:
       - effect: The bredbeddle takes an additional main action on their turn. They can
           use this feature even if they are dazed.
-  - name: Green Phantom
+  - type: feature
+    feature_type: trait
+    name: Green Phantom
     icon: 🌀
     cost: 7 Malice
     effects:

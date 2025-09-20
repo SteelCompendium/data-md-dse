@@ -29,6 +29,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Predator A
 level: 1
 roles:
@@ -46,50 +47,58 @@ agility: 2
 reason: -2
 intuition: 1
 presence: 1
-traits:
-  - name: Nature's Spirit
-    effects:
-      - effect: While outdoors or in a natural environment, the predator can negate a
-          bane on their abilities or turn a double bane into a bane.
-abilities:
-  - name: Natural Weapon
+features:
+  - type: feature
+    feature_type: ability
+    name: Natural Weapon
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 2
-        t1: 7 damage
-        t2: 10 damage; M < 1 prone
-        t3: 13 damage; M < 2 prone
-  - name: Ready to Strike
+        tier1: 7 damage
+        tier2: 10 damage; M < 1 prone
+        tier3: 13 damage; M < 2 prone
+  - type: feature
+    feature_type: ability
+    name: Ready to Strike
     icon: 👤
     keywords:
       - "-"
-    type: Maneuver
+    usage: Maneuver
     distance: Self
     target: Self
     effects:
-      - effect: The predator assesses their environment or lets loose a threatening roar
+      - name: Effect
+        effect: The predator assesses their environment or lets loose a threatening roar
           and gains an edge on their next strike.
-        name: Effect
-  - name: Quick Strike
+  - type: feature
+    feature_type: ability
+    name: Quick Strike
     icon: ❗️
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Triggered action
+    usage: Triggered action
     distance: Melee 1
     target: The triggering creature or object
     trigger: A creature or object comes within distance.
     effects:
-      - effect: The predator makes a free strike against the target. If the predator was
+      - name: Effect
+        effect: The predator makes a free strike against the target. If the predator was
           hidden from the target, the strike deals an extra 3 damage.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Nature's Spirit
+    icon: ⭐️
+    effects:
+      - effect: While outdoors or in a natural environment, the predator can negate a
+          bane on their abilities or turn a double bane into a bane.
 ~~~

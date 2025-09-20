@@ -7,7 +7,7 @@ cost_resource: Insight
 distance: Ranged 5
 feature_type: ability
 file_basename: Pinning Shot
-file_dpath: Shadow/3rd-Level Features
+file_dpath: Abilities/Shadow/3rd-Level Features
 flavor: One missile—placed well and placed hard.
 item_id: pinning-shot-7-insight
 item_index: '02'
@@ -20,13 +20,15 @@ level: 3
 scc:
 - mcdm.heroes.v1:feature.ability.shadow.3rd-level-feature:pinning-shot-7-insight
 scdc:
-- 1.1.1:13.2.2.6:02
+- 1.1.1:11.2.2.6:02
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/shadow/3rd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Pinning Shot
 cost: 7 Insight
 flavor: One missile—placed well and placed hard.
@@ -34,7 +36,7 @@ keywords:
   - Ranged
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Ranged 5
 target: One creature
 metadata:
@@ -46,7 +48,7 @@ metadata:
   distance: Ranged 5
   feature_type: ability
   file_basename: Pinning Shot
-  file_dpath: Shadow/3rd-Level Features
+  file_dpath: Abilities/Shadow/3rd-Level Features
   flavor: One missile—placed well and placed hard.
   item_id: pinning-shot-7-insight
   item_index: "02"
@@ -59,13 +61,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.shadow.3rd-level-feature:pinning-shot-7-insight
   scdc:
-    - 1.1.1:13.2.2.6:02
+    - 1.1.1:11.2.2.6:02
   source: mcdm.heroes.v1
   target: One creature
   type: feature/ability/shadow/3rd-level-feature
 effects:
   - roll: Power Roll + Agility
-    t1: 8 + A damage; A < WEAK, restrained (save ends)
-    t2: 12 + A damage; A < AVERAGE, restrained (save ends)
-    t3: 16 + A damage; A < STRONG, restrained (save ends)
+    tier1: 8 + A damage; A < WEAK, restrained (save ends)
+    tier2: 12 + A damage; A < AVERAGE, restrained (save ends)
+    tier3: 16 + A damage; A < STRONG, restrained (save ends)
 ```

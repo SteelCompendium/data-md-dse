@@ -7,7 +7,7 @@ cost_resource: Essence
 distance: 3 cube within 10
 feature_type: ability
 file_basename: Behold the Mystery
-file_dpath: Elementalist/1st-Level Features
+file_dpath: Abilities/Elementalist/1st-Level Features
 flavor: You open a rift into the void to harry your foes.
 item_id: behold-the-mystery-3-essence
 item_index: '17'
@@ -21,13 +21,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:behold-the-mystery-3-essence
 scdc:
-- 1.1.1:13.2.9.1:17
+- 1.1.1:11.2.9.1:17
 source: mcdm.heroes.v1
 target: Each enemy in the area
 type: feature/ability/elementalist/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Behold the Mystery
 cost: 3 Essence
 flavor: You open a rift into the void to harry your foes.
@@ -36,7 +38,7 @@ keywords:
   - Magic
   - Ranged
   - Void
-type: Main action
+usage: Main action
 distance: 3 cube within 10
 target: Each enemy in the area
 metadata:
@@ -48,7 +50,7 @@ metadata:
   distance: 3 cube within 10
   feature_type: ability
   file_basename: Behold the Mystery
-  file_dpath: Elementalist/1st-Level Features
+  file_dpath: Abilities/Elementalist/1st-Level Features
   flavor: You open a rift into the void to harry your foes.
   item_id: behold-the-mystery-3-essence
   item_index: "17"
@@ -62,16 +64,16 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:behold-the-mystery-3-essence
   scdc:
-    - 1.1.1:13.2.9.1:17
+    - 1.1.1:11.2.9.1:17
   source: mcdm.heroes.v1
   target: Each enemy in the area
   type: feature/ability/elementalist/1st-level-feature
 effects:
   - roll: Power Roll + Reason
-    t1: 2 psychic damage
-    t2: 4 psychic damage
-    t3: 6 psychic damage
-  - effect: At the start of your turn, you can use a maneuver to use this ability
+    tier1: 2 psychic damage
+    tier2: 4 psychic damage
+    tier3: 6 psychic damage
+  - name: Persistent 1
+    effect: At the start of your turn, you can use a maneuver to use this ability
       again without spending essence.
-    name: Persistent 1
 ```

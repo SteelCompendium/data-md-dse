@@ -7,7 +7,7 @@ cost_resource: Ferocity
 distance: Melee 1
 feature_type: ability
 file_basename: To Stone
-file_dpath: Fury/5th-Level Features
+file_dpath: Abilities/Fury/5th-Level Features
 flavor: You channel the Primordial Chaos into blows that petrify your foe... literally.
 item_id: to-stone-9-ferocity
 item_index: '03'
@@ -21,13 +21,15 @@ level: 5
 scc:
 - mcdm.heroes.v1:feature.ability.fury.5th-level-feature:to-stone-9-ferocity
 scdc:
-- 1.1.1:13.2.5.4:03
+- 1.1.1:11.2.5.4:03
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/fury/5th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: To Stone!
 cost: 9 Ferocity
 flavor: You channel the Primordial Chaos into blows that petrify your foe... literally.
@@ -36,7 +38,7 @@ keywords:
   - Melee
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1
 target: One creature
 metadata:
@@ -48,7 +50,7 @@ metadata:
   distance: Melee 1
   feature_type: ability
   file_basename: To Stone
-  file_dpath: Fury/5th-Level Features
+  file_dpath: Abilities/Fury/5th-Level Features
   flavor: You channel the Primordial Chaos into blows that petrify your foe...
     literally.
   item_id: to-stone-9-ferocity
@@ -63,19 +65,19 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.fury.5th-level-feature:to-stone-9-ferocity
   scdc:
-    - 1.1.1:13.2.5.4:03
+    - 1.1.1:11.2.5.4:03
   source: mcdm.heroes.v1
   target: One creature
   type: feature/ability/fury/5th-level-feature
 effects:
   - roll: Power Roll + Might
-    t1: 9 + M damage; M < WEAK, slowed (save ends)
-    t2: 13 + M damage; M < AVERAGE, slowed (save ends)
-    t3: 18 + M damage; M < STRONG, restrained (save ends)
-  - effect: While the target is slowed this way, any other effect that would make
+    tier1: 9 + M damage; M < WEAK, slowed (save ends)
+    tier2: 13 + M damage; M < AVERAGE, slowed (save ends)
+    tier3: 18 + M damage; M < STRONG, restrained (save ends)
+  - name: Effect
+    effect: While the target is slowed this way, any other effect that would make
       the target slowed instead makes them restrained by this ability.
       Additionally, a creature who fails the saving throw while restrained this
       way is petrified until they are given a supernatural cure or you choose to
       reverse the effect (no action required).
-    name: Effect
 ```

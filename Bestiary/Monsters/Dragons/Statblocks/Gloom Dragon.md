@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Gloom Dragon
 level: 4
 roles:
@@ -51,49 +52,200 @@ agility: 4
 reason: 1
 intuition: 3
 presence: 4
-traits:
-  - name: Solo Monster
+features:
+  - type: feature
+    feature_type: trait
+    name: Solo Monster
+    icon: ☠️
     effects:
-      - effect: At the end of each of their turns, the dragon can take 10 damage to end
+      - name: End Effect
+        effect: At the end of each of their turns, the dragon can take 10 damage to end
           one effect on them that can be ended by a saving throw. This damage
           can't be reduced in any way.
-        name: End Effect
-      - effect: The dragon can take two turns each round. They can't take turns
+      - name: Solo Turns
+        effect: The dragon can take two turns each round. They can't take turns
           consecutively.
-        name: Solo Turns
-  - name: Gloaming Wyrmscale Aura
+  - type: feature
+    feature_type: trait
+    name: Gloaming Wyrmscale Aura
+    icon: ❇️
     effects:
       - effect: The dragon's scales create a 3 aura of dark supernatural fog around them
           that feeds on their victims' fears and provides concealment to the
           dragon only. Each enemy who starts their turn in the area takes 2
           psychic damage. Additionally, whenever one or more enemies is in the
           area, the dragon's abilities deal an extra 3 psychic damage.
-  - name: Shadow Skulk
+  - type: feature
+    feature_type: ability
+    name: Breath of Brume
+    icon: 🔳
+    ability_type: Signature Ability
+    keywords:
+      - Area
+      - Magic
+      - Ranged
+    usage: Main action
+    distance: 4 cube within 10
+    target: Each enemy and object in the area
+    effects:
+      - name: Effect
+        effect: Each target makes an **Agility test**.
+        tier1: 14 cold damage; the target is dragonsealed (save ends)
+        tier2: 11 cold damage; the target is dragonsealed (save ends)
+        tier3: 6 cold damage
+      - effect: A dragonsealed creature has psychic weakness 3 and cold weakness 3.
+          Additionally, the area is filled with magical darkness. The dragon
+          ignores concealment created by this darkness.
+  - type: feature
+    feature_type: ability
+    name: Phantom Tail Swing
+    icon: 🗡
+    keywords:
+      - Charge
+      - Magic
+      - Melee
+      - Strike
+    usage: Main action
+    distance: Melee 3
+    target: Two creatures or objects
+    effects:
+      - roll: Power Roll + 4
+        tier1: 10 psychic damage; pull 2
+        tier2: 15 psychic damage; pull 4
+        tier3: 18 psychic damage; pull 6
+      - cost: 3 Malice
+        effect: The pull becomes a vertical slide.
+  - type: feature
+    feature_type: trait
+    name: Shadow Skulk
+    icon: ⭐️
     effects:
       - effect: Once per turn, the dragon can shift up to their speed, leaving behind a
           4 cube area of magical darkness in their starting space that lasts
           until the end of the encounter. The dragon ignores concealment created
           by this darkness. Any enemy who ends their turn in the area and has I
           < 3 is frightened of the dragon until the end of their next turn.
-  - name: Dread and Terror
+  - type: feature
+    feature_type: ability
+    name: Visions in the Dark
+    icon: ❇️
+    cost: 5 Malice
+    keywords:
+      - Area
+      - Magic
+    usage: Maneuver
+    distance: 10 burst
+    target: Each enemy in the area
+    effects:
+      - name: Effect
+        effect: Each target must be dragonsealed. Each target takes 3 psychic damage,
+          and if they have I < 3 they immediately make a free strike against one
+          ally of the dragon's choice.
+  - type: feature
+    feature_type: ability
+    name: Encroaching Darkness
+    icon: ❗️
+    cost: 1 Malice
+    keywords:
+      - "-"
+    usage: Free triggered action
+    distance: Self
+    target: Self
+    trigger: A creature within 10 squares moves.
+    effects:
+      - name: Effect
+        effect: The dragon moves two existing cubes of magical darkness they created up
+          to 10 squares each.
+  - type: feature
+    feature_type: ability
+    name: Enveloping Umbrage
+    icon: ☠️
+    ability_type: Villain Action 1
+    keywords:
+      - Area
+      - Magic
+    usage: "-"
+    distance: 5 burst
+    target: Each enemy in the area
+    effects:
+      - roll: Power Roll + 4
+        tier1: Pull 2; I < 2 frightened (EoT)
+        tier2: Pull 4; I < 3 frightened (save ends)
+        tier3: Pull 6; I < 4 frightened (save ends)
+  - type: feature
+    feature_type: ability
+    name: Pall of Nightmares
+    icon: ☠️
+    ability_type: Villain Action 2
+    keywords:
+      - Area
+      - Magic
+    usage: "-"
+    distance: 10 burst
+    target: Each enemy in the area
+    effects:
+      - roll: Power Roll + 4
+        tier1: 6 psychic damage
+        tier2: 11 psychic damage
+        tier3: 14 psychic damage
+      - name: Effect
+        effect: Each target must be dragonsealed. Any target who has I < 3 is also dazed
+          (save ends).
+  - type: feature
+    feature_type: ability
+    name: Absence of All Light
+    icon: ☠️
+    ability_type: Villain Action 3
+    keywords:
+      - "-"
+    usage: "-"
+    distance: Special
+    target: Special
+    effects:
+      - name: Effect
+        effect: The dragon disappears from the encounter map. The dragon and three
+          hallucinatory illusions of themself then immediately reappear in
+          unoccupied spaces on the encounter map, and the dragon and each
+          illusion uses Breath of Brume. Each illusion is indistinguishable from
+          the dragon except by supernatural means, has 1 Stamina, and has the
+          dragon's speed. An illusion acts on the dragon's turns but can take
+          only move actions. Once per round before or after using an ability,
+          the dragon can trade places with any duplicate.
+  - type: feature
+    feature_type: trait
+    name: Dread and Terror
+    icon: ⭐️
+    cost: 3 Malice
     effects:
       - effect: The dragon thickens the fog of their Gloaming Wyrmscale Aura trait and
           the horrors within it. Each creature in the area takes a bane on
           strikes made against the dragon until the start of the dragon's next
           turn.
-  - name: Doleful Visions
+  - type: feature
+    feature_type: trait
+    name: Doleful Visions
+    icon: 🔳
+    cost: 5 Malice
     effects:
       - effect: The dragon manifests four 2 cubes of nightmarish apparitions anywhere on
           the encounter map. Each creature in the area when it appears makes an
           **Intuition test**.
-        t1: 14 damage; dazed (save ends)
-        t2: 11 damage; dazed (EoT)
-        t3: 6 damage
-  - name: Solo Action
+        tier1: 14 damage; dazed (save ends)
+        tier2: 11 damage; dazed (EoT)
+        tier3: 6 damage
+  - type: feature
+    feature_type: trait
+    name: Solo Action
+    icon: ☠️
+    cost: 5 Malice
     effects:
       - effect: The dragon takes an additional main action on their turn. They can use
           this feature even if they are dazed.
-  - name: Phantasmagoria!
+  - type: feature
+    feature_type: trait
+    name: Phantasmagoria!
+    icon: 🔳
+    cost: 7 Malice
     effects:
       - effect: The dragon summons macabre, disquieting phantasms in a 10 cube within 1
           square that lasts until the end of the encounter. Any enemy who enters
@@ -102,117 +254,4 @@ traits:
           by the gloom dragon. Additionally, the enemy's Intuition score is
           treated as 1 lower for the purpose of resisting potencies until the
           end of the encounter.
-abilities:
-  - name: Breath of Brume
-    icon: 🔳
-    cost: Signature Ability
-    keywords:
-      - Area
-      - Magic
-      - Ranged
-    type: Main action
-    distance: 4 cube within 10
-    target: Each enemy and object in the area
-    effects:
-      - name: Effect
-        effect: Each target makes an **Agility test**.
-        t1: 14 cold damage; the target is dragonsealed (save ends)
-        t2: 11 cold damage; the target is dragonsealed (save ends)
-        t3: 6 cold damage
-      - effect: A dragonsealed creature has psychic weakness 3 and cold weakness 3.
-          Additionally, the area is filled with magical darkness. The dragon
-          ignores concealment created by this darkness.
-  - name: Phantom Tail Swing
-    icon: 🗡
-    keywords:
-      - Charge
-      - Magic
-      - Melee
-      - Strike
-    type: Main action
-    distance: Melee 3
-    target: Two creatures or objects
-    effects:
-      - roll: Power Roll + 4
-        t1: 10 psychic damage; pull 2
-        t2: 15 psychic damage; pull 4
-        t3: 18 psychic damage; pull 6
-      - effect: The pull becomes a vertical slide.
-        cost: 3 Malice
-  - name: Visions in the Dark
-    icon: ❇️
-    cost: 5 Malice
-    keywords:
-      - Area
-      - Magic
-    type: Maneuver
-    distance: 10 burst
-    target: Each enemy in the area
-    effects:
-      - effect: Each target must be dragonsealed. Each target takes 3 psychic damage,
-          and if they have I < 3 they immediately make a free strike against one
-          ally of the dragon's choice.
-        name: Effect
-  - name: Encroaching Darkness
-    icon: ❗️
-    cost: 1 Malice
-    keywords:
-      - "-"
-    type: Free triggered action
-    distance: Self
-    target: Self
-    trigger: A creature within 10 squares moves.
-    effects:
-      - effect: The dragon moves two existing cubes of magical darkness they created up
-          to 10 squares each.
-        name: Effect
-  - name: Enveloping Umbrage
-    icon: ☠️
-    cost: Villain Action 1
-    keywords:
-      - Area
-      - Magic
-    type: "-"
-    distance: 5 burst
-    target: Each enemy in the area
-    effects:
-      - roll: Power Roll + 4
-        t1: Pull 2; I < 2 frightened (EoT)
-        t2: Pull 4; I < 3 frightened (save ends)
-        t3: Pull 6; I < 4 frightened (save ends)
-  - name: Pall of Nightmares
-    icon: ☠️
-    cost: Villain Action 2
-    keywords:
-      - Area
-      - Magic
-    type: "-"
-    distance: 10 burst
-    target: Each enemy in the area
-    effects:
-      - roll: Power Roll + 4
-        t1: 6 psychic damage
-        t2: 11 psychic damage
-        t3: 14 psychic damage
-      - effect: Each target must be dragonsealed. Any target who has I < 3 is also dazed
-          (save ends).
-        name: Effect
-  - name: Absence of All Light
-    icon: ☠️
-    cost: Villain Action 3
-    keywords:
-      - "-"
-    type: "-"
-    distance: Special
-    target: Special
-    effects:
-      - effect: The dragon disappears from the encounter map. The dragon and three
-          hallucinatory illusions of themself then immediately reappear in
-          unoccupied spaces on the encounter map, and the dragon and each
-          illusion uses Breath of Brume. Each illusion is indistinguishable from
-          the dragon except by supernatural means, has 1 Stamina, and has the
-          dragon's speed. An illusion acts on the dragon's turns but can take
-          only move actions. Once per round before or after using an ability,
-          the dragon can trade places with any duplicate.
-        name: Effect
 ~~~

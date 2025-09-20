@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: War Dog Sweeper
 level: 4
 roles:
@@ -51,28 +52,32 @@ agility: 3
 reason: 0
 intuition: 2
 presence: 0
-traits:
-  - name: Shrapnel-Laced Loyalty Collar
-    effects:
-      - effect: When the sweeper is reduced to 0 Stamina, their loyalty collar explodes,
-          dealing 1d6 damage to each enemy and object within 2 squares of them.
-abilities:
-  - name: Shrikegun Shot
+features:
+  - type: feature
+    feature_type: ability
+    name: Shrikegun Shot
     icon: ⚔️
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1 or ranged 3
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 3
-        t1: 2 damage
-        t2: 4 damage; push 1
-        t3: 6 damage; push 3
-      - effect: Any target within 2 squares of the sweeper takes an extra 3 damage.
-        name: Effect
+        tier1: 2 damage
+        tier2: 4 damage; push 1
+        tier3: 6 damage; push 3
+      - name: Effect
+        effect: Any target within 2 squares of the sweeper takes an extra 3 damage.
+  - type: feature
+    feature_type: trait
+    name: Shrapnel-Laced Loyalty Collar
+    icon: ⭐️
+    effects:
+      - effect: When the sweeper is reduced to 0 Stamina, their loyalty collar explodes,
+          dealing 1d6 damage to each enemy and object within 2 squares of them.
 ~~~

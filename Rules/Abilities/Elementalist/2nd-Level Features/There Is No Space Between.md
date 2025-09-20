@@ -4,7 +4,7 @@ class: elementalist
 distance: Ranged 10
 feature_type: ability
 file_basename: There Is No Space Between
-file_dpath: Elementalist/2nd-Level Features
+file_dpath: Abilities/Elementalist/2nd-Level Features
 flavor: Knowledge of the mystery reveals that two spaces are the same space.
 item_id: there-is-no-space-between
 item_index: '04'
@@ -17,21 +17,23 @@ level: 2
 scc:
 - mcdm.heroes.v1:feature.ability.elementalist.2nd-level-feature:there-is-no-space-between
 scdc:
-- 1.1.1:13.2.9.5:04
+- 1.1.1:11.2.9.5:04
 source: mcdm.heroes.v1
 subclass: Void
 target: Special
 type: feature/ability/elementalist/2nd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: There Is No Space Between
 flavor: Knowledge of the mystery reveals that two spaces are the same space.
 keywords:
   - Magic
   - Ranged
   - Void
-type: Maneuver
+usage: Maneuver
 distance: Ranged 10
 target: Special
 metadata:
@@ -40,7 +42,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: There Is No Space Between
-  file_dpath: Elementalist/2nd-Level Features
+  file_dpath: Abilities/Elementalist/2nd-Level Features
   flavor: Knowledge of the mystery reveals that two spaces are the same space.
   item_id: there-is-no-space-between
   item_index: "04"
@@ -53,13 +55,14 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.elementalist.2nd-level-feature:there-is-no-space-between
   scdc:
-    - 1.1.1:13.2.9.5:04
+    - 1.1.1:11.2.9.5:04
   source: mcdm.heroes.v1
   subclass: Void
   target: Special
   type: feature/ability/elementalist/2nd-level-feature
 effects:
-  - effect: >-
+  - name: Effect
+    effect: >-
       You open two size 1 portals in unoccupied spaces within distance, which
       last until you move beyond distance from any portal, end the effect as a
       maneuver, or are dying. Each portal must be placed at a height of no more
@@ -74,5 +77,4 @@ effects:
       present, you and your allies choose which portal to emerge from when
       entering a portal, and a creature who force moves an enemy into a portal
       chooses that enemy's destination portal.
-    name: Effect
 ```

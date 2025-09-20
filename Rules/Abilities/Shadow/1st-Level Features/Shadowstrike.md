@@ -7,7 +7,7 @@ cost_resource: Insight
 distance: Self; see below
 feature_type: ability
 file_basename: Shadowstrike
-file_dpath: Shadow/1st-Level Features
+file_dpath: Abilities/Shadow/1st-Level Features
 flavor: They have no idea what the college taught you.
 item_id: shadowstrike-5-insight
 item_index: '05'
@@ -20,13 +20,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:shadowstrike-5-insight
 scdc:
-- 1.1.1:13.2.2.1:05
+- 1.1.1:11.2.2.1:05
 source: mcdm.heroes.v1
 target: Self
 type: feature/ability/shadow/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Shadowstrike
 cost: 5 Insight
 flavor: They have no idea what the college taught you.
@@ -34,7 +36,7 @@ keywords:
   - Magic
   - Melee
   - Ranged
-type: Main action
+usage: Main action
 distance: Self; see below
 target: Self
 metadata:
@@ -46,7 +48,7 @@ metadata:
   distance: Self; see below
   feature_type: ability
   file_basename: Shadowstrike
-  file_dpath: Shadow/1st-Level Features
+  file_dpath: Abilities/Shadow/1st-Level Features
   flavor: They have no idea what the college taught you.
   item_id: shadowstrike-5-insight
   item_index: "05"
@@ -59,11 +61,11 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:shadowstrike-5-insight
   scdc:
-    - 1.1.1:13.2.2.1:05
+    - 1.1.1:11.2.2.1:05
   source: mcdm.heroes.v1
   target: Self
   type: feature/ability/shadow/1st-level-feature
 effects:
-  - effect: You use a strike signature ability twice.
-    name: Effect
+  - name: Effect
+    effect: You use a strike signature ability twice.
 ```

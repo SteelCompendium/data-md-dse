@@ -1,4 +1,5 @@
 ---
+ability_type: Signature
 action_type: Main action
 class: ignored
 distance: Ranged 12
@@ -12,7 +13,6 @@ keywords:
 - Ranged
 - Strike
 - Weapon
-kit: Rapid Fire
 scc:
 - mcdm.heroes.v1:kit-ability.rapid-fire:two-shot
 scdc:
@@ -22,17 +22,20 @@ target: Two creatures or objects
 type: kit-ability/rapid-fire
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Two Shot
 flavor: When you fire two arrows back-to-back, both hit their mark.
 keywords:
   - Ranged
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Ranged 12
 target: Two creatures or objects
 metadata:
+  ability_type: Signature
   action_type: Main action
   class: ignored
   distance: Ranged 12
@@ -46,7 +49,6 @@ metadata:
     - Ranged
     - Strike
     - Weapon
-  kit: Rapid Fire
   scc:
     - mcdm.heroes.v1:kit-ability.rapid-fire:two-shot
   scdc:
@@ -56,7 +58,7 @@ metadata:
   type: kit-ability/rapid-fire
 effects:
   - roll: Power Roll + Might or Agility
-    t1: 4 damage
-    t2: 6 damage
-    t3: 8 damage
+    tier1: 4 damage
+    tier2: 6 damage
+    tier3: 8 damage
 ```

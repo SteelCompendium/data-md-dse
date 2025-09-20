@@ -29,6 +29,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Wraith
 level: 4
 roles:
@@ -50,57 +51,65 @@ agility: 2
 reason: 1
 intuition: 1
 presence: 3
-traits:
-  - name: Agonizing Phasing
+features:
+  - type: feature
+    feature_type: ability
+    name: Chilling Gravetouch
+    icon: 🗡
+    ability_type: Signature Ability
+    keywords:
+      - Magic
+      - Melee
+      - Strike
+      - Weapon
+    usage: Main action
+    distance: Melee 1
+    target: One creature or object
+    effects:
+      - roll: Power Roll + 3
+        tier1: 5 cold damage; P < 1 slowed (save ends)
+        tier2: 7 cold damage; P < 2 slowed (save ends)
+        tier3: 9 cold damage; P < 3 slowed (save ends)
+      - name: Effect
+        effect: Any living creature who dies from this damage rises at the start of the
+          next round as a ghoul craver under the Director's control.
+  - type: feature
+    feature_type: ability
+    name: Hidden Movement
+    icon: 👤
+    keywords:
+      - "-"
+    usage: Maneuver
+    distance: Self
+    target: Self
+    effects:
+      - name: Effect
+        effect: The wraith turns invisible, moves up to their speed, and is visible
+          again.
+  - type: feature
+    feature_type: ability
+    name: Stolen Vitality
+    icon: ❗️
+    cost: 1 Malice
+    keywords:
+      - Magic
+      - Ranged
+    usage: Free triggered action
+    distance: Ranged 5
+    target: The triggering creature
+    trigger: An enemy within distance regains Stamina.
+    effects:
+      - name: Effect
+        effect: The target regains only half the Stamina, and the wraith regains the
+          remaining Stamina.
+  - type: feature
+    feature_type: trait
+    name: Agonizing Phasing
+    icon: ⭐️
     effects:
       - effect: The wraith can move through creatures and objects at their usual speed,
           but can't end their turn inside a creature or object. The first time
           in a round that the wraith moves through a creature, that creature
           takes 5 corruption damage and takes a bane on their next strike. The
           wraith doesn't take damage from being force moved into objects
-abilities:
-  - name: Chilling Gravetouch
-    icon: 🗡
-    cost: Signature Ability
-    keywords:
-      - Magic
-      - Melee
-      - Strike
-      - Weapon
-    type: Main action
-    distance: Melee 1
-    target: One creature or object
-    effects:
-      - roll: Power Roll + 3
-        t1: 5 cold damage; P < 1 slowed (save ends)
-        t2: 7 cold damage; P < 2 slowed (save ends)
-        t3: 9 cold damage; P < 3 slowed (save ends)
-      - effect: Any living creature who dies from this damage rises at the start of the
-          next round as a ghoul craver under the Director's control.
-        name: Effect
-  - name: Hidden Movement
-    icon: 👤
-    keywords:
-      - "-"
-    type: Maneuver
-    distance: Self
-    target: Self
-    effects:
-      - effect: The wraith turns invisible, moves up to their speed, and is visible
-          again.
-        name: Effect
-  - name: Stolen Vitality
-    icon: ❗️
-    cost: 1 Malice
-    keywords:
-      - Magic
-      - Ranged
-    type: Free triggered action
-    distance: Ranged 5
-    target: The triggering creature
-    trigger: An enemy within distance regains Stamina.
-    effects:
-      - effect: The target regains only half the Stamina, and the wraith regains the
-          remaining Stamina.
-        name: Effect
 ~~~

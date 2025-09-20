@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Dwarf Hunter
 level: 1
 roles:
@@ -49,25 +50,26 @@ agility: 2
 reason: 0
 intuition: 0
 presence: 0
-traits: []
-abilities:
-  - name: Snaring Javelin
+features:
+  - type: feature
+    feature_type: ability
+    name: Snaring Javelin
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 5
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 1 damage; pull 1
-        t2: 2 damage; pull 2
-        t3: 3 damage; pull 4
-      - effect: A target restrained by a dwarf can be force moved by this ability. This
+        tier1: 1 damage; pull 1
+        tier2: 2 damage; pull 2
+        tier3: 3 damage; pull 4
+      - name: Effect
+        effect: A target restrained by a dwarf can be force moved by this ability. This
           forced movement doesn't end the restrained condition unless the
           Director determines otherwise.
-        name: Effect
 ~~~

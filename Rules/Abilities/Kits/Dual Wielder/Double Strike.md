@@ -1,4 +1,5 @@
 ---
+ability_type: Signature
 action_type: Main action
 class: ignored
 distance: Melee 1
@@ -12,7 +13,6 @@ keywords:
 - Melee
 - Strike
 - Weapon
-kit: Dual Wielder
 scc:
 - mcdm.heroes.v1:kit-ability.dual-wielder:double-strike
 scdc:
@@ -22,17 +22,20 @@ target: Two creatures or objects
 type: kit-ability/dual-wielder
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Double Strike
 flavor: Why strike once when you could do it twice?
 keywords:
   - Melee
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1
 target: Two creatures or objects
 metadata:
+  ability_type: Signature
   action_type: Main action
   class: ignored
   distance: Melee 1
@@ -46,7 +49,6 @@ metadata:
     - Melee
     - Strike
     - Weapon
-  kit: Dual Wielder
   scc:
     - mcdm.heroes.v1:kit-ability.dual-wielder:double-strike
   scdc:
@@ -56,12 +58,12 @@ metadata:
   type: kit-ability/dual-wielder
 effects:
   - roll: Power Roll + Might or Agility
-    t1: 4 damage
-    t2: 6 damage
-    t3: 8 damage
-  - effect: If you use this ability on your turn, you can use it against one target,
+    tier1: 4 damage
+    tier2: 6 damage
+    tier3: 8 damage
+  - name: Effect
+    effect: If you use this ability on your turn, you can use it against one target,
       then use your maneuver and your move action for that turn before using the
       ability against a second target. You still use the same power roll for
       both targets.
-    name: Effect
 ```

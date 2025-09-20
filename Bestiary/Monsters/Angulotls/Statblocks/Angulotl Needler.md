@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Angulotl Needler
 level: 1
 roles:
@@ -51,28 +52,32 @@ agility: 2
 reason: 1
 intuition: 0
 presence: -1
-traits:
-  - name: Toxiferous
-    effects:
-      - effect: Whenever an adjacent enemy grabs the needler or uses a melee ability
-          against them, that enemy takes 2 poison damage.
-abilities:
-  - name: Blowgun
+features:
+  - type: feature
+    feature_type: ability
+    name: Blowgun
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 15
     target: One creature
     effects:
       - roll: Power Roll + 2
-        t1: 4 poison damage
-        t2: 6 poison damage
-        t3: 7 poison damage
-      - effect: A target who has M < 2 is weakened (save ends). A target weakened this
+        tier1: 4 poison damage
+        tier2: 6 poison damage
+        tier3: 7 poison damage
+      - cost: 2 Malice
+        effect: A target who has M < 2 is weakened (save ends). A target weakened this
           way takes 2 poison damage at the start of each of their turns.
-        cost: 2 Malice
+  - type: feature
+    feature_type: trait
+    name: Toxiferous
+    icon: ⭐️
+    effects:
+      - effect: Whenever an adjacent enemy grabs the needler or uses a melee ability
+          against them, that enemy takes 2 poison damage.
 ~~~

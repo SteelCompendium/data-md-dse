@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Ogre Tantrum
 level: 7
 roles:
@@ -49,20 +50,17 @@ agility: 2
 reason: -1
 intuition: 0
 presence: -1
-traits:
-  - name: Excessive Anger
-    effects:
-      - effect: The tantrum has damage immunity 3 and speed 8 while their squad has two
-          or fewer minions in it.
-abilities:
-  - name: Throw Fit
+features:
+  - type: feature
+    feature_type: ability
+    name: Throw Fit
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 8
     target: One creature or object per minion
     effects:
@@ -70,10 +68,17 @@ abilities:
         effect: The tantrum unearths a rock or a hunk of terrain and tosses it. If a
           size 1L, 1M, or 1S creature or object adjacent to the tantrum has A <
           3 the tantrum can grab them to use as the projectile for this ability.
-      - roll: Power Roll + 4
-        t1: 4 damage
-        t2: 7 damage; push 2
-        t3: 8 damage; push 4
       - effect: A creature or object used as a projectile is vertically pushed 8 (or 13
           with a captain), ignoring stability.
+        roll: Power Roll + 4
+        tier1: 4 damage
+        tier2: 7 damage; push 2
+        tier3: 8 damage; push 4
+  - type: feature
+    feature_type: trait
+    name: Excessive Anger
+    icon: ⭐️
+    effects:
+      - effect: The tantrum has damage immunity 3 and speed 8 while their squad has two
+          or fewer minions in it.
 ~~~

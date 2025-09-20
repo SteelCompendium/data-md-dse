@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Gnoll Mage Mauler
 level: 2
 roles:
@@ -49,27 +50,31 @@ agility: 1
 reason: -1
 intuition: 0
 presence: 0
-traits:
-  - name: Death Circle
-    effects:
-      - effect: Whenever a non-minion ally within 5 squares of the mage mauler is
-          reduced to 0 Stamina, the mage mauler can move up to their speed.
-abilities:
-  - name: Wizard Ripper
+features:
+  - type: feature
+    feature_type: ability
+    name: Wizard Ripper
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Melee
       - Strike
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 2 acid damage
-        t2: 3 cold damage
-        t3: 5 lightning damage; the target can't use magic abilities (EoT)
-      - effect: The target takes a bane on their next power roll.
-        name: Effect
+        tier1: 2 acid damage
+        tier2: 3 cold damage
+        tier3: 5 lightning damage; the target can't use magic abilities (EoT)
+      - name: Effect
+        effect: The target takes a bane on their next power roll.
+  - type: feature
+    feature_type: trait
+    name: Death Circle
+    icon: ⭐️
+    effects:
+      - effect: Whenever a non-minion ally within 5 squares of the mage mauler is
+          reduced to 0 Stamina, the mage mauler can move up to their speed.
 ~~~

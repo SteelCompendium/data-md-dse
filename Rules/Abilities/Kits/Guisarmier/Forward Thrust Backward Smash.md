@@ -1,4 +1,5 @@
 ---
+ability_type: Signature
 action_type: Main action
 class: ignored
 distance: Melee 2
@@ -12,7 +13,6 @@ keywords:
 - Melee
 - Strike
 - Weapon
-kit: Guisarmier
 scc:
 - mcdm.heroes.v1:kit-ability.guisarmier:forward-thrust-backward-smash
 scdc:
@@ -22,17 +22,20 @@ target: Two creatures or objects
 type: kit-ability/guisarmier
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Forward Thrust, Backward Smash
 flavor: In your hands, the haft is as good as the head.
 keywords:
   - Melee
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 2
 target: Two creatures or objects
 metadata:
+  ability_type: Signature
   action_type: Main action
   class: ignored
   distance: Melee 2
@@ -46,7 +49,6 @@ metadata:
     - Melee
     - Strike
     - Weapon
-  kit: Guisarmier
   scc:
     - mcdm.heroes.v1:kit-ability.guisarmier:forward-thrust-backward-smash
   scdc:
@@ -56,7 +58,7 @@ metadata:
   type: kit-ability/guisarmier
 effects:
   - roll: Power Roll + Might or Agility
-    t1: 4 damage
-    t2: 7 damage
-    t3: 9 damage
+    tier1: 4 damage
+    tier2: 7 damage
+    tier3: 9 damage
 ```

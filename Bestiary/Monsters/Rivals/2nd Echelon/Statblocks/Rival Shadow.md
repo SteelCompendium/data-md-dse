@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Rival Shadow
 level: 5
 roles:
@@ -48,42 +49,51 @@ agility: 3
 reason: 1
 intuition: 0
 presence: 2
-traits:
-  - name: Exploit Opening
-    effects:
-      - effect: The shadow deals an extra 7 damage to any bleeding target.
-  - name: Rivalry
-    effects:
-      - effect: At the start of an encounter, the shadow chooses one creature within
-          their line of effect. Both the shadow and the creature can add a d3
-          roll to power rolls they make against each other.
-abilities:
-  - name: Ambuscade
+features:
+  - type: feature
+    feature_type: ability
+    name: Ambuscade
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 3
-        t1: 10 damage
-        t2: 15 damage; A < 2 bleeding (save ends)
-        t3: 18 damage; A < 3 bleeding (save ends)
-      - effect: The shadow can teleport up to 6 squares, then can attempt to hide.
-        cost: 1 Malice
-  - name: Poison the Blade
+        tier1: 10 damage
+        tier2: 15 damage; A < 2 bleeding (save ends)
+        tier3: 18 damage; A < 3 bleeding (save ends)
+      - cost: 1 Malice
+        effect: The shadow can teleport up to 6 squares, then can attempt to hide.
+  - type: feature
+    feature_type: ability
+    name: Poison the Blade
     icon: 👤
     keywords:
       - "-"
-    type: Maneuver
+    usage: Maneuver
     distance: Self
     target: Self
     effects:
-      - effect: The shadow coats their weapon with poison. They gain an edge on their
+      - name: Effect
+        effect: The shadow coats their weapon with poison. They gain an edge on their
           next strike, and any potency for that strike increases by 1.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Exploit Opening
+    icon: ⭐️
+    effects:
+      - effect: The shadow deals an extra 7 damage to any bleeding target.
+  - type: feature
+    feature_type: trait
+    name: Rivalry
+    icon: ⭐️
+    effects:
+      - effect: At the start of an encounter, the shadow chooses one creature within
+          their line of effect. Both the shadow and the creature can add a d3
+          roll to power rolls they make against each other.
 ~~~

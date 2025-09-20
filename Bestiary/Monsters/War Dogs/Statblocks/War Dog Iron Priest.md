@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: War Dog Iron Priest
 level: 8
 roles:
@@ -50,41 +51,41 @@ agility: 1
 reason: 1
 intuition: 4
 presence: 4
-traits:
-  - name: Chosen of the Iron Saint
-    effects:
-      - effect: The Director gains 1 Malice whenever an ally within 3 squares of the
-          iron priest obtains a tier 3 outcome on a power roll.
-abilities:
-  - name: Houndcannon
+features:
+  - type: feature
+    feature_type: ability
+    name: Houndcannon
     icon: 🔳
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Area
       - Weapon
-    type: Main action
+    usage: Main action
     distance: 7 x 1 line within 1
     target: Each enemy in the area
     effects:
       - roll: Power Roll + 4
-        t1: 3 damage
-        t2: 6 damage; P < 3 bleeding (save ends)
-        t3: 8 damage; P < 4 the target loses 1 Recovery and is bleeding (save ends)
-      - effect: Any ally within 2 squares of the iron priest gains an edge on their next
+        tier1: 3 damage
+        tier2: 6 damage; P < 3 bleeding (save ends)
+        tier3: 8 damage; P < 4 the target loses 1 Recovery and is bleeding (save ends)
+      - name: Effect
+        effect: Any ally within 2 squares of the iron priest gains an edge on their next
           strike. If any target lost a Recovery, any affected ally has a double
           edge instead.
-        name: Effect
-  - name: Iron Banner
+  - type: feature
+    feature_type: ability
+    name: Iron Banner
     icon: ❇️
     cost: 2+ Malice
     keywords:
       - Area
       - Magic
-    type: Maneuver
+    usage: Maneuver
     distance: 4 aura
     target: Each war dog in the area
     effects:
-      - effect: >-
+      - name: Effect
+        effect: >-
           For every 2 Malice spent, each target gains one of the following
           effects until the start of the iron priest's next turn
 
@@ -93,5 +94,11 @@ abilities:
           - The target's strikes deal an extra 3 holy damage.
 
           - The target has a +3 bonus to speed.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Chosen of the Iron Saint
+    icon: ⭐️
+    effects:
+      - effect: The Director gains 1 Malice whenever an ally within 3 squares of the
+          iron priest obtains a tier 3 outcome on a power roll.
 ~~~

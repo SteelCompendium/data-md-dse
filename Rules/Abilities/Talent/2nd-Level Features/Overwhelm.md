@@ -7,7 +7,7 @@ cost_resource: Clarity
 distance: Ranged 10
 feature_type: ability
 file_basename: Overwhelm
-file_dpath: Talent/2nd-Level Features
+file_dpath: Abilities/Talent/2nd-Level Features
 flavor: You overload their senses, turning all their subconscious thoughts into conscious
   ones.
 item_id: overwhelm-5-clarity
@@ -22,14 +22,16 @@ level: 2
 scc:
 - mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:overwhelm-5-clarity
 scdc:
-- 1.1.1:13.2.1.5:02
+- 1.1.1:11.2.1.5:02
 source: mcdm.heroes.v1
 subclass: Telepathy
 target: One creature
 type: feature/ability/talent/2nd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Overwhelm
 cost: 5 Clarity
 flavor: You overload their senses, turning all their subconscious thoughts into
@@ -39,7 +41,7 @@ keywords:
   - Ranged
   - Strike
   - Telepathy
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: One creature
 metadata:
@@ -51,7 +53,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Overwhelm
-  file_dpath: Talent/2nd-Level Features
+  file_dpath: Abilities/Talent/2nd-Level Features
   flavor: You overload their senses, turning all their subconscious thoughts into
     conscious ones.
   item_id: overwhelm-5-clarity
@@ -66,17 +68,17 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:overwhelm-5-clarity
   scdc:
-    - 1.1.1:13.2.1.5:02
+    - 1.1.1:11.2.1.5:02
   source: mcdm.heroes.v1
   subclass: Telepathy
   target: One creature
   type: feature/ability/talent/2nd-level-feature
 effects:
   - roll: Power Roll + Reason
-    t1: 6 + R psychic damage; I < WEAK, slowed (save ends)
-    t2: 10 + R psychic damage; I < AVERAGE, weakened (save ends)
-    t3: 14 + R psychic damage; I < STRONG, dazed (save ends)
-  - effect: You start crying, and you can't use triggered actions or make free
+    tier1: 6 + R psychic damage; I < WEAK, slowed (save ends)
+    tier2: 10 + R psychic damage; I < AVERAGE, weakened (save ends)
+    tier3: 14 + R psychic damage; I < STRONG, dazed (save ends)
+  - name: Strained
+    effect: You start crying, and you can't use triggered actions or make free
       strikes until the end of the target's next turn.
-    name: Strained
 ```

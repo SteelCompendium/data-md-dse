@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Goblin Stinker
 level: 1
 roles:
@@ -49,43 +50,49 @@ agility: 1
 reason: 0
 intuition: 0
 presence: 2
-traits:
-  - name: Crafty
-    effects:
-      - effect: The stinker doesn't provoke opportunity attacks by moving
-abilities:
-  - name: Toxic Winds
+features:
+  - type: feature
+    feature_type: ability
+    name: Toxic Winds
     icon: 🔳
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Area
       - Magic
       - Ranged
-    type: Main action
+    usage: Main action
     distance: 3 cube within 15
     target: Each enemy in the area
     effects:
       - roll: Power Roll + 2
-        t1: 1 poison damage; slide 1
-        t2: 2 poison damage; slide 2
-        t3: 3 poison damage; slide 3
-      - effect: For each Malice spent, one target can be force moved 1 additional
+        tier1: 1 poison damage; slide 1
+        tier2: 2 poison damage; slide 2
+        tier3: 3 poison damage; slide 3
+      - cost: 1+ Malice
+        effect: For each Malice spent, one target can be force moved 1 additional
           square.
-        cost: 1+ Malice
-  - name: Swamp Gas
+  - type: feature
+    feature_type: ability
+    name: Swamp Gas
     icon: 🔳
     keywords:
       - Area
       - Magic
       - Ranged
-    type: Maneuver
+    usage: Maneuver
     distance: 3 cube within 10
     target: Special
     effects:
-      - effect: The area is filled with a green haze that lasts until the start of the
+      - name: Effect
+        effect: The area is filled with a green haze that lasts until the start of the
           stinker's next turn or until the stinker is reduced to 0 Stamina, and
           which can't be dispersed by wind. The area is difficult terrain for
           non-goblins, and each non-goblin who moves in the area takes 2 poison
           damage for each square moved.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Crafty
+    icon: ⭐️
+    effects:
+      - effect: The stinker doesn't provoke opportunity attacks by moving
 ~~~

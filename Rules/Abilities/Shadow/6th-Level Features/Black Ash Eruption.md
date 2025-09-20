@@ -7,7 +7,7 @@ cost_resource: Insight
 distance: Melee 1
 feature_type: ability
 file_basename: Black Ash Eruption
-file_dpath: Shadow/6th-Level Features
+file_dpath: Abilities/Shadow/6th-Level Features
 flavor: Your attack produces a cloud of black ash that launches an enemy into the
   air.
 item_id: black-ash-eruption-9-insight
@@ -22,14 +22,16 @@ level: 6
 scc:
 - mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:black-ash-eruption-9-insight
 scdc:
-- 1.1.1:13.2.2.3:01
+- 1.1.1:11.2.2.3:01
 source: mcdm.heroes.v1
 subclass: Black Ash
 target: One creature
 type: feature/ability/shadow/6th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Black Ash Eruption
 cost: 9 Insight
 flavor: Your attack produces a cloud of black ash that launches an enemy into the air.
@@ -38,7 +40,7 @@ keywords:
   - Melee
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1
 target: One creature
 metadata:
@@ -50,7 +52,7 @@ metadata:
   distance: Melee 1
   feature_type: ability
   file_basename: Black Ash Eruption
-  file_dpath: Shadow/6th-Level Features
+  file_dpath: Abilities/Shadow/6th-Level Features
   flavor: Your attack produces a cloud of black ash that launches an enemy into
     the air.
   item_id: black-ash-eruption-9-insight
@@ -65,16 +67,16 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:black-ash-eruption-9-insight
   scdc:
-    - 1.1.1:13.2.2.3:01
+    - 1.1.1:11.2.2.3:01
   source: mcdm.heroes.v1
   subclass: Black Ash
   target: One creature
   type: feature/ability/shadow/6th-level-feature
 effects:
   - roll: Power Roll + Agility
-    t1: 3 + A damage; vertical push 5
-    t2: 6 + A damage; vertical push 10
-    t3: 9 + A damage; vertical push 15
-  - effect: A creature force moved by this ability must be moved straight upward.
-    name: Effect
+    tier1: 3 + A damage; vertical push 5
+    tier2: 6 + A damage; vertical push 10
+    tier3: 9 + A damage; vertical push 15
+  - name: Effect
+    effect: A creature force moved by this ability must be moved straight upward.
 ```

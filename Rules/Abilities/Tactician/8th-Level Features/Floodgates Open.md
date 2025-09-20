@@ -7,7 +7,7 @@ cost_resource: Focus
 distance: Ranged 10
 feature_type: ability
 file_basename: Floodgates Open
-file_dpath: Tactician/8th-Level Features
+file_dpath: Abilities/Tactician/8th-Level Features
 flavor: You direct your squad to strike in unison and with devastating effect.
 item_id: floodgates-open-11-focus
 item_index: '02'
@@ -18,19 +18,21 @@ level: 8
 scc:
 - mcdm.heroes.v1:feature.ability.tactician.8th-level-feature:floodgates-open-11-focus
 scdc:
-- 1.1.1:13.2.4.2:02
+- 1.1.1:11.2.4.2:02
 source: mcdm.heroes.v1
 target: Three allies
 type: feature/ability/tactician/8th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Floodgates Open
 cost: 11 Focus
 flavor: You direct your squad to strike in unison and with devastating effect.
 keywords:
   - Ranged
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: Three allies
 metadata:
@@ -42,7 +44,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Floodgates Open
-  file_dpath: Tactician/8th-Level Features
+  file_dpath: Abilities/Tactician/8th-Level Features
   flavor: You direct your squad to strike in unison and with devastating effect.
   item_id: floodgates-open-11-focus
   item_index: "02"
@@ -53,13 +55,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.tactician.8th-level-feature:floodgates-open-11-focus
   scdc:
-    - 1.1.1:13.2.4.2:02
+    - 1.1.1:11.2.4.2:02
   source: mcdm.heroes.v1
   target: Three allies
   type: feature/ability/tactician/8th-level-feature
 effects:
-  - effect: Each target gains 1 surge and can use a signature ability as a free
+  - name: Effect
+    effect: Each target gains 1 surge and can use a signature ability as a free
       triggered action. That ability gains an edge on the power roll and
       increases the potency of any potency effects by 1.
-    name: Effect
 ```

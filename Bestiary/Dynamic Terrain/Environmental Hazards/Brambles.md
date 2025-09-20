@@ -13,29 +13,36 @@ type: dynamic-terrain/environmental-hazard
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Hazard Defender
 name: Brambles
-type: Hazard Defender
 level: 1
 ev: 1 per 10 x 10 thicket
 flavor: This thicket features close-growing vines tipped with sharp thorns.
 stamina: 3 per square
 size: One or more squares of difficult terrain
 features:
-  - name: Deactivate
+  - type: feature
+    feature_type: trait
+    name: Deactivate
     icon: 🌀
     effects:
       - effect: Each square of brambles must be individually destroyed.
-  - name: Activate
+  - type: feature
+    feature_type: trait
+    name: Activate
     icon: ❕
     effects:
       - effect: A creature enters a square of brambles without shifting.
-      - effect: A creature takes 1 damage per square of brambles they enter.
-        name: Effect
-  - name: Upgrade
+      - name: Effect
+        effect: A creature takes 1 damage per square of brambles they enter.
+  - type: feature
+    feature_type: trait
+    name: Upgrade
     icon: ⭐️
     effects:
-      - effect: The brambles are poisonous. Any creature who takes damage from brambles
-          is also bleeding (save ends).
-        name: Poisonous Thorns
+      - name: Poisonous Thorns
         cost: +1 EV
+        effect: The brambles are poisonous. Any creature who takes damage from brambles
+          is also bleeding (save ends).
 ~~~

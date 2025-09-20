@@ -14,19 +14,24 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: + Malice Features
 name: Undead Malice
-type: + Malice Features
 level: 4
 flavor: At the start of any level 4 or higher undead's turn, you can spend
   Malice to activate one of the following features.
 features:
-  - name: Prior Malice Features
+  - type: feature
+    feature_type: trait
+    name: Prior Malice Features
     icon: ⭐️
     cost: 2-7+ Malice
     effects:
       - effect: The undead activates a Malice feature available to undead of level 3 or
           lower.
-  - name: Blood Hunger
+  - type: feature
+    feature_type: trait
+    name: Blood Hunger
     icon: 🌀
     cost: 5 Malice
     effects:

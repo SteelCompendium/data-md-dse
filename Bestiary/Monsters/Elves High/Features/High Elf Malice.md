@@ -13,25 +13,30 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Malice Features
 name: High Elf Malice
-type: Malice Features
 flavor: At the start of any high elf's turn, you can spend Malice to activate
   one of the following features.
 features:
-  - name: Chaincast
+  - type: feature
+    feature_type: trait
+    name: Chaincast
     icon: 🌀
     cost: 3 Malice
     effects:
       - effect: Until the end of the round, whenever a high elf uses a magic ability,
           they can use it as if they were occupying the square of another high
           elf on the encounter map to whom they have line of effect.
-  - name: Gift From an Accursed Tome
+  - type: feature
+    feature_type: ability
+    name: Gift From an Accursed Tome
     icon: 🔳
     cost: 5 Malice
     keywords:
       - Area
       - Magic
-    type: Main action
+    usage: Main action
     distance: 5 x 1 line within 1
     target: Each enemy in the area
     effects:
@@ -40,12 +45,14 @@ features:
           following combinations: cold damage and slowed, poison damage and
           weakened, or corruption damage and frightened."
       - roll: Power Roll + 2
-        t1: 5 damage; R < 1 chosen condition (save ends)
-        t2: 9 damage; R < 2 chosen condition (save ends)
-        t3: 12 damage; R < 3 chosen condition (save ends)
-      - effect: This ability can't be used by a minion.
-        name: Special
-  - name: In Defiance of Time
+        tier1: 5 damage; R < 1 chosen condition (save ends)
+        tier2: 9 damage; R < 2 chosen condition (save ends)
+        tier3: 12 damage; R < 3 chosen condition (save ends)
+      - name: Special
+        effect: This ability can't be used by a minion.
+  - type: feature
+    feature_type: trait
+    name: In Defiance of Time
     icon: 🌀
     cost: 7 Malice
     effects:

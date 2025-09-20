@@ -7,7 +7,7 @@ cost_resource: Discipline
 distance: Ranged 10
 feature_type: ability
 file_basename: Ice Pillars
-file_dpath: Null/6th-Level Features
+file_dpath: Abilities/Null/6th-Level Features
 flavor: Pillars of ice erupt from the ground and launch your foes into the air.
 item_id: ice-pillars-9-discipline
 item_index: '01'
@@ -19,21 +19,23 @@ level: 6
 scc:
 - mcdm.heroes.v1:feature.ability.null.6th-level-feature:ice-pillars-9-discipline
 scdc:
-- 1.1.1:13.2.6.3:01
+- 1.1.1:11.2.6.3:01
 source: mcdm.heroes.v1
 subclass: Cryokinetic
 target: Three creatures or objects
 type: feature/ability/null/6th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Ice Pillars
 cost: 9 Discipline
 flavor: Pillars of ice erupt from the ground and launch your foes into the air.
 keywords:
   - Psionic
   - Ranged
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: Three creatures or objects
 metadata:
@@ -45,7 +47,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Ice Pillars
-  file_dpath: Null/6th-Level Features
+  file_dpath: Abilities/Null/6th-Level Features
   flavor: Pillars of ice erupt from the ground and launch your foes into the air.
   item_id: ice-pillars-9-discipline
   item_index: "01"
@@ -57,17 +59,17 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.null.6th-level-feature:ice-pillars-9-discipline
   scdc:
-    - 1.1.1:13.2.6.3:01
+    - 1.1.1:11.2.6.3:01
   source: mcdm.heroes.v1
   subclass: Cryokinetic
   target: Three creatures or objects
   type: feature/ability/null/6th-level-feature
 effects:
   - roll: Power Roll + Intuition
-    t1: Vertical slide 6
-    t2: Vertical slide 8
-    t3: Vertical slide 10
-  - effect: The pillars vanish as soon as the effects of the forced movement are
+    tier1: Vertical slide 6
+    tier2: Vertical slide 8
+    tier3: Vertical slide 10
+  - name: Effect
+    effect: The pillars vanish as soon as the effects of the forced movement are
       resolved.
-    name: Effect
 ```

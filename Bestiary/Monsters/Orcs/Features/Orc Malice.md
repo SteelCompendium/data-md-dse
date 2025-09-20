@@ -13,22 +13,27 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Malice Features
 name: Orc Malice
-type: Malice Features
 flavor: At the start of any orc's turn, you can spend Malice to activate one of
   the following features.
 features:
-  - name: Overwhelming March
+  - type: feature
+    feature_type: trait
+    name: Overwhelming March
     icon: ⭐️
     cost: 3 Malice
     effects:
       - effect: Each orc shifts up to their speed, moving through enemy spaces if they
           can. Each enemy passed through during this movement makes a **Might
           test**.
-        t1: 6 damage; prone
-        t2: 4 damage; prone
-        t3: Push 2
-  - name: Mohler Trench
+        tier1: 6 damage; prone
+        tier2: 4 damage; prone
+        tier3: Push 2
+  - type: feature
+    feature_type: trait
+    name: Mohler Trench
     icon: 🔳
     cost: 5 Malice
     effects:
@@ -36,7 +41,9 @@ features:
           a trench that is a 10 x 1 line within 10 squares when they appear. The
           trench is 2 squares deep and is difficult terrain. The trench can't be
           created directly underneath creatures.
-  - name: Mohler Cavity
+  - type: feature
+    feature_type: trait
+    name: Mohler Cavity
     icon: 🔳
     cost: 7 Malice
     effects:
@@ -45,7 +52,7 @@ features:
           terrain. Each orc in the area can shift into the nearest unoccupied
           space outside the pit before it is completed. Each nonorc in the area
           makes an **Agility test**.
-        t1: 4 damage; the target falls; prone and can't stand (EoT)
-        t2: 4 damage; the target falls
-        t3: The target can shift into the nearest unoccupied space outside the pit.
+        tier1: 4 damage; the target falls; prone and can't stand (EoT)
+        tier2: 4 damage; the target falls
+        tier3: The target can shift into the nearest unoccupied space outside the pit.
 ~~~

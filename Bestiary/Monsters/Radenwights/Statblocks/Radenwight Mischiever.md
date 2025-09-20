@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Radenwight Mischiever
 level: 1
 roles:
@@ -50,37 +51,40 @@ agility: 2
 reason: 0
 intuition: 1
 presence: 0
-traits: []
-abilities:
-  - name: Dagger Dance
+features:
+  - type: feature
+    feature_type: ability
+    name: Dagger Dance
     icon: ⚔️
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1 or ranged 5
     target: One creature per minion
     effects:
       - roll: Power Roll + 2
-        t1: 2 damage
-        t2: 4 damage
-        t3: 5 damage
-      - effect: If the mischiever is hidden when they use this ability, they can target
+        tier1: 2 damage
+        tier2: 4 damage
+        tier3: 5 damage
+      - name: Effect
+        effect: If the mischiever is hidden when they use this ability, they can target
           two creatures.
-        name: Effect
-  - name: Ready Rodent
+  - type: feature
+    feature_type: ability
+    name: Ready Rodent
     icon: ❗️
     keywords:
       - Melee
       - Weapon
-    type: Triggered action
+    usage: Triggered action
     distance: Melee 1
     target: One creature
     trigger: An ally deals damage to the target.
     effects:
-      - effect: The mischiever makes a free strike against the target.
-        name: Effect
+      - name: Effect
+        effect: The mischiever makes a free strike against the target.
 ~~~

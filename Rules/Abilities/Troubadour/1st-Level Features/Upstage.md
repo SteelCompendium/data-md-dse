@@ -7,7 +7,7 @@ cost_resource: Drama
 distance: Self; see below
 feature_type: ability
 file_basename: Upstage
-file_dpath: Troubadour/1st-Level Features
+file_dpath: Abilities/Troubadour/1st-Level Features
 flavor: As you bob and weave through the crowd, you can't help but leave the audience
   wanting more.
 item_id: upstage-3-drama
@@ -21,13 +21,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:upstage-3-drama
 scdc:
-- 1.1.1:13.2.3.1:04
+- 1.1.1:11.2.3.1:04
 source: mcdm.heroes.v1
 target: Self
 type: feature/ability/troubadour/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Upstage
 cost: 3 Drama
 flavor: As you bob and weave through the crowd, you can't help but leave the
@@ -36,7 +38,7 @@ keywords:
   - Melee
   - Strike
   - Weapon
-type: Maneuver
+usage: Maneuver
 distance: Self; see below
 target: Self
 metadata:
@@ -48,7 +50,7 @@ metadata:
   distance: Self; see below
   feature_type: ability
   file_basename: Upstage
-  file_dpath: Troubadour/1st-Level Features
+  file_dpath: Abilities/Troubadour/1st-Level Features
   flavor: As you bob and weave through the crowd, you can't help but leave the
     audience wanting more.
   item_id: upstage-3-drama
@@ -62,7 +64,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:upstage-3-drama
   scdc:
-    - 1.1.1:13.2.3.1:04
+    - 1.1.1:11.2.3.1:04
   source: mcdm.heroes.v1
   target: Self
   type: feature/ability/troubadour/1st-level-feature
@@ -71,7 +73,7 @@ effects:
     effect: You shift up to your speed. You make one power roll that targets each
       enemy you move adjacent to during this shift.
   - roll: Power Roll + Agility or Presence
-    t1: Taunted (EoT); A < WEAK, prone
-    t2: Taunted (EoT); A < AVERAGE, prone
-    t3: Taunted (EoT); A < STRONG, prone and can't stand (EoT)
+    tier1: Taunted (EoT); A < WEAK, prone
+    tier2: Taunted (EoT); A < AVERAGE, prone
+    tier3: Taunted (EoT); A < STRONG, prone and can't stand (EoT)
 ```

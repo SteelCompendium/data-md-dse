@@ -13,8 +13,9 @@ type: dynamic-terrain/power-fixture
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Hazard Hexer
 name: Tree of Might
-type: Hazard Hexer
 level: 5
 ev: "14"
 flavor: A gnarled tree has unearthed roots that writhe and curl.
@@ -24,18 +25,24 @@ stats:
   - name: Immunity
     value: 5 to all damage except corruption or fire damage
 features:
-  - name: Deactivate
+  - type: feature
+    feature_type: trait
+    name: Deactivate
     icon: 🌀
     effects:
       - effect: The tree of might must be completely destroyed.
-  - name: Tree's Nourishment
+  - type: feature
+    feature_type: trait
+    name: Tree's Nourishment
     icon: ⭐️
     effects:
       - effect: At the start of each round while the tree of might is intact, each enemy
           touching the ground in the encounter area who has M < 0 takes 10
           corruption damage, and the tree of might grows a fruit. The potency
           increases by 1 each subsequent round.
-  - name: Mighty Fruit
+  - type: feature
+    feature_type: trait
+    name: Mighty Fruit
     icon: ⭐️
     effects:
       - effect: Once per round, any creature adjacent to the tree of might can take a

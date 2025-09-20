@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: War Dog Arachnite
 level: 6
 roles:
@@ -53,47 +54,56 @@ agility: 3
 reason: 2
 intuition: 2
 presence: 1
-traits:
-  - name: Eight-Eyed Sight
-    effects:
-      - effect: At the start of each of their turns, the arachnite automatically knows
-          the location of each hidden creature within 10 squares of them.
-  - name: Loyalty Collar
-    effects:
-      - effect: When the arachnite is reduced to 0 Stamina, their loyalty collar
-          explodes, dealing 2d6 damage to each adjacent enemy and object.
-abilities:
-  - name: Longarm Shrikegun
+features:
+  - type: feature
+    feature_type: ability
+    name: Longarm Shrikegun
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 15
     target: One creature or object
     effects:
       - roll: Power Roll + 3
-        t1: 7 damage
-        t2: 9 damage
-        t3: 11 damage; A < 3 bleeding (save ends)
-      - effect: "This ability ignores cover and concealment. The arachnite chooses one
+        tier1: 7 damage
+        tier2: 9 damage
+        tier3: 11 damage; A < 3 bleeding (save ends)
+      - name: Effect
+        effect: "This ability ignores cover and concealment. The arachnite chooses one
           of the following damage types when making the strike: acid, cold,
           fire, lightning, poison, psychic, or sonic"
-        name: Effect
-      - effect: The arachnite can use this ability as if they were in the space of any
+      - cost: 2 Malice
+        effect: The arachnite can use this ability as if they were in the space of any
           ally within distance.
-        cost: 2 Malice
-  - name: Web Vial
+  - type: feature
+    feature_type: ability
+    name: Web Vial
     icon: 🔳
     keywords:
       - Area
       - Ranged
-    type: Maneuver
+    usage: Maneuver
     distance: 2 cube within 10
     target: Special
     effects:
-      - effect: The area is difficult terrain until the end of the encounter
-        name: Effect
+      - name: Effect
+        effect: The area is difficult terrain until the end of the encounter
+  - type: feature
+    feature_type: trait
+    name: Eight-Eyed Sight
+    icon: ⭐️
+    effects:
+      - effect: At the start of each of their turns, the arachnite automatically knows
+          the location of each hidden creature within 10 squares of them.
+  - type: feature
+    feature_type: trait
+    name: Loyalty Collar
+    icon: ⭐️
+    effects:
+      - effect: When the arachnite is reduced to 0 Stamina, their loyalty collar
+          explodes, dealing 2d6 damage to each adjacent enemy and object.
 ~~~

@@ -7,7 +7,7 @@ cost_resource: Discipline
 distance: Melee 1
 feature_type: ability
 file_basename: Impart Force
-file_dpath: Null/1st-Level Features
+file_dpath: Abilities/Null/1st-Level Features
 flavor: A single touch from you, and your enemy flies backward.
 item_id: impart-force-5-discipline
 item_index: '13'
@@ -21,13 +21,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.null.1st-level-feature:impart-force-5-discipline
 scdc:
-- 1.1.1:13.2.6.1:13
+- 1.1.1:11.2.6.1:13
 source: mcdm.heroes.v1
 target: One creature or object
 type: feature/ability/null/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Impart Force
 cost: 5 Discipline
 flavor: A single touch from you, and your enemy flies backward.
@@ -36,7 +38,7 @@ keywords:
   - Psionic
   - Strike
   - Weapon
-type: Maneuver
+usage: Maneuver
 distance: Melee 1
 target: One creature or object
 metadata:
@@ -48,7 +50,7 @@ metadata:
   distance: Melee 1
   feature_type: ability
   file_basename: Impart Force
-  file_dpath: Null/1st-Level Features
+  file_dpath: Abilities/Null/1st-Level Features
   flavor: A single touch from you, and your enemy flies backward.
   item_id: impart-force-5-discipline
   item_index: "13"
@@ -62,17 +64,17 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.null.1st-level-feature:impart-force-5-discipline
   scdc:
-    - 1.1.1:13.2.6.1:13
+    - 1.1.1:11.2.6.1:13
   source: mcdm.heroes.v1
   target: One creature or object
   type: feature/ability/null/1st-level-feature
 effects:
   - roll: Power Roll + Intuition
-    t1: Push 3
-    t2: Push 5
-    t3: Push 7
-  - effect: An object you target must be your size or smaller. You gain an edge on
+    tier1: Push 3
+    tier2: Push 5
+    tier3: Push 7
+  - name: Effect
+    effect: An object you target must be your size or smaller. You gain an edge on
       this ability. Additionally, for each square you push the target, they take
       1 psychic damage.
-    name: Effect
 ```

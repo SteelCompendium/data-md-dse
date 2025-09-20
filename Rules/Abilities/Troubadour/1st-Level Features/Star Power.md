@@ -7,7 +7,7 @@ cost_resource: Drama
 distance: Self
 feature_type: ability
 file_basename: Star Power
-file_dpath: Troubadour/1st-Level Features
+file_dpath: Abilities/Troubadour/1st-Level Features
 flavor: Your years of practicing fencing and dancing pay off on the battlefield.
 item_id: star-power-1-drama
 item_index: '21'
@@ -18,20 +18,22 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:star-power-1-drama
 scdc:
-- 1.1.1:13.2.3.1:21
+- 1.1.1:11.2.3.1:21
 source: mcdm.heroes.v1
 subclass: Duelist
 target: Self
 type: feature/ability/troubadour/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Star Power
 cost: 1 Drama
 flavor: Your years of practicing fencing and dancing pay off on the battlefield.
 keywords:
   - "-"
-type: Maneuver
+usage: Maneuver
 distance: Self
 target: Self
 metadata:
@@ -43,7 +45,7 @@ metadata:
   distance: Self
   feature_type: ability
   file_basename: Star Power
-  file_dpath: Troubadour/1st-Level Features
+  file_dpath: Abilities/Troubadour/1st-Level Features
   flavor: Your years of practicing fencing and dancing pay off on the battlefield.
   item_id: star-power-1-drama
   item_index: "21"
@@ -54,16 +56,16 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:star-power-1-drama
   scdc:
-    - 1.1.1:13.2.3.1:21
+    - 1.1.1:11.2.3.1:21
   source: mcdm.heroes.v1
   subclass: Duelist
   target: Self
   type: feature/ability/troubadour/1st-level-feature
 effects:
-  - effect: You gain a +2 bonus to speed until the end of your turn. Additionally,
+  - name: Effect
+    effect: You gain a +2 bonus to speed until the end of your turn. Additionally,
       the next power roll you make this turn can't have an outcome lower than
       tier 2.
-    name: Effect
-  - effect: You gain a +4 bonus to speed instead.
-    cost: Spend 1 Drama
+  - cost: Spend 1 Drama
+    effect: You gain a +4 bonus to speed instead.
 ```

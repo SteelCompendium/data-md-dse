@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Lizardfolk Grunt
 level: 1
 roles:
@@ -50,26 +51,30 @@ agility: 2
 reason: 0
 intuition: 0
 presence: 0
-traits:
-  - name: Reptilian Escape
-    effects:
-      - effect: While the grunt has a tail, whenever they are grabbed, prone, slowed, or
-          weakened, they can lose their tail to immediately end that condition,
-          then shift up to 2 squares.
-abilities:
-  - name: Snap and Toss
+features:
+  - type: feature
+    feature_type: ability
+    name: Snap and Toss
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 1 damage
-        t2: 2 damage; slide 2
-        t3: 3 damage; slide 2
+        tier1: 1 damage
+        tier2: 2 damage; slide 2
+        tier3: 3 damage; slide 2
+  - type: feature
+    feature_type: trait
+    name: Reptilian Escape
+    icon: ⭐️
+    effects:
+      - effect: While the grunt has a tail, whenever they are grabbed, prone, slowed, or
+          weakened, they can lose their tail to immediately end that condition,
+          then shift up to 2 squares.
 ~~~

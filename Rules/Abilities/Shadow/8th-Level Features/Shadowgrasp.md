@@ -7,7 +7,7 @@ cost_resource: Insight
 distance: 2 burst
 feature_type: ability
 file_basename: Shadowgrasp
-file_dpath: Shadow/8th-Level Features
+file_dpath: Abilities/Shadow/8th-Level Features
 flavor: The shadows around you give way, allowing the shadow creature within you to
   grasp at your foes.
 item_id: shadowgrasp-11-insight
@@ -20,13 +20,15 @@ level: 8
 scc:
 - mcdm.heroes.v1:feature.ability.shadow.8th-level-feature:shadowgrasp-11-insight
 scdc:
-- 1.1.1:13.2.2.2:05
+- 1.1.1:11.2.2.2:05
 source: mcdm.heroes.v1
 target: Each enemy in the area
 type: feature/ability/shadow/8th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Shadowgrasp
 cost: 11 Insight
 flavor: The shadows around you give way, allowing the shadow creature within you
@@ -34,7 +36,7 @@ flavor: The shadows around you give way, allowing the shadow creature within you
 keywords:
   - Area
   - Magic
-type: Main action
+usage: Main action
 distance: 2 burst
 target: Each enemy in the area
 metadata:
@@ -46,7 +48,7 @@ metadata:
   distance: 2 burst
   feature_type: ability
   file_basename: Shadowgrasp
-  file_dpath: Shadow/8th-Level Features
+  file_dpath: Abilities/Shadow/8th-Level Features
   flavor: The shadows around you give way, allowing the shadow creature within you
     to grasp at your foes.
   item_id: shadowgrasp-11-insight
@@ -59,13 +61,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.shadow.8th-level-feature:shadowgrasp-11-insight
   scdc:
-    - 1.1.1:13.2.2.2:05
+    - 1.1.1:11.2.2.2:05
   source: mcdm.heroes.v1
   target: Each enemy in the area
   type: feature/ability/shadow/8th-level-feature
 effects:
   - roll: Power Roll + Agility
-    t1: 11 corruption damage; A < WEAK, restrained (save ends)
-    t2: 16 corruption damage; A < AVERAGE, restrained (save ends)
-    t3: 21 corruption damage; A < STRONG, restrained (save ends)
+    tier1: 11 corruption damage; A < WEAK, restrained (save ends)
+    tier2: 16 corruption damage; A < AVERAGE, restrained (save ends)
+    tier3: 21 corruption damage; A < STRONG, restrained (save ends)
 ```

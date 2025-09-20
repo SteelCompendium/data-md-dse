@@ -7,7 +7,7 @@ cost_resource: Clarity
 distance: Ranged 10
 feature_type: ability
 file_basename: Iron
-file_dpath: Talent/1st-Level Features
+file_dpath: Abilities/Talent/1st-Level Features
 flavor: The target's skin turns to hard, dark metal, impenetrable and dense.
 item_id: iron-5-clarity
 item_index: '05'
@@ -20,13 +20,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:iron-5-clarity
 scdc:
-- 1.1.1:13.2.1.1:05
+- 1.1.1:11.2.1.1:05
 source: mcdm.heroes.v1
 target: Self or one ally
 type: feature/ability/talent/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Iron
 cost: 5 Clarity
 flavor: The target's skin turns to hard, dark metal, impenetrable and dense.
@@ -34,7 +36,7 @@ keywords:
   - Metamorphosis
   - Psionic
   - Ranged
-type: Maneuver
+usage: Maneuver
 distance: Ranged 10
 target: Self or one ally
 metadata:
@@ -46,7 +48,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Iron
-  file_dpath: Talent/1st-Level Features
+  file_dpath: Abilities/Talent/1st-Level Features
   flavor: The target's skin turns to hard, dark metal, impenetrable and dense.
   item_id: iron-5-clarity
   item_index: "05"
@@ -59,16 +61,16 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:iron-5-clarity
   scdc:
-    - 1.1.1:13.2.1.1:05
+    - 1.1.1:11.2.1.1:05
   source: mcdm.heroes.v1
   target: Self or one ally
   type: feature/ability/talent/1st-level-feature
 effects:
-  - effect: The target's stability increases by an amount equal to your Reason
+  - name: Effect
+    effect: The target's stability increases by an amount equal to your Reason
       score, and they gain 10 temporary Stamina and 2 surges. This stability
       increase lasts until the target no longer has temporary Stamina from this
       ability.
-    name: Effect
-  - effect: You can't use maneuvers (save ends).
-    name: Strained
+  - name: Strained
+    effect: You can't use maneuvers (save ends).
 ```

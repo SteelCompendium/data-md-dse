@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Scyza
 level: 3
 roles:
@@ -48,71 +49,72 @@ agility: -1
 reason: -4
 intuition: 0
 presence: -1
-traits:
-  - name: Terrible Beast
-    effects:
-      - effect: The scyza deals an extra 6 damage with abilities used against objects.
-  - name: War Harness
-    effects:
-      - effect: While riding the scyza, three size 1 allies can occupy the same space.
-abilities:
-  - name: Clawed Kick
+features:
+  - type: feature
+    feature_type: ability
+    name: Clawed Kick
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 2
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 2
-        t1: 7 damage
-        t2: 11 damage; prone
-        t3: 14 damage; prone
-      - effect: The scyza roars, and if the target has I < 2, they are frightened (save
+        tier1: 7 damage
+        tier2: 11 damage; prone
+        tier3: 14 damage; prone
+      - name: Effect
+        effect: The scyza roars, and if the target has I < 2, they are frightened (save
           ends).
-        name: Effect
-  - name: Whiptail
+  - type: feature
+    feature_type: ability
+    name: Whiptail
     icon: 🗡
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 3
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 8 damage
-        t2: 13 damage; prone
-        t3: 16 damage; A < 2 bleeding (save ends)
-      - effect: Against a target on top of the scyza, this ability gains an edge, and
+        tier1: 8 damage
+        tier2: 13 damage; prone
+        tier3: 16 damage; A < 2 bleeding (save ends)
+      - name: Effect
+        effect: Against a target on top of the scyza, this ability gains an edge, and
           the target is pushed into an unoccupied adjacent square and knocked
           prone.
-        name: Effect
-  - name: Crestfall
+  - type: feature
+    feature_type: ability
+    name: Crestfall
     icon: 🔳
     cost: 2 Malice
     keywords:
       - Area
       - Ranged
       - Weapon
-    type: Main action
+    usage: Main action
     distance: 3 cube within 2
     target: Each enemy in the area
     effects:
       - roll: Power Roll + 2
-        t1: 4 damage, 1 sonic damage; R < 0 dazed (save ends)
-        t2: 7 damage, 2 sonic damage; R < 1 dazed (save ends)
-        t3: 9 damage, 3 sonic damage; R < 2 dazed (save ends)
-  - name: Sandstorm
+        tier1: 4 damage, 1 sonic damage; R < 0 dazed (save ends)
+        tier2: 7 damage, 2 sonic damage; R < 1 dazed (save ends)
+        tier3: 9 damage, 3 sonic damage; R < 2 dazed (save ends)
+  - type: feature
+    feature_type: ability
+    name: Sandstorm
     icon: ❇️
     cost: 3 Malice
     keywords:
       - Area
-    type: Maneuver
+    usage: Maneuver
     distance: 3 burst
     target: Special
     effects:
@@ -120,20 +122,34 @@ abilities:
         effect: The scyza kicks up a sandstorm, granting concealment to themself and any
           ally in the area until the end of the scyza's next turn. Each enemy in
           the area makes an Intuition test.
-        t1: 10 damage; prone; slowed (EoT)
-        t2: 7 damage; slowed (EoT)
-        t3: 4 damage
-  - name: Brace and Break
+        tier1: 10 damage; prone; slowed (EoT)
+        tier2: 7 damage; slowed (EoT)
+        tier3: 4 damage
+  - type: feature
+    feature_type: ability
+    name: Brace and Break
     icon: ❗️
     keywords:
       - "-"
-    type: Triggered action
+    usage: Triggered action
     distance: Self
     target: Self
     trigger: The scyza or an ally riding the scyza is targeted by an ability.
     effects:
-      - effect: Any damage dealt by the triggering ability is halved. If the creature or
+      - name: Effect
+        effect: Any damage dealt by the triggering ability is halved. If the creature or
           object who used the ability is within 3 squares of the scyza, the
           scyza can make a free strike against them.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Terrible Beast
+    icon: ⭐️
+    effects:
+      - effect: The scyza deals an extra 6 damage with abilities used against objects.
+  - type: feature
+    feature_type: trait
+    name: War Harness
+    icon: ⭐️
+    effects:
+      - effect: While riding the scyza, three size 1 allies can occupy the same space.
 ~~~

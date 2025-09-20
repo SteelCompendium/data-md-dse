@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Radenwight Ratcrobat
 level: 1
 roles:
@@ -49,50 +50,58 @@ agility: 2
 reason: 0
 intuition: 0
 presence: 1
-traits:
-  - name: Gymratstics
-    effects:
-      - effect: The ratcrobat gains an edge on strikes against larger creatures.
-abilities:
-  - name: En Garde
+features:
+  - type: feature
+    feature_type: ability
+    name: En Garde
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 2
-        t1: 4 damage
-        t2: 6 damage
-        t3: 8 damage
-      - effect: The ratcrobat shifts up to 2 squares after striking the first target,
+        tier1: 4 damage
+        tier2: 6 damage
+        tier3: 8 damage
+      - name: Effect
+        effect: The ratcrobat shifts up to 2 squares after striking the first target,
           then can shift 1 square after striking the second target.
-        name: Effect
-  - name: Over Here, Thanks
+  - type: feature
+    feature_type: ability
+    name: Over Here, Thanks
     icon: 🗡
     keywords:
       - Melee
-    type: Maneuver
+    usage: Maneuver
     distance: Melee 1
     target: One enemy
     effects:
-      - effect: The ratcrobat slides the target up to 3 squares, then can shift into any
+      - name: Effect
+        effect: The ratcrobat slides the target up to 3 squares, then can shift into any
           square the target left
-        name: Effect
-  - name: Ready Rodent
+  - type: feature
+    feature_type: ability
+    name: Ready Rodent
     icon: ❗️
     keywords:
       - Melee
       - Weapon
-    type: Triggered action
+    usage: Triggered action
     distance: Melee 1
     target: One creature
     trigger: An ally deals damage to the target.
     effects:
-      - effect: The ratcrobat makes a free strike against the target.
-        name: Effect
+      - name: Effect
+        effect: The ratcrobat makes a free strike against the target.
+  - type: feature
+    feature_type: trait
+    name: Gymratstics
+    icon: ⭐️
+    effects:
+      - effect: The ratcrobat gains an edge on strikes against larger creatures.
 ~~~

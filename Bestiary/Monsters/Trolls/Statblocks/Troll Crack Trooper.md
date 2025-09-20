@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Troll Crack Trooper
 level: 9
 roles:
@@ -52,31 +53,35 @@ agility: 1
 reason: -1
 intuition: 0
 presence: 2
-traits:
-  - name: Group Appetite
-    effects:
-      - effect: The crack trooper dies only if their squad's Stamina pool is reduced to
-          0 Stamina by acid or fire damage, if they end their turn with 0
-          Stamina in their squad's Stamina pool, or if they take acid or fire
-          damage while their squad's Stamina pool is at 0 Stamina.
-abilities:
-  - name: Charging Chomp
+features:
+  - type: feature
+    feature_type: ability
+    name: Charging Chomp
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Charge
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 4
-        t1: 5 damage; push 2
-        t2: 7 damage; push 3; A < 3 3 damage
-        t3: 9 damage; push 4; A < 4 5 damage
-      - effect: The crack trooper's squad's Stamina pool regains Stamina equal to half
+        tier1: 5 damage; push 2
+        tier2: 7 damage; push 3; A < 3 3 damage
+        tier3: 9 damage; push 4; A < 4 5 damage
+      - name: Effect
+        effect: The crack trooper's squad's Stamina pool regains Stamina equal to half
           the damage dealt.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Group Appetite
+    icon: ⭐️
+    effects:
+      - effect: The crack trooper dies only if their squad's Stamina pool is reduced to
+          0 Stamina by acid or fire damage, if they end their turn with 0
+          Stamina in their squad's Stamina pool, or if they take acid or fire
+          damage while their squad's Stamina pool is at 0 Stamina.
 ~~~

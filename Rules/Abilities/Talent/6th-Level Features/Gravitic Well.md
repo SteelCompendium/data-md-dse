@@ -7,7 +7,7 @@ cost_resource: Clarity
 distance: 4 cube within 10
 feature_type: ability
 file_basename: Gravitic Well
-file_dpath: Talent/6th-Level Features
+file_dpath: Abilities/Talent/6th-Level Features
 flavor: You bend gravity into a fine point and pull your foes toward it.
 item_id: gravitic-well-9-clarity
 item_index: '03'
@@ -21,14 +21,16 @@ level: 6
 scc:
 - mcdm.heroes.v1:feature.ability.talent.6th-level-feature:gravitic-well-9-clarity
 scdc:
-- 1.1.1:13.2.1.3:03
+- 1.1.1:11.2.1.3:03
 source: mcdm.heroes.v1
 subclass: Telekinesis
 target: Each creature and object in the area
 type: feature/ability/talent/6th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Gravitic Well
 cost: 9 Clarity
 flavor: You bend gravity into a fine point and pull your foes toward it.
@@ -37,7 +39,7 @@ keywords:
   - Psionic
   - Ranged
   - Telekinesis
-type: Main action
+usage: Main action
 distance: 4 cube within 10
 target: Each creature and object in the area
 metadata:
@@ -49,7 +51,7 @@ metadata:
   distance: 4 cube within 10
   feature_type: ability
   file_basename: Gravitic Well
-  file_dpath: Talent/6th-Level Features
+  file_dpath: Abilities/Talent/6th-Level Features
   flavor: You bend gravity into a fine point and pull your foes toward it.
   item_id: gravitic-well-9-clarity
   item_index: "03"
@@ -63,19 +65,19 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.talent.6th-level-feature:gravitic-well-9-clarity
   scdc:
-    - 1.1.1:13.2.1.3:03
+    - 1.1.1:11.2.1.3:03
   source: mcdm.heroes.v1
   subclass: Telekinesis
   target: Each creature and object in the area
   type: feature/ability/talent/6th-level-feature
 effects:
   - roll: Power Roll + Reason
-    t1: 6 damage; vertical pull 5 toward the center of the area
-    t2: 9 damage; vertical pull 7 toward the center of the area
-    t3: 13 damage; vertical pull 10 toward the center of the area
-  - effect: Targets closest to the center of the area are pulled first.
-    name: Effect
-  - effect: The size of the area increases by 2. You also target yourself and each
+    tier1: 6 damage; vertical pull 5 toward the center of the area
+    tier2: 9 damage; vertical pull 7 toward the center of the area
+    tier3: 13 damage; vertical pull 10 toward the center of the area
+  - name: Effect
+    effect: Targets closest to the center of the area are pulled first.
+  - name: Strained
+    effect: The size of the area increases by 2. You also target yourself and each
       ally within distance.
-    name: Strained
 ```

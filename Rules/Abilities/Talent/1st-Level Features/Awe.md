@@ -7,7 +7,7 @@ cost_resource: Clarity
 distance: Ranged 10
 feature_type: ability
 file_basename: Awe
-file_dpath: Talent/1st-Level Features
+file_dpath: Abilities/Talent/1st-Level Features
 flavor: You project psionic energy out to a creature and take on a new visage in their
   mind.
 item_id: awe-3-clarity
@@ -22,13 +22,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:awe-3-clarity
 scdc:
-- 1.1.1:13.2.1.1:17
+- 1.1.1:11.2.1.1:17
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/talent/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Awe
 cost: 3 Clarity
 flavor: You project psionic energy out to a creature and take on a new visage in
@@ -38,7 +40,7 @@ keywords:
   - Ranged
   - Strike
   - Telepathy
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: One creature
 metadata:
@@ -50,7 +52,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Awe
-  file_dpath: Talent/1st-Level Features
+  file_dpath: Abilities/Talent/1st-Level Features
   flavor: You project psionic energy out to a creature and take on a new visage in
     their mind.
   item_id: awe-3-clarity
@@ -65,7 +67,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:awe-3-clarity
   scdc:
-    - 1.1.1:13.2.1.1:17
+    - 1.1.1:11.2.1.1:17
   source: mcdm.heroes.v1
   target: One creature
   type: feature/ability/talent/1st-level-feature
@@ -76,7 +78,7 @@ effects:
       a saving throw or that ends at the end of their turn. If you target an
       enemy, you make a power roll.
   - roll: Power Roll + Presence
-    t1: 3 + P psychic damage; I < WEAK, frightened (save ends)
-    t2: 6 + P psychic damage; I < AVERAGE, frightened (save ends)
-    t3: 9 + P psychic damage; I < STRONG, frightened (save ends)
+    tier1: 3 + P psychic damage; I < WEAK, frightened (save ends)
+    tier2: 6 + P psychic damage; I < AVERAGE, frightened (save ends)
+    tier3: 9 + P psychic damage; I < STRONG, frightened (save ends)
 ```

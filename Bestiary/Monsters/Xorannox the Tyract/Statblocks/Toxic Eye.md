@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Toxic Eye
 level: 6
 roles:
@@ -51,25 +52,29 @@ agility: 1
 reason: 4
 intuition: 1
 presence: -1
-traits:
-  - name: Psionic Barrier
-    effects:
-      - effect: The toxic eye has damage immunity 15. When they use a main action, they
-          lose this immunity until the end of the round.
-abilities:
-  - name: Toxic Vapors
+features:
+  - type: feature
+    feature_type: ability
+    name: Toxic Vapors
     icon: 🔳
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Area
       - Psionic
       - Ranged
-    type: Main action
+    usage: Main action
     distance: 4 cube within 10
     target: Each enemy in the area
     effects:
       - roll: Power Roll + 4
-        t1: 6 poison damage
-        t2: 10 poison damage; M < 3 weakened (save ends)
-        t3: 13 poison damage; M < 4 weakened (save ends)
+        tier1: 6 poison damage
+        tier2: 10 poison damage; M < 3 weakened (save ends)
+        tier3: 13 poison damage; M < 4 weakened (save ends)
+  - type: feature
+    feature_type: trait
+    name: Psionic Barrier
+    icon: ⭐️
+    effects:
+      - effect: The toxic eye has damage immunity 15. When they use a main action, they
+          lose this immunity until the end of the round.
 ~~~

@@ -7,7 +7,7 @@ cost_resource: Drama
 distance: Ranged 10
 feature_type: ability
 file_basename: Twist at the End
-file_dpath: Troubadour/2nd-Level Features
+file_dpath: Abilities/Troubadour/2nd-Level Features
 flavor: You didn't see that coming, did you?!
 item_id: twist-at-the-end-5-drama
 item_index: '01'
@@ -19,21 +19,23 @@ level: 2
 scc:
 - mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:twist-at-the-end-5-drama
 scdc:
-- 1.1.1:13.2.3.5:01
+- 1.1.1:11.2.3.5:01
 source: mcdm.heroes.v1
 subclass: Auteur
 target: One dead enemy
 type: feature/ability/troubadour/2nd-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Twist at the End
 cost: 5 Drama
 flavor: You didn't see that coming, did you?!
 keywords:
   - Magic
   - Ranged
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: One dead enemy
 metadata:
@@ -45,7 +47,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Twist at the End
-  file_dpath: Troubadour/2nd-Level Features
+  file_dpath: Abilities/Troubadour/2nd-Level Features
   flavor: You didn't see that coming, did you?!
   item_id: twist-at-the-end-5-drama
   item_index: "01"
@@ -57,16 +59,16 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:twist-at-the-end-5-drama
   scdc:
-    - 1.1.1:13.2.3.5:01
+    - 1.1.1:11.2.3.5:01
   source: mcdm.heroes.v1
   subclass: Auteur
   target: One dead enemy
   type: feature/ability/troubadour/2nd-level-feature
 effects:
-  - effect: A target who is not a leader or solo creature comes back to life with
+  - name: Effect
+    effect: A target who is not a leader or solo creature comes back to life with
       half their Stamina and becomes an ally under the Director's control. The
       players can work with the Director to determine when the target takes
       their turn each combat round. At the end of the encounter, the target
       turns to dust and is blown away.
-    name: Effect
 ```

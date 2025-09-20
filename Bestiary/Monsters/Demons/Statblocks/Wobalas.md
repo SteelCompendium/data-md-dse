@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Wobalas
 level: 4
 roles:
@@ -51,25 +52,26 @@ agility: 3
 reason: 1
 intuition: 2
 presence: 1
-traits: []
-abilities:
-  - name: Despair Bolt
+features:
+  - type: feature
+    feature_type: ability
+    name: Despair Bolt
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Magic
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 20
     target: One creature per minion
     effects:
       - roll: Power Roll + 2
-        t1: 3 psychic damage
-        t2: 5 psychic damage
-        t3: 7 psychic damage
-      - effect: The target takes a bane on their next strike. If the target is winded,
+        tier1: 3 psychic damage
+        tier2: 5 psychic damage
+        tier3: 7 psychic damage
+      - name: Effect
+        effect: The target takes a bane on their next strike. If the target is winded,
           they have a double bane on their next strike instead.
-        name: Effect
 ~~~

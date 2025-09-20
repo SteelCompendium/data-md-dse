@@ -7,7 +7,7 @@ cost_resource: Essence
 distance: Ranged 10
 feature_type: ability
 file_basename: The Green Defends Its Servants
-file_dpath: Elementalist/9th-Level Features
+file_dpath: Abilities/Elementalist/9th-Level Features
 flavor: A luminous green shield shows its true beauty the more it cracks.
 item_id: the-green-defends-its-servants-11-essence
 item_index: '03'
@@ -20,13 +20,15 @@ level: 9
 scc:
 - mcdm.heroes.v1:feature.ability.elementalist.9th-level-feature:the-green-defends-its-servants-11-essence
 scdc:
-- 1.1.1:13.2.9.7:03
+- 1.1.1:11.2.9.7:03
 source: mcdm.heroes.v1
 target: Self or one ally
 type: feature/ability/elementalist/9th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: The Green Defends Its Servants
 cost: 11 Essence
 flavor: A luminous green shield shows its true beauty the more it cracks.
@@ -34,7 +36,7 @@ keywords:
   - Green
   - Magic
   - Ranged
-type: Maneuver
+usage: Maneuver
 distance: Ranged 10
 target: Self or one ally
 metadata:
@@ -46,7 +48,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: The Green Defends Its Servants
-  file_dpath: Elementalist/9th-Level Features
+  file_dpath: Abilities/Elementalist/9th-Level Features
   flavor: A luminous green shield shows its true beauty the more it cracks.
   item_id: the-green-defends-its-servants-11-essence
   item_index: "03"
@@ -59,18 +61,18 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.elementalist.9th-level-feature:the-green-defends-its-servants-11-essence
   scdc:
-    - 1.1.1:13.2.9.7:03
+    - 1.1.1:11.2.9.7:03
   source: mcdm.heroes.v1
   target: Self or one ally
   type: feature/ability/elementalist/9th-level-feature
 effects:
-  - effect: You conjure an elemental shield that protects the target until the end
+  - name: Effect
+    effect: You conjure an elemental shield that protects the target until the end
       of your next turn. While the shield is active, the target can take the
       Defend main action as a maneuver on each of their turns. The target gains
       30 temporary Stamina that lasts until depleted or until the effect ends.
       If this temporary Stamina disappears, the effect ends and the shield
       explodes, dealing 10 damage to each enemy within 5 squares of the target.
-    name: Effect
-  - effect: The effect lasts until the start of your next turn.
-    name: Persistent 2
+  - name: Persistent 2
+    effect: The effect lasts until the start of your next turn.
 ```

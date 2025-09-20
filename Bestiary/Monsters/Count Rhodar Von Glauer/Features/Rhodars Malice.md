@@ -13,25 +13,32 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Malice Features
 name: Rhodar's Malice
-type: Malice Features
 flavor: At the start of Rhodar's turn, you can spend Malice to activate one of
   the following features.
 features:
-  - name: Slip
+  - type: feature
+    feature_type: trait
+    name: Slip
     icon: 👤
     cost: 3 Malice
     effects:
       - effect: During this turn, Rhodar can move through creatures and objects at his
           usual speed, but can't end his turn inside a creature or object.
           Additionally, he doesn't take damage from being force moved.
-  - name: Solo Action
+  - type: feature
+    feature_type: trait
+    name: Solo Action
     icon: ☠️
     cost: 5 Malice
     effects:
       - effect: Rhodar takes an additional main action on his turn. He can use this
           feature even if he is dazed.
-  - name: Suffocating Dark
+  - type: feature
+    feature_type: trait
+    name: Suffocating Dark
     icon: 🔳
     cost: 5 Malice
     effects:
@@ -40,7 +47,9 @@ features:
           Until that spear returns to him or he uses this feature again, the
           spear emanates magical darkness in a 5 aura. Rhodar can see through
           this darkness, and any enemy is suffocating while in the darkness.
-  - name: The Mirror Lies
+  - type: feature
+    feature_type: trait
+    name: The Mirror Lies
     icon: 🏹
     cost: 7 Malice
     effects:

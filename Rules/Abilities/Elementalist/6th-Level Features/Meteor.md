@@ -7,7 +7,7 @@ cost_resource: Essence
 distance: Ranged 10
 feature_type: ability
 file_basename: Meteor
-file_dpath: Elementalist/6th-Level Features
+file_dpath: Abilities/Elementalist/6th-Level Features
 flavor: You teleport the target into the air and let the ground and the elemental
   force of fire do the rest.
 item_id: meteor-9-essence
@@ -23,13 +23,15 @@ level: 6
 scc:
 - mcdm.heroes.v1:feature.ability.elementalist.6th-level-feature:meteor-9-essence
 scdc:
-- 1.1.1:13.2.9.3:01
+- 1.1.1:11.2.9.3:01
 source: mcdm.heroes.v1
 target: One creature or object
 type: feature/ability/elementalist/6th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Meteor
 cost: 9 Essence
 flavor: You teleport the target into the air and let the ground and the
@@ -40,7 +42,7 @@ keywords:
   - Magic
   - Ranged
   - Void
-type: Main action
+usage: Main action
 distance: Ranged 10
 target: One creature or object
 metadata:
@@ -52,7 +54,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Meteor
-  file_dpath: Elementalist/6th-Level Features
+  file_dpath: Abilities/Elementalist/6th-Level Features
   flavor: You teleport the target into the air and let the ground and the
     elemental force of fire do the rest.
   item_id: meteor-9-essence
@@ -68,19 +70,19 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.elementalist.6th-level-feature:meteor-9-essence
   scdc:
-    - 1.1.1:13.2.9.3:01
+    - 1.1.1:11.2.9.3:01
   source: mcdm.heroes.v1
   target: One creature or object
   type: feature/ability/elementalist/6th-level-feature
 effects:
   - roll: Power Roll + Reason
-    t1: You teleport the target up to 4 squares.
-    t2: You teleport the target up to 6 squares.
-    t3: You teleport the target up to 8 squares.
-  - effect: If the target is teleported to a space where they would fall, they
+    tier1: You teleport the target up to 4 squares.
+    tier2: You teleport the target up to 6 squares.
+    tier3: You teleport the target up to 8 squares.
+  - name: Effect
+    effect: If the target is teleported to a space where they would fall, they
       immediately do so, treating the fall as if their Agility score were 0. The
       target takes fire damage from the fall, and each enemy within 3 squares of
       where they land takes the same amount of fire damage. The ground within 3
       squares of where the target lands is difficult terrain.
-    name: Effect
 ```

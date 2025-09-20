@@ -4,7 +4,7 @@ class: tactician
 distance: Ranged 10
 feature_type: ability
 file_basename: Mark
-file_dpath: Tactician/1st-Level Features
+file_dpath: Abilities/Tactician/1st-Level Features
 flavor: You draw your allies' attention to a specific foe—with devastating effect.
 item_id: mark
 item_index: '11'
@@ -15,18 +15,20 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:mark
 scdc:
-- 1.1.1:13.2.4.1:11
+- 1.1.1:11.2.4.1:11
 source: mcdm.heroes.v1
 target: One creature
 type: feature/ability/tactician/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Mark
 flavor: You draw your allies' attention to a specific foe—with devastating effect.
 keywords:
   - Ranged
-type: Maneuver
+usage: Maneuver
 distance: Ranged 10
 target: One creature
 metadata:
@@ -35,7 +37,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Mark
-  file_dpath: Tactician/1st-Level Features
+  file_dpath: Abilities/Tactician/1st-Level Features
   flavor: You draw your allies' attention to a specific foe—with devastating effect.
   item_id: mark
   item_index: "11"
@@ -46,12 +48,13 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:mark
   scdc:
-    - 1.1.1:13.2.4.1:11
+    - 1.1.1:11.2.4.1:11
   source: mcdm.heroes.v1
   target: One creature
   type: feature/ability/tactician/1st-level-feature
 effects:
-  - effect: >-
+  - name: Effect
+    effect: >-
       The target is marked by you until the end of the encounter, until you are
       dying, or until you use this ability again. You can willingly end your
       mark on a creature (no action required), and if another tactician marks a
@@ -81,5 +84,4 @@ effects:
       creature is taunted by you until the end of their next turn.
 
       You can't gain more than one benefit from the same trigger.
-    name: Effect
 ```

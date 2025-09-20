@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Rival Tactician
 level: 10
 roles:
@@ -48,58 +49,66 @@ agility: 2
 reason: 4
 intuition: 0
 presence: 3
-traits:
-  - name: Rivalry
-    effects:
-      - effect: At the start of an encounter, the tactician chooses one creature within
-          their line of effect. Both the tactician and the creature can add a d3
-          roll to power rolls they make against each other.
-abilities:
-  - name: Forward Assault
+features:
+  - type: feature
+    feature_type: ability
+    name: Forward Assault
     icon: 🏹
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Ranged 10
     target: Two creatures or objects
     effects:
       - roll: Power Roll + 5
-        t1: 15 damage
-        t2: 21 damage; A < 4 prone and can't stand (EoT)
-        t3: 25 damage; prone; A < 5 can't stand (EoT)
-      - effect: Two allies within distance move up to their speed and can use a
+        tier1: 15 damage
+        tier2: 21 damage; A < 4 prone and can't stand (EoT)
+        tier3: 25 damage; prone; A < 5 can't stand (EoT)
+      - cost: 5 Malice
+        effect: Two allies within distance move up to their speed and can use a
           signature ability that has a double edge.
-        cost: 5 Malice
-  - name: Guardian From Afar
+  - type: feature
+    feature_type: ability
+    name: Guardian From Afar
     icon: 🔳
     cost: 3 Malice
     keywords:
       - Area
       - Ranged
       - Weapon
-    type: Main action
+    usage: Main action
     distance: 3 cube within 10
     target: One creature in the area
     effects:
       - roll: Power Roll + 5
-        t1: 10 damage; M < 3 weakened (save ends)
-        t2: 16 damage; M < 4 weakened (save ends)
-        t3: 20 damage; M < 5 weakened (save ends)
-      - effect: Each ally in the area regains 10 Stamina.
-        name: Effect
-  - name: Battlefield Control
+        tier1: 10 damage; M < 3 weakened (save ends)
+        tier2: 16 damage; M < 4 weakened (save ends)
+        tier3: 20 damage; M < 5 weakened (save ends)
+      - name: Effect
+        effect: Each ally in the area regains 10 Stamina.
+  - type: feature
+    feature_type: ability
+    name: Battlefield Control
     icon: ❗️
     keywords:
       - Ranged
-    type: Triggered action
+    usage: Triggered action
     distance: Ranged 10
     target: The triggering enemy
     trigger: An enemy within distance willingly moves.
     effects:
-      - effect: At any point during the movement, the tactician and one ally within
+      - name: Effect
+        effect: At any point during the movement, the tactician and one ally within
           distance can use a signature ability against the target.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Rivalry
+    icon: ⭐️
+    effects:
+      - effect: At the start of an encounter, the tactician chooses one creature within
+          their line of effect. Both the tactician and the creature can add a d3
+          roll to power rolls they make against each other.
 ~~~

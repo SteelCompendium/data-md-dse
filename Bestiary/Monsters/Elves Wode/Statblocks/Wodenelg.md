@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Wodenelg
 level: 1
 roles:
@@ -48,48 +49,60 @@ agility: 1
 reason: -1
 intuition: 0
 presence: -1
-traits:
-  - name: Sure-Footed
-    effects:
-      - effect: The wodenelg ignores difficult terrain and doesn't provoke oppotunity
-          attacks by moving.
-  - name: Mounted Stability
-    effects:
-      - effect: The wodenelg's rider has damage immunity 2.
-  - name: Shared Glamor
-    effects:
-      - effect: If the wodenelg's rider has the Masking Glamor trait, the wodenelg also
-          has that trait.
-abilities:
-  - name: Gore
+features:
+  - type: feature
+    feature_type: ability
+    name: Gore
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Charge
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 5 damage
-        t2: 7 damage
-        t3: 9 damage
-      - effect: The wodenelg's rider can make a free strike at any point during the
+        tier1: 5 damage
+        tier2: 7 damage
+        tier3: 9 damage
+      - name: Effect
+        effect: The wodenelg's rider can make a free strike at any point during the
           charge.
-        name: Effect
-  - name: Where I End the Woods Begin
+  - type: feature
+    feature_type: trait
+    name: Sure-Footed
+    icon: ⭐️
+    effects:
+      - effect: The wodenelg ignores difficult terrain and doesn't provoke oppotunity
+          attacks by moving.
+  - type: feature
+    feature_type: ability
+    name: Where I End the Woods Begin
     icon: 👤
     cost: 3 Malice
     keywords:
       - "-"
-    type: Maneuver
+    usage: Maneuver
     distance: Self
     target: Self
     effects:
-      - effect: The wodenelg and their rider become invisible until the start of the
+      - name: Effect
+        effect: The wodenelg and their rider become invisible until the start of the
           wodenelg's next turn.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Mounted Stability
+    icon: ⭐️
+    effects:
+      - effect: The wodenelg's rider has damage immunity 2.
+  - type: feature
+    feature_type: trait
+    name: Shared Glamor
+    icon: ⭐️
+    effects:
+      - effect: If the wodenelg's rider has the Masking Glamor trait, the wodenelg also
+          has that trait.
 ~~~

@@ -7,7 +7,7 @@ cost_resource: Discipline
 distance: Melee 1
 feature_type: ability
 file_basename: Relentless Nemesis
-file_dpath: Null/1st-Level Features
+file_dpath: Abilities/Null/1st-Level Features
 flavor: You strike, and for the next few moments, your enemy can't escape you.
 item_id: relentless-nemesis-3-discipline
 item_index: '03'
@@ -21,13 +21,15 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.null.1st-level-feature:relentless-nemesis-3-discipline
 scdc:
-- 1.1.1:13.2.6.1:03
+- 1.1.1:11.2.6.1:03
 source: mcdm.heroes.v1
 target: One creature or object
 type: feature/ability/null/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Relentless Nemesis
 cost: 3 Discipline
 flavor: You strike, and for the next few moments, your enemy can't escape you.
@@ -36,7 +38,7 @@ keywords:
   - Psionic
   - Strike
   - Weapon
-type: Main action
+usage: Main action
 distance: Melee 1
 target: One creature or object
 metadata:
@@ -48,7 +50,7 @@ metadata:
   distance: Melee 1
   feature_type: ability
   file_basename: Relentless Nemesis
-  file_dpath: Null/1st-Level Features
+  file_dpath: Abilities/Null/1st-Level Features
   flavor: You strike, and for the next few moments, your enemy can't escape you.
   item_id: relentless-nemesis-3-discipline
   item_index: "03"
@@ -62,17 +64,17 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.null.1st-level-feature:relentless-nemesis-3-discipline
   scdc:
-    - 1.1.1:13.2.6.1:03
+    - 1.1.1:11.2.6.1:03
   source: mcdm.heroes.v1
   target: One creature or object
   type: feature/ability/null/1st-level-feature
 effects:
   - roll: Power Roll + Agility
-    t1: 6 + A damage
-    t2: 8 + A damage
-    t3: 12 + A damage
-  - effect: Until the start of your next turn, whenever the target moves or is force
+    tier1: 6 + A damage
+    tier2: 8 + A damage
+    tier3: 12 + A damage
+  - name: Effect
+    effect: Until the start of your next turn, whenever the target moves or is force
       moved, you can use a free triggered action to shift up to your speed. You
       must end this shift adjacent to the target.
-    name: Effect
 ```

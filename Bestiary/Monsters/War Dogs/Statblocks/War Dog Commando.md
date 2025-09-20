@@ -31,6 +31,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: War Dog Commando
 level: 1
 roles:
@@ -51,29 +52,33 @@ agility: 2
 reason: 0
 intuition: 0
 presence: 0
-traits:
-  - name: Loyalty Collar
-    effects:
-      - effect: When the commando is reduced to 0 Stamina, their loyalty collar
-          explodes, dealing 1d3 damage to each adjacent enemy and object.
-abilities:
-  - name: Daggers
+features:
+  - type: feature
+    feature_type: ability
+    name: Daggers
     icon: ⚔️
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Ranged
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1 or ranged 5
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        t1: 2 damage
-        t2: 4 damage
-        t3: 5 damage
-      - effect: After using this ability, the commando can attempt to hide even if
+        tier1: 2 damage
+        tier2: 4 damage
+        tier3: 5 damage
+      - name: Effect
+        effect: After using this ability, the commando can attempt to hide even if
           observed.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Loyalty Collar
+    icon: ⭐️
+    effects:
+      - effect: When the commando is reduced to 0 Stamina, their loyalty collar
+          explodes, dealing 1d3 damage to each adjacent enemy and object.
 ~~~

@@ -30,6 +30,7 @@ type: monster
 ---
 
 ~~~ds-statblock
+type: statblock
 name: Gnoll Marauder
 level: 2
 roles:
@@ -48,41 +49,47 @@ agility: 1
 reason: 0
 intuition: 0
 presence: 1
-traits:
-  - name: Death Frenzy
-    effects:
-      - effect: Whenever a non-minion ally within 7 squares of the marauder is reduced
-          to 0 Stamina, the marauder moves up to their speed and can make a
-          melee free strike.
-abilities:
-  - name: Fury Flail
+features:
+  - type: feature
+    feature_type: ability
+    name: Fury Flail
     icon: 🗡
-    cost: Signature Ability
+    ability_type: Signature Ability
     keywords:
       - Melee
       - Strike
       - Weapon
-    type: Main action
+    usage: Main action
     distance: Melee 1
     target: One creature or object
     effects:
       - roll: Power Roll + 2
-        t1: 4 damage
-        t2: 5 damage
-        t3: 7 damage; prone; A < 2 bleeding (save ends)
-      - effect: This ability targets one additional target for each 2 Malice spent.
-        cost: 2+ Malice
-  - name: Marauder's Cackletongue
+        tier1: 4 damage
+        tier2: 5 damage
+        tier3: 7 damage; prone; A < 2 bleeding (save ends)
+      - cost: 2+ Malice
+        effect: This ability targets one additional target for each 2 Malice spent.
+  - type: feature
+    feature_type: ability
+    name: Marauder's Cackletongue
     icon: ❇️
     cost: 3 Malice
     keywords:
       - Area
-    type: Maneuver
+    usage: Maneuver
     distance: 2 burst
     target: Self and each ally in the area
     effects:
-      - effect: Each target shifts up to their speed. If any target hasn't used their
+      - name: Effect
+        effect: Each target shifts up to their speed. If any target hasn't used their
           own Cackletongue maneuver on this turn, they can use it immediately at
           no cost.
-        name: Effect
+  - type: feature
+    feature_type: trait
+    name: Death Frenzy
+    icon: ⭐️
+    effects:
+      - effect: Whenever a non-minion ally within 7 squares of the marauder is reduced
+          to 0 Stamina, the marauder moves up to their speed and can make a
+          melee free strike.
 ~~~

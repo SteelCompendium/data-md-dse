@@ -13,23 +13,30 @@ type: monster/feature
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Malice Features
 name: Valok Malice
-type: Malice Features
 flavor: At the start of any valok's turn, you can spend Malice to activate one
   of the following features.
 features:
-  - name: Repeater
+  - type: feature
+    feature_type: trait
+    name: Repeater
     icon: 👤
     cost: 3 Malice
     effects:
       - effect: One valok acting this turn takes an additional main action.
-  - name: I Was Not Commanded to Wait
+  - type: feature
+    feature_type: trait
+    name: I Was Not Commanded to Wait
     icon: 🌀
     cost: 5 Malice
     effects:
       - effect: At the end of each turn until the end of the round, one valok can either
           shift up to 2 squares or make a free strike.
-  - name: Rapid Logic Overdrive
+  - type: feature
+    feature_type: trait
+    name: Rapid Logic Overdrive
     icon: ⭐️
     cost: 7 Malice
     effects:

@@ -13,8 +13,9 @@ type: dynamic-terrain/fieldwork
 ---
 
 ~~~ds-featureblock
+type: featureblock
+featureblock_type: Trap Ambusher
 name: Spike Trap
-type: Trap Ambusher
 level: 2
 ev: "3"
 flavor: A pit dug into the ground is filled with spikes, and camouflaged to
@@ -25,40 +26,49 @@ stats:
   - name: Typical Space
     value: 2 x 2-square area
 features:
-  - name: Deactivate
+  - type: feature
+    feature_type: trait
+    name: Deactivate
     icon: 🌀
     effects:
       - effect: As a maneuver, a creature adjacent to a spike trap can make an **Agility
           test**.
-        t1: The creature triggers the trap and is affected as if in its area.
-        t2: The trap is deactivated but the creature is slowed (EoT).
-        t3: The trap is deactivated and doesn't trigger.
-  - name: Activate
+        tier1: The creature triggers the trap and is affected as if in its area.
+        tier2: The trap is deactivated but the creature is slowed (EoT).
+        tier3: The trap is deactivated and doesn't trigger.
+  - type: feature
+    feature_type: trait
+    name: Activate
     icon: ❕
     effects:
       - effect: The spike trap is calibrated to be triggered by creatures or objects of
           a particular size or larger. The trap triggers when a creature or
           object of the appropriate size enters its area.
-      - effect: The **Spike Trap** ability.
-        name: Effect
-  - name: Spike Trap
+      - name: Effect
+        effect: The **Spike Trap** ability.
+  - type: feature
+    feature_type: ability
+    name: Spike Trap
     icon: ❗️
     keywords:
       - Area
       - Weapon
-    type: Free triggered action
+    usage: Free triggered action
     distance: Melee 0
     target: The triggering creature or object
     trigger: A creature or object of the appropriate size enters the trap's area.
     effects:
       - roll: Power Roll + 2
-        t1: 3 damage; the target shifts 1 square away from the trap
-        t2: 4 damage; the target falls into the pit; A < 0 prone
-        t3: 6 damage; the target falls into the pit; A < 1 prone; restrained (save ends)
-      - effect: The target ends their movement when they enter the trap's area. The pit
+        tier1: 3 damage; the target shifts 1 square away from the trap
+        tier2: 4 damage; the target falls into the pit; A < 0 prone
+        tier3: 6 damage; the target falls into the pit; A < 1 prone; restrained (save
+          ends)
+      - name: Effect
+        effect: The target ends their movement when they enter the trap's area. The pit
           is typically 2 squares deep. The trap must be manually reset.
-        name: Effect
-  - name: Hidden
+  - type: feature
+    feature_type: trait
+    name: Hidden
     icon: ⭐️
     effects:
       - effect: The spike trap is hidden until triggered or detected.

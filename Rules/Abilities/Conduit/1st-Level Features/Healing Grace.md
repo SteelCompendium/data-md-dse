@@ -4,7 +4,7 @@ class: conduit
 distance: Ranged 10
 feature_type: ability
 file_basename: Healing Grace
-file_dpath: Conduit/1st-Level Features
+file_dpath: Abilities/Conduit/1st-Level Features
 flavor: Your divine energy restores the righteous.
 item_id: healing-grace
 item_index: '12'
@@ -16,19 +16,21 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:healing-grace
 scdc:
-- 1.1.1:13.2.8.1:12
+- 1.1.1:11.2.8.1:12
 source: mcdm.heroes.v1
 target: Self or one ally
 type: feature/ability/conduit/1st-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Healing Grace
 flavor: Your divine energy restores the righteous.
 keywords:
   - Magic
   - Ranged
-type: Maneuver
+usage: Maneuver
 distance: Ranged 10
 target: Self or one ally
 metadata:
@@ -37,7 +39,7 @@ metadata:
   distance: Ranged 10
   feature_type: ability
   file_basename: Healing Grace
-  file_dpath: Conduit/1st-Level Features
+  file_dpath: Abilities/Conduit/1st-Level Features
   flavor: Your divine energy restores the righteous.
   item_id: healing-grace
   item_index: "12"
@@ -49,14 +51,15 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:healing-grace
   scdc:
-    - 1.1.1:13.2.8.1:12
+    - 1.1.1:11.2.8.1:12
   source: mcdm.heroes.v1
   target: Self or one ally
   type: feature/ability/conduit/1st-level-feature
 effects:
-  - effect: The target can spend a Recovery.
-    name: Effect
-  - effect: >-
+  - name: Effect
+    effect: The target can spend a Recovery.
+  - cost: Spend 1+ Piety
+    effect: >-
       For each piety spent, choose one of the following enhancements:
 
       - You can target one additional ally within distance.
@@ -67,5 +70,4 @@ effects:
       - A prone target can stand up.
 
       - A target can spend 1 additional Recovery.
-    cost: Spend 1+ Piety
 ```

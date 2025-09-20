@@ -7,7 +7,7 @@ cost_resource: Piety
 distance: 4 burst
 feature_type: ability
 file_basename: Invocation of Undoing
-file_dpath: Conduit/6th-Level Features
+file_dpath: Abilities/Conduit/6th-Level Features
 flavor: You utter a secret word of destruction known only to deities.
 item_id: invocation-of-undoing-9-piety
 item_index: '06'
@@ -19,21 +19,23 @@ level: 6
 scc:
 - mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:invocation-of-undoing-9-piety
 scdc:
-- 1.1.1:13.2.8.3:06
+- 1.1.1:11.2.8.3:06
 source: mcdm.heroes.v1
 subclass: Knowledge
 target: Each enemy in the area
 type: feature/ability/conduit/6th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Invocation of Undoing
 cost: 9 Piety
 flavor: You utter a secret word of destruction known only to deities.
 keywords:
   - Area
   - Magic
-type: Main action
+usage: Main action
 distance: 4 burst
 target: Each enemy in the area
 metadata:
@@ -45,7 +47,7 @@ metadata:
   distance: 4 burst
   feature_type: ability
   file_basename: Invocation of Undoing
-  file_dpath: Conduit/6th-Level Features
+  file_dpath: Abilities/Conduit/6th-Level Features
   flavor: You utter a secret word of destruction known only to deities.
   item_id: invocation-of-undoing-9-piety
   item_index: "06"
@@ -57,17 +59,17 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:invocation-of-undoing-9-piety
   scdc:
-    - 1.1.1:13.2.8.3:06
+    - 1.1.1:11.2.8.3:06
   source: mcdm.heroes.v1
   subclass: Knowledge
   target: Each enemy in the area
   type: feature/ability/conduit/6th-level-feature
 effects:
   - roll: Power Roll + Intuition
-    t1: 3 sonic damage; push 3
-    t2: 6 sonic damage; push 5
-    t3: 9 sonic damage; push 7
-  - effect: You can choose to have this ability deal damage to and push objects, and
+    tier1: 3 sonic damage; push 3
+    tier2: 6 sonic damage; push 5
+    tier3: 9 sonic damage; push 7
+  - name: Special
+    effect: You can choose to have this ability deal damage to and push objects, and
       to deal damage to buildings.
-    name: Special
 ```

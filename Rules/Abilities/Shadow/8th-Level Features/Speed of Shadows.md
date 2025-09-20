@@ -7,7 +7,7 @@ cost_resource: Insight
 distance: Self
 feature_type: ability
 file_basename: Speed of Shadows
-file_dpath: Shadow/8th-Level Features
+file_dpath: Abilities/Shadow/8th-Level Features
 flavor: You make multiple strikes against a foe before they even notice they're dead.
 item_id: speed-of-shadows-11-insight
 item_index: '03'
@@ -18,19 +18,21 @@ level: 8
 scc:
 - mcdm.heroes.v1:feature.ability.shadow.8th-level-feature:speed-of-shadows-11-insight
 scdc:
-- 1.1.1:13.2.2.2:03
+- 1.1.1:11.2.2.2:03
 source: mcdm.heroes.v1
 target: Self
 type: feature/ability/shadow/8th-level-feature
 ---
 
-```ds-ability
+```ds-feature
+type: feature
+feature_type: ability
 name: Speed of Shadows
 cost: 11 Insight
 flavor: You make multiple strikes against a foe before they even notice they're dead.
 keywords:
   - Magic
-type: Main action
+usage: Main action
 distance: Self
 target: Self
 metadata:
@@ -42,7 +44,7 @@ metadata:
   distance: Self
   feature_type: ability
   file_basename: Speed of Shadows
-  file_dpath: Shadow/8th-Level Features
+  file_dpath: Abilities/Shadow/8th-Level Features
   flavor: You make multiple strikes against a foe before they even notice they're dead.
   item_id: speed-of-shadows-11-insight
   item_index: "03"
@@ -53,14 +55,14 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.shadow.8th-level-feature:speed-of-shadows-11-insight
   scdc:
-    - 1.1.1:13.2.2.2:03
+    - 1.1.1:11.2.2.2:03
   source: mcdm.heroes.v1
   target: Self
   type: feature/ability/shadow/8th-level-feature
 effects:
-  - effect: You can use a strike signature ability four times, use a strike
+  - name: Effect
+    effect: You can use a strike signature ability four times, use a strike
       signature ability that gains an edge three times, or use a strike
       signature ability that has a double edge twice. You can shift up to 2
       squares between each use.
-    name: Effect
 ```
