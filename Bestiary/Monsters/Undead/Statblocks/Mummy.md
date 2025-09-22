@@ -108,5 +108,5 @@ features:
       their turn within distance of one.
     effects:
       - name: Effect
-        effect: The target takes 8 poison damage
+        effect: The target takes 8 poison damage.
 ~~~

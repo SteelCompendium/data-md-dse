@@ -85,7 +85,7 @@ features:
     target: "-"
     effects:
       - effect: The scoundrel uses Rapier and Dagger against up to three targets. They
-          shift up to 2 squares before or after each strike
+          shift up to 2 squares before or after each strike.
   - type: feature
     feature_type: trait
     name: Supernatural Insight

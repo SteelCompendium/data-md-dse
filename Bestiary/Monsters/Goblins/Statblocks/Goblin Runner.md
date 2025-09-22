@@ -75,5 +75,5 @@ features:
     name: Crafty
     icon: ⭐️
     effects:
-      - effect: The runner doesn't provoke opportunity attacks by moving
+      - effect: The runner doesn't provoke opportunity attacks by moving.
 ~~~

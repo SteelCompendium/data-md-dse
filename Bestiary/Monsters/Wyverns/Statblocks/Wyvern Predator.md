@@ -124,7 +124,7 @@ features:
     effects:
       - name: Effect
         effect: The predator uses Sedating Stinger against the target, then shifts up to
-          3 squares
+          3 squares.
   - type: feature
     feature_type: trait
     name: Stubborn Rage

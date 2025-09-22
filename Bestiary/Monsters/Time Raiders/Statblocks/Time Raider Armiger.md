@@ -83,7 +83,7 @@ features:
     distance: Ranged 20
     target: The triggering creature
     trigger: A creature deals damage to any ally of the armiger who the armiger has
-      line of effect to
+      line of effect to.
     effects:
       - roll: Power Roll + 2
         tier1: 4 psychic damage; R < 0 5 poison damage

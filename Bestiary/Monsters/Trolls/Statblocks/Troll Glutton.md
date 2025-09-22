@@ -104,7 +104,7 @@ features:
     effects:
       - name: Effect
         effect: Until the start of their next turn, the glutton has a double edge on
-          strikes, and strikes made against them gain an edge
+          strikes, and strikes made against them gain an edge.
   - type: feature
     feature_type: ability
     name: Spiteful Retort
@@ -133,5 +133,5 @@ features:
     effects:
       - effect: The glutton dies only if they are reduced to 0 Stamina by acid or fire
           damage, if they end their turn with 0 Stamina, or if they take acid or
-          fire damage while at 0 Stamina
+          fire damage while at 0 Stamina.
 ~~~

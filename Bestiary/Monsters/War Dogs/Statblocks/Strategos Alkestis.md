@@ -87,7 +87,7 @@ features:
     effects:
       - name: Effect
         effect: Until the start of Alkestis's next turn, any effect that reduces the
-          damage taken by the target has no effect
+          damage taken by the target has no effect.
   - type: feature
     feature_type: ability
     name: Artillery Enfilade
@@ -107,7 +107,7 @@ features:
         tier2: 13 damage; A < 5 slowed (save ends)
         tier3: 16 damage; A < 6 slowed (save ends)
       - name: Effect
-        effect: The area is difficult terrain until the start of the next round
+        effect: The area is difficult terrain until the start of the next round.
   - type: feature
     feature_type: trait
     name: End Effect

@@ -85,7 +85,7 @@ features:
     target: One creature
     effects:
       - name: Effect
-        effect: The target makes a Presence test
+        effect: The target makes a Presence test.
         tier1: The target is slowed, takes a bane on power rolls, and can't regain
           Stamina (save ends).
         tier2: The target is slowed and takes a bane on power rolls (save ends).
@@ -117,7 +117,7 @@ features:
     trigger: A creature targets the adjudicator with a strike.
     effects:
       - name: Effect
-        effect: The target makes a Presence test
+        effect: The target makes a Presence test.
         tier1: The adjudicator chooses a new target for the strike.
         tier2: The adjudicator halves the triggering damage.
         tier3: The target takes a bane on the strike.

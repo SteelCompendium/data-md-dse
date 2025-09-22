@@ -96,7 +96,7 @@ features:
     trigger: A creature targets the monarch with a strike.
     effects:
       - name: Effect
-        effect: The ally is the target of the triggering strike instead
+        effect: The ally is the target of the triggering strike instead.
   - type: feature
     feature_type: trait
     name: Crafty

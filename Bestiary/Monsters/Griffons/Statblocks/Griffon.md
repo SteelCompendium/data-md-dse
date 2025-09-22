@@ -71,7 +71,7 @@ features:
         tier3: 13 damage; the griffon shifts up to 3 squares
       - name: Effect
         effect: If this ability is used as part of the Charge main action, the griffon
-          can grab one of the targets
+          can grab one of the targets.
   - type: feature
     feature_type: ability
     name: Crack the Earth
@@ -121,11 +121,11 @@ features:
     usage: Triggered action
     distance: Self
     target: Self
-    trigger: The griffon takes damage
+    trigger: The griffon takes damage.
     effects:
       - name: Effect
         effect: The griffon halves the damage, ignores any nondamaging effects
-          associated with it, and shifts up to 2 squares
+          associated with it, and shifts up to 2 squares.
   - type: feature
     feature_type: trait
     name: Beast of Prey

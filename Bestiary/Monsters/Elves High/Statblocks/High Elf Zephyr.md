@@ -73,7 +73,7 @@ features:
         effect: On a tier 3 outcome, the zephyr can make a free strike against a
           creature adjacent to the target. If they do so and that creature and
           the target both have A < 2, the creature and the target are both
-          prone. On any tier outcome, the zephyr can then shift up to 2 squares
+          prone. On any tier outcome, the zephyr can then shift up to 2 squares.
   - type: feature
     feature_type: ability
     name: Windwalk

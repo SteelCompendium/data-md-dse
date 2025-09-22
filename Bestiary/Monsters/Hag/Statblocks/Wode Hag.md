@@ -185,7 +185,7 @@ features:
       - name: Effect
         effect: Before using this villain action, the hag shifts up to their speed. They
           then use Corrosive Claws against each target, push each target up to 2
-          squares, and shift up to their speed again
+          squares, and shift up to their speed again.
   - type: feature
     feature_type: ability
     name: Open the Oven

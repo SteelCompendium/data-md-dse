@@ -83,7 +83,7 @@ features:
     effects:
       - name: Effect
         effect: The ratcrobat slides the target up to 3 squares, then can shift into any
-          square the target left
+          square the target left.
   - type: feature
     feature_type: ability
     name: Ready Rodent

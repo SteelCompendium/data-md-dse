@@ -90,7 +90,7 @@ features:
       - name: Effect
         effect: This ability gains an edge against any target grabbed by the koptourok.
           If one or more targets are pulled adjacent to the koptourok, the
-          koptourok can fly until the end of the encounter
+          koptourok can fly until the end of the encounter.
   - type: feature
     feature_type: trait
     name: Exhale

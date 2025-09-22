@@ -99,5 +99,5 @@ features:
     name: Slip Away
     icon: ⭐️
     effects:
-      - effect: The assassin can attempt to hide even while observed
+      - effect: The assassin can attempt to hide even while observed.
 ~~~

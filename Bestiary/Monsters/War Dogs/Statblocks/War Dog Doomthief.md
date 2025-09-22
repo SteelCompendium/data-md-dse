@@ -77,7 +77,7 @@ features:
     icon: ⭐️
     effects:
       - effect: The doomthief emits a 3 aura of warped fate that blocks line of effect
-          for any enemy ability that doesn't include them as a target
+          for any enemy ability that doesn't include them as a target.
   - type: feature
     feature_type: ability
     name: Expanding Doom

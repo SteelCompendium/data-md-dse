@@ -75,5 +75,5 @@ features:
         tier3: 8 damage; pull 3
       - name: Effect
         effect: Each ally gains an edge on strikes made against the target until the end
-          of the round
+          of the round.
 ~~~

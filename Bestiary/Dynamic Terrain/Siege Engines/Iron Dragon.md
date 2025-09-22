@@ -91,5 +91,5 @@ features:
     effects:
       - name: Effect
         effect: The iron dragon and the creature using this action move together up to 2
-          squares
+          squares.
 ~~~

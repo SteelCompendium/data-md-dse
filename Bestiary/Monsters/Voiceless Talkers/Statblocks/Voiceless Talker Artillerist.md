@@ -120,7 +120,7 @@ features:
     effects:
       - name: Effect
         effect: The artillerist can teleport up to 5 squares and ignores any effects
-          associated with the damage
+          associated with the damage.
   - type: feature
     feature_type: trait
     name: Psionic Conductor

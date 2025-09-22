@@ -127,7 +127,7 @@ features:
     icon: ⭐️
     effects:
       - effect: Each ally within 5 squares of the butcher gains an edge on power rolls
-          against any enemy affected by a condition
+          against any enemy affected by a condition.
   - type: feature
     feature_type: trait
     name: Relentless Hunger

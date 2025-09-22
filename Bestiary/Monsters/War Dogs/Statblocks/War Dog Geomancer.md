@@ -76,7 +76,7 @@ features:
           last space in the area in the chosen direction.
       - cost: 2 Malice
         effect: The ground beneath the area becomes a 2-square-deep trench after the
-          power roll is resolved
+          power roll is resolved.
   - type: feature
     feature_type: ability
     name: Siegeworks

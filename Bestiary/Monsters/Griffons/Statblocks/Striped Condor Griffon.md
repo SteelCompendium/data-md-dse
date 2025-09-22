@@ -84,7 +84,7 @@ features:
       - name: Effect
         effect: The griffon shifts up to their speed along the ground in straight line.
           Each enemy who comes adjacent to the griffon during this shift can
-          choose to either take 5 damage or be knocked prone
+          choose to either take 5 damage or be knocked prone.
   - type: feature
     feature_type: ability
     name: Power Wing Buffet
@@ -109,7 +109,7 @@ features:
     usage: Triggered action
     distance: Ranged 5
     target: The triggering creature
-    trigger: The griffon flies directly above a creature within distance
+    trigger: The griffon flies directly above a creature within distance.
     effects:
       - name: Effect
         effect: The griffon dives down onto the target, taking no damage from falling if
@@ -128,7 +128,7 @@ features:
     name: Steady
     icon: ⭐️
     effects:
-      - effect: Any power roll that could knock the griffon prone takes a bane
+      - effect: Any power roll that could knock the griffon prone takes a bane.
   - type: feature
     feature_type: trait
     name: Banded Predator
@@ -136,5 +136,5 @@ features:
     effects:
       - effect: The griffon can attempt hide even while observed. Additionally, while no
           enemy has line of effect to them, the griffon can attempt to hide at
-          the end of their turn
+          the end of their turn.
 ~~~

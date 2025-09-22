@@ -98,7 +98,7 @@ features:
     trigger: A creature deals damage to the talent.
     effects:
       - name: Effect
-        effect: The talent halves the damage and shifts up to 2 squares
+        effect: The talent halves the damage and shifts up to 2 squares.
   - type: feature
     feature_type: trait
     name: Rivalry

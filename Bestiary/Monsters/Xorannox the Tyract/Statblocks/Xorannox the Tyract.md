@@ -153,7 +153,7 @@ features:
     icon: ⭐️
     effects:
       - effect: Xorannox can't be made frightened or knocked prone, and he can't be
-          flanked
+          flanked.
   - type: feature
     feature_type: trait
     name: Natural Enemies

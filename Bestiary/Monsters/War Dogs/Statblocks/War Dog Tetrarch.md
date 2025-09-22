@@ -151,7 +151,7 @@ features:
       - name: Effect
         effect: The area is set ablaze until the end of the encounter. While ablaze, the
           area is difficult terrain, and any creature takes 2 fire damage for
-          each square in the area they enter for the first time in a round
+          each square in the area they enter for the first time in a round.
   - type: feature
     feature_type: ability
     name: You Would Dare?!

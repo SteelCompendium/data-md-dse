@@ -72,7 +72,7 @@ features:
         tier2: 4 damage
         tier3: 6 damage
       - name: Effect
-        effect: The cloak shifts up to 2 squares
+        effect: The cloak shifts up to 2 squares.
   - type: feature
     feature_type: trait
     name: Of the Umbra

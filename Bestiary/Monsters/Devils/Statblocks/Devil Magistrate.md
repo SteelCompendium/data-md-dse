@@ -119,7 +119,7 @@ features:
     trigger: A creature targets the magistrate with a strike.
     effects:
       - name: Effect
-        effect: The target makes a Presence test
+        effect: The target makes a Presence test.
         tier1: The magistrate chooses a new target for the strike.
         tier2: The magistrate halves the triggering damage.
         tier3: The target takes a bane on the strike.

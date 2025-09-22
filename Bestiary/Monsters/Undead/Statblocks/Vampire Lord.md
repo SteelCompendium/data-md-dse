@@ -71,7 +71,7 @@ features:
         tier3: 24 corruption damage; M < 5 bleeding (save ends)
       - name: Effect
         effect: The vampire regains Stamina equal to half the damage dealt, and can end
-          one effect on them that can be ended by a saving throw
+          one effect on them that can be ended by a saving throw.
       - cost: 2+ Malice
         effect: The vampire shifts 3 after striking the last target, and can target one
           additional creature for every 2 malice spent.
@@ -169,7 +169,7 @@ features:
           | **📏 20 burst** | **🎯 Each enemy in the area** |
       - name: Effect
         effect: Each target makes a **Might test**. This ability deals an extra 5 damage
-          for each creature killed by the Sacrifice villain action
+          for each creature killed by the Sacrifice villain action.
         tier1: 11 corruption damage
         tier2: 8 corruption damage
         tier3: 2 corruption damage

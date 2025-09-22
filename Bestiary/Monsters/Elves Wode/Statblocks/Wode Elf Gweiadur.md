@@ -71,7 +71,7 @@ features:
         tier2: 11 damage
         tier3: 14 damage; A < 2 restrained (save ends)
       - name: Effect
-        effect: The gweiadur shifts up to 3 squares
+        effect: The gweiadur shifts up to 3 squares.
       - cost: 3 Malice
         effect: If this ability restrains the target, one enemy adjacent to the target
           is also restrained (save ends).

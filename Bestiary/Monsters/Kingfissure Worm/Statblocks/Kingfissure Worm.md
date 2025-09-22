@@ -183,7 +183,7 @@ features:
           acid damage at the start of every turn. If the worm takes 25 or more
           damage in a single round from swallowed creatures, they immediately
           regurgitate all creatures they have swallowed, who land prone in
-          unoccupied spaces within 3 squares of the kingfissure worm
+          unoccupied spaces within 3 squares of the kingfissure worm.
   - type: feature
     feature_type: trait
     name: Titanic Tunneler

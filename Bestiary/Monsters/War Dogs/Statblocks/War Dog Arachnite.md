@@ -75,7 +75,7 @@ features:
       - name: Effect
         effect: "This ability ignores cover and concealment. The arachnite chooses one
           of the following damage types when making the strike: acid, cold,
-          fire, lightning, poison, psychic, or sonic"
+          fire, lightning, poison, psychic, or sonic."
       - cost: 2 Malice
         effect: The arachnite can use this ability as if they were in the space of any
           ally within distance.
@@ -91,7 +91,7 @@ features:
     target: Special
     effects:
       - name: Effect
-        effect: The area is difficult terrain until the end of the encounter
+        effect: The area is difficult terrain until the end of the encounter.
   - type: feature
     feature_type: trait
     name: Eight-Eyed Sight

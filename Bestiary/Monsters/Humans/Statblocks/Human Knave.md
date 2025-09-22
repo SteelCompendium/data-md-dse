@@ -86,7 +86,7 @@ features:
     name: Overwhelm
     icon: ⭐️
     effects:
-      - effect: An enemy who starts their turn adjacent to the knave can't shift
+      - effect: An enemy who starts their turn adjacent to the knave can't shift.
   - type: feature
     feature_type: trait
     name: Supernatural Insight

@@ -69,7 +69,7 @@ features:
         tier2: 2 damage
         tier3: 3 damage
       - name: Effect
-        effect: One ally within 3 squares of the princeps shifts up to 2 squares
+        effect: One ally within 3 squares of the princeps shifts up to 2 squares.
   - type: feature
     feature_type: trait
     name: Shield? Shield!

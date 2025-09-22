@@ -71,7 +71,7 @@ features:
         tier3: 9 damage
       - name: Effect
         effect: The target is taunted until the end of their next turn, and the
-          greenskeeper shifts up to 3 squares
+          greenskeeper shifts up to 3 squares.
       - cost: 2 Malice
         effect: The distance increases to Melee 5.
   - type: feature

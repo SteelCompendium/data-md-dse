@@ -82,7 +82,7 @@ features:
     name: Stone Steps
     icon: ⭐️
     effects:
-      - effect: The sand stone giant ignores difficult terrain
+      - effect: The sand stone giant ignores difficult terrain.
   - type: feature
     feature_type: trait
     name: Stone Swim

@@ -74,5 +74,5 @@ features:
     name: Crafty
     icon: ⭐️
     effects:
-      - effect: The spinecleaver doesn't provoke opportunity attacks by moving
+      - effect: The spinecleaver doesn't provoke opportunity attacks by moving.
 ~~~

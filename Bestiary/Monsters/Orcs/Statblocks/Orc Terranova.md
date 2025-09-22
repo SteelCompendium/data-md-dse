@@ -88,7 +88,7 @@ features:
         tier2: 7 damage; M < 1 restrained (save ends)
         tier3: 10 damage; M < 2 restrained (save ends)
       - name: Effect
-        effect: The area is difficult terrain
+        effect: The area is difficult terrain.
   - type: feature
     feature_type: trait
     name: Seismic Step

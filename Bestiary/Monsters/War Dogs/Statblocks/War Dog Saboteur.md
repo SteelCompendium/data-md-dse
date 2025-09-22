@@ -71,7 +71,7 @@ features:
         tier3: 8 fire damage; push 3
       - name: Effect
         effect: The space the target occupies fills with dark smoke and blocks line of
-          effect until the start of the saboteur's next turn
+          effect until the start of the saboteur's next turn.
   - type: feature
     feature_type: trait
     name: Loyalty Collar

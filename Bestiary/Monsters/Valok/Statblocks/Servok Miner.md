@@ -92,7 +92,7 @@ features:
           (save ends)
         tier2: 11 damage; slide 2
         tier3: 7 damage
-      - effect: The area is difficult terrain
+      - effect: The area is difficult terrain.
   - type: feature
     feature_type: ability
     name: Break Ground

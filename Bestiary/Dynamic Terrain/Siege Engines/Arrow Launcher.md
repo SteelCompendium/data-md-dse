@@ -120,7 +120,5 @@ features:
         tier2: 8 damage; R < 1 dazed (save ends)
         tier3: 11 damage; R < 2 frightened (save ends)
       - name: Effect
-        effect: This ability can't be used again until the arrow
-      - name: Effect
         effect: This ability can't be used again until the arrow launcher is reloaded.
 ~~~

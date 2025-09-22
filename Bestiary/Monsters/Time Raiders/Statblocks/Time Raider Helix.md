@@ -88,7 +88,7 @@ features:
           objects at high speed in one direction of the helix's choice. Any
           creature who enters the area or starts their turn there slides 3
           squares toward the end of the area in the chosen direction. Each enemy
-          in the area when it first appears takes 3 damage before they slide
+          in the area when it first appears takes 3 damage before they slide.
       - cost: 3 Malice
         effect: The helix creates a second kinetic lane.
   - type: feature

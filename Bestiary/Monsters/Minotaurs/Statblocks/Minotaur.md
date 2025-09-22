@@ -71,7 +71,7 @@ features:
         tier2: 11 damage; push 2
         tier3: 14 damage; push 3
       - name: Effect
-        effect: The minotaur shifts up to 3 squares
+        effect: The minotaur shifts up to 3 squares.
   - type: feature
     feature_type: ability
     name: Primal Bay

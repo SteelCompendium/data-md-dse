@@ -90,7 +90,7 @@ features:
         tier2: 4 acid damage; M < 3 slowed (save ends)
         tier3: 6 acid damage; M < 4 slowed (save ends)
       - name: Effect
-        effect: The area is difficult terrain
+        effect: The area is difficult terrain.
   - type: feature
     feature_type: trait
     name: Jetwing Agility

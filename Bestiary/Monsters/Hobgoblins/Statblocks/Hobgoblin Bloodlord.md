@@ -122,7 +122,7 @@ features:
     effects:
       - effect: At the end of each of their turns, the bloodlord can take 10 damage to
           end one effect on them that can be ended by a saving throw. This
-          damage can't be reduced in any way
+          damage can't be reduced in any way.
   - type: feature
     feature_type: ability
     name: Advance!

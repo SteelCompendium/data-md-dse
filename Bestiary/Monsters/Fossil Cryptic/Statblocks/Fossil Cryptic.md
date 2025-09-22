@@ -69,7 +69,7 @@ features:
       - effect: The cryptic is constantly surrounded by a 1 aura of swirling debris that
           obscures their form. Ranged abilities that target the cryptic take a
           bane. Additionally, any enemy who enters the aura for the first time
-          in a round or starts their turn there takes 5 damage
+          in a round or starts their turn there takes 5 damage.
   - type: feature
     feature_type: trait
     name: Seismic Step
@@ -143,7 +143,7 @@ features:
     effects:
       - name: Effect
         effect: The cryptic halves the damage, ignores any nondamaging effects
-          associated with it, and shifts up to 3 squares
+          associated with it, and shifts up to 3 squares.
   - type: feature
     feature_type: ability
     name: Shatterstone

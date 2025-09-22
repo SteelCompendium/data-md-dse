@@ -118,7 +118,7 @@ features:
       - name: Effect
         effect: A portal appears at the center of the area. Any creature at the center
           of the area when this ability is used or who is pulled into the center
-          for the first time in a round takes 10 sonic damage
+          for the first time in a round takes 10 sonic damage.
       - cost: 2 Malice
         effect: The area remains active and deals its damage until Vesper is reduced to
           0 Stamina or until the end of the encounter. Any creature who enters

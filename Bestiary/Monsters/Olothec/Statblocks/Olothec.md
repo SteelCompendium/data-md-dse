@@ -205,7 +205,7 @@ features:
         tier3: 17 psychic damage; P < 4 frightened (save ends)
       - name: Effect
         effect: While frightened this way, a target can't make saving throws to end any
-          other effects
+          other effects.
   - type: feature
     feature_type: ability
     name: Psychic Pulse

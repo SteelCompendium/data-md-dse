@@ -91,5 +91,5 @@ features:
     name: Crafty
     icon: ⭐️
     effects:
-      - effect: The warrior doesn't provoke opportunity attacks by moving
+      - effect: The warrior doesn't provoke opportunity attacks by moving.
 ~~~

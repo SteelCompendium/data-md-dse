@@ -87,7 +87,7 @@ features:
         tier3: 4 cold damage
       - name: Effect
         effect: Until the end of the stalker's next turn, the area provides concealment,
-          and blocks line of effect for enemies
+          and blocks line of effect for enemies.
   - type: feature
     feature_type: ability
     name: Shadow Jump

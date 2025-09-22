@@ -74,7 +74,7 @@ features:
         tier3: 3 damage
       - name: Effect
         effect: If this ability is used as part of the Charge main action, the runner
-          shifts up to 2 squares first
+          shifts up to 2 squares first.
   - type: feature
     feature_type: trait
     name: Masking Glamor

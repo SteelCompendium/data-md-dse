@@ -20,7 +20,7 @@ level: 4
 ev: "24"
 flavor: The throne of A'An, sun god of the Antical Protectorate in what is now
   Vanigar, retains some of her power from the age before she was slain to end
-  the Age of Suns-and plunge the region into eternal winter.
+  the Age of Suns—and plunge the region into eternal winter.
 stamina: "140"
 size: "2"
 features:

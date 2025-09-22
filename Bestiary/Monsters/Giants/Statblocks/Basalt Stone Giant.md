@@ -137,7 +137,7 @@ features:
     name: Stone Steps
     icon: ⭐️
     effects:
-      - effect: The basalt stone giant ignores difficult terrain
+      - effect: The basalt stone giant ignores difficult terrain.
   - type: feature
     feature_type: trait
     name: Stone Swim

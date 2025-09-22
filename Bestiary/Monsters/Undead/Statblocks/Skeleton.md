@@ -73,7 +73,7 @@ features:
         tier3: 7 damage
       - name: Effect
         effect: Until the start of the skeleton's next turn, the target takes 2 damage
-          the first time they willingly move on their turn
+          the first time they willingly move on their turn.
   - type: feature
     feature_type: ability
     name: Bone Spur

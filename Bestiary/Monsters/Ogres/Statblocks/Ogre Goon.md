@@ -122,7 +122,7 @@ features:
     trigger: A creature or object within distance moves or shifts away from the goon.
     effects:
       - name: Effect
-        effect: The goon slides the target up to 5 squares
+        effect: The goon slides the target up to 5 squares.
   - type: feature
     feature_type: trait
     name: Defiant Anger

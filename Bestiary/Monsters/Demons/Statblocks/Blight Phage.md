@@ -70,7 +70,7 @@ features:
         tier2: 10 corruption damage
         tier3: 11 corruption damage
       - name: Effect
-        effect: A puddle of blight-digested soul juice-covers the ground in the target's
+        effect: A puddle of blight—digested soul juice—covers the ground in the target's
           square, which is affected as if by Seeping Blight (see the Level 7+
           Demon Malice feature).
   - type: feature

@@ -82,7 +82,7 @@ features:
     effects:
       - name: Effect
         effect: Until the start of their next turn, the breaker has a double edge on
-          abilities and is automatically affected by all potency effect
+          abilities and is automatically affected by all potency effect.
   - type: feature
     feature_type: trait
     name: Breaking Point

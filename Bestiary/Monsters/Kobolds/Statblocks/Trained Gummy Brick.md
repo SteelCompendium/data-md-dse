@@ -77,7 +77,7 @@ features:
           start of each of their turns. An engulfed creature who is no longer
           restrained moves to the nearest unoccupied space adjacent to the
           brick. The brick can have as many creatures or objects engulfed as
-          will fit within their space
+          will fit within their space.
       - cost: 2 Malice
         effect: This ability targets one additional target.
   - type: feature

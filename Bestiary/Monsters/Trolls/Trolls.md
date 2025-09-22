@@ -22,7 +22,7 @@ A troll's constant hunger and aggression beget a life of violence. Like a grotes
 
 ### Phases of Destruction
 
-Fortunately for the ecosystems they inhabit, trolls can't be active all the time. Their natural behavior is to hunt relentlessly for a few days, then return to their dens to rest for as much as a week. Patient troll hunters can wait for this torpor and catch their quarry by surprise-though the cost of waiting can be high thanks to the damage a troll might do in the meantime.
+Fortunately for the ecosystems they inhabit, trolls can't be active all the time. Their natural behavior is to hunt relentlessly for a few days, then return to their dens to rest for as much as a week. Patient troll hunters can wait for this torpor and catch their quarry by surprise—though the cost of waiting can be high thanks to the damage a troll might do in the meantime.
 
 ### Strange Mutations
 
@@ -36,7 +36,7 @@ When a suitably large piece of a troll is torn off in battle, it does its very b
 >
 > At the director's discretion, a troll can mutate after consuming the flesh of any creature and gain some of their damage immunities, traits, abilities, and movement options. For instance, a troll who devours the carcass of a dead draconian might grow wings and gain their signature ability!
 >
-> Be aware that this can increase the difficulty category of an encounter while one or more of these mutated trolls are present-especially if their mutations enable them to deal more damage than normal or grant them an acid or fire damage immunity.
+> Be aware that this can increase the difficulty category of an encounter while one or more of these mutated trolls are present—especially if their mutations enable them to deal more damage than normal or grant them an acid or fire damage immunity.
 
 ### Troll Languages
 
@@ -168,7 +168,7 @@ At the start of any troll's turn, you can spend Malice to activate one of the fo
 
 > ⭐️ **Bloody Feast**
 >
-> Each ally within 5 squares of the butcher gains an edge on power rolls against any enemy affected by a condition
+> Each ally within 5 squares of the butcher gains an edge on power rolls against any enemy affected by a condition.
 
 > ⭐️ **Relentless Hunger**
 >
@@ -210,7 +210,7 @@ At the start of any troll's turn, you can spend Malice to activate one of the fo
 > | ----------- | -----------: |
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** Until the start of their next turn, the glutton has a double edge on strikes, and strikes made against them gain an edge
+> **Effect:** Until the start of their next turn, the glutton has a double edge on strikes, and strikes made against them gain an edge.
 
 > ❗️ **Spiteful Retort (1 Malice)**
 >
@@ -228,7 +228,7 @@ At the start of any troll's turn, you can spend Malice to activate one of the fo
 
 > ⭐️ **Relentless Hunger**
 >
-> The glutton dies only if they are reduced to 0 Stamina by acid or fire damage, if they end their turn with 0 Stamina, or if they take acid or fire damage while at 0 Stamina
+> The glutton dies only if they are reduced to 0 Stamina by acid or fire damage, if they end their turn with 0 Stamina, or if they take acid or fire damage while at 0 Stamina.
 
 ###### Troll Crack Trooper
 

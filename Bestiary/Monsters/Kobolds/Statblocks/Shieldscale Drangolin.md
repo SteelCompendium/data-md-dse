@@ -117,5 +117,5 @@ features:
     icon: ⭐️
     effects:
       - effect: When the drangolin burrows, each adjacent size 1S or smaller ally can
-          move with them
+          move with them.
 ~~~

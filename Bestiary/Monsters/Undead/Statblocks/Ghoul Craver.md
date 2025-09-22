@@ -78,7 +78,7 @@ features:
     name: Ever So Hungry
     icon: ⭐️
     effects:
-      - effect: Any enemy adjacent to three or more ghoul cravers can't shift
+      - effect: Any enemy adjacent to three or more ghoul cravers can't shift.
   - type: feature
     feature_type: trait
     name: Hunger

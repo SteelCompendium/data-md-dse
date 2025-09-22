@@ -88,7 +88,7 @@ features:
     name: Vukenstep
     icon: ⭐️
     effects:
-      - effect: The werewolf ignores difficult terrain
+      - effect: The werewolf ignores difficult terrain.
   - type: feature
     feature_type: ability
     name: Accursed Bite

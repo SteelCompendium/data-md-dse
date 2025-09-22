@@ -99,5 +99,5 @@ features:
     icon: ⭐️
     effects:
       - effect: While they have line of effect to the brush stalker, any animal except
-          another brush stalker is frightened
+          another brush stalker is frightened.
 ~~~

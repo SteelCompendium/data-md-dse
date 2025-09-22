@@ -103,5 +103,5 @@ features:
     icon: ⭐️
     effects:
       - effect: While the tusker demon is winded, they gain an edge on strikes, and any
-          strike made against them gains an edge
+          strike made against them gains an edge.
 ~~~

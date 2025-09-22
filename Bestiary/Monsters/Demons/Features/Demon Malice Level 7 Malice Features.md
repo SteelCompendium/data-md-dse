@@ -35,7 +35,7 @@ features:
     icon: ❇️
     cost: 5 Malice
     effects:
-      - effect: One demon acting this turn expels blight-digested soul juice onto the
+      - effect: One demon acting this turn expels blight—digested soul juice—onto the
           ground around them in a 3 burst that lingers until the start of their
           next turn. Any enemy who enters the area or starts their turn there
           takes 6 corruption damage, and has a double bane on power rolls until

@@ -100,5 +100,5 @@ features:
     icon: ⭐️
     effects:
       - effect: When the giant zombie is targeted by an ability that deals rolled
-          damage, they halve the damage from a tier 1 outcome
+          damage, they halve the damage from a tier 1 outcome.
 ~~~

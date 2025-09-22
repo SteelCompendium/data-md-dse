@@ -71,7 +71,7 @@ features:
         tier2: 4 damage
         tier3: 5 damage
       - name: Effect
-        effect: Each ally adjacent to the target shifts up to 2 squares
+        effect: Each ally adjacent to the target shifts up to 2 squares.
   - type: feature
     feature_type: trait
     name: Otherworldly Grace

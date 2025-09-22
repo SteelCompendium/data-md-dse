@@ -69,7 +69,7 @@ features:
         tier2: 2 damage; the tiro can shift 1 square
         tier3: 3 damage; the tiro shifts up to 2 squares
       - name: Effect
-        effect: The target can't shift until the start of the tiro's next turn
+        effect: The target can't shift until the start of the tiro's next turn.
   - type: feature
     feature_type: trait
     name: Shield? Shield!

@@ -69,7 +69,7 @@ features:
         tier2: 7 damage
         tier3: 9 damage
       - name: Effect
-        effect: The target can't shift until the end of their next turn
+        effect: The target can't shift until the end of their next turn.
       - cost: 1 Malice
         effect: This ability targets one additional target.
   - type: feature

@@ -74,7 +74,7 @@ features:
         effect: "A target who starts their turn grabbed by the zombie takes 2 corruption
           damage. A creature who takes 5 or more corruption damage this way
           becomes insatiably hungry for flesh, and must complete the Find a Cure
-          downtime project in Draw Steel: Heroes to end this effect"
+          downtime project in Draw Steel: Heroes to end this effect."
   - type: feature
     feature_type: ability
     name: Zombie Dust
@@ -99,5 +99,5 @@ features:
     effects:
       - effect: The first time the zombie is reduced to 0 Stamina by damage that isn't
           fire damage or holy damage and their body isn't destroyed, they
-          instead have 10 Stamina and fall prone
+          instead have 10 Stamina and fall prone.
 ~~~
