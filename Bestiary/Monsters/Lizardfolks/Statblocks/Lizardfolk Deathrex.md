@@ -159,6 +159,9 @@ features:
           Stamina and no villain actions.
   - type: feature
     feature_type: ability
+    name: Thresher Thrasher
+    icon: ☠️
+    ability_type: Villain Action 3
     keywords:
       - Area
     usage: "-"

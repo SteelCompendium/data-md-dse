@@ -137,6 +137,8 @@ features:
           longer wracked with pain."
   - type: feature
     feature_type: ability
+    name: Necrotic Form
+    icon: 👤
     keywords:
       - "-"
     usage: Maneuver

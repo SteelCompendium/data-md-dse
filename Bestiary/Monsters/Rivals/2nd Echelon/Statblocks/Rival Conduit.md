@@ -81,7 +81,7 @@ features:
       - Ranged
     usage: Maneuver
     distance: Ranged 10
-    target: Self and five allie
+    target: Self and five allies
     effects:
       - name: Effect
         effect: Each target has a double edge on their next strike.

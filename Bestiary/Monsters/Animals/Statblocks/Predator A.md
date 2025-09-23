@@ -64,7 +64,7 @@ features:
       - roll: Power Roll + 2
         tier1: 7 damage
         tier2: 10 damage; M < 1 prone
-        tier3: 13 damage; M < 2 prone
+        tier3: 13 damage; M < 1 prone
   - type: feature
     feature_type: ability
     name: Ready to Strike

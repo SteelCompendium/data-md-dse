@@ -64,7 +64,7 @@ features:
       - roll: Power Roll + 2
         tier1: 7 damage
         tier2: 11 damage; push 1; M < 1 prone
-        tier3: 14 damage; push 2; M < 2 prone
+        tier3: 14 damage; push 2; M < 1 prone
   - type: feature
     feature_type: ability
     name: Wild Swing
