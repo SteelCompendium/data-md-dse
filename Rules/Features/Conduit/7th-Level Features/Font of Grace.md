@@ -13,6 +13,7 @@ scc:
 scdc:
 - 1.1.1:11.1.8.9:14
 source: mcdm.heroes.v1
+subclass: Life
 type: feature/trait/conduit/7th-level-feature
 ---
 
@@ -35,6 +36,7 @@ metadata:
   scdc:
     - 1.1.1:11.1.8.9:14
   source: mcdm.heroes.v1
+  subclass: Life
   type: feature/trait/conduit/7th-level-feature
 effects:
   - effect: Each time you use your Healing Grace ability, you gain 1 piety that can

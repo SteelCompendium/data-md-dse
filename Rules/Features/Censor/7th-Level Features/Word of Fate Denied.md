@@ -13,6 +13,7 @@ scc:
 scdc:
 - 1.1.1:11.1.7.9:09
 source: mcdm.heroes.v1
+subclass: Fate
 type: feature/trait/censor/7th-level-feature
 ---
 
@@ -35,6 +36,7 @@ metadata:
   scdc:
     - 1.1.1:11.1.7.9:09
   source: mcdm.heroes.v1
+  subclass: Fate
   type: feature/trait/censor/7th-level-feature
 effects:
   - effect: When an ally within 10 squares takes damage that would leave them dying,

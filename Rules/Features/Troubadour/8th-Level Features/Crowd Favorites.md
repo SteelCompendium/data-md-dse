@@ -13,6 +13,7 @@ scc:
 scdc:
 - 1.1.1:11.1.3.2:03
 source: mcdm.heroes.v1
+subclass: Virtuoso
 type: feature/trait/troubadour/8th-level-feature
 ---
 
@@ -35,6 +36,7 @@ metadata:
   scdc:
     - 1.1.1:11.1.3.2:03
   source: mcdm.heroes.v1
+  subclass: Virtuoso
   type: feature/trait/troubadour/8th-level-feature
 effects:
   - effect: You have the following performance abilities, which are usable with your

@@ -13,6 +13,7 @@ scc:
 scdc:
 - 1.1.1:11.1.7.1:07
 source: mcdm.heroes.v1
+subclass: Life
 type: feature/trait/censor/1st-level-feature
 ---
 
@@ -35,6 +36,7 @@ metadata:
   scdc:
     - 1.1.1:11.1.7.1:07
   source: mcdm.heroes.v1
+  subclass: Life
   type: feature/trait/censor/1st-level-feature
 effects:
   - effect: Each time you finish a respite, you can choose yourself or one ally who

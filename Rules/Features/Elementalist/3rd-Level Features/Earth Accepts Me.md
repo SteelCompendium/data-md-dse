@@ -13,6 +13,7 @@ scc:
 scdc:
 - 1.1.1:11.1.9.7:03
 source: mcdm.heroes.v1
+subclass: Earth
 type: feature/trait/elementalist/3rd-level-feature
 ---
 
@@ -35,6 +36,7 @@ metadata:
   scdc:
     - 1.1.1:11.1.9.7:03
   source: mcdm.heroes.v1
+  subclass: Earth
   type: feature/trait/elementalist/3rd-level-feature
 effects:
   - effect: You have the following ability.

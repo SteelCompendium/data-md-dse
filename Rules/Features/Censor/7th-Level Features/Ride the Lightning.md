@@ -13,6 +13,7 @@ scc:
 scdc:
 - 1.1.1:11.1.7.9:12
 source: mcdm.heroes.v1
+subclass: Storm
 type: feature/trait/censor/7th-level-feature
 ---
 
@@ -35,6 +36,7 @@ metadata:
   scdc:
     - 1.1.1:11.1.7.9:12
   source: mcdm.heroes.v1
+  subclass: Storm
   type: feature/trait/censor/7th-level-feature
 effects:
   - effect: Lightning and thunder infuse your body. Whenever you use an ability to

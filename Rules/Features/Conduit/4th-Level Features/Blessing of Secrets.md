@@ -13,6 +13,7 @@ scc:
 scdc:
 - 1.1.1:11.1.8.10:11
 source: mcdm.heroes.v1
+subclass: Trickery
 type: feature/trait/conduit/4th-level-feature
 ---
 
@@ -35,6 +36,7 @@ metadata:
   scdc:
     - 1.1.1:11.1.8.10:11
   source: mcdm.heroes.v1
+  subclass: Trickery
   type: feature/trait/conduit/4th-level-feature
 effects:
   - effect: You have the following ability.
