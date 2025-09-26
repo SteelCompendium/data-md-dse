@@ -61,24 +61,23 @@ effects:
             tier2: 3 burst
             tier3: 4 burst
           - name: Strained
-            effect: >-
-              You can choose to reduce the size of the burst by 2 (to a minimum
-              of 1 burst) to give the forced movement distance a +2 bonus. You
-              take half the total damage all targets take from forced movement.
-
-              ###### Gravitic Nova (11 Clarity)
-
-              *Unbridled psionic energy erupts from your body and flashes
-              outward, hurling your foes back.*
-
-              | **Area, Psionic, Telekinesis** |                          **Main
-              action** |
-
-              | ------------------------------ |
-              ---------------------------------------: |
-
-              | **📏 3 burst**                 | **🎯 Each enemy and object in
-              the area** |
+            effect: You can choose to reduce the size of the burst by 2 (to a minimum of 1
+              burst) to give the forced movement distance a +2 bonus. You take
+              half the total damage all targets take from forced movement.
+      - type: feature
+        feature_type: ability
+        name: Gravitic Nova
+        cost: 11 Clarity
+        flavor: Unbridled psionic energy erupts from your body and flashes outward,
+          hurling your foes back.
+        keywords:
+          - Area
+          - Psionic
+          - Telekinesis
+        usage: Main action
+        distance: 3 burst
+        target: Each enemy and object in the area
+        effects:
           - roll: Power Roll + Reason
             tier1: 6 damage; push 7
             tier2: 9 damage; push 10

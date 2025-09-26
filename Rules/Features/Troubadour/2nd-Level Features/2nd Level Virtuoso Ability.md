@@ -52,22 +52,24 @@ effects:
         target: Special
         effects:
           - name: Effect
-            effect: >-
-              You use an ability that you have observed being used this combat
-              round. The ability must have the Strike keyword, cost 5 or fewer
-              of a Heroic Resource, and cost no Malice. When you make the
-              strike, you use your Presence score for any power rolls, and any
-              damage you deal is sonic damage.
-
-              ###### Tough Crowd (5 Drama)
-
-              *Your fans don't seem to like the opening act...*
-
-              | **Area, Magic, Ranged** | **Main action** |
-
-              | ----------------------- | --------------: |
-
-              | **📏 3 cube within 10** |  **🎯 Special** |
+            effect: You use an ability that you have observed being used this combat round.
+              The ability must have the Strike keyword, cost 5 or fewer of a
+              Heroic Resource, and cost no Malice. When you make the strike, you
+              use your Presence score for any power rolls, and any damage you
+              deal is sonic damage.
+      - type: feature
+        feature_type: ability
+        name: Tough Crowd
+        cost: 5 Drama
+        flavor: Your fans don't seem to like the opening act...
+        keywords:
+          - Area
+          - Magic
+          - Ranged
+        usage: Main action
+        distance: 3 cube within 10
+        target: Special
+        effects:
           - name: Effect
             effect: The area is haunted by a swirling horde of phantoms until the end of the
               encounter. Allies can enter any square of the area without

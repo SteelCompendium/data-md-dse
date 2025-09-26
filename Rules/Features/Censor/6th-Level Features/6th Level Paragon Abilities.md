@@ -51,7 +51,6 @@ effects:
         usage: Main action
         distance: Melee 1
         target: One creature
-        trigger: A creature makes a strike against the target.
         effects:
           - roll: Power Roll + Might
             tier1: 8 + M damage; as a free triggered action, one ally within 10 squares of
@@ -63,19 +62,21 @@ effects:
               of the target can each use a strike signature ability that gains
               an edge against the target
           - name: Effect
-            effect: >-
-              Each ally can shift up to 2 squares and gains 2 surges before
-              making the strike.
-
-              ###### Intercede (9 Wrath)
-
-              *You take your ally's place.*
-
-              | **Magic, Ranged** | **Free triggered** |
-
-              | ----------------- | -----------------: |
-
-              | **📏 Ranged 10**  |    **🎯 One ally** |
+            effect: Each ally can shift up to 2 squares and gains 2 surges before making the
+              strike.
+      - type: feature
+        feature_type: ability
+        name: Intercede
+        cost: 9 Wrath
+        flavor: You take your ally's place.
+        keywords:
+          - Magic
+          - Ranged
+        usage: Free triggered
+        distance: Ranged 10
+        target: One ally
+        trigger: A creature makes a strike against the target.
+        effects:
           - name: Effect
             effect: The target is unaffected by the strike and you become the target
               instead, even if you aren't a valid target for it. You take half

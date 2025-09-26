@@ -59,17 +59,21 @@ effects:
               reach an adjacent square. The triggering ally can spend a Recovery
               and gains 5 temporary Stamina for each enemy you came adjacent to
               during the move. You then make a power roll against the target.
-          - effect: |-
-              ###### Squad! On Me! (5 Focus)
-
-              *Together we are invincible!*
-              | **Area**       |                          **Maneuver** |
-              | -------------- | ------------------------------------: |
-              | **📏 1 burst** | **🎯 Self and each ally in the area** |
-            roll: Power Roll + Might
+          - roll: Power Roll + Might
             tier1: R < WEAK, the target is frightened of the triggering ally (save ends)
             tier2: R < AVERAGE, the target is frightened of the triggering ally (save ends)
             tier3: R < STRONG, the target is frightened of the triggering ally (save ends)
+      - type: feature
+        feature_type: ability
+        name: Squad! On Me!
+        cost: 5 Focus
+        flavor: Together we are invincible!
+        keywords:
+          - Area
+        usage: Maneuver
+        distance: 1 burst
+        target: Self and each ally in the area
+        effects:
           - name: Effect
             effect: Until the start of your next turn, each target has a bonus to stability
               equal to your Might score. Additionally, each target gains 2

@@ -55,17 +55,24 @@ effects:
           - name: Effect
             effect: The target takes half the damage. You then make a power roll against the
               triggering creature.
-          - effect: |-
-              ###### To Me Squad! (9 Focus)
-
-              *You lead your allies in a charge.*
-              | **Charge, Melee, Strike, Weapon** |     **Main action** |
-              | --------------------------------- | ------------------: |
-              | **📏 Melee 1**                    | **🎯 One creature** |
-            roll: Power Roll + Might
+          - roll: Power Roll + Might
             tier1: A < WEAK, dazed (save ends)
             tier2: A < AVERAGE, dazed (save ends)
             tier3: A < STRONG, dazed (save ends)
+      - type: feature
+        feature_type: ability
+        name: To Me Squad!
+        cost: 9 Focus
+        flavor: You lead your allies in a charge.
+        keywords:
+          - Charge
+          - Melee
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 1
+        target: One creature
+        effects:
           - roll: Power Roll + Might
             tier1: 6 + M damage; one ally within 10 squares can use the Charge main action
               as a free triggered action, and can use a melee strike signature

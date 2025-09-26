@@ -54,52 +54,58 @@ effects:
         distance: 2 cube within 1
         target: Each enemy in the area
         effects:
-          - effect: |-
-              ###### Every Step... Death!
-
-              *You show your foe a glimpse of their fate after death.*
-              | **Magic, Ranged, Strike** |     **Main action** |
-              | ------------------------- | ------------------: |
-              | **📏 Ranged 10**          | **🎯 One creature** |
-            roll: Power Roll + Presence
+          - roll: Power Roll + Presence
             tier1: 2 holy damage; push 1
             tier2: 4 holy damage; push 2
             tier3: 6 holy damage; push 3
+      - type: feature
+        feature_type: ability
+        name: Every Step... Death!
+        flavor: You show your foe a glimpse of their fate after death.
+        keywords:
+          - Magic
+          - Ranged
+          - Strike
+        usage: Main action
+        distance: Ranged 10
+        target: One creature
+        effects:
           - roll: Power Roll + Presence
             tier1: 5 + P psychic damage
             tier2: 7 + P psychic damage
             tier3: 10 + P psychic damage
           - name: Effect
-            effect: >-
-              Each time the target willingly moves before the end of your next
-              turn, they take 1 psychic damage for each square they move.
-
-              ###### Halt Miscreant!
-
-              *You infuse your weapon with holy magic that makes it difficult
-              for your foe to get away.*
-
-              | **Melee, Strike, Weapon** |               **Main action** |
-
-              | ------------------------- | ----------------------------: |
-
-              | **📏 Melee 1**            | **🎯 One creature or object** |
-          - effect: >-
-              ###### Your Allies Cannot Save You!
-
-
-              *Your magic strike turns your foe's guilt into a burst of holy
-              power.*
-
-              | **Melee, Strike, Weapon** |               **Main action** |
-
-              | ------------------------- | ----------------------------: |
-
-              | **📏 Melee 1**            | **🎯 One creature or object** |
-            roll: Power Roll + Might
+            effect: Each time the target willingly moves before the end of your next turn,
+              they take 1 psychic damage for each square they move.
+      - type: feature
+        feature_type: ability
+        name: Halt Miscreant!
+        flavor: You infuse your weapon with holy magic that makes it difficult for your
+          foe to get away.
+        keywords:
+          - Melee
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 1
+        target: One creature or object
+        effects:
+          - roll: Power Roll + Might
             tier1: 2 + M holy damage; P < WEAK, slowed (save ends)
             tier2: 5 + M holy damage; P < AVERAGE, slowed (save ends)
             tier3: 7 + M holy damage; P < STRONG, slowed (save ends)
+      - type: feature
+        feature_type: ability
+        name: Your Allies Cannot Save You!
+        flavor: Your magic strike turns your foe's guilt into a burst of holy power.
+        keywords:
+          - Melee
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 1
+        target: One creature or object
+        effects:
           - roll: Power Roll + Might
             tier1: 3 + M holy damage
             tier2: 5 + M holy damage

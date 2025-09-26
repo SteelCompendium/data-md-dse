@@ -52,8 +52,7 @@ effects:
         target: Special
         effects:
           - name: Effect
-            effect: >-
-              A guest star appears to help you during the encounter: either a
+            effect: "A guest star appears to help you during the encounter: either a
               bystander within distance uplifted by your magic, or a mysterious
               new hero who appears in an unoccupied space within distance. This
               guest star is controlled by you, has their own turn, and shares
@@ -62,17 +61,19 @@ effects:
               At the end of the encounter, or when the guest star is reduced to
               0 Stamina, they retreat or revert to a bystander. The same
               bystander can't be uplifted this way more than once during an
-              encounter.
-
-              ###### Twist at the End (5 Drama)
-
-              *You didn't see that coming, did you?!*
-
-              | **Magic, Ranged** |       **Main action** |
-
-              | ----------------- | --------------------: |
-
-              | **📏 Ranged 10**  | **🎯 One dead enemy** |
+              encounter."
+      - type: feature
+        feature_type: ability
+        name: Twist at the End
+        cost: 5 Drama
+        flavor: You didn't see that coming, did you?!
+        keywords:
+          - Magic
+          - Ranged
+        usage: Main action
+        distance: Ranged 10
+        target: One dead enemy
+        effects:
           - name: Effect
             effect: A target who is not a leader or solo creature comes back to life with
               half their Stamina and becomes an ally under the Director's

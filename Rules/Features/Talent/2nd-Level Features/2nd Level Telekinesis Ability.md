@@ -57,23 +57,23 @@ effects:
             tier2: 6 damage; vertical push 4
             tier3: 9 damage; vertical push 6
           - name: Strained
-            effect: >-
-              The size of the burst increases by 1, and you are weakened until
-              the end of your turn.
-
-              ###### Levity and Gravity (5 Clarity)
-
-              *You raise the target slightly into the air, then smother them
-              against the ground.*
-
-              | **Psionic, Ranged, Strike, Telekinesis** |               **Main
-              action** |
-
-              | ---------------------------------------- |
-              ----------------------------: |
-
-              | **📏 Ranged 10**                         | **🎯 One creature or
-              object** |
+            effect: The size of the burst increases by 1, and you are weakened until the end
+              of your turn.
+      - type: feature
+        feature_type: ability
+        name: Levity and Gravity
+        cost: 5 Clarity
+        flavor: You raise the target slightly into the air, then smother them against
+          the ground.
+        keywords:
+          - Psionic
+          - Ranged
+          - Strike
+          - Telekinesis
+        usage: Main action
+        distance: Ranged 10
+        target: One creature or object
+        effects:
           - roll: Power Roll + Reason
             tier1: 6 + R damage; M < WEAK, prone
             tier2: 10 + R damage; M < AVERAGE, prone

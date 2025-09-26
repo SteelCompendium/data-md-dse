@@ -64,23 +64,20 @@ effects:
         target: Self and each ally in the area
         effects:
           - name: Effect
-            effect: >-
-              While this performance is active, each target who starts their
-              turn in the area gains a +2 bonus to speed until the end of their
-              turn.
-
-              ###### Revitalizing Limerick
-
-              *There once was a man from Capital...*
-
-              | **Area, Magic, Performance** |                         **No
-              action** |
-
-              | ---------------------------- |
-              ------------------------------------: |
-
-              | **📏 5 aura**                | **🎯 Self and each ally in the
-              area** |
+            effect: While this performance is active, each target who starts their turn in
+              the area gains a +2 bonus to speed until the end of their turn.
+      - type: feature
+        feature_type: ability
+        name: Revitalizing Limerick
+        flavor: There once was a man from Capital...
+        keywords:
+          - Area
+          - Magic
+          - Performance
+        usage: No action
+        distance: 5 aura
+        target: Self and each ally in the area
+        effects:
           - name: Effect
             effect: At the end of each of your turns while this performance is active, you
               can choose up to a number of targets equal to your Presence score.

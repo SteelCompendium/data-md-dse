@@ -53,20 +53,21 @@ effects:
         trigger: An enemy within 10 squares starts their turn.
         effects:
           - name: Effect
-            effect: >-
-              You can spend a Recovery to allow the target to regain Stamina
-              equal to your recovery value. The target can then take their turn
+            effect: You can spend a Recovery to allow the target to regain Stamina equal to
+              your recovery value. The target can then take their turn
               immediately before the triggering enemy.
-
-              ###### With My Blessing (5 Wrath)
-
-              *A word in prayer, and the gods show the way.*
-
-              | **Magic, Ranged** |         **Main action** |
-
-              | ----------------- | ----------------------: |
-
-              | **📏 Ranged 10**  | **🎯 Self or one ally** |
+      - type: feature
+        feature_type: ability
+        name: With My Blessing
+        cost: 5 Wrath
+        flavor: A word in prayer, and the gods show the way.
+        keywords:
+          - Magic
+          - Ranged
+        usage: Main action
+        distance: Ranged 10
+        target: Self or one ally
+        effects:
           - name: Effect
             effect: The target can use a free triggered action to use a strike signature
               ability or a strike heroic ability, and has a double edge on that

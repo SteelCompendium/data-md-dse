@@ -64,28 +64,29 @@ effects:
         effects:
           - effect: Difficult terrain composed of earth and stone doesn't cost the source
               extra movement.
-          - effect: |-
-              **Tunneler**
-
-              When the source burrows, they create a size 2 tunnel.
-          - effect: >-
-              **Earth Harness**
-
-
-              A creature that has the Earth Accepts Me ability can use it as a
-              free action to meld into the source.
-          - effect: >-
-              **Boulder Bash**
-
-
-              | **Melee, Ranged, Strike, Weapon**
-              |                 **Signature** |
-
-              | --------------------------------- |
-              ----------------------------: |
-
-              | **📏 Melee 2 or ranged 10**       | **🎯 One creature or
-              object** |
+      - type: feature
+        feature_type: trait
+        name: Tunneler
+        effects:
+          - effect: When the source burrows, they create a size 2 tunnel.
+      - type: feature
+        feature_type: trait
+        name: Earth Harness
+        effects:
+          - effect: A creature that has the Earth Accepts Me ability can use it as a free
+              action to meld into the source.
+      - type: feature
+        feature_type: ability
+        name: Boulder Bash
+        keywords:
+          - Melee
+          - Ranged
+          - Strike
+          - Weapon
+        usage: Signature
+        distance: Melee 2 or ranged 10
+        target: One creature or object
+        effects:
           - roll: Power Roll + 3
             tier1: 5 damage; push 3
             tier2: 9 damage; push 4

@@ -50,18 +50,24 @@ effects:
         usage: Triggered
         distance: Ranged 10
         target: One ally
-        trigger: The target would take damage from an ability that uses a power roll.
+        trigger: The target makes an ability roll for a damage-dealing ability.
         effects:
           - name: Effect
             effect: The power roll gains an edge.
           - cost: Spend 1 Piety
-            effect: |-
-              The power roll has a double edge.
-              ###### Word of Judgment
-              *Your holy word saps an attacking enemy's strength.*
-              | **Magic, Ranged** |   **Triggered** |
-              | ----------------- | --------------: |
-              | **📏 Ranged 10**  | **🎯 One ally** |
+            effect: The power roll has a double edge.
+      - type: feature
+        feature_type: ability
+        name: Word of Judgment
+        flavor: Your holy word saps an attacking enemy's strength.
+        keywords:
+          - Magic
+          - Ranged
+        usage: Triggered
+        distance: Ranged 10
+        target: One ally
+        trigger: The target would take damage from an ability that uses a power roll.
+        effects:
           - name: Effect
             effect: The power roll takes a bane against the target.
           - cost: Spend 1 Piety

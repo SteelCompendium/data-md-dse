@@ -53,22 +53,24 @@ effects:
         distance: Melee 1
         target: One creature or object
         effects:
-          - effect: >-
-              ###### Fight Choreography (9 Drama)
-
-
-              *You and your partner make a flashy show of derring-do, then get
-              back to your corners.*
-
-              | **Melee, Strike, Weapon** |     **Main action** |
-
-              | ------------------------- | ------------------: |
-
-              | **📏 Melee 1**            | **🎯 One creature** |
-            roll: Power Roll + Agility
+          - roll: Power Roll + Agility
             tier1: 12 + A damage; M < WEAK, bleeding (save ends)
             tier2: 18 + A damage; M < AVERAGE, bleeding (save ends)
             tier3: 24 + A damage; bleeding (EoT), or if M < STRONG, bleeding (save ends)
+      - type: feature
+        feature_type: ability
+        name: Fight Choreography
+        cost: 9 Drama
+        flavor: You and your partner make a flashy show of derring-do, then get back to
+          your corners.
+        keywords:
+          - Melee
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 1
+        target: One creature
+        effects:
           - name: Effect
             effect: You and the target each make a melee free strike that targets each enemy
               within 3 squares of either of you, dividing the enemies between

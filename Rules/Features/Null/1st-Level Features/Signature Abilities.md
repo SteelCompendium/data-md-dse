@@ -59,140 +59,135 @@ effects:
             tier2: 4 damage
             tier3: 5 damage
           - name: Effect
-            effect: >-
-              You can slide one adjacent enemy up to a number of squares equal
-              to your Intuition score.
-
-              ###### Faster Than the Eye
-
-              *You strike so quickly that your hands become a blur.*
-
-              | **Melee, Psionic, Strike, Weapon** |                 **Main
-              action** |
-
-              | ---------------------------------- |
-              ------------------------------: |
-
-              | **📏 Melee 1**                     | **🎯 Two creatures or
-              objects** |
+            effect: You can slide one adjacent enemy up to a number of squares equal to your
+              Intuition score.
+      - type: feature
+        feature_type: ability
+        name: Faster Than the Eye
+        flavor: You strike so quickly that your hands become a blur.
+        keywords:
+          - Melee
+          - Psionic
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 1
+        target: Two creatures or objects
+        effects:
           - roll: Power Roll + Agility
             tier1: 4 damage
             tier2: 5 damage
             tier3: 7 damage
           - name: Effect
-            effect: >-
-              You can deal damage equal to your Agility score to one creature or
+            effect: You can deal damage equal to your Agility score to one creature or
               object adjacent to you.
-
-              ###### Inertial Step
-
-              *You flit about the battlefield and take an opportunistic strike.*
-
-              | **Melee, Psionic, Strike, Weapon** |               **Main
-              action** |
-
-              | ---------------------------------- |
-              ----------------------------: |
-
-              | **📏 Melee 1**                     | **🎯 One creature or
-              object** |
+      - type: feature
+        feature_type: ability
+        name: Inertial Step
+        flavor: You flit about the battlefield and take an opportunistic strike.
+        keywords:
+          - Melee
+          - Psionic
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 1
+        target: One creature or object
+        effects:
           - roll: Power Roll + Agility
             tier1: 5 + A damage
             tier2: 7 + A damage
             tier3: 10 + A damage
           - name: Effect
-            effect: >-
-              You can shift up to half your speed before or after you make this
+            effect: You can shift up to half your speed before or after you make this
               strike.
-
-              ###### Joint Lock
-
-              *You contort your enemy's body into a stance they struggle to
-              escape from.*
-
-              | **Melee, Psionic, Strike, Weapon** |               **Main
-              action** |
-
-              | ---------------------------------- |
-              ----------------------------: |
-
-              | **📏 Melee 1**                     | **🎯 One creature or
-              object** |
-          - effect: >-
-              ###### Kinetic Strike
-
-
-              *Your opponent staggers. They cannot ignore you.*
-
-              | **Melee, Psionic, Strike, Weapon** |               **Main
-              action** |
-
-              | ---------------------------------- |
-              ----------------------------: |
-
-              | **📏 Melee 1**                     | **🎯 One creature or
-              object** |
-            roll: Power Roll + Agility
+      - type: feature
+        feature_type: ability
+        name: Joint Lock
+        flavor: You contort your enemy's body into a stance they struggle to escape
+          from.
+        keywords:
+          - Melee
+          - Psionic
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 1
+        target: One creature or object
+        effects:
+          - roll: Power Roll + Agility
             tier1: 4 + A damage; A < WEAK, grabbed
             tier2: 7 + A damage; A < AVERAGE, grabbed
             tier3: 9 + A damage; A < STRONG, grabbed
-          - effect: >-
-              ###### Magnetic Strike
-
-
-              *The force of your blow extends past the limits of your body,
-              pulling your enemy closer.*
-
-              | **Melee, Psionic, Strike, Weapon** |     **Main action** |
-
-              | ---------------------------------- | ------------------: |
-
-              | **📏 Melee 2**                     | **🎯 One creature** |
-            roll: Power Roll + Agility
+      - type: feature
+        feature_type: ability
+        name: Kinetic Strike
+        flavor: Your opponent staggers. They cannot ignore you.
+        keywords:
+          - Melee
+          - Psionic
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 1
+        target: One creature or object
+        effects:
+          - roll: Power Roll + Agility
             tier1: 4 + A damage; taunted (EoT)
             tier2: 5 + A damage; taunted (EoT), slide 1
             tier3: 6 + A damage; taunted (EoT), slide 2
-          - effect: >-
-              ###### Phase Inversion Strike
-
-
-              *You step momentarily out of phase as you pull an enemy through
-              you.*
-
-              | **Melee, Psionic, Strike, Weapon** |               **Main
-              action** |
-
-              | ---------------------------------- |
-              ----------------------------: |
-
-              | **📏 Melee 1**                     | **🎯 One creature or
-              object** |
-            roll: Power Roll + Agility
+      - type: feature
+        feature_type: ability
+        name: Magnetic Strike
+        flavor: The force of your blow extends past the limits of your body, pulling
+          your enemy closer.
+        keywords:
+          - Melee
+          - Psionic
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 2
+        target: One creature
+        effects:
+          - roll: Power Roll + Agility
             tier1: 5 + A psychic damage; vertical pull 1
             tier2: 8 + A psychic damage; vertical pull 2
             tier3: 11 + A psychic damage; vertical pull 3
+      - type: feature
+        feature_type: ability
+        name: Phase Inversion Strike
+        flavor: You step momentarily out of phase as you pull an enemy through you.
+        keywords:
+          - Melee
+          - Psionic
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 1
+        target: One creature or object
+        effects:
           - roll: Power Roll + Agility
             tier1: 4 + A damage; push 2
             tier2: 6 + A damage; push 4
             tier3: 8 + A damage; push 6
           - name: Effect
-            effect: >-
-              Before the push is resolved, you teleport the target to a square
+            effect: Before the push is resolved, you teleport the target to a square
               adjacent to you and opposite the one they started in. If the
               target can't be teleported this way, you can't push them.
-
-              ###### Pressure Points
-
-              *You strike at key nerve clusters to leave your foe staggered.*
-
-              | **Melee, Psionic, Strike, Weapon** |               **Main
-              action** |
-
-              | ---------------------------------- |
-              ----------------------------: |
-
-              | **📏 Melee 1**                     | **🎯 One creature or
-              object** |
+      - type: feature
+        feature_type: ability
+        name: Pressure Points
+        flavor: You strike at key nerve clusters to leave your foe staggered.
+        keywords:
+          - Melee
+          - Psionic
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 1
+        target: One creature or object
+        effects:
           - roll: Power Roll + Agility
             tier1: 4 + A damage; A < WEAK, weakened (save ends)
             tier2: 7 + A damage; A < AVERAGE, weakened (save ends)

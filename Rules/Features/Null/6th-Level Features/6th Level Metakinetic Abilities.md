@@ -55,21 +55,20 @@ effects:
             tier2: Vertical slide 7
             tier3: Vertical slide 9
           - name: Effect
-            effect: >-
-              This movement ignores stability. If you slide into another
-              creature, you resolve damage to both of you as if your force
-              movement had ended, but you keep moving through that creature's
-              space.
-
-              ###### Iron Body (9 Discipline)
-
-              *You focus until your body becomes as hard as iron.*
-
-              | **Psionic** | **Maneuver** |
-
-              | ----------- | -----------: |
-
-              | **📏 Self** |  **🎯 Self** |
+            effect: This movement ignores stability. If you slide into another creature, you
+              resolve damage to both of you as if your force movement had ended,
+              but you keep moving through that creature's space.
+      - type: feature
+        feature_type: ability
+        name: Iron Body
+        cost: 9 Discipline
+        flavor: You focus until your body becomes as hard as iron.
+        keywords:
+          - Psionic
+        usage: Maneuver
+        distance: Self
+        target: Self
+        effects:
           - name: Effect
             effect: You gain 20 temporary Stamina. Additionally, until the end of the
               encounter, your stability gains a bonus equal to your Intuition

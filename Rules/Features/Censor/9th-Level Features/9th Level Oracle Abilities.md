@@ -50,23 +50,25 @@ effects:
         usage: Triggered
         distance: Ranged 10
         target: One creature
-        trigger: You or another hero ends their turn.
+        trigger: The target makes a power roll.
         effects:
           - name: Effect
-            effect: >-
-              The target obtains a tier 1 or tier 3 outcome on their power roll
-              (your choice). You can then choose another target within distance,
-              who obtains the opposite outcome on their next power roll.
-
-              ###### Fulfill Your Destiny (11 Wrath)
-
-              *You have looked at various futures, and only this one works.*
-
-              | **Magic, Ranged** |   **Triggered** |
-
-              | ----------------- | --------------: |
-
-              | **📏 Ranged 10**  | **🎯 One ally** |
+            effect: The target obtains a tier 1 or tier 3 outcome on their power roll (your
+              choice). You can then choose another target within distance, who
+              obtains the opposite outcome on their next power roll.
+      - type: feature
+        feature_type: ability
+        name: Fulfill Your Destiny
+        cost: 11 Wrath
+        flavor: You have looked at various futures, and only this one works.
+        keywords:
+          - Magic
+          - Ranged
+        usage: Triggered
+        distance: Ranged 10
+        target: One ally
+        trigger: You or another hero ends their turn.
+        effects:
           - name: Effect
             effect: The target takes their turn after the triggering hero, and immediately
               removes all conditions and negative effects on themself. During

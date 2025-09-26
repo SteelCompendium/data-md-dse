@@ -51,20 +51,22 @@ effects:
         target: Self
         effects:
           - name: Effect
-            effect: >-
-              You can use a signature or heroic ability. You gain an edge on
-              that ability's power rolls.
-
-              ###### Force Redirected (5 Discipline)
-
-              *The force of your strike moves your target in a surprising
-              direction.*
-
-              | **Melee, Psionic, Strike, Weapon** |     **Main action** |
-
-              | ---------------------------------- | ------------------: |
-
-              | **📏 Melee 3**                     | **🎯 One creature** |
+            effect: You can use a signature or heroic ability. You gain an edge on that
+              ability's power rolls.
+      - type: feature
+        feature_type: ability
+        name: Force Redirected
+        cost: 5 Discipline
+        flavor: The force of your strike moves your target in a surprising direction.
+        keywords:
+          - Melee
+          - Psionic
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 3
+        target: One creature
+        effects:
           - roll: Power Roll + Agility
             tier1: 8 + A damage; slide 1
             tier2: 12 + A damage; slide 3

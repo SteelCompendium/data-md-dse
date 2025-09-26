@@ -58,21 +58,23 @@ effects:
             tier2: 16 + M damage
             tier3: 21 + M damage
           - name: Effect
-            effect: >-
-              Choose acid, cold, corruption, fire, lightning, poison, or sonic
-              damage. The target loses any damage immunity to the chosen type
-              and gains weakness 10 to the chosen type (save ends).
-
-              ###### Shower of Blood (11 Ferocity)
-
-              *You shock your foes with the brutality of your strike, resetting
-              the balance of combat.*
-
-              | **Melee, Strike, Weapon** |     **Main action** |
-
-              | ------------------------- | ------------------: |
-
-              | **📏 Melee 1**            | **🎯 One creature** |
+            effect: Choose acid, cold, corruption, fire, lightning, poison, or sonic damage.
+              The target loses any damage immunity to the chosen type and gains
+              weakness 10 to the chosen type (save ends).
+      - type: feature
+        feature_type: ability
+        name: Shower of Blood
+        cost: 11 Ferocity
+        flavor: You shock your foes with the brutality of your strike, resetting the
+          balance of combat.
+        keywords:
+          - Melee
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 1
+        target: One creature
+        effects:
           - roll: Power Roll + Might
             tier1: 12 + M damage
             tier2: 18 + M damage

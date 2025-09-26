@@ -58,21 +58,22 @@ effects:
             tier2: The target has a double bane on ability rolls (save ends).
             tier3: The target has a double bane on power rolls (save ends).
           - name: Effect
-            effect: >-
-              Choose one ally within distance. While the target is affected by
-              this ability, each time they use an ability, that ally can make a
-              free strike against them after the ability is resolved.
-
-              ###### Rising Tension (11 Drama)
-
-              *You narrate the tension of the scene and put all hope into your
-              protagonist to turn things around.*
-
-              | **Magic, Ranged** |    **Maneuver** |
-
-              | ----------------- | --------------: |
-
-              | **📏 Ranged 10**  | **🎯 One ally** |
+            effect: Choose one ally within distance. While the target is affected by this
+              ability, each time they use an ability, that ally can make a free
+              strike against them after the ability is resolved.
+      - type: feature
+        feature_type: ability
+        name: Rising Tension
+        cost: 11 Drama
+        flavor: You narrate the tension of the scene and put all hope into your
+          protagonist to turn things around.
+        keywords:
+          - Magic
+          - Ranged
+        usage: Maneuver
+        distance: Ranged 10
+        target: One ally
+        effects:
           - name: Effect
             effect: The target gains 3 of their Heroic Resource, has a double edge on a
               power roll of their choice made during their next turn, is no

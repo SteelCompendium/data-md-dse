@@ -52,20 +52,22 @@ effects:
         target: Self and each ally in the area
         effects:
           - name: Effect
-            effect: >-
-              Until the end of the encounter or until you are dying, each target
-              gains 1 surge at the end of each of your turns.
-
-              ###### Sentenced (5 Wrath)
-
-              *The shock of your condemnation freezes your enemy in their
-              boots.*
-
-              | **Magic, Melee, Strike, Weapon** |     **Main action** |
-
-              | -------------------------------- | ------------------: |
-
-              | **📏 Melee 1**                   | **🎯 One creature** |
+            effect: Until the end of the encounter or until you are dying, each target gains
+              1 surge at the end of each of your turns.
+      - type: feature
+        feature_type: ability
+        name: Sentenced
+        cost: 5 Wrath
+        flavor: The shock of your condemnation freezes your enemy in their boots.
+        keywords:
+          - Magic
+          - Melee
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 1
+        target: One creature
+        effects:
           - roll: Power Roll + Presence
             tier1: 5 + P damage; P < WEAK, restrained (save ends)
             tier2: 9 + P damage; P < AVERAGE, restrained (save ends)

@@ -53,22 +53,24 @@ effects:
           - name: Effect
             effect: You jump up to your maximum jump distance and make one power roll that
               targets each creature adjacent to the space where you land.
-          - effect: >-
-              ###### Force of Storms (9 Ferocity)
-
-
-              *You strike an enemy hard enough to be a projectile that knocks a
-              crowd of creatures around.*
-
-              | **Melee, Strike, Weapon** |     **Main action** |
-
-              | ------------------------- | ------------------: |
-
-              | **📏 Melee 1**            | **🎯 One creature** |
-            roll: Power Roll + Might
+          - roll: Power Roll + Might
             tier1: 4 damage; push 1
             tier2: 7 damage; push 2
             tier3: 11 damage; push 3
+      - type: feature
+        feature_type: ability
+        name: Force of Storms
+        cost: 9 Ferocity
+        flavor: You strike an enemy hard enough to be a projectile that knocks a crowd
+          of creatures around.
+        keywords:
+          - Melee
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 1
+        target: One creature
+        effects:
           - roll: Power Roll + Might
             tier1: 7 + M damage; push 3
             tier2: 11 + M damage; push 5

@@ -55,19 +55,21 @@ effects:
         trigger: You reduce a creature to 0 Stamina with a strike.
         effects:
           - name: Effect
-            effect: >-
-              You target a creature adjacent to you with the same strike, using
-              the same power roll as the triggering strike.
-
-              ###### Seek and Destroy (9 Ferocity)
-
-              *You break through the enemy lines to make an example.*
-
-              | **Melee, Strike, Weapon** |     **Main action** |
-
-              | ------------------------- | ------------------: |
-
-              | **📏 Melee 1**            | **🎯 One creature** |
+            effect: You target a creature adjacent to you with the same strike, using the
+              same power roll as the triggering strike.
+      - type: feature
+        feature_type: ability
+        name: Seek and Destroy
+        cost: 9 Ferocity
+        flavor: You break through the enemy lines to make an example.
+        keywords:
+          - Melee
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 1
+        target: One creature
+        effects:
           - name: Effect
             effect: You shift up to your speed.
           - roll: Power Roll + Might

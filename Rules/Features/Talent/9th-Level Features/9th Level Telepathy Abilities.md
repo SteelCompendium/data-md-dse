@@ -61,24 +61,23 @@ effects:
           - name: Effect
             effect: This ability ignores cover and concealment.
           - name: Strained
-            effect: >-
-              The ability roll scores a critical hit on a natural 17 or higher.
-              You take half the damage the target takes, and you can't reduce
-              this damage in any way.
-
-              ###### Synaptic Terror (11 Clarity)
-
-              *You project a terrifying image into the brains of your foes, and
-              their fear psionically invigorates your allies.*
-
-              | **Area, Psionic, Telepathy** |                        **Main
-              action** |
-
-              | ---------------------------- |
-              -------------------------------------: |
-
-              | **📏 3 burst**               | **🎯 Each ally and enemy in the
-              area** |
+            effect: The ability roll scores a critical hit on a natural 17 or higher. You
+              take half the damage the target takes, and you can't reduce this
+              damage in any way.
+      - type: feature
+        feature_type: ability
+        name: Synaptic Terror
+        cost: 11 Clarity
+        flavor: You project a terrifying image into the brains of your foes, and their
+          fear psionically invigorates your allies.
+        keywords:
+          - Area
+          - Psionic
+          - Telepathy
+        usage: Main action
+        distance: 3 burst
+        target: Each ally and enemy in the area
+        effects:
           - name: Effect
             effect: You and each target ally can't obtain lower than a tier 2 outcome on
               power rolls until the start of your next turn. Each target enemy

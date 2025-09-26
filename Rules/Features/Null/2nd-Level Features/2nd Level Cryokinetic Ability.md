@@ -52,22 +52,22 @@ effects:
         distance: 3 cube within 1
         target: Each enemy in the area
         effects:
-          - effect: >-
-              ###### Heat Sink (5 Discipline)
-
-
-              *You absorb ambient heat, coating the ground in frost and
-              precipitating snow from the air.*
-
-              | **Psionic** | **Maneuver** |
-
-              | ----------- | -----------: |
-
-              | **📏 Self** |  **🎯 Self** |
-            roll: Power Roll + Agility
+          - roll: Power Roll + Agility
             tier1: 6 cold damage; A < WEAK, slowed (save ends)
             tier2: 9 cold damage; A < AVERAGE, slowed (save ends)
             tier3: 13 cold damage; A < STRONG, slowed (save ends)
+      - type: feature
+        feature_type: ability
+        name: Heat Sink
+        cost: 5 Discipline
+        flavor: You absorb ambient heat, coating the ground in frost and precipitating
+          snow from the air.
+        keywords:
+          - Psionic
+        usage: Maneuver
+        distance: Self
+        target: Self
+        effects:
           - name: Effect
             effect: Until the start of your next turn, the size of your Null Field ability
               increases by 1, and you and any ally benefit from concealment

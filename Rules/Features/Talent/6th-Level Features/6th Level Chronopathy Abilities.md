@@ -59,24 +59,24 @@ effects:
           - name: Strained
             effect: This ability gains the Strike keyword as the vision hurts the target's
               psyche. You make a power roll, then are weakened (save ends).
-          - effect: >-
-              ###### Stasis Field (9 Clarity)
-
-
-              *Keep everything as it was. Ignore everything that will be.*
-
-              | **Area, Chronopathy, Psionic, Ranged**
-              |                             **Main action** |
-
-              | -------------------------------------- |
-              ------------------------------------------: |
-
-              | **📏 4 cube within 10**                | **🎯 Each creature and
-              object in the area** |
-            roll: Power Roll + Presence
+          - roll: Power Roll + Presence
             tier1: 8 + P psychic damage
             tier2: 13 + P psychic damage
             tier3: 17 + P psychic damage
+      - type: feature
+        feature_type: ability
+        name: Stasis Field
+        cost: 9 Clarity
+        flavor: Keep everything as it was. Ignore everything that will be.
+        keywords:
+          - Area
+          - Chronopathy
+          - Psionic
+          - Ranged
+        usage: Main action
+        distance: 4 cube within 10
+        target: Each creature and object in the area
+        effects:
           - name: Effect
             effect: >-
               The area is frozen in time until the start of your next turn. Each

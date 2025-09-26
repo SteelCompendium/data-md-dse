@@ -58,21 +58,23 @@ effects:
             tier2: 21 + A damage
             tier3: 28 + A damage; M < STRONG, bleeding (save ends)
           - name: Effect
-            effect: >-
-              This ability can't obtain better than a tier 2 outcome unless the
-              target is at maximum distance. If you obtain a tier 3 outcome with
-              a natural 17 or higher, you gain 3 surges that you can use
+            effect: This ability can't obtain better than a tier 2 outcome unless the target
+              is at maximum distance. If you obtain a tier 3 outcome with a
+              natural 17 or higher, you gain 3 surges that you can use
               immediately.
-
-              ###### Renegotiated Contract (11 Drama)
-
-              *No, no. You don't die until the sequel.*
-
-              | **Melee, Strike, Weapon** |     **Main action** |
-
-              | ------------------------- | ------------------: |
-
-              | **📏 Melee 1**            | **🎯 One creature** |
+      - type: feature
+        feature_type: ability
+        name: Renegotiated Contract
+        cost: 11 Drama
+        flavor: No, no. You don't die until the sequel.
+        keywords:
+          - Melee
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 1
+        target: One creature
+        effects:
           - name: Effect
             effect: Add your current Stamina to your target's current Stamina, then you have
               half that total Stamina and the target has the remainder. If

@@ -55,25 +55,23 @@ effects:
         target: Self and each ally in the area
         effects:
           - name: Effect
-            effect: >-
-              While this performance is active, each target who starts their
-              turn in the area doesn't take a bane on strikes against creatures
-              with concealment. Once during their turn, they can search for
-              hidden creatures as a free maneuver (see Hide and Sneak in Chapter
-              9: Tests).
-
-              ###### "Never-Ending Hero"
-
-              *And toniiight we can truly say ♪ They will alllways find a way!♪*
-
-              | **Area, Magic, Performance** |                         **No
-              action** |
-
-              | ---------------------------- |
-              ------------------------------------: |
-
-              | **📏 5 aura**                | **🎯 Self and each ally in the
-              area** |
+            effect: "While this performance is active, each target who starts their turn in
+              the area doesn't take a bane on strikes against creatures with
+              concealment. Once during their turn, they can search for hidden
+              creatures as a free maneuver (see Hide and Sneak in Chapter 9:
+              Tests)."
+      - type: feature
+        feature_type: ability
+        name: '"Never-Ending Hero"'
+        flavor: And toniiight we can truly say ♪ They will alllways find a way!♪
+        keywords:
+          - Area
+          - Magic
+          - Performance
+        usage: No action
+        distance: 5 aura
+        target: Self and each ally in the area
+        effects:
           - name: Effect
             effect: While this performance is active, each target who starts their turn
               dying while in the area gains an edge on power rolls and ignores

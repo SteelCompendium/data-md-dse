@@ -52,20 +52,26 @@ effects:
         distance: 3 burst
         target: Each enemy in the area
         effects:
-          - effect: |-
-              ###### Deluge (11 Ferocity)
-
-              *You summon your primordial storm.*
-              | **Area, Magic, Ranged** |               **Main action** |
-              | ----------------------- | ----------------------------: |
-              | **📏 5 cube within 10** | **🎯 Each enemy in the area** |
-            roll: Power Roll + Might
+          - roll: Power Roll + Might
             tier1: 4 psychic damage; any target who is a minion is reduced to 0 Stamina
             tier2: 6 psychic damage; any target who is a minion is reduced to 0 Stamina, as
               does one winded target who is not a leader or solo creature
             tier3: 10 psychic damage; each target who is not a leader or solo creature is
               winded; any target who is a minion is reduced to 0 Stamina, as
               does one winded target who is not a leader or solo creature
+      - type: feature
+        feature_type: ability
+        name: Deluge
+        cost: 11 Ferocity
+        flavor: You summon your primordial storm.
+        keywords:
+          - Area
+          - Magic
+          - Ranged
+        usage: Main action
+        distance: 5 cube within 10
+        target: Each enemy in the area
+        effects:
           - roll: Power Roll + Might
             tier1: 7 damage
             tier2: 10 damage

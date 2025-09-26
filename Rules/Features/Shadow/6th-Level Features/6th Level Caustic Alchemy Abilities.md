@@ -61,17 +61,18 @@ effects:
               A creature who drinks the potion can spend up to 2 Recoveries, and
               has acid immunity, fire immunity, or poison immunity (their
               choice) equal to your level until the end of the encounter.
-
-              ###### One Vial Makes You Faster (9 Insight)
-
-              *Each ally who catches a potion you throw can take the battle to
-              the next level.*
-
-              | **Ranged**       |        **Main action** |
-
-              | ---------------- | ---------------------: |
-
-              | **📏 Ranged 10** | **🎯 Three creatures** |
+      - type: feature
+        feature_type: ability
+        name: One Vial Makes You Faster
+        cost: 9 Insight
+        flavor: Each ally who catches a potion you throw can take the battle to the next
+          level.
+        keywords:
+          - Ranged
+        usage: Main action
+        distance: Ranged 10
+        target: Three creatures
+        effects:
           - name: Effect
             effect: >-
               You ready, hand, or lob a potion to each target, who can

@@ -51,22 +51,22 @@ effects:
         distance: 5 burst
         target: Each enemy in the area
         effects:
-          - effect: >-
-              ###### You're All My Understudies (9 Drama)
-
-
-              *It's important for everyone to know each other's lines, just in
-              case...*
-
-              | **Area, Magic** |                 **Maneuver** |
-
-              | --------------- | ---------------------------: |
-
-              | **📏 5 burst**  | **🎯 Each ally in the area** |
-            roll: Power Roll + Presence
+          - roll: Power Roll + Presence
             tier1: 2 psychic damage; P < WEAK, frightened (save ends)
             tier2: 5 psychic damage; P < AVERAGE, frightened (save ends)
             tier3: 7 psychic damage; P < STRONG, frightened (save ends)
+      - type: feature
+        feature_type: ability
+        name: You're All My Understudies
+        cost: 9 Drama
+        flavor: It's important for everyone to know each other's lines, just in case...
+        keywords:
+          - Area
+          - Magic
+        usage: Maneuver
+        distance: 5 burst
+        target: Each ally in the area
+        effects:
           - name: Effect
             effect: Until the end of the encounter, each target gains the speed bonus,
               weapon distance bonus, disengage bonus, and stability bonus of

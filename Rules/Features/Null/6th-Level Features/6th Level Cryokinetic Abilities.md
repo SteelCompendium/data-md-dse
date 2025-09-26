@@ -56,19 +56,21 @@ effects:
             tier2: Vertical slide 8
             tier3: Vertical slide 10
           - name: Effect
-            effect: >-
-              The pillars vanish as soon as the effects of the forced movement
-              are resolved.
-
-              ###### Wall of Ice (9 Discipline)
-
-              *You create a wall of ice.*
-
-              | **Area, Psionic, Ranged** | **Main action** |
-
-              | ------------------------- | --------------: |
-
-              | **📏 10 wall within 10**  |  **🎯 Special** |
+            effect: The pillars vanish as soon as the effects of the forced movement are
+              resolved.
+      - type: feature
+        feature_type: ability
+        name: Wall of Ice
+        cost: 9 Discipline
+        flavor: You create a wall of ice.
+        keywords:
+          - Area
+          - Psionic
+          - Ranged
+        usage: Main action
+        distance: 10 wall within 10
+        target: Special
+        effects:
           - name: Effect
             effect: You can place this wall in occupied squares, sliding each creature in
               the area into the nearest unoccupied space of your choice. The

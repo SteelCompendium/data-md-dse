@@ -52,53 +52,57 @@ effects:
         distance: Melee 1
         target: One creature or object
         effects:
-          - effect: >-
-              ###### Hit and Run
-
-
-              *Staying in constant motion helps you slip out of reach after a
-              brutal assault.*
-
-              | **Melee, Strike, Weapon** |               **Main action** |
-
-              | ------------------------- | ----------------------------: |
-
-              | **📏 Melee 1**            | **🎯 One creature or object** |
-            roll: Power Roll + Might
+          - roll: Power Roll + Might
             tier1: 3 + M damage; push 1
             tier2: 6 + M damage; push 2
             tier3: 9 + M damage; push 4
+      - type: feature
+        feature_type: ability
+        name: Hit and Run
+        flavor: Staying in constant motion helps you slip out of reach after a brutal
+          assault.
+        keywords:
+          - Melee
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 1
+        target: One creature or object
+        effects:
           - roll: Power Roll + Might
             tier1: 2 + M damage
             tier2: 5 + M damage
             tier3: 7 + M damage; A < STRONG, slowed (save ends)
           - name: Effect
-            effect: >-
-              You can shift 1 square.
-
-              ###### Impaled!
-
-              *You skewer your enemy like a boar upon a spit.*
-
-              | **Melee, Strike, Weapon** |                             **Main
-              action** |
-
-              | ------------------------- |
-              ------------------------------------------: |
-
-              | **📏 Melee 1**            | **🎯 One creature of your size or
-              smaller** |
-          - effect: |-
-              ###### To the Death!
-
-              *Your reckless assault leaves you tactically vulnerable.*
-              | **Melee, Strike, Weapon** |               **Main action** |
-              | ------------------------- | ----------------------------: |
-              | **📏 Melee 1**            | **🎯 One creature or object** |
-            roll: Power Roll + Might
+            effect: You can shift 1 square.
+      - type: feature
+        feature_type: ability
+        name: Impaled!
+        flavor: You skewer your enemy like a boar upon a spit.
+        keywords:
+          - Melee
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 1
+        target: One creature of your size or smaller
+        effects:
+          - roll: Power Roll + Might
             tier1: 2 + M damage; M < WEAK, grabbed
             tier2: 5 + M damage; M < AVERAGE, grabbed
             tier3: 7 + M damage; M < STRONG, grabbed
+      - type: feature
+        feature_type: ability
+        name: To the Death!
+        flavor: Your reckless assault leaves you tactically vulnerable.
+        keywords:
+          - Melee
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 1
+        target: One creature or object
+        effects:
           - roll: Power Roll + Might
             tier1: 3 + M damage
             tier2: 6 + M damage

@@ -57,52 +57,59 @@ effects:
             tier2: 5 + A damage
             tier3: 8 + A damage; I < STRONG, prone
           - name: Effect
-            effect: |-
-              One ally within 5 squares of the target gains 1 surge.
-              ###### I Work Better Alone
-              *"It's better, just you and me. Isn't it?"*
-              | **Melee, Ranged, Strike, Weapon** |     **Main action** |
-              | --------------------------------- | ------------------: |
-              | **📏 Melee 1 or ranged 5**        | **🎯 One creature** |
+            effect: One ally within 5 squares of the target gains 1 surge.
+      - type: feature
+        feature_type: ability
+        name: I Work Better Alone
+        flavor: "\"It's better, just you and me. Isn't it?\""
+        keywords:
+          - Melee
+          - Ranged
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 1 or ranged 5
+        target: One creature
+        effects:
           - roll: Power Roll + Agility
             tier1: 3 + A damage
             tier2: 6 + A damage
             tier3: 9 + A damage
           - name: Effect
-            effect: >-
-              If the target has none of your allies adjacent to them, you gain 1
-              surge before making the power roll.
-
-              ###### Teamwork Has Its Place
-
-              *You attack an enemy as an ally exposes their weakness.*
-
-              | **Melee, Ranged, Strike, Weapon** |               **Main
-              action** |
-
-              | --------------------------------- |
-              ----------------------------: |
-
-              | **📏 Melee 1 or ranged 5**        | **🎯 One creature or
-              object** |
+            effect: If the target has none of your allies adjacent to them, you gain 1 surge
+              before making the power roll.
+      - type: feature
+        feature_type: ability
+        name: Teamwork Has Its Place
+        flavor: You attack an enemy as an ally exposes their weakness.
+        keywords:
+          - Melee
+          - Ranged
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 1 or ranged 5
+        target: One creature or object
+        effects:
           - roll: Power Roll + Agility
             tier1: 3 + A damage
             tier2: 6 + A damage
             tier3: 9 + A damage
           - name: Effect
-            effect: >-
-              If any ally is adjacent to the target, you gain 1 surge before
-              making the power roll.
-
-              ###### You Were Watching the Wrong One
-
-              *They can't watch both of you at once.*
-
-              | **Melee, Strike, Weapon** |     **Main action** |
-
-              | ------------------------- | ------------------: |
-
-              | **📏 Melee 1**            | **🎯 One creature** |
+            effect: If any ally is adjacent to the target, you gain 1 surge before making
+              the power roll.
+      - type: feature
+        feature_type: ability
+        name: You Were Watching the Wrong One
+        flavor: They can't watch both of you at once.
+        keywords:
+          - Melee
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 1
+        target: One creature
+        effects:
           - roll: Power Roll + Agility
             tier1: 3 + A damage
             tier2: 5 + A damage

@@ -59,19 +59,18 @@ effects:
             tier2: 6 + A damage; vertical push 10
             tier3: 9 + A damage; vertical push 15
           - name: Effect
-            effect: >-
-              A creature force moved by this ability must be moved straight
-              upward.
-
-              ###### Cinderstorm (9 Insight)
-
-              *You teleport your friends in a burst of ash and fire.*
-
-              | **Magic**      |                          **Maneuver** |
-
-              | -------------- | ------------------------------------: |
-
-              | **📏 4 burst** | **🎯 Self and each ally in the area** |
+            effect: A creature force moved by this ability must be moved straight upward.
+      - type: feature
+        feature_type: ability
+        name: Cinderstorm
+        cost: 9 Insight
+        flavor: You teleport your friends in a burst of ash and fire.
+        keywords:
+          - Magic
+        usage: Maneuver
+        distance: 4 burst
+        target: Self and each ally in the area
+        effects:
           - name: Effect
             effect: Each target can teleport up to 5 squares. For each target in addition to
               you who teleports away from or into a space adjacent to an enemy,

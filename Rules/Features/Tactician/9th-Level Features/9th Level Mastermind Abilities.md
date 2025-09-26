@@ -52,21 +52,20 @@ effects:
         target: Self and each ally in the area
         effects:
           - name: Effect
-            effect: >-
-              Each target can make a ranged free strike that gains an edge
-              against any enemy marked by you within distance of their ranged
-              free strike. A target ignores banes and double banes when making
-              this strike.
-
-              ###### Counterstrategy (11 Focus)
-
-              *I've identified a way to negate their strengths.*
-
-              | **-**       | **Main action** |
-
-              | ----------- | --------------: |
-
-              | **📏 Self** |     **🎯 Self** |
+            effect: Each target can make a ranged free strike that gains an edge against any
+              enemy marked by you within distance of their ranged free strike. A
+              target ignores banes and double banes when making this strike.
+      - type: feature
+        feature_type: ability
+        name: Counterstrategy
+        cost: 11 Focus
+        flavor: I've identified a way to negate their strengths.
+        keywords:
+          - "-"
+        usage: Main action
+        distance: Self
+        target: Self
+        effects:
           - name: Effect
             effect: "You gain 6 surges. Until the end of the encounter or until you are
               dying, whenever the Director spends Malice (see *[Draw Steel:

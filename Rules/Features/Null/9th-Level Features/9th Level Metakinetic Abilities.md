@@ -52,20 +52,23 @@ effects:
         trigger: Another creature damages you using an ability.
         effects:
           - name: Effect
-            effect: >-
-              You take half the damage, negate any effects associated with the
-              damage for you, and gain 3 surges.
-
-              ###### Realitas (11 Discipline)
-
-              *Your essential hyperreality disrupts your enemy's connection to
-              existence.*
-
-              | **Melee, Psionic, Strike, Weapon** |     **Main action** |
-
-              | ---------------------------------- | ------------------: |
-
-              | **📏 Melee 1**                     | **🎯 One creature** |
+            effect: You take half the damage, negate any effects associated with the damage
+              for you, and gain 3 surges.
+      - type: feature
+        feature_type: ability
+        name: Realitas
+        cost: 11 Discipline
+        flavor: Your essential hyperreality disrupts your enemy's connection to
+          existence.
+        keywords:
+          - Melee
+          - Psionic
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 1
+        target: One creature
+        effects:
           - roll: Power Roll + Agility
             tier1: 7 + A psychic damage; I < WEAK, dazed
             tier2: 10 + A psychic damage; I < AVERAGE, dazed

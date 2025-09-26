@@ -62,20 +62,21 @@ effects:
             tier2: 9 damage
             tier3: 13 damage
           - name: Persistent 2
-            effect: >-
-              At the start of your turn, you can use a maneuver to use this
-              ability again without spending essence.
-
-              ###### The Green Defends Its Servants (11 Essence)
-
-              *A luminous green shield shows its true beauty the more it
-              cracks.*
-
-              | **Green, Magic, Ranged** |            **Maneuver** |
-
-              | ------------------------ | ----------------------: |
-
-              | **📏 Ranged 10**         | **🎯 Self or one ally** |
+            effect: At the start of your turn, you can use a maneuver to use this ability
+              again without spending essence.
+      - type: feature
+        feature_type: ability
+        name: The Green Defends Its Servants
+        cost: 11 Essence
+        flavor: A luminous green shield shows its true beauty the more it cracks.
+        keywords:
+          - Green
+          - Magic
+          - Ranged
+        usage: Maneuver
+        distance: Ranged 10
+        target: Self or one ally
+        effects:
           - name: Effect
             effect: You conjure an elemental shield that protects the target until the end
               of your next turn. While the shield is active, the target can take
@@ -85,35 +86,38 @@ effects:
               effect ends and the shield explodes, dealing 10 damage to each
               enemy within 5 squares of the target.
           - name: Persistent 2
-            effect: >-
-              The effect lasts until the start of your next turn.
-
-              ###### Prism (11 Essence)
-
-              *You split your essence, allowing you to cast multiple effects at
-              once.*
-
-              | **Magic, Void** | **Main action** |
-
-              | --------------- | --------------: |
-
-              | **📏 Self**     |     **🎯 Self** |
+            effect: The effect lasts until the start of your next turn.
+      - type: feature
+        feature_type: ability
+        name: Prism
+        cost: 11 Essence
+        flavor: You split your essence, allowing you to cast multiple effects at once.
+        keywords:
+          - Magic
+          - Void
+        usage: Main action
+        distance: Self
+        target: Self
+        effects:
           - name: Effect
-            effect: >-
-              You use up to three heroic abilities whose essence costs total 11
-              or less, spending no additional essence beyond the cost of this
+            effect: You use up to three heroic abilities whose essence costs total 11 or
+              less, spending no additional essence beyond the cost of this
               ability. You can shift up to 2 squares between your use of each
               ability.
-
-              ###### Unquenchable Fire (11 Essence)
-
-              *You let fly a fiery missile braided with pure primal energy.*
-
-              | **Fire, Magic, Ranged, Strike** |            **Main action** |
-
-              | ------------------------------- | -------------------------: |
-
-              | **📏 Ranged 10**                | **🎯 One enemy or object** |
+      - type: feature
+        feature_type: ability
+        name: Unquenchable Fire
+        cost: 11 Essence
+        flavor: You let fly a fiery missile braided with pure primal energy.
+        keywords:
+          - Fire
+          - Magic
+          - Ranged
+          - Strike
+        usage: Main action
+        distance: Ranged 10
+        target: One enemy or object
+        effects:
           - roll: Power Roll + Reason
             tier1: 13 + R fire damage; I < WEAK, dazed (save ends)
             tier2: 18 + R fire damage; I < AVERAGE, dazed (save ends)

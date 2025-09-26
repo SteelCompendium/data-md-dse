@@ -60,22 +60,22 @@ effects:
           - name: Effect
             effect: Targets closest to the center of the area are pulled first.
           - name: Strained
-            effect: >-
-              The size of the area increases by 2. You also target yourself and
-              each ally within distance.
-
-              ###### Greater Kinetic Grip (9 Clarity)
-
-              *You raise the target into the air without breaking a sweat.*
-
-              | **Psionic, Ranged**, **Strike, Telekinesis**
-              |               **Main action** |
-
-              | -------------------------------------------- |
-              ----------------------------: |
-
-              | **📏 Ranged 10**                             | **🎯 One creature
-              or object** |
+            effect: The size of the area increases by 2. You also target yourself and each
+              ally within distance.
+      - type: feature
+        feature_type: ability
+        name: Greater Kinetic Grip
+        cost: 9 Clarity
+        flavor: You raise the target into the air without breaking a sweat.
+        keywords:
+          - Psionic
+          - Ranged
+          - Strike
+          - Telekinesis
+        usage: Main action
+        distance: Ranged 10
+        target: One creature or object
+        effects:
           - roll: Power Roll + Reason
             tier1: Slide 4 + R; M < WEAK, the forced movement is vertical
             tier2: Slide 8 + R; M < AVERAGE, the forced movement is vertical

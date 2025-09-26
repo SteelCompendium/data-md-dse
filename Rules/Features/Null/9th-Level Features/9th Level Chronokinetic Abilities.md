@@ -51,28 +51,29 @@ effects:
         usage: Free triggered
         distance: Ranged 10
         target: One creature
-        trigger: Another creature on the encounter map ends their turn.
+        trigger: The triggering creature starts their turn.
         effects:
           - roll: Power Roll + Intuition
             tier1: I < WEAK, the target loses their turn
             tier2: I < AVERAGE, the target loses their turn
             tier3: I < STRONG, the target loses their turn
           - name: Effect
-            effect: >-
-              If the target loses their turn, the round continues as if they had
+            effect: If the target loses their turn, the round continues as if they had
               acted. A target who doesn't lose their turn takes psychic damage
               equal to twice your Intuition score for each main action they take
               until the end of their next turn.
-
-              ###### Time Loop (11 Discipline)
-
-              *You show shadows what true speed is.*
-
-              | **Psionic** | **Free triggered** |
-
-              | ----------- | -----------------: |
-
-              | **📏 Self** |        **🎯 Self** |
+      - type: feature
+        feature_type: ability
+        name: Time Loop
+        cost: 11 Discipline
+        flavor: You show shadows what true speed is.
+        keywords:
+          - Psionic
+        usage: Free triggered
+        distance: Self
+        target: Self
+        trigger: Another creature on the encounter map ends their turn.
+        effects:
           - name: Effect
             effect: You take a bonus turn immediately after the triggering creature. This
               ability can be used only once per combat round.

@@ -58,20 +58,22 @@ effects:
             tier2: 10 damage; push 5
             tier3: 15 damage; push 7
           - name: Effect
-            effect: >-
-              If this forced movement causes a target to be hurled through an
-              object, that target takes an extra 10 damage.
-
-              ###### Primordial Vortex (11 Ferocity)
-
-              *You channel the power of the Primordial Chaos to pull foes to
-              you.*
-
-              | **Area, Magic, Melee, Weapon** |               **Main action** |
-
-              | ------------------------------ | ----------------------------: |
-
-              | **📏 3 burst**                 | **🎯 Each enemy in the area** |
+            effect: If this forced movement causes a target to be hurled through an object,
+              that target takes an extra 10 damage.
+      - type: feature
+        feature_type: ability
+        name: Primordial Vortex
+        cost: 11 Ferocity
+        flavor: You channel the power of the Primordial Chaos to pull foes to you.
+        keywords:
+          - Area
+          - Magic
+          - Melee
+          - Weapon
+        usage: Main action
+        distance: 3 burst
+        target: Each enemy in the area
+        effects:
           - roll: Power Roll + Might
             tier1: 3 damage; vertical pull 3
             tier2: 5 damage; vertical pull 5

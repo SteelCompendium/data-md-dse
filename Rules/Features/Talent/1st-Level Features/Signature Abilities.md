@@ -61,43 +61,42 @@ effects:
             effect: The target takes an extra 1 corruption damage for each additional time
               they are targeted by this ability during the encounter.
           - name: Strained
-            effect: >-
-              You gain 1 clarity when you obtain a tier 2 or tier 3 outcome on
-              the power roll.
-
-              ###### Hoarfrost
-
-              *You blast a foe with a pulse of cold energy.*
-
-              | **Cryokinesis, Psionic, Ranged**, **Strike** |     **Main
-              action** |
-
-              | -------------------------------------------- |
-              ------------------: |
-
-              | **📏 Ranged 10**                             | **🎯 One
-              creature** |
+            effect: You gain 1 clarity when you obtain a tier 2 or tier 3 outcome on the
+              power roll.
+      - type: feature
+        feature_type: ability
+        name: Hoarfrost
+        flavor: You blast a foe with a pulse of cold energy.
+        keywords:
+          - Cryokinesis
+          - Psionic
+          - Ranged
+          - Strike
+        usage: Main action
+        distance: Ranged 10
+        target: One creature
+        effects:
           - roll: Power Roll + Reason
             tier1: 2 + R cold damage; M < WEAK, slowed (EoT)
             tier2: 4 + R cold damage; M < AVERAGE, slowed (EoT)
             tier3: 6 + R cold damage; M < STRONG, slowed (EoT)
           - name: Strained
-            effect: >-
-              You are slowed until the end of your next turn. Additionally, a
-              target slowed by this ability is restrained instead.
-
-              ###### Incinerate
-
-              *The air erupts into a column of smokeless flame.*
-
-              | **Area, Fire, Psionic, Pyrokinesis, Ranged**
-              |               **Main action** |
-
-              | -------------------------------------------- |
-              ----------------------------: |
-
-              | **📏 3 cube within 10**                      | **🎯 Each enemy
-              in the area** |
+            effect: You are slowed until the end of your next turn. Additionally, a target
+              slowed by this ability is restrained instead.
+      - type: feature
+        feature_type: ability
+        name: Incinerate
+        flavor: The air erupts into a column of smokeless flame.
+        keywords:
+          - Area
+          - Fire
+          - Psionic
+          - Pyrokinesis
+          - Ranged
+        usage: Main action
+        distance: 3 cube within 10
+        target: Each enemy in the area
+        effects:
           - roll: Power Roll + Reason
             tier1: 2 fire damage
             tier2: 4 fire damage
@@ -107,56 +106,59 @@ effects:
               Each enemy who enters the area for the first time in a combat
               round or starts their turn there takes 2 fire damage.
           - name: Strained
-            effect: >-
-              The size of the cube increases by 2, but the fire disappears at
-              the end of your turn.
-
-              ###### Kinetic Grip
-
-              *You lift and hurl your foe away from you.*
-
-              | **Psionic, Ranged, Telekinesis** |               **Main action**
-              |
-
-              | -------------------------------- | ----------------------------:
-              |
-
-              | **📏 Ranged 10**                 | **🎯 One creature or object**
-              |
+            effect: The size of the cube increases by 2, but the fire disappears at the end
+              of your turn.
+      - type: feature
+        feature_type: ability
+        name: Kinetic Grip
+        flavor: You lift and hurl your foe away from you.
+        keywords:
+          - Psionic
+          - Ranged
+          - Telekinesis
+        usage: Main action
+        distance: Ranged 10
+        target: One creature or object
+        effects:
           - roll: Power Roll + Reason
             tier1: Slide 2 + R
             tier2: Slide 4 + R
             tier3: Slide 6 + R; prone
           - name: Strained
-            effect: |-
-              You must vertical push the target instead of sliding them.
-              ###### Kinetic Pulse
-              *The force of your mind hurls enemies backward.*
-              | **Area, Psionic, Telepathy** |               **Main action** |
-              | ---------------------------- | ----------------------------: |
-              | **📏 1 burst**               | **🎯 Each enemy in the area** |
+            effect: You must vertical push the target instead of sliding them.
+      - type: feature
+        feature_type: ability
+        name: Kinetic Pulse
+        flavor: The force of your mind hurls enemies backward.
+        keywords:
+          - Area
+          - Psionic
+          - Telepathy
+        usage: Main action
+        distance: 1 burst
+        target: Each enemy in the area
+        effects:
           - roll: Power Roll + Reason
             tier1: 2 psychic damage
             tier2: 5 psychic damage; push 1
             tier3: 7 psychic damage; push 2
           - name: Strained
-            effect: >-
-              The size of the burst increases by 2, and you are bleeding until
-              the start of your next turn.
-
-              ###### Materialize
-
-              *You picture an object in your mind and give it form—directly
-              above your opponent's head.*
-
-              | **Psionic, Ranged, Resopathy, Strike** |               **Main
-              action** |
-
-              | -------------------------------------- |
-              ----------------------------: |
-
-              | **📏 Ranged 10**                       | **🎯 One creature or
-              object** |
+            effect: The size of the burst increases by 2, and you are bleeding until the
+              start of your next turn.
+      - type: feature
+        feature_type: ability
+        name: Materialize
+        flavor: You picture an object in your mind and give it form—directly above your
+          opponent's head.
+        keywords:
+          - Psionic
+          - Ranged
+          - Resopathy
+          - Strike
+        usage: Main action
+        distance: Ranged 10
+        target: One creature or object
+        effects:
           - roll: Power Roll + Reason
             tier1: 3 + R damage
             tier2: 5 + R damage
@@ -166,24 +168,23 @@ effects:
               then rolls into an adjacent unoccupied space of your choice. The
               object is made of wood, stone, or metal (your choice).
           - name: Strained
-            effect: >-
-              The object explodes after the damage is dealt, and each creature
+            effect: The object explodes after the damage is dealt, and each creature
               adjacent to the target takes damage equal to your Reason score.
               You also take damage equal to your Reason score that can't be
               reduced in any way.
-
-              ###### Optic Blast
-
-              *Your eyes emit rays of powerful enervating force.*
-
-              | **Metamorphosis, Psionic, Ranged**, **Strike**
-              |               **Main action** |
-
-              | ---------------------------------------------- |
-              ----------------------------: |
-
-              | **📏 Ranged 10**                               | **🎯 One
-              creature or object** |
+      - type: feature
+        feature_type: ability
+        name: Optic Blast
+        flavor: Your eyes emit rays of powerful enervating force.
+        keywords:
+          - Metamorphosis
+          - Psionic
+          - Ranged
+          - Strike
+        usage: Main action
+        distance: Ranged 10
+        target: One creature or object
+        effects:
           - roll: Power Roll + Reason
             tier1: 2 + R damage; M < WEAK, prone
             tier2: 4 + R damage; M < AVERAGE, prone
@@ -195,23 +196,22 @@ effects:
               additional creature or object within 3 squares of the first
               target.
           - name: Strained
-            effect: >-
-              You gain 1 surge that you can use immediately, and you take damage
-              equal to your Reason score that can't be reduced in any way.
-
-              ###### Spirit Sword
-
-              *You form a blade of mind energy and stab your target,
-              invigorating yourself.*
-
-              | **Animapathy, Melee, Psionic, Strike** |               **Main
-              action** |
-
-              | -------------------------------------- |
-              ----------------------------: |
-
-              | **📏 Melee 2**                         | **🎯 One creature or
-              object** |
+            effect: You gain 1 surge that you can use immediately, and you take damage equal
+              to your Reason score that can't be reduced in any way.
+      - type: feature
+        feature_type: ability
+        name: Spirit Sword
+        flavor: You form a blade of mind energy and stab your target, invigorating
+          yourself.
+        keywords:
+          - Animapathy
+          - Melee
+          - Psionic
+          - Strike
+        usage: Main action
+        distance: Melee 2
+        target: One creature or object
+        effects:
           - roll: Power Roll + Presence
             tier1: 3 + P damage
             tier2: 6 + P damage

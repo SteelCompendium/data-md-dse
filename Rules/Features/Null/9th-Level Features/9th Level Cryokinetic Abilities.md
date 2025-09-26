@@ -55,22 +55,24 @@ effects:
             tier2: You gain 30 temporary Stamina.
             tier3: You gain 40 temporary Stamina.
           - name: Effect
-            effect: >-
-              Until the end of the encounter or until you are dead, you become
-              an avatar of uttermost cold. You gain immunity to all damage equal
-              to the cold damage immunity granted by your Entropic Adaptability
+            effect: Until the end of the encounter or until you are dead, you become an
+              avatar of uttermost cold. You gain immunity to all damage equal to
+              the cold damage immunity granted by your Entropic Adaptability
               trait, you ignore the negative effects of dying, and you have a +2
               bonus to potencies.
-
-              ###### Heat Drain (11 Discipline)
-
-              *You drain all the heat from the target.*
-
-              | **Melee, Psionic, Strike** |        **Maneuver** |
-
-              | -------------------------- | ------------------: |
-
-              | **📏 Melee 1**             | **🎯 One creature** |
+      - type: feature
+        feature_type: ability
+        name: Heat Drain
+        cost: 11 Discipline
+        flavor: You drain all the heat from the target.
+        keywords:
+          - Melee
+          - Psionic
+          - Strike
+        usage: Maneuver
+        distance: Melee 1
+        target: One creature
+        effects:
           - roll: Power Roll + Intuition
             tier1: 8 + I cold damage; M < WEAK, restrained (save ends)
             tier2: 11 + I cold damage; M < AVERAGE, restrained (save ends)

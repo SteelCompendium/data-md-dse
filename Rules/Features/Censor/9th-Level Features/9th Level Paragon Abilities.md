@@ -57,19 +57,20 @@ effects:
             tier2: 19 + M holy damage
             tier3: 26 + M holy damage
           - name: Effect
-            effect: >-
-              Until the end of the encounter or until you are dying, the target
-              has damage weakness 10.
-
-              ###### Edict of Unyielding Resolve (11 Wrath)
-
-              *You and your allies are clad in shimmering armor.*
-
-              | **Area, Magic** |                          **Maneuver** |
-
-              | --------------- | ------------------------------------: |
-
-              | **📏 2 aura**   | **🎯 Self and each ally in the area** |
+            effect: Until the end of the encounter or until you are dying, the target has
+              damage weakness 10.
+      - type: feature
+        feature_type: ability
+        name: Edict of Unyielding Resolve
+        cost: 11 Wrath
+        flavor: You and your allies are clad in shimmering armor.
+        keywords:
+          - Area
+          - Magic
+        usage: Maneuver
+        distance: 2 aura
+        target: Self and each ally in the area
+        effects:
           - name: Effect
             effect: Until the end of the encounter or until you are dying, each target who
               starts their turn in the area gains 10 temporary Stamina.

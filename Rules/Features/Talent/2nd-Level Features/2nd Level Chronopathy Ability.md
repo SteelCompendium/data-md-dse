@@ -63,21 +63,20 @@ effects:
               maneuver on their turn. If a target is already dazed, that
               condition ends for them.
           - name: Strained
-            effect: >-
-              Your speed is halved until the end of the encounter.
-
-              ###### Slow (5 Clarity)
-
-              *Perhaps they wonder why everyone else is moving so quickly?*
-
-              | **Chronopathy, Psionic, Ranged**
-              |                      **Maneuver** |
-
-              | -------------------------------- |
-              --------------------------------: |
-
-              | **📏 Ranged 10**                 | **🎯 Three creatures or
-              objects** |
+            effect: Your speed is halved until the end of the encounter.
+      - type: feature
+        feature_type: ability
+        name: Slow
+        cost: 5 Clarity
+        flavor: Perhaps they wonder why everyone else is moving so quickly?
+        keywords:
+          - Chronopathy
+          - Psionic
+          - Ranged
+        usage: Maneuver
+        distance: Ranged 10
+        target: Three creatures or objects
+        effects:
           - roll: Power Roll + Presence
             tier1: The target's speed is halved (save ends), or if P < WEAK, the target is
               slowed (save ends).

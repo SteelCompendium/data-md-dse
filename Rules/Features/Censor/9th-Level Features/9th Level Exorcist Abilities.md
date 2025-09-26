@@ -57,25 +57,27 @@ effects:
             tier2: 8 + M damage; P < AVERAGE, the target is banished (save ends)
             tier3: 11 + M damage; P < STRONG, the target is banished (save ends)
           - name: Effect
-            effect: >-
-              This ability gains an edge against demons, devils, undead, and
-              creatures not native to your current world. If you know the
-              target's true name, this ability has a double edge. While
-              banished, the target is sent to another manifold in the timescape
-              and removed from the encounter map. A banished target can do
-              nothing but make saving throws, and takes 10 holy damage each time
-              they do so. If the target is reduced to 0 Stamina while banished,
-              they are lost to the timescape.
-
-              ###### Terror Manifest (11 Wrath)
-
-              *"I know what you fear."*
-
-              | **Magic, Ranged, Strike** |     **Main action** |
-
-              | ------------------------- | ------------------: |
-
-              | **📏 Ranged 10**          | **🎯 One creature** |
+            effect: This ability gains an edge against demons, devils, undead, and creatures
+              not native to your current world. If you know the target's true
+              name, this ability has a double edge. While banished, the target
+              is sent to another manifold in the timescape and removed from the
+              encounter map. A banished target can do nothing but make saving
+              throws, and takes 10 holy damage each time they do so. If the
+              target is reduced to 0 Stamina while banished, they are lost to
+              the timescape.
+      - type: feature
+        feature_type: ability
+        name: Terror Manifest
+        cost: 11 Wrath
+        flavor: '"I know what you fear."'
+        keywords:
+          - Magic
+          - Ranged
+          - Strike
+        usage: Main action
+        distance: Ranged 10
+        target: One creature
+        effects:
           - roll: Power Roll + Presence
             tier1: 7 + P psychic damage; P < WEAK, frightened (save ends)
             tier2: 10 + P psychic damage; P < AVERAGE, frightened (save ends)

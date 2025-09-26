@@ -62,20 +62,23 @@ effects:
             tier3: 20 psychic damage; the target considers you and your allies to be their
               allies when using abilities and features (save ends)
           - name: Strained
-            effect: >-
-              While the target is under this effect, you no longer consider your
+            effect: While the target is under this effect, you no longer consider your
               enemies to be your enemies when using your abilities and features.
-
-              ###### Synaptic Dissipation (9 Clarity)
-
-              *You manipulate your enemies' minds and make them wonder if you
-              were ever really there in the first place.*
-
-              | **Psionic, Ranged, Strike, Telepathy** |   **Maneuver** |
-
-              | -------------------------------------- | -------------: |
-
-              | **📏 Ranged 10**                       | **🎯 Special** |
+      - type: feature
+        feature_type: ability
+        name: Synaptic Dissipation
+        cost: 9 Clarity
+        flavor: You manipulate your enemies' minds and make them wonder if you were ever
+          really there in the first place.
+        keywords:
+          - Psionic
+          - Ranged
+          - Strike
+          - Telepathy
+        usage: Maneuver
+        distance: Ranged 10
+        target: Special
+        effects:
           - name: Effect
             effect: You target a number of creatures with this ability determined by the
               outcome of your power roll. You and your allies are invisible to

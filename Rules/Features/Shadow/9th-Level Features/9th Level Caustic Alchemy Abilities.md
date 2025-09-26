@@ -56,23 +56,24 @@ effects:
               by this ability also becomes targeted by this ability. This effect
               continues until there are no more available targets. The ability
               deals acid, fire, or poison damage (your choice).
-          - effect: >-
-              ###### To the Stars (11 Insight)
-
-
-              *You attach your most potent explosive to your foe. Under less
-              pressing circumstances, you're sure you could launch them into
-              orbit.*
-
-              | **Melee, Ranged, Strike**   |               **Main action** |
-
-              | --------------------------- | ----------------------------: |
-
-              | **📏 Melee 1 or ranged 10** | **🎯 One creature or object** |
-            roll: Power Roll + Agility
+          - roll: Power Roll + Agility
             tier1: 7 damage
             tier2: 10 damage
             tier3: 15 damage
+      - type: feature
+        feature_type: ability
+        name: To the Stars
+        cost: 11 Insight
+        flavor: You attach your most potent explosive to your foe. Under less pressing
+          circumstances, you're sure you could launch them into orbit.
+        keywords:
+          - Melee
+          - Ranged
+          - Strike
+        usage: Main action
+        distance: Melee 1 or ranged 10
+        target: One creature or object
+        effects:
           - roll: Power Roll + Agility
             tier1: 4 + A fire damage; vertical push 8
             tier2: 7 + A fire damage; vertical push 10

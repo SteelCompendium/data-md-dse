@@ -52,28 +52,27 @@ effects:
         usage: Maneuver
         distance: 3 cube within 10
         target: Each creature in the area
-        trigger: Another creature targets you with a strike.
         effects:
           - roll: Power Roll + Agility
             tier1: Slide 4
             tier2: Slide 5
             tier3: Slide 7
           - name: Effect
-            effect: >-
-              This forced movement ignores stability. Instead, the forced
-              movement is reduced by a number equal to the target's Intuition
-              score.
-
-              ###### So Gullible (5 Insight)
-
-              *When your enemy strikes, you reveal you were in a different place
-              all along.*
-
-              | **Magic**   | **Free triggered** |
-
-              | ----------- | -----------------: |
-
-              | **📏 Self** |        **🎯 Self** |
+            effect: This forced movement ignores stability. Instead, the forced movement is
+              reduced by a number equal to the target's Intuition score.
+      - type: feature
+        feature_type: ability
+        name: So Gullible
+        cost: 5 Insight
+        flavor: When your enemy strikes, you reveal you were in a different place all
+          along.
+        keywords:
+          - Magic
+        usage: Free triggered
+        distance: Self
+        target: Self
+        trigger: Another creature targets you with a strike.
+        effects:
           - name: Effect
             effect: You use your Clever Trick ability with no insight cost against the
               triggering creature and strike. You can teleport to an unoccupied

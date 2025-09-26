@@ -59,17 +59,23 @@ effects:
               turn.
           - name: Strained
             effect: Make a power roll that targets you and each enemy within distance.
-          - effect: |-
-              ###### Borrow From the Future (11 Clarity)
-
-              *You lean on future heroism to assist you in the now.*
-              | **Area, Chronopathy, Psionic** |                 **Maneuver** |
-              | ------------------------------ | ---------------------------: |
-              | **📏 2 burst**                 | **🎯 Each ally in the area** |
-            roll: Power Roll + Presence
+          - roll: Power Roll + Presence
             tier1: 4 corruption damage; slowed (save ends)
             tier2: 6 corruption damage; slowed (save ends)
             tier3: 10 corruption damage; slowed (save ends)
+      - type: feature
+        feature_type: ability
+        name: Borrow From the Future
+        cost: 11 Clarity
+        flavor: You lean on future heroism to assist you in the now.
+        keywords:
+          - Area
+          - Chronopathy
+          - Psionic
+        usage: Maneuver
+        distance: 2 burst
+        target: Each ally in the area
+        effects:
           - name: Effect
             effect: The targets share 6 of their Heroic Resource among themselves, as you
               determine. A target can't gain more than 3 of their Heroic

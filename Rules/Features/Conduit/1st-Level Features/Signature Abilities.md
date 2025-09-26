@@ -59,119 +59,128 @@ effects:
             tier2: 5 + I holy damage
             tier3: 8 + I holy damage
           - name: Effect
-            effect: >-
-              One ally within distance gains a number of surges equal to the
-              tier outcome of your power roll.
-
-              ###### Drain
-
-              *You drain the energy from your target to revitalize yourself or
-              an ally.*
-
-              | **Magic, Melee, Strike** |     **Main action** |
-
-              | ------------------------ | ------------------: |
-
-              | **📏 Melee 1**           | **🎯 One creature** |
+            effect: One ally within distance gains a number of surges equal to the tier
+              outcome of your power roll.
+      - type: feature
+        feature_type: ability
+        name: Drain
+        flavor: You drain the energy from your target to revitalize yourself or an ally.
+        keywords:
+          - Magic
+          - Melee
+          - Strike
+        usage: Main action
+        distance: Melee 1
+        target: One creature
+        effects:
           - roll: Power Roll + Intuition
             tier1: 2 + I corruption damage
             tier2: 5 + I corruption damage
             tier3: 7 + I corruption damage
           - name: Effect
-            effect: |-
-              You or one ally within distance can spend a Recovery.
-              ###### Holy Lash
-              *A tendril of divine energy shoots forth to draw in your foe.*
-              | **Magic, Ranged, Strike** |               **Main action** |
-              | ------------------------- | ----------------------------: |
-              | **📏 Ranged 10**          | **🎯 One creature or object** |
-          - effect: >-
-              ###### Lightfall
-
-
-              *A rain of holy light scours your enemies and repositions your
-              allies.*
-
-              | **Area, Magic** |               **Main action** |
-
-              | --------------- | ----------------------------: |
-
-              | **📏 2 burst**  | **🎯 Each enemy in the area** |
-            roll: Power Roll + Intuition
+            effect: You or one ally within distance can spend a Recovery.
+      - type: feature
+        feature_type: ability
+        name: Holy Lash
+        flavor: A tendril of divine energy shoots forth to draw in your foe.
+        keywords:
+          - Magic
+          - Ranged
+          - Strike
+        usage: Main action
+        distance: Ranged 10
+        target: One creature or object
+        effects:
+          - roll: Power Roll + Intuition
             tier1: 3 + I holy damage; vertical pull 2
             tier2: 5 + I holy damage; vertical pull 3
             tier3: 8 + I holy damage; vertical pull 4
+      - type: feature
+        feature_type: ability
+        name: Lightfall
+        flavor: A rain of holy light scours your enemies and repositions your allies.
+        keywords:
+          - Area
+          - Magic
+        usage: Main action
+        distance: 2 burst
+        target: Each enemy in the area
+        effects:
           - roll: Power Roll + Intuition
             tier1: 2 holy damage
             tier2: 3 holy damage
             tier3: 5 holy damage
           - name: Effect
-            effect: >-
-              You can teleport yourself and each ally in the area to unoccupied
-              spaces in the area.
-
-              ###### Sacrificial Offer
-
-              *Divine magic tears at your foe and defends a nearby friend.*
-
-              | **Magic, Ranged, Strike** |     **Main action** |
-
-              | ------------------------- | ------------------: |
-
-              | **📏 Ranged 10**          | **🎯 One creature** |
+            effect: You can teleport yourself and each ally in the area to unoccupied spaces
+              in the area.
+      - type: feature
+        feature_type: ability
+        name: Sacrificial Offer
+        flavor: Divine magic tears at your foe and defends a nearby friend.
+        keywords:
+          - Magic
+          - Ranged
+          - Strike
+        usage: Main action
+        distance: Ranged 10
+        target: One creature
+        effects:
           - roll: Power Roll + Intuition
             tier1: 2 + I corruption damage
             tier2: 4 + I corruption damage
             tier3: 6 + I corruption damage
           - name: Effect
-            effect: >-
-              Choose yourself or one ally within distance. That character can
-              impose a bane on one power roll made against them before the end
-              of their next turn.
-
-              ###### Staggering Curse
-
-              *A blast of judgment disorients your foe.*
-
-              | **Magic, Melee, Strike** |               **Main action** |
-
-              | ------------------------ | ----------------------------: |
-
-              | **📏 Melee 1**           | **🎯 One creature or object** |
-          - effect: >-
-              ###### Warrior's Prayer
-
-
-              *Your quickly uttered prayer lends aggressive divine energy to a
-              friend engaged in melee.*
-
-              | **Magic, Ranged, Strike** |     **Main action** |
-
-              | ------------------------- | ------------------: |
-
-              | **📏 Ranged 10**          | **🎯 One creature** |
-            roll: Power Roll + Intuition
+            effect: Choose yourself or one ally within distance. That character can impose a
+              bane on one power roll made against them before the end of their
+              next turn.
+      - type: feature
+        feature_type: ability
+        name: Staggering Curse
+        flavor: A blast of judgment disorients your foe.
+        keywords:
+          - Magic
+          - Melee
+          - Strike
+        usage: Main action
+        distance: Melee 1
+        target: One creature or object
+        effects:
+          - roll: Power Roll + Intuition
             tier1: 3 + I holy damage; slide 1
             tier2: 5 + I holy damage; slide 2
             tier3: 8 + I holy damage; slide 3
+      - type: feature
+        feature_type: ability
+        name: Warrior's Prayer
+        flavor: Your quickly uttered prayer lends aggressive divine energy to a friend
+          engaged in melee.
+        keywords:
+          - Magic
+          - Ranged
+          - Strike
+        usage: Main action
+        distance: Ranged 10
+        target: One creature
+        effects:
           - roll: Power Roll + Intuition
             tier1: 3 + I holy damage
             tier2: 6 + I holy damage
             tier3: 9 + I holy damage
           - name: Effect
-            effect: >-
-              You or one ally within distance gains temporary Stamina equal to
-              your Intuition score.
-
-              ###### Wither
-
-              *A bolt of holy energy saps the life from a foe.*
-
-              | **Magic, Ranged, Strike** |               **Main action** |
-
-              | ------------------------- | ----------------------------: |
-
-              | **📏 Ranged 10**          | **🎯 One creature or object** |
+            effect: You or one ally within distance gains temporary Stamina equal to your
+              Intuition score.
+      - type: feature
+        feature_type: ability
+        name: Wither
+        flavor: A bolt of holy energy saps the life from a foe.
+        keywords:
+          - Magic
+          - Ranged
+          - Strike
+        usage: Main action
+        distance: Ranged 10
+        target: One creature or object
+        effects:
           - roll: Power Roll + Intuition
             tier1: 3 + I corruption damage; P < WEAK, the target takes a bane on their next
               power roll

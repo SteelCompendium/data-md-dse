@@ -53,21 +53,23 @@ effects:
         target: Self and one willing ally
         effects:
           - name: Effect
-            effect: >-
-              Each target can shift up to 5 squares, including vertically, but
-              must end this movement adjacent to the other target and on solid
+            effect: Each target can shift up to 5 squares, including vertically, but must
+              end this movement adjacent to the other target and on solid
               ground. Each target can then make a melee free strike that deals
               extra damage equal to twice their highest characteristic score.
-
-              ###### En Garde! (5 Drama)
-
-              *Wait, it's... Guard! Turn! Parry! Dodge! Spin! Thrust! Ha!*
-
-              | **Melee, Strike, Weapon** |     **Main action** |
-
-              | ------------------------- | ------------------: |
-
-              | **📏 Melee 1**            | **🎯 One creature** |
+      - type: feature
+        feature_type: ability
+        name: En Garde!
+        cost: 5 Drama
+        flavor: Wait, it's... Guard! Turn! Parry! Dodge! Spin! Thrust! Ha!
+        keywords:
+          - Melee
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 1
+        target: One creature
+        effects:
           - roll: Power Roll + Agility
             tier1: 7 + **A** damage
             tier2: 11 + **A** damage

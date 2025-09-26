@@ -60,22 +60,24 @@ effects:
             tier2: 16 + M damage
             tier3: 21 + M damage
           - name: Effect
-            effect: >-
-              If you use this ability as part of the Charge main action,
-              enemies' spaces don't count as difficult terrain for your
-              movement. Additionally, if you move through any creature's space,
-              you can slide that creature 1 square out of the path of your
-              charge.
-
-              ###### That One Is Mine! (11 Focus)
-
-              *You focus on making an enemy irrelevant.*
-
-              | **Melee, Ranged, Strike, Weapon** |     **Main action** |
-
-              | --------------------------------- | ------------------: |
-
-              | **📏 Melee 1 or ranged 5**        | **🎯 One creature** |
+            effect: If you use this ability as part of the Charge main action, enemies'
+              spaces don't count as difficult terrain for your movement.
+              Additionally, if you move through any creature's space, you can
+              slide that creature 1 square out of the path of your charge.
+      - type: feature
+        feature_type: ability
+        name: That One Is Mine!
+        cost: 11 Focus
+        flavor: You focus on making an enemy irrelevant.
+        keywords:
+          - Melee
+          - Ranged
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 1 or ranged 5
+        target: One creature
+        effects:
           - name: Effect
             effect: The target is marked by you.
           - roll: Power Roll + Might

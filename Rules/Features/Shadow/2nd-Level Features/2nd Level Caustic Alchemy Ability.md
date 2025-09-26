@@ -57,17 +57,22 @@ effects:
               as a main action. If they don't, at the end of your next turn, the
               bomb detonates. When the bomb detonates, you make a power roll
               targeting each enemy within 2 squares of it.
-          - effect: |-
-              ###### Stink Bomb (5 Insight)
-
-              *Putrid yellow gas explodes from a bomb you toss.*
-              | **Area, Ranged**        |                  **Main action** |
-              | ----------------------- | -------------------------------: |
-              | **📏 3 cube within 10** | **🎯 Each creature in the area** |
-            roll: Power Roll + Agility
+          - roll: Power Roll + Agility
             tier1: 4 + A fire damage
             tier2: 7 + A fire damage
             tier3: 11 + A fire damage
+      - type: feature
+        feature_type: ability
+        name: Stink Bomb
+        cost: 5 Insight
+        flavor: Putrid yellow gas explodes from a bomb you toss.
+        keywords:
+          - Area
+          - Ranged
+        usage: Main action
+        distance: 3 cube within 10
+        target: Each creature in the area
+        effects:
           - roll: Power Roll + Agility
             tier1: 2 poison damage
             tier2: 5 poison damage

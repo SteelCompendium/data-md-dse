@@ -61,133 +61,131 @@ effects:
             tier2: 4 + R corruption damage
             tier3: 6 + R corruption damage
           - name: Effect
-            effect: >-
-              Choose yourself or one ally within distance. That character can
-              end one effect on them that is ended by a saving throw or that
-              ends at the end of their turn.
-
-              ###### Bifurcated Incineration
-
-              *Two jets of flame lance out at your command.*
-
-              | **Fire, Magic, Ranged, Strike** |                 **Main
-              action** |
-
-              | ------------------------------- |
-              ------------------------------: |
-
-              | **📏 Ranged 10**                | **🎯 Two creatures or
-              objects** |
-          - effect: >-
-              ###### Grasp of Beyond
-
-
-              *You absorb the life energy of another creature and use it to
-              teleport.*
-
-              | **Magic, Melee, Strike, Void** |     **Main action** |
-
-              | ------------------------------ | ------------------: |
-
-              | **📏 Melee 1**                 | **🎯 One creature** |
-            roll: Power Roll + Reason
+            effect: Choose yourself or one ally within distance. That character can end one
+              effect on them that is ended by a saving throw or that ends at the
+              end of their turn.
+      - type: feature
+        feature_type: ability
+        name: Bifurcated Incineration
+        flavor: Two jets of flame lance out at your command.
+        keywords:
+          - Fire
+          - Magic
+          - Ranged
+          - Strike
+        usage: Main action
+        distance: Ranged 10
+        target: Two creatures or objects
+        effects:
+          - roll: Power Roll + Reason
             tier1: 2 fire damage
             tier2: 4 fire damage
             tier3: 6 fire damage
+      - type: feature
+        feature_type: ability
+        name: Grasp of Beyond
+        flavor: You absorb the life energy of another creature and use it to teleport.
+        keywords:
+          - Magic
+          - Melee
+          - Strike
+          - Void
+        usage: Main action
+        distance: Melee 1
+        target: One creature
+        effects:
           - roll: Power Roll + Reason
             tier1: 3 + R corruption damage
             tier2: 6 + R corruption damage
             tier3: 9 + R corruption damage
           - name: Effect
-            effect: >-
-              You can teleport up to a number of squares equal to your Reason
-              score.
-
-              ###### The Green Within, the Green Without
-
-              *Whipping vines erupt from a foe's body to grasp at another close
-              by.*
-
-              | **Green, Magic, Ranged, Strike** |     **Main action** |
-
-              | -------------------------------- | ------------------: |
-
-              | **📏 Ranged 10**                 | **🎯 One creature** |
+            effect: You can teleport up to a number of squares equal to your Reason score.
+      - type: feature
+        feature_type: ability
+        name: The Green Within, the Green Without
+        flavor: Whipping vines erupt from a foe's body to grasp at another close by.
+        keywords:
+          - Green
+          - Magic
+          - Ranged
+          - Strike
+        usage: Main action
+        distance: Ranged 10
+        target: One creature
+        effects:
           - roll: Power Roll + Reason
             tier1: 2 + R damage
             tier2: 5 + R damage
             tier3: 7 + R damage
           - name: Effect
-            effect: >-
-              You slide one creature within 10 squares of the target up to 2
-              squares.
-
-              ###### Meteoric Introduction
-
-              *You give your enemy a gentle tap-like an asteroid impact.*
-
-              | **Earth, Magic, Melee, Strike** |               **Main action**
-              |
-
-              | ------------------------------- | ----------------------------:
-              |
-
-              | **📏 Melee 1**                  | **🎯 One creature or object**
-              |
-          - effect: >-
-              ###### Ray of Agonizing Self-Reflection
-
-
-              *You inflict pain and doubt in equal measure.*
-
-              | **Magic, Ranged, Strike, Void** |               **Main action**
-              |
-
-              | ------------------------------- | ----------------------------:
-              |
-
-              | **📏 Ranged 10**                | **🎯 One creature or object**
-              |
-            roll: Power Roll + Reason
+            effect: You slide one creature within 10 squares of the target up to 2 squares.
+      - type: feature
+        feature_type: ability
+        name: Meteoric Introduction
+        flavor: You give your enemy a gentle tap-like an asteroid impact.
+        keywords:
+          - Earth
+          - Magic
+          - Melee
+          - Strike
+        usage: Main action
+        distance: Melee 1
+        target: One creature or object
+        effects:
+          - roll: Power Roll + Reason
             tier1: 3 + R damage; push 2
             tier2: 5 + R damage; push 3
             tier3: 8 + R damage; push 4
-          - effect: >-
-              ###### Unquiet Ground
-
-
-              *A sudden storm of detritus assaults your foes and leaves them
-              struggling to move.*
-
-              | **Area, Earth, Magic, Ranged** |               **Main action** |
-
-              | ------------------------------ | ----------------------------: |
-
-              | **📏 2 cube within 10**        | **🎯 Each enemy in the area** |
-            roll: Power Roll + Reason
+      - type: feature
+        feature_type: ability
+        name: Ray of Agonizing Self-Reflection
+        flavor: You inflict pain and doubt in equal measure.
+        keywords:
+          - Magic
+          - Ranged
+          - Strike
+          - Void
+        usage: Main action
+        distance: Ranged 10
+        target: One creature or object
+        effects:
+          - roll: Power Roll + Reason
             tier1: 2 + R corruption damage; R < WEAK, slowed (save ends)
             tier2: 4 + R corruption damage; R < AVERAGE, slowed (save ends)
             tier3: 6 + R corruption damage; R < STRONG, slowed (save ends)
+      - type: feature
+        feature_type: ability
+        name: Unquiet Ground
+        flavor: A sudden storm of detritus assaults your foes and leaves them struggling
+          to move.
+        keywords:
+          - Area
+          - Earth
+          - Magic
+          - Ranged
+        usage: Main action
+        distance: 2 cube within 10
+        target: Each enemy in the area
+        effects:
           - roll: Power Roll + Reason
             tier1: 2 damage
             tier2: 5 damage
             tier3: 7 damage
           - name: Effect
-            effect: >-
-              The ground beneath the area is difficult terrain for enemies.
-
-              ###### Viscous Fire
-
-              *A jet of heavy fire erupts where you strike.*
-
-              | **Fire, Magic, Ranged, Strike** |               **Main action**
-              |
-
-              | ------------------------------- | ----------------------------:
-              |
-
-              | **📏 Ranged 10**                | **🎯 One creature or object**
-              |
+            effect: The ground beneath the area is difficult terrain for enemies.
+      - type: feature
+        feature_type: ability
+        name: Viscous Fire
+        flavor: A jet of heavy fire erupts where you strike.
+        keywords:
+          - Fire
+          - Magic
+          - Ranged
+          - Strike
+        usage: Main action
+        distance: Ranged 10
+        target: One creature or object
+        effects:
           - roll: Power Roll + Reason
             tier1: 2 + R fire damage; push 2
             tier2: 5 + R fire damage; push 3

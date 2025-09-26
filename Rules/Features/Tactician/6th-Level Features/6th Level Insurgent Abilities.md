@@ -53,23 +53,26 @@ effects:
           hidden.
         effects:
           - name: Effect
-            effect: >-
-              If the target of the triggering ability is not a leader or solo
+            effect: If the target of the triggering ability is not a leader or solo
               creature, they are reduced to 0 Stamina. If the target of the
               triggering ability is a minion, the entire squad is killed. If the
               target of the triggering ability is a leader or solo creature, the
               triggering ability's power roll automatically obtains a tier 3
               outcome.
-
-              ###### Panic in Their Lines (9 Focus)
-
-              *You confuse your foes, causing them to turn on each other.*
-
-              | **Melee, Ranged, Strike, Weapon** |      **Main action** |
-
-              | --------------------------------- | -------------------: |
-
-              | **📏 Melee 1 or ranged 5**        | **🎯 Two creatures** |
+      - type: feature
+        feature_type: ability
+        name: Panic in Their Lines
+        cost: 9 Focus
+        flavor: You confuse your foes, causing them to turn on each other.
+        keywords:
+          - Melee
+          - Ranged
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 1 or ranged 5
+        target: Two creatures
+        effects:
           - roll: Power Roll + Might
             tier1: 6 + M damage; slide 1
             tier2: 9 + M damage; slide 3

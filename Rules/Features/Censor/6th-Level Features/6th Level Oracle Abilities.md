@@ -53,17 +53,22 @@ effects:
         distance: Ranged 10
         target: Three enemies
         effects:
-          - effect: |-
-              ###### Edict of Peace (9 Wrath)
-
-              *You anticipate your foes' moves and deny them.*
-              | **Area, Magic** |                  **Maneuver** |
-              | --------------- | ----------------------------: |
-              | **📏 3 aura**   | **🎯 Each enemy in the area** |
-            roll: Power Roll + Presence
+          - roll: Power Roll + Presence
             tier1: Slide 3; I < WEAK, dazed (save ends)
             tier2: Slide 5; I < AVERAGE, dazed (save ends)
             tier3: Slide 7; I < STRONG, dazed (save ends)
+      - type: feature
+        feature_type: ability
+        name: Edict of Peace
+        cost: 9 Wrath
+        flavor: You anticipate your foes' moves and deny them.
+        keywords:
+          - Area
+          - Magic
+        usage: Maneuver
+        distance: 3 aura
+        target: Each enemy in the area
+        effects:
           - name: Effect
             effect: Until the end of the encounter or until you are dying, whenever any
               target takes a triggered action or a free triggered action, that

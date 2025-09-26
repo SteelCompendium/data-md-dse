@@ -53,22 +53,24 @@ effects:
         target: One creature
         effects:
           - name: Effect
-            effect: >-
-              Until the end of the encounter, you gain the target's damage
-              immunities and speed (if they are better than yours), and can use
-              any types of movement they can use. You can also use the target's
-              signature ability, using their bonus for the power roll.
-
-              ###### It Was Me All Along (11 Insight)
-
-              *After everything you've been through together, you twist the
-              blade and make the pain extra personal.*
-
-              | **Melee, Strike, Weapon** |               **Main action** |
-
-              | ------------------------- | ----------------------------: |
-
-              | **📏 Melee 1**            | **🎯 One creature or object** |
+            effect: Until the end of the encounter, you gain the target's damage immunities
+              and speed (if they are better than yours), and can use any types
+              of movement they can use. You can also use the target's signature
+              ability, using their bonus for the power roll.
+      - type: feature
+        feature_type: ability
+        name: It Was Me All Along
+        cost: 11 Insight
+        flavor: After everything you've been through together, you twist the blade and
+          make the pain extra personal.
+        keywords:
+          - Melee
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 1
+        target: One creature or object
+        effects:
           - roll: Power Roll + Agility
             tier1: 15 + A damage
             tier2: 21 + A damage

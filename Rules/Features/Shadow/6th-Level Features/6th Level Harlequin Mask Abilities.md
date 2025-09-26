@@ -53,20 +53,23 @@ effects:
         target: Each enemy in the area
         effects:
           - name: Effect
-            effect: >-
-              Until the start of your next turn, any ability roll made against a
+            effect: Until the start of your next turn, any ability roll made against a
               target gains an edge.
-
-              ###### Puppet Strings (9 Insight)
-
-              *You prick little needles on the tips of your fingers into the
-              nerves of your enemies and cause them to lose control.*
-
-              | **Magic, Melee**, **Strike, Weapon** |    **Main action** |
-
-              | ------------------------------------ | -----------------: |
-
-              | **📏 Melee 1**                       | **🎯 Two enemies** |
+      - type: feature
+        feature_type: ability
+        name: Puppet Strings
+        cost: 9 Insight
+        flavor: You prick little needles on the tips of your fingers into the nerves of
+          your enemies and cause them to lose control.
+        keywords:
+          - Magic
+          - Melee
+          - Strike
+          - Weapon
+        usage: Main action
+        distance: Melee 1
+        target: Two enemies
+        effects:
           - roll: Power Roll + Agility
             tier1: 2 damage; if the target has R < WEAK, before the damage is resolved, they
               make a free strike.

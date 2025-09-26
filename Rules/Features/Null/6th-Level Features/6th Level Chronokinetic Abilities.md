@@ -51,20 +51,22 @@ effects:
         target: Self
         effects:
           - name: Effect
-            effect: >-
-              You can use up to three signature abilities, each of which gains
-              an edge.
-
-              ###### Phase Step (9 Discipline)
-
-              *You weaken your connection to this manifold, allowing you to move
-              through and damage enemies.*
-
-              | **Melee, Psionic, Weapon** | **Main action** |
-
-              | -------------------------- | --------------: |
-
-              | **📏 Self; see below**     |     **🎯 Self** |
+            effect: You can use up to three signature abilities, each of which gains an
+              edge.
+      - type: feature
+        feature_type: ability
+        name: Phase Step
+        cost: 9 Discipline
+        flavor: You weaken your connection to this manifold, allowing you to move
+          through and damage enemies.
+        keywords:
+          - Melee
+          - Psionic
+          - Weapon
+        usage: Main action
+        distance: Self; see below
+        target: Self
+        effects:
           - name: Effect
             effect: You can shift up to your speed, and squares occupied by enemies or
               objects are not difficult terrain for this shift. You make one

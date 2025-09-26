@@ -62,22 +62,23 @@ effects:
               Heroic Resource, they gain 1 additional Heroic Resource. This
               effect lasts until the start of your next turn.
           - name: Persistent 1
-            effect: >-
-              The effect lasts until the start of your next turn.
-
-              ###### Magma Titan (9 Essence)
-
-              *Their body swells with lava, mud, and might, towering over their
-              enemies.*
-
-              | **Earth, Fire, Green, Magic, Ranged** |            **Maneuver**
-              |
-
-              | ------------------------------------- | ----------------------:
-              |
-
-              | **📏 Ranged 10**                      | **🎯 Self or one ally**
-              |
+            effect: The effect lasts until the start of your next turn.
+      - type: feature
+        feature_type: ability
+        name: Magma Titan
+        cost: 9 Essence
+        flavor: Their body swells with lava, mud, and might, towering over their
+          enemies.
+        keywords:
+          - Earth
+          - Fire
+          - Green
+          - Magic
+          - Ranged
+        usage: Maneuver
+        distance: Ranged 10
+        target: Self or one ally
+        effects:
           - name: Effect
             effect: >-
               Until the start of your next turn, the target has the following
@@ -100,46 +101,50 @@ effects:
               - They can use their highest characteristic instead of Might for
               Might power rolls.
           - name: Persistent 2
-            effect: >-
-              The effect lasts until the start of your next turn. Additionally,
-              at the start of your turn, the target can spend 2 Recoveries.
-
-              ###### Meteor (9 Essence)
-
-              *You teleport the target into the air and let the ground and the
-              elemental force of fire do the rest.*
-
-              | **Earth, Fire, Magic, Ranged, Void** |               **Main
-              action** |
-
-              | ------------------------------------ |
-              ----------------------------: |
-
-              | **📏 Ranged 10**                     | **🎯 One creature or
-              object** |
+            effect: The effect lasts until the start of your next turn. Additionally, at the
+              start of your turn, the target can spend 2 Recoveries.
+      - type: feature
+        feature_type: ability
+        name: Meteor
+        cost: 9 Essence
+        flavor: You teleport the target into the air and let the ground and the
+          elemental force of fire do the rest.
+        keywords:
+          - Earth
+          - Fire
+          - Magic
+          - Ranged
+          - Void
+        usage: Main action
+        distance: Ranged 10
+        target: One creature or object
+        effects:
           - roll: Power Roll + Reason
             tier1: You teleport the target up to 4 squares.
             tier2: You teleport the target up to 6 squares.
             tier3: You teleport the target up to 8 squares.
           - name: Effect
-            effect: >-
-              If the target is teleported to a space where they would fall, they
+            effect: If the target is teleported to a space where they would fall, they
               immediately do so, treating the fall as if their Agility score
               were 0. The target takes fire damage from the fall, and each enemy
               within 3 squares of where they land takes the same amount of fire
               damage. The ground within 3 squares of where the target lands is
               difficult terrain.
-
-              ###### The Wode Remembers and Returns (9 Essence)
-
-              *You create a terrarium that spans from canopy above to underbrush
-              below.*
-
-              | **Area, Earth, Green, Magic, Void** | **Main action** |
-
-              | ----------------------------------- | --------------: |
-
-              | **📏 4 burst**                      |  **🎯 Special** |
+      - type: feature
+        feature_type: ability
+        name: The Wode Remembers and Returns
+        cost: 9 Essence
+        flavor: You create a terrarium that spans from canopy above to underbrush below.
+        keywords:
+          - Area
+          - Earth
+          - Green
+          - Magic
+          - Void
+        usage: Main action
+        distance: 4 burst
+        target: Special
+        effects:
           - name: Effect
             effect: The area becomes dark and verdant, with trees and plant life appearing
               in unoccupied spaces within it until the start of your next turn.

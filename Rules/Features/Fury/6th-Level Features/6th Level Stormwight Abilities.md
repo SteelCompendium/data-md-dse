@@ -58,21 +58,21 @@ effects:
             tier2: 13 damage; M < AVERAGE, grabbed
             tier3: 17 damage; M < STRONG, grabbed
           - name: Effect
-            effect: >-
-              You can shift up to 4 squares, bringing the target with you. While
+            effect: You can shift up to 4 squares, bringing the target with you. While
               grabbed this way, the target takes damage equal to twice your
               Might score at the start of each of your turns.
-
-              ###### Riders on the Storm (9 Ferocity)
-
-              *You focus your connection to the Primordial Chaos into a seething
-              storm.*
-
-              | **Area, Magic** |                     **Maneuver** |
-
-              | --------------- | -------------------------------: |
-
-              | **📏 3 aura**   | **🎯 Each creature in the area** |
+      - type: feature
+        feature_type: ability
+        name: Riders on the Storm
+        cost: 9 Ferocity
+        flavor: You focus your connection to the Primordial Chaos into a seething storm.
+        keywords:
+          - Area
+          - Magic
+        usage: Maneuver
+        distance: 3 aura
+        target: Each creature in the area
+        effects:
           - name: Effect
             effect: Until the end of the encounter or until you are dying, each enemy target
               takes damage of your primordial damage type equal to twice your

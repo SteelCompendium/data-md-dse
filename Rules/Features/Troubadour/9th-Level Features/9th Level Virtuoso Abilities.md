@@ -57,24 +57,24 @@ effects:
             tier2: 11 sonic damage
             tier3: 15 sonic damage
           - name: Effect
-            effect: >-
-              Each creature within distance gains a +5 bonus to speed until the
-              end of their next turn. While under this effect, each target must
-              use their full movement during their turn.
-
-              ###### Melt Their Faces (11 Drama)
-
-              *The power of music rips through the reality around the target and
-              blows them away.*
-
-              | **Magic, Melee, Ranged, Strike** |               **Main action**
-              |
-
-              | -------------------------------- | ----------------------------:
-              |
-
-              | **📏 Melee 1 or ranged 10**      | **🎯 One creature or object**
-              |
+            effect: Each creature within distance gains a +5 bonus to speed until the end of
+              their next turn. While under this effect, each target must use
+              their full movement during their turn.
+      - type: feature
+        feature_type: ability
+        name: Melt Their Faces
+        cost: 11 Drama
+        flavor: The power of music rips through the reality around the target and blows
+          them away.
+        keywords:
+          - Magic
+          - Melee
+          - Ranged
+          - Strike
+        usage: Main action
+        distance: Melee 1 or ranged 10
+        target: One creature or object
+        effects:
           - roll: Power Roll + Presence
             tier1: 12 + P sonic damage; push 5
             tier2: 16 + P sonic damage; push 10

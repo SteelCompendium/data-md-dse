@@ -57,19 +57,19 @@ effects:
             tier2: 9 + R damage; taunted (EoT)
             tier3: 12 + R damage; taunted (EoT)
           - name: Effect
-            effect: >-
-              One ally adjacent to the target can spend a Recovery.
-
-              ###### Targets of Opportunity (5 Focus)
-
-              *You point out easy targets to your friends, allowing them to
-              include more enemies in their attacks.*
-
-              | **Ranged**      |         **Maneuver** |
-
-              | --------------- | -------------------: |
-
-              | **📏 Ranged 5** | **🎯 Two creatures** |
+            effect: One ally adjacent to the target can spend a Recovery.
+      - type: feature
+        feature_type: ability
+        name: Targets of Opportunity
+        cost: 5 Focus
+        flavor: You point out easy targets to your friends, allowing them to include
+          more enemies in their attacks.
+        keywords:
+          - Ranged
+        usage: Maneuver
+        distance: Ranged 5
+        target: Two creatures
+        effects:
           - name: Effect
             effect: Each target is marked by you, and you gain two surges.
           - name: Mark Benefit
