@@ -1,18 +1,19 @@
 ---
-class: 'null'
+action_type: feature
+class: talent
 feature_type: trait
 file_basename: Psi Boost
-file_dpath: Abilities/Null/7th-Level Features
+file_dpath: Features/Talent/6th-Level Features
 item_id: psi-boost
-item_index: '05'
+item_index: '02'
 item_name: Psi Boost
-level: 7
+level: 6
 scc:
-- mcdm.heroes.v1:feature.trait.null.7th-level-feature:psi-boost
+- mcdm.heroes.v1:feature.trait.talent.6th-level-feature:psi-boost
 scdc:
-- 1.1.1:11.1.6.9:05
+- 1.1.1:11.1.1.3:02
 source: mcdm.heroes.v1
-type: feature/trait/null/7th-level-feature
+type: feature/trait/talent/6th-level-feature
 ---
 
 ```ds-feature
@@ -20,20 +21,21 @@ type: feature
 feature_type: trait
 name: Psi Boost
 metadata:
-  class: "null"
+  action_type: feature
+  class: talent
   feature_type: trait
   file_basename: Psi Boost
-  file_dpath: Abilities/Null/7th-Level Features
+  file_dpath: Features/Talent/6th-Level Features
   item_id: psi-boost
-  item_index: "05"
+  item_index: "02"
   item_name: Psi Boost
-  level: 7
+  level: 6
   scc:
-    - mcdm.heroes.v1:feature.trait.null.7th-level-feature:psi-boost
+    - mcdm.heroes.v1:feature.trait.talent.6th-level-feature:psi-boost
   scdc:
-    - 1.1.1:11.1.6.9:05
+    - 1.1.1:11.1.1.3:02
   source: mcdm.heroes.v1
-  type: feature/trait/null/7th-level-feature
+  type: feature/trait/talent/6th-level-feature
 effects:
   - effect: >-
       Whenever you use an ability that is a main action or a maneuver with the
@@ -44,37 +46,37 @@ effects:
       You can use the following psi boosts.
 
 
-      ##### Dynamic Power (1 Discipline)
+      ##### Dynamic Power (1 Clarity)
 
       If the ability force moves a target, the forced movement distance gains a
-      bonus equal to your Intuition score.
+      bonus equal to your Reason score.
 
-      ##### Expanded Power (3 Discipline)
+      ##### Expanded Power (3 Clarity)
 
       If the ability targets an area, you increase the size of the area by 1. If
       the area is a line, you increase the size of one dimension, not both.
 
-      ##### Extended Power (1 Discipline)
+      ##### Extended Power (1 Clarity)
 
-      If the ability is ranged, the distance gains a bonus equal to your
-      Intuition score. If the ability is melee, the distance gains a +2 bonus.
+      If the ability is ranged, the distance gains a bonus equal to your Reason
+      score. If the ability is melee, the distance gains a +2 bonus.
 
-      ##### Heightened Power (1 Discipline)
+      ##### Heightened Power (1 Clarity)
 
       If the ability deals rolled damage, it deals extra damage equal to your
-      Intuition score.
+      Reason score.
 
-      ##### Magnified Power (5 Discipline)
+      ##### Magnified Power (5 Clarity)
 
       If the ability has a potency, you increase that potency by an amount equal
-      to your Intuition score.
+      to your Reason score.
 
-      ##### Shared Power (5 Discipline)
+      ##### Shared Power (5 Clarity)
 
       If the ability targets individual creatures or objects, you target one
       additional creature or object within distance.
 
-      ##### Sharpened Power (1 Discipline)
+      ##### Sharpened Power (1 Clarity)
 
       If the ability has any power roll, that roll gains an edge.
 ```
