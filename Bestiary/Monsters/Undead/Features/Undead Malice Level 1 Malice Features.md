@@ -48,7 +48,7 @@ features:
     effects:
       - effect: Ravenous and rotting undead arms burst forth from 9 connected squares of
           a vertical or horizontal surface. Any creature who ends their turn
-          adjacent to an affected square makes an Agility test.
+          adjacent to an affected square makes an **Agility test**.
         tier1: 5 damage; restrained (save ends)
         tier2: 5 damage; restrained (EoT)
         tier3: 5 damage

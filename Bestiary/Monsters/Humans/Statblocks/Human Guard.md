@@ -47,7 +47,7 @@ speed: 5
 size: 1M
 stability: 0
 free_strike: 2
-with_captain: +5 bonus to speed
+with_captain: +2 bonus to speed
 might: 2
 agility: 0
 reason: 0

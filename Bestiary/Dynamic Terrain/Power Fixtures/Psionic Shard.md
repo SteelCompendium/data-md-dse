@@ -43,8 +43,8 @@ features:
     keywords:
       - "-"
     usage: Free triggered action
-    distance: "-"
-    target: "-"
+    distance: Special
+    target: Special
     trigger: The shard is destroyed.
     effects:
       - name: Effect

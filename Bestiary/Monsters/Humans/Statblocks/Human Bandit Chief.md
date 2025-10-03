@@ -67,7 +67,7 @@ features:
     distance: Melee 2
     target: Two enemies or objects
     effects:
-      - roll: Power Roll + 2
+      - roll: Power Roll + 3
         tier1: 8 damage; pull 1
         tier2: 12 damage; pull 2
         tier3: 15 damage; pull 3
@@ -86,7 +86,7 @@ features:
     distance: Melee 1
     target: One enemy
     effects:
-      - roll: Power Roll + 2
+      - roll: Power Roll + 3
         tier1: Push 1; M < 1 prone
         tier2: Push 2; M < 2 prone
         tier3: Push 4; M < 3 prone

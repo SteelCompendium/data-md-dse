@@ -86,8 +86,6 @@ features:
       - name: Effect
         effect: Until the start of the centurion's next turn, the centurion and their
           allies gain an edge on power rolls against the target.
-      - cost: 3+ Malice
-        effect: This ability targets one additional target for each 3 Malice spent.
   - type: feature
     feature_type: ability
     name: Testudo!

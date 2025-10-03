@@ -45,9 +45,9 @@ features:
     target: Each creature and object in the area
     effects:
       - roll: Power Roll + 2
-        tier1: 6 damage; A < 0 the target is burning (save ends)
-        tier2: 10 damage; A < 1 the target is burning (save ends)
-        tier3: 13 damage; A < 2 the target is burning (save ends)
+        tier1: 6 fire damage; A < 0 the target is burning (save ends)
+        tier2: 10 fire damage; A < 1 the target is burning (save ends)
+        tier3: 13 fire damage; A < 2 the target is burning (save ends)
       - name: Effect
         effect: A burning creature takes 1d6 fire damage at the start of each of their
           turns. A burning object takes 1d6 fire damage at the end of each

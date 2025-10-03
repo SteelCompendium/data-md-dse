@@ -74,7 +74,7 @@ effects:
     tier2: 8 + A damage
     tier3: 12 + A damage
   - name: Effect
-    effect: Until the start of your next turn, whenever the target moves or is force
-      moved, you can use a free triggered action to shift up to your speed. You
-      must end this shift adjacent to the target.
+    effect: Until the start of your next turn, whenever the target finishes moving
+      or being force moved, you can use a free triggered action to shift up to
+      your speed. You must end this shift adjacent to the target.
 ```

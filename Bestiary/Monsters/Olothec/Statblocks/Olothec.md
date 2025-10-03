@@ -3,7 +3,7 @@ agility: -1
 ancestry:
 - Horror
 - Olothec
-ev: '84'
+ev: '96'
 file_basename: Olothec
 file_dpath: Monsters/Olothec/Statblocks
 free_strike: 7
@@ -38,7 +38,7 @@ roles:
 ancestry:
   - Horror
   - Olothec
-ev: "84"
+ev: "96"
 stamina: "450"
 immunities:
   - Psychic 6

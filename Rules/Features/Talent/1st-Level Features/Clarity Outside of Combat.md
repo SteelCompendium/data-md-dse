@@ -47,7 +47,9 @@ effects:
 
       Additionally, whenever you use any ability or effect that costs clarity
       within 1 minute of using another such ability, you take 1d6 damage and
-      incur any strain effect from using the new ability.
+      incur any strain effect from using the new ability. Whenever you use an
+      ability with a strain effect outside of combat, you can take 1d6 damage
+      and incur the effect if you don't incur it for other reasons.
 
       When you use an ability outside of combat that lets you spend unlimited
       clarity on its effect, such as Minor Telekinesis, you can use it as if you

@@ -37,5 +37,5 @@ metadata:
   source: mcdm.heroes.v1
   type: feature/trait/conduit/4th-level-feature
 effects:
-  - effect: Whenever you gain piety from a domain feature, you gain 1 additional piety.
+  - effect: Whenever you gain piety from a domain effect, you gain 1 additional piety.
 ```

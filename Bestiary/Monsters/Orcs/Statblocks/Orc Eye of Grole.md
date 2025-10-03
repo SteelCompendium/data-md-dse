@@ -13,7 +13,7 @@ item_index: '129'
 item_name: Orc Eye of Grole
 level: 1
 might: 1
-presence: -2
+presence: 2
 reason: 0
 roles:
 - Platoon Artillery
@@ -52,7 +52,7 @@ might: 1
 agility: 1
 reason: 0
 intuition: 0
-presence: -2
+presence: 2
 features:
   - type: feature
     feature_type: trait

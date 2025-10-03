@@ -65,7 +65,7 @@ features:
     target: One creature or object per minion
     effects:
       - roll: Power Roll + 2
-        tier1: 2 damage;
+        tier1: 2 damage
         tier2: 4 damage; push 3
         tier3: 5 damage; push 3 or prone
       - name: Effect

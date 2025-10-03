@@ -2,6 +2,7 @@
 agility: 5
 ancestry:
 - Undead
+- Vampire
 ev: '36'
 file_basename: Vampire Lord
 file_dpath: Monsters/Undead/Statblocks
@@ -36,6 +37,7 @@ roles:
   - Leader
 ancestry:
   - Undead
+  - Vampire
 ev: "36"
 stamina: "200"
 immunities:

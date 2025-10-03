@@ -64,7 +64,7 @@ features:
       - Strike
       - Weapon
     usage: Main action
-    distance: Ranged 10
+    distance: Melee 2
     target: One creature or object
     effects:
       - roll: Power Roll + 2

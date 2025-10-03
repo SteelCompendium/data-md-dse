@@ -151,7 +151,7 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 |              Human, Humanoid              |          -          |      Level 1       |              Minion Brute               | EV 3 for four minions  |
 | :---------------------------------------: | :-----------------: | :----------------: | :-------------------------------------: | :--------------------: |
 |             **1M**<br/> Size              |  **5**<br/> Speed   | **5**<br/> Stamina |          **0**<br/> Stability           | **2**<br/> Free Strike |
-| **Corruption 1, psychic 1**<br/> Immunity | **-**<br/> Movement |         -          | **+5 bonus to speed**<br/> With Captain |  **-**<br/> Weakness   |
+| **Corruption 1, psychic 1**<br/> Immunity | **-**<br/> Movement |         -          | **+2 bonus to speed**<br/> With Captain |  **-**<br/> Weakness   |
 |             **+2**<br/> Might             | **0**<br/> Agility  | **0**<br/> Reason  |          **0**<br/> Intuition           |  **0**<br/> Presence   |
 
 > 🗡 **Halberd (Signature Ability)**
@@ -452,7 +452,7 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 > | ---------------- | ----------------------------: |
 > | **📏 1 burst**   | **🎯 Each enemy in the area** |
 >
-> **Power Roll + 2:**
+> **Power Roll + 3:**
 >
 > - **≤11:** 3 damage; M < 1 slowed (save ends)
 > - **12-16:** 6 damage; M < 2 slowed (save ends)
@@ -526,7 +526,7 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 > | -------------------------------- | ----------------------------: |
 > | **📏 Melee 2**                   | **🎯 Two enemies or objects** |
 >
-> **Power Roll + 2:**
+> **Power Roll + 3:**
 >
 > - **≤11:** 8 damage; pull 1
 > - **12-16:** 12 damage; pull 2
@@ -542,7 +542,7 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 > | -------------- | ---------------: |
 > | **📏 Melee 1** | **🎯 One enemy** |
 >
-> **Power Roll + 2:**
+> **Power Roll + 3:**
 >
 > - **≤11:** Push 1; M < 1 prone
 > - **12-16:** Push 2; M < 2 prone

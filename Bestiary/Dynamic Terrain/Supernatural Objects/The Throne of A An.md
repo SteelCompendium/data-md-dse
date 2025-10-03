@@ -96,7 +96,7 @@ features:
     distance: Ranged 20
     target: One creature or object
     effects:
-      - roll: Power Roll + 2
+      - roll: Power Roll + 3
         tier1: 6 fire damage
         tier2: 11 fire damage
         tier3: 14 fire damage

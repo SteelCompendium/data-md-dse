@@ -25,8 +25,9 @@ features:
     icon: 🗡
     cost: 3 Malice
     keywords:
-      - Magic
-      - Melee
+      - \\Melee
+      - Strike
+      - Weapon\
     usage: Main action
     distance: Melee 1
     target: One creature

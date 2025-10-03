@@ -42,9 +42,9 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 
 > 🗡 **Trouser Cut (3 Malice)**
 >
-> | **Magic, Melee** |     **Main action** |
-> | ---------------- | ------------------: |
-> | **📏 Melee 1**   | **🎯 One creature** |
+> | \*\*Melee, Strike, Weapon\* |     **Main action** |
+> | --------------------------- | ------------------: |
+> | **📏 Melee 1**              | **🎯 One creature** |
 >
 > **Power Roll + 2:**
 >
@@ -121,6 +121,8 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 > - **≤11:** 2 damage
 > - **12-16:** 4 damage
 > - **17+:** 5 damage
+>
+> **Effect:** One ally of the redeye within 2 squares of the target shifts up to 2 squares.
 
 > ❗️ **Ready Rodent**
 >
