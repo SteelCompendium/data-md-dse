@@ -70,7 +70,7 @@ metadata:
   type: feature/ability/shadow/1st-level-feature
 effects:
   - roll: Power Roll + Agility
-    tier1: 4 + A damage; R < WEAK, bleeding (save ends)
-    tier2: 6 + A damage; R < AVERAGE, bleeding (save ends)
-    tier3: 10 + A damage; R < STRONG, bleeding (save ends)
+    tier1: 4 + A damage; A < WEAK, bleeding (save ends)
+    tier2: 6 + A damage; A < AVERAGE, bleeding (save ends)
+    tier3: 10 + A damage; A < STRONG, bleeding (save ends)
 ```
