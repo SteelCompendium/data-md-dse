@@ -1,19 +1,19 @@
 ---
 action_type: feature
-class: conduit
+class: censor
 feature_type: trait
 file_basename: Deity and Domains
-file_dpath: Conduit/1st-Level Features
+file_dpath: Censor/1st-Level Features
 item_id: deity-and-domains
-item_index: '39'
+item_index: '20'
 item_name: Deity and Domains
 level: 1
 scc:
-- mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:deity-and-domains
+- mcdm.heroes.v1:feature.trait.censor.1st-level-feature:deity-and-domains
 scdc:
-- 1.1.1:11.1.8.1:39
+- 1.1.1:11.1.7.1:20
 source: mcdm.heroes.v1
-type: feature/trait/conduit/1st-level-feature
+type: feature/trait/censor/1st-level-feature
 ---
 
 ```ds-feature
@@ -22,20 +22,20 @@ feature_type: trait
 name: Deity and Domains
 metadata:
   action_type: feature
-  class: conduit
+  class: censor
   feature_type: trait
   file_basename: Deity and Domains
-  file_dpath: Conduit/1st-Level Features
+  file_dpath: Censor/1st-Level Features
   item_id: deity-and-domains
-  item_index: "39"
+  item_index: "20"
   item_name: Deity and Domains
   level: 1
   scc:
-    - mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:deity-and-domains
+    - mcdm.heroes.v1:feature.trait.censor.1st-level-feature:deity-and-domains
   scdc:
-    - 1.1.1:11.1.8.1:39
+    - 1.1.1:11.1.7.1:20
   source: mcdm.heroes.v1
-  type: feature/trait/conduit/1st-level-feature
+  type: feature/trait/censor/1st-level-feature
 effects:
   - effect: >-
       Choose a god or saint who your character reveres from Chapter 14: Gods and
@@ -44,8 +44,7 @@ effects:
       choose four domains to be part of their portfolio.
 
 
-      After choosing your deity, pick two domains from their portfolio. The two
-      domains you pick make up your subclass, and your choice of domains
-      determines many of the features you'll gain as you gain new levels.
-      (*Quick Build:* Adûn for deity, and Life and Protection as domains.)
+      After choosing your deity, pick one domain from their portfolio. Your
+      choice of domain determines many of the features you'll gain from this
+      class. (*Quick Build:* Cavall as deity and War as domain.)
 ```
