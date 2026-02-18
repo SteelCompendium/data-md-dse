@@ -94,7 +94,7 @@ features:
     distance: 2 burst
     target: Each enemy in the area
     effects:
-      - effect: "**Power Roll + 3**"
+      - roll: Power Roll + 3
         tier1: 6 damage; slide 1
         tier2: 10 damage; slide 3
         tier3: 12 damage; slide 5

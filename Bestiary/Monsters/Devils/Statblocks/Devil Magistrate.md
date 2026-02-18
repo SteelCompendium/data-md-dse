@@ -84,7 +84,7 @@ features:
     distance: Melee 1
     target: One creature
     effects:
-      - effect: "**Power Roll + 3**"
+      - roll: Power Roll + 3
         tier1: 11 damage
         tier2: 17 damage
         tier3: 21 damage

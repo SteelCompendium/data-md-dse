@@ -85,7 +85,7 @@ features:
     distance: Melee 2
     target: Two creatures or objects
     effects:
-      - effect: "**Power Roll + 3**"
+      - roll: Power Roll + 3
         tier1: 6 damage; M < 1 prone
         tier2: 11 damage; M < 2 prone and can't stand (save ends)
         tier3: 14 damage; M < 3 prone and can't stand (save ends)
