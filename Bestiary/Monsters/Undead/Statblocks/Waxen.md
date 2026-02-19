@@ -91,8 +91,8 @@ features:
         tier1: 10 damage
         tier2: 8 damage
         tier3: 5 damage
-      - effect: "- The waxen is then destroyed and the area is difficult terrain for
-          enemies."
+      - effect: The waxen is then destroyed and the area is difficult terrain for
+          enemies.
   - type: feature
     feature_type: trait
     name: Burn Bright
