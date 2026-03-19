@@ -109,6 +109,7 @@ features:
     feature_type: ability
     name: Hrraaaaaagh!
     icon: ❗️
+    cost: 1 Malice
     keywords:
       - "-"
     usage: Free triggered action
