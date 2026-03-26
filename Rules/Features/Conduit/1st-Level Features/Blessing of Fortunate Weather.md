@@ -49,8 +49,8 @@ effects:
       Navigate skills.
   - name: Foggy
     effect: You and your allies gain an edge on tests that use the Hide skill.
-      **Overcast:** You and your allies gain an edge on tests that use the
-      Endurance skill.
+  - name: Overcast
+    effect: You and your allies gain an edge on tests that use the Endurance skill.
   - name: Precipitation
     effect: >-
       When the ground is muddy or snowy, you and your allies gain an edge on
