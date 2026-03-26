@@ -42,7 +42,7 @@ effects:
       Class Act Triggered Actions table.
 
 
-      ###### Class Act Triggered Action Table
+      ###### Class Act Triggered Actions Table
 
       | Class Act | Triggered Action       |
 
