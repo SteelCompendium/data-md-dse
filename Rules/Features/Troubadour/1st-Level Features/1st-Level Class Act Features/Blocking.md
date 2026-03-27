@@ -1,7 +1,7 @@
 ---
 action_type: feature
 class: troubadour
-feature_type: trait
+feature_type: subtrait
 file_basename: Blocking
 file_dpath: Troubadour/1st-Level Features/1st-Level Class Act Features
 item_id: blocking
@@ -9,11 +9,11 @@ item_index: '01'
 item_name: Blocking
 level: 1
 scc:
-- mcdm.heroes.v1:subfeature.trait.troubadour.1st-level-feature:blocking
+- mcdm.heroes.v1:feature.subtrait.troubadour.1st-level-feature:blocking
 scdc:
-- 1.1.1:12.1.3.8:01
+- 1.1.1:11.2.3.8:01
 source: mcdm.heroes.v1
-type: subfeature/trait/troubadour/1st-level-feature
+type: feature/subtrait/troubadour/1st-level-feature
 ---
 
 ```ds-feature
@@ -23,7 +23,7 @@ name: Blocking
 metadata:
   action_type: feature
   class: troubadour
-  feature_type: trait
+  feature_type: subtrait
   file_basename: Blocking
   file_dpath: Troubadour/1st-Level Features/1st-Level Class Act Features
   item_id: blocking
@@ -31,11 +31,11 @@ metadata:
   item_name: Blocking
   level: 1
   scc:
-    - mcdm.heroes.v1:subfeature.trait.troubadour.1st-level-feature:blocking
+    - mcdm.heroes.v1:feature.subtrait.troubadour.1st-level-feature:blocking
   scdc:
-    - 1.1.1:12.1.3.8:01
+    - 1.1.1:11.2.3.8:01
   source: mcdm.heroes.v1
-  type: subfeature/trait/troubadour/1st-level-feature
+  type: feature/subtrait/troubadour/1st-level-feature
 effects:
   - effect: You have the following performance ability, which is usable with your
       Routines feature.

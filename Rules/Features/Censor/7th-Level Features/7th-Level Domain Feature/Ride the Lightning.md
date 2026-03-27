@@ -1,7 +1,7 @@
 ---
 action_type: feature
 class: censor
-feature_type: trait
+feature_type: subtrait
 file_basename: Ride the Lightning
 file_dpath: Censor/7th-Level Features/7th-Level Domain Feature
 item_id: ride-the-lightning
@@ -9,11 +9,11 @@ item_index: 09
 item_name: Ride the Lightning
 level: 7
 scc:
-- mcdm.heroes.v1:subfeature.trait.censor.7th-level-feature:ride-the-lightning
+- mcdm.heroes.v1:feature.subtrait.censor.7th-level-feature:ride-the-lightning
 scdc:
-- 1.1.1:12.1.7.2:09
+- 1.1.1:11.2.7.2:09
 source: mcdm.heroes.v1
-type: subfeature/trait/censor/7th-level-feature
+type: feature/subtrait/censor/7th-level-feature
 ---
 
 ```ds-feature
@@ -23,7 +23,7 @@ name: Ride the Lightning
 metadata:
   action_type: feature
   class: censor
-  feature_type: trait
+  feature_type: subtrait
   file_basename: Ride the Lightning
   file_dpath: Censor/7th-Level Features/7th-Level Domain Feature
   item_id: ride-the-lightning
@@ -31,11 +31,11 @@ metadata:
   item_name: Ride the Lightning
   level: 7
   scc:
-    - mcdm.heroes.v1:subfeature.trait.censor.7th-level-feature:ride-the-lightning
+    - mcdm.heroes.v1:feature.subtrait.censor.7th-level-feature:ride-the-lightning
   scdc:
-    - 1.1.1:12.1.7.2:09
+    - 1.1.1:11.2.7.2:09
   source: mcdm.heroes.v1
-  type: subfeature/trait/censor/7th-level-feature
+  type: feature/subtrait/censor/7th-level-feature
 effects:
   - effect: Lightning and thunder infuse your body. Whenever you use an ability to
       deal rolled damage to another creature, the ability deals extra lightning

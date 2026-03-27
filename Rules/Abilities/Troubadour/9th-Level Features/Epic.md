@@ -21,7 +21,7 @@ level: 9
 scc:
 - mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:epic-11-drama
 scdc:
-- 1.1.1:11.2.3.7:05
+- 1.1.1:11.3.3.7:05
 source: mcdm.heroes.v1
 subclass: Auteur
 target: One creature
@@ -65,7 +65,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:epic-11-drama
   scdc:
-    - 1.1.1:11.2.3.7:05
+    - 1.1.1:11.3.3.7:05
   source: mcdm.heroes.v1
   subclass: Auteur
   target: One creature

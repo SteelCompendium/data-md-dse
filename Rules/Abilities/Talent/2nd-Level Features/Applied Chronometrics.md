@@ -21,7 +21,7 @@ level: 2
 scc:
 - mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:applied-chronometrics-5-clarity
 scdc:
-- 1.1.1:11.2.1.5:03
+- 1.1.1:11.3.1.5:03
 source: mcdm.heroes.v1
 subclass: Chronopathy
 target: Special
@@ -65,7 +65,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:applied-chronometrics-5-clarity
   scdc:
-    - 1.1.1:11.2.1.5:03
+    - 1.1.1:11.3.1.5:03
   source: mcdm.heroes.v1
   subclass: Chronopathy
   target: Special

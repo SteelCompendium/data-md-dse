@@ -1,7 +1,7 @@
 ---
 action_type: feature
 class: conduit
-feature_type: trait
+feature_type: subtrait
 file_basename: Saints Epiphany
 file_dpath: Conduit/4th-Level Features/4th-Level Domain Feature
 item_id: saints-epiphany
@@ -9,11 +9,11 @@ item_index: '11'
 item_name: Saint's Epiphany
 level: 4
 scc:
-- mcdm.heroes.v1:subfeature.trait.conduit.4th-level-feature:saints-epiphany
+- mcdm.heroes.v1:feature.subtrait.conduit.4th-level-feature:saints-epiphany
 scdc:
-- 1.1.1:12.1.8.1:11
+- 1.1.1:11.2.8.1:11
 source: mcdm.heroes.v1
-type: subfeature/trait/conduit/4th-level-feature
+type: feature/subtrait/conduit/4th-level-feature
 ---
 
 ```ds-feature
@@ -23,7 +23,7 @@ name: Saint's Epiphany
 metadata:
   action_type: feature
   class: conduit
-  feature_type: trait
+  feature_type: subtrait
   file_basename: Saints Epiphany
   file_dpath: Conduit/4th-Level Features/4th-Level Domain Feature
   item_id: saints-epiphany
@@ -31,11 +31,11 @@ metadata:
   item_name: Saint's Epiphany
   level: 4
   scc:
-    - mcdm.heroes.v1:subfeature.trait.conduit.4th-level-feature:saints-epiphany
+    - mcdm.heroes.v1:feature.subtrait.conduit.4th-level-feature:saints-epiphany
   scdc:
-    - 1.1.1:12.1.8.1:11
+    - 1.1.1:11.2.8.1:11
   source: mcdm.heroes.v1
-  type: subfeature/trait/conduit/4th-level-feature
+  type: feature/subtrait/conduit/4th-level-feature
 effects:
   - effect: At the start of a respite, you can inspire yourself or another creature
       taking the same respite with divine knowledge. If the target makes a

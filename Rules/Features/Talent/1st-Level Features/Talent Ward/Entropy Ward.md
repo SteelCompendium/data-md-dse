@@ -1,7 +1,7 @@
 ---
 action_type: feature
 class: talent
-feature_type: trait
+feature_type: subtrait
 file_basename: Entropy Ward
 file_dpath: Talent/1st-Level Features/Talent Ward
 item_id: entropy-ward
@@ -9,11 +9,11 @@ item_index: '12'
 item_name: Entropy Ward
 level: 1
 scc:
-- mcdm.heroes.v1:subfeature.trait.talent.1st-level-feature:entropy-ward
+- mcdm.heroes.v1:feature.subtrait.talent.1st-level-feature:entropy-ward
 scdc:
-- 1.1.1:12.1.1.6:12
+- 1.1.1:11.2.1.6:12
 source: mcdm.heroes.v1
-type: subfeature/trait/talent/1st-level-feature
+type: feature/subtrait/talent/1st-level-feature
 ---
 
 ```ds-feature
@@ -23,7 +23,7 @@ name: Entropy Ward
 metadata:
   action_type: feature
   class: talent
-  feature_type: trait
+  feature_type: subtrait
   file_basename: Entropy Ward
   file_dpath: Talent/1st-Level Features/Talent Ward
   item_id: entropy-ward
@@ -31,11 +31,11 @@ metadata:
   item_name: Entropy Ward
   level: 1
   scc:
-    - mcdm.heroes.v1:subfeature.trait.talent.1st-level-feature:entropy-ward
+    - mcdm.heroes.v1:feature.subtrait.talent.1st-level-feature:entropy-ward
   scdc:
-    - 1.1.1:12.1.1.6:12
+    - 1.1.1:11.2.1.6:12
   source: mcdm.heroes.v1
-  type: subfeature/trait/talent/1st-level-feature
+  type: feature/subtrait/talent/1st-level-feature
 effects:
   - effect: Your ward slows time for your enemies. Whenever a creature deals damage
       to you, their speed is reduced by an amount equal to your Reason score and

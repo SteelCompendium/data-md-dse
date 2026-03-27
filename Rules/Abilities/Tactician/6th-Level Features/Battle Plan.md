@@ -19,7 +19,7 @@ level: 6
 scc:
 - mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:battle-plan-9-focus
 scdc:
-- 1.1.1:11.2.4.3:01
+- 1.1.1:11.3.4.3:01
 source: mcdm.heroes.v1
 subclass: Mastermind
 target: Three creatures
@@ -59,7 +59,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:battle-plan-9-focus
   scdc:
-    - 1.1.1:11.2.4.3:01
+    - 1.1.1:11.3.4.3:01
   source: mcdm.heroes.v1
   subclass: Mastermind
   target: Three creatures

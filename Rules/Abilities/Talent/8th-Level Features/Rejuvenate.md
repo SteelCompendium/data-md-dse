@@ -21,7 +21,7 @@ level: 8
 scc:
 - mcdm.heroes.v1:feature.ability.talent.8th-level-feature:rejuvenate-11-clarity
 scdc:
-- 1.1.1:11.2.1.2:06
+- 1.1.1:11.3.1.2:06
 source: mcdm.heroes.v1
 target: Self or one ally
 type: feature/ability/talent/8th-level-feature
@@ -64,7 +64,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.talent.8th-level-feature:rejuvenate-11-clarity
   scdc:
-    - 1.1.1:11.2.1.2:06
+    - 1.1.1:11.3.1.2:06
   source: mcdm.heroes.v1
   target: Self or one ally
   type: feature/ability/talent/8th-level-feature

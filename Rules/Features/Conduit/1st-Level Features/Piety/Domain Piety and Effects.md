@@ -1,7 +1,7 @@
 ---
 action_type: feature
 class: conduit
-feature_type: trait
+feature_type: subtrait
 file_basename: Domain Piety and Effects
 file_dpath: Conduit/1st-Level Features/Piety
 item_id: domain-piety-and-effects
@@ -9,11 +9,11 @@ item_index: '23'
 item_name: Domain Piety and Effects
 level: 1
 scc:
-- mcdm.heroes.v1:subfeature.trait.conduit.1st-level-feature:domain-piety-and-effects
+- mcdm.heroes.v1:feature.subtrait.conduit.1st-level-feature:domain-piety-and-effects
 scdc:
-- 1.1.1:12.1.8.3:23
+- 1.1.1:11.2.8.3:23
 source: mcdm.heroes.v1
-type: subfeature/trait/conduit/1st-level-feature
+type: feature/subtrait/conduit/1st-level-feature
 ---
 
 ```ds-feature
@@ -23,7 +23,7 @@ name: Domain Piety and Effects
 metadata:
   action_type: feature
   class: conduit
-  feature_type: trait
+  feature_type: subtrait
   file_basename: Domain Piety and Effects
   file_dpath: Conduit/1st-Level Features/Piety
   item_id: domain-piety-and-effects
@@ -31,11 +31,11 @@ metadata:
   item_name: Domain Piety and Effects
   level: 1
   scc:
-    - mcdm.heroes.v1:subfeature.trait.conduit.1st-level-feature:domain-piety-and-effects
+    - mcdm.heroes.v1:feature.subtrait.conduit.1st-level-feature:domain-piety-and-effects
   scdc:
-    - 1.1.1:12.1.8.3:23
+    - 1.1.1:11.2.8.3:23
   source: mcdm.heroes.v1
-  type: subfeature/trait/conduit/1st-level-feature
+  type: feature/subtrait/conduit/1st-level-feature
 effects:
   - effect: >-
       Your choice of domains provides you with two additional ways to earn piety

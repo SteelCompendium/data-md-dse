@@ -1,7 +1,7 @@
 ---
 action_type: feature
 class: censor
-feature_type: trait
+feature_type: subtrait
 file_basename: Blessing of Fortunate Weather
 file_dpath: Censor/1st-Level Features/1st-Level Domain Feature
 item_id: blessing-of-fortunate-weather
@@ -9,11 +9,11 @@ item_index: '01'
 item_name: Blessing of Fortunate Weather
 level: 1
 scc:
-- mcdm.heroes.v1:subfeature.trait.censor.1st-level-feature:blessing-of-fortunate-weather
+- mcdm.heroes.v1:feature.subtrait.censor.1st-level-feature:blessing-of-fortunate-weather
 scdc:
-- 1.1.1:12.1.7.8:01
+- 1.1.1:11.2.7.8:01
 source: mcdm.heroes.v1
-type: subfeature/trait/censor/1st-level-feature
+type: feature/subtrait/censor/1st-level-feature
 ---
 
 ```ds-feature
@@ -23,7 +23,7 @@ name: Blessing of Fortunate Weather
 metadata:
   action_type: feature
   class: censor
-  feature_type: trait
+  feature_type: subtrait
   file_basename: Blessing of Fortunate Weather
   file_dpath: Censor/1st-Level Features/1st-Level Domain Feature
   item_id: blessing-of-fortunate-weather
@@ -31,11 +31,11 @@ metadata:
   item_name: Blessing of Fortunate Weather
   level: 1
   scc:
-    - mcdm.heroes.v1:subfeature.trait.censor.1st-level-feature:blessing-of-fortunate-weather
+    - mcdm.heroes.v1:feature.subtrait.censor.1st-level-feature:blessing-of-fortunate-weather
   scdc:
-    - 1.1.1:12.1.7.8:01
+    - 1.1.1:11.2.7.8:01
   source: mcdm.heroes.v1
-  type: subfeature/trait/censor/1st-level-feature
+  type: feature/subtrait/censor/1st-level-feature
 effects:
   - effect: "Each time you finish a respite, you can decide the weather conditions
       within 100 squares. Until you finish another respite, the weather

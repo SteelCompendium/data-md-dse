@@ -1,7 +1,7 @@
 ---
 action_type: feature
 class: censor
-feature_type: trait
+feature_type: subtrait
 file_basename: Gods Library
 file_dpath: Censor/7th-Level Features/7th-Level Domain Feature
 item_id: gods-library
@@ -9,11 +9,11 @@ item_index: '04'
 item_name: Gods' Library
 level: 7
 scc:
-- mcdm.heroes.v1:subfeature.trait.censor.7th-level-feature:gods-library
+- mcdm.heroes.v1:feature.subtrait.censor.7th-level-feature:gods-library
 scdc:
-- 1.1.1:12.1.7.2:04
+- 1.1.1:11.2.7.2:04
 source: mcdm.heroes.v1
-type: subfeature/trait/censor/7th-level-feature
+type: feature/subtrait/censor/7th-level-feature
 ---
 
 ```ds-feature
@@ -23,7 +23,7 @@ name: Gods' Library
 metadata:
   action_type: feature
   class: censor
-  feature_type: trait
+  feature_type: subtrait
   file_basename: Gods Library
   file_dpath: Censor/7th-Level Features/7th-Level Domain Feature
   item_id: gods-library
@@ -31,11 +31,11 @@ metadata:
   item_name: Gods' Library
   level: 7
   scc:
-    - mcdm.heroes.v1:subfeature.trait.censor.7th-level-feature:gods-library
+    - mcdm.heroes.v1:feature.subtrait.censor.7th-level-feature:gods-library
   scdc:
-    - 1.1.1:12.1.7.2:04
+    - 1.1.1:11.2.7.2:04
   source: mcdm.heroes.v1
-  type: subfeature/trait/censor/7th-level-feature
+  type: feature/subtrait/censor/7th-level-feature
 effects:
   - effect: "You can gain access to information you need through prayer, so that you
       no longer require research materials for crafting and research projects

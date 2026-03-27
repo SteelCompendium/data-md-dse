@@ -1,7 +1,7 @@
 ---
 action_type: feature
 class: censor
-feature_type: trait
+feature_type: subtrait
 file_basename: Heroic Abilities
 file_dpath: Censor/1st-Level Features/Censor Abilities
 item_id: heroic-abilities
@@ -9,11 +9,11 @@ item_index: '16'
 item_name: Heroic Abilities
 level: 1
 scc:
-- mcdm.heroes.v1:subfeature.trait.censor.1st-level-feature:heroic-abilities
+- mcdm.heroes.v1:feature.subtrait.censor.1st-level-feature:heroic-abilities
 scdc:
-- 1.1.1:12.1.7.8:16
+- 1.1.1:11.2.7.8:16
 source: mcdm.heroes.v1
-type: subfeature/trait/censor/1st-level-feature
+type: feature/subtrait/censor/1st-level-feature
 ---
 
 ```ds-feature
@@ -23,7 +23,7 @@ name: Heroic Abilities
 metadata:
   action_type: feature
   class: censor
-  feature_type: trait
+  feature_type: subtrait
   file_basename: Heroic Abilities
   file_dpath: Censor/1st-Level Features/Censor Abilities
   item_id: heroic-abilities
@@ -31,11 +31,11 @@ metadata:
   item_name: Heroic Abilities
   level: 1
   scc:
-    - mcdm.heroes.v1:subfeature.trait.censor.1st-level-feature:heroic-abilities
+    - mcdm.heroes.v1:feature.subtrait.censor.1st-level-feature:heroic-abilities
   scdc:
-    - 1.1.1:12.1.7.8:16
+    - 1.1.1:11.2.7.8:16
   source: mcdm.heroes.v1
-  type: subfeature/trait/censor/1st-level-feature
+  type: feature/subtrait/censor/1st-level-feature
 effects:
   - effect: >-
       You call upon a number of heroic abilities, all of them bound to your

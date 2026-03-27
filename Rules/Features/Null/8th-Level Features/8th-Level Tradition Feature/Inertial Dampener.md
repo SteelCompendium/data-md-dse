@@ -1,7 +1,7 @@
 ---
 action_type: feature
 class: 'null'
-feature_type: trait
+feature_type: subtrait
 file_basename: Inertial Dampener
 file_dpath: Null/8th-Level Features/8th-Level Tradition Feature
 item_id: inertial-dampener
@@ -9,11 +9,11 @@ item_index: '02'
 item_name: Inertial Dampener
 level: 8
 scc:
-- mcdm.heroes.v1:subfeature.trait.null.8th-level-feature:inertial-dampener
+- mcdm.heroes.v1:feature.subtrait.null.8th-level-feature:inertial-dampener
 scdc:
-- 1.1.1:12.1.6.4:02
+- 1.1.1:11.2.6.4:02
 source: mcdm.heroes.v1
-type: subfeature/trait/null/8th-level-feature
+type: feature/subtrait/null/8th-level-feature
 ---
 
 ```ds-feature
@@ -23,7 +23,7 @@ name: Inertial Dampener
 metadata:
   action_type: feature
   class: "null"
-  feature_type: trait
+  feature_type: subtrait
   file_basename: Inertial Dampener
   file_dpath: Null/8th-Level Features/8th-Level Tradition Feature
   item_id: inertial-dampener
@@ -31,11 +31,11 @@ metadata:
   item_name: Inertial Dampener
   level: 8
   scc:
-    - mcdm.heroes.v1:subfeature.trait.null.8th-level-feature:inertial-dampener
+    - mcdm.heroes.v1:feature.subtrait.null.8th-level-feature:inertial-dampener
   scdc:
-    - 1.1.1:12.1.6.4:02
+    - 1.1.1:11.2.6.4:02
   source: mcdm.heroes.v1
-  type: subfeature/trait/null/8th-level-feature
+  type: feature/subtrait/null/8th-level-feature
 effects:
   - effect: You and each creature or object of your choice in the area of your Null
       Field ability gain a bonus to stability equal to your Intuition score. A

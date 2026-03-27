@@ -1,7 +1,7 @@
 ---
 action_type: feature
 class: tactician
-feature_type: trait
+feature_type: subtrait
 file_basename: Bait and Ambush
 file_dpath: Tactician/8th-Level Features/8th-Level Doctrine Feature
 item_id: bait-and-ambush
@@ -9,11 +9,11 @@ item_index: '01'
 item_name: Bait and Ambush
 level: 8
 scc:
-- mcdm.heroes.v1:subfeature.trait.tactician.8th-level-feature:bait-and-ambush
+- mcdm.heroes.v1:feature.subtrait.tactician.8th-level-feature:bait-and-ambush
 scdc:
-- 1.1.1:12.1.4.6:01
+- 1.1.1:11.2.4.6:01
 source: mcdm.heroes.v1
-type: subfeature/trait/tactician/8th-level-feature
+type: feature/subtrait/tactician/8th-level-feature
 ---
 
 ```ds-feature
@@ -23,7 +23,7 @@ name: Bait and Ambush
 metadata:
   action_type: feature
   class: tactician
-  feature_type: trait
+  feature_type: subtrait
   file_basename: Bait and Ambush
   file_dpath: Tactician/8th-Level Features/8th-Level Doctrine Feature
   item_id: bait-and-ambush
@@ -31,11 +31,11 @@ metadata:
   item_name: Bait and Ambush
   level: 8
   scc:
-    - mcdm.heroes.v1:subfeature.trait.tactician.8th-level-feature:bait-and-ambush
+    - mcdm.heroes.v1:feature.subtrait.tactician.8th-level-feature:bait-and-ambush
   scdc:
-    - 1.1.1:12.1.4.6:01
+    - 1.1.1:11.2.4.6:01
   source: mcdm.heroes.v1
-  type: subfeature/trait/tactician/8th-level-feature
+  type: feature/subtrait/tactician/8th-level-feature
 effects:
   - effect: You have trained your squad to be silent ambushers.
   - name: Mark Benefit

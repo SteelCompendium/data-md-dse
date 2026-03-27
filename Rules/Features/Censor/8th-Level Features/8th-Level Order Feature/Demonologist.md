@@ -1,7 +1,7 @@
 ---
 action_type: feature
 class: censor
-feature_type: trait
+feature_type: subtrait
 file_basename: Demonologist
 file_dpath: Censor/8th-Level Features/8th-Level Order Feature
 item_id: demonologist
@@ -9,11 +9,11 @@ item_index: '01'
 item_name: Demonologist
 level: 8
 scc:
-- mcdm.heroes.v1:subfeature.trait.censor.8th-level-feature:demonologist
+- mcdm.heroes.v1:feature.subtrait.censor.8th-level-feature:demonologist
 scdc:
-- 1.1.1:12.1.7.7:01
+- 1.1.1:11.2.7.7:01
 source: mcdm.heroes.v1
-type: subfeature/trait/censor/8th-level-feature
+type: feature/subtrait/censor/8th-level-feature
 ---
 
 ```ds-feature
@@ -23,7 +23,7 @@ name: Demonologist
 metadata:
   action_type: feature
   class: censor
-  feature_type: trait
+  feature_type: subtrait
   file_basename: Demonologist
   file_dpath: Censor/8th-Level Features/8th-Level Order Feature
   item_id: demonologist
@@ -31,11 +31,11 @@ metadata:
   item_name: Demonologist
   level: 8
   scc:
-    - mcdm.heroes.v1:subfeature.trait.censor.8th-level-feature:demonologist
+    - mcdm.heroes.v1:feature.subtrait.censor.8th-level-feature:demonologist
   scdc:
-    - 1.1.1:12.1.7.7:01
+    - 1.1.1:11.2.7.7:01
   source: mcdm.heroes.v1
-  type: subfeature/trait/censor/8th-level-feature
+  type: feature/subtrait/censor/8th-level-feature
 effects:
   - effect: The most esoteric secrets of your order teach you that to defeat your
       enemy, you must understand them. You treat your Renown as 2 higher than

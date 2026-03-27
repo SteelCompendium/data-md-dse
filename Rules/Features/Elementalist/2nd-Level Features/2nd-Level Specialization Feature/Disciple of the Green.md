@@ -1,7 +1,7 @@
 ---
 action_type: feature
 class: elementalist
-feature_type: trait
+feature_type: subtrait
 file_basename: Disciple of the Green
 file_dpath: Elementalist/2nd-Level Features/2nd-Level Specialization Feature
 item_id: disciple-of-the-green
@@ -9,11 +9,11 @@ item_index: '04'
 item_name: Disciple of the Green
 level: 2
 scc:
-- mcdm.heroes.v1:subfeature.trait.elementalist.2nd-level-feature:disciple-of-the-green
+- mcdm.heroes.v1:feature.subtrait.elementalist.2nd-level-feature:disciple-of-the-green
 scdc:
-- 1.1.1:12.1.9.3:04
+- 1.1.1:11.2.9.3:04
 source: mcdm.heroes.v1
-type: subfeature/trait/elementalist/2nd-level-feature
+type: feature/subtrait/elementalist/2nd-level-feature
 ---
 
 ```ds-feature
@@ -23,7 +23,7 @@ name: Disciple of the Green
 metadata:
   action_type: feature
   class: elementalist
-  feature_type: trait
+  feature_type: subtrait
   file_basename: Disciple of the Green
   file_dpath: Elementalist/2nd-Level Features/2nd-Level Specialization Feature
   item_id: disciple-of-the-green
@@ -31,11 +31,11 @@ metadata:
   item_name: Disciple of the Green
   level: 2
   scc:
-    - mcdm.heroes.v1:subfeature.trait.elementalist.2nd-level-feature:disciple-of-the-green
+    - mcdm.heroes.v1:feature.subtrait.elementalist.2nd-level-feature:disciple-of-the-green
   scdc:
-    - 1.1.1:12.1.9.3:04
+    - 1.1.1:11.2.9.3:04
   source: mcdm.heroes.v1
-  type: subfeature/trait/elementalist/2nd-level-feature
+  type: feature/subtrait/elementalist/2nd-level-feature
 effects:
   - effect: |-
       You can use a maneuver to shapeshift into a type of creature on the Green Animal Forms table. While in animal form, you can speak, and you use your Reason score to make melee free strikes. Your statistics stay the same except as noted on the table.

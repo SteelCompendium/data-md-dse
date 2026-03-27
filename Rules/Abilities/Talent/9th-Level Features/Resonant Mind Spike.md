@@ -22,7 +22,7 @@ level: 9
 scc:
 - mcdm.heroes.v1:feature.ability.talent.9th-level-feature:resonant-mind-spike-11-clarity
 scdc:
-- 1.1.1:11.2.1.7:06
+- 1.1.1:11.3.1.7:06
 source: mcdm.heroes.v1
 subclass: Telepathy
 target: One creature
@@ -68,7 +68,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.talent.9th-level-feature:resonant-mind-spike-11-clarity
   scdc:
-    - 1.1.1:11.2.1.7:06
+    - 1.1.1:11.3.1.7:06
   source: mcdm.heroes.v1
   subclass: Telepathy
   target: One creature

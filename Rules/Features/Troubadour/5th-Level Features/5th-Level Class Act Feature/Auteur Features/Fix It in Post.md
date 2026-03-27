@@ -1,7 +1,7 @@
 ---
 action_type: feature
 class: troubadour
-feature_type: trait
+feature_type: subtrait
 file_basename: Fix It in Post
 file_dpath: Troubadour/5th-Level Features/5th-Level Class Act Feature/Auteur Features
 item_id: fix-it-in-post
@@ -9,11 +9,11 @@ item_index: '04'
 item_name: Fix It in Post
 level: 5
 scc:
-- mcdm.heroes.v1:subfeature.trait.troubadour.5th-level-feature:fix-it-in-post
+- mcdm.heroes.v1:feature.subtrait.troubadour.5th-level-feature:fix-it-in-post
 scdc:
-- 1.1.1:12.1.3.5:04
+- 1.1.1:11.2.3.5:04
 source: mcdm.heroes.v1
-type: subfeature/trait/troubadour/5th-level-feature
+type: feature/subtrait/troubadour/5th-level-feature
 ---
 
 ```ds-feature
@@ -23,7 +23,7 @@ name: Fix It in Post
 metadata:
   action_type: feature
   class: troubadour
-  feature_type: trait
+  feature_type: subtrait
   file_basename: Fix It in Post
   file_dpath: Troubadour/5th-Level Features/5th-Level Class Act Feature/Auteur Features
   item_id: fix-it-in-post
@@ -31,11 +31,11 @@ metadata:
   item_name: Fix It in Post
   level: 5
   scc:
-    - mcdm.heroes.v1:subfeature.trait.troubadour.5th-level-feature:fix-it-in-post
+    - mcdm.heroes.v1:feature.subtrait.troubadour.5th-level-feature:fix-it-in-post
   scdc:
-    - 1.1.1:12.1.3.5:04
+    - 1.1.1:11.2.3.5:04
   source: mcdm.heroes.v1
-  type: subfeature/trait/troubadour/5th-level-feature
+  type: feature/subtrait/troubadour/5th-level-feature
 effects:
   - effect: "Once on each of your turns, you can use a free maneuver to change one
       condition affecting a creature within distance of your Dramatic Monologue

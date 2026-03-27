@@ -1,7 +1,7 @@
 ---
 action_type: feature
 class: conduit
-feature_type: trait
+feature_type: subtrait
 file_basename: Piety in Combat
 file_dpath: Conduit/1st-Level Features/Piety
 item_id: piety-in-combat
@@ -9,11 +9,11 @@ item_index: '24'
 item_name: Piety in Combat
 level: 1
 scc:
-- mcdm.heroes.v1:subfeature.trait.conduit.1st-level-feature:piety-in-combat
+- mcdm.heroes.v1:feature.subtrait.conduit.1st-level-feature:piety-in-combat
 scdc:
-- 1.1.1:12.1.8.3:24
+- 1.1.1:11.2.8.3:24
 source: mcdm.heroes.v1
-type: subfeature/trait/conduit/1st-level-feature
+type: feature/subtrait/conduit/1st-level-feature
 ---
 
 ```ds-feature
@@ -23,7 +23,7 @@ name: Piety in Combat
 metadata:
   action_type: feature
   class: conduit
-  feature_type: trait
+  feature_type: subtrait
   file_basename: Piety in Combat
   file_dpath: Conduit/1st-Level Features/Piety
   item_id: piety-in-combat
@@ -31,11 +31,11 @@ metadata:
   item_name: Piety in Combat
   level: 1
   scc:
-    - mcdm.heroes.v1:subfeature.trait.conduit.1st-level-feature:piety-in-combat
+    - mcdm.heroes.v1:feature.subtrait.conduit.1st-level-feature:piety-in-combat
   scdc:
-    - 1.1.1:12.1.8.3:24
+    - 1.1.1:11.2.8.3:24
   source: mcdm.heroes.v1
-  type: subfeature/trait/conduit/1st-level-feature
+  type: feature/subtrait/conduit/1st-level-feature
 effects:
   - effect: >-
       At the start of a combat encounter or some other stressful situation

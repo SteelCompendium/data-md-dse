@@ -1,7 +1,7 @@
 ---
 action_type: feature
 class: elementalist
-feature_type: trait
+feature_type: subtrait
 file_basename: Fire Acolyte of Fire
 file_dpath: Elementalist/1st-Level Features/Elemental Specialization
 item_id: fire-acolyte-of-fire
@@ -9,11 +9,11 @@ item_index: '18'
 item_name: 'Fire: Acolyte of Fire'
 level: 1
 scc:
-- mcdm.heroes.v1:subfeature.trait.elementalist.1st-level-feature:fire-acolyte-of-fire
+- mcdm.heroes.v1:feature.subtrait.elementalist.1st-level-feature:fire-acolyte-of-fire
 scdc:
-- 1.1.1:12.1.9.7:18
+- 1.1.1:11.2.9.7:18
 source: mcdm.heroes.v1
-type: subfeature/trait/elementalist/1st-level-feature
+type: feature/subtrait/elementalist/1st-level-feature
 ---
 
 ```ds-feature
@@ -23,7 +23,7 @@ name: "Fire: Acolyte of Fire"
 metadata:
   action_type: feature
   class: elementalist
-  feature_type: trait
+  feature_type: subtrait
   file_basename: Fire Acolyte of Fire
   file_dpath: Elementalist/1st-Level Features/Elemental Specialization
   item_id: fire-acolyte-of-fire
@@ -31,11 +31,11 @@ metadata:
   item_name: "Fire: Acolyte of Fire"
   level: 1
   scc:
-    - mcdm.heroes.v1:subfeature.trait.elementalist.1st-level-feature:fire-acolyte-of-fire
+    - mcdm.heroes.v1:feature.subtrait.elementalist.1st-level-feature:fire-acolyte-of-fire
   scdc:
-    - 1.1.1:12.1.9.7:18
+    - 1.1.1:11.2.9.7:18
   source: mcdm.heroes.v1
-  type: subfeature/trait/elementalist/1st-level-feature
+  type: feature/subtrait/elementalist/1st-level-feature
 effects:
   - effect: You become an expert at wielding destructive flames. Your abilities that
       have the Fire and Magic keywords gain a +1 bonus to rolled damage. Your

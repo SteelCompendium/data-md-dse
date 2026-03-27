@@ -1,7 +1,7 @@
 ---
 action_type: feature
 class: talent
-feature_type: trait
+feature_type: subtrait
 file_basename: Steel Ward
 file_dpath: Talent/1st-Level Features/Talent Ward
 item_id: steel-ward
@@ -9,11 +9,11 @@ item_index: '13'
 item_name: Steel Ward
 level: 1
 scc:
-- mcdm.heroes.v1:subfeature.trait.talent.1st-level-feature:steel-ward
+- mcdm.heroes.v1:feature.subtrait.talent.1st-level-feature:steel-ward
 scdc:
-- 1.1.1:12.1.1.6:13
+- 1.1.1:11.2.1.6:13
 source: mcdm.heroes.v1
-type: subfeature/trait/talent/1st-level-feature
+type: feature/subtrait/talent/1st-level-feature
 ---
 
 ```ds-feature
@@ -23,7 +23,7 @@ name: Steel Ward
 metadata:
   action_type: feature
   class: talent
-  feature_type: trait
+  feature_type: subtrait
   file_basename: Steel Ward
   file_dpath: Talent/1st-Level Features/Talent Ward
   item_id: steel-ward
@@ -31,11 +31,11 @@ metadata:
   item_name: Steel Ward
   level: 1
   scc:
-    - mcdm.heroes.v1:subfeature.trait.talent.1st-level-feature:steel-ward
+    - mcdm.heroes.v1:feature.subtrait.talent.1st-level-feature:steel-ward
   scdc:
-    - 1.1.1:12.1.1.6:13
+    - 1.1.1:11.2.1.6:13
   source: mcdm.heroes.v1
-  type: subfeature/trait/talent/1st-level-feature
+  type: feature/subtrait/talent/1st-level-feature
 effects:
   - effect: Your ward reacts to danger, protecting you from future harm. Whenever
       you take damage, after the damage resolves, you gain damage immunity equal

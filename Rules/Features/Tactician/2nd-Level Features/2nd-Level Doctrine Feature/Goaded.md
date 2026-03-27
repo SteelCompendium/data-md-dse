@@ -1,7 +1,7 @@
 ---
 action_type: feature
 class: tactician
-feature_type: trait
+feature_type: subtrait
 file_basename: Goaded
 file_dpath: Tactician/2nd-Level Features/2nd-Level Doctrine Feature
 item_id: goaded
@@ -9,11 +9,11 @@ item_index: '04'
 item_name: Goaded
 level: 2
 scc:
-- mcdm.heroes.v1:subfeature.trait.tactician.2nd-level-feature:goaded
+- mcdm.heroes.v1:feature.subtrait.tactician.2nd-level-feature:goaded
 scdc:
-- 1.1.1:12.1.4.3:04
+- 1.1.1:11.2.4.3:04
 source: mcdm.heroes.v1
-type: subfeature/trait/tactician/2nd-level-feature
+type: feature/subtrait/tactician/2nd-level-feature
 ---
 
 ```ds-feature
@@ -23,7 +23,7 @@ name: Goaded
 metadata:
   action_type: feature
   class: tactician
-  feature_type: trait
+  feature_type: subtrait
   file_basename: Goaded
   file_dpath: Tactician/2nd-Level Features/2nd-Level Doctrine Feature
   item_id: goaded
@@ -31,11 +31,11 @@ metadata:
   item_name: Goaded
   level: 2
   scc:
-    - mcdm.heroes.v1:subfeature.trait.tactician.2nd-level-feature:goaded
+    - mcdm.heroes.v1:feature.subtrait.tactician.2nd-level-feature:goaded
   scdc:
-    - 1.1.1:12.1.4.3:04
+    - 1.1.1:11.2.4.3:04
   source: mcdm.heroes.v1
-  type: subfeature/trait/tactician/2nd-level-feature
+  type: feature/subtrait/tactician/2nd-level-feature
 effects:
   - effect: You have learned to leverage your marked foes' psychology and goad them
       into acting before they're tactically ready. Whenever a creature marked by

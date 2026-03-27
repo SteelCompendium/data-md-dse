@@ -17,7 +17,7 @@ keywords:
 scc:
 - mcdm.heroes.v1:kit-ability.pugilist:lets-dance
 scdc:
-- 1.1.1:15.15:01
+- 1.1.1:14.15:01
 source: mcdm.heroes.v1
 target: One creature
 type: kit-ability/pugilist
@@ -54,7 +54,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:kit-ability.pugilist:lets-dance
   scdc:
-    - 1.1.1:15.15:01
+    - 1.1.1:14.15:01
   source: mcdm.heroes.v1
   target: One creature
   type: kit-ability/pugilist

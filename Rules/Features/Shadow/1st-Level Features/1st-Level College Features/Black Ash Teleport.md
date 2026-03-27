@@ -1,7 +1,7 @@
 ---
 action_type: feature
 class: shadow
-feature_type: trait
+feature_type: subtrait
 file_basename: Black Ash Teleport
 file_dpath: Shadow/1st-Level Features/1st-Level College Features
 item_id: black-ash-teleport
@@ -9,11 +9,11 @@ item_index: 08
 item_name: Black Ash Teleport
 level: 1
 scc:
-- mcdm.heroes.v1:subfeature.trait.shadow.1st-level-feature:black-ash-teleport
+- mcdm.heroes.v1:feature.subtrait.shadow.1st-level-feature:black-ash-teleport
 scdc:
-- 1.1.1:12.1.2.6:08
+- 1.1.1:11.2.2.6:08
 source: mcdm.heroes.v1
-type: subfeature/trait/shadow/1st-level-feature
+type: feature/subtrait/shadow/1st-level-feature
 ---
 
 ```ds-feature
@@ -23,7 +23,7 @@ name: Black Ash Teleport
 metadata:
   action_type: feature
   class: shadow
-  feature_type: trait
+  feature_type: subtrait
   file_basename: Black Ash Teleport
   file_dpath: Shadow/1st-Level Features/1st-Level College Features
   item_id: black-ash-teleport
@@ -31,11 +31,11 @@ metadata:
   item_name: Black Ash Teleport
   level: 1
   scc:
-    - mcdm.heroes.v1:subfeature.trait.shadow.1st-level-feature:black-ash-teleport
+    - mcdm.heroes.v1:feature.subtrait.shadow.1st-level-feature:black-ash-teleport
   scdc:
-    - 1.1.1:12.1.2.6:08
+    - 1.1.1:11.2.2.6:08
   source: mcdm.heroes.v1
-  type: subfeature/trait/shadow/1st-level-feature
+  type: feature/subtrait/shadow/1st-level-feature
 effects:
   - effect: You have the following ability.
     features:

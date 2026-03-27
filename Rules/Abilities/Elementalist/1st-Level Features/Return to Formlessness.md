@@ -17,7 +17,7 @@ level: 1
 scc:
 - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:return-to-formlessness
 scdc:
-- 1.1.1:11.2.9.1:03
+- 1.1.1:11.3.9.1:03
 source: mcdm.heroes.v1
 subclass: Fire
 target: One mundane object
@@ -55,7 +55,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:return-to-formlessness
   scdc:
-    - 1.1.1:11.2.9.1:03
+    - 1.1.1:11.3.9.1:03
   source: mcdm.heroes.v1
   subclass: Fire
   target: One mundane object

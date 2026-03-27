@@ -1,7 +1,7 @@
 ---
 action_type: feature
 class: talent
-feature_type: trait
+feature_type: subtrait
 file_basename: Heroic Abilities
 file_dpath: Talent/1st-Level Features/Talent Abilities
 item_id: heroic-abilities
@@ -9,11 +9,11 @@ item_index: '02'
 item_name: Heroic Abilities
 level: 1
 scc:
-- mcdm.heroes.v1:subfeature.trait.talent.1st-level-feature:heroic-abilities
+- mcdm.heroes.v1:feature.subtrait.talent.1st-level-feature:heroic-abilities
 scdc:
-- 1.1.1:12.1.1.6:02
+- 1.1.1:11.2.1.6:02
 source: mcdm.heroes.v1
-type: subfeature/trait/talent/1st-level-feature
+type: feature/subtrait/talent/1st-level-feature
 ---
 
 ```ds-feature
@@ -23,7 +23,7 @@ name: Heroic Abilities
 metadata:
   action_type: feature
   class: talent
-  feature_type: trait
+  feature_type: subtrait
   file_basename: Heroic Abilities
   file_dpath: Talent/1st-Level Features/Talent Abilities
   item_id: heroic-abilities
@@ -31,11 +31,11 @@ metadata:
   item_name: Heroic Abilities
   level: 1
   scc:
-    - mcdm.heroes.v1:subfeature.trait.talent.1st-level-feature:heroic-abilities
+    - mcdm.heroes.v1:feature.subtrait.talent.1st-level-feature:heroic-abilities
   scdc:
-    - 1.1.1:12.1.1.6:02
+    - 1.1.1:11.2.1.6:02
   source: mcdm.heroes.v1
-  type: subfeature/trait/talent/1st-level-feature
+  type: feature/subtrait/talent/1st-level-feature
 effects:
   - effect: >-
       You know a range of heroic abilities, all of which cost clarity to fuel

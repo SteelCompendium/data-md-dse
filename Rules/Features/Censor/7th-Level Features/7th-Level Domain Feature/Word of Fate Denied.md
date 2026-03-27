@@ -1,7 +1,7 @@
 ---
 action_type: feature
 class: censor
-feature_type: trait
+feature_type: subtrait
 file_basename: Word of Fate Denied
 file_dpath: Censor/7th-Level Features/7th-Level Domain Feature
 item_id: word-of-fate-denied
@@ -9,11 +9,11 @@ item_index: '07'
 item_name: Word of Fate Denied
 level: 7
 scc:
-- mcdm.heroes.v1:subfeature.trait.censor.7th-level-feature:word-of-fate-denied
+- mcdm.heroes.v1:feature.subtrait.censor.7th-level-feature:word-of-fate-denied
 scdc:
-- 1.1.1:12.1.7.2:07
+- 1.1.1:11.2.7.2:07
 source: mcdm.heroes.v1
-type: subfeature/trait/censor/7th-level-feature
+type: feature/subtrait/censor/7th-level-feature
 ---
 
 ```ds-feature
@@ -23,7 +23,7 @@ name: Word of Fate Denied
 metadata:
   action_type: feature
   class: censor
-  feature_type: trait
+  feature_type: subtrait
   file_basename: Word of Fate Denied
   file_dpath: Censor/7th-Level Features/7th-Level Domain Feature
   item_id: word-of-fate-denied
@@ -31,11 +31,11 @@ metadata:
   item_name: Word of Fate Denied
   level: 7
   scc:
-    - mcdm.heroes.v1:subfeature.trait.censor.7th-level-feature:word-of-fate-denied
+    - mcdm.heroes.v1:feature.subtrait.censor.7th-level-feature:word-of-fate-denied
   scdc:
-    - 1.1.1:12.1.7.2:07
+    - 1.1.1:11.2.7.2:07
   source: mcdm.heroes.v1
-  type: subfeature/trait/censor/7th-level-feature
+  type: feature/subtrait/censor/7th-level-feature
 effects:
   - effect: When an ally within 10 squares takes damage that would leave them dying,
       you can use a free triggered action to make yourself or another willing

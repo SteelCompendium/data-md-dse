@@ -20,7 +20,7 @@ level: 4
 scc:
 - mcdm.heroes.v1:feature.ability.conduit.4th-level-feature:sanctuary-9-piety
 scdc:
-- 1.1.1:11.2.8.9:04
+- 1.1.1:11.3.8.9:04
 source: mcdm.heroes.v1
 target: Self or one ally
 type: feature/ability/conduit/4th-level-feature
@@ -61,7 +61,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.conduit.4th-level-feature:sanctuary-9-piety
   scdc:
-    - 1.1.1:11.2.8.9:04
+    - 1.1.1:11.3.8.9:04
   source: mcdm.heroes.v1
   target: Self or one ally
   type: feature/ability/conduit/4th-level-feature

@@ -21,7 +21,7 @@ level: 5
 scc:
 - mcdm.heroes.v1:feature.ability.troubadour.5th-level-feature:action-hero-9-drama
 scdc:
-- 1.1.1:11.2.3.4:01
+- 1.1.1:11.3.3.4:01
 source: mcdm.heroes.v1
 target: Each enemy in the area
 type: feature/ability/troubadour/5th-level-feature
@@ -64,7 +64,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.troubadour.5th-level-feature:action-hero-9-drama
   scdc:
-    - 1.1.1:11.2.3.4:01
+    - 1.1.1:11.3.3.4:01
   source: mcdm.heroes.v1
   target: Each enemy in the area
   type: feature/ability/troubadour/5th-level-feature

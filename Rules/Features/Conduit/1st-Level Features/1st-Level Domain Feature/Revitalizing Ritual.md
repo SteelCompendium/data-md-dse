@@ -1,7 +1,7 @@
 ---
 action_type: feature
 class: conduit
-feature_type: trait
+feature_type: subtrait
 file_basename: Revitalizing Ritual
 file_dpath: Conduit/1st-Level Features/1st-Level Domain Feature
 item_id: revitalizing-ritual
@@ -9,11 +9,11 @@ item_index: '05'
 item_name: Revitalizing Ritual
 level: 1
 scc:
-- mcdm.heroes.v1:subfeature.trait.conduit.1st-level-feature:revitalizing-ritual
+- mcdm.heroes.v1:feature.subtrait.conduit.1st-level-feature:revitalizing-ritual
 scdc:
-- 1.1.1:12.1.8.3:05
+- 1.1.1:11.2.8.3:05
 source: mcdm.heroes.v1
-type: subfeature/trait/conduit/1st-level-feature
+type: feature/subtrait/conduit/1st-level-feature
 ---
 
 ```ds-feature
@@ -23,7 +23,7 @@ name: Revitalizing Ritual
 metadata:
   action_type: feature
   class: conduit
-  feature_type: trait
+  feature_type: subtrait
   file_basename: Revitalizing Ritual
   file_dpath: Conduit/1st-Level Features/1st-Level Domain Feature
   item_id: revitalizing-ritual
@@ -31,11 +31,11 @@ metadata:
   item_name: Revitalizing Ritual
   level: 1
   scc:
-    - mcdm.heroes.v1:subfeature.trait.conduit.1st-level-feature:revitalizing-ritual
+    - mcdm.heroes.v1:feature.subtrait.conduit.1st-level-feature:revitalizing-ritual
   scdc:
-    - 1.1.1:12.1.8.3:05
+    - 1.1.1:11.2.8.3:05
   source: mcdm.heroes.v1
-  type: subfeature/trait/conduit/1st-level-feature
+  type: feature/subtrait/conduit/1st-level-feature
 effects:
   - effect: Each time you finish a respite, you can choose yourself or one ally who
       is also finishing a respite to gain the benefit of a divine ritual. The

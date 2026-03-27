@@ -19,7 +19,7 @@ level: 2
 scc:
 - mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:targets-of-opportunity-5-focus
 scdc:
-- 1.1.1:11.2.4.5:06
+- 1.1.1:11.3.4.5:06
 source: mcdm.heroes.v1
 subclass: Mastermind
 target: Two creatures
@@ -59,7 +59,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:targets-of-opportunity-5-focus
   scdc:
-    - 1.1.1:11.2.4.5:06
+    - 1.1.1:11.3.4.5:06
   source: mcdm.heroes.v1
   subclass: Mastermind
   target: Two creatures

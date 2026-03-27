@@ -22,7 +22,7 @@ level: 5
 scc:
 - mcdm.heroes.v1:feature.ability.talent.5th-level-feature:soulbound-9-clarity
 scdc:
-- 1.1.1:11.2.1.4:03
+- 1.1.1:11.3.1.4:03
 source: mcdm.heroes.v1
 target: Two enemies
 type: feature/ability/talent/5th-level-feature
@@ -67,7 +67,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.talent.5th-level-feature:soulbound-9-clarity
   scdc:
-    - 1.1.1:11.2.1.4:03
+    - 1.1.1:11.3.1.4:03
   source: mcdm.heroes.v1
   target: Two enemies
   type: feature/ability/talent/5th-level-feature

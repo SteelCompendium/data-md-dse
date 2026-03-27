@@ -1,7 +1,7 @@
 ---
 action_type: feature
 class: censor
-feature_type: trait
+feature_type: subtrait
 file_basename: Blessing of Compassion
 file_dpath: Censor/1st-Level Features/1st-Level Domain Feature
 item_id: blessing-of-compassion
@@ -9,11 +9,11 @@ item_index: '12'
 item_name: Blessing of Compassion
 level: 1
 scc:
-- mcdm.heroes.v1:subfeature.trait.censor.1st-level-feature:blessing-of-compassion
+- mcdm.heroes.v1:feature.subtrait.censor.1st-level-feature:blessing-of-compassion
 scdc:
-- 1.1.1:12.1.7.8:12
+- 1.1.1:11.2.7.8:12
 source: mcdm.heroes.v1
-type: subfeature/trait/censor/1st-level-feature
+type: feature/subtrait/censor/1st-level-feature
 ---
 
 ```ds-feature
@@ -23,7 +23,7 @@ name: Blessing of Compassion
 metadata:
   action_type: feature
   class: censor
-  feature_type: trait
+  feature_type: subtrait
   file_basename: Blessing of Compassion
   file_dpath: Censor/1st-Level Features/1st-Level Domain Feature
   item_id: blessing-of-compassion
@@ -31,11 +31,11 @@ metadata:
   item_name: Blessing of Compassion
   level: 1
   scc:
-    - mcdm.heroes.v1:subfeature.trait.censor.1st-level-feature:blessing-of-compassion
+    - mcdm.heroes.v1:feature.subtrait.censor.1st-level-feature:blessing-of-compassion
   scdc:
-    - 1.1.1:12.1.7.8:12
+    - 1.1.1:11.2.7.8:12
   source: mcdm.heroes.v1
-  type: subfeature/trait/censor/1st-level-feature
+  type: feature/subtrait/censor/1st-level-feature
 effects:
   - effect: >-
       You exude a magic presence that can soothe those willing to socially

@@ -1,7 +1,7 @@
 ---
 action_type: feature
 class: fury
-feature_type: trait
+feature_type: subtrait
 file_basename: Ferocity Outside of Combat
 file_dpath: Fury/1st-Level Features/Ferocity
 item_id: ferocity-outside-of-combat
@@ -9,11 +9,11 @@ item_index: '01'
 item_name: Ferocity Outside of Combat
 level: 1
 scc:
-- mcdm.heroes.v1:subfeature.trait.fury.1st-level-feature:ferocity-outside-of-combat
+- mcdm.heroes.v1:feature.subtrait.fury.1st-level-feature:ferocity-outside-of-combat
 scdc:
-- 1.1.1:12.1.5.7:01
+- 1.1.1:11.2.5.7:01
 source: mcdm.heroes.v1
-type: subfeature/trait/fury/1st-level-feature
+type: feature/subtrait/fury/1st-level-feature
 ---
 
 ```ds-feature
@@ -23,7 +23,7 @@ name: Ferocity Outside of Combat
 metadata:
   action_type: feature
   class: fury
-  feature_type: trait
+  feature_type: subtrait
   file_basename: Ferocity Outside of Combat
   file_dpath: Fury/1st-Level Features/Ferocity
   item_id: ferocity-outside-of-combat
@@ -31,11 +31,11 @@ metadata:
   item_name: Ferocity Outside of Combat
   level: 1
   scc:
-    - mcdm.heroes.v1:subfeature.trait.fury.1st-level-feature:ferocity-outside-of-combat
+    - mcdm.heroes.v1:feature.subtrait.fury.1st-level-feature:ferocity-outside-of-combat
   scdc:
-    - 1.1.1:12.1.5.7:01
+    - 1.1.1:11.2.5.7:01
   source: mcdm.heroes.v1
-  type: subfeature/trait/fury/1st-level-feature
+  type: feature/subtrait/fury/1st-level-feature
 effects:
   - effect: >-
       Though you can't gain ferocity outside of combat, you can use your heroic

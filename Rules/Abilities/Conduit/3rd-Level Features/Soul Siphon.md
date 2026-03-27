@@ -21,7 +21,7 @@ level: 3
 scc:
 - mcdm.heroes.v1:feature.ability.conduit.3rd-level-feature:soul-siphon-7-piety
 scdc:
-- 1.1.1:11.2.8.6:01
+- 1.1.1:11.3.8.6:01
 source: mcdm.heroes.v1
 target: One enemy
 type: feature/ability/conduit/3rd-level-feature
@@ -64,7 +64,7 @@ metadata:
   scc:
     - mcdm.heroes.v1:feature.ability.conduit.3rd-level-feature:soul-siphon-7-piety
   scdc:
-    - 1.1.1:11.2.8.6:01
+    - 1.1.1:11.3.8.6:01
   source: mcdm.heroes.v1
   target: One enemy
   type: feature/ability/conduit/3rd-level-feature

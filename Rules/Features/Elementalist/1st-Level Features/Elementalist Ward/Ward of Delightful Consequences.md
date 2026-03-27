@@ -1,7 +1,7 @@
 ---
 action_type: feature
 class: elementalist
-feature_type: trait
+feature_type: subtrait
 file_basename: Ward of Delightful Consequences
 file_dpath: Elementalist/1st-Level Features/Elementalist Ward
 item_id: ward-of-delightful-consequences
@@ -9,11 +9,11 @@ item_index: '04'
 item_name: Ward of Delightful Consequences
 level: 1
 scc:
-- mcdm.heroes.v1:subfeature.trait.elementalist.1st-level-feature:ward-of-delightful-consequences
+- mcdm.heroes.v1:feature.subtrait.elementalist.1st-level-feature:ward-of-delightful-consequences
 scdc:
-- 1.1.1:12.1.9.7:04
+- 1.1.1:11.2.9.7:04
 source: mcdm.heroes.v1
-type: subfeature/trait/elementalist/1st-level-feature
+type: feature/subtrait/elementalist/1st-level-feature
 ---
 
 ```ds-feature
@@ -23,7 +23,7 @@ name: Ward of Delightful Consequences
 metadata:
   action_type: feature
   class: elementalist
-  feature_type: trait
+  feature_type: subtrait
   file_basename: Ward of Delightful Consequences
   file_dpath: Elementalist/1st-Level Features/Elementalist Ward
   item_id: ward-of-delightful-consequences
@@ -31,11 +31,11 @@ metadata:
   item_name: Ward of Delightful Consequences
   level: 1
   scc:
-    - mcdm.heroes.v1:subfeature.trait.elementalist.1st-level-feature:ward-of-delightful-consequences
+    - mcdm.heroes.v1:feature.subtrait.elementalist.1st-level-feature:ward-of-delightful-consequences
   scdc:
-    - 1.1.1:12.1.9.7:04
+    - 1.1.1:11.2.9.7:04
   source: mcdm.heroes.v1
-  type: subfeature/trait/elementalist/1st-level-feature
+  type: feature/subtrait/elementalist/1st-level-feature
 effects:
   - effect: A protective field of void magic absorbs violence aimed at you, then
       lets you hurl it back at your enemies. The first time each round that you

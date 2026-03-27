@@ -1,7 +1,7 @@
 ---
 action_type: feature
 class: elementalist
-feature_type: trait
+feature_type: subtrait
 file_basename: A Beyonding of Vision
 file_dpath: Elementalist/1st-Level Features/1st-Level Specialization Feature
 item_id: a-beyonding-of-vision
@@ -9,11 +9,11 @@ item_index: '07'
 item_name: A Beyonding of Vision
 level: 1
 scc:
-- mcdm.heroes.v1:subfeature.trait.elementalist.1st-level-feature:a-beyonding-of-vision
+- mcdm.heroes.v1:feature.subtrait.elementalist.1st-level-feature:a-beyonding-of-vision
 scdc:
-- 1.1.1:12.1.9.7:07
+- 1.1.1:11.2.9.7:07
 source: mcdm.heroes.v1
-type: subfeature/trait/elementalist/1st-level-feature
+type: feature/subtrait/elementalist/1st-level-feature
 ---
 
 ```ds-feature
@@ -23,7 +23,7 @@ name: A Beyonding of Vision
 metadata:
   action_type: feature
   class: elementalist
-  feature_type: trait
+  feature_type: subtrait
   file_basename: A Beyonding of Vision
   file_dpath: Elementalist/1st-Level Features/1st-Level Specialization Feature
   item_id: a-beyonding-of-vision
@@ -31,11 +31,11 @@ metadata:
   item_name: A Beyonding of Vision
   level: 1
   scc:
-    - mcdm.heroes.v1:subfeature.trait.elementalist.1st-level-feature:a-beyonding-of-vision
+    - mcdm.heroes.v1:feature.subtrait.elementalist.1st-level-feature:a-beyonding-of-vision
   scdc:
-    - 1.1.1:12.1.9.7:07
+    - 1.1.1:11.2.9.7:07
   source: mcdm.heroes.v1
-  type: subfeature/trait/elementalist/1st-level-feature
+  type: feature/subtrait/elementalist/1st-level-feature
 effects:
   - effect: >-
       You instantly recognize illusions for what they are, you can see invisible
