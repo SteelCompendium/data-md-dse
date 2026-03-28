@@ -3,7 +3,7 @@ action_type: feature
 class: censor
 feature_type: trait
 file_basename: Skill
-file_dpath: Censor/4th-Level Features
+file_dpath: Features/Censor/4th-Level Features
 item_id: skill
 item_index: '03'
 item_name: Skill
@@ -25,7 +25,7 @@ metadata:
   class: censor
   feature_type: trait
   file_basename: Skill
-  file_dpath: Censor/4th-Level Features
+  file_dpath: Features/Censor/4th-Level Features
   item_id: skill
   item_index: "03"
   item_name: Skill

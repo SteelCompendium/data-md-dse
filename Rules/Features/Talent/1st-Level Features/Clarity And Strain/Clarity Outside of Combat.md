@@ -3,7 +3,7 @@ action_type: feature
 class: talent
 feature_type: subtrait
 file_basename: Clarity Outside of Combat
-file_dpath: Talent/1st-Level Features/Clarity And Strain
+file_dpath: Features/Talent/1st-Level Features/Clarity And Strain
 item_id: clarity-outside-of-combat
 item_index: 09
 item_name: Clarity Outside of Combat
@@ -25,7 +25,7 @@ metadata:
   class: talent
   feature_type: subtrait
   file_basename: Clarity Outside of Combat
-  file_dpath: Talent/1st-Level Features/Clarity And Strain
+  file_dpath: Features/Talent/1st-Level Features/Clarity And Strain
   item_id: clarity-outside-of-combat
   item_index: 9
   item_name: Clarity Outside of Combat

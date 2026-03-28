@@ -3,7 +3,7 @@ action_type: feature
 class: conduit
 feature_type: trait
 file_basename: Ray of Wrath
-file_dpath: Conduit/1st-Level Features
+file_dpath: Features/Conduit/1st-Level Features
 item_id: ray-of-wrath
 item_index: 08
 item_name: Ray of Wrath
@@ -25,7 +25,7 @@ metadata:
   class: conduit
   feature_type: trait
   file_basename: Ray of Wrath
-  file_dpath: Conduit/1st-Level Features
+  file_dpath: Features/Conduit/1st-Level Features
   item_id: ray-of-wrath
   item_index: 8
   item_name: Ray of Wrath

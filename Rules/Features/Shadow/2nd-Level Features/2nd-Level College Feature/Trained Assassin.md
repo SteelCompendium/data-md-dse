@@ -3,7 +3,7 @@ action_type: feature
 class: shadow
 feature_type: subtrait
 file_basename: Trained Assassin
-file_dpath: Shadow/2nd-Level Features/2nd-Level College Feature
+file_dpath: Features/Shadow/2nd-Level Features/2nd-Level College Feature
 item_id: trained-assassin
 item_index: '06'
 item_name: Trained Assassin
@@ -25,7 +25,7 @@ metadata:
   class: shadow
   feature_type: subtrait
   file_basename: Trained Assassin
-  file_dpath: Shadow/2nd-Level Features/2nd-Level College Feature
+  file_dpath: Features/Shadow/2nd-Level Features/2nd-Level College Feature
   item_id: trained-assassin
   item_index: "06"
   item_name: Trained Assassin

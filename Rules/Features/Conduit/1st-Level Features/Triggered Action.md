@@ -3,7 +3,7 @@ action_type: feature
 class: conduit
 feature_type: trait
 file_basename: Triggered Action
-file_dpath: Conduit/1st-Level Features
+file_dpath: Features/Conduit/1st-Level Features
 item_id: triggered-action
 item_index: '04'
 item_name: Triggered Action
@@ -25,7 +25,7 @@ metadata:
   class: conduit
   feature_type: trait
   file_basename: Triggered Action
-  file_dpath: Conduit/1st-Level Features
+  file_dpath: Features/Conduit/1st-Level Features
   item_id: triggered-action
   item_index: "04"
   item_name: Triggered Action

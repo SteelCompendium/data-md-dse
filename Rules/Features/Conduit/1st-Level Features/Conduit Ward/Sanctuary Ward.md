@@ -3,7 +3,7 @@ action_type: feature
 class: conduit
 feature_type: subtrait
 file_basename: Sanctuary Ward
-file_dpath: Conduit/1st-Level Features/Conduit Ward
+file_dpath: Features/Conduit/1st-Level Features/Conduit Ward
 item_id: sanctuary-ward
 item_index: '19'
 item_name: Sanctuary Ward
@@ -25,7 +25,7 @@ metadata:
   class: conduit
   feature_type: subtrait
   file_basename: Sanctuary Ward
-  file_dpath: Conduit/1st-Level Features/Conduit Ward
+  file_dpath: Features/Conduit/1st-Level Features/Conduit Ward
   item_id: sanctuary-ward
   item_index: "19"
   item_name: Sanctuary Ward

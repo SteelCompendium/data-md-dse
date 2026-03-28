@@ -3,7 +3,7 @@ action_type: feature
 class: shadow
 feature_type: trait
 file_basename: College Triggered Action
-file_dpath: Shadow/1st-Level Features
+file_dpath: Features/Shadow/1st-Level Features
 item_id: college-triggered-action
 item_index: '03'
 item_name: College Triggered Action
@@ -25,7 +25,7 @@ metadata:
   class: shadow
   feature_type: trait
   file_basename: College Triggered Action
-  file_dpath: Shadow/1st-Level Features
+  file_dpath: Features/Shadow/1st-Level Features
   item_id: college-triggered-action
   item_index: "03"
   item_name: College Triggered Action

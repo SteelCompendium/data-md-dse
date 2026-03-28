@@ -3,7 +3,7 @@ action_type: feature
 class: conduit
 feature_type: subtrait
 file_basename: Blessing of Compassion
-file_dpath: Conduit/1st-Level Features/1st-Level Domain Feature
+file_dpath: Features/Conduit/1st-Level Features/1st-Level Domain Feature
 item_id: blessing-of-compassion
 item_index: '12'
 item_name: Blessing of Compassion
@@ -25,7 +25,7 @@ metadata:
   class: conduit
   feature_type: subtrait
   file_basename: Blessing of Compassion
-  file_dpath: Conduit/1st-Level Features/1st-Level Domain Feature
+  file_dpath: Features/Conduit/1st-Level Features/1st-Level Domain Feature
   item_id: blessing-of-compassion
   item_index: "12"
   item_name: Blessing of Compassion

@@ -3,7 +3,8 @@ action_type: feature
 class: troubadour
 feature_type: subtrait
 file_basename: We Cant Be Upstaged
-file_dpath: Troubadour/5th-Level Features/5th-Level Class Act Feature/Duelist Features
+file_dpath: Features/Troubadour/5th-Level Features/5th-Level Class Act Feature/Duelist
+  Features
 item_id: we-cant-be-upstaged
 item_index: 09
 item_name: We Can't Be Upstaged!
@@ -25,7 +26,8 @@ metadata:
   class: troubadour
   feature_type: subtrait
   file_basename: We Cant Be Upstaged
-  file_dpath: Troubadour/5th-Level Features/5th-Level Class Act Feature/Duelist Features
+  file_dpath: Features/Troubadour/5th-Level Features/5th-Level Class Act
+    Feature/Duelist Features
   item_id: we-cant-be-upstaged
   item_index: 9
   item_name: We Can't Be Upstaged!

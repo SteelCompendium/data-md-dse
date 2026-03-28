@@ -3,7 +3,7 @@ action_type: feature
 class: tactician
 feature_type: trait
 file_basename: Field Arsenal
-file_dpath: Tactician/1st-Level Features
+file_dpath: Features/Tactician/1st-Level Features
 item_id: field-arsenal
 item_index: 08
 item_name: Field Arsenal
@@ -25,7 +25,7 @@ metadata:
   class: tactician
   feature_type: trait
   file_basename: Field Arsenal
-  file_dpath: Tactician/1st-Level Features
+  file_dpath: Features/Tactician/1st-Level Features
   item_id: field-arsenal
   item_index: 8
   item_name: Field Arsenal

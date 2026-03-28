@@ -3,7 +3,7 @@ action_type: feature
 class: shadow
 feature_type: trait
 file_basename: Hesitation Is Weakness
-file_dpath: Shadow/1st-Level Features
+file_dpath: Features/Shadow/1st-Level Features
 item_id: hesitation-is-weakness
 item_index: '07'
 item_name: Hesitation Is Weakness
@@ -25,7 +25,7 @@ metadata:
   class: shadow
   feature_type: trait
   file_basename: Hesitation Is Weakness
-  file_dpath: Shadow/1st-Level Features
+  file_dpath: Features/Shadow/1st-Level Features
   item_id: hesitation-is-weakness
   item_index: "07"
   item_name: Hesitation Is Weakness

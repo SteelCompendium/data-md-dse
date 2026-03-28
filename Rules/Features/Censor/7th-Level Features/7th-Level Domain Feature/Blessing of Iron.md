@@ -3,7 +3,7 @@ action_type: feature
 class: censor
 feature_type: subtrait
 file_basename: Blessing of Iron
-file_dpath: Censor/7th-Level Features/7th-Level Domain Feature
+file_dpath: Features/Censor/7th-Level Features/7th-Level Domain Feature
 item_id: blessing-of-iron
 item_index: '01'
 item_name: Blessing of Iron
@@ -25,7 +25,7 @@ metadata:
   class: censor
   feature_type: subtrait
   file_basename: Blessing of Iron
-  file_dpath: Censor/7th-Level Features/7th-Level Domain Feature
+  file_dpath: Features/Censor/7th-Level Features/7th-Level Domain Feature
   item_id: blessing-of-iron
   item_index: "01"
   item_name: Blessing of Iron

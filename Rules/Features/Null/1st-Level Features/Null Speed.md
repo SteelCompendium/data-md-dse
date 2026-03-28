@@ -3,7 +3,7 @@ action_type: feature
 class: 'null'
 feature_type: trait
 file_basename: Null Speed
-file_dpath: Null/1st-Level Features
+file_dpath: Features/Null/1st-Level Features
 item_id: null-speed
 item_index: 09
 item_name: Null Speed
@@ -25,7 +25,7 @@ metadata:
   class: "null"
   feature_type: trait
   file_basename: Null Speed
-  file_dpath: Null/1st-Level Features
+  file_dpath: Features/Null/1st-Level Features
   item_id: null-speed
   item_index: 9
   item_name: Null Speed

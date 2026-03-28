@@ -3,7 +3,7 @@ action_type: feature
 class: shadow
 feature_type: subtrait
 file_basename: Volatile Reagents
-file_dpath: Shadow/5th-Level Features/5th-Level College Feature
+file_dpath: Features/Shadow/5th-Level Features/5th-Level College Feature
 item_id: volatile-reagents
 item_index: '02'
 item_name: Volatile Reagents
@@ -25,7 +25,7 @@ metadata:
   class: shadow
   feature_type: subtrait
   file_basename: Volatile Reagents
-  file_dpath: Shadow/5th-Level Features/5th-Level College Feature
+  file_dpath: Features/Shadow/5th-Level Features/5th-Level College Feature
   item_id: volatile-reagents
   item_index: "02"
   item_name: Volatile Reagents
