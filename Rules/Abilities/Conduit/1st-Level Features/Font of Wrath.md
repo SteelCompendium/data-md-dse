@@ -18,7 +18,7 @@ keywords:
 - Ranged
 level: 1
 scc:
-- mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:font-of-wrath-3-piety
+- mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:font-of-wrath
 scdc:
 - 1.1.1:11.3.8.1:04
 source: mcdm.heroes.v1
@@ -59,7 +59,7 @@ metadata:
     - Ranged
   level: 1
   scc:
-    - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:font-of-wrath-3-piety
+    - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:font-of-wrath
   scdc:
     - 1.1.1:11.3.8.1:04
   source: mcdm.heroes.v1

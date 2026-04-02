@@ -19,7 +19,7 @@ keywords:
 - Strike
 level: 9
 scc:
-- mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:thorn-cage-11-piety
+- mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:thorn-cage
 scdc:
 - 1.1.1:11.3.8.7:11
 source: mcdm.heroes.v1
@@ -63,7 +63,7 @@ metadata:
     - Strike
   level: 9
   scc:
-    - mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:thorn-cage-11-piety
+    - mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:thorn-cage
   scdc:
     - 1.1.1:11.3.8.7:11
   source: mcdm.heroes.v1

@@ -18,7 +18,7 @@ keywords:
 - Magic
 level: 6
 scc:
-- mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:legendary-drum-fill-9-drama
+- mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:legendary-drum-fill
 scdc:
 - 1.1.1:11.3.3.3:04
 source: mcdm.heroes.v1
@@ -59,7 +59,7 @@ metadata:
     - Magic
   level: 6
   scc:
-    - mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:legendary-drum-fill-9-drama
+    - mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:legendary-drum-fill
   scdc:
     - 1.1.1:11.3.3.3:04
   source: mcdm.heroes.v1

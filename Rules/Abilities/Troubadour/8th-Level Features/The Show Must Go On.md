@@ -19,7 +19,7 @@ keywords:
 - Ranged
 level: 8
 scc:
-- mcdm.heroes.v1:feature.ability.troubadour.8th-level-feature:the-show-must-go-on-11-drama
+- mcdm.heroes.v1:feature.ability.troubadour.8th-level-feature:the-show-must-go-on
 scdc:
 - 1.1.1:11.3.3.2:04
 source: mcdm.heroes.v1
@@ -62,7 +62,7 @@ metadata:
     - Ranged
   level: 8
   scc:
-    - mcdm.heroes.v1:feature.ability.troubadour.8th-level-feature:the-show-must-go-on-11-drama
+    - mcdm.heroes.v1:feature.ability.troubadour.8th-level-feature:the-show-must-go-on
   scdc:
     - 1.1.1:11.3.3.2:04
   source: mcdm.heroes.v1

@@ -18,7 +18,7 @@ keywords:
 - Magic
 level: 2
 scc:
-- mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:revelator-5-wrath
+- mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:revelator
 scdc:
 - 1.1.1:11.3.7.5:01
 source: mcdm.heroes.v1
@@ -60,7 +60,7 @@ metadata:
     - Magic
   level: 2
   scc:
-    - mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:revelator-5-wrath
+    - mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:revelator
   scdc:
     - 1.1.1:11.3.7.5:01
   source: mcdm.heroes.v1

@@ -20,7 +20,7 @@ keywords:
 - Weapon
 level: 8
 scc:
-- mcdm.heroes.v1:feature.ability.null.8th-level-feature:phase-hurl-11-discipline
+- mcdm.heroes.v1:feature.ability.null.8th-level-feature:phase-hurl
 scdc:
 - 1.1.1:11.3.6.2:03
 source: mcdm.heroes.v1
@@ -65,7 +65,7 @@ metadata:
     - Weapon
   level: 8
   scc:
-    - mcdm.heroes.v1:feature.ability.null.8th-level-feature:phase-hurl-11-discipline
+    - mcdm.heroes.v1:feature.ability.null.8th-level-feature:phase-hurl
   scdc:
     - 1.1.1:11.3.6.2:03
   source: mcdm.heroes.v1

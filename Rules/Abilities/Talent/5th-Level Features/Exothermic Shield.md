@@ -19,7 +19,7 @@ keywords:
 - Ranged
 level: 5
 scc:
-- mcdm.heroes.v1:feature.ability.talent.5th-level-feature:exothermic-shield-9-clarity
+- mcdm.heroes.v1:feature.ability.talent.5th-level-feature:exothermic-shield
 scdc:
 - 1.1.1:11.3.1.4:02
 source: mcdm.heroes.v1
@@ -62,7 +62,7 @@ metadata:
     - Ranged
   level: 5
   scc:
-    - mcdm.heroes.v1:feature.ability.talent.5th-level-feature:exothermic-shield-9-clarity
+    - mcdm.heroes.v1:feature.ability.talent.5th-level-feature:exothermic-shield
   scdc:
     - 1.1.1:11.3.1.4:02
   source: mcdm.heroes.v1

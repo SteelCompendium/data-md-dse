@@ -19,7 +19,7 @@ keywords:
 - Weapon
 level: 8
 scc:
-- mcdm.heroes.v1:feature.ability.shadow.8th-level-feature:they-always-line-up-11-insight
+- mcdm.heroes.v1:feature.ability.shadow.8th-level-feature:they-always-line-up
 scdc:
 - 1.1.1:11.3.2.2:02
 source: mcdm.heroes.v1
@@ -62,7 +62,7 @@ metadata:
     - Weapon
   level: 8
   scc:
-    - mcdm.heroes.v1:feature.ability.shadow.8th-level-feature:they-always-line-up-11-insight
+    - mcdm.heroes.v1:feature.ability.shadow.8th-level-feature:they-always-line-up
   scdc:
     - 1.1.1:11.3.2.2:02
   source: mcdm.heroes.v1

@@ -19,7 +19,7 @@ keywords:
 - Strike
 level: 6
 scc:
-- mcdm.heroes.v1:feature.ability.censor.6th-level-feature:burden-of-evil-9-wrath
+- mcdm.heroes.v1:feature.ability.censor.6th-level-feature:burden-of-evil
 scdc:
 - 1.1.1:11.3.7.3:06
 source: mcdm.heroes.v1
@@ -63,7 +63,7 @@ metadata:
     - Strike
   level: 6
   scc:
-    - mcdm.heroes.v1:feature.ability.censor.6th-level-feature:burden-of-evil-9-wrath
+    - mcdm.heroes.v1:feature.ability.censor.6th-level-feature:burden-of-evil
   scdc:
     - 1.1.1:11.3.7.3:06
   source: mcdm.heroes.v1

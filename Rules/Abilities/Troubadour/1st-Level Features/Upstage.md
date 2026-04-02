@@ -19,7 +19,7 @@ keywords:
 - Weapon
 level: 1
 scc:
-- mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:upstage-3-drama
+- mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:upstage
 scdc:
 - 1.1.1:11.3.3.1:04
 source: mcdm.heroes.v1
@@ -62,7 +62,7 @@ metadata:
     - Weapon
   level: 1
   scc:
-    - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:upstage-3-drama
+    - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:upstage
   scdc:
     - 1.1.1:11.3.3.1:04
   source: mcdm.heroes.v1

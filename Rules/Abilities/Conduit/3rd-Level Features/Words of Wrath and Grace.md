@@ -18,7 +18,7 @@ keywords:
 - Magic
 level: 3
 scc:
-- mcdm.heroes.v1:feature.ability.conduit.3rd-level-feature:words-of-wrath-and-grace-7-piety
+- mcdm.heroes.v1:feature.ability.conduit.3rd-level-feature:words-of-wrath-and-grace
 scdc:
 - 1.1.1:11.3.8.6:02
 source: mcdm.heroes.v1
@@ -59,7 +59,7 @@ metadata:
     - Magic
   level: 3
   scc:
-    - mcdm.heroes.v1:feature.ability.conduit.3rd-level-feature:words-of-wrath-and-grace-7-piety
+    - mcdm.heroes.v1:feature.ability.conduit.3rd-level-feature:words-of-wrath-and-grace
   scdc:
     - 1.1.1:11.3.8.6:02
   source: mcdm.heroes.v1

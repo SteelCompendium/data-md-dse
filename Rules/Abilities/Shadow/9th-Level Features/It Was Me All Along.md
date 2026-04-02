@@ -19,7 +19,7 @@ keywords:
 - Weapon
 level: 9
 scc:
-- mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:it-was-me-all-along-11-insight
+- mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:it-was-me-all-along
 scdc:
 - 1.1.1:11.3.2.7:03
 source: mcdm.heroes.v1
@@ -63,7 +63,7 @@ metadata:
     - Weapon
   level: 9
   scc:
-    - mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:it-was-me-all-along-11-insight
+    - mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:it-was-me-all-along
   scdc:
     - 1.1.1:11.3.2.7:03
   source: mcdm.heroes.v1

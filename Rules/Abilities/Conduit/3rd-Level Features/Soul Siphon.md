@@ -19,7 +19,7 @@ keywords:
 - Strike
 level: 3
 scc:
-- mcdm.heroes.v1:feature.ability.conduit.3rd-level-feature:soul-siphon-7-piety
+- mcdm.heroes.v1:feature.ability.conduit.3rd-level-feature:soul-siphon
 scdc:
 - 1.1.1:11.3.8.6:01
 source: mcdm.heroes.v1
@@ -62,7 +62,7 @@ metadata:
     - Strike
   level: 3
   scc:
-    - mcdm.heroes.v1:feature.ability.conduit.3rd-level-feature:soul-siphon-7-piety
+    - mcdm.heroes.v1:feature.ability.conduit.3rd-level-feature:soul-siphon
   scdc:
     - 1.1.1:11.3.8.6:01
   source: mcdm.heroes.v1

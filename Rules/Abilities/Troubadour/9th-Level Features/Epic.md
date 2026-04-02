@@ -19,7 +19,7 @@ keywords:
 - Ranged
 level: 9
 scc:
-- mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:epic-11-drama
+- mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:epic
 scdc:
 - 1.1.1:11.3.3.7:05
 source: mcdm.heroes.v1
@@ -63,7 +63,7 @@ metadata:
     - Ranged
   level: 9
   scc:
-    - mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:epic-11-drama
+    - mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:epic
   scdc:
     - 1.1.1:11.3.3.7:05
   source: mcdm.heroes.v1

@@ -17,7 +17,7 @@ keywords:
 - Psionic
 level: 8
 scc:
-- mcdm.heroes.v1:feature.ability.null.8th-level-feature:synaptic-anchor-11-discipline
+- mcdm.heroes.v1:feature.ability.null.8th-level-feature:synaptic-anchor
 scdc:
 - 1.1.1:11.3.6.2:01
 source: mcdm.heroes.v1
@@ -58,7 +58,7 @@ metadata:
     - Psionic
   level: 8
   scc:
-    - mcdm.heroes.v1:feature.ability.null.8th-level-feature:synaptic-anchor-11-discipline
+    - mcdm.heroes.v1:feature.ability.null.8th-level-feature:synaptic-anchor
   scdc:
     - 1.1.1:11.3.6.2:01
   source: mcdm.heroes.v1
