@@ -8,6 +8,6 @@ type: index
 | File Name                            |
 | ------------------------------------ |
 | [Dynamic Terrain](Dynamic%20Terrain) |
-| [Monster Basics](Monster%20Basics)   |
 | [Monsters](Monsters)                 |
+| [Monster Basics](Monster%20Basics)   |
 | [Retainers](Retainers)               |

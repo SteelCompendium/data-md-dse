@@ -7,32 +7,32 @@ type: index
 
 | File Name                                                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------ |
-| [Level 10 Role Advancement Ability](Role%20Advancement%20Abilities/Ambusher%20abilities/Level%2010%20Role%20Advancement%20Ability)   |
 | [Level 4 Role Advancement Ability](Role%20Advancement%20Abilities/Ambusher%20abilities/Level%204%20Role%20Advancement%20Ability)     |
 | [Level 7 Role Advancement Ability](Role%20Advancement%20Abilities/Ambusher%20abilities/Level%207%20Role%20Advancement%20Ability)     |
-| [Level 10 Role Advancement Ability](Role%20Advancement%20Abilities/Artillery%20abilities/Level%2010%20Role%20Advancement%20Ability)  |
+| [Level 10 Role Advancement Ability](Role%20Advancement%20Abilities/Ambusher%20abilities/Level%2010%20Role%20Advancement%20Ability)   |
 | [Level 4 Role Advancement Ability](Role%20Advancement%20Abilities/Artillery%20abilities/Level%204%20Role%20Advancement%20Ability)    |
 | [Level 7 Role Advancement Ability](Role%20Advancement%20Abilities/Artillery%20abilities/Level%207%20Role%20Advancement%20Ability)    |
-| [Level 10 Role Advancement Ability](Role%20Advancement%20Abilities/Brute%20abilities/Level%2010%20Role%20Advancement%20Ability)      |
+| [Level 10 Role Advancement Ability](Role%20Advancement%20Abilities/Artillery%20abilities/Level%2010%20Role%20Advancement%20Ability)  |
 | [Level 4 Role Advancement Ability](Role%20Advancement%20Abilities/Brute%20abilities/Level%204%20Role%20Advancement%20Ability)        |
 | [Level 7 Role Advancement Ability](Role%20Advancement%20Abilities/Brute%20abilities/Level%207%20Role%20Advancement%20Ability)        |
-| [Level 10 Role Advancement Ability](Role%20Advancement%20Abilities/Controller%20abilities/Level%2010%20Role%20Advancement%20Ability) |
+| [Level 10 Role Advancement Ability](Role%20Advancement%20Abilities/Brute%20abilities/Level%2010%20Role%20Advancement%20Ability)      |
 | [Level 4 Role Advancement Ability](Role%20Advancement%20Abilities/Controller%20abilities/Level%204%20Role%20Advancement%20Ability)   |
 | [Level 7 Role Advancement Ability](Role%20Advancement%20Abilities/Controller%20abilities/Level%207%20Role%20Advancement%20Ability)   |
-| [Level 10 Role Advancement Ability](Role%20Advancement%20Abilities/Defender%20abilities/Level%2010%20Role%20Advancement%20Ability)   |
+| [Level 10 Role Advancement Ability](Role%20Advancement%20Abilities/Controller%20abilities/Level%2010%20Role%20Advancement%20Ability) |
 | [Level 4 Role Advancement Ability](Role%20Advancement%20Abilities/Defender%20abilities/Level%204%20Role%20Advancement%20Ability)     |
 | [Level 7 Role Advancement Ability](Role%20Advancement%20Abilities/Defender%20abilities/Level%207%20Role%20Advancement%20Ability)     |
-| [Level 10 Role Advancement Ability](Role%20Advancement%20Abilities/Harrier%20abilities/Level%2010%20Role%20Advancement%20Ability)    |
+| [Level 10 Role Advancement Ability](Role%20Advancement%20Abilities/Defender%20abilities/Level%2010%20Role%20Advancement%20Ability)   |
 | [Level 4 Role Advancement Ability](Role%20Advancement%20Abilities/Harrier%20abilities/Level%204%20Role%20Advancement%20Ability)      |
 | [Level 7 Role Advancement Ability](Role%20Advancement%20Abilities/Harrier%20abilities/Level%207%20Role%20Advancement%20Ability)      |
-| [Level 10 Role Advancement Ability](Role%20Advancement%20Abilities/Hexer%20abilities/Level%2010%20Role%20Advancement%20Ability)      |
+| [Level 10 Role Advancement Ability](Role%20Advancement%20Abilities/Harrier%20abilities/Level%2010%20Role%20Advancement%20Ability)    |
 | [Level 4 Role Advancement Ability](Role%20Advancement%20Abilities/Hexer%20abilities/Level%204%20Role%20Advancement%20Ability)        |
-| [Level 10 Role Advancement Ability](Role%20Advancement%20Abilities/Mount%20abilities/Level%2010%20Role%20Advancement%20Ability)      |
+| [Level 10 Role Advancement Ability](Role%20Advancement%20Abilities/Hexer%20abilities/Level%2010%20Role%20Advancement%20Ability)      |
 | [Level 4 Role Advancement Ability](Role%20Advancement%20Abilities/Mount%20abilities/Level%204%20Role%20Advancement%20Ability)        |
 | [Level 7 Role Advancement Ability](Role%20Advancement%20Abilities/Mount%20abilities/Level%207%20Role%20Advancement%20Ability)        |
-| [Level 10 Role Advancement Ability](Role%20Advancement%20Abilities/Support%20abilities/Level%2010%20Role%20Advancement%20Ability)    |
+| [Level 10 Role Advancement Ability](Role%20Advancement%20Abilities/Mount%20abilities/Level%2010%20Role%20Advancement%20Ability)      |
 | [Level 4 Role Advancement Ability](Role%20Advancement%20Abilities/Support%20abilities/Level%204%20Role%20Advancement%20Ability)      |
 | [Level 7 Role Advancement Ability](Role%20Advancement%20Abilities/Support%20abilities/Level%207%20Role%20Advancement%20Ability)      |
+| [Level 10 Role Advancement Ability](Role%20Advancement%20Abilities/Support%20abilities/Level%2010%20Role%20Advancement%20Ability)    |
 | [Angulotl Hopper](Statblocks/Angulotl%20Hopper)                                                                                      |
 | [Bugbear Commando](Statblocks/Bugbear%20Commando)                                                                                    |
 | [Devil Defector](Statblocks/Devil%20Defector)                                                                                        |
